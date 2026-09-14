@@ -11,29 +11,18 @@ import {
 
 import { updateEnglishOnlyMode, updateInterfaceLanguage } from "@/lib/account.functions";
 import { useAuth } from "@/lib/auth";
-import { getAllTranslationOverrides } from "@/lib/i18n.functions";
+import { getTranslationsForLocale, getUiLanguages } from "@/lib/i18n.functions";
 import { en, type Dictionary, type TranslationKey } from "@/locales/en";
 import { LOCALE_DICTIONARIES } from "@/locales/index";
 
 /* ---------------------------------------------------------------- languages */
 
-export type LocaleCode =
-  | "en"
-  | "vi"
-  | "es"
-  | "pt"
-  | "fr"
-  | "de"
-  | "it"
-  | "ja"
-  | "ko"
-  | "zh-CN"
-  | "zh-TW"
-  | "hi"
-  | "id"
-  | "tr"
-  | "ru"
-  | "ar";
+/** Not a closed union any more — languages beyond the 16 below are pure
+ * data (ui_languages rows), added without touching source code (Yêu cầu 8),
+ * so the set of valid codes isn't knowable at compile time. Runtime code
+ * that needs to validate a code checks it against the live `languages`
+ * list instead of relying on the type system for that. */
+export type LocaleCode = string;
 
 export type LanguageMeta = {
   code: LocaleCode;
@@ -89,19 +78,39 @@ export function matchBrowserLocale(tags: readonly string[]): LocaleCode | null {
   return null;
 }
 
+/** CLDR plural category ("one", "few", "many", "other", ...) for `count` in
+ * `intlTag`'s language, via the built-in Intl.PluralRules — this is what
+ * lets `t()` pick a grammatically correct string for languages with real
+ * plural morphology (Arabic's 6 categories, Russian's few/many, English's
+ * one/other, ...) instead of only ever interpolating a bare number into a
+ * singular-shaped sentence. Falls back to "other" if the tag is malformed. */
+function pluralCategory(intlTag: string, count: number): Intl.LDMLPluralRule {
+  try {
+    return new Intl.PluralRules(intlTag).select(count);
+  } catch {
+    return "other";
+  }
+}
+
 /* -------------------------------------------------------------------- store */
 
 const LANG_KEY = "lily.locale";
 const MODE_KEY = "lily.englishOnly";
-
-type Overrides = Partial<Record<LocaleCode, Dictionary>>;
 
 type I18nValue = {
   locale: LocaleCode;
   language: LanguageMeta;
   dir: "ltr" | "rtl";
   setLocale: (code: LocaleCode) => void;
-  /** Translate a key, with optional {{placeholders}}. Falls back to English. */
+  /** Every enabled language — the static 16 plus any registered purely as
+   * data (ui_languages rows), merged. Language pickers read this instead of
+   * the static `LANGUAGES` export directly, so a language added without a
+   * code change actually shows up. */
+  languages: LanguageMeta[];
+  /** Translate a key, with optional {{placeholders}}. Falls back to English.
+   * When `vars.count` is a number, first tries a plural-specific variant of
+   * the key (`${key}_${category}`, category from Intl.PluralRules for the
+   * active language) before the plain key — see `pluralise()` below. */
   t: (key: TranslationKey, vars?: Record<string, string | number>) => string;
   /** Native name of the current interface language, for prompts and labels. */
   languageName: string;
@@ -124,23 +133,57 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const { user, profile } = useAuth();
   const updateInterfaceLanguageFn = useServerFn(updateInterfaceLanguage);
   const updateEnglishOnlyModeFn = useServerFn(updateEnglishOnlyMode);
-  const fetchAllOverrides = useServerFn(getAllTranslationOverrides);
+  const fetchUiLanguages = useServerFn(getUiLanguages);
+  const fetchTranslationsForLocale = useServerFn(getTranslationsForLocale);
   const [locale, setLocaleState] = useState<LocaleCode>(DEFAULT_LOCALE);
+  const [languages, setLanguages] = useState<LanguageMeta[]>(LANGUAGES);
   const [englishOnly, setEnglishOnlyState] = useState(false);
-  const [overrides, setOverrides] = useState<Overrides>({});
+  const [localeTranslations, setLocaleTranslations] = useState<Dictionary>({});
   const [ready, setReady] = useState(false);
+
+  // Languages registered purely as data (ui_languages), merged on top of the
+  // static 16 — a code collision lets an admin override the built-in
+  // metadata too, though that's not required for a *new* language. Starts
+  // as just the static 16 (synchronously correct for the common case) and
+  // is replaced once this resolves, which is also what lets the
+  // locale-resolution effect below recognise a data-only language chosen in
+  // an earlier session.
+  useEffect(() => {
+    let cancelled = false;
+    void fetchUiLanguages().then((rows) => {
+      if (cancelled || rows.length === 0) return;
+      const byCode = new Map(LANGUAGES.map((l) => [l.code, l]));
+      for (const row of rows) {
+        byCode.set(row.code, {
+          code: row.code,
+          native: row.native_name,
+          english: row.english_name,
+          flag: row.flag,
+          dir: row.direction === "rtl" ? "rtl" : "ltr",
+          intl: row.intl_tag,
+        });
+      }
+      setLanguages([...byCode.values()]);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [fetchUiLanguages]);
 
   // ?lang= (how the hreflang alternate links on / point at each locale) wins over
   // everything else, then stored preference, then browser detection, then English.
+  // Re-runs when `languages` grows (DB fetch above resolves) so a data-only
+  // language in the URL/stored preference is recognised once it's known,
+  // not just the static 16 available on first render.
   useEffect(() => {
     const fromUrl = new URLSearchParams(window.location.search).get("lang");
-    if (fromUrl && LANGUAGES.some((l) => l.code === fromUrl)) {
-      setLocaleState(fromUrl as LocaleCode);
+    if (fromUrl && languages.some((l) => l.code === fromUrl)) {
+      setLocaleState(fromUrl);
       window.localStorage.setItem(LANG_KEY, fromUrl);
     } else {
       const stored = window.localStorage.getItem(LANG_KEY);
-      if (stored && LANGUAGES.some((l) => l.code === stored)) {
-        setLocaleState(stored as LocaleCode);
+      if (stored && languages.some((l) => l.code === stored)) {
+        setLocaleState(stored);
       } else {
         const detected = matchBrowserLocale(navigator.languages ?? [navigator.language]);
         if (detected) setLocaleState(detected);
@@ -148,38 +191,40 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     }
     setEnglishOnlyState(window.localStorage.getItem(MODE_KEY) === "true");
     setReady(true);
-  }, []);
+  }, [languages]);
 
   // Signed-in learners: their profile is the source of truth. Reacts to
   // `profile` from AuthProvider (now our parent — see __root.tsx) instead of
   // subscribing to Supabase's own auth-state stream, which no longer exists.
   useEffect(() => {
     if (!user || !profile) return;
-    if (profile.interface_language && LANGUAGES.some((l) => l.code === profile.interface_language)) {
-      setLocaleState(profile.interface_language as LocaleCode);
+    if (profile.interface_language && languages.some((l) => l.code === profile.interface_language)) {
+      setLocaleState(profile.interface_language);
       window.localStorage.setItem(LANG_KEY, profile.interface_language);
     }
     setEnglishOnlyState(Boolean(profile.english_only_mode));
-  }, [user, profile]);
+  }, [user, profile, languages]);
 
-  // Admin-edited strings, applied on top of the bundled dictionaries.
+  // This locale's translations — admin-edited overrides AND, for a
+  // data-only language, its whole dictionary (see getTranslationsForLocale).
+  // Refetches per active locale instead of once for every locale ever
+  // (the old getAllTranslationOverrides behaviour), which is both the fix
+  // for admin edits on OTHER locales not needing a refetch here and the
+  // actual fix for "page load must not slow down as languages are added".
   useEffect(() => {
     let cancelled = false;
-    void fetchAllOverrides().then((rows) => {
+    void fetchTranslationsForLocale({ data: { locale } }).then((rows) => {
       if (cancelled) return;
-      const next: Overrides = {};
-      for (const row of rows) {
-        const code = row.locale as LocaleCode;
-        next[code] = { ...(next[code] ?? {}), [row.translation_key as TranslationKey]: row.value };
-      }
-      setOverrides(next);
+      const dict: Dictionary = {};
+      for (const row of rows) dict[row.translation_key as TranslationKey] = row.value;
+      setLocaleTranslations(dict);
     });
     return () => {
       cancelled = true;
     };
-  }, [fetchAllOverrides]);
+  }, [locale, fetchTranslationsForLocale]);
 
-  const language = findLanguage(locale);
+  const language = languages.find((l) => l.code === locale) ?? findLanguage(locale);
 
   // Keep <html lang> and text direction in sync — required for RTL locales.
   useEffect(() => {
@@ -208,13 +253,24 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   const t = useCallback<I18nValue["t"]>(
     (key, vars) => {
       const dict = LOCALE_DICTIONARIES[locale];
-      const raw = overrides[locale]?.[key] ?? dict?.[key] ?? en[key] ?? String(key);
+      const lookup = (k: string) => localeTranslations[k as TranslationKey] ?? dict?.[k as TranslationKey] ?? en[k as TranslationKey];
+      let raw: string | undefined;
+      if (typeof vars?.["count"] === "number") {
+        // Plural-aware lookup: try the CLDR category for this language first
+        // (e.g. "vocab.wordsLearned_one" / "_other"), then a generic
+        // "_other" variant, before falling back to the plain key. Entirely
+        // additive: a key with no pluralised variants behaves exactly as
+        // before.
+        const category = pluralCategory(language.intl, vars["count"]);
+        raw = lookup(`${key}_${category}`) ?? lookup(`${key}_other`);
+      }
+      raw = raw ?? lookup(key) ?? String(key);
       if (!vars) return raw;
       return raw.replace(/\{\{(\w+)\}\}/g, (_m, name: string) =>
         vars[name] === undefined ? "" : String(vars[name]),
       );
     },
-    [locale, overrides],
+    [locale, localeTranslations, language.intl],
   );
 
   const value = useMemo<I18nValue>(() => {
@@ -222,6 +278,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
     return {
       locale,
       language,
+      languages,
       dir: language.dir,
       setLocale,
       t,
@@ -243,7 +300,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
         ),
       ready,
     };
-  }, [locale, language, setLocale, t, englishOnly, setEnglishOnly, ready]);
+  }, [locale, language, languages, setLocale, t, englishOnly, setEnglishOnly, ready]);
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
 }

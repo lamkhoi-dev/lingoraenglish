@@ -41,7 +41,7 @@ const VOICES = ["shimmer", "alloy", "nova", "verse"];
 const MINUTES = [5, 10, 15, 20, 30, 45, 60];
 
 function AccountPage() {
-  const { t, locale, setLocale, englishOnly, setEnglishOnly } = useI18n();
+  const { t, locale, setLocale, languages, englishOnly, setEnglishOnly } = useI18n();
   const { user, profile, refreshProfile, signOut } = useAuth();
   const navigate = useNavigate();
 
@@ -158,7 +158,7 @@ function AccountPage() {
                 onChange={(e) => setLocale(e.target.value as LocaleCode)}
                 className={fieldClass}
               >
-                {LANGUAGES.map((l) => (
+                {languages.map((l) => (
                   <option key={l.code} value={l.code}>
                     {l.flag} {l.native}
                   </option>

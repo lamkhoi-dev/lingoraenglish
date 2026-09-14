@@ -82,7 +82,7 @@ function OptionButton({
 }
 
 function OnboardingPage() {
-  const { t, locale, setLocale, language } = useI18n();
+  const { t, locale, setLocale, language, languages } = useI18n();
   const { user, refreshProfile } = useAuth();
   const navigate = useNavigate();
   const completeOnboardingFn = useServerFn(completeOnboarding);
@@ -151,8 +151,8 @@ function OnboardingPage() {
                 {t("onboarding.q.language")}
               </h2>
               <p className="mt-2 text-xs text-muted-foreground">{t("lang.note")}</p>
-              <div className="mt-5 grid gap-2 sm:grid-cols-2">
-                {LANGUAGES.map((l) => (
+              <div className="mt-5 grid max-h-[28rem] gap-2 overflow-y-auto pe-1 sm:grid-cols-2">
+                {languages.map((l) => (
                   <OptionButton
                     key={l.code}
                     selected={l.code === locale}

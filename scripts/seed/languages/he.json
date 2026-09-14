@@ -1,0 +1,10 @@
+{
+  "nativeName": "עברית",
+  "englishName": "Hebrew",
+  "flag": "🇮🇱",
+  "direction": "rtl",
+  "intlTag": "he-IL",
+  "translations": {
+    "__PLACEHOLDER__": "x"
+  }
+}

@@ -279,16 +279,19 @@ export const vocabularyWords = pgTable("vocabulary_words", {
 	level: cefrLevel().default('B1').notNull(),
 	exampleSentence: text("example_sentence").default('').notNull(),
 	exampleVi: text("example_vi").default('').notNull(),
+	usageContext: text("usage_context").default('').notNull(),
 	synonyms: text().array().default([""]).notNull(),
 	antonyms: text().array().default([""]).notNull(),
 	status: text().default('published').notNull(),
 	createdAt: timestamp("created_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
 	updatedAt: timestamp("updated_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
 	accessTier: text("access_tier").default('free').notNull(),
+	sortOrder: integer("sort_order").default(0).notNull(),
 }, (table) => [
 	pgPolicy("read entitled vocabulary_words", { as: "permissive", for: "select", to: ["anon", "authenticated"], using: sql`(((status = 'published'::text) AND can_access_tier(access_tier)) OR has_role(auth.uid(), 'admin'::app_role))` }),
 	pgPolicy("admin write vocabulary_words", { as: "permissive", for: "all", to: ["authenticated"] }),
 	check("vocabulary_words_access_tier_check", sql`access_tier = ANY (ARRAY['free'::text, 'premium'::text, 'ielts_pro'::text])`),
+	unique("vocabulary_words_category_sort_order_key").on(table.category, table.sortOrder),
 ]);
 
 export const grammarLessons = pgTable("grammar_lessons", {

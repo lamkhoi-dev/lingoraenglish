@@ -17,9 +17,11 @@ import {
   profiles,
   speakingQuestions,
   ttsCache,
+  uiLanguages,
   uiTranslations,
   vocabularyWords,
 } from "@/db/schema/schema";
+import { bustLanguagesCache, bustLocaleCache } from "@/lib/i18n.functions";
 import { requireAdmin } from "@/lib/require-auth";
 
 /* -------------------------------- overview ----------------------------- */
@@ -205,5 +207,87 @@ export const saveTranslationOverride = createServerFn({ method: "POST" })
           set: { value: data.value },
         }),
     );
+    bustLocaleCache(data.locale);
+    return { ok: true };
+  });
+
+const bulkImportSchema = z.object({
+  locale: z.string().max(8),
+  entries: z.record(z.string().max(200), z.string().max(5000)).refine((e) => Object.keys(e).length > 0 && Object.keys(e).length <= 2000),
+});
+
+/** Bulk touch-up path for an admin pasting/editing many keys of one locale
+ * at once — the primary bulk path for a brand new language is still
+ * scripts/load-languages.py (matches every other content type in this
+ * codebase: seed JSON + a loader script, not a big admin upload widget). */
+export const adminBulkImportTranslations = createServerFn({ method: "POST" })
+  .middleware([requireAdmin])
+  .inputValidator((d: unknown) => bulkImportSchema.parse(d))
+  .handler(async ({ data }) => {
+    const rows = Object.entries(data.entries).map(([key, value]) => ({
+      locale: data.locale,
+      translationKey: key,
+      value,
+    }));
+    await withAdmin((db) =>
+      db
+        .insert(uiTranslations)
+        .values(rows)
+        .onConflictDoUpdate({
+          target: [uiTranslations.locale, uiTranslations.translationKey],
+          set: { value: sql`excluded.value` },
+        }),
+    );
+    bustLocaleCache(data.locale);
+    return { ok: true, count: rows.length };
+  });
+
+/* -------------------------------------------------------------- languages */
+
+const createLanguageSchema = z.object({
+  code: z
+    .string()
+    .min(2)
+    .max(8)
+    .regex(/^[a-zA-Z-]+$/, "Use a BCP-47-style code, e.g. th or zh-CN"),
+  nativeName: z.string().min(1).max(100),
+  englishName: z.string().min(1).max(100),
+  flag: z.string().max(8).default(""),
+  direction: z.enum(["ltr", "rtl"]).default("ltr"),
+  intlTag: z.string().min(2).max(20),
+});
+
+/** Registers one new interface language as a pure data row — this, plus the
+ * ui_translations rows for its dictionary (loaded via scripts/load-languages.py
+ * or filled in by hand afterwards from the translations tab), is the entire
+ * mechanism Yêu cầu 8 requires for "add a language without touching source
+ * code or redeploying". */
+export const adminCreateLanguage = createServerFn({ method: "POST" })
+  .middleware([requireAdmin])
+  .inputValidator((d: unknown) => createLanguageSchema.parse(d))
+  .handler(async ({ data }) => {
+    await withAdmin((db) =>
+      db
+        .insert(uiLanguages)
+        .values({
+          code: data.code,
+          nativeName: data.nativeName,
+          englishName: data.englishName,
+          flag: data.flag,
+          direction: data.direction,
+          intlTag: data.intlTag,
+        })
+        .onConflictDoUpdate({
+          target: [uiLanguages.code],
+          set: {
+            nativeName: data.nativeName,
+            englishName: data.englishName,
+            flag: data.flag,
+            direction: data.direction,
+            intlTag: data.intlTag,
+          },
+        }),
+    );
+    bustLanguagesCache();
     return { ok: true };
   });

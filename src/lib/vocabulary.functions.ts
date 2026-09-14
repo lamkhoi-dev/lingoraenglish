@@ -1,5 +1,5 @@
 import { createServerFn } from "@tanstack/react-start";
-import { and, asc, eq, inArray } from "drizzle-orm";
+import { and, asc, eq, inArray, sql } from "drizzle-orm";
 import { z } from "zod";
 
 import { withAnon, withUser } from "@/db";
@@ -13,8 +13,9 @@ const listSchema = z.object({ category: z.string().max(60).optional() });
  * `can_access_tier(access_tier)` RLS policy once auth.uid() resolves, so
  * this must run through withUser() when a session exists, not always withAnon().
  * `access_tier` is set per word to match "first 10 words of each category are
- * free" (Yêu cầu 7) — ordering here by createdAt must match the load order
- * that access_tier was computed from, or "first 10" stops meaning anything. */
+ * free" (Yêu cầu 7), computed by the loader from `sort_order` — ordered here
+ * by `sort_order` (easy → hard) so both "first 10 free" and the on-screen
+ * ordering come from the same source of truth instead of insert order. */
 export const getVocabularyWords = createServerFn({ method: "GET" })
   .inputValidator((d: unknown) => listSchema.parse(d))
   .handler(async ({ data }) => {
@@ -31,8 +32,10 @@ export const getVocabularyWords = createServerFn({ method: "GET" })
           level: vocabularyWords.level,
           exampleSentence: vocabularyWords.exampleSentence,
           exampleVi: vocabularyWords.exampleVi,
+          usageContext: vocabularyWords.usageContext,
           synonyms: vocabularyWords.synonyms,
           antonyms: vocabularyWords.antonyms,
+          sortOrder: vocabularyWords.sortOrder,
         })
         .from(vocabularyWords)
         .where(
@@ -41,8 +44,8 @@ export const getVocabularyWords = createServerFn({ method: "GET" })
             data.category ? eq(vocabularyWords.category, data.category) : undefined,
           ),
         )
-        .orderBy(asc(vocabularyWords.createdAt))
-        .limit(120);
+        .orderBy(asc(vocabularyWords.sortOrder), asc(vocabularyWords.createdAt))
+        .limit(data.category ? 120 : 200);
     return userId ? withUser(userId, query) : withAnon(query);
   });
 
@@ -95,10 +98,31 @@ export const toggleVocabularyWordKnown = createServerFn({ method: "POST" })
         .values({ userId, wordId: data.wordId, mastered: data.mastered, timesPracticed: 1 })
         .onConflictDoUpdate({
           target: [vocabularyProgress.userId, vocabularyProgress.wordId],
-          // Matches the original supabase upsert exactly — timesPracticed is
-          // set to 1 on every toggle, not incremented (a pre-existing quirk,
-          // not something introduced by this migration).
-          set: { mastered: data.mastered, timesPracticed: 1 },
+          set: { mastered: data.mastered, timesPracticed: sql`${vocabularyProgress.timesPracticed} + 1` },
+        }),
+    );
+    return { ok: true };
+  });
+
+const recordPracticeSchema = z.object({ wordId: z.string().uuid() });
+
+/** Called after a completed "Use it in Speaking" attempt (vocab-speak.tsx) —
+ * this is the only thing that makes that flow count as vocabulary progress
+ * instead of only ever landing in speaking_attempts. Never touches
+ * `mastered`: speaking practice increases the practice count, it doesn't by
+ * itself mark a word "known" (that stays the learner's own checkbox call). */
+export const recordVocabularyPractice = createServerFn({ method: "POST" })
+  .middleware([requireAuth])
+  .inputValidator((d: unknown) => recordPracticeSchema.parse(d))
+  .handler(async ({ data, context }) => {
+    const userId = context.userId;
+    await withUser(userId, (db) =>
+      db
+        .insert(vocabularyProgress)
+        .values({ userId, wordId: data.wordId, timesPracticed: 1 })
+        .onConflictDoUpdate({
+          target: [vocabularyProgress.userId, vocabularyProgress.wordId],
+          set: { timesPracticed: sql`${vocabularyProgress.timesPracticed} + 1` },
         }),
     );
     return { ok: true };

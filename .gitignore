@@ -52,3 +52,6 @@ Desktop.ini
 *.sqlite
 *.sqlite3
 db.sqlite
+
+# Scratch files
+scratch_keys.json

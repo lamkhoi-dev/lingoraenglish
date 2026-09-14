@@ -12,18 +12,24 @@ import { useAuth } from "@/lib/auth";
 import { saveSpeakingAttempt } from "@/lib/attempts.functions";
 import { useI18n } from "@/lib/i18n";
 import { analyseSpeaking, transcribeAudio, type SpeakingAnalysis } from "@/lib/lily.functions";
+import { recordVocabularyPractice } from "@/lib/vocabulary.functions";
 
 /**
  * "USE IT": the learner speaks a sentence with the target word and the coach
- * checks whether the word was actually used correctly.
+ * checks whether the word was actually used correctly. `wordId` links a
+ * completed attempt back to vocabulary_progress (Yêu cầu 7's "luyện nói với
+ * từ vựng làm tăng tiến độ học từ tương ứng") — without it, a completed
+ * attempt only ever landed in speaking_attempts and the word's own progress
+ * never moved.
  */
-export function VocabSpeakPractice({ word, prompt }: { word: string; prompt: string }) {
+export function VocabSpeakPractice({ wordId, word, prompt }: { wordId: string; word: string; prompt: string }) {
   const { locale, englishOnly } = useI18n();
   const lang = englishOnly ? "en" : locale;
   const { user, profile } = useAuth();
   const transcribe = useServerFn(transcribeAudio);
   const analyse = useServerFn(analyseSpeaking);
   const saveAttempt = useServerFn(saveSpeakingAttempt);
+  const recordPractice = useServerFn(recordVocabularyPractice);
   const { paywall, handleError, clearPaywall } = usePaywall("speaking");
 
   const [busy, setBusy] = useState(false);
@@ -47,21 +53,24 @@ export function VocabSpeakPractice({ word, prompt }: { word: string; prompt: str
         data: { question, transcript, lang, level: profile?.english_level ?? "B1" },
       });
       setResult({ analysis, transcript });
-      await saveAttempt({
-        data: {
-          questionText: question.slice(0, 500),
-          transcript,
-          fluency: analysis.fluency,
-          grammar: analysis.grammar,
-          vocabulary: analysis.vocabulary,
-          overall: analysis.overall,
-          mistakes: analysis.mistakes,
-          corrections: analysis.corrections,
-          betterVocabulary: analysis.better_vocabulary,
-          naturalAnswer: analysis.natural_answer,
-          feedback: analysis.feedback,
-        },
-      });
+      await Promise.all([
+        saveAttempt({
+          data: {
+            questionText: question.slice(0, 500),
+            transcript,
+            fluency: analysis.fluency,
+            grammar: analysis.grammar,
+            vocabulary: analysis.vocabulary,
+            overall: analysis.overall,
+            mistakes: analysis.mistakes,
+            corrections: analysis.corrections,
+            betterVocabulary: analysis.better_vocabulary,
+            naturalAnswer: analysis.natural_answer,
+            feedback: analysis.feedback,
+          },
+        }),
+        recordPractice({ data: { wordId } }),
+      ]);
     } catch (error) {
       handleError(error);
     } finally {

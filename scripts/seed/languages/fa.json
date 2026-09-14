@@ -1,0 +1,10 @@
+{
+  "nativeName": "فارسی",
+  "englishName": "Persian",
+  "flag": "🇮🇷",
+  "direction": "rtl",
+  "intlTag": "fa-IR",
+  "translations": {
+    "__PLACEHOLDER__": "x"
+  }
+}

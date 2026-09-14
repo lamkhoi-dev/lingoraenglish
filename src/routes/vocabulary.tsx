@@ -44,6 +44,7 @@ type Word = {
   level: string;
   exampleSentence: string;
   exampleVi: string;
+  usageContext: string;
   synonyms: string[];
   antonyms: string[];
 };
@@ -140,6 +141,7 @@ function VocabularyPage() {
       {speakWord && (
         <div className="mt-8">
           <VocabSpeakPractice
+            wordId={speakWord.id}
             word={speakWord.word}
             prompt={`Answer this out loud: ${speakWord.exampleSentence}`}
           />
@@ -230,6 +232,13 @@ function VocabularyPage() {
                   Use it in speaking
                 </button>
               </div>
+
+              {w.usageContext && (
+                <div className="mt-3">
+                  <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">{t("vocab.context")}</h3>
+                  <p className="mt-1 text-sm text-mist">{w.usageContext}</p>
+                </div>
+              )}
 
               {(w.synonyms?.length > 0 || w.antonyms?.length > 0) && (
                 <div className="mt-3 grid gap-2 sm:grid-cols-2">

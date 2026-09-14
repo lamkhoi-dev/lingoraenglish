@@ -1,0 +1,10 @@
+{
+  "nativeName": "اردو",
+  "englishName": "Urdu",
+  "flag": "🇵🇰",
+  "direction": "rtl",
+  "intlTag": "ur-PK",
+  "translations": {
+    "__PLACEHOLDER__": "x"
+  }
+}

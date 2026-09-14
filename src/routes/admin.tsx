@@ -7,12 +7,14 @@ import { AdminBillingPanel } from "@/components/lily/admin-billing";
 import { AdminCoachPanel } from "@/components/lily/admin-coach";
 import { AdminShadowingPanel } from "@/components/lily/admin-shadowing";
 import { AdminPronunciationPanel } from "@/components/lily/admin-pronunciation";
+import { AdminVocabularyPanel } from "@/components/lily/admin-vocabulary";
 import { AdminMembers } from "@/components/lily/admin-members";
 import { AdminPlansPanel } from "@/components/lily/admin-plans";
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
 import { PanelCard, ScoreStat } from "@/components/lily/score-panel";
 import {
+  adminCreateLanguage,
   getAdminContent,
   getAdminOverview,
   getTranslationOverrides,
@@ -20,7 +22,7 @@ import {
   setContentAccessTier,
 } from "@/lib/admin.functions";
 import { useAuth } from "@/lib/auth";
-import { LANGUAGES, translationCoverage, useI18n, type LocaleCode } from "@/lib/i18n";
+import { translationCoverage, useI18n, type LocaleCode } from "@/lib/i18n";
 import { en, type TranslationKey } from "@/locales/en";
 
 export const Route = createFileRoute("/admin")({
@@ -46,7 +48,8 @@ type Tab =
   | "plans"
   | "coach"
   | "shadowing"
-  | "pronunciation";
+  | "pronunciation"
+  | "vocabulary";
 type ContentRow = {
   id: string;
   table: "vocabulary_words" | "grammar_lessons" | "speaking_questions" | "ielts_questions" | "listening_exercises";
@@ -60,13 +63,14 @@ type ContentRow = {
 const ACCESS_TIERS = ["free", "premium", "ielts_pro"] as const;
 
 function AdminPage() {
-  const { t, formatDate } = useI18n();
+  const { t, formatDate, languages } = useI18n();
   const { isAdmin, loading } = useAuth();
   const getAdminOverviewFn = useServerFn(getAdminOverview);
   const getAdminContentFn = useServerFn(getAdminContent);
   const setContentAccessTierFn = useServerFn(setContentAccessTier);
   const getTranslationOverridesFn = useServerFn(getTranslationOverrides);
   const saveTranslationOverrideFn = useServerFn(saveTranslationOverride);
+  const adminCreateLanguageFn = useServerFn(adminCreateLanguage);
 
   const [tab, setTab] = useState<Tab>("students");
   const [counts, setCounts] = useState({ students: 0, requests: 0, cache: 0, content: 0 });
@@ -81,6 +85,8 @@ function AdminPage() {
   const [missingOnly, setMissingOnly] = useState(false);
   const [overrides, setOverrides] = useState<Record<string, string>>({});
   const [draft, setDraft] = useState<Record<string, string>>({});
+  const [newLang, setNewLang] = useState({ code: "", nativeName: "", englishName: "", flag: "", direction: "ltr", intlTag: "" });
+  const [addingLang, setAddingLang] = useState(false);
 
   useEffect(() => {
     if (!isAdmin) return;
@@ -161,6 +167,37 @@ function AdminPage() {
     toast.success(t("common.saved"));
   };
 
+  /** Registers a language as pure data (ui_languages row) — no code change
+   * or redeploy needed for it to show up everywhere languages are picked.
+   * Its dictionary is filled in afterwards, either via
+   * scripts/load-languages.py or by switching this tab's locale to the new
+   * code and saving keys one by one. */
+  const addLanguage = async () => {
+    if (!newLang.code.trim() || !newLang.nativeName.trim() || !newLang.englishName.trim() || !newLang.intlTag.trim()) {
+      toast.error("Code, native name, English name and Intl tag are required.");
+      return;
+    }
+    setAddingLang(true);
+    try {
+      await adminCreateLanguageFn({
+        data: {
+          code: newLang.code.trim(),
+          nativeName: newLang.nativeName.trim(),
+          englishName: newLang.englishName.trim(),
+          flag: newLang.flag.trim(),
+          direction: newLang.direction as "ltr" | "rtl",
+          intlTag: newLang.intlTag.trim(),
+        },
+      });
+      toast.success(`${newLang.nativeName} added`);
+      setNewLang({ code: "", nativeName: "", englishName: "", flag: "", direction: "ltr", intlTag: "" });
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : "Could not add the language");
+    } finally {
+      setAddingLang(false);
+    }
+  };
+
   if (loading) {
     return (
       <AppShell>
@@ -188,6 +225,7 @@ function AdminPage() {
     { id: "coach", label: "Speaking Coach" },
     { id: "shadowing", label: "Shadowing" },
     { id: "pronunciation", label: "Pronunciation" },
+    { id: "vocabulary", label: "Vocabulary" },
   ];
 
 
@@ -278,13 +316,72 @@ function AdminPage() {
           <PanelCard title={t("admin.translations")}>
             <p className="text-sm text-muted-foreground">{t("admin.translationsIntro")}</p>
 
+            <details className="mt-4 rounded-xl bg-surface-2 p-3 ring-1 ring-border">
+              <summary className="cursor-pointer text-xs font-semibold text-foreground">
+                + Register a new language ({languages.length} enabled)
+              </summary>
+              <p className="mt-2 text-[11px] text-muted-foreground">
+                Adds the language everywhere it's picked immediately — no code change or redeploy. Its
+                dictionary starts empty; fill it in below (pick this code once added) or via
+                scripts/load-languages.py.
+              </p>
+              <div className="mt-3 flex flex-wrap gap-2">
+                <input
+                  value={newLang.code}
+                  onChange={(e) => setNewLang((v) => ({ ...v, code: e.target.value }))}
+                  placeholder="Code (th, pl, ...)"
+                  className="w-32 rounded-lg bg-surface-3 px-2 py-1.5 text-xs text-foreground ring-1 ring-border"
+                />
+                <input
+                  value={newLang.nativeName}
+                  onChange={(e) => setNewLang((v) => ({ ...v, nativeName: e.target.value }))}
+                  placeholder="Native name (ไทย)"
+                  className="w-40 rounded-lg bg-surface-3 px-2 py-1.5 text-xs text-foreground ring-1 ring-border"
+                />
+                <input
+                  value={newLang.englishName}
+                  onChange={(e) => setNewLang((v) => ({ ...v, englishName: e.target.value }))}
+                  placeholder="English name (Thai)"
+                  className="w-40 rounded-lg bg-surface-3 px-2 py-1.5 text-xs text-foreground ring-1 ring-border"
+                />
+                <input
+                  value={newLang.flag}
+                  onChange={(e) => setNewLang((v) => ({ ...v, flag: e.target.value }))}
+                  placeholder="🇹🇭"
+                  className="w-16 rounded-lg bg-surface-3 px-2 py-1.5 text-xs text-foreground ring-1 ring-border"
+                />
+                <select
+                  value={newLang.direction}
+                  onChange={(e) => setNewLang((v) => ({ ...v, direction: e.target.value }))}
+                  className="rounded-lg bg-surface-3 px-2 py-1.5 text-xs text-foreground ring-1 ring-border"
+                >
+                  <option value="ltr">LTR</option>
+                  <option value="rtl">RTL</option>
+                </select>
+                <input
+                  value={newLang.intlTag}
+                  onChange={(e) => setNewLang((v) => ({ ...v, intlTag: e.target.value }))}
+                  placeholder="Intl tag (th-TH)"
+                  className="w-32 rounded-lg bg-surface-3 px-2 py-1.5 text-xs text-foreground ring-1 ring-border"
+                />
+                <button
+                  type="button"
+                  disabled={addingLang}
+                  onClick={() => void addLanguage()}
+                  className="rounded-lg bg-brass px-3 py-1.5 text-xs font-semibold text-plum-deep disabled:opacity-50"
+                >
+                  Add
+                </button>
+              </div>
+            </details>
+
             <div className="mt-4 flex flex-wrap items-center gap-3">
               <select
                 value={targetLocale}
                 onChange={(e) => setTargetLocale(e.target.value as LocaleCode)}
                 className="rounded-xl bg-surface-2 px-3 py-2 text-sm text-foreground ring-1 ring-border outline-none focus:ring-brass"
               >
-                {LANGUAGES.map((l) => (
+                {languages.map((l) => (
                   <option key={l.code} value={l.code}>
                     {l.flag} {l.native}
                   </option>
@@ -364,6 +461,7 @@ function AdminPage() {
         {tab === "coach" && <AdminCoachPanel />}
         {tab === "shadowing" && <AdminShadowingPanel />}
         {tab === "pronunciation" && <AdminPronunciationPanel />}
+        {tab === "vocabulary" && <AdminVocabularyPanel />}
 
       </div>
     </AppShell>

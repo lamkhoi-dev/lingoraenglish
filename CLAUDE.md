@@ -270,6 +270,20 @@ chạy lại `load-pronunciation-lessons.py`. Đã báo khách rõ con số th�
 Đã typecheck sạch, đã build/deploy lên production, đã xác nhận qua HTTP thật + query DB thật (130 rows,
 đúng 5 free/skill).
 
+**⛔ Bug nghiêm trọng phát hiện + đã sửa (2026-09-14, sau khi khách test thật):** khách báo tất cả 8 tab
+kỹ năng hiện "0 shown" dù DB có đủ 372 dòng — hoá ra **KHÔNG PHẢI bug code**, mà bảng
+`pronunciation_lessons` tạo qua `drizzle-kit generate` chỉ có RLS policies, **thiếu hẳn GRANT bảng**
+(`drizzle-kit` không model GRANT, chỉ model `pgPolicy`) — Postgres chặn ở bước kiểm tra quyền bảng
+*trước khi* RLS kịp chạy, nên mọi query (kể cả qua `service_role`/`withAdmin`) đều bị
+`permission denied for table pronunciation_lessons` (code 42501). Vì lỗi này bị `createServerFn` nuốt và
+trả về response nhỏ (200 OK, ~600 bytes) thay vì lỗi rõ ràng, nên rất khó phát hiện chỉ bằng cách nhìn
+Network tab — phải test trực tiếp query trong container (`node` script gọi thẳng `withAdmin`) mới thấy
+đúng nguyên nhân gốc. Đã sửa bằng `GRANT SELECT/ALL` cho `anon`/`authenticated`/`service_role`/`lingora`
+(khớp đúng bộ quyền của `shadowing_sentences`), ghi lại thành migration
+`db/0005_pronunciation_lessons_grants.sql` để disaster-recovery/database mới không dính lại lỗi này.
+**Bài học quan trọng cho mọi bảng mới tạo bằng `drizzle-kit generate` sau này**: luôn phải tự thêm GRANT
+thủ công (không tự sinh), nếu không sẽ luôn bị permission denied dù RLS đúng 100%.
+
 ---
 
 ## Hệ thống hạn mức Free/Premium — đã hợp nhất (2026-09-13), trước đó mỗi tính năng làm 1 kiểu khác nhau

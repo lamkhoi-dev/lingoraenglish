@@ -1,12 +1,12 @@
 import { Check, Globe, Search } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import { LANGUAGES, useI18n, type LocaleCode } from "@/lib/i18n";
+import { useI18n, type LocaleCode } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
 
 /** Compact globe button + popover list of every interface language, in native names. */
 export function LanguageSelector({ className }: { className?: string }) {
-  const { locale, language, setLocale, t } = useI18n();
+  const { locale, language, languages, setLocale, t } = useI18n();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const boxRef = useRef<HTMLDivElement>(null);
@@ -27,11 +27,11 @@ export function LanguageSelector({ className }: { className?: string }) {
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return LANGUAGES;
-    return LANGUAGES.filter(
+    if (!q) return languages;
+    return languages.filter(
       (l) => l.native.toLowerCase().includes(q) || l.english.toLowerCase().includes(q),
     );
-  }, [query]);
+  }, [query, languages]);
 
   const pick = (code: LocaleCode) => {
     setLocale(code);
