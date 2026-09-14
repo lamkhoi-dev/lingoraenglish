@@ -82,7 +82,7 @@ async function settings() {
   );
   const row = rows[0];
   return {
-    freeTurnLimit: row?.freeTurnLimit ?? 4,
+    freeTurnLimit: row?.freeTurnLimit ?? 3,
     premiumMonthlyTurns: row?.premiumMonthlyTurns ?? 0,
     proMonthlyTurns: row?.proMonthlyTurns ?? 0,
   };
@@ -466,27 +466,37 @@ export const coachReply = createServerFn({ method: "POST" })
       throw new Error("Could not start that turn.");
     }
 
-    const { text, inputTokens, outputTokens } = await llmCompleteWhole(messages, { maxTokens: 220 });
-    const reply = text.trim();
+    let reply: string;
+    try {
+      const { text, inputTokens, outputTokens } = await llmCompleteWhole(messages, { maxTokens: 220 });
+      reply = text.trim();
 
-    await withAdmin((db) =>
-      db
-        .update(coachTurns)
-        .set({ userText: data.transcript, coachText: reply })
-        .where(and(eq(coachTurns.sessionId, session.id), eq(coachTurns.turnNumber, turnNumber))),
-    );
+      await withAdmin((db) =>
+        db
+          .update(coachTurns)
+          .set({ userText: data.transcript, coachText: reply })
+          .where(and(eq(coachTurns.sessionId, session.id), eq(coachTurns.turnNumber, turnNumber))),
+      );
 
-    await withAdmin((db) =>
-      db.insert(aiUsageLog).values({
-        userId: context.userId,
-        capability: "coach_turn",
-        provider: currentTextProvider(),
-        model: currentLlmModel(),
-        units: 1,
-        inputTokens,
-        outputTokens,
-      }),
-    );
+      await withAdmin((db) =>
+        db.insert(aiUsageLog).values({
+          userId: context.userId,
+          capability: "coach_turn",
+          provider: currentTextProvider(),
+          model: currentLlmModel(),
+          units: 1,
+          inputTokens,
+          outputTokens,
+        }),
+      );
+    } catch (error) {
+      await withAdmin((db) =>
+        db
+          .delete(coachTurns)
+          .where(and(eq(coachTurns.sessionId, session.id), eq(coachTurns.turnNumber, turnNumber))),
+      ).catch(() => {});
+      throw error;
+    }
 
     const after = await readUsage(context.userId);
     return {

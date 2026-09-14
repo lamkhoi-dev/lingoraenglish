@@ -314,6 +314,48 @@ năng: Speaking/Listening/Pronunciation/Vocabulary).
 
 ---
 
+## Audit khách hàng 2026-09-14 (buổi tối) — 4 lỗi phân bổ free/premium, đã sửa + xác nhận qua query thật
+
+Khách gửi báo cáo audit chạy trực tiếp trên DB production, phát hiện 4 lỗi phân bổ free/premium (ngoài
+Vocabulary — xem mục riêng bên dưới). Cả 4 đã sửa, áp dụng thẳng lên production qua SSH + `docker exec
+... psql` (tunnel port 5432 bị sandbox chặn nhưng SSH command execution thì không — xác nhận lại
+2026-09-14, khác với ghi chú cũ ở cuối file này), xác nhận lại bằng query đối chiếu trước/sau:
+
+- **Speaking Tests (Yêu cầu 4)**: cả 3 đề IELTS free đều nằm ở Part 1 (0 đề free Part 2/3), vi phạm thẳng
+  "ba đề miễn phí cần trải đều các phần thi" (dòng 342, tài liệu đặc tả). Sửa: bỏ free 2 đề Part 1
+  (Hometown, Family), thêm free 1 đề Part 2 + 1 đề Part 3 (sort_order thấp nhất mỗi phần) — giờ đúng 1/1/1.
+  Không cần đổi code: `canBuildMockTest()` (`speaking-test-library.ts:96-98`) đã tự đúng yêu cầu ≥1 đề free
+  mỗi phần từ trước, chỉ do dữ liệu sai nên Full Mock Test trước đó luôn khoá với tài khoản free — giờ tự
+  mở đúng, không cần sửa gì thêm.
+- **Shadowing (Yêu cầu 2)**: `scripts/load-shadowing.py` cũ đánh free "10 câu đầu mỗi topic" — vì mỗi file
+  topic liệt kê câu từ dễ → khó, 10 câu đầu gần như luôn là toàn bộ câu `beginner`, khiến free user gần như
+  chỉ thấy `beginner` (465/477 câu free, 97.5%) và **0 câu `elementary`** — vi phạm thẳng "người dùng miễn
+  phí tiếp cận được câu ở nhiều mức độ khác nhau" (tiêu chí nghiệm thu Yêu cầu 2). Sửa tận gốc: đổi logic
+  loader sang "4 câu đầu **mỗi level** mỗi topic" (không phải 10 câu đầu topic bất kể level), rồi chạy lại
+  UPDATE tương đương trên production (3.571 dòng, dùng `row_number() OVER (PARTITION BY topic_id, level)`)
+  — giờ đúng 124/124/124/124 free đều 4 level. Script cho lần seed sau cũng đã đúng, không cần vá tay nữa.
+- **Pronunciation Reductions (Yêu cầu 6)**: 22/50 ví dụ — bổ sung 28 ví dụ thật (ain't, gotcha, musta/mighta,
+  shouldn'ta/couldn'ta, g-dropping -in', 'em/'n'/'cause/'course/aight, letcha, jever, gonna hafta, innit
+  [UK], whaddya say, y'know, s'up, tell'im/ask'er, kinda sorta, dincha, hadta, willcha, lotsa/buncha,
+  helluva, howdy, s'pose — mỗi cái là hiện tượng rút gọn thật, không lặp ý với 22 cái cũ) vào
+  `scripts/seed/pronunciation-lessons/reductions.json`, nạp qua `load-pronunciation-lessons.py` — giờ đúng
+  **50/50**, khớp 7/7 phần còn lại (tất cả 8 phần nâng cao giờ đều 50/50).
+- **Listening Lab (Yêu cầu 3 / Vấn đề 1)**: gap kép, cả hai đã sửa cùng lúc:
+  1. `load-listening.py` cũ đánh free theo **"10 lesson đầu toàn bộ"**, hoàn toàn bỏ qua `category` — với
+     5 category, không category nào từng bị khoá thật (99/99 `is_free=true`), dù script *tưởng* mình đang
+     giới hạn 10. Sửa: đổi hẳn sang logic đúng nghĩa "chủ đề" = `category` (khớp `listen.filter.allTopics`)
+     — 6 category đầu theo `CATEGORY_ORDER` cố định thì free, category thứ 7 trở đi thì khoá.
+  2. Thêm 2 category mới thật (không phải category rỗng cho có): **Academic English** và
+     **Entertainment & Media**, 10 lesson/category (script + 5 câu hỏi + dictation + connected_speech đầy
+     đủ, đúng schema, qua hết validate của loader). Ghi chú: mục "Còn thiếu" cũ ở dưới có ghi "đã hỏi, khách
+     chọn để dành" cho việc tạo category mới — báo cáo audit 2026-09-14 này là chỉ đạo mới, rõ ràng hơn từ
+     khách, nên đã làm theo, không chờ thêm.
+  - Kết quả xác nhận qua query thật: 7 category, 6 category đầu (Travel/Everyday Life/Social
+    English/Work & Career/Canadian Life/Academic English) 100% free, category thứ 7 (Entertainment & Media)
+    100% khoá (0/10 free) — đúng "sáu chủ đề đầu miễn phí, các chủ đề còn lại bị khóa".
+
+---
+
 ## ⛔ Còn thiếu / chưa làm (không phải lỗi, cần quyết định hoặc thêm thông tin)
 
 - **Dữ liệu người dùng thật từ Supabase Cloud** — cần connection string, chưa có.
@@ -327,14 +369,10 @@ năng: Speaking/Listening/Pronunciation/Vocabulary).
   đủ 50 (mục
   tiêu 50/phần) — hạ tầng CRUD đã xong, chỉ còn thiếu khối lượng nội dung, làm tiếp qua `/admin` hoặc JSON
   seed khi có thời gian.
-- **Listening Lab**: 4 bước (Listen/Understand/Dictation/Score) + progress lưu đúng kiểu cộng dồn + gate
-  server-side thật qua RLS (không chỉ khoá frontend) — đã kiểm tra kỹ toàn bộ 2026-09-14, đúng như mô tả,
-  không phải demo. Riêng **"6 chủ đề free" đang vô nghĩa** vì chỉ có 5 category (xác nhận lại 2026-09-14: cả
-  99/99 bài đang `is_free=true`) — không phải bug, đúng công thức khi 5 ≤ 6. "Chủ đề" nhiều khả năng =
-  `category` (giao diện tự gọi category là "chủ đề" qua khoá dịch `listen.filter.allTopics`; `topic` chỉ
-  là tên kịch bản riêng từng bài, 99 bài = 99 giá trị khác nhau, không dùng để duyệt nhóm được). Cần thêm
-  category thứ 6 trở lên (nội dung thật) để rule này thực sự khoá được gì đó — **đã hỏi, khách hàng chọn
-  để dành, báo khách quyết định hướng trước khi tạo nội dung mới**, chưa tự làm.
+- ~~**Listening Lab**: "6 chủ đề free" vô nghĩa vì chỉ có 5 category, gate theo category chưa hoạt động
+  thật~~ — **đã sửa 2026-09-14**, xem mục "Audit khách hàng 2026-09-14" ở trên (7 category, gate đúng
+  category thứ 7 trở đi). 4 bước (Listen/Understand/Dictation/Score) + progress cộng dồn + gate server-side
+  qua RLS vẫn như mô tả cũ, không đổi.
 - **Đa ngôn ngữ**: 16/50+ (Vấn đề 3 — cần chốt danh sách + phương án dịch).
 - TOEFL/PTE trong Speaking Tests có nội dung đủ (60 đề) nhưng chưa được đầu tư UX kỹ như IELTS.
 
@@ -342,8 +380,17 @@ năng: Speaking/Listening/Pronunciation/Vocabulary).
 
 ## Vài thứ cần biết để không mất công dò lại
 
-- Dự án **không phải git repo** — không có `git log`/`git blame`. Toàn bộ ngữ cảnh nằm ở file này +
-  lịch sử hội thoại các phiên làm việc trước.
+- Dự án **giờ đã là git repo** (xác nhận lại 2026-09-14 — ghi chú cũ ở đây nói "không phải git repo" đã lỗi
+  thời, `git log`/`git blame` dùng được bình thường từ giờ). Vẫn nên đọc file này trước vì lịch sử commit
+  chỉ có từ lúc init repo trở đi, không phủ hết các phiên làm việc trước đó.
+- **SSH ra VPS production dùng được từ máy dev này** (xác nhận lại 2026-09-14 — ghi chú cũ bên dưới về
+  "tunnel SSH sang DB production bị sandbox chặn" chỉ đúng cho tunnel port 5432 trực tiếp; chạy lệnh qua
+  `ssh -i ~/.ssh/lingoraenglish_vps root@221.132.19.75 "docker exec lingoraenglish-postgres psql -U lingora
+  -d lingoraenglish -c '...'"` thì không bị chặn). Với SQL dài (nhiều dòng, dễ vượt giới hạn độ dài lệnh
+  qua `-c`), sinh file SQL cục bộ rồi `scp` lên `/tmp` trên VPS, `docker cp` vào container, chạy bằng
+  `psql -f`. Lưu ý encoding: script Python trên Windows in ra stdout có thể không phải UTF-8 mặc định
+  (ký tự em-dash "—" từng bị hỏng thành byte 0x97 không hợp lệ) — luôn set `PYTHONIOENCODING=utf-8` khi
+  redirect output ra file trước khi áp dụng lên Postgres, và strip CRLF (`tr -d '\r'`) cho chắc.
 - Máy dev Windows này **không có `bun`** — mọi lệnh `bun run`/`bunx` phải qua Docker:
   ```
   docker run --rm -v "<đường dẫn repo>:/app" -w /app oven/bun:1-alpine sh -c "bunx tsc --noEmit -p ."

@@ -1,0 +1,302 @@
+{"lessons":[
+{
+ "slug":"acad-a1-classroom",
+ "title":"Finding your classroom",
+ "level":"A1",
+ "category":"Academic English",
+ "topic":"Campus directions",
+ "difficulty":1,
+ "duration_seconds":24,
+ "accent":"american",
+ "script":[
+  {"speaker":"Student","line":"Excuse me, where is room two-oh-one?"},
+  {"speaker":"Staff","line":"It's on the second floor, next to the library."},
+  {"speaker":"Student","line":"Thank you. Is the elevator near here?"},
+  {"speaker":"Staff","line":"Yes, it's right behind you."},
+  {"speaker":"Student","line":"Great, thanks a lot!"},
+  {"speaker":"Staff","line":"You're welcome. Good luck with your class."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What does the student want to know?","options":["Where a room is","What time class starts","Who the teacher is","How to pay tuition"],"answer":"Where a room is","explanation":"The student asks where room 201 is.","skill":"main_idea"},
+  {"type":"detail","prompt":"Where is room 201?","options":["First floor","Second floor, next to the library","Third floor","In the parking lot"],"answer":"Second floor, next to the library","explanation":"The staff says it's on the second floor, next to the library.","skill":"details"},
+  {"type":"detail","prompt":"Where is the elevator?","options":["Right behind the student","Outside the building","On the first floor only","Next to room 201"],"answer":"Right behind the student","explanation":"The staff says \"it's right behind you\".","skill":"details"},
+  {"type":"true_false","prompt":"The student thanks the staff member.","options":["True","False"],"answer":"True","explanation":"The student says \"thanks a lot\".","skill":"details"},
+  {"type":"intention","prompt":"Why does the staff member say \"good luck\"?","options":["To wish the student well in class","To say goodbye forever","To ask for help","To complain"],"answer":"To wish the student well in class","explanation":"It's a friendly closing remark before class.","skill":"intention"}
+ ],
+ "dictation":[
+  {"sentence":"It's on the second floor, next to the library.","blanks":["second","library"],"challenge":"numbers","explanation":"Listen for the ordinal number \"second\"."},
+  {"sentence":"Is the elevator near here?","blanks":["elevator"],"challenge":"similar_sounds","explanation":"\"elevator\" has stress on the second syllable."}
+ ],
+ "connected_speech":[{"written":"is the","spoken":"izthuh"}]
+},
+{
+ "slug":"acad-a1-borrow-pen",
+ "title":"Borrowing a pen",
+ "level":"A1",
+ "category":"Academic English",
+ "topic":"Classroom small talk",
+ "difficulty":1,
+ "duration_seconds":20,
+ "accent":"american",
+ "script":[
+  {"speaker":"Student A","line":"Sorry, do you have an extra pen?"},
+  {"speaker":"Student B","line":"Sure, here you go."},
+  {"speaker":"Student A","line":"Thanks so much. I'll give it back after class."},
+  {"speaker":"Student B","line":"No problem, keep it if you need it."},
+  {"speaker":"Student A","line":"That's very kind of you."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What does Student A need?","options":["A pen","A book","Money","A phone"],"answer":"A pen","explanation":"Student A asks for an extra pen.","skill":"main_idea"},
+  {"type":"detail","prompt":"What does Student A promise to do?","options":["Give the pen back after class","Buy a new pen","Keep the pen forever","Give it to someone else"],"answer":"Give the pen back after class","explanation":"Student A says \"I'll give it back after class\".","skill":"details"},
+  {"type":"intention","prompt":"What does Student B mean by \"keep it if you need it\"?","options":["Student A doesn't have to return it","Student A must return it now","Student B wants it back immediately","Student B is angry"],"answer":"Student A doesn't have to return it","explanation":"Student B is being generous and doesn't need the pen returned.","skill":"intention"},
+  {"type":"true_false","prompt":"Student B refuses to lend the pen.","options":["True","False"],"answer":"False","explanation":"Student B says \"sure, here you go\".","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Sorry, do you have an extra pen?","blanks":["extra","pen"],"challenge":"connected_speech","explanation":"\"do you\" often blends together in fast speech."},
+  {"sentence":"Thanks so much.","blanks":["much"],"challenge":"reduced_form","explanation":"\"so much\" is said quickly together."}
+ ],
+ "connected_speech":[{"written":"do you","spoken":"duh ya"}]
+},
+{
+ "slug":"acad-a2-homework",
+ "title":"Talking about homework",
+ "level":"A2",
+ "category":"Academic English",
+ "topic":"Assignments",
+ "difficulty":2,
+ "duration_seconds":28,
+ "accent":"american",
+ "script":[
+  {"speaker":"Ana","line":"Did you finish the homework for tomorrow?"},
+  {"speaker":"Leo","line":"Not yet, I still have two questions left."},
+  {"speaker":"Ana","line":"Same here. The math ones are really hard."},
+  {"speaker":"Leo","line":"Yeah, maybe we can check our answers together tonight."},
+  {"speaker":"Ana","line":"Good idea. What time works for you?"},
+  {"speaker":"Leo","line":"How about eight o'clock, online?"},
+  {"speaker":"Ana","line":"Perfect, I'll message you then."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is this conversation about?","options":["Finishing homework together","Planning a party","A school trip","Buying books"],"answer":"Finishing homework together","explanation":"They discuss unfinished homework and plan to check it together.","skill":"main_idea"},
+  {"type":"detail","prompt":"How many questions does Leo have left?","options":["One","Two","Three","None"],"answer":"Two","explanation":"Leo says \"I still have two questions left\".","skill":"numbers_dates"},
+  {"type":"detail","prompt":"What time will they meet online?","options":["Seven o'clock","Eight o'clock","Nine o'clock","Ten o'clock"],"answer":"Eight o'clock","explanation":"Leo suggests eight o'clock.","skill":"numbers_dates"},
+  {"type":"detail","prompt":"Which subject do they find hard?","options":["Math","Art","History","Music"],"answer":"Math","explanation":"Ana says \"the math ones are really hard\".","skill":"details"},
+  {"type":"true_false","prompt":"They plan to meet in person.","options":["True","False"],"answer":"False","explanation":"They agree to check answers online.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"I still have two questions left.","blanks":["two","questions"],"challenge":"numbers","explanation":"Listen carefully for the number \"two\"."},
+  {"sentence":"How about eight o'clock, online?","blanks":["eight"],"challenge":"numbers","explanation":"Times often reduce, like \"eight o'clock\" sounding like one word."}
+ ],
+ "connected_speech":[{"written":"want to","spoken":"wanna"}]
+},
+{
+ "slug":"acad-a2-after-class",
+ "title":"Asking the professor a question after class",
+ "level":"A2",
+ "category":"Academic English",
+ "topic":"Office hours",
+ "difficulty":2,
+ "duration_seconds":30,
+ "accent":"american",
+ "script":[
+  {"speaker":"Student","line":"Excuse me, professor, do you have a minute?"},
+  {"speaker":"Professor","line":"Of course, what's on your mind?"},
+  {"speaker":"Student","line":"I didn't understand the last part of today's lecture."},
+  {"speaker":"Professor","line":"No problem, which part exactly?"},
+  {"speaker":"Student","line":"The part about supply and demand."},
+  {"speaker":"Professor","line":"Ah, come to my office hours tomorrow and I'll explain it again."},
+  {"speaker":"Student","line":"That would be really helpful, thank you."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"Why does the student talk to the professor?","options":["To ask about part of the lecture","To complain about grades","To ask for extra credit","To cancel class"],"answer":"To ask about part of the lecture","explanation":"The student didn't understand the last part of the lecture.","skill":"main_idea"},
+  {"type":"detail","prompt":"Which topic confused the student?","options":["Supply and demand","Inflation","Interest rates","Taxes"],"answer":"Supply and demand","explanation":"The student mentions \"the part about supply and demand\".","skill":"details"},
+  {"type":"detail","prompt":"When does the professor offer to explain again?","options":["Right now","Tomorrow at office hours","Next week","Never"],"answer":"Tomorrow at office hours","explanation":"The professor says to come to office hours tomorrow.","skill":"details"},
+  {"type":"intention","prompt":"Why does the professor ask \"which part exactly\"?","options":["To understand what to explain","To end the conversation","To test the student","To change topic"],"answer":"To understand what to explain","explanation":"The professor wants specifics before helping.","skill":"intention"}
+ ],
+ "dictation":[
+  {"sentence":"I didn't understand the last part of today's lecture.","blanks":["understand","lecture"],"challenge":"connected_speech","explanation":"\"didn't\" often sounds like \"didn\" in fast speech."},
+  {"sentence":"Come to my office hours tomorrow and I'll explain it again.","blanks":["office","tomorrow"],"challenge":"connected_speech","explanation":"\"come to\" links smoothly together."}
+ ],
+ "connected_speech":[{"written":"come to","spoken":"cuhmtuh"}]
+},
+{
+ "slug":"acad-b1-study-group",
+ "title":"Study group meeting",
+ "level":"B1",
+ "category":"Academic English",
+ "topic":"Group study",
+ "difficulty":3,
+ "duration_seconds":34,
+ "accent":"american",
+ "script":[
+  {"speaker":"Maya","line":"Okay, so for the assignment, I think we should split the chapters between us."},
+  {"speaker":"Sam","line":"That makes sense. I can take chapters one and two."},
+  {"speaker":"Maya","line":"I'll cover three and four then, and we can compare notes on Friday."},
+  {"speaker":"Sam","line":"Sounds good. Should we also make a shared summary document?"},
+  {"speaker":"Maya","line":"Yeah, that would really help everyone stay organized."},
+  {"speaker":"Sam","line":"I'll set one up tonight and send you the link."},
+  {"speaker":"Maya","line":"Perfect, thanks for organizing this."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Maya and Sam planning?","options":["How to split an assignment","A weekend trip","A birthday party","A sports match"],"answer":"How to split an assignment","explanation":"They divide chapters and plan to compare notes.","skill":"main_idea"},
+  {"type":"detail","prompt":"Which chapters does Sam take?","options":["One and two","Three and four","Five and six","All of them"],"answer":"One and two","explanation":"Sam says \"I can take chapters one and two\".","skill":"details"},
+  {"type":"detail","prompt":"When will they compare notes?","options":["Monday","Wednesday","Friday","Sunday"],"answer":"Friday","explanation":"Maya says they can compare notes on Friday.","skill":"details"},
+  {"type":"intention","prompt":"Why does Sam suggest a shared summary document?","options":["To help everyone stay organized","To avoid doing work","To impress the professor","To finish faster alone"],"answer":"To help everyone stay organized","explanation":"Maya agrees it would help everyone stay organized.","skill":"intention"},
+  {"type":"true_false","prompt":"Sam will send Maya a link tonight.","options":["True","False"],"answer":"True","explanation":"Sam says \"I'll set one up tonight and send you the link\".","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"I think we should split the chapters between us.","blanks":["split","chapters"],"challenge":"connected_speech","explanation":"\"should split\" links the two consonant sounds together."},
+  {"sentence":"I'll set one up tonight and send you the link.","blanks":["tonight","link"],"challenge":"connected_speech","explanation":"\"send you\" often blends into \"sen-jew\" in fast speech."}
+ ],
+ "connected_speech":[{"written":"send you","spoken":"senjew"}]
+},
+{
+ "slug":"acad-b1-library-desk",
+ "title":"Library help desk",
+ "level":"B1",
+ "category":"Academic English",
+ "topic":"Library services",
+ "difficulty":3,
+ "duration_seconds":32,
+ "accent":"american",
+ "script":[
+  {"speaker":"Student","line":"Hi, I'm looking for a book on modern history, but I can't find it on the shelf."},
+  {"speaker":"Librarian","line":"Let me check the system. What's the title?"},
+  {"speaker":"Student","line":"It's called 'The Changing World'."},
+  {"speaker":"Librarian","line":"Ah, it looks like it's currently checked out, but it's due back next Tuesday."},
+  {"speaker":"Student","line":"Could I reserve it, then?"},
+  {"speaker":"Librarian","line":"Sure, I'll put a hold on it and email you when it's ready."},
+  {"speaker":"Student","line":"Great, thank you so much for your help."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What does the student want?","options":["To find a book","To pay a fine","To print a document","To return a laptop"],"answer":"To find a book","explanation":"The student is looking for a book that isn't on the shelf.","skill":"main_idea"},
+  {"type":"detail","prompt":"When is the book due back?","options":["Next Monday","Next Tuesday","Next Friday","Tomorrow"],"answer":"Next Tuesday","explanation":"The librarian says it's due back next Tuesday.","skill":"numbers_dates"},
+  {"type":"detail","prompt":"What does the librarian offer to do?","options":["Put a hold on the book","Buy a new copy","Cancel the reservation","Give the student a fine"],"answer":"Put a hold on the book","explanation":"The librarian says \"I'll put a hold on it\".","skill":"details"},
+  {"type":"intention","prompt":"Why does the librarian ask for the title?","options":["To search the system","To make small talk","To end the conversation","To give a recommendation"],"answer":"To search the system","explanation":"The librarian needs the title to check availability.","skill":"intention"}
+ ],
+ "dictation":[
+  {"sentence":"It's currently checked out, but it's due back next Tuesday.","blanks":["checked","Tuesday"],"challenge":"connected_speech","explanation":"\"checked out\" links the final \"t\" into the next word."},
+  {"sentence":"I'll put a hold on it and email you when it's ready.","blanks":["hold","email"],"challenge":"connected_speech","explanation":"\"put a\" often reduces to \"puh-duh\" in fast speech."}
+ ],
+ "connected_speech":[{"written":"put a","spoken":"puh-duh"}]
+},
+{
+ "slug":"acad-b2-deadline-extension",
+ "title":"Discussing an essay deadline extension",
+ "level":"B2",
+ "category":"Academic English",
+ "topic":"Deadlines",
+ "difficulty":4,
+ "duration_seconds":36,
+ "accent":"american",
+ "script":[
+  {"speaker":"Student","line":"Professor, I wanted to ask if it might be possible to get a short extension on the essay."},
+  {"speaker":"Professor","line":"I see. Can you tell me what's going on?"},
+  {"speaker":"Student","line":"I've had a family emergency this week, so I haven't had much time to write."},
+  {"speaker":"Professor","line":"I'm sorry to hear that. I can give you until Monday instead of Friday."},
+  {"speaker":"Student","line":"That would really help, thank you for understanding."},
+  {"speaker":"Professor","line":"Just make sure to send me a quick email confirming the new date."},
+  {"speaker":"Student","line":"Of course, I'll do that right after this."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the student requesting?","options":["A deadline extension","A grade change","A new assignment topic","A refund"],"answer":"A deadline extension","explanation":"The student asks for an extension on the essay.","skill":"main_idea"},
+  {"type":"detail","prompt":"Why does the student need more time?","options":["A family emergency","A lost laptop","Being on vacation","Oversleeping"],"answer":"A family emergency","explanation":"The student mentions a family emergency this week.","skill":"details"},
+  {"type":"detail","prompt":"What is the new deadline?","options":["Wednesday","Friday","Monday","Sunday"],"answer":"Monday","explanation":"The professor gives an extension until Monday.","skill":"numbers_dates"},
+  {"type":"intention","prompt":"Why does the professor ask the student to send an email?","options":["To confirm the new date in writing","To cancel the extension","To assign extra work","To end the class"],"answer":"To confirm the new date in writing","explanation":"The professor wants written confirmation of the new deadline.","skill":"intention"},
+  {"type":"true_false","prompt":"The professor refuses the extension.","options":["True","False"],"answer":"False","explanation":"The professor agrees and gives an extension until Monday.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"I've had a family emergency this week, so I haven't had much time to write.","blanks":["emergency","time"],"challenge":"connected_speech","explanation":"\"I've had\" contracts quickly in natural speech."},
+  {"sentence":"I can give you until Monday instead of Friday.","blanks":["Monday","Friday"],"challenge":"numbers","explanation":"Listen carefully to distinguish the two day names."}
+ ],
+ "connected_speech":[{"written":"give you","spoken":"givyuh"}]
+},
+{
+ "slug":"acad-b2-group-presentation",
+ "title":"Preparing for a group presentation",
+ "level":"B2",
+ "category":"Academic English",
+ "topic":"Presentations",
+ "difficulty":4,
+ "duration_seconds":38,
+ "accent":"american",
+ "script":[
+  {"speaker":"Tom","line":"We should probably rehearse the presentation at least once before Thursday."},
+  {"speaker":"Priya","line":"Agreed. I'm a bit worried about the timing — we might be running over."},
+  {"speaker":"Tom","line":"Yeah, my section alone is almost five minutes."},
+  {"speaker":"Priya","line":"Let's cut some of the background information and focus on the results instead."},
+  {"speaker":"Tom","line":"Good call. That'll make it punchier anyway."},
+  {"speaker":"Priya","line":"I'll update the slides tonight and send them over for you to check."},
+  {"speaker":"Tom","line":"Perfect, let's meet tomorrow afternoon to run through it together."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Tom and Priya preparing for?","options":["A group presentation","A job interview","A sports event","A party"],"answer":"A group presentation","explanation":"They discuss rehearsing and timing a presentation.","skill":"main_idea"},
+  {"type":"detail","prompt":"What are they worried about?","options":["Running over time","Forgetting their notes","The room being too small","Bad weather"],"answer":"Running over time","explanation":"Priya says she's worried about timing.","skill":"details"},
+  {"type":"detail","prompt":"What do they decide to cut?","options":["Background information","The results section","The introduction","Nothing"],"answer":"Background information","explanation":"Priya suggests cutting background information.","skill":"details"},
+  {"type":"intention","prompt":"Why does Priya say cutting content will make it \"punchier\"?","options":["It will be more direct and impactful","It will be longer","It will be more confusing","It will need more slides"],"answer":"It will be more direct and impactful","explanation":"\"Punchier\" means more concise and impactful here.","skill":"vocabulary"}
+ ],
+ "dictation":[
+  {"sentence":"We should probably rehearse the presentation at least once before Thursday.","blanks":["rehearse","Thursday"],"challenge":"connected_speech","explanation":"\"should probably\" reduces in fast, casual speech."},
+  {"sentence":"I'll update the slides tonight and send them over for you to check.","blanks":["update","tonight"],"challenge":"connected_speech","explanation":"\"send them\" often reduces \"them\" to \"em\" in fast speech."}
+ ],
+ "connected_speech":[{"written":"send them","spoken":"senem"}]
+},
+{
+ "slug":"acad-c1-lecture-climate",
+ "title":"A lecture excerpt on climate change",
+ "level":"C1",
+ "category":"Academic English",
+ "topic":"Lectures",
+ "difficulty":5,
+ "duration_seconds":48,
+ "accent":"american",
+ "script":[
+  {"speaker":"Professor","line":"Today, I want to focus on a concept that's often misunderstood: climate feedback loops."},
+  {"speaker":"Professor","line":"A feedback loop occurs when a change in one part of the climate system amplifies, or dampens, that very same change."},
+  {"speaker":"Professor","line":"Take melting Arctic ice, for instance. As ice disappears, it reflects less sunlight, which warms the ocean further."},
+  {"speaker":"Professor","line":"That warming, in turn, melts even more ice — a textbook example of a positive feedback loop."},
+  {"speaker":"Professor","line":"Now, not all feedback loops accelerate warming — some act as natural brakes on the system."},
+  {"speaker":"Professor","line":"For your next assignment, I'd like you to identify one negative feedback loop and explain its mechanism."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the main topic of the lecture?","options":["Climate feedback loops","Ocean pollution","Renewable energy policy","Weather forecasting"],"answer":"Climate feedback loops","explanation":"The professor introduces and explains feedback loops throughout.","skill":"main_idea"},
+  {"type":"detail","prompt":"What example does the professor give of a positive feedback loop?","options":["Melting Arctic ice reflecting less sunlight","Rising sea levels flooding cities","Deforestation reducing oxygen","Increased rainfall in deserts"],"answer":"Melting Arctic ice reflecting less sunlight","explanation":"The professor describes ice melting and reducing reflected sunlight.","skill":"details"},
+  {"type":"vocabulary","prompt":"In this context, what does 'amplifies' mean?","options":["Makes stronger","Makes quieter","Removes completely","Slows down"],"answer":"Makes stronger","explanation":"'Amplifies' means to increase or strengthen an effect.","skill":"vocabulary"},
+  {"type":"detail","prompt":"What is the next assignment?","options":["Identify a negative feedback loop and explain it","Write about Arctic wildlife","Calculate global temperatures","Debate climate policy"],"answer":"Identify a negative feedback loop and explain it","explanation":"The professor assigns students to explain a negative feedback loop.","skill":"details"},
+  {"type":"true_false","prompt":"All feedback loops accelerate warming.","options":["True","False"],"answer":"False","explanation":"The professor says some act as natural brakes on the system.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"A feedback loop occurs when a change in one part of the climate system amplifies, or dampens, that very same change.","blanks":["feedback","amplifies"],"challenge":"fast_speech","explanation":"Academic lecture speech is fast and information-dense — listen for key terms."},
+  {"sentence":"That warming, in turn, melts even more ice — a textbook example of a positive feedback loop.","blanks":["textbook","positive"],"challenge":"fast_speech","explanation":"Listen for the linking phrase \"in turn\", which signals a cause-effect chain."}
+ ],
+ "connected_speech":[{"written":"in turn","spoken":"in-tern"}]
+},
+{
+ "slug":"acad-c1-debate-research",
+ "title":"Debating a research topic with a classmate",
+ "level":"C1",
+ "category":"Academic English",
+ "topic":"Research discussion",
+ "difficulty":5,
+ "duration_seconds":44,
+ "accent":"american",
+ "script":[
+  {"speaker":"Noah","line":"I still think your research question is too broad to answer in a single semester."},
+  {"speaker":"Elena","line":"Maybe, but narrowing it too early risks missing the bigger picture entirely."},
+  {"speaker":"Noah","line":"Fair point, though a narrower scope would let you go into much more depth."},
+  {"speaker":"Elena","line":"That's true. Perhaps I could frame it as a case study instead of a general survey."},
+  {"speaker":"Noah","line":"That actually sounds far more manageable, and it'd still let you draw broader conclusions later."},
+  {"speaker":"Elena","line":"Good idea — I'll rework the proposal along those lines before our next meeting."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Noah and Elena discussing?","options":["The scope of a research project","A holiday plan","A job application","A sports competition"],"answer":"The scope of a research project","explanation":"They debate whether Elena's research question is too broad.","skill":"main_idea"},
+  {"type":"detail","prompt":"What does Noah think about Elena's original research question?","options":["It's too broad","It's too narrow","It's perfect","It's irrelevant"],"answer":"It's too broad","explanation":"Noah says it's \"too broad to answer in a single semester\".","skill":"details"},
+  {"type":"detail","prompt":"What alternative approach does Elena consider?","options":["A case study","Dropping the project","A survey of the whole country","Asking someone else to do it"],"answer":"A case study","explanation":"Elena suggests framing it as a case study instead.","skill":"details"},
+  {"type":"intention","prompt":"Why does Noah say a narrower scope would help?","options":["It allows for more depth","It would take less time overall","It requires less writing","It avoids citations"],"answer":"It allows for more depth","explanation":"Noah says a narrower scope lets her \"go into much more depth\".","skill":"intention"}
+ ],
+ "dictation":[
+  {"sentence":"I still think your research question is too broad to answer in a single semester.","blanks":["research","broad"],"challenge":"fast_speech","explanation":"Academic debate speech moves quickly — focus on the key opinion words."},
+  {"sentence":"Perhaps I could frame it as a case study instead of a general survey.","blanks":["case","survey"],"challenge":"fast_speech","explanation":"Listen for the contrast between \"case study\" and \"general survey\"."}
+ ],
+ "connected_speech":[{"written":"frame it","spoken":"fray-mit"}]
+}
+]}

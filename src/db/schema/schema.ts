@@ -884,7 +884,7 @@ export const shadowingProgress = pgTable("shadowing_progress", {
 
 export const coachSettings = pgTable("coach_settings", {
 	id: text().default('default').primaryKey().notNull(),
-	freeTurnLimit: integer("free_turn_limit").default(4).notNull(),
+	freeTurnLimit: integer("free_turn_limit").default(3).notNull(),
 	premiumMonthlyTurns: integer("premium_monthly_turns").default(0).notNull(),
 	proMonthlyTurns: integer("pro_monthly_turns").default(0).notNull(),
 	updatedAt: timestamp("updated_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),

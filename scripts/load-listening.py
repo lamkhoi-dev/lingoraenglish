@@ -7,8 +7,17 @@ Each file is {"lessons": [ { slug, title, level, category, topic, difficulty,
 duration_seconds, accent, script[], questions[], dictation[],
 connected_speech[] } ]}.
 
-Lessons are ordered A1 -> C1 and the first ten lessons overall are free; the
-rest are premium. Re-running the script is safe: rows are matched on slug.
+"Chủ đề" in Yêu cầu 3 / Vấn đề 1 of the spec means `category` (the UI's
+"chủ đề" filter is literally the category list, see listen.filter.allTopics)
+— every lesson in one of the first 6 categories (in CATEGORY_ORDER below) is
+free, every lesson in category 7+ is premium. This REPLACES an earlier,
+wrong rule ("first 10 lessons overall, ignoring category") that made every
+lesson free once there were fewer than 10 categories' worth of lessons in
+front of it — with only 5 categories total that meant 99/99 lessons ended
+up free, since "chủ đề" was never actually being gated on. A new category
+added later needs one line added to CATEGORY_ORDER (unknown categories sort
+after all listed ones, i.e. locked, rather than silently free) — no other
+code change. Re-running the script is safe: rows are matched on slug.
 """
 import glob
 import json
@@ -26,6 +35,16 @@ SKILLS = {
     "numbers_dates",
     "fast_speech",
 }
+CATEGORY_ORDER = [
+    "Travel",
+    "Everyday Life",
+    "Social English",
+    "Work & Career",
+    "Canadian Life",
+    "Academic English",
+    "Entertainment & Media",
+]
+FREE_CATEGORY_COUNT = 6
 
 
 def q(v):
@@ -52,6 +71,12 @@ for lesson in lessons:
     seen.add(lesson["slug"])
     if lesson["level"] not in LEVELS:
         problems.append(f"{where}: bad level {lesson['level']}")
+    if lesson["category"] not in CATEGORY_ORDER:
+        problems.append(
+            f"{where}: category '{lesson['category']}' is not in CATEGORY_ORDER — "
+            "add it there first (a new category must have an explicit, deliberate "
+            "position, not fall through unnoticed)"
+        )
     if len(lesson.get("script", [])) < 4:
         problems.append(f"{where}: script too short")
     lines = " ".join(t["line"] for t in lesson["script"]).lower()
@@ -72,10 +97,13 @@ if problems:
     print(f"{len(problems)} problem(s) found — nothing was loaded.")
     sys.exit(1)
 
-lessons.sort(key=lambda l: (LEVELS.index(l["level"]), l["_file"], l["slug"]))
+lessons.sort(
+    key=lambda l: (CATEGORY_ORDER.index(l["category"]), LEVELS.index(l["level"]), l["_file"], l["slug"])
+)
 
 sql = ["begin;"]
 for order, lesson in enumerate(lessons, start=1):
+    is_free = CATEGORY_ORDER.index(lesson["category"]) < FREE_CATEGORY_COUNT
     sql.append(
         "insert into public.listening_lessons (slug,title,level,category,topic,difficulty,"
         "duration_seconds,accent,script,questions,dictation,connected_speech,is_free,sort_order,status) values ("
@@ -84,7 +112,7 @@ for order, lesson in enumerate(lessons, start=1):
         f"{int(lesson.get('duration_seconds', 30))},{q(lesson.get('accent', 'american'))},"
         f"{jsonb(lesson['script'])},{jsonb(lesson.get('questions', []))},"
         f"{jsonb(lesson.get('dictation', []))},{jsonb(lesson.get('connected_speech', []))},"
-        f"{'true' if order <= 10 else 'false'},{order},'published') "
+        f"{'true' if is_free else 'false'},{order},'published') "
         "on conflict (slug) do update set title=excluded.title, level=excluded.level, "
         "category=excluded.category, topic=excluded.topic, difficulty=excluded.difficulty, "
         "duration_seconds=excluded.duration_seconds, accent=excluded.accent, script=excluded.script, "
@@ -93,6 +121,11 @@ for order, lesson in enumerate(lessons, start=1):
         "sort_order=excluded.sort_order, status='published';"
     )
 sql.append("commit;")
+
+if "SUPABASE_DB_URL" not in os.environ:
+    print("SUPABASE_DB_URL is not set — printing SQL instead.")
+    print("\n".join(sql))
+    sys.exit(0)
 
 out = subprocess.run(
     ["psql", os.environ["SUPABASE_DB_URL"], "-v", "ON_ERROR_STOP=1", "-q", "-f", "-"],

@@ -351,6 +351,8 @@ const base = {
   "progress.streak": "Learning streak",
   "progress.days": "{{count}} days",
   "progress.days_one": "{{count}} day",
+  "progress.days_few": "{{count}} days",
+  "progress.days_many": "{{count}} days",
   "progress.days_other": "{{count}} days",
   "progress.practiceMinutes": "Practice minutes",
   "progress.lessons": "Lessons completed",

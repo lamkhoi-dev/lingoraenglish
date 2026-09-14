@@ -1,0 +1,291 @@
+{"lessons":[
+{
+ "slug":"ent-a1-favorite-movie",
+ "title":"What's your favorite movie?",
+ "level":"A1",
+ "category":"Entertainment & Media",
+ "topic":"Movies",
+ "difficulty":1,
+ "duration_seconds":22,
+ "accent":"american",
+ "script":[
+  {"speaker":"Mia","line":"What's your favorite movie?"},
+  {"speaker":"Jack","line":"I really like action movies. What about you?"},
+  {"speaker":"Mia","line":"I love comedies. They always make me laugh."},
+  {"speaker":"Jack","line":"That's cool. Do you want to watch one tonight?"},
+  {"speaker":"Mia","line":"Sure, that sounds fun!"}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Mia and Jack talking about?","options":["Their favorite movies","A school project","Their jobs","A trip"],"answer":"Their favorite movies","explanation":"They discuss the types of movies they like.","skill":"main_idea"},
+  {"type":"detail","prompt":"What kind of movies does Jack like?","options":["Action movies","Comedies","Horror movies","Documentaries"],"answer":"Action movies","explanation":"Jack says he really likes action movies.","skill":"details"},
+  {"type":"detail","prompt":"Why does Mia like comedies?","options":["They always make her laugh","They are short","They are educational","They are scary"],"answer":"They always make her laugh","explanation":"Mia says comedies always make her laugh.","skill":"details"},
+  {"type":"true_false","prompt":"They decide to watch a movie tonight.","options":["True","False"],"answer":"True","explanation":"Mia agrees to watch a movie tonight.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"I really like action movies.","blanks":["action","movies"],"challenge":"connected_speech","explanation":"\"really like\" links smoothly together."},
+  {"sentence":"They always make me laugh.","blanks":["always","laugh"],"challenge":"similar_sounds","explanation":"\"laugh\" has a tricky vowel sound for many learners."}
+ ],
+ "connected_speech":[{"written":"want to","spoken":"wanna"}]
+},
+{
+ "slug":"ent-a1-choose-tv-show",
+ "title":"Choosing a TV show to watch",
+ "level":"A1",
+ "category":"Entertainment & Media",
+ "topic":"Television",
+ "difficulty":1,
+ "duration_seconds":24,
+ "accent":"american",
+ "script":[
+  {"speaker":"Dad","line":"What do you want to watch tonight?"},
+  {"speaker":"Kid","line":"Can we watch a cartoon, please?"},
+  {"speaker":"Dad","line":"Sure, which one do you like?"},
+  {"speaker":"Kid","line":"The one about the funny robot!"},
+  {"speaker":"Dad","line":"Okay, let's find it on the TV."},
+  {"speaker":"Kid","line":"Yay, thank you!"}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are they doing?","options":["Choosing a TV show","Cooking dinner","Going shopping","Doing homework"],"answer":"Choosing a TV show","explanation":"They talk about what to watch tonight.","skill":"main_idea"},
+  {"type":"detail","prompt":"What does the kid want to watch?","options":["A cartoon","A movie","The news","A sports game"],"answer":"A cartoon","explanation":"The kid asks to watch a cartoon.","skill":"details"},
+  {"type":"detail","prompt":"Which cartoon does the kid choose?","options":["The one about the funny robot","The one about a dog","The one about space","The one about a princess"],"answer":"The one about the funny robot","explanation":"The kid says \"the one about the funny robot\".","skill":"details"},
+  {"type":"true_false","prompt":"The dad refuses to watch a cartoon.","options":["True","False"],"answer":"False","explanation":"The dad agrees and helps find it on TV.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Can we watch a cartoon, please?","blanks":["watch","cartoon"],"challenge":"connected_speech","explanation":"\"can we\" often blends together quickly."},
+  {"sentence":"Okay, let's find it on the TV.","blanks":["find","TV"],"challenge":"reduced_form","explanation":"\"let's\" is a contraction of \"let us\"."}
+ ],
+ "connected_speech":[{"written":"can we","spoken":"cn we"}]
+},
+{
+ "slug":"ent-a2-new-song",
+ "title":"Talking about a new song",
+ "level":"A2",
+ "category":"Entertainment & Media",
+ "topic":"Music",
+ "difficulty":2,
+ "duration_seconds":28,
+ "accent":"american",
+ "script":[
+  {"speaker":"Ben","line":"Have you heard the new song by that pop singer?"},
+  {"speaker":"Zoe","line":"Yes! I've been listening to it all week."},
+  {"speaker":"Ben","line":"Same here. The melody is really catchy."},
+  {"speaker":"Zoe","line":"I know, and the lyrics are actually pretty deep too."},
+  {"speaker":"Ben","line":"I heard they're releasing a music video next month."},
+  {"speaker":"Zoe","line":"Really? I can't wait to see it!"}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Ben and Zoe discussing?","options":["A new song","A new movie","A new game","A new restaurant"],"answer":"A new song","explanation":"They discuss a new pop song.","skill":"main_idea"},
+  {"type":"detail","prompt":"How long has Zoe been listening to the song?","options":["All week","One day","One year","She hasn't heard it"],"answer":"All week","explanation":"Zoe says she's been listening to it all week.","skill":"details"},
+  {"type":"detail","prompt":"What is coming out next month?","options":["A music video","A new album","A concert ticket","A book"],"answer":"A music video","explanation":"Ben says they're releasing a music video next month.","skill":"numbers_dates"},
+  {"type":"vocabulary","prompt":"What does \"catchy\" mean here?","options":["Easy to remember and like","Difficult to understand","Very sad","Very short"],"answer":"Easy to remember and like","explanation":"\"Catchy\" describes a melody that's memorable and pleasant.","skill":"vocabulary"}
+ ],
+ "dictation":[
+  {"sentence":"I've been listening to it all week.","blanks":["listening","week"],"challenge":"connected_speech","explanation":"\"I've been\" contracts quickly in natural speech."},
+  {"sentence":"I heard they're releasing a music video next month.","blanks":["releasing","month"],"challenge":"connected_speech","explanation":"\"they're releasing\" links smoothly together."}
+ ],
+ "connected_speech":[{"written":"going to","spoken":"gonna"}]
+},
+{
+ "slug":"ent-a2-recommend-series",
+ "title":"Recommending a streaming series",
+ "level":"A2",
+ "category":"Entertainment & Media",
+ "topic":"Streaming",
+ "difficulty":2,
+ "duration_seconds":30,
+ "accent":"american",
+ "script":[
+  {"speaker":"Ravi","line":"You should really watch this new series I found."},
+  {"speaker":"Chloe","line":"What's it about?"},
+  {"speaker":"Ravi","line":"It's about a detective solving mysteries in a small town."},
+  {"speaker":"Chloe","line":"That sounds interesting. How many episodes are there?"},
+  {"speaker":"Ravi","line":"There are eight episodes, and each one is about forty minutes."},
+  {"speaker":"Chloe","line":"Perfect, I'll start watching it this weekend."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What does Ravi recommend?","options":["A streaming series","A restaurant","A video game","A podcast"],"answer":"A streaming series","explanation":"Ravi recommends a new series to Chloe.","skill":"main_idea"},
+  {"type":"detail","prompt":"What is the series about?","options":["A detective solving mysteries","A cooking competition","A music band","A sports team"],"answer":"A detective solving mysteries","explanation":"Ravi describes a detective solving mysteries in a small town.","skill":"details"},
+  {"type":"detail","prompt":"How many episodes does the series have?","options":["Six","Eight","Ten","Twelve"],"answer":"Eight","explanation":"Ravi says there are eight episodes.","skill":"numbers_dates"},
+  {"type":"detail","prompt":"How long is each episode?","options":["About twenty minutes","About forty minutes","About one hour","About ten minutes"],"answer":"About forty minutes","explanation":"Ravi says each episode is about forty minutes.","skill":"numbers_dates"}
+ ],
+ "dictation":[
+  {"sentence":"It's about a detective solving mysteries in a small town.","blanks":["detective","mysteries"],"challenge":"connected_speech","explanation":"Listen for the linking between \"about a\"."},
+  {"sentence":"There are eight episodes, and each one is about forty minutes.","blanks":["eight","forty"],"challenge":"numbers","explanation":"Listen carefully to tell \"forty\" apart from \"fourteen\"."}
+ ],
+ "connected_speech":[{"written":"about a","spoken":"uh-bow-duh"}]
+},
+{
+ "slug":"ent-b1-movie-review",
+ "title":"Discussing a movie review",
+ "level":"B1",
+ "category":"Entertainment & Media",
+ "topic":"Film criticism",
+ "difficulty":3,
+ "duration_seconds":34,
+ "accent":"american",
+ "script":[
+  {"speaker":"Grace","line":"I read a review that said the new sci-fi movie was disappointing."},
+  {"speaker":"Ethan","line":"Really? I thought the trailer looked amazing."},
+  {"speaker":"Grace","line":"The critic said the visuals were great, but the story felt weak."},
+  {"speaker":"Ethan","line":"That's a shame. I was really looking forward to it."},
+  {"speaker":"Grace","line":"Maybe we should wait and see other opinions before deciding."},
+  {"speaker":"Ethan","line":"Good idea. Let's check a few more reviews first."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Grace and Ethan discussing?","options":["A movie review","A book review","A restaurant review","A hotel review"],"answer":"A movie review","explanation":"They discuss a review of a new sci-fi movie.","skill":"main_idea"},
+  {"type":"detail","prompt":"What did the critic say about the visuals?","options":["They were great","They were terrible","They were boring","They were missing"],"answer":"They were great","explanation":"Grace says the critic said the visuals were great.","skill":"details"},
+  {"type":"detail","prompt":"What was the critic's opinion of the story?","options":["It felt weak","It was perfect","It was too long","It was confusing"],"answer":"It felt weak","explanation":"Grace says the story felt weak, according to the critic.","skill":"details"},
+  {"type":"intention","prompt":"Why do they decide to check more reviews?","options":["To get more opinions before deciding","To find where to buy tickets","To find the showtime","To contact the director"],"answer":"To get more opinions before deciding","explanation":"Grace suggests waiting to see other opinions.","skill":"intention"}
+ ],
+ "dictation":[
+  {"sentence":"The critic said the visuals were great, but the story felt weak.","blanks":["visuals","weak"],"challenge":"fast_speech","explanation":"Listen for the contrast word \"but\" connecting two opinions."},
+  {"sentence":"Maybe we should wait and see other opinions before deciding.","blanks":["wait","opinions"],"challenge":"connected_speech","explanation":"\"wait and see\" is a common set phrase said quickly."}
+ ],
+ "connected_speech":[{"written":"wait and","spoken":"way-tn"}]
+},
+{
+ "slug":"ent-b1-concert-plans",
+ "title":"Planning to go to a concert",
+ "level":"B1",
+ "category":"Entertainment & Media",
+ "topic":"Live music",
+ "difficulty":3,
+ "duration_seconds":32,
+ "accent":"american",
+ "script":[
+  {"speaker":"Liam","line":"My favorite band is playing downtown next Saturday."},
+  {"speaker":"Nora","line":"No way, I've wanted to see them live for ages!"},
+  {"speaker":"Liam","line":"Tickets go on sale tomorrow morning at ten."},
+  {"speaker":"Nora","line":"Let's set an alarm so we don't miss it — they sell out fast."},
+  {"speaker":"Liam","line":"Good idea. I'll buy two tickets as soon as it opens."},
+  {"speaker":"Nora","line":"I'm so excited, this is going to be amazing."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Liam and Nora planning?","options":["Going to a concert","Going to a movie","Going on a trip","Going to a restaurant"],"answer":"Going to a concert","explanation":"They plan to see a band play live.","skill":"main_idea"},
+  {"type":"detail","prompt":"When do tickets go on sale?","options":["Tomorrow morning at ten","Today at noon","Next Saturday","Tonight"],"answer":"Tomorrow morning at ten","explanation":"Liam says tickets go on sale tomorrow morning at ten.","skill":"numbers_dates"},
+  {"type":"detail","prompt":"Why do they set an alarm?","options":["So they don't miss the ticket sale","To wake up for work","To catch a train","To remember to eat"],"answer":"So they don't miss the ticket sale","explanation":"Nora suggests setting an alarm because tickets sell out fast.","skill":"intention"},
+  {"type":"detail","prompt":"How many tickets will Liam buy?","options":["One","Two","Three","Four"],"answer":"Two","explanation":"Liam says he'll buy two tickets.","skill":"numbers_dates"}
+ ],
+ "dictation":[
+  {"sentence":"Tickets go on sale tomorrow morning at ten.","blanks":["tickets","ten"],"challenge":"numbers","explanation":"Listen carefully for the time \"at ten\"."},
+  {"sentence":"I'll buy two tickets as soon as it opens.","blanks":["two","opens"],"challenge":"connected_speech","explanation":"\"as soon as\" links together smoothly in fast speech."}
+ ],
+ "connected_speech":[{"written":"as soon as","spoken":"uhsoonuz"}]
+},
+{
+ "slug":"ent-b2-podcast-celebrity",
+ "title":"A podcast conversation about celebrity news",
+ "level":"B2",
+ "category":"Entertainment & Media",
+ "topic":"Podcasts",
+ "difficulty":4,
+ "duration_seconds":40,
+ "accent":"american",
+ "script":[
+  {"speaker":"Host","line":"So this week, everyone's talking about the actor's surprise announcement."},
+  {"speaker":"Guest","line":"Right, nobody expected him to step away from the franchise after four films."},
+  {"speaker":"Host","line":"Do you think it's really about wanting new challenges, like he said?"},
+  {"speaker":"Guest","line":"Honestly, I think there's more to it than he's letting on publicly."},
+  {"speaker":"Host","line":"That's fair. These statements are usually pretty carefully worded."},
+  {"speaker":"Guest","line":"Exactly, and we probably won't know the full story for a while."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the podcast discussing?","options":["An actor's surprise announcement","A new law","A sports score","A weather forecast"],"answer":"An actor's surprise announcement","explanation":"The host and guest discuss an actor leaving a film franchise.","skill":"main_idea"},
+  {"type":"detail","prompt":"How many films had the actor been in?","options":["Two","Three","Four","Five"],"answer":"Four","explanation":"The guest mentions he's stepping away after four films.","skill":"numbers_dates"},
+  {"type":"intention","prompt":"What does the guest imply by \"there's more to it than he's letting on\"?","options":["The actor isn't telling the full reason","The actor is being completely honest","The news is fake","The actor will return soon"],"answer":"The actor isn't telling the full reason","explanation":"The guest suspects there's an untold reason behind the decision.","skill":"intention"},
+  {"type":"vocabulary","prompt":"What does \"carefully worded\" suggest about the statement?","options":["It was written to avoid revealing too much","It was written quickly","It contained mistakes","It was very long"],"answer":"It was written to avoid revealing too much","explanation":"Carefully worded statements are crafted to control what's revealed.","skill":"vocabulary"}
+ ],
+ "dictation":[
+  {"sentence":"Nobody expected him to step away from the franchise after four films.","blanks":["expected","franchise"],"challenge":"fast_speech","explanation":"Podcast speech is often fast and casual — listen for the key facts."},
+  {"sentence":"These statements are usually pretty carefully worded.","blanks":["statements","worded"],"challenge":"fast_speech","explanation":"Listen for the stressed word \"carefully\", which carries the main idea."}
+ ],
+ "connected_speech":[{"written":"step away","spoken":"stepuh-way"}]
+},
+{
+ "slug":"ent-b2-book-vs-movie",
+ "title":"Debating book versus movie adaptation",
+ "level":"B2",
+ "category":"Entertainment & Media",
+ "topic":"Adaptations",
+ "difficulty":4,
+ "duration_seconds":38,
+ "accent":"american",
+ "script":[
+  {"speaker":"Olivia","line":"I finally watched the movie adaptation, but honestly, the book was so much better."},
+  {"speaker":"Marcus","line":"I actually think the movie did a decent job condensing the plot."},
+  {"speaker":"Olivia","line":"Maybe, but they cut out so much of the main character's backstory."},
+  {"speaker":"Marcus","line":"True, though a two-hour film can't cover everything a five-hundred-page novel does."},
+  {"speaker":"Olivia","line":"Fair point. I suppose adaptations always have to make trade-offs."},
+  {"speaker":"Marcus","line":"Exactly, it's a different medium with different strengths."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Olivia and Marcus debating?","options":["Whether the book or the movie is better","Which actor is more famous","Where to watch the movie","How much tickets cost"],"answer":"Whether the book or the movie is better","explanation":"They compare the book to its movie adaptation.","skill":"main_idea"},
+  {"type":"detail","prompt":"What does Olivia say was cut from the movie?","options":["The main character's backstory","The ending","The soundtrack","The title"],"answer":"The main character's backstory","explanation":"Olivia says they cut out much of the backstory.","skill":"details"},
+  {"type":"intention","prompt":"Why does Marcus mention the film is only two hours long?","options":["To explain why some content was cut","To criticize the director","To recommend a different movie","To complain about ticket prices"],"answer":"To explain why some content was cut","explanation":"Marcus argues a short film can't include everything from a long novel.","skill":"intention"},
+  {"type":"true_false","prompt":"Olivia and Marcus agree by the end of the conversation.","options":["True","False"],"answer":"True","explanation":"Olivia agrees that adaptations always involve trade-offs.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"They cut out so much of the main character's backstory.","blanks":["cut","backstory"],"challenge":"fast_speech","explanation":"Listen for the phrasal verb \"cut out\", meaning to remove."},
+  {"sentence":"A two-hour film can't cover everything a five-hundred-page novel does.","blanks":["film","novel"],"challenge":"numbers","explanation":"Listen carefully for the two different length descriptions."}
+ ],
+ "connected_speech":[{"written":"cut out","spoken":"cuh-dout"}]
+},
+{
+ "slug":"ent-c1-radio-review",
+ "title":"A critic reviewing a film on the radio",
+ "level":"C1",
+ "category":"Entertainment & Media",
+ "topic":"Film criticism",
+ "difficulty":5,
+ "duration_seconds":46,
+ "accent":"american",
+ "script":[
+  {"speaker":"Critic","line":"This week's release is ambitious, though it doesn't entirely stick the landing."},
+  {"speaker":"Critic","line":"The director clearly wanted to subvert genre expectations, and for the most part, that gamble pays off."},
+  {"speaker":"Critic","line":"The cinematography is genuinely stunning, elevating even the film's weaker narrative stretches."},
+  {"speaker":"Critic","line":"Where it falters is pacing — the middle act drags noticeably, undermining the tension built earlier."},
+  {"speaker":"Critic","line":"Still, the final act redeems much of that, delivering an emotionally resonant conclusion."},
+  {"speaker":"Critic","line":"On balance, I'd call it a flawed but worthwhile watch, particularly for fans of the genre."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the critic's overall opinion of the film?","options":["Flawed but worthwhile","A complete masterpiece","A total disaster","Not worth discussing"],"answer":"Flawed but worthwhile","explanation":"The critic explicitly calls it \"a flawed but worthwhile watch\".","skill":"main_idea"},
+  {"type":"vocabulary","prompt":"What does \"doesn't stick the landing\" mean here?","options":["Doesn't fully succeed by the end","Crashes literally","Is too short","Has no ending"],"answer":"Doesn't fully succeed by the end","explanation":"It's an idiom meaning the film doesn't fully deliver on its ambitions.","skill":"vocabulary"},
+  {"type":"detail","prompt":"What does the critic praise?","options":["The cinematography","The soundtrack","The costumes","The marketing"],"answer":"The cinematography","explanation":"The critic calls the cinematography \"genuinely stunning\".","skill":"details"},
+  {"type":"detail","prompt":"What is the critic's main criticism?","options":["The pacing in the middle act","The lead actor's performance","The film's length","The lack of dialogue"],"answer":"The pacing in the middle act","explanation":"The critic says the middle act drags noticeably.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"The director clearly wanted to subvert genre expectations, and for the most part, that gamble pays off.","blanks":["subvert","gamble"],"challenge":"fast_speech","explanation":"Film criticism uses precise, information-dense vocabulary — listen for the key evaluative words."},
+  {"sentence":"Where it falters is pacing — the middle act drags noticeably, undermining the tension built earlier.","blanks":["falters","pacing"],"challenge":"fast_speech","explanation":"Listen for the contrast signaled by \"where it falters\"."}
+ ],
+ "connected_speech":[{"written":"pays off","spoken":"pay-zoff"}]
+},
+{
+ "slug":"ent-c1-media-influence",
+ "title":"A deep discussion about media influence on society",
+ "level":"C1",
+ "category":"Entertainment & Media",
+ "topic":"Media studies",
+ "difficulty":5,
+ "duration_seconds":50,
+ "accent":"american",
+ "script":[
+  {"speaker":"Dana","line":"It's remarkable how streaming algorithms have reshaped not just what we watch, but how we think about culture itself."},
+  {"speaker":"Felix","line":"Right, there's a real tension between giving people what they want and exposing them to anything unfamiliar."},
+  {"speaker":"Dana","line":"Exactly — recommendation systems tend to reinforce existing preferences rather than challenge them."},
+  {"speaker":"Felix","line":"Which raises the question of whether we're becoming more culturally isolated, even while consuming more content than ever."},
+  {"speaker":"Dana","line":"That's the paradox, isn't it? Endless choice, but increasingly narrow exposure."},
+  {"speaker":"Felix","line":"It's worth asking what responsibility platforms actually have in addressing that."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the main topic of this discussion?","options":["How streaming algorithms shape culture and exposure","How to fix a broken streaming app","The history of cinema","Box office statistics"],"answer":"How streaming algorithms shape culture and exposure","explanation":"Dana and Felix discuss the cultural effects of recommendation algorithms.","skill":"main_idea"},
+  {"type":"vocabulary","prompt":"What does 'paradox' mean in this context?","options":["A situation with two seemingly contradictory aspects","A type of streaming service","A movie genre","A marketing strategy"],"answer":"A situation with two seemingly contradictory aspects","explanation":"The paradox is having endless choice but narrow actual exposure.","skill":"vocabulary"},
+  {"type":"detail","prompt":"What do recommendation systems tend to do, according to Dana?","options":["Reinforce existing preferences","Randomly suggest content","Always suggest new genres","Ignore user history"],"answer":"Reinforce existing preferences","explanation":"Dana says they tend to reinforce existing preferences rather than challenge them.","skill":"details"},
+  {"type":"intention","prompt":"Why does Felix mention platform responsibility?","options":["To question what role platforms should play in this issue","To defend streaming companies completely","To end the conversation","To recommend a specific platform"],"answer":"To question what role platforms should play in this issue","explanation":"Felix raises it as an open, worthwhile question to consider.","skill":"intention"}
+ ],
+ "dictation":[
+  {"sentence":"Recommendation systems tend to reinforce existing preferences rather than challenge them.","blanks":["reinforce","preferences"],"challenge":"fast_speech","explanation":"Abstract academic-style discussion moves quickly — listen for the contrast \"rather than\"."},
+  {"sentence":"That's the paradox, isn't it? Endless choice, but increasingly narrow exposure.","blanks":["paradox","exposure"],"challenge":"fast_speech","explanation":"Listen for the tag question \"isn't it\", commonly reduced in fast speech."}
+ ],
+ "connected_speech":[{"written":"isn't it","spoken":"iz-nit"}]
+}
+]}

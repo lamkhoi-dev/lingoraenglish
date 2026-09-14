@@ -299,6 +299,364 @@
         { "text": "I did it just 'cause I wanted to.", "pattern": "I did it just 'cause I wanted to." },
         { "text": "We're gonna need more chairs.", "pattern": "We're gonna need more chairs." }
       ]
+    },
+    {
+      "title": "ain't — am not, is not, are not",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Ain't' replaces am not/is not/are not/has not/have not in very casual speech and is heard everywhere in songs and informal talk.",
+      "points": ["I am not → I ain't", "that is not → that ain't", "you have not → you ain't"],
+      "caution": "Never use in writing or formal speech — considered non-standard grammar, even though extremely common informally.",
+      "items": [
+        { "text": "I'm not doing that.", "pattern": "I ain't doing that." },
+        { "text": "That's not right.", "pattern": "That ain't right." },
+        { "text": "You haven't seen anything yet.", "pattern": "You ain't seen nothing yet." }
+      ]
+    },
+    {
+      "title": "gotcha — got you",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A very common casual way to say 'I understand' or literally 'caught you'.",
+      "points": ["got you (understand) → gotcha", "got you (caught) → gotcha"],
+      "caution": "Informal spoken only — say 'I understand' or 'got it' in professional contexts.",
+      "items": [
+        { "text": "Got you — I'll send it by five.", "pattern": "Gotcha — I'll send it by five." },
+        { "text": "I got you! You looked so surprised.", "pattern": "Gotcha! You looked so surprised." }
+      ]
+    },
+    {
+      "title": "musta, mighta — must have, might have",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Modal-perfect reductions used for guesses about the past, alongside coulda/woulda/shoulda.",
+      "points": ["must have → musta", "might have → mighta"],
+      "caution": "Informal spoken only — write 'must have'/'might have' in full otherwise.",
+      "items": [
+        { "text": "She must have left already.", "pattern": "She musta left already." },
+        { "text": "He might have forgotten.", "pattern": "He mighta forgotten." }
+      ]
+    },
+    {
+      "title": "shouldn'ta, couldn'ta — negative past modals",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "The negative counterparts of coulda/woulda/shoulda, common when talking about regrets.",
+      "points": ["shouldn't have → shouldn'ta", "couldn't have → couldn'ta"],
+      "caution": "Informal spoken only — write 'shouldn't have'/'couldn't have' in full in formal contexts.",
+      "items": [
+        { "text": "You shouldn't have said that.", "pattern": "You shouldn'ta said that." },
+        { "text": "I couldn't have known.", "pattern": "I couldn'ta known." }
+      ]
+    },
+    {
+      "title": "g-dropping: doin', goin', talkin'",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "In relaxed speech, the final -ing sound often drops its 'g', so it sounds like -in'. This happens across almost any -ing verb.",
+      "points": ["doing → doin'", "going → goin'", "talking → talkin'", "thinking → thinkin'"],
+      "caution": "Casual speech only — pronounce the full '-ing' clearly in presentations, interviews and exams.",
+      "items": [
+        { "text": "What are you doing?", "pattern": "Whatcha doin'?" },
+        { "text": "I'm just thinking out loud.", "pattern": "I'm just thinkin' out loud." },
+        { "text": "We were talking about you.", "pattern": "We were talkin' about you." }
+      ]
+    },
+    {
+      "title": "somethin', nothin', anythin'",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "The same g-dropping pattern applies to indefinite pronouns ending in -thing.",
+      "points": ["something → somethin'", "nothing → nothin'", "anything → anythin'"],
+      "caution": "Casual speech only.",
+      "items": [
+        { "text": "I need something to drink.", "pattern": "I need somethin' to drink." },
+        { "text": "There's nothing to worry about.", "pattern": "There's nothin' to worry about." },
+        { "text": "Do you need anything else?", "pattern": "Do you need anythin' else?" }
+      ]
+    },
+    {
+      "title": "'em — them",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Them' reduces to 'em (the 'th' drops) after a verb, in very common casual speech.",
+      "points": ["tell them → tell 'em", "get them → get 'em", "ask them → ask 'em"],
+      "caution": "Informal spoken only — say 'them' in full in writing or formal speech.",
+      "items": [
+        { "text": "Tell them I said hi.", "pattern": "Tell 'em I said hi." },
+        { "text": "Go get them from the car.", "pattern": "Go get 'em from the car." }
+      ]
+    },
+    {
+      "title": "'n' — and",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'And' reduces to a quick 'n' sound between two closely linked words, especially in set phrases.",
+      "points": ["rock and roll → rock 'n' roll", "fish and chips → fish 'n' chips", "back and forth → back 'n' forth"],
+      "caution": "Common in set phrases and fast speech — say 'and' clearly in formal writing.",
+      "items": [
+        { "text": "I love rock and roll.", "pattern": "I love rock 'n' roll." },
+        { "text": "We went back and forth about it.", "pattern": "We went back 'n' forth about it." }
+      ]
+    },
+    {
+      "title": "standalone 'cause — because",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "'Because' on its own (not just 'because of') often shortens to 'cause in casual answers.",
+      "points": ["because → 'cause"],
+      "caution": "Informal spoken only — write 'because' in full otherwise.",
+      "items": [
+        { "text": "I'm tired because I didn't sleep well.", "pattern": "I'm tired 'cause I didn't sleep well." },
+        { "text": "Why? Because I said so.", "pattern": "Why? 'Cause I said so." }
+      ]
+    },
+    {
+      "title": "'course — of course",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "'Of course' often drops its first word in quick, casual replies.",
+      "points": ["of course → 'course"],
+      "caution": "Casual spoken only.",
+      "items": [
+        { "text": "Of course I'll help you.", "pattern": "'Course I'll help you." },
+        { "text": "Can you come? Of course!", "pattern": "Can you come? 'Course!" }
+      ]
+    },
+    {
+      "title": "aight — all right",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A very common casual pronunciation of 'all right', used to agree or acknowledge.",
+      "points": ["all right → aight"],
+      "caution": "Very informal — say 'all right' or 'okay' in professional contexts.",
+      "items": [
+        { "text": "All right, let's do it.", "pattern": "Aight, let's do it." },
+        { "text": "Is everything all right?", "pattern": "Is everything aight?" }
+      ]
+    },
+    {
+      "title": "letcha — let you",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Let you' reduces the same way 'want you'/'wantcha' does.",
+      "points": ["let you → letcha"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "I won't let you down.", "pattern": "I won't letcha down." },
+        { "text": "I'll let you know tomorrow.", "pattern": "I'll letcha know tomorrow." }
+      ]
+    },
+    {
+      "title": "jever — did you ever",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Another extreme fast-speech blend, similar to 'jeetyet' — several words compress into one sound.",
+      "points": ["did you ever → jever"],
+      "caution": "For recognising fast native speech, not for your own formal speaking.",
+      "items": [
+        { "text": "Did you ever try sushi?", "pattern": "Jever try sushi?" }
+      ]
+    },
+    {
+      "title": "gonna hafta — going to have to",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Two reductions stack together when 'going to' and 'have to' appear side by side.",
+      "points": ["going to have to → gonna hafta"],
+      "caution": "Informal spoken only — write 'going to have to' in full otherwise.",
+      "items": [
+        { "text": "We're going to have to leave soon.", "pattern": "We're gonna hafta leave soon." },
+        { "text": "I'm going to have to call you back.", "pattern": "I'm gonna hafta call you back." }
+      ]
+    },
+    {
+      "title": "not gonna, wasn't gonna",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "The 'gonna' reduction still applies with negatives and past tense.",
+      "points": ["not going to → not gonna", "wasn't going to → wasn't gonna"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "I'm not going to argue.", "pattern": "I'm not gonna argue." },
+        { "text": "She wasn't going to come.", "pattern": "She wasn't gonna come." }
+      ]
+    },
+    {
+      "title": "innit — isn't it (British)",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "uk",
+      "explain": "A very common British English tag question reduction, used to confirm or add emphasis.",
+      "points": ["isn't it → innit"],
+      "caution": "Very informal British slang — don't use in formal speech, even in the UK.",
+      "items": [
+        { "text": "It's cold today, isn't it?", "pattern": "It's cold today, innit?" },
+        { "text": "That's mad, isn't it?", "pattern": "That's mad, innit?" }
+      ]
+    },
+    {
+      "title": "whaddya say — what do you say",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A casual way to propose something or ask for agreement.",
+      "points": ["what do you say → whaddya say"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "What do you say we grab lunch?", "pattern": "Whaddya say we grab lunch?" }
+      ]
+    },
+    {
+      "title": "y'know — you know (filler)",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "An extremely common filler phrase in casual spoken English, used while thinking or for emphasis.",
+      "points": ["you know → y'know"],
+      "caution": "Casual filler only — overusing it sounds unpolished even informally.",
+      "items": [
+        { "text": "It was, you know, kind of awkward.", "pattern": "It was, y'know, kinda awkward." },
+        { "text": "You know what I mean?", "pattern": "Y'know what I mean?" }
+      ]
+    },
+    {
+      "title": "s'up — what's up",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A very casual greeting, shortened from 'what's up'.",
+      "points": ["what's up → s'up"],
+      "caution": "Very informal greeting between friends only.",
+      "items": [
+        { "text": "Hey, what's up?", "pattern": "Hey, s'up?" }
+      ]
+    },
+    {
+      "title": "tell 'im, ask 'er — him, her",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Him' and 'her' also weaken in casual speech, similar to 'them' → 'em.",
+      "points": ["tell him → tell 'im", "ask her → ask 'er"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "Tell him I called.", "pattern": "Tell 'im I called." },
+        { "text": "Ask her what she thinks.", "pattern": "Ask 'er what she thinks." }
+      ]
+    },
+    {
+      "title": "kinda sorta — combined hedge",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Kinda' and 'sorta' are often combined for extra hedging in very casual speech.",
+      "points": ["kind of sort of → kinda sorta"],
+      "caution": "Very informal — avoid in any professional or exam context.",
+      "items": [
+        { "text": "It's kind of, sort of, complicated.", "pattern": "It's kinda sorta complicated." }
+      ]
+    },
+    {
+      "title": "dincha — didn't you",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Another fast-speech question-starter blend, alongside dja and wouldja.",
+      "points": ["didn't you → dincha"],
+      "caution": "For recognising fast native speech, not for your own formal speaking.",
+      "items": [
+        { "text": "You saw that, didn't you?", "pattern": "You saw that, dincha?" }
+      ]
+    },
+    {
+      "title": "hadta — had to",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "The past-tense form of 'have to' reduces the same way the present form does.",
+      "points": ["had to → hadta"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "I had to leave early.", "pattern": "I hadta leave early." }
+      ]
+    },
+    {
+      "title": "willcha — will you",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A casual reduction used in informal requests, alongside wouldja and couldja-style forms.",
+      "points": ["will you → willcha"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "Will you help me with this?", "pattern": "Willcha help me with this?" }
+      ]
+    },
+    {
+      "title": "lotsa, buncha — lots of, bunch of",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Quantity phrases with 'of' reduce the same way 'cup of' does in 'cuppa'.",
+      "points": ["lots of → lotsa", "bunch of → buncha"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "There's lots of food left.", "pattern": "There's lotsa food left." },
+        { "text": "I have a bunch of questions.", "pattern": "I have a buncha questions." }
+      ]
+    },
+    {
+      "title": "helluva — hell of a",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A strong informal intensifier meaning 'a very impressive/big'.",
+      "points": ["hell of a → helluva"],
+      "caution": "Mildly crude — fine with friends, avoid in professional or polite settings.",
+      "items": [
+        { "text": "That was a hell of a game.", "pattern": "That was a helluva game." }
+      ]
+    },
+    {
+      "title": "howdy — how do you do",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A historical reduction of the old greeting 'how do you do', now its own casual, friendly greeting (especially in the Southern US).",
+      "points": ["how do you do → howdy"],
+      "caution": "Casual, friendly greeting only.",
+      "items": [
+        { "text": "How do you do, folks?", "pattern": "Howdy, folks!" }
+      ]
+    },
+    {
+      "title": "s'pose — I suppose",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'I suppose' commonly drops its middle syllable in casual speech, used to express mild uncertainty or reluctant agreement — distinct from 'supposed to' → s'posed to.",
+      "points": ["I suppose → I s'pose"],
+      "caution": "Informal spoken only — write 'I suppose' in full otherwise.",
+      "items": [
+        { "text": "I suppose you're right.", "pattern": "I s'pose you're right." },
+        { "text": "I suppose so.", "pattern": "I s'pose so." }
+      ]
     }
   ]
 }

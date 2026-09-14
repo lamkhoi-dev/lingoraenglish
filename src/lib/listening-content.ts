@@ -100,6 +100,8 @@ export const LISTENING_CATEGORIES = [
   "Canadian Life",
   "Travel",
   "Social English",
+  "Academic English",
+  "Entertainment & Media",
 ] as const;
 
 export const SKILL_LABEL: Record<ListeningSkill, string> = {
