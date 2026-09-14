@@ -1,0 +1,2509 @@
+{
+ "slug": "workplace-coworkers",
+ "name": "Workplace & Coworkers",
+ "topic_group": "Work & Professional English",
+ "blurb": "Practice natural spoken English for office life, meetings, deadlines, and working with colleagues.",
+ "sort_order": 9,
+ "sentences": [
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "Good morning, everyone.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /g/ in 'good'",
+   "stress_focus": "stress on MORNING and EVERYONE",
+   "intonation_focus": "falling greeting intonation",
+   "connected_speech_focus": "linking 'good morning'",
+   "vocabulary": [
+    {
+     "word": "everyone",
+     "meaning": "all the people present"
+    }
+   ],
+   "grammar_focus": "greeting phrase",
+   "tags": [
+    "greetings",
+    "office",
+    "morning"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The meeting starts at nine.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /st/ in 'starts'",
+   "stress_focus": "stress on MEETING and NINE",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'starts at'",
+   "vocabulary": [
+    {
+     "word": "meeting",
+     "meaning": "a gathering to discuss work"
+    }
+   ],
+   "grammar_focus": "present simple for schedules",
+   "tags": [
+    "meetings",
+    "time",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "My coworker sits next to me.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /k/ in 'coworker'",
+   "stress_focus": "stress on COWORKER and ME",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'sits next'",
+   "vocabulary": [
+    {
+     "word": "coworker",
+     "meaning": "a person you work with"
+    }
+   ],
+   "grammar_focus": "present simple",
+   "tags": [
+    "coworkers",
+    "office",
+    "location"
+   ]
+  },
+  {
+   "subcategory": "Email",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I sent the email this morning.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense /t/ ending 'sent'",
+   "stress_focus": "stress on SENT and MORNING",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'sent the'",
+   "vocabulary": [
+    {
+     "word": "email",
+     "meaning": "a message sent electronically"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "email",
+    "office",
+    "communication"
+   ]
+  },
+  {
+   "subcategory": "Breaks",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "Let's take a short break.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'let's' /l\u025bts/",
+   "stress_focus": "stress on TAKE and BREAK",
+   "intonation_focus": "falling suggestion intonation",
+   "connected_speech_focus": "linking 'take a'",
+   "vocabulary": [
+    {
+     "word": "break",
+     "meaning": "a short pause from work"
+    }
+   ],
+   "grammar_focus": "suggestion with 'let's'",
+   "tags": [
+    "breaks",
+    "suggestion",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The report is due tomorrow.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /d\u0292u/ in 'due'",
+   "stress_focus": "stress on REPORT and TOMORROW",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is due'",
+   "vocabulary": [
+    {
+     "word": "due",
+     "meaning": "expected to be finished"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "deadlines",
+    "reports",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "Do you know Sarah from HR?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'do you' /d\u0292\u0259/",
+   "stress_focus": "stress on SARAH and HR",
+   "intonation_focus": "rising intonation",
+   "connected_speech_focus": "linking 'know Sarah'",
+   "vocabulary": [
+    {
+     "word": "HR",
+     "meaning": "human resources department"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "coworkers",
+    "question",
+    "hr"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "Where is the meeting today?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising pitch on 'where'",
+   "stress_focus": "stress on MEETING and TODAY",
+   "intonation_focus": "falling wh-question intonation",
+   "connected_speech_focus": "linking 'is the'",
+   "vocabulary": [
+    {
+     "word": "meeting room",
+     "meaning": "a room used for meetings"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "meetings",
+    "question",
+    "location"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "My desk is by the window.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /w/ in 'window'",
+   "stress_focus": "stress on DESK and WINDOW",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is by'",
+   "vocabulary": [
+    {
+     "word": "desk",
+     "meaning": "a table used for work"
+    }
+   ],
+   "grammar_focus": "present simple with location",
+   "tags": [
+    "office",
+    "desk",
+    "location"
+   ]
+  },
+  {
+   "subcategory": "Breaks",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I need a coffee break.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /k/ in 'coffee'",
+   "stress_focus": "stress on COFFEE and BREAK",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'need a'",
+   "vocabulary": [
+    {
+     "word": "coffee break",
+     "meaning": "a short pause to drink coffee"
+    }
+   ],
+   "grammar_focus": "present simple",
+   "tags": [
+    "breaks",
+    "coffee",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I finished my report.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense /t/ ending 'finished'",
+   "stress_focus": "stress on FINISHED and REPORT",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'finished my'",
+   "vocabulary": [
+    {
+     "word": "finished",
+     "meaning": "completed"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "tasks",
+    "reports",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "Can you help me, please?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'can you' /k\u0259nj\u0259/",
+   "stress_focus": "stress on HELP and PLEASE",
+   "intonation_focus": "rising polite intonation",
+   "connected_speech_focus": "linking 'help me'",
+   "vocabulary": [
+    {
+     "word": "help",
+     "meaning": "give assistance"
+    }
+   ],
+   "grammar_focus": "polite request with 'can'",
+   "tags": [
+    "coworkers",
+    "request",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The manager called a meeting.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense 'called' /d/",
+   "stress_focus": "stress on MANAGER and MEETING",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'called a'",
+   "vocabulary": [
+    {
+     "word": "manager",
+     "meaning": "a person who leads a team"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "meetings",
+    "manager",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Email",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "Please check your email.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "soft /pl/ cluster in 'please'",
+   "stress_focus": "stress on CHECK and EMAIL",
+   "intonation_focus": "falling polite intonation",
+   "connected_speech_focus": "linking 'check your'",
+   "vocabulary": [
+    {
+     "word": "check",
+     "meaning": "look at to confirm"
+    }
+   ],
+   "grammar_focus": "imperative with please",
+   "tags": [
+    "email",
+    "request",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "She works in marketing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "3rd person /s/ in 'works'",
+   "stress_focus": "stress on WORKS and MARKETING",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'works in'",
+   "vocabulary": [
+    {
+     "word": "marketing",
+     "meaning": "promoting products or services"
+    }
+   ],
+   "grammar_focus": "present simple 3rd person",
+   "tags": [
+    "tasks",
+    "department",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The printer is broken again.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /br/ cluster in 'broken'",
+   "stress_focus": "stress on PRINTER and BROKEN",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is broken'",
+   "vocabulary": [
+    {
+     "word": "printer",
+     "meaning": "a machine that prints documents"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "office",
+    "equipment",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "response",
+   "sentence": "Sure, no problem at all.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'no problem' /no\u028a\u02c8pr\u0251bl\u0259m/",
+   "stress_focus": "stress on SURE and PROBLEM",
+   "intonation_focus": "falling response intonation",
+   "connected_speech_focus": "linking 'no problem'",
+   "vocabulary": [
+    {
+     "word": "no problem",
+     "meaning": "expression meaning it's fine"
+    }
+   ],
+   "grammar_focus": "affirmative response",
+   "tags": [
+    "coworkers",
+    "response",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "We have a tight deadline.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /t/ in 'tight'",
+   "stress_focus": "stress on TIGHT and DEADLINE",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'have a'",
+   "vocabulary": [
+    {
+     "word": "tight deadline",
+     "meaning": "very little time to finish"
+    }
+   ],
+   "grammar_focus": "present simple with 'have'",
+   "tags": [
+    "deadlines",
+    "time",
+    "pressure"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The meeting was cancelled today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past passive 'was cancelled'",
+   "stress_focus": "stress on MEETING and CANCELLED",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'was cancelled'",
+   "vocabulary": [
+    {
+     "word": "cancelled",
+     "meaning": "called off, not happening"
+    }
+   ],
+   "grammar_focus": "past passive voice",
+   "tags": [
+    "meetings",
+    "schedule",
+    "office"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I work from home today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /h/ in 'home'",
+   "stress_focus": "stress on WORK and HOME",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'work from'",
+   "vocabulary": [
+    {
+     "word": "work from home",
+     "meaning": "do your job at home instead of the office"
+    }
+   ],
+   "grammar_focus": "present simple",
+   "tags": [
+    "office",
+    "remote",
+    "routine"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "He is new to the team.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /nu/ in 'new'",
+   "stress_focus": "stress on NEW and TEAM",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is new'",
+   "vocabulary": [
+    {
+     "word": "team",
+     "meaning": "a group working together"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "coworkers",
+    "team",
+    "new hire"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Could you send the file?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "polite reduced 'could you' /k\u028ad\u0292\u0259/",
+   "stress_focus": "stress on SEND and FILE",
+   "intonation_focus": "rising polite intonation",
+   "connected_speech_focus": "linking 'send the'",
+   "vocabulary": [
+    {
+     "word": "file",
+     "meaning": "a document"
+    }
+   ],
+   "grammar_focus": "polite modal request",
+   "tags": [
+    "tasks",
+    "request",
+    "email"
+   ]
+  },
+  {
+   "subcategory": "Breaks",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "Lunch is at noon today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /n/ in 'noon'",
+   "stress_focus": "stress on LUNCH and NOON",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is at'",
+   "vocabulary": [
+    {
+     "word": "noon",
+     "meaning": "twelve o'clock in the day"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "breaks",
+    "lunch",
+    "schedule"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The office closes at six.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /kl/ cluster in 'closes'",
+   "stress_focus": "stress on OFFICE and SIX",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'closes at'",
+   "vocabulary": [
+    {
+     "word": "closes",
+     "meaning": "shuts for the day"
+    }
+   ],
+   "grammar_focus": "present simple for schedules",
+   "tags": [
+    "office",
+    "time",
+    "schedule"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "My boss is very kind.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /k/ in 'kind'",
+   "stress_focus": "stress on BOSS and KIND",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is very'",
+   "vocabulary": [
+    {
+     "word": "boss",
+     "meaning": "a person who manages you"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "coworkers",
+    "boss",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I'll join in five minutes.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'll' /a\u026al/",
+   "stress_focus": "stress on JOIN and FIVE",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'join in'",
+   "vocabulary": [
+    {
+     "word": "join",
+     "meaning": "enter or take part in"
+    }
+   ],
+   "grammar_focus": "future with 'will'",
+   "tags": [
+    "meetings",
+    "future",
+    "time"
+   ]
+  },
+  {
+   "subcategory": "Email",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I forgot to reply.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense 'forgot' clear vowel",
+   "stress_focus": "stress on FORGOT and REPLY",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'forgot to'",
+   "vocabulary": [
+    {
+     "word": "reply",
+     "meaning": "respond to a message"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "email",
+    "mistake",
+    "communication"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "He's really easy to work with.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'he's' /hiz/",
+   "stress_focus": "stress on EASY and WORK",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'easy to'",
+   "vocabulary": [
+    {
+     "word": "easy to work with",
+     "meaning": "cooperative and pleasant"
+    }
+   ],
+   "grammar_focus": "present simple opinion",
+   "tags": [
+    "coworkers",
+    "opinion",
+    "teamwork"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "We're behind schedule.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'we're' /w\u026ar/",
+   "stress_focus": "stress on BEHIND and SCHEDULE",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'behind schedule'",
+   "vocabulary": [
+    {
+     "word": "behind schedule",
+     "meaning": "later than planned"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "deadlines",
+    "schedule",
+    "statement"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Can we push it back?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'can we' /k\u0259nwi/",
+   "stress_focus": "stress on PUSH and BACK",
+   "intonation_focus": "rising polite intonation",
+   "connected_speech_focus": "linking 'push it'",
+   "vocabulary": [
+    {
+     "word": "push back",
+     "meaning": "postpone to a later time"
+    }
+   ],
+   "grammar_focus": "phrasal verb request",
+   "tags": [
+    "meetings",
+    "phrasal verb",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "The Wi-Fi keeps dropping.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /wa\u026afa\u026a/ pronunciation",
+   "stress_focus": "stress on WIFI and DROPPING",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'keeps dropping'",
+   "vocabulary": [
+    {
+     "word": "dropping",
+     "meaning": "losing connection"
+    }
+   ],
+   "grammar_focus": "present simple with gerund",
+   "tags": [
+    "office",
+    "technology",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I'm swamped this week.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'm' /a\u026am/",
+   "stress_focus": "stress on SWAMPED and WEEK",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'swamped this'",
+   "vocabulary": [
+    {
+     "word": "swamped",
+     "meaning": "overwhelmed with work"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "tasks",
+    "workload",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "response",
+   "sentence": "Yeah, that works for me.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'yeah' /j\u025b\u0259/",
+   "stress_focus": "stress on WORKS and ME",
+   "intonation_focus": "falling response intonation",
+   "connected_speech_focus": "linking 'works for'",
+   "vocabulary": [
+    {
+     "word": "works for me",
+     "meaning": "is acceptable to me"
+    }
+   ],
+   "grammar_focus": "idiomatic response",
+   "tags": [
+    "coworkers",
+    "response",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "We need to speed up.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'need to' /nid\u0259/",
+   "stress_focus": "stress on SPEED and UP",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'speed up'",
+   "vocabulary": [
+    {
+     "word": "speed up",
+     "meaning": "go faster"
+    }
+   ],
+   "grammar_focus": "modal 'need to' with phrasal verb",
+   "tags": [
+    "deadlines",
+    "phrasal verb",
+    "pace"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "The AC is broken again.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear initials 'AC'",
+   "stress_focus": "stress on BROKEN and AGAIN",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is broken'",
+   "vocabulary": [
+    {
+     "word": "AC",
+     "meaning": "air conditioning"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "office",
+    "equipment",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "clarification",
+   "sentence": "Wait, what time again?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising pitch on clarification",
+   "stress_focus": "stress on TIME and AGAIN",
+   "intonation_focus": "rising clarification intonation",
+   "connected_speech_focus": "linking 'what time'",
+   "vocabulary": [
+    {
+     "word": "again",
+     "meaning": "one more time"
+    }
+   ],
+   "grammar_focus": "clarifying wh-question",
+   "tags": [
+    "meetings",
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "She just got promoted.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'just' /d\u0292\u0259st/",
+   "stress_focus": "stress on GOT and PROMOTED",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'got promoted'",
+   "vocabulary": [
+    {
+     "word": "promoted",
+     "meaning": "given a higher position"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "coworkers",
+    "promotion",
+    "career"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "agreement",
+   "sentence": "Totally, let's do that.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'totally' /\u02c8to\u028atli/",
+   "stress_focus": "stress on TOTALLY and THAT",
+   "intonation_focus": "falling agreement intonation",
+   "connected_speech_focus": "linking 'let's do'",
+   "vocabulary": [
+    {
+     "word": "totally",
+     "meaning": "completely, used casually"
+    }
+   ],
+   "grammar_focus": "agreement with suggestion",
+   "tags": [
+    "tasks",
+    "agreement",
+    "suggestion"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I pulled an all-nighter.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /\u0254\u02d0l/ in 'all-nighter'",
+   "stress_focus": "stress on PULLED and NIGHTER",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'pulled an'",
+   "vocabulary": [
+    {
+     "word": "pull an all-nighter",
+     "meaning": "stay up all night working"
+    }
+   ],
+   "grammar_focus": "simple past tense idiom",
+   "tags": [
+    "deadlines",
+    "idiom",
+    "overtime"
+   ]
+  },
+  {
+   "subcategory": "Email",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "request",
+   "sentence": "Loop me in on that.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'loop me' /lupmi/",
+   "stress_focus": "stress on LOOP and THAT",
+   "intonation_focus": "falling command intonation",
+   "connected_speech_focus": "linking 'loop me'",
+   "vocabulary": [
+    {
+     "word": "loop in",
+     "meaning": "include someone in communication"
+    }
+   ],
+   "grammar_focus": "imperative phrasal verb",
+   "tags": [
+    "email",
+    "phrasal verb",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "Let's wrap this up.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'let's' /l\u025bts/",
+   "stress_focus": "stress on WRAP and UP",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'wrap this'",
+   "vocabulary": [
+    {
+     "word": "wrap up",
+     "meaning": "finish something"
+    }
+   ],
+   "grammar_focus": "suggestion with phrasal verb",
+   "tags": [
+    "meetings",
+    "phrasal verb",
+    "suggestion"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "We really hit it off.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'hit it' /h\u026ad\u026at/",
+   "stress_focus": "stress on HIT and OFF",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'hit it'",
+   "vocabulary": [
+    {
+     "word": "hit it off",
+     "meaning": "get along well immediately"
+    }
+   ],
+   "grammar_focus": "simple past idiom",
+   "tags": [
+    "coworkers",
+    "idiom",
+    "relationship"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "Someone left the fridge open.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense 'left' clear vowel",
+   "stress_focus": "stress on FRIDGE and OPEN",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'left the'",
+   "vocabulary": [
+    {
+     "word": "fridge",
+     "meaning": "refrigerator"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "office",
+    "kitchen",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I'll follow up tomorrow.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'll' /a\u026al/",
+   "stress_focus": "stress on FOLLOW and TOMORROW",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'follow up'",
+   "vocabulary": [
+    {
+     "word": "follow up",
+     "meaning": "check on progress later"
+    }
+   ],
+   "grammar_focus": "future with phrasal verb",
+   "tags": [
+    "tasks",
+    "phrasal verb",
+    "future"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, this deadline is unrealistic.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'honestly' /\u02c8\u0251n\u0259stli/",
+   "stress_focus": "stress on DEADLINE and UNREALISTIC",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'is unrealistic'",
+   "vocabulary": [
+    {
+     "word": "unrealistic",
+     "meaning": "not achievable"
+    }
+   ],
+   "grammar_focus": "present simple opinion",
+   "tags": [
+    "deadlines",
+    "opinion",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "response",
+   "sentence": "Sounds good, I'll be there.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'sounds good' /sa\u028andzg\u028ad/",
+   "stress_focus": "stress on SOUNDS and THERE",
+   "intonation_focus": "falling response intonation",
+   "connected_speech_focus": "linking 'I'll be'",
+   "vocabulary": [
+    {
+     "word": "sounds good",
+     "meaning": "expression of agreement"
+    }
+   ],
+   "grammar_focus": "future response",
+   "tags": [
+    "meetings",
+    "response",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "disagreement",
+   "sentence": "I don't really agree with that.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'don't' /do\u028ant/",
+   "stress_focus": "stress on AGREE and THAT",
+   "intonation_focus": "falling disagreement intonation",
+   "connected_speech_focus": "linking 'don't really'",
+   "vocabulary": [
+    {
+     "word": "agree with",
+     "meaning": "share the same opinion"
+    }
+   ],
+   "grammar_focus": "negative opinion statement",
+   "tags": [
+    "coworkers",
+    "disagreement",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "IT is fixing the network.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear initials 'IT'",
+   "stress_focus": "stress on FIXING and NETWORK",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'fixing the'",
+   "vocabulary": [
+    {
+     "word": "IT",
+     "meaning": "information technology department"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "office",
+    "technology",
+    "department"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "I'm knee-deep in paperwork.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'm' /a\u026am/",
+   "stress_focus": "stress on KNEE-DEEP and PAPERWORK",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'knee-deep'",
+   "vocabulary": [
+    {
+     "word": "knee-deep in",
+     "meaning": "very busy with"
+    }
+   ],
+   "grammar_focus": "idiomatic present tense",
+   "tags": [
+    "tasks",
+    "idiom",
+    "workload"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "request",
+   "sentence": "Could we circle back to this later?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'could we' /k\u028adwi/",
+   "stress_focus": "stress on CIRCLE and LATER",
+   "intonation_focus": "rising polite intonation",
+   "connected_speech_focus": "linking 'circle back'",
+   "vocabulary": [
+    {
+     "word": "circle back",
+     "meaning": "return to a topic later"
+    }
+   ],
+   "grammar_focus": "polite modal request with phrasal verb",
+   "tags": [
+    "meetings",
+    "phrasal verb",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, she's the most reliable person on the team.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'she's' /\u0283iz/",
+   "stress_focus": "stress on RELIABLE and TEAM",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'most reliable'",
+   "vocabulary": [
+    {
+     "word": "reliable",
+     "meaning": "dependable and trustworthy"
+    }
+   ],
+   "grammar_focus": "superlative opinion",
+   "tags": [
+    "coworkers",
+    "opinion",
+    "teamwork"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "We're cutting it close with this deadline.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'we're' /w\u026ar/",
+   "stress_focus": "stress on CUTTING and CLOSE",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'cutting it'",
+   "vocabulary": [
+    {
+     "word": "cutting it close",
+     "meaning": "barely having enough time"
+    }
+   ],
+   "grammar_focus": "present continuous idiom",
+   "tags": [
+    "deadlines",
+    "idiom",
+    "pressure"
+   ]
+  },
+  {
+   "subcategory": "Email",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "clarification",
+   "sentence": "Wait, did you mean to CC the whole team?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'did you' /d\u026ad\u0292\u0259/",
+   "stress_focus": "stress on CC and TEAM",
+   "intonation_focus": "rising clarification intonation",
+   "connected_speech_focus": "linking 'mean to'",
+   "vocabulary": [
+    {
+     "word": "CC",
+     "meaning": "send a copy of an email to someone"
+    }
+   ],
+   "grammar_focus": "clarifying question",
+   "tags": [
+    "email",
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I've been putting off this task all week.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'I've been' /a\u026avb\u026an/",
+   "stress_focus": "stress on PUTTING and WEEK",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'putting off'",
+   "vocabulary": [
+    {
+     "word": "put off",
+     "meaning": "delay or postpone"
+    }
+   ],
+   "grammar_focus": "present perfect continuous with phrasal verb",
+   "tags": [
+    "tasks",
+    "phrasal verb",
+    "procrastination"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "The meeting ran long, so I missed my lunch.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'so I' /so\u028aa\u026a/",
+   "stress_focus": "stress on RAN and MISSED",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'ran long'",
+   "vocabulary": [
+    {
+     "word": "ran long",
+     "meaning": "lasted longer than expected"
+    }
+   ],
+   "grammar_focus": "connector 'so' showing result",
+   "tags": [
+    "meetings",
+    "connector",
+    "time"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "agreement",
+   "sentence": "Yeah, I couldn't agree more with your point.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'couldn't' /\u02c8k\u028ad\u0259nt/",
+   "stress_focus": "stress on COULDN'T and POINT",
+   "intonation_focus": "falling agreement intonation",
+   "connected_speech_focus": "linking 'couldn't agree'",
+   "vocabulary": [
+    {
+     "word": "couldn't agree more",
+     "meaning": "completely agree"
+    }
+   ],
+   "grammar_focus": "idiomatic agreement",
+   "tags": [
+    "coworkers",
+    "agreement",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "Since we moved offices, the commute's been way longer.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'since we' /s\u026answi/",
+   "stress_focus": "stress on MOVED and LONGER",
+   "intonation_focus": "falling intonation with reason clause",
+   "connected_speech_focus": "linking 'commute's been'",
+   "vocabulary": [
+    {
+     "word": "commute",
+     "meaning": "the trip to and from work"
+    }
+   ],
+   "grammar_focus": "present perfect with reason clause",
+   "tags": [
+    "office",
+    "connector",
+    "commute"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "request",
+   "sentence": "Would it be possible to push the deadline back a bit?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'would it' /w\u028ad\u026at/",
+   "stress_focus": "stress on POSSIBLE and DEADLINE",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'push the'",
+   "vocabulary": [
+    {
+     "word": "push back",
+     "meaning": "move to a later time"
+    }
+   ],
+   "grammar_focus": "polite indirect request",
+   "tags": [
+    "deadlines",
+    "request",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "He tends to micromanage every little detail.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /ma\u026akro\u028a/ in 'micromanage'",
+   "stress_focus": "stress on MICROMANAGE and DETAIL",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'tends to'",
+   "vocabulary": [
+    {
+     "word": "micromanage",
+     "meaning": "control every small detail excessively"
+    }
+   ],
+   "grammar_focus": "present simple with habitual 'tends to'",
+   "tags": [
+    "coworkers",
+    "complaint",
+    "management"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "If you ask me, this meeting could've been an email.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'could've' /\u02c8k\u028ad\u0259v/",
+   "stress_focus": "stress on MEETING and EMAIL",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'could've been'",
+   "vocabulary": [
+    {
+     "word": "could've been an email",
+     "meaning": "expression meaning a meeting was unnecessary"
+    }
+   ],
+   "grammar_focus": "past modal opinion idiom",
+   "tags": [
+    "meetings",
+    "opinion",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I finally caught up on all my emails.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'caught up' /k\u0254t\u028cp/",
+   "stress_focus": "stress on CAUGHT and EMAILS",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'caught up'",
+   "vocabulary": [
+    {
+     "word": "catch up on",
+     "meaning": "complete work that has built up"
+    }
+   ],
+   "grammar_focus": "present perfect with phrasal verb",
+   "tags": [
+    "tasks",
+    "phrasal verb",
+    "achievement"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "reaction",
+   "sentence": "Ugh, not another fire drill today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "emphatic 'ugh' interjection",
+   "stress_focus": "stress on FIRE and TODAY",
+   "intonation_focus": "exclamatory falling intonation",
+   "connected_speech_focus": "linking 'another fire'",
+   "vocabulary": [
+    {
+     "word": "fire drill",
+     "meaning": "a practice evacuation"
+    }
+   ],
+   "grammar_focus": "exclamation with negative",
+   "tags": [
+    "office",
+    "reaction",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "We butted heads over the project direction at first.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'butted heads' /\u02c8b\u028cd\u026adh\u025bdz/",
+   "stress_focus": "stress on BUTTED and DIRECTION",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'butted heads'",
+   "vocabulary": [
+    {
+     "word": "butt heads",
+     "meaning": "disagree strongly"
+    }
+   ],
+   "grammar_focus": "simple past idiom with time phrase",
+   "tags": [
+    "coworkers",
+    "idiom",
+    "conflict"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "We're down to the wire on this project.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'we're down' /w\u026arda\u028an/",
+   "stress_focus": "stress on DOWN and WIRE",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'down to'",
+   "vocabulary": [
+    {
+     "word": "down to the wire",
+     "meaning": "at the very last moment"
+    }
+   ],
+   "grammar_focus": "present simple idiom",
+   "tags": [
+    "deadlines",
+    "idiom",
+    "pressure"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, are we meeting in person or over video call?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation on alternatives",
+   "stress_focus": "stress on PERSON and VIDEO",
+   "intonation_focus": "rising clarification intonation",
+   "connected_speech_focus": "linking 'meeting in'",
+   "vocabulary": [
+    {
+     "word": "over video call",
+     "meaning": "using video conferencing software"
+    }
+   ],
+   "grammar_focus": "clarifying question with alternatives",
+   "tags": [
+    "meetings",
+    "clarification",
+    "technology"
+   ]
+  },
+  {
+   "subcategory": "Email",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "I accidentally replied all instead of just to him.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'instead of' /\u026an\u02c8st\u025bd\u0259v/",
+   "stress_focus": "stress on REPLIED and ALL",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'replied all'",
+   "vocabulary": [
+    {
+     "word": "reply all",
+     "meaning": "send a response to everyone on an email thread"
+    }
+   ],
+   "grammar_focus": "simple past with contrast",
+   "tags": [
+    "email",
+    "mistake",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, delegating tasks has made my week so much easier.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'has made' /h\u0259z\u02c8me\u026ad/",
+   "stress_focus": "stress on DELEGATING and EASIER",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'made my'",
+   "vocabulary": [
+    {
+     "word": "delegate",
+     "meaning": "assign tasks to others"
+    }
+   ],
+   "grammar_focus": "present perfect opinion",
+   "tags": [
+    "tasks",
+    "opinion",
+    "management"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "request",
+   "sentence": "Would you mind covering for me tomorrow morning?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'would you' /w\u028ad\u0292\u0259/",
+   "stress_focus": "stress on COVERING and MORNING",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'covering for'",
+   "vocabulary": [
+    {
+     "word": "cover for",
+     "meaning": "do someone's job while they're away"
+    }
+   ],
+   "grammar_focus": "polite request with phrasal verb",
+   "tags": [
+    "coworkers",
+    "request",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "They're renovating the break room, so it's total chaos.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'they're' /\u00f0\u025br/",
+   "stress_focus": "stress on RENOVATING and CHAOS",
+   "intonation_focus": "falling intonation with result clause",
+   "connected_speech_focus": "linking 'so it's'",
+   "vocabulary": [
+    {
+     "word": "chaos",
+     "meaning": "complete disorder"
+    }
+   ],
+   "grammar_focus": "present continuous with connector 'so'",
+   "tags": [
+    "office",
+    "connector",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "We touched on that briefly but never really dug into it.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'touched on' /t\u028ct\u0283t\u0252n/",
+   "stress_focus": "stress on TOUCHED and DUG",
+   "intonation_focus": "falling intonation with contrast",
+   "connected_speech_focus": "linking 'dug into'",
+   "vocabulary": [
+    {
+     "word": "dig into",
+     "meaning": "examine something in detail"
+    }
+   ],
+   "grammar_focus": "past tense with contrast connector 'but'",
+   "tags": [
+    "meetings",
+    "phrasal verb",
+    "connector"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "reaction",
+   "sentence": "Are you kidding me, they moved the deadline up again?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'are you' /\u0251rj\u0259/",
+   "stress_focus": "stress on KIDDING and AGAIN",
+   "intonation_focus": "exclamatory rising-falling intonation",
+   "connected_speech_focus": "linking 'moved the'",
+   "vocabulary": [
+    {
+     "word": "move up",
+     "meaning": "change to an earlier time"
+    }
+   ],
+   "grammar_focus": "exclamatory question with phrasal verb",
+   "tags": [
+    "deadlines",
+    "reaction",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "She always goes above and beyond for the team.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'above and' /\u0259\u02c8b\u028cv\u0259n/",
+   "stress_focus": "stress on ABOVE and BEYOND",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'goes above'",
+   "vocabulary": [
+    {
+     "word": "above and beyond",
+     "meaning": "doing more than expected"
+    }
+   ],
+   "grammar_focus": "present simple idiom",
+   "tags": [
+    "coworkers",
+    "idiom",
+    "praise"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "disagreement",
+   "sentence": "I get where you're coming from, but I'd handle it differently.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'where you're' /w\u025brj\u028ar/",
+   "stress_focus": "stress on HANDLE and DIFFERENTLY",
+   "intonation_focus": "falling intonation for disagreement",
+   "connected_speech_focus": "linking 'coming from'",
+   "vocabulary": [
+    {
+     "word": "where you're coming from",
+     "meaning": "understanding someone's perspective"
+    }
+   ],
+   "grammar_focus": "concession with disagreement",
+   "tags": [
+    "tasks",
+    "disagreement",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, half of our meetings could be replaced with a quick email thread.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'could be' /k\u028adbi/",
+   "stress_focus": "stress on REPLACED and THREAD",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'could be'",
+   "vocabulary": [
+    {
+     "word": "email thread",
+     "meaning": "a chain of related email messages"
+    }
+   ],
+   "grammar_focus": "passive construction with opinion",
+   "tags": [
+    "meetings",
+    "opinion",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "We didn't get along at first, but eventually we became close friends.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'didn't' /\u02c8d\u026ad\u0259nt/",
+   "stress_focus": "stress on EVENTUALLY and CLOSE",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'get along'",
+   "vocabulary": [
+    {
+     "word": "get along",
+     "meaning": "have a friendly relationship"
+    }
+   ],
+   "grammar_focus": "past narrative with contrast connector",
+   "tags": [
+    "coworkers",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "We were scrambling right up until the last minute, but somehow we pulled it off.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'right up until' /ra\u026at\u028cp\u0259n\u02c8t\u026al/",
+   "stress_focus": "stress on SCRAMBLING and PULLED",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'pulled it off'",
+   "vocabulary": [
+    {
+     "word": "pull it off",
+     "meaning": "succeed at something difficult"
+    }
+   ],
+   "grammar_focus": "past continuous with contrast and idiom",
+   "tags": [
+    "deadlines",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "If you ask me, open-plan offices make it nearly impossible to focus.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'ask me' /\u00e6skmi/",
+   "stress_focus": "stress on IMPOSSIBLE and FOCUS",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'make it'",
+   "vocabulary": [
+    {
+     "word": "open-plan office",
+     "meaning": "an office without walls between desks"
+    }
+   ],
+   "grammar_focus": "conditional opinion with adjective phrase",
+   "tags": [
+    "office",
+    "opinion",
+    "layout"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "disagreement",
+   "sentence": "I hear what you're saying, but I don't think that timeline is realistic at all.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'don't think' /do\u028ant\u02c8\u03b8\u026a\u014bk/",
+   "stress_focus": "stress on TIMELINE and REALISTIC",
+   "intonation_focus": "falling intonation for disagreement",
+   "connected_speech_focus": "linking 'hear what'",
+   "vocabulary": [
+    {
+     "word": "timeline",
+     "meaning": "a schedule of when things should happen"
+    }
+   ],
+   "grammar_focus": "concession with strong disagreement",
+   "tags": [
+    "meetings",
+    "disagreement",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "I was juggling three projects at once, so something eventually had to give.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'had to' /h\u00e6dt\u0259/",
+   "stress_focus": "stress on JUGGLING and GIVE",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'had to'",
+   "vocabulary": [
+    {
+     "word": "something has to give",
+     "meaning": "a situation can't continue as it is"
+    }
+   ],
+   "grammar_focus": "past continuous with idiom and result clause",
+   "tags": [
+    "tasks",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "To be fair, he's under a ton of pressure lately, so I try to cut him some slack.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'to be fair' /t\u0259bi\u02c8f\u025br/",
+   "stress_focus": "stress on PRESSURE and SLACK",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'cut him'",
+   "vocabulary": [
+    {
+     "word": "cut someone some slack",
+     "meaning": "be less critical of someone"
+    }
+   ],
+   "grammar_focus": "opinion with reason clause and idiom",
+   "tags": [
+    "coworkers",
+    "opinion",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "At the end of the day, quality matters more than hitting an arbitrary deadline.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'at the end' /\u0259t\u00f0i\u02c8\u025bnd/",
+   "stress_focus": "stress on QUALITY and ARBITRARY",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'hitting an'",
+   "vocabulary": [
+    {
+     "word": "arbitrary",
+     "meaning": "based on random choice rather than reason"
+    }
+   ],
+   "grammar_focus": "idiomatic opinion structure",
+   "tags": [
+    "deadlines",
+    "opinion",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "The whole floor lost power right in the middle of a client presentation.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'right in' /ra\u026at\u026an/",
+   "stress_focus": "stress on POWER and PRESENTATION",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'right in'",
+   "vocabulary": [
+    {
+     "word": "client presentation",
+     "meaning": "a formal talk given to a client"
+    }
+   ],
+   "grammar_focus": "past narrative with prepositional phrase",
+   "tags": [
+    "office",
+    "storytelling",
+    "technology"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "request",
+   "sentence": "Would it be okay if we tabled this discussion until next week?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'would it' /w\u028ad\u026at/",
+   "stress_focus": "stress on TABLED and NEXT",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'tabled this'",
+   "vocabulary": [
+    {
+     "word": "table a discussion",
+     "meaning": "postpone discussing something"
+    }
+   ],
+   "grammar_focus": "polite conditional request",
+   "tags": [
+    "meetings",
+    "request",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "Wow, I can't believe they finally gave her the promotion she deserved.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'can't believe' /k\u00e6ntb\u026a\u02c8liv/",
+   "stress_focus": "stress on FINALLY and DESERVED",
+   "intonation_focus": "exclamatory falling intonation",
+   "connected_speech_focus": "linking 'gave her'",
+   "vocabulary": [
+    {
+     "word": "deserve",
+     "meaning": "have earned through effort"
+    }
+   ],
+   "grammar_focus": "exclamation with past narrative",
+   "tags": [
+    "coworkers",
+    "reaction",
+    "promotion"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "clarification",
+   "sentence": "Just to clarify, are we prioritizing the client work or the internal report first?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'are we' /\u0251rwi/",
+   "stress_focus": "stress on PRIORITIZING and FIRST",
+   "intonation_focus": "rising clarification intonation",
+   "connected_speech_focus": "linking 'prioritizing the'",
+   "vocabulary": [
+    {
+     "word": "prioritize",
+     "meaning": "decide what's most important to do first"
+    }
+   ],
+   "grammar_focus": "clarifying question with alternatives",
+   "tags": [
+    "tasks",
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "reaction",
+   "sentence": "You've got to be kidding, they want the whole thing redone by tomorrow?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'you've got to' /juv\u02c8g\u0251t\u0259/",
+   "stress_focus": "stress on REDONE and TOMORROW",
+   "intonation_focus": "exclamatory rising-falling intonation",
+   "connected_speech_focus": "linking 'got to'",
+   "vocabulary": [
+    {
+     "word": "redo",
+     "meaning": "do something again from scratch"
+    }
+   ],
+   "grammar_focus": "exclamatory question with idiom",
+   "tags": [
+    "deadlines",
+    "reaction",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "statement",
+   "sentence": "Ever since we switched to hot-desking, it's been hard to find a quiet spot.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'ever since' /\u02c8\u025bv\u0259rs\u026ans/",
+   "stress_focus": "stress on SWITCHED and QUIET",
+   "intonation_focus": "falling intonation with reason clause",
+   "connected_speech_focus": "linking 'switched to'",
+   "vocabulary": [
+    {
+     "word": "hot-desking",
+     "meaning": "a system where employees don't have assigned desks"
+    }
+   ],
+   "grammar_focus": "present perfect with reason clause",
+   "tags": [
+    "office",
+    "connector",
+    "layout"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "agreement",
+   "sentence": "Absolutely, she really carried the whole project on her back this quarter.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'absolutely' /\u00e6bs\u0259\u02c8lutli/",
+   "stress_focus": "stress on CARRIED and QUARTER",
+   "intonation_focus": "falling agreement intonation",
+   "connected_speech_focus": "linking 'carried the'",
+   "vocabulary": [
+    {
+     "word": "carry something on one's back",
+     "meaning": "take most of the responsibility for something"
+    }
+   ],
+   "grammar_focus": "agreement with idiom",
+   "tags": [
+    "coworkers",
+    "agreement",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "The call dropped right as I was about to present, so I had to scramble to reconnect.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'as I was' /\u0259za\u026aw\u0259z/",
+   "stress_focus": "stress on DROPPED and SCRAMBLE",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'had to'",
+   "vocabulary": [
+    {
+     "word": "scramble",
+     "meaning": "move or act quickly and hastily"
+    }
+   ],
+   "grammar_focus": "past narrative with result clause",
+   "tags": [
+    "meetings",
+    "storytelling",
+    "technology"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, setting more realistic deadlines from the start would save everyone a lot of stress.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'would save' /w\u028ad\u02c8se\u026av/",
+   "stress_focus": "stress on REALISTIC and STRESS",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'save everyone'",
+   "vocabulary": [
+    {
+     "word": "from the start",
+     "meaning": "from the very beginning"
+    }
+   ],
+   "grammar_focus": "gerund subject with conditional opinion",
+   "tags": [
+    "deadlines",
+    "opinion",
+    "management"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "He was on thin ice after missing another deadline, so he really stepped up this time.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'on thin ice' /\u0252n\u03b8\u026an\u02c8a\u026as/",
+   "stress_focus": "stress on THIN and STEPPED",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'stepped up'",
+   "vocabulary": [
+    {
+     "word": "on thin ice",
+     "meaning": "in a risky situation, likely to face trouble"
+    }
+   ],
+   "grammar_focus": "past narrative with idiom and result clause",
+   "tags": [
+    "coworkers",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "If I'm being honest, this workflow needs a complete overhaul, not just small tweaks.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'if I'm' /\u026afa\u026am/",
+   "stress_focus": "stress on OVERHAUL and TWEAKS",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'needs a'",
+   "vocabulary": [
+    {
+     "word": "overhaul",
+     "meaning": "a complete change or renovation"
+    }
+   ],
+   "grammar_focus": "conditional opinion with contrast",
+   "tags": [
+    "tasks",
+    "opinion",
+    "process"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "Seriously, the elevator's been broken for two weeks and nobody's fixed it yet.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'nobody's' /\u02c8no\u028ab\u0259diz/",
+   "stress_focus": "stress on BROKEN and FIXED",
+   "intonation_focus": "exclamatory falling intonation",
+   "connected_speech_focus": "linking 'nobody's fixed'",
+   "vocabulary": [
+    {
+     "word": "elevator",
+     "meaning": "a lift that moves between floors"
+    }
+   ],
+   "grammar_focus": "present perfect complaint with connector",
+   "tags": [
+    "office",
+    "reaction",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "disagreement",
+   "sentence": "With all due respect, I think we're overcomplicating something that should be pretty straightforward.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'with all due' /w\u026a\u00f0\u0254\u02d0l\u02c8du/",
+   "stress_focus": "stress on OVERCOMPLICATING and STRAIGHTFORWARD",
+   "intonation_focus": "falling intonation for disagreement",
+   "connected_speech_focus": "linking 'due respect'",
+   "vocabulary": [
+    {
+     "word": "with all due respect",
+     "meaning": "polite way to disagree"
+    }
+   ],
+   "grammar_focus": "polite disagreement idiom",
+   "tags": [
+    "meetings",
+    "disagreement",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "statement",
+   "sentence": "She's been the glue holding this team together ever since our manager left.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'she's been' /\u0283izb\u026an/",
+   "stress_focus": "stress on GLUE and MANAGER",
+   "intonation_focus": "falling intonation with time clause",
+   "connected_speech_focus": "linking 'holding this'",
+   "vocabulary": [
+    {
+     "word": "the glue holding something together",
+     "meaning": "the person who keeps a group unified"
+    }
+   ],
+   "grammar_focus": "present perfect with idiom and time clause",
+   "tags": [
+    "coworkers",
+    "idiom",
+    "teamwork"
+   ]
+  },
+  {
+   "subcategory": "Deadlines",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "We ended up burning the midnight oil for three nights straight to finish this launch.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'ended up' /\u02c8\u025bnd\u026ad\u028cp/",
+   "stress_focus": "stress on MIDNIGHT and STRAIGHT",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'burning the'",
+   "vocabulary": [
+    {
+     "word": "burn the midnight oil",
+     "meaning": "work late into the night"
+    }
+   ],
+   "grammar_focus": "past narrative with idiom",
+   "tags": [
+    "deadlines",
+    "idiom",
+    "overtime"
+   ]
+  },
+  {
+   "subcategory": "Meetings",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "statement",
+   "sentence": "We kept going back and forth on the budget until someone finally made a call.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'back and forth' /b\u00e6k\u0259n\u02c8f\u0254r\u03b8/",
+   "stress_focus": "stress on BUDGET and CALL",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'made a'",
+   "vocabulary": [
+    {
+     "word": "make a call",
+     "meaning": "make a decision"
+    }
+   ],
+   "grammar_focus": "past narrative with idiom",
+   "tags": [
+    "meetings",
+    "idiom",
+    "decision"
+   ]
+  },
+  {
+   "subcategory": "Coworkers",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "Frankly, I think our team dynamic improved a lot once we started being more transparent.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'once we' /w\u028cnswi/",
+   "stress_focus": "stress on DYNAMIC and TRANSPARENT",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'started being'",
+   "vocabulary": [
+    {
+     "word": "dynamic",
+     "meaning": "the way people interact with each other"
+    }
+   ],
+   "grammar_focus": "opinion with time clause",
+   "tags": [
+    "coworkers",
+    "opinion",
+    "teamwork"
+   ]
+  },
+  {
+   "subcategory": "Tasks",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "request",
+   "sentence": "Would you be able to take this off my plate for the rest of the week?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'be able to' /bi\u02c8e\u026ab\u0259lt\u0259/",
+   "stress_focus": "stress on PLATE and WEEK",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'take this'",
+   "vocabulary": [
+    {
+     "word": "take something off someone's plate",
+     "meaning": "relieve someone of a responsibility"
+    }
+   ],
+   "grammar_focus": "polite request with idiom",
+   "tags": [
+    "tasks",
+    "request",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Office",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "Someone set off the fire alarm making popcorn, and we all had to stand outside for an hour.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'had to' /h\u00e6dt\u0259/",
+   "stress_focus": "stress on ALARM and OUTSIDE",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'set off'",
+   "vocabulary": [
+    {
+     "word": "set off",
+     "meaning": "cause something like an alarm to start"
+    }
+   ],
+   "grammar_focus": "past narrative with two clauses",
+   "tags": [
+    "office",
+    "storytelling",
+    "idiom"
+   ]
+  }
+ ]
+}

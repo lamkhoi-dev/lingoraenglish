@@ -1,0 +1,1987 @@
+{
+  "lessons": [
+    {
+      "slug": "b1-airport-checkin-problem",
+      "title": "A Problem at Check-In",
+      "level": "B1",
+      "category": "Travel",
+      "topic": "airport check-in problem",
+      "difficulty": 5,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Agent",
+          "line": "Hi there, can I see your passport and booking confirmation, please?"
+        },
+        {
+          "speaker": "Traveler",
+          "line": "Sure, here you go. Um, I booked this online like two weeks ago."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Okay... hold on a second. I'm not seeing a seat assigned for you."
+        },
+        {
+          "speaker": "Traveler",
+          "line": "What? Really? Didja check under my last name too?"
+        },
+        {
+          "speaker": "Agent",
+          "line": "Yeah, I did. It looks like the flight's actually overbooked."
+        },
+        {
+          "speaker": "Traveler",
+          "line": "Oh no, that's not great. I really need to be in Chicago by 6 PM."
+        },
+        {
+          "speaker": "Agent",
+          "line": "I hear you. Let me see what I can do here, one sec."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Okay, good news \u2014 I can get you on standby for the 3:45 flight instead."
+        },
+        {
+          "speaker": "Traveler",
+          "line": "Standby? Gonna be honest, that makes me kinda nervous."
+        },
+        {
+          "speaker": "Agent",
+          "line": "I get it, but you're pretty high on the list, so it should work out."
+        },
+        {
+          "speaker": "Traveler",
+          "line": "Alright, I guess I don't have much choice anyway."
+        },
+        {
+          "speaker": "Agent",
+          "line": "I'll also give you a meal voucher for the trouble, okay?"
+        },
+        {
+          "speaker": "Traveler",
+          "line": "Thanks, I appreciate that. Where do I wait for the gate change?"
+        },
+        {
+          "speaker": "Agent",
+          "line": "Just head to gate 22 and listen for your name over the speaker."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the main problem in this conversation?",
+          "options": [
+            "The flight was cancelled",
+            "The traveler's flight is overbooked",
+            "The traveler lost their passport",
+            "The traveler missed check-in"
+          ],
+          "answer": "The traveler's flight is overbooked",
+          "explanation": "The agent explains the flight is overbooked and no seat is assigned.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What time does the traveler need to be in Chicago?",
+          "options": [
+            "3:45 PM",
+            "6 PM",
+            "10 PM",
+            "Noon"
+          ],
+          "answer": "6 PM",
+          "explanation": "The traveler says they need to be in Chicago by 6 PM.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What does the agent offer as compensation?",
+          "options": [
+            "A refund",
+            "A hotel room",
+            "A meal voucher",
+            "A free upgrade"
+          ],
+          "answer": "A meal voucher",
+          "explanation": "The agent offers a meal voucher for the trouble.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the traveler say 'gonna be honest, that makes me kinda nervous'?",
+          "options": [
+            "To thank the agent",
+            "To express worry about standby",
+            "To ask for a refund",
+            "To complain about the price"
+          ],
+          "answer": "To express worry about standby",
+          "explanation": "They are nervous about not having a confirmed seat.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "In this context, what does 'high on the list' mean?",
+          "options": [
+            "Expensive",
+            "Likely to get a seat",
+            "On a rooftop",
+            "Very tall"
+          ],
+          "answer": "Likely to get a seat",
+          "explanation": "It means the traveler has a good chance on the standby list.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "wh",
+          "prompt": "Which gate should the traveler go to?",
+          "options": [
+            "Gate 12",
+            "Gate 22",
+            "Gate 32",
+            "Gate 2"
+          ],
+          "answer": "Gate 22",
+          "explanation": "The agent tells them to head to gate 22.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Um, I booked this online like two weeks ago.",
+          "blanks": [
+            "booked",
+            "online"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "The phrase 'booked this' blends together in fast speech."
+        },
+        {
+          "sentence": "Didja check under my last name too?",
+          "blanks": [
+            "Didja"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Didja' is the spoken reduced form of 'did you'."
+        },
+        {
+          "sentence": "I really need to be in Chicago by 6 PM.",
+          "blanks": [
+            "6 PM"
+          ],
+          "challenge": "numbers",
+          "explanation": "Times are often reduced in speech but written clearly here."
+        },
+        {
+          "sentence": "Okay, good news \u2014 I can get you on standby for the 3:45 flight instead.",
+          "blanks": [
+            "3:45"
+          ],
+          "challenge": "numbers",
+          "explanation": "This tests recognition of spoken time expressions."
+        },
+        {
+          "sentence": "Just head to gate 22 and listen for your name over the speaker.",
+          "blanks": [
+            "gate 22"
+          ],
+          "challenge": "numbers",
+          "explanation": "Numbers in gate announcements are often spoken quickly."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "did you",
+          "spoken": "didja"
+        },
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        },
+        {
+          "written": "kind of",
+          "spoken": "kinda"
+        }
+      ]
+    },
+    {
+      "slug": "b1-missed-connection-airport",
+      "title": "Missed the Connecting Flight",
+      "level": "B1",
+      "category": "Travel",
+      "topic": "missed connection at the airport",
+      "difficulty": 6,
+      "duration_seconds": 75,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Mark",
+          "line": "Oh man, we just missed it. The gate's already closed."
+        },
+        {
+          "speaker": "Lisa",
+          "line": "Seriously? I told you we shoulda run faster back there."
+        },
+        {
+          "speaker": "Mark",
+          "line": "I know, I know. Let's just go find someone at the desk."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Hi, how can I help you two today?"
+        },
+        {
+          "speaker": "Mark",
+          "line": "We missed our connection to Denver. Our first flight got delayed."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Ah, I'm sorry about that. Let me pull up your booking."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Okay, I can rebook you both on the 8:15 flight tonight."
+        },
+        {
+          "speaker": "Lisa",
+          "line": "Tonight? That's like four hours from now."
+        },
+        {
+          "speaker": "Agent",
+          "line": "I know it's a wait, but it's the next available one, unfortunately."
+        },
+        {
+          "speaker": "Mark",
+          "line": "Whaddya think, should we just grab some food and wait it out?"
+        },
+        {
+          "speaker": "Lisa",
+          "line": "Yeah, I guess so. Not much else we can do."
+        },
+        {
+          "speaker": "Agent",
+          "line": "I'll also add you to standby on the earlier 6 o'clock flight, just in case."
+        },
+        {
+          "speaker": "Mark",
+          "line": "That'd be great, thanks so much for your help."
+        },
+        {
+          "speaker": "Agent",
+          "line": "No problem at all. Safe travels, and sorry again for the delay."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is this conversation mainly about?",
+          "options": [
+            "Booking a first flight",
+            "Rebooking after a missed connection",
+            "Checking baggage",
+            "Renting a car"
+          ],
+          "answer": "Rebooking after a missed connection",
+          "explanation": "The travelers missed their connecting flight and need a new one.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "Why did they miss their connection?",
+          "options": [
+            "They arrived too early",
+            "Their first flight was delayed",
+            "They went to the wrong gate",
+            "Their tickets were cancelled"
+          ],
+          "answer": "Their first flight was delayed",
+          "explanation": "Mark explains their first flight got delayed.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What time is the new flight the agent books them on?",
+          "options": [
+            "6:00",
+            "7:00",
+            "8:15",
+            "9:30"
+          ],
+          "answer": "8:15",
+          "explanation": "The agent rebooks them on the 8:15 flight tonight.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the agent add them to standby on the 6 o'clock flight?",
+          "options": [
+            "To charge extra fees",
+            "To give them a chance to leave earlier",
+            "Because their new flight was cancelled",
+            "To upgrade their seats"
+          ],
+          "answer": "To give them a chance to leave earlier",
+          "explanation": "It's a backup option in case seats open up sooner.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'wait it out' mean here?",
+          "options": [
+            "Leave immediately",
+            "Wait until the situation passes",
+            "Complain to staff",
+            "Cancel the trip"
+          ],
+          "answer": "Wait until the situation passes",
+          "explanation": "It means to be patient and wait through the delay.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Lisa is happy about waiting four more hours.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "She reacts with surprise and reluctance to the wait.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "I told you we shoulda run faster back there.",
+          "blanks": [
+            "shoulda"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Shoulda' is the spoken reduction of 'should have'."
+        },
+        {
+          "sentence": "We missed our connection to Denver.",
+          "blanks": [
+            "connection"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "Practice hearing the linked words in fast speech."
+        },
+        {
+          "sentence": "Okay, I can rebook you both on the 8:15 flight tonight.",
+          "blanks": [
+            "8:15"
+          ],
+          "challenge": "numbers",
+          "explanation": "Time expressions can be tricky to catch quickly."
+        },
+        {
+          "sentence": "Whaddya think, should we just grab some food and wait it out?",
+          "blanks": [
+            "Whaddya"
+          ],
+          "challenge": "fast_speech",
+          "explanation": "'Whaddya' is a fast spoken form of 'what do you'."
+        },
+        {
+          "sentence": "I'll also add you to standby on the earlier 6 o'clock flight, just in case.",
+          "blanks": [
+            "6 o'clock"
+          ],
+          "challenge": "numbers",
+          "explanation": "Times are commonly spoken quickly in real conversation."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "should have",
+          "spoken": "shoulda"
+        },
+        {
+          "written": "what do you",
+          "spoken": "whaddya"
+        },
+        {
+          "written": "that would",
+          "spoken": "that'd"
+        }
+      ]
+    },
+    {
+      "slug": "b1-hotel-booking-mixup",
+      "title": "A Mix-Up With the Hotel Room",
+      "level": "B1",
+      "category": "Travel",
+      "topic": "hotel booking mix-up",
+      "difficulty": 5,
+      "duration_seconds": 65,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Guest",
+          "line": "Hi, I have a reservation under Patel, for two nights."
+        },
+        {
+          "speaker": "Clerk",
+          "line": "Let me check... hmm, I'm seeing a booking for one night only."
+        },
+        {
+          "speaker": "Guest",
+          "line": "Wait, that can't be right. I booked it for the 5th and the 6th."
+        },
+        {
+          "speaker": "Clerk",
+          "line": "Sorry about that, seems like there was a glitch on our end."
+        },
+        {
+          "speaker": "Guest",
+          "line": "Okay, no worries, can you just fix it now?"
+        },
+        {
+          "speaker": "Clerk",
+          "line": "Yeah, gimme a sec, I'll add the extra night right away."
+        },
+        {
+          "speaker": "Clerk",
+          "line": "Alright, you're all set for both nights, same room too."
+        },
+        {
+          "speaker": "Guest",
+          "line": "Great, thank you. Is breakfast included with this rate?"
+        },
+        {
+          "speaker": "Clerk",
+          "line": "It is, it runs from 7 to 10 in the morning downstairs."
+        },
+        {
+          "speaker": "Guest",
+          "line": "Perfect. And what floor is my room on?"
+        },
+        {
+          "speaker": "Clerk",
+          "line": "You're on the fourth floor, room 412, nice view of the pool."
+        },
+        {
+          "speaker": "Guest",
+          "line": "Sounds good. Thanks for sorting that out so quickly."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What problem does the guest have at check-in?",
+          "options": [
+            "Wrong room type",
+            "The reservation was for only one night",
+            "No reservation at all",
+            "Overcharged bill"
+          ],
+          "answer": "The reservation was for only one night",
+          "explanation": "The clerk finds only one night booked instead of two.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What dates was the guest supposed to stay?",
+          "options": [
+            "The 4th and 5th",
+            "The 5th and 6th",
+            "The 6th and 7th",
+            "The 1st and 2nd"
+          ],
+          "answer": "The 5th and 6th",
+          "explanation": "The guest says they booked for the 5th and 6th.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What room number does the guest get?",
+          "options": [
+            "214",
+            "412",
+            "421",
+            "142"
+          ],
+          "answer": "412",
+          "explanation": "The clerk tells the guest room 412 on the fourth floor.",
+          "skill": "details"
+        },
+        {
+          "type": "wh",
+          "prompt": "What time does breakfast run until?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "8"
+          ],
+          "answer": "10",
+          "explanation": "The clerk says breakfast runs from 7 to 10.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the clerk say 'gimme a sec'?",
+          "options": [
+            "To end the conversation",
+            "To ask the guest to wait briefly",
+            "To refuse the request",
+            "To offer a discount"
+          ],
+          "answer": "To ask the guest to wait briefly",
+          "explanation": "The clerk needs a moment to fix the booking.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'sorting that out' mean in this context?",
+          "options": [
+            "Organizing files",
+            "Resolving the problem",
+            "Cancelling the booking",
+            "Cleaning the room"
+          ],
+          "answer": "Resolving the problem",
+          "explanation": "It means fixing or solving the issue with the reservation.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Wait, that can't be right. I booked it for the 5th and the 6th.",
+          "blanks": [
+            "5th",
+            "6th"
+          ],
+          "challenge": "dates",
+          "explanation": "Ordinal dates are often reduced when spoken quickly."
+        },
+        {
+          "sentence": "Yeah, gimme a sec, I'll add the extra night right away.",
+          "blanks": [
+            "gimme"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Gimme' is the reduced spoken form of 'give me'."
+        },
+        {
+          "sentence": "It is, it runs from 7 to 10 in the morning downstairs.",
+          "blanks": [
+            "7",
+            "10"
+          ],
+          "challenge": "numbers",
+          "explanation": "Time ranges are common listening challenges."
+        },
+        {
+          "sentence": "You're on the fourth floor, room 412, nice view of the pool.",
+          "blanks": [
+            "412"
+          ],
+          "challenge": "numbers",
+          "explanation": "Room numbers are spoken as individual digits or groups."
+        },
+        {
+          "sentence": "Thanks for sorting that out so quickly.",
+          "blanks": [
+            "sorting"
+          ],
+          "challenge": "expression",
+          "explanation": "'Sort out' is a common phrasal expression meaning to resolve."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "give me",
+          "spoken": "gimme"
+        },
+        {
+          "written": "you are",
+          "spoken": "you're"
+        },
+        {
+          "written": "I will",
+          "spoken": "I'll"
+        }
+      ]
+    },
+    {
+      "slug": "b1-car-rental-insurance",
+      "title": "Questions About Rental Car Insurance",
+      "level": "B1",
+      "category": "Travel",
+      "topic": "car rental insurance question",
+      "difficulty": 6,
+      "duration_seconds": 80,
+      "accent": "british",
+      "script": [
+        {
+          "speaker": "Clerk",
+          "line": "Alright, so you've got the compact car booked for five days."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Yeah, that's right. Quick question though, do I need extra insurance?"
+        },
+        {
+          "speaker": "Clerk",
+          "line": "Depends, really. Does your credit card already cover rental damage?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "Honestly, I'm not sure. I think it might, but I'd have to check."
+        },
+        {
+          "speaker": "Clerk",
+          "line": "I'd recommend calling them just to be safe, before you decide."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Fair enough. What does your insurance actually cover, anyway?"
+        },
+        {
+          "speaker": "Clerk",
+          "line": "It covers collision damage and theft, but not the interior or tyres."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Okay, and how much extra is that per day?"
+        },
+        {
+          "speaker": "Clerk",
+          "line": "It's about 15 pounds a day, so 75 for the whole trip."
+        },
+        {
+          "speaker": "Customer",
+          "line": "That's a bit steep. Let me just ring my bank quickly first."
+        },
+        {
+          "speaker": "Clerk",
+          "line": "No worries, take your time, I'll hold the desk for you."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Cheers, back in two minutes."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the customer trying to decide?",
+          "options": [
+            "Which car to rent",
+            "Whether to buy extra insurance",
+            "Where to return the car",
+            "How long to rent the car"
+          ],
+          "answer": "Whether to buy extra insurance",
+          "explanation": "The whole conversation focuses on insurance options.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "How many days is the car rented for?",
+          "options": [
+            "Three",
+            "Four",
+            "Five",
+            "Seven"
+          ],
+          "answer": "Five",
+          "explanation": "The clerk mentions the compact car is booked for five days.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "How much is the insurance per day?",
+          "options": [
+            "10 pounds",
+            "15 pounds",
+            "20 pounds",
+            "75 pounds"
+          ],
+          "answer": "15 pounds",
+          "explanation": "The clerk says it's about 15 pounds a day.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What does the insurance NOT cover?",
+          "options": [
+            "Collision damage",
+            "Theft",
+            "The interior and tyres",
+            "Fuel costs"
+          ],
+          "answer": "The interior and tyres",
+          "explanation": "The clerk clarifies it doesn't cover interior or tyres.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the customer decide to call their bank?",
+          "options": [
+            "To cancel the rental",
+            "To check if their credit card already covers damage",
+            "To ask for a refund",
+            "To complain about the price"
+          ],
+          "answer": "To check if their credit card already covers damage",
+          "explanation": "They want to confirm existing coverage before paying extra.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'a bit steep' mean here?",
+          "options": [
+            "Very cheap",
+            "Somewhat expensive",
+            "Very tall",
+            "Confusing"
+          ],
+          "answer": "Somewhat expensive",
+          "explanation": "It's an idiom meaning the price seems high.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Alright, so you've got the compact car booked for five days.",
+          "blanks": [
+            "five days"
+          ],
+          "challenge": "numbers",
+          "explanation": "Number-plus-unit phrases are often spoken quickly."
+        },
+        {
+          "sentence": "It's about 15 pounds a day, so 75 for the whole trip.",
+          "blanks": [
+            "15",
+            "75"
+          ],
+          "challenge": "numbers",
+          "explanation": "Currency amounts require careful listening for exact numbers."
+        },
+        {
+          "sentence": "Honestly, I'm not sure. I think it might, but I'd have to check.",
+          "blanks": [
+            "I'd"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'd' is a contraction of 'I would' or 'I had'."
+        },
+        {
+          "sentence": "That's a bit steep. Let me just ring my bank quickly first.",
+          "blanks": [
+            "steep"
+          ],
+          "challenge": "expression",
+          "explanation": "'Steep' as an adjective for price is a common expression."
+        },
+        {
+          "sentence": "Cheers, back in two minutes.",
+          "blanks": [
+            "Cheers"
+          ],
+          "challenge": "expression",
+          "explanation": "'Cheers' is a common British informal way to say thanks."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "you have",
+          "spoken": "you've"
+        },
+        {
+          "written": "I would",
+          "spoken": "I'd"
+        },
+        {
+          "written": "I will",
+          "spoken": "I'll"
+        }
+      ]
+    },
+    {
+      "slug": "b1-asking-directions-downtown",
+      "title": "Finding the Way Downtown",
+      "level": "B1",
+      "category": "Everyday Life",
+      "topic": "asking for directions downtown",
+      "difficulty": 5,
+      "duration_seconds": 60,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Tourist",
+          "line": "Excuse me, sorry to bother you, but do you know how to get to the museum?"
+        },
+        {
+          "speaker": "Local",
+          "line": "Oh sure, no problem. You wanna go straight down this street for like two blocks."
+        },
+        {
+          "speaker": "Tourist",
+          "line": "Okay, straight for two blocks, got it."
+        },
+        {
+          "speaker": "Local",
+          "line": "Then you'll see a coffee shop on the corner, turn left there."
+        },
+        {
+          "speaker": "Tourist",
+          "line": "Left at the coffee shop, right."
+        },
+        {
+          "speaker": "Local",
+          "line": "Yeah, and then it's just another five-minute walk, you can't miss it."
+        },
+        {
+          "speaker": "Tourist",
+          "line": "Awesome, thank you so much. Is it open on Sundays, do you know?"
+        },
+        {
+          "speaker": "Local",
+          "line": "I believe so, yeah, but it closes earlier, around 4 instead of 6."
+        },
+        {
+          "speaker": "Tourist",
+          "line": "Good to know. Really appreciate the help."
+        },
+        {
+          "speaker": "Local",
+          "line": "No worries at all, enjoy your visit!"
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What does the tourist want to know?",
+          "options": [
+            "Where the bus stop is",
+            "How to get to the museum",
+            "Where to eat lunch",
+            "What time it is"
+          ],
+          "answer": "How to get to the museum",
+          "explanation": "The tourist asks for directions to the museum.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "Where should the tourist turn left?",
+          "options": [
+            "At a bookstore",
+            "At the museum",
+            "At a coffee shop",
+            "At a bank"
+          ],
+          "answer": "At a coffee shop",
+          "explanation": "The local says to turn left at the coffee shop on the corner.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What time does the museum close on Sundays?",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": "4",
+          "explanation": "The local says it closes earlier, around 4 instead of 6.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "wh",
+          "prompt": "How many blocks should the tourist walk straight?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "answer": "Two",
+          "explanation": "The local says to go straight for like two blocks.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the tourist say 'sorry to bother you'?",
+          "options": [
+            "To complain",
+            "To be polite before asking a favor",
+            "To end the conversation",
+            "To ask for money"
+          ],
+          "answer": "To be polite before asking a favor",
+          "explanation": "It's a polite way to start asking a stranger for help.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'you can't miss it' mean?",
+          "options": [
+            "It's hard to find",
+            "It's very obvious and easy to find",
+            "It's closed",
+            "It's far away"
+          ],
+          "answer": "It's very obvious and easy to find",
+          "explanation": "This common expression means the place is easy to spot.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Oh sure, no problem. You wanna go straight down this street for like two blocks.",
+          "blanks": [
+            "wanna"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Wanna' is the spoken reduction of 'want to'."
+        },
+        {
+          "sentence": "Yeah, and then it's just another five-minute walk, you can't miss it.",
+          "blanks": [
+            "five-minute"
+          ],
+          "challenge": "numbers",
+          "explanation": "Numbers combined with hyphenated words are tricky to hear."
+        },
+        {
+          "sentence": "I believe so, yeah, but it closes earlier, around 4 instead of 6.",
+          "blanks": [
+            "4",
+            "6"
+          ],
+          "challenge": "numbers",
+          "explanation": "Comparing two numbers quickly can confuse listeners."
+        },
+        {
+          "sentence": "Then you'll see a coffee shop on the corner, turn left there.",
+          "blanks": [
+            "you'll"
+          ],
+          "challenge": "contraction",
+          "explanation": "'You'll' is the contraction of 'you will'."
+        },
+        {
+          "sentence": "No worries at all, enjoy your visit!",
+          "blanks": [
+            "No worries"
+          ],
+          "challenge": "expression",
+          "explanation": "'No worries' is an informal way to say 'you're welcome'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "want to",
+          "spoken": "wanna"
+        },
+        {
+          "written": "you will",
+          "spoken": "you'll"
+        },
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        }
+      ]
+    },
+    {
+      "slug": "b1-travel-plans-with-friend",
+      "title": "Planning a Trip Together",
+      "level": "B1",
+      "category": "Social English",
+      "topic": "travel plans with a friend",
+      "difficulty": 5,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Anna",
+          "line": "So, are we still on for the trip in March?"
+        },
+        {
+          "speaker": "Ben",
+          "line": "Yeah, definitely! I was thinking we could leave on the 12th."
+        },
+        {
+          "speaker": "Anna",
+          "line": "Perfect, that works for me. How long were you thinking?"
+        },
+        {
+          "speaker": "Ben",
+          "line": "Maybe like a week, so we'd come back around the 19th."
+        },
+        {
+          "speaker": "Anna",
+          "line": "Sounds good. Should we look at flights tonight then?"
+        },
+        {
+          "speaker": "Ben",
+          "line": "Yeah, let's do it. Wanna split the cost of a rental car too?"
+        },
+        {
+          "speaker": "Anna",
+          "line": "Sure, that'd save us some money on transportation."
+        },
+        {
+          "speaker": "Ben",
+          "line": "Cool. Also, I found this really nice cabin, it's like 90 bucks a night."
+        },
+        {
+          "speaker": "Anna",
+          "line": "Ninety? That's not bad at all for the two of us."
+        },
+        {
+          "speaker": "Ben",
+          "line": "Right? I'll send you the link so you can check it out."
+        },
+        {
+          "speaker": "Anna",
+          "line": "Thanks, I'll take a look tonight after work."
+        },
+        {
+          "speaker": "Ben",
+          "line": "Sounds good, let's finalize everything by Friday."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What are Anna and Ben mainly discussing?",
+          "options": [
+            "A work project",
+            "Plans for an upcoming trip",
+            "A birthday party",
+            "A movie night"
+          ],
+          "answer": "Plans for an upcoming trip",
+          "explanation": "They're planning dates, flights, and lodging for a trip.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "When does Ben suggest they leave?",
+          "options": [
+            "The 10th",
+            "The 12th",
+            "The 19th",
+            "The 20th"
+          ],
+          "answer": "The 12th",
+          "explanation": "Ben says he was thinking they could leave on the 12th.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "How much does the cabin cost per night?",
+          "options": [
+            "$19",
+            "$90",
+            "$99",
+            "$9"
+          ],
+          "answer": "$90",
+          "explanation": "Ben mentions the cabin is about 90 bucks a night.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "wh",
+          "prompt": "By when do they want to finalize the plans?",
+          "options": [
+            "Monday",
+            "Wednesday",
+            "Friday",
+            "Sunday"
+          ],
+          "answer": "Friday",
+          "explanation": "Ben suggests finalizing everything by Friday.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Ben suggest splitting the rental car cost?",
+          "options": [
+            "To save money for both of them",
+            "Because he doesn't want to drive",
+            "Because Anna asked for it first",
+            "To avoid renting a car"
+          ],
+          "answer": "To save money for both of them",
+          "explanation": "Anna agrees it would save them money on transportation.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'that's not bad at all' mean here?",
+          "options": [
+            "It's a poor deal",
+            "It's a reasonable price",
+            "It's too expensive",
+            "It's confusing"
+          ],
+          "answer": "It's a reasonable price",
+          "explanation": "Anna thinks $90 a night is a good, affordable price.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Yeah, definitely! I was thinking we could leave on the 12th.",
+          "blanks": [
+            "12th"
+          ],
+          "challenge": "dates",
+          "explanation": "Ordinal dates are important numbers to catch in speech."
+        },
+        {
+          "sentence": "Maybe like a week, so we'd come back around the 19th.",
+          "blanks": [
+            "we'd",
+            "19th"
+          ],
+          "challenge": "contraction",
+          "explanation": "'We'd' is the contracted form of 'we would'."
+        },
+        {
+          "sentence": "Wanna split the cost of a rental car too?",
+          "blanks": [
+            "Wanna"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Wanna' is the spoken reduction of 'want to'."
+        },
+        {
+          "sentence": "Also, I found this really nice cabin, it's like 90 bucks a night.",
+          "blanks": [
+            "90 bucks"
+          ],
+          "challenge": "numbers",
+          "explanation": "'Bucks' is informal for dollars, common in casual speech."
+        },
+        {
+          "sentence": "Sounds good, let's finalize everything by Friday.",
+          "blanks": [
+            "Friday"
+          ],
+          "challenge": "dates",
+          "explanation": "Days of the week are common listening details."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "want to",
+          "spoken": "wanna"
+        },
+        {
+          "written": "we would",
+          "spoken": "we'd"
+        },
+        {
+          "written": "that would",
+          "spoken": "that'd"
+        }
+      ]
+    },
+    {
+      "slug": "b1-delayed-flight-complaint",
+      "title": "Complaining About a Delayed Flight",
+      "level": "B1",
+      "category": "Travel",
+      "topic": "complaining about a delayed flight",
+      "difficulty": 6,
+      "duration_seconds": 75,
+      "accent": "british",
+      "script": [
+        {
+          "speaker": "Passenger",
+          "line": "Excuse me, can you tell me why the flight's delayed again?"
+        },
+        {
+          "speaker": "Agent",
+          "line": "I'm really sorry, sir. There's a mechanical issue with the aircraft."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "This is the third delay today. It's been nearly four hours now."
+        },
+        {
+          "speaker": "Agent",
+          "line": "I completely understand your frustration, and I do apologise."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "Look, I've got a meeting at 9 tomorrow morning, I can't miss it."
+        },
+        {
+          "speaker": "Agent",
+          "line": "I hear you. Let me check if there's an earlier alternative flight."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "Please, that'd really help. I'd rather not spend the night here."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Right, give me a moment... okay, there's one leaving at half nine tonight."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "That could actually work. What time would that get me in?"
+        },
+        {
+          "speaker": "Agent",
+          "line": "You'd land around midnight, so you'd still make your meeting."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "Alright, let's do that then, thank you for sorting it."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Of course, and again, I'm sorry for all the inconvenience."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the passenger complaining about?",
+          "options": [
+            "Lost luggage",
+            "Repeated flight delays",
+            "Rude staff",
+            "A cancelled ticket"
+          ],
+          "answer": "Repeated flight delays",
+          "explanation": "The passenger is upset about the flight being delayed multiple times.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "How long has the passenger been waiting?",
+          "options": [
+            "One hour",
+            "Two hours",
+            "Nearly four hours",
+            "All day"
+          ],
+          "answer": "Nearly four hours",
+          "explanation": "The passenger states it's been nearly four hours already.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What time is the passenger's meeting?",
+          "options": [
+            "9 AM",
+            "9 PM",
+            "Midnight",
+            "Noon"
+          ],
+          "answer": "9 AM",
+          "explanation": "The passenger says he has a meeting at 9 tomorrow morning.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What is the cause of the delay?",
+          "options": [
+            "Bad weather",
+            "A mechanical issue",
+            "Staff shortage",
+            "Air traffic control"
+          ],
+          "answer": "A mechanical issue",
+          "explanation": "The agent explains there's a mechanical issue with the aircraft.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the agent check for an earlier alternative flight?",
+          "options": [
+            "To upsell a better seat",
+            "To help the passenger make his meeting",
+            "Because policy requires it",
+            "To end the conversation quickly"
+          ],
+          "answer": "To help the passenger make his meeting",
+          "explanation": "The agent wants to resolve the passenger's time-sensitive problem.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'half nine' mean in British English?",
+          "options": [
+            "8:30",
+            "9:00",
+            "9:30",
+            "9:15"
+          ],
+          "answer": "9:30",
+          "explanation": "In British English, 'half nine' means 9:30, not 8:30.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "This is the third delay today. It's been nearly four hours now.",
+          "blanks": [
+            "four hours"
+          ],
+          "challenge": "numbers",
+          "explanation": "Duration expressions like this are common in complaints."
+        },
+        {
+          "sentence": "Right, give me a moment... okay, there's one leaving at half nine tonight.",
+          "blanks": [
+            "half nine"
+          ],
+          "challenge": "expression",
+          "explanation": "'Half nine' is a British time expression meaning 9:30."
+        },
+        {
+          "sentence": "You'd land around midnight, so you'd still make your meeting.",
+          "blanks": [
+            "You'd"
+          ],
+          "challenge": "contraction",
+          "explanation": "'You'd' is the contraction of 'you would'."
+        },
+        {
+          "sentence": "Please, that'd really help. I'd rather not spend the night here.",
+          "blanks": [
+            "that'd",
+            "I'd"
+          ],
+          "challenge": "contraction",
+          "explanation": "Both contractions reduce 'that would' and 'I would'."
+        },
+        {
+          "sentence": "Look, I've got a meeting at 9 tomorrow morning, I can't miss it.",
+          "blanks": [
+            "I've got"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'I've got' blends together quickly in natural speech."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "that would",
+          "spoken": "that'd"
+        },
+        {
+          "written": "you would",
+          "spoken": "you'd"
+        },
+        {
+          "written": "I have got",
+          "spoken": "I've got"
+        }
+      ]
+    },
+    {
+      "slug": "b1-pharmacy-insurance-question",
+      "title": "Checking Insurance at the Pharmacy",
+      "level": "B1",
+      "category": "Everyday Life",
+      "topic": "pharmacy insurance coverage question",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Pharmacist",
+          "line": "Hi there, I've got your prescription ready, but there's an issue with your insurance."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Oh no, what kind of issue?"
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Looks like this medication isn't covered under your current plan."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Seriously? I thought I had full coverage for prescriptions."
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Unfortunately not this one, it's considered a brand-name drug."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Is there a generic version that might be covered instead?"
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Yeah, actually there is. Lemme check the price difference for you."
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Okay, the generic would only cost you about 12 dollars."
+        },
+        {
+          "speaker": "Customer",
+          "line": "That's way better than the 60 you mentioned earlier."
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Exactly, and it works the same way, just a different brand."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Great, let's go with the generic one then."
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Perfect, it'll be ready for pickup in about 10 minutes."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the main issue discussed?",
+          "options": [
+            "A wrong prescription",
+            "An insurance coverage problem",
+            "A pharmacy closing early",
+            "A missing ID"
+          ],
+          "answer": "An insurance coverage problem",
+          "explanation": "The pharmacist explains the medication isn't covered by insurance.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "Why isn't the medication covered?",
+          "options": [
+            "It's expired",
+            "It's a brand-name drug",
+            "It requires a doctor's note",
+            "It's out of stock"
+          ],
+          "answer": "It's a brand-name drug",
+          "explanation": "The pharmacist says it's considered a brand-name drug.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "How much does the generic version cost?",
+          "options": [
+            "$10",
+            "$12",
+            "$60",
+            "$20"
+          ],
+          "answer": "$12",
+          "explanation": "The pharmacist says the generic would cost about 12 dollars.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "wh",
+          "prompt": "How long until the prescription is ready?",
+          "options": [
+            "5 minutes",
+            "10 minutes",
+            "20 minutes",
+            "1 hour"
+          ],
+          "answer": "10 minutes",
+          "explanation": "The pharmacist says it'll be ready in about 10 minutes.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the customer choose the generic version?",
+          "options": [
+            "It's more effective",
+            "It's much cheaper",
+            "It's the only option in stock",
+            "The doctor requested it"
+          ],
+          "answer": "It's much cheaper",
+          "explanation": "The generic costs far less than the brand-name option.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'way better' mean in this context?",
+          "options": [
+            "Slightly better",
+            "Much better",
+            "Worse",
+            "The same"
+          ],
+          "answer": "Much better",
+          "explanation": "'Way better' is an informal way of saying significantly better.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Looks like this medication isn't covered under your current plan.",
+          "blanks": [
+            "isn't covered"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Isn't' is the contraction of 'is not'."
+        },
+        {
+          "sentence": "Yeah, actually there is. Lemme check the price difference for you.",
+          "blanks": [
+            "Lemme"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Lemme' is the spoken reduction of 'let me'."
+        },
+        {
+          "sentence": "Okay, the generic would only cost you about 12 dollars.",
+          "blanks": [
+            "12 dollars"
+          ],
+          "challenge": "numbers",
+          "explanation": "Prices in dollars are common listening challenges."
+        },
+        {
+          "sentence": "That's way better than the 60 you mentioned earlier.",
+          "blanks": [
+            "60"
+          ],
+          "challenge": "numbers",
+          "explanation": "Comparing two prices requires careful number tracking."
+        },
+        {
+          "sentence": "Perfect, it'll be ready for pickup in about 10 minutes.",
+          "blanks": [
+            "it'll",
+            "10 minutes"
+          ],
+          "challenge": "contraction",
+          "explanation": "'It'll' is the contraction of 'it will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "let me",
+          "spoken": "lemme"
+        },
+        {
+          "written": "it will",
+          "spoken": "it'll"
+        },
+        {
+          "written": "is not",
+          "spoken": "isn't"
+        }
+      ]
+    },
+    {
+      "slug": "b1-landlord-rent-increase",
+      "title": "Talking to the Landlord About Rent",
+      "level": "B1",
+      "category": "Canadian Life",
+      "topic": "talking to a landlord about rent increase",
+      "difficulty": 6,
+      "duration_seconds": 80,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Tenant",
+          "line": "Hey, I got your letter about the rent increase. Can we talk about it?"
+        },
+        {
+          "speaker": "Landlord",
+          "line": "Sure, go ahead. What's on your mind?"
+        },
+        {
+          "speaker": "Tenant",
+          "line": "It's just, a hundred dollars more a month is kind of a lot for us."
+        },
+        {
+          "speaker": "Landlord",
+          "line": "I hear you, but costs have gone up a ton on my end too."
+        },
+        {
+          "speaker": "Tenant",
+          "line": "I get that, but we've been really good tenants for three years now."
+        },
+        {
+          "speaker": "Landlord",
+          "line": "That's true, and I do appreciate that, honestly."
+        },
+        {
+          "speaker": "Tenant",
+          "line": "Is there any chance we could meet in the middle, like fifty instead?"
+        },
+        {
+          "speaker": "Landlord",
+          "line": "Hmm, lemme think about that for a sec."
+        },
+        {
+          "speaker": "Landlord",
+          "line": "Okay, I could do seventy-five, but that's really my lowest."
+        },
+        {
+          "speaker": "Tenant",
+          "line": "That works for us, I think. When would that start?"
+        },
+        {
+          "speaker": "Landlord",
+          "line": "It'd kick in starting next month, so from the 1st."
+        },
+        {
+          "speaker": "Tenant",
+          "line": "Alright, sounds fair. Thanks for working with us on this."
+        },
+        {
+          "speaker": "Landlord",
+          "line": "No problem, I'll send over the updated lease tomorrow."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What are the tenant and landlord negotiating?",
+          "options": [
+            "A new lease location",
+            "The amount of a rent increase",
+            "Repairs to the apartment",
+            "Ending the lease early"
+          ],
+          "answer": "The amount of a rent increase",
+          "explanation": "They're discussing lowering the proposed rent increase.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "How much was the original proposed increase?",
+          "options": [
+            "$50",
+            "$75",
+            "$100",
+            "$150"
+          ],
+          "answer": "$100",
+          "explanation": "The tenant mentions a hundred dollars more a month.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What amount do they finally agree on?",
+          "options": [
+            "$50",
+            "$75",
+            "$100",
+            "$25"
+          ],
+          "answer": "$75",
+          "explanation": "The landlord agrees to seventy-five as the lowest offer.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "wh",
+          "prompt": "When will the new rent start?",
+          "options": [
+            "Immediately",
+            "From the 1st of next month",
+            "In three months",
+            "Next year"
+          ],
+          "answer": "From the 1st of next month",
+          "explanation": "The landlord says it'd start from the 1st.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the tenant mention being a good tenant for three years?",
+          "options": [
+            "To ask for a new apartment",
+            "To justify asking for a smaller increase",
+            "To complain about the neighborhood",
+            "To end the lease"
+          ],
+          "answer": "To justify asking for a smaller increase",
+          "explanation": "They use their good history as leverage in negotiation.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'meet in the middle' mean here?",
+          "options": [
+            "Meet at a location",
+            "Compromise between two amounts",
+            "Cancel the agreement",
+            "Wait a while"
+          ],
+          "answer": "Compromise between two amounts",
+          "explanation": "It's an idiom meaning to find a compromise.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "It's just, a hundred dollars more a month is kind of a lot for us.",
+          "blanks": [
+            "hundred dollars"
+          ],
+          "challenge": "numbers",
+          "explanation": "Amounts of money need careful listening in negotiations."
+        },
+        {
+          "sentence": "Is there any chance we could meet in the middle, like fifty instead?",
+          "blanks": [
+            "fifty"
+          ],
+          "challenge": "expression",
+          "explanation": "'Meet in the middle' is a common negotiation expression."
+        },
+        {
+          "sentence": "Okay, I could do seventy-five, but that's really my lowest.",
+          "blanks": [
+            "seventy-five"
+          ],
+          "challenge": "numbers",
+          "explanation": "Spoken numbers like seventy-five can be hard to catch quickly."
+        },
+        {
+          "sentence": "It'd kick in starting next month, so from the 1st.",
+          "blanks": [
+            "It'd"
+          ],
+          "challenge": "contraction",
+          "explanation": "'It'd' is the contraction of 'it would'."
+        },
+        {
+          "sentence": "No problem, I'll send over the updated lease tomorrow.",
+          "blanks": [
+            "I'll"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is the contraction of 'I will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "it would",
+          "spoken": "it'd"
+        },
+        {
+          "written": "let me",
+          "spoken": "lemme"
+        },
+        {
+          "written": "I will",
+          "spoken": "I'll"
+        }
+      ]
+    },
+    {
+      "slug": "b1-parent-teacher-meeting",
+      "title": "A Parent-Teacher Meeting",
+      "level": "B1",
+      "category": "Canadian Life",
+      "topic": "kid's school parent-teacher meeting",
+      "difficulty": 5,
+      "duration_seconds": 75,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Teacher",
+          "line": "Thanks for coming in today. I wanted to talk about Sam's progress."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Of course, is everything okay? I got a little worried."
+        },
+        {
+          "speaker": "Teacher",
+          "line": "Oh, nothing serious, don't worry. He's actually doing really well in math."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Oh, that's great to hear. What about reading?"
+        },
+        {
+          "speaker": "Teacher",
+          "line": "That's actually what I wanted to mention. He's a bit behind there."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Hmm, okay. Is there something we should be doing at home?"
+        },
+        {
+          "speaker": "Teacher",
+          "line": "Yeah, maybe just 15 minutes of reading together every evening would help."
+        },
+        {
+          "speaker": "Parent",
+          "line": "We can definitely do that. Should we come back in a month or so?"
+        },
+        {
+          "speaker": "Teacher",
+          "line": "That'd be perfect, let's say the 20th, same time as today."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Sounds good. Is there anything else we should know?"
+        },
+        {
+          "speaker": "Teacher",
+          "line": "Just that he's a really sweet kid, super helpful with his classmates."
+        },
+        {
+          "speaker": "Parent",
+          "line": "That's nice to hear. Thanks so much for taking the time today."
+        },
+        {
+          "speaker": "Teacher",
+          "line": "Of course, anytime. See you both on the 20th."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the main purpose of this meeting?",
+          "options": [
+            "To discuss discipline problems",
+            "To discuss Sam's academic progress",
+            "To plan a school trip",
+            "To talk about tuition fees"
+          ],
+          "answer": "To discuss Sam's academic progress",
+          "explanation": "The teacher wants to update the parent on Sam's progress.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What subject is Sam doing well in?",
+          "options": [
+            "Reading",
+            "Science",
+            "Math",
+            "Art"
+          ],
+          "answer": "Math",
+          "explanation": "The teacher says he's doing really well in math.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What does the teacher suggest doing at home?",
+          "options": [
+            "Extra math worksheets",
+            "15 minutes of reading together each evening",
+            "Watching educational videos",
+            "Hiring a tutor"
+          ],
+          "answer": "15 minutes of reading together each evening",
+          "explanation": "The teacher recommends daily reading time at home.",
+          "skill": "details"
+        },
+        {
+          "type": "wh",
+          "prompt": "When is the next meeting scheduled?",
+          "options": [
+            "The 10th",
+            "The 15th",
+            "The 20th",
+            "The 25th"
+          ],
+          "answer": "The 20th",
+          "explanation": "The teacher suggests meeting again on the 20th.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the parent say they got 'a little worried'?",
+          "options": [
+            "Because the teacher sounded serious",
+            "Because Sam is in trouble",
+            "Because they forgot the meeting",
+            "Because school is expensive"
+          ],
+          "answer": "Because the teacher sounded serious",
+          "explanation": "The parent worried something bad had happened before hearing details.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'a bit behind' mean in this context?",
+          "options": [
+            "Ahead of schedule",
+            "Slightly below expected level",
+            "Completely failing",
+            "Physically behind in class"
+          ],
+          "answer": "Slightly below expected level",
+          "explanation": "It means Sam is a little behind his expected reading level.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Oh, nothing serious, don't worry. He's actually doing really well in math.",
+          "blanks": [
+            "He's"
+          ],
+          "challenge": "contraction",
+          "explanation": "'He's' is the contraction of 'he is'."
+        },
+        {
+          "sentence": "Yeah, maybe just 15 minutes of reading together every evening would help.",
+          "blanks": [
+            "15 minutes"
+          ],
+          "challenge": "numbers",
+          "explanation": "Time durations require attentive listening."
+        },
+        {
+          "sentence": "That'd be perfect, let's say the 20th, same time as today.",
+          "blanks": [
+            "That'd",
+            "20th"
+          ],
+          "challenge": "contraction",
+          "explanation": "'That'd' is the contraction of 'that would'."
+        },
+        {
+          "sentence": "Just that he's a really sweet kid, super helpful with his classmates.",
+          "blanks": [
+            "he's"
+          ],
+          "challenge": "contraction",
+          "explanation": "Contractions with 'he's' are frequent in spoken English."
+        },
+        {
+          "sentence": "Of course, anytime. See you both on the 20th.",
+          "blanks": [
+            "20th"
+          ],
+          "challenge": "dates",
+          "explanation": "Ordinal dates require attention to detail when spoken."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "he is",
+          "spoken": "he's"
+        },
+        {
+          "written": "that would",
+          "spoken": "that'd"
+        },
+        {
+          "written": "let us",
+          "spoken": "let's"
+        }
+      ]
+    }
+  ]
+}

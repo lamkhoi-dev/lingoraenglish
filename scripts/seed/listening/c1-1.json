@@ -1,0 +1,1217 @@
+{
+ "lessons": [
+  {
+   "slug": "c1-board-level-strategy-debate",
+   "title": "A Boardroom Standoff Over Strategy",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "board-level strategy debate",
+   "difficulty": 9,
+   "duration_seconds": 150,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Marta",
+     "line": "Before we vote, I want to put it bluntly: pivoting the whole division into subscriptions now would be reckless."
+    },
+    {
+     "speaker": "Dean",
+     "line": "With respect, Marta, sitting on the fence for another quarter is the reckless move. Our margins are already bleeding."
+    },
+    {
+     "speaker": "Marta",
+     "line": "They're thin, not bleeding. And you're glossing over the fact that we'd have to gut half the sales team to fund this."
+    },
+    {
+     "speaker": "Dean",
+     "line": "We'd redeploy them, not gut them. Honestly, I think you're clinging to a model that's had its day."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Let's not make this personal. Dean, walk us through the numbers you've floated."
+    },
+    {
+     "speaker": "Dean",
+     "line": "Sure. If we shift sixty percent of revenue to subscription within eighteen months, churn aside, we'd stabilize cash flow by year three."
+    },
+    {
+     "speaker": "Marta",
+     "line": "That's a big if. You're banking on churn staying under ten percent, which, frankly, is optimistic given our track record."
+    },
+    {
+     "speaker": "Dean",
+     "line": "I'd rather bet on an ambitious plan than watch us get outpaced by every competitor who's already made the leap."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Marta, what would you propose instead?"
+    },
+    {
+     "speaker": "Marta",
+     "line": "A phased pilot. Test the subscription model in one region before we bet the farm on it company-wide."
+    },
+    {
+     "speaker": "Dean",
+     "line": "That could've worked two years ago. Now it just delays the inevitable and lets rivals lock in customers first."
+    },
+    {
+     "speaker": "Marta",
+     "line": "Or it stops us from torching capital on something half-baked. I've seen this movie before, Dean."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Both points are fair. Let's table a compromise: a pilot in two markets, with a hard deadline for a full rollout decision."
+    },
+    {
+     "speaker": "Dean",
+     "line": "I could live with that, provided the deadline isn't so far out that it becomes an excuse to stall again."
+    },
+    {
+     "speaker": "Marta",
+     "line": "Six months, then. Enough time for real data, not enough to drag our feet."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Agreed. I'll circulate the revised proposal, and we'll reconvene once the pilot numbers are in."
+    },
+    {
+     "speaker": "Dean",
+     "line": "Fine by me. I just don't want caution to be the thing that sinks us."
+    },
+    {
+     "speaker": "Marta",
+     "line": "And I don't want ambition to be the thing that bankrupts us. Let's see what the data says."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the central disagreement in the meeting?",
+     "options": [
+      "Whether to fire the sales team immediately",
+      "Whether to fully pivot to a subscription model now or test it first",
+      "Whether the company should shut down a division",
+      "Whether the chair should resign"
+     ],
+     "answer": "Whether to fully pivot to a subscription model now or test it first",
+     "explanation": "Dean wants a fast full pivot while Marta pushes for a cautious pilot.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What compromise does the chair propose?",
+     "options": [
+      "Immediate full rollout",
+      "A pilot in two markets with a set deadline",
+      "Cancelling the strategy entirely",
+      "Firing Dean and Marta"
+     ],
+     "answer": "A pilot in two markets with a set deadline",
+     "explanation": "The chair suggests testing in two markets before deciding on a full rollout.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What percentage of revenue does Dean want shifted to subscriptions within eighteen months?",
+     "options": [
+      "Forty percent",
+      "Fifty percent",
+      "Sixty percent",
+      "Eighty percent"
+     ],
+     "answer": "Sixty percent",
+     "explanation": "Dean states a target of sixty percent of revenue within eighteen months.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Marta say 'I've seen this movie before, Dean'?",
+     "options": [
+      "She literally watched a film with Dean",
+      "She's implying his optimism has failed similarly in the past",
+      "She wants to discuss cinema",
+      "She agrees fully with his plan"
+     ],
+     "answer": "She's implying his optimism has failed similarly in the past",
+     "explanation": "It's an idiom expressing skepticism based on past experience.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "What is Dean's attitude toward waiting longer to decide?",
+     "options": [
+      "He thinks it's wise and safe",
+      "He thinks it lets competitors gain an advantage",
+      "He is indifferent to timing",
+      "He wants to wait two more years"
+     ],
+     "answer": "He thinks it lets competitors gain an advantage",
+     "explanation": "Dean argues delay lets rivals lock in customers first.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'bet the farm on it' mean as used by Marta?",
+     "options": [
+      "Invest a small, safe amount",
+      "Risk everything on one outcome",
+      "Buy agricultural property",
+      "Test something cautiously"
+     ],
+     "answer": "Risk everything on one outcome",
+     "explanation": "It's an idiom meaning to risk everything on a single venture.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long is the deadline eventually agreed on for the pilot?",
+     "options": [
+      "Three months",
+      "Six months",
+      "One year",
+      "Eighteen months"
+     ],
+     "answer": "Six months",
+     "explanation": "Marta proposes six months and it is accepted.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "With respect, Marta, sitting on the fence for another quarter is the reckless move.",
+     "blanks": [
+      "sitting on the fence"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiom meaning to avoid making a decision."
+    },
+    {
+     "sentence": "Honestly, I think you're clinging to a model that's had its day.",
+     "blanks": [
+      "you're clinging to"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'you are' used in fast conversational speech."
+    },
+    {
+     "sentence": "That's a big if.",
+     "blanks": [
+      "big if"
+     ],
+     "challenge": "expression",
+     "explanation": "A short idiomatic phrase implying doubt about a condition."
+    },
+    {
+     "sentence": "That could've worked two years ago.",
+     "blanks": [
+      "could've"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "Reduced form of 'could have' pronounced as one weak syllable."
+    },
+    {
+     "sentence": "I could live with that, provided the deadline isn't so far out that it becomes an excuse to stall again.",
+     "blanks": [
+      "isn't so far out"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Words blend together quickly in natural speech."
+    },
+    {
+     "sentence": "I just don't want caution to be the thing that sinks us.",
+     "blanks": [
+      "don't want"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'do not' commonly reduced in speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "could have",
+     "spoken": "could've"
+    },
+    {
+     "written": "you are",
+     "spoken": "you're"
+    },
+    {
+     "written": "do not",
+     "spoken": "don't"
+    },
+    {
+     "written": "is not",
+     "spoken": "isn't"
+    }
+   ]
+  },
+  {
+   "slug": "c1-restructuring-town-hall",
+   "title": "Breaking the News: A Company Town Hall",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "restructuring town hall",
+   "difficulty": 9,
+   "duration_seconds": 160,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Priya",
+     "line": "Thanks, everyone, for logging on at short notice. I won't sugarcoat it: we're restructuring three departments."
+    },
+    {
+     "speaker": "Tom",
+     "line": "Priya, can you give us a straight answer? Are jobs actually going to be cut, or is this just reshuffling?"
+    },
+    {
+     "speaker": "Priya",
+     "line": "There will be redundancies, Tom, roughly fifteen percent across the affected teams. I'd rather you heard it from me plainly than through rumours."
+    },
+    {
+     "speaker": "Nadia",
+     "line": "Fifteen percent is a lot. What's driving this, exactly? Last quarter we were told the numbers looked solid."
+    },
+    {
+     "speaker": "Priya",
+     "line": "They did look solid on paper, but two of our biggest contracts fell through last month, and we can't paper over that gap."
+    },
+    {
+     "speaker": "Tom",
+     "line": "So we're paying for lost contracts we had no control over. That stings, to put it mildly."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I understand the frustration, truly. We're also offering enhanced severance and priority for internal transfers where roles exist."
+    },
+    {
+     "speaker": "Nadia",
+     "line": "When will people actually find out if they're affected? The not-knowing is what's really eating at people."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Individual conversations start Thursday. I know that feels like an eternity away, but we wanted the details locked down first."
+    },
+    {
+     "speaker": "Tom",
+     "line": "Locked down or not, morale's already through the floor. People were blindsided by the timing."
+    },
+    {
+     "speaker": "Priya",
+     "line": "That's fair criticism, and I'll own it. We should've communicated sooner, even without every detail finalized."
+    },
+    {
+     "speaker": "Nadia",
+     "line": "Will there be a hiring freeze on top of this, or are we still backfilling critical roles?"
+    },
+    {
+     "speaker": "Priya",
+     "line": "Critical roles will still be backfilled, but discretionary hiring is paused for two quarters at least."
+    },
+    {
+     "speaker": "Tom",
+     "line": "And leadership bonuses? I have to ask, because that's the first thing people will bring up."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Executive bonuses are suspended this cycle. It wouldn't be right to ask for cuts elsewhere otherwise."
+    },
+    {
+     "speaker": "Nadia",
+     "line": "That helps, honestly. It doesn't fix the anxiety, but it shows some accountability."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I won't pretend this is painless. I'll be doing open office hours all week for anyone who wants to talk it through."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this town hall?",
+     "options": [
+      "To announce a merger",
+      "To inform staff about restructuring and layoffs",
+      "To celebrate quarterly results",
+      "To launch a new product"
+     ],
+     "answer": "To inform staff about restructuring and layoffs",
+     "explanation": "Priya announces redundancies and restructuring details.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What percentage of roles will be cut in the affected teams?",
+     "options": [
+      "Five percent",
+      "Ten percent",
+      "Fifteen percent",
+      "Twenty-five percent"
+     ],
+     "answer": "Fifteen percent",
+     "explanation": "Priya states roughly fifteen percent across affected teams.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What caused the sudden need for restructuring?",
+     "options": [
+      "A new competitor entered the market",
+      "Two major contracts fell through",
+      "The CEO resigned",
+      "A factory closed"
+     ],
+     "answer": "Two major contracts fell through",
+     "explanation": "Priya explains that two big contracts fell through last month.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Tom ask about leadership bonuses?",
+     "options": [
+      "He's curious about company finance policy in general",
+      "He implies fairness requires leaders to share the pain too",
+      "He wants a bonus himself",
+      "He thinks bonuses should increase"
+     ],
+     "answer": "He implies fairness requires leaders to share the pain too",
+     "explanation": "Tom raises it because staff will question fairness during cuts.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "What does Priya's tone suggest about her own view of how this was communicated?",
+     "options": [
+      "She thinks it was handled perfectly",
+      "She admits it should have been communicated sooner",
+      "She blames Tom and Nadia for the delay",
+      "She refuses to take responsibility"
+     ],
+     "answer": "She admits it should have been communicated sooner",
+     "explanation": "She says 'we should've communicated sooner, even without every detail finalized.'",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'morale's through the floor' mean?",
+     "options": [
+      "Employee morale is extremely high",
+      "Employee morale is very low",
+      "The office floor is damaged",
+      "Everyone is on the ground floor"
+     ],
+     "answer": "Employee morale is very low",
+     "explanation": "It's an idiom meaning morale has dropped drastically.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "When will individual conversations about redundancies begin?",
+     "options": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Next month"
+     ],
+     "answer": "Thursday",
+     "explanation": "Priya says individual conversations start Thursday.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I won't sugarcoat it: we're restructuring three departments.",
+     "blanks": [
+      "won't sugarcoat"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'will not' plus an idiom meaning to soften bad news."
+    },
+    {
+     "sentence": "They did look solid on paper, but two of our biggest contracts fell through last month, and we can't paper over that gap.",
+     "blanks": [
+      "fell through"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiom meaning something failed or didn't happen as planned."
+    },
+    {
+     "sentence": "That stings, to put it mildly.",
+     "blanks": [
+      "to put it mildly"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiomatic phrase used for understatement."
+    },
+    {
+     "sentence": "We should've communicated sooner, even without every detail finalized.",
+     "blanks": [
+      "should've"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "Reduced form of 'should have' spoken as one weak sound."
+    },
+    {
+     "sentence": "Locked down or not, morale's already through the floor.",
+     "blanks": [
+      "morale's"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'morale is' in rapid speech."
+    },
+    {
+     "sentence": "Individual conversations start Thursday.",
+     "blanks": [
+      "Thursday"
+     ],
+     "challenge": "dates",
+     "explanation": "A specific day mentioned that listeners must catch precisely."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "will not",
+     "spoken": "won't"
+    },
+    {
+     "written": "should have",
+     "spoken": "should've"
+    },
+    {
+     "written": "morale is",
+     "spoken": "morale's"
+    },
+    {
+     "written": "we are",
+     "spoken": "we're"
+    }
+   ]
+  },
+  {
+   "slug": "c1-investor-update-call",
+   "title": "Reading Between the Lines on the Investor Call",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "investor update call",
+   "difficulty": 8,
+   "duration_seconds": 140,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Operator",
+     "line": "Good morning, everyone. I'll now hand the call over to CFO Renee Alvarez for the quarterly update."
+    },
+    {
+     "speaker": "Renee",
+     "line": "Thanks. Revenue came in at two hundred ten million, up eight percent year-on-year, though slightly under our own guidance."
+    },
+    {
+     "speaker": "Investor 1",
+     "line": "Renee, can you unpack why you missed guidance when bookings looked strong through most of the quarter?"
+    },
+    {
+     "speaker": "Renee",
+     "line": "Fair question. A handful of enterprise deals slipped into next quarter due to procurement delays on the client side."
+    },
+    {
+     "speaker": "Investor 1",
+     "line": "Slipped, or lost? Those aren't the same thing, and investors will read this differently depending on which it is."
+    },
+    {
+     "speaker": "Renee",
+     "line": "Slipped. We have signed letters of intent on three of the four deals; they're just not closed yet."
+    },
+    {
+     "speaker": "Investor 2",
+     "line": "What about margins? They compressed by roughly two points. Is that a one-off or something we should get used to?"
+    },
+    {
+     "speaker": "Renee",
+     "line": "Partly one-off, tied to onboarding costs for two large clients. But input costs are also creeping up, so I won't oversell a quick fix."
+    },
+    {
+     "speaker": "Investor 2",
+     "line": "So we should model continued pressure into next quarter, realistically?"
+    },
+    {
+     "speaker": "Renee",
+     "line": "I'd model modest pressure, yes, easing in the second half as the onboarding costs roll off."
+    },
+    {
+     "speaker": "Investor 1",
+     "line": "You mentioned headcount growth slowing. Is that a deliberate pullback or a hiring difficulty?"
+    },
+    {
+     "speaker": "Renee",
+     "line": "A bit of both, if I'm being candid. We tightened approvals given the guidance miss, and the market for senior engineers is tight regardless."
+    },
+    {
+     "speaker": "Investor 2",
+     "line": "Understood. Last one from me: any update on the buyback program investors have been asking about?"
+    },
+    {
+     "speaker": "Renee",
+     "line": "The board's reviewing it. I can't commit to a number today, but it's very much on the table for next quarter."
+    },
+    {
+     "speaker": "Investor 1",
+     "line": "Appreciate the transparency, Renee, even if the numbers themselves are a bit underwhelming this quarter."
+    },
+    {
+     "speaker": "Renee",
+     "line": "That's fair. We'd rather give you the unvarnished picture than paper over a soft quarter."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the overall tone and purpose of this call?",
+     "options": [
+      "Celebrating record profits with no concerns raised",
+      "Explaining a revenue miss and addressing investor concerns candidly",
+      "Announcing a company bankruptcy",
+      "Launching a new product line"
+     ],
+     "answer": "Explaining a revenue miss and addressing investor concerns candidly",
+     "explanation": "Renee explains the missed guidance and answers tough questions honestly.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "By how much did revenue grow year-on-year?",
+     "options": [
+      "Two percent",
+      "Five percent",
+      "Eight percent",
+      "Twelve percent"
+     ],
+     "answer": "Eight percent",
+     "explanation": "Renee states revenue was up eight percent year-on-year.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is the main reason given for missing guidance?",
+     "options": [
+      "A major product recall",
+      "Enterprise deals slipping due to procurement delays",
+      "A cybersecurity breach",
+      "Loss of a key executive"
+     ],
+     "answer": "Enterprise deals slipping due to procurement delays",
+     "explanation": "Renee attributes it to client-side procurement delays on enterprise deals.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Investor 1 press on the word 'slipped' versus 'lost'?",
+     "options": [
+      "He is confused about vocabulary",
+      "He wants precise language because it changes how investors interpret the results",
+      "He is testing Renee's English skills",
+      "He doesn't care about the distinction"
+     ],
+     "answer": "He wants precise language because it changes how investors interpret the results",
+     "explanation": "He explicitly says the two words would be read differently by investors.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "What does Renee's closing remark suggest about her communication style?",
+     "options": [
+      "She prefers to hide bad news",
+      "She values being straightforward even when results are weak",
+      "She is overly optimistic without basis",
+      "She avoids investor questions"
+     ],
+     "answer": "She values being straightforward even when results are weak",
+     "explanation": "She says they'd rather give the 'unvarnished picture' than hide a soft quarter.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'paper over' mean in this context?",
+     "options": [
+      "To document something in detail",
+      "To hide or disguise a problem superficially",
+      "To print financial reports",
+      "To increase paper costs"
+     ],
+     "answer": "To hide or disguise a problem superficially",
+     "explanation": "It's an idiom meaning to conceal a problem rather than solve it.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "What did Renee say about the buyback program?",
+     "options": [
+      "It was cancelled entirely",
+      "It's under board review and possible next quarter",
+      "It was approved immediately",
+      "It doubled in size"
+     ],
+     "answer": "It's under board review and possible next quarter",
+     "explanation": "Renee says the board is reviewing it and it's on the table for next quarter.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Revenue came in at two hundred ten million, up eight percent year-on-year, though slightly under our own guidance.",
+     "blanks": [
+      "year-on-year"
+     ],
+     "challenge": "expression",
+     "explanation": "A financial expression meaning compared to the same period last year."
+    },
+    {
+     "sentence": "A handful of enterprise deals slipped into next quarter due to procurement delays on the client side.",
+     "blanks": [
+      "slipped into"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiom meaning something was delayed or pushed to a later time."
+    },
+    {
+     "sentence": "But input costs are also creeping up, so I won't oversell a quick fix.",
+     "blanks": [
+      "won't oversell"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'will not' used before a verb of exaggeration."
+    },
+    {
+     "sentence": "A bit of both, if I'm being candid.",
+     "blanks": [
+      "if I'm being"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'I am' blended quickly in casual speech."
+    },
+    {
+     "sentence": "The board's reviewing it.",
+     "blanks": [
+      "board's reviewing"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'board is' spoken as one fast unit."
+    },
+    {
+     "sentence": "We'd rather give you the unvarnished picture than paper over a soft quarter.",
+     "blanks": [
+      "We'd rather"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "Reduced form of 'we would' pronounced weakly in fast speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "will not",
+     "spoken": "won't"
+    },
+    {
+     "written": "I am",
+     "spoken": "I'm"
+    },
+    {
+     "written": "board is",
+     "spoken": "board's"
+    },
+    {
+     "written": "we would",
+     "spoken": "we'd"
+    }
+   ]
+  },
+  {
+   "slug": "c1-difficult-client-renegotiation",
+   "title": "Holding the Line: Renegotiating with a Difficult Client",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "difficult client renegotiation",
+   "difficulty": 9,
+   "duration_seconds": 150,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Sophie",
+     "line": "Mr. Kessler, thanks for making time. I understand you're unhappy with the renewal terms we sent over."
+    },
+    {
+     "speaker": "Kessler",
+     "line": "Unhappy is putting it mildly. A twelve percent increase feels like you're taking us for a ride, frankly."
+    },
+    {
+     "speaker": "Sophie",
+     "line": "I hear you, and I want to be upfront: some of that reflects rising infrastructure costs we've absorbed for two years without passing them on."
+    },
+    {
+     "speaker": "Kessler",
+     "line": "That's your problem to manage, not ours to fund. We can get a comparable service elsewhere for less."
+    },
+    {
+     "speaker": "Sophie",
+     "line": "You could, though I'd flag that most competitors don't offer the same uptime guarantees or dedicated support you get with us."
+    },
+    {
+     "speaker": "Kessler",
+     "line": "Guarantees are nice on paper, but they don't mean much when the increase itself is what's straining our budget."
+    },
+    {
+     "speaker": "Sophie",
+     "line": "Understood. What if we phased the increase, six percent this year and the remainder next year, tied to a longer contract?"
+    },
+    {
+     "speaker": "Kessler",
+     "line": "How much longer are we talking? I'm not signing a three-year lock-in just to soften a price hike."
+    },
+    {
+     "speaker": "Sophie",
+     "line": "Eighteen months, not three years. And we'd throw in the premium support tier at no extra cost for that period."
+    },
+    {
+     "speaker": "Kessler",
+     "line": "That's more reasonable. Though I still think the base increase is steep given the market."
+    },
+    {
+     "speaker": "Sophie",
+     "line": "I can push for an extra half-point discount if we settle this today rather than dragging negotiations out further."
+    },
+    {
+     "speaker": "Kessler",
+     "line": "You're in a hurry to close, which tells me there's room to move even further."
+    },
+    {
+     "speaker": "Sophie",
+     "line": "There's some room, not a lot. I'd rather be straight with you than string this out and waste both our time."
+    },
+    {
+     "speaker": "Kessler",
+     "line": "Fine. Five and a half percent this year, premium support included, eighteen-month term. Do we have a deal?"
+    },
+    {
+     "speaker": "Sophie",
+     "line": "We have a deal, provided legal signs off on the revised terms by Friday."
+    },
+    {
+     "speaker": "Kessler",
+     "line": "Friday works. And Sophie, I appreciate you not just stonewalling me on this."
+    },
+    {
+     "speaker": "Sophie",
+     "line": "That's not how I like to do business. Glad we could land somewhere that works for both sides."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main outcome of this conversation?",
+     "options": [
+      "The client cancels the contract entirely",
+      "They reach a revised deal with a phased, reduced increase",
+      "Sophie refuses any negotiation",
+      "The client agrees to the original twelve percent increase"
+     ],
+     "answer": "They reach a revised deal with a phased, reduced increase",
+     "explanation": "They settle on 5.5% this year with an 18-month term and premium support.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What was the original proposed price increase?",
+     "options": [
+      "Five percent",
+      "Eight percent",
+      "Ten percent",
+      "Twelve percent"
+     ],
+     "answer": "Twelve percent",
+     "explanation": "Kessler mentions the original twelve percent increase.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is the final agreed increase and contract length?",
+     "options": [
+      "Five and a half percent, eighteen-month term",
+      "Twelve percent, three-year term",
+      "Six percent, one-year term",
+      "Ten percent, two-year term"
+     ],
+     "answer": "Five and a half percent, eighteen-month term",
+     "explanation": "They agree on 5.5% this year with an eighteen-month term.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Kessler say 'You're in a hurry to close, which tells me there's room to move further'?",
+     "options": [
+      "He is complimenting Sophie's efficiency",
+      "He is using her urgency as leverage to push for a better deal",
+      "He wants to end the negotiation immediately",
+      "He believes the deal is already finalized"
+     ],
+     "answer": "He is using her urgency as leverage to push for a better deal",
+     "explanation": "He interprets her eagerness to close as a sign more concessions are possible.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "What does Sophie's approach throughout suggest about her negotiating style?",
+     "options": [
+      "She avoids conflict and gives in easily",
+      "She is firm but transparent, offering real concessions without folding completely",
+      "She refuses to compromise at all",
+      "She is dishonest about costs"
+     ],
+     "answer": "She is firm but transparent, offering real concessions without folding completely",
+     "explanation": "She explains reasoning, offers phased terms, but holds a limit on discounts.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'taking us for a ride' mean as Kessler uses it?",
+     "options": [
+      "Offering a pleasant car trip",
+      "Deceiving or overcharging someone unfairly",
+      "Giving a tour of the office",
+      "Providing free transportation"
+     ],
+     "answer": "Deceiving or overcharging someone unfairly",
+     "explanation": "It's an idiom meaning to exploit or cheat someone.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "By when must legal sign off on the revised terms?",
+     "options": [
+      "Monday",
+      "Wednesday",
+      "Friday",
+      "End of the month"
+     ],
+     "answer": "Friday",
+     "explanation": "Sophie states the deal is provided legal signs off by Friday.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Unhappy is putting it mildly.",
+     "blanks": [
+      "putting it mildly"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiom used for understatement of a stronger feeling."
+    },
+    {
+     "sentence": "That's your problem to manage, not ours to fund.",
+     "blanks": [
+      "That's your problem"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'that is' spoken quickly in conversation."
+    },
+    {
+     "sentence": "I'm not signing a three-year lock-in just to soften a price hike.",
+     "blanks": [
+      "I'm not"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'I am' before a negative verb."
+    },
+    {
+     "sentence": "You're in a hurry to close, which tells me there's room to move even further.",
+     "blanks": [
+      "there's room"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'there is' in fast connected speech."
+    },
+    {
+     "sentence": "I'd rather be straight with you than string this out and waste both our time.",
+     "blanks": [
+      "I'd rather"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "Reduced form of 'I would' pronounced weakly."
+    },
+    {
+     "sentence": "Friday works.",
+     "blanks": [
+      "Friday works"
+     ],
+     "challenge": "dates",
+     "explanation": "A short confirmation naming a specific deadline day."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "that is",
+     "spoken": "that's"
+    },
+    {
+     "written": "I am",
+     "spoken": "I'm"
+    },
+    {
+     "written": "there is",
+     "spoken": "there's"
+    },
+    {
+     "written": "I would",
+     "spoken": "I'd"
+    }
+   ]
+  },
+  {
+   "slug": "c1-ethics-complaint-conversation",
+   "title": "Handling an Ethics Complaint with Care",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "ethics complaint conversation",
+   "difficulty": 10,
+   "duration_seconds": 170,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "HR Lead",
+     "line": "Thanks for coming in, Aiden. I want to be direct: a complaint's been filed alleging you pressured a vendor into a kickback arrangement."
+    },
+    {
+     "speaker": "Aiden",
+     "line": "That's a serious accusation, and frankly it's not true. Whoever filed this is twisting a conversation completely out of context."
+    },
+    {
+     "speaker": "HR Lead",
+     "line": "I'm not here to accuse you outright. I need to walk through the specifics and hear your side before anything's decided."
+    },
+    {
+     "speaker": "Aiden",
+     "line": "Fair enough. What exactly is the vendor claiming happened?"
+    },
+    {
+     "speaker": "HR Lead",
+     "line": "They allege you implied their contract renewal depended on routing a portion of the invoice to a third party you'd name."
+    },
+    {
+     "speaker": "Aiden",
+     "line": "I did mention a referral partner during that call, but it was a legitimate subcontracting suggestion, not a kickback."
+    },
+    {
+     "speaker": "HR Lead",
+     "line": "Can you walk me through why you brought that up in a contract negotiation at all? It's an unusual thing to raise."
+    },
+    {
+     "speaker": "Aiden",
+     "line": "In hindsight, I can see how it might've come across wrong. I should've kept that conversation strictly separate."
+    },
+    {
+     "speaker": "HR Lead",
+     "line": "That's a meaningful admission. Was there any financial benefit to you personally in that referral?"
+    },
+    {
+     "speaker": "Aiden",
+     "line": "None whatsoever. I have no stake in that company, and I'll happily have that verified through my financial disclosures."
+    },
+    {
+     "speaker": "HR Lead",
+     "line": "We will be verifying it, as part of standard process, not because I doubt you specifically."
+    },
+    {
+     "speaker": "Aiden",
+     "line": "I understand. I just don't want this to snowball into something it isn't based on a poorly worded suggestion."
+    },
+    {
+     "speaker": "HR Lead",
+     "line": "I take that seriously. Regardless of intent, though, mixing personal referrals into vendor negotiations crosses a line we take seriously."
+    },
+    {
+     "speaker": "Aiden",
+     "line": "Agreed, and I'll own that lapse in judgment. What happens next in the process?"
+    },
+    {
+     "speaker": "HR Lead",
+     "line": "We'll interview the vendor again, review the call notes, and likely require a compliance refresher regardless of the outcome."
+    },
+    {
+     "speaker": "Aiden",
+     "line": "That's fair. I'd rather go through the refresher than have any ambiguity linger over this."
+    },
+    {
+     "speaker": "HR Lead",
+     "line": "Appreciate the cooperation, Aiden. We'll follow up within two weeks once the review's complete."
+    },
+    {
+     "speaker": "Aiden",
+     "line": "Understood. I'd rather this be handled thoroughly than swept under the rug either way."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main subject of this conversation?",
+     "options": [
+      "A performance review for a promotion",
+      "An ethics complaint about a possible kickback arrangement",
+      "A discussion about vacation policy",
+      "A negotiation over a new vendor contract"
+     ],
+     "answer": "An ethics complaint about a possible kickback arrangement",
+     "explanation": "HR is investigating a complaint alleging Aiden pressured a vendor into a kickback.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What did Aiden admit to mentioning during the vendor call?",
+     "options": [
+      "A competitor's pricing",
+      "A referral partner for subcontracting",
+      "His personal salary",
+      "A different vendor entirely"
+     ],
+     "answer": "A referral partner for subcontracting",
+     "explanation": "Aiden admits he mentioned a referral partner but calls it legitimate subcontracting.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What will happen as part of the next steps regardless of the outcome?",
+     "options": [
+      "Aiden will be fired immediately",
+      "Aiden will require a compliance refresher",
+      "The vendor contract will be cancelled",
+      "No further action will be taken"
+     ],
+     "answer": "Aiden will require a compliance refresher",
+     "explanation": "HR states a compliance refresher will likely be required regardless of outcome.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the HR Lead say 'I'm not here to accuse you outright'?",
+     "options": [
+      "To dismiss the complaint completely",
+      "To reassure Aiden that the process is still fair and fact-finding",
+      "To imply Aiden is definitely guilty",
+      "To end the meeting early"
+     ],
+     "answer": "To reassure Aiden that the process is still fair and fact-finding",
+     "explanation": "She clarifies she wants to hear his side before any decision is made.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "What does Aiden's statement 'I'll own that lapse in judgment' suggest about his attitude?",
+     "options": [
+      "He denies any wrongdoing at all",
+      "He accepts partial responsibility while denying corrupt intent",
+      "He blames HR for the situation",
+      "He refuses to cooperate further"
+     ],
+     "answer": "He accepts partial responsibility while denying corrupt intent",
+     "explanation": "He admits the judgment lapse but maintains there was no personal financial benefit.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'swept under the rug' mean as Aiden uses it?",
+     "options": [
+      "Cleaned thoroughly and properly",
+      "Hidden or ignored rather than properly addressed",
+      "Discussed openly in a meeting",
+      "Reported to the media"
+     ],
+     "answer": "Hidden or ignored rather than properly addressed",
+     "explanation": "It's an idiom meaning to conceal a problem instead of resolving it.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "Within what timeframe will HR follow up once the review is complete?",
+     "options": [
+      "One week",
+      "Two weeks",
+      "One month",
+      "Three months"
+     ],
+     "answer": "Two weeks",
+     "explanation": "HR Lead says they'll follow up within two weeks once the review's complete.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Thanks for coming in, Aiden. I want to be direct: a complaint's been filed alleging you pressured a vendor into a kickback arrangement.",
+     "blanks": [
+      "complaint's been filed"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'complaint has' blended in fast speech."
+    },
+    {
+     "sentence": "In hindsight, I can see how it might've come across wrong.",
+     "blanks": [
+      "might've"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "Reduced form of 'might have' pronounced weakly."
+    },
+    {
+     "sentence": "I should've kept that conversation strictly separate.",
+     "blanks": [
+      "should've"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "Reduced form of 'should have' spoken as one weak sound."
+    },
+    {
+     "sentence": "I just don't want this to snowball into something it isn't based on a poorly worded suggestion.",
+     "blanks": [
+      "snowball into"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiom meaning to grow rapidly out of proportion."
+    },
+    {
+     "sentence": "We'll interview the vendor again, review the call notes, and likely require a compliance refresher regardless of the outcome.",
+     "blanks": [
+      "We'll interview"
+     ],
+     "challenge": "contraction",
+     "explanation": "Contraction of 'we will' spoken quickly before a verb."
+    },
+    {
+     "sentence": "I'd rather this be handled thoroughly than swept under the rug either way.",
+     "blanks": [
+      "I'd rather"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "Reduced form of 'I would' pronounced weakly in casual speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "complaint has",
+     "spoken": "complaint's"
+    },
+    {
+     "written": "might have",
+     "spoken": "might've"
+    },
+    {
+     "written": "should have",
+     "spoken": "should've"
+    },
+    {
+     "written": "we will",
+     "spoken": "we'll"
+    },
+    {
+     "written": "I would",
+     "spoken": "I'd"
+    }
+   ]
+  }
+ ]
+}

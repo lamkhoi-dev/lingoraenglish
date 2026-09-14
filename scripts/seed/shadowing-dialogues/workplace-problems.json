@@ -1,0 +1,41 @@
+{
+  "topic_slug": "workplace-problems",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "A small mistake",
+      "turns": [
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "I'm sorry, I sent the wrong file.", "is_free": true },
+        { "speaker_label": "Manager", "speaker_voice": "alloy", "sentence": "It's okay, can you resend the right one?", "is_free": true },
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "Yes, I'll send it right now.", "is_free": true },
+        { "speaker_label": "Manager", "speaker_voice": "alloy", "sentence": "Thank you, no big deal.", "is_free": true },
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "I'll double-check next time.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "A missed deadline",
+      "turns": [
+        { "speaker_label": "Manager", "speaker_voice": "sage", "sentence": "I noticed the report wasn't submitted by end of day yesterday — what happened?", "is_free": false },
+        { "speaker_label": "Employee", "speaker_voice": "coral", "sentence": "I ran into an issue with the data source and lost track of time trying to fix it myself.", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "sage", "sentence": "I'd rather you flag issues like that early — we could have brought in extra help.", "is_free": false },
+        { "speaker_label": "Employee", "speaker_voice": "coral", "sentence": "That's fair, I should have said something sooner instead of trying to power through it alone.", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "sage", "sentence": "No harm done this time — just reach out next time you're stuck.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Addressing a conflict",
+      "turns": [
+        { "speaker_label": "Employee A", "speaker_voice": "nova", "sentence": "I feel like my input keeps getting overridden in meetings without much explanation, and it's starting to affect morale.", "is_free": false },
+        { "speaker_label": "Employee B", "speaker_voice": "shimmer", "sentence": "I hear you, and I don't think that's been intentional — but I understand how it comes across that way.", "is_free": false },
+        { "speaker_label": "Employee A", "speaker_voice": "nova", "sentence": "I'd appreciate it if decisions came with a bit more context going forward.", "is_free": false },
+        { "speaker_label": "Employee B", "speaker_voice": "shimmer", "sentence": "That's a reasonable ask — I'll make a point of explaining the reasoning before we finalize anything.", "is_free": false },
+        { "speaker_label": "Employee A", "speaker_voice": "nova", "sentence": "I appreciate you taking this seriously instead of brushing it off.", "is_free": false }
+      ]
+    }
+  ]
+}

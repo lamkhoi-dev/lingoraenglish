@@ -1,0 +1,41 @@
+{
+  "topic_slug": "home-household",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Household chores",
+      "turns": [
+        { "speaker_label": "Mom", "speaker_voice": "coral", "sentence": "Can you clean your room today?", "is_free": true },
+        { "speaker_label": "Kid", "speaker_voice": "shimmer", "sentence": "Okay, I'll do it after lunch.", "is_free": true },
+        { "speaker_label": "Mom", "speaker_voice": "coral", "sentence": "Also, please take out the trash.", "is_free": true },
+        { "speaker_label": "Kid", "speaker_voice": "shimmer", "sentence": "Sure, no problem.", "is_free": true },
+        { "speaker_label": "Mom", "speaker_voice": "coral", "sentence": "Thank you, I really appreciate it.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "A repair needed",
+      "turns": [
+        { "speaker_label": "Roommate A", "speaker_voice": "sage", "sentence": "Have you noticed the kitchen faucet's been dripping non-stop?", "is_free": false },
+        { "speaker_label": "Roommate B", "speaker_voice": "alloy", "sentence": "Yeah, it's been driving me a little crazy at night. Should we call someone?", "is_free": false },
+        { "speaker_label": "Roommate A", "speaker_voice": "sage", "sentence": "I think so — I tried tightening it myself but it didn't help.", "is_free": false },
+        { "speaker_label": "Roommate B", "speaker_voice": "alloy", "sentence": "I'll look up a plumber tomorrow and see who's available this week.", "is_free": false },
+        { "speaker_label": "Roommate A", "speaker_voice": "sage", "sentence": "Thanks, let me know the cost before you book anything.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Splitting responsibilities",
+      "turns": [
+        { "speaker_label": "Partner A", "speaker_voice": "nova", "sentence": "I feel like I've been picking up most of the housework lately — can we sit down and rebalance things?", "is_free": false },
+        { "speaker_label": "Partner B", "speaker_voice": "shimmer", "sentence": "You're right, and I'm sorry — work's been overwhelming, but that's not a fair excuse.", "is_free": false },
+        { "speaker_label": "Partner A", "speaker_voice": "nova", "sentence": "I appreciate you saying that. Maybe we could split things by day rather than by task?", "is_free": false },
+        { "speaker_label": "Partner B", "speaker_voice": "shimmer", "sentence": "That actually sounds more manageable than trying to divide every little chore.", "is_free": false },
+        { "speaker_label": "Partner A", "speaker_voice": "nova", "sentence": "Let's try it for a couple of weeks and see how it feels.", "is_free": false }
+      ]
+    }
+  ]
+}

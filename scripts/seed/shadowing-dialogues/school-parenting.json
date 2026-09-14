@@ -1,0 +1,41 @@
+{
+  "topic_slug": "school-parenting",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Talking about homework",
+      "turns": [
+        { "speaker_label": "Parent", "speaker_voice": "coral", "sentence": "Do you have any homework today?", "is_free": true },
+        { "speaker_label": "Child", "speaker_voice": "shimmer", "sentence": "Yes, some math and reading.", "is_free": true },
+        { "speaker_label": "Parent", "speaker_voice": "coral", "sentence": "Let's do the math first.", "is_free": true },
+        { "speaker_label": "Child", "speaker_voice": "shimmer", "sentence": "Okay, can you help me with this question?", "is_free": true },
+        { "speaker_label": "Parent", "speaker_voice": "coral", "sentence": "Of course, let's look at it together.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Parent-teacher meeting",
+      "turns": [
+        { "speaker_label": "Teacher", "speaker_voice": "sage", "sentence": "Overall, your daughter is doing well, though she's been a bit quiet in group discussions.", "is_free": false },
+        { "speaker_label": "Parent", "speaker_voice": "alloy", "sentence": "That doesn't surprise me — she's always been more comfortable one-on-one.", "is_free": false },
+        { "speaker_label": "Teacher", "speaker_voice": "sage", "sentence": "We could try pairing her with a partner she's close to, just to build her confidence gradually.", "is_free": false },
+        { "speaker_label": "Parent", "speaker_voice": "alloy", "sentence": "That sounds like a good approach. Is there anything we can reinforce at home?", "is_free": false },
+        { "speaker_label": "Teacher", "speaker_voice": "sage", "sentence": "Just keep encouraging her to share her opinions, even in small ways — it'll carry over into class.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Discussing school choices",
+      "turns": [
+        { "speaker_label": "Parent A", "speaker_voice": "nova", "sentence": "I keep going back and forth on whether the new school would actually be a better fit for him.", "is_free": false },
+        { "speaker_label": "Parent B", "speaker_voice": "shimmer", "sentence": "What's giving you pause — the curriculum, or more the distance from home?", "is_free": false },
+        { "speaker_label": "Parent A", "speaker_voice": "nova", "sentence": "Mostly the distance, if I'm honest — I worry the commute would wear him down over time.", "is_free": false },
+        { "speaker_label": "Parent B", "speaker_voice": "shimmer", "sentence": "That's a valid concern. Maybe it's worth visiting during a normal school day before deciding.", "is_free": false },
+        { "speaker_label": "Parent A", "speaker_voice": "nova", "sentence": "Good idea — seeing it in action might make the decision a lot clearer.", "is_free": false }
+      ]
+    }
+  ]
+}

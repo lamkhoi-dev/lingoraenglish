@@ -1,0 +1,651 @@
+{
+  "lessons": [
+    {
+      "title": "Content words vs function words",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "English is stress-timed: you stress the words that carry meaning and squeeze the rest.",
+      "points": ["Strong: nouns, main verbs, adjectives, adverbs, question words.", "Weak: articles, prepositions, auxiliaries, pronouns."],
+      "items": [
+        { "text": "I want to go to the store.", "pattern": "I WANT to GO to the STORE." },
+        { "text": "She is looking for a new job.", "pattern": "she's LOOKing for a NEW JOB." },
+        { "text": "Can you give me a hand?", "pattern": "can you GIVE me a HAND?" },
+        { "text": "We have been waiting for an hour.", "pattern": "we've been WAITing for an HOUR." }
+      ]
+    },
+    {
+      "title": "Emphasis changes the meaning",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Move the strongest word and the message changes completely. Say each line and hear the new meaning.",
+      "points": ["Stress the word you want to correct or highlight.", "Everything around it gets weaker."],
+      "items": [
+        { "text": "I never said she stole it.", "pattern": "I NEVER said she stole it.", "note": "I deny saying it." },
+        { "text": "I never said she stole it.", "pattern": "I never SAID she stole it.", "note": "Maybe I hinted it." },
+        { "text": "I never said she stole it.", "pattern": "I never said SHE stole it.", "note": "Someone else did." },
+        { "text": "I never said she stole it.", "pattern": "I never said she stole IT.", "note": "She stole something else." }
+      ]
+    },
+    {
+      "title": "Question words carry the stress",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "In WH- questions, the question word itself is usually strong.",
+      "points": [],
+      "items": [
+        { "text": "What time is it?", "pattern": "WHAT time is it?" },
+        { "text": "Where do you live?", "pattern": "WHERE do you LIVE?" },
+        { "text": "Why did you do that?", "pattern": "WHY did you DO that?" },
+        { "text": "Who told you that?", "pattern": "WHO told you THAT?" }
+      ]
+    },
+    {
+      "title": "Contrastive stress",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "When comparing two things, stress the word that shows the difference.",
+      "points": [],
+      "items": [
+        { "text": "I ordered coffee, not tea.", "pattern": "I ordered COFfee, not TEA." },
+        { "text": "She's my sister, not my friend.", "pattern": "she's my SIStr, not my FRIEND." },
+        { "text": "We're leaving today, not tomorrow.", "pattern": "we're leaving toDAY, not toMORrow." },
+        { "text": "He's the manager, not the owner.", "pattern": "he's the MANager, not the OWner." }
+      ]
+    },
+    {
+      "title": "New information gets the stress",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "In a conversation, the newest piece of information is usually the strongest word — already-known information gets weaker.",
+      "points": [],
+      "items": [
+        { "text": "A: Where's John? B: John is in the KITCHen.", "pattern": "'John' is already known, so 'kitchen' is stressed." },
+        { "text": "A: What did you buy? B: I bought a NEW LAPtop.", "pattern": "'bought' is known from the question, so the object is stressed." },
+        { "text": "A: Who called? B: My BROTHer called.", "pattern": "new info = brother." }
+      ]
+    },
+    {
+      "title": "Stress in negative sentences",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "The negative word (not / never / n't) is often stressed to make the denial clear.",
+      "points": [],
+      "items": [
+        { "text": "I don't like it.", "pattern": "I DON'T like it." },
+        { "text": "She isn't coming tonight.", "pattern": "she ISn't coming tonight." },
+        { "text": "We can't afford it.", "pattern": "we CAN'T afford it." },
+        { "text": "That's not what I meant.", "pattern": "that's NOT what I meant." }
+      ]
+    },
+    {
+      "title": "Stress in polite requests",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Even polite, softly-spoken requests keep clear stress on the content words.",
+      "points": [],
+      "items": [
+        { "text": "Could you help me, please?", "pattern": "could you HELP me, please?" },
+        { "text": "Would you mind closing the window?", "pattern": "would you mind CLOsing the WINdow?" },
+        { "text": "Do you have a minute?", "pattern": "do you have a MINute?" }
+      ]
+    },
+    {
+      "title": "Stress on modal verbs for meaning",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Modals like can, should and must are usually weak — but stressing them changes the meaning to add certainty or surprise.",
+      "points": [],
+      "items": [
+        { "text": "You should call her.", "pattern": "you should CALL her.", "note": "Neutral advice." },
+        { "text": "You SHOULD call her.", "pattern": "you SHOULD call her.", "note": "Strong recommendation, maybe a warning." },
+        { "text": "He CAN speak French!", "pattern": "he CAN speak French!", "note": "Surprise — I didn't expect that." }
+      ]
+    },
+    {
+      "title": "Everyday small talk sentences",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Practise stress on common small-talk lines you'll say every day.",
+      "points": [],
+      "items": [
+        { "text": "How's it going?", "pattern": "HOW's it GOing?" },
+        { "text": "Long time no see!", "pattern": "LONG time no SEE!" },
+        { "text": "Nice to meet you.", "pattern": "NICE to MEET you." },
+        { "text": "Have a good weekend.", "pattern": "have a GOOD WEEKend." }
+      ]
+    },
+    {
+      "title": "Stress in comparisons",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "In comparative sentences, both the adjective and the comparison word usually get stress.",
+      "points": [],
+      "items": [
+        { "text": "This one is bigger than that one.", "pattern": "this one is BIGger than THAT one." },
+        { "text": "She's much taller than her brother.", "pattern": "she's MUCH TALLer than her BROther." },
+        { "text": "It's the best restaurant in town.", "pattern": "it's the BEST resTAUrant in TOWN." }
+      ]
+    },
+    {
+      "title": "Stress in giving opinions",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Opinion phrases carry stress on the key opinion word, not on 'I think' itself.",
+      "points": [],
+      "items": [
+        { "text": "I think it's a great idea.", "pattern": "I think it's a GREAT idea." },
+        { "text": "In my opinion, it's too expensive.", "pattern": "in my oPINion, it's too exPENsive." },
+        { "text": "Personally, I'd rather stay home.", "pattern": "PERsonally, I'd RAther stay HOME." }
+      ]
+    },
+    {
+      "title": "Stress in phone conversations",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Phone-call English has its own set of common stressed phrases.",
+      "points": [],
+      "items": [
+        { "text": "Can I speak to Sarah, please?", "pattern": "can I SPEAK to SARah, please?" },
+        { "text": "She's not available right now.", "pattern": "she's not aVAILable right NOW." },
+        { "text": "Can I take a message?", "pattern": "can I TAKE a MESsage?" }
+      ]
+    },
+    {
+      "title": "Stress when giving directions",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Direction-giving relies on clear stress so the listener catches the key landmarks and turns.",
+      "points": [],
+      "items": [
+        { "text": "Turn left at the traffic light.", "pattern": "TURN LEFT at the TRAFfic light." },
+        { "text": "It's right next to the bank.", "pattern": "it's RIGHT NEXT to the BANK." },
+        { "text": "Go straight for two blocks.", "pattern": "go STRAIGHT for TWO BLOCKS." }
+      ]
+    },
+    {
+      "title": "Stress in requests for clarification",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "When you didn't understand, stress the question word or the part you missed.",
+      "points": [],
+      "items": [
+        { "text": "Sorry, what did you say?", "pattern": "SORry, WHAT did you SAY?" },
+        { "text": "Could you repeat that, please?", "pattern": "could you rePEAT that, please?" },
+        { "text": "What do you mean by that?", "pattern": "WHAT do you MEAN by that?" }
+      ]
+    },
+    {
+      "title": "Stress with 'too' and 'either'",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "'Too' and 'either' at the end of a sentence usually take their own beat of stress.",
+      "points": [],
+      "items": [
+        { "text": "I love this song too.", "pattern": "I LOVE this SONG TOO." },
+        { "text": "I don't like it either.", "pattern": "I DON'T like it EIther." },
+        { "text": "She's coming too.", "pattern": "she's COming TOO." }
+      ]
+    },
+    {
+      "title": "Stress in job-interview answers",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Interview English needs confident, clear stress on your strongest selling points.",
+      "points": [],
+      "items": [
+        { "text": "I'm a fast learner and a team player.", "pattern": "I'm a FAST LEARner and a TEAM PLAYer." },
+        { "text": "My biggest strength is problem-solving.", "pattern": "my BIGgest STRENGTH is PROBlem-SOLving." },
+        { "text": "I'm excited about this opportunity.", "pattern": "I'm exCIted aBOUT this opporTUNity." }
+      ]
+    },
+    {
+      "title": "Stress when correcting a mistake",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "When correcting yourself or someone else, the corrected word gets extra stress.",
+      "points": [],
+      "items": [
+        { "text": "No, I said Tuesday, not Thursday.", "pattern": "no, I said TUESday, not THURSday." },
+        { "text": "It's spelled with an 'e', not an 'a'.", "pattern": "it's spelled with an 'E', not an 'A'." },
+        { "text": "Actually, it's twenty dollars, not twelve.", "pattern": "actually, it's TWENty dollars, not TWELVE." }
+      ]
+    },
+    {
+      "title": "Stress in shopping conversations",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Shopping English — practise clear stress so you're understood at the till or in a fitting room.",
+      "points": [],
+      "items": [
+        { "text": "Do you have this in a smaller size?", "pattern": "do you have this in a SMALLer SIZE?" },
+        { "text": "How much does it cost?", "pattern": "HOW MUCH does it COST?" },
+        { "text": "Can I try it on?", "pattern": "can I TRY it ON?" }
+      ]
+    },
+    {
+      "title": "Stress with reflexive emphasis (myself, himself)",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Reflexive pronouns used for emphasis ('I did it myself') always get a strong stress.",
+      "points": [],
+      "items": [
+        { "text": "I did it myself.", "pattern": "I did it my-SELF." },
+        { "text": "She fixed the car herself.", "pattern": "she fixed the car her-SELF." },
+        { "text": "They built the house themselves.", "pattern": "they built the house them-SELVES." }
+      ]
+    },
+    {
+      "title": "Stress in giving instructions",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Clear, imperative instructions rely on stress to sound confident and easy to follow.",
+      "points": [],
+      "items": [
+        { "text": "Press the button and wait.", "pattern": "PRESS the BUTton and WAIT." },
+        { "text": "Don't forget to save your work.", "pattern": "DON'T forGET to SAVE your WORK." },
+        { "text": "Make sure it's plugged in.", "pattern": "make SURE it's PLUGGED in." }
+      ]
+    },
+    {
+      "title": "Stress in apologies",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Apology phrases still need the right stress to sound sincere, not flat.",
+      "points": [],
+      "items": [
+        { "text": "I'm really sorry about that.", "pattern": "I'm REAlly SORry about THAT." },
+        { "text": "It won't happen again.", "pattern": "it WON'T HAPpen aGAIN." },
+        { "text": "I should have told you sooner.", "pattern": "I SHOULD have TOLD you SOOner." }
+      ]
+    },
+    {
+      "title": "Stress on numbers in context",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "When giving prices, dates or quantities, the number itself is almost always the strongest word.",
+      "points": [],
+      "items": [
+        { "text": "It costs fifty dollars.", "pattern": "it costs FIFty DOllars." },
+        { "text": "The meeting is at three o'clock.", "pattern": "the MEEting is at THREE o'clock." },
+        { "text": "We need six more copies.", "pattern": "we need SIX more COpies." }
+      ]
+    },
+    {
+      "title": "Stress in storytelling",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Good storytelling exaggerates the stress on the most dramatic or surprising words.",
+      "points": [],
+      "items": [
+        { "text": "And then, suddenly, the lights went out!", "pattern": "and then, SUDdenly, the LIGHTS went OUT!" },
+        { "text": "I couldn't believe what I was seeing.", "pattern": "I COULDn't beLIEVE what I was SEEing." },
+        { "text": "It was the best day of my life.", "pattern": "it was the BEST day of my LIFE." }
+      ]
+    },
+    {
+      "title": "Stress with 'even' for emphasis",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "'Even' adds surprise, and the word right after it usually carries the strongest stress.",
+      "points": [],
+      "items": [
+        { "text": "Even my dad likes this song.", "pattern": "even my DAD likes this song." },
+        { "text": "I didn't even notice.", "pattern": "I didn't even NOtice." },
+        { "text": "She finished even faster than me.", "pattern": "she finished even FASTer than me." }
+      ]
+    },
+    {
+      "title": "Stress in conditional sentences",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "In 'if' sentences, stress the condition and the result — the connecting words stay weak.",
+      "points": [],
+      "items": [
+        { "text": "If it rains, we'll stay home.", "pattern": "if it RAINS, we'll STAY HOME." },
+        { "text": "If I were you, I'd apologize.", "pattern": "if I were YOU, I'd aPOLogize." },
+        { "text": "I would have come if you'd asked.", "pattern": "I WOULD have COME if you'd ASKED." }
+      ]
+    },
+    {
+      "title": "Stress in reported speech",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Reporting verbs (said, told, asked) are usually weak — the actual message carries the stress.",
+      "points": [],
+      "items": [
+        { "text": "She said she'd be late.", "pattern": "she said she'd be LATE." },
+        { "text": "He told me not to worry.", "pattern": "he told me not to WORry." },
+        { "text": "They asked if we were coming.", "pattern": "they asked if we were COMing." }
+      ]
+    },
+    {
+      "title": "Stress when making suggestions",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Suggestion phrases stress the activity being suggested, not the suggestion frame itself.",
+      "points": [],
+      "items": [
+        { "text": "Why don't we get some coffee?", "pattern": "why don't we get some COFfee?" },
+        { "text": "How about going for a walk?", "pattern": "how about going for a WALK?" },
+        { "text": "Let's try that new restaurant.", "pattern": "let's try that NEW resTAUrant." }
+      ]
+    },
+    {
+      "title": "Stress in talking about future plans",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Plans and intentions stress the activity and the time reference.",
+      "points": [],
+      "items": [
+        { "text": "I'm meeting a friend tomorrow.", "pattern": "I'm MEETing a FRIEND toMORrow." },
+        { "text": "We're planning to move next year.", "pattern": "we're PLANning to MOVE next YEAR." },
+        { "text": "I might travel this summer.", "pattern": "I might TRAVel this SUMmer." }
+      ]
+    },
+    {
+      "title": "Stress in talking about past experiences",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Past experience talk stresses the event and any time markers, common in IELTS Speaking Part 2.",
+      "points": [],
+      "items": [
+        { "text": "I visited Japan two years ago.", "pattern": "I VISited JaPAN two YEARS ago." },
+        { "text": "I've never tried sushi before.", "pattern": "I've NEver TRIED SUshi beFORE." },
+        { "text": "That was the best trip I've ever had.", "pattern": "that was the BEST TRIP I've Ever had." }
+      ]
+    },
+    {
+      "title": "Stress when expressing likes and dislikes",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "The verb of feeling and the thing you like or dislike both usually get stress.",
+      "points": [],
+      "items": [
+        { "text": "I really love this song.", "pattern": "I REALly LOVE this SONG." },
+        { "text": "I can't stand waiting in line.", "pattern": "I CAN'T STAND WAITing in LINE." },
+        { "text": "I'm not really a fan of spicy food.", "pattern": "I'm not REALly a FAN of SPIcy FOOD." }
+      ]
+    },
+    {
+      "title": "Stress describing a process step by step",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Sequence words (first, then, after that, finally) get their own beat when explaining a process.",
+      "points": [],
+      "items": [
+        { "text": "First, you boil the water.", "pattern": "FIRST, you BOIL the WAter." },
+        { "text": "Then you add the pasta.", "pattern": "THEN you ADD the PASta." },
+        { "text": "Finally, drain it and serve.", "pattern": "FInally, DRAIN it and SERVE." }
+      ]
+    },
+    {
+      "title": "Stress comparing pros and cons",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Balanced pro/con sentences stress the contrasting sides clearly, common in IELTS Part 3 discussion answers.",
+      "points": [],
+      "items": [
+        { "text": "On the one hand it's cheaper, but on the other hand it takes longer.", "pattern": "CHEAPer ... LONGer" },
+        { "text": "The main advantage is speed, while the main drawback is cost.", "pattern": "SPEED ... COST" }
+      ]
+    },
+    {
+      "title": "Stress agreeing and disagreeing",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Agreement and disagreement phrases stress the key word that shows your position.",
+      "points": [],
+      "items": [
+        { "text": "I completely agree with you.", "pattern": "I comPLETEly aGREE with you." },
+        { "text": "I see your point, but I disagree.", "pattern": "I SEE your POINT, but I disaGREE." },
+        { "text": "That's exactly what I think too.", "pattern": "that's exACTly what I THINK too." }
+      ]
+    },
+    {
+      "title": "Stress in restaurant ordering",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Ordering food stresses the dish name and any specific requests.",
+      "points": [],
+      "items": [
+        { "text": "I'll have the grilled chicken, please.", "pattern": "I'll have the GRILLED CHICKen, please." },
+        { "text": "Could I get that without onions?", "pattern": "could I get that withOUT ONions?" },
+        { "text": "Can we get the check, please?", "pattern": "can we get the CHECK, please?" }
+      ]
+    },
+    {
+      "title": "Stress apologizing for being late",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A sincere apology stresses the reason and the apology word itself.",
+      "points": [],
+      "items": [
+        { "text": "Sorry I'm late, the traffic was terrible.", "pattern": "SORry I'm LATE, the TRAFfic was TERrible." },
+        { "text": "I'm so sorry for the delay.", "pattern": "I'm SO SORry for the deLAY." }
+      ]
+    },
+    {
+      "title": "Stress describing someone's appearance",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Descriptions of people stress the distinguishing feature you're highlighting.",
+      "points": [],
+      "items": [
+        { "text": "She's the one with the curly hair.", "pattern": "she's the ONE with the CURly HAIR." },
+        { "text": "He's tall and always wears glasses.", "pattern": "he's TALL and ALways wears GLASSes." }
+      ]
+    },
+    {
+      "title": "Stress in emergency and urgent phrases",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Urgent phrases exaggerate stress on the key danger word so the listener reacts fast.",
+      "points": [],
+      "items": [
+        { "text": "Call an ambulance now!", "pattern": "CALL an AMbulance NOW!" },
+        { "text": "Watch out, the floor is wet!", "pattern": "WATCH OUT, the FLOOR is WET!" },
+        { "text": "We need help immediately.", "pattern": "we NEED HELP imMEdiately." }
+      ]
+    },
+    {
+      "title": "Stress talking about deadlines and time pressure",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Workplace time-pressure phrases stress the deadline and the consequence.",
+      "points": [],
+      "items": [
+        { "text": "The report is due by Friday.", "pattern": "the rePORT is DUE by FRIday." },
+        { "text": "We're really pressed for time.", "pattern": "we're REALly PRESSED for TIME." },
+        { "text": "Can we push the meeting back an hour?", "pattern": "can we PUSH the MEETing BACK an HOUR?" }
+      ]
+    },
+    {
+      "title": "Stress in casual invitations",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Casual invites stress the activity and the time, keeping the invitation frame itself weak.",
+      "points": [],
+      "items": [
+        { "text": "Do you want to grab lunch later?", "pattern": "do you want to GRAB LUNCH LAter?" },
+        { "text": "We're having a party this weekend.", "pattern": "we're HAVing a PARty this WEEKend." },
+        { "text": "You should totally come with us.", "pattern": "you should TOtally COME with us." }
+      ]
+    },
+    {
+      "title": "Stress talking about abilities and skills",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Talking about what you can and can't do stresses the skill itself, not the modal verb.",
+      "points": [],
+      "items": [
+        { "text": "I can speak three languages.", "pattern": "I can SPEAK THREE LANGuages." },
+        { "text": "I'm not very good at cooking.", "pattern": "I'm not VEry GOOD at COOKing." },
+        { "text": "She's really talented at drawing.", "pattern": "she's REALly TALented at DRAWing." }
+      ]
+    },
+    {
+      "title": "Stress expressing surprise",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Surprised reactions stress the unexpected part of the news heavily, often with extra pitch too.",
+      "points": [],
+      "items": [
+        { "text": "I can't believe you did that!", "pattern": "I CAN'T beLIEVE you DID that!" },
+        { "text": "No way, that's amazing!", "pattern": "no WAY, that's aMAZing!" },
+        { "text": "Seriously? I had no idea.", "pattern": "SEriously? I had NO iDEa." }
+      ]
+    },
+    {
+      "title": "Stress making a complaint",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Complaints stress the problem word clearly, so the listener understands exactly what's wrong.",
+      "points": [],
+      "items": [
+        { "text": "This isn't what I ordered.", "pattern": "this ISN'T what I orDERED." },
+        { "text": "I've been waiting for over an hour.", "pattern": "I've been WAITing for Over an HOUR." },
+        { "text": "This is the second time this has happened.", "pattern": "this is the SECond TIME this has HAPPened." }
+      ]
+    },
+    {
+      "title": "Stress describing your daily routine",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Routine descriptions stress the action verbs and time markers, common in IELTS Part 1.",
+      "points": [],
+      "items": [
+        { "text": "I usually wake up at seven.", "pattern": "I usually WAKE UP at SEVen." },
+        { "text": "I always check my email first.", "pattern": "I ALways CHECK my EMail FIRST." },
+        { "text": "I try to exercise every morning.", "pattern": "I TRY to EXercise EVery MORNing." }
+      ]
+    },
+    {
+      "title": "Stress talking about the weather forecast",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Weather talk stresses the condition and the time it's expected.",
+      "points": [],
+      "items": [
+        { "text": "It's supposed to rain tomorrow.", "pattern": "it's supposed to RAIN toMORrow." },
+        { "text": "It's going to be really hot this week.", "pattern": "it's gonna be REALly HOT this WEEK." }
+      ]
+    },
+    {
+      "title": "Stress discussing a news story",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Talking about news stresses the key facts — who, what and the outcome.",
+      "points": [],
+      "items": [
+        { "text": "Did you hear about the new policy?", "pattern": "did you HEAR about the NEW POLicy?" },
+        { "text": "Apparently the price is going up next month.", "pattern": "apPARently the PRICE is going UP next MONTH." }
+      ]
+    },
+    {
+      "title": "Stress giving a warning",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Warnings stress the danger and the action needed, spoken with extra force.",
+      "points": [],
+      "items": [
+        { "text": "Be careful, the road is icy.", "pattern": "be CAREful, the ROAD is ICy." },
+        { "text": "Watch your step, it's slippery here.", "pattern": "WATCH your STEP, it's SLIPPery HERE." }
+      ]
+    },
+    {
+      "title": "Stress offering choices at a shop or counter",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Offering options stresses each choice being offered.",
+      "points": [],
+      "items": [
+        { "text": "Would you like paper or plastic?", "pattern": "would you like PAper or PLAStic?" },
+        { "text": "Do you want that for here or to go?", "pattern": "do you want that for HERE or to GO?" }
+      ]
+    },
+    {
+      "title": "Stress with wishes and hypotheticals",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Wishes and hypothetical statements stress the imagined situation strongly.",
+      "points": [],
+      "items": [
+        { "text": "I wish I had more free time.", "pattern": "I WISH I had MORE FREE time." },
+        { "text": "If only I'd studied harder.", "pattern": "if ONly I'd STUDied HARDer." }
+      ]
+    },
+    {
+      "title": "Stress talking about birthdays and celebrations",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Celebration talk stresses the event and the special detail about it.",
+      "points": [],
+      "items": [
+        { "text": "We're throwing a surprise party for her.", "pattern": "we're THROWing a surPRISE PARty for her." },
+        { "text": "It's my brother's birthday next week.", "pattern": "it's my BROTHer's BIRTHday next WEEK." }
+      ]
+    },
+    {
+      "title": "Final mixed review",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A closing mixed set pulling together content words, emphasis and negatives — mark the stress before checking.",
+      "points": [],
+      "items": [
+        { "text": "I really need this done by Friday.", "pattern": "I REALly NEED this DONE by FRIday." },
+        { "text": "I didn't say it was easy.", "pattern": "I DIDn't SAY it was EAsy." },
+        { "text": "She's the one who called, not him.", "pattern": "she's the ONE who CALLED, not HIM." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2427 @@
+{
+ "slug": "small-talk-weather",
+ "name": "Small Talk & Weather",
+ "topic_group": "Social & Canadian Life",
+ "blurb": "Practice natural small talk about weather, seasons, and everyday chit-chat.",
+ "sort_order": 13,
+ "sentences": [
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "It's a nice day today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u026a/ in \"nice\"",
+   "stress_focus": "NICE and DAY",
+   "intonation_focus": "falling at the end",
+   "connected_speech_focus": "it's a linked as \"itsa\"",
+   "vocabulary": [
+    {
+     "word": "nice",
+     "meaning": "pleasant"
+    }
+   ],
+   "grammar_focus": "simple present with 'be'",
+   "tags": [
+    "weather",
+    "greeting"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "How's the weather today?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"weather\"",
+   "stress_focus": "WEATHER and TODAY",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "how's linked as \"hows\"",
+   "vocabulary": [
+    {
+     "word": "weather",
+     "meaning": "the condition of the sky and temperature"
+    }
+   ],
+   "grammar_focus": "contracted 'how is'",
+   "tags": [
+    "weather",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "It's really hot outside.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /h/ in \"hot\"",
+   "stress_focus": "REALLY and HOT",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "it's linked as \"itsa\"",
+   "vocabulary": [
+    {
+     "word": "hot",
+     "meaning": "high temperature"
+    }
+   ],
+   "grammar_focus": "intensifier + adjective",
+   "tags": [
+    "weather",
+    "temperature"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "It's freezing cold today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in \"freezing\"",
+   "stress_focus": "FREEZING and COLD",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "today unstressed at end",
+   "vocabulary": [
+    {
+     "word": "freezing",
+     "meaning": "very cold"
+    }
+   ],
+   "grammar_focus": "adjective pair for emphasis",
+   "tags": [
+    "weather",
+    "temperature"
+   ]
+  },
+  {
+   "subcategory": "Rain",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "It's raining right now.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in \"raining\"",
+   "stress_focus": "RAINING and NOW",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "right now said quickly",
+   "vocabulary": [
+    {
+     "word": "raining",
+     "meaning": "water falling from the sky"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "weather",
+    "rain"
+   ]
+  },
+  {
+   "subcategory": "Rain",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Is it going to rain?",
+   "natural_form": "Is it gonna rain?",
+   "accent": "american",
+   "pronunciation_focus": "the /\u014b/ in \"going\"",
+   "stress_focus": "RAIN at the end",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "going to reduced to gonna",
+   "vocabulary": [
+    {
+     "word": "going to",
+     "meaning": "will, future plan"
+    }
+   ],
+   "grammar_focus": "be going to future",
+   "tags": [
+    "weather",
+    "rain",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Sun",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The sun is shining bright.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in \"shining\"",
+   "stress_focus": "SUN and SHINING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "sun is linked lightly",
+   "vocabulary": [
+    {
+     "word": "shining",
+     "meaning": "giving off light"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "weather",
+    "sun"
+   ]
+  },
+  {
+   "subcategory": "Snow",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "It snowed a lot last night.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /o\u028a/ in \"snowed\"",
+   "stress_focus": "SNOWED and LAST NIGHT",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "snowed a linked as \"snowed-a\"",
+   "vocabulary": [
+    {
+     "word": "snowed",
+     "meaning": "past tense of snow"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "weather",
+    "snow"
+   ]
+  },
+  {
+   "subcategory": "Wind",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "It's really windy today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"windy\"",
+   "stress_focus": "WINDY",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "it's linked as itsa",
+   "vocabulary": [
+    {
+     "word": "windy",
+     "meaning": "with strong wind"
+    }
+   ],
+   "grammar_focus": "adjective with -y suffix",
+   "tags": [
+    "weather",
+    "wind"
+   ]
+  },
+  {
+   "subcategory": "Clouds",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The sky is very cloudy.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in \"cloudy\"",
+   "stress_focus": "CLOUDY",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "sky is linked lightly",
+   "vocabulary": [
+    {
+     "word": "cloudy",
+     "meaning": "covered with clouds"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "weather",
+    "clouds"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Nice weather, isn't it?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u026a/ in \"isn't\"",
+   "stress_focus": "NICE and ISN'T",
+   "intonation_focus": "rising tag",
+   "connected_speech_focus": "isn't it said as one chunk",
+   "vocabulary": [
+    {
+     "word": "isn't it",
+     "meaning": "tag question for agreement"
+    }
+   ],
+   "grammar_focus": "tag question",
+   "tags": [
+    "small talk",
+    "weather"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "response",
+   "sentence": "Yeah, it's beautiful out.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /ju\u02d0/ in \"beautiful\"",
+   "stress_focus": "BEAUTIFUL",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "it's linked as itsa",
+   "vocabulary": [
+    {
+     "word": "beautiful",
+     "meaning": "very nice looking"
+    }
+   ],
+   "grammar_focus": "simple present response",
+   "tags": [
+    "small talk",
+    "response"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The forecast says rain tomorrow.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0254\u02d0r/ in \"forecast\"",
+   "stress_focus": "FORECAST and RAIN",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "says linked to rain",
+   "vocabulary": [
+    {
+     "word": "forecast",
+     "meaning": "prediction of weather"
+    }
+   ],
+   "grammar_focus": "reported statement",
+   "tags": [
+    "weather",
+    "forecast"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I love the summer season.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u028c/ in \"summer\"",
+   "stress_focus": "LOVE and SUMMER",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "love the linked",
+   "vocabulary": [
+    {
+     "word": "season",
+     "meaning": "part of the year"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "weather",
+    "seasons"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "Fall is my favorite season.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0254\u02d0/ in \"fall\"",
+   "stress_focus": "FALL and FAVORITE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "favorite pronounced quickly",
+   "vocabulary": [
+    {
+     "word": "favorite",
+     "meaning": "most liked"
+    }
+   ],
+   "grammar_focus": "simple present with possessive",
+   "tags": [
+    "weather",
+    "seasons"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Is it cold outside right now?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in \"outside\"",
+   "stress_focus": "COLD and NOW",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "right now blended",
+   "vocabulary": [
+    {
+     "word": "outside",
+     "meaning": "not inside a building"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "weather",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Clothing",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "You should wear a warm coat.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"wear\"",
+   "stress_focus": "WEAR and WARM",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "should wear linked",
+   "vocabulary": [
+    {
+     "word": "coat",
+     "meaning": "outer piece of clothing"
+    }
+   ],
+   "grammar_focus": "modal 'should' for advice",
+   "tags": [
+    "weather",
+    "clothing"
+   ]
+  },
+  {
+   "subcategory": "Clothing",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Bring an umbrella, just in case.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u028c/ in \"umbrella\"",
+   "stress_focus": "UMBRELLA",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "just in case linked",
+   "vocabulary": [
+    {
+     "word": "just in case",
+     "meaning": "to be prepared for something"
+    }
+   ],
+   "grammar_focus": "imperative request",
+   "tags": [
+    "weather",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "reaction",
+   "sentence": "Wow, it's really coming down!",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in \"wow\"",
+   "stress_focus": "REALLY and DOWN",
+   "intonation_focus": "excited falling",
+   "connected_speech_focus": "coming down linked as comin-down",
+   "vocabulary": [
+    {
+     "word": "coming down",
+     "meaning": "raining heavily"
+    }
+   ],
+   "grammar_focus": "exclamation with present continuous",
+   "tags": [
+    "small talk",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "There's a storm coming tonight.",
+   "natural_form": "There's a storm comin' tonight.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0254\u02d0r/ in \"storm\"",
+   "stress_focus": "STORM and TONIGHT",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "there's a linked as theresa",
+   "vocabulary": [
+    {
+     "word": "storm",
+     "meaning": "bad weather with wind and rain"
+    }
+   ],
+   "grammar_focus": "there is + future meaning",
+   "tags": [
+    "weather",
+    "storm"
+   ]
+  },
+  {
+   "subcategory": "Fog",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "It's really foggy this morning.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0254\u02d0/ in \"foggy\"",
+   "stress_focus": "FOGGY and MORNING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "it's linked as itsa",
+   "vocabulary": [
+    {
+     "word": "foggy",
+     "meaning": "covered with fog, hard to see"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "weather",
+    "fog"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Do you like this weather?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /ju\u02d0/ in \"you\"",
+   "stress_focus": "LIKE and WEATHER",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "do you blended as d'you",
+   "vocabulary": [
+    {
+     "word": "weather",
+     "meaning": "outdoor conditions"
+    }
+   ],
+   "grammar_focus": "simple present question",
+   "tags": [
+    "small talk",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "agreement",
+   "sentence": "I agree, it's a lovely day.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /l/ in \"lovely\"",
+   "stress_focus": "AGREE and LOVELY",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "it's linked as itsa",
+   "vocabulary": [
+    {
+     "word": "lovely",
+     "meaning": "very pleasant"
+    }
+   ],
+   "grammar_focus": "agreement statement",
+   "tags": [
+    "small talk",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Humidity",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "It's so humid today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /hj/ in \"humid\"",
+   "stress_focus": "HUMID",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "it's linked as itsa",
+   "vocabulary": [
+    {
+     "word": "humid",
+     "meaning": "damp and warm air"
+    }
+   ],
+   "grammar_focus": "intensifier 'so'",
+   "tags": [
+    "weather",
+    "temperature"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "Winter here gets really cold.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"winter\"",
+   "stress_focus": "WINTER and COLD",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "gets really blended",
+   "vocabulary": [
+    {
+     "word": "winter",
+     "meaning": "the coldest season"
+    }
+   ],
+   "grammar_focus": "simple present with adverb",
+   "tags": [
+    "weather",
+    "seasons"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "What's the weather like where you are?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"where\"",
+   "stress_focus": "WEATHER and WHERE",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "what's the blended",
+   "vocabulary": [
+    {
+     "word": "where you are",
+     "meaning": "your current location"
+    }
+   ],
+   "grammar_focus": "wh-question with 'like'",
+   "tags": [
+    "small talk",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "They're calling for snow this weekend.",
+   "natural_form": "They're callin' for snow this weekend.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0254\u02d0/ in \"calling\"",
+   "stress_focus": "CALLING and SNOW",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "calling for linked",
+   "vocabulary": [
+    {
+     "word": "calling for",
+     "meaning": "predicting"
+    }
+   ],
+   "grammar_focus": "present continuous for prediction",
+   "tags": [
+    "weather",
+    "forecast"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "I think it's too cold to go outside.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ in \"think\"",
+   "stress_focus": "TOO COLD",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "too cold to blended",
+   "vocabulary": [
+    {
+     "word": "too cold",
+     "meaning": "more cold than is comfortable"
+    }
+   ],
+   "grammar_focus": "'too' + adjective + infinitive",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "reaction",
+   "sentence": "Ugh, I can't believe how hot it is.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k\u00e6nt/ in \"can't\"",
+   "stress_focus": "CAN'T and HOT",
+   "intonation_focus": "exasperated falling",
+   "connected_speech_focus": "can't believe linked",
+   "vocabulary": [
+    {
+     "word": "can't believe",
+     "meaning": "surprised, hard to accept"
+    }
+   ],
+   "grammar_focus": "exclamatory reaction",
+   "tags": [
+    "small talk",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Clothing",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Could you grab my jacket, please?",
+   "natural_form": "Could you grab my jacket, please?",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in \"jacket\"",
+   "stress_focus": "GRAB and JACKET",
+   "intonation_focus": "polite falling",
+   "connected_speech_focus": "could you blended as couldja",
+   "vocabulary": [
+    {
+     "word": "jacket",
+     "meaning": "a light coat"
+    }
+   ],
+   "grammar_focus": "polite request with 'could'",
+   "tags": [
+    "weather",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "The wind knocked down a few branches.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /br/ in \"branches\"",
+   "stress_focus": "KNOCKED and BRANCHES",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "knocked down linked",
+   "vocabulary": [
+    {
+     "word": "knocked down",
+     "meaning": "caused to fall"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'knock down'",
+   "tags": [
+    "weather",
+    "storm"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "Spring is my favorite time of year.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in \"spring\"",
+   "stress_focus": "SPRING and FAVORITE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "time of year blended",
+   "vocabulary": [
+    {
+     "word": "time of year",
+     "meaning": "a particular season"
+    }
+   ],
+   "grammar_focus": "opinion with superlative",
+   "tags": [
+    "weather",
+    "seasons"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, did you say it's supposed to rain?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /s/ in \"supposed\"",
+   "stress_focus": "SUPPOSED and RAIN",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "supposed to blended as spozeta",
+   "vocabulary": [
+    {
+     "word": "supposed to",
+     "meaning": "expected to"
+    }
+   ],
+   "grammar_focus": "clarification question",
+   "tags": [
+    "small talk",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "What's the temperature supposed to be tomorrow?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in \"temperature\"",
+   "stress_focus": "TEMPERATURE and TOMORROW",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "supposed to blended",
+   "vocabulary": [
+    {
+     "word": "temperature",
+     "meaning": "how hot or cold it is"
+    }
+   ],
+   "grammar_focus": "future with 'supposed to'",
+   "tags": [
+    "weather",
+    "forecast"
+   ]
+  },
+  {
+   "subcategory": "Wind",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "It's so windy my umbrella flipped inside out.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in \"flipped\"",
+   "stress_focus": "WINDY and FLIPPED",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "flipped inside blended",
+   "vocabulary": [
+    {
+     "word": "flipped inside out",
+     "meaning": "turned the wrong way by wind"
+    }
+   ],
+   "grammar_focus": "simple past narrative",
+   "tags": [
+    "weather",
+    "wind"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "response",
+   "sentence": "Yeah, it's been like this all week.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"week\"",
+   "stress_focus": "BEEN and WEEK",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "it's been linked",
+   "vocabulary": [
+    {
+     "word": "all week",
+     "meaning": "the entire week"
+    }
+   ],
+   "grammar_focus": "present perfect continuous",
+   "tags": [
+    "small talk",
+    "response"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "disagreement",
+   "sentence": "Actually, I don't think it's that cold.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u00f0/ in \"that\"",
+   "stress_focus": "DON'T and COLD",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "don't think blended",
+   "vocabulary": [
+    {
+     "word": "that cold",
+     "meaning": "as cold as you say"
+    }
+   ],
+   "grammar_focus": "disagreement with 'actually'",
+   "tags": [
+    "weather",
+    "disagreement"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "storytelling",
+   "sentence": "We lost power for a few hours during the storm.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in \"power\"",
+   "stress_focus": "LOST and POWER",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "lost power linked",
+   "vocabulary": [
+    {
+     "word": "lost power",
+     "meaning": "electricity stopped working"
+    }
+   ],
+   "grammar_focus": "simple past narrative",
+   "tags": [
+    "weather",
+    "storm",
+    "storytelling"
+   ]
+  },
+  {
+   "subcategory": "Rain",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I got soaked walking home in the rain.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /o\u028a/ in \"soaked\"",
+   "stress_focus": "SOAKED and RAIN",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "got soaked linked",
+   "vocabulary": [
+    {
+     "word": "soaked",
+     "meaning": "completely wet"
+    }
+   ],
+   "grammar_focus": "simple past with gerund",
+   "tags": [
+    "weather",
+    "rain"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "Do you think it'll clear up later?",
+   "natural_form": "Do you think it'll clear up later?",
+   "accent": "american",
+   "pronunciation_focus": "the /\u026a\u0259r/ in \"clear\"",
+   "stress_focus": "CLEAR UP",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "it'll clear blended",
+   "vocabulary": [
+    {
+     "word": "clear up",
+     "meaning": "become sunny after rain"
+    }
+   ],
+   "grammar_focus": "future with 'will' contraction",
+   "tags": [
+    "small talk",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I can't stand the humidity in summer.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /h/ in \"humidity\"",
+   "stress_focus": "CAN'T STAND",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "can't stand blended",
+   "vocabulary": [
+    {
+     "word": "can't stand",
+     "meaning": "strongly dislike"
+    }
+   ],
+   "grammar_focus": "opinion with 'can't stand'",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Fog",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "The fog made it hard to see the road.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in \"road\"",
+   "stress_focus": "FOG and HARD",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "made it linked",
+   "vocabulary": [
+    {
+     "word": "hard to see",
+     "meaning": "difficult to see clearly"
+    }
+   ],
+   "grammar_focus": "causative 'made it hard'",
+   "tags": [
+    "weather",
+    "fog"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "agreement",
+   "sentence": "Totally, this heat is brutal.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /br/ in \"brutal\"",
+   "stress_focus": "HEAT and BRUTAL",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "totally said quickly",
+   "vocabulary": [
+    {
+     "word": "brutal",
+     "meaning": "very harsh or intense"
+    }
+   ],
+   "grammar_focus": "informal agreement",
+   "tags": [
+    "small talk",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Clothing",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "You'll want layers since it's chilly in the morning.",
+   "natural_form": "You'll wanna wear layers since it's chilly in the morning.",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in \"chilly\"",
+   "stress_focus": "LAYERS and CHILLY",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "you'll want blended as you'll wanna",
+   "vocabulary": [
+    {
+     "word": "layers",
+     "meaning": "multiple items of clothing worn together"
+    }
+   ],
+   "grammar_focus": "future advice with 'since'",
+   "tags": [
+    "weather",
+    "clothing"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "reaction",
+   "sentence": "Man, this weather can't make up its mind.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /m/ in \"man\"",
+   "stress_focus": "CAN'T and MIND",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "can't make blended",
+   "vocabulary": [
+    {
+     "word": "can't make up its mind",
+     "meaning": "keeps changing, undecided"
+    }
+   ],
+   "grammar_focus": "idiomatic reaction",
+   "tags": [
+    "small talk",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "There's a chance of thunderstorms this afternoon.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ in \"thunderstorms\"",
+   "stress_focus": "CHANCE and THUNDERSTORMS",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "there's a linked as theresa",
+   "vocabulary": [
+    {
+     "word": "chance of",
+     "meaning": "possibility of"
+    }
+   ],
+   "grammar_focus": "existential 'there is'",
+   "tags": [
+    "weather",
+    "forecast"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "Isn't it supposed to warm up this week?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"warm\"",
+   "stress_focus": "WARM UP",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "isn't it blended",
+   "vocabulary": [
+    {
+     "word": "warm up",
+     "meaning": "become warmer"
+    }
+   ],
+   "grammar_focus": "negative tag-style question",
+   "tags": [
+    "weather",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "I'd rather have rain than this awful humidity.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in \"rather\"",
+   "stress_focus": "RATHER and HUMIDITY",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "I'd rather blended",
+   "vocabulary": [
+    {
+     "word": "I'd rather",
+     "meaning": "I would prefer"
+    }
+   ],
+   "grammar_focus": "comparative preference structure",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Wind",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "storytelling",
+   "sentence": "The wind was so strong it blew my hat right off.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /bl/ in \"blew\"",
+   "stress_focus": "STRONG and BLEW",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "blew my hat linked",
+   "vocabulary": [
+    {
+     "word": "blew off",
+     "meaning": "removed by wind"
+    }
+   ],
+   "grammar_focus": "past simple with result clause",
+   "tags": [
+    "weather",
+    "wind",
+    "storytelling"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "clarification",
+   "sentence": "Wait, are you saying it might snow in October?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u026a/ in \"might\"",
+   "stress_focus": "MIGHT and OCTOBER",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "are you blended as areya",
+   "vocabulary": [
+    {
+     "word": "might",
+     "meaning": "possibility"
+    }
+   ],
+   "grammar_focus": "clarification with modal 'might'",
+   "tags": [
+    "small talk",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "Even though it's sunny, it's still pretty cold out.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /i\u02d0v/ in \"even\"",
+   "stress_focus": "SUNNY and COLD",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "even though blended",
+   "vocabulary": [
+    {
+     "word": "even though",
+     "meaning": "despite the fact that"
+    }
+   ],
+   "grammar_focus": "concessive clause with 'even though'",
+   "tags": [
+    "weather",
+    "opinion",
+    "connector"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "The weather's supposed to turn around by the weekend.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u025c\u02d0r/ in \"turn\"",
+   "stress_focus": "TURN AROUND",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "turn around linked",
+   "vocabulary": [
+    {
+     "word": "turn around",
+     "meaning": "change, improve"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'turn around'",
+   "tags": [
+    "weather",
+    "forecast"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "storytelling",
+   "sentence": "We had to hunker down for a couple hours while the storm blew through.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u014bk/ in \"hunker\"",
+   "stress_focus": "HUNKER DOWN",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "hunker down linked",
+   "vocabulary": [
+    {
+     "word": "hunker down",
+     "meaning": "take shelter and wait it out"
+    }
+   ],
+   "grammar_focus": "past narrative with phrasal verbs",
+   "tags": [
+    "weather",
+    "storm",
+    "storytelling"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "question",
+   "sentence": "What do you make of this crazy weather we've been having?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /kw/ in \"weather\"",
+   "stress_focus": "CRAZY and HAVING",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "what do you blended as whaddaya",
+   "vocabulary": [
+    {
+     "word": "what do you make of",
+     "meaning": "what's your opinion about"
+    }
+   ],
+   "grammar_focus": "idiomatic opinion question",
+   "tags": [
+    "small talk",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "disagreement",
+   "sentence": "I get that it's cold, but I wouldn't call it freezing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"wouldn't\"",
+   "stress_focus": "COLD and FREEZING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "I wouldn't blended",
+   "vocabulary": [
+    {
+     "word": "I get that",
+     "meaning": "I understand/acknowledge that"
+    }
+   ],
+   "grammar_focus": "concession + disagreement structure",
+   "tags": [
+    "weather",
+    "disagreement"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "Once fall kicks in, I start missing the warm weather already.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in \"kicks\"",
+   "stress_focus": "KICKS IN and MISSING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "kicks in linked",
+   "vocabulary": [
+    {
+     "word": "kicks in",
+     "meaning": "begins to take effect"
+    }
+   ],
+   "grammar_focus": "time clause with 'once'",
+   "tags": [
+    "weather",
+    "seasons",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "reaction",
+   "sentence": "Honestly, I'm kind of over this heat wave already.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"wave\"",
+   "stress_focus": "OVER and HEAT WAVE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "kind of blended as kinda",
+   "vocabulary": [
+    {
+     "word": "over it",
+     "meaning": "tired of something"
+    }
+   ],
+   "grammar_focus": "idiomatic reaction 'over it'",
+   "tags": [
+    "small talk",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "question",
+   "sentence": "Do you know if this rain is supposed to let up soon?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /l/ in \"let\"",
+   "stress_focus": "LET UP and SOON",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "let up linked",
+   "vocabulary": [
+    {
+     "word": "let up",
+     "meaning": "become less intense"
+    }
+   ],
+   "grammar_focus": "embedded question with phrasal verb",
+   "tags": [
+    "weather",
+    "forecast",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Wind",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "The wind's really picked up since this morning.",
+   "natural_form": "The wind's really picked up since this mornin'.",
+   "accent": "american",
+   "pronunciation_focus": "the /p/ in \"picked\"",
+   "stress_focus": "PICKED UP",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "picked up linked",
+   "vocabulary": [
+    {
+     "word": "picked up",
+     "meaning": "increased in intensity"
+    }
+   ],
+   "grammar_focus": "present perfect with phrasal verb",
+   "tags": [
+    "weather",
+    "wind"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, when you said it'll cool down, did you mean today or this week?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /u\u02d0/ in \"cool\"",
+   "stress_focus": "COOL DOWN",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "did you blended as didja",
+   "vocabulary": [
+    {
+     "word": "cool down",
+     "meaning": "become cooler in temperature"
+    }
+   ],
+   "grammar_focus": "clarification with embedded question",
+   "tags": [
+    "small talk",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Fog",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "The fog usually burns off by mid-morning around here.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u025c\u02d0r/ in \"burns\"",
+   "stress_focus": "BURNS OFF and MID-MORNING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "burns off linked",
+   "vocabulary": [
+    {
+     "word": "burns off",
+     "meaning": "disappears as the sun warms up"
+    }
+   ],
+   "grammar_focus": "habitual present with phrasal verb",
+   "tags": [
+    "weather",
+    "fog"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "If you ask me, this is the nicest stretch of weather we've had all year.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in \"stretch\"",
+   "stress_focus": "NICEST and STRETCH",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "if you blended",
+   "vocabulary": [
+    {
+     "word": "stretch of weather",
+     "meaning": "a continuous period of weather"
+    }
+   ],
+   "grammar_focus": "present perfect for experience",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "They ended up canceling the game because of the lightning.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u026a/ in \"lightning\"",
+   "stress_focus": "CANCELING and LIGHTNING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "ended up linked",
+   "vocabulary": [
+    {
+     "word": "ended up",
+     "meaning": "eventually resulted in"
+    }
+   ],
+   "grammar_focus": "past simple with 'ended up'",
+   "tags": [
+    "weather",
+    "storm"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "agreement",
+   "sentence": "Yeah, I hear you, this humidity is on another level.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /l/ in \"level\"",
+   "stress_focus": "HUMIDITY and LEVEL",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "I hear you blended",
+   "vocabulary": [
+    {
+     "word": "on another level",
+     "meaning": "extremely intense"
+    }
+   ],
+   "grammar_focus": "idiomatic agreement",
+   "tags": [
+    "weather",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "I'd take snow over this slushy in-between weather any day.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in \"slushy\"",
+   "stress_focus": "SLUSHY and IN-BETWEEN",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "I'd take blended",
+   "vocabulary": [
+    {
+     "word": "in-between weather",
+     "meaning": "weather that's neither fully cold nor warm"
+    }
+   ],
+   "grammar_focus": "preference structure 'take X over Y'",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "question",
+   "sentence": "Have they said anything about whether this cold snap is going to stick around?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /sn/ in \"snap\"",
+   "stress_focus": "COLD SNAP and STICK AROUND",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "going to blended as gonna",
+   "vocabulary": [
+    {
+     "word": "stick around",
+     "meaning": "stay, continue"
+    }
+   ],
+   "grammar_focus": "embedded whether-question",
+   "tags": [
+    "weather",
+    "forecast",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Wind",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "Out of nowhere, the wind picked up and blew the tent right over.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in \"out\"",
+   "stress_focus": "OUT OF NOWHERE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "picked up blended",
+   "vocabulary": [
+    {
+     "word": "out of nowhere",
+     "meaning": "suddenly, unexpectedly"
+    }
+   ],
+   "grammar_focus": "narrative past with time expression",
+   "tags": [
+    "weather",
+    "wind",
+    "storytelling"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "disagreement",
+   "sentence": "I wouldn't say it's that bad, honestly, it's not humid at all today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"wouldn't\"",
+   "stress_focus": "BAD and HUMID",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "wouldn't say blended",
+   "vocabulary": [
+    {
+     "word": "not... at all",
+     "meaning": "emphatic negation"
+    }
+   ],
+   "grammar_focus": "emphatic negation structure",
+   "tags": [
+    "weather",
+    "disagreement"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "There's something about the first snowfall that makes everyone kind of giddy.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in \"snowfall\"",
+   "stress_focus": "FIRST SNOWFALL and GIDDY",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "kind of blended as kinda",
+   "vocabulary": [
+    {
+     "word": "giddy",
+     "meaning": "excited, a bit dizzy with excitement"
+    }
+   ],
+   "grammar_focus": "'there's something about' construction",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "reaction",
+   "sentence": "Man, I did not see that downpour coming at all.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in \"downpour\"",
+   "stress_focus": "DOWNPOUR and AT ALL",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "did not blended as didn't",
+   "vocabulary": [
+    {
+     "word": "downpour",
+     "meaning": "a heavy fall of rain"
+    }
+   ],
+   "grammar_focus": "past simple negative reaction",
+   "tags": [
+    "weather",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "Depending on which app you check, the forecast changes every hour.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in \"check\"",
+   "stress_focus": "DEPENDING and CHANGES",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "depending on blended",
+   "vocabulary": [
+    {
+     "word": "depending on",
+     "meaning": "varying according to"
+    }
+   ],
+   "grammar_focus": "present tense with dependent clause",
+   "tags": [
+    "weather",
+    "forecast"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "question",
+   "sentence": "Have you noticed how the weather's been all over the place lately?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /l/ in \"lately\"",
+   "stress_focus": "ALL OVER and LATELY",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "weather's been blended",
+   "vocabulary": [
+    {
+     "word": "all over the place",
+     "meaning": "very inconsistent"
+    }
+   ],
+   "grammar_focus": "present perfect continuous question",
+   "tags": [
+    "small talk",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "As far as I'm concerned, anything below zero is just miserable.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /z/ in \"zero\"",
+   "stress_focus": "BELOW ZERO and MISERABLE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "as far as blended",
+   "vocabulary": [
+    {
+     "word": "as far as I'm concerned",
+     "meaning": "in my opinion"
+    }
+   ],
+   "grammar_focus": "opinion framing phrase",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "clarification",
+   "sentence": "Hold on, are we talking about today's forecast or tomorrow's?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0254\u02d0r/ in \"forecast\"",
+   "stress_focus": "TODAY'S and TOMORROW'S",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "hold on blended",
+   "vocabulary": [
+    {
+     "word": "hold on",
+     "meaning": "wait a moment"
+    }
+   ],
+   "grammar_focus": "clarifying alternative question",
+   "tags": [
+    "small talk",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "By the time we got home, the storm had pretty much passed.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /p/ in \"passed\"",
+   "stress_focus": "BY THE TIME and PASSED",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "by the time blended",
+   "vocabulary": [
+    {
+     "word": "pretty much",
+     "meaning": "almost entirely"
+    }
+   ],
+   "grammar_focus": "past perfect with time clause",
+   "tags": [
+    "weather",
+    "storm"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "If it weren't for the humidity, I'd actually love summers around here.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"weren't\"",
+   "stress_focus": "HUMIDITY and LOVE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "if it weren't blended",
+   "vocabulary": [
+    {
+     "word": "if it weren't for",
+     "meaning": "except for, if not for"
+    }
+   ],
+   "grammar_focus": "unreal conditional with 'if it weren't for'",
+   "tags": [
+    "weather",
+    "opinion",
+    "conditional"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "Apparently the meteorologists are predicting the coldest snap we've seen in a decade.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /i\u02d0/ in \"meteorologists\"",
+   "stress_focus": "COLDEST and DECADE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "apparently linked to the",
+   "vocabulary": [
+    {
+     "word": "meteorologists",
+     "meaning": "scientists who study and predict weather"
+    }
+   ],
+   "grammar_focus": "present perfect for record-setting events",
+   "tags": [
+    "weather",
+    "forecast"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "We'd barely gotten inside when the skies opened up and it just poured.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /b/ in \"barely\"",
+   "stress_focus": "BARELY and POURED",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "we'd barely blended",
+   "vocabulary": [
+    {
+     "word": "skies opened up",
+     "meaning": "it suddenly started raining heavily"
+    }
+   ],
+   "grammar_focus": "past perfect + narrative past",
+   "tags": [
+    "weather",
+    "storm",
+    "storytelling"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "disagreement",
+   "sentence": "I get why people complain, but honestly, I'd take this over another heat wave any day of the week.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"wave\"",
+   "stress_focus": "COMPLAIN and HEAT WAVE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "I'd take blended",
+   "vocabulary": [
+    {
+     "word": "any day of the week",
+     "meaning": "definitely, without question"
+    }
+   ],
+   "grammar_focus": "concession followed by strong preference",
+   "tags": [
+    "weather",
+    "disagreement"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "There's a certain melancholy that comes with the days getting shorter, even if I do love the crisp fall air.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in \"shorter\"",
+   "stress_focus": "MELANCHOLY and CRISP",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "even if I blended",
+   "vocabulary": [
+    {
+     "word": "melancholy",
+     "meaning": "a feeling of thoughtful sadness"
+    }
+   ],
+   "grammar_focus": "complex sentence with concessive clause",
+   "tags": [
+    "weather",
+    "opinion",
+    "seasons"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "question",
+   "sentence": "Do you ever get the feeling this city just skips spring altogether and jumps straight into summer?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in \"jumps\"",
+   "stress_focus": "SKIPS and JUMPS",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "get the feeling blended",
+   "vocabulary": [
+    {
+     "word": "skips altogether",
+     "meaning": "misses completely"
+    }
+   ],
+   "grammar_focus": "rhetorical question with idiomatic verbs",
+   "tags": [
+    "weather",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Wind",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "The wind was howling so hard all night that I barely slept a wink.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /ha\u028a/ in \"howling\"",
+   "stress_focus": "HOWLING and WINK",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "barely slept blended",
+   "vocabulary": [
+    {
+     "word": "didn't sleep a wink",
+     "meaning": "didn't sleep at all"
+    }
+   ],
+   "grammar_focus": "past continuous with result clause",
+   "tags": [
+    "weather",
+    "wind",
+    "storytelling"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "clarification",
+   "sentence": "Just to clarify, when they say a chance of flurries, are we talking a dusting or an actual accumulation?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /fl/ in \"flurries\"",
+   "stress_focus": "DUSTING and ACCUMULATION",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "just to clarify blended",
+   "vocabulary": [
+    {
+     "word": "flurries",
+     "meaning": "light, brief snow showers"
+    }
+   ],
+   "grammar_focus": "clarification with contrasted nouns",
+   "tags": [
+    "weather",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "What gets me isn't so much the cold itself, it's the wind chill that really cuts through you.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in \"chill\"",
+   "stress_focus": "WIND CHILL and CUTS THROUGH",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "cuts through blended",
+   "vocabulary": [
+    {
+     "word": "wind chill",
+     "meaning": "how cold it feels due to wind"
+    }
+   ],
+   "grammar_focus": "cleft sentence for emphasis",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "I swear, one more day of this drizzle and I'm going to lose my mind.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /z/ in \"drizzle\"",
+   "stress_focus": "DRIZZLE and LOSE MY MIND",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "going to blended as gonna",
+   "vocabulary": [
+    {
+     "word": "lose my mind",
+     "meaning": "become extremely frustrated"
+    }
+   ],
+   "grammar_focus": "hyperbolic conditional-like reaction",
+   "tags": [
+    "weather",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "It's the kind of storm that knocks out power for days if you're not careful about trimming the trees beforehand.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /tr/ in \"trimming\"",
+   "stress_focus": "KNOCKS OUT and TRIMMING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "knocks out linked",
+   "vocabulary": [
+    {
+     "word": "knocks out",
+     "meaning": "causes to stop working"
+    }
+   ],
+   "grammar_focus": "relative clause with conditional",
+   "tags": [
+    "weather",
+    "storm"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, the older I get, the less patience I have for shoveling snow every other morning.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u028c/ in \"shoveling\"",
+   "stress_focus": "LESS PATIENCE and SHOVELING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "the older blended",
+   "vocabulary": [
+    {
+     "word": "shoveling",
+     "meaning": "removing snow with a shovel"
+    }
+   ],
+   "grammar_focus": "comparative 'the more...the less' structure",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "By the time autumn rolled around, we'd already forgotten what the humidity had even felt like.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0254\u02d0/ in \"autumn\"",
+   "stress_focus": "ROLLED AROUND and FORGOTTEN",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "rolled around linked",
+   "vocabulary": [
+    {
+     "word": "rolled around",
+     "meaning": "arrived, came about"
+    }
+   ],
+   "grammar_focus": "past perfect narrative with idiom",
+   "tags": [
+    "weather",
+    "seasons",
+    "storytelling"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "disagreement",
+   "sentence": "I hear what you're saying, but I don't buy that it's been this bad every single year.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /ba\u026a/ in \"buy\"",
+   "stress_focus": "DON'T BUY and EVERY SINGLE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "I don't blended",
+   "vocabulary": [
+    {
+     "word": "don't buy that",
+     "meaning": "don't believe that"
+    }
+   ],
+   "grammar_focus": "idiomatic disagreement with 'buy'",
+   "tags": [
+    "weather",
+    "disagreement"
+   ]
+  },
+  {
+   "subcategory": "Wind",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "statement",
+   "sentence": "There's nothing quite like standing on the coast when the wind's whipping straight off the water.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in \"whipping\"",
+   "stress_focus": "WHIPPING and COAST",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "whipping straight linked",
+   "vocabulary": [
+    {
+     "word": "whipping off",
+     "meaning": "blowing forcefully from"
+    }
+   ],
+   "grammar_focus": "existential emphasis structure",
+   "tags": [
+    "weather",
+    "wind"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "At this point I take the long-range forecast with a huge grain of salt, it's wrong more often than not.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in \"range\"",
+   "stress_focus": "GRAIN OF SALT and WRONG",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "take the blended",
+   "vocabulary": [
+    {
+     "word": "grain of salt",
+     "meaning": "skepticism, not fully trusting something"
+    }
+   ],
+   "grammar_focus": "idiomatic opinion with 'more often than not'",
+   "tags": [
+    "weather",
+    "forecast",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "reaction",
+   "sentence": "You'd think after living here for a decade I'd be used to the winters by now, but nope, still hate it.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /ju\u02d0zd/ in \"used\"",
+   "stress_focus": "DECADE and STILL HATE",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "you'd think blended",
+   "vocabulary": [
+    {
+     "word": "you'd think",
+     "meaning": "one would assume, expected but false"
+    }
+   ],
+   "grammar_focus": "contrastive structure with 'you'd think'",
+   "tags": [
+    "weather",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Temperature",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "clarification",
+   "sentence": "When you say it feels like minus twenty, are you factoring in the wind chill or is that the actual air temperature?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in \"factoring\"",
+   "stress_focus": "MINUS TWENTY and FACTORING",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "factoring in blended",
+   "vocabulary": [
+    {
+     "word": "factoring in",
+     "meaning": "including in a calculation"
+    }
+   ],
+   "grammar_focus": "clarification with embedded alternatives",
+   "tags": [
+    "weather",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Storm",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "Just as we were about to head out, the sky turned this eerie shade of green and we knew a storm was brewing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /i\u02d0r/ in \"eerie\"",
+   "stress_focus": "EERIE and BREWING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "were about to blended",
+   "vocabulary": [
+    {
+     "word": "storm was brewing",
+     "meaning": "a storm was starting to form"
+    }
+   ],
+   "grammar_focus": "past continuous narrative with 'just as'",
+   "tags": [
+    "weather",
+    "storm",
+    "storytelling"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "agreement",
+   "sentence": "Tell me about it, I've been sweating through my shirt just walking to the mailbox.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in \"shirt\"",
+   "stress_focus": "SWEATING and MAILBOX",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "tell me about it blended",
+   "vocabulary": [
+    {
+     "word": "tell me about it",
+     "meaning": "I completely agree, I know exactly what you mean"
+    }
+   ],
+   "grammar_focus": "idiomatic agreement expression",
+   "tags": [
+    "weather",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Seasons",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "opinion",
+   "sentence": "People always romanticize the changing of the leaves, but they conveniently forget how quickly it turns into raking for hours on end.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in \"romanticize\"",
+   "stress_focus": "ROMANTICIZE and RAKING",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "conveniently forget linked",
+   "vocabulary": [
+    {
+     "word": "romanticize",
+     "meaning": "make something seem more appealing than it is"
+    }
+   ],
+   "grammar_focus": "complex contrastive sentence with 'but'",
+   "tags": [
+    "weather",
+    "opinion",
+    "seasons"
+   ]
+  },
+  {
+   "subcategory": "Forecast",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "question",
+   "sentence": "Isn't it kind of wild how we can predict a hurricane's path days in advance but still can't nail down tomorrow's chance of rain?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /h/ in \"hurricane\"",
+   "stress_focus": "HURRICANE and NAIL DOWN",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "kind of blended as kinda",
+   "vocabulary": [
+    {
+     "word": "nail down",
+     "meaning": "determine precisely"
+    }
+   ],
+   "grammar_focus": "rhetorical contrast question",
+   "tags": [
+    "weather",
+    "forecast",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Wind",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "statement",
+   "sentence": "There's this particular kind of gust that comes off the lake in late fall that cuts right through even the thickest coat.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /g/ in \"gust\"",
+   "stress_focus": "GUST and THICKEST",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "cuts right through linked",
+   "vocabulary": [
+    {
+     "word": "gust",
+     "meaning": "a sudden strong rush of wind"
+    }
+   ],
+   "grammar_focus": "relative clause with intensifier",
+   "tags": [
+    "weather",
+    "wind"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "disagreement",
+   "sentence": "I know everyone's complaining about the heat, but compared to where I grew up, this is practically nothing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k\u0259m/ in \"compared\"",
+   "stress_focus": "COMPLAINING and PRACTICALLY",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "compared to blended",
+   "vocabulary": [
+    {
+     "word": "practically nothing",
+     "meaning": "almost insignificant"
+    }
+   ],
+   "grammar_focus": "comparative disagreement clause",
+   "tags": [
+    "weather",
+    "disagreement"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "opinion",
+   "sentence": "At the end of the day, I think we complain about the weather here more out of habit than because it's actually that extreme.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /h/ in \"habit\"",
+   "stress_focus": "HABIT and EXTREME",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "at the end of the day blended",
+   "vocabulary": [
+    {
+     "word": "out of habit",
+     "meaning": "because it's customary, not for a real reason"
+    }
+   ],
+   "grammar_focus": "complex opinion with 'more out of...than'",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  }
+ ]
+}

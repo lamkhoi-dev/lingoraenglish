@@ -1,0 +1,342 @@
+{"lessons":[
+{
+ "slug":"a1-coffee-order",
+ "title":"Ordering at a coffee shop",
+ "level":"A1",
+ "category":"Everyday Life",
+ "topic":"Coffee shop",
+ "difficulty":1,
+ "duration_seconds":25,
+ "accent":"american",
+ "script":[
+  {"speaker":"Barista","line":"Hi, what can I get you?"},
+  {"speaker":"Customer","line":"Hi, can I get a medium coffee, please?"},
+  {"speaker":"Barista","line":"Sure. Do you want milk or sugar?"},
+  {"speaker":"Customer","line":"Just a little milk, thanks."},
+  {"speaker":"Barista","line":"Okay. Anything else for you?"},
+  {"speaker":"Customer","line":"Yeah, can I also get a small muffin?"},
+  {"speaker":"Barista","line":"Sure thing. That's five dollars."},
+  {"speaker":"Customer","line":"Here you go. Thanks a lot!"}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is this conversation mainly about?","options":["Ordering food and drink","Asking for directions","Booking a table","Complaining about service"],"answer":"Ordering food and drink","explanation":"The customer orders coffee and a muffin.","skill":"main_idea"},
+  {"type":"detail","prompt":"What size coffee does the customer order?","options":["Small","Medium","Large","Extra large"],"answer":"Medium","explanation":"She says \"a medium coffee, please\".","skill":"details"},
+  {"type":"detail","prompt":"What does the customer add to her coffee?","options":["Sugar","Milk","Ice","Nothing"],"answer":"Milk","explanation":"She says \"just a little milk, thanks\".","skill":"details"},
+  {"type":"detail","prompt":"How much does the order cost?","options":["Three dollars","Four dollars","Five dollars","Ten dollars"],"answer":"Five dollars","explanation":"The barista says \"that's five dollars\".","skill":"numbers_dates"},
+  {"type":"true_false","prompt":"The customer only orders a coffee.","options":["True","False"],"answer":"False","explanation":"She also orders a small muffin.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Can I get a medium coffee, please?","blanks":["medium","coffee"],"challenge":"reduced_form","explanation":"\"Can I\" is often said quickly like \"Cn I\"."},
+  {"sentence":"Just a little milk, thanks.","blanks":["little"],"challenge":"similar_sounds","explanation":"\"little\" has a fast, soft \"t\" sound."},
+  {"sentence":"Anything else for you?","blanks":["anything","else"],"challenge":"connected_speech","explanation":"Words blend together in fast speech."},
+  {"sentence":"That's five dollars.","blanks":["five"],"challenge":"numbers","explanation":"Listen carefully for the number word."}
+ ],
+ "connected_speech":[{"written":"can I","spoken":"cn I"},{"written":"want to","spoken":"wanna"}]
+},
+{
+ "slug":"a1-grocery-store",
+ "title":"Shopping for groceries",
+ "level":"A1",
+ "category":"Everyday Life",
+ "topic":"Grocery store",
+ "difficulty":1,
+ "duration_seconds":28,
+ "accent":"american",
+ "script":[
+  {"speaker":"Clerk","line":"Hi there, did you find everything okay?"},
+  {"speaker":"Customer","line":"Yes, thanks. But where are the apples?"},
+  {"speaker":"Clerk","line":"They're in aisle three, next to the bananas."},
+  {"speaker":"Customer","line":"Oh great, thank you. I'll go grab some."},
+  {"speaker":"Clerk","line":"No problem. Let me know if you need anything else."},
+  {"speaker":"Customer","line":"Actually, do you have any milk on sale?"},
+  {"speaker":"Clerk","line":"Yes, it's two dollars off this week."},
+  {"speaker":"Customer","line":"Perfect, I'll get two then."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the customer doing?","options":["Shopping for groceries","Returning an item","Asking for a job","Ordering coffee"],"answer":"Shopping for groceries","explanation":"They talk about apples and milk in a store.","skill":"main_idea"},
+  {"type":"detail","prompt":"Where are the apples?","options":["Aisle one","Aisle two","Aisle three","Near the door"],"answer":"Aisle three","explanation":"The clerk says \"they're in aisle three\".","skill":"details"},
+  {"type":"detail","prompt":"What is on sale?","options":["Apples","Bananas","Milk","Bread"],"answer":"Milk","explanation":"The clerk says milk is two dollars off.","skill":"details"},
+  {"type":"intention","prompt":"Why does the customer ask about milk?","options":["To find a discount","To complain","To return it","To ask the price of apples"],"answer":"To find a discount","explanation":"She asks if milk is on sale.","skill":"intention"},
+  {"type":"true_false","prompt":"The apples are next to the bananas.","options":["True","False"],"answer":"True","explanation":"The clerk says apples are next to the bananas.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Did you find everything okay?","blanks":["find","everything"],"challenge":"connected_speech","explanation":"\"Did you\" often sounds like \"didja\"."},
+  {"sentence":"They're in aisle three, next to the bananas.","blanks":["aisle","three"],"challenge":"numbers","explanation":"Listen for the number word \"three\"."},
+  {"sentence":"Do you have any milk on sale?","blanks":["milk","sale"],"challenge":"reduced_form","explanation":"\"Do you\" is often reduced to \"d'you\"."},
+  {"sentence":"I'll get two then.","blanks":["two"],"challenge":"numbers","explanation":"Numbers can be quick and easy to miss."}
+ ],
+ "connected_speech":[{"written":"did you","spoken":"didja"},{"written":"do you","spoken":"d'you"}]
+},
+{
+ "slug":"a1-asking-directions",
+ "title":"Asking for directions",
+ "level":"A1",
+ "category":"Travel",
+ "topic":"Asking for directions",
+ "difficulty":2,
+ "duration_seconds":30,
+ "accent":"american",
+ "script":[
+  {"speaker":"Tourist","line":"Excuse me, do you know where the library is?"},
+  {"speaker":"Local","line":"Sure, it's not far from here."},
+  {"speaker":"Tourist","line":"Great, how do I get there?"},
+  {"speaker":"Local","line":"Go straight two blocks, then turn left."},
+  {"speaker":"Tourist","line":"Straight two blocks, then left. Got it."},
+  {"speaker":"Local","line":"Yeah, and it's right across from the park."},
+  {"speaker":"Tourist","line":"Perfect, thank you so much!"},
+  {"speaker":"Local","line":"No problem, have a good day!"}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What does the tourist want to know?","options":["How to find the library","Where to eat","How to buy a ticket","Where the hotel is"],"answer":"How to find the library","explanation":"The tourist asks about the library's location.","skill":"main_idea"},
+  {"type":"detail","prompt":"How many blocks should the tourist walk straight?","options":["One","Two","Three","Four"],"answer":"Two","explanation":"The local says \"go straight two blocks\".","skill":"numbers_dates"},
+  {"type":"detail","prompt":"Which way should the tourist turn?","options":["Right","Left","Around","Back"],"answer":"Left","explanation":"The local says \"turn left\".","skill":"details"},
+  {"type":"detail","prompt":"What is the library across from?","options":["A school","A park","A store","A hotel"],"answer":"A park","explanation":"The local says it's across from the park.","skill":"details"},
+  {"type":"true_false","prompt":"The library is very far away.","options":["True","False"],"answer":"False","explanation":"The local says \"it's not far from here\".","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Do you know where the library is?","blanks":["library"],"challenge":"connected_speech","explanation":"\"Do you\" blends together in fast speech."},
+  {"sentence":"Go straight two blocks, then turn left.","blanks":["two","blocks"],"challenge":"numbers","explanation":"Listen carefully for the number of blocks."},
+  {"sentence":"It's right across from the park.","blanks":["across","park"],"challenge":"reduced_form","explanation":"\"It's\" is a fast contraction of \"it is\"."},
+  {"sentence":"Have a good day!","blanks":["good","day"],"challenge":"expression","explanation":"This is a common friendly expression."}
+ ],
+ "connected_speech":[{"written":"do you","spoken":"d'you"}]
+},
+{
+ "slug":"a1-neighbour-chat",
+ "title":"Small talk with a neighbour",
+ "level":"A1",
+ "category":"Social English",
+ "topic":"Small talk with a neighbour",
+ "difficulty":1,
+ "duration_seconds":24,
+ "accent":"american",
+ "script":[
+  {"speaker":"Anna","line":"Hey, nice day, isn't it?"},
+  {"speaker":"Tom","line":"Yeah, it's really sunny today."},
+  {"speaker":"Anna","line":"Are you doing anything fun this weekend?"},
+  {"speaker":"Tom","line":"Not really, just staying home and relaxing."},
+  {"speaker":"Anna","line":"Sounds nice. I'm going to visit my sister."},
+  {"speaker":"Tom","line":"Oh that's great, have fun with that."},
+  {"speaker":"Anna","line":"Thanks! See you later, Tom."},
+  {"speaker":"Tom","line":"See you, Anna. Take care!"}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Anna and Tom mainly talking about?","options":["Their weekend plans","Their jobs","The weather forecast","A party"],"answer":"Their weekend plans","explanation":"They chat about what they're doing this weekend.","skill":"main_idea"},
+  {"type":"detail","prompt":"What is Tom doing this weekend?","options":["Visiting his sister","Staying home","Going to work","Traveling"],"answer":"Staying home","explanation":"Tom says he's \"just staying home and relaxing\".","skill":"details"},
+  {"type":"detail","prompt":"Who is Anna going to visit?","options":["Her brother","Her sister","Her mom","Her friend"],"answer":"Her sister","explanation":"Anna says she's going to visit her sister.","skill":"details"},
+  {"type":"intention","prompt":"Why does Anna say \"nice day, isn't it\"?","options":["To start a casual conversation","To complain about the weather","To ask for help","To say goodbye"],"answer":"To start a casual conversation","explanation":"This is small talk used to begin a friendly chat.","skill":"intention"},
+  {"type":"true_false","prompt":"Tom has big plans for the weekend.","options":["True","False"],"answer":"False","explanation":"Tom says he's not doing anything special.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Nice day, isn't it?","blanks":["nice","day"],"challenge":"expression","explanation":"This is a common way to start small talk."},
+  {"sentence":"Not really, just staying home and relaxing.","blanks":["staying","relaxing"],"challenge":"connected_speech","explanation":"Words link together smoothly in fast speech."},
+  {"sentence":"I'm going to visit my sister.","blanks":["going","visit"],"challenge":"reduced_form","explanation":"\"Going to\" often sounds like \"gonna\"."},
+  {"sentence":"See you later, Tom.","blanks":["see","later"],"challenge":"expression","explanation":"This is a common way to say goodbye."}
+ ],
+ "connected_speech":[{"written":"going to","spoken":"gonna"}]
+},
+{
+ "slug":"a1-doctor-appointment",
+ "title":"Making an appointment",
+ "level":"A1",
+ "category":"Everyday Life",
+ "topic":"Making an appointment",
+ "difficulty":2,
+ "duration_seconds":32,
+ "accent":"american",
+ "script":[
+  {"speaker":"Receptionist","line":"Good morning, doctor's office. How can I help?"},
+  {"speaker":"Caller","line":"Hi, I'd like to make an appointment, please."},
+  {"speaker":"Receptionist","line":"Sure. Are you free on Tuesday morning?"},
+  {"speaker":"Caller","line":"Tuesday doesn't work. What about Wednesday?"},
+  {"speaker":"Receptionist","line":"Wednesday at ten is open. Does that work?"},
+  {"speaker":"Caller","line":"Yes, that's perfect for me."},
+  {"speaker":"Receptionist","line":"Great, can I get your name, please?"},
+  {"speaker":"Caller","line":"It's Maria Lopez. Thank you so much."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the caller doing?","options":["Making an appointment","Cancelling a class","Ordering medicine","Asking for directions"],"answer":"Making an appointment","explanation":"The caller wants to book an appointment at the doctor's office.","skill":"main_idea"},
+  {"type":"detail","prompt":"What day does the caller finally choose?","options":["Monday","Tuesday","Wednesday","Friday"],"answer":"Wednesday","explanation":"They agree on Wednesday at ten.","skill":"details"},
+  {"type":"detail","prompt":"What time is the appointment?","options":["Nine","Ten","Eleven","Noon"],"answer":"Ten","explanation":"The receptionist says \"Wednesday at ten\".","skill":"numbers_dates"},
+  {"type":"detail","prompt":"What is the caller's name?","options":["Maria Lopez","Anna Smith","Maria Garcia","Laura Lopez"],"answer":"Maria Lopez","explanation":"She says \"it's Maria Lopez\".","skill":"details"},
+  {"type":"true_false","prompt":"Tuesday works fine for the caller.","options":["True","False"],"answer":"False","explanation":"The caller says \"Tuesday doesn't work\".","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"I'd like to make an appointment, please.","blanks":["appointment"],"challenge":"contraction","explanation":"\"I'd\" is a contraction of \"I would\"."},
+  {"sentence":"Are you free on Tuesday morning?","blanks":["free","Tuesday"],"challenge":"reduced_form","explanation":"\"Are you\" is often reduced when spoken fast."},
+  {"sentence":"Wednesday at ten is open.","blanks":["Wednesday","ten"],"challenge":"numbers","explanation":"Listen for the day and time together."},
+  {"sentence":"Can I get your name, please?","blanks":["name"],"challenge":"reduced_form","explanation":"\"Can I\" is often shortened in speech."}
+ ],
+ "connected_speech":[{"written":"I would","spoken":"I'd"}]
+},
+{
+ "slug":"a1-restaurant-order",
+ "title":"Ordering at a restaurant",
+ "level":"A1",
+ "category":"Everyday Life",
+ "topic":"Restaurant ordering",
+ "difficulty":2,
+ "duration_seconds":34,
+ "accent":"american",
+ "script":[
+  {"speaker":"Server","line":"Hi, are you ready to order?"},
+  {"speaker":"Guest","line":"Yes, I'll have the chicken sandwich, please."},
+  {"speaker":"Server","line":"Great choice. Do you want fries or salad with that?"},
+  {"speaker":"Guest","line":"I'll take the salad, thanks."},
+  {"speaker":"Server","line":"Sure. And what would you like to drink?"},
+  {"speaker":"Guest","line":"Just water is fine, thank you."},
+  {"speaker":"Server","line":"Okay, that'll be ready in about ten minutes."},
+  {"speaker":"Guest","line":"Sounds good, thank you very much."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is happening in this conversation?","options":["A guest is ordering food","A guest is paying the bill","A server is cleaning a table","A guest is complaining"],"answer":"A guest is ordering food","explanation":"The guest orders a sandwich, salad, and water.","skill":"main_idea"},
+  {"type":"detail","prompt":"What does the guest order to eat?","options":["A burger","A chicken sandwich","A pizza","A salad only"],"answer":"A chicken sandwich","explanation":"The guest says \"I'll have the chicken sandwich\".","skill":"details"},
+  {"type":"detail","prompt":"What side does the guest choose?","options":["Fries","Salad","Soup","Rice"],"answer":"Salad","explanation":"The guest says \"I'll take the salad\".","skill":"details"},
+  {"type":"detail","prompt":"How long will the food take?","options":["Five minutes","Ten minutes","Twenty minutes","One hour"],"answer":"Ten minutes","explanation":"The server says \"ready in about ten minutes\".","skill":"numbers_dates"},
+  {"type":"true_false","prompt":"The guest orders a soda to drink.","options":["True","False"],"answer":"False","explanation":"The guest asks for just water.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"I'll have the chicken sandwich, please.","blanks":["chicken","sandwich"],"challenge":"contraction","explanation":"\"I'll\" is a contraction of \"I will\"."},
+  {"sentence":"Do you want fries or salad with that?","blanks":["fries","salad"],"challenge":"connected_speech","explanation":"\"Do you\" often blends together in fast speech."},
+  {"sentence":"Just water is fine, thank you.","blanks":["water","fine"],"challenge":"weak_form","explanation":"\"Is\" is often said quickly and softly."},
+  {"sentence":"That'll be ready in about ten minutes.","blanks":["ready","ten"],"challenge":"numbers","explanation":"Listen carefully for the number of minutes."}
+ ],
+ "connected_speech":[{"written":"I will","spoken":"I'll"},{"written":"that will","spoken":"that'll"}]
+},
+{
+ "slug":"a1-clothes-shopping",
+ "title":"Shopping for clothes",
+ "level":"A1",
+ "category":"Everyday Life",
+ "topic":"Shopping for clothes",
+ "difficulty":1,
+ "duration_seconds":26,
+ "accent":"british",
+ "script":[
+  {"speaker":"Assistant","line":"Hello, can I help you find anything?"},
+  {"speaker":"Customer","line":"Yes, please. I'm looking for a jacket."},
+  {"speaker":"Assistant","line":"Sure, what size do you need?"},
+  {"speaker":"Customer","line":"I think I'm a medium."},
+  {"speaker":"Assistant","line":"Great, we have some over here."},
+  {"speaker":"Customer","line":"Oh, I really like this blue one."},
+  {"speaker":"Assistant","line":"It looks lovely on you, honestly."},
+  {"speaker":"Customer","line":"Thanks, I'll take it then."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the customer shopping for?","options":["A jacket","Shoes","A hat","A bag"],"answer":"A jacket","explanation":"The customer says she's looking for a jacket.","skill":"main_idea"},
+  {"type":"detail","prompt":"What size does the customer need?","options":["Small","Medium","Large","Extra large"],"answer":"Medium","explanation":"She says \"I think I'm a medium\".","skill":"details"},
+  {"type":"detail","prompt":"What colour jacket does the customer like?","options":["Red","Green","Blue","Black"],"answer":"Blue","explanation":"She says \"I really like this blue one\".","skill":"details"},
+  {"type":"intention","prompt":"What does the customer decide to do?","options":["Buy the jacket","Ask for a discount","Leave the store","Try another size"],"answer":"Buy the jacket","explanation":"She says \"I'll take it then\".","skill":"intention"},
+  {"type":"true_false","prompt":"The assistant thinks the jacket looks good on her.","options":["True","False"],"answer":"True","explanation":"The assistant says \"it looks lovely on you\".","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"I'm looking for a jacket.","blanks":["looking","jacket"],"challenge":"contraction","explanation":"\"I'm\" is a contraction of \"I am\"."},
+  {"sentence":"What size do you need?","blanks":["size","need"],"challenge":"connected_speech","explanation":"\"Do you\" is often reduced in fast speech."},
+  {"sentence":"It looks lovely on you, honestly.","blanks":["lovely","honestly"],"challenge":"expression","explanation":"\"Honestly\" adds emphasis in casual speech."},
+  {"sentence":"I'll take it then.","blanks":["take"],"challenge":"contraction","explanation":"\"I'll\" is a contraction of \"I will\"."}
+ ],
+ "connected_speech":[{"written":"I am","spoken":"I'm"}]
+},
+{
+ "slug":"a1-bus-transit",
+ "title":"Taking the bus",
+ "level":"A1",
+ "category":"Travel",
+ "topic":"Bus/transit",
+ "difficulty":2,
+ "duration_seconds":30,
+ "accent":"american",
+ "script":[
+  {"speaker":"Passenger","line":"Excuse me, does this bus go downtown?"},
+  {"speaker":"Driver","line":"Yes, it does. Get on, please."},
+  {"speaker":"Passenger","line":"Great, how much is the fare?"},
+  {"speaker":"Driver","line":"It's three dollars for adults."},
+  {"speaker":"Passenger","line":"Okay, here you go. Thanks."},
+  {"speaker":"Driver","line":"You're welcome. It's about ten minutes to downtown."},
+  {"speaker":"Passenger","line":"Perfect, I'll just sit here then."},
+  {"speaker":"Driver","line":"Sounds good, enjoy the ride!"}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is the passenger trying to do?","options":["Take the bus downtown","Buy a car","Ask for directions on foot","Find a taxi"],"answer":"Take the bus downtown","explanation":"The passenger asks if the bus goes downtown.","skill":"main_idea"},
+  {"type":"detail","prompt":"How much is the fare?","options":["One dollar","Two dollars","Three dollars","Five dollars"],"answer":"Three dollars","explanation":"The driver says \"it's three dollars for adults\".","skill":"numbers_dates"},
+  {"type":"detail","prompt":"How long is the ride downtown?","options":["Five minutes","Ten minutes","Twenty minutes","Thirty minutes"],"answer":"Ten minutes","explanation":"The driver says \"about ten minutes to downtown\".","skill":"details"},
+  {"type":"detail","prompt":"What does the passenger do after paying?","options":["Gets off the bus","Sits down","Talks to another passenger","Asks for a receipt"],"answer":"Sits down","explanation":"She says \"I'll just sit here then\".","skill":"details"},
+  {"type":"true_false","prompt":"The bus does not go downtown.","options":["True","False"],"answer":"False","explanation":"The driver confirms the bus goes downtown.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Does this bus go downtown?","blanks":["bus","downtown"],"challenge":"connected_speech","explanation":"\"Does this\" can blend together in fast speech."},
+  {"sentence":"It's three dollars for adults.","blanks":["three","dollars"],"challenge":"numbers","explanation":"Listen carefully for the fare amount."},
+  {"sentence":"It's about ten minutes to downtown.","blanks":["ten","minutes"],"challenge":"numbers","explanation":"Listen for the travel time mentioned."},
+  {"sentence":"I'll just sit here then.","blanks":["sit","here"],"challenge":"contraction","explanation":"\"I'll\" is a contraction of \"I will\"."}
+ ],
+ "connected_speech":[{"written":"want to","spoken":"wanna"}]
+},
+{
+ "slug":"a1-meeting-someone-new",
+ "title":"Meeting someone new",
+ "level":"A1",
+ "category":"Social English",
+ "topic":"Meeting someone new",
+ "difficulty":1,
+ "duration_seconds":22,
+ "accent":"american",
+ "script":[
+  {"speaker":"Kate","line":"Hi, I'm Kate. Nice to meet you."},
+  {"speaker":"Sam","line":"Hi Kate, I'm Sam. Nice to meet you too."},
+  {"speaker":"Kate","line":"So, are you new here?"},
+  {"speaker":"Sam","line":"Yeah, I just moved here last week."},
+  {"speaker":"Kate","line":"Oh, welcome! Where are you from?"},
+  {"speaker":"Sam","line":"I'm from Toronto, actually."},
+  {"speaker":"Kate","line":"Nice, I've never been there."},
+  {"speaker":"Sam","line":"You should visit sometime, it's great."}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What is happening between Kate and Sam?","options":["They are meeting for the first time","They are old friends","They are having an argument","They are saying goodbye"],"answer":"They are meeting for the first time","explanation":"They introduce themselves to each other.","skill":"main_idea"},
+  {"type":"detail","prompt":"When did Sam move here?","options":["Yesterday","Last week","Last month","Last year"],"answer":"Last week","explanation":"Sam says he \"just moved here last week\".","skill":"numbers_dates"},
+  {"type":"detail","prompt":"Where is Sam from?","options":["Toronto","Vancouver","Montreal","Ottawa"],"answer":"Toronto","explanation":"Sam says \"I'm from Toronto\".","skill":"details"},
+  {"type":"intention","prompt":"Why does Sam say \"you should visit sometime\"?","options":["To invite Kate to Toronto","To ask for directions","To complain about the city","To say goodbye"],"answer":"To invite Kate to Toronto","explanation":"He suggests Kate should visit his hometown.","skill":"intention"},
+  {"type":"true_false","prompt":"Kate has visited Toronto before.","options":["True","False"],"answer":"False","explanation":"Kate says \"I've never been there\".","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Nice to meet you.","blanks":["nice","meet"],"challenge":"expression","explanation":"This is a common greeting when meeting someone."},
+  {"sentence":"I just moved here last week.","blanks":["moved","last"],"challenge":"reduced_form","explanation":"\"Just\" is often said quickly in casual speech."},
+  {"sentence":"I'm from Toronto, actually.","blanks":["Toronto","actually"],"challenge":"contraction","explanation":"\"I'm\" is a contraction of \"I am\"."},
+  {"sentence":"I've never been there.","blanks":["never","been"],"challenge":"contraction","explanation":"\"I've\" is a contraction of \"I have\"."}
+ ],
+ "connected_speech":[{"written":"I have","spoken":"I've"}]
+},
+{
+ "slug":"a1-weekend-plans",
+ "title":"Talking about weekend plans",
+ "level":"A1",
+ "category":"Social English",
+ "topic":"Weekend plans",
+ "difficulty":2,
+ "duration_seconds":28,
+ "accent":"british",
+ "script":[
+  {"speaker":"Jen","line":"Hey, do you have plans this weekend?"},
+  {"speaker":"Mike","line":"Not really. Maybe I'll go to the gym."},
+  {"speaker":"Jen","line":"That's it? No fun stuff?"},
+  {"speaker":"Mike","line":"Well, I might watch a movie too."},
+  {"speaker":"Jen","line":"I'm going hiking with some friends."},
+  {"speaker":"Mike","line":"Oh nice, that sounds fun. Where?"},
+  {"speaker":"Jen","line":"Up near the lake, just outside town."},
+  {"speaker":"Mike","line":"Sounds great, have a good time!"}
+ ],
+ "questions":[
+  {"type":"main_idea","prompt":"What are Jen and Mike talking about?","options":["Their weekend plans","A job interview","A trip abroad","A birthday party"],"answer":"Their weekend plans","explanation":"They discuss what they will do this weekend.","skill":"main_idea"},
+  {"type":"detail","prompt":"What might Mike do this weekend?","options":["Go hiking","Go to the gym","Go shopping","Visit family"],"answer":"Go to the gym","explanation":"Mike says \"maybe I'll go to the gym\".","skill":"details"},
+  {"type":"detail","prompt":"What is Jen planning to do?","options":["Watch a movie","Go hiking","Go to the gym","Stay home"],"answer":"Go hiking","explanation":"Jen says \"I'm going hiking with some friends\".","skill":"details"},
+  {"type":"detail","prompt":"Where is Jen going hiking?","options":["In the city","Near the lake","At the beach","In the mountains"],"answer":"Near the lake","explanation":"Jen says \"up near the lake, just outside town\".","skill":"details"},
+  {"type":"true_false","prompt":"Mike has very exciting weekend plans.","options":["True","False"],"answer":"False","explanation":"Mike says \"not really\" and mentions simple plans.","skill":"details"}
+ ],
+ "dictation":[
+  {"sentence":"Do you have plans this weekend?","blanks":["plans","weekend"],"challenge":"connected_speech","explanation":"\"Do you\" often blends together in fast speech."},
+  {"sentence":"Maybe I'll go to the gym.","blanks":["maybe","gym"],"challenge":"contraction","explanation":"\"I'll\" is a contraction of \"I will\"."},
+  {"sentence":"I'm going hiking with some friends.","blanks":["going","hiking"],"challenge":"reduced_form","explanation":"\"Going to\" and \"going\" often reduce in fast speech."},
+  {"sentence":"Up near the lake, just outside town.","blanks":["lake","outside"],"challenge":"weak_form","explanation":"Small words like \"just\" are often unstressed."}
+ ],
+ "connected_speech":[{"written":"do you","spoken":"d'you"}]
+}
+]}

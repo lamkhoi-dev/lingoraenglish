@@ -1,0 +1,1610 @@
+{
+  "lessons": [
+    {
+      "slug": "a2-clinic-check-in",
+      "title": "Checking In at the Clinic",
+      "level": "A2",
+      "category": "Everyday Life",
+      "topic": "clinic reception check-in",
+      "difficulty": 3,
+      "duration_seconds": 40,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Receptionist",
+          "line": "Hi there, do you have an appointment today?"
+        },
+        {
+          "speaker": "Patient",
+          "line": "Yeah, I'm supposed to see Dr. Lee at 2:30."
+        },
+        {
+          "speaker": "Receptionist",
+          "line": "Okay, can I get your health card, please?"
+        },
+        {
+          "speaker": "Patient",
+          "line": "Sure, here you go."
+        },
+        {
+          "speaker": "Receptionist",
+          "line": "Great, and has your address changed since your last visit?"
+        },
+        {
+          "speaker": "Patient",
+          "line": "Nope, still the same."
+        },
+        {
+          "speaker": "Receptionist",
+          "line": "Perfect. You're gonna wanna take a seat, she's running a little late."
+        },
+        {
+          "speaker": "Patient",
+          "line": "That's fine, I brought a book."
+        },
+        {
+          "speaker": "Receptionist",
+          "line": "Sounds good. We'll call your name when she's ready."
+        },
+        {
+          "speaker": "Patient",
+          "line": "Thanks a lot."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is this conversation mainly about?",
+          "options": [
+            "Checking in for a doctor's appointment",
+            "Booking a new appointment",
+            "Paying a medical bill",
+            "Cancelling a visit"
+          ],
+          "answer": "Checking in for a doctor's appointment",
+          "explanation": "The patient is checking in to see Dr. Lee.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What time is the appointment?",
+          "options": [
+            "2:00",
+            "2:30",
+            "3:00",
+            "3:30"
+          ],
+          "answer": "2:30",
+          "explanation": "The patient says she's supposed to see Dr. Lee at 2:30.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What does the receptionist ask for?",
+          "options": [
+            "A phone number",
+            "A health card",
+            "A credit card",
+            "An email address"
+          ],
+          "answer": "A health card",
+          "explanation": "The receptionist asks for the patient's health card.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "Has the patient's address changed?",
+          "options": [
+            "Yes, it changed recently",
+            "No, it's still the same",
+            "She's not sure",
+            "She moved last week"
+          ],
+          "answer": "No, it's still the same",
+          "explanation": "The patient says it's still the same.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the receptionist say the patient should take a seat?",
+          "options": [
+            "The doctor left early",
+            "The doctor is running late",
+            "The office is closing",
+            "There's no more room"
+          ],
+          "answer": "The doctor is running late",
+          "explanation": "She tells the patient the doctor is running a little late.",
+          "skill": "intention"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Yeah, I'm supposed to see Dr. Lee at 2:30.",
+          "blanks": [
+            "supposed to"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Supposed to' is often reduced in fast speech."
+        },
+        {
+          "sentence": "You're gonna wanna take a seat, she's running a little late.",
+          "blanks": [
+            "gonna",
+            "wanna"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'Going to' and 'want to' blend into 'gonna' and 'wanna'."
+        },
+        {
+          "sentence": "Okay, can I get your health card, please?",
+          "blanks": [
+            "health card"
+          ],
+          "challenge": "expression",
+          "explanation": "'Health card' is a common Canadian expression."
+        },
+        {
+          "sentence": "Nope, still the same.",
+          "blanks": [
+            "Nope"
+          ],
+          "challenge": "expression",
+          "explanation": "'Nope' is an informal way of saying no."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        },
+        {
+          "written": "want to",
+          "spoken": "wanna"
+        }
+      ]
+    },
+    {
+      "slug": "a2-pharmacy-refill",
+      "title": "Asking About a Prescription Refill",
+      "level": "A2",
+      "category": "Everyday Life",
+      "topic": "pharmacy question about a refill",
+      "difficulty": 3,
+      "duration_seconds": 45,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Pharmacist",
+          "line": "Hi, how can I help you today?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "I wanna check on my prescription refill."
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Sure, what's your name and date of birth?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "It's Maria Gomez, March 3rd, 1990."
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Okay, let me pull that up... looks like it's ready, actually."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Oh nice, that was fast."
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Yeah, it just came in this morning. Give me two minutes to grab it."
+        },
+        {
+          "speaker": "Customer",
+          "line": "No problem, I'll wait over there."
+        },
+        {
+          "speaker": "Pharmacist",
+          "line": "Sounds good, that'll be nine dollars with your insurance."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Perfect, I can pay with card."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the customer doing?",
+          "options": [
+            "Buying vitamins",
+            "Checking on a prescription refill",
+            "Returning medicine",
+            "Asking for a doctor's number"
+          ],
+          "answer": "Checking on a prescription refill",
+          "explanation": "She says she wants to check on her prescription refill.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What information does the pharmacist ask for first?",
+          "options": [
+            "Insurance card",
+            "Name and date of birth",
+            "Phone number",
+            "Address"
+          ],
+          "answer": "Name and date of birth",
+          "explanation": "The pharmacist asks for her name and date of birth.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "How much does the refill cost?",
+          "options": [
+            "Nine dollars",
+            "Nineteen dollars",
+            "Ninety dollars",
+            "Nine cents"
+          ],
+          "answer": "Nine dollars",
+          "explanation": "The pharmacist says it'll be nine dollars with insurance.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "true_false",
+          "prompt": "The prescription was not ready yet.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "The pharmacist says it's ready already.",
+          "skill": "details"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'pull that up' mean here?",
+          "options": [
+            "Lift something physically",
+            "Look up information on the computer",
+            "Call someone",
+            "Cancel an order"
+          ],
+          "answer": "Look up information on the computer",
+          "explanation": "The pharmacist means she's checking the record on the computer.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "I wanna check on my prescription refill.",
+          "blanks": [
+            "wanna"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'Want to' is pronounced as 'wanna' in casual speech."
+        },
+        {
+          "sentence": "Okay, let me pull that up... looks like it's ready, actually.",
+          "blanks": [
+            "pull that up"
+          ],
+          "challenge": "expression",
+          "explanation": "'Pull up' means to bring up information on a screen."
+        },
+        {
+          "sentence": "Give me two minutes to grab it.",
+          "blanks": [
+            "grab it"
+          ],
+          "challenge": "expression",
+          "explanation": "'Grab' is an informal way of saying to get something."
+        },
+        {
+          "sentence": "Sounds good, that'll be nine dollars with your insurance.",
+          "blanks": [
+            "that'll be"
+          ],
+          "challenge": "contraction",
+          "explanation": "'That'll' is the contraction of 'that will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "want to",
+          "spoken": "wanna"
+        }
+      ]
+    },
+    {
+      "slug": "a2-school-sick-child-call",
+      "title": "Calling the School About a Sick Kid",
+      "level": "A2",
+      "category": "Everyday Life",
+      "topic": "school office call about a sick child",
+      "difficulty": 3,
+      "duration_seconds": 40,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "School Office",
+          "line": "Good morning, Riverside Elementary, how can I help you?"
+        },
+        {
+          "speaker": "Parent",
+          "line": "Hi, I'm calling 'cause my son isn't gonna be in school today."
+        },
+        {
+          "speaker": "School Office",
+          "line": "Okay, no problem. What's his name and grade?"
+        },
+        {
+          "speaker": "Parent",
+          "line": "Ben Turner, he's in grade three."
+        },
+        {
+          "speaker": "School Office",
+          "line": "Got it. Is he feeling sick?"
+        },
+        {
+          "speaker": "Parent",
+          "line": "Yeah, he's got a fever, so I'm keeping him home."
+        },
+        {
+          "speaker": "School Office",
+          "line": "Sorry to hear that. I'll let his teacher know."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Thanks, I appreciate it."
+        },
+        {
+          "speaker": "School Office",
+          "line": "No worries, hope he feels better soon."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Thanks a lot, bye now."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "Why is the parent calling the school?",
+          "options": [
+            "To ask about homework",
+            "To report her son is absent because he's sick",
+            "To change her son's class",
+            "To pay a school fee"
+          ],
+          "answer": "To report her son is absent because he's sick",
+          "explanation": "She's calling to say her son won't be in school because he's sick.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What grade is Ben in?",
+          "options": [
+            "Grade one",
+            "Grade two",
+            "Grade three",
+            "Grade four"
+          ],
+          "answer": "Grade three",
+          "explanation": "The parent says he's in grade three.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What symptom does Ben have?",
+          "options": [
+            "A cough",
+            "A fever",
+            "A headache",
+            "A rash"
+          ],
+          "answer": "A fever",
+          "explanation": "The parent says he's got a fever.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "What will the office worker do next?",
+          "options": [
+            "Call an ambulance",
+            "Let the teacher know",
+            "Send homework home",
+            "Call the parent back"
+          ],
+          "answer": "Let the teacher know",
+          "explanation": "She says she'll let his teacher know.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'no worries' mean here?",
+          "options": [
+            "It's okay, don't worry",
+            "There's a problem",
+            "Call back later",
+            "I'm busy"
+          ],
+          "answer": "It's okay, don't worry",
+          "explanation": "'No worries' is an informal way of saying it's fine.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hi, I'm calling 'cause my son isn't gonna be in school today.",
+          "blanks": [
+            "'cause",
+            "gonna"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Cause' and 'gonna' are common reduced spoken forms."
+        },
+        {
+          "sentence": "Yeah, he's got a fever, so I'm keeping him home.",
+          "blanks": [
+            "he's got"
+          ],
+          "challenge": "contraction",
+          "explanation": "'He's got' is the contracted form of 'he has got'."
+        },
+        {
+          "sentence": "Sorry to hear that. I'll let his teacher know.",
+          "blanks": [
+            "I'll let"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is a contraction of 'I will'."
+        },
+        {
+          "sentence": "No worries, hope he feels better soon.",
+          "blanks": [
+            "No worries"
+          ],
+          "challenge": "expression",
+          "explanation": "This is a common casual expression meaning it's fine."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "because",
+          "spoken": "'cause"
+        },
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        }
+      ]
+    },
+    {
+      "slug": "a2-talking-to-teacher",
+      "title": "Talking to Your Child's Teacher",
+      "level": "A2",
+      "category": "Everyday Life",
+      "topic": "talking to a teacher",
+      "difficulty": 3,
+      "duration_seconds": 45,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Teacher",
+          "line": "Hi, thanks for coming in today."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Of course. How's Emma doing in class?"
+        },
+        {
+          "speaker": "Teacher",
+          "line": "She's doing pretty well, actually. Her reading's really improved."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Oh, that's great to hear."
+        },
+        {
+          "speaker": "Teacher",
+          "line": "Yeah, but she's been a bit quiet during group work lately."
+        },
+        {
+          "speaker": "Parent",
+          "line": "Hmm, I wonder if that's 'cause of the new kids in her group."
+        },
+        {
+          "speaker": "Teacher",
+          "line": "Could be. I'll try pairing her with a friend next week."
+        },
+        {
+          "speaker": "Parent",
+          "line": "That sounds like a good idea. Thanks for letting me know."
+        },
+        {
+          "speaker": "Teacher",
+          "line": "No problem, I just wanted to keep you in the loop."
+        },
+        {
+          "speaker": "Parent",
+          "line": "I really appreciate that."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the main topic of this conversation?",
+          "options": [
+            "Emma's grades on a test",
+            "Emma's progress and behavior in class",
+            "A field trip",
+            "School fees"
+          ],
+          "answer": "Emma's progress and behavior in class",
+          "explanation": "The teacher discusses Emma's reading and her behavior in group work.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What has improved for Emma?",
+          "options": [
+            "Her math",
+            "Her reading",
+            "Her handwriting",
+            "Her attendance"
+          ],
+          "answer": "Her reading",
+          "explanation": "The teacher says her reading's really improved.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What has the teacher noticed lately?",
+          "options": [
+            "Emma is loud in class",
+            "Emma is quiet during group work",
+            "Emma is often late",
+            "Emma forgets her homework"
+          ],
+          "answer": "Emma is quiet during group work",
+          "explanation": "The teacher mentions she's been quiet during group work lately.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "What does the teacher plan to do next week?",
+          "options": [
+            "Give Emma extra homework",
+            "Pair Emma with a friend",
+            "Call the parent again",
+            "Move Emma to another class"
+          ],
+          "answer": "Pair Emma with a friend",
+          "explanation": "The teacher says she'll try pairing her with a friend.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'keep you in the loop' mean?",
+          "options": [
+            "Keep you waiting",
+            "Keep you informed",
+            "Keep you busy",
+            "Keep you calm"
+          ],
+          "answer": "Keep you informed",
+          "explanation": "This expression means to keep someone updated with information.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "She's doing pretty well, actually. Her reading's really improved.",
+          "blanks": [
+            "reading's"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Reading's' is a contraction of 'reading is'."
+        },
+        {
+          "sentence": "Hmm, I wonder if that's 'cause of the new kids in her group.",
+          "blanks": [
+            "'cause"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Cause' is the reduced spoken form of 'because'."
+        },
+        {
+          "sentence": "No problem, I just wanted to keep you in the loop.",
+          "blanks": [
+            "keep you in the loop"
+          ],
+          "challenge": "expression",
+          "explanation": "This is a common English expression meaning to keep someone informed."
+        },
+        {
+          "sentence": "Could be. I'll try pairing her with a friend next week.",
+          "blanks": [
+            "I'll try"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is the contraction of 'I will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "because",
+          "spoken": "'cause"
+        }
+      ]
+    },
+    {
+      "slug": "a2-landlord-repair",
+      "title": "Calling the Landlord About a Repair",
+      "level": "A2",
+      "category": "Canadian Life",
+      "topic": "landlord about a repair",
+      "difficulty": 4,
+      "duration_seconds": 50,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Tenant",
+          "line": "Hey, it's Alex from apartment 4B. The kitchen sink's been leaking."
+        },
+        {
+          "speaker": "Landlord",
+          "line": "Oh no, how bad is it?"
+        },
+        {
+          "speaker": "Tenant",
+          "line": "There's water dripping onto the floor every time I use it."
+        },
+        {
+          "speaker": "Landlord",
+          "line": "Okay, I'll send a plumber over tomorrow morning, if that works for you."
+        },
+        {
+          "speaker": "Tenant",
+          "line": "Yeah, that's fine. I'm home till noon."
+        },
+        {
+          "speaker": "Landlord",
+          "line": "Great, I'll text you his number so you can let him in."
+        },
+        {
+          "speaker": "Tenant",
+          "line": "Sounds good. Should I put a towel under it for now?"
+        },
+        {
+          "speaker": "Landlord",
+          "line": "Yeah, that'd probably help. Sorry about the hassle."
+        },
+        {
+          "speaker": "Tenant",
+          "line": "No worries, thanks for sorting it out so fast."
+        },
+        {
+          "speaker": "Landlord",
+          "line": "No problem at all, talk soon."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "Why is the tenant calling the landlord?",
+          "options": [
+            "To pay rent",
+            "To report a leaking sink",
+            "To ask about parking",
+            "To move out"
+          ],
+          "answer": "To report a leaking sink",
+          "explanation": "The tenant calls because the kitchen sink is leaking.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "When will the plumber come?",
+          "options": [
+            "Tonight",
+            "Tomorrow morning",
+            "Next week",
+            "This afternoon"
+          ],
+          "answer": "Tomorrow morning",
+          "explanation": "The landlord says he'll send a plumber over tomorrow morning.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "Until when is the tenant home?",
+          "options": [
+            "Till noon",
+            "Till 9am",
+            "All day",
+            "Till 3pm"
+          ],
+          "answer": "Till noon",
+          "explanation": "The tenant says he's home till noon.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What does the landlord suggest doing in the meantime?",
+          "options": [
+            "Turning off the water",
+            "Putting a towel under the leak",
+            "Calling a plumber himself",
+            "Moving to another unit"
+          ],
+          "answer": "Putting a towel under the leak",
+          "explanation": "The tenant suggests it and the landlord agrees it'd help.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why will the landlord text the tenant?",
+          "options": [
+            "To give the plumber's number",
+            "To ask for rent",
+            "To cancel the repair",
+            "To reschedule"
+          ],
+          "answer": "To give the plumber's number",
+          "explanation": "He says he'll text him the plumber's number.",
+          "skill": "intention"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hey, it's Alex from apartment 4B. The kitchen sink's been leaking.",
+          "blanks": [
+            "sink's been"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Sink's been' contracts 'sink has been'."
+        },
+        {
+          "sentence": "Okay, I'll send a plumber over tomorrow morning, if that works for you.",
+          "blanks": [
+            "I'll send"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is a contraction of 'I will'."
+        },
+        {
+          "sentence": "Yeah, that'd probably help. Sorry about the hassle.",
+          "blanks": [
+            "that'd"
+          ],
+          "challenge": "contraction",
+          "explanation": "'That'd' is the contraction of 'that would'."
+        },
+        {
+          "sentence": "No worries, thanks for sorting it out so fast.",
+          "blanks": [
+            "sorting it out"
+          ],
+          "challenge": "expression",
+          "explanation": "'Sort out' means to fix or resolve a problem."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "that would",
+          "spoken": "that'd"
+        }
+      ]
+    },
+    {
+      "slug": "a2-bank-account-question",
+      "title": "Asking the Bank About Your Account",
+      "level": "A2",
+      "category": "Canadian Life",
+      "topic": "bank account question",
+      "difficulty": 3,
+      "duration_seconds": 45,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Bank Teller",
+          "line": "Hi there, how can I help you today?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "I wanna ask about a charge on my account."
+        },
+        {
+          "speaker": "Bank Teller",
+          "line": "Sure, can I see your ID and account number?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "Yeah, here it is."
+        },
+        {
+          "speaker": "Bank Teller",
+          "line": "Okay, let's see... there's a twenty-dollar fee from last week."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Yeah, that's the one. I don't know what it's for."
+        },
+        {
+          "speaker": "Bank Teller",
+          "line": "That's a monthly account fee, it charges automatically."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Oh, I didn't realize that. Is there a way to avoid it?"
+        },
+        {
+          "speaker": "Bank Teller",
+          "line": "Yeah, if you keep a balance of a thousand dollars, it gets waived."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Got it, thanks for explaining that."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What does the customer want to know?",
+          "options": [
+            "How to open an account",
+            "About a charge on their account",
+            "How to get a loan",
+            "How to close an account"
+          ],
+          "answer": "About a charge on their account",
+          "explanation": "The customer asks about a charge on their account.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "How much was the fee?",
+          "options": [
+            "Ten dollars",
+            "Fifteen dollars",
+            "Twenty dollars",
+            "Thirty dollars"
+          ],
+          "answer": "Twenty dollars",
+          "explanation": "The teller mentions a twenty-dollar fee.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What kind of fee is it?",
+          "options": [
+            "An ATM fee",
+            "A monthly account fee",
+            "A late payment fee",
+            "An overdraft fee"
+          ],
+          "answer": "A monthly account fee",
+          "explanation": "The teller explains it's a monthly account fee.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "How can the customer avoid the fee?",
+          "options": [
+            "Close the account",
+            "Keep a balance of a thousand dollars",
+            "Pay in cash only",
+            "Call every month"
+          ],
+          "answer": "Keep a balance of a thousand dollars",
+          "explanation": "The teller says the fee is waived with that balance.",
+          "skill": "details"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'waived' mean here?",
+          "options": [
+            "Doubled",
+            "Removed or cancelled",
+            "Increased",
+            "Delayed"
+          ],
+          "answer": "Removed or cancelled",
+          "explanation": "'Waived' means the fee is cancelled under certain conditions.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "I wanna ask about a charge on my account.",
+          "blanks": [
+            "wanna"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'Want to' is pronounced as 'wanna' in casual speech."
+        },
+        {
+          "sentence": "That's a monthly account fee, it charges automatically.",
+          "blanks": [
+            "That's a"
+          ],
+          "challenge": "contraction",
+          "explanation": "'That's' is a contraction of 'that is'."
+        },
+        {
+          "sentence": "Oh, I didn't realize that. Is there a way to avoid it?",
+          "blanks": [
+            "didn't realize"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Didn't' is the contraction of 'did not'."
+        },
+        {
+          "sentence": "Yeah, if you keep a balance of a thousand dollars, it gets waived.",
+          "blanks": [
+            "a thousand dollars"
+          ],
+          "challenge": "numbers",
+          "explanation": "This is a specific number that's important to understand clearly."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "want to",
+          "spoken": "wanna"
+        }
+      ]
+    },
+    {
+      "slug": "a2-public-transit-delay",
+      "title": "A Delay on the Bus",
+      "level": "A2",
+      "category": "Travel",
+      "topic": "public transit delay",
+      "difficulty": 3,
+      "duration_seconds": 40,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Passenger",
+          "line": "Excuse me, do you know why we're stopped here?"
+        },
+        {
+          "speaker": "Bus Driver",
+          "line": "Yeah, there's an accident up ahead, so we're waiting."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "Oh great. Do you know how long it'll be?"
+        },
+        {
+          "speaker": "Bus Driver",
+          "line": "Not sure, maybe ten or fifteen minutes."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "I've got a meeting at 9. I might have to get off and walk."
+        },
+        {
+          "speaker": "Bus Driver",
+          "line": "That's probably faster, honestly, if it's close by."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "It's only a few blocks, so I think I'll do that."
+        },
+        {
+          "speaker": "Bus Driver",
+          "line": "Sounds good, be careful crossing the street."
+        },
+        {
+          "speaker": "Passenger",
+          "line": "Will do, thanks for letting me know."
+        },
+        {
+          "speaker": "Bus Driver",
+          "line": "No problem, have a good one."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "Why is the bus stopped?",
+          "options": [
+            "It ran out of gas",
+            "There's an accident ahead",
+            "It's the end of the route",
+            "The driver is on break"
+          ],
+          "answer": "There's an accident ahead",
+          "explanation": "The driver explains there's an accident up ahead.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "How long does the driver think the delay will be?",
+          "options": [
+            "Five minutes",
+            "Ten or fifteen minutes",
+            "An hour",
+            "Thirty minutes"
+          ],
+          "answer": "Ten or fifteen minutes",
+          "explanation": "The driver says maybe ten or fifteen minutes.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What time is the passenger's meeting?",
+          "options": [
+            "8",
+            "9",
+            "10",
+            "11"
+          ],
+          "answer": "9",
+          "explanation": "The passenger says they've got a meeting at 9.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What does the passenger decide to do?",
+          "options": [
+            "Wait for the bus",
+            "Get off and walk",
+            "Call a taxi",
+            "Go back home"
+          ],
+          "answer": "Get off and walk",
+          "explanation": "The passenger decides to get off and walk since it's close.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the driver say walking is probably faster?",
+          "options": [
+            "The bus is broken",
+            "Traffic is stuck because of the accident",
+            "It's a nice day",
+            "The bus doesn't go that way"
+          ],
+          "answer": "Traffic is stuck because of the accident",
+          "explanation": "Because of the accident causing delay, walking might be quicker.",
+          "skill": "intention"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Yeah, there's an accident up ahead, so we're waiting.",
+          "blanks": [
+            "there's an"
+          ],
+          "challenge": "contraction",
+          "explanation": "'There's' is the contraction of 'there is'."
+        },
+        {
+          "sentence": "I've got a meeting at 9. I might have to get off and walk.",
+          "blanks": [
+            "I've got"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I've got' is short for 'I have got'."
+        },
+        {
+          "sentence": "That's probably faster, honestly, if it's close by.",
+          "blanks": [
+            "it's close"
+          ],
+          "challenge": "contraction",
+          "explanation": "'It's' is the contraction of 'it is'."
+        },
+        {
+          "sentence": "No problem, have a good one.",
+          "blanks": [
+            "have a good one"
+          ],
+          "challenge": "expression",
+          "explanation": "This is a common informal way to say goodbye."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "have got",
+          "spoken": "'ve got"
+        }
+      ]
+    },
+    {
+      "slug": "a2-restaurant-reservation-change",
+      "title": "Changing a Restaurant Reservation",
+      "level": "A2",
+      "category": "Social English",
+      "topic": "restaurant reservation change",
+      "difficulty": 3,
+      "duration_seconds": 45,
+      "accent": "british",
+      "script": [
+        {
+          "speaker": "Host",
+          "line": "Good evening, thanks for calling The Garden Bistro."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Hi, I've got a reservation for tomorrow, but I need to change the time."
+        },
+        {
+          "speaker": "Host",
+          "line": "No problem, what's the name on the booking?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "It's under Daniel Cross, for 7 o'clock."
+        },
+        {
+          "speaker": "Host",
+          "line": "Okay, I've got it. What time would you like instead?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "Could we move it to 8:30? There's five of us now, not four."
+        },
+        {
+          "speaker": "Host",
+          "line": "Let me check... yeah, 8:30 works, and I'll add the extra seat."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Brilliant, thank you so much."
+        },
+        {
+          "speaker": "Host",
+          "line": "No worries at all, we'll see you tomorrow at 8:30."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Perfect, see you then."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "Why is the customer calling?",
+          "options": [
+            "To cancel a reservation",
+            "To change the time and party size of a reservation",
+            "To complain about food",
+            "To book a table for the first time"
+          ],
+          "answer": "To change the time and party size of a reservation",
+          "explanation": "The customer wants to change the time and add a person.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What was the original reservation time?",
+          "options": [
+            "6 o'clock",
+            "7 o'clock",
+            "8 o'clock",
+            "9 o'clock"
+          ],
+          "answer": "7 o'clock",
+          "explanation": "The customer says the booking was for 7 o'clock.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What is the new time?",
+          "options": [
+            "7:30",
+            "8:00",
+            "8:30",
+            "9:00"
+          ],
+          "answer": "8:30",
+          "explanation": "The customer asks to move it to 8:30.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "How many people will be in the group now?",
+          "options": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "answer": "Five",
+          "explanation": "The customer says there's five of them now, not four.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'brilliant' mean in this context?",
+          "options": [
+            "Very bright light",
+            "Great or wonderful",
+            "Very smart person",
+            "Confusing"
+          ],
+          "answer": "Great or wonderful",
+          "explanation": "In British English, 'brilliant' is often used to mean great.",
+          "skill": "vocabulary"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hi, I've got a reservation for tomorrow, but I need to change the time.",
+          "blanks": [
+            "I've got"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I've got' is short for 'I have got'."
+        },
+        {
+          "sentence": "Okay, I've got it. What time would you like instead?",
+          "blanks": [
+            "I've got it"
+          ],
+          "challenge": "expression",
+          "explanation": "This means the host has found or noted the information."
+        },
+        {
+          "sentence": "Let me check... yeah, 8:30 works, and I'll add the extra seat.",
+          "blanks": [
+            "I'll add"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is the contraction of 'I will'."
+        },
+        {
+          "sentence": "No worries at all, we'll see you tomorrow at 8:30.",
+          "blanks": [
+            "we'll see"
+          ],
+          "challenge": "contraction",
+          "explanation": "'We'll' is the contraction of 'we will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "have got",
+          "spoken": "'ve got"
+        }
+      ]
+    },
+    {
+      "slug": "a2-hotel-problem",
+      "title": "A Problem at the Hotel",
+      "level": "A2",
+      "category": "Travel",
+      "topic": "hotel problem",
+      "difficulty": 4,
+      "duration_seconds": 50,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Guest",
+          "line": "Hi, sorry to bother you, but there's no hot water in my room."
+        },
+        {
+          "speaker": "Front Desk",
+          "line": "Oh, I'm really sorry about that. What room are you in?"
+        },
+        {
+          "speaker": "Guest",
+          "line": "Room 214."
+        },
+        {
+          "speaker": "Front Desk",
+          "line": "Okay, let me check with maintenance real quick."
+        },
+        {
+          "speaker": "Guest",
+          "line": "Sure, no rush, I just wanted to let you know."
+        },
+        {
+          "speaker": "Front Desk",
+          "line": "Thanks for your patience. It looks like it'll take about twenty minutes to fix."
+        },
+        {
+          "speaker": "Guest",
+          "line": "That's fine. Should I wait in the room or go down for breakfast?"
+        },
+        {
+          "speaker": "Front Desk",
+          "line": "You could go grab breakfast, we'll call your room when it's done."
+        },
+        {
+          "speaker": "Guest",
+          "line": "Perfect, that works for me."
+        },
+        {
+          "speaker": "Front Desk",
+          "line": "We'll also take ten percent off your bill for the trouble."
+        },
+        {
+          "speaker": "Guest",
+          "line": "Oh wow, thank you, I appreciate that."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What problem does the guest report?",
+          "options": [
+            "No wifi",
+            "No hot water",
+            "A broken TV",
+            "A noisy neighbor"
+          ],
+          "answer": "No hot water",
+          "explanation": "The guest says there's no hot water in the room.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What room is the guest in?",
+          "options": [
+            "124",
+            "214",
+            "241",
+            "412"
+          ],
+          "answer": "214",
+          "explanation": "The guest says room 214.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "How long will the fix take?",
+          "options": [
+            "Ten minutes",
+            "Twenty minutes",
+            "Thirty minutes",
+            "An hour"
+          ],
+          "answer": "Twenty minutes",
+          "explanation": "The front desk says it'll take about twenty minutes.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What discount does the hotel offer?",
+          "options": [
+            "Five percent",
+            "Ten percent",
+            "Fifteen percent",
+            "Twenty percent"
+          ],
+          "answer": "Ten percent",
+          "explanation": "The front desk offers ten percent off the bill.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "What does the front desk suggest the guest do while waiting?",
+          "options": [
+            "Go grab breakfast",
+            "Wait in the lobby",
+            "Check out early",
+            "Call maintenance himself"
+          ],
+          "answer": "Go grab breakfast",
+          "explanation": "The front desk suggests going for breakfast while they fix it.",
+          "skill": "intention"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hi, sorry to bother you, but there's no hot water in my room.",
+          "blanks": [
+            "there's no"
+          ],
+          "challenge": "contraction",
+          "explanation": "'There's' is the contraction of 'there is'."
+        },
+        {
+          "sentence": "It looks like it'll take about twenty minutes to fix.",
+          "blanks": [
+            "it'll take"
+          ],
+          "challenge": "contraction",
+          "explanation": "'It'll' is the contraction of 'it will'."
+        },
+        {
+          "sentence": "You could go grab breakfast, we'll call your room when it's done.",
+          "blanks": [
+            "we'll call"
+          ],
+          "challenge": "contraction",
+          "explanation": "'We'll' is the contraction of 'we will'."
+        },
+        {
+          "sentence": "We'll also take ten percent off your bill for the trouble.",
+          "blanks": [
+            "ten percent"
+          ],
+          "challenge": "numbers",
+          "explanation": "This number is key information for the guest to catch."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "it will",
+          "spoken": "it'll"
+        }
+      ]
+    },
+    {
+      "slug": "a2-renting-a-car",
+      "title": "Renting a Car",
+      "level": "A2",
+      "category": "Travel",
+      "topic": "renting a car",
+      "difficulty": 4,
+      "duration_seconds": 55,
+      "accent": "british",
+      "script": [
+        {
+          "speaker": "Agent",
+          "line": "Hi there, welcome to Star Car Rentals. Do you have a reservation?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "Yeah, it's under Sarah Bennett, I booked a small car for three days."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Great, let me pull that up... okay, I've got you here."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Perfect. Is there an option to add insurance?"
+        },
+        {
+          "speaker": "Agent",
+          "line": "Yeah, it's an extra fifteen dollars a day if you want full coverage."
+        },
+        {
+          "speaker": "Customer",
+          "line": "I think I'll take it, just to be safe."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Sounds good. Can I see your license and a credit card?"
+        },
+        {
+          "speaker": "Customer",
+          "line": "Sure, here you go."
+        },
+        {
+          "speaker": "Agent",
+          "line": "Great, you're all set. The car's parked in spot 12, just outside."
+        },
+        {
+          "speaker": "Customer",
+          "line": "Awesome, thanks so much for your help."
+        },
+        {
+          "speaker": "Agent",
+          "line": "No problem, enjoy your trip!"
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the customer doing?",
+          "options": [
+            "Returning a car",
+            "Renting a car",
+            "Buying a car",
+            "Repairing a car"
+          ],
+          "answer": "Renting a car",
+          "explanation": "The customer is picking up a car she reserved to rent.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "How many days is the rental for?",
+          "options": [
+            "Two days",
+            "Three days",
+            "Four days",
+            "A week"
+          ],
+          "answer": "Three days",
+          "explanation": "The customer says she booked a small car for three days.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "How much is the extra insurance per day?",
+          "options": [
+            "Ten dollars",
+            "Fifteen dollars",
+            "Twenty dollars",
+            "Twenty-five dollars"
+          ],
+          "answer": "Fifteen dollars",
+          "explanation": "The agent says it's an extra fifteen dollars a day.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "Where is the car parked?",
+          "options": [
+            "Spot 2",
+            "Spot 12",
+            "Spot 20",
+            "Spot 21"
+          ],
+          "answer": "Spot 12",
+          "explanation": "The agent says the car's parked in spot 12.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does the customer decide to take the insurance?",
+          "options": [
+            "It's required by law",
+            "Just to be safe",
+            "It's free",
+            "The agent insists"
+          ],
+          "answer": "Just to be safe",
+          "explanation": "The customer says she'll take it just to be safe.",
+          "skill": "intention"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Great, let me pull that up... okay, I've got you here.",
+          "blanks": [
+            "I've got"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I've got' is short for 'I have got'."
+        },
+        {
+          "sentence": "Yeah, it's an extra fifteen dollars a day if you want full coverage.",
+          "blanks": [
+            "fifteen dollars"
+          ],
+          "challenge": "numbers",
+          "explanation": "This number is important pricing information."
+        },
+        {
+          "sentence": "Great, you're all set. The car's parked in spot 12, just outside.",
+          "blanks": [
+            "you're all set"
+          ],
+          "challenge": "expression",
+          "explanation": "'You're all set' means everything is ready for you."
+        },
+        {
+          "sentence": "I think I'll take it, just to be safe.",
+          "blanks": [
+            "I'll take"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is the contraction of 'I will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "have got",
+          "spoken": "'ve got"
+        }
+      ]
+    }
+  ]
+}

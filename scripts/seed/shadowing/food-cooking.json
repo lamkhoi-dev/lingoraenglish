@@ -1,0 +1,2509 @@
+{
+  "slug": "food-cooking",
+  "name": "Food, Meals & Cooking",
+  "topic_group": "Everyday English",
+  "blurb": "Natural spoken English for talking about meals, cooking, groceries, and eating habits.",
+  "sort_order": 17,
+  "sentences": [
+    {
+      "subcategory": "Breakfast",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I usually have toast for breakfast.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "'toast' has a clear /oʊ/ sound",
+      "stress_focus": "have, TOAST, BREAK-fast",
+      "intonation_focus": "falling at the end",
+      "connected_speech_focus": "'have toast' links smoothly",
+      "vocabulary": [
+        {
+          "word": "toast",
+          "meaning": "grilled bread"
+        }
+      ],
+      "grammar_focus": "present simple for habits",
+      "tags": [
+        "food",
+        "breakfast",
+        "pronunciation"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you eat eggs in the morning?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ɛ/ in 'eggs' is short",
+      "stress_focus": "EAT, EGGS, MOR-ning",
+      "intonation_focus": "rising at the end",
+      "connected_speech_focus": "'eat eggs' links with no pause",
+      "vocabulary": [
+        {
+          "word": "eggs",
+          "meaning": "a common breakfast food"
+        }
+      ],
+      "grammar_focus": "present simple questions",
+      "tags": [
+        "food",
+        "breakfast",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "She drinks coffee every day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in 'coffee' is crisp",
+      "stress_focus": "DRINKS, COF-fee, DAY",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'drinks coffee' flows together",
+      "vocabulary": [
+        {
+          "word": "drinks",
+          "meaning": "consumes a liquid"
+        }
+      ],
+      "grammar_focus": "present simple with third person",
+      "tags": [
+        "food",
+        "breakfast",
+        "verbs"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "This cereal tastes really sweet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /iː/ in 'sweet' is long",
+      "stress_focus": "CE-real, TASTES, SWEET",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'tastes really' links naturally",
+      "vocabulary": [
+        {
+          "word": "sweet",
+          "meaning": "tasting like sugar"
+        }
+      ],
+      "grammar_focus": "present simple with adjectives",
+      "tags": [
+        "food",
+        "breakfast",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can you pass the salt, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /s/ sound in 'salt' and 'please'",
+      "stress_focus": "PASS, SALT, PLEASE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'pass the' links quickly",
+      "vocabulary": [
+        {
+          "word": "salt",
+          "meaning": "a seasoning"
+        }
+      ],
+      "grammar_focus": "can for polite requests",
+      "tags": [
+        "food",
+        "kitchen",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We need more milk and eggs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /m/ sound in 'more' and 'milk'",
+      "stress_focus": "NEED, MORE, MILK, EGGS",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'milk and' links with a soft d",
+      "vocabulary": [
+        {
+          "word": "need",
+          "meaning": "require something"
+        }
+      ],
+      "grammar_focus": "present simple for needs",
+      "tags": [
+        "food",
+        "kitchen",
+        "groceries"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Lunch is ready in ten minutes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'ready' is soft",
+      "stress_focus": "LUNCH, RE-ady, TEN",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'is ready' links smoothly",
+      "vocabulary": [
+        {
+          "word": "ready",
+          "meaning": "prepared"
+        }
+      ],
+      "grammar_focus": "present simple for schedules",
+      "tags": [
+        "food",
+        "lunch",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What's for dinner tonight?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /t/ in 'tonight' is clear",
+      "stress_focus": "WHAT'S, DIN-ner, TO-NIGHT",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'what's for' links together",
+      "vocabulary": [
+        {
+          "word": "dinner",
+          "meaning": "the evening meal"
+        }
+      ],
+      "grammar_focus": "contraction with question words",
+      "tags": [
+        "food",
+        "dinner",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I like to bake bread on weekends.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /eɪ/ in 'bake' is long",
+      "stress_focus": "LIKE, BAKE, BREAD, WEEK-ends",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'like to' links smoothly",
+      "vocabulary": [
+        {
+          "word": "bake",
+          "meaning": "cook in an oven"
+        }
+      ],
+      "grammar_focus": "infinitive after 'like'",
+      "tags": [
+        "food",
+        "cooking",
+        "hobbies"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "This soup tastes very good.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /uː/ in 'soup' is rounded",
+      "stress_focus": "SOUP, TASTES, GOOD",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'tastes very' links naturally",
+      "vocabulary": [
+        {
+          "word": "soup",
+          "meaning": "a liquid dish"
+        }
+      ],
+      "grammar_focus": "present simple opinions",
+      "tags": [
+        "food",
+        "cooking",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I try to eat more vegetables.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /v/ in 'vegetables' is voiced",
+      "stress_focus": "TRY, EAT, VEG-e-ta-bles",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'try to' links quickly",
+      "vocabulary": [
+        {
+          "word": "vegetables",
+          "meaning": "plant-based foods"
+        }
+      ],
+      "grammar_focus": "infinitive after 'try'",
+      "tags": [
+        "food",
+        "diet",
+        "health"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "Fruit is healthy and sweet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'fruit' is soft",
+      "stress_focus": "FRUIT, HEAL-thy, SWEET",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'is healthy' links smoothly",
+      "vocabulary": [
+        {
+          "word": "healthy",
+          "meaning": "good for your body"
+        }
+      ],
+      "grammar_focus": "present simple with adjectives",
+      "tags": [
+        "food",
+        "diet",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you like eating out?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /aʊ/ in 'out' is clear",
+      "stress_focus": "LIKE, EAT-ing, OUT",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'eating out' links with a soft t",
+      "vocabulary": [
+        {
+          "word": "eating out",
+          "meaning": "having a meal at a restaurant"
+        }
+      ],
+      "grammar_focus": "present simple questions",
+      "tags": [
+        "food",
+        "restaurant",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We often order pizza on Fridays.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /p/ in 'pizza' is aspirated",
+      "stress_focus": "OF-ten, OR-der, PIZ-za",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'order pizza' links naturally",
+      "vocabulary": [
+        {
+          "word": "order",
+          "meaning": "request food"
+        }
+      ],
+      "grammar_focus": "present simple for habits",
+      "tags": [
+        "food",
+        "restaurant",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I put the leftovers in the fridge.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /dʒ/ in 'fridge' is soft",
+      "stress_focus": "PUT, LEFT-ov-ers, FRIDGE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'put the' links smoothly",
+      "vocabulary": [
+        {
+          "word": "leftovers",
+          "meaning": "food left after a meal"
+        }
+      ],
+      "grammar_focus": "past simple for actions",
+      "tags": [
+        "food",
+        "leftovers",
+        "kitchen"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can you buy some bread today?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /b/ in 'buy' and 'bread'",
+      "stress_focus": "BUY, BREAD, TO-day",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'buy some' links together",
+      "vocabulary": [
+        {
+          "word": "bread",
+          "meaning": "a baked food"
+        }
+      ],
+      "grammar_focus": "can for requests",
+      "tags": [
+        "food",
+        "groceries",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Would you like some cake?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /eɪ/ in 'cake' is long",
+      "stress_focus": "LIKE, SOME, CAKE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'would you' links to 'wouldja'",
+      "vocabulary": [
+        {
+          "word": "cake",
+          "meaning": "a sweet baked dessert"
+        }
+      ],
+      "grammar_focus": "would you like for offers",
+      "tags": [
+        "food",
+        "offer",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's share this pizza together.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ʃ/ in 'share' is soft",
+      "stress_focus": "LET'S, SHARE, TO-GE-ther",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'let's share' links smoothly",
+      "vocabulary": [
+        {
+          "word": "share",
+          "meaning": "divide between people"
+        }
+      ],
+      "grammar_focus": "let's for suggestions",
+      "tags": [
+        "food",
+        "sharing",
+        "suggestion"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you want some orange juice?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /dʒ/ in 'juice' is soft",
+      "stress_focus": "WANT, OR-ange, JUICE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'want some' links together",
+      "vocabulary": [
+        {
+          "word": "juice",
+          "meaning": "liquid from fruit"
+        }
+      ],
+      "grammar_focus": "present simple questions",
+      "tags": [
+        "food",
+        "breakfast",
+        "drinks"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "He makes a sandwich every day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in 'sandwich' is soft",
+      "stress_focus": "MAKES, SAND-wich, DAY",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'makes a' links smoothly",
+      "vocabulary": [
+        {
+          "word": "sandwich",
+          "meaning": "bread with filling"
+        }
+      ],
+      "grammar_focus": "present simple with third person",
+      "tags": [
+        "food",
+        "lunch",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "She chops the onions quickly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tʃ/ in 'chops' is crisp",
+      "stress_focus": "CHOPS, ON-ions, QUICK-ly",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'chops the' links naturally",
+      "vocabulary": [
+        {
+          "word": "chops",
+          "meaning": "cuts into pieces"
+        }
+      ],
+      "grammar_focus": "present simple with third person",
+      "tags": [
+        "food",
+        "cooking",
+        "verbs"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "There's sugar in the cupboard.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ʃ/ in 'sugar' is soft",
+      "stress_focus": "THERE'S, SU-gar, CUP-board",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'there's sugar' links smoothly",
+      "vocabulary": [
+        {
+          "word": "cupboard",
+          "meaning": "a kitchen storage unit"
+        }
+      ],
+      "grammar_focus": "there is/there's for location",
+      "tags": [
+        "food",
+        "kitchen",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "I think salad is boring.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /l/ in 'salad' is clear",
+      "stress_focus": "THINK, SAL-ad, BOR-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'think salad' links naturally",
+      "vocabulary": [
+        {
+          "word": "salad",
+          "meaning": "a mix of vegetables"
+        }
+      ],
+      "grammar_focus": "present simple opinions",
+      "tags": [
+        "food",
+        "diet",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I prefer eating at home.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in 'home' is soft",
+      "stress_focus": "PRE-FER, EAT-ing, HOME",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'eating at' links together",
+      "vocabulary": [
+        {
+          "word": "prefer",
+          "meaning": "like better"
+        }
+      ],
+      "grammar_focus": "present simple for preferences",
+      "tags": [
+        "food",
+        "home",
+        "preference"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you want to try this?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tr/ in 'try' is a blend",
+      "stress_focus": "WANT, TRY, THIS",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'want to' links to 'wanna'",
+      "vocabulary": [
+        {
+          "word": "try",
+          "meaning": "taste something new"
+        }
+      ],
+      "grammar_focus": "infinitive after 'want'",
+      "tags": [
+        "food",
+        "offer",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I usually skip breakfast when I'm running late.",
+      "natural_form": "I usually skip breakfast when I'm runnin' late.",
+      "accent": "american",
+      "pronunciation_focus": "the /sk/ blend in 'skip' is crisp",
+      "stress_focus": "SKIP, BREAK-fast, RUN-ning, LATE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'when I'm' links to 'whenim'",
+      "vocabulary": [
+        {
+          "word": "skip",
+          "meaning": "miss a meal or step"
+        }
+      ],
+      "grammar_focus": "present simple with time clause",
+      "tags": [
+        "food",
+        "breakfast",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "How do you like your eggs cooked in the morning?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /kʊ/ in 'cooked' is short",
+      "stress_focus": "LIKE, EGGS, COOKED, MOR-ning",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'like your' links smoothly",
+      "vocabulary": [
+        {
+          "word": "cooked",
+          "meaning": "prepared with heat"
+        }
+      ],
+      "grammar_focus": "how do you like questions",
+      "tags": [
+        "food",
+        "breakfast",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We're planning to have pasta for dinner tonight.",
+      "natural_form": "We're plannin' to have pasta for dinner tonight.",
+      "accent": "american",
+      "pronunciation_focus": "the /ŋ/ sound in 'planning' is nasal",
+      "stress_focus": "PLAN-ning, PAS-ta, DIN-ner, TO-NIGHT",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'planning to' links to 'planninta'",
+      "vocabulary": [
+        {
+          "word": "pasta",
+          "meaning": "a wheat-based food"
+        }
+      ],
+      "grammar_focus": "future plans with 'going to'",
+      "tags": [
+        "food",
+        "dinner",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What time do you usually eat lunch at work?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tʃ/ in 'lunch' is crisp",
+      "stress_focus": "TIME, U-su-al-ly, LUNCH, WORK",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'do you' links to 'dyou'",
+      "vocabulary": [
+        {
+          "word": "usually",
+          "meaning": "most of the time"
+        }
+      ],
+      "grammar_focus": "present simple for routines",
+      "tags": [
+        "food",
+        "lunch",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "This recipe calls for two cups of flour.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'flour' is soft",
+      "stress_focus": "REC-i-pe, CALLS, CUPS, FLOUR",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'calls for' links smoothly",
+      "vocabulary": [
+        {
+          "word": "recipe",
+          "meaning": "instructions for cooking"
+        }
+      ],
+      "grammar_focus": "present simple for instructions",
+      "tags": [
+        "food",
+        "cooking",
+        "measurement"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you stir the sauce while I set the table?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /st/ blend in 'stir' is crisp",
+      "stress_focus": "COULD, STIR, SAUCE, TA-ble",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'could you' links to 'couldja'",
+      "vocabulary": [
+        {
+          "word": "stir",
+          "meaning": "mix with a spoon"
+        }
+      ],
+      "grammar_focus": "could you for polite requests",
+      "tags": [
+        "food",
+        "cooking",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The kitchen smells like garlic and fresh herbs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in 'herbs' is silent in American English",
+      "stress_focus": "KIT-chen, SMELLS, GAR-lic, HERBS",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'smells like' links naturally",
+      "vocabulary": [
+        {
+          "word": "herbs",
+          "meaning": "plants used for flavor"
+        }
+      ],
+      "grammar_focus": "present simple for description",
+      "tags": [
+        "food",
+        "kitchen",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We ran out of olive oil last night.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ɔɪ/ in 'oil' is a diphthong",
+      "stress_focus": "RAN, OUT, O-live, OIL",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'ran out' links smoothly",
+      "vocabulary": [
+        {
+          "word": "ran out",
+          "meaning": "used all of something"
+        }
+      ],
+      "grammar_focus": "past simple with phrasal verb",
+      "tags": [
+        "food",
+        "kitchen",
+        "groceries"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think cutting down on sugar is a good idea.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ʃ/ in 'sugar' is soft",
+      "stress_focus": "CUT-ting, SU-gar, GOOD, I-DE-a",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'cutting down' links naturally",
+      "vocabulary": [
+        {
+          "word": "cutting down",
+          "meaning": "reducing an amount"
+        }
+      ],
+      "grammar_focus": "gerund as subject",
+      "tags": [
+        "food",
+        "diet",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "She's been trying to eat less meat lately.",
+      "natural_form": "She's been tryin' to eat less meat lately.",
+      "accent": "american",
+      "pronunciation_focus": "the /tr/ blend in 'trying' is a blend",
+      "stress_focus": "TRY-ing, LESS, MEAT, LATE-ly",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'trying to' links to 'tryinta'",
+      "vocabulary": [
+        {
+          "word": "lately",
+          "meaning": "recently"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "food",
+        "diet",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Would you rather eat out or cook at home tonight?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'rather' is soft",
+      "stress_focus": "RA-ther, EAT, COOK, HOME, TO-NIGHT",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'eat out' links with a soft t",
+      "vocabulary": [
+        {
+          "word": "rather",
+          "meaning": "prefer instead"
+        }
+      ],
+      "grammar_focus": "would rather for preferences",
+      "tags": [
+        "food",
+        "restaurant",
+        "preference"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The service at that restaurant was really slow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /s/ in 'service' is soft",
+      "stress_focus": "SER-vice, RES-tau-rant, RE-al-ly, SLOW",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'service at' links smoothly",
+      "vocabulary": [
+        {
+          "word": "service",
+          "meaning": "how customers are treated"
+        }
+      ],
+      "grammar_focus": "past simple for experiences",
+      "tags": [
+        "food",
+        "restaurant",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I forgot to buy milk when I went shopping.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'forgot' is soft",
+      "stress_focus": "FOR-GOT, BUY, MILK, SHOP-ping",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'went shopping' links naturally",
+      "vocabulary": [
+        {
+          "word": "forgot",
+          "meaning": "didn't remember"
+        }
+      ],
+      "grammar_focus": "past simple with infinitive",
+      "tags": [
+        "food",
+        "groceries",
+        "past"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can we finish the leftovers before they go bad?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'finish' is soft",
+      "stress_focus": "FIN-ish, LEFT-OV-ers, BE-FORE, BAD",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'go bad' links smoothly",
+      "vocabulary": [
+        {
+          "word": "go bad",
+          "meaning": "spoil"
+        }
+      ],
+      "grammar_focus": "modal for suggestions",
+      "tags": [
+        "food",
+        "leftovers",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Do you mind if I grab a piece of that cake?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /aɪ/ in 'mind' is a diphthong",
+      "stress_focus": "MIND, GRAB, PIECE, CAKE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'grab a' links smoothly",
+      "vocabulary": [
+        {
+          "word": "grab",
+          "meaning": "take quickly"
+        }
+      ],
+      "grammar_focus": "do you mind for permission",
+      "tags": [
+        "food",
+        "sharing",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We always split the bill when we eat together.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /spl/ blend in 'split' is complex",
+      "stress_focus": "AL-ways, SPLIT, BILL, TO-GE-ther",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'split the' links smoothly",
+      "vocabulary": [
+        {
+          "word": "split",
+          "meaning": "divide equally"
+        }
+      ],
+      "grammar_focus": "present simple for habits",
+      "tags": [
+        "food",
+        "sharing",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "Weekend breakfasts at our house are a bigger deal.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d/ in 'deal' is clear",
+      "stress_focus": "WEEK-END, BREAK-fasts, BIG-ger, DEAL",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'a bigger' links smoothly",
+      "vocabulary": [
+        {
+          "word": "deal",
+          "meaning": "a significant event"
+        }
+      ],
+      "grammar_focus": "present simple for description",
+      "tags": [
+        "food",
+        "breakfast",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Have you ever tried making bread from scratch?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tʃ/ in 'scratch' is crisp",
+      "stress_focus": "E-VER, TRIED, BREAD, SCRATCH",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'tried making' links naturally",
+      "vocabulary": [
+        {
+          "word": "from scratch",
+          "meaning": "starting with basic ingredients"
+        }
+      ],
+      "grammar_focus": "present perfect for experience",
+      "tags": [
+        "food",
+        "cooking",
+        "experience"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "This knife isn't sharp enough to cut the tomatoes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in 'knife' is silent",
+      "stress_focus": "KNIFE, SHARP, E-NOUGH, TO-MA-toes",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'isn't sharp' links smoothly",
+      "vocabulary": [
+        {
+          "word": "sharp",
+          "meaning": "able to cut well"
+        }
+      ],
+      "grammar_focus": "present simple negative",
+      "tags": [
+        "food",
+        "kitchen",
+        "tools"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "He counts calories to keep his weight steady.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in 'calories' and 'counts'",
+      "stress_focus": "COUNTS, CAL-o-ries, WEIGHT, STEAD-y",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'counts calories' links naturally",
+      "vocabulary": [
+        {
+          "word": "calories",
+          "meaning": "units of food energy"
+        }
+      ],
+      "grammar_focus": "present simple for habits",
+      "tags": [
+        "food",
+        "diet",
+        "health"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I don't think that portion is big enough for two people.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ʃ/ in 'portion' is soft",
+      "stress_focus": "POR-tion, BIG, E-NOUGH, PEO-ple",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'is big' links smoothly",
+      "vocabulary": [
+        {
+          "word": "portion",
+          "meaning": "an amount of food"
+        }
+      ],
+      "grammar_focus": "negative opinion with 'don't think'",
+      "tags": [
+        "food",
+        "lunch",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "That new café has really good coffee and pastries.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'café' is soft",
+      "stress_focus": "CA-FÉ, COF-fee, PAS-tries",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'has really' links smoothly",
+      "vocabulary": [
+        {
+          "word": "pastries",
+          "meaning": "baked sweet foods"
+        }
+      ],
+      "grammar_focus": "present simple for description",
+      "tags": [
+        "food",
+        "restaurant",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I need to make a grocery list before we go.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /s/ in 'grocery' is soft",
+      "stress_focus": "NEED, GRO-cer-y, LIST, BE-FORE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'need to' links to 'needta'",
+      "vocabulary": [
+        {
+          "word": "grocery list",
+          "meaning": "a list of things to buy"
+        }
+      ],
+      "grammar_focus": "infinitive of purpose",
+      "tags": [
+        "food",
+        "groceries",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "She always offers guests something to eat first.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'offers' is soft",
+      "stress_focus": "AL-ways, OF-fers, GUESTS, EAT",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'offers guests' links naturally",
+      "vocabulary": [
+        {
+          "word": "offers",
+          "meaning": "presents something politely"
+        }
+      ],
+      "grammar_focus": "present simple for habits",
+      "tags": [
+        "food",
+        "offer",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you preheat the oven while I mix the batter?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /pr/ blend in 'preheat' is complex",
+      "stress_focus": "PRE-HEAT, OV-en, MIX, BAT-ter",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'while I' links smoothly",
+      "vocabulary": [
+        {
+          "word": "batter",
+          "meaning": "a mixture for baking"
+        }
+      ],
+      "grammar_focus": "could you for requests",
+      "tags": [
+        "food",
+        "cooking",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I've started making my own granola because store-bought ones have too much sugar.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /gr/ blend in 'granola' is complex",
+      "stress_focus": "STAR-ted, GRA-NO-la, STORE-BOUGHT, SU-gar",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'store-bought' links smoothly",
+      "vocabulary": [
+        {
+          "word": "granola",
+          "meaning": "a breakfast cereal mix"
+        }
+      ],
+      "grammar_focus": "present perfect with reason clause",
+      "tags": [
+        "food",
+        "breakfast",
+        "health"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "In my opinion, a heavy breakfast just makes me sluggish for the rest of the morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ʃ/ in 'sluggish' is soft",
+      "stress_focus": "O-PIN-ion, HEA-vy, SLUG-gish, MOR-ning",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'makes me' links smoothly",
+      "vocabulary": [
+        {
+          "word": "sluggish",
+          "meaning": "lacking energy"
+        }
+      ],
+      "grammar_focus": "opinion phrase with result clause",
+      "tags": [
+        "food",
+        "breakfast",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Would it be okay if we pushed dinner back an hour or so?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /pʊ/ in 'pushed' is short",
+      "stress_focus": "PUSHED, DIN-ner, BACK, HOUR",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'pushed back' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "pushed back",
+          "meaning": "delayed"
+        }
+      ],
+      "grammar_focus": "would it be okay if for polite requests",
+      "tags": [
+        "food",
+        "dinner",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "We ended up ordering takeout because nobody felt like cooking after work.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /aʊ/ in 'takeout' is a diphthong",
+      "stress_focus": "OR-der-ing, TAKE-OUT, NO-BOD-y, COOK-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'ended up' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "takeout",
+          "meaning": "food bought to eat elsewhere"
+        }
+      ],
+      "grammar_focus": "past simple with reason clause",
+      "tags": [
+        "food",
+        "dinner",
+        "reasons"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "You need to let the dough rest for at least thirty minutes before you bake it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'least' isn't there, watch the /st/ cluster",
+      "stress_focus": "LET, DOUGH, REST, THIR-ty, BAKE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'let the' links smoothly",
+      "vocabulary": [
+        {
+          "word": "dough",
+          "meaning": "a mixture for bread or pastry"
+        }
+      ],
+      "grammar_focus": "imperative with time clause",
+      "tags": [
+        "food",
+        "cooking",
+        "instructions"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Have you figured out what's going wrong with this sauce?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'figured' is soft",
+      "stress_focus": "FIG-ured, GO-ing, WRONG, SAUCE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'figured out' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "figured out",
+          "meaning": "understood after thinking"
+        }
+      ],
+      "grammar_focus": "present perfect questions",
+      "tags": [
+        "food",
+        "cooking",
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Our pantry is stocked with spices we barely ever use.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /p/ in 'pantry' and 'spices'",
+      "stress_focus": "PAN-try, STOCKED, SPI-ces, BARE-ly",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'stocked with' links naturally",
+      "vocabulary": [
+        {
+          "word": "pantry",
+          "meaning": "a food storage room"
+        }
+      ],
+      "grammar_focus": "present simple with relative clause",
+      "tags": [
+        "food",
+        "kitchen",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I swapped out the butter for olive oil in this recipe to make it a bit healthier.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /sw/ blend in 'swapped' is complex",
+      "stress_focus": "SWAPPED, BUT-ter, O-LIVE, HEALTH-i-er",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'swapped out' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "swapped",
+          "meaning": "replaced"
+        }
+      ],
+      "grammar_focus": "past simple with purpose clause",
+      "tags": [
+        "food",
+        "cooking",
+        "substitution"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I honestly think most diet trends are more about marketing than actual health.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tr/ blend in 'trends' is complex",
+      "stress_focus": "HON-EST-ly, DI-ET, TRENDS, MAR-KET-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'more about' links smoothly",
+      "vocabulary": [
+        {
+          "word": "trends",
+          "meaning": "popular directions or fads"
+        }
+      ],
+      "grammar_focus": "opinion with comparative clause",
+      "tags": [
+        "food",
+        "diet",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How do you manage to stay so disciplined with your eating habits?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /pl/ blend in 'disciplined' is complex",
+      "stress_focus": "MAN-age, DIS-CI-PLINED, EAT-ing, HAB-its",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'stay so' links smoothly",
+      "vocabulary": [
+        {
+          "word": "disciplined",
+          "meaning": "having self-control"
+        }
+      ],
+      "grammar_focus": "how do you manage questions",
+      "tags": [
+        "food",
+        "diet",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We tend to save eating out for special occasions to keep our budget in check.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ʒ/ in 'occasions' is soft",
+      "stress_focus": "SAVE, OC-CA-sions, BUD-get, CHECK",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'keep our' links smoothly",
+      "vocabulary": [
+        {
+          "word": "occasions",
+          "meaning": "special events"
+        }
+      ],
+      "grammar_focus": "present simple with purpose clause",
+      "tags": [
+        "food",
+        "restaurant",
+        "budget"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think cooking at home is cheaper but eating out is way more relaxing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tʃ/ in 'cheaper' is crisp",
+      "stress_focus": "HON-EST-ly, CHEA-per, RE-LAX-ing",
+      "intonation_focus": "falling with contrast rise before 'but'",
+      "connected_speech_focus": "'but eating' links smoothly",
+      "vocabulary": [
+        {
+          "word": "relaxing",
+          "meaning": "calming, not stressful"
+        }
+      ],
+      "grammar_focus": "contrast clause with 'but'",
+      "tags": [
+        "food",
+        "restaurant",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I try to plan our meals around whatever's already in the fridge before I go shopping.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'fridge' is soft",
+      "stress_focus": "PLAN, MEALS, AL-READ-y, FRIDGE, SHOP-ping",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'whatever's already' links smoothly",
+      "vocabulary": [
+        {
+          "word": "whatever's",
+          "meaning": "contraction of whatever is"
+        }
+      ],
+      "grammar_focus": "infinitive with relative clause",
+      "tags": [
+        "food",
+        "groceries",
+        "planning"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Do you think this chicken is still good, or should we just toss it out?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tʃ/ in 'chicken' is crisp",
+      "stress_focus": "CHICK-EN, STILL, TOSS, OUT",
+      "intonation_focus": "rising then falling",
+      "connected_speech_focus": "'toss it out' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "toss out",
+          "meaning": "throw away"
+        }
+      ],
+      "grammar_focus": "question with alternative clause",
+      "tags": [
+        "food",
+        "leftovers",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would you mind grabbing an extra plate in case someone else wants some?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /pl/ blend in 'plate' is complex",
+      "stress_focus": "GRAB-bing, EX-TRA, PLATE, WANTS",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'grabbing an' links smoothly",
+      "vocabulary": [
+        {
+          "word": "in case",
+          "meaning": "as a precaution"
+        }
+      ],
+      "grammar_focus": "would you mind with condition clause",
+      "tags": [
+        "food",
+        "sharing",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Everyone brought a dish to the potluck, so there was way more food than we needed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tʃ/ in 'potluck' is crisp",
+      "stress_focus": "BROUGHT, POT-LUCK, WAY, NEED-ed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'way more' links smoothly",
+      "vocabulary": [
+        {
+          "word": "potluck",
+          "meaning": "a meal where guests bring food"
+        }
+      ],
+      "grammar_focus": "past simple with result clause",
+      "tags": [
+        "food",
+        "sharing",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I can't function properly in the morning without at least one cup of coffee.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'function' is soft",
+      "stress_focus": "CAN'T, FUNC-tion, MOR-ning, COF-fee",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'can't function' links smoothly",
+      "vocabulary": [
+        {
+          "word": "function",
+          "meaning": "operate normally"
+        }
+      ],
+      "grammar_focus": "negative modal with condition",
+      "tags": [
+        "food",
+        "breakfast",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think this recipe would taste better if you added a bit more garlic.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'recipe' and 'garlic'",
+      "stress_focus": "THINK, RE-CI-PE, TASTE, GAR-lic",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'would taste' links smoothly",
+      "vocabulary": [
+        {
+          "word": "garlic",
+          "meaning": "a strong-flavored bulb"
+        }
+      ],
+      "grammar_focus": "second conditional for suggestions",
+      "tags": [
+        "food",
+        "cooking",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "She's cut back on carbs a lot, but she still allows herself dessert occasionally.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in 'carbs' and 'cut'",
+      "stress_focus": "CUT, CARBS, DE-SSERT, OC-CA-SION-al-ly",
+      "intonation_focus": "falling with contrast rise before 'but'",
+      "connected_speech_focus": "'cut back' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "cut back",
+          "meaning": "reduce"
+        }
+      ],
+      "grammar_focus": "present perfect with contrast",
+      "tags": [
+        "food",
+        "diet",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "If you could only eat at one restaurant for the rest of your life, which would you pick?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'restaurant' is soft",
+      "stress_focus": "RES-TAU-RANT, REST, LIFE, PICK",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'could only' links smoothly",
+      "vocabulary": [
+        {
+          "word": "pick",
+          "meaning": "choose"
+        }
+      ],
+      "grammar_focus": "second conditional questions",
+      "tags": [
+        "food",
+        "restaurant",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We reorganized the whole pantry so we could actually find things when we cook.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'reorganized' is soft",
+      "stress_focus": "RE-OR-GAN-IZED, PAN-try, FIND, COOK",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'so we' links smoothly",
+      "vocabulary": [
+        {
+          "word": "reorganized",
+          "meaning": "arranged again"
+        }
+      ],
+      "grammar_focus": "past simple with purpose clause",
+      "tags": [
+        "food",
+        "kitchen",
+        "organization"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "By the time I got home, my roommate had already made dinner for both of us.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'roommate' is soft",
+      "stress_focus": "ROOM-MATE, AL-READ-Y, DIN-ner, BOTH",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'had already' links smoothly",
+      "vocabulary": [
+        {
+          "word": "roommate",
+          "meaning": "a person you live with"
+        }
+      ],
+      "grammar_focus": "past perfect with time clause",
+      "tags": [
+        "food",
+        "dinner",
+        "past"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think meal prepping on Sundays saves a ton of time during the week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /pr/ blend in 'prepping' is complex",
+      "stress_focus": "MEAL, PREP-PING, SUN-DAYS, SAVES",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'prepping on' links smoothly",
+      "vocabulary": [
+        {
+          "word": "meal prepping",
+          "meaning": "preparing meals in advance"
+        }
+      ],
+      "grammar_focus": "gerund as subject in opinion",
+      "tags": [
+        "food",
+        "groceries",
+        "planning"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Feel free to help yourself to anything in the fridge while you're staying here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'feel' and 'free'",
+      "stress_focus": "FEEL, FREE, HELP, YOUR-SELF",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'help yourself' links smoothly",
+      "vocabulary": [
+        {
+          "word": "help yourself",
+          "meaning": "take what you want freely"
+        }
+      ],
+      "grammar_focus": "imperative with time clause",
+      "tags": [
+        "food",
+        "sharing",
+        "hospitality"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "What made you decide to switch to a plant-based diet?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /pl/ blend in 'plant' is complex",
+      "stress_focus": "DE-CIDE, SWITCH, PLANT-BASED, DI-ET",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'made you' links smoothly",
+      "vocabulary": [
+        {
+          "word": "switch",
+          "meaning": "change to something different"
+        }
+      ],
+      "grammar_focus": "past simple causative questions",
+      "tags": [
+        "food",
+        "diet",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Even though I know skipping breakfast isn't great for me, I just can't stomach eating first thing in the morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /st/ cluster in 'stomach' is complex",
+      "stress_focus": "SKIP-ping, GREAT, STOM-ACH, MOR-ning",
+      "intonation_focus": "falling with contrast rise on 'even though'",
+      "connected_speech_focus": "'can't stomach' is a natural collocation",
+      "vocabulary": [
+        {
+          "word": "stomach",
+          "meaning": "to tolerate, in this context"
+        }
+      ],
+      "grammar_focus": "concession clause with 'even though'",
+      "tags": [
+        "food",
+        "breakfast",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "We ended up eating dinner way later than usual because the traffic on the way home was absolutely brutal.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tr/ blend in 'traffic' is complex",
+      "stress_focus": "EN-DED, LA-TER, TRAF-FIC, BRU-TAL",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'ended up' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "brutal",
+          "meaning": "extremely difficult or harsh"
+        }
+      ],
+      "grammar_focus": "past simple with cause and effect",
+      "tags": [
+        "food",
+        "dinner",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "If I'd known the sauce needed to simmer for that long, I would've started cooking a lot earlier.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /sɪ/ in 'simmer' is short",
+      "stress_focus": "KNOWN, SIM-MER, EAR-LI-ER",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'would've started' links to 'wouldve'",
+      "vocabulary": [
+        {
+          "word": "simmer",
+          "meaning": "cook gently at low heat"
+        }
+      ],
+      "grammar_focus": "third conditional",
+      "tags": [
+        "food",
+        "cooking",
+        "conditional"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I've come to realize that following a recipe exactly rarely turns out as well as just trusting your instincts.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'realize' and 'recipe'",
+      "stress_focus": "RE-AL-IZE, RE-CI-PE, IN-STINCTS",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'turns out' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "instincts",
+          "meaning": "natural feelings or reactions"
+        }
+      ],
+      "grammar_focus": "present perfect with comparative clause",
+      "tags": [
+        "food",
+        "cooking",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "The knife set that my grandmother gave me years ago is still the sharpest one in the entire kitchen.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ʃ/ in 'sharpest' is soft",
+      "stress_focus": "GRAND-MOTH-ER, SHARP-EST, EN-TIRE, KIT-CHEN",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'gave me' links smoothly",
+      "vocabulary": [
+        {
+          "word": "sharpest",
+          "meaning": "most able to cut well"
+        }
+      ],
+      "grammar_focus": "relative clause with superlative",
+      "tags": [
+        "food",
+        "kitchen",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "People who constantly count calories often end up with a really unhealthy relationship with food in the long run.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in 'calories' and 'constantly'",
+      "stress_focus": "CON-STANT-LY, CAL-O-RIES, UN-HEALTH-Y, RE-LA-TION-SHIP",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'end up' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "relationship",
+          "meaning": "the way someone relates to something"
+        }
+      ],
+      "grammar_focus": "relative clause as subject",
+      "tags": [
+        "food",
+        "diet",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Even though cutting out carbs helped her lose weight quickly, she found it impossible to sustain in the long term.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in 'cutting' and 'carbs'",
+      "stress_focus": "CUT-TING, CARBS, IM-POS-SI-BLE, SUS-TAIN",
+      "intonation_focus": "falling with contrast rise on 'even though'",
+      "connected_speech_focus": "'cutting out' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "sustain",
+          "meaning": "keep going over time"
+        }
+      ],
+      "grammar_focus": "concession clause with cause and effect",
+      "tags": [
+        "food",
+        "diet",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Whenever I eat out too often, I end up missing home-cooked meals, even though restaurant food is way more convenient.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in 'whenever' is soft",
+      "stress_focus": "WHEN-EV-ER, MISS-ING, HOME-COOKED, CON-VEN-IENT",
+      "intonation_focus": "falling with contrast rise on 'even though'",
+      "connected_speech_focus": "'end up' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "convenient",
+          "meaning": "easy and quick to use"
+        }
+      ],
+      "grammar_focus": "complex sentence with concession",
+      "tags": [
+        "food",
+        "restaurant",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "The restaurant we used to go to every weekend closed down last year, which honestly still makes me a bit sad.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in 'weekend' is soft",
+      "stress_focus": "USED, WEEK-END, CLOSED, HON-EST-LY",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'used to' links to 'usta'",
+      "vocabulary": [
+        {
+          "word": "closed down",
+          "meaning": "stopped operating permanently"
+        }
+      ],
+      "grammar_focus": "relative clause with 'which'",
+      "tags": [
+        "food",
+        "restaurant",
+        "past"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Instead of throwing away whatever's left in the fridge at the end of the week, we've started turning it into a big soup.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /θr/ blend in 'throwing' is complex",
+      "stress_focus": "THROW-ING, FRIDGE, TURN-ING, SOUP",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'throwing away' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "turning into",
+          "meaning": "transforming into something else"
+        }
+      ],
+      "grammar_focus": "present perfect with purpose clause",
+      "tags": [
+        "food",
+        "leftovers",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Whenever we host people over, my mom insists on making way too much food, just in case someone shows up unannounced.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in 'host' is soft",
+      "stress_focus": "HOST, IN-SISTS, UN-AN-NOUNCED",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'shows up' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "unannounced",
+          "meaning": "without warning"
+        }
+      ],
+      "grammar_focus": "complex sentence with purpose clause",
+      "tags": [
+        "food",
+        "sharing",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I used to think a big breakfast set the tone for the whole day, but now I barely have time to eat anything before work.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /t/ in 'tone' is clear",
+      "stress_focus": "USED, TONE, BARE-LY, BE-FORE",
+      "intonation_focus": "falling with contrast rise before 'but'",
+      "connected_speech_focus": "'used to' links to 'usta'",
+      "vocabulary": [
+        {
+          "word": "set the tone",
+          "meaning": "establish the mood or direction"
+        }
+      ],
+      "grammar_focus": "contrast with past habit",
+      "tags": [
+        "food",
+        "breakfast",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Given how busy our schedules have gotten, do you think we should just start meal planning every Sunday night?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /sk/ blend in 'schedules' is crisp",
+      "stress_focus": "SCHED-ULES, GOT-TEN, PLAN-NING, SUN-DAY",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'should just' links smoothly",
+      "vocabulary": [
+        {
+          "word": "schedules",
+          "meaning": "planned times for activities"
+        }
+      ],
+      "grammar_focus": "conditional-style suggestion question",
+      "tags": [
+        "food",
+        "dinner",
+        "planning"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "She's the kind of cook who never measures anything but somehow everything she makes turns out perfectly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in 'cook' and 'kind'",
+      "stress_focus": "COOK, MEA-SURES, PER-FECT-LY",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'turns out' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "measures",
+          "meaning": "determines the amount of something"
+        }
+      ],
+      "grammar_focus": "relative clause with contrast",
+      "tags": [
+        "food",
+        "cooking",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Ever since we renovated the kitchen, cooking has become something we actually look forward to instead of a chore we dread.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'renovated' is soft",
+      "stress_focus": "REN-O-VA-TED, LOOK, FOR-WARD, DREAD",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'look forward to' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "dread",
+          "meaning": "fear or feel reluctant about"
+        }
+      ],
+      "grammar_focus": "present perfect with contrast clause",
+      "tags": [
+        "food",
+        "kitchen",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "If more people understood how much sugar is hidden in everyday foods, they'd probably think twice before grabbing another soda.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ʃ/ in 'sugar' is soft",
+      "stress_focus": "UN-DER-STOOD, HID-DEN, GRAB-BING, SO-DA",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'they'd probably' links to 'theyd'",
+      "vocabulary": [
+        {
+          "word": "hidden",
+          "meaning": "not obvious or visible"
+        }
+      ],
+      "grammar_focus": "second conditional with modal",
+      "tags": [
+        "food",
+        "diet",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Eating out vs eating in",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "What used to be a rare treat, eating at fancy restaurants, has slowly turned into something we do way too often for our budget.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tʃ/ in 'treat' is crisp",
+      "stress_focus": "RARE, TREAT, FAN-CY, BUD-GET",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'turned into' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "treat",
+          "meaning": "a special indulgence"
+        }
+      ],
+      "grammar_focus": "complex sentence with 'used to be'",
+      "tags": [
+        "food",
+        "restaurant",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Leftovers & groceries for meals",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Because we always overestimate how much we'll eat, our fridge ends up packed with leftovers that nobody actually wants to finish.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /oʊ/ in 'overestimate' is a diphthong",
+      "stress_focus": "O-VER-ES-TI-MATE, PACKED, LEFT-OV-ERS",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'ends up' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "overestimate",
+          "meaning": "guess a higher amount than reality"
+        }
+      ],
+      "grammar_focus": "cause and effect with relative clause",
+      "tags": [
+        "food",
+        "leftovers",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Would it be too much trouble if I asked you to save me a plate, since I'm probably going to be running late tonight?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tr/ blend in 'trouble' is complex",
+      "stress_focus": "TROU-BLE, SAVE, PLATE, RUN-NING",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "'going to be' links to 'gonna be'",
+      "vocabulary": [
+        {
+          "word": "trouble",
+          "meaning": "inconvenience"
+        }
+      ],
+      "grammar_focus": "polite request with reason clause",
+      "tags": [
+        "food",
+        "sharing",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Breakfast",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think the whole idea that breakfast is the most important meal of the day is a bit overrated, at least for adults.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /oʊ/ in 'overrated' is a diphthong",
+      "stress_focus": "HON-EST-LY, IM-POR-TANT, O-VER-RA-TED, A-DULTS",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'is a' links smoothly",
+      "vocabulary": [
+        {
+          "word": "overrated",
+          "meaning": "valued more highly than deserved"
+        }
+      ],
+      "grammar_focus": "opinion with embedded clause",
+      "tags": [
+        "food",
+        "breakfast",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Cooking & recipes",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "After years of burning things and following recipes word for word, she finally started experimenting and trusting her own taste.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ɜːr/ in 'burning' is a strong vowel",
+      "stress_focus": "BURN-ING, RE-CI-PES, EX-PER-I-MENT-ING, TASTE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'started experimenting' links smoothly",
+      "vocabulary": [
+        {
+          "word": "experimenting",
+          "meaning": "trying new things to see what works"
+        }
+      ],
+      "grammar_focus": "past simple with sequence of events",
+      "tags": [
+        "food",
+        "cooking",
+        "past"
+      ]
+    },
+    {
+      "subcategory": "Lunch & dinner",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Whenever we cook a big family dinner together, it ends up being way more about spending time with each other than the food itself.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in 'family' is soft",
+      "stress_focus": "FAM-I-LY, DIN-NER, SPEND-ING, IT-SELF",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'ends up' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "spending time",
+          "meaning": "using time on an activity"
+        }
+      ],
+      "grammar_focus": "complex sentence with comparative emphasis",
+      "tags": [
+        "food",
+        "dinner",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Diet & healthy eating",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Once I stopped labeling foods as good or bad, I noticed I actually started making healthier choices without even trying.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /l/ in 'labeling' is clear",
+      "stress_focus": "LA-BEL-ING, NO-TICED, HEALTH-I-ER, TRY-ING",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'without even' links smoothly",
+      "vocabulary": [
+        {
+          "word": "labeling",
+          "meaning": "categorizing something with a name"
+        }
+      ],
+      "grammar_focus": "time clause with cause and effect",
+      "tags": [
+        "food",
+        "diet",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Kitchen & ingredients",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "I know it sounds excessive, but having the right ingredients on hand makes such a huge difference in how much I enjoy cooking.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in 'excessive' and 'ingredients'",
+      "stress_focus": "EX-CES-SIVE, IN-GRE-DI-ENTS, HUGE, DIF-FER-ENCE",
+      "intonation_focus": "falling with contrast rise before 'but'",
+      "connected_speech_focus": "'on hand' is a natural collocation",
+      "vocabulary": [
+        {
+          "word": "excessive",
+          "meaning": "more than necessary"
+        }
+      ],
+      "grammar_focus": "concession clause with result",
+      "tags": [
+        "food",
+        "kitchen",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Offering & sharing food",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Growing up, our house was always the one where friends would randomly show up around dinner time, knowing there'd always be enough food to go around.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in 'randomly' is soft",
+      "stress_focus": "RAN-DOM-LY, SHOW, KNOW-ING, E-NOUGH",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "'show up' is a phrasal verb link",
+      "vocabulary": [
+        {
+          "word": "go around",
+          "meaning": "be enough for everyone"
+        }
+      ],
+      "grammar_focus": "complex sentence with participle clause",
+      "tags": [
+        "food",
+        "sharing",
+        "description"
+      ]
+    }
+  ]
+}

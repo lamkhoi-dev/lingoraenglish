@@ -1,0 +1,2428 @@
+{
+ "slug": "restaurant-coffee-shop",
+ "name": "Restaurant & Coffee Shop",
+ "topic_group": "Everyday English",
+ "blurb": "Practice natural spoken English for ordering food, chatting with servers, and handling the bill.",
+ "sort_order": 4,
+ "sentences": [
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "Can I see a menu, please?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear rising pitch on 'please'",
+   "stress_focus": "stress on 'menu'",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'can I'",
+   "vocabulary": [
+    {
+     "word": "menu",
+     "meaning": "list of food and drinks"
+    }
+   ],
+   "grammar_focus": "modal 'can' for polite requests",
+   "tags": [
+    "restaurant",
+    "ordering",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "I'd like a coffee, please.",
+   "natural_form": "I'd like a coffee, please.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'I'd' /a\u026ad/",
+   "stress_focus": "stress on 'coffee'",
+   "intonation_focus": "falling intonation for requests",
+   "connected_speech_focus": "contraction 'I'd'",
+   "vocabulary": [
+    {
+     "word": "I'd like",
+     "meaning": "polite way to say I want"
+    }
+   ],
+   "grammar_focus": "'would like' for polite requests",
+   "tags": [
+    "cafe",
+    "ordering",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "This tastes really good.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'really'",
+   "stress_focus": "emphasis on 'good'",
+   "intonation_focus": "falling intonation for statements",
+   "connected_speech_focus": "linking 'tastes really'",
+   "vocabulary": [
+    {
+     "word": "tastes",
+     "meaning": "has a certain flavor"
+    }
+   ],
+   "grammar_focus": "simple present for opinions",
+   "tags": [
+    "food",
+    "opinion",
+    "taste"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "Do you have a table for two?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation for yes/no question",
+   "stress_focus": "stress on 'table' and 'two'",
+   "intonation_focus": "question intonation rises at end",
+   "connected_speech_focus": "linking 'have a'",
+   "vocabulary": [
+    {
+     "word": "table for two",
+     "meaning": "seating for two people"
+    }
+   ],
+   "grammar_focus": "do-support in questions",
+   "tags": [
+    "restaurant",
+    "seating",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I want a burger and fries.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear 't' in 'want'",
+   "stress_focus": "stress on 'burger' and 'fries'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'want a'",
+   "vocabulary": [
+    {
+     "word": "fries",
+     "meaning": "fried potato sticks"
+    }
+   ],
+   "grammar_focus": "simple present for wants",
+   "tags": [
+    "food",
+    "ordering",
+    "fastfood"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "One tea, please.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "short clipped 'one'",
+   "stress_focus": "stress on 'tea'",
+   "intonation_focus": "falling final intonation",
+   "connected_speech_focus": "none notable",
+   "vocabulary": [
+    {
+     "word": "tea",
+     "meaning": "hot drink made from leaves"
+    }
+   ],
+   "grammar_focus": "simple noun phrase requests",
+   "tags": [
+    "cafe",
+    "drinks",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "How much is this?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'much'",
+   "stress_focus": "rising pitch at end",
+   "intonation_focus": "question intonation",
+   "connected_speech_focus": "linking 'is this'",
+   "vocabulary": [
+    {
+     "word": "how much",
+     "meaning": "asking about price"
+    }
+   ],
+   "grammar_focus": "wh-question with 'how much'",
+   "tags": [
+    "payment",
+    "price",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "I'm not very hungry today.",
+   "natural_form": "I'm not very hungry today.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'm'",
+   "stress_focus": "stress on 'hungry'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'not very'",
+   "vocabulary": [
+    {
+     "word": "hungry",
+     "meaning": "wanting to eat"
+    }
+   ],
+   "grammar_focus": "present tense negation",
+   "tags": [
+    "food",
+    "feelings"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The soup smells amazing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'amazing'",
+   "stress_focus": "emphasis on final adjective",
+   "intonation_focus": "falling intonation for compliments",
+   "connected_speech_focus": "linking 'smells amazing'",
+   "vocabulary": [
+    {
+     "word": "smells",
+     "meaning": "has a scent"
+    }
+   ],
+   "grammar_focus": "simple present with sense verbs",
+   "tags": [
+    "food",
+    "compliment"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Can we sit by the window?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising tone for polite request",
+   "stress_focus": "stress on 'window'",
+   "intonation_focus": "soft rising intonation",
+   "connected_speech_focus": "linking 'sit by'",
+   "vocabulary": [
+    {
+     "word": "by the window",
+     "meaning": "near the window"
+    }
+   ],
+   "grammar_focus": "modal 'can' for requests",
+   "tags": [
+    "restaurant",
+    "seating",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Could I get some water?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'could' /k\u028ad/",
+   "stress_focus": "stress on 'water'",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'get some'",
+   "vocabulary": [
+    {
+     "word": "could I get",
+     "meaning": "polite request phrase"
+    }
+   ],
+   "grammar_focus": "modal 'could' for polite requests",
+   "tags": [
+    "drinks",
+    "polite",
+    "water"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "He always orders the same thing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'always'",
+   "stress_focus": "emphasis on 'same'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'orders the'",
+   "vocabulary": [
+    {
+     "word": "orders",
+     "meaning": "asks for food"
+    }
+   ],
+   "grammar_focus": "present simple for habits",
+   "tags": [
+    "habits",
+    "food"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Do you take credit cards?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear 't' in 'take'",
+   "stress_focus": "stress on 'credit cards'",
+   "intonation_focus": "rising question intonation",
+   "connected_speech_focus": "linking 'take credit'",
+   "vocabulary": [
+    {
+     "word": "credit cards",
+     "meaning": "cards used to pay"
+    }
+   ],
+   "grammar_focus": "do-support in yes/no questions",
+   "tags": [
+    "payment",
+    "cards"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "response",
+   "sentence": "Sure, that sounds great.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "relaxed 'sounds'",
+   "stress_focus": "stress on 'great'",
+   "intonation_focus": "falling intonation for agreement",
+   "connected_speech_focus": "linking 'sounds great'",
+   "vocabulary": [
+    {
+     "word": "sounds great",
+     "meaning": "expresses agreement"
+    }
+   ],
+   "grammar_focus": "present tense for reactions",
+   "tags": [
+    "agreement",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "This coffee is too hot.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'too'",
+   "stress_focus": "emphasis on 'hot'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is too'",
+   "vocabulary": [
+    {
+     "word": "too hot",
+     "meaning": "more hot than wanted"
+    }
+   ],
+   "grammar_focus": "too + adjective structure",
+   "tags": [
+    "cafe",
+    "drinks",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "I love spicy food.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'spicy'",
+   "stress_focus": "emphasis on 'love'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'love spicy'",
+   "vocabulary": [
+    {
+     "word": "spicy",
+     "meaning": "having a hot, strong taste"
+    }
+   ],
+   "grammar_focus": "simple present for preferences",
+   "tags": [
+    "food",
+    "preferences"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "This table is a bit small.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'small'",
+   "stress_focus": "emphasis on 'bit'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'table is'",
+   "vocabulary": [
+    {
+     "word": "a bit",
+     "meaning": "slightly"
+    }
+   ],
+   "grammar_focus": "'a bit' as a mild qualifier",
+   "tags": [
+    "restaurant",
+    "seating",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "What do you recommend?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'recommend'",
+   "stress_focus": "rising then falling for wh-question",
+   "intonation_focus": "natural wh-question intonation",
+   "connected_speech_focus": "linking 'do you'",
+   "vocabulary": [
+    {
+     "word": "recommend",
+     "meaning": "suggest something good"
+    }
+   ],
+   "grammar_focus": "wh-question with 'what'",
+   "tags": [
+    "ordering",
+    "question",
+    "advice"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The bill is on the table.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'bill'",
+   "stress_focus": "emphasis on 'table'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is on'",
+   "vocabulary": [
+    {
+     "word": "bill",
+     "meaning": "the paper showing what you owe"
+    }
+   ],
+   "grammar_focus": "simple present location statement",
+   "tags": [
+    "payment",
+    "bill"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "She's a vegetarian, so no meat.",
+   "natural_form": "She's a vegetarian, so no meat.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'she's'",
+   "stress_focus": "stress on 'vegetarian'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'so no'",
+   "vocabulary": [
+    {
+     "word": "vegetarian",
+     "meaning": "a person who doesn't eat meat"
+    }
+   ],
+   "grammar_focus": "'so' to show result",
+   "tags": [
+    "diet",
+    "food"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Can I get that iced, not hot?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'can I'",
+   "stress_focus": "stress on 'iced' and 'hot'",
+   "intonation_focus": "rising then falling contrast",
+   "connected_speech_focus": "linking 'get that'",
+   "vocabulary": [
+    {
+     "word": "iced",
+     "meaning": "served cold with ice"
+    }
+   ],
+   "grammar_focus": "contrast structure 'not... but'",
+   "tags": [
+    "cafe",
+    "drinks",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "We're running a bit late for our reservation.",
+   "natural_form": "We're running a bit late for our reservation.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'we're'",
+   "stress_focus": "stress on 'late' and 'reservation'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'running a'",
+   "vocabulary": [
+    {
+     "word": "reservation",
+     "meaning": "a booking for a table"
+    }
+   ],
+   "grammar_focus": "present continuous for near future",
+   "tags": [
+    "reservation",
+    "time"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "Is this seat taken?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation",
+   "stress_focus": "stress on 'taken'",
+   "intonation_focus": "polite question intonation",
+   "connected_speech_focus": "linking 'is this'",
+   "vocabulary": [
+    {
+     "word": "taken",
+     "meaning": "already being used"
+    }
+   ],
+   "grammar_focus": "passive voice question",
+   "tags": [
+    "seating",
+    "question",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I'll have the same as him.",
+   "natural_form": "I'll have the same as him.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'll'",
+   "stress_focus": "stress on 'same'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'have the'",
+   "vocabulary": [
+    {
+     "word": "the same as",
+     "meaning": "identical to"
+    }
+   ],
+   "grammar_focus": "future 'will' for decisions",
+   "tags": [
+    "ordering",
+    "decision"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Could we split the check, please?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'could we'",
+   "stress_focus": "stress on 'split'",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'split the'",
+   "vocabulary": [
+    {
+     "word": "split the check",
+     "meaning": "divide the bill between people"
+    }
+   ],
+   "grammar_focus": "modal 'could' for requests",
+   "tags": [
+    "payment",
+    "group",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I usually skip breakfast on weekdays.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'usually' and 'skip'",
+   "stress_focus": "emphasis on 'weekdays'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'skip breakfast'",
+   "vocabulary": [
+    {
+     "word": "skip",
+     "meaning": "to not do something"
+    }
+   ],
+   "grammar_focus": "adverbs of frequency",
+   "tags": [
+    "breakfast",
+    "habits"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "I think decaf tastes a bit weak.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'decaf' and 'weak'",
+   "stress_focus": "emphasis on 'weak'",
+   "intonation_focus": "falling intonation for opinions",
+   "connected_speech_focus": "linking 'think decaf'",
+   "vocabulary": [
+    {
+     "word": "decaf",
+     "meaning": "coffee without caffeine"
+    }
+   ],
+   "grammar_focus": "'I think' for opinions",
+   "tags": [
+    "coffee",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, did you say soup or salad?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation on question",
+   "stress_focus": "stress on 'soup' and 'salad'",
+   "intonation_focus": "rising for clarification",
+   "connected_speech_focus": "linking 'did you'",
+   "vocabulary": [
+    {
+     "word": "clarification",
+     "meaning": "asking to confirm information"
+    }
+   ],
+   "grammar_focus": "or-question for choices",
+   "tags": [
+    "clarification",
+    "food"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Could we get a booth instead of a table?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'could we'",
+   "stress_focus": "stress on 'booth'",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'get a'",
+   "vocabulary": [
+    {
+     "word": "booth",
+     "meaning": "a seating area with fixed benches"
+    }
+   ],
+   "grammar_focus": "'instead of' for preference",
+   "tags": [
+    "seating",
+    "preference"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "The waiter forgot to bring our drinks.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'forgot'",
+   "stress_focus": "emphasis on 'drinks'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'forgot to'",
+   "vocabulary": [
+    {
+     "word": "waiter",
+     "meaning": "a person who serves food"
+    }
+   ],
+   "grammar_focus": "past simple for completed action",
+   "tags": [
+    "service",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "They added an extra charge by mistake.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'extra' and 'mistake'",
+   "stress_focus": "emphasis on 'charge'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'added an'",
+   "vocabulary": [
+    {
+     "word": "by mistake",
+     "meaning": "accidentally"
+    }
+   ],
+   "grammar_focus": "past simple with adverbial phrase",
+   "tags": [
+    "payment",
+    "mistake"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "response",
+   "sentence": "Actually, I'll pass on dessert tonight.",
+   "natural_form": "Actually, I'll pass on dessert tonight.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'll'",
+   "stress_focus": "stress on 'pass' and 'dessert'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'pass on'",
+   "vocabulary": [
+    {
+     "word": "pass on",
+     "meaning": "to decline or not choose something"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'pass on'",
+   "tags": [
+    "dessert",
+    "decision"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "This latte has too much foam.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'too much'",
+   "stress_focus": "emphasis on 'foam'",
+   "intonation_focus": "falling intonation for complaints",
+   "connected_speech_focus": "linking 'has too'",
+   "vocabulary": [
+    {
+     "word": "foam",
+     "meaning": "the light bubbly top of milk"
+    }
+   ],
+   "grammar_focus": "'too much' with uncountable nouns",
+   "tags": [
+    "coffee",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "Would it be okay to move to a quieter spot?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "polite rising tone",
+   "stress_focus": "stress on 'quieter'",
+   "intonation_focus": "rising intonation for polite question",
+   "connected_speech_focus": "linking 'move to'",
+   "vocabulary": [
+    {
+     "word": "quieter",
+     "meaning": "having less noise"
+    }
+   ],
+   "grammar_focus": "'would it be okay' polite request",
+   "tags": [
+    "seating",
+    "request",
+    "noise"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "He's allergic to peanuts, so we double-checked the menu.",
+   "natural_form": "He's allergic to peanuts, so we double-checked the menu.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'he's'",
+   "stress_focus": "stress on 'allergic'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'double-checked'",
+   "vocabulary": [
+    {
+     "word": "allergic",
+     "meaning": "having a bad reaction to something"
+    }
+   ],
+   "grammar_focus": "'so' for cause and effect",
+   "tags": [
+    "allergy",
+    "safety"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "storytelling",
+   "sentence": "We waited almost an hour before our food arrived.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'almost' and 'arrived'",
+   "stress_focus": "emphasis on 'hour'",
+   "intonation_focus": "falling intonation for storytelling",
+   "connected_speech_focus": "linking 'waited almost'",
+   "vocabulary": [
+    {
+     "word": "arrived",
+     "meaning": "came to a place"
+    }
+   ],
+   "grammar_focus": "past simple for narrating events",
+   "tags": [
+    "waiting",
+    "story"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "agreement",
+   "sentence": "Yeah, let's just split it evenly.",
+   "natural_form": "Yeah, let's just split it evenly.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'let's'",
+   "stress_focus": "stress on 'evenly'",
+   "intonation_focus": "falling intonation for agreement",
+   "connected_speech_focus": "linking 'split it'",
+   "vocabulary": [
+    {
+     "word": "evenly",
+     "meaning": "in equal parts"
+    }
+   ],
+   "grammar_focus": "'let's' for suggestions",
+   "tags": [
+    "payment",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I'll switch to herbal tea instead of coffee.",
+   "natural_form": "I'll switch to herbal tea instead of coffee.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'll'",
+   "stress_focus": "stress on 'switch' and 'herbal'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'switch to'",
+   "vocabulary": [
+    {
+     "word": "herbal tea",
+     "meaning": "tea made from plants, no caffeine"
+    }
+   ],
+   "grammar_focus": "'instead of' for substitution",
+   "tags": [
+    "tea",
+    "health"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, the portions here are pretty small.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'honestly' and 'small'",
+   "stress_focus": "emphasis on 'portions'",
+   "intonation_focus": "falling intonation for opinions",
+   "connected_speech_focus": "linking 'portions here'",
+   "vocabulary": [
+    {
+     "word": "portions",
+     "meaning": "the amount of food served"
+    }
+   ],
+   "grammar_focus": "adverb 'honestly' for opinions",
+   "tags": [
+    "food",
+    "opinion",
+    "size"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "We're celebrating an anniversary, so we booked early.",
+   "natural_form": "We're celebrating an anniversary, so we booked early.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'we're'",
+   "stress_focus": "stress on 'anniversary'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'booked early'",
+   "vocabulary": [
+    {
+     "word": "anniversary",
+     "meaning": "a yearly celebration date"
+    }
+   ],
+   "grammar_focus": "present continuous for reason",
+   "tags": [
+    "celebration",
+    "reservation"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "reaction",
+   "sentence": "Wow, that portion is huge!",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "exclamatory rising then falling",
+   "stress_focus": "stress on 'huge'",
+   "intonation_focus": "exclamation intonation",
+   "connected_speech_focus": "linking 'portion is'",
+   "vocabulary": [
+    {
+     "word": "huge",
+     "meaning": "very large"
+    }
+   ],
+   "grammar_focus": "exclamation with 'that'",
+   "tags": [
+    "reaction",
+    "food",
+    "size"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "We forgot to leave a tip.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'forgot' and 'tip'",
+   "stress_focus": "emphasis on 'tip'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'forgot to'",
+   "vocabulary": [
+    {
+     "word": "tip",
+     "meaning": "extra money given for service"
+    }
+   ],
+   "grammar_focus": "past simple negative reflection",
+   "tags": [
+    "payment",
+    "tip"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "clarification",
+   "sentence": "Wait, does this dish come with rice or noodles?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation for question",
+   "stress_focus": "stress on 'rice' and 'noodles'",
+   "intonation_focus": "rising for choice clarification",
+   "connected_speech_focus": "linking 'come with'",
+   "vocabulary": [
+    {
+     "word": "dish",
+     "meaning": "a particular food item on a menu"
+    }
+   ],
+   "grammar_focus": "or-question for clarification",
+   "tags": [
+    "clarification",
+    "food"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "request",
+   "sentence": "Can you make it less sweet, please?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'can you'",
+   "stress_focus": "stress on 'less sweet'",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'make it'",
+   "vocabulary": [
+    {
+     "word": "less sweet",
+     "meaning": "not as sweet"
+    }
+   ],
+   "grammar_focus": "comparative adjective 'less'",
+   "tags": [
+    "drinks",
+    "customization"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "They ran out of the fish special.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'ran out'",
+   "stress_focus": "emphasis on 'special'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'ran out'",
+   "vocabulary": [
+    {
+     "word": "ran out of",
+     "meaning": "used up all of something"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'run out of'",
+   "tags": [
+    "menu",
+    "availability"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "This place gets really crowded on weekends.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'crowded' and 'weekends'",
+   "stress_focus": "emphasis on 'really'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'gets really'",
+   "vocabulary": [
+    {
+     "word": "crowded",
+     "meaning": "full of many people"
+    }
+   ],
+   "grammar_focus": "present simple for general truths",
+   "tags": [
+    "restaurant",
+    "crowd"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "In my opinion, the dessert menu is the best part.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'opinion' and 'best'",
+   "stress_focus": "emphasis on 'dessert'",
+   "intonation_focus": "falling intonation for opinions",
+   "connected_speech_focus": "linking 'opinion the'",
+   "vocabulary": [
+    {
+     "word": "dessert menu",
+     "meaning": "the list of sweet dishes"
+    }
+   ],
+   "grammar_focus": "'in my opinion' for opinions",
+   "tags": [
+    "dessert",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "Is the service charge already included?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising question intonation",
+   "stress_focus": "stress on 'service charge'",
+   "intonation_focus": "rising intonation",
+   "connected_speech_focus": "linking 'is the'",
+   "vocabulary": [
+    {
+     "word": "included",
+     "meaning": "added as part of the total"
+    }
+   ],
+   "grammar_focus": "passive voice for questions",
+   "tags": [
+    "payment",
+    "service"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "The chef recommended the grilled salmon.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'chef' and 'salmon'",
+   "stress_focus": "emphasis on 'grilled'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'recommended the'",
+   "vocabulary": [
+    {
+     "word": "chef",
+     "meaning": "the head cook"
+    }
+   ],
+   "grammar_focus": "past simple for reported suggestion",
+   "tags": [
+    "food",
+    "recommendation"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I need my coffee before I can function.",
+   "natural_form": "I need my coffee before I can function.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'need' and 'function'",
+   "stress_focus": "emphasis on 'coffee'",
+   "intonation_focus": "falling intonation with humor",
+   "connected_speech_focus": "linking 'before I'",
+   "vocabulary": [
+    {
+     "word": "function",
+     "meaning": "to work or operate normally"
+    }
+   ],
+   "grammar_focus": "'before' clause for sequence",
+   "tags": [
+    "coffee",
+    "humor"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "We ended up ordering way too much food.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'ended up' and 'too much'",
+   "stress_focus": "emphasis on 'way'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'ended up'",
+   "vocabulary": [
+    {
+     "word": "ended up",
+     "meaning": "resulted in a certain situation"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'end up'",
+   "tags": [
+    "ordering",
+    "overeating"
+   ]
+  },
+  {
+   "subcategory": "Service",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "Our server was really attentive throughout the whole meal.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'attentive'",
+   "stress_focus": "emphasis on 'whole meal'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'was really'",
+   "vocabulary": [
+    {
+     "word": "attentive",
+     "meaning": "paying close, helpful attention"
+    }
+   ],
+   "grammar_focus": "adverb + adjective for description",
+   "tags": [
+    "service",
+    "compliment"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I'm not a huge fan of oat milk.",
+   "natural_form": "Honestly, I'm not a huge fan of oat milk.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'm'",
+   "stress_focus": "stress on 'huge fan'",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'not a'",
+   "vocabulary": [
+    {
+     "word": "huge fan",
+     "meaning": "someone who really likes something"
+    }
+   ],
+   "grammar_focus": "negative opinion structure",
+   "tags": [
+    "milk",
+    "preference"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "clarification",
+   "sentence": "Hold on, are we splitting appetizers or getting our own?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation for options",
+   "stress_focus": "stress on 'splitting' and 'own'",
+   "intonation_focus": "rising then falling contrast",
+   "connected_speech_focus": "linking 'splitting appetizers'",
+   "vocabulary": [
+    {
+     "word": "appetizers",
+     "meaning": "small dishes served before the main course"
+    }
+   ],
+   "grammar_focus": "or-question for clarification",
+   "tags": [
+    "sharing",
+    "food"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "They messed up the bill, so we had to flag someone down.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'messed up' and 'flag down'",
+   "stress_focus": "emphasis on 'flag someone'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'had to'",
+   "vocabulary": [
+    {
+     "word": "flag someone down",
+     "meaning": "to signal someone to get their attention"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'flag down'",
+   "tags": [
+    "billing",
+    "problem"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "storytelling",
+   "sentence": "We showed up without a reservation and still got seated fast.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'showed up' and 'seated fast'",
+   "stress_focus": "emphasis on 'still'",
+   "intonation_focus": "falling intonation for storytelling",
+   "connected_speech_focus": "linking 'showed up'",
+   "vocabulary": [
+    {
+     "word": "showed up",
+     "meaning": "arrived somewhere"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'show up'",
+   "tags": [
+    "reservation",
+    "story"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "request",
+   "sentence": "Would you mind seating us somewhere a little quieter?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "polite rising tone",
+   "stress_focus": "stress on 'somewhere' and 'quieter'",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'seating us'",
+   "vocabulary": [
+    {
+     "word": "would you mind",
+     "meaning": "polite way to ask a favor"
+    }
+   ],
+   "grammar_focus": "'would you mind' for requests",
+   "tags": [
+    "seating",
+    "noise",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "To be honest, the menu could use a bit more variety.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'honest' and 'variety'",
+   "stress_focus": "emphasis on 'more'",
+   "intonation_focus": "falling intonation for opinions",
+   "connected_speech_focus": "linking 'to be'",
+   "vocabulary": [
+    {
+     "word": "variety",
+     "meaning": "a range of different things"
+    }
+   ],
+   "grammar_focus": "'to be honest' for softened opinion",
+   "tags": [
+    "menu",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I've cut back on caffeine, so I mostly stick to herbal tea.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'cut back' and 'stick to'",
+   "stress_focus": "emphasis on 'mostly'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'cut back'",
+   "vocabulary": [
+    {
+     "word": "cut back on",
+     "meaning": "to reduce the amount of something"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'cut back on'",
+   "tags": [
+    "health",
+    "tea"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "agreement",
+   "sentence": "Yeah, that sounds good to me, let's go with the special.",
+   "natural_form": "Yeah, that sounds good to me, let's go with the special.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'let's'",
+   "stress_focus": "stress on 'special'",
+   "intonation_focus": "falling intonation for agreement",
+   "connected_speech_focus": "linking 'go with'",
+   "vocabulary": [
+    {
+     "word": "go with",
+     "meaning": "to choose something"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'go with'",
+   "tags": [
+    "ordering",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Service",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "disagreement",
+   "sentence": "I don't think that's fair, we've been waiting forever.",
+   "natural_form": "I don't think that's fair, we've been waiting forever.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'don't' and 'we've'",
+   "stress_focus": "stress on 'fair' and 'forever'",
+   "intonation_focus": "falling intonation for complaint",
+   "connected_speech_focus": "linking 'been waiting'",
+   "vocabulary": [
+    {
+     "word": "forever",
+     "meaning": "for a very long time, informally"
+    }
+   ],
+   "grammar_focus": "present perfect continuous for ongoing wait",
+   "tags": [
+    "complaint",
+    "waiting"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "We should probably ask for the bill before they close up.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'probably' and 'close up'",
+   "stress_focus": "emphasis on 'before'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'ask for'",
+   "vocabulary": [
+    {
+     "word": "close up",
+     "meaning": "to shut down for the day"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'close up'",
+   "tags": [
+    "closing",
+    "time"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "request",
+   "sentence": "Can you throw in some extra napkins when you get a chance?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'can you'",
+   "stress_focus": "stress on 'throw in' and 'extra'",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'throw in'",
+   "vocabulary": [
+    {
+     "word": "throw in",
+     "meaning": "to add something extra"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'throw in'",
+   "tags": [
+    "request",
+    "extras"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "This place brews its own coffee right on site.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'brews' and 'site'",
+   "stress_focus": "emphasis on 'own'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'brews its'",
+   "vocabulary": [
+    {
+     "word": "brews",
+     "meaning": "makes coffee or tea by soaking"
+    }
+   ],
+   "grammar_focus": "present simple for facts",
+   "tags": [
+    "coffee",
+    "facts"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "reaction",
+   "sentence": "No way, I can't believe how cheap that was!",
+   "natural_form": "No way, I can't believe how cheap that was!",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'can't'",
+   "stress_focus": "stress on 'cheap' and 'way'",
+   "intonation_focus": "exclamation intonation",
+   "connected_speech_focus": "linking 'can't believe'",
+   "vocabulary": [
+    {
+     "word": "no way",
+     "meaning": "expression of surprise"
+    }
+   ],
+   "grammar_focus": "exclamatory expression with 'how'",
+   "tags": [
+    "reaction",
+    "price"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "They're renovating the patio, so outdoor seating is closed off.",
+   "natural_form": "They're renovating the patio, so outdoor seating is closed off.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'they're'",
+   "stress_focus": "stress on 'renovating' and 'closed off'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'closed off'",
+   "vocabulary": [
+    {
+     "word": "closed off",
+     "meaning": "blocked and not accessible"
+    }
+   ],
+   "grammar_focus": "passive structure 'is closed off'",
+   "tags": [
+    "renovation",
+    "seating"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "We're trying to cut down on eating out so much.",
+   "natural_form": "We're trying to cut down on eating out so much.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'we're'",
+   "stress_focus": "stress on 'cut down' and 'so much'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'trying to'",
+   "vocabulary": [
+    {
+     "word": "cut down on",
+     "meaning": "to reduce"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'cut down on'",
+   "tags": [
+    "habits",
+    "budget"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "Wait, does this deal only apply to dine-in orders?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising question intonation",
+   "stress_focus": "stress on 'apply' and 'dine-in'",
+   "intonation_focus": "rising for clarification",
+   "connected_speech_focus": "linking 'apply to'",
+   "vocabulary": [
+    {
+     "word": "dine-in",
+     "meaning": "eating at the restaurant, not takeout"
+    }
+   ],
+   "grammar_focus": "restrictive clause with 'only'",
+   "tags": [
+    "deals",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "If you ask me, the brunch menu beats the dinner one hands down.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'beats' and 'hands down'",
+   "stress_focus": "emphasis on 'brunch'",
+   "intonation_focus": "falling intonation for strong opinion",
+   "connected_speech_focus": "linking 'ask me'",
+   "vocabulary": [
+    {
+     "word": "hands down",
+     "meaning": "clearly and without doubt"
+    }
+   ],
+   "grammar_focus": "idiomatic comparative expression",
+   "tags": [
+    "brunch",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Service",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "The manager came over and apologized for the mix-up personally.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'apologized' and 'personally'",
+   "stress_focus": "emphasis on 'mix-up'",
+   "intonation_focus": "falling intonation for storytelling",
+   "connected_speech_focus": "linking 'came over'",
+   "vocabulary": [
+    {
+     "word": "mix-up",
+     "meaning": "a mistake or confusion"
+    }
+   ],
+   "grammar_focus": "past simple for narrating an event",
+   "tags": [
+    "service",
+    "story"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "I'll just stick with water since I'm driving later.",
+   "natural_form": "I'll just stick with water since I'm driving later.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'I'll' and 'I'm'",
+   "stress_focus": "stress on 'stick with' and 'driving'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'stick with'",
+   "vocabulary": [
+    {
+     "word": "stick with",
+     "meaning": "to continue choosing the same thing"
+    }
+   ],
+   "grammar_focus": "'since' for reason",
+   "tags": [
+    "drinks",
+    "safety"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "workplace",
+   "sentence": "We're training a new server, so please bear with us tonight.",
+   "natural_form": "We're training a new server, so please bear with us tonight.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'we're'",
+   "stress_focus": "stress on 'training' and 'bear with'",
+   "intonation_focus": "falling intonation with politeness",
+   "connected_speech_focus": "linking 'bear with'",
+   "vocabulary": [
+    {
+     "word": "bear with",
+     "meaning": "to be patient with someone"
+    }
+   ],
+   "grammar_focus": "idiomatic phrase for patience",
+   "tags": [
+    "training",
+    "workplace"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "disagreement",
+   "sentence": "I get what you're saying, but I'd rather just split the bill evenly.",
+   "natural_form": "I get what you're saying, but I'd rather just split the bill evenly.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'you're' and 'I'd'",
+   "stress_focus": "stress on 'rather' and 'evenly'",
+   "intonation_focus": "falling intonation for disagreement",
+   "connected_speech_focus": "linking 'get what'",
+   "vocabulary": [
+    {
+     "word": "I'd rather",
+     "meaning": "I would prefer"
+    }
+   ],
+   "grammar_focus": "'would rather' for preference",
+   "tags": [
+    "disagreement",
+    "payment"
+   ]
+  },
+  {
+   "subcategory": "Seating",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "We had to wait in line for a table since it's Friday night.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'wait in line' and 'Friday'",
+   "stress_focus": "emphasis on 'since'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'had to'",
+   "vocabulary": [
+    {
+     "word": "wait in line",
+     "meaning": "to stand in a queue"
+    }
+   ],
+   "grammar_focus": "'since' for reason clause",
+   "tags": [
+    "waiting",
+    "weekend"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "They took our order down wrong, so we had to send it back.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'took down' and 'send back'",
+   "stress_focus": "emphasis on 'wrong'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'send it'",
+   "vocabulary": [
+    {
+     "word": "send back",
+     "meaning": "to return something because it's wrong"
+    }
+   ],
+   "grammar_focus": "phrasal verb 'send back'",
+   "tags": [
+    "mistake",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I think this place is way overhyped for what you actually get.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'overhyped' and 'actually'",
+   "stress_focus": "emphasis on 'way'",
+   "intonation_focus": "falling intonation for strong opinion",
+   "connected_speech_focus": "linking 'think this'",
+   "vocabulary": [
+    {
+     "word": "overhyped",
+     "meaning": "promoted as better than it really is"
+    }
+   ],
+   "grammar_focus": "'way' as intensifier before adjective",
+   "tags": [
+    "opinion",
+    "overrated"
+   ]
+  },
+  {
+   "subcategory": "Service",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "By the time our appetizers showed up, we'd already finished our drinks twice over.",
+   "natural_form": "By the time our appetizers showed up, we'd already finished our drinks twice over.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'showed up' and 'twice over'",
+   "stress_focus": "emphasis on 'already'",
+   "intonation_focus": "falling intonation for storytelling",
+   "connected_speech_focus": "linking 'we'd already'",
+   "vocabulary": [
+    {
+     "word": "twice over",
+     "meaning": "two times more than expected"
+    }
+   ],
+   "grammar_focus": "past perfect for sequencing events",
+   "tags": [
+    "waiting",
+    "story"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "disagreement",
+   "sentence": "I hear you, but I don't think it's worth splurging on the tasting menu tonight.",
+   "natural_form": "I hear you, but I don't think it's worth splurging on the tasting menu tonight.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'don't' and 'it's'",
+   "stress_focus": "stress on 'splurging' and 'worth'",
+   "intonation_focus": "falling intonation for disagreement",
+   "connected_speech_focus": "linking 'worth splurging'",
+   "vocabulary": [
+    {
+     "word": "splurge",
+     "meaning": "to spend more money than usual"
+    }
+   ],
+   "grammar_focus": "'worth' + gerund construction",
+   "tags": [
+    "disagreement",
+    "spending"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "clarification",
+   "sentence": "Hang on, are we counting the drinks toward the minimum spend or not?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation for clarification",
+   "stress_focus": "stress on 'minimum spend'",
+   "intonation_focus": "rising for clarification",
+   "connected_speech_focus": "linking 'counting the'",
+   "vocabulary": [
+    {
+     "word": "minimum spend",
+     "meaning": "the least amount you must spend"
+    }
+   ],
+   "grammar_focus": "gerund phrase as clarification subject",
+   "tags": [
+    "payment",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "We got talked into trying the chef's tasting menu, and it was worth every penny.",
+   "natural_form": "We got talked into trying the chef's tasting menu, and it was worth every penny.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'talked into' and 'every penny'",
+   "stress_focus": "emphasis on 'worth'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'talked into'",
+   "vocabulary": [
+    {
+     "word": "talked into",
+     "meaning": "persuaded to do something"
+    }
+   ],
+   "grammar_focus": "passive causative 'got talked into'",
+   "tags": [
+    "persuasion",
+    "dining"
+   ]
+  },
+  {
+   "subcategory": "Service",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "Wow, they really went above and beyond just to fix our order.",
+   "natural_form": "Wow, they really went above and beyond just to fix our order.",
+   "accent": "american",
+   "pronunciation_focus": "exclamatory stress on 'above and beyond'",
+   "stress_focus": "emphasis on 'really'",
+   "intonation_focus": "exclamation intonation",
+   "connected_speech_focus": "linking 'went above'",
+   "vocabulary": [
+    {
+     "word": "above and beyond",
+     "meaning": "doing much more than expected"
+    }
+   ],
+   "grammar_focus": "idiomatic phrase 'above and beyond'",
+   "tags": [
+    "service",
+    "praise"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "workplace",
+   "sentence": "We're a bit short-staffed tonight, so things might take a little longer than usual.",
+   "natural_form": "We're a bit short-staffed tonight, so things might take a little longer than usual.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'we're'",
+   "stress_focus": "stress on 'short-staffed'",
+   "intonation_focus": "falling intonation with apologetic tone",
+   "connected_speech_focus": "linking 'short-staffed tonight'",
+   "vocabulary": [
+    {
+     "word": "short-staffed",
+     "meaning": "not having enough employees"
+    }
+   ],
+   "grammar_focus": "'so' clause for consequence",
+   "tags": [
+    "workplace",
+    "apology"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "If you're into bold flavors, I'd say go with the dark roast over the medium.",
+   "natural_form": "If you're into bold flavors, I'd say go with the dark roast over the medium.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'you're' and 'I'd'",
+   "stress_focus": "stress on 'bold' and 'dark roast'",
+   "intonation_focus": "falling intonation for recommendation",
+   "connected_speech_focus": "linking 'go with'",
+   "vocabulary": [
+    {
+     "word": "bold flavors",
+     "meaning": "strong, intense tastes"
+    }
+   ],
+   "grammar_focus": "conditional clause for recommendation",
+   "tags": [
+    "coffee",
+    "recommendation"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "We nearly walked out after waiting forty minutes without so much as a glass of water.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'nearly' and 'so much as'",
+   "stress_focus": "emphasis on 'forty minutes'",
+   "intonation_focus": "falling intonation for storytelling",
+   "connected_speech_focus": "linking 'walked out'",
+   "vocabulary": [
+    {
+     "word": "so much as",
+     "meaning": "even (used for emphasis in negatives)"
+    }
+   ],
+   "grammar_focus": "'without so much as' idiomatic negative emphasis",
+   "tags": [
+    "complaint",
+    "story"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "disagreement",
+   "sentence": "I get that tipping is customary, but twenty percent on top of the service fee feels excessive.",
+   "natural_form": "I get that tipping is customary, but twenty percent on top of the service fee feels excessive.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'customary' and 'excessive'",
+   "stress_focus": "emphasis on 'on top of'",
+   "intonation_focus": "falling intonation for disagreement",
+   "connected_speech_focus": "linking 'on top'",
+   "vocabulary": [
+    {
+     "word": "customary",
+     "meaning": "done because it's traditional or expected"
+    }
+   ],
+   "grammar_focus": "contrastive clause with 'but'",
+   "tags": [
+    "tipping",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "Say what you want about the prices, but the quality here really does hold up.",
+   "natural_form": "Say what you want about the prices, but the quality here really does hold up.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'hold up' and 'really'",
+   "stress_focus": "emphasis on 'does'",
+   "intonation_focus": "falling intonation for concession",
+   "connected_speech_focus": "linking 'hold up'",
+   "vocabulary": [
+    {
+     "word": "hold up",
+     "meaning": "to remain good or consistent over time"
+    }
+   ],
+   "grammar_focus": "concessive structure 'say what you want'",
+   "tags": [
+    "quality",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Service",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "clarification",
+   "sentence": "Just to clarify, is the service charge separate from whatever we choose to tip?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation for clarification",
+   "stress_focus": "stress on 'separate' and 'whatever'",
+   "intonation_focus": "rising for clarification",
+   "connected_speech_focus": "linking 'separate from'",
+   "vocabulary": [
+    {
+     "word": "separate from",
+     "meaning": "distinct and not included with"
+    }
+   ],
+   "grammar_focus": "'just to clarify' as discourse marker",
+   "tags": [
+    "clarification",
+    "tipping"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "statement",
+   "sentence": "They comped our dessert after finding out it was our anniversary, which was such a nice touch.",
+   "natural_form": "They comped our dessert after finding out it was our anniversary, which was such a nice touch.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'comped' and 'nice touch'",
+   "stress_focus": "emphasis on 'anniversary'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'comped our'",
+   "vocabulary": [
+    {
+     "word": "comped",
+     "meaning": "given for free as a gesture"
+    }
+   ],
+   "grammar_focus": "non-defining relative clause with 'which'",
+   "tags": [
+    "kindness",
+    "celebration"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "agreement",
+   "sentence": "You're right, their cold brew does taste noticeably smoother than the regular drip coffee.",
+   "natural_form": "You're right, their cold brew does taste noticeably smoother than the regular drip coffee.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'you're'",
+   "stress_focus": "stress on 'noticeably' and 'smoother'",
+   "intonation_focus": "falling intonation for agreement",
+   "connected_speech_focus": "linking 'does taste'",
+   "vocabulary": [
+    {
+     "word": "noticeably",
+     "meaning": "in a way that's easy to notice"
+    }
+   ],
+   "grammar_focus": "emphatic 'does' + comparative",
+   "tags": [
+    "coffee",
+    "agreement"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "reaction",
+   "sentence": "I can't get over how quickly they turned that table around during the rush.",
+   "natural_form": "I can't get over how quickly they turned that table around during the rush.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'can't'",
+   "stress_focus": "stress on 'turned around' and 'rush'",
+   "intonation_focus": "exclamation intonation",
+   "connected_speech_focus": "linking 'get over'",
+   "vocabulary": [
+    {
+     "word": "turn a table around",
+     "meaning": "to clean and reset it quickly for new guests"
+    }
+   ],
+   "grammar_focus": "idiomatic phrasal verb 'turn around'",
+   "tags": [
+    "reaction",
+    "efficiency"
+   ]
+  },
+  {
+   "subcategory": "Service",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "workplace",
+   "sentence": "We're swamped right now, but I'll personally make sure your order gets bumped up.",
+   "natural_form": "We're swamped right now, but I'll personally make sure your order gets bumped up.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'we're' and 'I'll'",
+   "stress_focus": "stress on 'swamped' and 'bumped up'",
+   "intonation_focus": "falling intonation with reassurance",
+   "connected_speech_focus": "linking 'bumped up'",
+   "vocabulary": [
+    {
+     "word": "bumped up",
+     "meaning": "moved higher in priority"
+    }
+   ],
+   "grammar_focus": "causative structure 'make sure'",
+   "tags": [
+    "workplace",
+    "reassurance"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "Between you and me, I think they've been cutting corners on portion sizes lately.",
+   "natural_form": "Between you and me, I think they've been cutting corners on portion sizes lately.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'they've'",
+   "stress_focus": "stress on 'cutting corners' and 'lately'",
+   "intonation_focus": "falling intonation for confidential opinion",
+   "connected_speech_focus": "linking 'cutting corners'",
+   "vocabulary": [
+    {
+     "word": "cutting corners",
+     "meaning": "doing something in a cheaper, lower-quality way"
+    }
+   ],
+   "grammar_focus": "present perfect continuous with idiom",
+   "tags": [
+    "opinion",
+    "quality"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "statement",
+   "sentence": "We ended up going halfsies on the check since neither of us finished our meals anyway.",
+   "natural_form": "We ended up going halfsies on the check since neither of us finished our meals anyway.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'halfsies' and 'anyway'",
+   "stress_focus": "emphasis on 'neither'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'ended up'",
+   "vocabulary": [
+    {
+     "word": "go halfsies",
+     "meaning": "to split something equally, informal"
+    }
+   ],
+   "grammar_focus": "'since' clause for justification",
+   "tags": [
+    "payment",
+    "informal"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "We got seated right next to the kitchen, so we heard every pot and pan clanging all night.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'clanging' and 'all night'",
+   "stress_focus": "emphasis on 'every'",
+   "intonation_focus": "falling intonation for storytelling",
+   "connected_speech_focus": "linking 'seated right'",
+   "vocabulary": [
+    {
+     "word": "clanging",
+     "meaning": "making a loud metallic noise"
+    }
+   ],
+   "grammar_focus": "'so' for consequence in narrative",
+   "tags": [
+    "seating",
+    "story"
+   ]
+  },
+  {
+   "subcategory": "Drinks",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "disagreement",
+   "sentence": "I wouldn't necessarily say the espresso is bad, it's just not as strong as I'd like.",
+   "natural_form": "I wouldn't necessarily say the espresso is bad, it's just not as strong as I'd like.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'wouldn't' and 'it's'",
+   "stress_focus": "stress on 'necessarily' and 'strong'",
+   "intonation_focus": "falling intonation for softened disagreement",
+   "connected_speech_focus": "linking 'wouldn't necessarily'",
+   "vocabulary": [
+    {
+     "word": "necessarily",
+     "meaning": "as a certain or definite result"
+    }
+   ],
+   "grammar_focus": "softened negation with 'wouldn't necessarily'",
+   "tags": [
+    "coffee",
+    "disagreement"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "opinion",
+   "sentence": "At the end of the day, you get what you pay for, and this place proves it.",
+   "natural_form": "At the end of the day, you get what you pay for, and this place proves it.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'end of the day' and 'proves'",
+   "stress_focus": "emphasis on 'pay for'",
+   "intonation_focus": "falling intonation for concluding opinion",
+   "connected_speech_focus": "linking 'get what'",
+   "vocabulary": [
+    {
+     "word": "at the end of the day",
+     "meaning": "when everything is considered, ultimately"
+    }
+   ],
+   "grammar_focus": "idiomatic phrase for final opinion",
+   "tags": [
+    "opinion",
+    "value"
+   ]
+  },
+  {
+   "subcategory": "Service",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "storytelling",
+   "sentence": "The waiter juggled three tables at once and somehow still remembered every single one of our orders.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'juggled' and 'remembered'",
+   "stress_focus": "emphasis on 'somehow'",
+   "intonation_focus": "falling intonation for storytelling",
+   "connected_speech_focus": "linking 'juggled three'",
+   "vocabulary": [
+    {
+     "word": "juggled",
+     "meaning": "managed several tasks at the same time"
+    }
+   ],
+   "grammar_focus": "'somehow still' for contrast in narrative",
+   "tags": [
+    "service",
+    "story"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "workplace",
+   "sentence": "We had to eighty-six the special halfway through service because we ran out of ingredients.",
+   "natural_form": "We had to eighty-six the special halfway through service because we ran out of ingredients.",
+   "accent": "american",
+   "pronunciation_focus": "stress on 'eighty-six' and 'ran out'",
+   "stress_focus": "emphasis on 'halfway'",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'eighty-six the'",
+   "vocabulary": [
+    {
+     "word": "eighty-six",
+     "meaning": "restaurant slang meaning to remove from the menu"
+    }
+   ],
+   "grammar_focus": "restaurant industry slang as verb",
+   "tags": [
+    "workplace",
+    "slang"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "clarification",
+   "sentence": "Just so we're on the same page, does the gratuity get automatically added for large parties here?",
+   "natural_form": "Just so we're on the same page, does the gratuity get automatically added for large parties here?",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'we're'",
+   "stress_focus": "stress on 'gratuity' and 'automatically'",
+   "intonation_focus": "rising intonation for clarification",
+   "connected_speech_focus": "linking 'on the'",
+   "vocabulary": [
+    {
+     "word": "gratuity",
+     "meaning": "a formal word for a tip"
+    }
+   ],
+   "grammar_focus": "idiom 'on the same page' for shared understanding",
+   "tags": [
+    "clarification",
+    "tipping"
+   ]
+  },
+  {
+   "subcategory": "Ordering",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "opinion",
+   "sentence": "I know it's a splurge, but every once in a while it's nice to treat yourself to something like this.",
+   "natural_form": "I know it's a splurge, but every once in a while it's nice to treat yourself to something like this.",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'it's'",
+   "stress_focus": "stress on 'splurge' and 'treat yourself'",
+   "intonation_focus": "falling intonation for reflective opinion",
+   "connected_speech_focus": "linking 'once in a while'",
+   "vocabulary": [
+    {
+     "word": "every once in a while",
+     "meaning": "occasionally, not often"
+    }
+   ],
+   "grammar_focus": "idiomatic frequency phrase in complex sentence",
+   "tags": [
+    "opinion",
+    "treat"
+   ]
+  }
+ ]
+}

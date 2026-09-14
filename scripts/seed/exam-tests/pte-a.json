@@ -1,0 +1,179 @@
+{
+  "tests": [
+    {
+      "exam": "pte",
+      "slug": "pte-ocean-currents-impact",
+      "task_type": "read-aloud",
+      "task_label": "Read Aloud",
+      "topic": "Impact of Ocean Currents",
+      "difficulty": "Beginner",
+      "instructions": "Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible.",
+      "prepare_seconds": 35,
+      "speak_seconds": 40,
+      "questions": [
+        "Ocean currents play a vital role in regulating the global climate by transporting warm water from the equator toward the poles. This process helps to distribute heat more evenly across the planet, influencing weather patterns and supporting diverse marine ecosystems that are essential for the survival of many species.",
+        "Coastal regions often experience milder temperatures compared to inland areas due to the influence of nearby oceans. As water heats and cools more slowly than land, it acts as a thermal buffer, preventing extreme temperature fluctuations during the changing seasons and providing a stable environment for local wildlife.",
+        "Deep-water currents, also known as the global conveyor belt, are driven by differences in temperature and salinity. These slow-moving currents circulate water throughout the entire ocean, transporting nutrients and oxygen to various depths and supporting life in parts of the sea that sunlight cannot reach."
+      ],
+      "sort_order": 1
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-ancient-civilization-structures",
+      "task_type": "read-aloud",
+      "task_label": "Read Aloud",
+      "topic": "Ancient Civilization Structures",
+      "difficulty": "Intermediate",
+      "instructions": "Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible.",
+      "prepare_seconds": 35,
+      "speak_seconds": 40,
+      "questions": [
+        "The architectural achievements of ancient civilizations continue to baffle modern engineers and historians alike. From the massive pyramids of Giza to the intricate stone carvings of Mesoamerica, these structures demonstrate an advanced understanding of geometry and astronomy that was achieved long before the invention of modern construction equipment.",
+        "Sophisticated irrigation systems developed by the Indus Valley Civilization allowed for successful agriculture in arid regions. By managing water resources effectively, these ancient societies were able to sustain large populations and build complex urban centers that flourished for several centuries, providing a blueprint for early urban planning.",
+        "The construction of the Great Wall of China represents one of the most ambitious engineering projects in human history. Stretching across thousands of miles, it was built to protect the empire from nomadic invasions and required the labor of millions of workers, showcasing the incredible organizational power of ancient dynasties."
+      ],
+      "sort_order": 2
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-market-fluctuations-consumer",
+      "task_type": "read-aloud",
+      "task_label": "Read Aloud",
+      "topic": "Market Fluctuations and Consumer Behavior",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible.",
+      "prepare_seconds": 35,
+      "speak_seconds": 40,
+      "questions": [
+        "Understanding market fluctuations requires a deep analysis of consumer behavior and psychological triggers. When economic uncertainty arises, individuals often reduce their spending on luxury items and prioritize essential goods. This shift in spending patterns can lead to significant changes in the stock market and influence long-term business investment strategies.",
+        "Investor sentiment is frequently driven by news cycles and geopolitical events, leading to sudden shifts in asset prices. Experienced traders analyze these trends to identify opportunities, but the inherent volatility of the market means that risks are always present, even for seasoned professionals who utilize advanced algorithmic models.",
+        "The rise of digital currencies has introduced a new layer of complexity to the global financial system. While some see them as a revolutionary tool for decentralization, others remain skeptical about their long-term stability and the potential for regulatory oversight in the future as governments attempt to mitigate financial risks."
+      ],
+      "sort_order": 3
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-sustainable-urban-development",
+      "task_type": "read-aloud",
+      "task_label": "Read Aloud",
+      "topic": "Sustainable Development in Urban Areas",
+      "difficulty": "Advanced",
+      "instructions": "Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible.",
+      "prepare_seconds": 35,
+      "speak_seconds": 40,
+      "questions": [
+        "Sustainable urban development aims to balance economic growth with environmental preservation and social equity. By integrating green spaces, efficient public transportation, and energy-efficient building designs, cities can reduce their carbon footprint while improving the quality of life for residents, ensuring that urban environments remain habitable for future generations.",
+        "Smart city technologies utilize data and internet-connected devices to optimize urban services such as traffic management and waste collection. These innovations help city planners make informed decisions, reducing operational costs and enhancing the efficiency of infrastructure in densely populated metropolitan areas where resources are often stretched to their limits.",
+        "The concept of the fifteen-minute city proposes that all essential services should be accessible within a short walk or bike ride from one's home. This urban planning model encourages physical activity, reduces reliance on personal vehicles, and fosters a stronger sense of community by reclaiming streets for people."
+      ],
+      "sort_order": 4
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-advancements-modern-medicine",
+      "task_type": "read-aloud",
+      "task_label": "Read Aloud",
+      "topic": "Technological Advancements in Modern Medicine",
+      "difficulty": "Advanced",
+      "instructions": "Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible.",
+      "prepare_seconds": 35,
+      "speak_seconds": 40,
+      "questions": [
+        "The rapid advancement of medical technology has revolutionized the way we diagnose and treat complex diseases. Innovative tools such as robotic surgery and personalized genomic sequencing allow for more precise interventions and improved patient outcomes, though these developments also raise ethical questions regarding accessibility and the equitable distribution of resources.",
+        "Telemedicine has emerged as a vital component of modern healthcare, providing patients with access to medical professionals regardless of their geographical location. This digital transformation has been particularly beneficial for rural communities, where traditional healthcare facilities may be limited or difficult to reach due to distance and infrastructure challenges.",
+        "Artificial intelligence is increasingly being used to analyze vast amounts of medical data to identify patterns and predict disease outbreaks. By leveraging machine learning algorithms, researchers can develop new drugs more quickly and tailor treatments to the specific needs of individual patients, marking a new era of precision medicine."
+      ],
+      "sort_order": 5
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-basic-environmental-awareness",
+      "task_type": "repeat-sentence",
+      "task_label": "Repeat Sentence",
+      "topic": "Basic Environmental Awareness",
+      "difficulty": "Beginner",
+      "instructions": "You will hear a sentence. Please repeat the sentence exactly as you hear it.",
+      "prepare_seconds": 0,
+      "speak_seconds": 15,
+      "questions": [
+        "Recycling plastic bottles helps protect our environment from unnecessary pollution.",
+        "Planting trees is a simple way to combat climate change locally.",
+        "Turning off the lights saves energy and reduces your electricity bill.",
+        "Using a reusable water bottle significantly decreases the amount of waste."
+      ],
+      "sort_order": 6
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-historical-research-methodologies",
+      "task_type": "repeat-sentence",
+      "task_label": "Repeat Sentence",
+      "topic": "Historical Research Methodologies",
+      "difficulty": "Intermediate",
+      "instructions": "You will hear a sentence. Please repeat the sentence exactly as you hear it.",
+      "prepare_seconds": 0,
+      "speak_seconds": 15,
+      "questions": [
+        "Historical documents provide valuable insights into the lives of ordinary citizens.",
+        "Researchers must carefully verify the authenticity of primary sources before drawing conclusions.",
+        "Comparing different perspectives allows historians to create a more accurate narrative.",
+        "The museum's archive contains thousands of letters written during the colonial period."
+      ],
+      "sort_order": 7
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-global-economic-interdependence",
+      "task_type": "repeat-sentence",
+      "task_label": "Repeat Sentence",
+      "topic": "Global Economic Interdependence",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "You will hear a sentence. Please repeat the sentence exactly as you hear it.",
+      "prepare_seconds": 0,
+      "speak_seconds": 15,
+      "questions": [
+        "Global trade agreements facilitate the movement of goods across international borders.",
+        "Fluctuations in exchange rates can have a major impact on international business.",
+        "Developing nations often rely on foreign investment to improve their local infrastructure.",
+        "Consumer demand for sustainable products has increased significantly over the past decade."
+      ],
+      "sort_order": 8
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-neuroplasticity-cognitive-function",
+      "task_type": "repeat-sentence",
+      "task_label": "Repeat Sentence",
+      "topic": "Neuroplasticity and Cognitive Function",
+      "difficulty": "Advanced",
+      "instructions": "You will hear a sentence. Please repeat the sentence exactly as you hear it.",
+      "prepare_seconds": 0,
+      "speak_seconds": 15,
+      "questions": [
+        "The complexity of neural pathways determines how information is processed by the brain.",
+        "Neuroplasticity allows the brain to adapt and reorganize itself after an injury.",
+        "Cognitive function can be enhanced through regular mental exercises and healthy habits.",
+        "Synaptic connections are strengthened when we repeatedly perform a specific task or skill."
+      ],
+      "sort_order": 9
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-renewable-energy-policy",
+      "task_type": "repeat-sentence",
+      "task_label": "Repeat Sentence",
+      "topic": "Renewable Energy Policy Frameworks",
+      "difficulty": "Advanced",
+      "instructions": "You will hear a sentence. Please repeat the sentence exactly as you hear it.",
+      "prepare_seconds": 0,
+      "speak_seconds": 15,
+      "questions": [
+        "Implementing renewable energy policies requires cooperation between government agencies and private firms.",
+        "Subsidies for solar panel installation have encouraged many homeowners to switch to green energy.",
+        "The transition to a low-carbon economy is essential for long-term environmental sustainability.",
+        "New legislation aims to reduce carbon emissions by thirty percent within the next decade."
+      ],
+      "sort_order": 10
+    }
+  ]
+}

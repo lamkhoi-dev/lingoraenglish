@@ -1,0 +1,41 @@
+{
+  "topic_slug": "greetings-introductions",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "First meeting",
+      "turns": [
+        { "speaker_label": "Anna", "speaker_voice": "shimmer", "sentence": "Hi, I'm Anna. Nice to meet you.", "is_free": true },
+        { "speaker_label": "Ben", "speaker_voice": "alloy", "sentence": "Nice to meet you too. I'm Ben.", "is_free": true },
+        { "speaker_label": "Anna", "speaker_voice": "shimmer", "sentence": "Are you new here?", "is_free": true },
+        { "speaker_label": "Ben", "speaker_voice": "alloy", "sentence": "Yes, this is my first week.", "is_free": true },
+        { "speaker_label": "Anna", "speaker_voice": "shimmer", "sentence": "Welcome! Let me know if you need anything.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Reconnecting",
+      "turns": [
+        { "speaker_label": "Maria", "speaker_voice": "coral", "sentence": "Wait, is that you? I haven't seen you in ages!", "is_free": false },
+        { "speaker_label": "David", "speaker_voice": "sage", "sentence": "Oh my gosh, Maria! It's been, what, five years?", "is_free": false },
+        { "speaker_label": "Maria", "speaker_voice": "coral", "sentence": "Something like that. You look exactly the same!", "is_free": false },
+        { "speaker_label": "David", "speaker_voice": "sage", "sentence": "Ha, I wish. So what have you been up to all this time?", "is_free": false },
+        { "speaker_label": "Maria", "speaker_voice": "coral", "sentence": "Long story — let's grab a coffee and I'll catch you up.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Formal introduction",
+      "turns": [
+        { "speaker_label": "Host", "speaker_voice": "nova", "sentence": "Allow me to introduce you to our new department head, Dr. Patel.", "is_free": false },
+        { "speaker_label": "Guest", "speaker_voice": "shimmer", "sentence": "It's a pleasure to finally put a face to the name — I've heard a great deal about your work.", "is_free": false },
+        { "speaker_label": "Host", "speaker_voice": "nova", "sentence": "Likewise. I understand you two overlapped briefly at the Geneva conference?", "is_free": false },
+        { "speaker_label": "Guest", "speaker_voice": "shimmer", "sentence": "We did, though only in passing — I'm looking forward to a proper conversation this time.", "is_free": false },
+        { "speaker_label": "Host", "speaker_voice": "nova", "sentence": "Wonderful. I'll leave you two to it, then.", "is_free": false }
+      ]
+    }
+  ]
+}

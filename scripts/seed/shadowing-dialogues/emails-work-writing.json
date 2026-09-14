@@ -1,0 +1,41 @@
+{
+  "topic_slug": "emails-work-writing",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Checking on an email",
+      "turns": [
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Did you get my email from yesterday?", "is_free": true },
+        { "speaker_label": "Colleague B", "speaker_voice": "alloy", "sentence": "Yes, I read it this morning.", "is_free": true },
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Great, can you reply by today?", "is_free": true },
+        { "speaker_label": "Colleague B", "speaker_voice": "alloy", "sentence": "Sure, I'll send my answer soon.", "is_free": true },
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Thanks, I appreciate it.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Clarifying tone",
+      "turns": [
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "I wasn't sure if your email meant the deadline moved or just the meeting time.", "is_free": false },
+        { "speaker_label": "Colleague B", "speaker_voice": "sage", "sentence": "Sorry, that was unclear on my part — I only meant the meeting time shifted.", "is_free": false },
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "Ah, that makes much more sense, thanks for confirming.", "is_free": false },
+        { "speaker_label": "Colleague B", "speaker_voice": "sage", "sentence": "No problem, I'll be more explicit with subject lines going forward.", "is_free": false },
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "That would definitely help avoid confusion like this.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Drafting a sensitive message",
+      "turns": [
+        { "speaker_label": "Manager", "speaker_voice": "nova", "sentence": "I need to word this email carefully — I want to flag the missed deadline without sounding accusatory.", "is_free": false },
+        { "speaker_label": "HR advisor", "speaker_voice": "shimmer", "sentence": "I'd suggest opening with the impact rather than the mistake, then moving into a solutions-focused tone.", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "nova", "sentence": "That's helpful — something like acknowledging the pressure they've been under first?", "is_free": false },
+        { "speaker_label": "HR advisor", "speaker_voice": "shimmer", "sentence": "Exactly, and close by outlining next steps together rather than dictating them.", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "nova", "sentence": "That framing feels much fairer. Let me redraft it with that structure in mind.", "is_free": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1569 @@
+{
+ "lessons": [
+  {
+   "slug": "a1-pharmacy-pickup",
+   "title": "Picking up a prescription",
+   "level": "A1",
+   "category": "Everyday Life",
+   "topic": "Pharmacy",
+   "difficulty": 1,
+   "duration_seconds": 28,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Pharmacist",
+     "line": "Hi there, are you picking up today?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Yes, it's under Smith. John Smith."
+    },
+    {
+     "speaker": "Pharmacist",
+     "line": "Okay, let me check. Just a second."
+    },
+    {
+     "speaker": "Pharmacist",
+     "line": "Here it is. It'll be ready in about ten minutes."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Sure, no problem. I'll wait over there."
+    },
+    {
+     "speaker": "Pharmacist",
+     "line": "Great. Do you have any questions about it?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Yeah, do I take it with food?"
+    },
+    {
+     "speaker": "Pharmacist",
+     "line": "Yes, take one pill with breakfast every day."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is this conversation mainly about?",
+     "options": [
+      "Picking up medicine",
+      "Buying groceries",
+      "Making a doctor's appointment",
+      "Returning a product"
+     ],
+     "answer": "Picking up medicine",
+     "explanation": "The customer is at the pharmacy to pick up a prescription.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long will it take for the prescription to be ready?",
+     "options": [
+      "About ten minutes",
+      "About an hour",
+      "It's already ready",
+      "About a day"
+     ],
+     "answer": "About ten minutes",
+     "explanation": "The pharmacist says it'll be ready in about ten minutes.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "When should the customer take the pill?",
+     "options": [
+      "With breakfast",
+      "Before bed",
+      "On an empty stomach",
+      "Twice a day"
+     ],
+     "answer": "With breakfast",
+     "explanation": "The pharmacist tells him to take one pill with breakfast.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "What name is the prescription under?",
+     "options": [
+      "John Smith",
+      "John Brown",
+      "Jane Smith",
+      "Mike Smith"
+     ],
+     "answer": "John Smith",
+     "explanation": "The customer says it's under Smith, John Smith.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the customer ask about food?",
+     "options": [
+      "To know how to take the medicine correctly",
+      "To order food",
+      "To ask for a discount",
+      "To complain"
+     ],
+     "answer": "To know how to take the medicine correctly",
+     "explanation": "He wants instructions on how to take the pill.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "It'll be ready in about ten minutes.",
+     "blanks": [
+      "ready",
+      "ten"
+     ],
+     "challenge": "contraction",
+     "explanation": "'It'll' is a contraction of 'it will'."
+    },
+    {
+     "sentence": "Yes, it's under Smith.",
+     "blanks": [
+      "under"
+     ],
+     "challenge": "weak_form",
+     "explanation": "'Under' is spoken quickly and weakly here."
+    },
+    {
+     "sentence": "Sure, no problem. I'll wait over there.",
+     "blanks": [
+      "wait",
+      "there"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'll' sounds like one quick syllable."
+    },
+    {
+     "sentence": "Yes, take one pill with breakfast every day.",
+     "blanks": [
+      "pill",
+      "breakfast"
+     ],
+     "challenge": "expression",
+     "explanation": "This is a common instruction pattern for medicine."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "it will",
+     "spoken": "it'll"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    }
+   ]
+  },
+  {
+   "slug": "a1-clinic-checkin",
+   "title": "Checking in at the clinic",
+   "level": "A1",
+   "category": "Everyday Life",
+   "topic": "Clinic reception",
+   "difficulty": 1,
+   "duration_seconds": 30,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Receptionist",
+     "line": "Good morning. Do you have an appointment?"
+    },
+    {
+     "speaker": "Patient",
+     "line": "Yes, at ten thirty with Dr. Lee."
+    },
+    {
+     "speaker": "Receptionist",
+     "line": "Can I get your name and date of birth?"
+    },
+    {
+     "speaker": "Patient",
+     "line": "Anna Park, March 3rd, 1995."
+    },
+    {
+     "speaker": "Receptionist",
+     "line": "Thanks. Please have a seat, she'll call you soon."
+    },
+    {
+     "speaker": "Patient",
+     "line": "Okay, thank you. Is there a bathroom nearby?"
+    },
+    {
+     "speaker": "Receptionist",
+     "line": "Yes, it's just down the hall on the left."
+    },
+    {
+     "speaker": "Patient",
+     "line": "Great, thanks a lot."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the patient doing?",
+     "options": [
+      "Checking in for an appointment",
+      "Paying a bill",
+      "Filling a prescription",
+      "Asking for directions to a hospital"
+     ],
+     "answer": "Checking in for an appointment",
+     "explanation": "She checks in with the receptionist for her appointment.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What time is the appointment?",
+     "options": [
+      "Ten thirty",
+      "Eleven",
+      "Nine thirty",
+      "Ten"
+     ],
+     "answer": "Ten thirty",
+     "explanation": "She says her appointment is at ten thirty.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Who is the doctor?",
+     "options": [
+      "Dr. Lee",
+      "Dr. Park",
+      "Dr. Kim",
+      "Dr. Anna"
+     ],
+     "answer": "Dr. Lee",
+     "explanation": "Her appointment is with Dr. Lee.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "Where is the bathroom?",
+     "options": [
+      "Down the hall on the left",
+      "Next to the door",
+      "Upstairs",
+      "Outside"
+     ],
+     "answer": "Down the hall on the left",
+     "explanation": "The receptionist tells her it's down the hall on the left.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'have a seat' mean?",
+     "options": [
+      "Sit down",
+      "Stand up",
+      "Leave the room",
+      "Go home"
+     ],
+     "answer": "Sit down",
+     "explanation": "'Have a seat' is a polite way to say 'sit down'.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Yes, at ten thirty with Dr. Lee.",
+     "blanks": [
+      "ten",
+      "thirty"
+     ],
+     "challenge": "numbers",
+     "explanation": "Numbers are often reduced in fast speech."
+    },
+    {
+     "sentence": "Please have a seat, she'll call you soon.",
+     "blanks": [
+      "seat",
+      "soon"
+     ],
+     "challenge": "contraction",
+     "explanation": "'She'll' is a contraction of 'she will'."
+    },
+    {
+     "sentence": "Yes, it's just down the hall on the left.",
+     "blanks": [
+      "down",
+      "left"
+     ],
+     "challenge": "weak_form",
+     "explanation": "'Just' is often unstressed in speech."
+    },
+    {
+     "sentence": "Anna Park, March 3rd, 1995.",
+     "blanks": [
+      "March",
+      "1995"
+     ],
+     "challenge": "dates",
+     "explanation": "Dates and years can be tricky to hear clearly."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "she will",
+     "spoken": "she'll"
+    }
+   ]
+  },
+  {
+   "slug": "a1-bank-deposit",
+   "title": "Making a deposit at the bank",
+   "level": "A1",
+   "category": "Everyday Life",
+   "topic": "Bank teller",
+   "difficulty": 1,
+   "duration_seconds": 30,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Teller",
+     "line": "Hi, how can I help you today?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "I'd like to deposit this check, please."
+    },
+    {
+     "speaker": "Teller",
+     "line": "Sure. Can I see your ID and your card?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Here you go."
+    },
+    {
+     "speaker": "Teller",
+     "line": "Thanks. Do you want that in checking or savings?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Checking, please."
+    },
+    {
+     "speaker": "Teller",
+     "line": "Okay, all done. Here's your receipt."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Thank you so much."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What does the customer want to do?",
+     "options": [
+      "Deposit a check",
+      "Withdraw cash",
+      "Open a new account",
+      "Apply for a loan"
+     ],
+     "answer": "Deposit a check",
+     "explanation": "The customer asks to deposit a check.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the teller ask for?",
+     "options": [
+      "ID and card",
+      "Passport only",
+      "Phone number",
+      "Address"
+     ],
+     "answer": "ID and card",
+     "explanation": "The teller asks to see the customer's ID and card.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Which account does the customer choose?",
+     "options": [
+      "Checking",
+      "Savings",
+      "Both",
+      "Neither"
+     ],
+     "answer": "Checking",
+     "explanation": "The customer says checking, please.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "The customer wants to withdraw money.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "The customer wants to deposit a check, not withdraw money.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the teller give a receipt?",
+     "options": [
+      "To confirm the transaction",
+      "To sell a product",
+      "To ask for a signature",
+      "To close the account"
+     ],
+     "answer": "To confirm the transaction",
+     "explanation": "The receipt confirms the deposit was completed.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I'd like to deposit this check, please.",
+     "blanks": [
+      "deposit",
+      "check"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'd' is a contraction of 'I would'."
+    },
+    {
+     "sentence": "Sure. Can I see your ID and your card?",
+     "blanks": [
+      "ID",
+      "card"
+     ],
+     "challenge": "fast_speech",
+     "explanation": "These two items are said quickly together."
+    },
+    {
+     "sentence": "Do you want that in checking or savings?",
+     "blanks": [
+      "checking",
+      "savings"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Or' links the two options quickly."
+    },
+    {
+     "sentence": "Okay, all done. Here's your receipt.",
+     "blanks": [
+      "done",
+      "receipt"
+     ],
+     "challenge": "contraction",
+     "explanation": "'Here's' is a contraction of 'here is'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "I would",
+     "spoken": "I'd"
+    },
+    {
+     "written": "here is",
+     "spoken": "here's"
+    }
+   ]
+  },
+  {
+   "slug": "a1-library-card",
+   "title": "Getting a library card",
+   "level": "A1",
+   "category": "Everyday Life",
+   "topic": "Library",
+   "difficulty": 1,
+   "duration_seconds": 28,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Librarian",
+     "line": "Hi, welcome to the library. Can I help you?"
+    },
+    {
+     "speaker": "Visitor",
+     "line": "Yeah, I want to get a library card."
+    },
+    {
+     "speaker": "Librarian",
+     "line": "Sure, do you have an ID with your address?"
+    },
+    {
+     "speaker": "Visitor",
+     "line": "Yes, here's my driver's license."
+    },
+    {
+     "speaker": "Librarian",
+     "line": "Perfect. Just fill out this form, please."
+    },
+    {
+     "speaker": "Visitor",
+     "line": "Okay. How long does it take?"
+    },
+    {
+     "speaker": "Librarian",
+     "line": "Just a couple of minutes. You can borrow books today."
+    },
+    {
+     "speaker": "Visitor",
+     "line": "Awesome, thank you."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What does the visitor want?",
+     "options": [
+      "A library card",
+      "A book to buy",
+      "A job at the library",
+      "Directions to a bookstore"
+     ],
+     "answer": "A library card",
+     "explanation": "The visitor asks to get a library card.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What ID does the visitor show?",
+     "options": [
+      "Driver's license",
+      "Passport",
+      "Student ID",
+      "Health card"
+     ],
+     "answer": "Driver's license",
+     "explanation": "She shows her driver's license.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long does the process take?",
+     "options": [
+      "A couple of minutes",
+      "An hour",
+      "A whole day",
+      "A week"
+     ],
+     "answer": "A couple of minutes",
+     "explanation": "The librarian says it just takes a couple of minutes.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "The visitor can borrow books today.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "explanation": "The librarian says she can borrow books today.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'fill out' mean here?",
+     "options": [
+      "Complete a form",
+      "Throw away a form",
+      "Read a form",
+      "Copy a form"
+     ],
+     "answer": "Complete a form",
+     "explanation": "'Fill out this form' means to complete it with information.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Yeah, I want to get a library card.",
+     "blanks": [
+      "want",
+      "card"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'Want to' is often reduced to 'wanna' in fast speech."
+    },
+    {
+     "sentence": "Sure, do you have an ID with your address?",
+     "blanks": [
+      "ID",
+      "address"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Words link smoothly together in natural speech."
+    },
+    {
+     "sentence": "Just a couple of minutes.",
+     "blanks": [
+      "couple",
+      "minutes"
+     ],
+     "challenge": "fast_speech",
+     "explanation": "'Couple of' is often said quickly as one chunk."
+    },
+    {
+     "sentence": "You can borrow books today.",
+     "blanks": [
+      "borrow",
+      "today"
+     ],
+     "challenge": "weak_form",
+     "explanation": "'Can' is unstressed and reduced here."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    },
+    {
+     "written": "couple of",
+     "spoken": "coupla"
+    }
+   ]
+  },
+  {
+   "slug": "a1-post-office-package",
+   "title": "Sending a package at the post office",
+   "level": "A1",
+   "category": "Everyday Life",
+   "topic": "Post office",
+   "difficulty": 2,
+   "duration_seconds": 32,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Clerk",
+     "line": "Next! What can I do for you?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "I need to send this package to Toronto."
+    },
+    {
+     "speaker": "Clerk",
+     "line": "Okay, let's put it on the scale."
+    },
+    {
+     "speaker": "Clerk",
+     "line": "It's two pounds. Do you want regular or express?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "How much is express?"
+    },
+    {
+     "speaker": "Clerk",
+     "line": "That'll be fifteen dollars, and it arrives in two days."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Okay, let's do express then."
+    },
+    {
+     "speaker": "Clerk",
+     "line": "Great, that comes to fifteen dollars even."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the customer doing?",
+     "options": [
+      "Sending a package",
+      "Buying stamps",
+      "Picking up mail",
+      "Renting a mailbox"
+     ],
+     "answer": "Sending a package",
+     "explanation": "The customer wants to send a package to Toronto.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How much does the package weigh?",
+     "options": [
+      "Two pounds",
+      "Five pounds",
+      "One pound",
+      "Ten pounds"
+     ],
+     "answer": "Two pounds",
+     "explanation": "The clerk says the package is two pounds.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "How much is express shipping?",
+     "options": [
+      "Fifteen dollars",
+      "Ten dollars",
+      "Twenty dollars",
+      "Five dollars"
+     ],
+     "answer": "Fifteen dollars",
+     "explanation": "The clerk says express costs fifteen dollars.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "How many days does express shipping take?",
+     "options": [
+      "Two days",
+      "One day",
+      "Five days",
+      "A week"
+     ],
+     "answer": "Two days",
+     "explanation": "The clerk says it arrives in two days.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the customer ask about the price?",
+     "options": [
+      "To decide which shipping option to choose",
+      "To complain about the cost",
+      "To cancel the order",
+      "To get a discount"
+     ],
+     "answer": "To decide which shipping option to choose",
+     "explanation": "She's comparing options before choosing express.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I need to send this package to Toronto.",
+     "blanks": [
+      "send",
+      "package"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Need to' links smoothly in speech."
+    },
+    {
+     "sentence": "It's two pounds.",
+     "blanks": [
+      "two",
+      "pounds"
+     ],
+     "challenge": "numbers",
+     "explanation": "Numbers can be quick and easy to miss."
+    },
+    {
+     "sentence": "That'll be fifteen dollars, and it arrives in two days.",
+     "blanks": [
+      "fifteen",
+      "two"
+     ],
+     "challenge": "contraction",
+     "explanation": "'That'll' is a contraction of 'that will'."
+    },
+    {
+     "sentence": "Great, that comes to fifteen dollars even.",
+     "blanks": [
+      "comes",
+      "even"
+     ],
+     "challenge": "expression",
+     "explanation": "'Even' here means exactly that amount."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "that will",
+     "spoken": "that'll"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "a1-calling-a-taxi",
+   "title": "Calling a taxi",
+   "level": "A1",
+   "category": "Everyday Life",
+   "topic": "Calling a taxi",
+   "difficulty": 1,
+   "duration_seconds": 26,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Dispatcher",
+     "line": "Hello, taxi service. Where are you going?"
+    },
+    {
+     "speaker": "Caller",
+     "line": "Hi, I need a ride to the airport."
+    },
+    {
+     "speaker": "Dispatcher",
+     "line": "Okay, what's your address right now?"
+    },
+    {
+     "speaker": "Caller",
+     "line": "I'm at 22 Maple Street."
+    },
+    {
+     "speaker": "Dispatcher",
+     "line": "Got it. A car will be there in ten minutes."
+    },
+    {
+     "speaker": "Caller",
+     "line": "Perfect, thank you."
+    },
+    {
+     "speaker": "Dispatcher",
+     "line": "No problem. It'll be a blue sedan."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "Why is the caller calling?",
+     "options": [
+      "To order a taxi",
+      "To book a hotel",
+      "To ask for directions",
+      "To rent a car"
+     ],
+     "answer": "To order a taxi",
+     "explanation": "The caller wants a ride to the airport.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Where does the caller want to go?",
+     "options": [
+      "The airport",
+      "The hotel",
+      "The train station",
+      "The mall"
+     ],
+     "answer": "The airport",
+     "explanation": "The caller says she needs a ride to the airport.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is the caller's address?",
+     "options": [
+      "22 Maple Street",
+      "12 Maple Street",
+      "22 Oak Street",
+      "2 Maple Street"
+     ],
+     "answer": "22 Maple Street",
+     "explanation": "She says she's at 22 Maple Street.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "How long will the taxi take to arrive?",
+     "options": [
+      "Ten minutes",
+      "Twenty minutes",
+      "Five minutes",
+      "An hour"
+     ],
+     "answer": "Ten minutes",
+     "explanation": "The dispatcher says a car will be there in ten minutes.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What color is the car?",
+     "options": [
+      "Blue",
+      "Red",
+      "Black",
+      "White"
+     ],
+     "answer": "Blue",
+     "explanation": "The dispatcher says it'll be a blue sedan.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Hi, I need a ride to the airport.",
+     "blanks": [
+      "ride",
+      "airport"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Need a' links smoothly together."
+    },
+    {
+     "sentence": "I'm at 22 Maple Street.",
+     "blanks": [
+      "22",
+      "Maple"
+     ],
+     "challenge": "numbers",
+     "explanation": "Numbers can be reduced and quick in speech."
+    },
+    {
+     "sentence": "Got it. A car will be there in ten minutes.",
+     "blanks": [
+      "car",
+      "ten"
+     ],
+     "challenge": "fast_speech",
+     "explanation": "'Will be' is often said quickly in casual speech."
+    },
+    {
+     "sentence": "No problem. It'll be a blue sedan.",
+     "blanks": [
+      "blue",
+      "sedan"
+     ],
+     "challenge": "contraction",
+     "explanation": "'It'll' is a contraction of 'it will'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "it will",
+     "spoken": "it'll"
+    },
+    {
+     "written": "got to",
+     "spoken": "gotta"
+    }
+   ]
+  },
+  {
+   "slug": "a1-ordering-pizza-phone",
+   "title": "Ordering pizza by phone",
+   "level": "A1",
+   "category": "Everyday Life",
+   "topic": "Ordering pizza by phone",
+   "difficulty": 1,
+   "duration_seconds": 30,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Worker",
+     "line": "Thanks for calling Tony's Pizza. What can I get you?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "I'd like a large pepperoni pizza, please."
+    },
+    {
+     "speaker": "Worker",
+     "line": "Sure, anything else? Some wings or a drink?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Yeah, can I also get a bottle of Coke?"
+    },
+    {
+     "speaker": "Worker",
+     "line": "Got it. That'll be twenty dollars. Delivery or pickup?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Delivery, please. To 15 Green Street."
+    },
+    {
+     "speaker": "Worker",
+     "line": "Okay, it'll take about thirty minutes."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Sounds great, thanks!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the customer doing?",
+     "options": [
+      "Ordering pizza",
+      "Making a reservation",
+      "Complaining about food",
+      "Asking for a menu"
+     ],
+     "answer": "Ordering pizza",
+     "explanation": "The customer is calling to order pizza.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What size pizza does the customer order?",
+     "options": [
+      "Large",
+      "Medium",
+      "Small",
+      "Extra large"
+     ],
+     "answer": "Large",
+     "explanation": "The customer orders a large pepperoni pizza.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What drink does the customer order?",
+     "options": [
+      "Coke",
+      "Sprite",
+      "Juice",
+      "Water"
+     ],
+     "answer": "Coke",
+     "explanation": "The customer asks for a bottle of Coke.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "How much is the total?",
+     "options": [
+      "Twenty dollars",
+      "Fifteen dollars",
+      "Thirty dollars",
+      "Ten dollars"
+     ],
+     "answer": "Twenty dollars",
+     "explanation": "The worker says the total is twenty dollars.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "wh",
+     "prompt": "How long will delivery take?",
+     "options": [
+      "About thirty minutes",
+      "About ten minutes",
+      "About an hour",
+      "About fifteen minutes"
+     ],
+     "answer": "About thirty minutes",
+     "explanation": "The worker says it'll take about thirty minutes.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I'd like a large pepperoni pizza, please.",
+     "blanks": [
+      "large",
+      "pepperoni"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'd' is a contraction of 'I would'."
+    },
+    {
+     "sentence": "Yeah, can I also get a bottle of Coke?",
+     "blanks": [
+      "bottle",
+      "Coke"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Bottle of' links together quickly in speech."
+    },
+    {
+     "sentence": "Got it. That'll be twenty dollars.",
+     "blanks": [
+      "That'll",
+      "twenty"
+     ],
+     "challenge": "contraction",
+     "explanation": "'That'll' is a contraction of 'that will'."
+    },
+    {
+     "sentence": "Okay, it'll take about thirty minutes.",
+     "blanks": [
+      "thirty",
+      "minutes"
+     ],
+     "challenge": "numbers",
+     "explanation": "Numbers can go by quickly in natural speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "that will",
+     "spoken": "that'll"
+    },
+    {
+     "written": "it will",
+     "spoken": "it'll"
+    }
+   ]
+  },
+  {
+   "slug": "a1-hotel-checkin",
+   "title": "Checking in at a hotel",
+   "level": "A1",
+   "category": "Travel",
+   "topic": "Hotel check-in",
+   "difficulty": 2,
+   "duration_seconds": 32,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Clerk",
+     "line": "Good evening, welcome. Do you have a reservation?"
+    },
+    {
+     "speaker": "Guest",
+     "line": "Yes, under the name Carter, for two nights."
+    },
+    {
+     "speaker": "Clerk",
+     "line": "Great, may I see your ID and a credit card?"
+    },
+    {
+     "speaker": "Guest",
+     "line": "Sure, here you go."
+    },
+    {
+     "speaker": "Clerk",
+     "line": "Thanks. You're in room 305, on the third floor."
+    },
+    {
+     "speaker": "Guest",
+     "line": "Perfect. What time is breakfast?"
+    },
+    {
+     "speaker": "Clerk",
+     "line": "Breakfast is from seven to ten in the morning."
+    },
+    {
+     "speaker": "Guest",
+     "line": "Great, thank you very much."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the guest doing?",
+     "options": [
+      "Checking in at a hotel",
+      "Booking a flight",
+      "Renting a car",
+      "Checking out of a hotel"
+     ],
+     "answer": "Checking in at a hotel",
+     "explanation": "The guest is checking in with a reservation.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How many nights is the reservation for?",
+     "options": [
+      "Two nights",
+      "One night",
+      "Three nights",
+      "A week"
+     ],
+     "answer": "Two nights",
+     "explanation": "The guest says the reservation is for two nights.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What room number is the guest given?",
+     "options": [
+      "305",
+      "350",
+      "503",
+      "315"
+     ],
+     "answer": "305",
+     "explanation": "The clerk says the guest is in room 305.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "When is breakfast served?",
+     "options": [
+      "From seven to ten",
+      "From six to nine",
+      "From eight to eleven",
+      "All day"
+     ],
+     "answer": "From seven to ten",
+     "explanation": "The clerk says breakfast is from seven to ten.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the clerk ask to see?",
+     "options": [
+      "ID and a credit card",
+      "Passport only",
+      "Boarding pass",
+      "Phone"
+     ],
+     "answer": "ID and a credit card",
+     "explanation": "The clerk asks to see ID and a credit card.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Yes, under the name Carter, for two nights.",
+     "blanks": [
+      "Carter",
+      "two"
+     ],
+     "challenge": "numbers",
+     "explanation": "Names and numbers are key details to catch."
+    },
+    {
+     "sentence": "Great, may I see your ID and a credit card?",
+     "blanks": [
+      "ID",
+      "credit"
+     ],
+     "challenge": "fast_speech",
+     "explanation": "These two items are said quickly together."
+    },
+    {
+     "sentence": "Thanks. You're in room 305, on the third floor.",
+     "blanks": [
+      "room",
+      "third"
+     ],
+     "challenge": "numbers",
+     "explanation": "Room numbers are often said quickly."
+    },
+    {
+     "sentence": "Breakfast is from seven to ten in the morning.",
+     "blanks": [
+      "seven",
+      "ten"
+     ],
+     "challenge": "numbers",
+     "explanation": "Time ranges are common but easy to mishear."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "you are",
+     "spoken": "you're"
+    }
+   ]
+  },
+  {
+   "slug": "a1-airport-checkin",
+   "title": "Checking in at the airport",
+   "level": "A1",
+   "category": "Travel",
+   "topic": "Airport check-in",
+   "difficulty": 2,
+   "duration_seconds": 34,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Agent",
+     "line": "Good morning. Passport and ticket, please."
+    },
+    {
+     "speaker": "Traveler",
+     "line": "Here you go. I'm flying to Vancouver."
+    },
+    {
+     "speaker": "Agent",
+     "line": "Great. Do you have any bags to check?"
+    },
+    {
+     "speaker": "Traveler",
+     "line": "Yes, just this one suitcase."
+    },
+    {
+     "speaker": "Agent",
+     "line": "Okay, please put it on the scale."
+    },
+    {
+     "speaker": "Agent",
+     "line": "It's under the weight limit, that's fine."
+    },
+    {
+     "speaker": "Traveler",
+     "line": "Great. What gate do I go to?"
+    },
+    {
+     "speaker": "Agent",
+     "line": "Gate 14. Boarding starts at nine thirty."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is happening in this conversation?",
+     "options": [
+      "The traveler is checking in for a flight",
+      "The traveler is buying a ticket",
+      "The traveler is renting a car",
+      "The traveler is picking up luggage"
+     ],
+     "answer": "The traveler is checking in for a flight",
+     "explanation": "The traveler is checking in with the airline agent.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Where is the traveler flying to?",
+     "options": [
+      "Vancouver",
+      "Toronto",
+      "Calgary",
+      "Montreal"
+     ],
+     "answer": "Vancouver",
+     "explanation": "The traveler says she's flying to Vancouver.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "How many suitcases does the traveler check?",
+     "options": [
+      "One",
+      "Two",
+      "Three",
+      "None"
+     ],
+     "answer": "One",
+     "explanation": "She says just this one suitcase.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "What gate does the traveler go to?",
+     "options": [
+      "Gate 14",
+      "Gate 4",
+      "Gate 40",
+      "Gate 41"
+     ],
+     "answer": "Gate 14",
+     "explanation": "The agent says gate 14.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "wh",
+     "prompt": "What time does boarding start?",
+     "options": [
+      "Nine thirty",
+      "Nine",
+      "Ten thirty",
+      "Eight thirty"
+     ],
+     "answer": "Nine thirty",
+     "explanation": "The agent says boarding starts at nine thirty.",
+     "skill": "numbers_dates"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Here you go. I'm flying to Vancouver.",
+     "blanks": [
+      "flying",
+      "Vancouver"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'm' is a contraction of 'I am'."
+    },
+    {
+     "sentence": "Yes, just this one suitcase.",
+     "blanks": [
+      "one",
+      "suitcase"
+     ],
+     "challenge": "weak_form",
+     "explanation": "'Just' is often reduced in fast speech."
+    },
+    {
+     "sentence": "It's under the weight limit, that's fine.",
+     "blanks": [
+      "under",
+      "limit"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Words link together smoothly in natural speech."
+    },
+    {
+     "sentence": "Gate 14. Boarding starts at nine thirty.",
+     "blanks": [
+      "14",
+      "thirty"
+     ],
+     "challenge": "numbers",
+     "explanation": "Numbers must be listened to carefully."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "I am",
+     "spoken": "I'm"
+    },
+    {
+     "written": "that is",
+     "spoken": "that's"
+    }
+   ]
+  },
+  {
+   "slug": "a1-talking-about-weather",
+   "title": "Talking about the weather",
+   "level": "A1",
+   "category": "Social English",
+   "topic": "Talking about the weather",
+   "difficulty": 1,
+   "duration_seconds": 24,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Amy",
+     "line": "Wow, it's really cold today."
+    },
+    {
+     "speaker": "Ben",
+     "line": "Yeah, I heard it might snow later."
+    },
+    {
+     "speaker": "Amy",
+     "line": "Really? I didn't bring a warm jacket."
+    },
+    {
+     "speaker": "Ben",
+     "line": "You should grab one from your car."
+    },
+    {
+     "speaker": "Amy",
+     "line": "Good idea. Is it supposed to be cold all week?"
+    },
+    {
+     "speaker": "Ben",
+     "line": "I think it warms up on Friday."
+    },
+    {
+     "speaker": "Amy",
+     "line": "That's good. I hate the cold."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What are Amy and Ben talking about?",
+     "options": [
+      "The weather",
+      "A trip",
+      "A movie",
+      "Their jobs"
+     ],
+     "answer": "The weather",
+     "explanation": "They're discussing how cold it is and if it will snow.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What might happen later, according to Ben?",
+     "options": [
+      "It might snow",
+      "It might rain",
+      "It might be sunny",
+      "It might be windy"
+     ],
+     "answer": "It might snow",
+     "explanation": "Ben says he heard it might snow later.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does Ben suggest Amy do?",
+     "options": [
+      "Grab a jacket from her car",
+      "Go home",
+      "Buy a new coat",
+      "Stay inside"
+     ],
+     "answer": "Grab a jacket from her car",
+     "explanation": "Ben tells her to grab a jacket from her car.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "When does Ben think it will warm up?",
+     "options": [
+      "Friday",
+      "Monday",
+      "Tomorrow",
+      "Next week"
+     ],
+     "answer": "Friday",
+     "explanation": "Ben says he thinks it warms up on Friday.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does Amy mean by 'I hate the cold'?",
+     "options": [
+      "She dislikes cold weather",
+      "She loves winter",
+      "She wants it to snow",
+      "She is cold right now"
+     ],
+     "answer": "She dislikes cold weather",
+     "explanation": "She expresses that she doesn't like cold weather.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Wow, it's really cold today.",
+     "blanks": [
+      "really",
+      "cold"
+     ],
+     "challenge": "contraction",
+     "explanation": "'It's' is a contraction of 'it is'."
+    },
+    {
+     "sentence": "Yeah, I heard it might snow later.",
+     "blanks": [
+      "heard",
+      "snow"
+     ],
+     "challenge": "weak_form",
+     "explanation": "'Might' is often said quickly and softly."
+    },
+    {
+     "sentence": "You should grab one from your car.",
+     "blanks": [
+      "grab",
+      "car"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'Should' is often reduced in casual speech."
+    },
+    {
+     "sentence": "I think it warms up on Friday.",
+     "blanks": [
+      "warms",
+      "Friday"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Warms up' links together smoothly in speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "it is",
+     "spoken": "it's"
+    }
+   ]
+  }
+ ]
+}

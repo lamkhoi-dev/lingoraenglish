@@ -1,0 +1,625 @@
+{
+  "lessons": [
+    {
+      "title": "Consonant to vowel linking",
+      "level": "beginner",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "When a word ends in a consonant and the next starts with a vowel, join them into one sound group.",
+      "points": ["Never stop between the words.", "The consonant becomes the start of the next word."],
+      "items": [
+        { "text": "pick it up", "pattern": "pi-ki-tup" },
+        { "text": "turn it off", "pattern": "tur-ni-toff" },
+        { "text": "an hour and a half", "pattern": "a-nou-ran-da-half" },
+        { "text": "look at it again", "pattern": "loo-ka-ti-ta-gain" }
+      ]
+    },
+    {
+      "title": "Vowel linking and intrusive sounds",
+      "level": "intermediate",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Two vowels meeting need a small bridge: /w/, /j/ or /r/ appears naturally.",
+      "points": ["go on → go‿w‿on", "I am → I‿y‿am", "law and order → law‿r‿and order (British)"],
+      "items": [
+        { "text": "go on", "pattern": "go-w-on" },
+        { "text": "I always do", "pattern": "I-y-always do" },
+        { "text": "the end of it", "pattern": "thee-y-end-of-it" },
+        { "text": "media event", "pattern": "media-r-event", "note": "Intrusive /r/ is common in British English." }
+      ]
+    },
+    {
+      "title": "Elision: sounds disappear",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "In fast speech some sounds simply drop out, especially /t/ and /d/ between consonants.",
+      "points": ["next day → nex' day", "friendship → frien'ship", "must be → mus' be"],
+      "items": [
+        { "text": "next day", "pattern": "nex' day" },
+        { "text": "I don't know", "pattern": "I dunno / I don' know" },
+        { "text": "most people", "pattern": "mos' people" },
+        { "text": "sandwich", "pattern": "sanwich" }
+      ]
+    },
+    {
+      "title": "Assimilation: sounds change",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A sound can change to match the next one, so the mouth moves less.",
+      "points": ["ten bikes → tem bikes", "did you → didjou", "won't you → wonchou"],
+      "items": [
+        { "text": "ten bikes", "pattern": "tem bikes" },
+        { "text": "good boy", "pattern": "goob boy" },
+        { "text": "did you eat?", "pattern": "di-jou eat?" },
+        { "text": "won't you come?", "pattern": "won-chou come?" }
+      ]
+    },
+    {
+      "title": "Contractions",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Natural spoken English uses contractions almost everywhere. Full forms sound formal or emphatic.",
+      "points": ["I am → I'm", "I will → I'll", "do not → don't", "would have → would've"],
+      "items": [
+        { "text": "I'm not sure yet.", "pattern": "I'm = I am" },
+        { "text": "I'll call you later.", "pattern": "I'll = I will" },
+        { "text": "She doesn't live here.", "pattern": "doesn't = does not" },
+        { "text": "We'd have told you.", "pattern": "we'd have = we would have" }
+      ]
+    },
+    {
+      "title": "Weak forms",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Small grammar words lose their full vowel and become a schwa when they are not stressed.",
+      "points": ["to → /tə/", "for → /fə/", "and → /ən/", "can → /kən/", "of → /əv/", "a → /ə/", "the → /ðə/"],
+      "items": [
+        { "text": "a cup of tea", "pattern": "a cup /əv/ tea" },
+        { "text": "fish and chips", "pattern": "fish /ən/ chips" },
+        { "text": "I have to go", "pattern": "I have /tə/ go" },
+        { "text": "It's for you", "pattern": "it's /fə/ you" },
+        { "text": "I can help", "pattern": "I /kən/ help", "note": "Stressed 'can' /kæn/ means emphasis." }
+      ]
+    },
+    {
+      "title": "Linking identical consonants",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "When one word ends and the next begins with the same consonant sound, don't say it twice — hold it once, a little longer.",
+      "points": [],
+      "items": [
+        { "text": "big game", "pattern": "bi-game (one long /g/)" },
+        { "text": "black cat", "pattern": "bla-cat (one long /k/)" },
+        { "text": "some more", "pattern": "so-more (one long /m/)" }
+      ]
+    },
+    {
+      "title": "Linking /r/ in British English",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "uk",
+      "explain": "In non-rhotic British English, a silent final 'r' becomes pronounced when the next word starts with a vowel.",
+      "points": [],
+      "items": [
+        { "text": "far away", "pattern": "fa-r-away" },
+        { "text": "here and there", "pattern": "hea-r-and there" },
+        { "text": "better off", "pattern": "bette-r-off" }
+      ]
+    },
+    {
+      "title": "Reduced auxiliary verbs in questions",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Auxiliary verbs at the start of questions often reduce heavily in fast, casual speech.",
+      "points": [],
+      "items": [
+        { "text": "Did you eat?", "pattern": "D'you eat? / Ju eat?" },
+        { "text": "Do you want some?", "pattern": "D'you want some?" },
+        { "text": "Have you seen it?", "pattern": "Ave you seen it?" }
+      ]
+    },
+    {
+      "title": "Linking across three-word phrases",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Longer phrases link across every word boundary, not just the first pair — practise the whole chain.",
+      "points": [],
+      "items": [
+        { "text": "as soon as possible", "pattern": "a-soo-nas-possible" },
+        { "text": "one of a kind", "pattern": "wu-nuh-va-kind" },
+        { "text": "out of order", "pattern": "ou-tuh-vorder" }
+      ]
+    },
+    {
+      "title": "Connected speech with 'going to'",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "'Going to' before a verb almost always links and reduces in natural speech.",
+      "points": [],
+      "items": [
+        { "text": "I'm going to leave soon.", "pattern": "I'm gonna leave soon." },
+        { "text": "What are you going to do?", "pattern": "What're ya gonna do?" },
+        { "text": "It's going to rain.", "pattern": "It's gonna rain." }
+      ]
+    },
+    {
+      "title": "Connected speech in fast greetings",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Very common greeting phrases are almost always run together in natural speech.",
+      "points": [],
+      "items": [
+        { "text": "What's up?", "pattern": "Whatsup? / Wassup?" },
+        { "text": "How's it going?", "pattern": "Howzitgoing?" },
+        { "text": "See you later.", "pattern": "See ya later." }
+      ]
+    },
+    {
+      "title": "Linking with plural and possessive 's'",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "The final 's' sound links smoothly into the next word's vowel, just like any other consonant.",
+      "points": [],
+      "items": [
+        { "text": "my friends and I", "pattern": "my frien-zan-dI" },
+        { "text": "the books are here", "pattern": "the boo-ksar here" },
+        { "text": "it's easy", "pattern": "i-tsee-zy" }
+      ]
+    },
+    {
+      "title": "Practice: a fast connected-speech paragraph",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Put it all together — link, reduce and contract naturally across a whole mini-paragraph.",
+      "points": [],
+      "items": [
+        { "text": "I was gonna call you, but I didn't have time — I'll try to get in touch later on, okay?", "pattern": "gonna / didn' have / I'll / touch-later-on" }
+      ]
+    },
+    {
+      "title": "H-dropping in weak pronouns",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Unstressed 'him', 'her' and 'his' often drop the /h/ sound completely and link to the word before.",
+      "points": [],
+      "items": [
+        { "text": "Tell him to call me.", "pattern": "Tell-im to call me." },
+        { "text": "Give her the keys.", "pattern": "Give-er the keys." },
+        { "text": "Ask his brother.", "pattern": "Ask-is brother." }
+      ]
+    },
+    {
+      "title": "Glottal stop replacing /t/",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "uk",
+      "explain": "Before certain consonants, /t/ is often replaced with a quick catch in the throat instead of a clear tongue-tap.",
+      "points": [],
+      "items": [
+        { "text": "football", "pattern": "foo'ball", "note": "The /t/ becomes a glottal stop." },
+        { "text": "Gatwick", "pattern": "Ga'wick" },
+        { "text": "that one", "pattern": "tha' one" }
+      ]
+    },
+    {
+      "title": "Linking -ing forms into the next vowel",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "An -ing verb ending in a consonant sound links smoothly into a following vowel, just like any other word-final consonant.",
+      "points": [],
+      "items": [
+        { "text": "going out", "pattern": "goin-gout" },
+        { "text": "working out", "pattern": "workin-gout" },
+        { "text": "coming in", "pattern": "comin-gin" }
+      ]
+    },
+    {
+      "title": "Connected speech in dates",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Dates link and reduce heavily in natural speech — 'of' almost disappears.",
+      "points": [],
+      "items": [
+        { "text": "the fourth of July", "pattern": "the fourth-uh-July" },
+        { "text": "the first of the month", "pattern": "the first-uh-the month" }
+      ]
+    },
+    {
+      "title": "Connected speech with modal + have",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Modal verbs followed by 'have' link and reduce so heavily that 'have' sounds like 'of' to many learners — that's just how it's linked, not actually spelled that way.",
+      "points": [],
+      "items": [
+        { "text": "I should have known.", "pattern": "I shoulda known." },
+        { "text": "You must have forgotten.", "pattern": "You musta forgotten." },
+        { "text": "They might have left already.", "pattern": "They mighta left already." }
+      ]
+    },
+    {
+      "title": "Connected speech in weather talk",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Common weather phrases link smoothly across word boundaries just like any other everyday speech.",
+      "points": [],
+      "items": [
+        { "text": "It's gonna rain later.", "pattern": "It's gonna rain later." },
+        { "text": "It's kind of cloudy out.", "pattern": "It's kinda cloudy out." }
+      ]
+    },
+    {
+      "title": "Linking in business phone phrases",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Common office phone phrases link naturally across word boundaries — practise them as whole chunks.",
+      "points": [],
+      "items": [
+        { "text": "I'll put you through.", "pattern": "I'll pu-chu through." },
+        { "text": "Can I take a message?", "pattern": "Ca-nI take a message?" },
+        { "text": "He's out of the office.", "pattern": "He's ou-tuv the office." }
+      ]
+    },
+    {
+      "title": "Connected speech practice: a second fast paragraph",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A second full-paragraph challenge — link, reduce and contract across the whole thing.",
+      "points": [],
+      "items": [
+        { "text": "I would've told you sooner, but I kinda forgot — I guess I've had a lot going on lately.", "pattern": "would've / kinda / I've / going-on" }
+      ]
+    },
+    {
+      "title": "Linking with 'a lot of'",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "'A lot of' is one of the most common linked phrases in English — practise it as a single unit.",
+      "points": [],
+      "items": [
+        { "text": "I have a lot of work today.", "pattern": "a-lotta work" },
+        { "text": "There's a lot of traffic.", "pattern": "a-lotta traffic" }
+      ]
+    },
+    {
+      "title": "Connected speech in song lyrics",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Song lyrics are full of natural connected speech — great, memorable practice material.",
+      "points": [],
+      "items": [
+        { "text": "I wanna hold your hand.", "pattern": "wanna hold your hand" },
+        { "text": "Don't you wanna dance with somebody?", "pattern": "don-chu wanna dance" }
+      ]
+    },
+    {
+      "title": "Reduced 'because' in casual speech",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Because' commonly reduces to 'cause' or 'cuz' in relaxed conversation, and links straight into the next word.",
+      "points": [],
+      "items": [
+        { "text": "I'm tired because I stayed up late.", "pattern": "'cause I stayed up late" },
+        { "text": "She's upset 'cause of what happened.", "pattern": "'cause-uv what happened" }
+      ]
+    },
+    {
+      "title": "Linking with plural verb forms",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Verb endings link into the next word exactly the same way noun endings do.",
+      "points": [],
+      "items": [
+        { "text": "She likes it a lot.", "pattern": "like-si-ta lot" },
+        { "text": "He works every day.", "pattern": "work-severy day" }
+      ]
+    },
+    {
+      "title": "Connected speech across a short dialogue",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Real conversation links across every turn, not just within one speaker's sentence.",
+      "points": [],
+      "items": [
+        { "text": "A: Wanna grab a bite? B: Yeah, gimme a sec, I'm almost done.", "pattern": "wanna / gimme / I'm" }
+      ]
+    },
+    {
+      "title": "Reduced 'them' as 'em",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Them' frequently reduces to 'em (dropping the 'th') and links straight onto the verb before it.",
+      "points": [],
+      "items": [
+        { "text": "Tell them I said hi.", "pattern": "Tell-em I said hi." },
+        { "text": "I already gave them the news.", "pattern": "I already gave-em the news." }
+      ]
+    },
+    {
+      "title": "Linking with numbers before nouns",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Numbers link into the noun that follows exactly like any consonant-to-vowel or consonant-to-consonant pair.",
+      "points": [],
+      "items": [
+        { "text": "one hour", "pattern": "wu-nour" },
+        { "text": "eight apples", "pattern": "eigh-tapples" }
+      ]
+    },
+    {
+      "title": "Linking prepositions of place",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Common location phrases link fully across every word boundary — practise them as one chunk.",
+      "points": [],
+      "items": [
+        { "text": "in front of", "pattern": "in-fron-tuv" },
+        { "text": "next to it", "pattern": "nex-tooit" },
+        { "text": "on top of", "pattern": "on-toppuv" }
+      ]
+    },
+    {
+      "title": "'There's a' and 'there's an' linking",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "'There's' links tightly onto the word that follows, especially before 'a lot of'.",
+      "points": [],
+      "items": [
+        { "text": "There's a lot of traffic today.", "pattern": "There's-a-lotta traffic today." },
+        { "text": "There's an easier way to do this.", "pattern": "There's-an-easier way to do this." }
+      ]
+    },
+    {
+      "title": "Negative auxiliary linking",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Negative contractions link straight into the next word just like any consonant ending.",
+      "points": [],
+      "items": [
+        { "text": "I don't understand.", "pattern": "I don-tunderstand." },
+        { "text": "It isn't easy.", "pattern": "it isn-teasy." },
+        { "text": "We can't afford it.", "pattern": "we can-tafford it." }
+      ]
+    },
+    {
+      "title": "Linking numbers with 'and'",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'And' between number parts reduces to a quick /ən/ and links both sides together.",
+      "points": [],
+      "items": [
+        { "text": "one hundred and one", "pattern": "one hundred-ən-one" },
+        { "text": "two thousand and five", "pattern": "two thousand-ən-five" }
+      ]
+    },
+    {
+      "title": "Connected speech in casual excuses",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Excuse phrases are said fast and casually, with heavy linking and reduction.",
+      "points": [],
+      "items": [
+        { "text": "Sorry, I gotta run, I'm late for something.", "pattern": "gotta run / I'm late" },
+        { "text": "I was gonna text you but I forgot.", "pattern": "gonna text / forgot" }
+      ]
+    },
+    {
+      "title": "'Of course' and 'kind of' reduced linking",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "These extremely common phrases reduce and link so much they barely resemble their spelling.",
+      "points": [],
+      "items": [
+        { "text": "Of course I'll help you.", "pattern": "uh-course I'll help you." },
+        { "text": "It's kind of a big deal.", "pattern": "it's kinda-vuh big deal." }
+      ]
+    },
+    {
+      "title": "Connected speech in fast sports commentary",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Live commentary links almost every word together at high speed — great advanced listening/speaking practice.",
+      "points": [],
+      "items": [
+        { "text": "He's got it, he's through, and he scores!", "pattern": "got-it / through-and / scores" }
+      ]
+    },
+    {
+      "title": "Linking with 'going to have to'",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "This whole obligation phrase links and reduces into a single fast chunk in natural speech.",
+      "points": [],
+      "items": [
+        { "text": "We're going to have to reschedule.", "pattern": "gonna hafta reschedule" },
+        { "text": "I'm gonna have to think about it.", "pattern": "gonna hafta think about it" }
+      ]
+    },
+    {
+      "title": "Casual 'your' reduced to 'yer'",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Unstressed 'your' often reduces to a quick 'yer' sound and links onto the next word.",
+      "points": [],
+      "caution": "Very informal spoken only.",
+      "items": [
+        { "text": "What's yer name?", "pattern": "What's yer name?" },
+        { "text": "Is that yer bag?", "pattern": "Is that yer bag?" }
+      ]
+    },
+    {
+      "title": "Connected speech in polite offers",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Everyday offer phrases link smoothly across the whole sentence.",
+      "points": [],
+      "items": [
+        { "text": "Do you want a cup of coffee?", "pattern": "wanna cuppa coffee?" },
+        { "text": "Can I get you anything?", "pattern": "Can-I get-choo anything?" }
+      ]
+    },
+    {
+      "title": "Linking with 'used to' in narration",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Used to' links tightly and reduces when telling stories about the past.",
+      "points": [],
+      "items": [
+        { "text": "I used to live in Paris.", "pattern": "I yoosta live in Paris." },
+        { "text": "We used to go there every summer.", "pattern": "We yoosta go there every summer." }
+      ]
+    },
+    {
+      "title": "Connected speech with double consonants across words",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "When a word ends and the next begins with a similar (not identical) sound, they still often blend rather than being said as two separate sounds.",
+      "points": [],
+      "items": [
+        { "text": "good day", "pattern": "goo-day (one held /d/)" },
+        { "text": "that time", "pattern": "tha-time (one held /t/)" }
+      ]
+    },
+    {
+      "title": "Connected speech in a customer-service phrase set",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Common service-industry phrases link naturally across the whole sentence.",
+      "points": [],
+      "items": [
+        { "text": "Is there anything else I can help you with?", "pattern": "anything-else / help-you-with" },
+        { "text": "Thanks for calling, have a great day.", "pattern": "thanks-for / have-a-great-day" }
+      ]
+    },
+    {
+      "title": "Connected speech: final review paragraph",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "One more full-paragraph challenge pulling together linking, elision, assimilation and weak forms all at once.",
+      "points": [],
+      "items": [
+        { "text": "I gotta admit, I kinda forgot we were supposed to meet — sorry 'bout that, I shoulda texted you.", "pattern": "gotta / kinda / supposed to / 'bout / shoulda" }
+      ]
+    },
+    {
+      "title": "Linking with 'as well as'",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "This common linking phrase runs together into one smooth unit.",
+      "points": [],
+      "items": [
+        { "text": "He speaks French as well as English.", "pattern": "az-well-az English" },
+        { "text": "It's fast as well as reliable.", "pattern": "fast-az-well-az reliable" }
+      ]
+    },
+    {
+      "title": "'Except for' reduced linking",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "'Except for' links tightly, with the final /t/ often barely released before 'for'.",
+      "points": [],
+      "items": [
+        { "text": "Everyone came except for Tom.", "pattern": "excep-for Tom" },
+        { "text": "It's ready, except for the last page.", "pattern": "excep-for the last page" }
+      ]
+    },
+    {
+      "title": "Connected speech making casual plans",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Everyday planning phrases link and reduce heavily in relaxed conversation.",
+      "points": [],
+      "items": [
+        { "text": "Let's meet up around seven.", "pattern": "let's meet-up around seven" },
+        { "text": "Wanna grab lunch sometime this week?", "pattern": "wanna grab lunch sometime this week" }
+      ]
+    },
+    {
+      "title": "Linking across a movie-trailer style line",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Dramatic narration still links every word together — the drama is in the pacing, not gaps between words.",
+      "points": [],
+      "items": [
+        { "text": "In a world where anything is possible, one man has to make a choice.", "pattern": "in-a-world / anything-is / has-to" }
+      ]
+    },
+    {
+      "title": "Connected speech with 'gonna' plus different pronouns",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "'Gonna' links the same way regardless of which pronoun comes before it.",
+      "points": [],
+      "items": [
+        { "text": "She's gonna love this.", "pattern": "she's gonna love this" },
+        { "text": "They're gonna be so happy.", "pattern": "they're gonna be so happy" },
+        { "text": "We're gonna figure it out.", "pattern": "we're gonna figure it out" }
+      ]
+    },
+    {
+      "title": "Connected speech: final mixed review",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "One last full-sentence challenge mixing linking, weak forms and reductions together.",
+      "points": [],
+      "items": [
+        { "text": "I shoulda called you as soon as I found out, but I kinda wanted to check the details first.", "pattern": "shoulda / as-soon-as / kinda / wanted-to" }
+      ]
+    },
+    {
+      "title": "Final mixed linking review",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "One closing set combining consonant-vowel linking, elision and a weak form all in one line.",
+      "points": [],
+      "items": [
+        { "text": "I want to ask about it later.", "pattern": "wanna ask-a-bou-tit later" }
+      ]
+    }
+  ]
+}

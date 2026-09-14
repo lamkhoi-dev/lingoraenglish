@@ -1,0 +1,153 @@
+export const enShadow = {
+  "shadow.page.eyebrow": "Shadowing library",
+  "shadow.page.title": "Listen. Shadow. Record. Compare. Improve.",
+  "shadow.page.description":
+    "A progressive library for every topic: short beginner lines first, then longer, more natural English. Practise a few sentences every day and let the coach compare what you said with the model.",
+  "shadow.groups.topicsCount": "{{count}} topics · {{total}} sentences · A1 → C1",
+  "shadow.topics.sentencesCefr": "{{count}} sentences · {{range}}",
+  "shadow.topics.free": "{{count}} free",
+  "shadow.topics.loading": "Loading the library…",
+  "shadow.topics.fallbackName": "Sentences",
+
+  "shadow.stats.practised": "Practised",
+  "shadow.stats.mastered": "Mastered",
+  "shadow.stats.needsPractice": "Needs practice",
+  "shadow.stats.recordings": "Recordings",
+  "shadow.stats.practiceTime": "Practice time",
+  "shadow.stats.practiceTimeValue": "{{minutes}} min",
+  "shadow.stats.pronunciation": "Pronunciation",
+
+  "shadow.weakest.notice": "Your recordings show {{skill}} is the weakest area right now.",
+  "shadow.weakest.cta": "Practise this skill",
+
+  "shadow.today.heading": "Today's shadowing · about 10 minutes",
+  "shadow.today.description": "Difficult sentences first, then your next new ones, finished with one review.",
+  "shadow.today.sentenceFallback": "Sentence {{n}}",
+
+  "shadow.filters.searchPlaceholder": "Search sentences…",
+  "shadow.filters.allLevels": "All levels",
+  "shadow.filters.allSentences": "All sentences",
+  "shadow.filters.free": "Free",
+  "shadow.filters.premium": "⭐ Premium",
+
+  "shadow.level.beginner.label": "Beginner",
+  "shadow.level.beginner.blurb": "Short, common sentences — 5 to 10 words.",
+  "shadow.level.elementary.label": "Elementary",
+  "shadow.level.elementary.blurb": "Longer lines with everyday connectors.",
+  "shadow.level.intermediate.label": "Intermediate",
+  "shadow.level.intermediate.blurb": "Natural conversation, phrasal verbs, connected speech.",
+  "shadow.level.advanced.label": "Advanced",
+  "shadow.level.advanced.blurb": "Long, idiomatic, nuanced native English.",
+
+  "shadow.skill.all": "All skills",
+  "shadow.skill.pronunciation": "Pronunciation",
+  "shadow.skill.stress": "Sentence stress",
+  "shadow.skill.intonation": "Intonation",
+  "shadow.skill.connectedSpeech": "Connected speech",
+  "shadow.skill.rhythm": "Rhythm",
+  "shadow.skill.fluency": "Fluency",
+
+  "shadow.status.all": "All",
+  "shadow.status.new": "New",
+  "shadow.status.inProgress": "In progress",
+  "shadow.status.needsPractice": "Needs practice",
+  "shadow.status.strong": "Strong",
+  "shadow.status.mastered": "Mastered",
+
+  "shadow.mode.start.label": "Start from the beginning",
+  "shadow.mode.start.blurb": "Sentence 1 upwards.",
+  "shadow.mode.continue.label": "Continue where I left off",
+  "shadow.mode.continue.blurb": "Your next unpractised sentence.",
+  "shadow.mode.level.label": "Practise by level",
+  "shadow.mode.level.blurb": "Only the level you choose.",
+  "shadow.mode.random.label": "Random practice",
+  "shadow.mode.random.blurb": "Shuffle the whole topic.",
+  "shadow.mode.review.label": "Review mistakes",
+  "shadow.mode.review.blurb": "Sentences marked needs practice.",
+  "shadow.mode.mastered.label": "Mastered sentences",
+  "shadow.mode.mastered.blurb": "Keep them fresh.",
+
+  "shadow.group.everyday.name": "Everyday English",
+  "shadow.group.everyday.blurb":
+    "Real-life English for home, shopping, food, travel, health, money, phone calls and free time.",
+  "shadow.group.work.name": "Work & Professional English",
+  "shadow.group.work.blurb":
+    "Language you can use at work: meetings, presentations, emails, clients, feedback, projects and interviews.",
+
+  "shadow.list.loading": "Loading sentences…",
+  "shadow.list.empty": "Nothing matches these filters yet.",
+  "shadow.list.premiumSentence": "Premium sentence",
+  "shadow.list.free": "FREE",
+  "shadow.list.premium": "⭐ PREMIUM",
+  "shadow.list.unlockWithPremium": "Unlock with Premium",
+
+  "shadow.empty.pickSentence": "Pick a sentence on the left to start shadowing.",
+
+  "shadow.locked.title": "⭐ You've completed the {{count}} free shadowing sentences for this topic.",
+  "shadow.locked.description":
+    "Unlock Premium to continue practising all {{total}} sentences and every level, with AI feedback on each attempt and your full progress history.",
+  "shadow.locked.cta": "⭐ Unlock Premium",
+  "shadow.locked.alreadyMember": "Already a member?",
+  "shadow.locked.signIn": "Sign in",
+
+  "shadow.position.sentence": "Sentence {{n}} / {{total}} · {{cefr}} · {{access}}",
+  "shadow.sentenceFallback": "Sentence {{n}}",
+
+  "shadow.practice.accent.british": "British English",
+  "shadow.practice.accent.american": "North American English",
+  "shadow.practice.difficulty": "Difficulty {{n}}/10",
+
+  "shadow.practice.step.listen": "Listen",
+  "shadow.practice.step.listenHint": "Hear the whole sentence at natural speed.",
+  "shadow.practice.step.shadow": "Shadow",
+  "shadow.practice.step.shadowHint": "Speak along with the audio, copying the rhythm.",
+  "shadow.practice.step.record": "Record",
+  "shadow.practice.step.recordHint": "Now say it on your own and record it.",
+  "shadow.practice.step.feedback": "AI feedback",
+  "shadow.practice.step.feedbackHint": "See what the coach heard and what to fix.",
+  "shadow.practice.step.tryAgain": "Try again",
+  "shadow.practice.step.tryAgainHint": "Repeat until it feels easy.",
+  "shadow.practice.step.mastered": "Mastered",
+  "shadow.practice.step.masteredHint": "Two clear attempts in a row.",
+
+  "shadow.practice.hideRelaxed": "Hide relaxed speech",
+  "shadow.practice.showRelaxed": "Show relaxed speech (informal)",
+  "shadow.practice.relaxedHint": "Informal spoken form — say the written sentence above in careful English.",
+
+  "shadow.practice.dialogue.speaking": "🗣️ {{speaker}} says:",
+  "shadow.practice.dialogue.someone": "Someone",
+
+  "shadow.practice.listen": "Listen",
+  "shadow.practice.loop": "Loop",
+  "shadow.practice.hideText": "Hide text",
+  "shadow.practice.showText": "Show text",
+  "shadow.practice.stop": "Stop",
+  "shadow.practice.modelAudioNote": "Model audio is Lingora's {{accent}} AI voice, not a human recording.",
+  "shadow.practice.signInToHear": "Sign in to hear the model audio.",
+  "shadow.practice.playError": "Could not play the audio.",
+
+  "shadow.practice.focus.pronunciation": "Pronunciation",
+  "shadow.practice.focus.stress": "Sentence stress",
+  "shadow.practice.focus.intonation": "Intonation",
+  "shadow.practice.focus.connectedSpeech": "Connected speech",
+  "shadow.practice.grammar": "Grammar: {{value}}",
+
+  "shadow.practice.recorder.busyLabel": "Comparing your speech",
+  "shadow.practice.recorder.hint": "Shadow the audio a few times, then record the sentence on your own.",
+  "shadow.practice.recorder.signInToRecord": "Sign in to record",
+
+  "shadow.practice.yourRecording": "Your recording",
+
+  "shadow.practice.result.pronunciation": "Pronunciation",
+  "shadow.practice.result.speakingSpeed": "Speaking speed",
+  "shadow.practice.result.wpm": " wpm",
+  "shadow.practice.result.fillerWords": "Filler words",
+  "shadow.practice.result.heard": "Heard",
+  "shadow.practice.result.fix": "Fix",
+  "shadow.practice.result.coach": "Coach",
+
+  "shadow.practice.tryAgain": "Try again",
+  "shadow.practice.nextSentence": "Next sentence",
+  "shadow.practice.practiseSkill": "Practise {{skill}}",
+  "shadow.practice.useWithCoach": "Use it with the coach",
+} as const;

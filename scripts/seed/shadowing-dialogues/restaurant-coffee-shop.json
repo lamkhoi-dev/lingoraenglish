@@ -1,0 +1,43 @@
+{
+  "topic_slug": "restaurant-coffee-shop",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Ordering",
+      "turns": [
+        { "speaker_label": "Waiter", "speaker_voice": "nova", "sentence": "Hi there! Table for how many?", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Just for one, please.", "is_free": true },
+        { "speaker_label": "Waiter", "speaker_voice": "nova", "sentence": "Sure. Right this way. Here's your menu.", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Thank you. Can I get a coffee first?", "is_free": true },
+        { "speaker_label": "Waiter", "speaker_voice": "nova", "sentence": "Of course. Coming right up.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Complaints",
+      "turns": [
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Excuse me, I think there's been a mix-up with my order.", "is_free": true },
+        { "speaker_label": "Waiter", "speaker_voice": "alloy", "sentence": "Oh, I'm so sorry about that. What did you order?", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "I asked for the grilled chicken, not the fried one.", "is_free": true },
+        { "speaker_label": "Waiter", "speaker_voice": "alloy", "sentence": "You're absolutely right, my mistake. I'll get that fixed for you right away.", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "No worries, these things happen. Thanks for sorting it out.", "is_free": true },
+        { "speaker_label": "Waiter", "speaker_voice": "alloy", "sentence": "I appreciate your patience — I'll also take the drink off your bill.", "is_free": true }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Special requests",
+      "turns": [
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Would it be possible to substitute the fries for a side salad instead?", "is_free": true },
+        { "speaker_label": "Waiter", "speaker_voice": "coral", "sentence": "Absolutely, that shouldn't be a problem at all — would you like the house dressing with that?", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "That'd be great, thanks. Also, I should mention I've got a fairly severe nut allergy.", "is_free": true },
+        { "speaker_label": "Waiter", "speaker_voice": "coral", "sentence": "Thank you for letting me know — I'll flag that with the kitchen so they can double-check every dish.", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "I really appreciate you taking it seriously.", "is_free": true },
+        { "speaker_label": "Waiter", "speaker_voice": "coral", "sentence": "Of course — we'd rather ask twice than take any chances with something like that.", "is_free": true }
+      ]
+    }
+  ]
+}

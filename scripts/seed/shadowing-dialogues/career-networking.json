@@ -1,0 +1,41 @@
+{
+  "topic_slug": "career-networking",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "At a networking event",
+      "turns": [
+        { "speaker_label": "Person A", "speaker_voice": "shimmer", "sentence": "Hi, what do you do for work?", "is_free": true },
+        { "speaker_label": "Person B", "speaker_voice": "alloy", "sentence": "I'm a graphic designer. And you?", "is_free": true },
+        { "speaker_label": "Person A", "speaker_voice": "shimmer", "sentence": "I work in marketing.", "is_free": true },
+        { "speaker_label": "Person B", "speaker_voice": "alloy", "sentence": "Nice, how long have you worked there?", "is_free": true },
+        { "speaker_label": "Person A", "speaker_voice": "shimmer", "sentence": "About three years now.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Asking for advice",
+      "turns": [
+        { "speaker_label": "Mentee", "speaker_voice": "coral", "sentence": "I'm thinking about moving into project management — do you have any advice?", "is_free": false },
+        { "speaker_label": "Mentor", "speaker_voice": "sage", "sentence": "It's a great move if you enjoy coordinating people — I'd start by taking on smaller projects at work first.", "is_free": false },
+        { "speaker_label": "Mentee", "speaker_voice": "coral", "sentence": "That's a good starting point. Should I also look into certifications?", "is_free": false },
+        { "speaker_label": "Mentor", "speaker_voice": "sage", "sentence": "They can help, but real project experience will matter more when you're job hunting.", "is_free": false },
+        { "speaker_label": "Mentee", "speaker_voice": "coral", "sentence": "That's really helpful, thank you for the guidance.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Reconnecting for an opportunity",
+      "turns": [
+        { "speaker_label": "Former colleague", "speaker_voice": "nova", "sentence": "It's been a while, but I remembered you'd mentioned wanting to move into product strategy eventually.", "is_free": false },
+        { "speaker_label": "Contact", "speaker_voice": "shimmer", "sentence": "I did, and I'm flattered you remembered — has something come up?", "is_free": false },
+        { "speaker_label": "Former colleague", "speaker_voice": "nova", "sentence": "My team is actually opening a role that sounds tailor-made for your background.", "is_free": false },
+        { "speaker_label": "Contact", "speaker_voice": "shimmer", "sentence": "I'd love to hear more — would you be open to sending over the details?", "is_free": false },
+        { "speaker_label": "Former colleague", "speaker_voice": "nova", "sentence": "Of course, I'll forward the posting and put in a good word on your behalf.", "is_free": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+{
+ "lessons": [
+  {
+   "slug": "c1-negotiating-a-commercial-lease",
+   "title": "Hammering Out a Commercial Lease",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "negotiating a commercial lease",
+   "difficulty": 9,
+   "duration_seconds": 160,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Landlord",
+     "line": "So, before we sign anything, I want to be upfront: the base rent is twenty-eight dollars a square foot, triple net."
+    },
+    {
+     "speaker": "Tenant",
+     "line": "Triple net meaning we're on the hook for taxes, insurance, and maintenance on top of that?"
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Exactly. It's fairly standard for this building, but I'm open to sweetening the deal given the five-year term you're proposing."
+    },
+    {
+     "speaker": "Tenant",
+     "line": "Five years is a long commitment if the neighborhood doesn't pan out the way we're hoping."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Fair point. What if we built in a break clause at the thirty-month mark, provided you give ninety days' notice?"
+    },
+    {
+     "speaker": "Tenant",
+     "line": "That takes some of the sting out of it. I'd also want a cap on how much the CAM charges can escalate each year."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "I can live with a four percent cap, but not less than that. Costs have been creeping up citywide."
+    },
+    {
+     "speaker": "Tenant",
+     "line": "Understood. Now, about the fit-out — we'll need to gut the interior for the kitchen. Who's footing that bill?"
+    },
+    {
+     "speaker": "Landlord",
+     "line": "I can offer a tenant improvement allowance, say fifteen dollars a square foot, but anything beyond that comes out of your pocket."
+    },
+    {
+     "speaker": "Tenant",
+     "line": "That's a bit stingy for a full commercial kitchen buildout. Could we push that to twenty-five and I'll absorb the difference myself?"
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Let's split the difference at twenty. I'll need that in writing before my partners sign off, though."
+    },
+    {
+     "speaker": "Tenant",
+     "line": "Deal. One more thing — we'd like an exclusivity clause so you don't lease the unit next door to a competing restaurant."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "That's doable for food service specifically, but I won't box myself in on retail more broadly."
+    },
+    {
+     "speaker": "Tenant",
+     "line": "That works for us. And free rent during the buildout period, obviously, since we can't generate revenue while renovating."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Two months rent-free is what I can justify to my accountant. Beyond that, we'd need to revisit the base rate."
+    },
+    {
+     "speaker": "Tenant",
+     "line": "Two months should be enough if the permits come through on schedule, which is a big if in this city."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Tell me about it. I'll get the lawyers drafting the amendments tonight so we can have something on paper by Friday."
+    },
+    {
+     "speaker": "Tenant",
+     "line": "Appreciated. This has been a lot more collaborative than I expected walking in here."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Adversarial negotiating rarely gets anyone a tenant who sticks around, so I'd rather find middle ground."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the overall purpose of this conversation?",
+     "options": [
+      "Two parties negotiate the terms of a commercial lease",
+      "A landlord evicts a tenant for late payment",
+      "Two business partners discuss splitting profits",
+      "A tenant applies for a small business loan"
+     ],
+     "answer": "Two parties negotiate the terms of a commercial lease",
+     "explanation": "The entire dialogue revolves around lease terms, rent, and clauses being negotiated.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What cap does the landlord agree to on CAM charge increases?",
+     "options": [
+      "Two percent",
+      "Four percent",
+      "Six percent",
+      "Ten percent"
+     ],
+     "answer": "Four percent",
+     "explanation": "The landlord says he can live with a four percent cap.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "How much rent-free time does the landlord offer during the buildout?",
+     "options": [
+      "One month",
+      "Two months",
+      "Three months",
+      "Six months"
+     ],
+     "answer": "Two months",
+     "explanation": "The landlord states two months rent-free is what he can justify.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the tenant ask for a break clause at thirty months?",
+     "options": [
+      "To reduce risk in case the location doesn't succeed",
+      "To get a lower base rent immediately",
+      "To force the landlord to sell the building",
+      "To avoid paying any taxes"
+     ],
+     "answer": "To reduce risk in case the location doesn't succeed",
+     "explanation": "The tenant worries the neighborhood might not pan out over five years.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the tenant want an exclusivity clause?",
+     "options": [
+      "To prevent a competing restaurant from opening next door",
+      "To get access to the building's parking lot",
+      "To lower the tenant improvement allowance",
+      "To extend the lease term"
+     ],
+     "answer": "To prevent a competing restaurant from opening next door",
+     "explanation": "The tenant explicitly asks that the unit next door not go to a competing restaurant.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does the tenant mean by saying twenty-five dollars 'takes some of the sting out of it'?",
+     "options": [
+      "It reduces the discomfort of committing to a five-year term",
+      "It makes the lease more expensive overall",
+      "It cancels the need for insurance",
+      "It guarantees a shorter lease"
+     ],
+     "answer": "It reduces the discomfort of committing to a five-year term",
+     "explanation": "'Takes the sting out' is an idiom meaning something lessens the unpleasantness.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "According to the landlord, what happens if adversarial negotiating is used?",
+     "options": [
+      "Tenants rarely stick around",
+      "Rent automatically increases",
+      "The lawyers refuse to draft documents",
+      "The building gets sold faster"
+     ],
+     "answer": "Tenants rarely stick around",
+     "explanation": "The landlord's closing remark states this directly.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "So, before we sign anything, I want to be upfront: the base rent is twenty-eight dollars a square foot, triple net.",
+     "blanks": [
+      "want to be upfront"
+     ],
+     "challenge": "expression",
+     "explanation": "'Want to be upfront' means to be honest and direct from the start."
+    },
+    {
+     "sentence": "Triple net meaning we're on the hook for taxes, insurance, and maintenance on top of that?",
+     "blanks": [
+      "on the hook"
+     ],
+     "challenge": "expression",
+     "explanation": "'On the hook' is an idiom meaning responsible for something."
+    },
+    {
+     "sentence": "What if we built in a break clause at the thirty-month mark, provided you give ninety days' notice?",
+     "blanks": [
+      "provided you"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Provided you' blends together quickly in fast natural speech."
+    },
+    {
+     "sentence": "That's a bit stingy for a full commercial kitchen buildout.",
+     "blanks": [
+      "a bit stingy"
+     ],
+     "challenge": "expression",
+     "explanation": "'A bit stingy' means somewhat too small or ungenerous."
+    },
+    {
+     "sentence": "Let's split the difference at twenty.",
+     "blanks": [
+      "split the difference"
+     ],
+     "challenge": "expression",
+     "explanation": "This idiom means to agree on a number halfway between two offers."
+    },
+    {
+     "sentence": "Adversarial negotiating rarely gets anyone a tenant who sticks around, so I'd rather find middle ground.",
+     "blanks": [
+      "sticks around"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'Sticks around' is a phrasal verb meaning stays/remains."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "want to be",
+     "reduced": "wanna be",
+     "context": "I want to be upfront"
+    },
+    {
+     "phrase": "on the hook for",
+     "reduced": "on the hook fer",
+     "context": "we're on the hook for taxes"
+    },
+    {
+     "phrase": "kind of",
+     "reduced": "kinda",
+     "context": "implied casual register throughout"
+    }
+   ]
+  },
+  {
+   "slug": "c1-radio-culture-podcast-segment",
+   "title": "The Podcast That Killed the Radio Star",
+   "level": "C1",
+   "category": "Social English",
+   "topic": "radio culture podcast segment",
+   "difficulty": 8,
+   "duration_seconds": 150,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Host",
+     "line": "Welcome back to the segment, where today we're diving into something a bit nostalgic: the slow fade of terrestrial radio."
+    },
+    {
+     "speaker": "Host",
+     "line": "For decades, radio was the beating heart of popular culture — the place you'd hear a song for the first time, or catch breaking news mid-commute."
+    },
+    {
+     "speaker": "Host",
+     "line": "Now, podcasts have muscled their way in, and frankly, they've eaten radio's lunch in more ways than one."
+    },
+    {
+     "speaker": "Host",
+     "line": "There's something almost paradoxical about it, though. Podcasts are essentially radio's format — spoken audio, delivered episodically — just untethered from a broadcast schedule."
+    },
+    {
+     "speaker": "Host",
+     "line": "What radio had going for it was spontaneity. A DJ riffing live, reacting to a caller, or breaking into a show with urgent news."
+    },
+    {
+     "speaker": "Host",
+     "line": "Podcasts, by contrast, are polished, edited, often recorded days or weeks in advance. You lose that live-wire unpredictability."
+    },
+    {
+     "speaker": "Host",
+     "line": "But you gain intimacy. A host talking into a mic for ninety minutes, unhurried, feels more like a conversation with a mate than a broadcast to millions."
+    },
+    {
+     "speaker": "Host",
+     "line": "That intimacy is precisely why advertisers have piled into the space — listeners trust the voice in their ear far more than a jingle between songs."
+    },
+    {
+     "speaker": "Host",
+     "line": "Still, I'd argue radio isn't dead so much as it's been forced to specialize. Live traffic updates, local call-in shows, community stations — that's radio's remaining turf."
+    },
+    {
+     "speaker": "Host",
+     "line": "And ironically, plenty of radio veterans have jumped ship to podcasting themselves, chasing the creative freedom that a strict programming grid never allowed."
+    },
+    {
+     "speaker": "Host",
+     "line": "There's no gatekeeper telling you your episode has to be exactly forty-four minutes to fit around ad breaks."
+    },
+    {
+     "speaker": "Host",
+     "line": "That said, podcasting has its own gatekeepers now too — algorithms, platform exclusives, the whole discoverability headache."
+    },
+    {
+     "speaker": "Host",
+     "line": "So maybe it's less a story of radio dying and podcasts winning, and more a story of audio fragmenting into a dozen different habitats."
+    },
+    {
+     "speaker": "Host",
+     "line": "Each one suited to a different mood: the car for radio, the commute or the gym for podcasts, and increasingly, video platforms for something in between."
+    },
+    {
+     "speaker": "Host",
+     "line": "Whatever shape it takes, one thing hasn't changed — our appetite for a good voice telling us a good story."
+    },
+    {
+     "speaker": "Host",
+     "line": "That's it for this segment. Next week, we'll be unpacking why vinyl refuses to die despite streaming dominating everything else."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main argument of this segment?",
+     "options": [
+      "Radio is being replaced by podcasts in every way",
+      "Radio and podcasts serve different niches rather than one simply killing the other",
+      "Podcasts are inferior to traditional radio",
+      "Vinyl records are more popular than both radio and podcasts"
+     ],
+     "answer": "Radio and podcasts serve different niches rather than one simply killing the other",
+     "explanation": "The host concludes audio has fragmented into different habitats rather than radio simply dying.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the host say radio still retains as its remaining turf?",
+     "options": [
+      "Music streaming",
+      "Live traffic updates and local call-in shows",
+      "Video content",
+      "Podcast advertising"
+     ],
+     "answer": "Live traffic updates and local call-in shows",
+     "explanation": "The host lists these as examples of radio's specialized remaining territory.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "According to the host, why do advertisers favor podcasts?",
+     "options": [
+      "Podcasts are cheaper to produce",
+      "Listeners trust the host's voice more than a jingle",
+      "Podcasts have more listeners than radio",
+      "Podcasts require less editing"
+     ],
+     "answer": "Listeners trust the host's voice more than a jingle",
+     "explanation": "The host explicitly states this trust is why advertisers piled into podcasting.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the host mention radio veterans jumping ship to podcasting?",
+     "options": [
+      "To show podcasting pays better",
+      "To illustrate the creative freedom podcasting offers compared to strict programming grids",
+      "To criticize radio veterans for abandoning their craft",
+      "To prove radio has completely disappeared"
+     ],
+     "answer": "To illustrate the creative freedom podcasting offers compared to strict programming grids",
+     "explanation": "The host uses this example to highlight creative freedom as a draw of podcasting.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the host call the podcast-radio relationship 'paradoxical'?",
+     "options": [
+      "Because podcasts and radio have identical schedules",
+      "Because podcasts share radio's format but function very differently",
+      "Because radio has more listeners despite being older",
+      "Because podcasts are illegal in some countries"
+     ],
+     "answer": "Because podcasts share radio's format but function very differently",
+     "explanation": "The host notes podcasts are essentially the same format, just untethered from a schedule.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'eaten radio's lunch' mean in this context?",
+     "options": [
+      "Podcasts have taken away radio's audience and relevance",
+      "Podcasts have literally consumed radio broadcasts",
+      "Radio hosts stopped eating during work",
+      "Podcasts merged with radio stations"
+     ],
+     "answer": "Podcasts have taken away radio's audience and relevance",
+     "explanation": "'Eat someone's lunch' is an idiom meaning to outcompete them decisively.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "What topic does the host say will be covered next week?",
+     "options": [
+      "Streaming services",
+      "Why vinyl refuses to die",
+      "The history of the radio DJ",
+      "Podcast advertising rates"
+     ],
+     "answer": "Why vinyl refuses to die",
+     "explanation": "The host announces this as the next segment's topic at the very end.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Now, podcasts have muscled their way in, and frankly, they've eaten radio's lunch in more ways than one.",
+     "blanks": [
+      "muscled their way"
+     ],
+     "challenge": "expression",
+     "explanation": "'Muscled their way in' means forced entry aggressively into a space."
+    },
+    {
+     "sentence": "Podcasts, by contrast, are polished, edited, often recorded days or weeks in advance.",
+     "blanks": [
+      "by contrast"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "A linking phrase pronounced smoothly as one unit in fast speech."
+    },
+    {
+     "sentence": "You lose that live-wire unpredictability.",
+     "blanks": [
+      "live-wire"
+     ],
+     "challenge": "similar_sounds",
+     "explanation": "'Live-wire' can be misheard due to its compressed pronunciation."
+    },
+    {
+     "sentence": "There's no gatekeeper telling you your episode has to be exactly forty-four minutes to fit around ad breaks.",
+     "blanks": [
+      "forty-four minutes"
+     ],
+     "challenge": "numbers",
+     "explanation": "Numbers said quickly can be easy to mishear."
+    },
+    {
+     "sentence": "So maybe it's less a story of radio dying and podcasts winning, and more a story of audio fragmenting into a dozen different habitats.",
+     "blanks": [
+      "fragmenting into"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "The words link together smoothly with a dropped syllable feel."
+    },
+    {
+     "sentence": "Whatever shape it takes, one thing hasn't changed — our appetite for a good voice telling us a good story.",
+     "blanks": [
+      "hasn't changed"
+     ],
+     "challenge": "contraction",
+     "explanation": "'Hasn't' is a contraction of 'has not' pronounced quickly."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "eaten radio's",
+     "reduced": "eat-nradio's",
+     "context": "they've eaten radio's lunch"
+    },
+    {
+     "phrase": "kind of",
+     "reduced": "kinda",
+     "context": "used in casual descriptive asides"
+    },
+    {
+     "phrase": "want to",
+     "reduced": "wanna",
+     "context": "implied in host's informal tone"
+    },
+    {
+     "phrase": "going to",
+     "reduced": "gonna",
+     "context": "unpacking why vinyl refuses to die (implied casual delivery)"
+    }
+   ]
+  },
+  {
+   "slug": "c1-university-lecture-on-economics",
+   "title": "Sunk Costs and the Trap of Bad Decisions",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "university lecture on economics",
+   "difficulty": 10,
+   "duration_seconds": 170,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Professor",
+     "line": "Today we're tackling something deceptively simple but notoriously hard to internalize: the sunk cost fallacy."
+    },
+    {
+     "speaker": "Professor",
+     "line": "A sunk cost is money, time, or effort you've already spent, and crucially, cannot get back no matter what you decide going forward."
+    },
+    {
+     "speaker": "Professor",
+     "line": "Classical economic theory says rational actors should ignore sunk costs entirely when making decisions about the future."
+    },
+    {
+     "speaker": "Professor",
+     "line": "And yet, virtually nobody does. We keep watching a terrible film because we've already sat through an hour of it."
+    },
+    {
+     "speaker": "Professor",
+     "line": "We keep funding a failing project because we've poured two years and half a million dollars into it already."
+    },
+    {
+     "speaker": "Professor",
+     "line": "The logic should be straightforward: that money is gone regardless. The only question that matters is whether continuing is the best use of future resources."
+    },
+    {
+     "speaker": "Professor",
+     "line": "But psychologically, walking away feels like admitting the original investment was wasted, and we're wired to avoid that admission at almost any cost."
+    },
+    {
+     "speaker": "Professor",
+     "line": "This is sometimes called escalation of commitment, and it's rampant in corporate settings, particularly among executives who greenlit the doomed project in the first place."
+    },
+    {
+     "speaker": "Professor",
+     "line": "Their ego is entangled with the decision, so abandoning it isn't just a financial loss — it's a public admission of poor judgment."
+    },
+    {
+     "speaker": "Professor",
+     "line": "Governments fall into this trap too. Think of infrastructure projects that balloon wildly over budget, yet nobody pulls the plug because so much has already been spent."
+    },
+    {
+     "speaker": "Professor",
+     "line": "There's a famous case, the Concorde supersonic jet, so notorious that economists sometimes call this the Concorde fallacy instead."
+    },
+    {
+     "speaker": "Professor",
+     "line": "Both the British and French governments kept funding it well past the point of profitability, largely because withdrawing felt politically unthinkable."
+    },
+    {
+     "speaker": "Professor",
+     "line": "Now, how do you guard against this in your own decision-making? First, separate the decision to continue from the decision that got you here."
+    },
+    {
+     "speaker": "Professor",
+     "line": "Ask yourself: if I were encountering this situation fresh today, with no history attached, would I choose to invest in it?"
+    },
+    {
+     "speaker": "Professor",
+     "line": "If the honest answer is no, that's your signal, however uncomfortable, that it's time to cut your losses."
+    },
+    {
+     "speaker": "Professor",
+     "line": "For next week, I want you to find a real-world example of escalation of commitment — corporate, political, even personal — and be ready to dissect it."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the lecture mainly about?",
+     "options": [
+      "How to calculate sunk costs precisely",
+      "Why people irrationally continue investing based on past, unrecoverable costs",
+      "The history of the Concorde jet",
+      "How governments manage infrastructure budgets"
+     ],
+     "answer": "Why people irrationally continue investing based on past, unrecoverable costs",
+     "explanation": "The professor centers the entire lecture on the sunk cost fallacy and why we fall for it.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is another name for the sunk cost fallacy mentioned by the professor?",
+     "options": [
+      "The Titanic effect",
+      "The Concorde fallacy",
+      "The rational actor theory",
+      "The escalation paradox"
+     ],
+     "answer": "The Concorde fallacy",
+     "explanation": "The professor explicitly names it after the Concorde jet project.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "According to classical economic theory, how should rational actors treat sunk costs?",
+     "options": [
+      "Weigh them heavily in future decisions",
+      "Ignore them entirely when deciding what to do next",
+      "Double their investment to recover losses",
+      "Only consider them for large decisions"
+     ],
+     "answer": "Ignore them entirely when deciding what to do next",
+     "explanation": "The professor states this is what classical theory prescribes, even though people rarely follow it.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the professor mention executives who greenlit doomed projects?",
+     "options": [
+      "To praise their decision-making skills",
+      "To explain why ego makes abandoning failing projects harder for them",
+      "To argue executives should be fired immediately",
+      "To show that executives never make mistakes"
+     ],
+     "answer": "To explain why ego makes abandoning failing projects harder for them",
+     "explanation": "The professor links their ego to reluctance to admit poor judgment.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the professor suggest asking 'would I choose to invest in it fresh today'?",
+     "options": [
+      "To help separate past sunk costs from a rational future decision",
+      "To calculate the exact monetary loss",
+      "To determine who is responsible for the failure",
+      "To justify continuing every project regardless"
+     ],
+     "answer": "To help separate past sunk costs from a rational future decision",
+     "explanation": "This question is offered as a technique to avoid the sunk cost fallacy.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'cut your losses' mean in this lecture?",
+     "options": [
+      "Stop investing further and accept the loss already incurred",
+      "Continue investing to recover past losses",
+      "Reduce your personal expenses",
+      "Sell all your assets immediately"
+     ],
+     "answer": "Stop investing further and accept the loss already incurred",
+     "explanation": "This idiom means to end a losing venture rather than continue funding it.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "What assignment does the professor give for next week?",
+     "options": [
+      "Write an essay on the Concorde",
+      "Find and analyze a real-world example of escalation of commitment",
+      "Calculate the sunk costs of a chosen company",
+      "Debate a classmate about economic theory"
+     ],
+     "answer": "Find and analyze a real-world example of escalation of commitment",
+     "explanation": "This is stated directly as the closing homework assignment.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Today we're tackling something deceptively simple but notoriously hard to internalize: the sunk cost fallacy.",
+     "blanks": [
+      "deceptively simple"
+     ],
+     "challenge": "expression",
+     "explanation": "This phrase means something appears easy but is actually complex."
+    },
+    {
+     "sentence": "But psychologically, walking away feels like admitting the original investment was wasted, and we're wired to avoid that admission at almost any cost.",
+     "blanks": [
+      "wired to avoid"
+     ],
+     "challenge": "expression",
+     "explanation": "'Wired to' means instinctively or naturally inclined to."
+    },
+    {
+     "sentence": "Their ego is entangled with the decision, so abandoning it isn't just a financial loss — it's a public admission of poor judgment.",
+     "blanks": [
+      "isn't just"
+     ],
+     "challenge": "contraction",
+     "explanation": "'Isn't' is the contracted form of 'is not.'"
+    },
+    {
+     "sentence": "There's a famous case, the Concorde supersonic jet, so notorious that economists sometimes call this the Concorde fallacy instead.",
+     "blanks": [
+      "so notorious"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "These words link smoothly together in fluent academic speech."
+    },
+    {
+     "sentence": "If the honest answer is no, that's your signal, however uncomfortable, that it's time to cut your losses.",
+     "blanks": [
+      "cut your losses"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiom meaning to stop a failing course of action."
+    },
+    {
+     "sentence": "For next week, I want you to find a real-world example of escalation of commitment — corporate, political, even personal — and be ready to dissect it.",
+     "blanks": [
+      "real-world example"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "The compound adjective 'real-world' is often spoken as one fast unit."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "want to",
+     "reduced": "wanna",
+     "context": "I want you to find a real-world example (delivered fast in academic register)"
+    },
+    {
+     "phrase": "going to",
+     "reduced": "gonna",
+     "context": "implied in casual explanatory asides"
+    },
+    {
+     "phrase": "kind of",
+     "reduced": "kinda",
+     "context": "used loosely when the professor hedges claims"
+    }
+   ]
+  },
+  {
+   "slug": "c1-travel-documentary-monologue",
+   "title": "Chasing the Monsoon Across the Deccan Plateau",
+   "level": "C1",
+   "category": "Travel",
+   "topic": "travel documentary monologue",
+   "difficulty": 8,
+   "duration_seconds": 150,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Narrator",
+     "line": "There's a particular kind of stillness that settles over the Deccan Plateau just before the monsoon breaks."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "The air thickens, farmers glance skyward every few minutes, and even the cattle seem to sense that something is coming."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "We'd been tracking the storm system for nearly a week, driving from village to village, always seemingly one step behind it."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "Locals told us the same thing everywhere we went: when the monsoon finally arrives, it doesn't so much rain as detonate."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "And they weren't exaggerating. On the sixth day, the sky simply split open, and what had been dust turned to rivers within the hour."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "For farmers here, this isn't just weather — it's the difference between a harvest and a lost year, between feeding a family and going into debt."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "We met Sunita, who's farmed this same stretch of red soil for over thirty years, and she described the wait as almost unbearable."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "'Every year,' she told us, 'we watch the sky like it owes us something.' It's a striking way to put it, and it stuck with me the entire trip."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "What's remarkable is how quickly the landscape transforms. Within days, parched fields turn a shade of green so vivid it looks almost artificial."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "Rivers that had been reduced to trickles suddenly surge, and roads we'd driven on the previous week become impassable within hours."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "We nearly lost the truck fording what had been a dry creek bed just three days earlier — a sobering reminder of how fast this landscape can turn against you."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "Climate scientists we spoke with are increasingly worried, though, that the monsoon's timing is growing less predictable year on year."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "A delay of even two or three weeks can devastate crop cycles that farmers have calibrated over generations."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "So while there's an undeniable beauty in watching the plateau come back to life, there's also an undercurrent of anxiety running through every conversation we had."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "The monsoon, for all its drama and spectacle, is ultimately a lifeline that millions of people can no longer take for granted."
+    },
+    {
+     "speaker": "Narrator",
+     "line": "Next time, we follow that same water downstream, to the delta where the river finally meets the sea."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the central theme of this documentary segment?",
+     "options": [
+      "The history of Indian agriculture",
+      "The anticipation, arrival, and significance of the monsoon on the Deccan Plateau",
+      "A comparison between different Indian regions",
+      "The construction of new dams in India"
+     ],
+     "answer": "The anticipation, arrival, and significance of the monsoon on the Deccan Plateau",
+     "explanation": "The entire monologue tracks the buildup, arrival, and impact of the monsoon.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long had the crew been tracking the storm system before it arrived?",
+     "options": [
+      "Three days",
+      "Nearly a week",
+      "Two weeks",
+      "A month"
+     ],
+     "answer": "Nearly a week",
+     "explanation": "The narrator states they'd been tracking it for nearly a week.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long has Sunita farmed her stretch of land?",
+     "options": [
+      "Ten years",
+      "Twenty years",
+      "Over thirty years",
+      "Fifty years"
+     ],
+     "answer": "Over thirty years",
+     "explanation": "The narrator specifically mentions she has farmed there for over thirty years.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the narrator include Sunita's quote about the sky owing them something?",
+     "options": [
+      "To provide comic relief",
+      "To convey the emotional weight and anxiety of waiting for the monsoon",
+      "To criticize local farming methods",
+      "To explain monsoon science"
+     ],
+     "answer": "To convey the emotional weight and anxiety of waiting for the monsoon",
+     "explanation": "The quote is used to humanize and emphasize the tension farmers feel.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the narrator mention climate scientists' concerns about monsoon timing?",
+     "options": [
+      "To highlight a growing threat to farmers' traditional planting cycles",
+      "To argue that monsoons are becoming less intense overall",
+      "To promote a scientific research project",
+      "To explain why the crew almost lost their truck"
+     ],
+     "answer": "To highlight a growing threat to farmers' traditional planting cycles",
+     "explanation": "This detail underscores the anxiety about unpredictability harming agriculture.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does the narrator mean by saying the monsoon 'doesn't so much rain as detonate'?",
+     "options": [
+      "The rain arrives with sudden, explosive intensity",
+      "The monsoon causes literal explosions",
+      "The rain is barely noticeable",
+      "The monsoon never actually arrives"
+     ],
+     "answer": "The rain arrives with sudden, explosive intensity",
+     "explanation": "This vivid metaphor emphasizes the abrupt, forceful nature of the monsoon's onset.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "Where does the narrator say the crew will go next time?",
+     "options": [
+      "Back to the same village",
+      "Downstream to the delta where the river meets the sea",
+      "To a different plateau entirely",
+      "To interview more climate scientists"
+     ],
+     "answer": "Downstream to the delta where the river meets the sea",
+     "explanation": "This is stated as the closing line of the segment.",
+     "skill": "fast_speech"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "There's a particular kind of stillness that settles over the Deccan Plateau just before the monsoon breaks.",
+     "blanks": [
+      "settles over"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "The phrase links smoothly as spoken naturally in narration."
+    },
+    {
+     "sentence": "Locals told us the same thing everywhere we went: when the monsoon finally arrives, it doesn't so much rain as detonate.",
+     "blanks": [
+      "doesn't so much"
+     ],
+     "challenge": "contraction",
+     "explanation": "'Doesn't' is a contraction pronounced quickly before the comparison structure."
+    },
+    {
+     "sentence": "'Every year,' she told us, 'we watch the sky like it owes us something.'",
+     "blanks": [
+      "owes us something"
+     ],
+     "challenge": "similar_sounds",
+     "explanation": "'Owes us' can blend together and sound like a single word when spoken fast."
+    },
+    {
+     "sentence": "We nearly lost the truck fording what had been a dry creek bed just three days earlier — a sobering reminder of how fast this landscape can turn against you.",
+     "blanks": [
+      "three days earlier"
+     ],
+     "challenge": "numbers",
+     "explanation": "Time expressions with numbers require careful listening."
+    },
+    {
+     "sentence": "A delay of even two or three weeks can devastate crop cycles that farmers have calibrated over generations.",
+     "blanks": [
+      "two or three"
+     ],
+     "challenge": "numbers",
+     "explanation": "Number ranges spoken quickly can be easy to mishear."
+    },
+    {
+     "sentence": "The monsoon, for all its drama and spectacle, is ultimately a lifeline that millions of people can no longer take for granted.",
+     "blanks": [
+      "take for granted"
+     ],
+     "challenge": "expression",
+     "explanation": "This idiom means to fail to appreciate something's value or reliability."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "kind of",
+     "reduced": "kinda",
+     "context": "a particular kind of stillness (linked fast in narration)"
+    },
+    {
+     "phrase": "going to",
+     "reduced": "gonna",
+     "context": "implied in the narrator's forward-looking closing remark"
+    },
+    {
+     "phrase": "want to",
+     "reduced": "wanna",
+     "context": "implied in the narrator's descriptive tone throughout"
+    }
+   ]
+  }
+ ]
+}

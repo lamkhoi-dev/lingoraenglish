@@ -1,0 +1,41 @@
+{
+  "topic_slug": "health-doctor",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Booking an appointment",
+      "turns": [
+        { "speaker_label": "Patient", "speaker_voice": "shimmer", "sentence": "Hi, I'd like to make an appointment, please.", "is_free": true },
+        { "speaker_label": "Receptionist", "speaker_voice": "coral", "sentence": "Sure. What's the reason for your visit?", "is_free": true },
+        { "speaker_label": "Patient", "speaker_voice": "shimmer", "sentence": "I have a sore throat and a fever.", "is_free": true },
+        { "speaker_label": "Receptionist", "speaker_voice": "coral", "sentence": "I can fit you in tomorrow at 10 a.m. Does that work?", "is_free": true },
+        { "speaker_label": "Patient", "speaker_voice": "shimmer", "sentence": "Yes, that works perfectly. Thank you.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Describing symptoms",
+      "turns": [
+        { "speaker_label": "Doctor", "speaker_voice": "sage", "sentence": "So tell me, how long have you had this headache?", "is_free": false },
+        { "speaker_label": "Patient", "speaker_voice": "alloy", "sentence": "About three days now, and it gets worse in the afternoon.", "is_free": false },
+        { "speaker_label": "Doctor", "speaker_voice": "sage", "sentence": "Have you noticed anything that seems to trigger it — stress, screen time, lack of sleep?", "is_free": false },
+        { "speaker_label": "Patient", "speaker_voice": "alloy", "sentence": "Honestly, I haven't been sleeping much this week, now that you mention it.", "is_free": false },
+        { "speaker_label": "Doctor", "speaker_voice": "sage", "sentence": "That's very likely the culprit. Let's start there before we consider anything else.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Discussing treatment options",
+      "turns": [
+        { "speaker_label": "Doctor", "speaker_voice": "nova", "sentence": "Given your test results, there are really two routes we could take — physical therapy or a short course of medication.", "is_free": false },
+        { "speaker_label": "Patient", "speaker_voice": "shimmer", "sentence": "What would you recommend, considering I'd rather avoid medication if at all possible?", "is_free": false },
+        { "speaker_label": "Doctor", "speaker_voice": "nova", "sentence": "That's entirely reasonable — physical therapy tends to take longer, but the results are usually more lasting.", "is_free": false },
+        { "speaker_label": "Patient", "speaker_voice": "shimmer", "sentence": "I'm willing to be patient if it means addressing the root cause rather than just masking it.", "is_free": false },
+        { "speaker_label": "Doctor", "speaker_voice": "nova", "sentence": "Then let's go ahead and get you referred to a physiotherapist this week.", "is_free": false }
+      ]
+    }
+  ]
+}

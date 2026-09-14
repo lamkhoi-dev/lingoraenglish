@@ -1,0 +1,2404 @@
+{
+ "slug": "grocery-shopping",
+ "name": "Shopping & Groceries",
+ "topic_group": "Everyday English",
+ "blurb": "Practice everyday spoken English for grocery shopping, checkout lines, and food talk.",
+ "sort_order": 3,
+ "sentences": [
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I need to buy some milk.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ sound in milk",
+   "stress_focus": "need, milk",
+   "intonation_focus": "falling at the end",
+   "connected_speech_focus": "link 'need to' as nee-duh",
+   "vocabulary": [
+    {
+     "word": "milk",
+     "meaning": "a white drink from cows"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "We're out of bread.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in bread",
+   "stress_focus": "out, bread",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'out of' links as ow-tuv",
+   "vocabulary": [
+    {
+     "word": "out of",
+     "meaning": "none left"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "List",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Can you grab some eggs?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /g/ in grab",
+   "stress_focus": "grab, eggs",
+   "intonation_focus": "rising at the end",
+   "connected_speech_focus": "'can you' blends as ken-yuh",
+   "vocabulary": [
+    {
+     "word": "grab",
+     "meaning": "to quickly get something"
+    }
+   ],
+   "grammar_focus": "modal request",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "List",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I'm making a shopping list.",
+   "natural_form": "I'm makin' a shopping list.",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending",
+   "stress_focus": "making, list",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "reduce -ing to -in'",
+   "vocabulary": [
+    {
+     "word": "list",
+     "meaning": "a written set of items"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Where's the nearest grocery store?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in nearest",
+   "stress_focus": "nearest, grocery",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "'where's the' links smoothly",
+   "vocabulary": [
+    {
+     "word": "nearest",
+     "meaning": "closest"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I like fresh fruit.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in fresh and fruit",
+   "stress_focus": "fresh, fruit",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": "[]",
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I'll pay in cash.",
+   "natural_form": "I'll pay in cash.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u00e6/ in cash",
+   "stress_focus": "pay, cash",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'I'll' contraction",
+   "vocabulary": [
+    {
+     "word": "cash",
+     "meaning": "paper money and coins"
+    }
+   ],
+   "grammar_focus": "future with will",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Do you take credit cards?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in credit",
+   "stress_focus": "take, credit, cards",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "'do you' blends as duh-yuh",
+   "vocabulary": [
+    {
+     "word": "credit card",
+     "meaning": "a card used to pay"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "This apple looks good.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the double p in apple",
+   "stress_focus": "apple, good",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "looks",
+     "meaning": "appears"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "List",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "Put the carrots in the cart.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in carrots and cart",
+   "stress_focus": "carrots, cart",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'in the' links as in-thuh",
+   "vocabulary": [
+    {
+     "word": "cart",
+     "meaning": "a wheeled basket for shopping"
+    }
+   ],
+   "grammar_focus": "imperative",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The store closes at nine.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /z/ in closes",
+   "stress_focus": "closes, nine",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "closes",
+     "meaning": "shuts, stops being open"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "How much is this?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in much",
+   "stress_focus": "much, this",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "'how much' as one chunk",
+   "vocabulary": [
+    {
+     "word": "how much",
+     "meaning": "asking about price"
+    }
+   ],
+   "grammar_focus": "question with how much",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Response",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "response",
+   "sentence": "That's five dollars.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d/ in dollars",
+   "stress_focus": "five, dollars",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'that's' contraction",
+   "vocabulary": [
+    {
+     "word": "dollars",
+     "meaning": "U.S. money unit"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I want two bananas.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /b/ in bananas",
+   "stress_focus": "two, bananas",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "bananas",
+     "meaning": "a yellow curved fruit"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "She's pushing the cart.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in pushing",
+   "stress_focus": "pushing, cart",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'she's' contraction",
+   "vocabulary": [
+    {
+     "word": "pushing",
+     "meaning": "moving something forward"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "List",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Please add rice to the list.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in rice",
+   "stress_focus": "add, rice, list",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "add",
+     "meaning": "to include"
+    }
+   ],
+   "grammar_focus": "imperative request",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The line is long today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u014b/ in long",
+   "stress_focus": "line, long",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "line",
+     "meaning": "a row of people waiting"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Is this on sale?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /s/ in sale",
+   "stress_focus": "sale",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "'is this' links as i-this",
+   "vocabulary": [
+    {
+     "word": "on sale",
+     "meaning": "sold at a lower price"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Response",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "agreement",
+   "sentence": "Yes, it's fifty percent off.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in fifty",
+   "stress_focus": "fifty, percent",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'it's' contraction",
+   "vocabulary": [
+    {
+     "word": "percent off",
+     "meaning": "a discount amount"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "I forgot my reusable bags.",
+   "natural_form": "I forgot my reusable bags.",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in forgot",
+   "stress_focus": "forgot, reusable",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "reusable",
+     "meaning": "can be used again"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The cashier is very friendly.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in cashier",
+   "stress_focus": "cashier, friendly",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "cashier",
+     "meaning": "the person who takes your payment"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "We need more coffee at home.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in coffee",
+   "stress_focus": "need, coffee",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'need more' links",
+   "vocabulary": [
+    {
+     "word": "coffee",
+     "meaning": "a hot caffeinated drink"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Do you have a shopping bag?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in shopping",
+   "stress_focus": "shopping, bag",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "'do you have a' blends",
+   "vocabulary": [
+    {
+     "word": "bag",
+     "meaning": "container to carry items"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "This yogurt is on the top shelf.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /j/ in yogurt",
+   "stress_focus": "yogurt, shelf",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "shelf",
+     "meaning": "a flat surface for storing items"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "I'm going to the market later.",
+   "natural_form": "I'm gonna go to the market later.",
+   "accent": "american",
+   "pronunciation_focus": "reduce 'going to' to gonna",
+   "stress_focus": "market, later",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'gonna' reduction",
+   "vocabulary": [
+    {
+     "word": "market",
+     "meaning": "a place to buy food"
+    }
+   ],
+   "grammar_focus": "future with going to",
+   "tags": [
+    "grocery",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Aisles",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "The frozen food aisle is at the back.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /z/ in frozen",
+   "stress_focus": "frozen, aisle, back",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'at the' links",
+   "vocabulary": [
+    {
+     "word": "aisle",
+     "meaning": "a walkway between shelves"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Aisles",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "Which aisle has the pasta?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in which",
+   "stress_focus": "aisle, pasta",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "pasta",
+     "meaning": "a wheat food like noodles"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Response",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "response",
+   "sentence": "It's in aisle five, next to the sauces.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /s/ in sauces",
+   "stress_focus": "aisle, sauces",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'next to' links as nex-tuh",
+   "vocabulary": [
+    {
+     "word": "sauces",
+     "meaning": "liquid toppings for food"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Budget",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I'm trying to stick to my budget.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the consonant cluster in stick",
+   "stress_focus": "stick, budget",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'trying to' as try-in-tuh",
+   "vocabulary": [
+    {
+     "word": "budget",
+     "meaning": "a plan for spending money"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Budget",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "I think groceries are getting more expensive.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ in think",
+   "stress_focus": "expensive, groceries",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'getting more' links",
+   "vocabulary": [
+    {
+     "word": "expensive",
+     "meaning": "costs a lot of money"
+    }
+   ],
+   "grammar_focus": "present continuous for change",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Coupons",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I clipped a coupon for this cereal.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in coupon",
+   "stress_focus": "clipped, coupon",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "coupon",
+     "meaning": "a paper that gives a discount"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Coupons",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "request",
+   "sentence": "Can I use two coupons together?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /z/ in coupons",
+   "stress_focus": "use, coupons",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "'can I' blends",
+   "vocabulary": [
+    {
+     "word": "coupon",
+     "meaning": "a discount voucher"
+    }
+   ],
+   "grammar_focus": "modal question",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Freshness",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "This bread is starting to go stale.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /st/ cluster in starting, stale",
+   "stress_focus": "starting, stale",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'starting to' links",
+   "vocabulary": [
+    {
+     "word": "stale",
+     "meaning": "no longer fresh"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Freshness",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "These tomatoes look really ripe.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in ripe",
+   "stress_focus": "tomatoes, ripe",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "ripe",
+     "meaning": "ready to eat"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Quantities",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "request",
+   "sentence": "Could you weigh these apples for me?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in weigh",
+   "stress_focus": "weigh, apples",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'for me' links",
+   "vocabulary": [
+    {
+     "word": "weigh",
+     "meaning": "to measure the weight of something"
+    }
+   ],
+   "grammar_focus": "modal request",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Quantities",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I only need a small amount of sugar.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in sugar",
+   "stress_focus": "small, amount, sugar",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'a small amount of' as one phrase",
+   "vocabulary": [
+    {
+     "word": "amount",
+     "meaning": "a quantity of something"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, did you say cash or card?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in cash",
+   "stress_focus": "cash, card",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "'did you' blends as di-juh",
+   "vocabulary": [
+    {
+     "word": "clarify",
+     "meaning": "to make something clearer"
+    }
+   ],
+   "grammar_focus": "reported question",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Payment",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "response",
+   "sentence": "Card is fine, thanks.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in card",
+   "stress_focus": "card, fine",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "fine",
+     "meaning": "acceptable, okay"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Delivery",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I ordered my groceries online this week.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in groceries",
+   "stress_focus": "ordered, online",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'this week' as one chunk",
+   "vocabulary": [
+    {
+     "word": "online",
+     "meaning": "through the internet"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Delivery",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "When will my delivery arrive?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in arrive",
+   "stress_focus": "delivery, arrive",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "'will my' links",
+   "vocabulary": [
+    {
+     "word": "delivery",
+     "meaning": "bringing goods to your home"
+    }
+   ],
+   "grammar_focus": "future with will",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Substitutes",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "If they're out of butter, I'll get margarine instead.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in margarine",
+   "stress_focus": "butter, margarine, instead",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'they're out of' links smoothly",
+   "vocabulary": [
+    {
+     "word": "instead",
+     "meaning": "in place of something else"
+    }
+   ],
+   "grammar_focus": "first conditional",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Substitutes",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "I actually prefer almond milk over regular milk.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /l/ in almond",
+   "stress_focus": "prefer, almond",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'over regular' links",
+   "vocabulary": [
+    {
+     "word": "prefer",
+     "meaning": "like better"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Checkout",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "request",
+   "sentence": "Could you double-bag this, please?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d/ in double",
+   "stress_focus": "double, bag",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'double-bag' as one word chunk",
+   "vocabulary": [
+    {
+     "word": "double-bag",
+     "meaning": "put in two bags for strength"
+    }
+   ],
+   "grammar_focus": "modal request",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Checkout",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "The self-checkout line is shorter.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in self",
+   "stress_focus": "self-checkout, shorter",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "",
+   "vocabulary": [
+    {
+     "word": "self-checkout",
+     "meaning": "a machine where you scan your own items"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Checkout",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "reaction",
+   "sentence": "Oh no, I forgot my wallet at home!",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in wallet",
+   "stress_focus": "forgot, wallet",
+   "intonation_focus": "falling with emphasis on 'oh no'",
+   "connected_speech_focus": "'at home' links",
+   "vocabulary": [
+    {
+     "word": "wallet",
+     "meaning": "a small case for money and cards"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Storytelling",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "storytelling",
+   "sentence": "I went to three stores before I found the right cheese.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in cheese",
+   "stress_focus": "three, stores, cheese",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'before I' links",
+   "vocabulary": [
+    {
+     "word": "right",
+     "meaning": "correct or suitable"
+    }
+   ],
+   "grammar_focus": "past simple sequence",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Health",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "I try to buy organic vegetables when I can.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /g/ in organic",
+   "stress_focus": "organic, vegetables",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'try to' as try-tuh",
+   "vocabulary": [
+    {
+     "word": "organic",
+     "meaning": "grown without artificial chemicals"
+    }
+   ],
+   "grammar_focus": "simple present habit",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Health",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "This label says it's low in sodium.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d/ in sodium",
+   "stress_focus": "label, sodium",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'says it's' blends",
+   "vocabulary": [
+    {
+     "word": "sodium",
+     "meaning": "salt content in food"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Recipes",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "I still need a few ingredients for dinner.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in ingredients",
+   "stress_focus": "ingredients, dinner",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'a few' links",
+   "vocabulary": [
+    {
+     "word": "ingredients",
+     "meaning": "items used to make a dish"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Recipes",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "request",
+   "sentence": "Can you check if we have any garlic left?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /g/ in garlic",
+   "stress_focus": "check, garlic, left",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "'if we have' links smoothly",
+   "vocabulary": [
+    {
+     "word": "garlic",
+     "meaning": "a strong-flavored bulb used in cooking"
+    }
+   ],
+   "grammar_focus": "embedded question",
+   "tags": [
+    "grocery",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Phrasal Verbs",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "We ran out of paper towels again.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in out",
+   "stress_focus": "ran out, again",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'ran out of' as one chunk",
+   "vocabulary": [
+    {
+     "word": "run out of",
+     "meaning": "to have none left"
+    }
+   ],
+   "grammar_focus": "phrasal verb, past simple",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Phrasal Verbs",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "request",
+   "sentence": "Could you pick up some limes on your way home?",
+   "natural_form": "Could you pick up some limes on your way home?",
+   "accent": "american",
+   "pronunciation_focus": "linking 'pick up' as pi-kup",
+   "stress_focus": "pick up, limes",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'pick up' links as pi-kup",
+   "vocabulary": [
+    {
+     "word": "pick up",
+     "meaning": "to buy or collect something"
+    }
+   ],
+   "grammar_focus": "phrasal verb request",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Phrasal Verbs",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I need to stock up on canned goods before the storm.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /st/ cluster in stock",
+   "stress_focus": "stock up, canned goods, storm",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'stock up on' as one chunk",
+   "vocabulary": [
+    {
+     "word": "stock up",
+     "meaning": "to buy a lot of something for later"
+    }
+   ],
+   "grammar_focus": "phrasal verb",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Connectors",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "Even though it's pricier, I always buy the organic brand.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u026a/ in pricier",
+   "stress_focus": "pricier, organic, always",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'even though' links smoothly",
+   "vocabulary": [
+    {
+     "word": "pricier",
+     "meaning": "more expensive"
+    }
+   ],
+   "grammar_focus": "concession clause",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Connectors",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "Since we're already at the store, let's grab some snacks too.",
+   "natural_form": "Since we're already at the store, let's grab some snacks too.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0254\u02d0l/ in already",
+   "stress_focus": "already, snacks, too",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'let's grab' blends",
+   "vocabulary": [
+    {
+     "word": "already",
+     "meaning": "by this time"
+    }
+   ],
+   "grammar_focus": "reason clause",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Checkout",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "Wait, I thought this was buy one, get one free.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in wait",
+   "stress_focus": "thought, buy one",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "'get one' links as ge-twon",
+   "vocabulary": [
+    {
+     "word": "buy one get one free",
+     "meaning": "a promotion where a second item is free"
+    }
+   ],
+   "grammar_focus": "past simple belief",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Checkout",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "disagreement",
+   "sentence": "Actually, that discount only applies to the store brand.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in applies",
+   "stress_focus": "discount, applies, brand",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'only applies to' links",
+   "vocabulary": [
+    {
+     "word": "apply to",
+     "meaning": "to be relevant to something"
+    }
+   ],
+   "grammar_focus": "present simple fact",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Substitutes",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "If they're sold out of chicken breasts, I'll swap in thighs instead.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u026a/ in thighs",
+   "stress_focus": "sold out, swap, thighs",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'sold out of' links",
+   "vocabulary": [
+    {
+     "word": "swap in",
+     "meaning": "to replace with something else"
+    }
+   ],
+   "grammar_focus": "first conditional, phrasal verb",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Habits",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "storytelling",
+   "sentence": "I used to shop every day, but now I do one big trip a week.",
+   "natural_form": "I used to shop every day, but now I do one big trip a week.",
+   "accent": "american",
+   "pronunciation_focus": "the /ju\u02d0/ in used to",
+   "stress_focus": "used to, big trip",
+   "intonation_focus": "falling then rising then falling",
+   "connected_speech_focus": "'used to' links as use-tuh",
+   "vocabulary": [
+    {
+     "word": "used to",
+     "meaning": "a past habit that no longer happens"
+    }
+   ],
+   "grammar_focus": "used to vs present simple",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Habits",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I put off grocery shopping until the fridge is basically empty.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in fridge",
+   "stress_focus": "put off, basically, empty",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'put off' as one chunk",
+   "vocabulary": [
+    {
+     "word": "put off",
+     "meaning": "to delay doing something"
+    }
+   ],
+   "grammar_focus": "phrasal verb, present simple",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Deals",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I signed up for the loyalty program to save on gas points.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in loyalty",
+   "stress_focus": "signed up, loyalty, gas points",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'signed up for' links",
+   "vocabulary": [
+    {
+     "word": "loyalty program",
+     "meaning": "a rewards system for regular customers"
+    }
+   ],
+   "grammar_focus": "phrasal verb, past simple",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Deals",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "question",
+   "sentence": "Do you know if this deal carries over to next week?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in carries",
+   "stress_focus": "carries over, next week",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "'carries over to' links",
+   "vocabulary": [
+    {
+     "word": "carry over",
+     "meaning": "to continue into another period"
+    }
+   ],
+   "grammar_focus": "phrasal verb question",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Comparisons",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "This store's produce is way fresher than the one down the street.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in way",
+   "stress_focus": "fresher, down the street",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'down the street' links",
+   "vocabulary": [
+    {
+     "word": "produce",
+     "meaning": "fruits and vegetables"
+    }
+   ],
+   "grammar_focus": "comparative adjective",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Comparisons",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "disagreement",
+   "sentence": "I wouldn't say it's cheaper here; the prices are pretty similar.",
+   "natural_form": "I wouldn't say it's cheaper here; the prices are pretty similar.",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in wouldn't",
+   "stress_focus": "cheaper, similar",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'wouldn't say' links",
+   "vocabulary": [
+    {
+     "word": "similar",
+     "meaning": "almost the same"
+    }
+   ],
+   "grammar_focus": "comparative, hedging opinion",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Planning",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I like to plan out my meals before I hit the grocery store.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /pl/ cluster in plan",
+   "stress_focus": "plan out, hit the store",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'hit the' links",
+   "vocabulary": [
+    {
+     "word": "hit",
+     "meaning": "informally, to go to a place"
+    }
+   ],
+   "grammar_focus": "phrasal verb, present habit",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Planning",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "request",
+   "sentence": "Can you help me figure out what we're missing for dinner?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in figure",
+   "stress_focus": "figure out, missing",
+   "intonation_focus": "rising",
+   "connected_speech_focus": "'figure out' as one chunk",
+   "vocabulary": [
+    {
+     "word": "figure out",
+     "meaning": "to work something out"
+    }
+   ],
+   "grammar_focus": "phrasal verb request",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Problems",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "reaction",
+   "sentence": "Ugh, they've bumped up the prices on everything again.",
+   "natural_form": "Ugh, they've bumped up the prices on everything again.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u028c/ in bumped",
+   "stress_focus": "bumped up, everything",
+   "intonation_focus": "falling with frustration",
+   "connected_speech_focus": "'bumped up' as one chunk",
+   "vocabulary": [
+    {
+     "word": "bump up",
+     "meaning": "to raise or increase"
+    }
+   ],
+   "grammar_focus": "present perfect, phrasal verb",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Problems",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "I ended up spending way more than I planned to.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u025b/ in ended",
+   "stress_focus": "ended up, way more",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'ended up' links",
+   "vocabulary": [
+    {
+     "word": "end up",
+     "meaning": "to eventually reach a result"
+    }
+   ],
+   "grammar_focus": "phrasal verb, past simple",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Etiquette",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "It kind of bugs me when people cut in line at checkout.",
+   "natural_form": "It kind of bugs me when people cut in line at checkout.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u028c/ in bugs",
+   "stress_focus": "bugs me, cut in line",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'kind of' reduces to kinda",
+   "vocabulary": [
+    {
+     "word": "cut in line",
+     "meaning": "to go ahead of others unfairly"
+    }
+   ],
+   "grammar_focus": "present simple, idiom",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Etiquette",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "agreement",
+   "sentence": "Yeah, that really gets on my nerves too.",
+   "natural_form": "Yeah, that really gets on my nerves too.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u014b/ in gets",
+   "stress_focus": "gets, nerves",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'gets on my' links",
+   "vocabulary": [
+    {
+     "word": "get on someone's nerves",
+     "meaning": "to annoy someone"
+    }
+   ],
+   "grammar_focus": "idiomatic expression",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Recipes",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "Wait, do we need baking soda or baking powder for this?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d/ in baking",
+   "stress_focus": "baking soda, baking powder",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "'do we need' links",
+   "vocabulary": [
+    {
+     "word": "baking soda",
+     "meaning": "a leavening agent used in baking"
+    }
+   ],
+   "grammar_focus": "embedded alternative question",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Recipes",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I always double-check the recipe before I head to the store.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in check",
+   "stress_focus": "double-check, recipe",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'before I head' links",
+   "vocabulary": [
+    {
+     "word": "double-check",
+     "meaning": "to check again carefully"
+    }
+   ],
+   "grammar_focus": "present simple habit",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Storage",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "Once you get home, throw the meat straight into the freezer.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8r/ cluster in throw",
+   "stress_focus": "throw, straight, freezer",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'straight into' links",
+   "vocabulary": [
+    {
+     "word": "straight into",
+     "meaning": "directly into"
+    }
+   ],
+   "grammar_focus": "imperative with time clause",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Storage",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "question",
+   "sentence": "How long does this stuff usually keep in the fridge?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0292/ in usually",
+   "stress_focus": "keep, fridge",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "'does this stuff' links",
+   "vocabulary": [
+    {
+     "word": "keep",
+     "meaning": "to stay fresh, not spoil"
+    }
+   ],
+   "grammar_focus": "present simple question",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Shopping trips",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "By the time I got to the register, my cart was completely full.",
+   "natural_form": "By the time I got to the register, my cart was completely full.",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in register",
+   "stress_focus": "register, completely, full",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'by the time' as one chunk",
+   "vocabulary": [
+    {
+     "word": "register",
+     "meaning": "the checkout counter"
+    }
+   ],
+   "grammar_focus": "past simple with time clause",
+   "tags": [
+    "grocery",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Nuance",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I'd rather pay a bit more upfront than end up wasting food that went bad.",
+   "natural_form": "Honestly, I'd rather pay a bit more upfront than end up wasting food that went bad.",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in rather",
+   "stress_focus": "upfront, wasting, went bad",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'end up wasting' links smoothly",
+   "vocabulary": [
+    {
+     "word": "upfront",
+     "meaning": "in advance, before something happens"
+    }
+   ],
+   "grammar_focus": "comparative with 'rather...than'",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Nuance",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "disagreement",
+   "sentence": "I get that it's convenient, but I don't think it's worth the markup they're charging.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in convenient",
+   "stress_focus": "convenient, worth, markup",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'don't think it's' links",
+   "vocabulary": [
+    {
+     "word": "markup",
+     "meaning": "the amount added to the cost price"
+    }
+   ],
+   "grammar_focus": "concession with embedded clause",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Storytelling",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "By the time I'd made it through the whole store, half the stuff on my list had sold out.",
+   "natural_form": "By the time I'd made it through the whole store, half the stuff on my list had sold out.",
+   "accent": "american",
+   "pronunciation_focus": "the /hw/ in whole",
+   "stress_focus": "whole store, sold out",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'by the time' introduces past perfect",
+   "vocabulary": [
+    {
+     "word": "sold out",
+     "meaning": "no longer available to buy"
+    }
+   ],
+   "grammar_focus": "past perfect narrative",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Storytelling",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "I'd been standing in that line for twenty minutes when I realized I'd left my wallet in the car.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in realized",
+   "stress_focus": "standing, realized, wallet",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'I'd been' contraction",
+   "vocabulary": [
+    {
+     "word": "realize",
+     "meaning": "to become aware of something"
+    }
+   ],
+   "grammar_focus": "past perfect continuous",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Workplace",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "workplace",
+   "sentence": "We're getting slammed at the deli counter, so can you jump on register three?",
+   "natural_form": "We're getting slammed at the deli counter, so can you jump on register three?",
+   "accent": "american",
+   "pronunciation_focus": "the /\u00e6/ in slammed",
+   "stress_focus": "slammed, jump on",
+   "intonation_focus": "rising at end",
+   "connected_speech_focus": "'jump on' as idiomatic phrase",
+   "vocabulary": [
+    {
+     "word": "slammed",
+     "meaning": "extremely busy, informal"
+    }
+   ],
+   "grammar_focus": "present continuous, imperative request",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Workplace",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "workplace",
+   "sentence": "Could you restock the shelf before the morning rush kicks in?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in restock",
+   "stress_focus": "restock, rush, kicks in",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'kicks in' as one chunk",
+   "vocabulary": [
+    {
+     "word": "kick in",
+     "meaning": "to start having an effect"
+    }
+   ],
+   "grammar_focus": "modal request, phrasal verb",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Idiom",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "I try not to shop on an empty stomach because I end up buying way too much junk.",
+   "natural_form": "I try not to shop on an empty stomach because I end up buying way too much junk.",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in junk",
+   "stress_focus": "empty stomach, end up, junk",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'end up buying' links smoothly",
+   "vocabulary": [
+    {
+     "word": "empty stomach",
+     "meaning": "hungry, not having eaten"
+    }
+   ],
+   "grammar_focus": "cause and effect clause",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Idiom",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "You've got to be kidding me, they raised the price on eggs again?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /g/ in got to",
+   "stress_focus": "kidding, raised, eggs",
+   "intonation_focus": "rising in disbelief",
+   "connected_speech_focus": "'got to be' reduces to gotta be",
+   "vocabulary": [
+    {
+     "word": "kidding",
+     "meaning": "joking, not serious"
+    }
+   ],
+   "grammar_focus": "rhetorical question",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Comparisons",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "When it comes down to it, I'd rather drive across town for cheaper produce than settle for what's here.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ in down",
+   "stress_focus": "comes down, settle",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'when it comes down to it' as fixed phrase",
+   "vocabulary": [
+    {
+     "word": "settle for",
+     "meaning": "to accept something less than ideal"
+    }
+   ],
+   "grammar_focus": "complex sentence with idiom",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Deals",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "clarification",
+   "sentence": "Hold on, is that discount only valid if you use the store's app, or does it apply either way?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0259\u028a/ in hold on",
+   "stress_focus": "discount, valid, apply",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "'either way' links",
+   "vocabulary": [
+    {
+     "word": "valid",
+     "meaning": "acceptable, legally or officially recognized"
+    }
+   ],
+   "grammar_focus": "alternative question, conditional",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Sustainability",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "I've been trying to cut down on packaging waste, even if it means shopping at a couple of different places.",
+   "natural_form": "I've been trying to cut down on packaging waste, even if it means shopping at a couple of different places.",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in cut down",
+   "stress_focus": "cut down, packaging, waste",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'cut down on' as fixed phrasal verb",
+   "vocabulary": [
+    {
+     "word": "cut down on",
+     "meaning": "to reduce the amount of something"
+    }
+   ],
+   "grammar_focus": "present perfect continuous with concession",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Sustainability",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "A lot of stores have started phasing out plastic bags altogether.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in phasing",
+   "stress_focus": "phasing out, altogether",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'phasing out' links",
+   "vocabulary": [
+    {
+     "word": "phase out",
+     "meaning": "to gradually stop using something"
+    }
+   ],
+   "grammar_focus": "present perfect, phrasal verb",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Budgeting",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "If I'm being honest, meal prepping has saved me a ton of money on groceries.",
+   "natural_form": "If I'm being honest, meal prepping has saved me a ton of money on groceries.",
+   "accent": "american",
+   "pronunciation_focus": "the /p/ in prepping",
+   "stress_focus": "meal prepping, saved, ton",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'if I'm being honest' as discourse marker",
+   "vocabulary": [
+    {
+     "word": "meal prepping",
+     "meaning": "preparing meals in advance"
+    }
+   ],
+   "grammar_focus": "present perfect result",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Budgeting",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "disagreement",
+   "sentence": "I hear what you're saying, but bulk buying only pays off if you actually use everything before it expires.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in bulk",
+   "stress_focus": "bulk buying, pays off, expires",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'pays off' links",
+   "vocabulary": [
+    {
+     "word": "pay off",
+     "meaning": "to result in a benefit"
+    }
+   ],
+   "grammar_focus": "conditional clause with idiom",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Etiquette",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "It bugs me to no end when people leave their cart smack in the middle of the aisle.",
+   "natural_form": "It bugs me to no end when people leave their cart smack in the middle of the aisle.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u028c/ in bugs",
+   "stress_focus": "bugs, no end, smack",
+   "intonation_focus": "falling with irritation",
+   "connected_speech_focus": "'to no end' as idiom",
+   "vocabulary": [
+    {
+     "word": "to no end",
+     "meaning": "extremely, a great deal"
+    }
+   ],
+   "grammar_focus": "idiomatic present simple",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Etiquette",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "agreement",
+   "sentence": "Tell me about it, I nearly ran into someone's cart the other day.",
+   "natural_form": "Tell me about it, I nearly ran into someone's cart the other day.",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in ran",
+   "stress_focus": "tell me about it, nearly",
+   "intonation_focus": "falling with emphasis",
+   "connected_speech_focus": "'tell me about it' as fixed expression",
+   "vocabulary": [
+    {
+     "word": "tell me about it",
+     "meaning": "an expression showing strong agreement"
+    }
+   ],
+   "grammar_focus": "idiomatic agreement",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Freshness",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "clarification",
+   "sentence": "Hang on, does the sell-by date mean it's already gone bad, or does it just mean it's past its prime?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d/ in date",
+   "stress_focus": "sell-by date, gone bad, prime",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "'sell-by date' as compound noun",
+   "vocabulary": [
+    {
+     "word": "past its prime",
+     "meaning": "no longer at its best quality"
+    }
+   ],
+   "grammar_focus": "alternative embedded question",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Freshness",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "Even though the label says it's expired, it's usually still fine for a few more days.",
+   "natural_form": "Even though the label says it's expired, it's usually still fine for a few more days.",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in expired",
+   "stress_focus": "expired, still fine",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'even though' introduces concession",
+   "vocabulary": [
+    {
+     "word": "expired",
+     "meaning": "past the date it should be used by"
+    }
+   ],
+   "grammar_focus": "concessive clause",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Substitutes",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "I've grown so used to almond milk that regular milk just doesn't taste right to me anymore.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /gr/ cluster in grown",
+   "stress_focus": "grown used to, doesn't taste right",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'used to' as adjective phrase",
+   "vocabulary": [
+    {
+     "word": "grown used to",
+     "meaning": "become accustomed to something"
+    }
+   ],
+   "grammar_focus": "present perfect with 'used to'",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Delivery",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "I ended up canceling the delivery order because the app kept crashing every time I tried to check out.",
+   "natural_form": "I ended up canceling the delivery order because the app kept crashing every time I tried to check out.",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in canceling",
+   "stress_focus": "ended up, canceling, crashing",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'ended up canceling' links",
+   "vocabulary": [
+    {
+     "word": "crash",
+     "meaning": "to stop working suddenly, of software"
+    }
+   ],
+   "grammar_focus": "past simple with reason clause",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Delivery",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "I'll admit, ordering groceries online has spoiled me; I barely remember the last time I set foot in a store.",
+   "natural_form": "I'll admit, ordering groceries online has spoiled me; I barely remember the last time I set foot in a store.",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in remember",
+   "stress_focus": "spoiled, barely, set foot",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'set foot in' as idiom",
+   "vocabulary": [
+    {
+     "word": "set foot in",
+     "meaning": "to enter a place"
+    }
+   ],
+   "grammar_focus": "present perfect with idiom",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Workplace",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "workplace",
+   "sentence": "Management wants us to rotate the stock so the older products get sold before they go past their date.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in rotate",
+   "stress_focus": "rotate, stock, past their date",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'so the older' links",
+   "vocabulary": [
+    {
+     "word": "rotate stock",
+     "meaning": "to reorganize inventory by age"
+    }
+   ],
+   "grammar_focus": "purpose clause",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Workplace",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "workplace",
+   "sentence": "If a customer's card gets declined, just walk them through the other payment options calmly.",
+   "natural_form": "If a customer's card gets declined, just walk them through the other payment options calmly.",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in declined",
+   "stress_focus": "declined, walk them through",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'walk them through' as phrasal expression",
+   "vocabulary": [
+    {
+     "word": "decline",
+     "meaning": "to be refused, of a payment"
+    }
+   ],
+   "grammar_focus": "conditional imperative",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Nuance",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "There's something oddly satisfying about finally clearing out the pantry before a big grocery run.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in satisfying",
+   "stress_focus": "oddly satisfying, clearing out, pantry",
+   "intonation_focus": "falling",
+   "connected_speech_focus": "'clearing out' as phrasal verb",
+   "vocabulary": [
+    {
+     "word": "pantry",
+     "meaning": "a small room or cupboard for storing food"
+    }
+   ],
+   "grammar_focus": "gerund as subject complement",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Nuance",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "Wow, I didn't realize how much this stuff had gone up since last time I checked.",
+   "natural_form": "Wow, I didn't realize how much this stuff had gone up since last time I checked.",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in realize",
+   "stress_focus": "didn't realize, gone up",
+   "intonation_focus": "falling with surprise",
+   "connected_speech_focus": "'gone up' links",
+   "vocabulary": [
+    {
+     "word": "gone up",
+     "meaning": "increased in price"
+    }
+   ],
+   "grammar_focus": "past perfect with surprise",
+   "tags": [
+    "grocery",
+    "advanced"
+   ]
+  }
+ ]
+}

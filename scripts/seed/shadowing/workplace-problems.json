@@ -1,0 +1,2403 @@
+{
+  "slug": "workplace-problems",
+  "name": "Workplace Problems & Difficult Conversations",
+  "topic_group": "Work & Professional English",
+  "blurb": "Shadow natural spoken English for raising issues, apologizing, disagreeing, and resolving conflict at work.",
+  "sort_order": 29,
+  "sentences": [
+    {
+      "subcategory": "Raising a problem",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "There's a problem with the report.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'problem' and 'report'",
+      "stress_focus": "stress on PROB-lem and re-PORT",
+      "intonation_focus": "falling intonation, statement",
+      "connected_speech_focus": "linking 'there's a'",
+      "vocabulary": [
+        {
+          "word": "report",
+          "meaning": "a written document"
+        }
+      ],
+      "grammar_focus": "there is + noun",
+      "tags": [
+        "problem",
+        "report"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I made a mistake yesterday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense 'made' /meɪd/",
+      "stress_focus": "stress on MIS-take",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'made a'",
+      "vocabulary": [
+        {
+          "word": "mistake",
+          "meaning": "an error"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "apology",
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I don't agree with that idea.",
+      "natural_form": "I don't agree with that idea.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ð/ in 'that'",
+      "stress_focus": "stress on DON'T and a-GREE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'don't'",
+      "vocabulary": [
+        {
+          "word": "agree",
+          "meaning": "to have the same opinion"
+        }
+      ],
+      "grammar_focus": "negative present simple",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I have too much work today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on TOO and WORK",
+      "stress_focus": "stress on MUCH and WORK",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'have too'",
+      "vocabulary": [
+        {
+          "word": "workload",
+          "meaning": "amount of work"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "workload"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We had a small argument.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /g/ in 'argument'",
+      "stress_focus": "stress on AR-gu-ment",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'had a'",
+      "vocabulary": [
+        {
+          "word": "argument",
+          "meaning": "a disagreement"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The customer seems upset.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /s/ in 'seems'",
+      "stress_focus": "stress on UP-set",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'seems upset'",
+      "vocabulary": [
+        {
+          "word": "upset",
+          "meaning": "unhappy or angry"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can I talk to my manager?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising intonation for question",
+      "stress_focus": "stress on TALK and MAN-ager",
+      "intonation_focus": "rising intonation, question",
+      "connected_speech_focus": "linking 'talk to'",
+      "vocabulary": [
+        {
+          "word": "manager",
+          "meaning": "a person in charge"
+        }
+      ],
+      "grammar_focus": "modal 'can' for requests",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's find a solution now.",
+      "natural_form": "Let's find a solution now.",
+      "accent": "american",
+      "pronunciation_focus": "clear /l/ in 'let's'",
+      "stress_focus": "stress on FIND and SO-lu-tion",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'let's'",
+      "vocabulary": [
+        {
+          "word": "solution",
+          "meaning": "an answer to a problem"
+        }
+      ],
+      "grammar_focus": "imperative with 'let's'",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you have a minute?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising intonation at end",
+      "stress_focus": "stress on MIN-ute",
+      "intonation_focus": "rising intonation, question",
+      "connected_speech_focus": "linking 'have a'",
+      "vocabulary": [
+        {
+          "word": "minute",
+          "meaning": "a short amount of time"
+        }
+      ],
+      "grammar_focus": "present simple question",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I'm sorry for the delay.",
+      "natural_form": "I'm sorry for the delay.",
+      "accent": "american",
+      "pronunciation_focus": "clear /d/ in 'delay'",
+      "stress_focus": "stress on SOR-ry and de-LAY",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'm'",
+      "vocabulary": [
+        {
+          "word": "delay",
+          "meaning": "a wait or slowdown"
+        }
+      ],
+      "grammar_focus": "present simple apology",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "I think we should wait.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /θ/ in 'think'",
+      "stress_focus": "stress on THINK and WAIT",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'think we'",
+      "vocabulary": [
+        {
+          "word": "wait",
+          "meaning": "to pause before acting"
+        }
+      ],
+      "grammar_focus": "modal 'should'",
+      "tags": [
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I feel really tired lately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'really'",
+      "stress_focus": "stress on TIRED and LATE-ly",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'feel really'",
+      "vocabulary": [
+        {
+          "word": "lately",
+          "meaning": "recently"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "burnout"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "He didn't listen to me.",
+      "natural_form": "He didn't listen to me.",
+      "accent": "american",
+      "pronunciation_focus": "clear /d/ in 'didn't'",
+      "stress_focus": "stress on DIDN'T and LIS-ten",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'didn't'",
+      "vocabulary": [
+        {
+          "word": "listen",
+          "meaning": "to pay attention to sound"
+        }
+      ],
+      "grammar_focus": "negative past simple",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please stay calm, sir.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'calm'",
+      "stress_focus": "stress on STAY and CALM",
+      "intonation_focus": "falling intonation, polite request",
+      "connected_speech_focus": "linking 'stay calm'",
+      "vocabulary": [
+        {
+          "word": "calm",
+          "meaning": "relaxed, not angry"
+        }
+      ],
+      "grammar_focus": "imperative for politeness",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This needs a manager's help.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /nz/ in 'needs'",
+      "stress_focus": "stress on NEEDS and HELP",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'needs a'",
+      "vocabulary": [
+        {
+          "word": "needs",
+          "meaning": "requires"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We can fix this together.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'fix'",
+      "stress_focus": "stress on FIX and TO-geth-er",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'fix this'",
+      "vocabulary": [
+        {
+          "word": "fix",
+          "meaning": "to repair or solve"
+        }
+      ],
+      "grammar_focus": "modal 'can'",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Something is wrong here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'wrong'",
+      "stress_focus": "stress on WRONG and HERE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'something is'",
+      "vocabulary": [
+        {
+          "word": "wrong",
+          "meaning": "not correct"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "That was my fault.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'fault'",
+      "stress_focus": "stress on MY and FAULT",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'was my'",
+      "vocabulary": [
+        {
+          "word": "fault",
+          "meaning": "responsibility for a mistake"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I see it differently.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'differently'",
+      "stress_focus": "stress on SEE and DIF-fer-ent-ly",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'see it'",
+      "vocabulary": [
+        {
+          "word": "differently",
+          "meaning": "in another way"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Can I get some help?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising intonation at end",
+      "stress_focus": "stress on GET and HELP",
+      "intonation_focus": "rising intonation, question",
+      "connected_speech_focus": "linking 'get some'",
+      "vocabulary": [
+        {
+          "word": "help",
+          "meaning": "assistance"
+        }
+      ],
+      "grammar_focus": "modal 'can' for requests",
+      "tags": [
+        "workload"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We need to talk.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /t/ in 'talk'",
+      "stress_focus": "stress on NEED and TALK",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'need to'",
+      "vocabulary": [
+        {
+          "word": "talk",
+          "meaning": "to discuss"
+        }
+      ],
+      "grammar_focus": "infinitive with 'to'",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "He wants a refund now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'refund'",
+      "stress_focus": "stress on WANTS and RE-fund",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'wants a'",
+      "vocabulary": [
+        {
+          "word": "refund",
+          "meaning": "money given back"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "I'd like to escalate this.",
+      "natural_form": "I'd like to escalate this.",
+      "accent": "american",
+      "pronunciation_focus": "clear /s/ in 'escalate'",
+      "stress_focus": "stress on LIKE and ES-ca-late",
+      "intonation_focus": "falling intonation, polite request",
+      "connected_speech_focus": "contraction 'I'd'",
+      "vocabulary": [
+        {
+          "word": "escalate",
+          "meaning": "to pass to a higher level"
+        }
+      ],
+      "grammar_focus": "'would like to' for polite requests",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "I have an idea.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /aɪ/ diphthong in 'idea'",
+      "stress_focus": "stress on HAVE and i-DEA",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'have an'",
+      "vocabulary": [
+        {
+          "word": "idea",
+          "meaning": "a plan or thought"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I forgot to send it.",
+      "natural_form": "I forgot to send it.",
+      "accent": "american",
+      "pronunciation_focus": "clear /g/ in 'forgot'",
+      "stress_focus": "stress on FOR-got and SEND",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'send it'",
+      "vocabulary": [
+        {
+          "word": "forgot",
+          "meaning": "did not remember"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I wanted to flag an issue with the schedule.",
+      "natural_form": "I wanted to flag an issue with the schedule.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʃ/ in 'schedule'",
+      "stress_focus": "stress on FLAG and IS-sue",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'wanted to'",
+      "vocabulary": [
+        {
+          "word": "flag",
+          "meaning": "to bring attention to"
+        }
+      ],
+      "grammar_focus": "past tense with infinitive",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I apologize for the confusion this caused.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'confusion'",
+      "stress_focus": "stress on A-POL-o-gize and CON-fu-sion",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'this caused'",
+      "vocabulary": [
+        {
+          "word": "confusion",
+          "meaning": "a state of being unclear"
+        }
+      ],
+      "grammar_focus": "present simple apology",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I understand your point, but I disagree.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /p/ in 'point'",
+      "stress_focus": "stress on UN-der-stand and DIS-a-gree",
+      "intonation_focus": "falling then rising intonation",
+      "connected_speech_focus": "linking 'but I'",
+      "vocabulary": [
+        {
+          "word": "disagree",
+          "meaning": "to hold a different opinion"
+        }
+      ],
+      "grammar_focus": "contrast with 'but'",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My workload has increased a lot this month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'increased'",
+      "stress_focus": "stress on WORK-load and IN-creased",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'has increased'",
+      "vocabulary": [
+        {
+          "word": "increased",
+          "meaning": "became larger"
+        }
+      ],
+      "grammar_focus": "present perfect tense",
+      "tags": [
+        "workload"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "There's been some tension between us lately.",
+      "natural_form": "There's been some tension between us lately.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʃ/ in 'tension'",
+      "stress_focus": "stress on TEN-sion and LATE-ly",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'there's'",
+      "vocabulary": [
+        {
+          "word": "tension",
+          "meaning": "a feeling of unease"
+        }
+      ],
+      "grammar_focus": "present perfect tense",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The customer is getting more frustrated by the minute.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'frustrated'",
+      "stress_focus": "stress on FRUS-trat-ed and MIN-ute",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'getting more'",
+      "vocabulary": [
+        {
+          "word": "frustrated",
+          "meaning": "annoyed or upset"
+        }
+      ],
+      "grammar_focus": "present continuous tense",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you loop in your supervisor on this?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /p/ in 'loop'",
+      "stress_focus": "stress on LOOP and SU-per-vi-sor",
+      "intonation_focus": "rising intonation, polite request",
+      "connected_speech_focus": "linking 'loop in'",
+      "vocabulary": [
+        {
+          "word": "loop in",
+          "meaning": "to include someone in communication"
+        }
+      ],
+      "grammar_focus": "modal 'could' for polite requests",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let's brainstorm a few possible solutions together.",
+      "natural_form": "Let's brainstorm a few possible solutions together.",
+      "accent": "american",
+      "pronunciation_focus": "clear /br/ in 'brainstorm'",
+      "stress_focus": "stress on BRAIN-storm and SO-lu-tions",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'let's'",
+      "vocabulary": [
+        {
+          "word": "brainstorm",
+          "meaning": "to generate ideas"
+        }
+      ],
+      "grammar_focus": "imperative with 'let's'",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "There seems to be a mistake in the invoice.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /v/ in 'invoice'",
+      "stress_focus": "stress on MIS-take and IN-voice",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'seems to'",
+      "vocabulary": [
+        {
+          "word": "invoice",
+          "meaning": "a bill for goods or services"
+        }
+      ],
+      "grammar_focus": "present simple with 'seems'",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I should have double-checked before sending it.",
+      "natural_form": "I should've double-checked before sending it.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʃ/ in 'should'",
+      "stress_focus": "stress on DOU-ble-checked and SEND-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'should've'",
+      "vocabulary": [
+        {
+          "word": "double-check",
+          "meaning": "to verify carefully"
+        }
+      ],
+      "grammar_focus": "modal perfect 'should have'",
+      "tags": [
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "From my perspective, the plan needs revising.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /v/ in 'revising'",
+      "stress_focus": "stress on PER-spec-tive and RE-vis-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'my perspective'",
+      "vocabulary": [
+        {
+          "word": "perspective",
+          "meaning": "a point of view"
+        }
+      ],
+      "grammar_focus": "present simple with 'needs'",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm feeling pretty burned out these days.",
+      "natural_form": "I'm feeling pretty burned out these days.",
+      "accent": "american",
+      "pronunciation_focus": "clear /b/ in 'burned'",
+      "stress_focus": "stress on BURNED and OUT",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'm'",
+      "vocabulary": [
+        {
+          "word": "burned out",
+          "meaning": "exhausted from overwork"
+        }
+      ],
+      "grammar_focus": "present continuous tense",
+      "tags": [
+        "burnout"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can we sort this out privately?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /s/ in 'sort'",
+      "stress_focus": "stress on SORT and PRI-vate-ly",
+      "intonation_focus": "rising intonation, polite request",
+      "connected_speech_focus": "linking 'sort this'",
+      "vocabulary": [
+        {
+          "word": "sort out",
+          "meaning": "to resolve"
+        }
+      ],
+      "grammar_focus": "modal 'can' for suggestions",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "She refused to accept our explanation.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'refused'",
+      "stress_focus": "stress on RE-fused and EX-pla-na-tion",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'refused to'",
+      "vocabulary": [
+        {
+          "word": "refused",
+          "meaning": "declined to do something"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "This issue is beyond what I can resolve alone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /v/ in 'beyond'",
+      "stress_focus": "stress on BE-yond and RE-solve",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'beyond what'",
+      "vocabulary": [
+        {
+          "word": "resolve",
+          "meaning": "to settle a problem"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We could try a different approach this time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /tʃ/ in 'approach'",
+      "stress_focus": "stress on DIF-fer-ent and AP-proach",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'try a'",
+      "vocabulary": [
+        {
+          "word": "approach",
+          "meaning": "a way of doing something"
+        }
+      ],
+      "grammar_focus": "modal 'could' for suggestions",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Have you noticed the numbers don't match?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising intonation at end",
+      "stress_focus": "stress on NO-ticed and MATCH",
+      "intonation_focus": "rising intonation, question",
+      "connected_speech_focus": "contraction 'don't'",
+      "vocabulary": [
+        {
+          "word": "match",
+          "meaning": "to be the same"
+        }
+      ],
+      "grammar_focus": "present perfect question",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We take full responsibility for the error.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'responsibility'",
+      "stress_focus": "stress on RE-spon-si-bil-i-ty and ER-ror",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'take full'",
+      "vocabulary": [
+        {
+          "word": "responsibility",
+          "meaning": "duty to deal with something"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "With respect, I don't think that's accurate.",
+      "natural_form": "With respect, I don't think that's accurate.",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'accurate'",
+      "stress_focus": "stress on RE-spect and AC-cu-rate",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'don't'",
+      "vocabulary": [
+        {
+          "word": "accurate",
+          "meaning": "correct or precise"
+        }
+      ],
+      "grammar_focus": "negative present simple",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could we redistribute some of these tasks?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /str/ in 'redistribute'",
+      "stress_focus": "stress on RE-dis-trib-ute and TASKS",
+      "intonation_focus": "rising intonation, polite request",
+      "connected_speech_focus": "linking 'some of'",
+      "vocabulary": [
+        {
+          "word": "redistribute",
+          "meaning": "to share out differently"
+        }
+      ],
+      "grammar_focus": "modal 'could' for requests",
+      "tags": [
+        "workload"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "He keeps interrupting me during meetings.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'interrupting'",
+      "stress_focus": "stress on IN-ter-rupt-ing and MEET-ings",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'keeps interrupting'",
+      "vocabulary": [
+        {
+          "word": "interrupting",
+          "meaning": "cutting into someone's speech"
+        }
+      ],
+      "grammar_focus": "present simple with 'keeps'",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Please give me a moment to check that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /tʃ/ in 'check'",
+      "stress_focus": "stress on MO-ment and CHECK",
+      "intonation_focus": "falling intonation, polite request",
+      "connected_speech_focus": "linking 'give me'",
+      "vocabulary": [
+        {
+          "word": "moment",
+          "meaning": "a short period of time"
+        }
+      ],
+      "grammar_focus": "imperative for politeness",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I've already tried everything I can think of.",
+      "natural_form": "I've already tried everything I can think of.",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'tried'",
+      "stress_focus": "stress on AL-read-y and TRIED",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I've'",
+      "vocabulary": [
+        {
+          "word": "already",
+          "meaning": "before now"
+        }
+      ],
+      "grammar_focus": "present perfect tense",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Maybe we should compromise on the deadline.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'compromise'",
+      "stress_focus": "stress on COM-pro-mise and DEAD-line",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'compromise on'",
+      "vocabulary": [
+        {
+          "word": "compromise",
+          "meaning": "a middle-ground agreement"
+        }
+      ],
+      "grammar_focus": "modal 'should' for suggestions",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I noticed a discrepancy in the figures.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'discrepancy'",
+      "stress_focus": "stress on DIS-crep-an-cy and FIG-ures",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'noticed a'",
+      "vocabulary": [
+        {
+          "word": "discrepancy",
+          "meaning": "a difference between things"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The client is threatening to cancel the contract.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /θ/ in 'threatening'",
+      "stress_focus": "stress on THREAT-en-ing and CON-tract",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'is threatening'",
+      "vocabulary": [
+        {
+          "word": "threatening",
+          "meaning": "warning of a negative action"
+        }
+      ],
+      "grammar_focus": "present continuous tense",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I wanted to bring something to your attention before it escalates.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʃ/ in 'attention'",
+      "stress_focus": "stress on AT-ten-tion and ES-ca-lates",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'bring something'",
+      "vocabulary": [
+        {
+          "word": "escalates",
+          "meaning": "gets worse"
+        }
+      ],
+      "grammar_focus": "present simple with purpose infinitive",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I take full responsibility, and I'll make sure it doesn't happen again.",
+      "natural_form": "I take full responsibility, and I'll make sure it doesn't happen again.",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'responsibility'",
+      "stress_focus": "stress on RE-spon-si-bil-i-ty and A-GAIN",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'll'",
+      "vocabulary": [
+        {
+          "word": "responsibility",
+          "meaning": "being accountable"
+        }
+      ],
+      "grammar_focus": "future tense with 'will'",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I respect your opinion, but the data suggests otherwise.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /dʒ/ in 'suggests'",
+      "stress_focus": "stress on DA-ta and SUG-gests",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'but the'",
+      "vocabulary": [
+        {
+          "word": "otherwise",
+          "meaning": "in a different way"
+        }
+      ],
+      "grammar_focus": "contrast clause with 'but'",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "I've been putting in extra hours all week just to keep up.",
+      "natural_form": "I've been putting in extra hours all week just to keep up.",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'keep'",
+      "stress_focus": "stress on EX-tra and KEEP UP",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I've'",
+      "vocabulary": [
+        {
+          "word": "keep up",
+          "meaning": "to maintain pace"
+        }
+      ],
+      "grammar_focus": "present perfect continuous tense",
+      "tags": [
+        "burnout"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We've had several disagreements, and it's starting to affect the team.",
+      "natural_form": "We've had several disagreements, and it's starting to affect the team.",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'affect'",
+      "stress_focus": "stress on DIS-a-gree-ments and AF-fect",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'we've'",
+      "vocabulary": [
+        {
+          "word": "affect",
+          "meaning": "to have an impact on"
+        }
+      ],
+      "grammar_focus": "present perfect with result clause",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "The customer is demanding a full refund despite the store policy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /p/ in 'despite'",
+      "stress_focus": "stress on DE-mand-ing and PO-li-cy",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'despite the'",
+      "vocabulary": [
+        {
+          "word": "despite",
+          "meaning": "without being affected by"
+        }
+      ],
+      "grammar_focus": "present continuous with contrast",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would you mind stepping in to help resolve this situation?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /st/ in 'stepping'",
+      "stress_focus": "stress on STEP-ping and RE-solve",
+      "intonation_focus": "rising intonation, polite request",
+      "connected_speech_focus": "linking 'stepping in'",
+      "vocabulary": [
+        {
+          "word": "resolve",
+          "meaning": "to find a solution"
+        }
+      ],
+      "grammar_focus": "'would you mind' for polite requests",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Let's look at a few options before deciding on the next step.",
+      "natural_form": "Let's look at a few options before deciding on the next step.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʃ/ in 'options'",
+      "stress_focus": "stress on OP-tions and DE-cid-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'let's'",
+      "vocabulary": [
+        {
+          "word": "options",
+          "meaning": "choices available"
+        }
+      ],
+      "grammar_focus": "imperative with sequence clause",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Could we go over the numbers again, because something doesn't add up?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising then falling intonation",
+      "stress_focus": "stress on NUM-bers and ADD UP",
+      "intonation_focus": "rising intonation, question",
+      "connected_speech_focus": "contraction 'doesn't'",
+      "vocabulary": [
+        {
+          "word": "add up",
+          "meaning": "to make logical sense"
+        }
+      ],
+      "grammar_focus": "reason clause with 'because'",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I realize now that I should have communicated this sooner.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'realize'",
+      "stress_focus": "stress on RE-al-ize and SOON-er",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'should have'",
+      "vocabulary": [
+        {
+          "word": "communicated",
+          "meaning": "shared information"
+        }
+      ],
+      "grammar_focus": "modal perfect 'should have'",
+      "tags": [
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "While I see your point, I think there's a better way to handle this.",
+      "natural_form": "While I see your point, I think there's a better way to handle this.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ð/ in 'this'",
+      "stress_focus": "stress on BET-ter and HAN-dle",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'there's'",
+      "vocabulary": [
+        {
+          "word": "handle",
+          "meaning": "to deal with"
+        }
+      ],
+      "grammar_focus": "concession clause with 'while'",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'm struggling to manage everything on my plate right now.",
+      "natural_form": "I'm struggling to manage everything on my plate right now.",
+      "accent": "american",
+      "pronunciation_focus": "clear /str/ in 'struggling'",
+      "stress_focus": "stress on STRUG-gling and PLATE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'm'",
+      "vocabulary": [
+        {
+          "word": "on my plate",
+          "meaning": "tasks I'm responsible for"
+        }
+      ],
+      "grammar_focus": "present continuous tense",
+      "tags": [
+        "burnout"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "It feels like my input isn't being valued during team discussions.",
+      "natural_form": "It feels like my input isn't being valued during team discussions.",
+      "accent": "american",
+      "pronunciation_focus": "clear /v/ in 'valued'",
+      "stress_focus": "stress on IN-put and VAL-ued",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'isn't'",
+      "vocabulary": [
+        {
+          "word": "valued",
+          "meaning": "considered important"
+        }
+      ],
+      "grammar_focus": "passive voice construction",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "No matter what we offer, the client remains unsatisfied.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /w/ in 'what'",
+      "stress_focus": "stress on OF-fer and UN-sat-is-fied",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'no matter'",
+      "vocabulary": [
+        {
+          "word": "unsatisfied",
+          "meaning": "not pleased with the outcome"
+        }
+      ],
+      "grammar_focus": "concession with 'no matter'",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I think this needs to go up the chain since I'm out of options.",
+      "natural_form": "I think this needs to go up the chain since I'm out of options.",
+      "accent": "american",
+      "pronunciation_focus": "clear /tʃ/ in 'chain'",
+      "stress_focus": "stress on CHAIN and OP-tions",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'm'",
+      "vocabulary": [
+        {
+          "word": "chain",
+          "meaning": "hierarchy of authority"
+        }
+      ],
+      "grammar_focus": "reason clause with 'since'",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I believe a short-term fix now would buy us time to plan properly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʃ/ in 'short-term'",
+      "stress_focus": "stress on SHORT-TERM and PROP-er-ly",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'buy us'",
+      "vocabulary": [
+        {
+          "word": "short-term",
+          "meaning": "lasting only a small amount of time"
+        }
+      ],
+      "grammar_focus": "conditional-like structure with 'would'",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "There's a recurring issue that keeps slowing down the whole process.",
+      "natural_form": "There's a recurring issue that keeps slowing down the whole process.",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'recurring'",
+      "stress_focus": "stress on RE-cur-ring and PRO-cess",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'there's'",
+      "vocabulary": [
+        {
+          "word": "recurring",
+          "meaning": "happening repeatedly"
+        }
+      ],
+      "grammar_focus": "relative clause with 'that'",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I completely understand your frustration, and I apologize for the inconvenience.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʒ/ in 'inconvenience'",
+      "stress_focus": "stress on FRUS-tra-tion and IN-con-ven-ience",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'and I'",
+      "vocabulary": [
+        {
+          "word": "inconvenience",
+          "meaning": "trouble or difficulty caused"
+        }
+      ],
+      "grammar_focus": "compound sentence with 'and'",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'm not entirely convinced this strategy will work in the long run.",
+      "natural_form": "I'm not entirely convinced this strategy will work in the long run.",
+      "accent": "american",
+      "pronunciation_focus": "clear /str/ in 'strategy'",
+      "stress_focus": "stress on CON-vinced and STRAT-e-gy",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'm'",
+      "vocabulary": [
+        {
+          "word": "strategy",
+          "meaning": "a plan of action"
+        }
+      ],
+      "grammar_focus": "negative present with future clause",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Do you think we could push the deadline back a bit?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising intonation at end",
+      "stress_focus": "stress on PUSH and DEAD-line",
+      "intonation_focus": "rising intonation, question",
+      "connected_speech_focus": "linking 'push the'",
+      "vocabulary": [
+        {
+          "word": "push back",
+          "meaning": "to delay"
+        }
+      ],
+      "grammar_focus": "modal 'could' embedded question",
+      "tags": [
+        "workload"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "There's clearly some friction between the two of us right now.",
+      "natural_form": "There's clearly some friction between the two of us right now.",
+      "accent": "american",
+      "pronunciation_focus": "clear /kʃ/ in 'friction'",
+      "stress_focus": "stress on FRIC-tion and RIGHT NOW",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'there's'",
+      "vocabulary": [
+        {
+          "word": "friction",
+          "meaning": "conflict between people"
+        }
+      ],
+      "grammar_focus": "present simple description",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Even after we explained the policy, she continued to argue.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /pl/ in 'explained'",
+      "stress_focus": "stress on EX-plained and AR-gue",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'even after'",
+      "vocabulary": [
+        {
+          "word": "continued",
+          "meaning": "kept doing something"
+        }
+      ],
+      "grammar_focus": "time clause with 'after'",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would it be possible to schedule a meeting with senior management?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /dʒ/ in 'schedule'",
+      "stress_focus": "stress on SCHED-ule and SEN-ior",
+      "intonation_focus": "rising intonation, polite request",
+      "connected_speech_focus": "linking 'possible to'",
+      "vocabulary": [
+        {
+          "word": "senior management",
+          "meaning": "top-level leaders"
+        }
+      ],
+      "grammar_focus": "'would it be possible' polite structure",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "If we split the workload evenly, we could meet the deadline.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /spl/ in 'split'",
+      "stress_focus": "stress on SPLIT and DEAD-line",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'split the'",
+      "vocabulary": [
+        {
+          "word": "evenly",
+          "meaning": "in equal amounts"
+        }
+      ],
+      "grammar_focus": "first conditional",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I've flagged this twice already, but nothing seems to have changed.",
+      "natural_form": "I've flagged this twice already, but nothing seems to have changed.",
+      "accent": "american",
+      "pronunciation_focus": "clear /dʒ/ in 'flagged'",
+      "stress_focus": "stress on FLAGGED and CHANGED",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I've'",
+      "vocabulary": [
+        {
+          "word": "flagged",
+          "meaning": "brought attention to"
+        }
+      ],
+      "grammar_focus": "present perfect with contrast",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We offered a replacement, but he insisted on a full refund instead.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /pl/ in 'replacement'",
+      "stress_focus": "stress on RE-place-ment and RE-fund",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'insisted on'",
+      "vocabulary": [
+        {
+          "word": "insisted",
+          "meaning": "demanded firmly"
+        }
+      ],
+      "grammar_focus": "contrast clause with 'but'",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I don't want to overstate the issue, but if we don't address it soon, it could seriously delay the launch.",
+      "natural_form": "I don't want to overstate the issue, but if we don't address it soon, it could seriously delay the launch.",
+      "accent": "american",
+      "pronunciation_focus": "clear /dʒ/ in 'launch'",
+      "stress_focus": "stress on OVER-state and DE-LAY",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "contraction 'don't'",
+      "vocabulary": [
+        {
+          "word": "overstate",
+          "meaning": "to exaggerate the seriousness"
+        }
+      ],
+      "grammar_focus": "conditional clause with contrast",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Looking back, I should have flagged the risk earlier, and I take full responsibility for the delay it caused.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'responsibility'",
+      "stress_focus": "stress on FLAGGED and RE-SPON-si-bil-i-ty",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'looking back'",
+      "vocabulary": [
+        {
+          "word": "flagged",
+          "meaning": "brought attention to"
+        }
+      ],
+      "grammar_focus": "modal perfect with result clause",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I understand where you're coming from, but based on the data we've collected, I'd suggest a different approach entirely.",
+      "natural_form": "I understand where you're coming from, but based on the data we've collected, I'd suggest a different approach entirely.",
+      "accent": "american",
+      "pronunciation_focus": "clear /tʃ/ in 'approach'",
+      "stress_focus": "stress on DIF-fer-ent and EN-TIRE-ly",
+      "intonation_focus": "falling then rising intonation",
+      "connected_speech_focus": "contraction 'I'd'",
+      "vocabulary": [
+        {
+          "word": "entirely",
+          "meaning": "completely"
+        }
+      ],
+      "grammar_focus": "contrast with embedded clause",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Even though I've tried to prioritize my tasks, the volume of work keeps piling up faster than I can manage it.",
+      "natural_form": "Even though I've tried to prioritize my tasks, the volume of work keeps piling up faster than I can manage it.",
+      "accent": "american",
+      "pronunciation_focus": "clear /v/ in 'volume'",
+      "stress_focus": "stress on PRI-or-i-tize and PIL-ing UP",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I've'",
+      "vocabulary": [
+        {
+          "word": "prioritize",
+          "meaning": "to deal with in order of importance"
+        }
+      ],
+      "grammar_focus": "concession clause with 'even though'",
+      "tags": [
+        "burnout"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "If we don't sit down and talk this through, the tension between us is only going to get worse over time.",
+      "natural_form": "If we don't sit down and talk this through, the tension between us is only going to get worse over time.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʒ/ in 'tension'",
+      "stress_focus": "stress on TEN-sion and WORSE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'don't'",
+      "vocabulary": [
+        {
+          "word": "tension",
+          "meaning": "strained relations"
+        }
+      ],
+      "grammar_focus": "first conditional with future prediction",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Although we've done everything within our policy to accommodate her, she still isn't satisfied with the outcome.",
+      "natural_form": "Although we've done everything within our policy to accommodate her, she still isn't satisfied with the outcome.",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ in 'accommodate'",
+      "stress_focus": "stress on AC-com-mo-date and SAT-is-fied",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'we've'",
+      "vocabulary": [
+        {
+          "word": "accommodate",
+          "meaning": "to fulfill someone's needs"
+        }
+      ],
+      "grammar_focus": "concession clause with 'although'",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Given that we've exhausted every option on our end, I think it's time to bring this up with upper management.",
+      "natural_form": "Given that we've exhausted every option on our end, I think it's time to bring this up with upper management.",
+      "accent": "american",
+      "pronunciation_focus": "clear /st/ in 'exhausted'",
+      "stress_focus": "stress on EX-haust-ed and UP-per",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'we've'",
+      "vocabulary": [
+        {
+          "word": "exhausted",
+          "meaning": "used up completely"
+        }
+      ],
+      "grammar_focus": "reason clause with 'given that'",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Rather than pointing fingers, I think we should focus on what we can do differently going forward.",
+      "natural_form": "Rather than pointing fingers, I think we should focus on what we can do differently going forward.",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'fingers'",
+      "stress_focus": "stress on POINT-ing FIN-gers and FOR-ward",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'rather than'",
+      "vocabulary": [
+        {
+          "word": "pointing fingers",
+          "meaning": "blaming others"
+        }
+      ],
+      "grammar_focus": "contrast with 'rather than'",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I know this might not be the best time, but I'd feel irresponsible not to mention the risk we're taking on.",
+      "natural_form": "I know this might not be the best time, but I'd feel irresponsible not to mention the risk we're taking on.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʒ/ in 'irresponsible'",
+      "stress_focus": "stress on IR-re-SPON-si-ble and RISK",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'd'",
+      "vocabulary": [
+        {
+          "word": "irresponsible",
+          "meaning": "not showing proper care"
+        }
+      ],
+      "grammar_focus": "contrast clause with hedging",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I want to acknowledge that this was on me, and I'm already working on a plan to prevent it from happening again.",
+      "natural_form": "I want to acknowledge that this was on me, and I'm already working on a plan to prevent it from happening again.",
+      "accent": "american",
+      "pronunciation_focus": "clear /kn/ in 'acknowledge'",
+      "stress_focus": "stress on AC-KNOWL-edge and PRE-vent",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'm'",
+      "vocabulary": [
+        {
+          "word": "acknowledge",
+          "meaning": "to admit or recognize"
+        }
+      ],
+      "grammar_focus": "compound sentence with future plan",
+      "tags": [
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "With all due respect, I think the numbers tell a different story than what's being presented here.",
+      "natural_form": "With all due respect, I think the numbers tell a different story than what's being presented here.",
+      "accent": "american",
+      "pronunciation_focus": "clear /pr/ in 'presented'",
+      "stress_focus": "stress on DIF-fer-ent and PRE-SENT-ed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'due respect'",
+      "vocabulary": [
+        {
+          "word": "presented",
+          "meaning": "shown or displayed formally"
+        }
+      ],
+      "grammar_focus": "comparative clause with contrast",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Unless something changes soon, I honestly don't think this pace is sustainable for much longer.",
+      "natural_form": "Unless something changes soon, I honestly don't think this pace is sustainable for much longer.",
+      "accent": "american",
+      "pronunciation_focus": "clear /st/ in 'sustainable'",
+      "stress_focus": "stress on SUS-TAIN-able and LONG-er",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'don't'",
+      "vocabulary": [
+        {
+          "word": "sustainable",
+          "meaning": "able to continue over time"
+        }
+      ],
+      "grammar_focus": "conditional clause with 'unless'",
+      "tags": [
+        "burnout"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'd rather clear the air now than let this fester and affect how we work together long-term.",
+      "natural_form": "I'd rather clear the air now than let this fester and affect how we work together long-term.",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'fester'",
+      "stress_focus": "stress on CLEAR the AIR and FES-ter",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'd'",
+      "vocabulary": [
+        {
+          "word": "fester",
+          "meaning": "to worsen gradually"
+        }
+      ],
+      "grammar_focus": "comparative structure 'rather...than'",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "No matter how patiently we explain our position, the customer keeps insisting that we're in the wrong.",
+      "natural_form": "No matter how patiently we explain our position, the customer keeps insisting that we're in the wrong.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʃ/ in 'position'",
+      "stress_focus": "stress on PA-tient-ly and IN-SIST-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'we're'",
+      "vocabulary": [
+        {
+          "word": "insisting",
+          "meaning": "firmly maintaining a claim"
+        }
+      ],
+      "grammar_focus": "concession clause with 'no matter how'",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since this falls outside my authority to resolve, I think it's best if leadership steps in at this point.",
+      "natural_form": "Since this falls outside my authority to resolve, I think it's best if leadership steps in at this point.",
+      "accent": "american",
+      "pronunciation_focus": "clear /θ/ in 'authority'",
+      "stress_focus": "stress on AU-THOR-i-ty and LEAD-er-ship",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'falls outside'",
+      "vocabulary": [
+        {
+          "word": "authority",
+          "meaning": "the power to make decisions"
+        }
+      ],
+      "grammar_focus": "reason clause with 'since'",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "If we combine both of our proposals, I think we'd end up with a much stronger plan overall.",
+      "natural_form": "If we combine both of our proposals, I think we'd end up with a much stronger plan overall.",
+      "accent": "american",
+      "pronunciation_focus": "clear /pr/ in 'proposals'",
+      "stress_focus": "stress on COM-bine and STRON-ger",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'we'd'",
+      "vocabulary": [
+        {
+          "word": "proposals",
+          "meaning": "suggested plans"
+        }
+      ],
+      "grammar_focus": "second conditional",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I hate to bring this up again, but given how much this issue has already cost us, I think it deserves more attention than it's getting.",
+      "natural_form": "I hate to bring this up again, but given how much this issue has already cost us, I think it deserves more attention than it's getting.",
+      "accent": "american",
+      "pronunciation_focus": "clear /dʒ/ in 'deserves'",
+      "stress_focus": "stress on COST and DE-SERVES",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "contraction 'it's'",
+      "vocabulary": [
+        {
+          "word": "deserves",
+          "meaning": "is worthy of"
+        }
+      ],
+      "grammar_focus": "complex sentence with contrast and comparison",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Mistakes & apologies",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "In hindsight, I realize that if I'd communicated the delay earlier, we could have avoided most of the confusion that followed.",
+      "natural_form": "In hindsight, I realize that if I'd communicated the delay earlier, we could have avoided most of the confusion that followed.",
+      "accent": "american",
+      "pronunciation_focus": "clear /nd/ in 'hindsight'",
+      "stress_focus": "stress on HIND-sight and A-VOID-ed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'd'",
+      "vocabulary": [
+        {
+          "word": "hindsight",
+          "meaning": "understanding gained after an event"
+        }
+      ],
+      "grammar_focus": "third conditional",
+      "tags": [
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing professionally",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Although I respect the reasoning behind the decision, I can't help but feel that we're overlooking a significant risk here.",
+      "natural_form": "Although I respect the reasoning behind the decision, I can't help but feel that we're overlooking a significant risk here.",
+      "accent": "american",
+      "pronunciation_focus": "clear /v/ in 'overlooking'",
+      "stress_focus": "stress on REA-son-ing and OVER-LOOK-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'can't'",
+      "vocabulary": [
+        {
+          "word": "overlooking",
+          "meaning": "failing to notice"
+        }
+      ],
+      "grammar_focus": "concession with 'can't help but'",
+      "tags": [
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Workload & burnout",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "At this point, I feel like I'm constantly putting out fires rather than doing the work that actually moves things forward.",
+      "natural_form": "At this point, I feel like I'm constantly putting out fires rather than doing the work that actually moves things forward.",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ in 'fires'",
+      "stress_focus": "stress on PUT-ting OUT FIRES and FOR-ward",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'm'",
+      "vocabulary": [
+        {
+          "word": "putting out fires",
+          "meaning": "dealing with urgent problems reactively"
+        }
+      ],
+      "grammar_focus": "comparative with 'rather than'",
+      "tags": [
+        "burnout"
+      ]
+    },
+    {
+      "subcategory": "Conflict with a coworker",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Whatever caused the misunderstanding between us, I'd rather figure it out together than let it quietly damage our working relationship.",
+      "natural_form": "Whatever caused the misunderstanding between us, I'd rather figure it out together than let it quietly damage our working relationship.",
+      "accent": "american",
+      "pronunciation_focus": "clear /mʌ/ in 'misunderstanding'",
+      "stress_focus": "stress on MIS-UN-der-STAND-ing and DAM-age",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'I'd'",
+      "vocabulary": [
+        {
+          "word": "misunderstanding",
+          "meaning": "a failure to understand correctly"
+        }
+      ],
+      "grammar_focus": "concessive clause with 'whatever'",
+      "tags": [
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Difficult customers",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Even though the situation clearly wasn't our fault, we still went out of our way to make things right for the customer.",
+      "natural_form": "Even though the situation clearly wasn't our fault, we still went out of our way to make things right for the customer.",
+      "accent": "american",
+      "pronunciation_focus": "clear /st/ in 'situation'",
+      "stress_focus": "stress on SIT-u-A-tion and RIGHT",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'wasn't'",
+      "vocabulary": [
+        {
+          "word": "went out of our way",
+          "meaning": "made extra effort"
+        }
+      ],
+      "grammar_focus": "concession clause with 'even though'",
+      "tags": [
+        "customer service"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Before this affects the client relationship any further, I think we need to get someone with more authority involved immediately.",
+      "natural_form": "Before this affects the client relationship any further, I think we need to get someone with more authority involved immediately.",
+      "accent": "american",
+      "pronunciation_focus": "clear /θ/ in 'authority'",
+      "stress_focus": "stress on AF-fects and IM-ME-di-ate-ly",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'get someone'",
+      "vocabulary": [
+        {
+          "word": "authority",
+          "meaning": "power or influence"
+        }
+      ],
+      "grammar_focus": "time clause with 'before'",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Instead of assigning blame, I think it would be more productive if we mapped out exactly where the process broke down.",
+      "natural_form": "Instead of assigning blame, I think it would be more productive if we mapped out exactly where the process broke down.",
+      "accent": "american",
+      "pronunciation_focus": "clear /bl/ in 'blame'",
+      "stress_focus": "stress on AS-SIGN-ing and PRO-DUC-tive",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'mapped out'",
+      "vocabulary": [
+        {
+          "word": "productive",
+          "meaning": "achieving useful results"
+        }
+      ],
+      "grammar_focus": "conditional with 'it would be'",
+      "tags": [
+        "solution"
+      ]
+    },
+    {
+      "subcategory": "Raising a problem",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I know timing isn't ideal, but if we don't raise this concern now, it's likely to resurface at a much worse moment later on.",
+      "natural_form": "I know timing isn't ideal, but if we don't raise this concern now, it's likely to resurface at a much worse moment later on.",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ in 'resurface'",
+      "stress_focus": "stress on RE-SUR-face and WORSE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'isn't'",
+      "vocabulary": [
+        {
+          "word": "resurface",
+          "meaning": "to appear again"
+        }
+      ],
+      "grammar_focus": "conditional with future prediction",
+      "tags": [
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Escalating to a manager",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Having tried every option available to me, I genuinely believe this needs to be handled at a higher level from here on.",
+      "natural_form": "Having tried every option available to me, I genuinely believe this needs to be handled at a higher level from here on.",
+      "accent": "american",
+      "pronunciation_focus": "clear /v/ in 'available'",
+      "stress_focus": "stress on A-VAIL-a-ble and HIGH-er",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking 'having tried'",
+      "vocabulary": [
+        {
+          "word": "genuinely",
+          "meaning": "truly, sincerely"
+        }
+      ],
+      "grammar_focus": "participle clause with 'having'",
+      "tags": [
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Finding solutions",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "If we're willing to compromise on the timeline, I believe we can still deliver a solution that satisfies everyone involved.",
+      "natural_form": "If we're willing to compromise on the timeline, I believe we can still deliver a solution that satisfies everyone involved.",
+      "accent": "american",
+      "pronunciation_focus": "clear /pr/ in 'compromise'",
+      "stress_focus": "stress on COM-pro-mise and SAT-is-FIES",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "contraction 'we're'",
+      "vocabulary": [
+        {
+          "word": "satisfies",
+          "meaning": "meets the needs of"
+        }
+      ],
+      "grammar_focus": "first conditional with relative clause",
+      "tags": [
+        "solution"
+      ]
+    }
+  ]
+}

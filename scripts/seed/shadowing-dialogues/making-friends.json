@@ -1,0 +1,41 @@
+{
+  "topic_slug": "making-friends",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Inviting someone out",
+      "turns": [
+        { "speaker_label": "Nora", "speaker_voice": "shimmer", "sentence": "Some of us are going to a café later. Want to join?", "is_free": true },
+        { "speaker_label": "Tim", "speaker_voice": "alloy", "sentence": "Sure, I'd love to. What time?", "is_free": true },
+        { "speaker_label": "Nora", "speaker_voice": "shimmer", "sentence": "Around six, near the park.", "is_free": true },
+        { "speaker_label": "Tim", "speaker_voice": "alloy", "sentence": "Sounds good. See you there!", "is_free": true },
+        { "speaker_label": "Nora", "speaker_voice": "shimmer", "sentence": "Great, see you then!", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Common interests",
+      "turns": [
+        { "speaker_label": "Elena", "speaker_voice": "coral", "sentence": "I noticed you were reading that mystery novel earlier — are you into that genre?", "is_free": false },
+        { "speaker_label": "Marcus", "speaker_voice": "sage", "sentence": "Definitely, it's practically all I read these days. Do you enjoy mysteries too?", "is_free": false },
+        { "speaker_label": "Elena", "speaker_voice": "coral", "sentence": "I do, though I've been stuck for recommendations lately.", "is_free": false },
+        { "speaker_label": "Marcus", "speaker_voice": "sage", "sentence": "I could put together a short list, if you're interested.", "is_free": false },
+        { "speaker_label": "Elena", "speaker_voice": "coral", "sentence": "I'd really appreciate that, thank you.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Rekindling a friendship",
+      "turns": [
+        { "speaker_label": "Sam", "speaker_voice": "nova", "sentence": "I feel like we've drifted apart over the past year, and I'd genuinely like to change that.", "is_free": false },
+        { "speaker_label": "Priya", "speaker_voice": "shimmer", "sentence": "I've felt the same way, honestly — life just got in the way, but I never stopped valuing our friendship.", "is_free": false },
+        { "speaker_label": "Sam", "speaker_voice": "nova", "sentence": "Maybe we could set up something regular, even if it's just a monthly catch-up.", "is_free": false },
+        { "speaker_label": "Priya", "speaker_voice": "shimmer", "sentence": "I'd like that a lot — let's put it in both our calendars so it actually happens.", "is_free": false },
+        { "speaker_label": "Sam", "speaker_voice": "nova", "sentence": "Deal. I'm glad we talked about this instead of just letting it slide.", "is_free": false }
+      ]
+    }
+  ]
+}

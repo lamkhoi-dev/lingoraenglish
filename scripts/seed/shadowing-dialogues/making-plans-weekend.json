@@ -1,0 +1,41 @@
+{
+  "topic_slug": "making-plans-weekend",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Weekend plans",
+      "turns": [
+        { "speaker_label": "Sam", "speaker_voice": "shimmer", "sentence": "What are you doing this weekend?", "is_free": true },
+        { "speaker_label": "Lee", "speaker_voice": "alloy", "sentence": "Not much. Maybe watching a movie. Why?", "is_free": true },
+        { "speaker_label": "Sam", "speaker_voice": "shimmer", "sentence": "Do you want to go hiking on Saturday?", "is_free": true },
+        { "speaker_label": "Lee", "speaker_voice": "alloy", "sentence": "Sure, that sounds fun! What time?", "is_free": true },
+        { "speaker_label": "Sam", "speaker_voice": "shimmer", "sentence": "Let's meet at 9 in the morning.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Changing plans",
+      "turns": [
+        { "speaker_label": "Priya", "speaker_voice": "coral", "sentence": "Hey, do you mind if we push our dinner back to Sunday instead of Saturday?", "is_free": false },
+        { "speaker_label": "Tom", "speaker_voice": "sage", "sentence": "That should be fine — did something come up?", "is_free": false },
+        { "speaker_label": "Priya", "speaker_voice": "coral", "sentence": "Yeah, my cousin's visiting unexpectedly and I want to spend Saturday with her.", "is_free": false },
+        { "speaker_label": "Tom", "speaker_voice": "sage", "sentence": "No worries at all, family comes first. Sunday evening works just as well for me.", "is_free": false },
+        { "speaker_label": "Priya", "speaker_voice": "coral", "sentence": "Thanks for being flexible — I'll text you once I've booked a table.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Coordinating a group trip",
+      "turns": [
+        { "speaker_label": "Organizer", "speaker_voice": "nova", "sentence": "If we're all still on for the cabin trip, we should probably nail down the dates before people start booking other things.", "is_free": false },
+        { "speaker_label": "Friend", "speaker_voice": "shimmer", "sentence": "Agreed — I'm free most weekends except the one after next, so anything else works for me.", "is_free": false },
+        { "speaker_label": "Organizer", "speaker_voice": "nova", "sentence": "Let's aim for the third weekend of the month, then, and I'll check availability with the others.", "is_free": false },
+        { "speaker_label": "Friend", "speaker_voice": "shimmer", "sentence": "Sounds good. Should we split costs evenly, or does it depend on who's driving?", "is_free": false },
+        { "speaker_label": "Organizer", "speaker_voice": "nova", "sentence": "Let's just split everything evenly — it keeps things simple and nobody feels shortchanged.", "is_free": false }
+      ]
+    }
+  ]
+}

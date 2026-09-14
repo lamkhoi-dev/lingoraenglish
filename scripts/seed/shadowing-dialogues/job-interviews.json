@@ -1,0 +1,41 @@
+{
+  "topic_slug": "job-interviews",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Basic interview questions",
+      "turns": [
+        { "speaker_label": "Interviewer", "speaker_voice": "alloy", "sentence": "Tell me a little about yourself.", "is_free": true },
+        { "speaker_label": "Candidate", "speaker_voice": "shimmer", "sentence": "I studied business and worked in sales for two years.", "is_free": true },
+        { "speaker_label": "Interviewer", "speaker_voice": "alloy", "sentence": "Why do you want this job?", "is_free": true },
+        { "speaker_label": "Candidate", "speaker_voice": "shimmer", "sentence": "I'm interested in your company and I want to grow my skills.", "is_free": true },
+        { "speaker_label": "Interviewer", "speaker_voice": "alloy", "sentence": "Great, thank you for sharing that.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Discussing weaknesses",
+      "turns": [
+        { "speaker_label": "Interviewer", "speaker_voice": "sage", "sentence": "What would you say is an area you're still working to improve?", "is_free": false },
+        { "speaker_label": "Candidate", "speaker_voice": "coral", "sentence": "I'd say public speaking — I used to get quite nervous presenting to large groups.", "is_free": false },
+        { "speaker_label": "Interviewer", "speaker_voice": "sage", "sentence": "How have you been addressing that?", "is_free": false },
+        { "speaker_label": "Candidate", "speaker_voice": "coral", "sentence": "I've been volunteering to lead more team meetings, and it's gotten noticeably easier over time.", "is_free": false },
+        { "speaker_label": "Interviewer", "speaker_voice": "sage", "sentence": "That's a great example of proactively working on a weakness.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Negotiating an offer",
+      "turns": [
+        { "speaker_label": "Candidate", "speaker_voice": "nova", "sentence": "I'm genuinely excited about the offer, though I was hoping we could discuss the base salary a little further.", "is_free": false },
+        { "speaker_label": "Recruiter", "speaker_voice": "shimmer", "sentence": "I appreciate you bringing that up directly — what figure did you have in mind, based on your research?", "is_free": false },
+        { "speaker_label": "Candidate", "speaker_voice": "nova", "sentence": "Given my experience and the market rate for this role, I was thinking somewhere around eight percent higher.", "is_free": false },
+        { "speaker_label": "Recruiter", "speaker_voice": "shimmer", "sentence": "That's within a reasonable range — let me check with the hiring manager and get back to you by tomorrow.", "is_free": false },
+        { "speaker_label": "Candidate", "speaker_voice": "nova", "sentence": "That works well for me, thank you for being open to the conversation.", "is_free": false }
+      ]
+    }
+  ]
+}

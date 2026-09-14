@@ -1,0 +1,41 @@
+{
+  "topic_slug": "feedback-performance",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Positive feedback",
+      "turns": [
+        { "speaker_label": "Manager", "speaker_voice": "alloy", "sentence": "Great job on the report this week.", "is_free": true },
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "Thank you, I worked hard on it.", "is_free": true },
+        { "speaker_label": "Manager", "speaker_voice": "alloy", "sentence": "It really showed. Keep it up.", "is_free": true },
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "I will, thanks for noticing.", "is_free": true },
+        { "speaker_label": "Manager", "speaker_voice": "alloy", "sentence": "Of course, you earned it.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Constructive feedback",
+      "turns": [
+        { "speaker_label": "Manager", "speaker_voice": "sage", "sentence": "Your presentation was solid, but I think it could use clearer transitions between sections.", "is_free": false },
+        { "speaker_label": "Employee", "speaker_voice": "coral", "sentence": "That's helpful — do you have an example of where it felt disjointed?", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "sage", "sentence": "Right around slide six, it jumped from the budget to the timeline pretty abruptly.", "is_free": false },
+        { "speaker_label": "Employee", "speaker_voice": "coral", "sentence": "Got it, I'll add a short summary sentence to bridge those two sections.", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "sage", "sentence": "That should do it — otherwise it was a strong presentation overall.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Receiving critical feedback",
+      "turns": [
+        { "speaker_label": "Manager", "speaker_voice": "nova", "sentence": "I want to be direct with you — some stakeholders felt your last update lacked the detail they needed to make a decision.", "is_free": false },
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "I appreciate you telling me directly — could you help me understand which specific details were missing?", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "nova", "sentence": "Mainly the risk assessment — they wanted to see potential downsides, not just the upside projections.", "is_free": false },
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "That's fair, and honestly a gap I hadn't considered. I'll build that into the next version.", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "nova", "sentence": "I appreciate you taking it this well — it wasn't easy feedback to deliver, but I think it'll strengthen your work.", "is_free": false }
+      ]
+    }
+  ]
+}

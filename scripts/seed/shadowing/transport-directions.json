@@ -1,0 +1,2509 @@
+{
+ "slug": "transport-directions",
+ "name": "Transportation & Directions",
+ "topic_group": "Everyday English",
+ "blurb": "Practice everyday spoken English for getting around town, asking for directions, and using public transit.",
+ "sort_order": 8,
+ "sentences": [
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The bus stops right in front of my house.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear final /s/ in 'stops'",
+   "stress_focus": "stress on BUS and HOUSE",
+   "intonation_focus": "falling intonation on statement",
+   "connected_speech_focus": "linking 'front of'",
+   "vocabulary": [
+    {
+     "word": "bus stop",
+     "meaning": "place where buses pick up riders"
+    }
+   ],
+   "grammar_focus": "present simple for routines",
+   "tags": [
+    "transit",
+    "routine",
+    "bus"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I take the train to work every day.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "short vowel in 'train'",
+   "stress_focus": "stress on TRAIN and WORK",
+   "intonation_focus": "flat falling intonation",
+   "connected_speech_focus": "linking 'take the'",
+   "vocabulary": [
+    {
+     "word": "take the train",
+     "meaning": "use the train as transportation"
+    }
+   ],
+   "grammar_focus": "present simple",
+   "tags": [
+    "transit",
+    "commute",
+    "train"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "Turn left at the next corner.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /l/ in 'left'",
+   "stress_focus": "stress on TURN and LEFT",
+   "intonation_focus": "falling command intonation",
+   "connected_speech_focus": "linking 'at the'",
+   "vocabulary": [
+    {
+     "word": "corner",
+     "meaning": "point where two streets meet"
+    }
+   ],
+   "grammar_focus": "imperative form",
+   "tags": [
+    "directions",
+    "commands",
+    "streets"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The store is just down the street.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'just' /d\u0292\u0259st/",
+   "stress_focus": "stress on STORE and STREET",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is just'",
+   "vocabulary": [
+    {
+     "word": "down the street",
+     "meaning": "a short distance away"
+    }
+   ],
+   "grammar_focus": "present simple with location",
+   "tags": [
+    "directions",
+    "location",
+    "shops"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "My bus leaves at eight o'clock.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel in 'eight'",
+   "stress_focus": "stress on BUS and EIGHT",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'leaves at'",
+   "vocabulary": [
+    {
+     "word": "leaves",
+     "meaning": "departs"
+    }
+   ],
+   "grammar_focus": "present simple for schedules",
+   "tags": [
+    "transit",
+    "time",
+    "schedule"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "storytelling",
+   "sentence": "We walked to the park together.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense /t/ ending in 'walked'",
+   "stress_focus": "stress on WALKED and PARK",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'walked to'",
+   "vocabulary": [
+    {
+     "word": "together",
+     "meaning": "with each other"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "walking",
+    "past",
+    "park"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "She drives to work every morning.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "3rd person /z/ in 'drives'",
+   "stress_focus": "stress on DRIVES and MORNING",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'drives to'",
+   "vocabulary": [
+    {
+     "word": "drives",
+     "meaning": "operates a car"
+    }
+   ],
+   "grammar_focus": "present simple 3rd person",
+   "tags": [
+    "driving",
+    "commute",
+    "habit"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "Where is the nearest bus stop?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising pitch on 'where'",
+   "stress_focus": "stress on NEAREST and STOP",
+   "intonation_focus": "falling intonation for wh-question",
+   "connected_speech_focus": "linking 'is the'",
+   "vocabulary": [
+    {
+     "word": "nearest",
+     "meaning": "closest"
+    }
+   ],
+   "grammar_focus": "wh-question with 'is'",
+   "tags": [
+    "directions",
+    "question",
+    "transit"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "Is this the right way to the station?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /r/ in 'right'",
+   "stress_focus": "stress on RIGHT and STATION",
+   "intonation_focus": "rising intonation for yes/no question",
+   "connected_speech_focus": "linking 'is this'",
+   "vocabulary": [
+    {
+     "word": "station",
+     "meaning": "place where trains or buses stop"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "directions",
+    "question",
+    "station"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The subway is faster than a taxi.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /f/ in 'faster'",
+   "stress_focus": "stress on SUBWAY and FASTER",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'faster than'",
+   "vocabulary": [
+    {
+     "word": "subway",
+     "meaning": "underground train system"
+    }
+   ],
+   "grammar_focus": "comparative adjective",
+   "tags": [
+    "transit",
+    "comparison",
+    "subway"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "He parked his car near the mall.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense 'parked' /t/",
+   "stress_focus": "stress on PARKED and MALL",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'parked his'",
+   "vocabulary": [
+    {
+     "word": "parked",
+     "meaning": "stopped and left a vehicle"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "driving",
+    "parking",
+    "mall"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "Please walk with me to the shop.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "soft /pl/ cluster in 'please'",
+   "stress_focus": "stress on WALK and SHOP",
+   "intonation_focus": "polite falling intonation",
+   "connected_speech_focus": "linking 'walk with'",
+   "vocabulary": [
+    {
+     "word": "shop",
+     "meaning": "a small store"
+    }
+   ],
+   "grammar_focus": "imperative with please",
+   "tags": [
+    "walking",
+    "request",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The ticket costs three dollars.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /k/ in 'ticket'",
+   "stress_focus": "stress on TICKET and DOLLARS",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'costs three'",
+   "vocabulary": [
+    {
+     "word": "ticket",
+     "meaning": "paper that lets you ride"
+    }
+   ],
+   "grammar_focus": "present simple",
+   "tags": [
+    "transit",
+    "money",
+    "ticket"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "You need to cross the street here.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /kr/ cluster in 'cross'",
+   "stress_focus": "stress on CROSS and HERE",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'cross the'",
+   "vocabulary": [
+    {
+     "word": "cross",
+     "meaning": "go from one side to the other"
+    }
+   ],
+   "grammar_focus": "modal 'need to'",
+   "tags": [
+    "directions",
+    "crossing",
+    "street"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "storytelling",
+   "sentence": "The train was late this morning.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "weak form of 'was'",
+   "stress_focus": "stress on TRAIN and LATE",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'was late'",
+   "vocabulary": [
+    {
+     "word": "late",
+     "meaning": "after the expected time"
+    }
+   ],
+   "grammar_focus": "simple past with 'be'",
+   "tags": [
+    "transit",
+    "time",
+    "delay"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Do you know how to get there?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'do you' /d\u0292\u0259/",
+   "stress_focus": "stress on KNOW and THERE",
+   "intonation_focus": "rising intonation",
+   "connected_speech_focus": "linking 'do you'",
+   "vocabulary": [
+    {
+     "word": "get there",
+     "meaning": "arrive at a place"
+    }
+   ],
+   "grammar_focus": "yes/no question with modal phrase",
+   "tags": [
+    "driving",
+    "question",
+    "directions"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "It takes ten minutes to walk home.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /t/ cluster in 'takes'",
+   "stress_focus": "stress on TEN and WALK",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'takes ten'",
+   "vocabulary": [
+    {
+     "word": "takes",
+     "meaning": "requires an amount of time"
+    }
+   ],
+   "grammar_focus": "present simple with time expressions",
+   "tags": [
+    "walking",
+    "time",
+    "home"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Can you tell me the bus number?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'can you' /k\u0259nj\u0259/",
+   "stress_focus": "stress on TELL and NUMBER",
+   "intonation_focus": "rising intonation for polite request",
+   "connected_speech_focus": "linking 'tell me'",
+   "vocabulary": [
+    {
+     "word": "bus number",
+     "meaning": "the number that identifies a bus route"
+    }
+   ],
+   "grammar_focus": "modal request with 'can'",
+   "tags": [
+    "transit",
+    "request",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The bank is next to the bakery.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /ks/ in 'next'",
+   "stress_focus": "stress on BANK and BAKERY",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'next to'",
+   "vocabulary": [
+    {
+     "word": "next to",
+     "meaning": "beside"
+    }
+   ],
+   "grammar_focus": "present simple with prepositions",
+   "tags": [
+    "directions",
+    "location",
+    "landmarks"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I always wear my seatbelt.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /w/ in 'wear'",
+   "stress_focus": "stress on ALWAYS and SEATBELT",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'wear my'",
+   "vocabulary": [
+    {
+     "word": "seatbelt",
+     "meaning": "strap that keeps you safe in a car"
+    }
+   ],
+   "grammar_focus": "present simple with adverb of frequency",
+   "tags": [
+    "driving",
+    "safety",
+    "habit"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "response",
+   "sentence": "Sure, the platform is over there.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /pl/ cluster in 'platform'",
+   "stress_focus": "stress on PLATFORM and THERE",
+   "intonation_focus": "falling intonation for response",
+   "connected_speech_focus": "linking 'is over'",
+   "vocabulary": [
+    {
+     "word": "platform",
+     "meaning": "area where you wait for a train"
+    }
+   ],
+   "grammar_focus": "present simple response",
+   "tags": [
+    "transit",
+    "response",
+    "station"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The sidewalk was covered in snow.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past passive 'was covered'",
+   "stress_focus": "stress on SIDEWALK and SNOW",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'covered in'",
+   "vocabulary": [
+    {
+     "word": "sidewalk",
+     "meaning": "path for walking beside a road"
+    }
+   ],
+   "grammar_focus": "past passive voice",
+   "tags": [
+    "walking",
+    "weather",
+    "winter"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "Go straight until you see the light.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /st/ cluster in 'straight'",
+   "stress_focus": "stress on STRAIGHT and LIGHT",
+   "intonation_focus": "falling command intonation",
+   "connected_speech_focus": "linking 'until you'",
+   "vocabulary": [
+    {
+     "word": "straight",
+     "meaning": "without turning"
+    }
+   ],
+   "grammar_focus": "imperative with time clause",
+   "tags": [
+    "directions",
+    "commands",
+    "traffic"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "The airport shuttle runs every hour.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /\u0283/ in 'shuttle'",
+   "stress_focus": "stress on SHUTTLE and HOUR",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'runs every'",
+   "vocabulary": [
+    {
+     "word": "shuttle",
+     "meaning": "a bus that takes you a short distance"
+    }
+   ],
+   "grammar_focus": "present simple for schedules",
+   "tags": [
+    "transit",
+    "airport",
+    "schedule"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "The traffic light turned red.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense 'turned' /d/",
+   "stress_focus": "stress on TRAFFIC and RED",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'turned red'",
+   "vocabulary": [
+    {
+     "word": "traffic light",
+     "meaning": "signal that controls cars"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "driving",
+    "traffic",
+    "signal"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I missed my bus.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /st/ cluster in 'missed'",
+   "stress_focus": "stress on MISSED and BUS",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'missed my'",
+   "vocabulary": [
+    {
+     "word": "missed",
+     "meaning": "failed to catch"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "transit",
+    "mistake",
+    "bus"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "Which way is north?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising pitch on 'which'",
+   "stress_focus": "stress on WHICH and NORTH",
+   "intonation_focus": "falling intonation for wh-question",
+   "connected_speech_focus": "linking 'way is'",
+   "vocabulary": [
+    {
+     "word": "north",
+     "meaning": "a compass direction"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "directions",
+    "compass",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "Let's walk instead.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'let's' /l\u025bts/",
+   "stress_focus": "stress on WALK and INSTEAD",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'walk instead'",
+   "vocabulary": [
+    {
+     "word": "instead",
+     "meaning": "as an alternative"
+    }
+   ],
+   "grammar_focus": "suggestion with 'let's'",
+   "tags": [
+    "walking",
+    "suggestion",
+    "alternative"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Slow down, please.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /sl/ cluster in 'slow'",
+   "stress_focus": "stress on SLOW and PLEASE",
+   "intonation_focus": "falling polite intonation",
+   "connected_speech_focus": "linking 'slow down'",
+   "vocabulary": [
+    {
+     "word": "slow down",
+     "meaning": "reduce speed"
+    }
+   ],
+   "grammar_focus": "phrasal verb imperative",
+   "tags": [
+    "driving",
+    "phrasal verb",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "response",
+   "sentence": "No, it's not far.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'it's' /\u026ats/",
+   "stress_focus": "stress on NOT and FAR",
+   "intonation_focus": "falling intonation for response",
+   "connected_speech_focus": "linking 'it's not'",
+   "vocabulary": [
+    {
+     "word": "far",
+     "meaning": "a long distance"
+    }
+   ],
+   "grammar_focus": "negative response",
+   "tags": [
+    "transit",
+    "response",
+    "distance"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "Head south from here.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /h/ in 'head'",
+   "stress_focus": "stress on SOUTH and HERE",
+   "intonation_focus": "falling command intonation",
+   "connected_speech_focus": "linking 'head south'",
+   "vocabulary": [
+    {
+     "word": "head",
+     "meaning": "move in a direction"
+    }
+   ],
+   "grammar_focus": "imperative with direction",
+   "tags": [
+    "directions",
+    "compass",
+    "commands"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "The fare went up.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /f/ in 'fare'",
+   "stress_focus": "stress on FARE and UP",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'went up'",
+   "vocabulary": [
+    {
+     "word": "fare",
+     "meaning": "the price of a ride"
+    }
+   ],
+   "grammar_focus": "phrasal verb past tense",
+   "tags": [
+    "transit",
+    "money",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "I hate rush hour.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /h/ in 'hate'",
+   "stress_focus": "stress on HATE and RUSH",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'rush hour'",
+   "vocabulary": [
+    {
+     "word": "rush hour",
+     "meaning": "busy time for traffic"
+    }
+   ],
+   "grammar_focus": "present simple opinion",
+   "tags": [
+    "driving",
+    "opinion",
+    "traffic"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "It's a short walk.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'it's' /\u026ats/",
+   "stress_focus": "stress on SHORT and WALK",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'it's a'",
+   "vocabulary": [
+    {
+     "word": "short walk",
+     "meaning": "a walk that doesn't take long"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "walking",
+    "distance",
+    "statement"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Keep going straight.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /k/ in 'keep'",
+   "stress_focus": "stress on KEEP and STRAIGHT",
+   "intonation_focus": "falling command intonation",
+   "connected_speech_focus": "linking 'keep going'",
+   "vocabulary": [
+    {
+     "word": "keep going",
+     "meaning": "continue"
+    }
+   ],
+   "grammar_focus": "imperative with phrasal verb",
+   "tags": [
+    "directions",
+    "commands",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "Does this bus stop here?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'does' /d\u0259z/",
+   "stress_focus": "stress on BUS and HERE",
+   "intonation_focus": "rising intonation for yes/no question",
+   "connected_speech_focus": "linking 'does this'",
+   "vocabulary": [
+    {
+     "word": "stop",
+     "meaning": "pause to let passengers on or off"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "transit",
+    "question",
+    "bus"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "Watch out for pedestrians.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /t\u0283/ in 'watch'",
+   "stress_focus": "stress on WATCH and PEDESTRIANS",
+   "intonation_focus": "falling command intonation",
+   "connected_speech_focus": "linking 'watch out'",
+   "vocabulary": [
+    {
+     "word": "pedestrians",
+     "meaning": "people walking"
+    }
+   ],
+   "grammar_focus": "imperative with phrasal verb",
+   "tags": [
+    "driving",
+    "safety",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "We got off too early.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense 'got' with linking",
+   "stress_focus": "stress on GOT and EARLY",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'got off'",
+   "vocabulary": [
+    {
+     "word": "got off",
+     "meaning": "exited a vehicle"
+    }
+   ],
+   "grammar_focus": "phrasal verb past tense",
+   "tags": [
+    "transit",
+    "mistake",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "The map isn't clear.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'isn't' /\u02c8\u026az\u0259nt/",
+   "stress_focus": "stress on MAP and CLEAR",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'isn't clear'",
+   "vocabulary": [
+    {
+     "word": "map",
+     "meaning": "a drawing showing streets"
+    }
+   ],
+   "grammar_focus": "negative statement",
+   "tags": [
+    "directions",
+    "map",
+    "statement"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "My feet are tired.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /t/ in 'tired'",
+   "stress_focus": "stress on FEET and TIRED",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'feet are'",
+   "vocabulary": [
+    {
+     "word": "tired",
+     "meaning": "needing rest"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "walking",
+    "feelings",
+    "tiredness"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "Traffic is really bad today.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /r/ in 'really'",
+   "stress_focus": "stress on TRAFFIC and BAD",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'is really'",
+   "vocabulary": [
+    {
+     "word": "traffic",
+     "meaning": "cars on the road"
+    }
+   ],
+   "grammar_focus": "present simple with intensifier",
+   "tags": [
+    "driving",
+    "traffic",
+    "complaint"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "Can we transfer here?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'can we' /k\u0259nwi/",
+   "stress_focus": "stress on TRANSFER and HERE",
+   "intonation_focus": "rising intonation",
+   "connected_speech_focus": "linking 'transfer here'",
+   "vocabulary": [
+    {
+     "word": "transfer",
+     "meaning": "switch to another bus or train"
+    }
+   ],
+   "grammar_focus": "yes/no question with modal",
+   "tags": [
+    "transit",
+    "question",
+    "transfer"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "That's the wrong direction.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'that's' /\u00f0\u00e6ts/",
+   "stress_focus": "stress on WRONG and DIRECTION",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'that's the'",
+   "vocabulary": [
+    {
+     "word": "wrong direction",
+     "meaning": "not the correct way"
+    }
+   ],
+   "grammar_focus": "present simple with 'be'",
+   "tags": [
+    "directions",
+    "mistake",
+    "statement"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "Parking downtown is a nightmare.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /a\u028a/ in 'downtown'",
+   "stress_focus": "stress on PARKING and NIGHTMARE",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'parking downtown'",
+   "vocabulary": [
+    {
+     "word": "nightmare",
+     "meaning": "a very unpleasant experience"
+    }
+   ],
+   "grammar_focus": "present simple opinion",
+   "tags": [
+    "driving",
+    "parking",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "The line was really long.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense 'was' weak form",
+   "stress_focus": "stress on LINE and LONG",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'was really'",
+   "vocabulary": [
+    {
+     "word": "line",
+     "meaning": "a queue of people"
+    }
+   ],
+   "grammar_focus": "simple past with adverb",
+   "tags": [
+    "transit",
+    "queue",
+    "statement"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "request",
+   "sentence": "Wait up, I'm coming.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'I'm' /a\u026am/",
+   "stress_focus": "stress on WAIT and COMING",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'wait up'",
+   "vocabulary": [
+    {
+     "word": "wait up",
+     "meaning": "pause so someone can catch up"
+    }
+   ],
+   "grammar_focus": "imperative with phrasal verb",
+   "tags": [
+    "walking",
+    "phrasal verb",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "response",
+   "sentence": "Yeah, it's just around the corner.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'yeah' /j\u025b\u0259/",
+   "stress_focus": "stress on JUST and CORNER",
+   "intonation_focus": "falling intonation for response",
+   "connected_speech_focus": "linking 'around the'",
+   "vocabulary": [
+    {
+     "word": "around the corner",
+     "meaning": "very close"
+    }
+   ],
+   "grammar_focus": "affirmative response",
+   "tags": [
+    "directions",
+    "response",
+    "location"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "He ran a red light.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "past tense 'ran' clear vowel",
+   "stress_focus": "stress on RAN and RED",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'ran a'",
+   "vocabulary": [
+    {
+     "word": "ran a red light",
+     "meaning": "drove through a red light illegally"
+    }
+   ],
+   "grammar_focus": "simple past tense",
+   "tags": [
+    "driving",
+    "traffic",
+    "violation"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "I always sit near the door.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /s/ in 'sit'",
+   "stress_focus": "stress on ALWAYS and DOOR",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'sit near'",
+   "vocabulary": [
+    {
+     "word": "near",
+     "meaning": "close to"
+    }
+   ],
+   "grammar_focus": "present simple habit",
+   "tags": [
+    "transit",
+    "habit",
+    "seating"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "You'll pass a gas station.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "contraction 'you'll' /jul/",
+   "stress_focus": "stress on PASS and STATION",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'pass a'",
+   "vocabulary": [
+    {
+     "word": "pass",
+     "meaning": "go by"
+    }
+   ],
+   "grammar_focus": "future with 'will'",
+   "tags": [
+    "directions",
+    "landmarks",
+    "future"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "I usually catch the bus around eight, but today it showed up late.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'around' /\u0259\u02c8ra\u028and/",
+   "stress_focus": "stress on CATCH and LATE",
+   "intonation_focus": "falling intonation with mid-sentence pause",
+   "connected_speech_focus": "linking 'showed up'",
+   "vocabulary": [
+    {
+     "word": "showed up",
+     "meaning": "arrived"
+    }
+   ],
+   "grammar_focus": "connector 'but' joining clauses",
+   "tags": [
+    "transit",
+    "routine",
+    "connector"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "request",
+   "sentence": "Could you point me toward the exit?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "polite reduced 'could you' /k\u028ad\u0292\u0259/",
+   "stress_focus": "stress on POINT and EXIT",
+   "intonation_focus": "rising polite intonation",
+   "connected_speech_focus": "linking 'point me'",
+   "vocabulary": [
+    {
+     "word": "point toward",
+     "meaning": "indicate the direction of"
+    }
+   ],
+   "grammar_focus": "polite modal request",
+   "tags": [
+    "directions",
+    "request",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I think we should've taken the highway instead.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'should've' /\u02c8\u0283\u028ad\u0259v/",
+   "stress_focus": "stress on HONESTLY and HIGHWAY",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'should've taken'",
+   "vocabulary": [
+    {
+     "word": "highway",
+     "meaning": "a large main road"
+    }
+   ],
+   "grammar_focus": "past modal 'should have'",
+   "tags": [
+    "driving",
+    "opinion",
+    "regret"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "clarification",
+   "sentence": "Wait, did you say the blue line or the red one?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation on clarification question",
+   "stress_focus": "stress on BLUE and RED",
+   "intonation_focus": "rising intonation for clarification",
+   "connected_speech_focus": "linking 'did you'",
+   "vocabulary": [
+    {
+     "word": "line",
+     "meaning": "a specific subway or train route"
+    }
+   ],
+   "grammar_focus": "clarifying question with 'or'",
+   "tags": [
+    "transit",
+    "clarification",
+    "subway"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "storytelling",
+   "sentence": "We ended up walking the whole way because the bus never came.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'because' /b\u026a\u02c8k\u0254z/",
+   "stress_focus": "stress on ENDED and NEVER",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'ended up'",
+   "vocabulary": [
+    {
+     "word": "ended up",
+     "meaning": "finally did something unplanned"
+    }
+   ],
+   "grammar_focus": "phrasal verb with connector 'because'",
+   "tags": [
+    "walking",
+    "storytelling",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "He cut me off right before the exit ramp.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /\u028c/ in 'cut'",
+   "stress_focus": "stress on CUT and RAMP",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'cut me'",
+   "vocabulary": [
+    {
+     "word": "cut off",
+     "meaning": "move suddenly in front of another driver"
+    }
+   ],
+   "grammar_focus": "phrasal verb past tense",
+   "tags": [
+    "driving",
+    "phrasal verb",
+    "traffic"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "question",
+   "sentence": "How long does it usually take to get downtown?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'does it' /d\u0259z\u026at/",
+   "stress_focus": "stress on LONG and DOWNTOWN",
+   "intonation_focus": "falling wh-question intonation",
+   "connected_speech_focus": "linking 'take to'",
+   "vocabulary": [
+    {
+     "word": "downtown",
+     "meaning": "the central part of a city"
+    }
+   ],
+   "grammar_focus": "wh-question with 'usually'",
+   "tags": [
+    "transit",
+    "question",
+    "time"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "Once you cross the bridge, the office is right there.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /br\u026ad\u0292/ in 'bridge'",
+   "stress_focus": "stress on BRIDGE and OFFICE",
+   "intonation_focus": "falling intonation after time clause",
+   "connected_speech_focus": "linking 'once you'",
+   "vocabulary": [
+    {
+     "word": "bridge",
+     "meaning": "a structure crossing a river or road"
+    }
+   ],
+   "grammar_focus": "time clause with 'once'",
+   "tags": [
+    "directions",
+    "landmarks",
+    "connector"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "agreement",
+   "sentence": "Yeah, that's exactly what I was thinking too.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'was' weak form",
+   "stress_focus": "stress on EXACTLY and THINKING",
+   "intonation_focus": "falling agreement intonation",
+   "connected_speech_focus": "linking 'was thinking'",
+   "vocabulary": [
+    {
+     "word": "exactly",
+     "meaning": "precisely, in complete agreement"
+    }
+   ],
+   "grammar_focus": "agreement expression",
+   "tags": [
+    "driving",
+    "agreement",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "The app kept glitching, so I missed my connection.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /gl/ cluster in 'glitching'",
+   "stress_focus": "stress on GLITCHING and CONNECTION",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'kept glitching'",
+   "vocabulary": [
+    {
+     "word": "glitch",
+     "meaning": "a small technical problem"
+    }
+   ],
+   "grammar_focus": "connector 'so' showing result",
+   "tags": [
+    "transit",
+    "technology",
+    "connector"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "Personally, I'd rather walk than deal with traffic.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'I'd' /a\u026ad/",
+   "stress_focus": "stress on RATHER and TRAFFIC",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'rather walk'",
+   "vocabulary": [
+    {
+     "word": "would rather",
+     "meaning": "prefer to do something"
+    }
+   ],
+   "grammar_focus": "comparative preference structure",
+   "tags": [
+    "walking",
+    "opinion",
+    "preference"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, did you mean turn left at the light or before it?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation on clarification",
+   "stress_focus": "stress on LEFT and BEFORE",
+   "intonation_focus": "rising clarification intonation",
+   "connected_speech_focus": "linking 'mean turn'",
+   "vocabulary": [
+    {
+     "word": "before it",
+     "meaning": "earlier than that point"
+    }
+   ],
+   "grammar_focus": "clarifying question with alternatives",
+   "tags": [
+    "directions",
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "We got stuck in traffic for almost an hour.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /st/ in 'stuck'",
+   "stress_focus": "stress on STUCK and HOUR",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'stuck in'",
+   "vocabulary": [
+    {
+     "word": "got stuck",
+     "meaning": "was unable to move"
+    }
+   ],
+   "grammar_focus": "phrasal expression with duration",
+   "tags": [
+    "driving",
+    "traffic",
+    "time"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "response",
+   "sentence": "Actually, I think you need to transfer at the next stop.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'actually' /\u02c8\u00e6kt\u0283\u0259li/",
+   "stress_focus": "stress on TRANSFER and STOP",
+   "intonation_focus": "falling intonation for correction",
+   "connected_speech_focus": "linking 'need to'",
+   "vocabulary": [
+    {
+     "word": "transfer",
+     "meaning": "change to a different bus or train"
+    }
+   ],
+   "grammar_focus": "modal 'need to' in response",
+   "tags": [
+    "transit",
+    "response",
+    "correction"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "Take the second exit off the roundabout.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /r/ in 'roundabout'",
+   "stress_focus": "stress on SECOND and ROUNDABOUT",
+   "intonation_focus": "falling command intonation",
+   "connected_speech_focus": "linking 'exit off'",
+   "vocabulary": [
+    {
+     "word": "roundabout",
+     "meaning": "a circular junction"
+    }
+   ],
+   "grammar_focus": "ordinal number in imperative",
+   "tags": [
+    "directions",
+    "commands",
+    "roundabout"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "request",
+   "sentence": "Would you mind pulling over for a second?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'would you' /w\u028ad\u0292\u0259/",
+   "stress_focus": "stress on PULLING and SECOND",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'pulling over'",
+   "vocabulary": [
+    {
+     "word": "pull over",
+     "meaning": "stop the car at the side of the road"
+    }
+   ],
+   "grammar_focus": "polite request with 'would you mind'",
+   "tags": [
+    "driving",
+    "request",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "Even though it's rush hour, the train wasn't too crowded.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'even though' /\u02c8iv\u0259n \u00f0o\u028a/",
+   "stress_focus": "stress on RUSH and CROWDED",
+   "intonation_focus": "falling intonation with concession clause",
+   "connected_speech_focus": "linking 'wasn't too'",
+   "vocabulary": [
+    {
+     "word": "crowded",
+     "meaning": "full of people"
+    }
+   ],
+   "grammar_focus": "concession clause with 'even though'",
+   "tags": [
+    "transit",
+    "connector",
+    "rush hour"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "By the time we got there, the store had already closed.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'had already' /h\u0259d\u0254\u02d0l\u02c8r\u025bdi/",
+   "stress_focus": "stress on ALREADY and CLOSED",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'by the'",
+   "vocabulary": [
+    {
+     "word": "by the time",
+     "meaning": "when something else happens"
+    }
+   ],
+   "grammar_focus": "past perfect with time clause",
+   "tags": [
+    "walking",
+    "past perfect",
+    "connector"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "I nearly rear-ended the car in front of me.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /r/ cluster in 'rear-ended'",
+   "stress_focus": "stress on NEARLY and REAR-ENDED",
+   "intonation_focus": "falling intonation",
+   "connected_speech_focus": "linking 'rear-ended'",
+   "vocabulary": [
+    {
+     "word": "rear-end",
+     "meaning": "to crash into the back of a vehicle"
+    }
+   ],
+   "grammar_focus": "simple past with adverb 'nearly'",
+   "tags": [
+    "driving",
+    "accident",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "If you ask me, the new subway line is way faster.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'if you' /\u026afj\u0259/",
+   "stress_focus": "stress on WAY and FASTER",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'ask me'",
+   "vocabulary": [
+    {
+     "word": "way faster",
+     "meaning": "much faster, informal intensifier"
+    }
+   ],
+   "grammar_focus": "conditional phrase for opinion",
+   "tags": [
+    "transit",
+    "opinion",
+    "comparison"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "You'll know you're close when you see the big church.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'you're' /j\u028ar/",
+   "stress_focus": "stress on CLOSE and CHURCH",
+   "intonation_focus": "falling intonation with time clause",
+   "connected_speech_focus": "linking 'you'll know'",
+   "vocabulary": [
+    {
+     "word": "landmark",
+     "meaning": "a noticeable feature used for directions"
+    }
+   ],
+   "grammar_focus": "future with time clause",
+   "tags": [
+    "directions",
+    "landmarks",
+    "future"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "reaction",
+   "sentence": "Whoa, that guy just ran the stop sign!",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "emphatic stress on 'whoa'",
+   "stress_focus": "stress on WHOA and STOP",
+   "intonation_focus": "exclamatory rising-falling intonation",
+   "connected_speech_focus": "linking 'ran the'",
+   "vocabulary": [
+    {
+     "word": "stop sign",
+     "meaning": "a sign requiring a full stop"
+    }
+   ],
+   "grammar_focus": "exclamation with simple past",
+   "tags": [
+    "driving",
+    "reaction",
+    "traffic"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "Since the fare hike, I've started biking to work instead.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'since' /s\u026ans/",
+   "stress_focus": "stress on HIKE and BIKING",
+   "intonation_focus": "falling intonation with reason clause",
+   "connected_speech_focus": "linking 'started biking'",
+   "vocabulary": [
+    {
+     "word": "fare hike",
+     "meaning": "an increase in ticket prices"
+    }
+   ],
+   "grammar_focus": "present perfect with reason clause 'since'",
+   "tags": [
+    "transit",
+    "connector",
+    "change"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "request",
+   "sentence": "Mind if we take a shortcut through the park?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'mind if' /ma\u026and\u026af/",
+   "stress_focus": "stress on SHORTCUT and PARK",
+   "intonation_focus": "rising polite intonation",
+   "connected_speech_focus": "linking 'take a'",
+   "vocabulary": [
+    {
+     "word": "shortcut",
+     "meaning": "a quicker route"
+    }
+   ],
+   "grammar_focus": "polite request with 'mind if'",
+   "tags": [
+    "walking",
+    "request",
+    "route"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "disagreement",
+   "sentence": "I don't think this is the fastest route, honestly.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'don't' /do\u028ant/",
+   "stress_focus": "stress on FASTEST and HONESTLY",
+   "intonation_focus": "falling intonation for disagreement",
+   "connected_speech_focus": "linking 'don't think'",
+   "vocabulary": [
+    {
+     "word": "route",
+     "meaning": "the way you travel to a place"
+    }
+   ],
+   "grammar_focus": "negative opinion with 'honestly'",
+   "tags": [
+    "driving",
+    "disagreement",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "By the time I finally squeezed onto the train, it was standing room only.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'onto' /\u02c8\u0252nt\u0259/",
+   "stress_focus": "stress on SQUEEZED and STANDING",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'squeezed onto'",
+   "vocabulary": [
+    {
+     "word": "standing room only",
+     "meaning": "completely full, no seats left"
+    }
+   ],
+   "grammar_focus": "past perfect narrative with idiom",
+   "tags": [
+    "transit",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, GPS has made asking for directions almost a thing of the past.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'has made' /h\u0259z\u02c8me\u026ad/",
+   "stress_focus": "stress on GPS and PAST",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'thing of'",
+   "vocabulary": [
+    {
+     "word": "a thing of the past",
+     "meaning": "something no longer common"
+    }
+   ],
+   "grammar_focus": "present perfect with idiomatic expression",
+   "tags": [
+    "directions",
+    "opinion",
+    "technology"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "We were cruising along fine until we hit a massive traffic jam out of nowhere.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'until we' /\u0259n\u02c8t\u026alwi/",
+   "stress_focus": "stress on CRUISING and NOWHERE",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'out of'",
+   "vocabulary": [
+    {
+     "word": "out of nowhere",
+     "meaning": "suddenly and unexpectedly"
+    }
+   ],
+   "grammar_focus": "past continuous with contrast clause",
+   "tags": [
+    "driving",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "If you ask me, public transit here could really use a serious upgrade.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'could really' /k\u028ad\u02c8r\u026ali/",
+   "stress_focus": "stress on SERIOUS and UPGRADE",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'ask me'",
+   "vocabulary": [
+    {
+     "word": "could use",
+     "meaning": "would benefit from"
+    }
+   ],
+   "grammar_focus": "conditional opinion with modal 'could use'",
+   "tags": [
+    "transit",
+    "opinion",
+    "infrastructure"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "We must've walked five miles before we finally found a taxi willing to stop.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'must've' /\u02c8m\u028cst\u0259v/",
+   "stress_focus": "stress on FIVE and WILLING",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'must've walked'",
+   "vocabulary": [
+    {
+     "word": "willing to",
+     "meaning": "ready and happy to do something"
+    }
+   ],
+   "grammar_focus": "past modal 'must have' for speculation",
+   "tags": [
+    "walking",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "disagreement",
+   "sentence": "I get that it's shorter, but taking the back roads isn't worth the hassle.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'isn't' /\u02c8\u026az\u0259nt/",
+   "stress_focus": "stress on SHORTER and HASSLE",
+   "intonation_focus": "falling intonation for disagreement",
+   "connected_speech_focus": "linking 'worth the'",
+   "vocabulary": [
+    {
+     "word": "hassle",
+     "meaning": "an annoying difficulty"
+    }
+   ],
+   "grammar_focus": "concession with 'but' and idiom 'worth the hassle'",
+   "tags": [
+    "driving",
+    "disagreement",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "clarification",
+   "sentence": "Wait, are you saying we need to switch trains twice, not just once?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation for clarification",
+   "stress_focus": "stress on TWICE and ONCE",
+   "intonation_focus": "rising clarification intonation",
+   "connected_speech_focus": "linking 'switch trains'",
+   "vocabulary": [
+    {
+     "word": "switch trains",
+     "meaning": "change from one train to another"
+    }
+   ],
+   "grammar_focus": "clarifying question with contrast",
+   "tags": [
+    "transit",
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "request",
+   "sentence": "Would you happen to know a faster way to get around this construction?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'would you' /w\u028ad\u0292\u0259/",
+   "stress_focus": "stress on FASTER and CONSTRUCTION",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'happen to'",
+   "vocabulary": [
+    {
+     "word": "get around",
+     "meaning": "avoid or go past an obstacle"
+    }
+   ],
+   "grammar_focus": "polite indirect question",
+   "tags": [
+    "directions",
+    "request",
+    "construction"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "reaction",
+   "sentence": "You've got to be kidding me, this traffic hasn't moved in twenty minutes.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'you've got to' /juv\u02c8g\u0251t\u0259/",
+   "stress_focus": "stress on KIDDING and TWENTY",
+   "intonation_focus": "exclamatory falling intonation",
+   "connected_speech_focus": "linking 'hasn't moved'",
+   "vocabulary": [
+    {
+     "word": "you've got to be kidding",
+     "meaning": "expression of disbelief"
+    }
+   ],
+   "grammar_focus": "present perfect with idiomatic exclamation",
+   "tags": [
+    "driving",
+    "reaction",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "I ended up dozing off and missed my stop by like four stations.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'ended up' /\u02c8\u025bnd\u026ad\u028cp/",
+   "stress_focus": "stress on DOZING and STATIONS",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'dozing off'",
+   "vocabulary": [
+    {
+     "word": "dozing off",
+     "meaning": "falling asleep briefly by accident"
+    }
+   ],
+   "grammar_focus": "phrasal verb narrative with informal 'like'",
+   "tags": [
+    "transit",
+    "storytelling",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "To be honest, I'd much rather stroll around downtown than sit in traffic.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'I'd much' /a\u026adm\u028ct\u0283/",
+   "stress_focus": "stress on STROLL and TRAFFIC",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'stroll around'",
+   "vocabulary": [
+    {
+     "word": "stroll",
+     "meaning": "walk in a slow, relaxed way"
+    }
+   ],
+   "grammar_focus": "comparative preference with idiom 'to be honest'",
+   "tags": [
+    "walking",
+    "opinion",
+    "preference"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "agreement",
+   "sentence": "Totally, that shortcut through the alley saves us a ton of time.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'totally' /\u02c8to\u028atli/",
+   "stress_focus": "stress on SHORTCUT and TON",
+   "intonation_focus": "falling agreement intonation",
+   "connected_speech_focus": "linking 'saves us'",
+   "vocabulary": [
+    {
+     "word": "a ton of",
+     "meaning": "a large amount of, informal"
+    }
+   ],
+   "grammar_focus": "agreement with idiomatic quantifier",
+   "tags": [
+    "directions",
+    "agreement",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "The car in front of us slammed on the brakes out of nowhere and we barely avoided a crash.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'in front of' /\u026an\u02c8fr\u028cnt\u0259v/",
+   "stress_focus": "stress on SLAMMED and BARELY",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'slammed on'",
+   "vocabulary": [
+    {
+     "word": "slam on the brakes",
+     "meaning": "stop suddenly and forcefully"
+    }
+   ],
+   "grammar_focus": "past narrative with two clauses",
+   "tags": [
+    "driving",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I think ride-sharing apps have kind of taken over from taxis around here.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'kind of' /\u02c8ka\u026and\u0259/",
+   "stress_focus": "stress on RIDE-SHARING and TAKEN",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'taken over'",
+   "vocabulary": [
+    {
+     "word": "taken over",
+     "meaning": "replaced something as the main choice"
+    }
+   ],
+   "grammar_focus": "present perfect with idiomatic phrasal verb",
+   "tags": [
+    "transit",
+    "opinion",
+    "technology"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "Keep an eye out for the sign, because it's easy to miss if you're not paying attention.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'because' /b\u026a\u02c8k\u0254z/",
+   "stress_focus": "stress on SIGN and MISS",
+   "intonation_focus": "falling intonation with reason clause",
+   "connected_speech_focus": "linking 'keep an'",
+   "vocabulary": [
+    {
+     "word": "keep an eye out",
+     "meaning": "watch carefully for something"
+    }
+   ],
+   "grammar_focus": "imperative idiom with reason clause",
+   "tags": [
+    "directions",
+    "idiom",
+    "attention"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "clarification",
+   "sentence": "Hold on, do you mean the exit for downtown or the one after it?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "rising intonation for clarification",
+   "stress_focus": "stress on EXIT and AFTER",
+   "intonation_focus": "rising clarification intonation",
+   "connected_speech_focus": "linking 'mean the'",
+   "vocabulary": [
+    {
+     "word": "hold on",
+     "meaning": "wait a moment"
+    }
+   ],
+   "grammar_focus": "clarifying question with alternatives",
+   "tags": [
+    "driving",
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "request",
+   "sentence": "Do you mind swapping seats so I can sit closer to the door?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'do you mind' /d\u0259j\u0259\u02c8ma\u026and/",
+   "stress_focus": "stress on SWAPPING and DOOR",
+   "intonation_focus": "polite rising intonation",
+   "connected_speech_focus": "linking 'swapping seats'",
+   "vocabulary": [
+    {
+     "word": "swap",
+     "meaning": "exchange or switch"
+    }
+   ],
+   "grammar_focus": "polite request with purpose clause",
+   "tags": [
+    "transit",
+    "request",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "We got completely turned around and ended up walking in circles for a while.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'ended up' /\u02c8\u025bnd\u026ad\u028cp/",
+   "stress_focus": "stress on TURNED and CIRCLES",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'turned around'",
+   "vocabulary": [
+    {
+     "word": "turned around",
+     "meaning": "confused about direction"
+    }
+   ],
+   "grammar_focus": "past narrative with idiom 'walking in circles'",
+   "tags": [
+    "walking",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "If you ask me, self-driving cars are still a long way off from being reliable.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'a long way' /\u0259\u02c8l\u0254\u014bwe\u026a/",
+   "stress_focus": "stress on RELIABLE and LONG",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'long way'",
+   "vocabulary": [
+    {
+     "word": "a long way off",
+     "meaning": "far from happening"
+    }
+   ],
+   "grammar_focus": "conditional opinion with idiom",
+   "tags": [
+    "driving",
+    "opinion",
+    "technology"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "agreement",
+   "sentence": "Yeah, I totally agree, the new schedule makes way more sense than the old one.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'totally' /\u02c8to\u028atli/",
+   "stress_focus": "stress on SCHEDULE and SENSE",
+   "intonation_focus": "falling agreement intonation",
+   "connected_speech_focus": "linking 'makes way'",
+   "vocabulary": [
+    {
+     "word": "makes sense",
+     "meaning": "is logical or reasonable"
+    }
+   ],
+   "grammar_focus": "agreement with comparative structure",
+   "tags": [
+    "transit",
+    "agreement",
+    "comparison"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "We wandered around for ages before a stranger finally pointed us in the right direction.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'for ages' /f\u0259r\u02c8e\u026ad\u0292\u026az/",
+   "stress_focus": "stress on WANDERED and STRANGER",
+   "intonation_focus": "falling storytelling intonation",
+   "connected_speech_focus": "linking 'pointed us'",
+   "vocabulary": [
+    {
+     "word": "for ages",
+     "meaning": "for a very long time, informal"
+    }
+   ],
+   "grammar_focus": "past narrative with idiom",
+   "tags": [
+    "directions",
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Driving",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "statement",
+   "sentence": "Merging onto the highway during rush hour takes nerves of steel, honestly.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'onto the' /\u02c8\u0252nt\u0259\u00f0\u0259/",
+   "stress_focus": "stress on MERGING and NERVES",
+   "intonation_focus": "falling intonation with idiomatic closer",
+   "connected_speech_focus": "linking 'nerves of'",
+   "vocabulary": [
+    {
+     "word": "nerves of steel",
+     "meaning": "great courage and calmness under pressure"
+    }
+   ],
+   "grammar_focus": "gerund subject with idiomatic phrase",
+   "tags": [
+    "driving",
+    "idiom",
+    "rush hour"
+   ]
+  },
+  {
+   "subcategory": "Transit",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "Oh come on, not another delay, I'm going to be late for the meeting.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'going to' /\u02c8g\u0252n\u0259/",
+   "stress_focus": "stress on DELAY and LATE",
+   "intonation_focus": "exclamatory falling intonation",
+   "connected_speech_focus": "linking 'come on'",
+   "vocabulary": [
+    {
+     "word": "delay",
+     "meaning": "a period of being late"
+    }
+   ],
+   "grammar_focus": "exclamation with future consequence",
+   "tags": [
+    "transit",
+    "reaction",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Walking",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "clarification",
+   "sentence": "Just to be clear, you want to walk the whole way instead of taking a cab?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'want to' /\u02c8w\u0251n\u0259/",
+   "stress_focus": "stress on WHOLE and CAB",
+   "intonation_focus": "rising clarification intonation",
+   "connected_speech_focus": "linking 'want to'",
+   "vocabulary": [
+    {
+     "word": "just to be clear",
+     "meaning": "used to confirm understanding"
+    }
+   ],
+   "grammar_focus": "clarifying question with contrast",
+   "tags": [
+    "walking",
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Directions",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "At the end of the day, a good map app beats asking strangers for directions.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'at the end' /\u0259t\u00f0i\u02c8\u025bnd/",
+   "stress_focus": "stress on BEATS and STRANGERS",
+   "intonation_focus": "falling intonation for opinion",
+   "connected_speech_focus": "linking 'end of'",
+   "vocabulary": [
+    {
+     "word": "at the end of the day",
+     "meaning": "when everything is considered"
+    }
+   ],
+   "grammar_focus": "idiomatic opinion structure",
+   "tags": [
+    "directions",
+    "opinion",
+    "idiom"
+   ]
+  }
+ ]
+}

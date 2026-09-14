@@ -1,0 +1,2411 @@
+{
+  "slug": "job-interviews",
+  "name": "Job Interviews",
+  "topic_group": "Work & Professional English",
+  "blurb": "Practice natural spoken English for acing job interviews, from small talk to salary negotiation.",
+  "sort_order": 11,
+  "sentences": [
+    {
+      "subcategory": "Greetings",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Nice to meet you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /i\u02d0/ in \"meet\"",
+      "stress_focus": "NICE, MEET",
+      "intonation_focus": "falling final tone",
+      "connected_speech_focus": "nice to meet linked smoothly",
+      "vocabulary": [
+        {
+          "word": "nice to meet you",
+          "meaning": "a polite greeting when meeting someone new"
+        }
+      ],
+      "grammar_focus": "fixed expression",
+      "tags": [
+        "greeting",
+        "interview",
+        "polite"
+      ]
+    },
+    {
+      "subcategory": "Greetings",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thanks for having me.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u03b8/ in \"thanks\"",
+      "stress_focus": "THANKS, HAV-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "thanks for linked as thanks-fer",
+      "vocabulary": [
+        {
+          "word": "having me",
+          "meaning": "inviting me to be here"
+        }
+      ],
+      "grammar_focus": "present participle phrase",
+      "tags": [
+        "greeting",
+        "gratitude",
+        "interview"
+      ]
+    },
+    {
+      "subcategory": "Small talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Did you find the office okay?",
+      "natural_form": "Did ya find the office okay?",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"find\"",
+      "stress_focus": "FIND, OFF-ice",
+      "intonation_focus": "rising at end",
+      "connected_speech_focus": "did you reduced to didja",
+      "vocabulary": [
+        {
+          "word": "find the office",
+          "meaning": "locate the building"
+        }
+      ],
+      "grammar_focus": "simple past yes/no question",
+      "tags": [
+        "small-talk",
+        "directions"
+      ]
+    },
+    {
+      "subcategory": "Self-intro",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm a graphic designer.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "schwa in \"designer\"",
+      "stress_focus": "GRAPH-ic de-SIGN-er",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'm linked as one word",
+      "vocabulary": [
+        {
+          "word": "graphic designer",
+          "meaning": "someone who creates visual designs"
+        }
+      ],
+      "grammar_focus": "present tense of be",
+      "tags": [
+        "self-intro",
+        "job-title"
+      ]
+    },
+    {
+      "subcategory": "Self-intro",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I've worked here for two years.",
+      "natural_form": "I've worked here for two years.",
+      "accent": "american",
+      "pronunciation_focus": "final -ed cluster in \"worked\"",
+      "stress_focus": "WORKED, TWO, YEARS",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "worked here linked",
+      "vocabulary": [
+        {
+          "word": "worked",
+          "meaning": "past participle of work"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "experience",
+        "work-history"
+      ]
+    },
+    {
+      "subcategory": "Basic questions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What time is the interview?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /t/ in \"time\"",
+      "stress_focus": "TIME, IN-ter-view",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "what time linked",
+      "vocabulary": [
+        {
+          "word": "interview",
+          "meaning": "a formal meeting to evaluate a candidate"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "scheduling",
+        "interview"
+      ]
+    },
+    {
+      "subcategory": "Basic questions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Where should I sit?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0283/ in \"should\"",
+      "stress_focus": "WHERE, SIT",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "should I linked as shoul-dai",
+      "vocabulary": [
+        {
+          "word": "sit",
+          "meaning": "take a seat"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "office",
+        "polite-request"
+      ]
+    },
+    {
+      "subcategory": "Basic answers",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "Yes, I'm ready.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in \"ready\"",
+      "stress_focus": "YES, READY",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'm linked",
+      "vocabulary": [
+        {
+          "word": "ready",
+          "meaning": "prepared"
+        }
+      ],
+      "grammar_focus": "simple statement",
+      "tags": [
+        "response",
+        "confidence"
+      ]
+    },
+    {
+      "subcategory": "Basic answers",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "No, not yet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /j/ in \"yet\"",
+      "stress_focus": "NOT, YET",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "not yet linked",
+      "vocabulary": [
+        {
+          "word": "not yet",
+          "meaning": "not at this moment"
+        }
+      ],
+      "grammar_focus": "short response",
+      "tags": [
+        "response",
+        "negative"
+      ]
+    },
+    {
+      "subcategory": "Job basics",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I work in marketing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u025c\u02d0r/ in \"work\"",
+      "stress_focus": "WORK, MAR-ket-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "work in linked",
+      "vocabulary": [
+        {
+          "word": "marketing",
+          "meaning": "promoting and selling products"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "job-title",
+        "department"
+      ]
+    },
+    {
+      "subcategory": "Job basics",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My job is very interesting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u026a/ in \"interesting\"",
+      "stress_focus": "JOB, IN-ter-est-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "my job linked",
+      "vocabulary": [
+        {
+          "word": "interesting",
+          "meaning": "holds your attention"
+        }
+      ],
+      "grammar_focus": "present simple with adjective",
+      "tags": [
+        "opinion",
+        "job"
+      ]
+    },
+    {
+      "subcategory": "Skills",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am good with computers.",
+      "natural_form": "I'm good with computers.",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in \"computers\"",
+      "stress_focus": "GOOD, COM-PU-ters",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "good with linked",
+      "vocabulary": [
+        {
+          "word": "good with",
+          "meaning": "skilled at using"
+        }
+      ],
+      "grammar_focus": "present simple adjective phrase",
+      "tags": [
+        "skills",
+        "technology"
+      ]
+    },
+    {
+      "subcategory": "Skills",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I can speak two languages.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in \"can\"",
+      "stress_focus": "SPEAK, LAN-guag-es",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "can speak linked",
+      "vocabulary": [
+        {
+          "word": "languages",
+          "meaning": "different spoken tongues"
+        }
+      ],
+      "grammar_focus": "modal can",
+      "tags": [
+        "skills",
+        "languages"
+      ]
+    },
+    {
+      "subcategory": "Questions about company",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "What does your company do?",
+      "natural_form": "Whaddaya company do?",
+      "accent": "american",
+      "pronunciation_focus": "the /d/ in \"does\"",
+      "stress_focus": "COM-pa-ny, DO",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "does your reduced",
+      "vocabulary": [
+        {
+          "word": "company",
+          "meaning": "a business organization"
+        }
+      ],
+      "grammar_focus": "wh-question with does",
+      "tags": [
+        "company",
+        "research"
+      ]
+    },
+    {
+      "subcategory": "Questions about company",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How many people work here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /p/ in \"people\"",
+      "stress_focus": "MANY, PEOPLE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "how many linked",
+      "vocabulary": [
+        {
+          "word": "work here",
+          "meaning": "are employed at this place"
+        }
+      ],
+      "grammar_focus": "quantity question",
+      "tags": [
+        "company",
+        "staff"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think this job is a great fit for me.",
+      "natural_form": "I think this job's a great fit for me.",
+      "accent": "american",
+      "pronunciation_focus": "the /\u03b8/ in \"think\"",
+      "stress_focus": "GREAT, FIT",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "job is reduced to job's",
+      "vocabulary": [
+        {
+          "word": "fit",
+          "meaning": "a good match"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "confidence"
+      ]
+    },
+    {
+      "subcategory": "Availability",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I can start next Monday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /st/ cluster in \"start\"",
+      "stress_focus": "START, MON-day",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "can start linked",
+      "vocabulary": [
+        {
+          "word": "start",
+          "meaning": "begin working"
+        }
+      ],
+      "grammar_focus": "modal for future plans",
+      "tags": [
+        "availability",
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Availability",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "When can I start?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in \"can\"",
+      "stress_focus": "WHEN, START",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "can I linked as can-ai",
+      "vocabulary": [
+        {
+          "word": "start",
+          "meaning": "begin a job"
+        }
+      ],
+      "grammar_focus": "wh-question with modal",
+      "tags": [
+        "scheduling",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Basic strengths",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am a hard worker.",
+      "natural_form": "I'm a hard worker.",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in \"worker\"",
+      "stress_focus": "HARD, WORK-er",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'm linked",
+      "vocabulary": [
+        {
+          "word": "hard worker",
+          "meaning": "someone who works with great effort"
+        }
+      ],
+      "grammar_focus": "present simple with adjective",
+      "tags": [
+        "strengths",
+        "self-description"
+      ]
+    },
+    {
+      "subcategory": "Basic strengths",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I always arrive on time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the final -s in \"arrives\"",
+      "stress_focus": "ALWAYS, TIME",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "arrive on linked",
+      "vocabulary": [
+        {
+          "word": "on time",
+          "meaning": "punctual, not late"
+        }
+      ],
+      "grammar_focus": "adverb of frequency",
+      "tags": [
+        "strengths",
+        "punctuality"
+      ]
+    },
+    {
+      "subcategory": "Weakness talk",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Sometimes I talk too fast.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"fast\"",
+      "stress_focus": "TALK, FAST",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "too fast linked",
+      "vocabulary": [
+        {
+          "word": "too fast",
+          "meaning": "at a speed that's too quick"
+        }
+      ],
+      "grammar_focus": "adverb of frequency",
+      "tags": [
+        "weakness",
+        "self-awareness"
+      ]
+    },
+    {
+      "subcategory": "Small talk",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How was your trip here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in \"was\"",
+      "stress_focus": "TRIP, HERE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "was your linked",
+      "vocabulary": [
+        {
+          "word": "trip",
+          "meaning": "a journey to get somewhere"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "small-talk",
+        "travel"
+      ]
+    },
+    {
+      "subcategory": "Small talk",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "It was easy, thanks.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /i\u02d0/ in \"easy\"",
+      "stress_focus": "EASY, THANKS",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "was easy linked",
+      "vocabulary": [
+        {
+          "word": "easy",
+          "meaning": "not difficult"
+        }
+      ],
+      "grammar_focus": "simple past response",
+      "tags": [
+        "small-talk",
+        "response"
+      ]
+    },
+    {
+      "subcategory": "Confirmation",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, could you repeat the question?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in \"repeat\"",
+      "stress_focus": "SOR-ry, RE-PEAT",
+      "intonation_focus": "rising then falling",
+      "connected_speech_focus": "could you reduced to coul-jya",
+      "vocabulary": [
+        {
+          "word": "repeat",
+          "meaning": "say again"
+        }
+      ],
+      "grammar_focus": "polite request for clarification",
+      "tags": [
+        "clarification",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "Ending",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Thank you for your time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u00f0/ in \"the\"",
+      "stress_focus": "THANK, TIME",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "for your linked",
+      "vocabulary": [
+        {
+          "word": "your time",
+          "meaning": "the time you spent"
+        }
+      ],
+      "grammar_focus": "fixed expression",
+      "tags": [
+        "gratitude",
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Experience",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I've been working in sales for three years.",
+      "natural_form": "I've been workin' in sales for three years.",
+      "accent": "american",
+      "pronunciation_focus": "final -ing dropped g in speech",
+      "stress_focus": "WORK-ing, SALES",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "been working linked",
+      "vocabulary": [
+        {
+          "word": "sales",
+          "meaning": "the job of selling products"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "experience",
+        "work-history"
+      ]
+    },
+    {
+      "subcategory": "Experience",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Before this job, I worked as a barista.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /b/ in \"barista\"",
+      "stress_focus": "BEFORE, BAR-IS-ta",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "before this linked",
+      "vocabulary": [
+        {
+          "word": "barista",
+          "meaning": "a person who makes coffee drinks"
+        }
+      ],
+      "grammar_focus": "past simple with time marker",
+      "tags": [
+        "experience",
+        "previous-job"
+      ]
+    },
+    {
+      "subcategory": "Strengths",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "One of my biggest strengths is time management.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /str/ cluster in \"strengths\"",
+      "stress_focus": "BIGGEST, TIME MAN-age-ment",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "one of my linked",
+      "vocabulary": [
+        {
+          "word": "time management",
+          "meaning": "organizing how you use your time"
+        }
+      ],
+      "grammar_focus": "present simple with superlative",
+      "tags": [
+        "strengths",
+        "skills"
+      ]
+    },
+    {
+      "subcategory": "Strengths",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'm really good at solving problems.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /v/ in \"solving\"",
+      "stress_focus": "GOOD, PROB-lems",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "good at linked",
+      "vocabulary": [
+        {
+          "word": "solving problems",
+          "meaning": "finding solutions to issues"
+        }
+      ],
+      "grammar_focus": "present simple with gerund",
+      "tags": [
+        "strengths",
+        "skills"
+      ]
+    },
+    {
+      "subcategory": "Weakness",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I used to struggle with public speaking.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /str/ cluster in \"struggle\"",
+      "stress_focus": "USED, STRUG-gle",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "used to linked as use-ta",
+      "vocabulary": [
+        {
+          "word": "struggle with",
+          "meaning": "find something difficult"
+        }
+      ],
+      "grammar_focus": "used to for past habits",
+      "tags": [
+        "weakness",
+        "growth"
+      ]
+    },
+    {
+      "subcategory": "Weakness",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I've been working on that recently.",
+      "natural_form": "I've been workin' on that lately.",
+      "accent": "american",
+      "pronunciation_focus": "final -ed vs -ing contrast",
+      "stress_focus": "WORK-ing, RE-CENT-ly",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "been working linked",
+      "vocabulary": [
+        {
+          "word": "working on",
+          "meaning": "trying to improve"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "improvement",
+        "self-awareness"
+      ]
+    },
+    {
+      "subcategory": "Motivation",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Why do you want to work here?",
+      "natural_form": "Why d'you wanna work here?",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in \"want\"",
+      "stress_focus": "WHY, WANT, WORK",
+      "intonation_focus": "rising then falling",
+      "connected_speech_focus": "want to reduced to wanna",
+      "vocabulary": [
+        {
+          "word": "motivation",
+          "meaning": "the reason for wanting something"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "motivation",
+        "interview"
+      ]
+    },
+    {
+      "subcategory": "Motivation",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "response",
+      "sentence": "I really admire your company's mission.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /m/ in \"admire\"",
+      "stress_focus": "AD-MIRE, MI-ssion",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "admire your linked",
+      "vocabulary": [
+        {
+          "word": "mission",
+          "meaning": "the company's main purpose"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "motivation",
+        "company-research"
+      ]
+    },
+    {
+      "subcategory": "Salary talk",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "What's the salary range for this position?",
+      "natural_form": "Whadda salary range for this position?",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in \"range\"",
+      "stress_focus": "SAL-a-ry, RANGE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "what's the linked",
+      "vocabulary": [
+        {
+          "word": "salary range",
+          "meaning": "the minimum and maximum pay"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "salary",
+        "negotiation"
+      ]
+    },
+    {
+      "subcategory": "Salary talk",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "response",
+      "sentence": "I'm flexible on that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"flexible\"",
+      "stress_focus": "FLEX-i-ble",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'm linked",
+      "vocabulary": [
+        {
+          "word": "flexible",
+          "meaning": "willing to adjust or compromise"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "salary",
+        "negotiation"
+      ]
+    },
+    {
+      "subcategory": "Team fit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I work well under pressure.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0292/ sound in \"pressure\"",
+      "stress_focus": "WORK, PRE-ssure",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "work well linked",
+      "vocabulary": [
+        {
+          "word": "under pressure",
+          "meaning": "in a stressful or demanding situation"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "strengths",
+        "teamwork"
+      ]
+    },
+    {
+      "subcategory": "Team fit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I enjoy collaborating with different teams.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in \"collaborating\"",
+      "stress_focus": "EN-JOY, COL-LAB-or-AT-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "enjoy collaborating linked",
+      "vocabulary": [
+        {
+          "word": "collaborating",
+          "meaning": "working together with others"
+        }
+      ],
+      "grammar_focus": "present simple with gerund",
+      "tags": [
+        "teamwork",
+        "collaboration"
+      ]
+    },
+    {
+      "subcategory": "Goals",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Where do you see yourself in five years?",
+      "natural_form": "Where d'you see yourself in five years?",
+      "accent": "american",
+      "pronunciation_focus": "the /j/ in \"yourself\"",
+      "stress_focus": "SEE, YOUR-SELF, FIVE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "see yourself linked",
+      "vocabulary": [
+        {
+          "word": "in five years",
+          "meaning": "in the future, five years from now"
+        }
+      ],
+      "grammar_focus": "wh-question about the future",
+      "tags": [
+        "goals",
+        "future"
+      ]
+    },
+    {
+      "subcategory": "Goals",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "response",
+      "sentence": "I'd like to grow into a leadership role.",
+      "natural_form": "I'd like to grow into a leadership role.",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0292/ sound in \"leisure\"-like words is absent, focus /l/ clusters",
+      "stress_focus": "GROW, LEAD-er-ship",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'd like linked",
+      "vocabulary": [
+        {
+          "word": "leadership role",
+          "meaning": "a position where you manage others"
+        }
+      ],
+      "grammar_focus": "conditional with 'd like",
+      "tags": [
+        "goals",
+        "career-growth"
+      ]
+    },
+    {
+      "subcategory": "Handling conflict",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I try to stay calm when there's a disagreement.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /e\u026a/ in \"stay\"",
+      "stress_focus": "STAY, CALM, DIS-a-GREE-ment",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "try to linked",
+      "vocabulary": [
+        {
+          "word": "disagreement",
+          "meaning": "when people don't agree"
+        }
+      ],
+      "grammar_focus": "present simple with clause",
+      "tags": [
+        "conflict-resolution",
+        "workplace"
+      ]
+    },
+    {
+      "subcategory": "Handling conflict",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I always listen to the other person's point of view.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the final -en in \"listen\" is silent",
+      "stress_focus": "LI-sten, POINT, VIEW",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "listen to linked",
+      "vocabulary": [
+        {
+          "word": "point of view",
+          "meaning": "someone's opinion or perspective"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "conflict-resolution",
+        "empathy"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "When will I hear back from you?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in \"hear\"",
+      "stress_focus": "HEAR, BACK",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "hear back linked",
+      "vocabulary": [
+        {
+          "word": "hear back",
+          "meaning": "receive a response"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "follow-up",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "response",
+      "sentence": "You should hear from us by Friday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the final -d in \"should\"",
+      "stress_focus": "HEAR, FRI-day",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "should hear linked",
+      "vocabulary": [
+        {
+          "word": "hear from",
+          "meaning": "receive communication from"
+        }
+      ],
+      "grammar_focus": "modal for future",
+      "tags": [
+        "follow-up",
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "References",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I can provide references if needed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"references\"",
+      "stress_focus": "PRO-VIDE, REF-er-en-ces",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "provide references linked",
+      "vocabulary": [
+        {
+          "word": "references",
+          "meaning": "people who can vouch for your work"
+        }
+      ],
+      "grammar_focus": "modal can",
+      "tags": [
+        "references",
+        "professionalism"
+      ]
+    },
+    {
+      "subcategory": "Questions to ask",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "What does a typical day look like in this role?",
+      "natural_form": "Whadda typical day look like in this role?",
+      "accent": "american",
+      "pronunciation_focus": "the /d/ in \"typical\"",
+      "stress_focus": "TYP-i-cal, ROLE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "does a linked",
+      "vocabulary": [
+        {
+          "word": "typical day",
+          "meaning": "a normal, average day"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "questions-to-ask",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Questions to ask",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "What are the next steps in the hiring process?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /st/ cluster in \"steps\"",
+      "stress_focus": "NEXT, STEPS, HIR-ing",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "next steps linked",
+      "vocabulary": [
+        {
+          "word": "hiring process",
+          "meaning": "the stages of getting hired"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "questions-to-ask",
+        "process"
+      ]
+    },
+    {
+      "subcategory": "Nervousness",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "reaction",
+      "sentence": "Sorry, I'm a bit nervous.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u025c\u02d0r/ in \"nervous\"",
+      "stress_focus": "BIT, NER-vous",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'm a bit linked",
+      "vocabulary": [
+        {
+          "word": "nervous",
+          "meaning": "feeling anxious or worried"
+        }
+      ],
+      "grammar_focus": "present simple with 'a bit'",
+      "tags": [
+        "reaction",
+        "honesty"
+      ]
+    },
+    {
+      "subcategory": "Encouragement",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "response",
+      "sentence": "Take your time, there's no rush.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in \"rush\"",
+      "stress_focus": "TIME, RUSH",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "take your linked",
+      "vocabulary": [
+        {
+          "word": "rush",
+          "meaning": "hurry"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "encouragement",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "Confirmation",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "clarification",
+      "sentence": "Just to clarify, is this a remote position?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"clarify\"",
+      "stress_focus": "CLAR-i-fy, RE-MOTE",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "just to clarify linked",
+      "vocabulary": [
+        {
+          "word": "remote position",
+          "meaning": "a job you can do from home"
+        }
+      ],
+      "grammar_focus": "clarifying question",
+      "tags": [
+        "clarification",
+        "remote-work"
+      ]
+    },
+    {
+      "subcategory": "Closing",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I really appreciate you taking the time to meet with me.",
+      "natural_form": "I really 'preciate you takin' the time to meet with me.",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0283/ in \"appreciate\"",
+      "stress_focus": "AP-PRE-CI-ATE, MEET",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "appreciate you linked",
+      "vocabulary": [
+        {
+          "word": "appreciate",
+          "meaning": "be grateful for"
+        }
+      ],
+      "grammar_focus": "present simple with gerund clause",
+      "tags": [
+        "gratitude",
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Behavioral",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "Can you tell me about a time you dealt with a difficult coworker?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"difficult\"",
+      "stress_focus": "TELL, DIF-fi-cult, CO-WORK-er",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "tell me linked",
+      "vocabulary": [
+        {
+          "word": "dealt with",
+          "meaning": "handled or managed a situation"
+        }
+      ],
+      "grammar_focus": "behavioral interview question",
+      "tags": [
+        "behavioral",
+        "teamwork"
+      ]
+    },
+    {
+      "subcategory": "Behavioral",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "At my last job, I had to step up and lead a project when my manager was out sick.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /st/ cluster in \"step\"",
+      "stress_focus": "STEP UP, LEAD, SICK",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "step up linked as ste-pup",
+      "vocabulary": [
+        {
+          "word": "step up",
+          "meaning": "take on more responsibility"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "storytelling",
+        "leadership"
+      ]
+    },
+    {
+      "subcategory": "Behavioral",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "We were falling behind on a deadline, so I reorganized the whole team's workflow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /i\u02d0/ in \"reorganized\"",
+      "stress_focus": "FALLING BEHIND, RE-OR-GAN-IZED",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "falling behind linked",
+      "vocabulary": [
+        {
+          "word": "falling behind",
+          "meaning": "not keeping up with schedule"
+        }
+      ],
+      "grammar_focus": "past simple with connector 'so'",
+      "tags": [
+        "storytelling",
+        "problem-solving"
+      ]
+    },
+    {
+      "subcategory": "Strengths deep dive",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "I tend to pick things up pretty quickly when I'm learning something new.",
+      "natural_form": "I tend to pick things up pretty quick when I'm learnin' somethin' new.",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb linking in \"pick things up\"",
+      "stress_focus": "PICK, QUICK-ly, NEW",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "pick things up linked as pi-kthing-sup",
+      "vocabulary": [
+        {
+          "word": "pick up",
+          "meaning": "learn quickly"
+        }
+      ],
+      "grammar_focus": "present simple with phrasal verb",
+      "tags": [
+        "strengths",
+        "learning"
+      ]
+    },
+    {
+      "subcategory": "Weakness deep dive",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "I used to have trouble delegating, but I've gotten a lot better at it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"delegating\"",
+      "stress_focus": "TROUBLE, DEL-e-GAT-ing, BET-ter",
+      "intonation_focus": "falling then rising",
+      "connected_speech_focus": "gotten a lot linked",
+      "vocabulary": [
+        {
+          "word": "delegating",
+          "meaning": "assigning tasks to others"
+        }
+      ],
+      "grammar_focus": "used to vs present perfect contrast",
+      "tags": [
+        "weakness",
+        "growth"
+      ]
+    },
+    {
+      "subcategory": "Conflict resolution",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "My coworker and I disagreed on the approach, so we sat down and hashed it out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in \"hashed\"",
+      "stress_focus": "DIS-A-GREED, HASHED IT OUT",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "hashed it out linked as ha-shdi-tout",
+      "vocabulary": [
+        {
+          "word": "hash out",
+          "meaning": "discuss thoroughly until you reach agreement"
+        }
+      ],
+      "grammar_focus": "past simple narrative with idiom",
+      "tags": [
+        "conflict-resolution",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Handling failure",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "I once missed a major deadline, and it taught me to build in extra buffer time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"major\"",
+      "stress_focus": "MISSED, DEAD-LINE, BUF-fer",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "taught me linked",
+      "vocabulary": [
+        {
+          "word": "buffer time",
+          "meaning": "extra time set aside just in case"
+        }
+      ],
+      "grammar_focus": "past simple with result clause",
+      "tags": [
+        "storytelling",
+        "learning-from-mistakes"
+      ]
+    },
+    {
+      "subcategory": "Workplace culture",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "question",
+      "sentence": "How would you describe the culture here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in \"culture\"",
+      "stress_focus": "DE-SCRIBE, CUL-ture",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "would you reduced to woul-jya",
+      "vocabulary": [
+        {
+          "word": "culture",
+          "meaning": "the shared values and atmosphere of a workplace"
+        }
+      ],
+      "grammar_focus": "conditional question with would",
+      "tags": [
+        "workplace",
+        "questions-to-ask"
+      ]
+    },
+    {
+      "subcategory": "Workplace culture",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "response",
+      "sentence": "We're a pretty close-knit team, and people genuinely help each other out.",
+      "natural_form": "We're a pretty close-knit team, and people genuinely help each other out.",
+      "accent": "american",
+      "pronunciation_focus": "the /\u014b/ in \"close-knit\"",
+      "stress_focus": "CLOSE-KNIT, GEN-U-INE-ly",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "help each other linked",
+      "vocabulary": [
+        {
+          "word": "close-knit",
+          "meaning": "very connected and supportive"
+        }
+      ],
+      "grammar_focus": "present simple description",
+      "tags": [
+        "workplace-culture",
+        "response"
+      ]
+    },
+    {
+      "subcategory": "Negotiation",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "Honestly, that's a bit lower than I was expecting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u00f0/ in \"than\"",
+      "stress_focus": "LOW-er, EX-PECT-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "than I was linked",
+      "vocabulary": [
+        {
+          "word": "expecting",
+          "meaning": "anticipating"
+        }
+      ],
+      "grammar_focus": "comparative structure",
+      "tags": [
+        "negotiation",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Negotiation",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "agreement",
+      "sentence": "That sounds fair, I'd be happy to move forward at that rate.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"fair\"",
+      "stress_focus": "FAIR, HAP-py, RATE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'd be linked",
+      "vocabulary": [
+        {
+          "word": "move forward",
+          "meaning": "proceed or continue"
+        }
+      ],
+      "grammar_focus": "conditional with 'd be",
+      "tags": [
+        "negotiation",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Multitasking",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "I'm used to juggling multiple projects at once.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"juggling\"",
+      "stress_focus": "JUG-gling, MUL-ti-ple",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "used to linked",
+      "vocabulary": [
+        {
+          "word": "juggling",
+          "meaning": "managing several things at the same time"
+        }
+      ],
+      "grammar_focus": "be used to + gerund",
+      "tags": [
+        "multitasking",
+        "skills"
+      ]
+    },
+    {
+      "subcategory": "Adaptability",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "I think being adaptable is just as important as having technical skills.",
+      "natural_form": "I think bein' adaptable's just as important as havin' technical skills.",
+      "accent": "american",
+      "pronunciation_focus": "the /d/ in \"adaptable\"",
+      "stress_focus": "AD-APT-a-ble, TECH-ni-cal",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "just as linked",
+      "vocabulary": [
+        {
+          "word": "adaptable",
+          "meaning": "able to adjust to new situations"
+        }
+      ],
+      "grammar_focus": "comparative with 'as...as'",
+      "tags": [
+        "opinion",
+        "skills"
+      ]
+    },
+    {
+      "subcategory": "Remote work",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "question",
+      "sentence": "How does the team stay connected when working remotely?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /t/ in \"connected\"",
+      "stress_focus": "STAY, CON-NECT-ed, RE-MOTE-ly",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "stay connected linked",
+      "vocabulary": [
+        {
+          "word": "remotely",
+          "meaning": "from a different location, not in the office"
+        }
+      ],
+      "grammar_focus": "present simple question",
+      "tags": [
+        "remote-work",
+        "questions-to-ask"
+      ]
+    },
+    {
+      "subcategory": "Feedback",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "I actually appreciate direct feedback, even when it's tough to hear.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"feedback\"",
+      "stress_focus": "DI-RECT, FEED-BACK, TOUGH",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "appreciate direct linked",
+      "vocabulary": [
+        {
+          "word": "direct feedback",
+          "meaning": "honest, straightforward comments about performance"
+        }
+      ],
+      "grammar_focus": "present simple with concession clause",
+      "tags": [
+        "feedback",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Salary negotiation",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "request",
+      "sentence": "Would it be possible to discuss the benefits package as well?",
+      "natural_form": "Would it be possible to talk about the benefits package too?",
+      "accent": "american",
+      "pronunciation_focus": "the /b/ in \"benefits\"",
+      "stress_focus": "POS-SI-BLE, BEN-e-fits",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "would it linked as woul-dit",
+      "vocabulary": [
+        {
+          "word": "benefits package",
+          "meaning": "health insurance, vacation, and other perks"
+        }
+      ],
+      "grammar_focus": "polite request with conditional",
+      "tags": [
+        "negotiation",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Career change",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "storytelling",
+      "sentence": "I decided to switch industries because I wanted more room to grow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /t\u0283/ in \"switch\"",
+      "stress_focus": "SWITCH, IN-DUS-TRIES, ROOM",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "decided to linked",
+      "vocabulary": [
+        {
+          "word": "switch industries",
+          "meaning": "change your field of work"
+        }
+      ],
+      "grammar_focus": "past simple with reason clause",
+      "tags": [
+        "career-change",
+        "storytelling"
+      ]
+    },
+    {
+      "subcategory": "Handling stress",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "When things get hectic, I usually make a list and tackle the most urgent items first.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in \"hectic\"",
+      "stress_focus": "HEC-tic, TAC-kle, UR-gent",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "get hectic linked",
+      "vocabulary": [
+        {
+          "word": "tackle",
+          "meaning": "deal with or handle a task"
+        }
+      ],
+      "grammar_focus": "present simple with time clause",
+      "tags": [
+        "stress-management",
+        "skills"
+      ]
+    },
+    {
+      "subcategory": "Clarifying role",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "clarification",
+      "sentence": "Just to make sure I understand, would this role involve managing a team?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0283/ in \"sure\"",
+      "stress_focus": "SURE, IN-VOLVE, MAN-AG-ing",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "make sure linked",
+      "vocabulary": [
+        {
+          "word": "involve",
+          "meaning": "include as a necessary part"
+        }
+      ],
+      "grammar_focus": "clarifying question with conditional",
+      "tags": [
+        "clarification",
+        "job-role"
+      ]
+    },
+    {
+      "subcategory": "Company research",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "I was really impressed by how transparent your company is about its values.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /p/ cluster in \"impressed\"",
+      "stress_focus": "IM-PRESSED, TRANS-PAR-ent, VAL-ues",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "was really linked",
+      "vocabulary": [
+        {
+          "word": "transparent",
+          "meaning": "open and honest about information"
+        }
+      ],
+      "grammar_focus": "past simple opinion",
+      "tags": [
+        "company-research",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Panel interviews",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "question",
+      "sentence": "Would you like me to address that from a technical or a strategic angle?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"strategic\"",
+      "stress_focus": "AD-DRESS, TECH-NI-CAL, STRA-TE-GIC",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "would you reduced",
+      "vocabulary": [
+        {
+          "word": "strategic angle",
+          "meaning": "a broad, big-picture perspective"
+        }
+      ],
+      "grammar_focus": "conditional offer question",
+      "tags": [
+        "clarification",
+        "panel-interview"
+      ]
+    },
+    {
+      "subcategory": "Rejections",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "response",
+      "sentence": "I understand, and I really appreciate you letting me know either way.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u00f0/ in \"either\"",
+      "stress_focus": "UN-DER-STAND, EI-THER WAY",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "letting me linked",
+      "vocabulary": [
+        {
+          "word": "either way",
+          "meaning": "whatever the outcome is"
+        }
+      ],
+      "grammar_focus": "present simple response",
+      "tags": [
+        "response",
+        "professionalism"
+      ]
+    },
+    {
+      "subcategory": "Counteroffer",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "disagreement",
+      "sentence": "I hear you, but I was hoping we could land somewhere a bit higher.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in \"hoping\"",
+      "stress_focus": "HEAR, HO-PING, HIGH-er",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "hear you linked",
+      "vocabulary": [
+        {
+          "word": "land somewhere",
+          "meaning": "reach an agreement at a certain point"
+        }
+      ],
+      "grammar_focus": "past continuous with hedging",
+      "tags": [
+        "negotiation",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Questions to ask",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "question",
+      "sentence": "What does success look like in this role after the first six months?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ks/ cluster in \"success\"",
+      "stress_focus": "SUC-CESS, SIX MONTHS",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "look like linked",
+      "vocabulary": [
+        {
+          "word": "success",
+          "meaning": "achieving good results or goals"
+        }
+      ],
+      "grammar_focus": "wh-question with time frame",
+      "tags": [
+        "questions-to-ask",
+        "expectations"
+      ]
+    },
+    {
+      "subcategory": "Wrap-up",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "I'll follow up with an email recapping our conversation and my references.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in \"recapping\"",
+      "stress_focus": "FOL-LOW UP, RE-CAP-ping, REF-er-ENCE-es",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "follow up linked",
+      "vocabulary": [
+        {
+          "word": "recapping",
+          "meaning": "summarizing what was discussed"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "follow-up",
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Behavioral deep dive",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "storytelling",
+      "sentence": "There was a stretch last year where our whole team was overwhelmed, and I ended up volunteering to reorganize our entire workflow from scratch.",
+      "natural_form": "There was a stretch last year where our whole team was overwhelmed, and I ended up volunteerin' to reorganize our entire workflow from scratch.",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ cluster in \"reorganize\"",
+      "stress_focus": "STRETCH, OVER-WHELMED, SCRATCH",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "ended up linked as en-de-dup",
+      "vocabulary": [
+        {
+          "word": "from scratch",
+          "meaning": "starting completely from the beginning"
+        }
+      ],
+      "grammar_focus": "past simple narrative with 'ended up'",
+      "tags": [
+        "storytelling",
+        "initiative"
+      ]
+    },
+    {
+      "subcategory": "Leadership philosophy",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "In my experience, the best managers aren't the ones who have all the answers, they're the ones who ask the right questions.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0292/ sound absent, focus on contrastive stress",
+      "stress_focus": "BEST, ANSWERS, RIGHT QUESTIONS",
+      "intonation_focus": "falling then rising for contrast",
+      "connected_speech_focus": "aren't the linked",
+      "vocabulary": [
+        {
+          "word": "the right questions",
+          "meaning": "questions that lead to good solutions"
+        }
+      ],
+      "grammar_focus": "cleft sentence for emphasis",
+      "tags": [
+        "opinion",
+        "leadership"
+      ]
+    },
+    {
+      "subcategory": "Handling ambiguity",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "I've learned to get comfortable operating without a clear roadmap, especially in the early stages of a project.",
+      "natural_form": "I've learned to get comfortable operatin' without a clear roadmap, especially in the early stages of a project.",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in \"roadmap\"",
+      "stress_focus": "COM-FORT-A-BLE, OP-ER-AT-ing, ROAD-MAP",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "without a linked",
+      "vocabulary": [
+        {
+          "word": "roadmap",
+          "meaning": "a plan outlining steps to reach a goal"
+        }
+      ],
+      "grammar_focus": "present perfect with infinitive clause",
+      "tags": [
+        "adaptability",
+        "ambiguity"
+      ]
+    },
+    {
+      "subcategory": "Negotiating counteroffers",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "I really do want to make this work, but based on the market rate for this role, I was expecting something closer to the higher end of the range.",
+      "natural_form": "I really do wanna make this work, but based on the market rate for this role, I was expectin' somethin' closer to the higher end of the range.",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"range\"",
+      "stress_focus": "MAR-KET RATE, HIGH-ER END",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "closer to linked",
+      "vocabulary": [
+        {
+          "word": "market rate",
+          "meaning": "the typical pay for a job in the current job market"
+        }
+      ],
+      "grammar_focus": "complex sentence with contrast connector",
+      "tags": [
+        "negotiation",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Explaining a gap",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "clarification",
+      "sentence": "To address the gap in my resume directly, I actually took that time off to care for a family member, and I stayed sharp by freelancing on the side.",
+      "natural_form": "To address the gap in my resume directly, I actually took that time off to care for a family member, and I stayed sharp by freelancin' on the side.",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"gap\" region and linking",
+      "stress_focus": "AD-DRESS, FREE-LANC-ing, SHARP",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "stayed sharp linked",
+      "vocabulary": [
+        {
+          "word": "stayed sharp",
+          "meaning": "kept your skills up to date"
+        }
+      ],
+      "grammar_focus": "past simple with coordinated clauses",
+      "tags": [
+        "clarification",
+        "resume-gap"
+      ]
+    },
+    {
+      "subcategory": "Cultural fit",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "What draws me to this company isn't just the mission statement, it's the fact that people actually seem to live it out day to day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"draws\" area, contrastive stress on 'isn't'",
+      "stress_focus": "DRAWS, MISSION, LIVE IT OUT",
+      "intonation_focus": "falling with emphasis",
+      "connected_speech_focus": "live it out linked as li-vi-tout",
+      "vocabulary": [
+        {
+          "word": "live it out",
+          "meaning": "actually practice or embody something"
+        }
+      ],
+      "grammar_focus": "cleft sentence with contrast",
+      "tags": [
+        "opinion",
+        "company-culture"
+      ]
+    },
+    {
+      "subcategory": "Handling difficult feedback",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "My manager once told me my presentations were too data-heavy, and honestly, it stung at first, but it completely changed how I communicate now.",
+      "natural_form": "My manager once told me my presentations were too data-heavy, and honestly, it stung at first, but it completely changed how I communicate now.",
+      "accent": "american",
+      "pronunciation_focus": "the /st/ cluster in \"stung\"",
+      "stress_focus": "STUNG, COM-PLETE-ly, COM-MUN-I-CATE",
+      "intonation_focus": "falling then rising then falling",
+      "connected_speech_focus": "changed how linked",
+      "vocabulary": [
+        {
+          "word": "data-heavy",
+          "meaning": "containing too much statistical information"
+        }
+      ],
+      "grammar_focus": "past simple narrative with concession",
+      "tags": [
+        "storytelling",
+        "feedback"
+      ]
+    },
+    {
+      "subcategory": "Discussing failure",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "We launched a feature that nobody ended up using, and in hindsight, the real issue was that we skipped user research entirely.",
+      "natural_form": "We launched a feature that nobody ended up usin', and in hindsight, the real issue was we skipped user research entirely.",
+      "accent": "american",
+      "pronunciation_focus": "the /a\u026a/ in \"hindsight\"",
+      "stress_focus": "LAUNCHED, HIND-SIGHT, EN-TIRE-ly",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "ended up linked",
+      "vocabulary": [
+        {
+          "word": "in hindsight",
+          "meaning": "looking back and understanding something now"
+        }
+      ],
+      "grammar_focus": "past simple with subordinate clause",
+      "tags": [
+        "storytelling",
+        "learning-from-mistakes"
+      ]
+    },
+    {
+      "subcategory": "Ambitious goals",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "Long term, I'd love to move into a role where I'm shaping strategy rather than just executing on someone else's roadmap.",
+      "natural_form": "Long term, I'd love to move into a role where I'm shapin' strategy rather than just executin' on someone else's roadmap.",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0283/ in \"strategy\" and \"shaping\"",
+      "stress_focus": "SHAP-ing, STRAT-e-gy, EX-E-CUT-ing",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "rather than linked",
+      "vocabulary": [
+        {
+          "word": "shaping strategy",
+          "meaning": "influencing the overall direction of a plan"
+        }
+      ],
+      "grammar_focus": "conditional with 'd love + contrast clause",
+      "tags": [
+        "goals",
+        "career-growth"
+      ]
+    },
+    {
+      "subcategory": "Handling a panel",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "clarification",
+      "sentence": "Before I answer, could I just clarify whether you're asking about my technical approach or the way I'd manage the team around it?",
+      "natural_form": "Before I answer, could I just clarify whether you're askin' about my technical approach or the way I'd manage the team around it?",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in \"clarify\"",
+      "stress_focus": "CLAR-I-FY, TECH-NI-CAL, A-ROUND IT",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "whether you're linked",
+      "vocabulary": [
+        {
+          "word": "clarify",
+          "meaning": "make something clearer by asking or explaining"
+        }
+      ],
+      "grammar_focus": "embedded question with 'whether'",
+      "tags": [
+        "clarification",
+        "panel-interview"
+      ]
+    },
+    {
+      "subcategory": "Discussing weaknesses honestly",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I wouldn't say I have a weakness so much as an area I'm consciously working to improve, which is delegating more instead of taking everything on myself.",
+      "natural_form": "I wouldn't say I have a weakness so much as an area I'm consciously workin' to improve, which is delegatin' more instead of takin' everything on myself.",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in \"consciously\"",
+      "stress_focus": "CON-SCIOUS-ly, DEL-E-GAT-ing, MY-SELF",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "so much as linked",
+      "vocabulary": [
+        {
+          "word": "so much as",
+          "meaning": "rather than, more accurately described as"
+        }
+      ],
+      "grammar_focus": "complex sentence with relative clause",
+      "tags": [
+        "weakness",
+        "self-awareness"
+      ]
+    },
+    {
+      "subcategory": "Salary negotiation nuance",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "disagreement",
+      "sentence": "I appreciate the offer, and I'm genuinely excited about the role, but I'd need the base salary to be a bit closer to what I'm currently earning to make the move worthwhile.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in \"worthwhile\"",
+      "stress_focus": "GEN-U-INE-ly, WORTH-WHILE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "need the base linked",
+      "vocabulary": [
+        {
+          "word": "worthwhile",
+          "meaning": "valuable enough to justify the effort or risk"
+        }
+      ],
+      "grammar_focus": "complex sentence with contrastive connectors",
+      "tags": [
+        "negotiation",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Reflecting on mentorship",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "Early in my career, I had a mentor who pushed back on every idea I brought her, and looking back, that's exactly what made me a sharper thinker.",
+      "natural_form": "Early in my career, I had a mentor who pushed back on every idea I brought her, and lookin' back, that's exactly what made me a sharper thinker.",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0283/ in \"sharper\"",
+      "stress_focus": "PUSHED BACK, LOOK-ING BACK, SHARP-er",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "pushed back linked",
+      "vocabulary": [
+        {
+          "word": "pushed back on",
+          "meaning": "challenged or disagreed with"
+        }
+      ],
+      "grammar_focus": "past simple narrative with relative clause",
+      "tags": [
+        "storytelling",
+        "mentorship"
+      ]
+    },
+    {
+      "subcategory": "Ethical dilemmas",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "If I noticed a colleague cutting corners on something that could affect client safety, I wouldn't hesitate to raise it, even if it made things uncomfortable.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0283/ in \"hesitate\"",
+      "stress_focus": "CUT-TING COR-NERS, HES-I-TATE, UN-COM-FORT-A-BLE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "cutting corners linked",
+      "vocabulary": [
+        {
+          "word": "cutting corners",
+          "meaning": "doing something in a quicker but less careful way"
+        }
+      ],
+      "grammar_focus": "conditional sentence type 2",
+      "tags": [
+        "opinion",
+        "ethics"
+      ]
+    },
+    {
+      "subcategory": "Handling office politics",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "I try to stay out of office politics as much as possible, but when a decision affects my team directly, I make sure my voice is heard.",
+      "natural_form": "I try to stay outta office politics as much as possible, but when a decision affects my team directly, I make sure my voice is heard.",
+      "accent": "american",
+      "pronunciation_focus": "the /z/ in \"politics\"",
+      "stress_focus": "STAY OUT, DE-CI-SION, VOICE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "stay out of linked as stay-ou-tuv",
+      "vocabulary": [
+        {
+          "word": "stay out of",
+          "meaning": "avoid getting involved in"
+        }
+      ],
+      "grammar_focus": "complex sentence with contrast",
+      "tags": [
+        "workplace-culture",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Discussing burnout",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "There was a point where I was working late almost every night, and it took a pretty honest conversation with my manager before I finally set some boundaries.",
+      "natural_form": "There was a point where I was workin' late almost every night, and it took a pretty honest conversation with my manager before I finally set some boundaries.",
+      "accent": "american",
+      "pronunciation_focus": "the /a\u028a/ in \"boundaries\"",
+      "stress_focus": "WORK-ING LATE, HON-EST, BOUND-A-RIES",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "set some linked",
+      "vocabulary": [
+        {
+          "word": "set boundaries",
+          "meaning": "establish limits on what you will accept"
+        }
+      ],
+      "grammar_focus": "past continuous with narrative connector",
+      "tags": [
+        "storytelling",
+        "work-life-balance"
+      ]
+    },
+    {
+      "subcategory": "Discussing overqualification",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "clarification",
+      "sentence": "I know my background might look a bit senior for this role, but honestly, I'm looking for the kind of hands-on work this position actually involves.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"hands-on\" area, focus on stress shift",
+      "stress_focus": "SEN-IOR, HANDS-ON, IN-VOLVES",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "might look linked",
+      "vocabulary": [
+        {
+          "word": "hands-on",
+          "meaning": "directly involved in practical work rather than just overseeing"
+        }
+      ],
+      "grammar_focus": "concession clause with 'but honestly'",
+      "tags": [
+        "clarification",
+        "overqualification"
+      ]
+    },
+    {
+      "subcategory": "Long-term vision",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "What excites me most about this opportunity isn't the title, it's the chance to build something from the ground up alongside people who actually care about the outcome.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /a\u028a/ in \"ground\"",
+      "stress_focus": "EX-CITES, GROUND UP, OUT-COME",
+      "intonation_focus": "falling with emphasis",
+      "connected_speech_focus": "from the ground up linked",
+      "vocabulary": [
+        {
+          "word": "from the ground up",
+          "meaning": "starting completely from the beginning and building it all"
+        }
+      ],
+      "grammar_focus": "cleft sentence with layered contrast",
+      "tags": [
+        "opinion",
+        "motivation"
+      ]
+    },
+    {
+      "subcategory": "Navigating a counteroffer from current employer",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "storytelling",
+      "sentence": "When my current company tried to counter the offer, it actually made me realize the raise was less about the money and more about finally being recognized.",
+      "natural_form": "When my current company tried to counter the offer, it actually made me realize the raise was less about the money and more about finally bein' recognized.",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in \"recognized\"",
+      "stress_focus": "COUN-TER, REC-OG-NIZED",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "less about linked",
+      "vocabulary": [
+        {
+          "word": "counteroffer",
+          "meaning": "a new offer made in response to another to try to keep someone"
+        }
+      ],
+      "grammar_focus": "past simple with realization clause",
+      "tags": [
+        "storytelling",
+        "career-decisions"
+      ]
+    },
+    {
+      "subcategory": "Discussing a tough manager relationship",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "storytelling",
+      "sentence": "My relationship with my old manager was rocky at first, mostly because we had totally different communication styles, but once we figured that out, things clicked.",
+      "natural_form": "My relationship with my old manager was rocky at first, mostly because we had totally different communication styles, but once we figured that out, things clicked.",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in \"rocky\"",
+      "stress_focus": "ROC-KY, COM-MUN-I-CA-TION, CLICKED",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "figured that linked",
+      "vocabulary": [
+        {
+          "word": "clicked",
+          "meaning": "suddenly started working well together"
+        }
+      ],
+      "grammar_focus": "past simple with causal and result clauses",
+      "tags": [
+        "storytelling",
+        "workplace-relationships"
+      ]
+    },
+    {
+      "subcategory": "Explaining a career pivot",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "clarification",
+      "sentence": "To be totally transparent, the pivot from finance to product management wasn't planned, it grew out of a side project that ended up taking over most of my time.",
+      "natural_form": "To be totally transparent, the pivot from finance to product management wasn't planned, it grew outta a side project that ended up takin' over most of my time.",
+      "accent": "american",
+      "pronunciation_focus": "the /v/ in \"transparent\"",
+      "stress_focus": "TRANS-PAR-ENT, PIV-OT, TAK-ING OV-ER",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "grew out of linked",
+      "vocabulary": [
+        {
+          "word": "pivot",
+          "meaning": "a significant change in direction or approach"
+        }
+      ],
+      "grammar_focus": "complex sentence with appositive clause",
+      "tags": [
+        "clarification",
+        "career-change"
+      ]
+    },
+    {
+      "subcategory": "Handling a hypothetical scenario",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "response",
+      "sentence": "If two projects landed on my desk with the same deadline, I'd sit down with both stakeholders first to figure out which one actually moves the needle more.",
+      "natural_form": "If two projects landed on my desk with the same deadline, I'd sit down with both stakeholders first to figure out which one actually moves the needle more.",
+      "accent": "american",
+      "pronunciation_focus": "the /st/ cluster in \"stakeholders\"",
+      "stress_focus": "DEAD-LINE, STAKE-HOLD-ERS, NEE-DLE",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "moves the needle linked",
+      "vocabulary": [
+        {
+          "word": "moves the needle",
+          "meaning": "makes a meaningful, noticeable difference"
+        }
+      ],
+      "grammar_focus": "conditional sentence type 2 with idiom",
+      "tags": [
+        "response",
+        "hypothetical"
+      ]
+    },
+    {
+      "subcategory": "Reflecting on imposter syndrome",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "Early on, I definitely dealt with imposter syndrome, constantly second-guessing whether I actually deserved to be in the room, but experience eventually quieted that voice.",
+      "natural_form": "Early on, I definitely dealt with imposter syndrome, constantly second-guessin' whether I actually deserved to be in the room, but experience eventually quieted that voice.",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in \"imposter\"",
+      "stress_focus": "IM-POS-TER, SEC-OND-GUESS-ING, QUI-ET-ED",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "deal with linked",
+      "vocabulary": [
+        {
+          "word": "imposter syndrome",
+          "meaning": "the feeling that you don't deserve your success"
+        }
+      ],
+      "grammar_focus": "past simple with participial clause",
+      "tags": [
+        "opinion",
+        "self-reflection"
+      ]
+    },
+    {
+      "subcategory": "Negotiating remote flexibility",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "request",
+      "sentence": "Given that most of the team is distributed anyway, would there be any flexibility around working remotely two or three days a week?",
+      "natural_form": "Given that most of the team's distributed anyway, would there be any flexibility around workin' remotely two or three days a week?",
+      "accent": "american",
+      "pronunciation_focus": "the /d/ in \"distributed\"",
+      "stress_focus": "DIS-TRIB-UT-ED, FLEX-I-BIL-I-TY, RE-MOTE-LY",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "given that linked",
+      "vocabulary": [
+        {
+          "word": "distributed team",
+          "meaning": "a team whose members work from different locations"
+        }
+      ],
+      "grammar_focus": "polite request with conditional 'would'",
+      "tags": [
+        "negotiation",
+        "remote-work"
+      ]
+    },
+    {
+      "subcategory": "Discussing risk-taking",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "I'd rather take a calculated risk and learn from it than play it safe and wonder what could've happened.",
+      "natural_form": "I'd rather take a calculated risk and learn from it than play it safe and wonder what coulda happened.",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in \"calculated\"",
+      "stress_focus": "CAL-CU-LAT-ED, PLAY IT SAFE, WON-DER",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "play it safe linked as pla-yi-tsafe",
+      "vocabulary": [
+        {
+          "word": "play it safe",
+          "meaning": "avoid risk by choosing the safest option"
+        }
+      ],
+      "grammar_focus": "comparative structure with 'rather...than'",
+      "tags": [
+        "opinion",
+        "risk-taking"
+      ]
+    }
+  ]
+}

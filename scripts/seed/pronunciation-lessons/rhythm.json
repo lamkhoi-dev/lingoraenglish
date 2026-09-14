@@ -1,0 +1,588 @@
+{
+  "lessons": [
+    {
+      "title": "English is stress-timed",
+      "level": "beginner",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Stressed syllables land on a steady beat. The weak syllables between them get squeezed to keep the timing.",
+      "points": ["Tap the table on each capital letter.", "Keep the beats even, however many small words sit between them."],
+      "items": [
+        { "text": "DOGS EAT BONES.", "pattern": "3 beats" },
+        { "text": "The DOGS will EAT the BONES.", "pattern": "still 3 beats" },
+        { "text": "The DOGS will have EAten the BONES.", "pattern": "still 3 beats" },
+        { "text": "I'll SEE you at the STAtion at SEven.", "pattern": "3 beats" }
+      ]
+    },
+    {
+      "title": "Rhythm in real conversation",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Shadow these lines and copy the timing before you worry about the individual sounds.",
+      "points": ["Keep the weak words fast and quiet.", "Do not add a pause after every word."],
+      "items": [
+        { "text": "I was gonna call you, but I got stuck at work.", "pattern": "CALL … STUCK … WORK" },
+        { "text": "To be honest, I'd rather stay home tonight.", "pattern": "HONest … RAther … HOME … toNIGHT" },
+        { "text": "It depends on how much time we've got.", "pattern": "dePENDS … MUCH TIME … GOT" }
+      ]
+    },
+    {
+      "title": "Counting beats, not syllables",
+      "level": "beginner",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A sentence with more words can still have the same number of beats — that's the key idea of stress-timing.",
+      "points": [],
+      "items": [
+        { "text": "JOHN likes TEA.", "pattern": "2 beats" },
+        { "text": "JOHN would like some TEA.", "pattern": "still 2 beats" },
+        { "text": "JOHN would have liked some TEA.", "pattern": "still 2 beats" }
+      ]
+    },
+    {
+      "title": "Tongue twisters for rhythm control",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Tongue twisters force you to keep a steady rhythm even when the sounds are tricky — slow down before speeding up.",
+      "points": [],
+      "items": [
+        { "text": "Peter Piper picked a peck of pickled peppers.", "pattern": "PEter PIper PICKED a PECK" },
+        { "text": "She sells seashells by the seashore.", "pattern": "SHE SELLS SEAshells by the SEAshore" },
+        { "text": "Red lorry, yellow lorry.", "pattern": "RED LORry, YELLow LORry" }
+      ]
+    },
+    {
+      "title": "Rhythm in short answers",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Even a short answer has a natural beat — don't say every word with equal force.",
+      "points": [],
+      "items": [
+        { "text": "Yes, I THINK so.", "pattern": "1 beat" },
+        { "text": "No, not REALly.", "pattern": "1 beat" },
+        { "text": "Sure, why NOT?", "pattern": "1 beat" }
+      ]
+    },
+    {
+      "title": "Rhythm in numbers and lists",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Reciting numbers or a list still keeps a steady beat on each stressed item.",
+      "points": [],
+      "items": [
+        { "text": "ONE, TWO, THREE, FOUR, FIVE.", "pattern": "even beats" },
+        { "text": "MONday, TUESday, WEDnesday.", "pattern": "even beats on each day" }
+      ]
+    },
+    {
+      "title": "Rhythm practice with nursery-rhyme patterns",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Simple rhymes have an obvious, exaggerated beat — great for building a feel for stress-timing.",
+      "points": [],
+      "items": [
+        { "text": "TWINkle TWINkle LITtle STAR.", "pattern": "4 even beats" },
+        { "text": "JACK and JILL went UP the HILL.", "pattern": "4 even beats" }
+      ]
+    },
+    {
+      "title": "Rhythm in a longer natural sentence",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Longer sentences keep the same stress-timed feel — the weak words between beats just move faster.",
+      "points": [],
+      "items": [
+        { "text": "I would have called you earlier, but my phone was dead all afternoon.", "pattern": "CALLED … EARLier … PHONE … DEAD … AFternoon" }
+      ]
+    },
+    {
+      "title": "Rhythm in questions",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Questions keep the same stress-timed beat as statements — the question words and key content words carry the rhythm.",
+      "points": [],
+      "items": [
+        { "text": "WHERE did you PUT the KEYS?", "pattern": "3 beats" },
+        { "text": "WHY would he DO that?", "pattern": "3 beats" }
+      ]
+    },
+    {
+      "title": "Rhythm buildup drill",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "The classic buildup drill: the same core beats stay steady as you add more small words around them.",
+      "points": [],
+      "items": [
+        { "text": "CATS CHASE MICE.", "pattern": "3 beats" },
+        { "text": "The CATS will CHASE the MICE.", "pattern": "still 3 beats" },
+        { "text": "The CATS would have CHASED the MICE.", "pattern": "still 3 beats" },
+        { "text": "The CATS would have been CHASing the MICE all NIGHT.", "pattern": "4 beats now — one new idea added" }
+      ]
+    },
+    {
+      "title": "Rhythm in idioms",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Idioms have a fixed, sing-song rhythm as a whole chunk — say them as one rhythmic unit.",
+      "points": [],
+      "items": [
+        { "text": "BETTER late than NEVer.", "pattern": "2 beats" },
+        { "text": "ACtions speak LOUDer than WORDS.", "pattern": "3 beats" }
+      ]
+    },
+    {
+      "title": "Rhythm in advertising slogans",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Slogans are written to have a catchy, very regular beat — great, memorable rhythm practice.",
+      "points": [],
+      "items": [
+        { "text": "JUST DO it.", "pattern": "2 strong beats" },
+        { "text": "Have it YOUR way.", "pattern": "2 beats" }
+      ]
+    },
+    {
+      "title": "How English rhythm differs from syllable-timed languages",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "In syllable-timed languages every syllable takes roughly equal time; English is stress-timed, so only the stressed syllables are evenly spaced and everything else speeds up or slows down to fit.",
+      "points": ["This is why English can sound 'fast' in the unstressed parts and 'slow' on stressed words."],
+      "items": [
+        { "text": "I want to go.", "pattern": "3 words, 1 beat: I want to GO." },
+        { "text": "I would like to be able to go.", "pattern": "8 words, still close to 1-2 beats: I'd LIKE to be Able to GO." }
+      ]
+    },
+    {
+      "title": "Rhythm giving a short toast or speech",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Toasts and short speeches use a slow, deliberate, evenly-spaced rhythm for effect.",
+      "points": [],
+      "items": [
+        { "text": "To FRIENDship, to LAUGHter, and to many more YEARS together.", "pattern": "3 strong evenly-spaced beats" }
+      ]
+    },
+    {
+      "title": "Clapping out the beat",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A simple physical drill: clap only on the stressed syllables while saying the sentence, keeping the claps perfectly even.",
+      "points": [],
+      "items": [
+        { "text": "(clap) SHE (clap) LIKES (clap) TEA.", "pattern": "3 even claps" },
+        { "text": "(clap) SHE would (clap) LIKE some (clap) TEA.", "pattern": "still 3 even claps" }
+      ]
+    },
+    {
+      "title": "Rhythm in a fast native dialogue snippet",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Real fast dialogue keeps a steady stress beat even though a lot of small words are squeezed in between.",
+      "points": [],
+      "items": [
+        { "text": "A: You comin' or what? B: Yeah, gimme a sec, I'm almost ready.", "pattern": "COMin' … WHAT / YEAH … SEC … ALmost … REAdy" }
+      ]
+    },
+    {
+      "title": "Rhythm in a short poem",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Poetry often has a very deliberate, regular beat — a great way to feel stress-timing clearly.",
+      "points": [],
+      "items": [
+        { "text": "The ROAD not TAKen MADE all the DIFference.", "pattern": "4 even beats" }
+      ]
+    },
+    {
+      "title": "Rhythm: excited fast beats vs calm slow beats",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "The same sentence structure can sound excited or calm just by changing the speed between beats, not the beats themselves.",
+      "points": [],
+      "items": [
+        { "text": "WE WON the GAME!", "pattern": "fast, energetic beats = excited" },
+        { "text": "We WON the game.", "pattern": "slow, even beats = calm" }
+      ]
+    },
+    {
+      "title": "Rhythm with names and greetings",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Greeting someone by name keeps a natural two-beat rhythm.",
+      "points": [],
+      "items": [
+        { "text": "HI, SARah!", "pattern": "2 beats" },
+        { "text": "MORNing, JOHN!", "pattern": "2 beats" }
+      ]
+    },
+    {
+      "title": "Rhythm in an emphatic argument",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Making a firm point uses stronger, more forceful beats on the key words than normal conversation.",
+      "points": [],
+      "items": [
+        { "text": "That is NOT what I SAID.", "pattern": "strong, forceful beats" },
+        { "text": "I have TOLD you THREE times.", "pattern": "strong, forceful beats" }
+      ]
+    },
+    {
+      "title": "Rhythm reading numbers aloud",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Reading a string of numbers keeps a light, even beat on each digit or group.",
+      "points": [],
+      "items": [
+        { "text": "oh SEven, TWO, THREE, FIVE", "pattern": "even beats" },
+        { "text": "TWENty, FORty, SIXty", "pattern": "even beats" }
+      ]
+    },
+    {
+      "title": "Rhythm in customer service scripts",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Service phrases have a friendly, even, welcoming rhythm.",
+      "points": [],
+      "items": [
+        { "text": "WELcome IN, how can I HELP you toDAY?", "pattern": "even, friendly beats" }
+      ]
+    },
+    {
+      "title": "Repetition drill for rhythm confidence",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Repeat the same short sentence five times, keeping the beat perfectly identical each time — builds automatic rhythm control.",
+      "points": [],
+      "items": [
+        { "text": "I LIKE it. I LIKE it. I LIKE it.", "pattern": "identical 2-beat rhythm each repeat" }
+      ]
+    },
+    {
+      "title": "Rhythm in a weather report",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Weather reports have a brisk, professional, evenly-paced rhythm.",
+      "points": [],
+      "items": [
+        { "text": "TOday we're LOOKing at CLEAR SKIES and MILD TEMPeratures.", "pattern": "brisk, even beats" }
+      ]
+    },
+    {
+      "title": "Rhythm contrast: formal vs casual delivery",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "The same message keeps stress-timed rhythm in both registers, but casual speech squeezes the weak words much more.",
+      "points": [],
+      "items": [
+        { "text": "I would like to request some additional information.", "pattern": "formal — weak words still fairly clear" },
+        { "text": "Can you send me more info?", "pattern": "casual — weak words squeezed hard" }
+      ]
+    },
+    {
+      "title": "Rhythm with consonant-cluster tongue twisters",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Harder tongue twisters test whether you can keep the beat steady even when individual sounds are tricky.",
+      "points": [],
+      "items": [
+        { "text": "Six thick thistle sticks.", "pattern": "SIX THICK THIStle STICKS" },
+        { "text": "Trucks try to track the tracks.", "pattern": "TRUCKS TRY to TRACK the TRACKS" }
+      ]
+    },
+    {
+      "title": "Rhythm across a two-sentence mini exchange",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Practise keeping a natural beat across a full back-and-forth exchange, not just one sentence.",
+      "points": [],
+      "items": [
+        { "text": "A: WHAT time is the MEETing? B: It's at THREE, I THINK.", "pattern": "even beats across both turns" }
+      ]
+    },
+    {
+      "title": "Rhythm in giving commands",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Short commands keep a punchy, even beat on each key word.",
+      "points": [],
+      "items": [
+        { "text": "STOP right THERE.", "pattern": "2 beats" },
+        { "text": "SIT down and LISten.", "pattern": "3 beats" }
+      ]
+    },
+    {
+      "title": "Rhythm reading a menu aloud",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Reading menu items keeps a light, even rhythm on each dish name.",
+      "points": [],
+      "items": [
+        { "text": "GRILLED SALmon, ROAST CHICKen, VEGgie PASta.", "pattern": "even beats on each dish" }
+      ]
+    },
+    {
+      "title": "Rhythm in a simple children's song",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Children's songs have an exaggerated, super-regular beat — perfect for feeling stress-timing.",
+      "points": [],
+      "items": [
+        { "text": "ROW, ROW, ROW your BOAT.", "pattern": "4 even beats" }
+      ]
+    },
+    {
+      "title": "Rhythm mini-dialogue with contrastive stress",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Practise keeping even beats even when a word is extra-stressed for contrast.",
+      "points": [],
+      "items": [
+        { "text": "A: Did SHE call you? B: No, HE called me.", "pattern": "contrastive stress, still even beats" }
+      ]
+    },
+    {
+      "title": "Rhythm plus linking combined",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Real fluent speech combines a steady beat with linked, reduced words between the beats.",
+      "points": [],
+      "items": [
+        { "text": "I WANna GO to the STORE.", "pattern": "3 beats, 'wanna/to the' squeezed between" }
+      ]
+    },
+    {
+      "title": "Rhythm in famous movie quotes",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Iconic movie lines have a very deliberate, memorable rhythm — great, fun practice material.",
+      "points": [],
+      "items": [
+        { "text": "MAY the FORCE be with YOU.", "pattern": "3 even beats" },
+        { "text": "I'll be BACK.", "pattern": "1 strong beat" }
+      ]
+    },
+    {
+      "title": "Rhythm building intensity across a short speech",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A motivational speech often speeds up and strengthens the beats as it builds toward the end.",
+      "points": [],
+      "items": [
+        { "text": "We CAN do this. We WILL do this. We're GOing to WIN.", "pattern": "beats get stronger and closer together" }
+      ]
+    },
+    {
+      "title": "Rhythm in group chants and cheers",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Chants use a very simple, repeated, rock-solid beat.",
+      "points": [],
+      "items": [
+        { "text": "LET'S GO TEAM! LET'S GO TEAM!", "pattern": "identical repeated beat" }
+      ]
+    },
+    {
+      "title": "Rhythm with alliteration",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Alliterative phrases (repeated starting sounds) still follow the same stress-timed beat rules.",
+      "points": [],
+      "items": [
+        { "text": "BIG BLUE BALLoons BOUNCED by.", "pattern": "4 beats" }
+      ]
+    },
+    {
+      "title": "Rhythm describing a weather map",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Weather-map narration has a brisk, list-like rhythm moving from region to region.",
+      "points": [],
+      "items": [
+        { "text": "RAIN in the NORTH, SUN in the SOUTH, CLOUDS in beTWEEN.", "pattern": "even beats across the list" }
+      ]
+    },
+    {
+      "title": "Rhythm reading a recipe step by step",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Recipe steps have a calm, even beat guiding the listener through each action.",
+      "points": [],
+      "items": [
+        { "text": "MIX the FLOUR, ADD the EGGS, STIR it WELL.", "pattern": "even beats on each action" }
+      ]
+    },
+    {
+      "title": "Rhythm and pausing combined drill",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Even with a pause between chunks, the beat inside each chunk should still feel steady and even.",
+      "points": [],
+      "items": [
+        { "text": "When I WAS a KID / I LOVED to CLIMB TREES.", "pattern": "even beats within each chunk, pause between" }
+      ]
+    },
+    {
+      "title": "Rhythm giving genuine compliments",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Compliments keep a warm, even beat on the praised quality.",
+      "points": [],
+      "items": [
+        { "text": "That's a GREAT idea!", "pattern": "2 beats" },
+        { "text": "You did REALly WELL.", "pattern": "2 beats" }
+      ]
+    },
+    {
+      "title": "Rhythm counting objects",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Counting things aloud naturally falls into a light, even beat.",
+      "points": [],
+      "items": [
+        { "text": "ONE apple, TWO oranges, THREE bananas.", "pattern": "even beats on each number" }
+      ]
+    },
+    {
+      "title": "Rhythm describing a daily schedule",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Schedule descriptions keep an even beat on each time and activity.",
+      "points": [],
+      "items": [
+        { "text": "MEETing at NINE, LUNCH at NOON, GYM at SIX.", "pattern": "even beats across the schedule" }
+      ]
+    },
+    {
+      "title": "Rhythm in short exclaimed reactions",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Quick reactions have a snappy, single strong beat.",
+      "points": [],
+      "items": [
+        { "text": "NO way!", "pattern": "1 beat" },
+        { "text": "So COOL!", "pattern": "1 beat" }
+      ]
+    },
+    {
+      "title": "Rhythm in minimal-word answers",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Even a one- or two-word answer carries a clear beat, not a flat mumble.",
+      "points": [],
+      "items": [
+        { "text": "PRObably.", "pattern": "1 beat" },
+        { "text": "NOT REALly.", "pattern": "2 beats" }
+      ]
+    },
+    {
+      "title": "Rhythm in a radio advertisement",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Radio ads use an energetic, punchy, very regular beat to stay memorable.",
+      "points": [],
+      "items": [
+        { "text": "COME on DOWN to SUPer SAVE, where PRICes NEVer STOP FALLing!", "pattern": "punchy, regular beats" }
+      ]
+    },
+    {
+      "title": "Rhythm building from one word to a full sentence",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Start with just the stressed word, then rebuild the full sentence around it, keeping that word's beat unchanged.",
+      "points": [],
+      "items": [
+        { "text": "GO.", "pattern": "1 beat" },
+        { "text": "Let's GO.", "pattern": "1 beat, same weight" },
+        { "text": "I think we should GO now.", "pattern": "1 beat, same weight on 'go'" }
+      ]
+    },
+    {
+      "title": "Rhythm in a short apology speech",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A sincere apology keeps a slow, steady, even beat — rushing it can sound insincere.",
+      "points": [],
+      "items": [
+        { "text": "I'm SORry. I was WRONG. It won't HAPpen aGAIN.", "pattern": "slow, even, deliberate beats" }
+      ]
+    },
+    {
+      "title": "Rhythm reading a short news headline",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "News headlines are read with clear, confident, evenly-spaced beats on the key facts.",
+      "points": [],
+      "items": [
+        { "text": "CITY COUNcil APproves NEW PARK PLAN.", "pattern": "even, confident beats" }
+      ]
+    },
+    {
+      "title": "Rhythm: yes/no answer plus a quick follow-up",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A short answer plus a quick extra detail still keeps one connected, even rhythm.",
+      "points": [],
+      "items": [
+        { "text": "YEAH, I'm PRETty SURE.", "pattern": "one connected rhythm" }
+      ]
+    },
+    {
+      "title": "Rhythm in a short farewell speech",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A warm goodbye speech uses a slow, even, heartfelt beat, similar to a toast.",
+      "points": [],
+      "items": [
+        { "text": "It's been an HONor WORKing with all of YOU.", "pattern": "slow, even, heartfelt beats" }
+      ]
+    }
+  ]
+}

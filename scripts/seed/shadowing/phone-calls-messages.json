@@ -1,0 +1,2409 @@
+{
+  "slug": "phone-calls-messages",
+  "name": "Phone Calls & Messages",
+  "topic_group": "Everyday English",
+  "blurb": "Practice natural spoken English for answering calls, leaving messages, and texting.",
+  "sort_order": 18,
+  "sentences": [
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Hi, this is Anna speaking.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "'this is' links smoothly",
+      "stress_focus": "this, Anna",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "this is → 'this-iz'",
+      "vocabulary": [
+        {
+          "word": "speaking",
+          "meaning": "used to say who is on the phone"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Hello, who is calling?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /h/ in 'hello'",
+      "stress_focus": "who, calling",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "who is → 'who's'",
+      "vocabulary": [
+        {
+          "word": "calling",
+          "meaning": "phoning someone"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is John there, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "th sound in 'there'",
+      "stress_focus": "John, there",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "is John → linked",
+      "vocabulary": [
+        {
+          "word": "there",
+          "meaning": "present at that place"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can I speak to Maria?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "can I reduces to 'kn I'",
+      "stress_focus": "speak, Maria",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "can I → 'kn-I'",
+      "vocabulary": [
+        {
+          "word": "speak to",
+          "meaning": "talk with someone"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Sorry, he's not here now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "he's blends together",
+      "stress_focus": "not, here",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "he's → 'hiz'",
+      "vocabulary": [
+        {
+          "word": "not here",
+          "meaning": "absent"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Can you hear me okay?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "hear me links",
+      "stress_focus": "hear, okay",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "hear me → 'hear-mee'",
+      "vocabulary": [
+        {
+          "word": "hear",
+          "meaning": "perceive sound"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I will call you back.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "will reduces to 'll",
+      "stress_focus": "call, back",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "call you → 'call-ya'",
+      "vocabulary": [
+        {
+          "word": "call back",
+          "meaning": "phone again later"
+        }
+      ],
+      "grammar_focus": "future simple",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please leave a message.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /l/ sounds",
+      "stress_focus": "leave, message",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "leave a → linked",
+      "vocabulary": [
+        {
+          "word": "leave",
+          "meaning": "to record something"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I got your text.",
+      "natural_form": "I got yer text.",
+      "accent": "american",
+      "pronunciation_focus": "got your → 'gotcha'",
+      "stress_focus": "got, text",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "got your → 'gotchur'",
+      "vocabulary": [
+        {
+          "word": "text",
+          "meaning": "a written phone message"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can we book an appointment?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "book an links",
+      "stress_focus": "book, appointment",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "book an → 'boo-kan'",
+      "vocabulary": [
+        {
+          "word": "appointment",
+          "meaning": "a scheduled meeting"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thanks for calling, bye now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "th sound in 'thanks'",
+      "stress_focus": "thanks, bye",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "thanks for → linked",
+      "vocabulary": [
+        {
+          "word": "bye now",
+          "meaning": "casual goodbye"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Hold on one second, please.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "hold on links",
+      "stress_focus": "hold, second",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "hold on → 'hol-don'",
+      "vocabulary": [
+        {
+          "word": "hold on",
+          "meaning": "wait briefly"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Who's on the phone?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "who's reduces",
+      "stress_focus": "who's, phone",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "who's on → linked",
+      "vocabulary": [
+        {
+          "word": "on the phone",
+          "meaning": "talking by telephone"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "She just stepped out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stepped out linked",
+      "stress_focus": "stepped, out",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "stepped out → 'step-dout'",
+      "vocabulary": [
+        {
+          "word": "stepped out",
+          "meaning": "left briefly"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "The line keeps cutting out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "cutting out linked",
+      "stress_focus": "line, out",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "cutting out → 'cut-ting-out'",
+      "vocabulary": [
+        {
+          "word": "cutting out",
+          "meaning": "connection breaking"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Leave your name and number.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "name and → linked",
+      "stress_focus": "name, number",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "name and → 'name-nan'",
+      "vocabulary": [
+        {
+          "word": "number",
+          "meaning": "phone digits"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I'll text you later.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "I'll reduces",
+      "stress_focus": "text, later",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'll text → 'ahl-text'",
+      "vocabulary": [
+        {
+          "word": "text",
+          "meaning": "send a message"
+        }
+      ],
+      "grammar_focus": "future simple",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What time works for you?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "works for links",
+      "stress_focus": "time, works",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "works for → 'works-fer'",
+      "vocabulary": [
+        {
+          "word": "works for",
+          "meaning": "is convenient for"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It was nice talking to you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "talking to links",
+      "stress_focus": "nice, talking",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "talking to → 'talk-in-tuh'",
+      "vocabulary": [
+        {
+          "word": "nice talking",
+          "meaning": "pleasant conversation"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Hi, it's me again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "it's reduces",
+      "stress_focus": "it's, again",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "it's me → 'itz-mee'",
+      "vocabulary": [
+        {
+          "word": "it's me",
+          "meaning": "identifying yourself"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is this a bad time?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "this a links",
+      "stress_focus": "bad, time",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "this a → 'this-uh'",
+      "vocabulary": [
+        {
+          "word": "bad time",
+          "meaning": "inconvenient moment"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can you call me tonight?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "call me links",
+      "stress_focus": "call, tonight",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "call me → 'call-mee'",
+      "vocabulary": [
+        {
+          "word": "tonight",
+          "meaning": "this evening"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "I can barely hear you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "barely stressed",
+      "stress_focus": "barely, hear",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "hear you → 'hear-yuh'",
+      "vocabulary": [
+        {
+          "word": "barely",
+          "meaning": "almost not"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "Your voicemail box is full.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "voicemail stressed first syllable",
+      "stress_focus": "voicemail, full",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "box is → linked",
+      "vocabulary": [
+        {
+          "word": "voicemail box",
+          "meaning": "storage for messages"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Talk to you soon, bye.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "talk to links",
+      "stress_focus": "talk, soon",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "talk to → 'talk-tuh'",
+      "vocabulary": [
+        {
+          "word": "talk to you soon",
+          "meaning": "casual farewell"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Hi, this is Tom calling from the office.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "'calling from' links",
+      "stress_focus": "Tom, office",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "calling from → linked",
+      "vocabulary": [
+        {
+          "word": "office",
+          "meaning": "workplace"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you tell him I called?",
+      "natural_form": "Could ya tell him I called?",
+      "accent": "american",
+      "pronunciation_focus": "could you reduces",
+      "stress_focus": "tell, called",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "could you → 'could-jah'",
+      "vocabulary": [
+        {
+          "word": "tell him",
+          "meaning": "give a message to him"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Sorry, I didn't catch your name.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "didn't reduces",
+      "stress_focus": "catch, name",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "didn't catch → 'didn-catch'",
+      "vocabulary": [
+        {
+          "word": "catch",
+          "meaning": "hear correctly"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Is Sarah available right now?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "available stressed",
+      "stress_focus": "Sarah, available",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "right now → linked",
+      "vocabulary": [
+        {
+          "word": "available",
+          "meaning": "free to talk"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "You've reached the marketing department.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "you've reduces",
+      "stress_focus": "reached, department",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "you've reached → 'youv-reached'",
+      "vocabulary": [
+        {
+          "word": "reached",
+          "meaning": "connected with"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll send you a text later tonight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "I'll reduces, send you links",
+      "stress_focus": "text, tonight",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "send you → 'send-yuh'",
+      "vocabulary": [
+        {
+          "word": "send",
+          "meaning": "transmit a message"
+        }
+      ],
+      "grammar_focus": "future simple",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could we move the appointment to Friday?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "move the links",
+      "stress_focus": "move, Friday",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "move the → 'moo-vthe'",
+      "vocabulary": [
+        {
+          "word": "move",
+          "meaning": "reschedule"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Thanks so much for your help today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "so much stressed",
+      "stress_focus": "thanks, help",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "thanks so → linked",
+      "vocabulary": [
+        {
+          "word": "help",
+          "meaning": "assistance"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Sorry, you're breaking up a little.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "breaking up linked",
+      "stress_focus": "breaking, little",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "breaking up → 'break-ing-up'",
+      "vocabulary": [
+        {
+          "word": "breaking up",
+          "meaning": "unclear signal"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can I take a message for her?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "take a links",
+      "stress_focus": "take, message",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "take a → 'tay-kuh'",
+      "vocabulary": [
+        {
+          "word": "take a message",
+          "meaning": "write down info for someone"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Hi, I'm returning your call from earlier.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "I'm reduces",
+      "stress_focus": "returning, earlier",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'm returning → linked",
+      "vocabulary": [
+        {
+          "word": "returning",
+          "meaning": "calling back"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Does he know what this is about?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "what this links",
+      "stress_focus": "know, about",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "what this → linked",
+      "vocabulary": [
+        {
+          "word": "about",
+          "meaning": "concerning"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Please press one to leave a message.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "press one clear stop",
+      "stress_focus": "press, message",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "press one → linked",
+      "vocabulary": [
+        {
+          "word": "press",
+          "meaning": "push a button"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I just saw your message, sorry.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "just saw linked",
+      "stress_focus": "saw, sorry",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "just saw → 'jus-saw'",
+      "vocabulary": [
+        {
+          "word": "saw",
+          "meaning": "noticed, past of see"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What time suits you best tomorrow?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "suits stressed",
+      "stress_focus": "suits, tomorrow",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "suits you → 'suits-yuh'",
+      "vocabulary": [
+        {
+          "word": "suits",
+          "meaning": "is convenient for"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Well, I should probably let you go.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "let you links",
+      "stress_focus": "should, let",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "let you go → 'le-chuh-go'",
+      "vocabulary": [
+        {
+          "word": "let you go",
+          "meaning": "end the call politely"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The signal here is really weak.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "really stressed",
+      "stress_focus": "signal, weak",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "signal here → linked",
+      "vocabulary": [
+        {
+          "word": "signal",
+          "meaning": "phone reception"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "She'll call you back within the hour.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "she'll reduces",
+      "stress_focus": "call, hour",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "within the → linked",
+      "vocabulary": [
+        {
+          "word": "within the hour",
+          "meaning": "before an hour passes"
+        }
+      ],
+      "grammar_focus": "future simple",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Hello, thanks for calling City Bank.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "thanks for links",
+      "stress_focus": "thanks, calling",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "thanks for → linked",
+      "vocabulary": [
+        {
+          "word": "calling",
+          "meaning": "phoning"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you spell your last name for me?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "spell stressed",
+      "stress_focus": "spell, name",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "for me → linked",
+      "vocabulary": [
+        {
+          "word": "spell",
+          "meaning": "say letters one by one"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "I can't hear anything, can you repeat that?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "can't stressed",
+      "stress_focus": "hear, repeat",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "can you → 'kn-yuh'",
+      "vocabulary": [
+        {
+          "word": "repeat",
+          "meaning": "say again"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "Your mailbox is currently full, please try later.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "currently stressed",
+      "stress_focus": "mailbox, full",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "try later → linked",
+      "vocabulary": [
+        {
+          "word": "mailbox",
+          "meaning": "voicemail inbox"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Just text me whenever you're free.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "whenever linked",
+      "stress_focus": "text, free",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "whenever you're → linked",
+      "vocabulary": [
+        {
+          "word": "whenever",
+          "meaning": "at any time"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We need to reschedule our meeting for next week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reschedule stressed second syllable",
+      "stress_focus": "reschedule, week",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "need to → 'nee-duh'",
+      "vocabulary": [
+        {
+          "word": "reschedule",
+          "meaning": "change the time of a meeting"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Alright, take care, talk soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "alright reduces",
+      "stress_focus": "take care, soon",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "take care → linked",
+      "vocabulary": [
+        {
+          "word": "take care",
+          "meaning": "friendly goodbye"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Hi, this is Rachel calling about the job interview I had last week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "calling about linked",
+      "stress_focus": "Rachel, interview",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "calling about → linked",
+      "vocabulary": [
+        {
+          "word": "interview",
+          "meaning": "job meeting"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would it be possible to speak with the manager directly?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "would it reduces",
+      "stress_focus": "possible, directly",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "would it → 'wu-dit'",
+      "vocabulary": [
+        {
+          "word": "directly",
+          "meaning": "without an intermediary"
+        }
+      ],
+      "grammar_focus": "conditional",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "He's actually out of the office until Monday morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "actually reduces",
+      "stress_focus": "out, Monday",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "out of → 'ow-dov'",
+      "vocabulary": [
+        {
+          "word": "out of the office",
+          "meaning": "not at work"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Sorry, the connection keeps dropping every few seconds.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "dropping stressed",
+      "stress_focus": "connection, seconds",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "keeps dropping → linked",
+      "vocabulary": [
+        {
+          "word": "dropping",
+          "meaning": "losing connection"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Please leave your name, number, and a brief message.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "brief stressed",
+      "stress_focus": "name, message",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "name, number → listed rhythm",
+      "vocabulary": [
+        {
+          "word": "brief",
+          "meaning": "short"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I saw your message but I couldn't reply right away.",
+      "natural_form": "I saw yer message but I couldn't reply right away.",
+      "accent": "american",
+      "pronunciation_focus": "couldn't reduces",
+      "stress_focus": "saw, reply",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "couldn't reply → linked",
+      "vocabulary": [
+        {
+          "word": "reply",
+          "meaning": "respond"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Would Thursday afternoon work better for your schedule?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Thursday stressed",
+      "stress_focus": "Thursday, schedule",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "work better → linked",
+      "vocabulary": [
+        {
+          "word": "schedule",
+          "meaning": "planned timetable"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I really appreciate you calling, have a great day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "appreciate stressed",
+      "stress_focus": "appreciate, day",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "calling, have → linked",
+      "vocabulary": [
+        {
+          "word": "appreciate",
+          "meaning": "be grateful for"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "I'm sorry, could you say that one more time?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "could you reduces",
+      "stress_focus": "sorry, time",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "say that → linked",
+      "vocabulary": [
+        {
+          "word": "one more time",
+          "meaning": "again"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Do you know when she's expected to be back?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "expected stressed",
+      "stress_focus": "expected, back",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "she's expected → linked",
+      "vocabulary": [
+        {
+          "word": "expected",
+          "meaning": "anticipated to arrive"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I think I dialed the wrong number by mistake.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "dialed stressed",
+      "stress_focus": "wrong, mistake",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "by mistake → linked",
+      "vocabulary": [
+        {
+          "word": "dialed",
+          "meaning": "entered a phone number"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Can you make sure he gets this message tonight?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "make sure linked",
+      "stress_focus": "sure, tonight",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "make sure → 'may-ksure'",
+      "vocabulary": [
+        {
+          "word": "make sure",
+          "meaning": "confirm/ensure"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Our voicemail system is temporarily down for maintenance.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "temporarily stressed",
+      "stress_focus": "system, maintenance",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "temporarily down → linked",
+      "vocabulary": [
+        {
+          "word": "maintenance",
+          "meaning": "repair work"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I texted her twice but she hasn't answered yet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "hasn't reduces",
+      "stress_focus": "texted, answered",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "hasn't answered → linked",
+      "vocabulary": [
+        {
+          "word": "texted",
+          "meaning": "sent a text message"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could we push the appointment back by half an hour?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "push back linked",
+      "stress_focus": "push, hour",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "push the → linked",
+      "vocabulary": [
+        {
+          "word": "push back",
+          "meaning": "delay"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "It's getting late, so I should probably head off now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "getting late linked",
+      "stress_focus": "late, off",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "head off → linked",
+      "vocabulary": [
+        {
+          "word": "head off",
+          "meaning": "leave"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "The reception's terrible here, I might lose you any second.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "terrible stressed",
+      "stress_focus": "reception, second",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "lose you → linked",
+      "vocabulary": [
+        {
+          "word": "reception",
+          "meaning": "phone signal quality"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you put me through to customer service, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "put me through linked",
+      "stress_focus": "through, service",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "put me → linked",
+      "vocabulary": [
+        {
+          "word": "put through",
+          "meaning": "connect a call"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'm calling to follow up on our conversation yesterday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "follow up linked",
+      "stress_focus": "follow, yesterday",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "calling to → linked",
+      "vocabulary": [
+        {
+          "word": "follow up",
+          "meaning": "check on progress"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "She wrote down your number and said she'd call tomorrow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "wrote down linked",
+      "stress_focus": "number, tomorrow",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "she'd call → linked",
+      "vocabulary": [
+        {
+          "word": "wrote down",
+          "meaning": "recorded in writing"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Please record your message after the tone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "record stressed second syllable",
+      "stress_focus": "record, tone",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "after the → linked",
+      "vocabulary": [
+        {
+          "word": "tone",
+          "meaning": "beep sound"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Sorry for the late reply, I've been super busy lately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "I've reduces",
+      "stress_focus": "late, busy",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "been super → linked",
+      "vocabulary": [
+        {
+          "word": "lately",
+          "meaning": "recently"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'd like to confirm my appointment for next Tuesday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "I'd reduces",
+      "stress_focus": "confirm, Tuesday",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "like to → 'lie-kduh'",
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "meaning": "verify"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Anyway, I won't keep you any longer, bye for now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "won't stressed",
+      "stress_focus": "keep, longer",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "won't keep → linked",
+      "vocabulary": [
+        {
+          "word": "keep you",
+          "meaning": "delay you"
+        }
+      ],
+      "grammar_focus": "future simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Do you mind speaking a bit slower, my English isn't great?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "do you mind linked",
+      "stress_focus": "slower, great",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "do you → 'juh'",
+      "vocabulary": [
+        {
+          "word": "slower",
+          "meaning": "less quickly"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "If you'd left a message earlier, I would have called you back before the meeting started.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "would have reduces",
+      "stress_focus": "message, meeting",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "would have → 'wu-dov'",
+      "vocabulary": [
+        {
+          "word": "left a message",
+          "meaning": "recorded info for someone"
+        }
+      ],
+      "grammar_focus": "third conditional",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Even though the line was terrible, we managed to sort out most of the details.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "managed stressed",
+      "stress_focus": "terrible, details",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "sort out → linked",
+      "vocabulary": [
+        {
+          "word": "sort out",
+          "meaning": "resolve"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I've been trying to get through to their office all morning, but nobody's picking up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "I've reduces",
+      "stress_focus": "trying, picking up",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "get through → linked",
+      "vocabulary": [
+        {
+          "word": "picking up",
+          "meaning": "answering the phone"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since she wasn't available, I asked the receptionist to pass along a detailed message.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "pass along linked",
+      "stress_focus": "receptionist, detailed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "pass along → linked",
+      "vocabulary": [
+        {
+          "word": "pass along",
+          "meaning": "deliver information to someone"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could you possibly transfer me to someone in the billing department instead?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "possibly reduces",
+      "stress_focus": "transfer, billing",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "transfer me → linked",
+      "vocabulary": [
+        {
+          "word": "transfer",
+          "meaning": "redirect a call"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "If your voicemail wasn't full, I'd have left you all the details you needed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "I'd reduces",
+      "stress_focus": "voicemail, details",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'd have → 'ide-uv'",
+      "vocabulary": [
+        {
+          "word": "voicemail",
+          "meaning": "recorded phone message system"
+        }
+      ],
+      "grammar_focus": "second conditional",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I meant to text you back right away, but things got hectic at work.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "meant to linked",
+      "stress_focus": "hectic, work",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "got hectic → linked",
+      "vocabulary": [
+        {
+          "word": "hectic",
+          "meaning": "very busy"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Would it be alright if we pushed the appointment to sometime next week instead?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "alright reduces",
+      "stress_focus": "pushed, instead",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "if we → linked",
+      "vocabulary": [
+        {
+          "word": "pushed",
+          "meaning": "rescheduled"
+        }
+      ],
+      "grammar_focus": "conditional",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Thanks again for taking the time to sort everything out over the phone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "taking the time linked",
+      "stress_focus": "thanks, sort",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "sort everything → linked",
+      "vocabulary": [
+        {
+          "word": "sort everything out",
+          "meaning": "resolve all issues"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "The call dropped right in the middle of the conversation, so I had to call back.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "dropped stressed",
+      "stress_focus": "middle, back",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "had to → 'had-duh'",
+      "vocabulary": [
+        {
+          "word": "dropped",
+          "meaning": "disconnected suddenly"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I wasn't sure who was calling since the number came up as unknown.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "wasn't reduces",
+      "stress_focus": "calling, unknown",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "came up → linked",
+      "vocabulary": [
+        {
+          "word": "unknown",
+          "meaning": "unidentified caller"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Whenever he's out, his assistant usually takes messages and forwards them by email.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "forwards stressed",
+      "stress_focus": "assistant, email",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "takes messages → linked",
+      "vocabulary": [
+        {
+          "word": "forwards",
+          "meaning": "sends on to someone else"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Given how bad the signal is out here, texting might actually work better than calling.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "given reduces",
+      "stress_focus": "signal, texting",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "work better → linked",
+      "vocabulary": [
+        {
+          "word": "signal",
+          "meaning": "phone reception strength"
+        }
+      ],
+      "grammar_focus": "comparative",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Once you hear the beep, feel free to leave as long a message as you like.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "beep stressed",
+      "stress_focus": "beep, message",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "feel free → linked",
+      "vocabulary": [
+        {
+          "word": "beep",
+          "meaning": "short tone signal"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I've texted her a few times since yesterday, but she still hasn't gotten back to me.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "hasn't reduces",
+      "stress_focus": "texted, back",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "gotten back → linked",
+      "vocabulary": [
+        {
+          "word": "gotten back",
+          "meaning": "responded"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Because our schedules kept clashing, we ended up rebooking the appointment twice.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clashing stressed",
+      "stress_focus": "schedules, twice",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "ended up → linked",
+      "vocabulary": [
+        {
+          "word": "clashing",
+          "meaning": "conflicting"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I don't want to keep you on the phone any longer than necessary, so I'll let you go.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "necessary reduces",
+      "stress_focus": "longer, necessary",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "let you go → linked",
+      "vocabulary": [
+        {
+          "word": "necessary",
+          "meaning": "needed"
+        }
+      ],
+      "grammar_focus": "future simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Asking for someone",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Could you double-check whether Mr. Lee is free sometime this week for a quick call?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "double-check linked",
+      "stress_focus": "double-check, week",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "sometime this → linked",
+      "vocabulary": [
+        {
+          "word": "double-check",
+          "meaning": "verify again"
+        }
+      ],
+      "grammar_focus": "modal verb",
+      "tags": [
+        "phone",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Bad connection",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, the reception in this building is so bad that I usually just step outside to talk.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "honestly reduces",
+      "stress_focus": "reception, outside",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "step outside → linked",
+      "vocabulary": [
+        {
+          "word": "reception",
+          "meaning": "signal strength"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "connection"
+      ]
+    },
+    {
+      "subcategory": "Answering & introducing yourself",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "If I'd known you were trying to reach me, I would have picked up right away.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "would have reduces",
+      "stress_focus": "known, right away",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "would have → 'wu-dov'",
+      "vocabulary": [
+        {
+          "word": "reach",
+          "meaning": "contact"
+        }
+      ],
+      "grammar_focus": "third conditional",
+      "tags": [
+        "phone",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Taking a message",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "She left a voicemail explaining that the meeting had been moved up by two hours.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "explaining stressed",
+      "stress_focus": "voicemail, hours",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "moved up → linked",
+      "vocabulary": [
+        {
+          "word": "moved up",
+          "meaning": "rescheduled earlier"
+        }
+      ],
+      "grammar_focus": "past perfect",
+      "tags": [
+        "phone",
+        "message"
+      ]
+    },
+    {
+      "subcategory": "Voicemail",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Even after leaving three messages, nobody from the company ever called me back.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "even after linked",
+      "stress_focus": "messages, back",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "called me → linked",
+      "vocabulary": [
+        {
+          "word": "never called back",
+          "meaning": "failed to return a call"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "phone",
+        "voicemail"
+      ]
+    },
+    {
+      "subcategory": "Booking or changing appointments by phone",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "Since you're already booked that day, would rescheduling for Friday work instead?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rescheduling stressed",
+      "stress_focus": "booked, Friday",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "work instead → linked",
+      "vocabulary": [
+        {
+          "word": "rescheduling",
+          "meaning": "changing the planned time"
+        }
+      ],
+      "grammar_focus": "conditional",
+      "tags": [
+        "phone",
+        "appointment"
+      ]
+    },
+    {
+      "subcategory": "Ending a call politely",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "It was great catching up with you, and I look forward to speaking again soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "catching up linked",
+      "stress_focus": "great, forward",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "look forward → linked",
+      "vocabulary": [
+        {
+          "word": "catching up",
+          "meaning": "talking after time apart"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "phone",
+        "farewell"
+      ]
+    },
+    {
+      "subcategory": "Texting & messaging",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Text me whenever you get a chance, no rush, just let me know how it goes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "no rush linked",
+      "stress_focus": "chance, rush",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "let me know → linked",
+      "vocabulary": [
+        {
+          "word": "no rush",
+          "meaning": "no urgency"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "phone",
+        "texting"
+      ]
+    }
+  ]
+}

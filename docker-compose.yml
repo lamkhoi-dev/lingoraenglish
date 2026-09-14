@@ -1,0 +1,51 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: lingoraenglish-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: lingora
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env next to this file}
+      POSTGRES_DB: lingoraenglish
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    # Bound to localhost only — nothing outside the VPS can reach it directly.
+    ports:
+      - "127.0.0.1:5432:5432"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lingora -d lingoraenglish"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    image: lingoraenglish-app:latest
+    container_name: lingoraenglish-app
+    restart: unless-stopped
+    init: true
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file:
+      - .env.docker
+    ports:
+      - "127.0.0.1:3000:3000"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+volumes:
+  pgdata:

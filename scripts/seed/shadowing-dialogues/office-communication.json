@@ -1,0 +1,41 @@
+{
+  "topic_slug": "office-communication",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Passing on information",
+      "turns": [
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Can you tell Mark the meeting moved to 3 p.m.?", "is_free": true },
+        { "speaker_label": "Colleague B", "speaker_voice": "alloy", "sentence": "Sure, I'll message him now.", "is_free": true },
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Thanks. Also, tell him to bring the report.", "is_free": true },
+        { "speaker_label": "Colleague B", "speaker_voice": "alloy", "sentence": "Got it, I'll mention that too.", "is_free": true },
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Perfect, thank you.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Following up on a task",
+      "turns": [
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "Just checking in — how's the client proposal coming along?", "is_free": false },
+        { "speaker_label": "Colleague B", "speaker_voice": "sage", "sentence": "It's mostly done, I just need to double-check the pricing section before sending it over.", "is_free": false },
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "No rush, just wanted to make sure it's still on track for tomorrow.", "is_free": false },
+        { "speaker_label": "Colleague B", "speaker_voice": "sage", "sentence": "It is — I'll have it in your inbox by this evening at the latest.", "is_free": false },
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "Sounds good, thanks for the update.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Cross-team miscommunication",
+      "turns": [
+        { "speaker_label": "Colleague A", "speaker_voice": "nova", "sentence": "It seems like there's been a disconnect between our team's understanding of the scope and yours.", "is_free": false },
+        { "speaker_label": "Colleague B", "speaker_voice": "shimmer", "sentence": "You might be right — we assumed the integration work was included in this phase, not the next one.", "is_free": false },
+        { "speaker_label": "Colleague A", "speaker_voice": "nova", "sentence": "That would certainly explain the discrepancy in our timelines then.", "is_free": false },
+        { "speaker_label": "Colleague B", "speaker_voice": "shimmer", "sentence": "Let's get both teams on a call to align on the scope before this causes any further confusion.", "is_free": false },
+        { "speaker_label": "Colleague A", "speaker_voice": "nova", "sentence": "Agreed — I'll set that up for first thing tomorrow.", "is_free": false }
+      ]
+    }
+  ]
+}

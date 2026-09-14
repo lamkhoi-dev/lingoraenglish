@@ -1,0 +1,564 @@
+{
+  "lessons": [
+    {
+      "title": "Thought groups",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Break long sentences into short meaning groups with a tiny pause between them. It sounds calm and clear.",
+      "points": ["Pause at the / marks.", "Never pause in the middle of a thought group."],
+      "items": [
+        { "text": "When I got home, I realized I had forgotten my keys.", "pattern": "When I got home / I realized / I had forgotten my keys." },
+        { "text": "In my opinion, learning a language takes time and patience.", "pattern": "In my opinion / learning a language / takes time and patience." },
+        { "text": "If you have any questions, please let me know.", "pattern": "If you have any questions / please let me know." }
+      ]
+    },
+    {
+      "title": "Breath groups for longer answers",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "In a two-minute answer, plan where you breathe. Breathe at the end of a group, never in the middle of one.",
+      "points": ["One breath per group.", "Drop your pitch slightly at the end of a completed group."],
+      "items": [
+        { "text": "The place I'd like to talk about is a small café near my old apartment, which I visited almost every weekend.", "pattern": "The place I'd like to talk about / is a small café near my old apartment / which I visited almost every weekend." },
+        { "text": "I started learning English at school, but I only became confident when I began speaking every day.", "pattern": "I started learning English at school / but I only became confident / when I began speaking every day." }
+      ]
+    },
+    {
+      "title": "Chunking when giving directions",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Direction-giving is much easier to follow when broken into small chunks with pauses.",
+      "points": [],
+      "items": [
+        { "text": "Go straight ahead, then turn left at the second light, and it's on your right.", "pattern": "Go straight ahead / then turn left at the second light / and it's on your right." }
+      ]
+    },
+    {
+      "title": "Chunking in a presentation opening",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Presentations sound much more confident when chunked clearly, giving the audience time to process.",
+      "points": [],
+      "items": [
+        { "text": "Good morning everyone, thank you for coming, and let's get started.", "pattern": "Good morning everyone / thank you for coming / and let's get started." }
+      ]
+    },
+    {
+      "title": "Chunking in storytelling",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Stories flow better and build suspense when chunked at natural narrative breaks.",
+      "points": [],
+      "items": [
+        { "text": "So one day, I was walking home from work, when I suddenly heard a strange noise behind me.", "pattern": "So one day / I was walking home from work / when I suddenly heard a strange noise behind me." }
+      ]
+    },
+    {
+      "title": "Chunking in IELTS-style long answers",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "For Part 2 or Part 3 answers, chunk each supporting reason separately so the examiner can follow your structure.",
+      "points": [],
+      "items": [
+        { "text": "I think remote work has both advantages and disadvantages, because on one hand it gives people more flexibility, but on the other hand it can make teamwork harder.", "pattern": "I think remote work has both advantages and disadvantages / because on one hand it gives people more flexibility / but on the other hand it can make teamwork harder." }
+      ]
+    },
+    {
+      "title": "Chunking with introductory phrases",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A short introductory phrase is usually its own chunk, set off with a small pause.",
+      "points": [],
+      "items": [
+        { "text": "Honestly, I don't really mind either way.", "pattern": "Honestly / I don't really mind either way." },
+        { "text": "To be fair, he did apologize afterwards.", "pattern": "To be fair / he did apologize afterwards." }
+      ]
+    },
+    {
+      "title": "Chunking a recipe",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Recipe steps naturally break into chunks at each action — pause briefly between them.",
+      "points": [],
+      "items": [
+        { "text": "First, chop the onions, then fry them in a little oil, and add the garlic once they're soft.", "pattern": "First, chop the onions / then fry them in a little oil / and add the garlic once they're soft." }
+      ]
+    },
+    {
+      "title": "Chunking when comparing two things",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Comparisons chunk around each side of the comparison, with a small pause before the contrast word.",
+      "points": [],
+      "items": [
+        { "text": "Living in the city is more convenient, but living in the countryside is much more peaceful.", "pattern": "Living in the city is more convenient / but living in the countryside is much more peaceful." }
+      ]
+    },
+    {
+      "title": "Chunking while describing a chart or graph",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Describing data chunks around each trend or figure, giving the listener time to picture it.",
+      "points": [],
+      "items": [
+        { "text": "The graph shows a steady increase from 2010 to 2015, followed by a sharp drop in 2016.", "pattern": "The graph shows a steady increase from 2010 to 2015 / followed by a sharp drop in 2016." }
+      ]
+    },
+    {
+      "title": "Chunking a formal message read aloud",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Reading a formal email or message aloud still needs natural chunking, not a flat word-by-word read.",
+      "points": [],
+      "items": [
+        { "text": "Dear team, I wanted to let you know that the meeting has been moved to Thursday at 3pm.", "pattern": "Dear team / I wanted to let you know / that the meeting has been moved to Thursday at 3pm." }
+      ]
+    },
+    {
+      "title": "Chunking sentences with relative clauses",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A relative clause ('which...', 'who...') is usually its own chunk, set off by small pauses on both sides.",
+      "points": [],
+      "items": [
+        { "text": "My brother, who lives in Canada, is visiting next month.", "pattern": "My brother / who lives in Canada / is visiting next month." }
+      ]
+    },
+    {
+      "title": "Chunking safety instructions",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Safety instructions need very clear chunking so each instruction is unmistakable.",
+      "points": [],
+      "items": [
+        { "text": "In case of fire, stay calm, leave the building immediately, and do not use the elevator.", "pattern": "In case of fire / stay calm / leave the building immediately / and do not use the elevator." }
+      ]
+    },
+    {
+      "title": "Chunking practice: sentences that keep growing",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "As a sentence grows longer, the number of chunks grows too — practise adding one chunk at a time.",
+      "points": [],
+      "items": [
+        { "text": "I like coffee.", "pattern": "1 chunk" },
+        { "text": "I like coffee, especially in the morning.", "pattern": "2 chunks" },
+        { "text": "I like coffee, especially in the morning, when I need to wake up properly.", "pattern": "3 chunks" }
+      ]
+    },
+    {
+      "title": "Chunking in a job interview answer",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Structured interview answers chunk around each part of the story: situation, action, result.",
+      "points": [],
+      "items": [
+        { "text": "In my last role, we had a tight deadline, so I reorganized the team's priorities, and we ended up delivering two days early.", "pattern": "In my last role, we had a tight deadline / so I reorganized the team's priorities / and we ended up delivering two days early." }
+      ]
+    },
+    {
+      "title": "Chunking parenthetical asides",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "An extra comment inserted mid-sentence is its own chunk, set off clearly on both sides.",
+      "points": [],
+      "items": [
+        { "text": "My colleague, who's actually pretty new to the team, handled it really well.", "pattern": "My colleague / who's actually pretty new to the team / handled it really well." }
+      ]
+    },
+    {
+      "title": "Chunking 'not only... but also' structures",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Each half of this structure is its own chunk, with a small pause right before 'but also'.",
+      "points": [],
+      "items": [
+        { "text": "Not only is it cheaper, but it's also much faster.", "pattern": "Not only is it cheaper / but it's also much faster." }
+      ]
+    },
+    {
+      "title": "Chunking a product demo",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Product demos chunk around each feature being shown, pausing to let it land before moving on.",
+      "points": [],
+      "items": [
+        { "text": "So here you can see the dashboard, and if you click this button, it generates the report automatically.", "pattern": "So here you can see the dashboard / and if you click this button / it generates the report automatically." }
+      ]
+    },
+    {
+      "title": "Chunking when explaining rules of a game",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Rule explanations chunk around each individual rule so listeners can follow along.",
+      "points": [],
+      "items": [
+        { "text": "Each player gets seven cards, and on your turn, you either play a card or draw a new one.", "pattern": "Each player gets seven cards / and on your turn / you either play a card or draw a new one." }
+      ]
+    },
+    {
+      "title": "Chunking with time clauses (before, after, while)",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Time clauses are usually their own chunk, whether they come at the start or end of the sentence.",
+      "points": [],
+      "items": [
+        { "text": "Before you leave, make sure you lock the door.", "pattern": "Before you leave / make sure you lock the door." },
+        { "text": "I'll call you while I'm on my way there.", "pattern": "I'll call you / while I'm on my way there." }
+      ]
+    },
+    {
+      "title": "Chunking practice: even longer sentence buildup",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A second buildup drill, starting more complex and adding even more chunks.",
+      "points": [],
+      "items": [
+        { "text": "I work in marketing.", "pattern": "1 chunk" },
+        { "text": "I work in marketing, mainly on social media campaigns.", "pattern": "2 chunks" },
+        { "text": "I work in marketing, mainly on social media campaigns, which I've been doing for about five years now.", "pattern": "3 chunks" }
+      ]
+    },
+    {
+      "title": "Chunking cause and effect",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Cause-and-effect sentences chunk around the cause and the resulting effect separately.",
+      "points": [],
+      "items": [
+        { "text": "Because the flight was delayed, we missed our connection.", "pattern": "Because the flight was delayed / we missed our connection." },
+        { "text": "The store closed early, so we couldn't buy anything.", "pattern": "The store closed early / so we couldn't buy anything." }
+      ]
+    },
+    {
+      "title": "Chunking a list of pros and cons together",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "When listing several pros and cons in one breath, each point gets its own small chunk.",
+      "points": [],
+      "items": [
+        { "text": "It's affordable, it's convenient, but the quality isn't always consistent.", "pattern": "It's affordable / it's convenient / but the quality isn't always consistent." }
+      ]
+    },
+    {
+      "title": "Chunking a formal announcement at work",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Workplace announcements chunk clearly so nobody misses an important detail.",
+      "points": [],
+      "items": [
+        { "text": "Starting next Monday, the office will be open until 7pm, so please plan your schedules accordingly.", "pattern": "Starting next Monday / the office will be open until 7pm / so please plan your schedules accordingly." }
+      ]
+    },
+    {
+      "title": "Chunking when telling someone bad news gently",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Delivering difficult news benefits from extra-clear chunking, giving the listener time to absorb each part.",
+      "points": [],
+      "items": [
+        { "text": "I need to tell you something, and I want you to know it's not your fault, but the project's been cancelled.", "pattern": "I need to tell you something / and I want you to know it's not your fault / but the project's been cancelled." }
+      ]
+    },
+    {
+      "title": "Chunking a short tribute or toast",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A tribute speech chunks around each memory or quality being honoured, with a pause to let it land.",
+      "points": [],
+      "items": [
+        { "text": "She's always been there for everyone, she never asks for anything in return, and today we get to celebrate her.", "pattern": "She's always been there for everyone / she never asks for anything in return / and today we get to celebrate her." }
+      ]
+    },
+    {
+      "title": "Chunking while describing a photo",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Describing an image chunks around each element you notice, moving from general to specific.",
+      "points": [],
+      "items": [
+        { "text": "In this photo, there's a group of friends sitting by the lake, and you can tell they're having a great time.", "pattern": "In this photo / there's a group of friends sitting by the lake / and you can tell they're having a great time." }
+      ]
+    },
+    {
+      "title": "Chunking while explaining a historical event",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Historical explanations chunk around cause, event and consequence.",
+      "points": [],
+      "items": [
+        { "text": "After years of tension, the two countries finally signed a peace agreement, which changed the region for decades.", "pattern": "After years of tension / the two countries finally signed a peace agreement / which changed the region for decades." }
+      ]
+    },
+    {
+      "title": "Chunking while discussing a book or movie plot",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Plot summaries chunk around each major turning point in the story.",
+      "points": [],
+      "items": [
+        { "text": "The main character starts out pretty naive, but after everything that happens, she ends up completely transformed.", "pattern": "The main character starts out pretty naive / but after everything that happens / she ends up completely transformed." }
+      ]
+    },
+    {
+      "title": "Chunking during a negotiation",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Negotiation chunks around your offer and your condition, giving weight to each part.",
+      "points": [],
+      "items": [
+        { "text": "I could agree to that price, but only if we extend the deadline by two weeks.", "pattern": "I could agree to that price / but only if we extend the deadline by two weeks." }
+      ]
+    },
+    {
+      "title": "Chunking describing symptoms to a doctor",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Describing symptoms chunks around each separate symptom so nothing gets missed.",
+      "points": [],
+      "items": [
+        { "text": "I've had a headache since yesterday, and this morning I also started feeling a bit dizzy.", "pattern": "I've had a headache since yesterday / and this morning I also started feeling a bit dizzy." }
+      ]
+    },
+    {
+      "title": "Chunking a travel itinerary",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Itineraries chunk around each day or destination.",
+      "points": [],
+      "items": [
+        { "text": "We land on Monday, spend two days in the city, and then head to the coast for the weekend.", "pattern": "We land on Monday / spend two days in the city / and then head to the coast for the weekend." }
+      ]
+    },
+    {
+      "title": "Chunking while explaining a budget",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Budget explanations chunk around each category of spending.",
+      "points": [],
+      "items": [
+        { "text": "Half of it goes to rent, a quarter goes to savings, and the rest covers everything else.", "pattern": "Half of it goes to rent / a quarter goes to savings / and the rest covers everything else." }
+      ]
+    },
+    {
+      "title": "Chunking while comparing job offers",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Comparing offers chunks around each job's pros, with a clear pause before the contrast.",
+      "points": [],
+      "items": [
+        { "text": "The first offer pays more, but the second one has much better work-life balance.", "pattern": "The first offer pays more / but the second one has much better work-life balance." }
+      ]
+    },
+    {
+      "title": "Chunking while troubleshooting a problem",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Troubleshooting chunks around each thing you've already tried.",
+      "points": [],
+      "items": [
+        { "text": "I've already restarted it twice, and I've also checked the cables, but it still won't turn on.", "pattern": "I've already restarted it twice / and I've also checked the cables / but it still won't turn on." }
+      ]
+    },
+    {
+      "title": "Chunking while narrating a dream",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Dream narration chunks around each strange or memorable moment.",
+      "points": [],
+      "items": [
+        { "text": "I was walking through this huge house, and suddenly all the doors disappeared, and I just woke up.", "pattern": "I was walking through this huge house / and suddenly all the doors disappeared / and I just woke up." }
+      ]
+    },
+    {
+      "title": "Chunking while discussing environmental issues",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Discussing environmental topics chunks around the problem and its consequence, common in IELTS Part 3.",
+      "points": [],
+      "items": [
+        { "text": "As more forests are cut down, we lose important habitats, and that has a huge impact on biodiversity.", "pattern": "As more forests are cut down / we lose important habitats / and that has a huge impact on biodiversity." }
+      ]
+    },
+    {
+      "title": "Chunking while describing a city",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "City descriptions chunk around each feature you mention.",
+      "points": [],
+      "items": [
+        { "text": "It's a pretty small city, but it has a really nice old town, and the people are incredibly friendly.", "pattern": "It's a pretty small city / but it has a really nice old town / and the people are incredibly friendly." }
+      ]
+    },
+    {
+      "title": "Chunking while explaining a hobby in detail",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Hobby explanations chunk around what you do, why you enjoy it, and how often.",
+      "points": [],
+      "items": [
+        { "text": "I've been into photography for a few years now, mostly landscapes, and I try to go out shooting every weekend.", "pattern": "I've been into photography for a few years now / mostly landscapes / and I try to go out shooting every weekend." }
+      ]
+    },
+    {
+      "title": "Chunking while discussing childhood memories",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Nostalgic storytelling chunks around each remembered detail, common in IELTS Part 2.",
+      "points": [],
+      "items": [
+        { "text": "Every summer we'd visit my grandparents' farm, and I remember waking up really early just to feed the animals.", "pattern": "Every summer we'd visit my grandparents' farm / and I remember waking up really early / just to feed the animals." }
+      ]
+    },
+    {
+      "title": "Chunking while explaining a company policy",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Policy explanations chunk around the rule and its exception or reasoning.",
+      "points": [],
+      "items": [
+        { "text": "Employees can work remotely two days a week, as long as they're available for core meeting hours.", "pattern": "Employees can work remotely two days a week / as long as they're available for core meeting hours." }
+      ]
+    },
+    {
+      "title": "Chunking while discussing exam or study strategies",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Study-strategy talk chunks around each technique being described.",
+      "points": [],
+      "items": [
+        { "text": "I usually make flashcards for vocabulary, and then I review them right before bed, since that seems to help me remember better.", "pattern": "I usually make flashcards for vocabulary / and then I review them right before bed / since that seems to help me remember better." }
+      ]
+    },
+    {
+      "title": "Chunking while explaining an app feature",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Tech explanations chunk around each step or feature.",
+      "points": [],
+      "items": [
+        { "text": "You just tap the plus icon, choose a category, and it automatically saves your entry.", "pattern": "You just tap the plus icon / choose a category / and it automatically saves your entry." }
+      ]
+    },
+    {
+      "title": "Chunking while discussing sports highlights",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Sports recaps chunk around each key moment of the game.",
+      "points": [],
+      "items": [
+        { "text": "They were down by ten points at halftime, but they made an incredible comeback in the final quarter.", "pattern": "They were down by ten points at halftime / but they made an incredible comeback in the final quarter." }
+      ]
+    },
+    {
+      "title": "Chunking while giving nutrition advice",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Health advice chunks around each recommendation.",
+      "points": [],
+      "items": [
+        { "text": "Try to eat more vegetables, drink plenty of water, and avoid too much sugar in the evening.", "pattern": "Try to eat more vegetables / drink plenty of water / and avoid too much sugar in the evening." }
+      ]
+    },
+    {
+      "title": "Chunking while discussing weather patterns",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Weather-pattern discussion chunks around cause and typical result.",
+      "points": [],
+      "items": [
+        { "text": "Because the city is near the coast, the weather changes really quickly, so it can be sunny one hour and rainy the next.", "pattern": "Because the city is near the coast / the weather changes really quickly / so it can be sunny one hour and rainy the next." }
+      ]
+    },
+    {
+      "title": "Chunking during a phone support call",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Support calls chunk around each troubleshooting step you ask the customer to try.",
+      "points": [],
+      "items": [
+        { "text": "Okay, first can you check if it's plugged in properly, and then let me know what the screen shows.", "pattern": "Okay, first can you check if it's plugged in properly / and then let me know what the screen shows." }
+      ]
+    },
+    {
+      "title": "Chunking a short formal disclaimer",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Even dense formal text needs clear chunking when read aloud, or it becomes impossible to follow.",
+      "points": [],
+      "items": [
+        { "text": "This offer is valid until the end of the month, applies only to new customers, and cannot be combined with other promotions.", "pattern": "This offer is valid until the end of the month / applies only to new customers / and cannot be combined with other promotions." }
+      ]
+    },
+    {
+      "title": "Chunking while weighing a personal decision",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Personal decision-making chunks around each factor being weighed, common in IELTS Part 3 discussion.",
+      "points": [],
+      "items": [
+        { "text": "On one hand, staying here means job security, but on the other hand, moving abroad could open up a lot more opportunities.", "pattern": "On one hand, staying here means job security / but on the other hand, moving abroad could open up a lot more opportunities." }
+      ]
+    },
+    {
+      "title": "Final mixed chunking review",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A closing set — mark where you'd pause before checking the suggested chunks.",
+      "points": [],
+      "items": [
+        { "text": "Even though it was raining, we decided to go for a walk anyway, since we hadn't seen each other in months.", "pattern": "Even though it was raining / we decided to go for a walk anyway / since we hadn't seen each other in months." }
+      ]
+    }
+  ]
+}

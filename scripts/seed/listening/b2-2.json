@@ -1,0 +1,2177 @@
+{
+ "lessons": [
+  {
+   "slug": "b2-disputing-bank-charge",
+   "title": "That Charge Isn't Mine",
+   "level": "B2",
+   "category": "Everyday Life",
+   "topic": "disputing a bank charge",
+   "difficulty": 7,
+   "duration_seconds": 95,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Kayla",
+     "line": "Hi, thanks for calling First Union Bank, this is Kayla, how can I help you today?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Hey, yeah, I'm looking at my statement and there's a charge for eighty-nine dollars I don't recognize at all."
+    },
+    {
+     "speaker": "Kayla",
+     "line": "Okay, no problem, let's dig into that. Can you confirm the account number ending in the last four digits?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Sure, it's four-four-one-seven."
+    },
+    {
+     "speaker": "Kayla",
+     "line": "Perfect, I've got you pulled up. So the charge you're referring to, was that posted on March twelfth?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Yeah, exactly, March twelfth. It says 'Streamline Media' but I've never heard of that company."
+    },
+    {
+     "speaker": "Kayla",
+     "line": "Gotcha. Honestly, that name pops up a lot lately, it's kind of a shady billing alias some subscription services use."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Oh great, so somebody signed me up for something without me knowing?"
+    },
+    {
+     "speaker": "Kayla",
+     "line": "It's possible, or it could be tied to a free trial you clicked through months ago that quietly started charging you."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Ugh, that would be so on brand for me, I never read the fine print."
+    },
+    {
+     "speaker": "Kayla",
+     "line": "Ha, you're not alone there. Anyway, I can file a dispute right now and get you a provisional credit within two business days."
+    },
+    {
+     "speaker": "Customer",
+     "line": "That'd be great. Will it come back to bite me if it turns out I did sign up for it somehow?"
+    },
+    {
+     "speaker": "Kayla",
+     "line": "If that happens, we'd reverse the credit, but don't worry about that now, let's just get the ball rolling."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Okay, sounds good. How long does the whole investigation usually take?"
+    },
+    {
+     "speaker": "Kayla",
+     "line": "Typically ten business days, sometimes up to forty-five if it's more complicated."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Forty-five days is a long time to wait around."
+    },
+    {
+     "speaker": "Kayla",
+     "line": "I hear you, but you'll have the credit in your account way before then, so you're covered either way."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Alright, that eases my mind a bit. Thanks for sorting this out."
+    },
+    {
+     "speaker": "Kayla",
+     "line": "No problem at all. You'll get a confirmation email in the next hour with your case number."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this call?",
+     "options": [
+      "To close a bank account",
+      "To dispute an unrecognized charge",
+      "To apply for a new credit card",
+      "To report a lost debit card"
+     ],
+     "answer": "To dispute an unrecognized charge",
+     "explanation": "The customer calls because of a charge she doesn't recognize on her statement.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How much was the mysterious charge?",
+     "options": [
+      "Seventy-nine dollars",
+      "Eighty-nine dollars",
+      "Ninety-eight dollars",
+      "Eighteen dollars"
+     ],
+     "answer": "Eighty-nine dollars",
+     "explanation": "The customer states the charge was eighty-nine dollars.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "When was the disputed charge posted?",
+     "options": [
+      "March second",
+      "March twelfth",
+      "March twentieth",
+      "March thirtieth"
+     ],
+     "answer": "March twelfth",
+     "explanation": "Kayla confirms the charge posted on March twelfth.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "How soon will the customer get a provisional credit?",
+     "options": [
+      "Within one hour",
+      "Within two business days",
+      "Within ten business days",
+      "Within forty-five days"
+     ],
+     "answer": "Within two business days",
+     "explanation": "Kayla says she can get a provisional credit within two business days.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does the customer mean by 'that would be so on brand for me'?",
+     "options": [
+      "She dislikes the company's brand",
+      "It would be typical, careless behavior for her",
+      "She works in branding",
+      "She always reads contracts carefully"
+     ],
+     "answer": "It would be typical, careless behavior for her",
+     "explanation": "'On brand' here means it matches her typical habit of not reading fine print.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Kayla mention the forty-five day timeline?",
+     "options": [
+      "To scare the customer",
+      "To be transparent about the maximum possible wait",
+      "To delay the refund on purpose",
+      "To end the call quickly"
+     ],
+     "answer": "To be transparent about the maximum possible wait",
+     "explanation": "She explains the range so the customer knows what to expect, while reassuring her the credit comes sooner.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Okay, no problem, let's dig into that.",
+     "blanks": [
+      "dig into"
+     ],
+     "challenge": "expression",
+     "explanation": "'Dig into' means to investigate something closely."
+    },
+    {
+     "sentence": "Honestly, that name pops up a lot lately, it's kind of a shady billing alias some subscription services use.",
+     "blanks": [
+      "pops up"
+     ],
+     "challenge": "expression",
+     "explanation": "'Pops up' means appears or occurs frequently."
+    },
+    {
+     "sentence": "Ugh, that would be so on brand for me, I never read the fine print.",
+     "blanks": [
+      "so on brand"
+     ],
+     "challenge": "expression",
+     "explanation": "Colloquial expression meaning typical of someone."
+    },
+    {
+     "sentence": "Typically ten business days, sometimes up to forty-five if it's more complicated.",
+     "blanks": [
+      "forty-five"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen carefully for the exact number of days mentioned."
+    },
+    {
+     "sentence": "I hear you, but you'll have the credit in your account way before then, so you're covered either way.",
+     "blanks": [
+      "way before"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Way before' is often said quickly, blending together in fast speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "got you",
+     "spoken": "gotcha"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    },
+    {
+     "written": "kind of",
+     "spoken": "kinda"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-insurance-claim-call",
+   "title": "Filing a Fender Bender Claim",
+   "level": "B2",
+   "category": "Everyday Life",
+   "topic": "insurance claim call",
+   "difficulty": 7,
+   "duration_seconds": 100,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Devon",
+     "line": "Thanks for calling Maple Leaf Insurance, this is Devon, how can I assist you?"
+    },
+    {
+     "speaker": "Caller",
+     "line": "Hi Devon, I need to file a claim. I got rear-ended yesterday evening, around six-thirty."
+    },
+    {
+     "speaker": "Devon",
+     "line": "Sorry to hear that. Is everyone okay?"
+    },
+    {
+     "speaker": "Caller",
+     "line": "Yeah, we're fine, just a bit shaken up, but the bumper's pretty banged up."
+    },
+    {
+     "speaker": "Devon",
+     "line": "Alright, let's get the details down. What's your policy number?"
+    },
+    {
+     "speaker": "Caller",
+     "line": "It's P-A-nine-two-four-one-six."
+    },
+    {
+     "speaker": "Devon",
+     "line": "Got it. And where exactly did this happen?"
+    },
+    {
+     "speaker": "Caller",
+     "line": "On Fourth Avenue, right by the intersection with King Street."
+    },
+    {
+     "speaker": "Devon",
+     "line": "Okay. Did you exchange information with the other driver?"
+    },
+    {
+     "speaker": "Caller",
+     "line": "We did, and honestly the guy was super apologetic, said he was checking his phone for a second."
+    },
+    {
+     "speaker": "Devon",
+     "line": "That'll definitely help when we assess fault. Do you have photos of the damage?"
+    },
+    {
+     "speaker": "Caller",
+     "line": "Yeah, I snapped a bunch on my phone right after it happened."
+    },
+    {
+     "speaker": "Devon",
+     "line": "Perfect, go ahead and upload those through the app whenever you get a chance."
+    },
+    {
+     "speaker": "Caller",
+     "line": "Will do. So how does the deductible work in this case?"
+    },
+    {
+     "speaker": "Devon",
+     "line": "Since it's not your fault, assuming the other driver's insurance confirms liability, you shouldn't be out of pocket at all."
+    },
+    {
+     "speaker": "Caller",
+     "line": "Oh, that's a relief, I was bracing for a five-hundred-dollar hit."
+    },
+    {
+     "speaker": "Devon",
+     "line": "I get it, nobody likes surprises like that. We'll reach out to their insurer this week and keep you posted."
+    },
+    {
+     "speaker": "Caller",
+     "line": "Sounds good. How long till I know if it's approved?"
+    },
+    {
+     "speaker": "Devon",
+     "line": "Usually five to seven business days, but I'll flag it as priority given there's clear fault."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the caller's main reason for contacting the insurance company?",
+     "options": [
+      "To renew her policy",
+      "To report a car accident and file a claim",
+      "To cancel her coverage",
+      "To ask about premium increases"
+     ],
+     "answer": "To report a car accident and file a claim",
+     "explanation": "She was rear-ended and calls to start the claims process.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Where did the accident happen?",
+     "options": [
+      "On Fifth Street",
+      "On Fourth Avenue near King Street",
+      "On Main Boulevard",
+      "On King Street near Fifth Avenue"
+     ],
+     "answer": "On Fourth Avenue near King Street",
+     "explanation": "The caller says it happened on Fourth Avenue at the intersection with King Street.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What was the other driver reportedly doing before the crash?",
+     "options": [
+      "Speeding",
+      "Checking his phone",
+      "Making a turn",
+      "Reversing"
+     ],
+     "answer": "Checking his phone",
+     "explanation": "The other driver admitted he was checking his phone.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "About what time did the accident occur?",
+     "options": [
+      "Around five-thirty",
+      "Around six-thirty",
+      "Around seven-thirty",
+      "Around eight o'clock"
+     ],
+     "answer": "Around six-thirty",
+     "explanation": "The caller states the accident happened around six-thirty in the evening.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'I was bracing for a five-hundred-dollar hit' mean?",
+     "options": [
+      "She was excited to pay",
+      "She was mentally preparing for a big expense",
+      "She already paid five hundred dollars",
+      "She wanted a discount"
+     ],
+     "answer": "She was mentally preparing for a big expense",
+     "explanation": "'Bracing for' means preparing yourself emotionally for something unpleasant.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Devon say he'll flag the claim as priority?",
+     "options": [
+      "Because the caller is a long-time customer",
+      "Because there's clear evidence of the other driver's fault",
+      "Because the company is behind on claims",
+      "Because the accident was severe"
+     ],
+     "answer": "Because there's clear evidence of the other driver's fault",
+     "explanation": "He mentions flagging it as priority given the clear fault situation.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Yeah, we're fine, just a bit shaken up, but the bumper's pretty banged up.",
+     "blanks": [
+      "shaken up"
+     ],
+     "challenge": "expression",
+     "explanation": "'Shaken up' means emotionally rattled by an event."
+    },
+    {
+     "sentence": "That'll definitely help when we assess fault.",
+     "blanks": [
+      "assess fault"
+     ],
+     "challenge": "expression",
+     "explanation": "A phrase used in insurance to mean determining who is responsible."
+    },
+    {
+     "sentence": "Oh, that's a relief, I was bracing for a five-hundred-dollar hit.",
+     "blanks": [
+      "bracing for"
+     ],
+     "challenge": "expression",
+     "explanation": "'Bracing for' means preparing for something difficult."
+    },
+    {
+     "sentence": "Usually five to seven business days, but I'll flag it as priority given there's clear fault.",
+     "blanks": [
+      "five to seven"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the number range given for processing time."
+    },
+    {
+     "sentence": "I get it, nobody likes surprises like that.",
+     "blanks": [
+      "I get it"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "A common reduced way of saying 'I understand'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    },
+    {
+     "written": "got to",
+     "spoken": "gotta"
+    },
+    {
+     "written": "a bunch of",
+     "spoken": "a buncha"
+    }
+   ]
+  },
+  {
+   "slug": "b2-apartment-lease-negotiation",
+   "title": "Let's Talk Lease Terms",
+   "level": "B2",
+   "category": "Everyday Life",
+   "topic": "apartment lease negotiation",
+   "difficulty": 7,
+   "duration_seconds": 105,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Landlord",
+     "line": "So, the unit's listed at fifteen hundred a month, but I noticed it's been sitting empty for a while."
+    },
+    {
+     "speaker": "Renter",
+     "line": "Yeah, it's been about six weeks now, the market's a bit slow this time of year."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Right, so I was wondering if there's any wiggle room on the price."
+    },
+    {
+     "speaker": "Renter",
+     "line": "Honestly, I could probably do fourteen-fifty if you're willing to sign a full year instead of month-to-month."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "That works for me. What about the parking spot, is that included?"
+    },
+    {
+     "speaker": "Renter",
+     "line": "It's usually an extra seventy-five a month, but I could throw it in for free given the longer lease."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "That'd be great, thanks. And what's the deal with the pet policy? I've got a small dog."
+    },
+    {
+     "speaker": "Renter",
+     "line": "We allow pets under twenty-five pounds, there's just a one-time two-hundred-dollar fee."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "My dog's around eighteen pounds, so that should be fine."
+    },
+    {
+     "speaker": "Renter",
+     "line": "Perfect, no issue there then."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "One more thing, when would move-in be? I'm hoping for the first of next month."
+    },
+    {
+     "speaker": "Renter",
+     "line": "That's doable. We'd just need first and last month's rent plus the pet fee upfront."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Okay, and is the security deposit separate from that?"
+    },
+    {
+     "speaker": "Renter",
+     "line": "No, last month's rent basically acts as the deposit here, so you're not paying extra on top."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Got it, that's less than I expected honestly."
+    },
+    {
+     "speaker": "Renter",
+     "line": "Yeah, we try to keep it simple. I'll draft up the lease and send it over by tomorrow."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Sounds great, I appreciate you working with me on the price."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main topic of this conversation?",
+     "options": [
+      "Ending a lease early",
+      "Negotiating rent and terms for a new lease",
+      "Complaining about noisy neighbors",
+      "Requesting apartment repairs"
+     ],
+     "answer": "Negotiating rent and terms for a new lease",
+     "explanation": "The tenant negotiates price, parking, and pet fees for a new apartment.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is the final agreed monthly rent?",
+     "options": [
+      "Fifteen hundred dollars",
+      "Fourteen-fifty",
+      "Thirteen hundred dollars",
+      "Sixteen hundred dollars"
+     ],
+     "answer": "Fourteen-fifty",
+     "explanation": "The landlord agrees to fourteen-fifty for a one-year lease.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is included for free because of the longer lease?",
+     "options": [
+      "Utilities",
+      "The parking spot",
+      "Furniture",
+      "Internet"
+     ],
+     "answer": "The parking spot",
+     "explanation": "The landlord throws in the parking spot for free with a year lease.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How long has the unit been sitting empty?",
+     "options": [
+      "Two weeks",
+      "Six weeks",
+      "Ten weeks",
+      "One month"
+     ],
+     "answer": "Six weeks",
+     "explanation": "The landlord mentions it's been about six weeks.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'is there any wiggle room on the price' mean?",
+     "options": [
+      "Is there space in the apartment",
+      "Is there any flexibility to negotiate",
+      "Is there a discount already applied",
+      "Is the price fixed"
+     ],
+     "answer": "Is there any flexibility to negotiate",
+     "explanation": "'Wiggle room' means flexibility to change something slightly.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the landlord offer a lower price and free parking?",
+     "options": [
+      "Because the tenant complained",
+      "Because the unit has problems",
+      "In exchange for the tenant signing a full year lease",
+      "Because it's a slow season for everyone"
+     ],
+     "answer": "In exchange for the tenant signing a full year lease",
+     "explanation": "The landlord offers concessions specifically in exchange for a longer lease commitment.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Right, so I was wondering if there's any wiggle room on the price.",
+     "blanks": [
+      "wiggle room"
+     ],
+     "challenge": "expression",
+     "explanation": "'Wiggle room' means some flexibility in negotiation."
+    },
+    {
+     "sentence": "Honestly, I could probably do fourteen-fifty if you're willing to sign a full year instead of month-to-month.",
+     "blanks": [
+      "fourteen-fifty"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the exact rent amount offered."
+    },
+    {
+     "sentence": "We allow pets under twenty-five pounds, there's just a one-time two-hundred-dollar fee.",
+     "blanks": [
+      "twenty-five pounds"
+     ],
+     "challenge": "numbers",
+     "explanation": "Pay attention to the weight limit stated."
+    },
+    {
+     "sentence": "No, last month's rent basically acts as the deposit here, so you're not paying extra on top.",
+     "blanks": [
+      "acts as"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Acts as' is spoken quickly, blending the words together."
+    },
+    {
+     "sentence": "Got it, that's less than I expected honestly.",
+     "blanks": [
+      "Got it"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "A short, reduced way of confirming understanding."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    },
+    {
+     "written": "that would",
+     "spoken": "that'd"
+    },
+    {
+     "written": "kind of",
+     "spoken": "kinda"
+    }
+   ]
+  },
+  {
+   "slug": "b2-tenant-landlord-dispute",
+   "title": "The Heating's Been Out for a Week",
+   "level": "B2",
+   "category": "Canadian Life",
+   "topic": "tenant-landlord dispute",
+   "difficulty": 8,
+   "duration_seconds": 110,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Jordan",
+     "line": "Hi, it's Jordan from unit 4B. I'm calling again about the heating, it's still not fixed."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "I'm sorry, I thought the technician went by on Tuesday."
+    },
+    {
+     "speaker": "Jordan",
+     "line": "He did show up, but he said he needed a part and never came back. That was five days ago."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Okay, let me check with him. In the meantime, have you been managing alright?"
+    },
+    {
+     "speaker": "Jordan",
+     "line": "Not really, it's been dropping to around fifteen degrees at night, that's not exactly livable."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "I hear you, that's definitely below what's required by the tenancy act."
+    },
+    {
+     "speaker": "Jordan",
+     "line": "Right, and honestly, I looked it up, landlords are supposed to fix heating issues within twenty-four hours in this province."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "You're right, and I apologize, this has clearly dragged on way longer than it should have."
+    },
+    {
+     "speaker": "Jordan",
+     "line": "I appreciate that, but apologies aside, I need this resolved by tomorrow or I'll have to file a complaint with the tenancy board."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "That's fair. Let me call an emergency repair service today instead of waiting on the original guy."
+    },
+    {
+     "speaker": "Jordan",
+     "line": "That would help a lot. Also, given how long this has gone on, I think some rent compensation makes sense."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "I can offer you a hundred dollars off next month's rent for the inconvenience."
+    },
+    {
+     "speaker": "Jordan",
+     "line": "I was thinking more like two hundred, given we're talking about a full week without heat."
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Alright, that's reasonable, I'll knock two hundred off next month's rent."
+    },
+    {
+     "speaker": "Jordan",
+     "line": "Great, thank you. And can you confirm in writing when the repair's scheduled?"
+    },
+    {
+     "speaker": "Landlord",
+     "line": "Sure, I'll send you an email today with the technician's arrival window."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is this phone call mainly about?",
+     "options": [
+      "Requesting a rent increase",
+      "Complaining about noisy neighbors",
+      "An unresolved heating issue and compensation",
+      "Ending a lease agreement"
+     ],
+     "answer": "An unresolved heating issue and compensation",
+     "explanation": "Jordan calls about ongoing heating problems and negotiates compensation.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How many days had it been since the technician's visit?",
+     "options": [
+      "Two days",
+      "Five days",
+      "One week",
+      "Ten days"
+     ],
+     "answer": "Five days",
+     "explanation": "Jordan says the technician left five days ago without returning.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "According to Jordan, within how many hours should landlords fix heating issues?",
+     "options": [
+      "Twelve hours",
+      "Twenty-four hours",
+      "Forty-eight hours",
+      "Seventy-two hours"
+     ],
+     "answer": "Twenty-four hours",
+     "explanation": "Jordan mentions the legal requirement of fixing heating within twenty-four hours.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "How much compensation do they finally agree on?",
+     "options": [
+      "One hundred dollars",
+      "One hundred fifty dollars",
+      "Two hundred dollars",
+      "Three hundred dollars"
+     ],
+     "answer": "Two hundred dollars",
+     "explanation": "The landlord agrees to knock two hundred dollars off next month's rent.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'this has clearly dragged on way longer than it should have' mean?",
+     "options": [
+      "The repair was completed quickly",
+      "The situation has gone on for too long",
+      "The tenant is exaggerating",
+      "The landlord is very busy"
+     ],
+     "answer": "The situation has gone on for too long",
+     "explanation": "'Dragged on' means something continued for an excessive amount of time.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Jordan mention filing a complaint with the tenancy board?",
+     "options": [
+      "To end the lease",
+      "To pressure the landlord into fixing the issue quickly",
+      "To get a full refund",
+      "To report the technician"
+     ],
+     "answer": "To pressure the landlord into fixing the issue quickly",
+     "explanation": "Jordan uses this as leverage to get faster action from the landlord.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Not really, it's been dropping to around fifteen degrees at night, that's not exactly livable.",
+     "blanks": [
+      "not exactly"
+     ],
+     "challenge": "expression",
+     "explanation": "'Not exactly' is an understated way of saying something is clearly not true."
+    },
+    {
+     "sentence": "Right, and honestly, I looked it up, landlords are supposed to fix heating issues within twenty-four hours in this province.",
+     "blanks": [
+      "twenty-four hours"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the specific legal time limit mentioned."
+    },
+    {
+     "sentence": "You're right, and I apologize, this has clearly dragged on way longer than it should have.",
+     "blanks": [
+      "dragged on"
+     ],
+     "challenge": "expression",
+     "explanation": "'Dragged on' means continued for too long."
+    },
+    {
+     "sentence": "I was thinking more like two hundred, given we're talking about a full week without heat.",
+     "blanks": [
+      "more like"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'More like' is often blended together quickly in natural speech."
+    },
+    {
+     "sentence": "Alright, that's reasonable, I'll knock two hundred off next month's rent.",
+     "blanks": [
+      "knock",
+      "off"
+     ],
+     "challenge": "expression",
+     "explanation": "'Knock off' means to subtract or reduce a price."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    },
+    {
+     "written": "that is",
+     "spoken": "that's"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-walk-in-clinic-triage",
+   "title": "Quick Triage Before You See the Doctor",
+   "level": "B2",
+   "category": "Everyday Life",
+   "topic": "walk-in clinic triage conversation",
+   "difficulty": 6,
+   "duration_seconds": 90,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Nurse",
+     "line": "Hi there, what brings you in today?"
+    },
+    {
+     "speaker": "Patient",
+     "line": "I've had this nagging cough for about ten days now, and yesterday I started running a fever too."
+    },
+    {
+     "speaker": "Nurse",
+     "line": "Okay, and how high has the fever gotten?"
+    },
+    {
+     "speaker": "Patient",
+     "line": "It hit thirty-eight point five last night, but it's come down a bit this morning."
+    },
+    {
+     "speaker": "Nurse",
+     "line": "Alright. Any chest pain or shortness of breath when you're walking around?"
+    },
+    {
+     "speaker": "Patient",
+     "line": "A little tightness, but nothing too dramatic, honestly it might just be in my head."
+    },
+    {
+     "speaker": "Nurse",
+     "line": "Better safe than sorry, we'll still check your oxygen levels. Any other symptoms, sore throat, chills?"
+    },
+    {
+     "speaker": "Patient",
+     "line": "Chills, yeah, especially at night. And I've been pretty wiped out, no energy at all."
+    },
+    {
+     "speaker": "Nurse",
+     "line": "Got it. Are you on any medications currently?"
+    },
+    {
+     "speaker": "Patient",
+     "line": "Just an inhaler for mild asthma, that's about it."
+    },
+    {
+     "speaker": "Nurse",
+     "line": "Okay, that's useful to know. I'm going to take your temperature and oxygen saturation now, and the doctor will be with you shortly after."
+    },
+    {
+     "speaker": "Patient",
+     "line": "How long's the wait usually looking like today?"
+    },
+    {
+     "speaker": "Nurse",
+     "line": "It's fairly busy, probably around forty minutes, but triage bumps you up if anything looks concerning."
+    },
+    {
+     "speaker": "Patient",
+     "line": "That's fine, I'd rather wait and get checked properly than brush it off."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is happening in this conversation?",
+     "options": [
+      "A doctor is diagnosing a serious illness",
+      "A nurse is triaging a patient with cough and fever symptoms",
+      "A patient is picking up a prescription",
+      "A receptionist is scheduling a future appointment"
+     ],
+     "answer": "A nurse is triaging a patient with cough and fever symptoms",
+     "explanation": "The nurse asks about symptoms to assess the patient before the doctor visit.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long has the patient had the cough?",
+     "options": [
+      "Three days",
+      "Five days",
+      "Ten days",
+      "Two weeks"
+     ],
+     "answer": "Ten days",
+     "explanation": "The patient says the cough has lasted about ten days.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "What was the patient's highest fever reading?",
+     "options": [
+      "Thirty-seven point five",
+      "Thirty-eight point five",
+      "Thirty-nine point five",
+      "Thirty-six point five"
+     ],
+     "answer": "Thirty-eight point five",
+     "explanation": "The patient states the fever hit thirty-eight point five last night.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What medication is the patient currently taking?",
+     "options": [
+      "Antibiotics",
+      "Cough syrup",
+      "An inhaler for asthma",
+      "Painkillers"
+     ],
+     "answer": "An inhaler for asthma",
+     "explanation": "The patient mentions using an inhaler for mild asthma.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'I've been pretty wiped out' mean?",
+     "options": [
+      "I've been cleaning a lot",
+      "I've felt extremely tired",
+      "I've been cured",
+      "I've lost my appetite"
+     ],
+     "answer": "I've felt extremely tired",
+     "explanation": "'Wiped out' is an idiom meaning exhausted.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the nurse say 'better safe than sorry'?",
+     "options": [
+      "To dismiss the patient's concern",
+      "To justify checking oxygen levels even though symptoms seem mild",
+      "To end the appointment quickly",
+      "To recommend the patient go home"
+     ],
+     "answer": "To justify checking oxygen levels even though symptoms seem mild",
+     "explanation": "She wants to be cautious and check despite mild symptoms.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I've had this nagging cough for about ten days now, and yesterday I started running a fever too.",
+     "blanks": [
+      "nagging cough"
+     ],
+     "challenge": "expression",
+     "explanation": "'Nagging' describes something persistent and annoying."
+    },
+    {
+     "sentence": "It hit thirty-eight point five last night, but it's come down a bit this morning.",
+     "blanks": [
+      "thirty-eight point five"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen carefully for the decimal temperature reading."
+    },
+    {
+     "sentence": "Chills, yeah, especially at night. And I've been pretty wiped out, no energy at all.",
+     "blanks": [
+      "wiped out"
+     ],
+     "challenge": "expression",
+     "explanation": "'Wiped out' means extremely tired."
+    },
+    {
+     "sentence": "It's fairly busy, probably around forty minutes, but triage bumps you up if anything looks concerning.",
+     "blanks": [
+      "bumps you up"
+     ],
+     "challenge": "expression",
+     "explanation": "'Bumps you up' means moves you higher in priority."
+    },
+    {
+     "sentence": "That's fine, I'd rather wait and get checked properly than brush it off.",
+     "blanks": [
+      "brush it off"
+     ],
+     "challenge": "expression",
+     "explanation": "'Brush it off' means to ignore or dismiss something."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "I would",
+     "spoken": "I'd"
+    },
+    {
+     "written": "it is",
+     "spoken": "it's"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-settlement-services-appointment",
+   "title": "Getting Settled: First Appointment",
+   "level": "B2",
+   "category": "Canadian Life",
+   "topic": "immigration/settlement services appointment",
+   "difficulty": 7,
+   "duration_seconds": 110,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Lisa",
+     "line": "Hi, welcome in, you must be Farah, right? I'm Lisa, I'll be your settlement counselor."
+    },
+    {
+     "speaker": "Farah",
+     "line": "Yes, that's me, nice to meet you. I just landed about three weeks ago, so I'm still finding my feet."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Totally understandable, there's a lot to figure out at first. Let's go over what we can help with today."
+    },
+    {
+     "speaker": "Farah",
+     "line": "Okay, honestly I'm most worried about my health card, I heard it can take a while."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Yeah, in this province it usually takes around three months to process, but you're covered temporarily in the meantime through a different program."
+    },
+    {
+     "speaker": "Farah",
+     "line": "Oh, that's a relief, I thought I'd be left with no coverage at all."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Nope, we'll get that application started today actually, it just takes a few minutes."
+    },
+    {
+     "speaker": "Farah",
+     "line": "Great. What about my kids' school registration, is that something you handle too?"
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Yep, we can help with that as well. How old are they?"
+    },
+    {
+     "speaker": "Farah",
+     "line": "Nine and twelve."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Perfect, they'd go into the local school board, and we can set up the registration appointment before you leave today."
+    },
+    {
+     "speaker": "Farah",
+     "line": "That would take a huge weight off my shoulders, thank you."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Of course. Last thing for today, have you opened a Canadian bank account yet?"
+    },
+    {
+     "speaker": "Farah",
+     "line": "Not yet, I wasn't sure what I needed to bring."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Just your passport and immigration documents usually does it, some banks even waive fees for newcomers the first year."
+    },
+    {
+     "speaker": "Farah",
+     "line": "That's good to know, I'll head there after this then."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Sounds like a plan. We'll book a follow-up in two weeks to check how everything's going."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this appointment?",
+     "options": [
+      "To renew a visa",
+      "To help a newcomer settle in and access services",
+      "To apply for citizenship",
+      "To find employment"
+     ],
+     "answer": "To help a newcomer settle in and access services",
+     "explanation": "The counselor helps Farah with health coverage, schooling, and banking as a newcomer.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long ago did Farah arrive?",
+     "options": [
+      "One week ago",
+      "Three weeks ago",
+      "Two months ago",
+      "Six months ago"
+     ],
+     "answer": "Three weeks ago",
+     "explanation": "Farah says she landed about three weeks ago.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How long does the health card usually take to process?",
+     "options": [
+      "One month",
+      "Around three months",
+      "Six months",
+      "One year"
+     ],
+     "answer": "Around three months",
+     "explanation": "Lisa says it usually takes around three months in this province.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What documents does Farah need for a bank account?",
+     "options": [
+      "Only her passport",
+      "Her passport and immigration documents",
+      "A credit history report",
+      "A Canadian ID only"
+     ],
+     "answer": "Her passport and immigration documents",
+     "explanation": "Lisa says passport and immigration documents usually suffice.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'that would take a huge weight off my shoulders' mean?",
+     "options": [
+      "It would make her physically stronger",
+      "It would relieve a major worry",
+      "It would cost her more money",
+      "It would delay her plans"
+     ],
+     "answer": "It would relieve a major worry",
+     "explanation": "This idiom means something would greatly reduce stress or worry.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Lisa mention that some banks waive fees for newcomers?",
+     "options": [
+      "To advertise a specific bank",
+      "To help Farah save money as she settles in",
+      "To discourage Farah from opening an account",
+      "To explain bank regulations"
+     ],
+     "answer": "To help Farah save money as she settles in",
+     "explanation": "She shares this tip to make the process easier and cheaper for Farah.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Yes, that's me, nice to meet you. I just landed about three weeks ago, so I'm still finding my feet.",
+     "blanks": [
+      "finding my feet"
+     ],
+     "challenge": "expression",
+     "explanation": "'Finding my feet' means getting used to a new situation."
+    },
+    {
+     "sentence": "Yeah, in this province it usually takes around three months to process, but you're covered temporarily in the meantime through a different program.",
+     "blanks": [
+      "three months"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the processing time mentioned."
+    },
+    {
+     "sentence": "That would take a huge weight off my shoulders, thank you.",
+     "blanks": [
+      "weight off"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiom meaning a relief from worry."
+    },
+    {
+     "sentence": "Just your passport and immigration documents usually does it, some banks even waive fees for newcomers the first year.",
+     "blanks": [
+      "waive fees"
+     ],
+     "challenge": "expression",
+     "explanation": "'Waive fees' means to not charge fees that would normally apply."
+    },
+    {
+     "sentence": "Sounds like a plan. We'll book a follow-up in two weeks to check how everything's going.",
+     "blanks": [
+      "two weeks"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the timeframe of the next appointment."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "you are",
+     "spoken": "you're"
+    },
+    {
+     "written": "we will",
+     "spoken": "we'll"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-buying-used-car",
+   "title": "Kicking the Tires on a Used Sedan",
+   "level": "B2",
+   "category": "Everyday Life",
+   "topic": "buying a used car",
+   "difficulty": 7,
+   "duration_seconds": 105,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Seller",
+     "line": "So this is the 2018 Civic I mentioned, it's got about ninety-two thousand kilometers on it."
+    },
+    {
+     "speaker": "Buyer",
+     "line": "Not bad. Has it been in any accidents?"
+    },
+    {
+     "speaker": "Seller",
+     "line": "Nope, clean history, I actually pulled the report already, I can show you on my phone."
+    },
+    {
+     "speaker": "Buyer",
+     "line": "That'd be great, thanks. What about maintenance, any big repairs recently?"
+    },
+    {
+     "speaker": "Seller",
+     "line": "I replaced the brakes about six months ago and did a full oil change last month."
+    },
+    {
+     "speaker": "Buyer",
+     "line": "Okay. Honestly the asking price seems a bit steep for the mileage, it's listed at fourteen thousand."
+    },
+    {
+     "speaker": "Seller",
+     "line": "I get where you're coming from, but similar ones nearby are going for around fourteen-five to fifteen, so I think it's fair."
+    },
+    {
+     "speaker": "Buyer",
+     "line": "Maybe, but there's a small dent on the rear bumper I noticed, that should count for something."
+    },
+    {
+     "speaker": "Seller",
+     "line": "That's fair, honestly I could probably come down to thirteen-five given that."
+    },
+    {
+     "speaker": "Buyer",
+     "line": "Alright, thirteen-five works for me if the test drive goes well."
+    },
+    {
+     "speaker": "Seller",
+     "line": "Sounds good, let's take it around the block."
+    },
+    {
+     "speaker": "Buyer",
+     "line": "Runs smooth, no weird noises, I'm pretty happy with it. Can I get it looked at by my own mechanic before we finalize?"
+    },
+    {
+     "speaker": "Seller",
+     "line": "Sure, that's totally fair, take your time. Just let me know within a few days since I've got another guy interested too."
+    },
+    {
+     "speaker": "Buyer",
+     "line": "Understood, I'll get it checked out tomorrow and let you know by Thursday."
+    },
+    {
+     "speaker": "Seller",
+     "line": "Perfect, I'll hold onto it for you until then."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main topic of this conversation?",
+     "options": [
+      "Renting a car",
+      "Negotiating the purchase of a used car",
+      "Reporting a car accident",
+      "Getting a car repaired"
+     ],
+     "answer": "Negotiating the purchase of a used car",
+     "explanation": "The buyer inspects and negotiates the price of a used Civic.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What was recently replaced on the car?",
+     "options": [
+      "The tires",
+      "The brakes",
+      "The transmission",
+      "The battery"
+     ],
+     "answer": "The brakes",
+     "explanation": "The seller mentions replacing the brakes about six months ago.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How many kilometers does the car have?",
+     "options": [
+      "Ninety thousand",
+      "Ninety-two thousand",
+      "Eighty-two thousand",
+      "One hundred thousand"
+     ],
+     "answer": "Ninety-two thousand",
+     "explanation": "The seller states the car has about ninety-two thousand kilometers.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What price do they finally agree on?",
+     "options": [
+      "Fourteen thousand",
+      "Fourteen-five",
+      "Thirteen-five",
+      "Thirteen thousand"
+     ],
+     "answer": "Thirteen-five",
+     "explanation": "The seller agrees to come down to thirteen-five due to the bumper dent.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'kicking the tires' mean in this context (title)?",
+     "options": [
+      "Literally checking tire pressure",
+      "Casually inspecting something before buying it",
+      "Damaging the car on purpose",
+      "Test driving aggressively"
+     ],
+     "answer": "Casually inspecting something before buying it",
+     "explanation": "'Kicking the tires' is an idiom for examining something before a purchase.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the seller mention another interested buyer?",
+     "options": [
+      "To be honest about market demand",
+      "To pressure the buyer into deciding quickly",
+      "To cancel the deal",
+      "To raise the price again"
+     ],
+     "answer": "To pressure the buyer into deciding quickly",
+     "explanation": "He mentions this to encourage a faster decision from the buyer.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Nope, clean history, I actually pulled the report already, I can show you on my phone.",
+     "blanks": [
+      "pulled the report"
+     ],
+     "challenge": "expression",
+     "explanation": "'Pulled the report' means obtained or retrieved the report."
+    },
+    {
+     "sentence": "I get where you're coming from, but similar ones nearby are going for around fourteen-five to fifteen, so I think it's fair.",
+     "blanks": [
+      "coming from"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Coming from' blends smoothly in fast natural speech."
+    },
+    {
+     "sentence": "That's fair, honestly I could probably come down to thirteen-five given that.",
+     "blanks": [
+      "come down"
+     ],
+     "challenge": "expression",
+     "explanation": "'Come down' means to lower a price."
+    },
+    {
+     "sentence": "Just let me know within a few days since I've got another guy interested too.",
+     "blanks": [
+      "I've got"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I've got' is a contraction of 'I have got'."
+    },
+    {
+     "sentence": "Understood, I'll get it checked out tomorrow and let you know by Thursday.",
+     "blanks": [
+      "checked out"
+     ],
+     "challenge": "expression",
+     "explanation": "'Checked out' means inspected."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    },
+    {
+     "written": "that would",
+     "spoken": "that'd"
+    },
+    {
+     "written": "I have got",
+     "spoken": "I've got"
+    }
+   ]
+  },
+  {
+   "slug": "b2-internet-outage-escalation",
+   "title": "Third Call About the Same Outage",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "home internet service outage escalation",
+   "difficulty": 8,
+   "duration_seconds": 115,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Marcus",
+     "line": "Thanks for calling TeleNet support, this is Marcus, how can I help?"
+    },
+    {
+     "speaker": "Customer",
+     "line": "Hi, this is actually my third call this week about the same outage, I'm getting pretty frustrated at this point."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "I'm sorry to hear that, let me pull up your account and see what's been logged."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Sure, the ticket number from Monday is eight-eight-two-one-nine."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Okay, I see it here. It looks like a technician was scheduled for Wednesday but the appointment got cancelled."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Right, and nobody called to tell me, I just sat around waiting for four hours for nothing."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "That's definitely not how that should've gone, I apologize for the mix-up."
+    },
+    {
+     "speaker": "Customer",
+     "line": "I work from home, so honestly this outage has been costing me real money, not just an inconvenience."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "I completely understand. Let me escalate this to our priority queue and get a technician out within twenty-four hours this time."
+    },
+    {
+     "speaker": "Customer",
+     "line": "I've heard that before though, how do I know this time's actually different?"
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Fair question. I'm going to personally note this account and call you tomorrow morning to confirm the technician showed up."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Okay, I appreciate that. Is there any credit for all the days we've been without service?"
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Absolutely, looking at the outage log, that's about six days total, so we'll credit you a full month's bill."
+    },
+    {
+     "speaker": "Customer",
+     "line": "That's more reasonable, thank you. What time window should I expect the technician tomorrow?"
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Between nine and noon, and you'll get a text an hour before they arrive."
+    },
+    {
+     "speaker": "Customer",
+     "line": "Alright, let's hope third time's the charm."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "I hear you, and I'll do everything I can on my end to make sure it is."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the customer's main complaint?",
+     "options": [
+      "Slow internet speeds",
+      "A repeated outage that hasn't been fixed despite multiple calls",
+      "A billing error",
+      "A cancelled subscription"
+     ],
+     "answer": "A repeated outage that hasn't been fixed despite multiple calls",
+     "explanation": "The customer is frustrated because this is his third call about the same unresolved outage.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Why didn't the technician show up on Wednesday?",
+     "options": [
+      "He got lost",
+      "The appointment got cancelled",
+      "The customer wasn't home",
+      "The equipment was missing"
+     ],
+     "answer": "The appointment got cancelled",
+     "explanation": "Marcus finds that the Wednesday appointment was cancelled without notifying the customer.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How many total days has the customer been without service?",
+     "options": [
+      "Three days",
+      "Four days",
+      "Six days",
+      "Ten days"
+     ],
+     "answer": "Six days",
+     "explanation": "Marcus checks the outage log and finds about six days total.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What compensation does the customer receive?",
+     "options": [
+      "A ten dollar discount",
+      "A full month's bill credited",
+      "A free upgrade",
+      "Nothing"
+     ],
+     "answer": "A full month's bill credited",
+     "explanation": "Marcus offers to credit a full month's bill due to the outage.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does the customer mean by 'let's hope third time's the charm'?",
+     "options": [
+      "He hopes this attempt finally works after two failures",
+      "He wants a third technician sent",
+      "He is happy with the service",
+      "He plans to cancel after three tries"
+     ],
+     "answer": "He hopes this attempt finally works after two failures",
+     "explanation": "'Third time's the charm' is an idiom expressing hope that this attempt will succeed.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Marcus say he'll personally call the customer tomorrow?",
+     "options": [
+      "To sell additional services",
+      "To build trust that the issue will actually be resolved",
+      "To reschedule again",
+      "To collect payment"
+     ],
+     "answer": "To build trust that the issue will actually be resolved",
+     "explanation": "After the customer expresses doubt, Marcus offers personal follow-up to rebuild trust.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Hi, this is actually my third call this week about the same outage, I'm getting pretty frustrated at this point.",
+     "blanks": [
+      "at this point"
+     ],
+     "challenge": "expression",
+     "explanation": "'At this point' emphasizes growing frustration over time."
+    },
+    {
+     "sentence": "Right, and nobody called to tell me, I just sat around waiting for four hours for nothing.",
+     "blanks": [
+      "for nothing"
+     ],
+     "challenge": "expression",
+     "explanation": "'For nothing' means the wait was wasted, with no result."
+    },
+    {
+     "sentence": "Absolutely, looking at the outage log, that's about six days total, so we'll credit you a full month's bill.",
+     "blanks": [
+      "six days"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the exact number of outage days mentioned."
+    },
+    {
+     "sentence": "Alright, let's hope third time's the charm.",
+     "blanks": [
+      "third time's the charm"
+     ],
+     "challenge": "expression",
+     "explanation": "A common idiom expressing hope that the third attempt will succeed."
+    },
+    {
+     "sentence": "Between nine and noon, and you'll get a text an hour before they arrive.",
+     "blanks": [
+      "nine and noon"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the time window given for the technician visit."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "should have",
+     "spoken": "should've"
+    },
+    {
+     "written": "I am",
+     "spoken": "I'm"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    },
+    {
+     "written": "we will",
+     "spoken": "we'll"
+    }
+   ]
+  },
+  {
+   "slug": "b2-gym-membership-cancellation",
+   "title": "Cancelling Before They Charge Me Again",
+   "level": "B2",
+   "category": "Everyday Life",
+   "topic": "gym membership cancellation",
+   "difficulty": 6,
+   "duration_seconds": 90,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Member",
+     "line": "Hi, I'd like to cancel my membership, my next billing date is in four days and I want to make sure it's done in time."
+    },
+    {
+     "speaker": "Staff",
+     "line": "Sure, I can help with that. Can I ask what's prompting the cancellation?"
+    },
+    {
+     "speaker": "Member",
+     "line": "Honestly, I just haven't been going, life's been busy and it's not worth forty-five dollars a month right now."
+    },
+    {
+     "speaker": "Staff",
+     "line": "Totally get that. Just so you know, we do offer a freeze option, three months for ten dollars a month if you think you might come back."
+    },
+    {
+     "speaker": "Member",
+     "line": "That's tempting, but I'd rather just cancel clean for now."
+    },
+    {
+     "speaker": "Staff",
+     "line": "No worries, I can process that. There's a fourteen-day notice period though, so your final charge will be next month's bill."
+    },
+    {
+     "speaker": "Member",
+     "line": "Wait, so I'll still get charged even though I'm cancelling today?"
+    },
+    {
+     "speaker": "Staff",
+     "line": "Yeah, unfortunately it's in the contract, cancellations need two weeks notice, so one more payment goes through."
+    },
+    {
+     "speaker": "Member",
+     "line": "That's a bit annoying, but I guess that's fair since I did sign up for it."
+    },
+    {
+     "speaker": "Staff",
+     "line": "I appreciate you understanding. After that charge, no further payments will come out."
+    },
+    {
+     "speaker": "Member",
+     "line": "Okay, and will I get a confirmation email for this?"
+    },
+    {
+     "speaker": "Staff",
+     "line": "Yes, you'll get one within the hour with your cancellation date confirmed."
+    },
+    {
+     "speaker": "Member",
+     "line": "Perfect, thanks for making this painless at least."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What does the customer want to do?",
+     "options": [
+      "Upgrade his membership",
+      "Cancel his gym membership",
+      "Freeze his membership",
+      "File a complaint"
+     ],
+     "answer": "Cancel his gym membership",
+     "explanation": "The customer calls specifically to cancel before the next billing date.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What alternative does the staff member offer instead of cancelling?",
+     "options": [
+      "A discount",
+      "A freeze option",
+      "A free trainer session",
+      "A refund"
+     ],
+     "answer": "A freeze option",
+     "explanation": "She offers a three-month freeze for ten dollars a month.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How many days notice is required for cancellation?",
+     "options": [
+      "Seven days",
+      "Fourteen days",
+      "Thirty days",
+      "Four days"
+     ],
+     "answer": "Fourteen days",
+     "explanation": "The staff member explains a fourteen-day notice period is required.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "How much is the current monthly membership fee?",
+     "options": [
+      "Thirty-five dollars",
+      "Forty-five dollars",
+      "Fifty dollars",
+      "Twenty-five dollars"
+     ],
+     "answer": "Forty-five dollars",
+     "explanation": "The customer mentions paying forty-five dollars a month.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does the customer mean by 'I'd rather just cancel clean'?",
+     "options": [
+      "He wants a hygienic gym",
+      "He wants to cancel simply and completely, without extra options",
+      "He wants a partial refund",
+      "He wants to switch gyms"
+     ],
+     "answer": "He wants to cancel simply and completely, without extra options",
+     "explanation": "'Cancel clean' means to end it fully and simply, no leftover commitments.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the staff member mention the freeze option?",
+     "options": [
+      "To make more money from the customer",
+      "To give him an alternative before fully cancelling",
+      "To delay the cancellation process",
+      "To upsell a new membership"
+     ],
+     "answer": "To give him an alternative before fully cancelling",
+     "explanation": "She offers the freeze as an option in case he wants to return later.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Honestly, I just haven't been going, life's been busy and it's not worth forty-five dollars a month right now.",
+     "blanks": [
+      "not worth"
+     ],
+     "challenge": "expression",
+     "explanation": "'Not worth' expresses that the value doesn't justify the cost."
+    },
+    {
+     "sentence": "There's a fourteen-day notice period though, so your final charge will be next month's bill.",
+     "blanks": [
+      "fourteen-day"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the exact notice period required."
+    },
+    {
+     "sentence": "Yeah, unfortunately it's in the contract, cancellations need two weeks notice, so one more payment goes through.",
+     "blanks": [
+      "two weeks"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the notice period expressed differently here."
+    },
+    {
+     "sentence": "That's a bit annoying, but I guess that's fair since I did sign up for it.",
+     "blanks": [
+      "I guess"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'I guess' is often said quickly as a hedge in casual speech."
+    },
+    {
+     "sentence": "Perfect, thanks for making this painless at least.",
+     "blanks": [
+      "painless"
+     ],
+     "challenge": "expression",
+     "explanation": "'Painless' here means easy and without hassle."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "I would",
+     "spoken": "I'd"
+    },
+    {
+     "written": "I want to",
+     "spoken": "I wanna"
+    },
+    {
+     "written": "you will",
+     "spoken": "you'll"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-university-admissions-advising",
+   "title": "Choosing Between Two Programs",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "university admissions advising",
+   "difficulty": 7,
+   "duration_seconds": 110,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Advisor",
+     "line": "Hi, thanks for booking this session, I understand you're torn between two programs?"
+    },
+    {
+     "speaker": "Student",
+     "line": "Yeah, exactly, I got into both the business program and the computer science one, and I honestly can't decide."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "Okay, let's break it down. What's drawing you to each one?"
+    },
+    {
+     "speaker": "Student",
+     "line": "Business feels safer, like I know what I'm getting into, but computer science pays better from what I've heard."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "That's generally true, entry-level salaries in tech tend to run higher, though it varies a lot by specialization."
+    },
+    {
+     "speaker": "Student",
+     "line": "Right, but I'm worried I'll struggle since I've never coded before."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "That's a fair concern, but the program's designed for beginners, first year is pretty foundational."
+    },
+    {
+     "speaker": "Student",
+     "line": "Okay, that's reassuring actually. What about workload, is one noticeably harder than the other?"
+    },
+    {
+     "speaker": "Advisor",
+     "line": "Computer science tends to have a heavier workload, especially second and third year, lots of late nights debugging."
+    },
+    {
+     "speaker": "Student",
+     "line": "Ha, sounds rough. Is there any option to switch later if I start in one and it's not for me?"
+    },
+    {
+     "speaker": "Advisor",
+     "line": "Yeah, actually quite a few students switch between the two after first year since there's overlap in some courses."
+    },
+    {
+     "speaker": "Student",
+     "line": "Oh, that changes things, I didn't realize that was even possible."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "It is, as long as your grades meet the minimum threshold, usually around a seventy percent average."
+    },
+    {
+     "speaker": "Student",
+     "line": "Okay, that gives me a bit more breathing room to just pick one and see how it goes."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "Exactly, and remember, you're not locking yourself into a career forever, just a starting point."
+    },
+    {
+     "speaker": "Student",
+     "line": "That's a good way to look at it. I think I'll go with computer science then, and keep business as a backup mentally."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is this advising session mainly about?",
+     "options": [
+      "Applying for a scholarship",
+      "Helping a student choose between two academic programs",
+      "Discussing a failed exam",
+      "Planning a study abroad trip"
+     ],
+     "answer": "Helping a student choose between two academic programs",
+     "explanation": "The advisor helps the student compare business and computer science programs.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is the student worried about regarding computer science?",
+     "options": [
+      "The cost of tuition",
+      "Never having coded before",
+      "Not liking the professors",
+      "Not getting a job after"
+     ],
+     "answer": "Never having coded before",
+     "explanation": "The student says they're worried about struggling since they've never coded before.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "What average grade is needed to switch programs?",
+     "options": [
+      "Sixty percent",
+      "Seventy percent",
+      "Eighty percent",
+      "Ninety percent"
+     ],
+     "answer": "Seventy percent",
+     "explanation": "The advisor mentions a minimum threshold of around seventy percent average.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "When does computer science workload tend to get heavier?",
+     "options": [
+      "First year",
+      "Second and third year",
+      "Only in final year",
+      "It's the same throughout"
+     ],
+     "answer": "Second and third year",
+     "explanation": "The advisor says the workload gets heavier especially in second and third year.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'that gives me a bit more breathing room' mean?",
+     "options": [
+      "More time to breathe physically",
+      "Less pressure and more flexibility in decision-making",
+      "A bigger dorm room",
+      "More class time"
+     ],
+     "answer": "Less pressure and more flexibility in decision-making",
+     "explanation": "'Breathing room' means extra flexibility or reduced pressure.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the advisor mention that students can switch programs later?",
+     "options": [
+      "To confuse the student further",
+      "To ease the pressure of making a permanent decision now",
+      "To recommend switching immediately",
+      "To discourage computer science"
+     ],
+     "answer": "To ease the pressure of making a permanent decision now",
+     "explanation": "The advisor shares this to reassure the student the choice isn't final.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Business feels safer, like I know what I'm getting into, but computer science pays better from what I've heard.",
+     "blanks": [
+      "getting into"
+     ],
+     "challenge": "expression",
+     "explanation": "'Getting into' here means understanding or being familiar with something."
+    },
+    {
+     "sentence": "It is, as long as your grades meet the minimum threshold, usually around a seventy percent average.",
+     "blanks": [
+      "seventy percent"
+     ],
+     "challenge": "numbers",
+     "explanation": "Listen for the specific grade threshold mentioned."
+    },
+    {
+     "sentence": "Computer science tends to have a heavier workload, especially second and third year, lots of late nights debugging.",
+     "blanks": [
+      "late nights"
+     ],
+     "challenge": "expression",
+     "explanation": "'Late nights' refers to staying up working, a common idiom for heavy workload."
+    },
+    {
+     "sentence": "Okay, that gives me a bit more breathing room to just pick one and see how it goes.",
+     "blanks": [
+      "breathing room"
+     ],
+     "challenge": "expression",
+     "explanation": "An idiom meaning extra flexibility or reduced pressure."
+    },
+    {
+     "sentence": "Exactly, and remember, you're not locking yourself into a career forever, just a starting point.",
+     "blanks": [
+      "locking yourself"
+     ],
+     "challenge": "expression",
+     "explanation": "'Locking yourself into' means permanently committing to something."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "I have",
+     "spoken": "I've"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "is not",
+     "spoken": "isn't"
+    },
+    {
+     "written": "you are",
+     "spoken": "you're"
+    }
+   ]
+  }
+ ]
+}

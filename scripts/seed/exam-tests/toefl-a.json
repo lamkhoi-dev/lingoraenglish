@@ -1,0 +1,176 @@
+{
+  "tests": [
+    {
+      "exam": "toefl",
+      "slug": "toefl-library-resources-navigation",
+      "task_type": "listen-repeat",
+      "task_label": "Listen & Repeat",
+      "topic": "Finding Library Resources",
+      "difficulty": "Beginner",
+      "instructions": "Listen to the following sentences and repeat them exactly as you heard them.",
+      "prepare_seconds": 0,
+      "speak_seconds": 20,
+      "questions": [
+        "Students can find the required textbooks for their classes in the main university library.",
+        "Please remember to bring your student identification card when you want to check out books.",
+        "The library staff is available to help you locate academic journals and digital resources.",
+        "Most reference materials are located on the second floor near the quiet study area."
+      ],
+      "sort_order": 1
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-student-orientation-schedule",
+      "task_type": "listen-repeat",
+      "task_label": "Listen & Repeat",
+      "topic": "Student Orientation Week",
+      "difficulty": "Beginner",
+      "instructions": "Listen to the following sentences and repeat them exactly as you heard them.",
+      "prepare_seconds": 0,
+      "speak_seconds": 20,
+      "questions": [
+        "The orientation session for new undergraduate students will begin tomorrow morning at nine o'clock.",
+        "You will receive a campus map and a schedule of all upcoming social events.",
+        "It is important to attend the meeting regarding your choice of major and minor subjects."
+      ],
+      "sort_order": 2
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-campus-shuttle-services",
+      "task_type": "listen-repeat",
+      "task_label": "Listen & Repeat",
+      "topic": "University Bus Routes",
+      "difficulty": "Intermediate",
+      "instructions": "Listen to the following sentences and repeat them exactly as you heard them.",
+      "prepare_seconds": 0,
+      "speak_seconds": 20,
+      "questions": [
+        "The university shuttle bus runs every fifteen minutes between the north and south campuses.",
+        "Students who live off-campus can purchase a monthly parking pass from the transportation office.",
+        "Using public transportation is a cost-effective way to commute while reducing your carbon footprint."
+      ],
+      "sort_order": 3
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-cafeteria-meal-plans",
+      "task_type": "listen-repeat",
+      "task_label": "Listen & Repeat",
+      "topic": "Campus Dining Options",
+      "difficulty": "Intermediate",
+      "instructions": "Listen to the following sentences and repeat them exactly as you heard them.",
+      "prepare_seconds": 0,
+      "speak_seconds": 20,
+      "questions": [
+        "The cafeteria offers a wide variety of nutritious meals that cater to different dietary requirements.",
+        "Students can use their meal plan credits at several cafes and snack bars across the campus.",
+        "Nutritious breakfast options are served daily in the student union building from seven until ten."
+      ],
+      "sort_order": 4
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-dormitory-arrival-procedures",
+      "task_type": "listen-repeat",
+      "task_label": "Listen & Repeat",
+      "topic": "Dormitory Move-in Procedures",
+      "difficulty": "Intermediate",
+      "instructions": "Listen to the following sentences and repeat them exactly as you heard them.",
+      "prepare_seconds": 0,
+      "speak_seconds": 20,
+      "questions": [
+        "Residents are required to sign a housing agreement before they receive their room keys and access cards.",
+        "Please ensure that all personal belongings are clearly labeled to avoid confusion during the move-in process.",
+        "Resident assistants will be available to answer any questions you might have about dormitory life.",
+        "You must report any damages to your room within forty-eight hours of your arrival on campus."
+      ],
+      "sort_order": 5
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-career-center-interview",
+      "task_type": "interview",
+      "task_label": "Take an Interview",
+      "topic": "Career Services Center",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "You will be asked several questions about university career services. Respond to each prompt naturally.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "How can the university career services center help students prepare for their future professional lives?",
+        "What are some benefits of participating in an internship program related to your field of study?",
+        "In your opinion, should career counseling be a mandatory part of the university curriculum for all students?"
+      ],
+      "sort_order": 6
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-study-abroad-interview",
+      "task_type": "interview",
+      "task_label": "Take an Interview",
+      "topic": "Study Abroad Programs",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Answer the questions about international study programs. Speak clearly and provide details for your answers.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Why do you think many students choose to spend a semester studying in a foreign country?",
+        "What challenges might a student face when adjusting to a different academic system abroad?",
+        "How does experiencing a new culture contribute to a student's personal and academic growth?"
+      ],
+      "sort_order": 7
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-undergraduate-research-interview",
+      "task_type": "interview",
+      "task_label": "Take an Interview",
+      "topic": "Undergraduate Research Opportunities",
+      "difficulty": "Advanced",
+      "instructions": "Respond to the following prompts about student research. Elaborate on your thoughts using academic language.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Discuss the advantages of working as a research assistant for a faculty member during your undergraduate years.",
+        "How does conducting original research prepare students for advanced graduate-level studies or professional careers?",
+        "What qualities are most important for a student who wishes to succeed in a demanding research environment?"
+      ],
+      "sort_order": 8
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-campus-sustainability-interview",
+      "task_type": "interview",
+      "task_label": "Take an Interview",
+      "topic": "Environmental Sustainability Initiatives",
+      "difficulty": "Advanced",
+      "instructions": "You will be asked questions about campus sustainability. Provide comprehensive and thoughtful responses.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "How can universities effectively encourage students to adopt more sustainable habits in their daily campus lives?",
+        "Evaluate the impact of campus-wide recycling and composting programs on the local environment and community.",
+        "In what ways should educational institutions incorporate environmental ethics into their core academic curriculum?"
+      ],
+      "sort_order": 9
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-academic-integrity-interview",
+      "task_type": "interview",
+      "task_label": "Take an Interview",
+      "topic": "Maintaining Academic Integrity",
+      "difficulty": "Advanced",
+      "instructions": "Answer the prompts regarding academic honesty and integrity. Support your opinions with clear reasoning.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Why is it crucial for a university to maintain strict policies regarding academic honesty and plagiarism?",
+        "How does the pressure to achieve high grades influence a student's decision-making regarding academic integrity?",
+        "What measures can professors take to foster a culture of honesty and original thinking in their classrooms?"
+      ],
+      "sort_order": 10
+    }
+  ]
+}

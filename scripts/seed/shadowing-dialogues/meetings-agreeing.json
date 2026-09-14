@@ -1,0 +1,41 @@
+{
+  "topic_slug": "meetings-agreeing",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Simple agreement",
+      "turns": [
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "I think we should start the project on Monday.", "is_free": true },
+        { "speaker_label": "Colleague B", "speaker_voice": "alloy", "sentence": "I agree, Monday sounds good.", "is_free": true },
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Great, let's tell the team.", "is_free": true },
+        { "speaker_label": "Colleague B", "speaker_voice": "alloy", "sentence": "Sure, I'll send a message now.", "is_free": true },
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Perfect, thanks.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Polite disagreement",
+      "turns": [
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "I really think we should launch the campaign next week as planned.", "is_free": false },
+        { "speaker_label": "Colleague B", "speaker_voice": "sage", "sentence": "I see your point, but I'm a little hesitant given the design isn't fully finalized yet.", "is_free": false },
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "That's a fair concern — how much more time do you think the design team needs?", "is_free": false },
+        { "speaker_label": "Colleague B", "speaker_voice": "sage", "sentence": "Probably just three or four extra days, if we push a little.", "is_free": false },
+        { "speaker_label": "Colleague A", "speaker_voice": "coral", "sentence": "Alright, let's shift the launch by a few days then rather than rush it.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Reaching a compromise",
+      "turns": [
+        { "speaker_label": "Stakeholder A", "speaker_voice": "nova", "sentence": "I understand the appeal of the aggressive timeline, but I remain unconvinced it's realistic given our current resources.", "is_free": false },
+        { "speaker_label": "Stakeholder B", "speaker_voice": "shimmer", "sentence": "That's a fair concern — perhaps we could phase the rollout instead of committing to a single hard deadline.", "is_free": false },
+        { "speaker_label": "Stakeholder A", "speaker_voice": "nova", "sentence": "I'd be far more comfortable with that — could we start with a limited pilot before the full rollout?", "is_free": false },
+        { "speaker_label": "Stakeholder B", "speaker_voice": "shimmer", "sentence": "That works for me. Let's define the pilot scope and revisit the full timeline once we have real data.", "is_free": false },
+        { "speaker_label": "Stakeholder A", "speaker_voice": "nova", "sentence": "Agreed — that feels like a compromise both sides can genuinely stand behind.", "is_free": false }
+      ]
+    }
+  ]
+}

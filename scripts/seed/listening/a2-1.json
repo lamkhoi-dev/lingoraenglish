@@ -1,0 +1,1575 @@
+{
+ "lessons": [
+  {
+   "slug": "a2-returning-an-item",
+   "title": "Taking Back a Sweater",
+   "level": "A2",
+   "category": "Everyday Life",
+   "topic": "returning an item",
+   "difficulty": 3,
+   "duration_seconds": 45,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Sarah",
+     "line": "Hi, I bought this sweater last week, but it doesn't fit me right."
+    },
+    {
+     "speaker": "Mike",
+     "line": "No problem. Did you bring your receipt with you?"
+    },
+    {
+     "speaker": "Sarah",
+     "line": "Yeah, I've got it right here in my bag."
+    },
+    {
+     "speaker": "Mike",
+     "line": "Great, thanks. Would you like a refund or an exchange?"
+    },
+    {
+     "speaker": "Sarah",
+     "line": "I think I'd like to exchange it for a bigger size."
+    },
+    {
+     "speaker": "Mike",
+     "line": "Sure, we've got that in a medium and a large."
+    },
+    {
+     "speaker": "Sarah",
+     "line": "I'll try the large, please."
+    },
+    {
+     "speaker": "Mike",
+     "line": "Okay, let me just grab one from the back."
+    },
+    {
+     "speaker": "Sarah",
+     "line": "Thanks a lot, I really appreciate it."
+    },
+    {
+     "speaker": "Mike",
+     "line": "No worries at all, it'll just take a minute."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is this conversation mainly about?",
+     "options": [
+      "Buying a new sweater",
+      "Returning a sweater that doesn't fit",
+      "Asking about store hours",
+      "Complaining about a price"
+     ],
+     "answer": "Returning a sweater that doesn't fit",
+     "explanation": "Sarah wants to exchange a sweater that doesn't fit.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does Sarah want instead of a refund?",
+     "options": [
+      "A gift card",
+      "An exchange for a bigger size",
+      "Store credit",
+      "Her money back"
+     ],
+     "answer": "An exchange for a bigger size",
+     "explanation": "Sarah says she'd like to exchange it for a bigger size.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What size does Sarah try?",
+     "options": [
+      "Small",
+      "Medium",
+      "Large",
+      "Extra large"
+     ],
+     "answer": "Large",
+     "explanation": "Sarah says she'll try the large.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Sarah forgot her receipt.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "She had it in her bag.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Mike ask about the receipt?",
+     "options": [
+      "To check the price",
+      "To process the return properly",
+      "To call the manager",
+      "To give a discount"
+     ],
+     "answer": "To process the return properly",
+     "explanation": "He needs the receipt to help with the return.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Did you bring your receipt with you?",
+     "blanks": [
+      "bring",
+      "receipt"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Did you often blends together in fast speech."
+    },
+    {
+     "sentence": "I've got it right here in my bag.",
+     "blanks": [
+      "I've got"
+     ],
+     "challenge": "contraction",
+     "explanation": "I've got is a common contraction for I have got."
+    },
+    {
+     "sentence": "I think I'd like to exchange it for a bigger size.",
+     "blanks": [
+      "I'd like"
+     ],
+     "challenge": "contraction",
+     "explanation": "I'd is short for I would."
+    },
+    {
+     "sentence": "It'll just take a minute.",
+     "blanks": [
+      "It'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "It'll is the contraction for it will."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "did you",
+     "spoken": "didja"
+    }
+   ]
+  },
+  {
+   "slug": "a2-calling-customer-service",
+   "title": "My Internet Isn't Working",
+   "level": "A2",
+   "category": "Everyday Life",
+   "topic": "calling customer service",
+   "difficulty": 3,
+   "duration_seconds": 50,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Emily",
+     "line": "Hi, my internet has been down since this morning."
+    },
+    {
+     "speaker": "David",
+     "line": "I'm sorry to hear that. Can I get your account number, please?"
+    },
+    {
+     "speaker": "Emily",
+     "line": "Sure, it's 4-4-5-9-2-1."
+    },
+    {
+     "speaker": "David",
+     "line": "Thanks. Have you tried restarting your router?"
+    },
+    {
+     "speaker": "Emily",
+     "line": "Yeah, I've turned it off and on twice already."
+    },
+    {
+     "speaker": "David",
+     "line": "Okay, it looks like there's an outage in your area."
+    },
+    {
+     "speaker": "Emily",
+     "line": "Oh, so it's not just my house then?"
+    },
+    {
+     "speaker": "David",
+     "line": "No, it's affecting a few streets nearby too."
+    },
+    {
+     "speaker": "Emily",
+     "line": "That's good to know. When will it be fixed?"
+    },
+    {
+     "speaker": "David",
+     "line": "Our technicians should have it running again by tonight."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main topic of this call?",
+     "options": [
+      "Cancelling a service",
+      "An internet outage",
+      "Ordering a new router",
+      "Changing an address"
+     ],
+     "answer": "An internet outage",
+     "explanation": "Emily calls because her internet isn't working.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What has Emily already tried?",
+     "options": [
+      "Calling her neighbour",
+      "Restarting her router",
+      "Buying a new modem",
+      "Changing her password"
+     ],
+     "answer": "Restarting her router",
+     "explanation": "She says she turned it off and on twice.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "When does David say the internet should be fixed?",
+     "options": [
+      "In an hour",
+      "Tomorrow morning",
+      "By tonight",
+      "Next week"
+     ],
+     "answer": "By tonight",
+     "explanation": "David says technicians should have it running by tonight.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Only Emily's house is affected by the outage.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "David says it's affecting a few streets nearby too.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "What does David ask Emily for first?",
+     "options": [
+      "Her phone number",
+      "Her address",
+      "Her account number",
+      "Her email"
+     ],
+     "answer": "Her account number",
+     "explanation": "David asks for the account number at the start.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "My internet has been down since this morning.",
+     "blanks": [
+      "has been down"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "Has been is often reduced when spoken quickly."
+    },
+    {
+     "sentence": "I've turned it off and on twice already.",
+     "blanks": [
+      "I've turned"
+     ],
+     "challenge": "contraction",
+     "explanation": "I've is short for I have."
+    },
+    {
+     "sentence": "It looks like there's an outage in your area.",
+     "blanks": [
+      "there's"
+     ],
+     "challenge": "contraction",
+     "explanation": "There's is the contraction for there is."
+    },
+    {
+     "sentence": "Our technicians should have it running again by tonight.",
+     "blanks": [
+      "should have"
+     ],
+     "challenge": "weak_form",
+     "explanation": "Should have is often reduced to 'shoulda' in speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "it is",
+     "spoken": "it's"
+    }
+   ]
+  },
+  {
+   "slug": "a2-grocery-delivery-problem",
+   "title": "My Groceries Are Missing Something",
+   "level": "A2",
+   "category": "Everyday Life",
+   "topic": "grocery delivery problem",
+   "difficulty": 3,
+   "duration_seconds": 48,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Lisa",
+     "line": "Hi, I just got my grocery delivery, but two items are missing."
+    },
+    {
+     "speaker": "Tom",
+     "line": "Oh no, I'm sorry about that. Which items didn't show up?"
+    },
+    {
+     "speaker": "Lisa",
+     "line": "I ordered a carton of eggs and a bag of apples, and neither came."
+    },
+    {
+     "speaker": "Tom",
+     "line": "Let me check your order real quick."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Sure, take your time."
+    },
+    {
+     "speaker": "Tom",
+     "line": "I see it now, looks like they were out of stock this morning."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Ah, that makes sense. Can I get a refund for those?"
+    },
+    {
+     "speaker": "Tom",
+     "line": "Of course, I'll refund you right away."
+    },
+    {
+     "speaker": "Lisa",
+     "line": "Thanks so much, I appreciate the quick help."
+    },
+    {
+     "speaker": "Tom",
+     "line": "No problem, sorry again for the trouble."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is Lisa calling about?",
+     "options": [
+      "A late delivery",
+      "Missing items from her order",
+      "A wrong address",
+      "A broken item"
+     ],
+     "answer": "Missing items from her order",
+     "explanation": "Two items didn't arrive with her delivery.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Which items were missing?",
+     "options": [
+      "Milk and bread",
+      "Eggs and apples",
+      "Cheese and bananas",
+      "Rice and chicken"
+     ],
+     "answer": "Eggs and apples",
+     "explanation": "Lisa says she ordered eggs and apples, and neither came.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Why were the items missing?",
+     "options": [
+      "They were delivered to the wrong house",
+      "They were out of stock",
+      "They were too heavy",
+      "The driver forgot them"
+     ],
+     "answer": "They were out of stock",
+     "explanation": "Tom says they were out of stock that morning.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Tom refuses to give Lisa a refund.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "Tom agrees to refund her right away.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Tom check the order?",
+     "options": [
+      "To cancel it",
+      "To find out what happened",
+      "To add more items",
+      "To change the address"
+     ],
+     "answer": "To find out what happened",
+     "explanation": "He checks to see why the items are missing.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I just got my grocery delivery, but two items are missing.",
+     "blanks": [
+      "just got"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Just got often blends together in fast natural speech."
+    },
+    {
+     "sentence": "Let me check your order real quick.",
+     "blanks": [
+      "real quick"
+     ],
+     "challenge": "expression",
+     "explanation": "Real quick is a common informal expression for quickly."
+    },
+    {
+     "sentence": "Looks like they were out of stock this morning.",
+     "blanks": [
+      "out of stock"
+     ],
+     "challenge": "expression",
+     "explanation": "Out of stock means an item isn't available to buy."
+    },
+    {
+     "sentence": "I'll refund you right away.",
+     "blanks": [
+      "I'll refund"
+     ],
+     "challenge": "contraction",
+     "explanation": "I'll is short for I will."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "a2-making-a-dentist-appointment",
+   "title": "Booking a Dentist Appointment",
+   "level": "A2",
+   "category": "Everyday Life",
+   "topic": "making a dentist appointment",
+   "difficulty": 3,
+   "duration_seconds": 47,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Anna",
+     "line": "Hi, I'd like to make an appointment to see Dr. Lee."
+    },
+    {
+     "speaker": "Receptionist",
+     "line": "Sure, is this your first time visiting our clinic?"
+    },
+    {
+     "speaker": "Anna",
+     "line": "No, I've been here before, but it's been a while."
+    },
+    {
+     "speaker": "Receptionist",
+     "line": "No worries, what's your date of birth?"
+    },
+    {
+     "speaker": "Anna",
+     "line": "It's March 3rd, 1994."
+    },
+    {
+     "speaker": "Receptionist",
+     "line": "Got it. Are you free this Thursday at 2 PM?"
+    },
+    {
+     "speaker": "Anna",
+     "line": "Hmm, could we do Friday instead? Thursday's tricky for me."
+    },
+    {
+     "speaker": "Receptionist",
+     "line": "Sure thing, how about Friday at 10 AM?"
+    },
+    {
+     "speaker": "Anna",
+     "line": "That works perfectly for me."
+    },
+    {
+     "speaker": "Receptionist",
+     "line": "Great, we'll see you then."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is Anna doing in this call?",
+     "options": [
+      "Cancelling an appointment",
+      "Booking a dentist appointment",
+      "Asking about a bill",
+      "Ordering medicine"
+     ],
+     "answer": "Booking a dentist appointment",
+     "explanation": "Anna wants to make an appointment with Dr. Lee.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "When is Anna's date of birth?",
+     "options": [
+      "March 3rd, 1994",
+      "May 3rd, 1994",
+      "March 13th, 1994",
+      "March 3rd, 1984"
+     ],
+     "answer": "March 3rd, 1994",
+     "explanation": "Anna states her date of birth clearly.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What day does Anna finally choose?",
+     "options": [
+      "Thursday",
+      "Wednesday",
+      "Friday",
+      "Monday"
+     ],
+     "answer": "Friday",
+     "explanation": "Anna asks for Friday instead of Thursday.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Anna has never visited this clinic before.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "Anna says she's been there before, but it's been a while.",
+     "skill": "details"
+    },
+    {
+     "type": "wh",
+     "prompt": "What time is Anna's final appointment?",
+     "options": [
+      "9 AM",
+      "10 AM",
+      "2 PM",
+      "3 PM"
+     ],
+     "answer": "10 AM",
+     "explanation": "The receptionist offers Friday at 10 AM and Anna agrees.",
+     "skill": "numbers_dates"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I'd like to make an appointment to see Dr. Lee.",
+     "blanks": [
+      "I'd like"
+     ],
+     "challenge": "contraction",
+     "explanation": "I'd is short for I would."
+    },
+    {
+     "sentence": "I've been here before, but it's been a while.",
+     "blanks": [
+      "I've been"
+     ],
+     "challenge": "contraction",
+     "explanation": "I've is the contraction for I have."
+    },
+    {
+     "sentence": "Could we do Friday instead?",
+     "blanks": [
+      "Could we"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Could we often links together smoothly in speech."
+    },
+    {
+     "sentence": "We'll see you then.",
+     "blanks": [
+      "We'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "We'll is short for we will."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "what is",
+     "spoken": "what's"
+    }
+   ]
+  },
+  {
+   "slug": "a2-neighbour-noise-complaint",
+   "title": "The Noise Next Door",
+   "level": "A2",
+   "category": "Canadian Life",
+   "topic": "talking to a neighbour about noise",
+   "difficulty": 4,
+   "duration_seconds": 52,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Jason",
+     "line": "Hey, sorry to bother you, but I wanted to talk about the noise last night."
+    },
+    {
+     "speaker": "Karen",
+     "line": "Oh, I'm really sorry about that. We had some friends over."
+    },
+    {
+     "speaker": "Jason",
+     "line": "No worries, I get it, but it went on pretty late."
+    },
+    {
+     "speaker": "Karen",
+     "line": "Yeah, I know, we lost track of time. I feel bad about it."
+    },
+    {
+     "speaker": "Jason",
+     "line": "It's okay, it just made it hard for my kids to sleep."
+    },
+    {
+     "speaker": "Karen",
+     "line": "That's fair. I'll make sure we keep it down next time."
+    },
+    {
+     "speaker": "Jason",
+     "line": "I'd really appreciate that, thanks for understanding."
+    },
+    {
+     "speaker": "Karen",
+     "line": "Of course, and thanks for coming to talk to me directly."
+    },
+    {
+     "speaker": "Jason",
+     "line": "No problem, that's what neighbours are for, right?"
+    },
+    {
+     "speaker": "Karen",
+     "line": "Exactly, have a good day!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "Why does Jason talk to Karen?",
+     "options": [
+      "To borrow something",
+      "To complain about noise",
+      "To invite her to a party",
+      "To ask for help moving"
+     ],
+     "answer": "To complain about noise",
+     "explanation": "Jason mentions the noise from the night before.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What kept Jason's kids from sleeping?",
+     "options": [
+      "The noise from Karen's party",
+      "A thunderstorm",
+      "Loud music from the street",
+      "A car alarm"
+     ],
+     "answer": "The noise from Karen's party",
+     "explanation": "Jason says it made it hard for his kids to sleep.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does Karen promise to do?",
+     "options": [
+      "Move out",
+      "Keep the noise down next time",
+      "Call the police",
+      "Stop having friends over"
+     ],
+     "answer": "Keep the noise down next time",
+     "explanation": "Karen promises to keep it down next time.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Karen gets angry at Jason for complaining.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "Karen apologizes and thanks him for talking to her directly.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Karen thank Jason at the end?",
+     "options": [
+      "For inviting her to dinner",
+      "For coming to talk to her directly",
+      "For fixing her fence",
+      "For lending her something"
+     ],
+     "answer": "For coming to talk to her directly",
+     "explanation": "Karen appreciates that he addressed it personally.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Sorry to bother you, but I wanted to talk about the noise last night.",
+     "blanks": [
+      "wanted to"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Wanted to often sounds like 'wanted-ta' in fast speech."
+    },
+    {
+     "sentence": "We lost track of time.",
+     "blanks": [
+      "lost track"
+     ],
+     "challenge": "expression",
+     "explanation": "Lost track of time is a common idiom for not noticing time passing."
+    },
+    {
+     "sentence": "I'll make sure we keep it down next time.",
+     "blanks": [
+      "I'll make"
+     ],
+     "challenge": "contraction",
+     "explanation": "I'll is the contraction for I will."
+    },
+    {
+     "sentence": "That's what neighbours are for, right?",
+     "blanks": [
+      "That's what"
+     ],
+     "challenge": "contraction",
+     "explanation": "That's is short for that is."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    }
+   ]
+  },
+  {
+   "slug": "a2-asking-coworker-for-help",
+   "title": "Can You Help Me With This?",
+   "level": "A2",
+   "category": "Work & Career",
+   "topic": "asking a coworker for help",
+   "difficulty": 3,
+   "duration_seconds": 45,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Ryan",
+     "line": "Hey Nicole, do you have a minute? I'm stuck on this report."
+    },
+    {
+     "speaker": "Nicole",
+     "line": "Sure, what's going on with it?"
+    },
+    {
+     "speaker": "Ryan",
+     "line": "I can't figure out how to fix this formula in the spreadsheet."
+    },
+    {
+     "speaker": "Nicole",
+     "line": "Oh, I've run into that before. Let me take a look."
+    },
+    {
+     "speaker": "Ryan",
+     "line": "Thanks, I really appreciate it."
+    },
+    {
+     "speaker": "Nicole",
+     "line": "No problem. See, you just need to add a dollar sign here."
+    },
+    {
+     "speaker": "Ryan",
+     "line": "Oh, that's so simple, I can't believe I missed it."
+    },
+    {
+     "speaker": "Nicole",
+     "line": "Happens to everyone, don't worry about it."
+    },
+    {
+     "speaker": "Ryan",
+     "line": "You saved me a ton of time, thank you."
+    },
+    {
+     "speaker": "Nicole",
+     "line": "Anytime, just let me know if you need anything else."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What does Ryan need help with?",
+     "options": [
+      "Writing an email",
+      "Fixing a spreadsheet formula",
+      "Printing a document",
+      "Scheduling a meeting"
+     ],
+     "answer": "Fixing a spreadsheet formula",
+     "explanation": "Ryan is stuck on a formula in a report.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What was the solution to the problem?",
+     "options": [
+      "Restarting the computer",
+      "Adding a dollar sign",
+      "Deleting the sheet",
+      "Calling IT"
+     ],
+     "answer": "Adding a dollar sign",
+     "explanation": "Nicole tells him to add a dollar sign to fix it.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "How does Nicole know how to fix it?",
+     "options": [
+      "She read the manual",
+      "She's run into that before",
+      "She asked a manager",
+      "She guessed"
+     ],
+     "answer": "She's run into that before",
+     "explanation": "Nicole says she's run into that issue before.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Ryan solves the problem by himself.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "Nicole helps him fix the formula.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Ryan say 'do you have a minute'?",
+     "options": [
+      "To ask her out",
+      "To politely start asking for help",
+      "To end the conversation",
+      "To complain about work"
+     ],
+     "answer": "To politely start asking for help",
+     "explanation": "It's a common way to check if someone is free to help.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I can't figure out how to fix this formula in the spreadsheet.",
+     "blanks": [
+      "can't figure"
+     ],
+     "challenge": "contraction",
+     "explanation": "Can't is the contraction for cannot."
+    },
+    {
+     "sentence": "I've run into that before.",
+     "blanks": [
+      "I've run"
+     ],
+     "challenge": "contraction",
+     "explanation": "I've is short for I have."
+    },
+    {
+     "sentence": "I can't believe I missed it.",
+     "blanks": [
+      "can't believe"
+     ],
+     "challenge": "contraction",
+     "explanation": "Can't believe is a common expression of surprise."
+    },
+    {
+     "sentence": "You saved me a ton of time, thank you.",
+     "blanks": [
+      "a ton"
+     ],
+     "challenge": "expression",
+     "explanation": "A ton of time is an informal way to say a lot of time."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "what is",
+     "spoken": "what's"
+    }
+   ]
+  },
+  {
+   "slug": "a2-workplace-small-talk",
+   "title": "Chatting by the Coffee Machine",
+   "level": "A2",
+   "category": "Work & Career",
+   "topic": "workplace small talk",
+   "difficulty": 3,
+   "duration_seconds": 42,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Ben",
+     "line": "Morning! Did you have a good weekend?"
+    },
+    {
+     "speaker": "Priya",
+     "line": "Yeah, it was pretty relaxing. I mostly just stayed home."
+    },
+    {
+     "speaker": "Ben",
+     "line": "Nice, sometimes that's exactly what you need."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Totally. What about you, did you do anything fun?"
+    },
+    {
+     "speaker": "Ben",
+     "line": "I went hiking with a few friends on Saturday."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Oh, that sounds great. Where did you go?"
+    },
+    {
+     "speaker": "Ben",
+     "line": "Just a trail near the river, not too far from here."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I've been wanting to try that trail for a while."
+    },
+    {
+     "speaker": "Ben",
+     "line": "You should, it's beautiful this time of year."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I might go this weekend, thanks for the idea!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What are Ben and Priya mainly talking about?",
+     "options": [
+      "A work project",
+      "Their weekend plans and activities",
+      "A meeting schedule",
+      "A company policy"
+     ],
+     "answer": "Their weekend plans and activities",
+     "explanation": "They chat about what they did over the weekend.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What did Ben do on Saturday?",
+     "options": [
+      "Went shopping",
+      "Went hiking",
+      "Watched a movie",
+      "Visited family"
+     ],
+     "answer": "Went hiking",
+     "explanation": "Ben says he went hiking with friends.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Where is the trail Ben mentions?",
+     "options": [
+      "Near the mountains",
+      "Near the river",
+      "In the city center",
+      "Near his office"
+     ],
+     "answer": "Near the river",
+     "explanation": "Ben says it's a trail near the river.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Priya has already tried that hiking trail.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "She says she's been wanting to try it for a while.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Priya say 'thanks for the idea'?",
+     "options": [
+      "Ben gave her a gift",
+      "Ben suggested something she wants to try",
+      "Ben helped her with a task",
+      "Ben invited her to lunch"
+     ],
+     "answer": "Ben suggested something she wants to try",
+     "explanation": "Ben's suggestion about the trail inspired her plan.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Did you have a good weekend?",
+     "blanks": [
+      "Did you"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Did you often blends into 'didja' in casual speech."
+    },
+    {
+     "sentence": "I've been wanting to try that trail for a while.",
+     "blanks": [
+      "I've been"
+     ],
+     "challenge": "contraction",
+     "explanation": "I've is short for I have."
+    },
+    {
+     "sentence": "It's beautiful this time of year.",
+     "blanks": [
+      "It's beautiful"
+     ],
+     "challenge": "contraction",
+     "explanation": "It's is the contraction for it is."
+    },
+    {
+     "sentence": "I might go this weekend, thanks for the idea!",
+     "blanks": [
+      "might go"
+     ],
+     "challenge": "expression",
+     "explanation": "Might go expresses a possible future plan."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "did you",
+     "spoken": "didja"
+    }
+   ]
+  },
+  {
+   "slug": "a2-scheduling-a-meeting",
+   "title": "Let's Find a Time",
+   "level": "A2",
+   "category": "Work & Career",
+   "topic": "scheduling a meeting",
+   "difficulty": 4,
+   "duration_seconds": 50,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Oliver",
+     "line": "Hi Grace, do you have some time this week to go over the project?"
+    },
+    {
+     "speaker": "Grace",
+     "line": "I think so, let me check my calendar quickly."
+    },
+    {
+     "speaker": "Oliver",
+     "line": "Sure, take your time."
+    },
+    {
+     "speaker": "Grace",
+     "line": "I'm free on Wednesday afternoon or Thursday morning."
+    },
+    {
+     "speaker": "Oliver",
+     "line": "Thursday morning works better for me, actually."
+    },
+    {
+     "speaker": "Grace",
+     "line": "Great, how about 9:30?"
+    },
+    {
+     "speaker": "Oliver",
+     "line": "That's a bit early for me. Could we push it to 10?"
+    },
+    {
+     "speaker": "Grace",
+     "line": "Yeah, 10 o'clock is fine. I'll send you an invite."
+    },
+    {
+     "speaker": "Oliver",
+     "line": "Perfect, thanks for sorting that out."
+    },
+    {
+     "speaker": "Grace",
+     "line": "No worries, see you Thursday!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What are Oliver and Grace doing?",
+     "options": [
+      "Planning a party",
+      "Scheduling a meeting",
+      "Discussing a budget",
+      "Cancelling a project"
+     ],
+     "answer": "Scheduling a meeting",
+     "explanation": "They're finding a time to go over the project.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Which day do they choose to meet?",
+     "options": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+     ],
+     "answer": "Thursday",
+     "explanation": "Oliver says Thursday morning works better for him.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What time do they finally agree on?",
+     "options": [
+      "9:30",
+      "10:00",
+      "10:30",
+      "11:00"
+     ],
+     "answer": "10:00",
+     "explanation": "Oliver asks to push it to 10, and Grace agrees.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Grace will send Oliver a calendar invite.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "True",
+     "explanation": "Grace says she'll send him an invite.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Oliver ask to push the meeting to 10?",
+     "options": [
+      "He has another meeting",
+      "9:30 is too early for him",
+      "He forgot the time",
+      "He wants a longer meeting"
+     ],
+     "answer": "9:30 is too early for him",
+     "explanation": "Oliver says 9:30 is a bit early for him.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Let me check my calendar quickly.",
+     "blanks": [
+      "check my"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Check my often links smoothly in natural speech."
+    },
+    {
+     "sentence": "Could we push it to 10?",
+     "blanks": [
+      "push it"
+     ],
+     "challenge": "expression",
+     "explanation": "Push it to means to move something to a later time."
+    },
+    {
+     "sentence": "I'll send you an invite.",
+     "blanks": [
+      "I'll send"
+     ],
+     "challenge": "contraction",
+     "explanation": "I'll is short for I will."
+    },
+    {
+     "sentence": "Thanks for sorting that out.",
+     "blanks": [
+      "sorting that"
+     ],
+     "challenge": "expression",
+     "explanation": "Sorting something out means solving or arranging it."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "a2-weekend-plans-with-a-friend",
+   "title": "What Are You Doing This Weekend?",
+   "level": "A2",
+   "category": "Social English",
+   "topic": "weekend plans with a friend",
+   "difficulty": 3,
+   "duration_seconds": 44,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Chloe",
+     "line": "Hey, do you have any plans for the weekend?"
+    },
+    {
+     "speaker": "Marco",
+     "line": "Not really, why? Did you have something in mind?"
+    },
+    {
+     "speaker": "Chloe",
+     "line": "I was thinking we could check out that new movie theatre."
+    },
+    {
+     "speaker": "Marco",
+     "line": "Oh, that sounds fun. What's playing right now?"
+    },
+    {
+     "speaker": "Chloe",
+     "line": "There's a comedy and an action movie, I think."
+    },
+    {
+     "speaker": "Marco",
+     "line": "Let's go with the comedy, I could use a good laugh."
+    },
+    {
+     "speaker": "Chloe",
+     "line": "Sounds good. Should we go Saturday or Sunday?"
+    },
+    {
+     "speaker": "Marco",
+     "line": "Saturday works better, I've got plans on Sunday."
+    },
+    {
+     "speaker": "Chloe",
+     "line": "Perfect, I'll book the tickets tonight."
+    },
+    {
+     "speaker": "Marco",
+     "line": "Great, I can't wait!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What are Chloe and Marco planning?",
+     "options": [
+      "A road trip",
+      "A movie night at the new theatre",
+      "A birthday party",
+      "A picnic"
+     ],
+     "answer": "A movie night at the new theatre",
+     "explanation": "They plan to check out the new movie theatre together.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Which movie do they decide to watch?",
+     "options": [
+      "The action movie",
+      "The comedy",
+      "A drama",
+      "A documentary"
+     ],
+     "answer": "The comedy",
+     "explanation": "Marco says he could use a good laugh, so they pick the comedy.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Which day do they choose to go?",
+     "options": [
+      "Friday",
+      "Saturday",
+      "Sunday",
+      "Monday"
+     ],
+     "answer": "Saturday",
+     "explanation": "Marco says Saturday works better because he has plans Sunday.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Marco is busy on Saturday.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "Marco is busy on Sunday, not Saturday.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Who will book the tickets?",
+     "options": [
+      "Marco",
+      "Chloe",
+      "Both of them",
+      "Neither"
+     ],
+     "answer": "Chloe",
+     "explanation": "Chloe says she'll book the tickets tonight.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Did you have something in mind?",
+     "blanks": [
+      "Did you"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "Did you often sounds like 'didja' in casual speech."
+    },
+    {
+     "sentence": "I could use a good laugh.",
+     "blanks": [
+      "could use"
+     ],
+     "challenge": "expression",
+     "explanation": "Could use is a casual way of saying 'need' or 'want.'"
+    },
+    {
+     "sentence": "I've got plans on Sunday.",
+     "blanks": [
+      "I've got"
+     ],
+     "challenge": "contraction",
+     "explanation": "I've got is short for I have got."
+    },
+    {
+     "sentence": "I'll book the tickets tonight.",
+     "blanks": [
+      "I'll book"
+     ],
+     "challenge": "contraction",
+     "explanation": "I'll is the contraction for I will."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "did you",
+     "spoken": "didja"
+    }
+   ]
+  },
+  {
+   "slug": "a2-inviting-someone-to-dinner",
+   "title": "Come Over for Dinner",
+   "level": "A2",
+   "category": "Social English",
+   "topic": "inviting someone to dinner",
+   "difficulty": 3,
+   "duration_seconds": 46,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Hannah",
+     "line": "Hey, are you free on Friday night by any chance?"
+    },
+    {
+     "speaker": "Liam",
+     "line": "I think so, why do you ask?"
+    },
+    {
+     "speaker": "Hannah",
+     "line": "I'm cooking dinner for a few friends and I'd love for you to come."
+    },
+    {
+     "speaker": "Liam",
+     "line": "That sounds great, what time should I come by?"
+    },
+    {
+     "speaker": "Hannah",
+     "line": "Maybe around 7? That should give me time to finish cooking."
+    },
+    {
+     "speaker": "Liam",
+     "line": "Perfect, should I bring anything?"
+    },
+    {
+     "speaker": "Hannah",
+     "line": "Just yourself, but a bottle of wine would be nice."
+    },
+    {
+     "speaker": "Liam",
+     "line": "I can definitely bring that. Thanks for inviting me."
+    },
+    {
+     "speaker": "Hannah",
+     "line": "Of course, it wouldn't be the same without you."
+    },
+    {
+     "speaker": "Liam",
+     "line": "Aww, see you Friday then!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is Hannah inviting Liam to?",
+     "options": [
+      "A birthday party",
+      "Dinner at her place",
+      "A work event",
+      "A movie night"
+     ],
+     "answer": "Dinner at her place",
+     "explanation": "Hannah is cooking dinner and invites Liam over.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What time should Liam come?",
+     "options": [
+      "6 o'clock",
+      "7 o'clock",
+      "8 o'clock",
+      "9 o'clock"
+     ],
+     "answer": "7 o'clock",
+     "explanation": "Hannah suggests around 7.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does Hannah ask Liam to bring?",
+     "options": [
+      "Dessert",
+      "A bottle of wine",
+      "Bread",
+      "Nothing at all"
+     ],
+     "answer": "A bottle of wine",
+     "explanation": "Hannah says a bottle of wine would be nice.",
+     "skill": "details"
+    },
+    {
+     "type": "true_false",
+     "prompt": "Hannah is cooking dinner for just herself and Liam.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "She says she's cooking for a few friends.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Hannah say 'it wouldn't be the same without you'?",
+     "options": [
+      "To ask him to cook",
+      "To show she really wants him there",
+      "To cancel the invite",
+      "To complain"
+     ],
+     "answer": "To show she really wants him there",
+     "explanation": "It's a warm way of showing his presence matters.",
+     "skill": "intention"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Are you free on Friday night by any chance?",
+     "blanks": [
+      "by any chance"
+     ],
+     "challenge": "expression",
+     "explanation": "By any chance softens a question politely."
+    },
+    {
+     "sentence": "I'd love for you to come.",
+     "blanks": [
+      "I'd love"
+     ],
+     "challenge": "contraction",
+     "explanation": "I'd is short for I would."
+    },
+    {
+     "sentence": "That should give me time to finish cooking.",
+     "blanks": [
+      "should give"
+     ],
+     "challenge": "weak_form",
+     "explanation": "Should is often reduced in fast connected speech."
+    },
+    {
+     "sentence": "It wouldn't be the same without you.",
+     "blanks": [
+      "wouldn't be"
+     ],
+     "challenge": "contraction",
+     "explanation": "Wouldn't is the contraction for would not."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "slug": "p2-dream-job",
+      "part": 2,
+      "topic": "A job you would like to have",
+      "difficulty": "Beginner",
+      "questions": [],
+      "cue_card": "Describe a job you would like to have.",
+      "cue_points": [
+        "What the job is",
+        "What qualifications or skills it requires",
+        "Where you would work",
+        "Why you would like to have this job"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 21
+    },
+    {
+      "slug": "p2-interesting-conversation",
+      "part": 2,
+      "topic": "An interesting conversation you had",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe an interesting conversation you had with someone.",
+      "cue_points": [
+        "Who you talked to",
+        "When and where the conversation happened",
+        "What you talked about",
+        "Why the conversation was interesting"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 22
+    },
+    {
+      "slug": "p2-worked-with-others",
+      "part": 2,
+      "topic": "A time you worked with other people",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a time you worked with other people to complete a task.",
+      "cue_points": [
+        "What the task was",
+        "Who you worked with",
+        "How you organised the work",
+        "Explain how successful the teamwork was"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 23
+    },
+    {
+      "slug": "p2-place-changed",
+      "part": 2,
+      "topic": "A place that has changed over time",
+      "difficulty": "Upper-Intermediate",
+      "questions": [],
+      "cue_card": "Describe a place that has changed over time.",
+      "cue_points": [
+        "Where the place is",
+        "What it used to be like",
+        "What it is like now",
+        "Explain how you feel about the change"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 24
+    },
+    {
+      "slug": "p2-worth-the-money",
+      "part": 2,
+      "topic": "Something you bought that was worth the money",
+      "difficulty": "Beginner",
+      "questions": [],
+      "cue_card": "Describe something you bought that was worth the money.",
+      "cue_points": [
+        "What you bought",
+        "When and where you bought it",
+        "How much it cost",
+        "Explain why it was worth the money"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 25
+    },
+    {
+      "slug": "p2-made-someone-happy",
+      "part": 2,
+      "topic": "A time you made someone happy",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a time you made someone happy.",
+      "cue_points": [
+        "Who this person was",
+        "What you did",
+        "Why you decided to do it",
+        "Explain how the person reacted"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 26
+    },
+    {
+      "slug": "p2-environmental-problem",
+      "part": 2,
+      "topic": "An environmental problem",
+      "difficulty": "Advanced",
+      "questions": [],
+      "cue_card": "Describe an environmental problem that affects your country or city.",
+      "cue_points": [
+        "What the problem is",
+        "What causes it",
+        "How it affects people's lives",
+        "Suggest what could be done to solve it"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 27
+    },
+    {
+      "slug": "p2-childhood-experience",
+      "part": 2,
+      "topic": "A memorable childhood experience",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a memorable experience from your childhood.",
+      "cue_points": [
+        "What the experience was",
+        "When it happened",
+        "Who was involved",
+        "Explain why it is memorable to you"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 28
+    },
+    {
+      "slug": "p2-goal-to-achieve",
+      "part": 2,
+      "topic": "A goal you want to achieve",
+      "difficulty": "Upper-Intermediate",
+      "questions": [],
+      "cue_card": "Describe a goal you want to achieve in the future.",
+      "cue_points": [
+        "What the goal is",
+        "How you plan to achieve it",
+        "How long it will take",
+        "Explain why this goal is important to you"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 29
+    },
+    {
+      "slug": "p2-stay-healthy",
+      "part": 2,
+      "topic": "Something you do to stay healthy",
+      "difficulty": "Beginner",
+      "questions": [],
+      "cue_card": "Describe something you do to stay healthy.",
+      "cue_points": [
+        "What you do",
+        "When and how often you do it",
+        "Who you do it with, if anyone",
+        "Explain how it helps you stay healthy"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 30
+    }
+  ]
+}

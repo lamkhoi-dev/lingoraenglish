@@ -1,0 +1,2713 @@
+{
+  "slug": "feedback-performance",
+  "name": "Giving & Receiving Feedback",
+  "topic_group": "Work & Professional English",
+  "blurb": "Master the art of giving and receiving professional feedback to excel in your career.",
+  "sort_order": 34,
+  "sentences": [
+    {
+      "subcategory": "praising work",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "You did a great job.",
+      "natural_form": "You did'a great job.",
+      "translation": "Bạn đã làm rất tốt.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of praise",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Word linking and reductions",
+      "vocabulary": [
+        {
+          "word": "praise",
+          "meaning": "khen ngợi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "praise",
+        "beginner",
+        "beginner",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "How is my work?",
+      "natural_form": "",
+      "translation": "Công việc của tôi thế nào?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of feedback",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Question structure in beginner context",
+      "tags": [
+        "feedback",
+        "question",
+        "beginner",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I like your idea.",
+      "natural_form": "",
+      "translation": "Tôi thích ý tưởng của bạn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of praise",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "praise",
+          "meaning": "khen ngợi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "praise",
+        "idea",
+        "beginner",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please check my report.",
+      "natural_form": "",
+      "translation": "Làm ơn kiểm tra báo cáo của tôi.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of report",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "report",
+          "meaning": "báo cáo"
+        },
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Request structure in beginner context",
+      "tags": [
+        "report",
+        "feedback",
+        "beginner",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This needs more work.",
+      "natural_form": "",
+      "translation": "Cái này cần làm thêm.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of criticism",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "improvement",
+          "meaning": "sự cải thiện"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "criticism",
+        "improvement",
+        "beginner",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "You are very helpful.",
+      "natural_form": "You're very helpful.",
+      "translation": "Bạn rất có ích.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of praise",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Word linking and reductions",
+      "vocabulary": [
+        {
+          "word": "praise",
+          "meaning": "khen ngợi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "praise",
+        "helpful",
+        "beginner",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Can you help me?",
+      "natural_form": "",
+      "translation": "Bạn có thể giúp tôi không?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of help",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Question structure in beginner context",
+      "tags": [
+        "help",
+        "feedback",
+        "beginner",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I agree with you.",
+      "natural_form": "",
+      "translation": "Tôi đồng ý với bạn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of agreement",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "agreement",
+        "feedback",
+        "beginner",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I understand your point.",
+      "natural_form": "",
+      "translation": "Tôi hiểu ý của bạn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of understanding",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "understanding",
+        "feedback",
+        "beginner",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "exclamation",
+      "sentence": "Good work on this.",
+      "natural_form": "",
+      "translation": "Làm tốt lắm.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of praise",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "praise",
+          "meaning": "khen ngợi"
+        }
+      ],
+      "grammar_focus": "Exclamation structure in beginner context",
+      "tags": [
+        "praise",
+        "task",
+        "beginner",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Let's set a goal.",
+      "natural_form": "",
+      "translation": "Hãy đặt ra một mục tiêu.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of goal",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "goal",
+          "meaning": "mục tiêu"
+        }
+      ],
+      "grammar_focus": "Request structure in beginner context",
+      "tags": [
+        "goal",
+        "planning",
+        "beginner",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Check the results again.",
+      "natural_form": "",
+      "translation": "Kiểm tra lại kết quả.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of follow-up",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "results",
+          "meaning": "kết quả"
+        }
+      ],
+      "grammar_focus": "Request structure in beginner context",
+      "tags": [
+        "follow-up",
+        "results",
+        "beginner",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I will try harder.",
+      "natural_form": "",
+      "translation": "Tôi sẽ cố gắng hơn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of commitment",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "improvement",
+          "meaning": "sự cải thiện"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "commitment",
+        "improvement",
+        "beginner",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This is not right.",
+      "natural_form": "",
+      "translation": "Cái này không đúng.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of criticism",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "criticism",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "criticism",
+        "error",
+        "beginner",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is this okay now?",
+      "natural_form": "",
+      "translation": "Thế này đã ổn chưa?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of follow-up",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "follow-up",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in beginner context",
+      "tags": [
+        "follow-up",
+        "check",
+        "beginner",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "exclamation",
+      "sentence": "Great effort today!",
+      "natural_form": "",
+      "translation": "Hôm nay nỗ lực rất tốt!",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of praise",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "praise",
+          "meaning": "khen ngợi"
+        }
+      ],
+      "grammar_focus": "Exclamation structure in beginner context",
+      "tags": [
+        "praise",
+        "effort",
+        "beginner",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need your advice.",
+      "natural_form": "",
+      "translation": "Tôi cần lời khuyên của bạn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of advice",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "advice",
+        "feedback",
+        "beginner",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "That was very fast.",
+      "natural_form": "",
+      "translation": "Cái đó rất nhanh.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of praise",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "praise",
+          "meaning": "khen ngợi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "praise",
+        "speed",
+        "beginner",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please fix this error.",
+      "natural_form": "",
+      "translation": "Làm ơn sửa lỗi này.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of criticism",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "criticism",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Request structure in beginner context",
+      "tags": [
+        "criticism",
+        "error",
+        "beginner",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Let's meet tomorrow.",
+      "natural_form": "",
+      "translation": "Hãy gặp nhau vào ngày mai.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of meeting",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "meeting",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Request structure in beginner context",
+      "tags": [
+        "meeting",
+        "follow-up",
+        "beginner",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Keep up the work.",
+      "natural_form": "",
+      "translation": "Tiếp tục phát huy nhé.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of praise",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "praise",
+          "meaning": "khen ngợi"
+        }
+      ],
+      "grammar_focus": "Request structure in beginner context",
+      "tags": [
+        "praise",
+        "encouragement",
+        "beginner",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I want to learn.",
+      "natural_form": "I wanna learn.",
+      "translation": "Tôi muốn học hỏi.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of learning",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Word linking and reductions",
+      "vocabulary": [
+        {
+          "word": "goal",
+          "meaning": "mục tiêu"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "learning",
+        "goal",
+        "beginner",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Tell me the truth.",
+      "natural_form": "",
+      "translation": "Hãy nói cho tôi sự thật.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of honesty",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Request structure in beginner context",
+      "tags": [
+        "honesty",
+        "feedback",
+        "beginner",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "You are doing well.",
+      "natural_form": "You're doing well.",
+      "translation": "Bạn đang làm tốt.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of praise",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Word linking and reductions",
+      "vocabulary": [
+        {
+          "word": "praise",
+          "meaning": "khen ngợi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "praise",
+        "progress",
+        "beginner",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thanks for the tips.",
+      "natural_form": "",
+      "translation": "Cảm ơn vì những lời khuyên.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of gratitude",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Statement structure in beginner context",
+      "tags": [
+        "gratitude",
+        "feedback",
+        "beginner",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Your presentation was very clear and easy to follow.",
+      "natural_form": "",
+      "translation": "Bài thuyết trình của bạn rất rõ ràng và dễ theo dõi.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of presentation",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "presentation",
+          "meaning": "bài thuyết trình"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "presentation",
+        "clear",
+        "elementary",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I think we should focus on the main goal.",
+      "natural_form": "",
+      "translation": "Tôi nghĩ chúng ta nên tập trung vào mục tiêu chính.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of focus",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "goal",
+          "meaning": "mục tiêu"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "focus",
+        "goal",
+        "elementary",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Could you give me some feedback on my project?",
+      "natural_form": "",
+      "translation": "Bạn có thể cho tôi một chút phản hồi về dự án của tôi không?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of feedback",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Question structure in elementary context",
+      "tags": [
+        "feedback",
+        "project",
+        "elementary",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I really appreciate the feedback you gave me earlier.",
+      "natural_form": "",
+      "translation": "Tôi thực sự trân trọng phản hồi mà bạn đã dành cho tôi lúc nãy.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of appreciation",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "appreciation",
+        "feedback",
+        "elementary",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Maybe you should try a different approach next time.",
+      "natural_form": "",
+      "translation": "Có lẽ bạn nên thử một cách tiếp cận khác vào lần tới.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of approach",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "approach",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "approach",
+        "suggestion",
+        "elementary",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "performance reviews",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Let's review your performance for the last three months.",
+      "natural_form": "",
+      "translation": "Hãy cùng xem xét hiệu suất của bạn trong ba tháng qua.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of review",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "review",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Request structure in elementary context",
+      "tags": [
+        "review",
+        "performance",
+        "elementary",
+        "performance_reviews"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I disagree with some points in your recent report.",
+      "natural_form": "",
+      "translation": "Tôi không đồng ý với một số điểm trong báo cáo gần đây của bạn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of disagree",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "report",
+          "meaning": "báo cáo"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "disagree",
+        "report",
+        "elementary",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We need to improve our communication within the team.",
+      "natural_form": "",
+      "translation": "Chúng ta cần cải thiện sự giao tiếp trong nhóm.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of communication",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "communication",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "communication",
+        "team",
+        "elementary",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "How can I improve my skills for this role?",
+      "natural_form": "",
+      "translation": "Làm thế nào tôi có thể cải thiện kỹ năng cho vị trí này?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of skills",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "improvement",
+          "meaning": "sự cải thiện"
+        }
+      ],
+      "grammar_focus": "Question structure in elementary context",
+      "tags": [
+        "skills",
+        "improvement",
+        "elementary",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "You handled the difficult client very professionally today.",
+      "natural_form": "",
+      "translation": "Bạn đã xử lý khách hàng khó tính rất chuyên nghiệp vào hôm nay.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of client",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "professionally",
+          "meaning": "một cách chuyên nghiệp"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "client",
+        "professional",
+        "elementary",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I will make sure to correct these mistakes immediately.",
+      "natural_form": "",
+      "translation": "Tôi sẽ đảm bảo sửa những lỗi này ngay lập tức.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of mistakes",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "mistakes",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "mistakes",
+        "correction",
+        "elementary",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Can we schedule a follow-up meeting for next week?",
+      "natural_form": "",
+      "translation": "Chúng ta có thể lên lịch một cuộc họp tiếp theo vào tuần tới không?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of schedule",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "schedule",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in elementary context",
+      "tags": [
+        "schedule",
+        "meeting",
+        "elementary",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "exclamation",
+      "sentence": "Your attention to detail is truly impressive, well done!",
+      "natural_form": "",
+      "translation": "Sự chú ý đến chi tiết của bạn thực sự ấn tượng, làm tốt lắm!",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of detail",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "detail",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Exclamation structure in elementary context",
+      "tags": [
+        "detail",
+        "impressive",
+        "elementary",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I don't think that is the best way forward.",
+      "natural_form": "",
+      "translation": "Tôi không nghĩ đó là cách tốt nhất để tiến lên.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of disagree",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "disagree",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "disagree",
+        "opinion",
+        "elementary",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We should aim to finish this by Friday afternoon.",
+      "natural_form": "",
+      "translation": "Chúng ta nên đặt mục tiêu hoàn thành việc này trước chiều thứ Sáu.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of deadline",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "goal",
+          "meaning": "mục tiêu"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "deadline",
+        "goal",
+        "elementary",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Could you explain why you feel that way?",
+      "natural_form": "",
+      "translation": "Bạn có thể giải thích tại sao bạn lại cảm thấy như vậy không?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of explanation",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "explanation",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in elementary context",
+      "tags": [
+        "explanation",
+        "feeling",
+        "elementary",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I appreciate your honesty regarding my recent performance.",
+      "natural_form": "",
+      "translation": "Tôi trân trọng sự trung thực của bạn về hiệu suất gần đây của tôi.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of honesty",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "honesty",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "honesty",
+        "performance",
+        "elementary",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Let's look at the data before we decide anything.",
+      "natural_form": "",
+      "translation": "Hãy nhìn vào dữ liệu trước khi chúng ta quyết định bất cứ điều gì.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of data",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "data",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Request structure in elementary context",
+      "tags": [
+        "data",
+        "decision",
+        "elementary",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "You missed a few important details in the summary.",
+      "natural_form": "",
+      "translation": "Bạn đã bỏ lỡ một vài chi tiết quan trọng trong bản tóm tắt.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of missed",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "missed",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "missed",
+        "details",
+        "elementary",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I am happy with your progress so far this year.",
+      "natural_form": "",
+      "translation": "Tôi hài lòng với tiến độ của bạn từ đầu năm đến nay.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of happy",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "happy",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "happy",
+        "progress",
+        "elementary",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What are your main goals for the next quarter?",
+      "natural_form": "",
+      "translation": "Mục tiêu chính của bạn cho quý tới là gì?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of quarter",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "quarter",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in elementary context",
+      "tags": [
+        "quarter",
+        "goals",
+        "elementary",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I have some concerns about the current project timeline.",
+      "natural_form": "",
+      "translation": "Tôi có một số lo ngại về tiến độ dự án hiện tại.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of concerns",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "concerns",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "concerns",
+        "timeline",
+        "elementary",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Thank you for pointing out where I can improve.",
+      "natural_form": "",
+      "translation": "Cảm ơn vì đã chỉ ra những điểm tôi có thể cải thiện.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of pointing",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "pointing",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "pointing",
+        "improve",
+        "elementary",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I believe my results show a different story here.",
+      "natural_form": "",
+      "translation": "Tôi tin rằng kết quả của mình cho thấy một câu chuyện khác ở đây.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of results",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "results",
+          "meaning": "kết quả"
+        }
+      ],
+      "grammar_focus": "Statement structure in elementary context",
+      "tags": [
+        "results",
+        "story",
+        "elementary",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Let's check back in a few days to see progress.",
+      "natural_form": "",
+      "translation": "Hãy kiểm tra lại sau vài ngày nữa để xem tiến độ.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of check",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "check",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Request structure in elementary context",
+      "tags": [
+        "check",
+        "progress",
+        "elementary",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "performance reviews",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I would like to discuss how we can improve our team's overall efficiency.",
+      "natural_form": "",
+      "translation": "Tôi muốn thảo luận về cách chúng ta có thể cải thiện hiệu quả tổng thể của nhóm.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of efficiency",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "efficiency",
+          "meaning": "hiệu quả"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "efficiency",
+        "team",
+        "intermediate",
+        "performance_reviews"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Although I see your point, I believe my method is more effective here.",
+      "natural_form": "",
+      "translation": "Mặc dù tôi hiểu ý bạn, tôi tin rằng phương pháp của tôi hiệu quả hơn ở đây.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of method",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "method",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "method",
+        "effective",
+        "intermediate",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "You have consistently met all your targets, which is a very positive sign.",
+      "natural_form": "",
+      "translation": "Bạn đã liên tục đạt được tất cả các mục tiêu, đó là một dấu hiệu rất tích cực.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of targets",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "targets",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "targets",
+        "positive",
+        "intermediate",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Could you provide more specific examples of what I need to change?",
+      "natural_form": "",
+      "translation": "Bạn có thể đưa ra những ví dụ cụ thể hơn về những gì tôi cần thay đổi không?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of specific",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "specific",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in intermediate context",
+      "tags": [
+        "specific",
+        "examples",
+        "intermediate",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I suggest focusing on your time management skills to increase your daily output.",
+      "natural_form": "",
+      "translation": "Tôi khuyên bạn nên tập trung vào kỹ năng quản lý thời gian để tăng năng suất hàng ngày.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of time",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "time",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "time",
+        "output",
+        "intermediate",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's set some clear objectives for your professional development over the next year.",
+      "natural_form": "",
+      "translation": "Hãy đặt ra một số mục tiêu rõ ràng cho sự phát triển chuyên môn của bạn trong năm tới.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of objectives",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "objectives",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Request structure in intermediate context",
+      "tags": [
+        "objectives",
+        "development",
+        "intermediate",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I appreciate the constructive criticism and will work on these areas right away.",
+      "natural_form": "",
+      "translation": "Tôi trân trọng những lời phê bình mang tính xây dựng và sẽ cải thiện ngay lập tức.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of constructive",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "constructive",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "constructive",
+        "areas",
+        "intermediate",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "It seems there was a misunderstanding regarding the requirements for this specific task.",
+      "natural_form": "",
+      "translation": "Có vẻ như đã có sự hiểu lầm về các yêu cầu cho nhiệm vụ cụ thể này.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of misunderstanding",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "misunderstanding",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "misunderstanding",
+        "requirements",
+        "intermediate",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am very impressed with how you managed the budget for this project.",
+      "natural_form": "",
+      "translation": "Tôi rất ấn tượng với cách bạn quản lý ngân sách cho dự án này.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of budget",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "budget",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "budget",
+        "impressed",
+        "intermediate",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Can we have a quick chat about the feedback I received yesterday?",
+      "natural_form": "",
+      "translation": "Chúng ta có thể trò chuyện nhanh về phản hồi mà tôi đã nhận được hôm qua không?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of chat",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "chat",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in intermediate context",
+      "tags": [
+        "chat",
+        "yesterday",
+        "intermediate",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I feel that my contributions to the team haven't been fully recognized lately.",
+      "natural_form": "",
+      "translation": "Tôi cảm thấy rằng những đóng góp của mình cho nhóm chưa được ghi nhận đầy đủ gần đây.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of contributions",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "contributions",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "contributions",
+        "recognized",
+        "intermediate",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "You should try to be more proactive when dealing with potential technical issues.",
+      "natural_form": "",
+      "translation": "Bạn nên cố gắng chủ động hơn khi đối phó với các vấn đề kỹ thuật tiềm ẩn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of proactive",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "proactive",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "proactive",
+        "technical",
+        "intermediate",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I would like to receive regular updates on your progress with these tasks.",
+      "natural_form": "",
+      "translation": "Tôi muốn nhận được các bản cập nhật thường xuyên về tiến độ của bạn với những nhiệm vụ này.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of updates",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "updates",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "updates",
+        "regular",
+        "intermediate",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Your ability to work under pressure is a great asset to our department.",
+      "natural_form": "",
+      "translation": "Khả năng làm việc dưới áp lực của bạn là một tài sản lớn cho bộ phận của chúng ta.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of pressure",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "pressure",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "pressure",
+        "asset",
+        "intermediate",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I think we need to rethink our strategy for reaching new customers.",
+      "natural_form": "",
+      "translation": "Tôi nghĩ chúng ta cần suy nghĩ lại về chiến lược tiếp cận khách hàng mới.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of strategy",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "strategy",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "strategy",
+        "customers",
+        "intermediate",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Thank you for your guidance; it has helped me understand the process better.",
+      "natural_form": "",
+      "translation": "Cảm ơn sự hướng dẫn của bạn; nó đã giúp tôi hiểu quy trình tốt hơn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of guidance",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "guidance",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "guidance",
+        "process",
+        "intermediate",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I don't quite agree with the assessment of my leadership style in this review.",
+      "natural_form": "",
+      "translation": "Tôi không hoàn toàn đồng ý với đánh giá về phong cách lãnh đạo của mình trong bản đánh giá này.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of assessment",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "assessment",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "assessment",
+        "leadership",
+        "intermediate",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How do you think I can better support the team in the future?",
+      "natural_form": "",
+      "translation": "Bạn nghĩ tôi có thể hỗ trợ nhóm tốt hơn như thế nào trong tương lai?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of support",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "support",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in intermediate context",
+      "tags": [
+        "support",
+        "future",
+        "intermediate",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "performance reviews",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "You've shown great improvement in your technical skills since our last review meeting.",
+      "natural_form": "",
+      "translation": "Bạn đã cho thấy sự cải thiện lớn về kỹ năng kỹ thuật kể từ cuộc họp đánh giá trước.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of improvement",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "improvement",
+          "meaning": "sự cải thiện"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "improvement",
+        "review",
+        "intermediate",
+        "performance_reviews"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's schedule a time to go over the final results of the campaign.",
+      "natural_form": "",
+      "translation": "Hãy sắp xếp thời gian để xem qua kết quả cuối cùng của chiến dịch.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of results",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "results",
+          "meaning": "kết quả"
+        }
+      ],
+      "grammar_focus": "Request structure in intermediate context",
+      "tags": [
+        "results",
+        "campaign",
+        "intermediate",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I would appreciate it if you could be more specific about my weaknesses.",
+      "natural_form": "",
+      "translation": "Tôi sẽ rất cảm kích nếu bạn có thể cụ thể hơn về những điểm yếu của tôi.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of specific",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "specific",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "specific",
+        "weaknesses",
+        "intermediate",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We need to establish a more consistent workflow to avoid these recurring delays.",
+      "natural_form": "",
+      "translation": "Chúng ta cần thiết lập một quy trình làm việc nhất quán hơn để tránh những sự chậm trễ lặp lại này.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of workflow",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "workflow",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "workflow",
+        "delays",
+        "intermediate",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I value your input, but I think we should stick to the original plan.",
+      "natural_form": "",
+      "translation": "Tôi trân trọng ý kiến của bạn, nhưng tôi nghĩ chúng ta nên bám sát kế hoạch ban đầu.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of input",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "input",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "input",
+        "original",
+        "intermediate",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "exclamation",
+      "sentence": "Excellent work on the presentation; the stakeholders were very impressed with the data.",
+      "natural_form": "",
+      "translation": "Làm tốt lắm trong bài thuyết trình; các bên liên quan rất ấn tượng với dữ liệu.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of stakeholders",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "stakeholders",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Exclamation structure in intermediate context",
+      "tags": [
+        "stakeholders",
+        "data",
+        "intermediate",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'll take your suggestions into account when I start the next phase.",
+      "natural_form": "",
+      "translation": "Tôi sẽ xem xét các gợi ý của bạn khi tôi bắt đầu giai đoạn tiếp theo.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of suggestions",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "suggestions",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in intermediate context",
+      "tags": [
+        "suggestions",
+        "phase",
+        "intermediate",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "While I respect your opinion, I strongly feel that my performance during this period warrants a higher rating than this.",
+      "natural_form": "",
+      "translation": "Mặc dù tôi tôn trọng ý kiến của bạn, tôi thực sự cảm thấy hiệu suất của mình trong giai đoạn này xứng đáng được đánh giá cao hơn thế này.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of warrants",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "warrants",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "warrants",
+        "rating",
+        "advanced",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "performance reviews",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I would like to request a formal review of my responsibilities to ensure they align with my current career path.",
+      "natural_form": "",
+      "translation": "Tôi muốn yêu cầu một cuộc đánh giá chính thức về các trách nhiệm của mình để đảm bảo chúng phù hợp với con đường sự nghiệp hiện tại.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of responsibilities",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "responsibilities",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "responsibilities",
+        "align",
+        "advanced",
+        "performance_reviews"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Your exceptional leadership during the recent crisis was instrumental in maintaining team morale and achieving our critical project milestones.",
+      "natural_form": "",
+      "translation": "Sự lãnh đạo xuất sắc của bạn trong cuộc khủng hoảng gần đây là yếu tố quan trọng trong việc duy trì tinh thần đồng đội và đạt được các cột mốc quan trọng của dự án.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of instrumental",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "instrumental",
+          "meaning": "góp phần quan trọng"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "instrumental",
+        "milestones",
+        "advanced",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Could you please clarify how these performance metrics are calculated so I can better understand where I need to focus?",
+      "natural_form": "",
+      "translation": "Bạn có thể vui lòng làm rõ cách các chỉ số hiệu suất này được tính toán để tôi có thể hiểu rõ hơn nơi mình cần tập trung không?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of metrics",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "metrics",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in advanced context",
+      "tags": [
+        "metrics",
+        "calculate",
+        "advanced",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "It appears that some of your recent deliverables have not met the quality standards we established at the beginning of the year.",
+      "natural_form": "",
+      "translation": "Có vẻ như một số sản phẩm bàn giao gần đây của bạn đã không đáp ứng được các tiêu chuẩn chất lượng mà chúng ta đã thiết lập vào đầu năm.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of deliverables",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "deliverables",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "deliverables",
+        "standards",
+        "advanced",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am committed to improving my communication skills and will enroll in a professional workshop as per your helpful suggestion.",
+      "natural_form": "",
+      "translation": "Tôi cam kết cải thiện kỹ năng giao tiếp của mình và sẽ đăng ký một hội thảo chuyên môn theo gợi ý hữu ích của bạn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of committed",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "committed",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "committed",
+        "workshop",
+        "advanced",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's collaborate to define a set of measurable goals that will challenge you and contribute to our long-term strategic vision.",
+      "natural_form": "",
+      "translation": "Hãy cùng cộng tác để xác định một tập hợp các mục tiêu có thể đo lường được, những mục tiêu này sẽ thử thách bạn và đóng góp vào tầm nhìn chiến lược dài hạn của chúng ta.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of measurable",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "measurable",
+          "meaning": "có thể đo lường"
+        }
+      ],
+      "grammar_focus": "Request structure in advanced context",
+      "tags": [
+        "measurable",
+        "vision",
+        "advanced",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I appreciate you bringing these issues to my attention, and I will conduct a thorough investigation to identify the root cause.",
+      "natural_form": "",
+      "translation": "Tôi trân trọng việc bạn đã lưu ý tôi về những vấn đề này, và tôi sẽ tiến hành một cuộc điều tra kỹ lưỡng để xác định nguyên nhân gốc rễ.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of investigation",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "investigation",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "investigation",
+        "root",
+        "advanced",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Although the feedback was tough to hear, I recognize its validity and am determined to turn these weaknesses into future strengths.",
+      "natural_form": "",
+      "translation": "Mặc dù phản hồi hơi khó nghe, tôi công nhận tính đúng đắn của nó và quyết tâm biến những điểm yếu này thành thế mạnh trong tương lai.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of validity",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "validity",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "validity",
+        "weaknesses",
+        "advanced",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I would like to follow up on our previous discussion regarding the potential for my promotion within the next six months.",
+      "natural_form": "",
+      "translation": "Tôi muốn theo dõi cuộc thảo luận trước đây của chúng ta về khả năng thăng tiến của tôi trong vòng sáu tháng tới.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of potential",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "potential",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "potential",
+        "promotion",
+        "advanced",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Your innovative approach to problem-solving has significantly reduced our operational costs and improved our service delivery times across the board.",
+      "natural_form": "",
+      "translation": "Cách tiếp cận đổi mới của bạn trong việc giải quyết vấn đề đã làm giảm đáng kể chi phí vận hành và cải thiện thời gian cung cấp dịch vụ của chúng ta trên mọi phương diện.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of innovative",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "innovative",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "innovative",
+        "operational",
+        "advanced",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I feel that the current workload is becoming unmanageable and would like to discuss how we can redistribute some tasks.",
+      "natural_form": "",
+      "translation": "Tôi cảm thấy khối lượng công việc hiện tại đang trở nên không thể quản lý được và muốn thảo luận về cách chúng ta có thể phân bổ lại một số nhiệm vụ.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of workload",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "workload",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "workload",
+        "unmanageable",
+        "advanced",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "follow-up",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Can we arrange a session to brainstorm how we can incorporate this feedback into our standard operating procedures going forward?",
+      "natural_form": "",
+      "translation": "Chúng ta có thể sắp xếp một buổi thảo luận để lên ý tưởng về cách kết hợp phản hồi này vào quy trình hoạt động tiêu chuẩn của chúng ta trong tương lai không?",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of brainstorm",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "brainstorm",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Question structure in advanced context",
+      "tags": [
+        "brainstorm",
+        "procedures",
+        "advanced",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am concerned that the lack of clear direction is hindering the team's ability to meet our quarterly performance targets.",
+      "natural_form": "",
+      "translation": "Tôi lo ngại rằng việc thiếu định hướng rõ ràng đang cản trở khả năng của nhóm trong việc đạt được các mục tiêu hiệu suất hàng quý.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of hindering",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "hindering",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "hindering",
+        "quarterly",
+        "advanced",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Thank you for providing such detailed feedback; it gives me a very clear roadmap for what I need to achieve.",
+      "natural_form": "",
+      "translation": "Cảm ơn bạn đã cung cấp phản hồi chi tiết như vậy; nó cho tôi một lộ trình rất rõ ràng về những gì tôi cần đạt được.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of detailed",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "detailed",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "detailed",
+        "roadmap",
+        "advanced",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "performance reviews",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I believe that my recent accomplishments demonstrate a level of seniority that isn't currently reflected in my job title or compensation.",
+      "natural_form": "",
+      "translation": "Tôi tin rằng những thành tựu gần đây của mình chứng minh một mức độ thâm niên hiện không được phản ánh trong chức danh công việc hoặc mức lương của tôi.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of accomplishments",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "accomplishments",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "accomplishments",
+        "seniority",
+        "advanced",
+        "performance_reviews"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We should establish a mentoring program to help junior staff members improve their technical proficiency and gain more confidence in their roles.",
+      "natural_form": "",
+      "translation": "Chúng ta nên thiết lập một chương trình cố vấn để giúp các nhân viên cấp dưới cải thiện trình độ kỹ thuật và có thêm tự tin trong vai trò của họ.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of mentoring",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "mentoring",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "mentoring",
+        "proficiency",
+        "advanced",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I respectfully disagree with the claim that I haven't been meeting my deadlines, as the logs show otherwise for every project.",
+      "natural_form": "",
+      "translation": "Tôi xin trân trọng không đồng ý với tuyên bố rằng tôi đã không đáp ứng các thời hạn, vì các nhật ký cho thấy điều ngược lại đối với mọi dự án.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of respectfully",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "respectfully",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "respectfully",
+        "deadlines",
+        "advanced",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Your dedication to excellence and your willingness to mentor others have made a significant impact on the culture of our team.",
+      "natural_form": "",
+      "translation": "Sự cống hiến của bạn cho sự xuất sắc và sự sẵn lòng cố vấn cho người khác đã tạo ra một tác động đáng kể đến văn hóa của nhóm chúng ta.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of dedication",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "dedication",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "dedication",
+        "culture",
+        "advanced",
+        "praising_work"
+      ]
+    },
+    {
+      "subcategory": "asking for feedback",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I would welcome the opportunity to discuss my performance in more detail to ensure that I am exceeding your expectations.",
+      "natural_form": "",
+      "translation": "Tôi hoan nghênh cơ hội để thảo luận chi tiết hơn về hiệu suất của mình để đảm bảo rằng tôi đang vượt quá mong đợi của bạn.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of opportunity",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "opportunity",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "opportunity",
+        "expectations",
+        "advanced",
+        "asking_for_feedback"
+      ]
+    },
+    {
+      "subcategory": "gentle criticism",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "It is important that we address these performance issues immediately to prevent them from affecting the overall success of the project.",
+      "natural_form": "",
+      "translation": "Điều quan trọng là chúng ta phải giải quyết các vấn đề hiệu suất này ngay lập tức để ngăn chúng ảnh hưởng đến thành công tổng thể của dự án.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of address",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "address",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "address",
+        "prevent",
+        "advanced",
+        "gentle_criticism"
+      ]
+    },
+    {
+      "subcategory": "accepting criticism",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I will implement the changes you suggested and provide you with a status update by the end of next week.",
+      "natural_form": "",
+      "translation": "Tôi sẽ thực hiện các thay đổi mà bạn đã gợi ý và cung cấp cho bạn một bản cập nhật trạng thái vào cuối tuần tới.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of implement",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "implement",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "implement",
+        "status",
+        "advanced",
+        "accepting_criticism"
+      ]
+    },
+    {
+      "subcategory": "setting goals",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's set a recurring meeting to review our progress against these goals and make any necessary adjustments to our current strategy.",
+      "natural_form": "",
+      "translation": "Hãy thiết lập một cuộc họp định kỳ để xem xét tiến độ của chúng ta so với những mục tiêu này và thực hiện bất kỳ điều chỉnh cần thiết nào cho chiến lược hiện tại của chúng ta.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of recurring",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "recurring",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Request structure in advanced context",
+      "tags": [
+        "recurring",
+        "adjustments",
+        "advanced",
+        "setting_goals"
+      ]
+    },
+    {
+      "subcategory": "disagreeing with feedback",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I appreciate your honesty, but I think there are some external factors that weren't considered in this evaluation of my performance.",
+      "natural_form": "",
+      "translation": "Tôi trân trọng sự trung thực của bạn, nhưng tôi nghĩ có một số yếu tố bên ngoài đã không được xem xét trong bản đánh giá hiệu suất này của tôi.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of factors",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "factors",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "factors",
+        "evaluation",
+        "advanced",
+        "disagreeing_with_feedback"
+      ]
+    },
+    {
+      "subcategory": "praising work",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Your contribution to the project was vital, and your ability to coordinate between departments ensured that we met our deadline successfully.",
+      "natural_form": "",
+      "translation": "Đóng góp của bạn cho dự án là rất quan trọng, và khả năng phối hợp giữa các bộ phận của bạn đã đảm bảo rằng chúng ta đã đạt được thời hạn thành công.",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of vital",
+      "stress_focus": "Content words like nouns and verbs",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "Standard word linking",
+      "vocabulary": [
+        {
+          "word": "vital",
+          "meaning": "từ khóa liên quan"
+        }
+      ],
+      "grammar_focus": "Statement structure in advanced context",
+      "tags": [
+        "vital",
+        "coordinate",
+        "advanced",
+        "praising_work"
+      ]
+    }
+  ]
+}

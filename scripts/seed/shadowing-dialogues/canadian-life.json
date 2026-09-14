@@ -1,0 +1,41 @@
+{
+  "topic_slug": "canadian-life",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Settling in",
+      "turns": [
+        { "speaker_label": "Newcomer", "speaker_voice": "shimmer", "sentence": "Is it always this cold in winter here?", "is_free": true },
+        { "speaker_label": "Neighbor", "speaker_voice": "alloy", "sentence": "Yes, usually from December to March.", "is_free": true },
+        { "speaker_label": "Newcomer", "speaker_voice": "shimmer", "sentence": "I should buy a warmer jacket then.", "is_free": true },
+        { "speaker_label": "Neighbor", "speaker_voice": "alloy", "sentence": "Good idea, and some boots too.", "is_free": true },
+        { "speaker_label": "Newcomer", "speaker_voice": "shimmer", "sentence": "Thanks for the tip!", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Community events",
+      "turns": [
+        { "speaker_label": "Volunteer", "speaker_voice": "coral", "sentence": "We're organizing a community cleanup this Saturday — would you be interested in joining?", "is_free": false },
+        { "speaker_label": "Resident", "speaker_voice": "sage", "sentence": "I'd love to, actually — I've been meaning to get more involved in the neighborhood.", "is_free": false },
+        { "speaker_label": "Volunteer", "speaker_voice": "coral", "sentence": "Great! We meet at the community center at nine, and lunch is provided afterward.", "is_free": false },
+        { "speaker_label": "Resident", "speaker_voice": "sage", "sentence": "Perfect, should I bring my own gloves and tools?", "is_free": false },
+        { "speaker_label": "Volunteer", "speaker_voice": "coral", "sentence": "We'll have extras on hand, but feel free to bring your own if you prefer.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Navigating healthcare",
+      "turns": [
+        { "speaker_label": "Newcomer", "speaker_voice": "nova", "sentence": "I'm still trying to wrap my head around how the healthcare system works here compared to back home.", "is_free": false },
+        { "speaker_label": "Coworker", "speaker_voice": "shimmer", "sentence": "It takes some getting used to — once you have your health card, most visits to a family doctor are covered.", "is_free": false },
+        { "speaker_label": "Newcomer", "speaker_voice": "nova", "sentence": "And what about specialists — do I need a referral, or can I book directly?", "is_free": false },
+        { "speaker_label": "Coworker", "speaker_voice": "shimmer", "sentence": "You'll generally need a referral from your family doctor first, though wait times can vary quite a bit.", "is_free": false },
+        { "speaker_label": "Newcomer", "speaker_voice": "nova", "sentence": "Good to know — I'll make sure to register with a family doctor as soon as possible.", "is_free": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2509 @@
+{
+  "slug": "school-parenting",
+  "name": "School & Parenting Conversations",
+  "topic_group": "Social & Canadian Life",
+  "blurb": "Everyday spoken English for talking about kids, school routines, and parenting decisions.",
+  "sort_order": 16,
+  "sentences": [
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My daughter starts school today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "AY diphthong in 'today'",
+      "stress_focus": "DAUGHTER stressed",
+      "intonation_focus": "falling statement tone",
+      "connected_speech_focus": "reduces 'to' to schwa",
+      "vocabulary": [
+        {
+          "word": "starts",
+          "meaning": "begins"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "family",
+        "school",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "He does his homework after dinner.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "voiced TH in 'his'",
+      "stress_focus": "HOMEWORK stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'does his' links smoothly",
+      "vocabulary": [
+        {
+          "word": "homework",
+          "meaning": "school assignments"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "homework",
+        "routine",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Did you pack your lunch yet?",
+      "natural_form": "Didja pack your lunch yet?",
+      "accent": "american",
+      "pronunciation_focus": "flap D in 'did you'",
+      "stress_focus": "LUNCH stressed",
+      "intonation_focus": "rising question tone",
+      "connected_speech_focus": "'did you' blends to 'didja'",
+      "vocabulary": [
+        {
+          "word": "pack",
+          "meaning": "prepare and bring"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "lunch",
+        "school",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "response",
+      "sentence": "Yes, it's in her backpack.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction IT'S",
+      "stress_focus": "BACKPACK stressed",
+      "intonation_focus": "falling confirming tone",
+      "connected_speech_focus": "'it's' contracted",
+      "vocabulary": [
+        {
+          "word": "backpack",
+          "meaning": "school bag"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "response",
+        "school",
+        "backpack"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The bus comes at eight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "EI vowel in 'eight'",
+      "stress_focus": "BUS stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'comes at' links smoothly",
+      "vocabulary": [
+        {
+          "word": "bus",
+          "meaning": "school vehicle"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "school",
+        "transportation",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Please tie your shoes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SH sound in 'shoes'",
+      "stress_focus": "TIE stressed",
+      "intonation_focus": "polite falling tone",
+      "connected_speech_focus": "'tie your' links",
+      "vocabulary": [
+        {
+          "word": "tie",
+          "meaning": "fasten"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "request",
+        "morning",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My son loves his teacher.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "final /z/ in 'loves'",
+      "stress_focus": "LOVES stressed",
+      "intonation_focus": "warm falling tone",
+      "connected_speech_focus": "'loves his' links",
+      "vocabulary": [
+        {
+          "word": "teacher",
+          "meaning": "school instructor"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "school",
+        "family",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What grade is she in?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "short A in 'grade'",
+      "stress_focus": "GRADE stressed",
+      "intonation_focus": "rising wh-question tone",
+      "connected_speech_focus": "'is she' links",
+      "vocabulary": [
+        {
+          "word": "grade",
+          "meaning": "school year level"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "school",
+        "question",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "response",
+      "sentence": "She's in third grade.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "TH+R cluster in 'third'",
+      "stress_focus": "THIRD stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'she's' contracted",
+      "vocabulary": [
+        {
+          "word": "third",
+          "meaning": "ordinal number"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "response",
+        "school",
+        "grade"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We walk to school together.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "TH sound in 'together'",
+      "stress_focus": "WALK stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'walk to' links",
+      "vocabulary": [
+        {
+          "word": "together",
+          "meaning": "with each other"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "walking",
+        "school",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Dad picks her up at three.",
+      "natural_form": "Dad picksher up at three.",
+      "accent": "american",
+      "pronunciation_focus": "/ks/ cluster in 'picks'",
+      "stress_focus": "THREE stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'picks her' links to 'picksher'",
+      "vocabulary": [
+        {
+          "word": "pick up",
+          "meaning": "collect someone"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "pickup",
+        "school",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can you help with the homework?",
+      "natural_form": "Canya help with the homework?",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'can' to /kən/",
+      "stress_focus": "HELP stressed",
+      "intonation_focus": "rising polite tone",
+      "connected_speech_focus": "'can you' blends",
+      "vocabulary": [
+        {
+          "word": "help",
+          "meaning": "assist"
+        }
+      ],
+      "grammar_focus": "modal request",
+      "tags": [
+        "request",
+        "homework",
+        "help"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The teacher gave us a test.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense vowel in 'gave'",
+      "stress_focus": "TEST stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'gave us' links",
+      "vocabulary": [
+        {
+          "word": "gave",
+          "meaning": "past of give"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "school",
+        "teacher",
+        "test"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think recess is too short.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "TH sound in 'think'",
+      "stress_focus": "SHORT stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'think recess' links",
+      "vocabulary": [
+        {
+          "word": "recess",
+          "meaning": "break time at school"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "school",
+        "recess"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "When is the school play?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "short E in 'when'",
+      "stress_focus": "PLAY stressed",
+      "intonation_focus": "rising wh-question tone",
+      "connected_speech_focus": "'is the' links",
+      "vocabulary": [
+        {
+          "word": "play",
+          "meaning": "school performance"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "school",
+        "event",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "It's next Friday night.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on first syllable of 'Friday'",
+      "stress_focus": "FRIDAY stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'it's' contracted",
+      "vocabulary": [
+        {
+          "word": "next",
+          "meaning": "coming"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "response",
+        "event",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "She made a new friend today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "EI vowel in 'made'",
+      "stress_focus": "FRIEND stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'made a' links",
+      "vocabulary": [
+        {
+          "word": "made",
+          "meaning": "past of make"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "friendship",
+        "school",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "He forgot his lunchbox again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'forgot'",
+      "stress_focus": "AGAIN stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'forgot his' links",
+      "vocabulary": [
+        {
+          "word": "forgot",
+          "meaning": "did not remember"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "school",
+        "mistake",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Our kids ride the same bus.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "long I in 'ride'",
+      "stress_focus": "SAME stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'kids ride' links",
+      "vocabulary": [
+        {
+          "word": "ride",
+          "meaning": "travel in a vehicle"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "school",
+        "transportation",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Sign this form for me, please.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "silent G in 'sign'",
+      "stress_focus": "FORM stressed",
+      "intonation_focus": "falling polite tone",
+      "connected_speech_focus": "'sign this' links",
+      "vocabulary": [
+        {
+          "word": "sign",
+          "meaning": "write your name"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "request",
+        "school",
+        "paperwork"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The principal called a meeting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'principal'",
+      "stress_focus": "MEETING stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'called a' links",
+      "vocabulary": [
+        {
+          "word": "principal",
+          "meaning": "head of school"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "school",
+        "meeting",
+        "authority"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I love parent-teacher night.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on 'love'",
+      "stress_focus": "NIGHT stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'love parent' links",
+      "vocabulary": [
+        {
+          "word": "parent-teacher night",
+          "meaning": "school meeting event"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "school",
+        "event"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "She packed an extra snack.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "/kt/ cluster in 'packed'",
+      "stress_focus": "EXTRA stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'packed an' links",
+      "vocabulary": [
+        {
+          "word": "extra",
+          "meaning": "additional"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "snack",
+        "school",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My kids share a locker.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "long A in 'share'",
+      "stress_focus": "LOCKER stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'kids share' links",
+      "vocabulary": [
+        {
+          "word": "locker",
+          "meaning": "storage cabinet"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "school",
+        "sharing",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Family",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Have you met her new teacher?",
+      "natural_form": "Have ya met her new teacher?",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'have you'",
+      "stress_focus": "TEACHER stressed",
+      "intonation_focus": "rising question tone",
+      "connected_speech_focus": "'have you' blends to 'have ya'",
+      "vocabulary": [
+        {
+          "word": "met",
+          "meaning": "past of meet"
+        }
+      ],
+      "grammar_focus": "present perfect question",
+      "tags": [
+        "question",
+        "teacher",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We're trying a new bedtime routine.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "cluster /tr/ in 'trying'",
+      "stress_focus": "BEDTIME stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'we're' contracted",
+      "vocabulary": [
+        {
+          "word": "routine",
+          "meaning": "regular schedule"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "bedtime",
+        "parenting",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I don't think screen time is helping.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'don't'",
+      "stress_focus": "SCREEN stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'don't think' links",
+      "vocabulary": [
+        {
+          "word": "screen time",
+          "meaning": "time spent on devices"
+        }
+      ],
+      "grammar_focus": "negative present simple opinion",
+      "tags": [
+        "opinion",
+        "screens",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "He's been acting up in class.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'been' to /bɪn/",
+      "stress_focus": "ACTING stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'he's been' links",
+      "vocabulary": [
+        {
+          "word": "act up",
+          "meaning": "misbehave"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "behavior",
+        "school",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How's she doing in math this year?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'how's'",
+      "stress_focus": "MATH stressed",
+      "intonation_focus": "rising wh-question tone",
+      "connected_speech_focus": "'how's she' links",
+      "vocabulary": [
+        {
+          "word": "doing",
+          "meaning": "performing"
+        }
+      ],
+      "grammar_focus": "present continuous question",
+      "tags": [
+        "school",
+        "question",
+        "academics"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Honestly, she's struggling a bit.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on 'honestly'",
+      "stress_focus": "STRUGGLING stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'she's struggling' links",
+      "vocabulary": [
+        {
+          "word": "struggling",
+          "meaning": "having difficulty"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "response",
+        "academics",
+        "honesty"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We set up a homework schedule.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb 'set up'",
+      "stress_focus": "SCHEDULE stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'set up a' links",
+      "vocabulary": [
+        {
+          "word": "set up",
+          "meaning": "arrange or establish"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "homework",
+        "routine",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you check his backpack tonight?",
+      "natural_form": "Couldja check his backpack tonight?",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'could' to /kəd/",
+      "stress_focus": "BACKPACK stressed",
+      "intonation_focus": "rising polite tone",
+      "connected_speech_focus": "'could you' blends",
+      "vocabulary": [
+        {
+          "word": "check",
+          "meaning": "look through"
+        }
+      ],
+      "grammar_focus": "modal request",
+      "tags": [
+        "request",
+        "parenting",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "She's finally getting the hang of reading.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'finally'",
+      "stress_focus": "READING stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'getting the' links",
+      "vocabulary": [
+        {
+          "word": "get the hang of",
+          "meaning": "become skilled at"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "reading",
+        "progress",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I feel like teachers are stretched thin.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "cluster /tʃt/ in 'stretched'",
+      "stress_focus": "THIN stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'feel like' links",
+      "vocabulary": [
+        {
+          "word": "stretched thin",
+          "meaning": "overworked"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "teachers",
+        "empathy"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "He hates doing his chores.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "/ts/ sound in 'hates'",
+      "stress_focus": "CHORES stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'hates doing' links",
+      "vocabulary": [
+        {
+          "word": "chores",
+          "meaning": "household tasks"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "chores",
+        "parenting",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Did the teacher send anything home?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "cluster /nd/ in 'send'",
+      "stress_focus": "ANYTHING stressed",
+      "intonation_focus": "rising question tone",
+      "connected_speech_focus": "'did the' links",
+      "vocabulary": [
+        {
+          "word": "send home",
+          "meaning": "give to take home"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "question",
+        "school",
+        "communication"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Just a note about the field trip.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "vowel sound in 'note'",
+      "stress_focus": "FIELD stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'just a' links",
+      "vocabulary": [
+        {
+          "word": "field trip",
+          "meaning": "school outing"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "response",
+        "school",
+        "event"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We're cutting back on screen time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "flap T in 'cutting'",
+      "stress_focus": "SCREEN stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'we're cutting' links",
+      "vocabulary": [
+        {
+          "word": "cut back on",
+          "meaning": "reduce"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "screens",
+        "parenting",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I think consistency really matters here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'consistency'",
+      "stress_focus": "MATTERS stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'think consistency' links",
+      "vocabulary": [
+        {
+          "word": "consistency",
+          "meaning": "staying the same over time"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "discipline",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "She talks back sometimes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "/ks/ sound in 'talks'",
+      "stress_focus": "BACK stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'talks back' links",
+      "vocabulary": [
+        {
+          "word": "talk back",
+          "meaning": "respond rudely"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "behavior",
+        "parenting",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "clarification",
+      "sentence": "Wait, do you mean her or her brother?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "vowel sound in 'wait'",
+      "stress_focus": "MEAN stressed",
+      "intonation_focus": "rising clarifying tone",
+      "connected_speech_focus": "'do you' links",
+      "vocabulary": [
+        {
+          "word": "mean",
+          "meaning": "refer to"
+        }
+      ],
+      "grammar_focus": "clarifying question",
+      "tags": [
+        "clarification",
+        "family",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "He's really coming out of his shell.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'really'",
+      "stress_focus": "SHELL stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'coming out' links",
+      "vocabulary": [
+        {
+          "word": "come out of one's shell",
+          "meaning": "become less shy"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "confidence",
+        "school",
+        "growth"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Would you mind picking her up early?",
+      "natural_form": "Wouldja mind picking her up early?",
+      "accent": "american",
+      "pronunciation_focus": "vowel sound in 'mind'",
+      "stress_focus": "EARLY stressed",
+      "intonation_focus": "rising polite tone",
+      "connected_speech_focus": "'would you' blends",
+      "vocabulary": [
+        {
+          "word": "mind",
+          "meaning": "object to"
+        }
+      ],
+      "grammar_focus": "polite modal request",
+      "tags": [
+        "request",
+        "pickup",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "They're doing a spelling test tomorrow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'they're'",
+      "stress_focus": "SPELLING stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'they're doing' links",
+      "vocabulary": [
+        {
+          "word": "spelling test",
+          "meaning": "test of writing words correctly"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "school",
+        "test",
+        "academics"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "agreement",
+      "sentence": "Yeah, I totally agree with that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'totally'",
+      "stress_focus": "AGREE stressed",
+      "intonation_focus": "falling agreement tone",
+      "connected_speech_focus": "'yeah I' links",
+      "vocabulary": [
+        {
+          "word": "totally",
+          "meaning": "completely"
+        }
+      ],
+      "grammar_focus": "present simple agreement",
+      "tags": [
+        "agreement",
+        "opinion",
+        "conversation"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "disagreement",
+      "sentence": "I'm not so sure about that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I'm'",
+      "stress_focus": "SURE stressed",
+      "intonation_focus": "falling disagreement tone",
+      "connected_speech_focus": "'not so' links",
+      "vocabulary": [
+        {
+          "word": "not so sure",
+          "meaning": "doubtful"
+        }
+      ],
+      "grammar_focus": "present simple disagreement",
+      "tags": [
+        "disagreement",
+        "opinion",
+        "conversation"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We're working with the counselor now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "/r/ sound in 'working'",
+      "stress_focus": "COUNSELOR stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'working with' links",
+      "vocabulary": [
+        {
+          "word": "counselor",
+          "meaning": "school advisor"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "support",
+        "school",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "She loves art class the most.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "final /z/ in 'loves'",
+      "stress_focus": "MOST stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'loves art' links",
+      "vocabulary": [
+        {
+          "word": "the most",
+          "meaning": "to the highest degree"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "school",
+        "preference",
+        "art"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I worry he's falling behind a little.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'worry'",
+      "stress_focus": "BEHIND stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'falling behind' links",
+      "vocabulary": [
+        {
+          "word": "fall behind",
+          "meaning": "not keep up"
+        }
+      ],
+      "grammar_focus": "present continuous opinion",
+      "tags": [
+        "opinion",
+        "worry",
+        "academics"
+      ]
+    },
+    {
+      "subcategory": "Discipline",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "They gave out report cards yesterday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "vowel sound in 'gave'",
+      "stress_focus": "REPORT stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'gave out' links",
+      "vocabulary": [
+        {
+          "word": "report card",
+          "meaning": "school grades document"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "school",
+        "grades",
+        "report"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "We got an email from the teacher about the trip.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "cluster /mpl/ in 'email'",
+      "stress_focus": "EMAIL stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'got an' links",
+      "vocabulary": [
+        {
+          "word": "email",
+          "meaning": "electronic message"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "communication",
+        "school",
+        "email"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "Have you signed the permission slip yet?",
+      "natural_form": "Have ya signed the permission slip yet?",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'have you'",
+      "stress_focus": "PERMISSION stressed",
+      "intonation_focus": "rising question tone",
+      "connected_speech_focus": "'have you' blends",
+      "vocabulary": [
+        {
+          "word": "permission slip",
+          "meaning": "form allowing a school activity"
+        }
+      ],
+      "grammar_focus": "present perfect question",
+      "tags": [
+        "question",
+        "paperwork",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "response",
+      "sentence": "Not yet, I'll do it tonight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I'll'",
+      "stress_focus": "TONIGHT stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'I'll do' links",
+      "vocabulary": [
+        {
+          "word": "not yet",
+          "meaning": "not at this time"
+        }
+      ],
+      "grammar_focus": "future simple response",
+      "tags": [
+        "response",
+        "promise",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think the workload's a bit much.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'workload's'",
+      "stress_focus": "MUCH stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'honestly I' links",
+      "vocabulary": [
+        {
+          "word": "workload",
+          "meaning": "amount of work assigned"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "homework",
+        "stress"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "She's been asking for a tutor lately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'been'",
+      "stress_focus": "TUTOR stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'she's been' links",
+      "vocabulary": [
+        {
+          "word": "tutor",
+          "meaning": "private teacher"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "support",
+        "school",
+        "academics"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Would it be possible to reschedule the meeting?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'possible'",
+      "stress_focus": "RESCHEDULE stressed",
+      "intonation_focus": "rising polite tone",
+      "connected_speech_focus": "'would it' links",
+      "vocabulary": [
+        {
+          "word": "reschedule",
+          "meaning": "change the time of"
+        }
+      ],
+      "grammar_focus": "polite modal request",
+      "tags": [
+        "request",
+        "meeting",
+        "workplace"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, do you mean this Friday or next?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "vowel sound in 'sorry'",
+      "stress_focus": "FRIDAY stressed",
+      "intonation_focus": "rising clarifying tone",
+      "connected_speech_focus": "'do you' links",
+      "vocabulary": [
+        {
+          "word": "mean",
+          "meaning": "intend"
+        }
+      ],
+      "grammar_focus": "clarifying question",
+      "tags": [
+        "clarification",
+        "schedule",
+        "conversation"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "He's dealing with a bit of a bully situation.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'dealing'",
+      "stress_focus": "BULLY stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'dealing with' links",
+      "vocabulary": [
+        {
+          "word": "bully",
+          "meaning": "someone who intimidates others"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "school",
+        "conflict",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "I feel like the school could communicate better.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'communicate'",
+      "stress_focus": "BETTER stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'feel like' links",
+      "vocabulary": [
+        {
+          "word": "communicate",
+          "meaning": "share information"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "school",
+        "communication"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "agreement",
+      "sentence": "Totally, I've noticed the same thing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I've'",
+      "stress_focus": "SAME stressed",
+      "intonation_focus": "falling agreement tone",
+      "connected_speech_focus": "'I've noticed' links",
+      "vocabulary": [
+        {
+          "word": "noticed",
+          "meaning": "observed"
+        }
+      ],
+      "grammar_focus": "present perfect agreement",
+      "tags": [
+        "agreement",
+        "conversation",
+        "observation"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "I'm not sure that's the best approach, though.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'approach'",
+      "stress_focus": "BEST stressed",
+      "intonation_focus": "falling disagreement tone",
+      "connected_speech_focus": "'not sure' links",
+      "vocabulary": [
+        {
+          "word": "approach",
+          "meaning": "way of dealing with something"
+        }
+      ],
+      "grammar_focus": "present simple disagreement",
+      "tags": [
+        "disagreement",
+        "opinion",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "We've been going back and forth about daycare.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "cluster /ŋk/ in 'back'",
+      "stress_focus": "DAYCARE stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'we've been' links",
+      "vocabulary": [
+        {
+          "word": "go back and forth",
+          "meaning": "discuss without deciding"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "decision",
+        "childcare",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "storytelling",
+      "sentence": "So the teacher pulled me aside after drop-off.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb stress in 'pulled aside'",
+      "stress_focus": "ASIDE stressed",
+      "intonation_focus": "falling narrative tone",
+      "connected_speech_focus": "'pulled me' links",
+      "vocabulary": [
+        {
+          "word": "pull aside",
+          "meaning": "take someone away to talk privately"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "storytelling",
+        "school",
+        "conversation"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "question",
+      "sentence": "What did she say when you picked him up?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'picked'",
+      "stress_focus": "SAY stressed",
+      "intonation_focus": "rising wh-question tone",
+      "connected_speech_focus": "'did she' links",
+      "vocabulary": [
+        {
+          "word": "pick up",
+          "meaning": "collect"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "question",
+        "storytelling",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "response",
+      "sentence": "She said he'd been a bit disruptive.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'he'd'",
+      "stress_focus": "DISRUPTIVE stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'she said' links",
+      "vocabulary": [
+        {
+          "word": "disruptive",
+          "meaning": "causing disturbance"
+        }
+      ],
+      "grammar_focus": "reported speech",
+      "tags": [
+        "response",
+        "behavior",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "We ended up switching him to another class.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb 'ended up'",
+      "stress_focus": "SWITCHING stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'ended up' links",
+      "vocabulary": [
+        {
+          "word": "end up",
+          "meaning": "eventually result in"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "decision",
+        "school",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "I honestly think smaller classes work better.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'honestly'",
+      "stress_focus": "SMALLER stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'honestly think' links",
+      "vocabulary": [
+        {
+          "word": "smaller classes",
+          "meaning": "classes with fewer students"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "education",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "She's juggling work, school pickups, and homework help.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'juggling'",
+      "stress_focus": "JUGGLING stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'juggling work' links",
+      "vocabulary": [
+        {
+          "word": "juggle",
+          "meaning": "manage multiple tasks at once"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "parenting",
+        "workload",
+        "balance"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "question",
+      "sentence": "How do you handle the morning rush with two kids?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'handle'",
+      "stress_focus": "RUSH stressed",
+      "intonation_focus": "rising wh-question tone",
+      "connected_speech_focus": "'do you' links",
+      "vocabulary": [
+        {
+          "word": "morning rush",
+          "meaning": "hectic time before school"
+        }
+      ],
+      "grammar_focus": "present simple question",
+      "tags": [
+        "question",
+        "routine",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "response",
+      "sentence": "We just leave the house ten minutes earlier.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'earlier'",
+      "stress_focus": "EARLIER stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'leave the' links",
+      "vocabulary": [
+        {
+          "word": "leave",
+          "meaning": "depart"
+        }
+      ],
+      "grammar_focus": "present simple response",
+      "tags": [
+        "response",
+        "routine",
+        "tips"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "I don't think grounding him is going to help much.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'don't'",
+      "stress_focus": "GROUNDING stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'don't think' links",
+      "vocabulary": [
+        {
+          "word": "ground",
+          "meaning": "punish by restricting privileges"
+        }
+      ],
+      "grammar_focus": "negative present simple opinion",
+      "tags": [
+        "opinion",
+        "discipline",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "They're introducing a new curriculum next semester.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'curriculum'",
+      "stress_focus": "SEMESTER stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'introducing a' links",
+      "vocabulary": [
+        {
+          "word": "curriculum",
+          "meaning": "course of study"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "school",
+        "policy",
+        "academics"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "clarification",
+      "sentence": "Wait, is this the field trip permission form or the medical one?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'medical'",
+      "stress_focus": "MEDICAL stressed",
+      "intonation_focus": "rising clarifying tone",
+      "connected_speech_focus": "'is this' links",
+      "vocabulary": [
+        {
+          "word": "medical form",
+          "meaning": "health information document"
+        }
+      ],
+      "grammar_focus": "clarifying question",
+      "tags": [
+        "clarification",
+        "paperwork",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "He's been really into science projects lately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'lately'",
+      "stress_focus": "SCIENCE stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'been really' links",
+      "vocabulary": [
+        {
+          "word": "into",
+          "meaning": "interested in"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "hobbies",
+        "school",
+        "interest"
+      ]
+    },
+    {
+      "subcategory": "Communication",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "I think it's important to praise effort, not just results.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'important'",
+      "stress_focus": "EFFORT stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'think it's' links",
+      "vocabulary": [
+        {
+          "word": "praise effort",
+          "meaning": "acknowledge hard work"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "parenting",
+        "motivation"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "storytelling",
+      "sentence": "So I ended up sitting through this three-hour parent-teacher conference last night.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'conference'",
+      "stress_focus": "THREE-HOUR stressed",
+      "intonation_focus": "falling narrative tone",
+      "connected_speech_focus": "'ended up sitting' links",
+      "vocabulary": [
+        {
+          "word": "conference",
+          "meaning": "formal meeting"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "storytelling",
+        "school",
+        "meeting"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think the school system puts way too much pressure on these kids.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'pressure'",
+      "stress_focus": "PRESSURE stressed",
+      "intonation_focus": "falling emphatic opinion tone",
+      "connected_speech_focus": "'puts way too' links",
+      "vocabulary": [
+        {
+          "word": "put pressure on",
+          "meaning": "cause stress or demands"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "education",
+        "stress"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "We've been back and forth with the school about getting him extra support.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal cluster 'back and forth'",
+      "stress_focus": "SUPPORT stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'been back and forth' links",
+      "vocabulary": [
+        {
+          "word": "extra support",
+          "meaning": "additional academic help"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "advocacy",
+        "school",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "question",
+      "sentence": "Do you think it's worth switching schools at this point, or is it too late in the year?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'switching'",
+      "stress_focus": "WORTH stressed",
+      "intonation_focus": "rising complex question tone",
+      "connected_speech_focus": "'is it' links",
+      "vocabulary": [
+        {
+          "word": "switch schools",
+          "meaning": "change to a different school"
+        }
+      ],
+      "grammar_focus": "complex question with alternatives",
+      "tags": [
+        "question",
+        "decision",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "response",
+      "sentence": "At this point, I'd rather just ride it out until the summer.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I'd'",
+      "stress_focus": "RIDE stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'ride it out' links",
+      "vocabulary": [
+        {
+          "word": "ride it out",
+          "meaning": "endure a difficult situation"
+        }
+      ],
+      "grammar_focus": "conditional response",
+      "tags": [
+        "response",
+        "decision",
+        "patience"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "He came home in tears because some kid was making fun of his lunch.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'tears'",
+      "stress_focus": "TEARS stressed",
+      "intonation_focus": "falling narrative tone",
+      "connected_speech_focus": "'came home' links",
+      "vocabulary": [
+        {
+          "word": "make fun of",
+          "meaning": "mock or tease"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "storytelling",
+        "bullying",
+        "empathy"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I honestly believe that consistency at home matters just as much as what happens at school.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'consistency'",
+      "stress_focus": "CONSISTENCY stressed",
+      "intonation_focus": "falling emphatic opinion tone",
+      "connected_speech_focus": "'believe that' links",
+      "vocabulary": [
+        {
+          "word": "consistency",
+          "meaning": "stability and predictability"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "parenting",
+        "values"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "We're trying to strike a balance between screen time and outdoor play.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'balance'",
+      "stress_focus": "BALANCE stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'strike a' links",
+      "vocabulary": [
+        {
+          "word": "strike a balance",
+          "meaning": "find a compromise"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "parenting",
+        "balance",
+        "screens"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "clarification",
+      "sentence": "Hold on, are we talking about his math grade or his overall report card?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'overall'",
+      "stress_focus": "OVERALL stressed",
+      "intonation_focus": "rising clarifying tone",
+      "connected_speech_focus": "'are we' links",
+      "vocabulary": [
+        {
+          "word": "overall",
+          "meaning": "in general"
+        }
+      ],
+      "grammar_focus": "clarifying question",
+      "tags": [
+        "clarification",
+        "academics",
+        "conversation"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "I get where you're coming from, but I really don't think punishing him will fix this.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'punishing'",
+      "stress_focus": "PUNISHING stressed",
+      "intonation_focus": "falling disagreement tone",
+      "connected_speech_focus": "'get where' links",
+      "vocabulary": [
+        {
+          "word": "come from",
+          "meaning": "have a certain perspective"
+        }
+      ],
+      "grammar_focus": "complex disagreement",
+      "tags": [
+        "disagreement",
+        "discipline",
+        "empathy"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "By the time we sorted out the carpool schedule, half the semester was already over.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'carpool'",
+      "stress_focus": "CARPOOL stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'sorted out' links",
+      "vocabulary": [
+        {
+          "word": "carpool",
+          "meaning": "shared transportation arrangement"
+        }
+      ],
+      "grammar_focus": "past perfect narrative",
+      "tags": [
+        "storytelling",
+        "logistics",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "If you ask me, kids these days are under way more academic pressure than we ever were.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'academic'",
+      "stress_focus": "PRESSURE stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'if you ask' links",
+      "vocabulary": [
+        {
+          "word": "under pressure",
+          "meaning": "experiencing stress"
+        }
+      ],
+      "grammar_focus": "comparative opinion",
+      "tags": [
+        "opinion",
+        "generation",
+        "academics"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "agreement",
+      "sentence": "Exactly, and that's exactly why we started limiting his after-school activities.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'exactly'",
+      "stress_focus": "LIMITING stressed",
+      "intonation_focus": "falling agreement tone",
+      "connected_speech_focus": "'that's exactly' links",
+      "vocabulary": [
+        {
+          "word": "limit",
+          "meaning": "restrict"
+        }
+      ],
+      "grammar_focus": "present agreement with justification",
+      "tags": [
+        "agreement",
+        "parenting",
+        "boundaries"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "We spent the whole weekend building this volcano for his science fair project.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'volcano'",
+      "stress_focus": "VOLCANO stressed",
+      "intonation_focus": "falling narrative tone",
+      "connected_speech_focus": "'spent the' links",
+      "vocabulary": [
+        {
+          "word": "science fair",
+          "meaning": "school event showcasing projects"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "storytelling",
+        "project",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I'm a firm believer that letting kids fail sometimes actually helps them grow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'believer'",
+      "stress_focus": "FAIL stressed",
+      "intonation_focus": "falling emphatic opinion tone",
+      "connected_speech_focus": "'letting kids' links",
+      "vocabulary": [
+        {
+          "word": "firm believer",
+          "meaning": "someone strongly convinced"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "parenting",
+        "resilience"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "It took a while, but he finally opened up about what's been bothering him at school.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'bothering'",
+      "stress_focus": "OPENED stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'opened up' links",
+      "vocabulary": [
+        {
+          "word": "open up",
+          "meaning": "start sharing feelings"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "storytelling",
+        "communication",
+        "school"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "question",
+      "sentence": "Have you ever thought about hiring a tutor, or do you think that's overkill?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'overkill'",
+      "stress_focus": "OVERKILL stressed",
+      "intonation_focus": "rising complex question tone",
+      "connected_speech_focus": "'have you' links",
+      "vocabulary": [
+        {
+          "word": "overkill",
+          "meaning": "more than necessary"
+        }
+      ],
+      "grammar_focus": "present perfect question with alternative",
+      "tags": [
+        "question",
+        "tutoring",
+        "decision"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "response",
+      "sentence": "Honestly, we tried it for a month, and it didn't really move the needle.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "idiom stress 'move the needle'",
+      "stress_focus": "NEEDLE stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'tried it' links",
+      "vocabulary": [
+        {
+          "word": "move the needle",
+          "meaning": "make a noticeable difference"
+        }
+      ],
+      "grammar_focus": "past simple response",
+      "tags": [
+        "response",
+        "tutoring",
+        "evaluation"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "Between soccer practice, homework, and dinner, our evenings are basically chaos.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'chaos'",
+      "stress_focus": "CHAOS stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'between soccer' links",
+      "vocabulary": [
+        {
+          "word": "chaos",
+          "meaning": "complete disorder"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "parenting",
+        "schedule",
+        "stress"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I really think we need to stop comparing our kids to their siblings or classmates.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'comparing'",
+      "stress_focus": "COMPARING stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'need to' links",
+      "vocabulary": [
+        {
+          "word": "compare",
+          "meaning": "judge against others"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "parenting",
+        "comparison"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "The moment he read his first full sentence out loud, I nearly cried at the kitchen table.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'sentence'",
+      "stress_focus": "CRIED stressed",
+      "intonation_focus": "falling narrative emotional tone",
+      "connected_speech_focus": "'read his' links",
+      "vocabulary": [
+        {
+          "word": "out loud",
+          "meaning": "audibly"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "storytelling",
+        "milestone",
+        "emotion"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "I hear you, but I don't think more homework is really the answer here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'homework'",
+      "stress_focus": "ANSWER stressed",
+      "intonation_focus": "falling disagreement tone",
+      "connected_speech_focus": "'hear you' links",
+      "vocabulary": [
+        {
+          "word": "hear you",
+          "meaning": "understand your point"
+        }
+      ],
+      "grammar_focus": "complex disagreement",
+      "tags": [
+        "disagreement",
+        "homework",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "At the end of the day, I just want him to enjoy learning, not dread it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'dread'",
+      "stress_focus": "DREAD stressed",
+      "intonation_focus": "falling opinion tone",
+      "connected_speech_focus": "'end of' links",
+      "vocabulary": [
+        {
+          "word": "dread",
+          "meaning": "fear or hate something"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "opinion",
+        "learning",
+        "motivation"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "We finally got the school to agree to a modified schedule for him.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'modified'",
+      "stress_focus": "MODIFIED stressed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "'got the' links",
+      "vocabulary": [
+        {
+          "word": "modified schedule",
+          "meaning": "adjusted timetable"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "advocacy",
+        "school",
+        "accommodation"
+      ]
+    },
+    {
+      "subcategory": "Growth",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "When I really stop and think about it, the way we handle discipline says a lot more about us than it does about them.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress pattern in 'discipline'",
+      "stress_focus": "DISCIPLINE stressed",
+      "intonation_focus": "falling reflective opinion tone",
+      "connected_speech_focus": "'stop and think' links",
+      "vocabulary": [
+        {
+          "word": "discipline",
+          "meaning": "teaching acceptable behavior"
+        }
+      ],
+      "grammar_focus": "complex present simple opinion",
+      "tags": [
+        "opinion",
+        "parenting",
+        "reflection"
+      ]
+    }
+  ]
+}

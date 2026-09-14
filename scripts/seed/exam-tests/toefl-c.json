@@ -1,0 +1,178 @@
+{
+  "tests": [
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-advances-in-biomedical-research",
+      "task_type": "listen-repeat",
+      "task_label": "Listen & Repeat",
+      "topic": "Advances in Biomedical Research",
+      "difficulty": "Advanced",
+      "instructions": "Listen to each sentence carefully and repeat it exactly as you heard it.",
+      "prepare_seconds": 0,
+      "speak_seconds": 20,
+      "questions": [
+        "Recent breakthroughs in gene editing have revolutionized the field of molecular biology.",
+        "Scientists are investigating how targeted therapies can improve patient outcomes in oncology.",
+        "The integration of biotechnology in agriculture has sparked significant ethical debates worldwide.",
+        "Researchers are now focusing on the long-term effects of synthetic biology on ecosystem stability."
+      ],
+      "sort_order": 21
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-urban-planning-and-sustainability",
+      "task_type": "interview",
+      "task_label": "Take an Interview",
+      "topic": "Urban Planning and Sustainability",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Answer the questions about urban development and environmental impact in a formal interview style.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "How do green spaces contribute to the overall well-being of residents in large metropolitan areas?",
+        "What are the primary obstacles cities face when transitioning to carbon-neutral transportation systems?",
+        "In your opinion, should urban planners prioritize historic preservation or modern architectural development?",
+        "How can cities better prepare for the challenges posed by rising sea levels and extreme weather?"
+      ],
+      "sort_order": 22
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-impact-of-social-media-news",
+      "task_type": "independent-speaking",
+      "task_label": "Independent Speaking",
+      "topic": "Impact of Social Media on News",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Express your opinion on how social media has changed the way we consume news.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Some people believe that social media is the most reliable source of breaking news. Do you agree or disagree?",
+        "Discuss how the speed of digital information sharing affects the accuracy of journalistic reporting.",
+        "How has the rise of influencer culture changed public perception of traditional media outlets?",
+        "Should media companies be held responsible for the spread of misinformation on their platforms?"
+      ],
+      "sort_order": 23
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-ethics-in-artificial-intelligence",
+      "task_type": "integrated-summary",
+      "task_label": "Integrated Summary",
+      "topic": "Ethics in Artificial Intelligence",
+      "difficulty": "Advanced",
+      "instructions": "Summarize the key ethical concerns regarding AI discussed in the provided material.",
+      "prepare_seconds": 20,
+      "speak_seconds": 60,
+      "questions": [
+        "Summarize the primary arguments regarding the accountability of developers for algorithmic bias.",
+        "Explain the potential risks of delegating critical decision-making processes to automated systems.",
+        "Discuss the balance between technological innovation and the protection of individual privacy rights.",
+        "Describe the proposed frameworks for establishing international standards in AI governance."
+      ],
+      "sort_order": 24
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-future-career-trends-tech",
+      "task_type": "listen-repeat",
+      "task_label": "Listen & Repeat",
+      "topic": "Future Career Trends in Technology",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Repeat the sentences provided to demonstrate your listening and pronunciation skills.",
+      "prepare_seconds": 0,
+      "speak_seconds": 20,
+      "questions": [
+        "Remote work technologies have fundamentally altered the landscape of modern professional collaboration.",
+        "Continuous learning is now considered a prerequisite for success in the rapidly evolving tech sector.",
+        "Diversity and inclusion initiatives are essential for fostering innovation within global corporations."
+      ],
+      "sort_order": 25
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-public-health-policy-challenges",
+      "task_type": "interview",
+      "task_label": "Take an Interview",
+      "topic": "Public Health Policy Challenges",
+      "difficulty": "Advanced",
+      "instructions": "Respond to interview questions regarding global health strategies and policy implementation.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "What role should international organizations play in coordinating responses to global pandemics?",
+        "How can governments balance the need for public safety with the protection of individual civil liberties?",
+        "What strategies are most effective for improving healthcare accessibility in underserved rural communities?"
+      ],
+      "sort_order": 26
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-science-education-in-schools",
+      "task_type": "independent-speaking",
+      "task_label": "Independent Speaking",
+      "topic": "Science Education in Modern Schools",
+      "difficulty": "Intermediate",
+      "instructions": "Discuss your views on the effectiveness of current science curricula in primary education.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Do you think hands-on laboratory experience is more important than theoretical study in science education?",
+        "How can schools encourage more students to pursue careers in STEM fields?",
+        "Explain why understanding scientific methodology is crucial for the general public in the 21st century."
+      ],
+      "sort_order": 27
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-renewable-energy-infrastructure-growth",
+      "task_type": "integrated-summary",
+      "task_label": "Integrated Summary",
+      "topic": "Renewable Energy Infrastructure Growth",
+      "difficulty": "Advanced",
+      "instructions": "Provide a comprehensive summary of the challenges facing renewable energy infrastructure expansion.",
+      "prepare_seconds": 20,
+      "speak_seconds": 60,
+      "questions": [
+        "Detail the economic barriers that prevent developing nations from adopting large-scale solar power.",
+        "Summarize the technological limitations of current energy storage systems for wind power.",
+        "Explain how government subsidies influence the growth rate of the renewable energy sector."
+      ],
+      "sort_order": 28
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-psychological-impacts-of-urbanization",
+      "task_type": "listen-repeat",
+      "task_label": "Listen & Repeat",
+      "topic": "Psychological Impacts of Urbanization",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Listen to the statements about urban living and repeat them clearly.",
+      "prepare_seconds": 0,
+      "speak_seconds": 20,
+      "questions": [
+        "Studies suggest that high population density can lead to increased stress levels among city dwellers.",
+        "Access to public parks and recreation areas is vital for maintaining mental health in urban environments.",
+        "Noise pollution is a significant factor contributing to sleep disturbances in major metropolitan centers."
+      ],
+      "sort_order": 29
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-mix-corporate-responsibility-and-environment",
+      "task_type": "interview",
+      "task_label": "Take an Interview",
+      "topic": "Corporate Responsibility and Environment",
+      "difficulty": "Advanced",
+      "instructions": "Answer questions about the role of corporations in protecting the natural environment.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Should companies be legally required to report their carbon footprint to the public annually?",
+        "How can businesses balance their profit motives with the need for sustainable resource management?",
+        "What impact does corporate environmental activism have on consumer brand loyalty?"
+      ],
+      "sort_order": 30
+    }
+  ]
+}

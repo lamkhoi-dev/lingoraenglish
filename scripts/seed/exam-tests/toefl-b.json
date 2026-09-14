@@ -1,0 +1,175 @@
+{
+  "tests": [
+    {
+      "exam": "toefl",
+      "slug": "toefl-personal-habits-productivity",
+      "task_type": "independent-speaking",
+      "task_label": "Independent Speaking",
+      "topic": "Personal Habits and Productivity",
+      "difficulty": "Beginner",
+      "instructions": "State your opinion on a personal habit or choice and provide reasons to support it.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Do you prefer to study in a quiet library or in a place with background noise, like a coffee shop? Use specific reasons and examples to support your choice.",
+        "Some people like to plan their daily activities in advance, while others prefer to be spontaneous. Which approach do you think is better? Explain why.",
+        "Do you agree or disagree with the following statement? It is important to get at least eight hours of sleep every night. Give reasons to support your opinion."
+      ],
+      "sort_order": 11
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-campus-decisions-facilities",
+      "task_type": "independent-speaking",
+      "task_label": "Independent Speaking",
+      "topic": "Campus Decisions and Facilities",
+      "difficulty": "Intermediate",
+      "instructions": "Discuss your preference or opinion regarding university policies or campus life improvements.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "The university is considering replacing all paper textbooks with electronic books. Do you think this is a good idea? Why or why not?",
+        "Some students prefer to live in university dormitories, while others prefer to live off-campus in an apartment. Which do you think is better for a student’s first year?",
+        "Should universities spend more money on improving their sports facilities or their science laboratories? Provide specific reasons for your choice."
+      ],
+      "sort_order": 12
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-workplace-dynamics-preferences",
+      "task_type": "independent-speaking",
+      "task_label": "Independent Speaking",
+      "topic": "Workplace Dynamics and Preferences",
+      "difficulty": "Intermediate",
+      "instructions": "Evaluate different professional environments and explain your preferred way of working.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Do you prefer to work on projects individually or in a team? Explain the reasons for your preference.",
+        "Some companies allow employees to work from home several days a week. Do you think this is beneficial for both the employer and the employee?",
+        "Is it better to have a high-paying job that you dislike or a lower-paying job that you enjoy? Support your choice with examples."
+      ],
+      "sort_order": 13
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-technology-modern-life",
+      "task_type": "independent-speaking",
+      "task_label": "Independent Speaking",
+      "topic": "Technology in Modern Life",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Analyze the impact of technology on society and communication.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Do you think that social media has a positive or negative impact on how people communicate in person? Provide specific reasons for your opinion.",
+        "Some people believe that children should not be allowed to use smartphones until they are teenagers. Do you agree or disagree with this view?",
+        "In your opinion, has technology made the world a better place to live? Why or why not?"
+      ],
+      "sort_order": 14
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-education-policy-student-life",
+      "task_type": "independent-speaking",
+      "task_label": "Independent Speaking",
+      "topic": "Education Policy and Student Life",
+      "difficulty": "Advanced",
+      "instructions": "Critically examine educational requirements and their impact on students.",
+      "prepare_seconds": 15,
+      "speak_seconds": 45,
+      "questions": [
+        "Some educators argue that students should be required to take a gap year before entering university. Do you agree or disagree? Explain your reasoning.",
+        "Do you believe that standardized testing is an accurate way to measure a student’s intelligence and potential? Provide examples to support your view.",
+        "Should students be required to take classes in subjects outside their major? Why or why not?"
+      ],
+      "sort_order": 15
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-impact-urban-green-spaces",
+      "task_type": "integrated-summary",
+      "task_label": "Integrated Summary",
+      "topic": "Impact of Urban Green Spaces",
+      "difficulty": "Beginner",
+      "instructions": "Summarize how the lecture challenges or expands upon the information provided in the reading passage.",
+      "prepare_seconds": 20,
+      "speak_seconds": 60,
+      "questions": [
+        "The reading passage describes the health benefits of urban parks. The professor in the lecture explains how cities are struggling to maintain these spaces. Summarize the points made in the lecture, being sure to explain how they cast doubt on the reading.",
+        "Describe the relationship between the reading passage about urban heat islands and the lecture's discussion on the role of trees in cooling city centers.",
+        "Explain the benefits of rooftop gardens as presented in the reading and contrast them with the cost concerns mentioned by the speaker in the lecture."
+      ],
+      "sort_order": 16
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-university-administrative-decisions",
+      "task_type": "integrated-summary",
+      "task_label": "Integrated Summary",
+      "topic": "University Administrative Decisions",
+      "difficulty": "Intermediate",
+      "instructions": "Summarize a university's proposed change and the reactions from the campus community.",
+      "prepare_seconds": 20,
+      "speak_seconds": 60,
+      "questions": [
+        "The university has announced a plan to increase tuition to renovate the student union. The lecture features two students discussing their disapproval. Summarize the students' arguments and how they relate to the university's plan.",
+        "Summarize the proposed change to the campus meal plan and explain the reasons provided by the university spokesperson in the lecture for this adjustment.",
+        "Based on the reading and lecture, explain the conflict regarding the new parking regulations on campus and how the administration plans to address student concerns."
+      ],
+      "sort_order": 17
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-environmental-conservation-strategies",
+      "task_type": "integrated-summary",
+      "task_label": "Integrated Summary",
+      "topic": "Environmental Conservation Strategies",
+      "difficulty": "Intermediate",
+      "instructions": "Compare technical solutions for environmental issues based on both reading and listening materials.",
+      "prepare_seconds": 20,
+      "speak_seconds": 60,
+      "questions": [
+        "The reading passage discusses the advantages of hydroelectric power. The lecture mentions the negative impact on local ecosystems. Explain how the lecture's points challenge the benefits described in the reading.",
+        "Summarize the concept of 'carbon offsets' as described in the text and explain the speaker’s skepticism regarding their effectiveness in the long term.",
+        "Explain the process of plastic recycling mentioned in the reading and the logistical hurdles discussed by the guest speaker in the recording."
+      ],
+      "sort_order": 18
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-remote-work-global-teams",
+      "task_type": "integrated-summary",
+      "task_label": "Integrated Summary",
+      "topic": "Remote Work and Global Teams",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Synthesize information about modern working arrangements from the provided text and lecture.",
+      "prepare_seconds": 20,
+      "speak_seconds": 60,
+      "questions": [
+        "The text outlines the efficiency gains from remote work. The professor discusses the psychological toll of isolation. Summarize the points made in the lecture and how they respond to the text.",
+        "Compare the reading's view on digital nomadism with the lecture's critique of its impact on local economies in developing nations.",
+        "Explain the advantages of asynchronous communication mentioned in the article and the challenges of team cohesion discussed in the audio lecture.",
+        "Summarize the corporate policy changes regarding hybrid work and how employees in the interview reacted to these new mandates."
+      ],
+      "sort_order": 19
+    },
+    {
+      "exam": "toefl",
+      "slug": "toefl-advancements-artificial-intelligence",
+      "task_type": "integrated-summary",
+      "task_label": "Integrated Summary",
+      "topic": "Advancements in Artificial Intelligence",
+      "difficulty": "Advanced",
+      "instructions": "Summarize complex debates regarding the future of technology and its societal impact.",
+      "prepare_seconds": 20,
+      "speak_seconds": 60,
+      "questions": [
+        "The reading passage explores the potential for AI to revolutionize healthcare. The lecturer highlights concerns about data privacy and algorithmic bias. Explain how the lecture addresses the optimism of the reading.",
+        "Summarize the 'Turing Test' concept from the reading and how the speaker uses modern Large Language Models to argue that the test may no longer be sufficient.",
+        "Discuss the economic implications of AI automation as presented in the text and the lecturer's proposal for a Universal Basic Income as a solution to job displacement."
+      ],
+      "sort_order": 20
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "topic_slug": "phone-calls-messages",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Leaving a message",
+      "turns": [
+        { "speaker_label": "Caller", "speaker_voice": "shimmer", "sentence": "Hi, is John there, please?", "is_free": true },
+        { "speaker_label": "Receiver", "speaker_voice": "alloy", "sentence": "Sorry, he's not home right now.", "is_free": true },
+        { "speaker_label": "Caller", "speaker_voice": "shimmer", "sentence": "Can I leave a message?", "is_free": true },
+        { "speaker_label": "Receiver", "speaker_voice": "alloy", "sentence": "Of course, go ahead.", "is_free": true },
+        { "speaker_label": "Caller", "speaker_voice": "shimmer", "sentence": "Please tell him Sarah called.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Rescheduling by phone",
+      "turns": [
+        { "speaker_label": "Caller", "speaker_voice": "coral", "sentence": "Hi, I'm calling to see if I could move our call from Tuesday to Wednesday.", "is_free": false },
+        { "speaker_label": "Receiver", "speaker_voice": "sage", "sentence": "Let me check my schedule — yes, Wednesday afternoon actually works better for me too.", "is_free": false },
+        { "speaker_label": "Caller", "speaker_voice": "coral", "sentence": "Great, does 2 p.m. still work on your end?", "is_free": false },
+        { "speaker_label": "Receiver", "speaker_voice": "sage", "sentence": "That's perfect. I'll send you a new calendar invite right after this call.", "is_free": false },
+        { "speaker_label": "Caller", "speaker_voice": "coral", "sentence": "Sounds good, thanks for being flexible.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Handling a dropped call",
+      "turns": [
+        { "speaker_label": "Caller", "speaker_voice": "nova", "sentence": "Sorry about that, we must have gotten cut off right as I was explaining the second point.", "is_free": false },
+        { "speaker_label": "Receiver", "speaker_voice": "shimmer", "sentence": "No worries, the reception's been unreliable on my end all morning. Where did we leave off?", "is_free": false },
+        { "speaker_label": "Caller", "speaker_voice": "nova", "sentence": "I believe you were about to raise a concern about the timeline we proposed.", "is_free": false },
+        { "speaker_label": "Receiver", "speaker_voice": "shimmer", "sentence": "Right, yes — I just wanted to flag that it might be a bit ambitious given our current workload.", "is_free": false },
+        { "speaker_label": "Caller", "speaker_voice": "nova", "sentence": "That's fair, let's revisit it once I'm back at my desk with a stronger signal.", "is_free": false }
+      ]
+    }
+  ]
+}

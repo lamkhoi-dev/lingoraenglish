@@ -1,0 +1,41 @@
+{
+  "topic_slug": "travel-airport-hotel",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Check-in",
+      "turns": [
+        { "speaker_label": "Agent", "speaker_voice": "nova", "sentence": "Good morning. Passport, please.", "is_free": true },
+        { "speaker_label": "Traveler", "speaker_voice": "shimmer", "sentence": "Here you go.", "is_free": true },
+        { "speaker_label": "Agent", "speaker_voice": "nova", "sentence": "Do you have any bags to check in?", "is_free": true },
+        { "speaker_label": "Traveler", "speaker_voice": "shimmer", "sentence": "Yes, just this one suitcase.", "is_free": true },
+        { "speaker_label": "Agent", "speaker_voice": "nova", "sentence": "Here's your boarding pass. Gate 22, boarding at 9:40.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Hotel check-in",
+      "turns": [
+        { "speaker_label": "Receptionist", "speaker_voice": "alloy", "sentence": "Welcome! Do you have a reservation with us?", "is_free": false },
+        { "speaker_label": "Guest", "speaker_voice": "coral", "sentence": "Yes, it's under the name Okafor, for three nights.", "is_free": false },
+        { "speaker_label": "Receptionist", "speaker_voice": "alloy", "sentence": "Found it. Would you prefer a room with a city view or a courtyard view?", "is_free": false },
+        { "speaker_label": "Guest", "speaker_voice": "coral", "sentence": "The courtyard sounds quieter — I'll go with that.", "is_free": false },
+        { "speaker_label": "Receptionist", "speaker_voice": "alloy", "sentence": "Good choice. Breakfast is served from 7 to 10 in the lobby.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Flight disruption",
+      "turns": [
+        { "speaker_label": "Traveler", "speaker_voice": "sage", "sentence": "I just saw my connecting flight's been delayed — is there any chance I'll still make it?", "is_free": false },
+        { "speaker_label": "Agent", "speaker_voice": "shimmer", "sentence": "Let me pull up your itinerary... it's going to be tight, but you might just make the new departure time.", "is_free": false },
+        { "speaker_label": "Traveler", "speaker_voice": "sage", "sentence": "And if I don't? Is there a later flight I could be rebooked onto?", "is_free": false },
+        { "speaker_label": "Agent", "speaker_voice": "shimmer", "sentence": "There is one at 6 p.m. — I'll go ahead and put a courtesy hold on that seat just in case.", "is_free": false },
+        { "speaker_label": "Traveler", "speaker_voice": "sage", "sentence": "That's a huge relief, thank you for thinking ahead on that.", "is_free": false }
+      ]
+    }
+  ]
+}

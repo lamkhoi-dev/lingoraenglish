@@ -1,0 +1,2362 @@
+{
+  "slug": "hobbies-entertainment",
+  "name": "Hobbies, Free Time & Entertainment",
+  "topic_group": "Everyday English",
+  "blurb": "Practice natural spoken English about hobbies, free time, sports, music, movies, games, and giving recommendations.",
+  "sort_order": 21,
+  "sentences": [
+    {
+      "subcategory": "Suggesting plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Are you free on Saturday?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'you' to 'ya'.",
+      "stress_focus": "Stress on FREE.",
+      "intonation_focus": "Rising pitch at the end.",
+      "connected_speech_focus": "Linking 'are-you' smoothly.",
+      "vocabulary": [
+        {
+          "word": "free",
+          "meaning": "not busy"
+        }
+      ],
+      "grammar_focus": "Yes/no question with 'be'",
+      "tags": [
+        "weekend",
+        "invitation"
+      ]
+    },
+    {
+      "subcategory": "Suggesting plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Let's go to the park.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear 'ts' cluster in 'let's'.",
+      "stress_focus": "Stress on GO and PARK.",
+      "intonation_focus": "Falling intonation, suggestion tone.",
+      "connected_speech_focus": "'Let's' contraction linking.",
+      "vocabulary": [
+        {
+          "word": "let's",
+          "meaning": "let us"
+        }
+      ],
+      "grammar_focus": "Imperative with 'let's'",
+      "tags": [
+        "suggestion",
+        "outdoors"
+      ]
+    },
+    {
+      "subcategory": "Accepting & declining invitations",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Sure, that sounds fun.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /ð/ in 'that'.",
+      "stress_focus": "Stress on SURE and FUN.",
+      "intonation_focus": "Falling, enthusiastic tone.",
+      "connected_speech_focus": "'Sounds fun' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "sounds",
+          "meaning": "seems"
+        }
+      ],
+      "grammar_focus": "Simple present statement",
+      "tags": [
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Accepting & declining invitations",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Sorry, I can't make it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'can't' vowel.",
+      "stress_focus": "Stress on SORRY and CAN'T.",
+      "intonation_focus": "Falling, apologetic tone.",
+      "connected_speech_focus": "'Make it' linked as one unit.",
+      "vocabulary": [
+        {
+          "word": "make it",
+          "meaning": "be able to attend"
+        }
+      ],
+      "grammar_focus": "Negative modal 'can't'",
+      "tags": [
+        "decline"
+      ]
+    },
+    {
+      "subcategory": "Arranging time & place",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What time should we meet?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /w/ in 'what'.",
+      "stress_focus": "Stress on TIME and MEET.",
+      "intonation_focus": "Rising then falling wh-question.",
+      "connected_speech_focus": "'Should we' linked quickly.",
+      "vocabulary": [
+        {
+          "word": "meet",
+          "meaning": "come together"
+        }
+      ],
+      "grammar_focus": "Wh-question with modal",
+      "tags": [
+        "meeting"
+      ]
+    },
+    {
+      "subcategory": "Arranging time & place",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's meet at the mall.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear final /t/ in 'meet'.",
+      "stress_focus": "Stress on MEET and MALL.",
+      "intonation_focus": "Falling, decisive tone.",
+      "connected_speech_focus": "'Let's meet' linked.",
+      "vocabulary": [
+        {
+          "word": "mall",
+          "meaning": "shopping center"
+        }
+      ],
+      "grammar_focus": "Imperative suggestion",
+      "tags": [
+        "location"
+      ]
+    },
+    {
+      "subcategory": "Changing or cancelling plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need to cancel our plans.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /k/ in 'cancel'.",
+      "stress_focus": "Stress on NEED and CANCEL.",
+      "intonation_focus": "Falling, apologetic tone.",
+      "connected_speech_focus": "'Need to' reduced to 'needa'.",
+      "vocabulary": [
+        {
+          "word": "cancel",
+          "meaning": "call off"
+        }
+      ],
+      "grammar_focus": "Infinitive after 'need'",
+      "tags": [
+        "cancellation"
+      ]
+    },
+    {
+      "subcategory": "Changing or cancelling plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Can we move it to Sunday?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'can we' to 'kn-we'.",
+      "stress_focus": "Stress on MOVE and SUNDAY.",
+      "intonation_focus": "Rising intonation, polite request.",
+      "connected_speech_focus": "'Move it' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "move",
+          "meaning": "reschedule"
+        }
+      ],
+      "grammar_focus": "Modal question for request",
+      "tags": [
+        "reschedule"
+      ]
+    },
+    {
+      "subcategory": "Weekend activities",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I like sleeping in on weekends.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /s/ in 'sleeping'.",
+      "stress_focus": "Stress on SLEEPING and WEEKENDS.",
+      "intonation_focus": "Falling, relaxed tone.",
+      "connected_speech_focus": "'Sleeping in' as one chunk.",
+      "vocabulary": [
+        {
+          "word": "sleep in",
+          "meaning": "wake up late"
+        }
+      ],
+      "grammar_focus": "Gerund after 'like'",
+      "tags": [
+        "habit"
+      ]
+    },
+    {
+      "subcategory": "Weekend activities",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We usually clean the house.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /kl/ in 'clean'.",
+      "stress_focus": "Stress on CLEAN and HOUSE.",
+      "intonation_focus": "Falling, neutral tone.",
+      "connected_speech_focus": "'Usually' reduced slightly.",
+      "vocabulary": [
+        {
+          "word": "usually",
+          "meaning": "most of the time"
+        }
+      ],
+      "grammar_focus": "Simple present routine",
+      "tags": [
+        "chores"
+      ]
+    },
+    {
+      "subcategory": "Movies & eating out",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you want to see a movie?",
+      "natural_form": "Do you wanna see a movie?",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'want to' to 'wanna'.",
+      "stress_focus": "Stress on WANT and MOVIE.",
+      "intonation_focus": "Rising yes/no intonation.",
+      "connected_speech_focus": "'Want to' blends into 'wanna'.",
+      "vocabulary": [
+        {
+          "word": "movie",
+          "meaning": "film"
+        }
+      ],
+      "grammar_focus": "Question with 'want to'",
+      "tags": [
+        "cinema"
+      ]
+    },
+    {
+      "subcategory": "Movies & eating out",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's grab dinner tonight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /gr/ blend in 'grab'.",
+      "stress_focus": "Stress on GRAB and TONIGHT.",
+      "intonation_focus": "Falling, casual suggestion.",
+      "connected_speech_focus": "'Let's grab' linked.",
+      "vocabulary": [
+        {
+          "word": "grab",
+          "meaning": "get quickly"
+        }
+      ],
+      "grammar_focus": "Imperative suggestion",
+      "tags": [
+        "dining"
+      ]
+    },
+    {
+      "subcategory": "Sports & outdoors",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you want to play soccer?",
+      "natural_form": "Do you wanna play soccer?",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'want to'.",
+      "stress_focus": "Stress on PLAY and SOCCER.",
+      "intonation_focus": "Rising yes/no intonation.",
+      "connected_speech_focus": "'Want to' blends into 'wanna'.",
+      "vocabulary": [
+        {
+          "word": "soccer",
+          "meaning": "football sport"
+        }
+      ],
+      "grammar_focus": "Question with 'want to'",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "subcategory": "Sports & outdoors",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I love going for a run.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'run'.",
+      "stress_focus": "Stress on LOVE and RUN.",
+      "intonation_focus": "Falling, enthusiastic tone.",
+      "connected_speech_focus": "'Going for' linked.",
+      "vocabulary": [
+        {
+          "word": "run",
+          "meaning": "jog"
+        }
+      ],
+      "grammar_focus": "Gerund after 'love'",
+      "tags": [
+        "exercise"
+      ]
+    },
+    {
+      "subcategory": "Catching up afterwards",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "How was your weekend?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /h/ in 'how'.",
+      "stress_focus": "Stress on HOW and WEEKEND.",
+      "intonation_focus": "Falling wh-question intonation.",
+      "connected_speech_focus": "'Was your' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "weekend",
+          "meaning": "Saturday and Sunday"
+        }
+      ],
+      "grammar_focus": "Simple past wh-question",
+      "tags": [
+        "catching up"
+      ]
+    },
+    {
+      "subcategory": "Catching up afterwards",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It was really relaxing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'relaxing'.",
+      "stress_focus": "Stress on REALLY and RELAXING.",
+      "intonation_focus": "Falling, satisfied tone.",
+      "connected_speech_focus": "'It was' reduced slightly.",
+      "vocabulary": [
+        {
+          "word": "relaxing",
+          "meaning": "calm and restful"
+        }
+      ],
+      "grammar_focus": "Simple past statement",
+      "tags": [
+        "reflection"
+      ]
+    },
+    {
+      "subcategory": "Suggesting plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Maybe we could watch a movie.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /w/ in 'watch'.",
+      "stress_focus": "Stress on MAYBE and MOVIE.",
+      "intonation_focus": "Falling, tentative tone.",
+      "connected_speech_focus": "'Could watch' linked.",
+      "vocabulary": [
+        {
+          "word": "maybe",
+          "meaning": "perhaps"
+        }
+      ],
+      "grammar_focus": "Modal 'could' for suggestion",
+      "tags": [
+        "suggestion"
+      ]
+    },
+    {
+      "subcategory": "Suggesting plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Want to grab coffee later?",
+      "natural_form": "Wanna grab coffee later?",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'want to'.",
+      "stress_focus": "Stress on COFFEE and LATER.",
+      "intonation_focus": "Rising casual question.",
+      "connected_speech_focus": "'Want to' blends to 'wanna'.",
+      "vocabulary": [
+        {
+          "word": "later",
+          "meaning": "after now"
+        }
+      ],
+      "grammar_focus": "Casual invitation question",
+      "tags": [
+        "coffee"
+      ]
+    },
+    {
+      "subcategory": "Accepting & declining invitations",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I'd love to come!",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /l/ in 'love'.",
+      "stress_focus": "Stress on LOVE and COME.",
+      "intonation_focus": "Rising, excited tone.",
+      "connected_speech_focus": "'I'd' contraction linking.",
+      "vocabulary": [
+        {
+          "word": "I'd",
+          "meaning": "I would"
+        }
+      ],
+      "grammar_focus": "Contracted modal for acceptance",
+      "tags": [
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Accepting & declining invitations",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Maybe another time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /m/ in 'maybe'.",
+      "stress_focus": "Stress on MAYBE and TIME.",
+      "intonation_focus": "Falling, polite refusal tone.",
+      "connected_speech_focus": "'Another time' linked.",
+      "vocabulary": [
+        {
+          "word": "another",
+          "meaning": "a different"
+        }
+      ],
+      "grammar_focus": "Simple phrase, polite decline",
+      "tags": [
+        "decline"
+      ]
+    },
+    {
+      "subcategory": "Arranging time & place",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I'll meet you outside the theater.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /θ/ in 'theater'.",
+      "stress_focus": "Stress on MEET and THEATER.",
+      "intonation_focus": "Falling, confirming tone.",
+      "connected_speech_focus": "'I'll meet' linked.",
+      "vocabulary": [
+        {
+          "word": "theater",
+          "meaning": "cinema"
+        }
+      ],
+      "grammar_focus": "Future with 'will'",
+      "tags": [
+        "meeting"
+      ]
+    },
+    {
+      "subcategory": "Changing or cancelling plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Something came up at work.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /k/ in 'came'.",
+      "stress_focus": "Stress on SOMETHING and WORK.",
+      "intonation_focus": "Falling, explanatory tone.",
+      "connected_speech_focus": "'Came up' phrasal linking.",
+      "vocabulary": [
+        {
+          "word": "came up",
+          "meaning": "happened unexpectedly"
+        }
+      ],
+      "grammar_focus": "Simple past phrasal verb",
+      "tags": [
+        "excuse"
+      ]
+    },
+    {
+      "subcategory": "Weekend activities",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We might go hiking Sunday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /h/ in 'hiking'.",
+      "stress_focus": "Stress on HIKING and SUNDAY.",
+      "intonation_focus": "Falling, casual plan tone.",
+      "connected_speech_focus": "'Might go' linked.",
+      "vocabulary": [
+        {
+          "word": "hiking",
+          "meaning": "walking in nature"
+        }
+      ],
+      "grammar_focus": "Modal 'might' for possibility",
+      "tags": [
+        "outdoors"
+      ]
+    },
+    {
+      "subcategory": "Movies & eating out",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This restaurant has great pizza.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'restaurant'.",
+      "stress_focus": "Stress on RESTAURANT and PIZZA.",
+      "intonation_focus": "Falling, descriptive tone.",
+      "connected_speech_focus": "'Has great' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "restaurant",
+          "meaning": "place to eat"
+        }
+      ],
+      "grammar_focus": "Simple present description",
+      "tags": [
+        "dining"
+      ]
+    },
+    {
+      "subcategory": "Catching up afterwards",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Did you have a good time?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /d/ in 'did'.",
+      "stress_focus": "Stress on GOOD and TIME.",
+      "intonation_focus": "Rising yes/no question.",
+      "connected_speech_focus": "'Did you' linked to 'didja'.",
+      "vocabulary": [
+        {
+          "word": "good time",
+          "meaning": "enjoyable experience"
+        }
+      ],
+      "grammar_focus": "Simple past yes/no question",
+      "tags": [
+        "catching up"
+      ]
+    },
+    {
+      "subcategory": "Suggesting plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think we should do something outside this weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /θ/ in 'think'.",
+      "stress_focus": "Stress on THINK and OUTSIDE.",
+      "intonation_focus": "Falling, suggesting tone.",
+      "connected_speech_focus": "'Should do' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "outside",
+          "meaning": "outdoors"
+        }
+      ],
+      "grammar_focus": "Modal 'should' for suggestion",
+      "tags": [
+        "suggestion",
+        "weekend"
+      ]
+    },
+    {
+      "subcategory": "Suggesting plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "How about we check out that new café downtown?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'about' to 'a-bout'.",
+      "stress_focus": "Stress on CHECK and CAFÉ.",
+      "intonation_focus": "Rising, inviting tone.",
+      "connected_speech_focus": "'Check out' phrasal linking.",
+      "vocabulary": [
+        {
+          "word": "check out",
+          "meaning": "visit"
+        }
+      ],
+      "grammar_focus": "Suggestion with 'how about'",
+      "tags": [
+        "invitation"
+      ]
+    },
+    {
+      "subcategory": "Accepting & declining invitations",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'd really love to, but I already have plans.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'really'.",
+      "stress_focus": "Stress on LOVE and PLANS.",
+      "intonation_focus": "Falling, apologetic contrast.",
+      "connected_speech_focus": "'I'd really' linked.",
+      "vocabulary": [
+        {
+          "word": "already",
+          "meaning": "before now"
+        }
+      ],
+      "grammar_focus": "Contrast with 'but'",
+      "tags": [
+        "decline"
+      ]
+    },
+    {
+      "subcategory": "Accepting & declining invitations",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Count me in, I've been wanting to go there.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /k/ in 'count'.",
+      "stress_focus": "Stress on COUNT and WANTING.",
+      "intonation_focus": "Falling, enthusiastic tone.",
+      "connected_speech_focus": "'Count me in' idiom linking.",
+      "vocabulary": [
+        {
+          "word": "count me in",
+          "meaning": "include me"
+        }
+      ],
+      "grammar_focus": "Present perfect continuous",
+      "tags": [
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Arranging time & place",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Does noon work for you, or is that too early?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /n/ in 'noon'.",
+      "stress_focus": "Stress on NOON and EARLY.",
+      "intonation_focus": "Rising then falling, choice question.",
+      "connected_speech_focus": "'Work for' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "work for",
+          "meaning": "be convenient"
+        }
+      ],
+      "grammar_focus": "Alternative question with 'or'",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Arranging time & place",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let's just meet in front of the station around six.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /st/ in 'station'.",
+      "stress_focus": "Stress on FRONT and STATION.",
+      "intonation_focus": "Falling, decisive tone.",
+      "connected_speech_focus": "'In front of' linked as chunk.",
+      "vocabulary": [
+        {
+          "word": "in front of",
+          "meaning": "before, facing"
+        }
+      ],
+      "grammar_focus": "Prepositional phrase for location",
+      "tags": [
+        "meeting"
+      ]
+    },
+    {
+      "subcategory": "Changing or cancelling plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We're going to have to push our plans back a bit.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /pʊʃ/ in 'push'.",
+      "stress_focus": "Stress on PUSH and BACK.",
+      "intonation_focus": "Falling, apologetic tone.",
+      "connected_speech_focus": "'Going to' reduced to 'gonna'.",
+      "vocabulary": [
+        {
+          "word": "push back",
+          "meaning": "postpone"
+        }
+      ],
+      "grammar_focus": "Phrasal verb for postponing",
+      "tags": [
+        "reschedule"
+      ]
+    },
+    {
+      "subcategory": "Changing or cancelling plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Would it be okay if we rescheduled for next week?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /ʃ/ in 'rescheduled'.",
+      "stress_focus": "Stress on OKAY and RESCHEDULED.",
+      "intonation_focus": "Rising, polite request tone.",
+      "connected_speech_focus": "'Would it' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "reschedule",
+          "meaning": "change the date"
+        }
+      ],
+      "grammar_focus": "Conditional polite request",
+      "tags": [
+        "reschedule"
+      ]
+    },
+    {
+      "subcategory": "Weekend activities",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "On lazy Sunday mornings, I usually just read the newspaper.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /l/ in 'lazy'.",
+      "stress_focus": "Stress on LAZY and NEWSPAPER.",
+      "intonation_focus": "Falling, descriptive tone.",
+      "connected_speech_focus": "'Usually just' linked.",
+      "vocabulary": [
+        {
+          "word": "lazy",
+          "meaning": "relaxed, unhurried"
+        }
+      ],
+      "grammar_focus": "Adverb of frequency placement",
+      "tags": [
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Weekend activities",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We spent the whole afternoon wandering around downtown.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /w/ in 'wandering'.",
+      "stress_focus": "Stress on SPENT and WANDERING.",
+      "intonation_focus": "Falling, narrative tone.",
+      "connected_speech_focus": "'Wandering around' phrasal linking.",
+      "vocabulary": [
+        {
+          "word": "wander",
+          "meaning": "walk without a goal"
+        }
+      ],
+      "grammar_focus": "Simple past narrative",
+      "tags": [
+        "leisure"
+      ]
+    },
+    {
+      "subcategory": "Movies & eating out",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I'd rather cook at home than eat out tonight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /h/ in 'honestly'.",
+      "stress_focus": "Stress on RATHER and HOME.",
+      "intonation_focus": "Falling, preference tone.",
+      "connected_speech_focus": "'Would rather' linked.",
+      "vocabulary": [
+        {
+          "word": "would rather",
+          "meaning": "prefer to"
+        }
+      ],
+      "grammar_focus": "Comparative preference structure",
+      "tags": [
+        "dining"
+      ]
+    },
+    {
+      "subcategory": "Movies & eating out",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Have you seen that new movie everyone's talking about?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /v/ in 'movie'.",
+      "stress_focus": "Stress on SEEN and TALKING.",
+      "intonation_focus": "Rising yes/no question.",
+      "connected_speech_focus": "'Have you' linked to 'ave-ya'.",
+      "vocabulary": [
+        {
+          "word": "everyone's talking about",
+          "meaning": "popular topic"
+        }
+      ],
+      "grammar_focus": "Present perfect question",
+      "tags": [
+        "cinema"
+      ]
+    },
+    {
+      "subcategory": "Sports & outdoors",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "A few of us are getting together to play basketball Saturday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /tʃ/ in 'getting'.",
+      "stress_focus": "Stress on TOGETHER and BASKETBALL.",
+      "intonation_focus": "Falling, informative tone.",
+      "connected_speech_focus": "'Getting together' linked.",
+      "vocabulary": [
+        {
+          "word": "a few of us",
+          "meaning": "a small group"
+        }
+      ],
+      "grammar_focus": "Present continuous for future plan",
+      "tags": [
+        "sports"
+      ]
+    },
+    {
+      "subcategory": "Sports & outdoors",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "There's a nice trail near the river that's great for biking.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /tr/ in 'trail'.",
+      "stress_focus": "Stress on TRAIL and BIKING.",
+      "intonation_focus": "Falling, descriptive tone.",
+      "connected_speech_focus": "'There's a' contraction linking.",
+      "vocabulary": [
+        {
+          "word": "trail",
+          "meaning": "path in nature"
+        }
+      ],
+      "grammar_focus": "Relative clause with 'that's'",
+      "tags": [
+        "outdoors"
+      ]
+    },
+    {
+      "subcategory": "Catching up afterwards",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "So how did everything turn out in the end?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /t/ in 'turn'.",
+      "stress_focus": "Stress on TURN and END.",
+      "intonation_focus": "Rising wh-question, curious tone.",
+      "connected_speech_focus": "'Turn out' phrasal linking.",
+      "vocabulary": [
+        {
+          "word": "turn out",
+          "meaning": "end up happening"
+        }
+      ],
+      "grammar_focus": "Phrasal verb past question",
+      "tags": [
+        "catching up"
+      ]
+    },
+    {
+      "subcategory": "Catching up afterwards",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "We ended up staying out way later than we planned.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /w/ in 'way'.",
+      "stress_focus": "Stress on ENDED and LATER.",
+      "intonation_focus": "Falling, storytelling tone.",
+      "connected_speech_focus": "'Ended up' phrasal linking.",
+      "vocabulary": [
+        {
+          "word": "ended up",
+          "meaning": "finally did"
+        }
+      ],
+      "grammar_focus": "Past continuous narrative",
+      "tags": [
+        "storytelling"
+      ]
+    },
+    {
+      "subcategory": "Suggesting plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Why don't we invite a few more people this time?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /w/ in 'why'.",
+      "stress_focus": "Stress on INVITE and PEOPLE.",
+      "intonation_focus": "Falling, friendly suggestion tone.",
+      "connected_speech_focus": "'Why don't we' linked as chunk.",
+      "vocabulary": [
+        {
+          "word": "invite",
+          "meaning": "ask to join"
+        }
+      ],
+      "grammar_focus": "Suggestion with 'why don't we'",
+      "tags": [
+        "suggestion"
+      ]
+    },
+    {
+      "subcategory": "Suggesting plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I feel like doing something a bit more relaxed this weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'relaxed'.",
+      "stress_focus": "Stress on FEEL and RELAXED.",
+      "intonation_focus": "Falling, casual opinion tone.",
+      "connected_speech_focus": "'Feel like' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "feel like",
+          "meaning": "have a desire for"
+        }
+      ],
+      "grammar_focus": "Gerund after 'feel like'",
+      "tags": [
+        "preference"
+      ]
+    },
+    {
+      "subcategory": "Accepting & declining invitations",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll have to check my schedule and let you know.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /ʃ/ in 'schedule'.",
+      "stress_focus": "Stress on CHECK and SCHEDULE.",
+      "intonation_focus": "Falling, non-committal tone.",
+      "connected_speech_focus": "'Let you know' linked as chunk.",
+      "vocabulary": [
+        {
+          "word": "schedule",
+          "meaning": "plan of activities"
+        }
+      ],
+      "grammar_focus": "Future obligation with 'have to'",
+      "tags": [
+        "response"
+      ]
+    },
+    {
+      "subcategory": "Arranging time & place",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let's split the difference and meet halfway between us.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /f/ in 'difference'.",
+      "stress_focus": "Stress on SPLIT and HALFWAY.",
+      "intonation_focus": "Falling, negotiating tone.",
+      "connected_speech_focus": "'Split the difference' idiom linking.",
+      "vocabulary": [
+        {
+          "word": "halfway",
+          "meaning": "in the middle"
+        }
+      ],
+      "grammar_focus": "Idiomatic suggestion",
+      "tags": [
+        "negotiation"
+      ]
+    },
+    {
+      "subcategory": "Weekend activities",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I've been meaning to clean out the garage all month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /m/ in 'meaning'.",
+      "stress_focus": "Stress on MEANING and GARAGE.",
+      "intonation_focus": "Falling, reflective tone.",
+      "connected_speech_focus": "'Been meaning to' linked.",
+      "vocabulary": [
+        {
+          "word": "meaning to",
+          "meaning": "intending to"
+        }
+      ],
+      "grammar_focus": "Present perfect continuous",
+      "tags": [
+        "chores"
+      ]
+    },
+    {
+      "subcategory": "Movies & eating out",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The line outside that new restaurant was insanely long.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /l/ in 'line'.",
+      "stress_focus": "Stress on LINE and INSANELY.",
+      "intonation_focus": "Falling, exaggerated tone.",
+      "connected_speech_focus": "'Was insanely' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "insanely",
+          "meaning": "extremely"
+        }
+      ],
+      "grammar_focus": "Simple past description",
+      "tags": [
+        "dining"
+      ]
+    },
+    {
+      "subcategory": "Sports & outdoors",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "Personally, I think swimming is way more relaxing than running.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /p/ in 'personally'.",
+      "stress_focus": "Stress on SWIMMING and RELAXING.",
+      "intonation_focus": "Falling, comparative opinion tone.",
+      "connected_speech_focus": "'Way more' linked smoothly.",
+      "vocabulary": [
+        {
+          "word": "way more",
+          "meaning": "much more"
+        }
+      ],
+      "grammar_focus": "Comparative structure",
+      "tags": [
+        "preference"
+      ]
+    },
+    {
+      "subcategory": "Catching up afterwards",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We haven't caught up properly in ages, honestly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /k/ in 'caught'.",
+      "stress_focus": "Stress on CAUGHT and AGES.",
+      "intonation_focus": "Falling, nostalgic tone.",
+      "connected_speech_focus": "'Haven't caught' linked.",
+      "vocabulary": [
+        {
+          "word": "in ages",
+          "meaning": "for a very long time"
+        }
+      ],
+      "grammar_focus": "Present perfect negative",
+      "tags": [
+        "reconnecting"
+      ]
+    },
+    {
+      "subcategory": "Changing or cancelling plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let's just play it by ear and decide on the day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /pl/ blend in 'play'.",
+      "stress_focus": "Stress on PLAY and DECIDE.",
+      "intonation_focus": "Falling, flexible tone.",
+      "connected_speech_focus": "'Play it by ear' idiom linking.",
+      "vocabulary": [
+        {
+          "word": "play it by ear",
+          "meaning": "decide spontaneously"
+        }
+      ],
+      "grammar_focus": "Idiomatic future plan",
+      "tags": [
+        "flexibility"
+      ]
+    },
+    {
+      "subcategory": "Free time habits",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I've gotten into gardening lately, which is something I never thought I'd enjoy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'I'd' in fast speech",
+      "stress_focus": "GARDENING and NEVER stressed",
+      "intonation_focus": "falling intonation with mid-sentence pause",
+      "connected_speech_focus": "linking gotten-into",
+      "vocabulary": [
+        {
+          "word": "gotten into",
+          "meaning": "developed an interest in"
+        }
+      ],
+      "grammar_focus": "non-defining relative clause",
+      "tags": [
+        "free-time",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Sports & exercise",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think joining a gym is only worth it if you actually go regularly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ɜːr/ sound in 'worth'",
+      "stress_focus": "WORTH and REGULARLY stressed",
+      "intonation_focus": "falling intonation for opinion",
+      "connected_speech_focus": "linking worth-it",
+      "vocabulary": [
+        {
+          "word": "worth it",
+          "meaning": "valuable enough to justify"
+        }
+      ],
+      "grammar_focus": "conditional clause with 'if'",
+      "tags": [
+        "sports",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Music",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "The concert was amazing, even though the sound quality wasn't great in our seats.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'wasn't' sound",
+      "stress_focus": "AMAZING and SOUND QUALITY stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking wasn't-great",
+      "vocabulary": [
+        {
+          "word": "even though",
+          "meaning": "despite the fact that"
+        }
+      ],
+      "grammar_focus": "contrast clause with 'even though'",
+      "tags": [
+        "music",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Movies & TV shows",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I'm not usually into horror movies, but this one actually kept me hooked.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /h/ sound in 'hooked'",
+      "stress_focus": "HORROR and HOOKED stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking kept-me",
+      "vocabulary": [
+        {
+          "word": "hooked",
+          "meaning": "completely engaged or interested"
+        }
+      ],
+      "grammar_focus": "contrast with 'but'",
+      "tags": [
+        "movies",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Reading & podcasts",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I tend to read a few chapters before bed, unless I'm too exhausted.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /tʃ/ sound in 'chapters'",
+      "stress_focus": "CHAPTERS and EXHAUSTED stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking tend-to",
+      "vocabulary": [
+        {
+          "word": "exhausted",
+          "meaning": "extremely tired"
+        }
+      ],
+      "grammar_focus": "conditional exception with 'unless'",
+      "tags": [
+        "reading",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Games & online",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "This game has such a steep learning curve that most people give up early on.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /st/ blend in 'steep'",
+      "stress_focus": "STEEP and GIVE UP stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking give-up",
+      "vocabulary": [
+        {
+          "word": "steep learning curve",
+          "meaning": "difficult to learn quickly"
+        }
+      ],
+      "grammar_focus": "result clause with 'such...that'",
+      "tags": [
+        "games",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Creative hobbies",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Ever since I took a pottery class, I've been obsessed with making my own mugs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'I've been' sound",
+      "stress_focus": "OBSESSED and MUGS stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking ever-since",
+      "vocabulary": [
+        {
+          "word": "obsessed",
+          "meaning": "extremely interested in"
+        }
+      ],
+      "grammar_focus": "present perfect continuous since a point",
+      "tags": [
+        "creative",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Recommending & reviewing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "If you're into slow-paced dramas, I think you'd really enjoy this series.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'you'd' as /jud/",
+      "stress_focus": "SLOW-PACED and ENJOY stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking if-you're",
+      "vocabulary": [
+        {
+          "word": "slow-paced",
+          "meaning": "not fast moving"
+        }
+      ],
+      "grammar_focus": "conditional recommendation",
+      "tags": [
+        "recommend",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Free time habits",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Most weekends I try to strike a balance between relaxing and being productive.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /str/ blend in 'strike'",
+      "stress_focus": "BALANCE and PRODUCTIVE stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking strike-a",
+      "vocabulary": [
+        {
+          "word": "strike a balance",
+          "meaning": "find a good middle ground"
+        }
+      ],
+      "grammar_focus": "infinitive of purpose with contrast",
+      "tags": [
+        "free-time",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Sports & exercise",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I used to hate running, but now I actually look forward to it every morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ sound in 'forward'",
+      "stress_focus": "HATE and LOOK FORWARD stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking used-to",
+      "vocabulary": [
+        {
+          "word": "look forward to",
+          "meaning": "anticipate with pleasure"
+        }
+      ],
+      "grammar_focus": "used to vs. present habit contrast",
+      "tags": [
+        "sports",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Music",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I can't stand it when concerts start way later than they're supposed to.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /st/ blend in 'stand'",
+      "stress_focus": "CAN'T STAND and LATER stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking can't-stand",
+      "vocabulary": [
+        {
+          "word": "can't stand",
+          "meaning": "really dislike"
+        }
+      ],
+      "grammar_focus": "negative present with time clause",
+      "tags": [
+        "music",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Movies & TV shows",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "The plot twist at the end completely changed how I saw the whole story.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /pl/ blend in 'plot'",
+      "stress_focus": "PLOT TWIST and CHANGED stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking end-completely",
+      "vocabulary": [
+        {
+          "word": "plot twist",
+          "meaning": "an unexpected turn in a story"
+        }
+      ],
+      "grammar_focus": "past simple with result clause",
+      "tags": [
+        "movies",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Reading & podcasts",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I'd rather listen to an audiobook than read, especially when I'm driving.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'I'd rather' sound",
+      "stress_focus": "AUDIOBOOK and DRIVING stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking rather-than",
+      "vocabulary": [
+        {
+          "word": "audiobook",
+          "meaning": "a recorded version of a book"
+        }
+      ],
+      "grammar_focus": "would rather comparison with reason",
+      "tags": [
+        "podcasts",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Games & online",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We've been playing the same board game every Friday night for months now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'we've been' sound",
+      "stress_focus": "BOARD GAME and MONTHS stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking been-playing",
+      "vocabulary": [
+        {
+          "word": "board game",
+          "meaning": "a game played on a table with pieces"
+        }
+      ],
+      "grammar_focus": "present perfect continuous with duration",
+      "tags": [
+        "games",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Creative hobbies",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Knitting seemed boring at first, but it's turned into my favorite way to relax.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /tɜːr/ sound in 'turned'",
+      "stress_focus": "BORING and RELAX stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking turned-into",
+      "vocabulary": [
+        {
+          "word": "turned into",
+          "meaning": "became"
+        }
+      ],
+      "grammar_focus": "contrast with past-to-present shift",
+      "tags": [
+        "creative",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Recommending & reviewing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I wouldn't say it's the best movie ever, but it's definitely worth watching once.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'wouldn't' sound",
+      "stress_focus": "BEST and WORTH WATCHING stressed",
+      "intonation_focus": "falling intonation with hedge",
+      "connected_speech_focus": "linking wouldn't-say",
+      "vocabulary": [
+        {
+          "word": "worth watching",
+          "meaning": "good enough to watch"
+        }
+      ],
+      "grammar_focus": "hedged opinion with contrast",
+      "tags": [
+        "recommend",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Free time habits",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Whenever I get the chance, I like to disconnect completely from my phone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /dɪ/ sound in 'disconnect'",
+      "stress_focus": "CHANCE and DISCONNECT stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking get-the",
+      "vocabulary": [
+        {
+          "word": "disconnect",
+          "meaning": "stop using technology"
+        }
+      ],
+      "grammar_focus": "whenever clause of frequency",
+      "tags": [
+        "free-time",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Sports & exercise",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Have you ever tried rock climbing, or does that sound too intense for you?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'have you' sound",
+      "stress_focus": "CLIMBING and INTENSE stressed",
+      "intonation_focus": "rising then falling intonation",
+      "connected_speech_focus": "linking does-that",
+      "vocabulary": [
+        {
+          "word": "intense",
+          "meaning": "extremely demanding"
+        }
+      ],
+      "grammar_focus": "present perfect question with alternative",
+      "tags": [
+        "sports",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Music",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "There's something about live music that just hits differently than a recording.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ð/ sound in 'that'",
+      "stress_focus": "LIVE MUSIC and DIFFERENTLY stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking there's-something",
+      "vocabulary": [
+        {
+          "word": "hits differently",
+          "meaning": "affects you in a stronger way"
+        }
+      ],
+      "grammar_focus": "existential 'there's' with relative clause",
+      "tags": [
+        "music",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Movies & TV shows",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "By the time the season finale aired, I was completely hooked on the show.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ sound in 'finale'",
+      "stress_focus": "FINALE and HOOKED stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking by-the",
+      "vocabulary": [
+        {
+          "word": "finale",
+          "meaning": "the final episode"
+        }
+      ],
+      "grammar_focus": "past perfect-like time clause",
+      "tags": [
+        "movies",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Reading & podcasts",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I only really get into a podcast if the host has good chemistry with guests.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ sound in 'chemistry'",
+      "stress_focus": "PODCAST and CHEMISTRY stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking get-into",
+      "vocabulary": [
+        {
+          "word": "chemistry",
+          "meaning": "natural connection between people"
+        }
+      ],
+      "grammar_focus": "conditional clause for preference",
+      "tags": [
+        "podcasts",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Games & online",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Online multiplayer games can be a great way to stay connected with old friends.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /mʌl/ sound in 'multiplayer'",
+      "stress_focus": "MULTIPLAYER and CONNECTED stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking stay-connected",
+      "vocabulary": [
+        {
+          "word": "multiplayer",
+          "meaning": "involving several players"
+        }
+      ],
+      "grammar_focus": "modal 'can' for possibility",
+      "tags": [
+        "games",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Creative hobbies",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I started journaling as a hobby, and now I can't imagine my day without it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /dʒ/ sound in 'journaling'",
+      "stress_focus": "JOURNALING and IMAGINE stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking can't-imagine",
+      "vocabulary": [
+        {
+          "word": "journaling",
+          "meaning": "writing personal thoughts regularly"
+        }
+      ],
+      "grammar_focus": "result clause with 'and now'",
+      "tags": [
+        "creative",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Recommending & reviewing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Critics weren't that impressed, but audiences seem to genuinely love this film.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /kr/ blend in 'critics'",
+      "stress_focus": "CRITICS and GENUINELY stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking weren't-that",
+      "vocabulary": [
+        {
+          "word": "critics",
+          "meaning": "people who review art professionally"
+        }
+      ],
+      "grammar_focus": "contrast between two groups",
+      "tags": [
+        "recommend",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Free time habits",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think it's important to have a hobby that has nothing to do with work.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /h/ sound in 'hobby'",
+      "stress_focus": "IMPORTANT and NOTHING stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking has-nothing",
+      "vocabulary": [
+        {
+          "word": "nothing to do with",
+          "meaning": "unrelated to"
+        }
+      ],
+      "grammar_focus": "it + adjective + infinitive with relative clause",
+      "tags": [
+        "free-time",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Free time habits",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "If I'm being honest, I've come to realize that my so-called free time is usually just spent scrolling through my phone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'I've come to' sound",
+      "stress_focus": "SO-CALLED and SCROLLING stressed",
+      "intonation_focus": "falling intonation with reflective tone",
+      "connected_speech_focus": "linking come-to",
+      "vocabulary": [
+        {
+          "word": "scrolling",
+          "meaning": "swiping through content on a screen"
+        }
+      ],
+      "grammar_focus": "conditional with present perfect and relative clause",
+      "tags": [
+        "free-time",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Sports & exercise",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Even though I was completely out of shape when I started training for the marathon, I ended up finishing it faster than I ever expected.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /aʊt/ sound in 'out'",
+      "stress_focus": "OUT OF SHAPE and FASTER stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking ended-up",
+      "vocabulary": [
+        {
+          "word": "out of shape",
+          "meaning": "not physically fit"
+        }
+      ],
+      "grammar_focus": "concession clause with 'even though' and result",
+      "tags": [
+        "sports",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Music",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "What I find fascinating about live performances is that no two shows ever sound exactly the same, even from the same artist.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ sound in 'fascinating'",
+      "stress_focus": "FASCINATING and EXACTLY stressed",
+      "intonation_focus": "falling intonation for emphasis",
+      "connected_speech_focus": "linking find-fascinating",
+      "vocabulary": [
+        {
+          "word": "fascinating",
+          "meaning": "extremely interesting"
+        }
+      ],
+      "grammar_focus": "cleft sentence with concession",
+      "tags": [
+        "music",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Movies & TV shows",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Although the first season dragged a bit in the middle, it eventually picked up so much that I ended up binge-watching the rest in one weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /dr/ blend in 'dragged'",
+      "stress_focus": "DRAGGED and BINGE-WATCHING stressed",
+      "intonation_focus": "falling intonation with buildup",
+      "connected_speech_focus": "linking picked-up",
+      "vocabulary": [
+        {
+          "word": "dragged",
+          "meaning": "moved too slowly"
+        }
+      ],
+      "grammar_focus": "concession with cause-effect chain",
+      "tags": [
+        "movies",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Reading & podcasts",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I used to think podcasts were just background noise, but ever since I found one that actually challenges how I think, I listen every single day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'used to' sound",
+      "stress_focus": "BACKGROUND NOISE and CHALLENGES stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking ever-since",
+      "vocabulary": [
+        {
+          "word": "background noise",
+          "meaning": "sounds you don't pay attention to"
+        }
+      ],
+      "grammar_focus": "contrast with since clause",
+      "tags": [
+        "podcasts",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Games & online",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Because the game keeps updating with new content, it never really feels like you've fully finished it, which honestly keeps me coming back.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /dʒ/ sound in 'never really'",
+      "stress_focus": "UPDATING and COMING BACK stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking keeps-coming",
+      "vocabulary": [
+        {
+          "word": "updating",
+          "meaning": "adding new features"
+        }
+      ],
+      "grammar_focus": "cause clause with non-defining relative clause",
+      "tags": [
+        "games",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Creative hobbies",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Once I got over the fear of messing up, painting turned from something stressful into one of the most relaxing parts of my week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ʃ/ sound in 'stressful'",
+      "stress_focus": "MESSING UP and RELAXING stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking got-over",
+      "vocabulary": [
+        {
+          "word": "messing up",
+          "meaning": "making mistakes"
+        }
+      ],
+      "grammar_focus": "once clause with contrast transition",
+      "tags": [
+        "creative",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Recommending & reviewing",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Although I don't usually recommend horror films to people who scare easily, this one is surprisingly light-hearted despite the genre.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /skeər/ sound in 'scare'",
+      "stress_focus": "LIGHT-HEARTED and DESPITE stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking scare-easily",
+      "vocabulary": [
+        {
+          "word": "light-hearted",
+          "meaning": "not serious or heavy"
+        }
+      ],
+      "grammar_focus": "concession clause with despite",
+      "tags": [
+        "recommend",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Free time habits",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "The older I get, the more I appreciate having hobbies that don't involve a screen at all, even if that means doing something a bit old-fashioned.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /skriːn/ sound in 'screen'",
+      "stress_focus": "APPRECIATE and OLD-FASHIONED stressed",
+      "intonation_focus": "falling intonation with reflective tone",
+      "connected_speech_focus": "linking involve-a",
+      "vocabulary": [
+        {
+          "word": "old-fashioned",
+          "meaning": "traditional or outdated"
+        }
+      ],
+      "grammar_focus": "comparative correlative with concession",
+      "tags": [
+        "free-time",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Sports & exercise",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Instead of forcing myself to go to the gym every day, I've found that switching between different activities keeps me from burning out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ sound in 'forcing'",
+      "stress_focus": "SWITCHING and BURNING OUT stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking keeps-me",
+      "vocabulary": [
+        {
+          "word": "burning out",
+          "meaning": "becoming exhausted from overdoing something"
+        }
+      ],
+      "grammar_focus": "instead of + gerund with result clause",
+      "tags": [
+        "sports",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Music",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Discovering new artists used to take forever before streaming came along, whereas now algorithms basically hand you music you'll probably love.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ɔːr/ sound in 'algorithms'",
+      "stress_focus": "DISCOVERING and ALGORITHMS stressed",
+      "intonation_focus": "falling intonation with contrast",
+      "connected_speech_focus": "linking hand-you",
+      "vocabulary": [
+        {
+          "word": "algorithms",
+          "meaning": "computer programs that make recommendations"
+        }
+      ],
+      "grammar_focus": "comparative contrast with 'whereas'",
+      "tags": [
+        "music",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Movies & TV shows",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Despite all the hype surrounding the finale, I couldn't help but feel a little let down by how rushed everything felt.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /haɪp/ sound in 'hype'",
+      "stress_focus": "HYPE and RUSHED stressed",
+      "intonation_focus": "falling intonation with disappointment",
+      "connected_speech_focus": "linking couldn't-help",
+      "vocabulary": [
+        {
+          "word": "let down",
+          "meaning": "disappointed"
+        }
+      ],
+      "grammar_focus": "despite clause with feeling expression",
+      "tags": [
+        "movies",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Reading & podcasts",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "There's a certain kind of satisfaction in finishing a long book that a quick article just can't replicate, no matter how well it's written.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ sound in 'replicate'",
+      "stress_focus": "SATISFACTION and REPLICATE stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking no-matter",
+      "vocabulary": [
+        {
+          "word": "replicate",
+          "meaning": "reproduce or match"
+        }
+      ],
+      "grammar_focus": "comparative concession with 'no matter how'",
+      "tags": [
+        "reading",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Games & online",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "What bothers me most about competitive gaming isn't losing, it's the toxic behavior that seems to come with it far too often.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /t/ sound in 'toxic'",
+      "stress_focus": "BOTHERS and TOXIC stressed",
+      "intonation_focus": "falling intonation with emphasis",
+      "connected_speech_focus": "linking isn't-losing",
+      "vocabulary": [
+        {
+          "word": "toxic",
+          "meaning": "harmful or unpleasant in behavior"
+        }
+      ],
+      "grammar_focus": "cleft sentence with contrast",
+      "tags": [
+        "games",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Creative hobbies",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Even after years of practice, I still find myself learning something new every time I sit down to sketch, which keeps the hobby exciting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /skɛtʃ/ sound in 'sketch'",
+      "stress_focus": "LEARNING and EXCITING stressed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "linking sit-down",
+      "vocabulary": [
+        {
+          "word": "sketch",
+          "meaning": "draw quickly and roughly"
+        }
+      ],
+      "grammar_focus": "concession with result clause",
+      "tags": [
+        "creative",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Recommending & reviewing",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "If you'd asked me a year ago whether I'd ever recommend a slow, dialogue-heavy film like this, I honestly would've said no, but it completely won me over.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would've' as /wʊdəv/",
+      "stress_focus": "WON ME OVER and HONESTLY stressed",
+      "intonation_focus": "falling intonation with reflective tone",
+      "connected_speech_focus": "linking would've-said",
+      "vocabulary": [
+        {
+          "word": "won me over",
+          "meaning": "convinced me to like something"
+        }
+      ],
+      "grammar_focus": "third conditional shift with contrast",
+      "tags": [
+        "recommend",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Free time habits",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Looking back, I think the reason I burned out so badly wasn't that I worked too much, but that I never gave myself any hobbies that had nothing to do with achievement.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ə/ reduction in 'that'",
+      "stress_focus": "BURNED OUT and ACHIEVEMENT stressed",
+      "intonation_focus": "falling intonation with introspective tone",
+      "connected_speech_focus": "linking wasn't-that",
+      "vocabulary": [
+        {
+          "word": "burned out",
+          "meaning": "became exhausted and unmotivated"
+        }
+      ],
+      "grammar_focus": "cleft sentence with double negative contrast",
+      "tags": [
+        "free-time",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Sports & exercise",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Had I known how addictive rock climbing would become, I probably would've thought twice before letting a friend drag me to that gym in the first place.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would've' sound",
+      "stress_focus": "ADDICTIVE and DRAG ME stressed",
+      "intonation_focus": "falling intonation with hypothetical tone",
+      "connected_speech_focus": "linking had-i",
+      "vocabulary": [
+        {
+          "word": "addictive",
+          "meaning": "causing strong dependence"
+        }
+      ],
+      "grammar_focus": "inverted third conditional",
+      "tags": [
+        "sports",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Music",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "As much as I love going to concerts, there's something to be said for just sitting at home with good headphones and really paying attention to an album.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /h/ sound in 'headphones'",
+      "stress_focus": "HEADPHONES and PAYING ATTENTION stressed",
+      "intonation_focus": "falling intonation with reflective tone",
+      "connected_speech_focus": "linking there's-something",
+      "vocabulary": [
+        {
+          "word": "something to be said for",
+          "meaning": "a valid point in favor of"
+        }
+      ],
+      "grammar_focus": "concession with idiomatic expression",
+      "tags": [
+        "music",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Movies & TV shows",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "The show got so much backlash for its ending that the writers ended up releasing an entire extra episode just to explain what had actually happened.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /bæk/ sound in 'backlash'",
+      "stress_focus": "BACKLASH and EXPLAIN stressed",
+      "intonation_focus": "falling intonation with narrative tone",
+      "connected_speech_focus": "linking ended-up",
+      "vocabulary": [
+        {
+          "word": "backlash",
+          "meaning": "strong negative reaction"
+        }
+      ],
+      "grammar_focus": "result clause with past perfect embedded",
+      "tags": [
+        "movies",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Reading & podcasts",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Even though I know audiobooks technically count as reading, part of me still feels like I'm cheating somehow, which probably says more about me than anything else.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /tʃiːtɪŋ/ sound in 'cheating'",
+      "stress_focus": "CHEATING and PROBABLY SAYS stressed",
+      "intonation_focus": "falling intonation with self-aware tone",
+      "connected_speech_focus": "linking feels-like",
+      "vocabulary": [
+        {
+          "word": "cheating",
+          "meaning": "not doing something the proper way"
+        }
+      ],
+      "grammar_focus": "concession with self-reflective comment",
+      "tags": [
+        "reading",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Games & online",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "What used to be a way to unwind after work has slowly turned into something I feel obligated to do every night, which honestly worries me a bit.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /ə/ reduction in 'obligated'",
+      "stress_focus": "OBLIGATED and WORRIES stressed",
+      "intonation_focus": "falling intonation with concern",
+      "connected_speech_focus": "linking turned-into",
+      "vocabulary": [
+        {
+          "word": "obligated",
+          "meaning": "required or forced by duty"
+        }
+      ],
+      "grammar_focus": "cleft with present perfect and result",
+      "tags": [
+        "games",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Creative hobbies",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "No matter how many times people tell me my crafts don't need to be perfect, I still catch myself redoing things over and over until they're exactly right.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ sound in 'redoing'",
+      "stress_focus": "REDOING and EXACTLY stressed",
+      "intonation_focus": "falling intonation with mild frustration",
+      "connected_speech_focus": "linking catch-myself",
+      "vocabulary": [
+        {
+          "word": "redoing",
+          "meaning": "doing again"
+        }
+      ],
+      "grammar_focus": "concession with habitual present",
+      "tags": [
+        "creative",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Recommending & reviewing",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "I hesitate to call it the best show I've ever seen, mainly because I say that about pretty much everything I watch, but this one genuinely stuck with me.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /h/ sound in 'hesitate'",
+      "stress_focus": "HESITATE and STUCK stressed",
+      "intonation_focus": "falling intonation with humor",
+      "connected_speech_focus": "linking stuck-with",
+      "vocabulary": [
+        {
+          "word": "stuck with me",
+          "meaning": "remained memorable to me"
+        }
+      ],
+      "grammar_focus": "hedged superlative with self-aware aside",
+      "tags": [
+        "recommend",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Free time habits",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Now that I think about it, most of the hobbies I've picked up over the years started out as ways to avoid something else I didn't want to deal with.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /p/ sound in 'picked'",
+      "stress_focus": "PICKED UP and AVOID stressed",
+      "intonation_focus": "falling intonation with reflective tone",
+      "connected_speech_focus": "linking started-out",
+      "vocabulary": [
+        {
+          "word": "picked up",
+          "meaning": "started or adopted"
+        }
+      ],
+      "grammar_focus": "complex time clause with embedded relative clause",
+      "tags": [
+        "free-time",
+        "advanced"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2341 @@
+{
+  "slug": "presentations-public-speaking",
+  "name": "Presentations & Public Speaking",
+  "topic_group": "Work & Professional English",
+  "blurb": "Shadow natural spoken English for opening, structuring, and closing professional presentations with confidence.",
+  "sort_order": 25,
+  "sentences": [
+    {
+      "subcategory": "Opening a talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Good morning, everyone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear vowel in 'morning'",
+      "stress_focus": "Stress on 'morning'",
+      "intonation_focus": "Falling intonation, friendly greeting",
+      "connected_speech_focus": "Linking 'good' and 'morning'",
+      "vocabulary": [
+        {
+          "word": "morning",
+          "meaning": "the early part of the day"
+        }
+      ],
+      "grammar_focus": "Simple greeting phrase",
+      "tags": [
+        "greeting",
+        "opening"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thanks for coming today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'for' to /fər/",
+      "stress_focus": "Stress on 'thanks' and 'coming'",
+      "intonation_focus": "Falling intonation for gratitude",
+      "connected_speech_focus": "Linking 'thanks for'",
+      "vocabulary": [
+        {
+          "word": "coming",
+          "meaning": "attending"
+        }
+      ],
+      "grammar_focus": "Present participle after preposition",
+      "tags": [
+        "greeting",
+        "gratitude"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My name is Sarah.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /s/ sound",
+      "stress_focus": "Stress on 'name' and 'Sarah'",
+      "intonation_focus": "Neutral falling intonation",
+      "connected_speech_focus": "Linking 'name is'",
+      "vocabulary": [
+        {
+          "word": "name",
+          "meaning": "what someone is called"
+        }
+      ],
+      "grammar_focus": "Simple present tense",
+      "tags": [
+        "introduction"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's get started.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'let's'",
+      "stress_focus": "Stress on 'started'",
+      "intonation_focus": "Falling intonation, decisive",
+      "connected_speech_focus": "Linking 'let's get'",
+      "vocabulary": [
+        {
+          "word": "started",
+          "meaning": "begun"
+        }
+      ],
+      "grammar_focus": "Imperative with contraction",
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "First, I'll cover the basics.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /f/ in 'first'",
+      "stress_focus": "Stress on 'first' and 'basics'",
+      "intonation_focus": "Falling intonation, listing",
+      "connected_speech_focus": "Linking 'I'll cover'",
+      "vocabulary": [
+        {
+          "word": "basics",
+          "meaning": "fundamental ideas"
+        }
+      ],
+      "grammar_focus": "Future with 'will'",
+      "tags": [
+        "sequence"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Here's our first slide.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'here's'",
+      "stress_focus": "Stress on 'first' and 'slide'",
+      "intonation_focus": "Falling intonation, presenting",
+      "connected_speech_focus": "Linking 'here's our'",
+      "vocabulary": [
+        {
+          "word": "slide",
+          "meaning": "a page in a presentation"
+        }
+      ],
+      "grammar_focus": "Possessive pronoun 'our'",
+      "tags": [
+        "visual aid"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This chart shows sales.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /ʃ/ in 'shows'",
+      "stress_focus": "Stress on 'chart' and 'sales'",
+      "intonation_focus": "Falling intonation, describing",
+      "connected_speech_focus": "Linking 'shows sales'",
+      "vocabulary": [
+        {
+          "word": "chart",
+          "meaning": "a visual diagram"
+        }
+      ],
+      "grammar_focus": "Simple present for description",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This point is important.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Stress on 'important'",
+      "stress_focus": "Stress on 'point' and 'important'",
+      "intonation_focus": "Falling intonation, emphasis",
+      "connected_speech_focus": "Linking 'point is'",
+      "vocabulary": [
+        {
+          "word": "important",
+          "meaning": "significant"
+        }
+      ],
+      "grammar_focus": "Simple present with 'is'",
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Please remember this number.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'remember'",
+      "stress_focus": "Stress on 'remember' and 'number'",
+      "intonation_focus": "Falling intonation, instructive",
+      "connected_speech_focus": "Linking 'remember this'",
+      "vocabulary": [
+        {
+          "word": "remember",
+          "meaning": "keep in mind"
+        }
+      ],
+      "grammar_focus": "Imperative sentence",
+      "tags": [
+        "memory",
+        "key point"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you have questions?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Rising intonation for yes/no question",
+      "stress_focus": "Stress on 'questions'",
+      "intonation_focus": "Rising intonation, inviting",
+      "connected_speech_focus": "Linking 'do you'",
+      "vocabulary": [
+        {
+          "word": "questions",
+          "meaning": "things people ask"
+        }
+      ],
+      "grammar_focus": "Yes/no question form",
+      "tags": [
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "That's a great question.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'that's'",
+      "stress_focus": "Stress on 'great' and 'question'",
+      "intonation_focus": "Falling intonation, praise",
+      "connected_speech_focus": "Linking 'that's a'",
+      "vocabulary": [
+        {
+          "word": "great",
+          "meaning": "very good"
+        }
+      ],
+      "grammar_focus": "Demonstrative pronoun 'that'",
+      "tags": [
+        "praise",
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The screen is frozen.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /z/ sound in 'is'",
+      "stress_focus": "Stress on 'screen' and 'frozen'",
+      "intonation_focus": "Falling intonation, problem statement",
+      "connected_speech_focus": "Linking 'screen is'",
+      "vocabulary": [
+        {
+          "word": "frozen",
+          "meaning": "stuck, not moving"
+        }
+      ],
+      "grammar_focus": "Simple present passive-like state",
+      "tags": [
+        "tech issue"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can you hear me?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Rising intonation for question",
+      "stress_focus": "Stress on 'hear' and 'me'",
+      "intonation_focus": "Rising intonation, checking",
+      "connected_speech_focus": "Linking 'can you'",
+      "vocabulary": [
+        {
+          "word": "hear",
+          "meaning": "perceive sound"
+        }
+      ],
+      "grammar_focus": "Modal 'can' for ability",
+      "tags": [
+        "audio check"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's review the main points.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'let's'",
+      "stress_focus": "Stress on 'review' and 'points'",
+      "intonation_focus": "Falling intonation, summary",
+      "connected_speech_focus": "Linking 'review the'",
+      "vocabulary": [
+        {
+          "word": "review",
+          "meaning": "look back at"
+        }
+      ],
+      "grammar_focus": "Imperative with contraction",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "So, that's the summary.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'that's'",
+      "stress_focus": "Stress on 'summary'",
+      "intonation_focus": "Falling intonation, closing thought",
+      "connected_speech_focus": "Linking 'that's the'",
+      "vocabulary": [
+        {
+          "word": "summary",
+          "meaning": "brief overview"
+        }
+      ],
+      "grammar_focus": "Demonstrative with linking word",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thank you all for listening.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /θ/ in 'thank'",
+      "stress_focus": "Stress on 'thank' and 'listening'",
+      "intonation_focus": "Falling intonation, gratitude",
+      "connected_speech_focus": "Linking 'thank you'",
+      "vocabulary": [
+        {
+          "word": "listening",
+          "meaning": "paying attention"
+        }
+      ],
+      "grammar_focus": "Gerund after preposition",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "That's the end of my talk.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'that's'",
+      "stress_focus": "Stress on 'end' and 'talk'",
+      "intonation_focus": "Falling intonation, closing",
+      "connected_speech_focus": "Linking 'end of'",
+      "vocabulary": [
+        {
+          "word": "end",
+          "meaning": "finish"
+        }
+      ],
+      "grammar_focus": "Possessive pronoun 'my'",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Welcome to our presentation.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /w/ sound",
+      "stress_focus": "Stress on 'welcome' and 'presentation'",
+      "intonation_focus": "Falling intonation, welcoming",
+      "connected_speech_focus": "Linking 'welcome to'",
+      "vocabulary": [
+        {
+          "word": "presentation",
+          "meaning": "a talk with information"
+        }
+      ],
+      "grammar_focus": "Simple imperative greeting",
+      "tags": [
+        "welcome"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Today, we'll talk about sales.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'we'll'",
+      "stress_focus": "Stress on 'today' and 'sales'",
+      "intonation_focus": "Falling intonation, introducing topic",
+      "connected_speech_focus": "Linking 'we'll talk'",
+      "vocabulary": [
+        {
+          "word": "sales",
+          "meaning": "amount of goods sold"
+        }
+      ],
+      "grammar_focus": "Future with 'will'",
+      "tags": [
+        "topic intro"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Next, let's look at costs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'let's'",
+      "stress_focus": "Stress on 'next' and 'costs'",
+      "intonation_focus": "Falling intonation, transition",
+      "connected_speech_focus": "Linking 'look at'",
+      "vocabulary": [
+        {
+          "word": "costs",
+          "meaning": "money spent"
+        }
+      ],
+      "grammar_focus": "Imperative for transition",
+      "tags": [
+        "sequence"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "These numbers look strong.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /l/ in 'look'",
+      "stress_focus": "Stress on 'numbers' and 'strong'",
+      "intonation_focus": "Falling intonation, description",
+      "connected_speech_focus": "Linking 'numbers look'",
+      "vocabulary": [
+        {
+          "word": "strong",
+          "meaning": "good, healthy"
+        }
+      ],
+      "grammar_focus": "Simple present for description",
+      "tags": [
+        "data"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This is the key idea.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Stress on 'key'",
+      "stress_focus": "Stress on 'key' and 'idea'",
+      "intonation_focus": "Falling intonation, emphasis",
+      "connected_speech_focus": "Linking 'is the'",
+      "vocabulary": [
+        {
+          "word": "key",
+          "meaning": "most important"
+        }
+      ],
+      "grammar_focus": "Simple present with 'is'",
+      "tags": [
+        "key point"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Feel free to ask.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /f/ sounds",
+      "stress_focus": "Stress on 'feel' and 'ask'",
+      "intonation_focus": "Falling intonation, inviting",
+      "connected_speech_focus": "Linking 'feel free'",
+      "vocabulary": [
+        {
+          "word": "free",
+          "meaning": "without restriction"
+        }
+      ],
+      "grammar_focus": "Infinitive of purpose",
+      "tags": [
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Sorry, my mic cut out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /k/ in 'cut'",
+      "stress_focus": "Stress on 'mic' and 'cut'",
+      "intonation_focus": "Falling intonation, apology",
+      "connected_speech_focus": "Linking 'cut out'",
+      "vocabulary": [
+        {
+          "word": "mic",
+          "meaning": "microphone"
+        }
+      ],
+      "grammar_focus": "Simple past tense",
+      "tags": [
+        "tech issue"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Now let's begin.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'let's'",
+      "stress_focus": "Stress on 'begin'",
+      "intonation_focus": "Falling intonation, decisive",
+      "connected_speech_focus": "Linking 'let's begin'",
+      "vocabulary": [
+        {
+          "word": "begin",
+          "meaning": "to start"
+        }
+      ],
+      "grammar_focus": "Imperative sentence",
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'd like to thank you all for coming.",
+      "natural_form": "I'd like to",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'd'",
+      "stress_focus": "Stress on 'thank' and 'coming'",
+      "intonation_focus": "Falling intonation, gratitude",
+      "connected_speech_focus": "Linking 'thank you'",
+      "vocabulary": [
+        {
+          "word": "appreciate",
+          "meaning": "be grateful for"
+        }
+      ],
+      "grammar_focus": "Infinitive after 'like to'",
+      "tags": [
+        "gratitude",
+        "opening"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let me introduce myself before we begin.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /dʒ/ in 'introduce'",
+      "stress_focus": "Stress on 'introduce' and 'begin'",
+      "intonation_focus": "Falling intonation, introducing",
+      "connected_speech_focus": "Linking 'introduce myself'",
+      "vocabulary": [
+        {
+          "word": "introduce",
+          "meaning": "present oneself"
+        }
+      ],
+      "grammar_focus": "Imperative with reflexive pronoun",
+      "tags": [
+        "introduction"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll start by explaining our main goals.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'll'",
+      "stress_focus": "Stress on 'start' and 'goals'",
+      "intonation_focus": "Falling intonation, sequencing",
+      "connected_speech_focus": "Linking 'start by'",
+      "vocabulary": [
+        {
+          "word": "goals",
+          "meaning": "aims or targets"
+        }
+      ],
+      "grammar_focus": "Gerund after preposition 'by'",
+      "tags": [
+        "sequence"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Moving on, let's discuss the budget now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /dʒ/ in 'budget'",
+      "stress_focus": "Stress on 'moving' and 'budget'",
+      "intonation_focus": "Falling intonation, transition",
+      "connected_speech_focus": "Linking 'moving on'",
+      "vocabulary": [
+        {
+          "word": "budget",
+          "meaning": "planned spending"
+        }
+      ],
+      "grammar_focus": "Present participle as transition marker",
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "This graph shows growth over the last year.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /oʊ/ in 'growth'",
+      "stress_focus": "Stress on 'graph' and 'growth'",
+      "intonation_focus": "Falling intonation, describing data",
+      "connected_speech_focus": "Linking 'shows growth'",
+      "vocabulary": [
+        {
+          "word": "growth",
+          "meaning": "increase in size"
+        }
+      ],
+      "grammar_focus": "Prepositional phrase of time",
+      "tags": [
+        "data description"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "As you can see, revenue increased last quarter.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /v/ in 'revenue'",
+      "stress_focus": "Stress on 'revenue' and 'increased'",
+      "intonation_focus": "Falling intonation, pointing out data",
+      "connected_speech_focus": "Linking 'as you'",
+      "vocabulary": [
+        {
+          "word": "revenue",
+          "meaning": "income from sales"
+        }
+      ],
+      "grammar_focus": "Simple past for data trend",
+      "tags": [
+        "data description"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I really want you to remember this point.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Stress on 'really'",
+      "stress_focus": "Stress on 'really' and 'remember'",
+      "intonation_focus": "Falling intonation, emphasis",
+      "connected_speech_focus": "Linking 'want you'",
+      "vocabulary": [
+        {
+          "word": "remember",
+          "meaning": "keep in mind"
+        }
+      ],
+      "grammar_focus": "Infinitive after 'want'",
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "This is by far the most important slide.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /f/ in 'far'",
+      "stress_focus": "Stress on 'far' and 'important'",
+      "intonation_focus": "Falling intonation, superlative emphasis",
+      "connected_speech_focus": "Linking 'by far'",
+      "vocabulary": [
+        {
+          "word": "crucial",
+          "meaning": "extremely important"
+        }
+      ],
+      "grammar_focus": "Superlative adjective form",
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Does anyone have any questions so far?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Rising intonation at end",
+      "stress_focus": "Stress on 'anyone' and 'questions'",
+      "intonation_focus": "Rising intonation, inviting",
+      "connected_speech_focus": "Linking 'anyone have'",
+      "vocabulary": [
+        {
+          "word": "so far",
+          "meaning": "up to now"
+        }
+      ],
+      "grammar_focus": "Yes/no question with 'any'",
+      "tags": [
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let me get back to you on that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction reduction 'let me'",
+      "stress_focus": "Stress on 'back' and 'that'",
+      "intonation_focus": "Falling intonation, deferring",
+      "connected_speech_focus": "Linking 'get back'",
+      "vocabulary": [
+        {
+          "word": "defer",
+          "meaning": "put off until later"
+        }
+      ],
+      "grammar_focus": "Phrasal verb 'get back to'",
+      "tags": [
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "It looks like the projector isn't working properly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'isn't'",
+      "stress_focus": "Stress on 'projector' and 'working'",
+      "intonation_focus": "Falling intonation, reporting problem",
+      "connected_speech_focus": "Linking 'looks like'",
+      "vocabulary": [
+        {
+          "word": "projector",
+          "meaning": "device that displays images"
+        }
+      ],
+      "grammar_focus": "Present continuous negative",
+      "tags": [
+        "tech issue"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could someone check the microphone for me, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /tʃ/ in 'check'",
+      "stress_focus": "Stress on 'check' and 'microphone'",
+      "intonation_focus": "Rising intonation for polite request",
+      "connected_speech_focus": "Linking 'check the'",
+      "vocabulary": [
+        {
+          "word": "microphone",
+          "meaning": "device for amplifying sound"
+        }
+      ],
+      "grammar_focus": "Modal 'could' for polite request",
+      "tags": [
+        "tech issue"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "To sum up, we covered three main areas.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /s/ in 'sum'",
+      "stress_focus": "Stress on 'sum' and 'areas'",
+      "intonation_focus": "Falling intonation, summarizing",
+      "connected_speech_focus": "Linking 'sum up'",
+      "vocabulary": [
+        {
+          "word": "cover",
+          "meaning": "discuss or include"
+        }
+      ],
+      "grammar_focus": "Simple past for summary",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "In short, our results were better than expected.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'than' to /ðən/",
+      "stress_focus": "Stress on 'short' and 'expected'",
+      "intonation_focus": "Falling intonation, concluding",
+      "connected_speech_focus": "Linking 'better than'",
+      "vocabulary": [
+        {
+          "word": "expected",
+          "meaning": "anticipated"
+        }
+      ],
+      "grammar_focus": "Comparative structure",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Thank you again for your time and attention.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /æ/ in 'attention'",
+      "stress_focus": "Stress on 'thank' and 'attention'",
+      "intonation_focus": "Falling intonation, closing gratitude",
+      "connected_speech_focus": "Linking 'time and'",
+      "vocabulary": [
+        {
+          "word": "attention",
+          "meaning": "focus, concentration"
+        }
+      ],
+      "grammar_focus": "Coordinated noun phrase",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Our next step is to finalize the contract.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /f/ in 'finalize'",
+      "stress_focus": "Stress on 'next' and 'finalize'",
+      "intonation_focus": "Falling intonation, next steps",
+      "connected_speech_focus": "Linking 'step is'",
+      "vocabulary": [
+        {
+          "word": "finalize",
+          "meaning": "complete or confirm"
+        }
+      ],
+      "grammar_focus": "Infinitive after 'is to'",
+      "tags": [
+        "next steps"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm excited to share some updates with you today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'm'",
+      "stress_focus": "Stress on 'excited' and 'updates'",
+      "intonation_focus": "Falling intonation, enthusiasm",
+      "connected_speech_focus": "Linking 'excited to'",
+      "vocabulary": [
+        {
+          "word": "updates",
+          "meaning": "new information"
+        }
+      ],
+      "grammar_focus": "Infinitive after adjective",
+      "tags": [
+        "opening"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Before we dive in, let me set some context.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /aɪ/ in 'dive'",
+      "stress_focus": "Stress on 'dive' and 'context'",
+      "intonation_focus": "Falling intonation, introducing context",
+      "connected_speech_focus": "Linking 'dive in'",
+      "vocabulary": [
+        {
+          "word": "context",
+          "meaning": "background information"
+        }
+      ],
+      "grammar_focus": "Subordinate clause with 'before'",
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The blue line represents our monthly expenses.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /l/ in 'blue' and 'line'",
+      "stress_focus": "Stress on 'blue' and 'expenses'",
+      "intonation_focus": "Falling intonation, describing chart",
+      "connected_speech_focus": "Linking 'blue line'",
+      "vocabulary": [
+        {
+          "word": "expenses",
+          "meaning": "costs or spending"
+        }
+      ],
+      "grammar_focus": "Simple present for chart description",
+      "tags": [
+        "data description"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Keep in mind that timing here is everything.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'that' to /ðət/",
+      "stress_focus": "Stress on 'timing' and 'everything'",
+      "intonation_focus": "Falling intonation, emphasis",
+      "connected_speech_focus": "Linking 'keep in'",
+      "vocabulary": [
+        {
+          "word": "timing",
+          "meaning": "the choice of when to do something"
+        }
+      ],
+      "grammar_focus": "Imperative with noun clause",
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "That's an interesting point, let me think about it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'that's'",
+      "stress_focus": "Stress on 'interesting' and 'think'",
+      "intonation_focus": "Falling intonation, considering",
+      "connected_speech_focus": "Linking 'think about'",
+      "vocabulary": [
+        {
+          "word": "interesting",
+          "meaning": "engaging, thought-provoking"
+        }
+      ],
+      "grammar_focus": "Imperative plus reflection phrase",
+      "tags": [
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We seem to be having some connection issues.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /kən/ in 'connection'",
+      "stress_focus": "Stress on 'connection' and 'issues'",
+      "intonation_focus": "Falling intonation, describing problem",
+      "connected_speech_focus": "Linking 'seem to'",
+      "vocabulary": [
+        {
+          "word": "connection",
+          "meaning": "link, especially internet"
+        }
+      ],
+      "grammar_focus": "Present continuous after 'seem to be'",
+      "tags": [
+        "tech issue"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Overall, the project met all of its goals.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /oʊ/ in 'overall'",
+      "stress_focus": "Stress on 'overall' and 'goals'",
+      "intonation_focus": "Falling intonation, concluding",
+      "connected_speech_focus": "Linking 'met all'",
+      "vocabulary": [
+        {
+          "word": "goals",
+          "meaning": "targets"
+        }
+      ],
+      "grammar_focus": "Simple past summary statement",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Please reach out if you have further questions.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'reach'",
+      "stress_focus": "Stress on 'reach' and 'questions'",
+      "intonation_focus": "Falling intonation, invitation",
+      "connected_speech_focus": "Linking 'reach out'",
+      "vocabulary": [
+        {
+          "word": "further",
+          "meaning": "additional"
+        }
+      ],
+      "grammar_focus": "Conditional clause with 'if'",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Thanks so much for joining me this afternoon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'so much'",
+      "stress_focus": "Stress on 'thanks' and 'afternoon'",
+      "intonation_focus": "Falling intonation, gratitude",
+      "connected_speech_focus": "Linking 'thanks so'",
+      "vocabulary": [
+        {
+          "word": "joining",
+          "meaning": "attending together"
+        }
+      ],
+      "grammar_focus": "Gerund after preposition",
+      "tags": [
+        "opening"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Before I begin, I'd like to give you a quick overview of the agenda.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'd'",
+      "stress_focus": "Stress on 'begin' and 'overview'",
+      "intonation_focus": "Falling intonation, structuring the talk",
+      "connected_speech_focus": "Linking 'quick overview'",
+      "vocabulary": [
+        {
+          "word": "agenda",
+          "meaning": "list of topics to discuss"
+        }
+      ],
+      "grammar_focus": "Subordinate clause with 'before'",
+      "tags": [
+        "opening",
+        "agenda"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "It's a real pleasure to be here speaking with such a great audience.",
+      "natural_form": "It's",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'it's'",
+      "stress_focus": "Stress on 'pleasure' and 'audience'",
+      "intonation_focus": "Falling intonation, enthusiasm",
+      "connected_speech_focus": "Linking 'pleasure to'",
+      "vocabulary": [
+        {
+          "word": "audience",
+          "meaning": "people watching or listening"
+        }
+      ],
+      "grammar_focus": "Infinitive after adjective phrase",
+      "tags": [
+        "opening",
+        "gratitude"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Now that we've covered the background, let's move on to the results.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'we've'",
+      "stress_focus": "Stress on 'background' and 'results'",
+      "intonation_focus": "Falling intonation, transitioning",
+      "connected_speech_focus": "Linking 'now that'",
+      "vocabulary": [
+        {
+          "word": "background",
+          "meaning": "context or history"
+        }
+      ],
+      "grammar_focus": "Subordinate clause with 'now that'",
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'll come back to that point a little later in the presentation.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'll'",
+      "stress_focus": "Stress on 'come back' and 'later'",
+      "intonation_focus": "Falling intonation, deferring topic",
+      "connected_speech_focus": "Linking 'come back'",
+      "vocabulary": [
+        {
+          "word": "deferring",
+          "meaning": "postponing"
+        }
+      ],
+      "grammar_focus": "Future with 'will' plus time phrase",
+      "tags": [
+        "sequence"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "As this slide illustrates, our customer base has grown steadily since January.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /ɪ/ in 'illustrates'",
+      "stress_focus": "Stress on 'illustrates' and 'steadily'",
+      "intonation_focus": "Falling intonation, data description",
+      "connected_speech_focus": "Linking 'has grown'",
+      "vocabulary": [
+        {
+          "word": "steadily",
+          "meaning": "consistently, at a regular rate"
+        }
+      ],
+      "grammar_focus": "Present perfect for ongoing trend",
+      "tags": [
+        "data description"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "If you look closely at the numbers, you'll notice a clear seasonal pattern.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /kl/ cluster in 'closely'",
+      "stress_focus": "Stress on 'closely' and 'pattern'",
+      "intonation_focus": "Falling intonation, pointing out detail",
+      "connected_speech_focus": "Linking 'you'll notice'",
+      "vocabulary": [
+        {
+          "word": "seasonal",
+          "meaning": "relating to a season"
+        }
+      ],
+      "grammar_focus": "Conditional clause with 'if'",
+      "tags": [
+        "data description"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I can't stress enough how important this next section is for the team.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'can't'",
+      "stress_focus": "Stress on 'stress' and 'important'",
+      "intonation_focus": "Falling intonation, strong emphasis",
+      "connected_speech_focus": "Linking 'stress enough'",
+      "vocabulary": [
+        {
+          "word": "stress",
+          "meaning": "emphasize"
+        }
+      ],
+      "grammar_focus": "Negative modal for emphasis",
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "What's really worth noting here is the sharp increase in customer satisfaction.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'what's'",
+      "stress_focus": "Stress on 'worth' and 'sharp'",
+      "intonation_focus": "Falling intonation, emphasis on data",
+      "connected_speech_focus": "Linking 'worth noting'",
+      "vocabulary": [
+        {
+          "word": "satisfaction",
+          "meaning": "contentment or happiness"
+        }
+      ],
+      "grammar_focus": "Cleft sentence with 'what'",
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Could you clarify what you mean by that last comment?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Rising intonation at end",
+      "stress_focus": "Stress on 'clarify' and 'comment'",
+      "intonation_focus": "Rising intonation, polite request",
+      "connected_speech_focus": "Linking 'could you'",
+      "vocabulary": [
+        {
+          "word": "clarify",
+          "meaning": "make clearer"
+        }
+      ],
+      "grammar_focus": "Indirect question form",
+      "tags": [
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "That's a fair point, but I'd like to add some context to it.",
+      "natural_form": "That's",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'd'",
+      "stress_focus": "Stress on 'fair' and 'context'",
+      "intonation_focus": "Falling intonation, gentle disagreement",
+      "connected_speech_focus": "Linking 'fair point'",
+      "vocabulary": [
+        {
+          "word": "context",
+          "meaning": "background information"
+        }
+      ],
+      "grammar_focus": "Contrast clause with 'but'",
+      "tags": [
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Sorry about that, it looks like we've lost the connection to the screen.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'we've'",
+      "stress_focus": "Stress on 'lost' and 'connection'",
+      "intonation_focus": "Falling intonation, apologizing",
+      "connected_speech_focus": "Linking 'lost the'",
+      "vocabulary": [
+        {
+          "word": "connection",
+          "meaning": "link between devices"
+        }
+      ],
+      "grammar_focus": "Present perfect to describe a problem",
+      "tags": [
+        "tech issue"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "While we sort out the audio, let's take a short break.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'let's'",
+      "stress_focus": "Stress on 'sort out' and 'break'",
+      "intonation_focus": "Falling intonation, offering solution",
+      "connected_speech_focus": "Linking 'sort out'",
+      "vocabulary": [
+        {
+          "word": "sort out",
+          "meaning": "resolve a problem"
+        }
+      ],
+      "grammar_focus": "Subordinate clause with 'while'",
+      "tags": [
+        "tech issue"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "To wrap things up, let's go over the three key takeaways again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'let's'",
+      "stress_focus": "Stress on 'wrap' and 'takeaways'",
+      "intonation_focus": "Falling intonation, summarizing",
+      "connected_speech_focus": "Linking 'wrap things'",
+      "vocabulary": [
+        {
+          "word": "takeaways",
+          "meaning": "main lessons learned"
+        }
+      ],
+      "grammar_focus": "Imperative for summary transition",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "In summary, our approach delivered strong results across every region we tested.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /dʒ/ in 'region'",
+      "stress_focus": "Stress on 'summary' and 'region'",
+      "intonation_focus": "Falling intonation, concluding remarks",
+      "connected_speech_focus": "Linking 'delivered strong'",
+      "vocabulary": [
+        {
+          "word": "region",
+          "meaning": "geographic area"
+        }
+      ],
+      "grammar_focus": "Simple past summary with adverbial",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Going forward, we plan to expand this program into two new markets.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /f/ in 'forward'",
+      "stress_focus": "Stress on 'expand' and 'markets'",
+      "intonation_focus": "Falling intonation, forward-looking statement",
+      "connected_speech_focus": "Linking 'plan to'",
+      "vocabulary": [
+        {
+          "word": "expand",
+          "meaning": "grow or increase"
+        }
+      ],
+      "grammar_focus": "Infinitive after 'plan to'",
+      "tags": [
+        "next steps"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'll send everyone a follow-up email with the slides by tomorrow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'll'",
+      "stress_focus": "Stress on 'follow-up' and 'tomorrow'",
+      "intonation_focus": "Falling intonation, closing commitment",
+      "connected_speech_focus": "Linking 'send everyone'",
+      "vocabulary": [
+        {
+          "word": "follow-up",
+          "meaning": "subsequent communication"
+        }
+      ],
+      "grammar_focus": "Future with 'will' and time expression",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I know your time is valuable, so I'll try to keep this brief.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'll'",
+      "stress_focus": "Stress on 'valuable' and 'brief'",
+      "intonation_focus": "Falling intonation, considerate opening",
+      "connected_speech_focus": "Linking 'try to'",
+      "vocabulary": [
+        {
+          "word": "valuable",
+          "meaning": "important, worth a lot"
+        }
+      ],
+      "grammar_focus": "Cause-effect clause with 'so'",
+      "tags": [
+        "opening"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "With that in mind, let's take a closer look at the numbers.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'that'",
+      "stress_focus": "Stress on 'mind' and 'closer'",
+      "intonation_focus": "Falling intonation, transitioning to detail",
+      "connected_speech_focus": "Linking 'with that'",
+      "vocabulary": [
+        {
+          "word": "closer",
+          "meaning": "more detailed"
+        }
+      ],
+      "grammar_focus": "Prepositional phrase for transition",
+      "tags": [
+        "transition"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "This next chart breaks down our expenses by department for the quarter.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /dʒ/ in 'department'",
+      "stress_focus": "Stress on 'breaks down' and 'department'",
+      "intonation_focus": "Falling intonation, explaining breakdown",
+      "connected_speech_focus": "Linking 'breaks down'",
+      "vocabulary": [
+        {
+          "word": "department",
+          "meaning": "division of an organization"
+        }
+      ],
+      "grammar_focus": "Phrasal verb 'break down'",
+      "tags": [
+        "data description"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "It's worth repeating that safety always comes before speed on this project.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'it's'",
+      "stress_focus": "Stress on 'safety' and 'speed'",
+      "intonation_focus": "Falling intonation, strong emphasis",
+      "connected_speech_focus": "Linking 'worth repeating'",
+      "vocabulary": [
+        {
+          "word": "safety",
+          "meaning": "freedom from harm"
+        }
+      ],
+      "grammar_focus": "Noun clause with 'that'",
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I don't have that data in front of me, but I'll follow up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'don't'",
+      "stress_focus": "Stress on 'data' and 'follow up'",
+      "intonation_focus": "Falling intonation, honest response",
+      "connected_speech_focus": "Linking 'follow up'",
+      "vocabulary": [
+        {
+          "word": "follow up",
+          "meaning": "provide more information later"
+        }
+      ],
+      "grammar_focus": "Contrast clause with 'but'",
+      "tags": [
+        "Q&A"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Let's give it a minute while the file finishes loading properly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'let's'",
+      "stress_focus": "Stress on 'minute' and 'loading'",
+      "intonation_focus": "Falling intonation, patience during delay",
+      "connected_speech_focus": "Linking 'finishes loading'",
+      "vocabulary": [
+        {
+          "word": "loading",
+          "meaning": "process of preparing data"
+        }
+      ],
+      "grammar_focus": "Subordinate clause with 'while'",
+      "tags": [
+        "tech issue"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "So, to bring it all together, our strategy rests on three pillars.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduced 'to' /tə/",
+      "stress_focus": "Stress on 'together' and 'pillars'",
+      "intonation_focus": "Falling intonation, synthesizing ideas",
+      "connected_speech_focus": "Linking 'bring it'",
+      "vocabulary": [
+        {
+          "word": "pillars",
+          "meaning": "fundamental supporting elements"
+        }
+      ],
+      "grammar_focus": "Passive-like phrase 'rests on'",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Before we close, does anyone have any final thoughts to share?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Rising intonation at end",
+      "stress_focus": "Stress on 'close' and 'thoughts'",
+      "intonation_focus": "Rising intonation, inviting closing input",
+      "connected_speech_focus": "Linking 'final thoughts'",
+      "vocabulary": [
+        {
+          "word": "final",
+          "meaning": "last, concluding"
+        }
+      ],
+      "grammar_focus": "Yes/no question with 'any'",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Let's dive right in and take a look at today's main topic.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'let's' and 'today's'",
+      "stress_focus": "Stress on 'dive' and 'topic'",
+      "intonation_focus": "Falling intonation, energetic opening",
+      "connected_speech_focus": "Linking 'dive right'",
+      "vocabulary": [
+        {
+          "word": "topic",
+          "meaning": "subject being discussed"
+        }
+      ],
+      "grammar_focus": "Imperative with coordinated verbs",
+      "tags": [
+        "opening"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Although many of you already know me from previous conferences, I'd still like to briefly introduce myself and explain why I'm here today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'd' and 'I'm'",
+      "stress_focus": "Stress on 'briefly' and 'today'",
+      "intonation_focus": "Falling intonation, contrastive opening",
+      "connected_speech_focus": "Linking 'introduce myself'",
+      "vocabulary": [
+        {
+          "word": "conferences",
+          "meaning": "formal meetings for discussion"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'although'",
+      "tags": [
+        "opening",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since we've already discussed the background in detail, I'm going to skip ahead and focus on the practical implications instead.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'we've' and 'I'm'",
+      "stress_focus": "Stress on 'skip ahead' and 'implications'",
+      "intonation_focus": "Falling intonation, signposting shift",
+      "connected_speech_focus": "Linking 'skip ahead'",
+      "vocabulary": [
+        {
+          "word": "implications",
+          "meaning": "consequences or effects"
+        }
+      ],
+      "grammar_focus": "Cause clause with 'since'",
+      "tags": [
+        "transition",
+        "signposting"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Although the figures on this slide look impressive at first glance, it's important to remember that they don't account for seasonal fluctuations.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'it's' and 'don't'",
+      "stress_focus": "Stress on 'impressive' and 'fluctuations'",
+      "intonation_focus": "Falling intonation, cautionary explanation",
+      "connected_speech_focus": "Linking 'account for'",
+      "vocabulary": [
+        {
+          "word": "fluctuations",
+          "meaning": "irregular rises and falls"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'although'",
+      "tags": [
+        "data description",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "As you can see from the trend line, growth accelerated sharply once we launched the new marketing campaign in March.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /ʃ/ in 'sharply'",
+      "stress_focus": "Stress on 'accelerated' and 'campaign'",
+      "intonation_focus": "Falling intonation, cause-effect explanation",
+      "connected_speech_focus": "Linking 'once we'",
+      "vocabulary": [
+        {
+          "word": "accelerated",
+          "meaning": "increased in speed"
+        }
+      ],
+      "grammar_focus": "Time clause with 'once'",
+      "tags": [
+        "data description",
+        "cause-effect"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "If there's one thing I want you to take away from this presentation, it's that customer trust takes years to build but seconds to lose.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'there's' and 'it's'",
+      "stress_focus": "Stress on 'trust' and 'seconds'",
+      "intonation_focus": "Falling intonation, strong contrastive emphasis",
+      "connected_speech_focus": "Linking 'take away'",
+      "vocabulary": [
+        {
+          "word": "trust",
+          "meaning": "confidence in reliability"
+        }
+      ],
+      "grammar_focus": "Cleft sentence with conditional",
+      "tags": [
+        "emphasis",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "What really matters here isn't the size of the budget, but how effectively we actually spend it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'isn't'",
+      "stress_focus": "Stress on 'matters' and 'effectively'",
+      "intonation_focus": "Falling intonation, contrastive emphasis",
+      "connected_speech_focus": "Linking 'isn't the'",
+      "vocabulary": [
+        {
+          "word": "effectively",
+          "meaning": "in a way that produces results"
+        }
+      ],
+      "grammar_focus": "Cleft sentence with 'what'",
+      "tags": [
+        "emphasis",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "That's an excellent question, and while I don't have all the answers right now, I'm happy to look into it and follow up afterward.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'that's', 'don't', 'I'm'",
+      "stress_focus": "Stress on 'excellent' and 'follow up'",
+      "intonation_focus": "Falling intonation, thoughtful response",
+      "connected_speech_focus": "Linking 'look into'",
+      "vocabulary": [
+        {
+          "word": "afterward",
+          "meaning": "later, after this"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'while'",
+      "tags": [
+        "Q&A",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Since we're running short on time, could we take that question offline and continue the discussion by email?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'we're'",
+      "stress_focus": "Stress on 'short' and 'offline'",
+      "intonation_focus": "Rising intonation, polite deferral",
+      "connected_speech_focus": "Linking 'running short'",
+      "vocabulary": [
+        {
+          "word": "offline",
+          "meaning": "outside the main meeting"
+        }
+      ],
+      "grammar_focus": "Cause clause with 'since'",
+      "tags": [
+        "Q&A",
+        "time management"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Even though we tested everything before the meeting, it seems the connection has dropped again, so please bear with us for a moment.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'it's' implied",
+      "stress_focus": "Stress on 'tested' and 'dropped'",
+      "intonation_focus": "Falling intonation, apologetic troubleshooting",
+      "connected_speech_focus": "Linking 'bear with'",
+      "vocabulary": [
+        {
+          "word": "bear with",
+          "meaning": "be patient with"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'even though'",
+      "tags": [
+        "tech issue",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "While the team works on fixing the audio issue, I'll go ahead and continue with the slides so we don't lose any more time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'll' and 'don't'",
+      "stress_focus": "Stress on 'fixing' and 'continue'",
+      "intonation_focus": "Falling intonation, adaptive problem-solving",
+      "connected_speech_focus": "Linking 'go ahead'",
+      "vocabulary": [
+        {
+          "word": "adaptive",
+          "meaning": "able to adjust to new conditions"
+        }
+      ],
+      "grammar_focus": "Subordinate clause with 'while' plus result clause",
+      "tags": [
+        "tech issue",
+        "cause-effect"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "To bring everything together, what we've seen today confirms that our original strategy was sound, even though execution needs some fine-tuning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'we've'",
+      "stress_focus": "Stress on 'confirms' and 'fine-tuning'",
+      "intonation_focus": "Falling intonation, concessive summary",
+      "connected_speech_focus": "Linking 'bring everything'",
+      "vocabulary": [
+        {
+          "word": "fine-tuning",
+          "meaning": "making small adjustments"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'even though'",
+      "tags": [
+        "summary",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Taking a step back, it's clear that although we faced setbacks early on, the overall trajectory of the project remains positive.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'it's'",
+      "stress_focus": "Stress on 'setbacks' and 'trajectory'",
+      "intonation_focus": "Falling intonation, reflective summary",
+      "connected_speech_focus": "Linking 'step back'",
+      "vocabulary": [
+        {
+          "word": "trajectory",
+          "meaning": "path of development"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'although'",
+      "tags": [
+        "summary",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Moving forward, our next priority is to finalize the budget, so if anyone has concerns, please raise them before we adjourn.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction none, clear 'adjourn'",
+      "stress_focus": "Stress on 'priority' and 'adjourn'",
+      "intonation_focus": "Falling intonation, closing with instructions",
+      "connected_speech_focus": "Linking 'raise them'",
+      "vocabulary": [
+        {
+          "word": "adjourn",
+          "meaning": "end a meeting formally"
+        }
+      ],
+      "grammar_focus": "Conditional clause with 'if'",
+      "tags": [
+        "closing",
+        "next steps"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Before we wrap up, I want to thank the entire team, since none of this would have been possible without their hard work.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'we're' implied none",
+      "stress_focus": "Stress on 'thank' and 'possible'",
+      "intonation_focus": "Falling intonation, gratitude with cause",
+      "connected_speech_focus": "Linking 'wrap up'",
+      "vocabulary": [
+        {
+          "word": "entire",
+          "meaning": "whole, complete"
+        }
+      ],
+      "grammar_focus": "Third conditional-like structure with 'would have'",
+      "tags": [
+        "closing",
+        "gratitude"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Given how much has changed in this industry over the past year, I thought it would be useful to start by revisiting a few fundamentals.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /dʒ/ in 'given'",
+      "stress_focus": "Stress on 'changed' and 'fundamentals'",
+      "intonation_focus": "Falling intonation, reflective opening",
+      "connected_speech_focus": "Linking 'thought it'",
+      "vocabulary": [
+        {
+          "word": "fundamentals",
+          "meaning": "basic principles"
+        }
+      ],
+      "grammar_focus": "Participial clause with 'given'",
+      "tags": [
+        "opening",
+        "reflection"
+      ]
+    },
+    {
+      "subcategory": "Signposting",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Now, before moving any further, I think it's worth pausing here for a moment, because the next section builds directly on everything we've just discussed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'it's' and 'we've'",
+      "stress_focus": "Stress on 'pausing' and 'builds'",
+      "intonation_focus": "Falling intonation, cause-effect signposting",
+      "connected_speech_focus": "Linking 'builds directly'",
+      "vocabulary": [
+        {
+          "word": "pausing",
+          "meaning": "stopping briefly"
+        }
+      ],
+      "grammar_focus": "Cause clause with 'because'",
+      "tags": [
+        "signposting",
+        "cause-effect"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "If you compare this quarter's figures with last year's, you'll notice that despite the overall market slowdown, our team actually managed to outperform expectations.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'this quarter's', 'you'll'",
+      "stress_focus": "Stress on 'compare' and 'outperform'",
+      "intonation_focus": "Falling intonation, comparative explanation",
+      "connected_speech_focus": "Linking 'compare this'",
+      "vocabulary": [
+        {
+          "word": "outperform",
+          "meaning": "do better than expected"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'despite'",
+      "tags": [
+        "data description",
+        "comparison"
+      ]
+    },
+    {
+      "subcategory": "Emphasising key points",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "In my experience, the biggest mistake teams make isn't underestimating the competition, but rather overestimating how much time they actually have to prepare.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'isn't'",
+      "stress_focus": "Stress on 'underestimating' and 'overestimating'",
+      "intonation_focus": "Falling intonation, contrastive opinion",
+      "connected_speech_focus": "Linking 'rather overestimating'",
+      "vocabulary": [
+        {
+          "word": "underestimating",
+          "meaning": "judging something as less significant than it is"
+        }
+      ],
+      "grammar_focus": "Cleft sentence with contrast 'not...but rather'",
+      "tags": [
+        "emphasis",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "That's a fair challenge, and although I can't give you a definitive answer right now, I'd be glad to dig deeper and circle back with the data next week.",
+      "natural_form": "That's",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'can't' and 'I'd'",
+      "stress_focus": "Stress on 'challenge' and 'circle back'",
+      "intonation_focus": "Falling intonation, thoughtful deferral",
+      "connected_speech_focus": "Linking 'dig deeper'",
+      "vocabulary": [
+        {
+          "word": "definitive",
+          "meaning": "conclusive, final"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'although'",
+      "tags": [
+        "Q&A",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Dealing with technical problems",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Assuming the connection stabilizes in the next few minutes, we should be able to pick up right where we left off without losing too much time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'we should'",
+      "stress_focus": "Stress on 'stabilizes' and 'losing'",
+      "intonation_focus": "Falling intonation, conditional reassurance",
+      "connected_speech_focus": "Linking 'pick up'",
+      "vocabulary": [
+        {
+          "word": "stabilizes",
+          "meaning": "becomes steady"
+        }
+      ],
+      "grammar_focus": "Conditional clause with 'assuming'",
+      "tags": [
+        "tech issue",
+        "conditional"
+      ]
+    },
+    {
+      "subcategory": "Summarising",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Looking back over everything we've covered, it's clear that while there's still work to be done, the foundation we've built puts us in a strong position going forward.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'it's', 'there's', 'we've'",
+      "stress_focus": "Stress on 'foundation' and 'position'",
+      "intonation_focus": "Falling intonation, reflective summary",
+      "connected_speech_focus": "Linking 'looking back'",
+      "vocabulary": [
+        {
+          "word": "foundation",
+          "meaning": "basic structure or support"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'while'",
+      "tags": [
+        "summary",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Closing & next steps",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "So, as we head into the next phase, I'd like everyone to review the action items by Friday so that we can hit the ground running on Monday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I'd'",
+      "stress_focus": "Stress on 'phase' and 'ground running'",
+      "intonation_focus": "Falling intonation, instructive closing",
+      "connected_speech_focus": "Linking 'hit the'",
+      "vocabulary": [
+        {
+          "word": "phase",
+          "meaning": "stage in a process"
+        }
+      ],
+      "grammar_focus": "Purpose clause with 'so that'",
+      "tags": [
+        "closing",
+        "next steps"
+      ]
+    },
+    {
+      "subcategory": "Opening a talk",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Given the amount of feedback we received after last year's session, I've restructured today's talk so that it addresses the questions you raised most often.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'I've' and 'today's'",
+      "stress_focus": "Stress on 'restructured' and 'addresses'",
+      "intonation_focus": "Falling intonation, responsive opening",
+      "connected_speech_focus": "Linking 'restructured today's'",
+      "vocabulary": [
+        {
+          "word": "restructured",
+          "meaning": "organized differently"
+        }
+      ],
+      "grammar_focus": "Purpose clause with 'so that'",
+      "tags": [
+        "opening",
+        "responsiveness"
+      ]
+    },
+    {
+      "subcategory": "Explaining slides & data",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Even though this dashboard might look complicated at first, once you understand how the filters interact, you'll find it's actually quite intuitive to navigate.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'it's' and 'you'll'",
+      "stress_focus": "Stress on 'complicated' and 'intuitive'",
+      "intonation_focus": "Falling intonation, reassuring explanation",
+      "connected_speech_focus": "Linking 'filters interact'",
+      "vocabulary": [
+        {
+          "word": "intuitive",
+          "meaning": "easy to understand naturally"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'even though'",
+      "tags": [
+        "data description",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Handling questions",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Personally, I think the reason this issue keeps coming up isn't a lack of resources, but rather a lack of clear ownership across teams.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Contraction 'isn't'",
+      "stress_focus": "Stress on 'ownership' and 'resources'",
+      "intonation_focus": "Falling intonation, contrastive opinion",
+      "connected_speech_focus": "Linking 'coming up'",
+      "vocabulary": [
+        {
+          "word": "ownership",
+          "meaning": "responsibility for something"
+        }
+      ],
+      "grammar_focus": "Cleft sentence with contrast 'not...but rather'",
+      "tags": [
+        "Q&A",
+        "opinion"
+      ]
+    }
+  ]
+}

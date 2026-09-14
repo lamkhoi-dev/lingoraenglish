@@ -1,0 +1,2309 @@
+{
+  "slug": "emails-work-writing",
+  "name": "Emails & Business Messages",
+  "topic_group": "Work & Professional English",
+  "blurb": "Shadow natural spoken sentences for writing and reading professional emails aloud.",
+  "sort_order": 26,
+  "sentences": [
+    {
+      "subcategory": "Opening lines",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I hope you're doing well.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel in 'hope'",
+      "stress_focus": "stress on HOPE and WELL",
+      "intonation_focus": "falling tone at end",
+      "connected_speech_focus": "linking 'hope you're'",
+      "vocabulary": [
+        {
+          "word": "hope",
+          "meaning": "wish for something"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thanks for your quick reply.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "th sound in 'thanks'",
+      "stress_focus": "stress on THANKS and QUICK",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'thanks for'",
+      "vocabulary": [
+        {
+          "word": "reply",
+          "meaning": "an answer"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Could you send me the file?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising intonation on question",
+      "stress_focus": "stress on SEND and FILE",
+      "intonation_focus": "rising tone for polite request",
+      "connected_speech_focus": "reduction of 'could you' to 'cudja'",
+      "vocabulary": [
+        {
+          "word": "file",
+          "meaning": "a document"
+        }
+      ],
+      "grammar_focus": "modal for requests",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please review this by Friday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear ending consonant 'd'",
+      "stress_focus": "stress on REVIEW and FRIDAY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'review this'",
+      "vocabulary": [
+        {
+          "word": "review",
+          "meaning": "to check"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "deadline"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I've attached the report here.",
+      "natural_form": "I've attached the report, here.",
+      "accent": "american",
+      "pronunciation_focus": "contracted 've sound",
+      "stress_focus": "stress on ATTACHED and REPORT",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'attached the'",
+      "vocabulary": [
+        {
+          "word": "attached",
+          "meaning": "included with the message"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Here is the file you need.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'th' in 'the'",
+      "stress_focus": "stress on FILE and NEED",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'file you'",
+      "vocabulary": [
+        {
+          "word": "need",
+          "meaning": "require"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Just checking in on this.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "short 'i' in 'in'",
+      "stress_focus": "stress on CHECKING and THIS",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'checking in'",
+      "vocabulary": [
+        {
+          "word": "checking",
+          "meaning": "following up"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Did you get my email?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense 'did'",
+      "stress_focus": "stress on GET and EMAIL",
+      "intonation_focus": "rising tone for question",
+      "connected_speech_focus": "linking 'get my'",
+      "vocabulary": [
+        {
+          "word": "email",
+          "meaning": "electronic message"
+        }
+      ],
+      "grammar_focus": "simple past question",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Sorry for the late reply.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'l' sounds",
+      "stress_focus": "stress on SORRY and LATE",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'for the'",
+      "vocabulary": [
+        {
+          "word": "late",
+          "meaning": "not on time"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I apologize for the delay.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on second syllable of apologize",
+      "stress_focus": "stress on APOLOGIZE and DELAY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'for the'",
+      "vocabulary": [
+        {
+          "word": "delay",
+          "meaning": "a wait"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I confirm the meeting time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'f' sound",
+      "stress_focus": "stress on CONFIRM and TIME",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'confirm the'",
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "meaning": "to make sure"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "That works well for me.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'w' sound",
+      "stress_focus": "stress on WORKS and ME",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'works well'",
+      "vocabulary": [
+        {
+          "word": "works",
+          "meaning": "is acceptable"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Are you free tomorrow?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising question intonation",
+      "stress_focus": "stress on FREE and TOMORROW",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'are you'",
+      "vocabulary": [
+        {
+          "word": "free",
+          "meaning": "available"
+        }
+      ],
+      "grammar_focus": "simple present question",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Let's schedule a call soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'sch' sound",
+      "stress_focus": "stress on SCHEDULE and SOON",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'let's schedule'",
+      "vocabulary": [
+        {
+          "word": "schedule",
+          "meaning": "to plan a time"
+        }
+      ],
+      "grammar_focus": "imperative with let's",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thank you for your time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'th' sounds",
+      "stress_focus": "stress on THANK and TIME",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'thank you'",
+      "vocabulary": [
+        {
+          "word": "time",
+          "meaning": "attention given"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Looking forward to your reply.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'to' sound",
+      "stress_focus": "stress on FORWARD and REPLY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'forward to'",
+      "vocabulary": [
+        {
+          "word": "forward",
+          "meaning": "ahead in time"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I hope this finds you well.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "th sound in 'this'",
+      "stress_focus": "stress on HOPE and WELL",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'finds you'",
+      "vocabulary": [
+        {
+          "word": "finds",
+          "meaning": "reaches"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can you call me back?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising question tone",
+      "stress_focus": "stress on CALL and BACK",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'call me'",
+      "vocabulary": [
+        {
+          "word": "back",
+          "meaning": "in return"
+        }
+      ],
+      "grammar_focus": "modal for requests",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Please find the document attached.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'ch' in attached",
+      "stress_focus": "stress on DOCUMENT and ATTACHED",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'find the'",
+      "vocabulary": [
+        {
+          "word": "document",
+          "meaning": "a file"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I wanted to follow up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'to' sound",
+      "stress_focus": "stress on WANTED and FOLLOW",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'wanted to'",
+      "vocabulary": [
+        {
+          "word": "follow up",
+          "meaning": "check on progress"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I'm sorry about the mix-up.",
+      "natural_form": "I'm sorry 'bout the mix-up.",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'about' sound",
+      "stress_focus": "stress on SORRY and MIX-UP",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'sorry about'",
+      "vocabulary": [
+        {
+          "word": "mix-up",
+          "meaning": "a confusion"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is this time still good?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising question tone",
+      "stress_focus": "stress on TIME and GOOD",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'is this'",
+      "vocabulary": [
+        {
+          "word": "still",
+          "meaning": "even now"
+        }
+      ],
+      "grammar_focus": "simple present question",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's meet next Monday morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'm' sounds",
+      "stress_focus": "stress on MEET and MONDAY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'meet next'",
+      "vocabulary": [
+        {
+          "word": "meet",
+          "meaning": "to get together"
+        }
+      ],
+      "grammar_focus": "imperative with let's",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Have a great weekend ahead.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'gr' sound",
+      "stress_focus": "stress on GREAT and AHEAD",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'have a'",
+      "vocabulary": [
+        {
+          "word": "ahead",
+          "meaning": "coming next"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please confirm by tomorrow morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'c' in confirm",
+      "stress_focus": "stress on CONFIRM and TOMORROW",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'confirm by'",
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "meaning": "to verify"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "deadline"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I hope you had a relaxing weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'had a' sound",
+      "stress_focus": "stress on RELAXING and WEEKEND",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'had a'",
+      "vocabulary": [
+        {
+          "word": "relaxing",
+          "meaning": "restful"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "It was great meeting you last week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'was great'",
+      "stress_focus": "stress on GREAT and MEETING",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'meeting you'",
+      "vocabulary": [
+        {
+          "word": "meeting",
+          "meaning": "encountering someone"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you please send over the updated file?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'could you'",
+      "stress_focus": "stress on SEND and UPDATED",
+      "intonation_focus": "rising tone for politeness",
+      "connected_speech_focus": "linking 'send over'",
+      "vocabulary": [
+        {
+          "word": "updated",
+          "meaning": "most recent version"
+        }
+      ],
+      "grammar_focus": "modal for requests",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Would you mind reviewing this before noon?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would you'",
+      "stress_focus": "stress on MIND and NOON",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'mind reviewing'",
+      "vocabulary": [
+        {
+          "word": "reviewing",
+          "meaning": "checking carefully"
+        }
+      ],
+      "grammar_focus": "modal for requests",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I've attached the presentation for your review.",
+      "natural_form": "I've attached the presentation, for your review.",
+      "accent": "american",
+      "pronunciation_focus": "contracted 've sound",
+      "stress_focus": "stress on ATTACHED and PRESENTATION",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'attached the'",
+      "vocabulary": [
+        {
+          "word": "presentation",
+          "meaning": "slides for a talk"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "You can download the file from the link below.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'd' in download",
+      "stress_focus": "stress on DOWNLOAD and LINK",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'from the'",
+      "vocabulary": [
+        {
+          "word": "download",
+          "meaning": "to save from the internet"
+        }
+      ],
+      "grammar_focus": "modal for ability",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm just following up on my earlier message.",
+      "natural_form": "I'm just followin' up on my earlier message.",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'ing' ending",
+      "stress_focus": "stress on FOLLOWING and EARLIER",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'following up'",
+      "vocabulary": [
+        {
+          "word": "earlier",
+          "meaning": "before now"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Have you had a chance to look at this?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'had a'",
+      "stress_focus": "stress on CHANCE and LOOK",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'had a chance'",
+      "vocabulary": [
+        {
+          "word": "chance",
+          "meaning": "opportunity"
+        }
+      ],
+      "grammar_focus": "present perfect question",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Apologies for the delay in getting back to you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear stress on 'apologies'",
+      "stress_focus": "stress on DELAY and BACK",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'getting back'",
+      "vocabulary": [
+        {
+          "word": "apologies",
+          "meaning": "expressions of regret"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We're sorry for any inconvenience this may cause.",
+      "natural_form": "We're sorry for any inconvenience this might cause.",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'this may'",
+      "stress_focus": "stress on SORRY and INCONVENIENCE",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'may cause'",
+      "vocabulary": [
+        {
+          "word": "inconvenience",
+          "meaning": "trouble or difficulty"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I just wanted to confirm our meeting time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'wanted to'",
+      "stress_focus": "stress on CONFIRM and MEETING",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'wanted to'",
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "meaning": "verify"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Can you confirm you received the invoice?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising question tone",
+      "stress_focus": "stress on CONFIRM and INVOICE",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'confirm you'",
+      "vocabulary": [
+        {
+          "word": "invoice",
+          "meaning": "a bill for payment"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Let me know what time works best for you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'what time'",
+      "stress_focus": "stress on WORKS and BEST",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'works best'",
+      "vocabulary": [
+        {
+          "word": "best",
+          "meaning": "most suitable"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Would Thursday afternoon work for a quick call?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would'",
+      "stress_focus": "stress on THURSDAY and QUICK",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'work for'",
+      "vocabulary": [
+        {
+          "word": "quick",
+          "meaning": "brief"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Please let me know if you have any questions.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'let me'",
+      "stress_focus": "stress on KNOW and QUESTIONS",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'let me'",
+      "vocabulary": [
+        {
+          "word": "questions",
+          "meaning": "things to ask"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Thanks again for your help with this project.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'thanks again'",
+      "stress_focus": "stress on HELP and PROJECT",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'thanks again'",
+      "vocabulary": [
+        {
+          "word": "project",
+          "meaning": "a piece of planned work"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm reaching out to introduce myself briefly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'ing' in reaching",
+      "stress_focus": "stress on REACHING and INTRODUCE",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'reaching out'",
+      "vocabulary": [
+        {
+          "word": "introduce",
+          "meaning": "present oneself"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you clarify what you meant by that?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'could you'",
+      "stress_focus": "stress on CLARIFY and MEANT",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'meant by'",
+      "vocabulary": [
+        {
+          "word": "clarify",
+          "meaning": "make clearer"
+        }
+      ],
+      "grammar_focus": "modal for requests",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm sharing the spreadsheet with the whole team.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'ing' in sharing",
+      "stress_focus": "stress on SHARING and SPREADSHEET",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'sharing the'",
+      "vocabulary": [
+        {
+          "word": "spreadsheet",
+          "meaning": "a table of data"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I still haven't heard back from you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'haven't' sound",
+      "stress_focus": "stress on STILL and HEARD",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'heard back'",
+      "vocabulary": [
+        {
+          "word": "heard",
+          "meaning": "received a response"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Sorry, I completely forgot to reply yesterday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on completely",
+      "stress_focus": "stress on FORGOT and YESTERDAY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'forgot to'",
+      "vocabulary": [
+        {
+          "word": "forgot",
+          "meaning": "failed to remember"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Just to confirm, the deadline is next Friday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "pause after 'confirm'",
+      "stress_focus": "stress on DEADLINE and FRIDAY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'is next'",
+      "vocabulary": [
+        {
+          "word": "deadline",
+          "meaning": "final date to finish"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll send you a calendar invite shortly.",
+      "natural_form": "I'll send you a calendar invite real soon.",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'I'll' sound",
+      "stress_focus": "stress on CALENDAR and SHORTLY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'send you'",
+      "vocabulary": [
+        {
+          "word": "invite",
+          "meaning": "a scheduled meeting request"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I look forward to hearing from you soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'to' sound",
+      "stress_focus": "stress on FORWARD and SOON",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'forward to'",
+      "vocabulary": [
+        {
+          "word": "hearing",
+          "meaning": "receiving a reply"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Please let me know your availability this week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'let me'",
+      "stress_focus": "stress on AVAILABILITY and WEEK",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'know your'",
+      "vocabulary": [
+        {
+          "word": "availability",
+          "meaning": "free time"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I hope this email finds you in good spirits today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'finds you'",
+      "stress_focus": "stress on SPIRITS and TODAY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'email finds'",
+      "vocabulary": [
+        {
+          "word": "spirits",
+          "meaning": "mood or morale"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'm writing to follow up on our conversation last week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'ing' in writing",
+      "stress_focus": "stress on FOLLOW and CONVERSATION",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'writing to'",
+      "vocabulary": [
+        {
+          "word": "conversation",
+          "meaning": "a spoken exchange"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would it be possible to reschedule our meeting to Thursday?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would it'",
+      "stress_focus": "stress on POSSIBLE and RESCHEDULE",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'be possible'",
+      "vocabulary": [
+        {
+          "word": "reschedule",
+          "meaning": "change the time of"
+        }
+      ],
+      "grammar_focus": "modal for requests",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "I'd appreciate it if you could send the numbers today.",
+      "natural_form": "I'd 'preciate it if you could send the numbers today.",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'appreciate'",
+      "stress_focus": "stress on APPRECIATE and NUMBERS",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'appreciate it'",
+      "vocabulary": [
+        {
+          "word": "appreciate",
+          "meaning": "be grateful for"
+        }
+      ],
+      "grammar_focus": "conditional request",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I've attached both the draft and the final version for comparison.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 've in attached",
+      "stress_focus": "stress on DRAFT and COMPARISON",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'draft and'",
+      "vocabulary": [
+        {
+          "word": "comparison",
+          "meaning": "a check between two things"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The link below will give you access to the shared folder.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'l' sounds",
+      "stress_focus": "stress on ACCESS and SHARED",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'give you'",
+      "vocabulary": [
+        {
+          "word": "access",
+          "meaning": "the ability to enter or use"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I wanted to circle back on the proposal I sent last month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'wanted to'",
+      "stress_focus": "stress on CIRCLE and PROPOSAL",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'circle back'",
+      "vocabulary": [
+        {
+          "word": "circle back",
+          "meaning": "to return to a topic"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Would you have any updates on where things currently stand?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would you'",
+      "stress_focus": "stress on UPDATES and CURRENTLY",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'have any'",
+      "vocabulary": [
+        {
+          "word": "currently",
+          "meaning": "at this time"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I apologize for the delay; our team ran into unexpected issues.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "pause after 'delay'",
+      "stress_focus": "stress on UNEXPECTED and ISSUES",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'ran into'",
+      "vocabulary": [
+        {
+          "word": "unexpected",
+          "meaning": "not anticipated"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Please accept our apologies for the confusion caused earlier this week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'ch' in confusion",
+      "stress_focus": "stress on CONFUSION and CAUSED",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'caused earlier'",
+      "vocabulary": [
+        {
+          "word": "confusion",
+          "meaning": "lack of clarity"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Just to confirm, we'll meet at ten o'clock on Tuesday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'we'll'",
+      "stress_focus": "stress on TEN and TUESDAY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'meet at'",
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "meaning": "make certain"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Can you double-check that the figures match the report?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'ch' in check",
+      "stress_focus": "stress on DOUBLE-CHECK and MATCH",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'check that'",
+      "vocabulary": [
+        {
+          "word": "figures",
+          "meaning": "numbers or data"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'm available anytime after three, so please pick a slot.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'ing' in available",
+      "stress_focus": "stress on AVAILABLE and SLOT",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'pick a'",
+      "vocabulary": [
+        {
+          "word": "slot",
+          "meaning": "a scheduled time"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Does next Wednesday at two work better with your schedule?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising question tone",
+      "stress_focus": "stress on WEDNESDAY and SCHEDULE",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'work better'",
+      "vocabulary": [
+        {
+          "word": "schedule",
+          "meaning": "a plan of events"
+        }
+      ],
+      "grammar_focus": "simple present question",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Please don't hesitate to reach out if anything is unclear.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'don't'",
+      "stress_focus": "stress on HESITATE and UNCLEAR",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'reach out'",
+      "vocabulary": [
+        {
+          "word": "hesitate",
+          "meaning": "pause due to uncertainty"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Thanks again for your patience while we sort this out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'while we'",
+      "stress_focus": "stress on PATIENCE and SORT",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'sort this'",
+      "vocabulary": [
+        {
+          "word": "patience",
+          "meaning": "the ability to wait calmly"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I trust this message finds you well amid the busy season.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'finds you'",
+      "stress_focus": "stress on TRUST and BUSY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'amid the'",
+      "vocabulary": [
+        {
+          "word": "amid",
+          "meaning": "in the middle of"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you loop in the design team on this thread as well?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'could you'",
+      "stress_focus": "stress on LOOP and DESIGN",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'loop in'",
+      "vocabulary": [
+        {
+          "word": "loop in",
+          "meaning": "include someone in communication"
+        }
+      ],
+      "grammar_focus": "modal for requests",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I've uploaded the files to the shared drive for everyone's access.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 've uploaded",
+      "stress_focus": "stress on UPLOADED and SHARED",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'uploaded the'",
+      "vocabulary": [
+        {
+          "word": "uploaded",
+          "meaning": "transferred to a server"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I know things have been busy, so just checking in again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'have been'",
+      "stress_focus": "stress on BUSY and CHECKING",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'checking in'",
+      "vocabulary": [
+        {
+          "word": "busy",
+          "meaning": "having a lot to do"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Sorry for the back-and-forth; we're still finalizing a few details.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'we're'",
+      "stress_focus": "stress on FINALIZING and DETAILS",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'still finalizing'",
+      "vocabulary": [
+        {
+          "word": "finalizing",
+          "meaning": "completing the last steps"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "To confirm, the shipment should arrive by the end of next week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'should'",
+      "stress_focus": "stress on SHIPMENT and ARRIVE",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'should arrive'",
+      "vocabulary": [
+        {
+          "word": "shipment",
+          "meaning": "goods being delivered"
+        }
+      ],
+      "grammar_focus": "modal for prediction",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's aim to wrap up the call within thirty minutes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'let's aim'",
+      "stress_focus": "stress on WRAP and THIRTY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'wrap up'",
+      "vocabulary": [
+        {
+          "word": "wrap up",
+          "meaning": "finish something"
+        }
+      ],
+      "grammar_focus": "imperative with let's",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Feel free to reply whenever it's convenient for you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'it's'",
+      "stress_focus": "stress on CONVENIENT and REPLY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'reply whenever'",
+      "vocabulary": [
+        {
+          "word": "convenient",
+          "meaning": "suitable or easy"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would you be able to walk me through the process again?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would you'",
+      "stress_focus": "stress on WALK and PROCESS",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'walk me'",
+      "vocabulary": [
+        {
+          "word": "process",
+          "meaning": "a series of steps"
+        }
+      ],
+      "grammar_focus": "modal for requests",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I hope you're doing well, and I wanted to reach out now that we're finally wrapping up the quarterly review.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'now that'",
+      "stress_focus": "stress on QUARTERLY and REVIEW",
+      "intonation_focus": "falling tone with rising pause mid-sentence",
+      "connected_speech_focus": "linking 'wrapping up'",
+      "vocabulary": [
+        {
+          "word": "quarterly",
+          "meaning": "occurring every three months"
+        }
+      ],
+      "grammar_focus": "complex sentence with time clause",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "If it's not too much trouble, could you review the attached proposal before our call tomorrow morning?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'if it's'",
+      "stress_focus": "stress on TROUBLE and PROPOSAL",
+      "intonation_focus": "rising tone for politeness",
+      "connected_speech_focus": "linking 'not too'",
+      "vocabulary": [
+        {
+          "word": "proposal",
+          "meaning": "a suggested plan"
+        }
+      ],
+      "grammar_focus": "conditional request",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Although the file is quite large, I've compressed it so it should upload without any issues.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'should upload'",
+      "stress_focus": "stress on COMPRESSED and UPLOAD",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'without any'",
+      "vocabulary": [
+        {
+          "word": "compressed",
+          "meaning": "reduced in size"
+        }
+      ],
+      "grammar_focus": "contrast clause with although",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since I haven't heard back yet, I wanted to check whether the proposal is still under consideration.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'haven't heard'",
+      "stress_focus": "stress on CONSIDERATION and PROPOSAL",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'still under'",
+      "vocabulary": [
+        {
+          "word": "consideration",
+          "meaning": "careful thought"
+        }
+      ],
+      "grammar_focus": "cause and effect with since",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We apologize for the delay in shipping your order, which was caused by an unexpected supplier issue.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'wh' in which",
+      "stress_focus": "stress on SHIPPING and SUPPLIER",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'caused by'",
+      "vocabulary": [
+        {
+          "word": "supplier",
+          "meaning": "a company providing goods"
+        }
+      ],
+      "grammar_focus": "relative clause",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Just to make sure we're aligned, I'm confirming that the launch date has been moved to next Monday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'we're'",
+      "stress_focus": "stress on ALIGNED and LAUNCH",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'moved to'",
+      "vocabulary": [
+        {
+          "word": "aligned",
+          "meaning": "in agreement"
+        }
+      ],
+      "grammar_focus": "present perfect passive",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Given everyone's conflicting schedules, I think it would be best if we moved the meeting to a virtual format.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'it would'",
+      "stress_focus": "stress on CONFLICTING and VIRTUAL",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'would be'",
+      "vocabulary": [
+        {
+          "word": "virtual",
+          "meaning": "conducted online"
+        }
+      ],
+      "grammar_focus": "conditional with if",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Thank you again for your patience throughout this process, and please don't hesitate to reach out with any concerns.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'don't'",
+      "stress_focus": "stress on PATIENCE and CONCERNS",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'reach out'",
+      "vocabulary": [
+        {
+          "word": "throughout",
+          "meaning": "during the whole period"
+        }
+      ],
+      "grammar_focus": "compound sentence",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Now that the project has officially kicked off, I wanted to introduce myself as the new point of contact.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'now that'",
+      "stress_focus": "stress on OFFICIALLY and CONTACT",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'kicked off'",
+      "vocabulary": [
+        {
+          "word": "point of contact",
+          "meaning": "the person to reach for questions"
+        }
+      ],
+      "grammar_focus": "time clause with now that",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Would you mind holding off on sending the invoice until we've finalized the contract terms?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would you'",
+      "stress_focus": "stress on HOLDING and FINALIZED",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'holding off'",
+      "vocabulary": [
+        {
+          "word": "finalized",
+          "meaning": "completed and agreed"
+        }
+      ],
+      "grammar_focus": "time clause with until",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "In case the attachment doesn't come through, I've also pasted the summary directly into this email.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'doesn't'",
+      "stress_focus": "stress on ATTACHMENT and SUMMARY",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'pasted the'",
+      "vocabulary": [
+        {
+          "word": "summary",
+          "meaning": "a brief overview"
+        }
+      ],
+      "grammar_focus": "conditional with in case",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Given that it's been over two weeks, would you be able to provide an update at your earliest convenience?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'given that'",
+      "stress_focus": "stress on WEEKS and CONVENIENCE",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'be able'",
+      "vocabulary": [
+        {
+          "word": "convenience",
+          "meaning": "a suitable time or way"
+        }
+      ],
+      "grammar_focus": "cause and effect with given that",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'm sorry for the confusion earlier; the numbers I sent were based on an outdated spreadsheet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'I'm'",
+      "stress_focus": "stress on CONFUSION and OUTDATED",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'sent were'",
+      "vocabulary": [
+        {
+          "word": "outdated",
+          "meaning": "no longer current"
+        }
+      ],
+      "grammar_focus": "relative clause",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Assuming there are no last-minute changes, we'll proceed exactly as outlined in the original agreement.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'assuming there'",
+      "stress_focus": "stress on PROCEED and ORIGINAL",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'proceed exactly'",
+      "vocabulary": [
+        {
+          "word": "outlined",
+          "meaning": "described in general terms"
+        }
+      ],
+      "grammar_focus": "conditional with assuming",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since several people mentioned scheduling conflicts, we've decided to push the workshop back by one week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'we've'",
+      "stress_focus": "stress on CONFLICTS and WORKSHOP",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'push the'",
+      "vocabulary": [
+        {
+          "word": "conflicts",
+          "meaning": "clashes in schedule"
+        }
+      ],
+      "grammar_focus": "cause and effect with since",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "I believe this partnership could bring real value to both teams, and I look forward to discussing it further.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'could bring'",
+      "stress_focus": "stress on PARTNERSHIP and VALUE",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'look forward'",
+      "vocabulary": [
+        {
+          "word": "partnership",
+          "meaning": "a collaborative relationship"
+        }
+      ],
+      "grammar_focus": "modal for possibility",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "If you could send over the revised budget by end of day, that would really help us move forward.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'that would'",
+      "stress_focus": "stress on REVISED and BUDGET",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'move forward'",
+      "vocabulary": [
+        {
+          "word": "revised",
+          "meaning": "changed or updated"
+        }
+      ],
+      "grammar_focus": "conditional request",
+      "tags": [
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Following up",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Even though we haven't finalized everything, I wanted to share our progress so far in case it's useful.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'haven't finalized'",
+      "stress_focus": "stress on PROGRESS and USEFUL",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'so far'",
+      "vocabulary": [
+        {
+          "word": "progress",
+          "meaning": "forward movement toward a goal"
+        }
+      ],
+      "grammar_focus": "contrast clause with even though",
+      "tags": [
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Apologising & explaining delays",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Due to an unexpected system outage, several emails were delayed, and we apologize for any inconvenience this caused.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'ch' in inconvenience",
+      "stress_focus": "stress on OUTAGE and INCONVENIENCE",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'were delayed'",
+      "vocabulary": [
+        {
+          "word": "outage",
+          "meaning": "a period when a system is down"
+        }
+      ],
+      "grammar_focus": "cause and effect with due to",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "Confirming details",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "Before we move forward, could you confirm whether the pricing includes tax and shipping costs?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'could you'",
+      "stress_focus": "stress on PRICING and SHIPPING",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'includes tax'",
+      "vocabulary": [
+        {
+          "word": "pricing",
+          "meaning": "the cost structure"
+        }
+      ],
+      "grammar_focus": "embedded question",
+      "tags": [
+        "confirmation"
+      ]
+    },
+    {
+      "subcategory": "Opening lines",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Following our conversation last week, I wanted to put together a brief summary of what we discussed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'want to'",
+      "stress_focus": "stress on SUMMARY and DISCUSSED",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'put together'",
+      "vocabulary": [
+        {
+          "word": "discussed",
+          "meaning": "talked about"
+        }
+      ],
+      "grammar_focus": "participle clause",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "Scheduling by email",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Because the client pushed the deadline forward, we now need to reschedule several internal meetings this week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'need to'",
+      "stress_focus": "stress on DEADLINE and RESCHEDULE",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'pushed the'",
+      "vocabulary": [
+        {
+          "word": "internal",
+          "meaning": "within the company"
+        }
+      ],
+      "grammar_focus": "cause and effect with because",
+      "tags": [
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Closing lines",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Once again, thank you for bearing with us during this transition, and we'll be in touch soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'we'll be'",
+      "stress_focus": "stress on TRANSITION and TOUCH",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'bearing with'",
+      "vocabulary": [
+        {
+          "word": "transition",
+          "meaning": "a period of change"
+        }
+      ],
+      "grammar_focus": "compound sentence with future",
+      "tags": [
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Attaching & sharing",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Although I've already shared the main document, I'm including the appendix here in case you need further detail.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contracted 'I've'",
+      "stress_focus": "stress on APPENDIX and DETAIL",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "linking 'in case'",
+      "vocabulary": [
+        {
+          "word": "appendix",
+          "meaning": "additional material at the end"
+        }
+      ],
+      "grammar_focus": "contrast clause with although",
+      "tags": [
+        "attachment"
+      ]
+    },
+    {
+      "subcategory": "Making requests",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Would it be possible for you to loop me in on any decisions made during tomorrow's leadership meeting?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'would it'",
+      "stress_focus": "stress on DECISIONS and LEADERSHIP",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "linking 'loop me'",
+      "vocabulary": [
+        {
+          "word": "leadership",
+          "meaning": "the people in charge"
+        }
+      ],
+      "grammar_focus": "conditional request",
+      "tags": [
+        "request"
+      ]
+    }
+  ]
+}

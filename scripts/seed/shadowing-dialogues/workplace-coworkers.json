@@ -1,0 +1,41 @@
+{
+  "topic_slug": "workplace-coworkers",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Morning chat",
+      "turns": [
+        { "speaker_label": "Coworker A", "speaker_voice": "shimmer", "sentence": "Good morning! How was your weekend?", "is_free": true },
+        { "speaker_label": "Coworker B", "speaker_voice": "alloy", "sentence": "It was great, thanks. How about yours?", "is_free": true },
+        { "speaker_label": "Coworker A", "speaker_voice": "shimmer", "sentence": "Pretty relaxing. I mostly stayed home.", "is_free": true },
+        { "speaker_label": "Coworker B", "speaker_voice": "alloy", "sentence": "Sounds nice. Ready for the meeting later?", "is_free": true },
+        { "speaker_label": "Coworker A", "speaker_voice": "shimmer", "sentence": "Almost, just finishing my notes.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Asking for help",
+      "turns": [
+        { "speaker_label": "Coworker A", "speaker_voice": "coral", "sentence": "Do you have a minute? I'm stuck on this spreadsheet formula.", "is_free": false },
+        { "speaker_label": "Coworker B", "speaker_voice": "sage", "sentence": "Sure, let me take a look. What are you trying to calculate?", "is_free": false },
+        { "speaker_label": "Coworker A", "speaker_voice": "coral", "sentence": "I need the total sales per region, but it keeps returning an error.", "is_free": false },
+        { "speaker_label": "Coworker B", "speaker_voice": "sage", "sentence": "Ah, I see the issue — you're missing a closing bracket right here.", "is_free": false },
+        { "speaker_label": "Coworker A", "speaker_voice": "coral", "sentence": "Of course, I completely missed that. Thanks for catching it.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Navigating office politics",
+      "turns": [
+        { "speaker_label": "Coworker A", "speaker_voice": "nova", "sentence": "I get the sense our manager is favoring one team's proposal over ours, even though the numbers are comparable.", "is_free": false },
+        { "speaker_label": "Coworker B", "speaker_voice": "shimmer", "sentence": "I've noticed that too, though I think it's more about visibility than merit — they've simply presented more often.", "is_free": false },
+        { "speaker_label": "Coworker A", "speaker_voice": "nova", "sentence": "That's a fair point. Maybe we should request more face time to walk through our approach directly.", "is_free": false },
+        { "speaker_label": "Coworker B", "speaker_voice": "shimmer", "sentence": "Agreed — let's frame it as an update rather than a pitch, so it doesn't come across as competitive.", "is_free": false },
+        { "speaker_label": "Coworker A", "speaker_voice": "nova", "sentence": "Smart approach. I'll set up some time with them this week.", "is_free": false }
+      ]
+    }
+  ]
+}

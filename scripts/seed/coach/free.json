@@ -1,0 +1,1050 @@
+{
+  "category": "free",
+  "topics": [
+    {
+      "slug": "my-daily-routine",
+      "title": "My Daily Routine",
+      "description": "Talk about the things you do every day.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise describing daily habits using simple present tense.",
+      "opening_message": "Hi there! I'd love to hear about a normal day for you — what time do you usually wake up?",
+      "instructions": "Encourage simple present tense and time expressions like 'usually', 'always', 'every day'. Keep questions short and concrete. Praise correct verb forms gently.",
+      "follow_up_directions": [
+        "morning routine",
+        "evening routine",
+        "weekend routine",
+        "comparing weekdays and weekends"
+      ],
+      "vocabulary_focus": "daily routine, wake up, get dressed, have breakfast, go to bed",
+      "grammar_focus": "simple present tense for habits",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "my-family",
+      "title": "My Family",
+      "description": "Describe the members of your family.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise family vocabulary and simple descriptions.",
+      "opening_message": "Good morning! Can you tell me a little about your family — how many people are in it?",
+      "instructions": "Focus on family vocabulary and simple adjectives for describing people. Ask about names, ages, and jobs. Keep sentences short.",
+      "follow_up_directions": [
+        "describing siblings",
+        "parents' jobs",
+        "who you live with",
+        "family traditions"
+      ],
+      "vocabulary_focus": "mother, father, sibling, grandparents, cousin",
+      "grammar_focus": "possessive adjectives (my, his, her)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "my-house",
+      "title": "My Home",
+      "description": "Describe your house or apartment.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise describing rooms and furniture with simple present tense.",
+      "opening_message": "Hello! I'm curious about where you live — can you describe your home to me?",
+      "instructions": "Guide the learner through rooms, furniture, and basic prepositions of place. Use simple 'there is/there are' structures. Correct basic vocabulary gently.",
+      "follow_up_directions": [
+        "favourite room",
+        "furniture",
+        "neighbourhood",
+        "dream home"
+      ],
+      "vocabulary_focus": "living room, kitchen, bedroom, furniture, apartment",
+      "grammar_focus": "there is / there are, prepositions of place",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "food-i-like",
+      "title": "Food I Like",
+      "description": "Talk about your favourite foods and meals.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise talking about likes and dislikes with food vocabulary.",
+      "opening_message": "Hi! Food is always fun to talk about — what's your favourite meal to eat?",
+      "instructions": "Encourage 'I like / I don't like' structures and simple food vocabulary. Ask about breakfast, lunch, dinner preferences. Keep it light and friendly.",
+      "follow_up_directions": [
+        "breakfast foods",
+        "favourite restaurant",
+        "cooking at home",
+        "food from your country"
+      ],
+      "vocabulary_focus": "delicious, spicy, sweet, favourite, meal",
+      "grammar_focus": "like/love/hate + noun or gerund",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "my-hobbies",
+      "title": "My Hobbies",
+      "description": "Share what you enjoy doing in your free time.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise describing hobbies and free-time activities.",
+      "opening_message": "Hey! Everyone has something they love doing after work or school — what's your favourite hobby?",
+      "instructions": "Ask simple follow-up questions about frequency and reasons. Encourage present simple and basic connectors like 'because'. Keep vocabulary everyday.",
+      "follow_up_directions": [
+        "how often you do it",
+        "hobbies as a child",
+        "new hobby to try",
+        "hobbies with friends"
+      ],
+      "vocabulary_focus": "hobby, free time, enjoy, relax, play",
+      "grammar_focus": "simple present with adverbs of frequency",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "weather-today",
+      "title": "Talking About Weather",
+      "description": "Describe today's weather and your favourite season.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise weather vocabulary and simple descriptions.",
+      "opening_message": "Good day! I'm wondering — what's the weather like where you are right now?",
+      "instructions": "Focus on basic weather adjectives and seasons vocabulary. Ask about clothing choices related to weather. Keep exchanges short and clear.",
+      "follow_up_directions": [
+        "favourite season",
+        "clothes for weather",
+        "weather back home",
+        "rainy day activities"
+      ],
+      "vocabulary_focus": "sunny, rainy, cold, warm, cloudy",
+      "grammar_focus": "simple present for facts, adjectives",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "my-pet",
+      "title": "My Pet or a Pet I'd Like",
+      "description": "Talk about a pet you have or would like to have.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise simple descriptions and preferences about animals.",
+      "opening_message": "Hi again! Do you have a pet, or is there an animal you'd love to have one day?",
+      "instructions": "Ask about the pet's name, appearance, and daily care if they have one. If not, explore what animal they'd choose and why. Keep language simple.",
+      "follow_up_directions": [
+        "caring for a pet",
+        "funny pet stories",
+        "pets vs no pets",
+        "favourite animals"
+      ],
+      "vocabulary_focus": "pet, dog, cat, feed, walk",
+      "grammar_focus": "simple present, would like to",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "shopping-basics",
+      "title": "Going Shopping",
+      "description": "Talk about a recent shopping trip.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise past simple for a short shopping story.",
+      "opening_message": "Hello! Let's chat about shopping — when was the last time you went shopping, and what did you buy?",
+      "instructions": "Encourage basic past simple verbs (bought, went, paid). Ask where they shopped and how they felt about it. Keep vocabulary concrete and simple.",
+      "follow_up_directions": [
+        "online vs in-store shopping",
+        "favourite shop",
+        "shopping with friends",
+        "buying clothes"
+      ],
+      "vocabulary_focus": "buy, pay, store, price, receipt",
+      "grammar_focus": "past simple regular and irregular verbs",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "my-school-work",
+      "title": "School or Work",
+      "description": "Describe your school or workplace.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise simple present tense to describe daily study or work life.",
+      "opening_message": "Hi there! Tell me a bit about your school or your job — what do you do there?",
+      "instructions": "Ask about a typical day, people they see, and simple opinions (easy/hard/fun). Keep grammar at simple present level. Encourage full sentences.",
+      "follow_up_directions": [
+        "favourite subject or task",
+        "coworkers or classmates",
+        "commute to school/work",
+        "future job plans"
+      ],
+      "vocabulary_focus": "classroom, colleague, task, subject, schedule",
+      "grammar_focus": "simple present for routines",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "transportation-habits",
+      "title": "Getting Around Town",
+      "description": "Talk about how you usually travel around your city.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise vocabulary for transportation and simple present tense.",
+      "opening_message": "Hey! I'm curious how you get around — do you usually walk, drive, or take the bus?",
+      "instructions": "Focus on transportation vocabulary and simple reasons (fast, cheap, convenient). Ask about a typical commute. Keep questions concrete.",
+      "follow_up_directions": [
+        "favourite way to travel",
+        "public transit experiences",
+        "learning to drive",
+        "travelling by bike"
+      ],
+      "vocabulary_focus": "bus, subway, car, bicycle, commute",
+      "grammar_focus": "simple present, prepositions of transport (by, on)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "my-friends",
+      "title": "My Friends",
+      "description": "Describe your closest friends and how you met them.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise describing people and simple past for meeting stories.",
+      "opening_message": "Hi! Friends make life more fun, don't they? Can you tell me about a good friend of yours?",
+      "instructions": "Ask how they met, what they do together, and simple personality adjectives. Encourage past simple for the meeting story. Keep it warm and personal.",
+      "follow_up_directions": [
+        "how you met",
+        "things you do together",
+        "childhood friends",
+        "making new friends"
+      ],
+      "vocabulary_focus": "friendly, kind, funny, meet, hang out",
+      "grammar_focus": "past simple for meeting someone",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "morning-vs-night-person",
+      "title": "Morning Person or Night Person",
+      "description": "Talk about whether you prefer mornings or evenings.",
+      "level": "A1",
+      "access_tier": "free",
+      "objective": "Practise simple opinions and reasons using basic connectors.",
+      "opening_message": "Good to see you! Quick question to start — are you more of a morning person or a night person?",
+      "instructions": "Ask for simple reasons using 'because'. Keep the exchange light and encourage short explanations. Correct basic word order gently.",
+      "follow_up_directions": [
+        "best time of day to study",
+        "sleep habits",
+        "weekend mornings",
+        "staying up late"
+      ],
+      "vocabulary_focus": "morning person, night owl, tired, energetic",
+      "grammar_focus": "simple present, because + reason",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "a-recent-trip",
+      "title": "A Recent Trip",
+      "description": "Talk about a trip or short vacation you took recently.",
+      "level": "A2",
+      "access_tier": "free",
+      "objective": "Practise past simple to narrate a short travel experience.",
+      "opening_message": "Hi! I love hearing travel stories — have you taken any trips lately that you could tell me about?",
+      "instructions": "Encourage past simple narration with time markers (last month, two weeks ago). Ask about the place, activities, and feelings. Help expand short answers into fuller sentences.",
+      "follow_up_directions": [
+        "best part of the trip",
+        "who you travelled with",
+        "problems during travel",
+        "dream destination"
+      ],
+      "vocabulary_focus": "vacation, journey, souvenir, itinerary, sightseeing",
+      "grammar_focus": "past simple narrative with time expressions",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "using-social-media",
+      "title": "Social Media Habits",
+      "description": "Discuss how you use social media in daily life.",
+      "level": "A2",
+      "access_tier": "free",
+      "objective": "Practise present simple and opinions about technology habits.",
+      "opening_message": "Hey! Social media is everywhere these days — which apps do you use most, and why?",
+      "instructions": "Ask about frequency, favourite platforms, and pros/cons. Encourage simple opinion phrases like 'I think' and 'in my opinion'. Keep the tone conversational.",
+      "follow_up_directions": [
+        "time spent online",
+        "posting photos",
+        "social media and friendships",
+        "taking a break from apps"
+      ],
+      "vocabulary_focus": "app, post, scroll, follow, notification",
+      "grammar_focus": "present simple, expressing opinions",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "favourite-season",
+      "title": "Favourite Time of Year",
+      "description": "Talk about your favourite season and why you like it.",
+      "level": "A2",
+      "access_tier": "free",
+      "objective": "Practise giving reasons and describing seasonal activities.",
+      "opening_message": "Hello! If you could pick, which season would you say is your favourite one?",
+      "instructions": "Ask learners to justify their choice with specific activities or memories. Encourage comparative language (better than, warmer than). Keep vocabulary seasonal.",
+      "follow_up_directions": [
+        "activities in that season",
+        "clothing for the season",
+        "least favourite season",
+        "holidays in that season"
+      ],
+      "vocabulary_focus": "autumn, spring, humid, chilly, cozy",
+      "grammar_focus": "comparatives, giving reasons",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "a-memorable-meal",
+      "title": "A Memorable Meal",
+      "description": "Describe a meal you'll never forget.",
+      "level": "A2",
+      "access_tier": "free",
+      "objective": "Practise past simple storytelling with descriptive food vocabulary.",
+      "opening_message": "Hi there! Think back — is there a meal that really stands out in your memory? Tell me about it.",
+      "instructions": "Guide the learner to describe where, when, who, and why it was memorable. Encourage descriptive adjectives for taste and atmosphere. Help with past tense accuracy.",
+      "follow_up_directions": [
+        "cooking that meal at home",
+        "eating at a restaurant",
+        "family recipes",
+        "food you'd love to try"
+      ],
+      "vocabulary_focus": "flavour, delicious, recipe, celebration, taste",
+      "grammar_focus": "past simple, descriptive adjectives",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "learning-a-language",
+      "title": "Learning a New Language",
+      "description": "Talk about your experience learning English or another language.",
+      "level": "A2",
+      "access_tier": "free",
+      "objective": "Practise talking about ongoing learning experiences and challenges.",
+      "opening_message": "Hi! Learning a new language is a journey — what's been the hardest part for you so far?",
+      "instructions": "Ask about study methods, challenges, and small wins. Encourage present perfect for experience (I have learned, I have tried). Be supportive and encouraging.",
+      "follow_up_directions": [
+        "favourite way to study",
+        "mistakes you remember",
+        "goals for the language",
+        "other languages you know"
+      ],
+      "vocabulary_focus": "vocabulary, pronunciation, fluent, practice, mistake",
+      "grammar_focus": "present perfect for experience",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "keeping-healthy",
+      "title": "Staying Healthy",
+      "description": "Discuss habits you have for staying fit and healthy.",
+      "level": "A2",
+      "access_tier": "free",
+      "objective": "Practise talking about health habits using simple present and frequency adverbs.",
+      "opening_message": "Hey! Let's talk health — what do you usually do to stay fit and feel good?",
+      "instructions": "Ask about exercise, sleep, and eating habits. Encourage frequency adverbs (often, rarely, never). Keep advice-giving light and non-judgmental.",
+      "follow_up_directions": [
+        "exercise routines",
+        "healthy eating",
+        "sleep habits",
+        "stress management"
+      ],
+      "vocabulary_focus": "exercise, diet, sleep, energy, workout",
+      "grammar_focus": "adverbs of frequency with present simple",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "money-and-saving",
+      "title": "Money and Saving",
+      "description": "Talk about how you manage your money.",
+      "level": "A2",
+      "access_tier": "premium",
+      "objective": "Practise talking about habits and simple financial vocabulary.",
+      "opening_message": "Hi! Managing money can be tricky — do you consider yourself a saver or a spender?",
+      "instructions": "Ask about saving habits, budgeting, and one recent purchase. Keep grammar at simple present/past level. Avoid giving financial advice; focus on language.",
+      "follow_up_directions": [
+        "a big purchase",
+        "saving for something",
+        "splitting bills with friends",
+        "using credit cards"
+      ],
+      "vocabulary_focus": "save, spend, budget, afford, expensive",
+      "grammar_focus": "simple present and past for habits and events",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "a-typical-weekend",
+      "title": "A Typical Weekend",
+      "description": "Describe what you usually do on weekends.",
+      "level": "A2",
+      "access_tier": "free",
+      "objective": "Practise present simple and sequencing words for routines.",
+      "opening_message": "Hello! Weekends are always interesting — what does a typical Saturday look like for you?",
+      "instructions": "Encourage sequencing words (first, then, after that). Ask about differences between weekdays and weekends. Keep tone relaxed and friendly.",
+      "follow_up_directions": [
+        "best weekend ever",
+        "weekend chores",
+        "weekend with family",
+        "lazy weekends"
+      ],
+      "vocabulary_focus": "relax, chores, errands, sleep in, weekend",
+      "grammar_focus": "sequencing words with present simple",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "technology-in-daily-life",
+      "title": "Technology in Everyday Life",
+      "description": "Talk about the gadgets and technology you use daily.",
+      "level": "A2",
+      "access_tier": "premium",
+      "objective": "Practise describing technology use and simple opinions.",
+      "opening_message": "Hi! Technology is a big part of life now — what gadget could you absolutely not live without?",
+      "instructions": "Ask about specific devices, apps, and how technology has changed their daily routine. Encourage comparison with the past (used to). Keep it conversational.",
+      "follow_up_directions": [
+        "life before smartphones",
+        "favourite app",
+        "technology at work",
+        "screen time"
+      ],
+      "vocabulary_focus": "gadget, device, charge, wifi, update",
+      "grammar_focus": "used to for past habits vs now",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "public-transportation",
+      "title": "Public Transportation Experiences",
+      "description": "Share an experience using buses, trains, or subways.",
+      "level": "A2",
+      "access_tier": "premium",
+      "objective": "Practise narrating a specific past experience with transportation.",
+      "opening_message": "Hey! Have you had any interesting experiences on public transportation? Tell me about one.",
+      "instructions": "Ask for a specific story with past simple. Encourage details about people, delays, or funny moments. Help connect ideas with 'and then', 'but'.",
+      "follow_up_directions": [
+        "favourite mode of transport",
+        "transit in your city",
+        "being late",
+        "transit etiquette"
+      ],
+      "vocabulary_focus": "delay, platform, ticket, crowded, schedule",
+      "grammar_focus": "past simple narrative, sequencing",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "celebrations-and-holidays",
+      "title": "Celebrations and Holidays",
+      "description": "Talk about a holiday or celebration you enjoy.",
+      "level": "A2",
+      "access_tier": "premium",
+      "objective": "Practise describing traditions and cultural events.",
+      "opening_message": "Hi there! Every culture has special celebrations — what's a holiday you really enjoy?",
+      "instructions": "Ask about traditions, food, and family involvement. Encourage present simple for traditions and past simple for specific memories. Be curious about cultural details.",
+      "follow_up_directions": [
+        "family traditions",
+        "favourite holiday food",
+        "gift giving",
+        "celebrating away from home"
+      ],
+      "vocabulary_focus": "tradition, festival, celebrate, decorate, gather",
+      "grammar_focus": "present simple for traditions, past simple for memories",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "living-in-the-city-vs-countryside",
+      "title": "City Life vs Countryside Life",
+      "description": "Compare living in a city with living in the countryside.",
+      "level": "A2",
+      "access_tier": "premium",
+      "objective": "Practise comparative structures while discussing lifestyle differences.",
+      "opening_message": "Hello! Some people love busy cities, others prefer quiet countryside — which do you prefer?",
+      "instructions": "Encourage comparative and superlative forms (busier, quieter, the best). Ask for concrete reasons and personal experience. Keep the discussion balanced.",
+      "follow_up_directions": [
+        "noise and pace of life",
+        "access to nature",
+        "job opportunities",
+        "where you'd like to live"
+      ],
+      "vocabulary_focus": "countryside, crowded, peaceful, convenient, rural",
+      "grammar_focus": "comparatives and superlatives",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "my-favourite-music",
+      "title": "Music You Love",
+      "description": "Talk about the music and artists you enjoy.",
+      "level": "A2",
+      "access_tier": "premium",
+      "objective": "Practise expressing preferences and simple opinions about music.",
+      "opening_message": "Hi! Music says a lot about us — what kind of music do you usually listen to?",
+      "instructions": "Ask about favourite artists, genres, and when they listen to music. Encourage simple opinion language and reasons. Keep the tone upbeat.",
+      "follow_up_directions": [
+        "concerts you've been to",
+        "music from your childhood",
+        "learning an instrument",
+        "music for studying"
+      ],
+      "vocabulary_focus": "genre, artist, playlist, concert, lyrics",
+      "grammar_focus": "present simple, expressing preference (prefer, like better)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "a-typical-school-day",
+      "title": "A Typical School Day (Past or Present)",
+      "description": "Describe what school life is or was like for you.",
+      "level": "A2",
+      "access_tier": "premium",
+      "objective": "Practise present or past simple depending on the learner's current situation.",
+      "opening_message": "Hey! Whether you're in school now or finished long ago, tell me — what was (or is) a typical school day like?",
+      "instructions": "Adapt tense based on whether the learner is currently studying. Ask about subjects, teachers, and memorable moments. Encourage full descriptive sentences.",
+      "follow_up_directions": [
+        "favourite teacher",
+        "hardest subject",
+        "school friends",
+        "exams and tests"
+      ],
+      "vocabulary_focus": "subject, teacher, homework, exam, classmate",
+      "grammar_focus": "past simple or present simple depending on context",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "a-challenge-you-overcame",
+      "title": "A Challenge You Overcame",
+      "description": "Talk about a difficult situation you faced and how you dealt with it.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise past simple and past continuous for describing a challenging experience.",
+      "opening_message": "Hi! Life often throws challenges at us — can you tell me about a difficult situation you managed to overcome?",
+      "instructions": "Encourage a clear narrative structure: situation, action, result. Mix past simple and past continuous naturally. Show empathy and ask follow-up questions about feelings.",
+      "follow_up_directions": [
+        "what you learned from it",
+        "who helped you",
+        "how you felt afterward",
+        "a similar challenge for someone else"
+      ],
+      "vocabulary_focus": "overcome, struggle, cope, solution, resilience",
+      "grammar_focus": "past simple and past continuous",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "plans-for-the-future",
+      "title": "Plans for the Future",
+      "description": "Discuss your goals and plans for the next few years.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise future forms (going to, will, present continuous) for plans.",
+      "opening_message": "Hello! Let's look ahead a little — what are some things you're hoping to do in the next few years?",
+      "instructions": "Encourage a mix of future forms depending on certainty. Ask about career, personal, or travel goals. Push for specific details, not just vague answers.",
+      "follow_up_directions": [
+        "short-term vs long-term goals",
+        "obstacles to plans",
+        "plans changing over time",
+        "a goal you already achieved"
+      ],
+      "vocabulary_focus": "goal, ambition, plan, achieve, aim",
+      "grammar_focus": "future forms: going to, will, present continuous",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "environmental-habits",
+      "title": "Being Environmentally Friendly",
+      "description": "Talk about how you try to help the environment.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise discussing habits and opinions related to sustainability.",
+      "opening_message": "Hi there! Environmental issues are on a lot of people's minds — what do you do to try to live more sustainably?",
+      "instructions": "Ask about recycling, transportation choices, and consumption habits. Encourage opinion language and modal verbs (should, could). Avoid being preachy; keep it conversational.",
+      "follow_up_directions": [
+        "single-use plastics",
+        "recycling at home",
+        "climate change worries",
+        "green transportation"
+      ],
+      "vocabulary_focus": "recycle, sustainable, pollution, reduce, reuse",
+      "grammar_focus": "modal verbs for suggestions (should, could)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "a-book-or-film-that-impacted-you",
+      "title": "A Book or Film That Impacted You",
+      "description": "Talk about a book or movie that made a strong impression on you.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise summarizing a story and explaining personal impact.",
+      "opening_message": "Hey! I'd love to know — is there a book or movie that really stuck with you after you finished it?",
+      "instructions": "Ask for a brief summary and then focus on why it mattered personally. Encourage linking words (because, so, which). Keep the summary short so the conversation flows.",
+      "follow_up_directions": [
+        "favourite genre",
+        "a character you related to",
+        "book vs movie versions",
+        "recommending it to others"
+      ],
+      "vocabulary_focus": "plot, character, impression, recommend, meaningful",
+      "grammar_focus": "linking words for cause and effect",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "dealing-with-stress",
+      "title": "Dealing with Stress",
+      "description": "Discuss what causes you stress and how you manage it.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise discussing causes and solutions using varied vocabulary.",
+      "opening_message": "Hi! Everyone deals with stress sometimes — what usually causes you stress, and how do you handle it?",
+      "instructions": "Ask about specific triggers and coping strategies. Encourage varied vocabulary beyond 'stressed' (overwhelmed, anxious, calm). Be supportive, not clinical.",
+      "follow_up_directions": [
+        "work-related stress",
+        "relaxation techniques",
+        "stress in students",
+        "talking to others about stress"
+      ],
+      "vocabulary_focus": "overwhelmed, anxious, cope, relax, pressure",
+      "grammar_focus": "gerunds after prepositions (good at, worried about)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "volunteering-experiences",
+      "title": "Volunteering and Giving Back",
+      "description": "Talk about volunteer work you've done or would like to do.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise discussing motivations and experiences related to community service.",
+      "opening_message": "Hello! Some people love giving back to their community — have you ever volunteered for something?",
+      "instructions": "If they haven't, ask what cause they'd support and why. Encourage reasons and motivations using 'because' and 'in order to'. Explore feelings about helping others.",
+      "follow_up_directions": [
+        "causes you care about",
+        "organizing an event",
+        "time vs money donations",
+        "volunteering abroad"
+      ],
+      "vocabulary_focus": "volunteer, donate, community, charity, contribute",
+      "grammar_focus": "infinitive of purpose (in order to, to)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "changes-in-your-hometown",
+      "title": "Changes in Your Hometown",
+      "description": "Describe how your hometown has changed over the years.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise present perfect for changes over time.",
+      "opening_message": "Hi! Places change a lot over time — how has your hometown changed since you were a kid?",
+      "instructions": "Encourage present perfect structures (has become, has grown). Ask for specific examples: buildings, population, atmosphere. Compare past and present clearly.",
+      "follow_up_directions": [
+        "new developments",
+        "things that stayed the same",
+        "population changes",
+        "moving away or staying"
+      ],
+      "vocabulary_focus": "develop, expand, modernize, population, neighbourhood",
+      "grammar_focus": "present perfect for change over time",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "work-life-balance",
+      "title": "Work-Life Balance",
+      "description": "Discuss how you balance work or study with personal life.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise discussing routines, priorities, and opinions.",
+      "opening_message": "Hey! Balancing work and personal life isn't always easy — how do you manage that balance yourself?",
+      "instructions": "Ask about specific strategies and challenges. Encourage opinion phrases and hypothetical language (if I had more time). Keep the tone reflective.",
+      "follow_up_directions": [
+        "overtime and burnout",
+        "hobbies outside work",
+        "setting boundaries",
+        "ideal work schedule"
+      ],
+      "vocabulary_focus": "balance, overtime, boundaries, priority, burnout",
+      "grammar_focus": "conditional sentences (if I had, I would)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "a-skill-you-want-to-learn",
+      "title": "A Skill You'd Like to Learn",
+      "description": "Talk about a new skill you want to develop.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise future intentions and reasons for wanting to learn something.",
+      "opening_message": "Hi there! If you could learn any new skill this year, what would it be?",
+      "instructions": "Ask why they chose that skill and what steps they'd take to learn it. Encourage 'would like to' and future intention structures. Explore obstacles too.",
+      "follow_up_directions": [
+        "how you'd practise",
+        "time and money needed",
+        "skills from childhood",
+        "teaching someone else"
+      ],
+      "vocabulary_focus": "skill, develop, practise, improve, master",
+      "grammar_focus": "would like to, expressing future intention",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "shopping-online-vs-in-store",
+      "title": "Online Shopping vs In-Store Shopping",
+      "description": "Compare the experience of shopping online versus in physical stores.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise comparing two options and giving balanced opinions.",
+      "opening_message": "Hello! Shopping has really changed with the internet — do you prefer shopping online or going to actual stores?",
+      "instructions": "Encourage balanced comparison with pros and cons for each. Ask for specific examples of recent purchases. Use comparative and contrasting language.",
+      "follow_up_directions": [
+        "returns and refunds",
+        "impulse buying",
+        "trying on clothes",
+        "delivery experiences"
+      ],
+      "vocabulary_focus": "convenient, delivery, refund, browse, in-store",
+      "grammar_focus": "contrasting language (whereas, on the other hand)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "cultural-differences",
+      "title": "Cultural Differences You've Noticed",
+      "description": "Talk about cultural differences you've experienced or observed.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise describing comparisons and personal observations across cultures.",
+      "opening_message": "Hi! Have you ever noticed something surprisingly different when learning about another culture?",
+      "instructions": "Ask for specific examples: food, customs, communication styles. Encourage comparative language and open-mindedness. Avoid stereotyping; focus on personal experience.",
+      "follow_up_directions": [
+        "food customs",
+        "greeting styles",
+        "holidays around the world",
+        "adapting to a new culture"
+      ],
+      "vocabulary_focus": "custom, tradition, etiquette, surprising, adapt",
+      "grammar_focus": "comparative structures, expressing surprise",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "a-memorable-celebration",
+      "title": "A Memorable Celebration",
+      "description": "Describe a wedding, birthday, or festival you remember well.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise narrating a past event with descriptive detail.",
+      "opening_message": "Hey! Celebrations often create great memories — can you tell me about one celebration you'll never forget?",
+      "instructions": "Ask about the event's atmosphere, people, and highlights. Encourage descriptive past tense narration. Help sequence the story logically.",
+      "follow_up_directions": [
+        "who organized it",
+        "food and music at the event",
+        "a celebration abroad",
+        "comparing celebrations across cultures"
+      ],
+      "vocabulary_focus": "celebration, atmosphere, guest, ceremony, memorable",
+      "grammar_focus": "past simple narrative with descriptive adjectives",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "technology-changing-relationships",
+      "title": "How Technology Has Changed Relationships",
+      "description": "Discuss how technology affects the way people connect with each other.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise discussing cause and effect with present perfect and present simple.",
+      "opening_message": "Hi! Technology has changed a lot about how we communicate — do you think it's changed relationships for better or worse?",
+      "instructions": "Ask for both positive and negative examples. Encourage present perfect for change and present simple for current habits. Push for a personal opinion with reasons.",
+      "follow_up_directions": [
+        "texting vs calling",
+        "long-distance friendships",
+        "dating apps",
+        "family communication now vs before"
+      ],
+      "vocabulary_focus": "connect, communicate, distance, relationship, impact",
+      "grammar_focus": "present perfect for change, cause-and-effect language",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "public-speaking-and-confidence",
+      "title": "Public Speaking and Confidence",
+      "description": "Talk about experiences with public speaking or building confidence.",
+      "level": "B1",
+      "access_tier": "premium",
+      "objective": "Practise discussing feelings and strategies for overcoming nervousness.",
+      "opening_message": "Hello! Public speaking makes a lot of people nervous — how do you feel about speaking in front of others?",
+      "instructions": "Ask about specific experiences, good or bad, and coping strategies. Encourage adjectives for feelings and modal verbs for advice. Be encouraging throughout.",
+      "follow_up_directions": [
+        "presentations at school or work",
+        "tips for staying calm",
+        "a speech you admired",
+        "confidence in a new language"
+      ],
+      "vocabulary_focus": "confident, nervous, presentation, audience, prepare",
+      "grammar_focus": "modal verbs for advice (should, could, might)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "the-impact-of-remote-work",
+      "title": "The Impact of Remote Work",
+      "description": "Discuss how working or studying remotely has changed people's lives.",
+      "level": "B2",
+      "access_tier": "premium",
+      "objective": "Practise discussing advantages, disadvantages, and personal opinions with more complex structures.",
+      "opening_message": "Hi! Remote work and online study became a lot more common recently — what do you think are the biggest effects of that shift?",
+      "instructions": "Push for balanced arguments with both pros and cons. Encourage complex sentences with linking words (although, however). Ask for personal or observed examples.",
+      "follow_up_directions": [
+        "productivity at home",
+        "isolation and loneliness",
+        "the future of offices",
+        "work-life boundaries"
+      ],
+      "vocabulary_focus": "productivity, flexibility, isolation, boundary, hybrid",
+      "grammar_focus": "complex sentences with contrast connectors (although, whereas)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "social-media-and-mental-health",
+      "title": "Social Media and Mental Health",
+      "description": "Discuss the effects of social media on people's wellbeing.",
+      "level": "B2",
+      "access_tier": "premium",
+      "objective": "Practise expressing nuanced opinions with supporting reasons.",
+      "opening_message": "Hey! There's a lot of debate about social media and mental health — where do you stand on that issue?",
+      "instructions": "Encourage the learner to consider multiple perspectives before giving their own opinion. Push for specific examples or evidence. Use hedging language (it seems, arguably).",
+      "follow_up_directions": [
+        "comparison culture online",
+        "taking a digital detox",
+        "age limits for social media",
+        "benefits of staying connected"
+      ],
+      "vocabulary_focus": "wellbeing, comparison, anxiety, detox, awareness",
+      "grammar_focus": "hedging language, expressing nuanced opinion",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "consumerism-and-minimalism",
+      "title": "Consumerism vs Minimalism",
+      "description": "Discuss attitudes toward buying things versus living with less.",
+      "level": "B2",
+      "access_tier": "premium",
+      "objective": "Practise debating two lifestyle philosophies with supporting arguments.",
+      "opening_message": "Hi there! Some people love collecting things, others prefer a minimalist lifestyle — which philosophy makes more sense to you?",
+      "instructions": "Ask the learner to justify their view with examples from their own life. Encourage counter-arguments to challenge their thinking. Use advanced vocabulary around consumption.",
+      "follow_up_directions": [
+        "decluttering experiences",
+        "advertising's influence",
+        "sustainable consumption",
+        "happiness and possessions"
+      ],
+      "vocabulary_focus": "consumerism, minimalism, declutter, possessions, sustainable",
+      "grammar_focus": "expressing and defending an argument",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "the-role-of-ai-in-daily-life",
+      "title": "The Role of AI in Daily Life",
+      "description": "Discuss how artificial intelligence is changing everyday life.",
+      "level": "B2",
+      "access_tier": "premium",
+      "objective": "Practise discussing technology's societal impact with speculative language.",
+      "opening_message": "Hi! AI seems to be everywhere now, from phones to cars — how do you feel about its growing role in daily life?",
+      "instructions": "Ask about specific examples of AI they've encountered. Encourage speculative language about the future (might, could, is likely to). Explore both excitement and concerns.",
+      "follow_up_directions": [
+        "AI replacing jobs",
+        "AI in education",
+        "privacy concerns",
+        "AI versus human creativity"
+      ],
+      "vocabulary_focus": "artificial intelligence, automation, privacy, efficient, algorithm",
+      "grammar_focus": "speculative language (might, could, is likely to)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "urbanization-and-city-planning",
+      "title": "Urbanization and City Life",
+      "description": "Discuss the growth of cities and its effects on society.",
+      "level": "B2",
+      "access_tier": "premium",
+      "objective": "Practise discussing societal trends with cause-and-effect reasoning.",
+      "opening_message": "Hello! More and more people are moving to big cities around the world — why do you think that trend continues, and is it a good thing?",
+      "instructions": "Push the learner to identify causes and consequences. Encourage passive voice for describing trends (cities are being built). Ask for opinions on solutions to urban problems.",
+      "follow_up_directions": [
+        "housing costs in cities",
+        "traffic and pollution",
+        "green spaces in cities",
+        "rural depopulation"
+      ],
+      "vocabulary_focus": "urbanization, infrastructure, congestion, affordable, sustainable",
+      "grammar_focus": "passive voice for describing trends",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "the-value-of-travel",
+      "title": "The Value of Travelling",
+      "description": "Discuss what people gain from travelling to new places.",
+      "level": "B2",
+      "access_tier": "premium",
+      "objective": "Practise articulating abstract benefits with supporting examples.",
+      "opening_message": "Hi! Some people say travel changes you as a person — do you agree, and why or why not?",
+      "instructions": "Push beyond surface-level answers ('it's fun') toward deeper reflection on personal growth. Encourage abstract nouns (perspective, growth, empathy) and examples. Challenge with a counterpoint if needed.",
+      "follow_up_directions": [
+        "travel versus staying local",
+        "budget travel challenges",
+        "culture shock",
+        "travel changing your perspective"
+      ],
+      "vocabulary_focus": "perspective, broaden, immerse, culture shock, appreciation",
+      "grammar_focus": "abstract nouns, supporting an argument with examples",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "balancing-tradition-and-modern-life",
+      "title": "Balancing Tradition and Modern Life",
+      "description": "Discuss how people balance traditional values with modern lifestyles.",
+      "level": "B2",
+      "access_tier": "premium",
+      "objective": "Practise discussing tension between two ideas with nuanced language.",
+      "opening_message": "Hey! A lot of people try to balance old traditions with a modern lifestyle — how do you see that balance playing out in your own life or culture?",
+      "instructions": "Ask for concrete examples of tradition versus modern pressures. Encourage nuanced connectors (while, despite, even though). Explore generational differences if relevant.",
+      "follow_up_directions": [
+        "generational differences",
+        "traditional festivals today",
+        "technology replacing traditions",
+        "family expectations vs personal choice"
+      ],
+      "vocabulary_focus": "tradition, modernization, generation, values, adapt",
+      "grammar_focus": "concessive clauses (while, even though, despite)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "is-social-media-good-for-society",
+      "title": "Is Social Media Good for Society?",
+      "description": "Debate the overall impact of social media on society.",
+      "level": "C1",
+      "access_tier": "premium",
+      "objective": "Practise constructing and defending a structured argument on a controversial topic.",
+      "opening_message": "Hi! Let's dig into a debate — overall, do you think social media has done more good than harm for society?",
+      "instructions": "Push for a clear thesis supported by multiple points. Challenge the learner with counter-arguments to strengthen critical thinking. Encourage sophisticated discourse markers (nevertheless, on balance).",
+      "follow_up_directions": [
+        "regulation of tech companies",
+        "misinformation online",
+        "echo chambers",
+        "freedom of speech online"
+      ],
+      "vocabulary_focus": "discourse, regulation, misinformation, polarization, accountability",
+      "grammar_focus": "discourse markers for argumentation (nevertheless, on balance, that said)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "should-university-education-be-free",
+      "title": "Should Higher Education Be Free?",
+      "description": "Debate whether university education should be free for everyone.",
+      "level": "C1",
+      "access_tier": "premium",
+      "objective": "Practise presenting and evaluating arguments on a policy question.",
+      "opening_message": "Hello! Here's a debate for you — should university education be free, or is that unrealistic? What's your take?",
+      "instructions": "Encourage the learner to weigh economic and social arguments on both sides. Ask about funding models and outcomes. Push for precise, academic-style vocabulary.",
+      "follow_up_directions": [
+        "student debt",
+        "access to education",
+        "alternative funding models",
+        "vocational training vs university"
+      ],
+      "vocabulary_focus": "subsidize, accessibility, tuition, meritocracy, taxpayer",
+      "grammar_focus": "hypothetical and conditional structures for policy debate",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "the-ethics-of-artificial-intelligence",
+      "title": "The Ethics of Artificial Intelligence",
+      "description": "Discuss ethical questions raised by advancing AI technology.",
+      "level": "C1",
+      "access_tier": "premium",
+      "objective": "Practise reasoning through ethical dilemmas with abstract vocabulary.",
+      "opening_message": "Hi! As AI gets more powerful, some serious ethical questions come up — what worries or excites you most about that?",
+      "instructions": "Push the learner to consider multiple stakeholders (companies, workers, governments). Encourage abstract and academic vocabulary. Explore hypothetical scenarios to deepen the debate.",
+      "follow_up_directions": [
+        "AI and job displacement",
+        "bias in algorithms",
+        "autonomous weapons",
+        "who is responsible when AI fails"
+      ],
+      "vocabulary_focus": "accountability, autonomy, bias, regulation, dilemma",
+      "grammar_focus": "hypothetical conditionals for ethical scenarios",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "individualism-vs-collectivism",
+      "title": "Individualism vs Collectivism",
+      "description": "Discuss the tension between individual freedom and collective responsibility.",
+      "level": "C1",
+      "access_tier": "premium",
+      "objective": "Practise comparing philosophical viewpoints with sophisticated argumentation.",
+      "opening_message": "Hey! Different cultures value individual freedom versus the good of the group differently — where do you think the right balance lies?",
+      "instructions": "Encourage the learner to draw on cultural or historical examples. Push for nuanced positions rather than black-and-white answers. Model advanced connective phrases.",
+      "follow_up_directions": [
+        "personal freedom vs public health rules",
+        "collectivist vs individualist cultures",
+        "taxation and shared resources",
+        "individual achievement vs teamwork"
+      ],
+      "vocabulary_focus": "autonomy, collective, obligation, solidarity, individualism",
+      "grammar_focus": "advanced connectives for nuanced argument (albeit, insofar as)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "the-future-of-work",
+      "title": "The Future of Work",
+      "description": "Discuss how automation and changing economies might reshape careers.",
+      "level": "C1",
+      "access_tier": "premium",
+      "objective": "Practise speculating about long-term societal change with sophisticated future forms.",
+      "opening_message": "Hi! Careers seem to be changing fast because of automation and shifting economies — what do you imagine work will look like in twenty years?",
+      "instructions": "Push for speculative, well-reasoned predictions rather than vague guesses. Encourage future perfect and modal speculation (will have changed, may well). Ask about implications for education and policy.",
+      "follow_up_directions": [
+        "universal basic income",
+        "reskilling workers",
+        "gig economy growth",
+        "jobs that might disappear"
+      ],
+      "vocabulary_focus": "automation, reskilling, gig economy, obsolete, adaptability",
+      "grammar_focus": "future perfect and modal speculation (may well, is bound to)",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "is-happiness-a-choice",
+      "title": "Is Happiness a Choice?",
+      "description": "Debate whether happiness is mostly a personal choice or shaped by circumstances.",
+      "level": "C1",
+      "access_tier": "premium",
+      "objective": "Practise philosophical argumentation with abstract reasoning and examples.",
+      "opening_message": "Hello! Here's a thought-provoking one — do you think happiness is mostly something we choose, or is it shaped by our circumstances?",
+      "instructions": "Push the learner to support claims with reasoning, not just assertions. Encourage abstract vocabulary (fulfillment, contentment, resilience). Introduce a counterpoint to sharpen the argument.",
+      "follow_up_directions": [
+        "role of money in happiness",
+        "mindset and resilience",
+        "cultural attitudes toward happiness",
+        "happiness versus meaning"
+      ],
+      "vocabulary_focus": "fulfillment, contentment, resilience, mindset, circumstance",
+      "grammar_focus": "abstract argumentation, concession and rebuttal",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "globalization-pros-and-cons",
+      "title": "Globalization: Benefits and Drawbacks",
+      "description": "Debate the overall effects of globalization on economies and cultures.",
+      "level": "C1",
+      "access_tier": "premium",
+      "objective": "Practise weighing complex global issues with academic vocabulary.",
+      "opening_message": "Hi! Globalization connects economies and cultures more than ever — on the whole, do you see it as a positive force or a negative one?",
+      "instructions": "Push for a structured argument that acknowledges complexity and trade-offs. Encourage academic register and precise vocabulary. Ask for real-world examples to support claims.",
+      "follow_up_directions": [
+        "cultural homogenization",
+        "global supply chains",
+        "income inequality across countries",
+        "local businesses vs multinational corporations"
+      ],
+      "vocabulary_focus": "homogenization, interdependence, inequality, multinational, trade-off",
+      "grammar_focus": "academic register, hedging and qualifying claims",
+      "estimated_minutes": 5
+    },
+    {
+      "slug": "does-technology-make-us-more-isolated",
+      "title": "Does Technology Make Us More Isolated?",
+      "description": "Debate whether modern technology brings people closer or drives them apart.",
+      "level": "C1",
+      "access_tier": "premium",
+      "objective": "Practise constructing a balanced, evidence-based argument on a nuanced topic.",
+      "opening_message": "Hey! Some say technology connects us more than ever, others say it isolates us — after everything we've discussed today, what's your final take on that?",
+      "instructions": "Encourage the learner to synthesize ideas from earlier topics if relevant. Push for a clear concluding argument with supporting evidence. Model sophisticated summary language (in conclusion, taking everything into account).",
+      "follow_up_directions": [
+        "quality vs quantity of connections",
+        "loneliness in a connected world",
+        "technology and family time",
+        "possible solutions to isolation"
+      ],
+      "vocabulary_focus": "isolation, synthesize, paradox, connectivity, superficial",
+      "grammar_focus": "summarizing and concluding an argument",
+      "estimated_minutes": 5
+    }
+  ]
+}

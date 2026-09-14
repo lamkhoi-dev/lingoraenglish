@@ -1,0 +1,2409 @@
+{
+  "slug": "customer-service",
+  "name": "Customer Service & Requests",
+  "topic_group": "Work & Professional English",
+  "blurb": "Practice natural spoken English for handling customer requests, complaints, and support calls.",
+  "sort_order": 12,
+  "sentences": [
+    {
+      "subcategory": "Greeting Customers",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "How can I help you today?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'help'",
+      "stress_focus": "Put the main stress on 'help'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Link 'you' and 'today' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "help",
+          "meaning": "assist"
+        }
+      ],
+      "grammar_focus": "how can I + base verb",
+      "tags": [
+        "customer-service",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Returns",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "I'd like to return this item.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'return'",
+      "stress_focus": "Put the main stress on 'return'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'I'd' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "return",
+          "meaning": "give back"
+        }
+      ],
+      "grammar_focus": "would like to + base verb",
+      "tags": [
+        "customer-service",
+        "returns"
+      ]
+    },
+    {
+      "subcategory": "Returns",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you have a receipt?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'receipt'",
+      "stress_focus": "Put the main stress on 'receipt'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'a' and 'receipt' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "receipt",
+          "meaning": "proof of purchase"
+        }
+      ],
+      "grammar_focus": "do you have + noun",
+      "tags": [
+        "customer-service",
+        "returns"
+      ]
+    },
+    {
+      "subcategory": "Orders",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I have a question about my order.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'order'",
+      "stress_focus": "Put the main stress on 'order'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'my' and 'order' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "order",
+          "meaning": "a request for goods"
+        }
+      ],
+      "grammar_focus": "have a question about",
+      "tags": [
+        "customer-service",
+        "orders"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Sorry for the inconvenience.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'inconvenience'",
+      "stress_focus": "Put the main stress on 'inconvenience'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'the' and 'inconvenience' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "inconvenience",
+          "meaning": "trouble or difficulty"
+        }
+      ],
+      "grammar_focus": "sorry for + noun",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Escalation",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can I speak to a manager?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'manager'",
+      "stress_focus": "Put the main stress on 'manager'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'a' and 'manager' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "manager",
+          "meaning": "person in charge"
+        }
+      ],
+      "grammar_focus": "can I + base verb",
+      "tags": [
+        "customer-service",
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Orders",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My order hasn't arrived yet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'arrived'",
+      "stress_focus": "Put the main stress on 'arrived'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'hasn't' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "arrived",
+          "meaning": "has come"
+        }
+      ],
+      "grammar_focus": "present perfect negative",
+      "tags": [
+        "customer-service",
+        "orders"
+      ]
+    },
+    {
+      "subcategory": "Products",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is this item still in stock?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'in stock'",
+      "stress_focus": "Put the main stress on 'in stock'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'in' and 'stock' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "in stock",
+          "meaning": "available to buy"
+        }
+      ],
+      "grammar_focus": "is + subject + adjective phrase",
+      "tags": [
+        "customer-service",
+        "products"
+      ]
+    },
+    {
+      "subcategory": "Refunds",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm calling about a refund.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'refund'",
+      "stress_focus": "Put the main stress on 'refund'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'm' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "refund",
+          "meaning": "money given back"
+        }
+      ],
+      "grammar_focus": "present continuous for reason of call",
+      "tags": [
+        "customer-service",
+        "refunds"
+      ]
+    },
+    {
+      "subcategory": "Products",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you check the price for me?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'price'",
+      "stress_focus": "Put the main stress on 'price'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Linking 'could' + 'you' \u2192 'couldja'",
+      "vocabulary": [
+        {
+          "word": "price",
+          "meaning": "cost of an item"
+        }
+      ],
+      "grammar_focus": "could you + base verb",
+      "tags": [
+        "customer-service",
+        "products"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Thank you for your patience.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'patience'",
+      "stress_focus": "Put the main stress on 'patience'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'your' and 'patience' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "patience",
+          "meaning": "calm waiting"
+        }
+      ],
+      "grammar_focus": "thank you for + noun",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Escalation",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll transfer you to billing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'transfer'",
+      "stress_focus": "Put the main stress on 'transfer'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "transfer",
+          "meaning": "move a call to another person"
+        }
+      ],
+      "grammar_focus": "will + base verb",
+      "tags": [
+        "customer-service",
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Orders",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What's your order number?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'order number'",
+      "stress_focus": "Put the main stress on 'order number'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Smooth contraction in 'What's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "order number",
+          "meaning": "code identifying an order"
+        }
+      ],
+      "grammar_focus": "wh-question with be",
+      "tags": [
+        "customer-service",
+        "orders"
+      ]
+    },
+    {
+      "subcategory": "Cancellations",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "I need to cancel my subscription.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'cancel'",
+      "stress_focus": "Put the main stress on 'cancel'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Link 'my' and 'subscription' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "cancel",
+          "meaning": "stop or end"
+        }
+      ],
+      "grammar_focus": "need to + base verb",
+      "tags": [
+        "customer-service",
+        "cancellations"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "Sure, I can help with that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'can help'",
+      "stress_focus": "Put the main stress on 'can help'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'with' and 'that' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "can help",
+          "meaning": "am able to assist"
+        }
+      ],
+      "grammar_focus": "sure as agreement opener",
+      "tags": [
+        "customer-service",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The item arrived damaged.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'damaged'",
+      "stress_focus": "Put the main stress on 'damaged'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'arrived' and 'damaged' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "damaged",
+          "meaning": "broken or harmed"
+        }
+      ],
+      "grammar_focus": "past simple statement",
+      "tags": [
+        "customer-service",
+        "complaints"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll look into that for you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'look into'",
+      "stress_focus": "Put the main stress on 'look into'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "look into",
+          "meaning": "investigate"
+        }
+      ],
+      "grammar_focus": "will + phrasal verb",
+      "tags": [
+        "customer-service",
+        "support"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Can you give me your email address?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'email address'",
+      "stress_focus": "Put the main stress on 'email address'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'email' and 'address' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "email address",
+          "meaning": "electronic mail contact"
+        }
+      ],
+      "grammar_focus": "can you + base verb",
+      "tags": [
+        "customer-service",
+        "support"
+      ]
+    },
+    {
+      "subcategory": "Thanks",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "I appreciate your help.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'appreciate'",
+      "stress_focus": "Put the main stress on 'appreciate'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'your' and 'help' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "appreciate",
+          "meaning": "be grateful for"
+        }
+      ],
+      "grammar_focus": "simple present with appreciate",
+      "tags": [
+        "customer-service",
+        "thanks"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "That's not what I ordered.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'ordered'",
+      "stress_focus": "Put the main stress on 'ordered'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'That's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "ordered",
+          "meaning": "requested to buy"
+        }
+      ],
+      "grammar_focus": "negative with what clause",
+      "tags": [
+        "customer-service",
+        "complaints"
+      ]
+    },
+    {
+      "subcategory": "Shipping",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How long will shipping take?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'shipping'",
+      "stress_focus": "Put the main stress on 'shipping'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Link 'shipping' and 'take' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "shipping",
+          "meaning": "delivery of goods"
+        }
+      ],
+      "grammar_focus": "how long + will future",
+      "tags": [
+        "customer-service",
+        "shipping"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Let me check that for you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'check'",
+      "stress_focus": "Put the main stress on 'check'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "check",
+          "meaning": "look at, verify"
+        }
+      ],
+      "grammar_focus": "let me + base verb",
+      "tags": [
+        "customer-service",
+        "support"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "reaction",
+      "sentence": "I'm sorry to hear that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'sorry to hear'",
+      "stress_focus": "Put the main stress on 'sorry to hear'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'I'm' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "sorry to hear",
+          "meaning": "expressing sympathy"
+        }
+      ],
+      "grammar_focus": "sorry + infinitive",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Pricing",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Can I get a discount?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'discount'",
+      "stress_focus": "Put the main stress on 'discount'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'a' and 'discount' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "discount",
+          "meaning": "reduced price"
+        }
+      ],
+      "grammar_focus": "can I + base verb",
+      "tags": [
+        "customer-service",
+        "pricing"
+      ]
+    },
+    {
+      "subcategory": "Shipping",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Your order is on its way.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'on its way'",
+      "stress_focus": "Put the main stress on 'on its way'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'its' and 'way' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "on its way",
+          "meaning": "currently being delivered"
+        }
+      ],
+      "grammar_focus": "present simple for status",
+      "tags": [
+        "customer-service",
+        "shipping"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Let me look that up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'look up'",
+      "stress_focus": "Put the main stress on 'look up'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "look up",
+          "meaning": "search for information"
+        }
+      ],
+      "grammar_focus": "let me + phrasal verb",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "No problem at all.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'no problem'",
+      "stress_focus": "Put the main stress on 'no problem'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'at' and 'all' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "no problem",
+          "meaning": "expression of reassurance"
+        }
+      ],
+      "grammar_focus": "fixed phrase as response",
+      "tags": [
+        "customer-service",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'll fix that right away.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'right away'",
+      "stress_focus": "Put the main stress on 'right away'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "right away",
+          "meaning": "immediately"
+        }
+      ],
+      "grammar_focus": "will + adverb phrase",
+      "tags": [
+        "customer-service",
+        "support"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Can you hold, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'hold'",
+      "stress_focus": "Put the main stress on 'hold'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'hold' and 'please' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "hold",
+          "meaning": "wait on the phone"
+        }
+      ],
+      "grammar_focus": "can you + base verb, polite",
+      "tags": [
+        "customer-service",
+        "phone"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "That should do it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'do it'",
+      "stress_focus": "Put the main stress on 'do it'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'do' and 'it' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "do it",
+          "meaning": "be sufficient, work"
+        }
+      ],
+      "grammar_focus": "modal should + pronoun",
+      "tags": [
+        "customer-service",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's sort this out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'sort out'",
+      "stress_focus": "Put the main stress on 'sort out'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "sort out",
+          "meaning": "resolve a problem"
+        }
+      ],
+      "grammar_focus": "let's + phrasal verb",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'll get that sorted.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'sorted'",
+      "stress_focus": "Put the main stress on 'sorted'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "sorted",
+          "meaning": "resolved"
+        }
+      ],
+      "grammar_focus": "will + past participle",
+      "tags": [
+        "customer-service",
+        "support"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "reaction",
+      "sentence": "Sounds like a mix-up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'mix-up'",
+      "stress_focus": "Put the main stress on 'mix-up'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'a' and 'mix-up' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "mix-up",
+          "meaning": "a mistake or confusion"
+        }
+      ],
+      "grammar_focus": "sounds like + noun",
+      "tags": [
+        "customer-service",
+        "complaints"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'll follow up shortly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'shortly'",
+      "stress_focus": "Put the main stress on 'shortly'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "shortly",
+          "meaning": "soon"
+        }
+      ],
+      "grammar_focus": "will + phrasal verb + adverb",
+      "tags": [
+        "customer-service",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Let me pull up your account.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'pull up'",
+      "stress_focus": "Put the main stress on 'pull up'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "pull up",
+          "meaning": "bring onto the screen"
+        }
+      ],
+      "grammar_focus": "let me + phrasal verb",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Warranty",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "That's covered under warranty.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'covered'",
+      "stress_focus": "Put the main stress on 'covered'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'That's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "covered",
+          "meaning": "included, protected"
+        }
+      ],
+      "grammar_focus": "passive voice with be",
+      "tags": [
+        "customer-service",
+        "warranty"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "I completely understand your frustration.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'frustration'",
+      "stress_focus": "Put the main stress on 'frustration'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'your' and 'frustration' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "frustration",
+          "meaning": "annoyance from a problem"
+        }
+      ],
+      "grammar_focus": "adverb + verb for emphasis",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's get this resolved quickly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'resolved'",
+      "stress_focus": "Put the main stress on 'resolved'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "resolved",
+          "meaning": "solved, fixed"
+        }
+      ],
+      "grammar_focus": "let's + past participle",
+      "tags": [
+        "customer-service",
+        "complaints"
+      ]
+    },
+    {
+      "subcategory": "Billing",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'll waive the fee this time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'waive'",
+      "stress_focus": "Put the main stress on 'waive'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "waive",
+          "meaning": "choose not to charge"
+        }
+      ],
+      "grammar_focus": "will + base verb",
+      "tags": [
+        "customer-service",
+        "billing"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Can I put you on hold?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'on hold'",
+      "stress_focus": "Put the main stress on 'on hold'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'on' and 'hold' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "on hold",
+          "meaning": "waiting on a call"
+        }
+      ],
+      "grammar_focus": "can I + base verb",
+      "tags": [
+        "customer-service",
+        "phone"
+      ]
+    },
+    {
+      "subcategory": "Billing",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "That charge looks incorrect.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'charge'",
+      "stress_focus": "Put the main stress on 'charge'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'looks' and 'incorrect' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "charge",
+          "meaning": "amount billed"
+        }
+      ],
+      "grammar_focus": "simple present with looks",
+      "tags": [
+        "customer-service",
+        "billing"
+      ]
+    },
+    {
+      "subcategory": "Refunds",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'll issue a refund now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'issue'",
+      "stress_focus": "Put the main stress on 'issue'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "issue",
+          "meaning": "give out officially"
+        }
+      ],
+      "grammar_focus": "will + base verb",
+      "tags": [
+        "customer-service",
+        "refunds"
+      ]
+    },
+    {
+      "subcategory": "Shipping",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's double-check your address.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'double-check'",
+      "stress_focus": "Put the main stress on 'double-check'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "double-check",
+          "meaning": "verify carefully"
+        }
+      ],
+      "grammar_focus": "let's + phrasal verb",
+      "tags": [
+        "customer-service",
+        "shipping"
+      ]
+    },
+    {
+      "subcategory": "Escalation",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'll escalate this issue.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'escalate'",
+      "stress_focus": "Put the main stress on 'escalate'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "escalate",
+          "meaning": "pass to a higher authority"
+        }
+      ],
+      "grammar_focus": "will + base verb",
+      "tags": [
+        "customer-service",
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "response",
+      "sentence": "Thanks for bearing with us.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'bearing with'",
+      "stress_focus": "Put the main stress on 'bearing with'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'with' and 'us' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "bearing with",
+          "meaning": "being patient"
+        }
+      ],
+      "grammar_focus": "thanks for + gerund",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's confirm your details first.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'confirm'",
+      "stress_focus": "Put the main stress on 'confirm'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "meaning": "verify as correct"
+        }
+      ],
+      "grammar_focus": "let's + base verb",
+      "tags": [
+        "customer-service",
+        "support"
+      ]
+    },
+    {
+      "subcategory": "Escalation",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'll flag this for review.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'flag'",
+      "stress_focus": "Put the main stress on 'flag'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "flag",
+          "meaning": "mark for attention"
+        }
+      ],
+      "grammar_focus": "will + base verb",
+      "tags": [
+        "customer-service",
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "response",
+      "sentence": "That's a valid concern.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'valid concern'",
+      "stress_focus": "Put the main stress on 'valid concern'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'That's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "valid concern",
+          "meaning": "a reasonable worry"
+        }
+      ],
+      "grammar_focus": "that's + noun phrase",
+      "tags": [
+        "customer-service",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "response",
+      "sentence": "Let me walk you through it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'walk you through'",
+      "stress_focus": "Put the main stress on 'walk you through'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "walk you through",
+          "meaning": "explain step by step"
+        }
+      ],
+      "grammar_focus": "let me + phrasal verb",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'll note that down.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'note down'",
+      "stress_focus": "Put the main stress on 'note down'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "note down",
+          "meaning": "write for record"
+        }
+      ],
+      "grammar_focus": "will + phrasal verb",
+      "tags": [
+        "customer-service",
+        "support"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "response",
+      "sentence": "I completely understand why you're upset about this.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'upset'",
+      "stress_focus": "Put the main stress on 'upset'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'you're' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "upset",
+          "meaning": "unhappy, annoyed"
+        }
+      ],
+      "grammar_focus": "why-clause as reason",
+      "tags": [
+        "customer-service",
+        "complaints"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "response",
+      "sentence": "Let me pull up your account and take a look.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'take a look'",
+      "stress_focus": "Put the main stress on 'take a look'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "take a look",
+          "meaning": "examine something"
+        }
+      ],
+      "grammar_focus": "and connector joining two actions",
+      "tags": [
+        "customer-service",
+        "support"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "We'll make sure this doesn't happen again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'make sure'",
+      "stress_focus": "Put the main stress on 'make sure'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'We'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "make sure",
+          "meaning": "ensure"
+        }
+      ],
+      "grammar_focus": "future with negative clause",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Could you bear with me for a moment?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'bear with me'",
+      "stress_focus": "Put the main stress on 'bear with me'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Linking 'could' + 'you' \u2192 'couldja'",
+      "vocabulary": [
+        {
+          "word": "bear with me",
+          "meaning": "be patient"
+        }
+      ],
+      "grammar_focus": "could you + idiomatic verb",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Refunds",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I'll go ahead and process that refund.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'go ahead'",
+      "stress_focus": "Put the main stress on 'go ahead'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "go ahead",
+          "meaning": "proceed"
+        }
+      ],
+      "grammar_focus": "will + phrasal verb + and connector",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Let's iron out the details before we proceed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'iron out'",
+      "stress_focus": "Put the main stress on 'iron out'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "iron out",
+          "meaning": "resolve small problems"
+        }
+      ],
+      "grammar_focus": "before + clause connector",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "clarification",
+      "sentence": "I see what happened; the system logged it incorrectly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'logged'",
+      "stress_focus": "Put the main stress on 'logged'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'it' and 'incorrectly' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "logged",
+          "meaning": "recorded"
+        }
+      ],
+      "grammar_focus": "semicolon connecting cause and result",
+      "tags": [
+        "customer-service",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Would you mind holding for one moment?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'would you mind'",
+      "stress_focus": "Put the main stress on 'would you mind'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'one' and 'moment' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "would you mind",
+          "meaning": "polite way to ask"
+        }
+      ],
+      "grammar_focus": "would you mind + gerund",
+      "tags": [
+        "customer-service",
+        "phone"
+      ]
+    },
+    {
+      "subcategory": "Shipping",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I'll follow up once the warehouse confirms the stock.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'confirms'",
+      "stress_focus": "Put the main stress on 'confirms'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "confirms",
+          "meaning": "verifies"
+        }
+      ],
+      "grammar_focus": "once-clause for future condition",
+      "tags": [
+        "customer-service",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Let's get to the bottom of this issue.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'get to the bottom of'",
+      "stress_focus": "Put the main stress on 'get to the bottom of'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "get to the bottom of",
+          "meaning": "find the real cause"
+        }
+      ],
+      "grammar_focus": "idiom with let's",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "response",
+      "sentence": "I hear you, and I'll make this right.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'make this right'",
+      "stress_focus": "Put the main stress on 'make this right'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "make this right",
+          "meaning": "fix the problem"
+        }
+      ],
+      "grammar_focus": "and connector joining clauses",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Just to clarify, are you looking for a refund or an exchange?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'exchange'",
+      "stress_focus": "Put the main stress on 'exchange'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Link 'an' and 'exchange' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "exchange",
+          "meaning": "swap for another item"
+        }
+      ],
+      "grammar_focus": "or as alternative connector",
+      "tags": [
+        "customer-service",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Shipping",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "We ran into a delay with the shipment.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'ran into'",
+      "stress_focus": "Put the main stress on 'ran into'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'the' and 'shipment' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "ran into",
+          "meaning": "encountered unexpectedly"
+        }
+      ],
+      "grammar_focus": "past simple phrasal verb",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Escalation",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "Let me check with my supervisor and get back to you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'get back to you'",
+      "stress_focus": "Put the main stress on 'get back to you'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "get back to you",
+          "meaning": "respond again later"
+        }
+      ],
+      "grammar_focus": "and connector joining two future actions",
+      "tags": [
+        "customer-service",
+        "escalation"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "I apologize for the mix-up with your order.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'mix-up'",
+      "stress_focus": "Put the main stress on 'mix-up'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'your' and 'order' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "mix-up",
+          "meaning": "confusion or error"
+        }
+      ],
+      "grammar_focus": "apologize for + noun phrase",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "response",
+      "sentence": "That's odd; let me look into it further.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'look into'",
+      "stress_focus": "Put the main stress on 'look into'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "look into",
+          "meaning": "investigate"
+        }
+      ],
+      "grammar_focus": "semicolon connecting reaction and action",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Billing",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "I'll credit your account for the inconvenience.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'credit'",
+      "stress_focus": "Put the main stress on 'credit'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "credit",
+          "meaning": "add money back"
+        }
+      ],
+      "grammar_focus": "will + base verb + reason phrase",
+      "tags": [
+        "customer-service",
+        "billing"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Can you walk me through what went wrong?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'went wrong'",
+      "stress_focus": "Put the main stress on 'went wrong'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'went' and 'wrong' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "went wrong",
+          "meaning": "failed or malfunctioned"
+        }
+      ],
+      "grammar_focus": "wh-clause after through",
+      "tags": [
+        "customer-service",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "We're working on it and should have an update soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'update'",
+      "stress_focus": "Put the main stress on 'update'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'We're' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "update",
+          "meaning": "new information"
+        }
+      ],
+      "grammar_focus": "and connector joining present and future",
+      "tags": [
+        "customer-service",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "I'll go over the options we have available.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'go over'",
+      "stress_focus": "Put the main stress on 'go over'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "go over",
+          "meaning": "review"
+        }
+      ],
+      "grammar_focus": "phrasal verb with relative clause",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "request",
+      "sentence": "Let's set up a callback for later today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'set up'",
+      "stress_focus": "Put the main stress on 'set up'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "set up",
+          "meaning": "arrange"
+        }
+      ],
+      "grammar_focus": "let's + phrasal verb",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "response",
+      "sentence": "I understand your frustration, and I want to help fix this.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'fix'",
+      "stress_focus": "Put the main stress on 'fix'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'want to' \u2192 'wanna'",
+      "vocabulary": [
+        {
+          "word": "fix",
+          "meaning": "repair, resolve"
+        }
+      ],
+      "grammar_focus": "and connector joining empathy and action",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Products",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "response",
+      "sentence": "Let me check whether that item is back in stock.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'whether'",
+      "stress_focus": "Put the main stress on 'whether'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "whether",
+          "meaning": "if, introducing a question"
+        }
+      ],
+      "grammar_focus": "whether-clause as object",
+      "tags": [
+        "customer-service",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Shipping",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "We'll expedite the shipment given the delay.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'expedite'",
+      "stress_focus": "Put the main stress on 'expedite'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'We'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "expedite",
+          "meaning": "speed up"
+        }
+      ],
+      "grammar_focus": "given as connector",
+      "tags": [
+        "customer-service",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Shipping",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "I'll reach out to the shipping carrier directly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'reach out'",
+      "stress_focus": "Put the main stress on 'reach out'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "reach out",
+          "meaning": "contact"
+        }
+      ],
+      "grammar_focus": "will + phrasal verb + adverb",
+      "tags": [
+        "customer-service",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "response",
+      "sentence": "I completely understand your frustration, and I want to make this right as quickly as possible.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'as quickly as possible'",
+      "stress_focus": "Put the main stress on 'as quickly as possible'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'want to' \u2192 'wanna'",
+      "vocabulary": [
+        {
+          "word": "as quickly as possible",
+          "meaning": "with maximum speed"
+        }
+      ],
+      "grammar_focus": "comparative structure as...as",
+      "tags": [
+        "customer-service",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "request",
+      "sentence": "Let's cut to the chase; what would resolve this to your satisfaction?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'to your satisfaction'",
+      "stress_focus": "Put the main stress on 'to your satisfaction'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "to your satisfaction",
+          "meaning": "in a way that pleases you"
+        }
+      ],
+      "grammar_focus": "semicolon connecting idiom and question",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Products",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "I hate to be the bearer of bad news, but that item is discontinued.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'discontinued'",
+      "stress_focus": "Put the main stress on 'discontinued'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'is' and 'discontinued' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "discontinued",
+          "meaning": "no longer produced"
+        }
+      ],
+      "grammar_focus": "contrast connector but",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Refunds",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "clarification",
+      "sentence": "Just so we're on the same page, you'd like a full refund rather than store credit?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'rather than'",
+      "stress_focus": "Put the main stress on 'rather than'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Smooth contraction in 'we're' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "rather than",
+          "meaning": "instead of"
+        }
+      ],
+      "grammar_focus": "so-clause with rather than comparison",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "clarification",
+      "sentence": "With all due respect, I think there's been a miscommunication on our end.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'miscommunication'",
+      "stress_focus": "Put the main stress on 'miscommunication'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'there's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "miscommunication",
+          "meaning": "failure to communicate clearly"
+        }
+      ],
+      "grammar_focus": "polite disagreement opener",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "I don't want to make excuses, but our system was down for maintenance.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'make excuses'",
+      "stress_focus": "Put the main stress on 'make excuses'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'want to' \u2192 'wanna'",
+      "vocabulary": [
+        {
+          "word": "make excuses",
+          "meaning": "justify a fault"
+        }
+      ],
+      "grammar_focus": "contrast connector but",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Escalation",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "Let me loop in a specialist who can dig deeper into this problem.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'dig deeper'",
+      "stress_focus": "Put the main stress on 'dig deeper'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "dig deeper",
+          "meaning": "investigate more thoroughly"
+        }
+      ],
+      "grammar_focus": "relative clause with who",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Shipping",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "To make a long story short, the shipment got held up at customs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'held up'",
+      "stress_focus": "Put the main stress on 'held up'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'at' and 'customs' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "held up",
+          "meaning": "delayed"
+        }
+      ],
+      "grammar_focus": "idiom as summary connector",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "I know this has been a hassle, so let's make sure it's fixed for good.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'for good'",
+      "stress_focus": "Put the main stress on 'for good'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "for good",
+          "meaning": "permanently"
+        }
+      ],
+      "grammar_focus": "so-clause of result",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "request",
+      "sentence": "If it's not too much trouble, could you send over a photo of the damage?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'not too much trouble'",
+      "stress_focus": "Put the main stress on 'not too much trouble'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Linking 'could' + 'you' \u2192 'couldja'",
+      "vocabulary": [
+        {
+          "word": "not too much trouble",
+          "meaning": "not too inconvenient"
+        }
+      ],
+      "grammar_focus": "conditional polite request",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "response",
+      "sentence": "Rest assured, we'll get to the bottom of what went wrong here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'rest assured'",
+      "stress_focus": "Put the main stress on 'rest assured'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'we'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "rest assured",
+          "meaning": "be confident, don't worry"
+        }
+      ],
+      "grammar_focus": "imperative idiom opener",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Refunds",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "At this point, I think the best course of action is a full replacement.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'course of action'",
+      "stress_focus": "Put the main stress on 'course of action'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'full' and 'replacement' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "course of action",
+          "meaning": "a plan or approach"
+        }
+      ],
+      "grammar_focus": "opinion structure with I think",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Refunds",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "I'm going to go out on a limb and offer you a partial refund.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'go out on a limb'",
+      "stress_focus": "Put the main stress on 'go out on a limb'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'going to' \u2192 'gonna'",
+      "vocabulary": [
+        {
+          "word": "go out on a limb",
+          "meaning": "take a risk"
+        }
+      ],
+      "grammar_focus": "going to + idiom",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "Let's not lose sight of the fact that your satisfaction matters most to us.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'lose sight of'",
+      "stress_focus": "Put the main stress on 'lose sight of'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "lose sight of",
+          "meaning": "forget to consider"
+        }
+      ],
+      "grammar_focus": "that-clause as object of fact",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think we dropped the ball on communicating the delay to you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'dropped the ball'",
+      "stress_focus": "Put the main stress on 'dropped the ball'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'to' and 'you' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "dropped the ball",
+          "meaning": "failed to do something properly"
+        }
+      ],
+      "grammar_focus": "opinion connector honestly",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "clarification",
+      "sentence": "Correct me if I'm wrong, but wasn't this order supposed to arrive last Friday?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'supposed to'",
+      "stress_focus": "Put the main stress on 'supposed to'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Smooth contraction in 'I'm' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "supposed to",
+          "meaning": "expected to"
+        }
+      ],
+      "grammar_focus": "conditional with tag question",
+      "tags": [
+        "customer-service",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "request",
+      "sentence": "Let's touch base once the technical team has looked into the root cause.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'root cause'",
+      "stress_focus": "Put the main stress on 'root cause'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "root cause",
+          "meaning": "the original source of a problem"
+        }
+      ],
+      "grammar_focus": "once-clause for future condition",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Complaints",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "response",
+      "sentence": "I completely see where you're coming from, and I'd feel the same way.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'see where you're coming from'",
+      "stress_focus": "Put the main stress on 'see where you're coming from'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'you're' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "see where you're coming from",
+          "meaning": "understand someone's perspective"
+        }
+      ],
+      "grammar_focus": "and connector joining empathy statements",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "statement",
+      "sentence": "To avoid any further inconvenience, I'll personally follow this up myself.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'personally'",
+      "stress_focus": "Put the main stress on 'personally'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "personally",
+          "meaning": "by oneself, directly"
+        }
+      ],
+      "grammar_focus": "infinitive phrase of purpose",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Billing",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "Given the circumstances, I think waiving the cancellation fee is only fair.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'only fair'",
+      "stress_focus": "Put the main stress on 'only fair'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'only' and 'fair' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "only fair",
+          "meaning": "just, reasonable"
+        }
+      ],
+      "grammar_focus": "given as connector with opinion",
+      "tags": [
+        "customer-service",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "statement",
+      "sentence": "I'll be upfront with you: this might take a couple of extra days to resolve.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'upfront'",
+      "stress_focus": "Put the main stress on 'upfront'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "upfront",
+          "meaning": "honest and direct"
+        }
+      ],
+      "grammar_focus": "colon introducing explanation",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Apologies",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "statement",
+      "sentence": "Let's not beat around the bush; the delay was on our end, not yours.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'on our end'",
+      "stress_focus": "Put the main stress on 'on our end'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "on our end",
+          "meaning": "our responsibility"
+        }
+      ],
+      "grammar_focus": "semicolon with contrast clause",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Support",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "statement",
+      "sentence": "I want to make sure we've covered all the bases before we close this ticket.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'covered all the bases'",
+      "stress_focus": "Put the main stress on 'covered all the bases'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'want to' \u2192 'wanna'",
+      "vocabulary": [
+        {
+          "word": "covered all the bases",
+          "meaning": "addressed every aspect"
+        }
+      ],
+      "grammar_focus": "before-clause connector",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "question",
+      "sentence": "Speaking of which, would you like me to set up a follow-up call for next week?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'speaking of which'",
+      "stress_focus": "Put the main stress on 'speaking of which'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Link 'next' and 'week' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "speaking of which",
+          "meaning": "related to that topic"
+        }
+      ],
+      "grammar_focus": "transition connector with question",
+      "tags": [
+        "customer-service",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Escalation",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "For what it's worth, I've flagged this as a priority so it gets resolved fast.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'flagged'",
+      "stress_focus": "Put the main stress on 'flagged'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'it's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "flagged",
+          "meaning": "marked for attention"
+        }
+      ],
+      "grammar_focus": "idiom opener with so-clause of result",
+      "tags": [
+        "customer-service",
+        "idioms"
+      ]
+    }
+  ]
+}

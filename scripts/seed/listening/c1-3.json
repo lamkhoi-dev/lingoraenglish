@@ -1,0 +1,1253 @@
+{
+ "lessons": [
+  {
+   "slug": "c1-mortgage-advisor-consultation",
+   "title": "Locking In: A Mortgage Renewal Talk",
+   "level": "C1",
+   "category": "Canadian Life",
+   "topic": "mortgage advisor consultation",
+   "difficulty": 9,
+   "duration_seconds": 150,
+   "accent": "canadian",
+   "script": [
+    {
+     "speaker": "Advisor",
+     "line": "Thanks for coming in, Priya. So your current fixed rate is up for renewal at the end of next month, is that right?"
+    },
+    {
+     "speaker": "Priya",
+     "line": "Yeah, exactly. My five-year term ends on the thirtieth, and honestly, I'm a bit anxious about how much rates have crept up."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "That's a fair concern. You locked in at two point one nine percent back in twenty nineteen, and we're looking at closer to five point four now."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Ouch. That's going to hit my monthly payment pretty hard, isn't it?"
+    },
+    {
+     "speaker": "Advisor",
+     "line": "It will bump it up, yeah, but let's not panic just yet. Do you want to go variable this time, or stick with fixed for peace of mind?"
+    },
+    {
+     "speaker": "Priya",
+     "line": "I've gone back and forth on that. Variable scares me a little given how unpredictable the Bank of Canada's been."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "Understandable. A lot of clients are opting for a shorter fixed term, like three years, betting rates will ease off before they'd need to renew again."
+    },
+    {
+     "speaker": "Priya",
+     "line": "That's tempting. What would the payment look like if I went that route?"
+    },
+    {
+     "speaker": "Advisor",
+     "line": "Roughly two hundred and eighty dollars more a month than you're paying now, assuming your remaining balance stays around three hundred and ten thousand."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Okay, that's manageable, though it stings. Is there any wiggle room to negotiate the rate itself?"
+    },
+    {
+     "speaker": "Advisor",
+     "line": "There's usually some flexibility if you're willing to shop around. I can also blend and extend if you wanted to avoid a penalty for breaking early."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I don't think I want to break the mortgage, I just want the best deal on renewal without a ton of paperwork."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "Fair enough. I'll get you a rate hold for a hundred and twenty days so you're not scrambling at the last minute."
+    },
+    {
+     "speaker": "Priya",
+     "line": "That'd put my mind at ease. What documents do you need from me this time around?"
+    },
+    {
+     "speaker": "Advisor",
+     "line": "Since it's a straightforward renewal with the same lender, we can actually skip most of the income verification. Just sign off on the new terms."
+    },
+    {
+     "speaker": "Priya",
+     "line": "That's a relief, last time was a headache with all the paperwork for the initial approval."
+    },
+    {
+     "speaker": "Advisor",
+     "line": "I hear that a lot. I'll email you the renewal offer by Friday, and we can hop on a call if anything's unclear."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Sounds good. Thanks for walking me through this, it's a lot less stressful than I expected."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this conversation?",
+     "options": [
+      "To help Priya decide on renewing her mortgage terms",
+      "To approve Priya for a brand-new mortgage",
+      "To discuss selling Priya's home",
+      "To explain how to break a mortgage early"
+     ],
+     "answer": "To help Priya decide on renewing her mortgage terms",
+     "explanation": "The whole discussion centers on renewal options as Priya's term ends.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What was Priya's original interest rate in 2019?",
+     "options": [
+      "2.19%",
+      "5.4%",
+      "3%",
+      "2.8%"
+     ],
+     "answer": "2.19%",
+     "explanation": "The advisor states she locked in at two point one nine percent in 2019.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How many days of rate hold will the advisor arrange?",
+     "options": [
+      "120",
+      "90",
+      "60",
+      "180"
+     ],
+     "answer": "120",
+     "explanation": "The advisor offers a hundred and twenty day rate hold.",
+     "skill": "numbers_dates"
+    },
+    {
+     "type": "detail",
+     "prompt": "Roughly how much more will Priya's monthly payment increase with a three-year term?",
+     "options": [
+      "About $280",
+      "About $500",
+      "About $100",
+      "About $1,000"
+     ],
+     "answer": "About $280",
+     "explanation": "The advisor estimates roughly two hundred eighty dollars more per month.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Priya say she doesn't want to break the mortgage?",
+     "options": [
+      "She wants the best deal without extra hassle",
+      "She wants to switch lenders entirely",
+      "She wants a longer amortization",
+      "She plans to sell the house soon"
+     ],
+     "answer": "She wants the best deal without extra hassle",
+     "explanation": "She explicitly says she wants the best deal without a ton of paperwork.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "What is the advisor's tone when Priya reacts to the new rate?",
+     "options": [
+      "Reassuring, trying to calm her worry",
+      "Dismissive of her concerns",
+      "Frustrated with her indecision",
+      "Indifferent to the outcome"
+     ],
+     "answer": "Reassuring, trying to calm her worry",
+     "explanation": "He says 'let's not panic just yet,' showing reassurance.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'blend and extend' most likely mean in this context?",
+     "options": [
+      "Combining the old and new rate over a longer term",
+      "Blending two different mortgages into one house",
+      "Extending the closing date of a home purchase",
+      "Mixing fixed and variable payments monthly"
+     ],
+     "answer": "Combining the old and new rate over a longer term",
+     "explanation": "It's offered as an alternative to avoid a penalty when adjusting mortgage terms early.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "So your current fixed rate is up for renewal at the end of next month, is that right?",
+     "blanks": [
+      "up for renewal"
+     ],
+     "challenge": "expression",
+     "explanation": "'Up for renewal' is a common fixed expression about contracts ending."
+    },
+    {
+     "sentence": "You locked in at two point one nine percent back in twenty nineteen, and we're looking at closer to five point four now.",
+     "blanks": [
+      "two point one nine"
+     ],
+     "challenge": "numbers",
+     "explanation": "Decimal percentages are often tricky to catch in spoken English."
+    },
+    {
+     "sentence": "A lot of clients are opting for a shorter fixed term, like three years, betting rates will ease off before they'd need to renew again.",
+     "blanks": [
+      "ease off"
+     ],
+     "challenge": "expression",
+     "explanation": "'Ease off' means to decrease or become less intense."
+    },
+    {
+     "sentence": "I'll get you a rate hold for a hundred and twenty days so you're not scrambling at the last minute.",
+     "blanks": [
+      "scrambling"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "The word links quickly with 'you're not' in fast speech."
+    },
+    {
+     "sentence": "Since it's a straightforward renewal with the same lender, we can actually skip most of the income verification.",
+     "blanks": [
+      "straightforward"
+     ],
+     "challenge": "similar_sounds",
+     "explanation": "Learners often confuse 'straightforward' with similar-sounding compound words."
+    },
+    {
+     "sentence": "That's a relief, last time was a headache with all the paperwork for the initial approval.",
+     "blanks": [
+      "a headache"
+     ],
+     "challenge": "expression",
+     "explanation": "'A headache' idiomatically means something annoying or troublesome."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "is that right",
+     "heard_as": "izzat right",
+     "explanation": "Consonant linking blurs 'is' and 'that' together."
+    },
+    {
+     "phrase": "kind of",
+     "heard_as": "kinda",
+     "explanation": "Common reduction in casual spoken English, though used implicitly in flow."
+    },
+    {
+     "phrase": "want to",
+     "heard_as": "wanna",
+     "explanation": "Reduced form heard in 'I don't want to break the mortgage.'"
+    },
+    {
+     "phrase": "going to",
+     "heard_as": "gonna",
+     "explanation": "Reduced form heard in 'That's going to hit my monthly payment.'"
+    }
+   ]
+  },
+  {
+   "slug": "c1-complex-insurance-dispute",
+   "title": "Fighting a Denied Claim",
+   "level": "C1",
+   "category": "Canadian Life",
+   "topic": "complex insurance dispute",
+   "difficulty": 10,
+   "duration_seconds": 170,
+   "accent": "canadian",
+   "script": [
+    {
+     "speaker": "Adjuster",
+     "line": "Mr. Kowalski, I've reviewed your file again, and unfortunately the claim is still being denied under the water damage exclusion clause."
+    },
+    {
+     "speaker": "Marek",
+     "line": "That doesn't sit right with me at all. This wasn't gradual seepage, it was a burst pipe, sudden and accidental."
+    },
+    {
+     "speaker": "Adjuster",
+     "line": "Our inspector noted signs of long-term moisture around the baseboards, which suggests this had been ongoing for weeks, not hours."
+    },
+    {
+     "speaker": "Marek",
+     "line": "With respect, that assessment seems flimsy. I have photos from before the incident showing zero moisture, taken for an unrelated renovation quote."
+    },
+    {
+     "speaker": "Adjuster",
+     "line": "I hadn't seen those photos in the file. Can you send them over, along with the timestamp metadata if possible?"
+    },
+    {
+     "speaker": "Marek",
+     "line": "Absolutely, I'll forward them today. But I also want to formally dispute the inspector's report, it feels like it was written to justify denial."
+    },
+    {
+     "speaker": "Adjuster",
+     "line": "I understand your frustration, but let's not go there just yet. Once I have the photos, I can escalate this to our appeals team."
+    },
+    {
+     "speaker": "Marek",
+     "line": "How long does an appeal typically take? I've already had contractors on hold for three weeks because of this delay."
+    },
+    {
+     "speaker": "Adjuster",
+     "line": "Appeals usually take ten to fifteen business days, though with new evidence like yours, it could move faster."
+    },
+    {
+     "speaker": "Marek",
+     "line": "And if the appeal still gets rejected, what recourse do I actually have?"
+    },
+    {
+     "speaker": "Adjuster",
+     "line": "You could request an independent adjuster, or ultimately file a complaint with the provincial insurance ombudsman."
+    },
+    {
+     "speaker": "Marek",
+     "line": "I'd rather not go that far, but I will if it comes down to it. This claim is worth over eighteen thousand dollars in repairs."
+    },
+    {
+     "speaker": "Adjuster",
+     "line": "I hear you, and honestly, the photo evidence you mentioned could be the deciding factor here."
+    },
+    {
+     "speaker": "Marek",
+     "line": "I just don't want to get strung along for months while my basement ceiling is still sagging."
+    },
+    {
+     "speaker": "Adjuster",
+     "line": "That's fair. I'll flag this file as urgent once the new evidence comes in, and I'll personally follow up with the appeals team myself."
+    },
+    {
+     "speaker": "Marek",
+     "line": "I appreciate that. Can you send me written confirmation that the claim's been reopened for review?"
+    },
+    {
+     "speaker": "Adjuster",
+     "line": "Of course, you'll have that in writing by end of day, along with a reference number for the appeal."
+    },
+    {
+     "speaker": "Marek",
+     "line": "Thank you. I just want a fair shake here, not to be brushed off because it's inconvenient."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the central issue in this conversation?",
+     "options": [
+      "A homeowner disputing a denied insurance claim for water damage",
+      "A homeowner filing a new claim for fire damage",
+      "An adjuster approving a claim immediately",
+      "A dispute over a car insurance premium"
+     ],
+     "answer": "A homeowner disputing a denied insurance claim for water damage",
+     "explanation": "Marek is challenging the denial based on the water damage exclusion clause.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Why was the claim initially denied?",
+     "options": [
+      "The inspector found signs suggesting gradual, long-term moisture",
+      "The claim amount was too small to process",
+      "Marek missed the filing deadline",
+      "The pipe damage was outside the policy period"
+     ],
+     "answer": "The inspector found signs suggesting gradual, long-term moisture",
+     "explanation": "The adjuster cites the inspector's note about long-term moisture around baseboards.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What evidence does Marek offer to counter the denial?",
+     "options": [
+      "Photos taken before the incident showing no moisture",
+      "A written statement from his contractor",
+      "A video of the burst pipe",
+      "Testimony from a neighbor"
+     ],
+     "answer": "Photos taken before the incident showing no moisture",
+     "explanation": "Marek mentions photos from before the incident for an unrelated renovation quote.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "Roughly how long does the adjuster say the appeal process typically takes?",
+     "options": [
+      "Ten to fifteen business days",
+      "Two to three days",
+      "One month exactly",
+      "Six months"
+     ],
+     "answer": "Ten to fifteen business days",
+     "explanation": "The adjuster states appeals usually take ten to fifteen business days.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Marek mention the insurance ombudsman?",
+     "options": [
+      "To signal he has further options if the appeal fails",
+      "To ask the adjuster to contact the ombudsman immediately",
+      "To thank the ombudsman for previous help",
+      "To change the subject away from the appeal"
+     ],
+     "answer": "To signal he has further options if the appeal fails",
+     "explanation": "He states he'd rather not go that far, but will if needed, showing it's a fallback option.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "What does Marek imply when he says 'I just don't want to get strung along for months'?",
+     "options": [
+      "He fears the process will be delayed unnecessarily",
+      "He wants to end the call quickly",
+      "He is planning to switch insurance companies",
+      "He thinks the adjuster is lying about the timeline"
+     ],
+     "answer": "He fears the process will be delayed unnecessarily",
+     "explanation": "'Strung along' implies being kept waiting without real progress.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'a fair shake' mean as used at the end of the conversation?",
+     "options": [
+      "Fair and honest treatment",
+      "A firm handshake to close a deal",
+      "A quick financial settlement",
+      "A physical shaking motion"
+     ],
+     "answer": "Fair and honest treatment",
+     "explanation": "Marek uses the idiom to mean he wants to be treated fairly, not dismissed.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "That doesn't sit right with me at all.",
+     "blanks": [
+      "sit right"
+     ],
+     "challenge": "expression",
+     "explanation": "'Sit right with' means to feel acceptable or correct to someone."
+    },
+    {
+     "sentence": "With respect, that assessment seems flimsy.",
+     "blanks": [
+      "flimsy"
+     ],
+     "challenge": "similar_sounds",
+     "explanation": "Learners may confuse 'flimsy' with similarly spelled words like 'filmy'."
+    },
+    {
+     "sentence": "I've already had contractors on hold for three weeks because of this delay.",
+     "blanks": [
+      "on hold"
+     ],
+     "challenge": "expression",
+     "explanation": "'On hold' means waiting or paused, a common collocation."
+    },
+    {
+     "sentence": "Appeals usually take ten to fifteen business days, though with new evidence like yours, it could move faster.",
+     "blanks": [
+      "ten to fifteen"
+     ],
+     "challenge": "numbers",
+     "explanation": "Number ranges spoken quickly can blend together."
+    },
+    {
+     "sentence": "I just don't want to get strung along for months while my basement ceiling is still sagging.",
+     "blanks": [
+      "strung along"
+     ],
+     "challenge": "expression",
+     "explanation": "This idiom means being deceived into waiting without real progress."
+    },
+    {
+     "sentence": "I just want a fair shake here, not to be brushed off because it's inconvenient.",
+     "blanks": [
+      "brushed off"
+     ],
+     "challenge": "expression",
+     "explanation": "'Brushed off' means dismissed without proper consideration."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "I've already",
+     "heard_as": "I've a-ready",
+     "explanation": "The 'l' softens and links smoothly in fast speech."
+    },
+    {
+     "phrase": "want to",
+     "heard_as": "wanna",
+     "explanation": "Reduced form heard in 'I don't want to go that far.'"
+    },
+    {
+     "phrase": "going to",
+     "heard_as": "gonna",
+     "explanation": "Heard in casual reductions of future intentions throughout the dialogue."
+    },
+    {
+     "phrase": "I'll",
+     "heard_as": "ahl",
+     "explanation": "Contraction reduces heavily in rapid speech, as in 'I'll flag this file.'"
+    }
+   ]
+  },
+  {
+   "slug": "c1-immigration-lawyer-consultation",
+   "title": "Sorting Out a Sponsorship Application",
+   "level": "C1",
+   "category": "Canadian Life",
+   "topic": "immigration lawyer consultation",
+   "difficulty": 9,
+   "duration_seconds": 160,
+   "accent": "canadian",
+   "script": [
+    {
+     "speaker": "Lawyer",
+     "line": "So, Fatima, you're looking to sponsor your husband under the spousal program, is that correct?"
+    },
+    {
+     "speaker": "Fatima",
+     "line": "Yes, we got married eight months ago in Lahore, and he's currently still there waiting on the process to begin."
+    },
+    {
+     "speaker": "Lawyer",
+     "line": "Got it. Now, are you leaning toward the inland or outland application stream?"
+    },
+    {
+     "speaker": "Fatima",
+     "line": "Honestly, I'm not entirely sure what the difference means for us practically."
+    },
+    {
+     "speaker": "Lawyer",
+     "line": "Inland means he'd come to Canada first on a visitor visa and you'd apply from within the country, but he couldn't leave during processing without risking the application."
+    },
+    {
+     "speaker": "Fatima",
+     "line": "That sounds restrictive. What about outland then?"
+    },
+    {
+     "speaker": "Lawyer",
+     "line": "Outland lets him travel freely while the application's being processed abroad, but it can sometimes take a bit longer overall."
+    },
+    {
+     "speaker": "Fatima",
+     "line": "We'd actually prefer he could visit his family in the UK during this time, so outland might suit us better."
+    },
+    {
+     "speaker": "Lawyer",
+     "line": "That's a reasonable call. Now, processing times have been fluctuating, but we're currently seeing around twelve to fourteen months for outland spousal cases."
+    },
+    {
+     "speaker": "Fatima",
+     "line": "That's longer than I expected. Is there anything that could speed things up or, conversely, delay it further?"
+    },
+    {
+     "speaker": "Lawyer",
+     "line": "Incomplete documentation is the biggest culprit for delays. Missing police certificates or inconsistent relationship evidence can add months."
+    },
+    {
+     "speaker": "Fatima",
+     "line": "We have plenty of photos and messages, but I'm worried it won't be seen as 'genuine enough' by the officer reviewing it."
+    },
+    {
+     "speaker": "Lawyer",
+     "line": "That's a common worry. The key is showing a consistent timeline, not just romantic photos. Joint finances, communication logs, that sort of thing helps a lot."
+    },
+    {
+     "speaker": "Fatima",
+     "line": "We don't have joint finances yet since he's abroad. Could that hurt us?"
+    },
+    {
+     "speaker": "Lawyer",
+     "line": "It's not fatal on its own, especially given the short marriage, but I'd recommend gathering call records and any money transfers you've sent him."
+    },
+    {
+     "speaker": "Fatima",
+     "line": "Okay, I can pull those together. What's our next concrete step here?"
+    },
+    {
+     "speaker": "Lawyer",
+     "line": "I'll draft a document checklist for you by next week, and we'll aim to submit within two months if everything comes together smoothly."
+    },
+    {
+     "speaker": "Fatima",
+     "line": "That would be wonderful. This whole process has felt overwhelming, so having a clear plan really helps."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the primary focus of this consultation?",
+     "options": [
+      "Deciding between inland and outland spousal sponsorship and gathering evidence",
+      "Applying for a Canadian work permit",
+      "Renewing a visitor visa for Fatima's husband",
+      "Filing for permanent residency through employment"
+     ],
+     "answer": "Deciding between inland and outland spousal sponsorship and gathering evidence",
+     "explanation": "Most of the conversation covers choosing a stream and what documentation is needed.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Why does Fatima prefer the outland application?",
+     "options": [
+      "Her husband could still travel to visit family in the UK",
+      "It guarantees faster approval",
+      "It allows him to work immediately in Canada",
+      "It avoids needing any documentation"
+     ],
+     "answer": "Her husband could still travel to visit family in the UK",
+     "explanation": "She says outland would let him visit his family in the UK during processing.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "According to the lawyer, what is the biggest cause of processing delays?",
+     "options": [
+      "Incomplete documentation",
+      "Too many photos submitted",
+      "Applying inland instead of outland",
+      "Marrying too recently"
+     ],
+     "answer": "Incomplete documentation",
+     "explanation": "The lawyer states incomplete documentation is the biggest culprit for delays.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How long does the lawyer say outland spousal cases are currently taking?",
+     "options": [
+      "Twelve to fourteen months",
+      "Six to eight months",
+      "Three to five months",
+      "Two years"
+     ],
+     "answer": "Twelve to fourteen months",
+     "explanation": "The lawyer mentions processing is currently around twelve to fourteen months.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Fatima mention she doesn't have joint finances yet?",
+     "options": [
+      "She's worried it could weaken their application's evidence",
+      "She wants to open a joint account immediately",
+      "She's asking the lawyer to arrange finances for her",
+      "She's explaining why they can't afford legal fees"
+     ],
+     "answer": "She's worried it could weaken their application's evidence",
+     "explanation": "She asks directly whether the lack of joint finances could hurt their case.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "What is the lawyer's tone when reassuring Fatima about joint finances?",
+     "options": [
+      "Reassuring but realistic, suggesting alternative evidence",
+      "Dismissive of her concern entirely",
+      "Alarmed and pessimistic about their chances",
+      "Uninterested in the topic"
+     ],
+     "answer": "Reassuring but realistic, suggesting alternative evidence",
+     "explanation": "The lawyer says it's not fatal but recommends gathering other proof like call records.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does the lawyer mean by 'the biggest culprit for delays'?",
+     "options": [
+      "The main cause of the problem",
+      "A person who is legally guilty",
+      "A device that fixes issues",
+      "An officer reviewing the file"
+     ],
+     "answer": "The main cause of the problem",
+     "explanation": "'Culprit' here is used figuratively to mean the primary cause, not a criminal.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Now, are you leaning toward the inland or outland application stream?",
+     "blanks": [
+      "leaning toward"
+     ],
+     "challenge": "expression",
+     "explanation": "'Leaning toward' means favoring one option over another."
+    },
+    {
+     "sentence": "Incomplete documentation is the biggest culprit for delays.",
+     "blanks": [
+      "culprit"
+     ],
+     "challenge": "similar_sounds",
+     "explanation": "'Culprit' can be mispronounced or confused with similar-sounding words."
+    },
+    {
+     "sentence": "We're currently seeing around twelve to fourteen months for outland spousal cases.",
+     "blanks": [
+      "twelve to fourteen"
+     ],
+     "challenge": "numbers",
+     "explanation": "Spoken number ranges often blur together quickly."
+    },
+    {
+     "sentence": "It's not fatal on its own, especially given the short marriage, but I'd recommend gathering call records and any money transfers you've sent him.",
+     "blanks": [
+      "not fatal"
+     ],
+     "challenge": "expression",
+     "explanation": "'Not fatal' figuratively means not fully damaging to the case."
+    },
+    {
+     "sentence": "This whole process has felt overwhelming, so having a clear plan really helps.",
+     "blanks": [
+      "overwhelming"
+     ],
+     "challenge": "fast_speech",
+     "explanation": "The word is often slurred quickly in natural conversation."
+    },
+    {
+     "sentence": "We got married eight months ago in Lahore, and he's currently still there waiting on the process to begin.",
+     "blanks": [
+      "eight months ago"
+     ],
+     "challenge": "dates",
+     "explanation": "Time expressions like this are easy to mishear in fast speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "he's currently",
+     "heard_as": "eez currently",
+     "explanation": "The 'h' is often dropped in unstressed pronouns in fast speech."
+    },
+    {
+     "phrase": "we'd actually",
+     "heard_as": "wee-dactually",
+     "explanation": "Linking causes the words to blend together smoothly."
+    },
+    {
+     "phrase": "could that",
+     "heard_as": "couldat",
+     "explanation": "Consonant reduction links the two words in casual speech."
+    },
+    {
+     "phrase": "going to",
+     "heard_as": "gonna",
+     "explanation": "Reduced form is common though implied throughout planning statements."
+    }
+   ]
+  },
+  {
+   "slug": "c1-specialist-medical-consultation",
+   "title": "Getting to the Bottom of the Symptoms",
+   "level": "C1",
+   "category": "Canadian Life",
+   "topic": "specialist medical consultation",
+   "difficulty": 9,
+   "duration_seconds": 150,
+   "accent": "canadian",
+   "script": [
+    {
+     "speaker": "Dr. Chen",
+     "line": "So your family doctor referred you for the persistent fatigue and joint pain. How long has this been going on now?"
+    },
+    {
+     "speaker": "Owen",
+     "line": "About four months, give or take. It started subtly, but lately it's been hard to even get through a workday."
+    },
+    {
+     "speaker": "Dr. Chen",
+     "line": "And the joint pain, is it symmetrical, meaning both sides of your body, or more localized to one area?"
+    },
+    {
+     "speaker": "Owen",
+     "line": "Mostly both wrists and my knees. It's worse in the mornings, then eases up a bit by midday."
+    },
+    {
+     "speaker": "Dr. Chen",
+     "line": "That morning stiffness pattern is worth noting. Have you had any rashes, fevers, or noticeable weight changes?"
+    },
+    {
+     "speaker": "Owen",
+     "line": "No fevers, but I have noticed a faint rash across my cheeks that comes and goes, especially after being out in the sun."
+    },
+    {
+     "speaker": "Dr. Chen",
+     "line": "That's a helpful detail. Given the combination of symptoms, I'd like to run some bloodwork, specifically looking at inflammatory markers and autoimmune panels."
+    },
+    {
+     "speaker": "Owen",
+     "line": "Autoimmune? That sounds a bit alarming, honestly. What are we potentially looking at here?"
+    },
+    {
+     "speaker": "Dr. Chen",
+     "line": "I don't want to jump to conclusions before we have results, but conditions like lupus can present this way. It's one possibility among several."
+    },
+    {
+     "speaker": "Owen",
+     "line": "Okay, that's a lot to process. How long until we'd have the bloodwork results back?"
+    },
+    {
+     "speaker": "Dr. Chen",
+     "line": "Typically seven to ten business days for the specialized panels, though basic bloodwork comes back faster, within forty-eight hours."
+    },
+    {
+     "speaker": "Owen",
+     "line": "Should I be doing anything differently in the meantime, diet-wise or otherwise?"
+    },
+    {
+     "speaker": "Dr. Chen",
+     "line": "Try to avoid excessive sun exposure given that rash, and keep a symptom diary noting flare-ups and their triggers."
+    },
+    {
+     "speaker": "Owen",
+     "line": "I can do that. Is there any medication you'd recommend starting now, or should we wait for the results?"
+    },
+    {
+     "speaker": "Dr. Chen",
+     "line": "For now, an over-the-counter anti-inflammatory for the joint pain should help. I'd rather not prescribe anything stronger until we know more."
+    },
+    {
+     "speaker": "Owen",
+     "line": "That makes sense. I'd rather not be on unnecessary medication anyway."
+    },
+    {
+     "speaker": "Dr. Chen",
+     "line": "I'll have my office call you as soon as results are in, and we'll book a follow-up to go over everything together."
+    },
+    {
+     "speaker": "Owen",
+     "line": "Thank you, Dr. Chen. It's reassuring just having a plan, even if the answer isn't clear yet."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this consultation?",
+     "options": [
+      "Investigating the cause of Owen's fatigue and joint pain",
+      "Prescribing a final diagnosis and treatment plan",
+      "Discussing surgery options for joint damage",
+      "Reviewing Owen's family medical history in depth"
+     ],
+     "answer": "Investigating the cause of Owen's fatigue and joint pain",
+     "explanation": "The doctor is gathering symptoms and ordering tests to investigate the cause.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long has Owen been experiencing these symptoms?",
+     "options": [
+      "About four months",
+      "About four weeks",
+      "Two years",
+      "Since childhood"
+     ],
+     "answer": "About four months",
+     "explanation": "Owen states it's been about four months, give or take.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What additional symptom does Owen mention besides fatigue and joint pain?",
+     "options": [
+      "A faint rash across his cheeks",
+      "Frequent headaches",
+      "Sudden weight gain",
+      "Chronic coughing"
+     ],
+     "answer": "A faint rash across his cheeks",
+     "explanation": "Owen mentions a faint rash across his cheeks that worsens with sun exposure.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How long will the specialized bloodwork panels take to come back?",
+     "options": [
+      "Seven to ten business days",
+      "Forty-eight hours",
+      "Three to four weeks",
+      "One business day"
+     ],
+     "answer": "Seven to ten business days",
+     "explanation": "Dr. Chen specifies seven to ten business days for specialized panels.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Dr. Chen say 'I don't want to jump to conclusions'?",
+     "options": [
+      "To avoid alarming Owen before test results confirm anything",
+      "To dismiss Owen's concerns entirely",
+      "To suggest the symptoms aren't serious at all",
+      "To end the conversation quickly"
+     ],
+     "answer": "To avoid alarming Owen before test results confirm anything",
+     "explanation": "She's being cautious not to worry Owen prematurely about a possible diagnosis.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Owen say he'd rather not be on unnecessary medication?",
+     "options": [
+      "He prefers to avoid medication unless it's truly needed",
+      "He can't afford prescription costs",
+      "He's allergic to most medications",
+      "He doesn't trust the doctor's judgment"
+     ],
+     "answer": "He prefers to avoid medication unless it's truly needed",
+     "explanation": "He agrees with the doctor's cautious approach, showing he shares that preference.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'jump to conclusions' mean in this context?",
+     "options": [
+      "Making a judgment before having enough information",
+      "Physically jumping during an exam",
+      "Concluding a meeting quickly",
+      "Reaching an obvious and correct answer"
+     ],
+     "answer": "Making a judgment before having enough information",
+     "explanation": "It means forming an opinion too hastily, without sufficient evidence.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "About four months, give or take.",
+     "blanks": [
+      "give or take"
+     ],
+     "challenge": "expression",
+     "explanation": "'Give or take' means approximately, allowing for slight variation."
+    },
+    {
+     "sentence": "It's worse in the mornings, then eases up a bit by midday.",
+     "blanks": [
+      "eases up"
+     ],
+     "challenge": "expression",
+     "explanation": "'Eases up' means becomes less intense or severe."
+    },
+    {
+     "sentence": "Typically seven to ten business days for the specialized panels, though basic bloodwork comes back faster, within forty-eight hours.",
+     "blanks": [
+      "forty-eight hours"
+     ],
+     "challenge": "numbers",
+     "explanation": "Numbers spoken in sequence can be easy to mishear quickly."
+    },
+    {
+     "sentence": "I don't want to jump to conclusions before we have results, but conditions like lupus can present this way. It's one possibility among several.",
+     "blanks": [
+      "jump to conclusions"
+     ],
+     "challenge": "expression",
+     "explanation": "This idiom means forming a hasty judgment before all facts are known."
+    },
+    {
+     "sentence": "For now, an over-the-counter anti-inflammatory for the joint pain should help.",
+     "blanks": [
+      "over-the-counter"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "This compound expression is often said quickly as one blended unit."
+    },
+    {
+     "sentence": "It's reassuring just having a plan, even if the answer isn't clear yet.",
+     "blanks": [
+      "reassuring"
+     ],
+     "challenge": "fast_speech",
+     "explanation": "The word can be slurred quickly, blending syllables together."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "give or take",
+     "heard_as": "givertake",
+     "explanation": "Linking connects 'give', 'or', and 'take' smoothly in fast speech."
+    },
+    {
+     "phrase": "I don't want to",
+     "heard_as": "I dunno wanna",
+     "explanation": "Heavy reduction common in casual, rapid conversational speech."
+    },
+    {
+     "phrase": "I'd rather not",
+     "heard_as": "idrathernot",
+     "explanation": "The words blend together with minimal pause between them."
+    },
+    {
+     "phrase": "going to",
+     "heard_as": "gonna",
+     "explanation": "Common reduced form appearing implicitly in future-oriented statements."
+    }
+   ]
+  },
+  {
+   "slug": "c1-city-council-public-consultation",
+   "title": "Speaking Up at the Rezoning Meeting",
+   "level": "C1",
+   "category": "Canadian Life",
+   "topic": "city council public consultation",
+   "difficulty": 8,
+   "duration_seconds": 170,
+   "accent": "canadian",
+   "script": [
+    {
+     "speaker": "Chair",
+     "line": "We'll now open the floor for public comments on the proposed rezoning of the Elm Street corridor for mixed-use development."
+    },
+    {
+     "speaker": "Resident 1",
+     "line": "Thank you, Chair. My name's Denise Okafor, and I live two blocks from the proposed site. I'm generally supportive, but I'm worried about parking capacity."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Noted, thank you Denise. Councillor Reyes, would you like to address the parking concern directly?"
+    },
+    {
+     "speaker": "Councillor Reyes",
+     "line": "Sure. The current proposal includes an underground parking structure with roughly two hundred spaces, which the developer's traffic study suggests should cover projected demand."
+    },
+    {
+     "speaker": "Resident 1",
+     "line": "With respect, those traffic studies always seem to underestimate actual usage once buildings fill up."
+    },
+    {
+     "speaker": "Councillor Reyes",
+     "line": "That's a fair critique, and honestly one we've heard before. We can request an independent third-party review if council feels it's warranted."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Let's hear from the next speaker. Go ahead."
+    },
+    {
+     "speaker": "Resident 2",
+     "line": "Hi, I'm Tomasz Nowak, a local business owner. I'm actually in favour of this development, foot traffic could really help small businesses like mine that are struggling right now."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Thank you, Tomasz. Any concerns alongside your support?"
+    },
+    {
+     "speaker": "Resident 2",
+     "line": "Just construction noise and timeline. If it drags on for years, that could hurt us more than help in the short term."
+    },
+    {
+     "speaker": "Councillor Reyes",
+     "line": "The projected construction window is eighteen months, with noise restrictions enforced during business hours on the main commercial strip."
+    },
+    {
+     "speaker": "Resident 2",
+     "line": "Eighteen months feels optimistic, but I appreciate the noise restrictions being part of the plan."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Let's move to our third speaker for tonight."
+    },
+    {
+     "speaker": "Resident 3",
+     "line": "I'm Aisha Bello, and frankly, I think this rezoning threatens the character of our neighbourhood. These buildings are proposed at six storeys, way above what's currently allowed."
+    },
+    {
+     "speaker": "Councillor Reyes",
+     "line": "You're right that it exceeds current zoning, which is why council approval is required. The height was reduced from an original proposal of nine storeys after earlier feedback."
+    },
+    {
+     "speaker": "Resident 3",
+     "line": "That's something, I suppose, but six still feels like a lot for this stretch of Elm Street."
+    },
+    {
+     "speaker": "Chair",
+     "line": "Thank you all for your input tonight. Council will deliberate and the final vote is scheduled for the fourteenth of next month."
+    },
+    {
+     "speaker": "Resident 1",
+     "line": "Will there be another opportunity for public comment before that vote happens?"
+    },
+    {
+     "speaker": "Chair",
+     "line": "Yes, we'll hold one more session two weeks from tonight before council finalizes its decision."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this public meeting?",
+     "options": [
+      "To gather resident feedback on a proposed rezoning for mixed-use development",
+      "To vote immediately on the final rezoning decision",
+      "To discuss unrelated road repairs on Elm Street",
+      "To announce a new city budget"
+     ],
+     "answer": "To gather resident feedback on a proposed rezoning for mixed-use development",
+     "explanation": "The chair opens the floor specifically for comments on the rezoning proposal.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is Denise Okafor's main concern?",
+     "options": [
+      "Parking capacity",
+      "Construction noise",
+      "Building height",
+      "Loss of business"
+     ],
+     "answer": "Parking capacity",
+     "explanation": "She states she's worried about parking capacity near the proposed site.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Why does Tomasz Nowak support the development, despite some concerns?",
+     "options": [
+      "He believes foot traffic could help his struggling business",
+      "He owns land near the development site",
+      "He wants taller buildings in the area",
+      "He dislikes the current zoning laws"
+     ],
+     "answer": "He believes foot traffic could help his struggling business",
+     "explanation": "He says foot traffic could really help small businesses like his.",
+     "skill": "details"
+    },
+    {
+     "type": "numbers_dates",
+     "prompt": "How many storeys was the building height reduced from originally?",
+     "options": [
+      "Nine storeys",
+      "Twelve storeys",
+      "Six storeys",
+      "Fifteen storeys"
+     ],
+     "answer": "Nine storeys",
+     "explanation": "Councillor Reyes states the height was reduced from an original proposal of nine storeys.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Denise say traffic studies 'always seem to underestimate actual usage'?",
+     "options": [
+      "To express skepticism about the accuracy of the parking projections",
+      "To praise the developer's careful planning",
+      "To suggest the parking structure is unnecessary",
+      "To agree fully with the councillor's numbers"
+     ],
+     "answer": "To express skepticism about the accuracy of the parking projections",
+     "explanation": "She's challenging the reliability of the traffic study's conclusions.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the chair mention another public session before the final vote?",
+     "options": [
+      "To reassure residents they'll have another chance to voice concerns",
+      "To cancel the scheduled vote entirely",
+      "To announce the meeting has ended early",
+      "To dismiss further public input"
+     ],
+     "answer": "To reassure residents they'll have another chance to voice concerns",
+     "explanation": "The chair confirms one more session will happen before the council finalizes its decision.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does Aisha mean by saying the buildings threaten 'the character of our neighbourhood'?",
+     "options": [
+      "The development could change the area's identity and feel",
+      "The buildings will physically threaten residents' safety",
+      "The neighbourhood has a literal fictional character",
+      "The development includes a community theatre"
+     ],
+     "answer": "The development could change the area's identity and feel",
+     "explanation": "'Character' here refers to the distinct identity or atmosphere of the neighbourhood.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "We'll now open the floor for public comments on the proposed rezoning of the Elm Street corridor for mixed-use development.",
+     "blanks": [
+      "open the floor"
+     ],
+     "challenge": "expression",
+     "explanation": "'Open the floor' means to invite people to speak or comment."
+    },
+    {
+     "sentence": "Sure. The current proposal includes an underground parking structure with roughly two hundred spaces, which the developer's traffic study suggests should cover projected demand.",
+     "blanks": [
+      "two hundred"
+     ],
+     "challenge": "numbers",
+     "explanation": "Round numbers can be easy to mishear when spoken quickly in context."
+    },
+    {
+     "sentence": "With respect, those traffic studies always seem to underestimate actual usage once buildings fill up.",
+     "blanks": [
+      "underestimate"
+     ],
+     "challenge": "similar_sounds",
+     "explanation": "The word can be confused with similarly structured words like 'underestimated'."
+    },
+    {
+     "sentence": "The projected construction window is eighteen months, with noise restrictions enforced during business hours on the main commercial strip.",
+     "blanks": [
+      "eighteen months"
+     ],
+     "challenge": "numbers",
+     "explanation": "Number and unit combinations are often reduced and blended in fast speech."
+    },
+    {
+     "sentence": "The height was reduced from an original proposal of nine storeys after earlier feedback.",
+     "blanks": [
+      "nine storeys"
+     ],
+     "challenge": "numbers",
+     "explanation": "Numbers followed by nouns can blend together in connected speech."
+    },
+    {
+     "sentence": "Council will deliberate and the final vote is scheduled for the fourteenth of next month.",
+     "blanks": [
+      "the fourteenth"
+     ],
+     "challenge": "dates",
+     "explanation": "Ordinal dates like 'the fourteenth' are often reduced in natural speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "going to",
+     "heard_as": "gonna",
+     "explanation": "Reduced form appears implicitly in casual planning discussion."
+    },
+    {
+     "phrase": "want to",
+     "heard_as": "wanna",
+     "explanation": "Common reduction pattern found in fast conversational speech generally."
+    },
+    {
+     "phrase": "two hundred",
+     "heard_as": "too hundrid",
+     "explanation": "Numbers often lose crisp articulation in rapid connected speech."
+    },
+    {
+     "phrase": "eighteen months",
+     "heard_as": "ayteen munce",
+     "explanation": "The final consonant cluster softens considerably in fast natural speech."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+  "topic_slug": "teamwork-projects",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Dividing tasks",
+      "turns": [
+        { "speaker_label": "Teammate A", "speaker_voice": "shimmer", "sentence": "Who wants to write the report?", "is_free": true },
+        { "speaker_label": "Teammate B", "speaker_voice": "alloy", "sentence": "I can do that. Can you make the slides?", "is_free": true },
+        { "speaker_label": "Teammate A", "speaker_voice": "shimmer", "sentence": "Sure, I can start today.", "is_free": true },
+        { "speaker_label": "Teammate B", "speaker_voice": "alloy", "sentence": "Great, let's meet again tomorrow.", "is_free": true },
+        { "speaker_label": "Teammate A", "speaker_voice": "shimmer", "sentence": "Sounds good, see you then.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "A project falling behind",
+      "turns": [
+        { "speaker_label": "Teammate A", "speaker_voice": "coral", "sentence": "I'm a bit worried we're falling behind on the design phase.", "is_free": false },
+        { "speaker_label": "Teammate B", "speaker_voice": "sage", "sentence": "I've noticed that too — I think we underestimated how long the revisions would take.", "is_free": false },
+        { "speaker_label": "Teammate A", "speaker_voice": "coral", "sentence": "Should we ask for an extra pair of hands, or just adjust the timeline?", "is_free": false },
+        { "speaker_label": "Teammate B", "speaker_voice": "sage", "sentence": "Let's try bringing in Sam for a few days before we touch the deadline.", "is_free": false },
+        { "speaker_label": "Teammate A", "speaker_voice": "coral", "sentence": "Good idea, I'll reach out to him this afternoon.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Redistributing workload",
+      "turns": [
+        { "speaker_label": "Lead", "speaker_voice": "nova", "sentence": "Looking at the sprint board, it's clear the workload isn't distributed as evenly as I'd assumed.", "is_free": false },
+        { "speaker_label": "Team member", "speaker_voice": "shimmer", "sentence": "That matches what I've been feeling — a couple of us have taken on tickets outside our original scope.", "is_free": false },
+        { "speaker_label": "Lead", "speaker_voice": "nova", "sentence": "I'd rather redistribute now than have burnout creep in halfway through the sprint.", "is_free": false },
+        { "speaker_label": "Team member", "speaker_voice": "shimmer", "sentence": "Agreed — maybe we revisit estimates as a group instead of assigning them individually next time.", "is_free": false },
+        { "speaker_label": "Lead", "speaker_voice": "nova", "sentence": "That's a solid suggestion — let's build that into how we plan the next sprint.", "is_free": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "slug": "p2-piece-of-advice",
+      "part": 2,
+      "topic": "A piece of advice you received",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a piece of advice you received.",
+      "cue_points": [
+        "Who gave you this advice",
+        "What the advice was",
+        "Why they gave it to you",
+        "And explain whether you followed it and how it affected you"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 11
+    },
+    {
+      "slug": "p2-successful-person",
+      "part": 2,
+      "topic": "A successful person you know",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a successful person you know.",
+      "cue_points": [
+        "Who this person is",
+        "How you know them",
+        "What they have achieved",
+        "And explain why you think they are successful"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 12
+    },
+    {
+      "slug": "p2-place-to-visit",
+      "part": 2,
+      "topic": "A place you would like to visit",
+      "difficulty": "Beginner",
+      "questions": [],
+      "cue_card": "Describe a place you would like to visit in the future.",
+      "cue_points": [
+        "Where this place is",
+        "How you learned about it",
+        "What you would do there",
+        "And explain why you want to visit this place"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 13
+    },
+    {
+      "slug": "p2-time-you-were-surprised",
+      "part": 2,
+      "topic": "A time you were surprised",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a time you were surprised by something.",
+      "cue_points": [
+        "When this happened",
+        "Where you were at the time",
+        "What surprised you",
+        "And explain how you felt about it"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 14
+    },
+    {
+      "slug": "p2-important-event",
+      "part": 2,
+      "topic": "An important event in your life",
+      "difficulty": "Upper-Intermediate",
+      "questions": [],
+      "cue_card": "Describe an important event in your life.",
+      "cue_points": [
+        "What the event was",
+        "When and where it took place",
+        "Who was involved in it",
+        "And explain why this event was important to you"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 15
+    },
+    {
+      "slug": "p2-hobby-you-enjoy",
+      "part": 2,
+      "topic": "A hobby you enjoy",
+      "difficulty": "Beginner",
+      "questions": [],
+      "cue_card": "Describe a hobby you enjoy.",
+      "cue_points": [
+        "What the hobby is",
+        "How long you have been doing it",
+        "How often you do it",
+        "And explain why you enjoy this hobby"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 16
+    },
+    {
+      "slug": "p2-learned-from-mistake",
+      "part": 2,
+      "topic": "A time you learned something from a mistake",
+      "difficulty": "Upper-Intermediate",
+      "questions": [],
+      "cue_card": "Describe a time you learned something from a mistake you made.",
+      "cue_points": [
+        "What the mistake was",
+        "When it happened",
+        "What you learned from it",
+        "And explain how it changed your future behaviour"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 17
+    },
+    {
+      "slug": "p2-useful-website-app",
+      "part": 2,
+      "topic": "A useful website or app",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a useful website or app you often use.",
+      "cue_points": [
+        "What the website or app is",
+        "How you discovered it",
+        "How often you use it",
+        "And explain why you find it useful"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 18
+    },
+    {
+      "slug": "p2-time-you-waited",
+      "part": 2,
+      "topic": "A time you had to wait for something",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a time you had to wait for something.",
+      "cue_points": [
+        "What you were waiting for",
+        "Where you were waiting",
+        "How long you had to wait",
+        "And explain how you felt while waiting"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 19
+    },
+    {
+      "slug": "p2-person-to-meet",
+      "part": 2,
+      "topic": "A person you would like to meet",
+      "difficulty": "Advanced",
+      "questions": [],
+      "cue_card": "Describe a person you would like to meet.",
+      "cue_points": [
+        "Who this person is",
+        "How you know about them",
+        "What you would like to ask them",
+        "And explain why you would like to meet this person"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 20
+    }
+  ]
+}

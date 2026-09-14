@@ -1,0 +1,579 @@
+{
+  "lessons": [
+    {
+      "title": "Natural speaking speed",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Comfortable conversational English is roughly 120–160 words a minute. Slower is fine; long silent gaps are what hurt.",
+      "points": ["Speak in chunks, not word by word.", "Keep moving instead of restarting sentences."],
+      "items": [
+        { "text": "I usually get up around seven, have a quick breakfast, and then start work.", "pattern": "3 chunks, one breath each" },
+        { "text": "It's hard to say, because it really depends on the day.", "pattern": "2 chunks" },
+        { "text": "I've been learning English for about three years now.", "pattern": "1 chunk" }
+      ]
+    },
+    {
+      "title": "Useful fillers and linking ideas",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A short natural filler buys thinking time. Silence and 'uhhh' do not.",
+      "points": ["Thinking time: well… / let me think… / actually…", "Softening: I mean… / you know… / basically…", "Linking: so / because of that / on top of that / that's why"],
+      "caution": "Use one filler, not five. Repeating 'you know' every sentence lowers your score in speaking exams.",
+      "items": [
+        { "text": "Well, that's a good question. Let me think for a second.", "pattern": "buy time politely" },
+        { "text": "Actually, I changed my mind about that.", "pattern": "signal a correction" },
+        { "text": "I mean, it's not perfect, but it works.", "pattern": "soften an opinion" },
+        { "text": "So basically, that's why I moved to Canada.", "pattern": "link and conclude" }
+      ]
+    },
+    {
+      "title": "Self-correcting smoothly",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Fluent speakers correct themselves without stopping completely — a small phrase bridges the fix.",
+      "points": ["I mean...", "sorry, I meant...", "or rather..."],
+      "items": [
+        { "text": "I went there on Tuesday — sorry, I meant Wednesday.", "pattern": "smooth self-correction" },
+        { "text": "She's my colleague — I mean, my manager now.", "pattern": "smooth self-correction" },
+        { "text": "It costs about, or rather, exactly fifty dollars.", "pattern": "smooth self-correction" }
+      ]
+    },
+    {
+      "title": "Paraphrasing when you don't know a word",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Fluent speakers keep talking by describing around a missing word instead of stopping.",
+      "points": [],
+      "items": [
+        { "text": "It's the thing you use to open a bottle... a bottle opener.", "pattern": "describe, then land on the word" },
+        { "text": "You know, the place where you borrow books... a library.", "pattern": "describe, then land on the word" }
+      ]
+    },
+    {
+      "title": "Keeping momentum in long answers",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "In a 2-minute IELTS-style answer, keep adding ideas instead of stopping once you run out of a script.",
+      "points": ["Add an example.", "Add a reason.", "Add a comparison."],
+      "items": [
+        { "text": "I really enjoy hiking — for example, last month I went up a mountain near my hometown, which was tiring but incredibly rewarding.", "pattern": "idea + example + result, no stop" }
+      ]
+    },
+    {
+      "title": "Avoiding word-by-word translation habits",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Translating word by word in your head causes hesitation. Practise whole natural chunks instead of single words.",
+      "points": [],
+      "items": [
+        { "text": "on the other hand", "pattern": "one fixed chunk, not 4 separate words" },
+        { "text": "as far as I know", "pattern": "one fixed chunk" },
+        { "text": "to be honest with you", "pattern": "one fixed chunk" }
+      ]
+    },
+    {
+      "title": "Recovering from a mistake without stopping",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A small grammar mistake doesn't need a full stop — fluent speakers just keep going.",
+      "points": [],
+      "items": [
+        { "text": "She go— she goes to work every day.", "pattern": "quick self-fix, keep moving" },
+        { "text": "I have seen— I saw that movie last week.", "pattern": "quick self-fix, keep moving" }
+      ]
+    },
+    {
+      "title": "Fluency in answering unexpected questions",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "When surprised by a question, a short buying-time phrase keeps you fluent while you think.",
+      "points": [],
+      "items": [
+        { "text": "That's an interesting question — I haven't really thought about it before, but I'd say...", "pattern": "buy time, then answer" },
+        { "text": "Hmm, let me think about that for a moment...", "pattern": "buy time, then answer" }
+      ]
+    },
+    {
+      "title": "Strategic pausing vs hesitation",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A brief, silent pause at a natural chunk boundary sounds confident; a pause mid-chunk filled with 'um' sounds hesitant.",
+      "points": ["Pause between chunks, not inside them.", "A silent pause is often better than a filler."],
+      "items": [
+        { "text": "I think... (pause) ...the biggest challenge is time management.", "pattern": "pause between chunks = confident" },
+        { "text": "I th-th-think the biggest um challenge is uh time management.", "pattern": "pauses inside words = hesitant" }
+      ]
+    },
+    {
+      "title": "Signposting language for structured answers",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Signposting phrases make a long answer easy to follow and sound organized, common in IELTS Part 3.",
+      "points": ["First of all... / Another point is... / Finally..."],
+      "items": [
+        { "text": "First of all, it saves time. Another point is that it's cheaper. Finally, it's better for the environment.", "pattern": "clear signposted structure" }
+      ]
+    },
+    {
+      "title": "Sustaining a two-minute answer",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Keep a long answer going by adding a reason, then an example, then a result — never just stop after one sentence.",
+      "points": [],
+      "items": [
+        { "text": "I'd like to talk about my hometown. It's a small coastal town, which means the weather is mild all year. Because of that, a lot of tourists visit in summer, which has really boosted the local economy.", "pattern": "topic + detail + reason + result, no stop" }
+      ]
+    },
+    {
+      "title": "Transition phrases between topics",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Smooth transitions keep the flow going when moving from one idea to a related one.",
+      "points": ["Speaking of which... / That reminds me... / On a related note..."],
+      "items": [
+        { "text": "Speaking of which, that reminds me of something similar that happened to me.", "pattern": "smooth topic transition" },
+        { "text": "On a related note, I've also noticed the same thing at work.", "pattern": "smooth topic transition" }
+      ]
+    },
+    {
+      "title": "Speed control: deliberately slow vs natural fast",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Practise the same sentence at two speeds — slow and clear is fine, but avoid a flat, robotic pace either way.",
+      "points": [],
+      "items": [
+        { "text": "I really enjoy learning new languages.", "pattern": "slow: clear, each word separate but chunked" },
+        { "text": "I really enjoy learning new languages.", "pattern": "natural: chunked, linked, normal speed" }
+      ]
+    },
+    {
+      "title": "Fluency describing a picture or photo",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Picture description needs constant forward momentum — keep noticing and adding new details instead of stalling.",
+      "points": [],
+      "items": [
+        { "text": "In this photo, I can see a family having a picnic in the park. They seem to be enjoying the sunny weather, and there's a dog playing nearby.", "pattern": "keep noticing new details, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency summarizing what someone said",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Summarizing fluently uses a short lead-in phrase, then the compressed main point.",
+      "points": ["So basically... / In short... / Long story short..."],
+      "items": [
+        { "text": "So basically, they're saying the project is delayed until next month.", "pattern": "smooth summary lead-in" },
+        { "text": "Long story short, we ended up missing the flight.", "pattern": "smooth summary lead-in" }
+      ]
+    },
+    {
+      "title": "Giving a quick opinion without preparation",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "When asked for an instant opinion, a short buy-time phrase plus a direct answer keeps you fluent.",
+      "points": [],
+      "items": [
+        { "text": "Off the top of my head, I'd say it's probably a good idea.", "pattern": "buy time + direct opinion" },
+        { "text": "My gut feeling is that it won't work, honestly.", "pattern": "buy time + direct opinion" }
+      ]
+    },
+    {
+      "title": "Fluency in quick agreement or disagreement",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Fast, natural back-and-forth conversation needs quick, confident reactions without long pauses.",
+      "points": [],
+      "items": [
+        { "text": "Totally agree — that's exactly what I was thinking.", "pattern": "instant, confident agreement" },
+        { "text": "I see what you mean, but I'm not totally convinced.", "pattern": "instant, confident disagreement" }
+      ]
+    },
+    {
+      "title": "Telling a short story or joke fluently",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Jokes and short stories need very smooth timing — a bad pause right before the punchline kills the effect.",
+      "points": [],
+      "items": [
+        { "text": "So this guy walks into a bar, and the bartender says, 'Why the long face?'", "pattern": "smooth setup, no gaps, land the punchline" }
+      ]
+    },
+    {
+      "title": "Fluency explaining a process without stopping",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Explaining how to do something needs steady forward momentum from step to step.",
+      "points": [],
+      "items": [
+        { "text": "So basically, you open the app, log in with your email, and then you just follow the steps on screen.", "pattern": "no stops between steps" }
+      ]
+    },
+    {
+      "title": "Avoiding literal translation: more chunks",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "More natural fixed chunks to use as whole units instead of building them word by word.",
+      "points": [],
+      "items": [
+        { "text": "at the end of the day", "pattern": "one chunk, not 6 separate words" },
+        { "text": "when it comes to", "pattern": "one chunk" },
+        { "text": "the thing is", "pattern": "one chunk" }
+      ]
+    },
+    {
+      "title": "Fluency handling an interruption",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "When interrupted, a fluent speaker briefly yields, then smoothly picks the thread back up.",
+      "points": [],
+      "items": [
+        { "text": "Sure, go ahead — as I was saying, the main issue is cost.", "pattern": "yield, then resume smoothly" }
+      ]
+    },
+    {
+      "title": "Fluency giving quick advice",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Quick advice uses a short lead-in and a direct suggestion, without over-thinking.",
+      "points": ["If I were you... / You might want to... / Why not just..."],
+      "items": [
+        { "text": "If I were you, I'd just ask for a refund.", "pattern": "fast, direct advice" },
+        { "text": "You might want to double check that first.", "pattern": "fast, direct advice" }
+      ]
+    },
+    {
+      "title": "Fluency expressing empathy",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Empathetic responses flow naturally without long pauses, showing you're genuinely listening.",
+      "points": [],
+      "items": [
+        { "text": "Oh no, that sounds really stressful, I'm sorry.", "pattern": "smooth, immediate empathy" },
+        { "text": "That must have been so difficult for you.", "pattern": "smooth, immediate empathy" }
+      ]
+    },
+    {
+      "title": "Fluency discussing a hypothetical scenario",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Hypothetical discussions ('what if...') need smooth continuation through the imagined consequences.",
+      "points": [],
+      "items": [
+        { "text": "If everyone worked from home, I think traffic would drop a lot, and people would probably have more free time too.", "pattern": "smooth chain of consequences, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency in a debate rebuttal",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Responding to a counter-argument fluently starts by briefly acknowledging it, then moving straight to your point.",
+      "points": [],
+      "items": [
+        { "text": "That's true, but I'd argue the benefits still outweigh the risks.", "pattern": "acknowledge, pivot, no stop" }
+      ]
+    },
+    {
+      "title": "Fluent self-introduction",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A well-practised self-introduction should flow as one smooth unit, not separate rehearsed facts.",
+      "points": [],
+      "items": [
+        { "text": "Hi, I'm Anna, I'm from Vietnam, and I work as a graphic designer.", "pattern": "one smooth flowing introduction" }
+      ]
+    },
+    {
+      "title": "Fluency narrating a personal anecdote",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A good anecdote flows through setup, event and reaction without breaking momentum.",
+      "points": [],
+      "items": [
+        { "text": "So last year I went hiking with some friends, and halfway up the mountain it just started pouring rain — we were completely soaked by the time we got back.", "pattern": "setup → event → reaction, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency answering a follow-up question",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Follow-up questions should be answered immediately by building on what you already said, not restarting from scratch.",
+      "points": [],
+      "items": [
+        { "text": "A: Why did you choose that career? B: Mainly because I've always loved solving problems, so it felt like a natural fit.", "pattern": "instant, builds directly on the question" }
+      ]
+    },
+    {
+      "title": "Fluency giving constructive feedback",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Feedback flows better with a soft opener, the point, then a positive close — all in one smooth run.",
+      "points": ["One thing I noticed... / Something to think about... / Overall though..."],
+      "items": [
+        { "text": "One thing I noticed is the pacing felt a bit rushed, but overall it was really well put together.", "pattern": "soft opener → point → positive close, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency negotiating a deal",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Negotiation needs quick, confident responses without long gaps that make you seem unsure.",
+      "points": [],
+      "items": [
+        { "text": "I could go as low as three hundred, but that's really my limit.", "pattern": "confident, no hesitation" }
+      ]
+    },
+    {
+      "title": "Fluency describing a trend or change over time",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Describing change over time flows through a sequence of stages without stalling.",
+      "points": [],
+      "items": [
+        { "text": "Sales started slow, picked up around March, and then levelled off for the rest of the year.", "pattern": "smooth sequence through stages" }
+      ]
+    },
+    {
+      "title": "Fluency comparing options and deciding",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Weighing options fluently moves smoothly from one option to the other, then lands on a decision.",
+      "points": [],
+      "items": [
+        { "text": "This one's cheaper, but that one lasts longer, so I think I'll go with the second one.", "pattern": "smooth comparison → decision" }
+      ]
+    },
+    {
+      "title": "Fluency expressing frustration appropriately",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Frustration can still sound fluent and controlled rather than broken and hesitant.",
+      "points": [],
+      "items": [
+        { "text": "Honestly, this is the third time I've had to explain this, and it's getting a bit frustrating.", "pattern": "controlled, fluent frustration" }
+      ]
+    },
+    {
+      "title": "Fluency apologizing for a bigger mistake",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A serious apology flows through acknowledgement, explanation and a fix, without awkward gaps.",
+      "points": [],
+      "items": [
+        { "text": "I really messed up on this one, and I take full responsibility — here's what I'm doing to fix it.", "pattern": "acknowledge → own it → fix, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency presenting statistics",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Presenting numbers fluently keeps the story flowing, not just reading digits mechanically.",
+      "points": [],
+      "items": [
+        { "text": "Revenue grew by fifteen percent last quarter, which is actually our strongest growth in three years.", "pattern": "number + context, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency handling an awkward silence",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A short, natural phrase can smoothly break an awkward silence instead of an uncomfortable pause.",
+      "points": ["Anyway... / So... / Well, this is nice."],
+      "items": [
+        { "text": "Anyway, how's everything else been going?", "pattern": "smooth silence-breaker" },
+        { "text": "So, what do you think we should do next?", "pattern": "smooth silence-breaker" }
+      ]
+    },
+    {
+      "title": "Fluency chaining small talk topics",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Natural small talk flows from one topic to the next through a light connector.",
+      "points": [],
+      "items": [
+        { "text": "Nice weather today — speaking of which, are you doing anything fun this weekend?", "pattern": "topic 1 → connector → topic 2" }
+      ]
+    },
+    {
+      "title": "Fluency teaching a concept simply",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Teaching fluently means explaining, then immediately reinforcing with an example, without a gap.",
+      "points": [],
+      "items": [
+        { "text": "Basically, supply and demand means when something's rare, people want it more — like how concert tickets get expensive when they're limited.", "pattern": "concept + example, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency expressing hope about the future",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Talking about hopes flows smoothly through the wish and the reason behind it.",
+      "points": [],
+      "items": [
+        { "text": "I'm really hoping things pick up next year, especially since we've put in so much work already.", "pattern": "hope + reason, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency giving a recommendation",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Recommending something fluently moves straight from the suggestion into why it's good.",
+      "points": [],
+      "items": [
+        { "text": "You should definitely check out that restaurant — the food's amazing and it's not too pricey either.", "pattern": "recommendation + reasons, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency sharing good news",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Sharing exciting news flows with energy and keeps building instead of trailing off.",
+      "points": [],
+      "items": [
+        { "text": "Guess what — I got the promotion! I still can't quite believe it, honestly.", "pattern": "energetic, continuous flow" }
+      ]
+    },
+    {
+      "title": "Fluency describing a goal or dream",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Describing a goal flows from the goal itself into the plan to achieve it.",
+      "points": [],
+      "items": [
+        { "text": "My goal is to start my own business someday, so right now I'm just focusing on saving up and learning as much as I can.", "pattern": "goal + plan, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency explaining a decision you made",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Justifying a decision flows through the reasoning without sounding defensive or hesitant.",
+      "points": [],
+      "items": [
+        { "text": "I decided to turn down the offer, mainly because the commute would've been way too long for what it was worth.", "pattern": "decision + reasoning, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency expressing regret",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Expressing regret fluently moves through the wish and the reason without dwelling awkwardly.",
+      "points": [],
+      "items": [
+        { "text": "Looking back, I wish I'd started learning earlier, but I guess it's never too late.", "pattern": "regret + silver lining, no stop" }
+      ]
+    },
+    {
+      "title": "Fluency closing a conversation smoothly",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "A smooth close wraps up naturally instead of just abruptly stopping.",
+      "points": [],
+      "items": [
+        { "text": "Well, it's been great talking to you — let's definitely catch up again soon.", "pattern": "smooth, natural close" }
+      ]
+    },
+    {
+      "title": "Fluency resuming a topic after a distraction",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "After a brief distraction, a fluent speaker picks the exact thread back up without losing momentum.",
+      "points": ["Anyway, back to what I was saying..."],
+      "items": [
+        { "text": "Sorry, where was I? Right — anyway, back to what I was saying about the schedule.", "pattern": "brief break, smooth resume" }
+      ]
+    },
+    {
+      "title": "Fluency expanding a short yes/no answer",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A fluent speaker never just says 'yes' or 'no' alone — they immediately add a reason or detail.",
+      "points": [],
+      "items": [
+        { "text": "Yeah, definitely — I think it's one of the best decisions I've made, actually.", "pattern": "yes + immediate detail" },
+        { "text": "Not really, no — I've always preferred working alone.", "pattern": "no + immediate detail" }
+      ]
+    },
+    {
+      "title": "Fluency handling a sudden topic change",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "When a conversation suddenly shifts topic, a fluent speaker adapts instantly instead of freezing.",
+      "points": [],
+      "items": [
+        { "text": "Oh, that reminds me — did you hear about the new office opening downtown?", "pattern": "instant, smooth pivot" }
+      ]
+    },
+    {
+      "title": "Fluency giving genuine praise",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Genuine praise flows warmly and specifically, not just a flat single word.",
+      "points": [],
+      "items": [
+        { "text": "Honestly, that was one of the best presentations I've seen — really well organized.", "pattern": "warm, specific, flowing praise" }
+      ]
+    },
+    {
+      "title": "Fluency resolving a customer complaint",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "As a service agent, a fluent resolution moves smoothly from empathy to action, without sounding scripted.",
+      "points": [],
+      "items": [
+        { "text": "I completely understand the frustration, and I'm going to sort this out for you right now — let me just pull up your account.", "pattern": "empathy → action, no stop" }
+      ]
+    }
+  ]
+}

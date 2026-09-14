@@ -1,0 +1,2416 @@
+{
+  "slug": "technology-daily-life",
+  "name": "Technology in Daily Life",
+  "topic_group": "Everyday English",
+  "blurb": "Practice natural spoken English about phones, apps, internet issues, and everyday digital life.",
+  "sort_order": 22,
+  "sentences": [
+    {
+      "subcategory": "Phones & apps",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My phone is dead.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'phone'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "dead",
+          "meaning": "battery has no power"
+        }
+      ],
+      "grammar_focus": "simple present with 'is'",
+      "tags": [
+        "phones",
+        "battery"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The Wi-Fi is really slow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'Wi-Fi'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "slow",
+          "meaning": "not fast"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "wifi",
+        "internet"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What's your password?",
+      "natural_form": "What's",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'password'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Rising intonation for yes/no question",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "password",
+          "meaning": "secret code to log in"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "accounts",
+        "login"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can you hear me?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'hear'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "hear",
+          "meaning": "to notice sound"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "video calls"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I ordered it online.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'ordered'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "ordered",
+          "meaning": "asked to buy"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "shopping",
+        "online"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I love this show.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'show'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "show",
+          "meaning": "TV program"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "streaming",
+        "tv"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please restart the computer.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'restart'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "restart",
+          "meaning": "turn off and on again"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "fixing",
+        "computer"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I use my phone too much.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'use'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "too much",
+          "meaning": "more than needed"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "privacy",
+        "screen time"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Did you get my text?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'text'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Rising intonation for yes/no question",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "text",
+          "meaning": "short phone message"
+        }
+      ],
+      "grammar_focus": "simple past question",
+      "tags": [
+        "phones",
+        "texting"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My internet stopped working.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'stopped'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "stopped",
+          "meaning": "no longer running"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "wifi",
+        "internet"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I forgot my password again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'forgot'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "forgot",
+          "meaning": "did not remember"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "accounts",
+        "password"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "This call sounds bad.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'sounds'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "sounds",
+          "meaning": "seems to be"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "video calls"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is this website safe?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'safe'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Rising intonation for yes/no question",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "safe",
+          "meaning": "not dangerous"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "shopping",
+        "safety"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I watched two episodes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'episodes'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "episodes",
+          "meaning": "parts of a show"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "streaming",
+        "tv"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My laptop won't turn on.",
+      "natural_form": "won't",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'won't'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "won't",
+          "meaning": "will not"
+        }
+      ],
+      "grammar_focus": "negative future",
+      "tags": [
+        "fixing",
+        "laptop"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Turn off your phone, please.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'turn off'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "turn off",
+          "meaning": "switch off"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "privacy",
+        "phone"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This app is really useful.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'useful'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "useful",
+          "meaning": "helpful"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "apps"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Can you connect to Wi-Fi?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'connect'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Rising intonation for yes/no question",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "connect",
+          "meaning": "join a network"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "wifi"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need a new password.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'need'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "need",
+          "meaning": "require"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "accounts",
+        "password"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The video keeps freezing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'freezing'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "freezing",
+          "meaning": "stopping suddenly"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "video calls"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I paid with my card.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'paid'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "paid",
+          "meaning": "gave money"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "shopping",
+        "payment"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you use Instagram?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'use'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Rising intonation for yes/no question",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "use",
+          "meaning": "to work with"
+        }
+      ],
+      "grammar_focus": "simple present question",
+      "tags": [
+        "social media"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The screen is cracked.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'cracked'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "cracked",
+          "meaning": "broken with lines"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "fixing",
+        "screen"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "Screen time is too high.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'screen time'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "screen time",
+          "meaning": "time spent on screens"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "privacy"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Send me the app link.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear articulation of 'link'",
+      "stress_focus": "Stress on the key content word",
+      "intonation_focus": "Falling intonation on statements",
+      "connected_speech_focus": "Natural linking between words",
+      "vocabulary": [
+        {
+          "word": "link",
+          "meaning": "web address"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "apps"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I downloaded a new app for tracking my sleep.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'download'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "downloaded",
+          "meaning": "installed onto a device"
+        },
+        {
+          "word": "tracking",
+          "meaning": "following and recording"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "apps",
+        "health"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think the router needs to be reset.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'router'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "router",
+          "meaning": "device that provides Wi-Fi"
+        },
+        {
+          "word": "reset",
+          "meaning": "restart to fix it"
+        }
+      ],
+      "grammar_focus": "modal 'needs to'",
+      "tags": [
+        "wifi",
+        "router"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "I use a different password for every account.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'password'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "account",
+          "meaning": "online profile"
+        },
+        {
+          "word": "different",
+          "meaning": "not the same"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "accounts",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We had a video call with my grandmother yesterday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'video call'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "video call",
+          "meaning": "call with picture"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "video calls",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I returned the shoes because they didn't fit.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'return'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "returned",
+          "meaning": "sent back"
+        },
+        {
+          "word": "fit",
+          "meaning": "match in size"
+        }
+      ],
+      "grammar_focus": "simple past with because",
+      "tags": [
+        "shopping",
+        "returns"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think social media takes up too much time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'social media'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "takes up",
+          "meaning": "uses"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "social media",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I had to reinstall the whole operating system.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'reinstall'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "reinstall",
+          "meaning": "install again"
+        },
+        {
+          "word": "operating system",
+          "meaning": "main software of a computer"
+        }
+      ],
+      "grammar_focus": "past modal 'had to'",
+      "tags": [
+        "fixing",
+        "software"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "How much time do you spend on your phone daily?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'screen time'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Rising then falling for compound thought",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "spend",
+          "meaning": "use time doing something"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "privacy",
+        "screen time"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "My phone battery drains really fast these days.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'drains'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "drains",
+          "meaning": "loses power quickly"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "phones",
+        "battery"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The internet keeps cutting out during meetings.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'cutting out'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "cutting out",
+          "meaning": "stopping suddenly"
+        }
+      ],
+      "grammar_focus": "present continuous with keep",
+      "tags": [
+        "wifi",
+        "meetings"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you help me reset my account password?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'reset'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "reset",
+          "meaning": "set again from the start"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "accounts",
+        "password"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The connection was choppy for most of the call.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'choppy'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "choppy",
+          "meaning": "not smooth"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "video calls"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I prefer paying with a credit card online.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'prefer'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "prefer",
+          "meaning": "like more"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "shopping",
+        "payment"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I binge-watched an entire season last weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'binge-watched'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "binge-watched",
+          "meaning": "watched many episodes at once"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "streaming"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The technician fixed my laptop in an hour.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'technician'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "technician",
+          "meaning": "person who repairs machines"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "fixing"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I try to limit my kids' screen time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'limit'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "limit",
+          "meaning": "keep something within a range"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "privacy",
+        "parenting"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "This update fixed a lot of annoying bugs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'update'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "bugs",
+          "meaning": "small software errors"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "apps",
+        "updates"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Why does the Wi-Fi disconnect every few minutes?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'disconnect'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Rising then falling for compound thought",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "disconnect",
+          "meaning": "lose connection"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "wifi"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I enabled two-factor authentication on my email.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'enabled'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "two-factor authentication",
+          "meaning": "extra login security step"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "accounts",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Let's schedule the call for tomorrow morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'schedule'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "schedule",
+          "meaning": "plan for a time"
+        }
+      ],
+      "grammar_focus": "imperative with let's",
+      "tags": [
+        "video calls",
+        "planning"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "My package got delayed because of the weather.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'delayed'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "delayed",
+          "meaning": "made later than planned"
+        }
+      ],
+      "grammar_focus": "simple past with because",
+      "tags": [
+        "shopping",
+        "delivery"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I unfollowed a few accounts that annoyed me.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'unfollowed'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "unfollowed",
+          "meaning": "stopped following"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "social media"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "It's cheaper to fix it than buy a new one.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'cheaper'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "cheaper",
+          "meaning": "costs less"
+        }
+      ],
+      "grammar_focus": "comparative structure",
+      "tags": [
+        "fixing",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I turned off notifications to focus better.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'notifications'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Falling pitch at sentence end",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "notifications",
+          "meaning": "alerts from apps"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "privacy",
+        "focus"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Have you tried clearing the app's cache?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear consonants in 'cache'",
+      "stress_focus": "Stress the main verb and key noun",
+      "intonation_focus": "Rising then falling for compound thought",
+      "connected_speech_focus": "Link words smoothly, reduce 'to' to /tə/",
+      "vocabulary": [
+        {
+          "word": "cache",
+          "meaning": "stored temporary data"
+        }
+      ],
+      "grammar_focus": "present perfect question",
+      "tags": [
+        "apps",
+        "fixing"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I don't think I could go a whole day without my phone.",
+      "natural_form": "I don't think I could go a whole day without my phone.",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'phone'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "go without",
+          "meaning": "not have something"
+        }
+      ],
+      "grammar_focus": "modal with negative",
+      "tags": [
+        "phones",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "The signal drops every time someone else starts streaming a video.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'signal'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "drops",
+          "meaning": "weakens or disappears"
+        }
+      ],
+      "grammar_focus": "time clause with 'every time'",
+      "tags": [
+        "wifi",
+        "streaming"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I keep a list of my passwords in an encrypted app.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'encrypted'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "encrypted",
+          "meaning": "protected by a security code"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "accounts",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Video calls never feel as natural as talking in person.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'natural'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "natural",
+          "meaning": "normal and comfortable"
+        }
+      ],
+      "grammar_focus": "comparative with 'as...as'",
+      "tags": [
+        "video calls",
+        "comparison"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I compare prices on a few sites before I buy anything.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'compare'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "compare",
+          "meaning": "look at differences"
+        }
+      ],
+      "grammar_focus": "present with time clause",
+      "tags": [
+        "shopping",
+        "comparison"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "My feed is full of ads ever since I searched for shoes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'feed'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "feed",
+          "meaning": "stream of posts"
+        }
+      ],
+      "grammar_focus": "present perfect with 'ever since'",
+      "tags": [
+        "social media",
+        "ads"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I backed up my files before wiping the whole hard drive.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'backed up'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "wiping",
+          "meaning": "erasing everything"
+        }
+      ],
+      "grammar_focus": "past with time clause",
+      "tags": [
+        "fixing",
+        "data"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I feel anxious whenever I forget my phone at home.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'anxious'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "anxious",
+          "meaning": "worried or nervous"
+        }
+      ],
+      "grammar_focus": "present with whenever clause",
+      "tags": [
+        "privacy",
+        "emotions"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How do you stop apps from draining your battery so fast?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'draining'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "draining",
+          "meaning": "using up energy"
+        }
+      ],
+      "grammar_focus": "wh-question with gerund",
+      "tags": [
+        "phones",
+        "battery"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The technician said the outage was caused by bad weather.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'outage'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "outage",
+          "meaning": "period without service"
+        }
+      ],
+      "grammar_focus": "reported speech",
+      "tags": [
+        "wifi",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "I got locked out of my account after too many attempts.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'locked out'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "attempts",
+          "meaning": "tries"
+        }
+      ],
+      "grammar_focus": "past passive-like phrase",
+      "tags": [
+        "accounts",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We rescheduled the meeting because the call kept dropping.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'rescheduled'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "kept dropping",
+          "meaning": "disconnected repeatedly"
+        }
+      ],
+      "grammar_focus": "past with because",
+      "tags": [
+        "video calls",
+        "meetings"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think free shipping makes people spend more money overall.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'shipping'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "overall",
+          "meaning": "in total"
+        }
+      ],
+      "grammar_focus": "causative structure",
+      "tags": [
+        "shopping",
+        "spending"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "I've noticed I scroll through my phone right before bed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'scroll'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "scroll",
+          "meaning": "move through content"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "social media",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you walk me through resetting the router step by step?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'walk me through'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "step by step",
+          "meaning": "one stage at a time"
+        }
+      ],
+      "grammar_focus": "polite request with gerund",
+      "tags": [
+        "fixing",
+        "wifi"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I set a daily limit so I don't waste hours online.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'limit'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "waste",
+          "meaning": "use badly"
+        }
+      ],
+      "grammar_focus": "purpose clause with 'so'",
+      "tags": [
+        "privacy",
+        "time management"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Some apps ask for way more permissions than they actually need.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'permissions'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "permissions",
+          "meaning": "allowed access to data"
+        }
+      ],
+      "grammar_focus": "comparative with 'than'",
+      "tags": [
+        "apps",
+        "privacy"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The connection is fine until several devices join at once.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'devices'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "at once",
+          "meaning": "at the same time"
+        }
+      ],
+      "grammar_focus": "present with 'until'",
+      "tags": [
+        "wifi",
+        "devices"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think using the same password everywhere is really risky.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'risky'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "risky",
+          "meaning": "dangerous"
+        }
+      ],
+      "grammar_focus": "gerund as subject",
+      "tags": [
+        "accounts",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Everyone froze on screen right when I started explaining the plan.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'froze'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "froze",
+          "meaning": "stopped moving"
+        }
+      ],
+      "grammar_focus": "past with time clause",
+      "tags": [
+        "video calls",
+        "frustration"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I almost bought something I didn't need because of a flash sale.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'flash sale'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "flash sale",
+          "meaning": "short discount event"
+        }
+      ],
+      "grammar_focus": "past with because of",
+      "tags": [
+        "shopping",
+        "impulse"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I try not to compare my life to what I see online.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'compare'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "compare",
+          "meaning": "judge against"
+        }
+      ],
+      "grammar_focus": "infinitive after 'try'",
+      "tags": [
+        "social media",
+        "wellbeing"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "It took forever to figure out why the printer wasn't working.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'figure out'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "figure out",
+          "meaning": "find the reason"
+        }
+      ],
+      "grammar_focus": "past with infinitive",
+      "tags": [
+        "fixing",
+        "printer"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I moved distracting apps off my home screen to focus more.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'distracting'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "distracting",
+          "meaning": "taking attention away"
+        }
+      ],
+      "grammar_focus": "past with infinitive of purpose",
+      "tags": [
+        "privacy",
+        "focus"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "My contacts disappeared after I updated the operating system.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce function words; stress 'disappeared'",
+      "stress_focus": "Stress content words, contrast pattern",
+      "intonation_focus": "Varied intonation across the clause",
+      "connected_speech_focus": "Blend words across clause boundary, e.g. linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "operating system",
+          "meaning": "the phone's core software"
+        }
+      ],
+      "grammar_focus": "past with after clause",
+      "tags": [
+        "phones",
+        "apps"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "If phones weren't so distracting, I honestly think people would read a lot more.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'distracting'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "distracting",
+          "meaning": "pulling attention away"
+        }
+      ],
+      "grammar_focus": "second conditional",
+      "tags": [
+        "phones",
+        "reading"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Even after the technician replaced the router, the connection still cuts out occasionally.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'cuts out'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "occasionally",
+          "meaning": "sometimes, not often"
+        }
+      ],
+      "grammar_focus": "concession with 'even after'",
+      "tags": [
+        "wifi",
+        "fixing"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since so many sites got hacked last year, I switched to a password manager.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'hacked'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "password manager",
+          "meaning": "tool that stores logins securely"
+        }
+      ],
+      "grammar_focus": "cause and effect with 'since'",
+      "tags": [
+        "accounts",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I'd rather meet in person, but video calls save us so much travel time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'save'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "travel time",
+          "meaning": "time spent commuting"
+        }
+      ],
+      "grammar_focus": "contrast with 'but'",
+      "tags": [
+        "video calls",
+        "comparison"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "I ended up returning half of what I bought because the sizes ran small.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'ran small'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "ran small",
+          "meaning": "were smaller than expected"
+        }
+      ],
+      "grammar_focus": "past with cause/effect",
+      "tags": [
+        "shopping",
+        "returns"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "The more I scroll through social media, the less motivated I feel to do anything.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'scroll'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "motivated",
+          "meaning": "having the desire to act"
+        }
+      ],
+      "grammar_focus": "comparative 'the more...the less'",
+      "tags": [
+        "social media",
+        "motivation"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I would've fixed it myself if I'd known how cheap the part actually was.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'fixed'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "part",
+          "meaning": "a component of a device"
+        }
+      ],
+      "grammar_focus": "third conditional",
+      "tags": [
+        "fixing",
+        "regret"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Even though I know it's unhealthy, I still check my phone first thing in the morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'unhealthy'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "first thing",
+          "meaning": "before doing anything else"
+        }
+      ],
+      "grammar_focus": "concession with 'even though'",
+      "tags": [
+        "privacy",
+        "habits"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "By the time I realized the app was tracking my location, I'd already granted every permission.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'tracking'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "granted",
+          "meaning": "given, allowed"
+        }
+      ],
+      "grammar_focus": "past perfect with time clause",
+      "tags": [
+        "apps",
+        "privacy"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Once we moved the router to the living room, the signal upstairs improved dramatically.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'improved'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "dramatically",
+          "meaning": "to a great extent"
+        }
+      ],
+      "grammar_focus": "time clause with 'once'",
+      "tags": [
+        "wifi",
+        "improvement"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Unless companies start taking data breaches seriously, people will keep losing trust in them.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'breaches'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "breaches",
+          "meaning": "security failures"
+        }
+      ],
+      "grammar_focus": "first conditional with 'unless'",
+      "tags": [
+        "accounts",
+        "trust"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Halfway through the call, my screen froze, and I had to restart my whole laptop.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'froze'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "restart",
+          "meaning": "turn off and on again"
+        }
+      ],
+      "grammar_focus": "past with sequence connectors",
+      "tags": [
+        "video calls",
+        "fixing"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Although reviews can be helpful, I've learned not to trust the ones that sound too perfect.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'reviews'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "sound too perfect",
+          "meaning": "seem unrealistically positive"
+        }
+      ],
+      "grammar_focus": "concession clause",
+      "tags": [
+        "shopping",
+        "reviews"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "After canceling three different streaming services, I finally settled on the one I actually use.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'canceling'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "settled on",
+          "meaning": "chose after considering options"
+        }
+      ],
+      "grammar_focus": "past participle clause",
+      "tags": [
+        "streaming",
+        "decisions"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Rather than paying for repairs, I watched a few tutorials and fixed the laptop myself.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'tutorials'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "tutorials",
+          "meaning": "instructional videos"
+        }
+      ],
+      "grammar_focus": "rather than + gerund",
+      "tags": [
+        "fixing",
+        "diy"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "The fact that apps are designed to be addictive makes it harder to cut back.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'addictive'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "cut back",
+          "meaning": "reduce usage"
+        }
+      ],
+      "grammar_focus": "noun clause as subject",
+      "tags": [
+        "privacy",
+        "design"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "No matter how many times I clear the cache, the app still runs painfully slow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'cache'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "painfully slow",
+          "meaning": "extremely slow"
+        }
+      ],
+      "grammar_focus": "concession with 'no matter how'",
+      "tags": [
+        "apps",
+        "fixing"
+      ]
+    },
+    {
+      "subcategory": "Wi-Fi & internet problems",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "If internet providers were held accountable for downtime, service would probably improve overnight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'accountable'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "downtime",
+          "meaning": "time when service is unavailable"
+        }
+      ],
+      "grammar_focus": "second conditional",
+      "tags": [
+        "wifi",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Online accounts & passwords",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Having reused the same password for years, I wasn't surprised when my account got compromised.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'reused'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "compromised",
+          "meaning": "broken into or hacked"
+        }
+      ],
+      "grammar_focus": "perfect participle clause",
+      "tags": [
+        "accounts",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Video calls",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Whenever the call gets choppy, we usually just switch to phone audio instead of video.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'choppy'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "switch to",
+          "meaning": "change to"
+        }
+      ],
+      "grammar_focus": "habitual present with whenever",
+      "tags": [
+        "video calls",
+        "solutions"
+      ]
+    },
+    {
+      "subcategory": "Online shopping & payments",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "What bothers me most about online shopping is how easily hidden fees add up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'hidden fees'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "add up",
+          "meaning": "increase gradually"
+        }
+      ],
+      "grammar_focus": "noun clause as subject",
+      "tags": [
+        "shopping",
+        "fees"
+      ]
+    },
+    {
+      "subcategory": "Streaming & social media",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Ever since the algorithm changed, I barely see posts from the people I actually follow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'algorithm'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "barely",
+          "meaning": "almost not at all"
+        }
+      ],
+      "grammar_focus": "present perfect with 'ever since'",
+      "tags": [
+        "social media",
+        "algorithms"
+      ]
+    },
+    {
+      "subcategory": "Fixing tech problems",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "There's something satisfying about troubleshooting a problem instead of just replacing the whole device.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'troubleshooting'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "troubleshooting",
+          "meaning": "diagnosing and solving a problem"
+        }
+      ],
+      "grammar_focus": "gerund phrase as complement",
+      "tags": [
+        "fixing",
+        "satisfaction"
+      ]
+    },
+    {
+      "subcategory": "Privacy & screen time",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Once I started tracking my screen time, I couldn't believe how many hours I was wasting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'tracking'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "wasting",
+          "meaning": "using without benefit"
+        }
+      ],
+      "grammar_focus": "past with result clause",
+      "tags": [
+        "privacy",
+        "awareness"
+      ]
+    },
+    {
+      "subcategory": "Phones & apps",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Even with all these smart features, my phone still can't do the one thing I actually need.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Natural reduction around 'smart features'",
+      "stress_focus": "Emphasis on contrastive/conditional clause",
+      "intonation_focus": "Complex intonation shift between clauses",
+      "connected_speech_focus": "Heavy linking and reduction typical of fast natural speech",
+      "vocabulary": [
+        {
+          "word": "features",
+          "meaning": "functions of a product"
+        }
+      ],
+      "grammar_focus": "concession with 'even with'",
+      "tags": [
+        "phones",
+        "limitations"
+      ]
+    }
+  ]
+}

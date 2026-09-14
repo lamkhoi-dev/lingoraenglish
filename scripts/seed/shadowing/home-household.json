@@ -1,0 +1,2409 @@
+{
+  "slug": "home-household",
+  "name": "Home & Household",
+  "topic_group": "Everyday English",
+  "blurb": "Practical everyday phrases about chores, repairs, renting, and living with others.",
+  "sort_order": 20,
+  "sentences": [
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need to clean the kitchen.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ sounds",
+      "stress_focus": "need, clean",
+      "intonation_focus": "falling tone on statement",
+      "connected_speech_focus": "need to reduced to 'needa'",
+      "vocabulary": [
+        {
+          "word": "clean",
+          "meaning": "to remove dirt"
+        }
+      ],
+      "grammar_focus": "simple present with need to",
+      "tags": [
+        "chores",
+        "daily"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can you take out the trash?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking can-you",
+      "stress_focus": "take, trash",
+      "intonation_focus": "rising then falling",
+      "connected_speech_focus": "can you blended to 'kinya'",
+      "vocabulary": [
+        {
+          "word": "trash",
+          "meaning": "garbage"
+        }
+      ],
+      "grammar_focus": "modal request with can",
+      "tags": [
+        "chores",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I did the dishes last night.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense -id ending",
+      "stress_focus": "did, dishes",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "did the linked smoothly",
+      "vocabulary": [
+        {
+          "word": "dishes",
+          "meaning": "plates and cups"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "dishes",
+        "daily"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The laundry is in the basket.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /l/ sound",
+      "stress_focus": "laundry, basket",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is in reduced",
+      "vocabulary": [
+        {
+          "word": "laundry",
+          "meaning": "clothes to be washed"
+        }
+      ],
+      "grammar_focus": "present simple with is",
+      "tags": [
+        "laundry",
+        "home"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The light bulb is broken.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on broken",
+      "stress_focus": "light, broken",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is reduced to 's",
+      "vocabulary": [
+        {
+          "word": "broken",
+          "meaning": "not working"
+        }
+      ],
+      "grammar_focus": "present simple description",
+      "tags": [
+        "repairs",
+        "home"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is the sink fixed yet?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising intonation on question",
+      "stress_focus": "sink, fixed",
+      "intonation_focus": "rising tone at end",
+      "connected_speech_focus": "is the linked",
+      "vocabulary": [
+        {
+          "word": "fixed",
+          "meaning": "repaired"
+        }
+      ],
+      "grammar_focus": "yes/no question with be",
+      "tags": [
+        "repairs",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My landlord is very nice.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on landlord",
+      "stress_focus": "landlord, nice",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is reduced",
+      "vocabulary": [
+        {
+          "word": "landlord",
+          "meaning": "person who rents out a home"
+        }
+      ],
+      "grammar_focus": "simple present with adjective",
+      "tags": [
+        "renting",
+        "housing"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I pay rent every month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ sound",
+      "stress_focus": "pay, rent",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "pay linked to rent",
+      "vocabulary": [
+        {
+          "word": "rent",
+          "meaning": "money paid to live somewhere"
+        }
+      ],
+      "grammar_focus": "present simple habit",
+      "tags": [
+        "renting",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The electric bill is high.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on electric",
+      "stress_focus": "electric, high",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "bill is linked",
+      "vocabulary": [
+        {
+          "word": "electric",
+          "meaning": "related to electricity"
+        }
+      ],
+      "grammar_focus": "simple present description",
+      "tags": [
+        "bills",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Did you pay the water bill?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense /d/ sound",
+      "stress_focus": "pay, water, bill",
+      "intonation_focus": "rising tone",
+      "connected_speech_focus": "did you blended",
+      "vocabulary": [
+        {
+          "word": "bill",
+          "meaning": "a statement of money owed"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "bills",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We bought a new couch.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense bought",
+      "stress_focus": "bought, couch",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "a new linked",
+      "vocabulary": [
+        {
+          "word": "couch",
+          "meaning": "a sofa"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "furniture",
+        "shopping"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This chair is too small.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on small",
+      "stress_focus": "chair, small",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is too linked",
+      "vocabulary": [
+        {
+          "word": "chair",
+          "meaning": "a seat for one person"
+        }
+      ],
+      "grammar_focus": "simple present with too",
+      "tags": [
+        "furniture",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My neighbor is really loud.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on loud",
+      "stress_focus": "neighbor, loud",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is really linked",
+      "vocabulary": [
+        {
+          "word": "neighbor",
+          "meaning": "a person living nearby"
+        }
+      ],
+      "grammar_focus": "simple present description",
+      "tags": [
+        "neighbours",
+        "home"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "No pets are allowed here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on allowed",
+      "stress_focus": "pets, allowed",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "are allowed linked",
+      "vocabulary": [
+        {
+          "word": "allowed",
+          "meaning": "permitted"
+        }
+      ],
+      "grammar_focus": "passive simple present",
+      "tags": [
+        "rules",
+        "housing"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I share a room with my sister.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /sh/ sound",
+      "stress_focus": "share, room, sister",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "with my linked",
+      "vocabulary": [
+        {
+          "word": "share",
+          "meaning": "to use together"
+        }
+      ],
+      "grammar_focus": "present simple habit",
+      "tags": [
+        "sharing",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Who cleans the bathroom?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "wh-question falling tone",
+      "stress_focus": "cleans, bathroom",
+      "intonation_focus": "falling tone on wh-question",
+      "connected_speech_focus": "who cleans linked",
+      "vocabulary": [
+        {
+          "word": "bathroom",
+          "meaning": "a room with a toilet and sink"
+        }
+      ],
+      "grammar_focus": "wh-question present simple",
+      "tags": [
+        "sharing",
+        "chores"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I vacuum the floor daily.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /v/ sound",
+      "stress_focus": "vacuum, floor",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "vacuum the linked",
+      "vocabulary": [
+        {
+          "word": "vacuum",
+          "meaning": "to clean with a machine"
+        }
+      ],
+      "grammar_focus": "simple present habit",
+      "tags": [
+        "chores",
+        "daily"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please wash the dishes now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on wash",
+      "stress_focus": "wash, dishes",
+      "intonation_focus": "falling tone command",
+      "connected_speech_focus": "wash the linked",
+      "vocabulary": [
+        {
+          "word": "wash",
+          "meaning": "to clean with water"
+        }
+      ],
+      "grammar_focus": "imperative request",
+      "tags": [
+        "chores",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The dryer is very loud.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on loud",
+      "stress_focus": "dryer, loud",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is very linked",
+      "vocabulary": [
+        {
+          "word": "dryer",
+          "meaning": "a machine that dries clothes"
+        }
+      ],
+      "grammar_focus": "simple present description",
+      "tags": [
+        "laundry",
+        "home"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The door won't close.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction won't",
+      "stress_focus": "door, close",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "won't reduced",
+      "vocabulary": [
+        {
+          "word": "close",
+          "meaning": "to shut"
+        }
+      ],
+      "grammar_focus": "simple present with won't",
+      "tags": [
+        "repairs",
+        "home"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "When is the rent due?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "wh-question rising fall",
+      "stress_focus": "rent, due",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is the linked",
+      "vocabulary": [
+        {
+          "word": "due",
+          "meaning": "expected to be paid"
+        }
+      ],
+      "grammar_focus": "wh-question present simple",
+      "tags": [
+        "renting",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We use a lot of gas.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on gas",
+      "stress_focus": "use, gas",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "a lot of linked",
+      "vocabulary": [
+        {
+          "word": "gas",
+          "meaning": "fuel used for heating or cooking"
+        }
+      ],
+      "grammar_focus": "present simple habit",
+      "tags": [
+        "bills",
+        "home"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We need a new table.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on table",
+      "stress_focus": "need, table",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "need a linked",
+      "vocabulary": [
+        {
+          "word": "table",
+          "meaning": "a piece of furniture"
+        }
+      ],
+      "grammar_focus": "simple present with need",
+      "tags": [
+        "furniture",
+        "home"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The elevator is out of order.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on elevator",
+      "stress_focus": "elevator, order",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is out linked",
+      "vocabulary": [
+        {
+          "word": "elevator",
+          "meaning": "a lift"
+        }
+      ],
+      "grammar_focus": "simple present description",
+      "tags": [
+        "neighbours",
+        "building"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We split the rent evenly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on split",
+      "stress_focus": "split, rent, evenly",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "split the linked",
+      "vocabulary": [
+        {
+          "word": "split",
+          "meaning": "to divide"
+        }
+      ],
+      "grammar_focus": "present simple habit",
+      "tags": [
+        "sharing",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I usually clean the bathroom on Saturdays.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "weak vowel in usually",
+      "stress_focus": "clean, bathroom, Saturdays",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "usually reduced",
+      "vocabulary": [
+        {
+          "word": "usually",
+          "meaning": "most of the time"
+        }
+      ],
+      "grammar_focus": "present simple with frequency adverb",
+      "tags": [
+        "chores",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think doing chores together is more fun.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on fun",
+      "stress_focus": "chores, together, fun",
+      "intonation_focus": "falling tone opinion",
+      "connected_speech_focus": "doing linked",
+      "vocabulary": [
+        {
+          "word": "chores",
+          "meaning": "household tasks"
+        }
+      ],
+      "grammar_focus": "gerund subject with opinion",
+      "tags": [
+        "chores",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I forgot to put the laundry in the dryer.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense forgot",
+      "stress_focus": "forgot, laundry, dryer",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "put the linked",
+      "vocabulary": [
+        {
+          "word": "forgot",
+          "meaning": "did not remember"
+        }
+      ],
+      "grammar_focus": "past simple with infinitive",
+      "tags": [
+        "laundry",
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Could you wash these dishes for me, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising tone request",
+      "stress_focus": "wash, dishes, please",
+      "intonation_focus": "polite rising then falling",
+      "connected_speech_focus": "could you blended",
+      "vocabulary": [
+        {
+          "word": "dishes",
+          "meaning": "plates and cups"
+        }
+      ],
+      "grammar_focus": "polite request with could",
+      "tags": [
+        "dishes",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The plumber is coming to fix the pipe tomorrow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on plumber",
+      "stress_focus": "plumber, fix, pipe",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "is coming linked",
+      "vocabulary": [
+        {
+          "word": "plumber",
+          "meaning": "a person who repairs pipes"
+        }
+      ],
+      "grammar_focus": "present continuous for future plan",
+      "tags": [
+        "repairs",
+        "future"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "There's a small leak under the kitchen sink.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction there's",
+      "stress_focus": "leak, kitchen, sink",
+      "intonation_focus": "falling tone description",
+      "connected_speech_focus": "there's a linked",
+      "vocabulary": [
+        {
+          "word": "leak",
+          "meaning": "a small hole letting liquid escape"
+        }
+      ],
+      "grammar_focus": "there is/there's existential",
+      "tags": [
+        "repairs",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Our landlord raised the rent again this year.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense raised",
+      "stress_focus": "landlord, raised, rent",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "raised the linked",
+      "vocabulary": [
+        {
+          "word": "raised",
+          "meaning": "increased"
+        }
+      ],
+      "grammar_focus": "past simple with time expression",
+      "tags": [
+        "renting",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Do we need to sign a new lease soon?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising tone on question",
+      "stress_focus": "sign, lease, soon",
+      "intonation_focus": "rising tone at end",
+      "connected_speech_focus": "need to reduced",
+      "vocabulary": [
+        {
+          "word": "lease",
+          "meaning": "a rental agreement"
+        }
+      ],
+      "grammar_focus": "do-question with modal need to",
+      "tags": [
+        "renting",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Our internet bill went up ten dollars this month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on ten dollars",
+      "stress_focus": "internet, bill, dollars",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "went up linked",
+      "vocabulary": [
+        {
+          "word": "internet",
+          "meaning": "online connection service"
+        }
+      ],
+      "grammar_focus": "past simple with phrasal verb",
+      "tags": [
+        "bills",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think we should switch to a cheaper provider.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on cheaper",
+      "stress_focus": "switch, cheaper, provider",
+      "intonation_focus": "falling tone opinion",
+      "connected_speech_focus": "should switch linked",
+      "vocabulary": [
+        {
+          "word": "provider",
+          "meaning": "a company offering a service"
+        }
+      ],
+      "grammar_focus": "modal should for suggestion",
+      "tags": [
+        "bills",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We're moving into a bigger apartment next month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction we're",
+      "stress_focus": "moving, bigger, apartment",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "we're moving linked",
+      "vocabulary": [
+        {
+          "word": "apartment",
+          "meaning": "a rented living space"
+        }
+      ],
+      "grammar_focus": "present continuous for future plan",
+      "tags": [
+        "moving",
+        "future"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The new sofa doesn't fit through the door.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction doesn't",
+      "stress_focus": "sofa, fit, door",
+      "intonation_focus": "falling tone description",
+      "connected_speech_focus": "doesn't fit linked",
+      "vocabulary": [
+        {
+          "word": "sofa",
+          "meaning": "a couch"
+        }
+      ],
+      "grammar_focus": "present simple negative",
+      "tags": [
+        "furniture",
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The building doesn't allow loud music after ten.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction doesn't",
+      "stress_focus": "building, allow, loud",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "doesn't allow linked",
+      "vocabulary": [
+        {
+          "word": "allow",
+          "meaning": "to permit"
+        }
+      ],
+      "grammar_focus": "present simple negative rule",
+      "tags": [
+        "rules",
+        "building"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My upstairs neighbor walks around at midnight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on midnight",
+      "stress_focus": "upstairs, neighbor, midnight",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "walks around linked",
+      "vocabulary": [
+        {
+          "word": "upstairs",
+          "meaning": "on a higher floor"
+        }
+      ],
+      "grammar_focus": "present simple habit",
+      "tags": [
+        "neighbours",
+        "noise"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My roommate never does his own dishes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on never",
+      "stress_focus": "roommate, never, dishes",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "does his linked",
+      "vocabulary": [
+        {
+          "word": "roommate",
+          "meaning": "a person you live with"
+        }
+      ],
+      "grammar_focus": "present simple with negative frequency",
+      "tags": [
+        "sharing",
+        "chores"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "How do you split the bills with your roommate?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "wh-question falling tone",
+      "stress_focus": "split, bills, roommate",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "do you blended",
+      "vocabulary": [
+        {
+          "word": "split",
+          "meaning": "to divide"
+        }
+      ],
+      "grammar_focus": "wh-question present simple",
+      "tags": [
+        "sharing",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Would you mind vacuuming the living room today?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "polite rising tone",
+      "stress_focus": "mind, vacuuming, living",
+      "intonation_focus": "polite rising then falling",
+      "connected_speech_focus": "would you blended",
+      "vocabulary": [
+        {
+          "word": "vacuuming",
+          "meaning": "cleaning with a vacuum"
+        }
+      ],
+      "grammar_focus": "polite request with would you mind",
+      "tags": [
+        "chores",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The whole apartment smells like fresh laundry now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on fresh",
+      "stress_focus": "apartment, smells, fresh",
+      "intonation_focus": "falling tone description",
+      "connected_speech_focus": "smells like linked",
+      "vocabulary": [
+        {
+          "word": "fresh",
+          "meaning": "clean and new"
+        }
+      ],
+      "grammar_focus": "present simple sensory description",
+      "tags": [
+        "chores",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I always separate the whites from the colors.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on separate",
+      "stress_focus": "separate, whites, colors",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "separate the linked",
+      "vocabulary": [
+        {
+          "word": "separate",
+          "meaning": "to keep apart"
+        }
+      ],
+      "grammar_focus": "present simple habit",
+      "tags": [
+        "laundry",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think it's cheaper to fix it ourselves.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on cheaper",
+      "stress_focus": "cheaper, fix, ourselves",
+      "intonation_focus": "falling tone opinion",
+      "connected_speech_focus": "it's cheaper linked",
+      "vocabulary": [
+        {
+          "word": "cheaper",
+          "meaning": "costing less money"
+        }
+      ],
+      "grammar_focus": "comparative adjective with infinitive",
+      "tags": [
+        "repairs",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The apartment came with a small balcony outside.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on balcony",
+      "stress_focus": "apartment, balcony, outside",
+      "intonation_focus": "falling tone description",
+      "connected_speech_focus": "came with linked",
+      "vocabulary": [
+        {
+          "word": "balcony",
+          "meaning": "an outdoor platform on a building"
+        }
+      ],
+      "grammar_focus": "past simple description",
+      "tags": [
+        "renting",
+        "housing"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We forgot to pay the electricity bill again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense forgot",
+      "stress_focus": "forgot, electricity, bill",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "forgot to linked",
+      "vocabulary": [
+        {
+          "word": "electricity",
+          "meaning": "power supply"
+        }
+      ],
+      "grammar_focus": "past simple with infinitive",
+      "tags": [
+        "bills",
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Can you help me carry this dresser upstairs?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising then falling tone",
+      "stress_focus": "carry, dresser, upstairs",
+      "intonation_focus": "polite rising then falling",
+      "connected_speech_focus": "can you blended",
+      "vocabulary": [
+        {
+          "word": "dresser",
+          "meaning": "a piece of furniture for clothes"
+        }
+      ],
+      "grammar_focus": "modal request with can",
+      "tags": [
+        "moving",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We have to take turns using the laundry room.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on turns",
+      "stress_focus": "turns, laundry, room",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "have to reduced",
+      "vocabulary": [
+        {
+          "word": "turns",
+          "meaning": "a scheduled chance to do something"
+        }
+      ],
+      "grammar_focus": "present simple obligation with have to",
+      "tags": [
+        "rules",
+        "sharing"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We each pay for our own groceries separately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on separately",
+      "stress_focus": "each, groceries, separately",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "pay for linked",
+      "vocabulary": [
+        {
+          "word": "groceries",
+          "meaning": "food items bought at a store"
+        }
+      ],
+      "grammar_focus": "present simple habit",
+      "tags": [
+        "sharing",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I usually clean the whole house before my parents visit.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "weak syllable reduction",
+      "stress_focus": "clean, house, visit",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "before my linked",
+      "vocabulary": [
+        {
+          "word": "visit",
+          "meaning": "to come see someone"
+        }
+      ],
+      "grammar_focus": "present simple with time clause",
+      "tags": [
+        "chores",
+        "family"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think we should make a proper cleaning schedule.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on proper",
+      "stress_focus": "honestly, proper, schedule",
+      "intonation_focus": "falling tone opinion",
+      "connected_speech_focus": "should make linked",
+      "vocabulary": [
+        {
+          "word": "schedule",
+          "meaning": "a plan of tasks and times"
+        }
+      ],
+      "grammar_focus": "modal should for suggestion",
+      "tags": [
+        "chores",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "There's always a huge pile of dirty dishes in the sink.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction there's",
+      "stress_focus": "huge, pile, dirty",
+      "intonation_focus": "falling tone description",
+      "connected_speech_focus": "there's always linked",
+      "vocabulary": [
+        {
+          "word": "pile",
+          "meaning": "a stack of things"
+        }
+      ],
+      "grammar_focus": "there is/there's with adjectives",
+      "tags": [
+        "dishes",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I shrank my favorite sweater by washing it in hot water.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "past tense shrank",
+      "stress_focus": "shrank, favorite, sweater",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "by washing linked",
+      "vocabulary": [
+        {
+          "word": "shrank",
+          "meaning": "became smaller"
+        }
+      ],
+      "grammar_focus": "past simple with gerund phrase",
+      "tags": [
+        "laundry",
+        "mistake"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you take a look at the leaking faucet sometime this week?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "polite rising tone",
+      "stress_focus": "leaking, faucet, sometime",
+      "intonation_focus": "polite rising then falling",
+      "connected_speech_focus": "take a linked",
+      "vocabulary": [
+        {
+          "word": "faucet",
+          "meaning": "a tap"
+        }
+      ],
+      "grammar_focus": "polite request with could",
+      "tags": [
+        "repairs",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "The heater made a strange noise before it stopped working completely.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on strange",
+      "stress_focus": "heater, strange, stopped",
+      "intonation_focus": "falling tone description",
+      "connected_speech_focus": "made a linked",
+      "vocabulary": [
+        {
+          "word": "heater",
+          "meaning": "a device that produces heat"
+        }
+      ],
+      "grammar_focus": "past simple with time sequence",
+      "tags": [
+        "repairs",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "In my opinion, landlords should fix problems within a few days.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on opinion",
+      "stress_focus": "landlords, fix, problems",
+      "intonation_focus": "falling tone opinion",
+      "connected_speech_focus": "should fix linked",
+      "vocabulary": [
+        {
+          "word": "landlords",
+          "meaning": "people who rent out property"
+        }
+      ],
+      "grammar_focus": "modal should for obligation",
+      "tags": [
+        "renting",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We had to negotiate with the landlord about the security deposit.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on negotiate",
+      "stress_focus": "negotiate, landlord, deposit",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "had to reduced",
+      "vocabulary": [
+        {
+          "word": "deposit",
+          "meaning": "money paid in advance as security"
+        }
+      ],
+      "grammar_focus": "past simple with had to",
+      "tags": [
+        "renting",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Have you ever tried to lower your monthly electricity bill?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "present perfect stress on tried",
+      "stress_focus": "tried, lower, electricity",
+      "intonation_focus": "rising tone question",
+      "connected_speech_focus": "have you blended",
+      "vocabulary": [
+        {
+          "word": "lower",
+          "meaning": "to reduce"
+        }
+      ],
+      "grammar_focus": "present perfect question",
+      "tags": [
+        "bills",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Our utility bills doubled after we started working from home.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on doubled",
+      "stress_focus": "utility, doubled, working",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "started working linked",
+      "vocabulary": [
+        {
+          "word": "utility",
+          "meaning": "a public service like water or power"
+        }
+      ],
+      "grammar_focus": "past simple with time clause",
+      "tags": [
+        "bills",
+        "cause"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We spent the whole weekend assembling furniture from flat boxes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on assembling",
+      "stress_focus": "spent, assembling, furniture",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "the whole linked",
+      "vocabulary": [
+        {
+          "word": "assembling",
+          "meaning": "putting parts together"
+        }
+      ],
+      "grammar_focus": "past simple with gerund phrase",
+      "tags": [
+        "furniture",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Moving all our belongings up three flights of stairs was exhausting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on exhausting",
+      "stress_focus": "belongings, flights, exhausting",
+      "intonation_focus": "falling tone description",
+      "connected_speech_focus": "up three linked",
+      "vocabulary": [
+        {
+          "word": "belongings",
+          "meaning": "personal possessions"
+        }
+      ],
+      "grammar_focus": "gerund subject with past simple",
+      "tags": [
+        "moving",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Personally, I don't think it's fair to ban all pets in the building.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on fair",
+      "stress_focus": "personally, fair, ban",
+      "intonation_focus": "falling tone opinion",
+      "connected_speech_focus": "don't think linked",
+      "vocabulary": [
+        {
+          "word": "ban",
+          "meaning": "to officially forbid something"
+        }
+      ],
+      "grammar_focus": "present simple negative opinion",
+      "tags": [
+        "rules",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The building manager sent a notice about the new parking rules.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on manager",
+      "stress_focus": "manager, notice, parking",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "sent a linked",
+      "vocabulary": [
+        {
+          "word": "notice",
+          "meaning": "a written announcement"
+        }
+      ],
+      "grammar_focus": "past simple statement",
+      "tags": [
+        "rules",
+        "building"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We came up with a fair system for splitting household expenses.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb came up with",
+      "stress_focus": "came, fair, expenses",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "came up linked",
+      "vocabulary": [
+        {
+          "word": "expenses",
+          "meaning": "costs that must be paid"
+        }
+      ],
+      "grammar_focus": "past simple with phrasal verb",
+      "tags": [
+        "sharing",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Do you think it's okay to invite guests without asking your roommate first?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising tone question",
+      "stress_focus": "invite, guests, asking",
+      "intonation_focus": "rising tone at end",
+      "connected_speech_focus": "it's okay linked",
+      "vocabulary": [
+        {
+          "word": "guests",
+          "meaning": "visitors"
+        }
+      ],
+      "grammar_focus": "gerund with modal opinion question",
+      "tags": [
+        "sharing",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "By the time guests arrive, I usually finish cleaning every single room.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on arrive",
+      "stress_focus": "guests, arrive, finish",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "by the linked",
+      "vocabulary": [
+        {
+          "word": "arrive",
+          "meaning": "to reach a place"
+        }
+      ],
+      "grammar_focus": "present simple with time clause",
+      "tags": [
+        "chores",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would you mind loading the dishwasher while I finish cooking dinner?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "polite rising tone",
+      "stress_focus": "loading, dishwasher, finish",
+      "intonation_focus": "polite rising then falling",
+      "connected_speech_focus": "would you blended",
+      "vocabulary": [
+        {
+          "word": "dishwasher",
+          "meaning": "a machine that washes dishes"
+        }
+      ],
+      "grammar_focus": "polite request with gerund",
+      "tags": [
+        "dishes",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The landlord finally sent someone to repair the broken air conditioner.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on finally",
+      "stress_focus": "landlord, repair, broken",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "sent someone linked",
+      "vocabulary": [
+        {
+          "word": "repair",
+          "meaning": "to fix"
+        }
+      ],
+      "grammar_focus": "past simple with infinitive",
+      "tags": [
+        "repairs",
+        "statement"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Renting an apartment in this city has become incredibly expensive lately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "present perfect stress on become",
+      "stress_focus": "renting, incredibly, expensive",
+      "intonation_focus": "falling tone description",
+      "connected_speech_focus": "has become linked",
+      "vocabulary": [
+        {
+          "word": "incredibly",
+          "meaning": "extremely"
+        }
+      ],
+      "grammar_focus": "present perfect with gerund subject",
+      "tags": [
+        "renting",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We decided to install solar panels to cut down on energy costs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on solar",
+      "stress_focus": "install, solar, energy",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "cut down linked",
+      "vocabulary": [
+        {
+          "word": "solar panels",
+          "meaning": "devices that convert sunlight into energy"
+        }
+      ],
+      "grammar_focus": "past simple with infinitive of purpose",
+      "tags": [
+        "bills",
+        "future"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How did you manage to fit all that furniture into such a small truck?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "wh-question falling tone",
+      "stress_focus": "manage, furniture, truck",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "did you blended",
+      "vocabulary": [
+        {
+          "word": "manage",
+          "meaning": "to succeed in doing something difficult"
+        }
+      ],
+      "grammar_focus": "wh-question past simple",
+      "tags": [
+        "moving",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Some neighbors complained about the noise coming from our apartment last week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on complained",
+      "stress_focus": "neighbors, complained, noise",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "complained about linked",
+      "vocabulary": [
+        {
+          "word": "complained",
+          "meaning": "expressed dissatisfaction"
+        }
+      ],
+      "grammar_focus": "past simple with prepositional phrase",
+      "tags": [
+        "neighbours",
+        "conflict"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I honestly believe living with roommates teaches you a lot about patience.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on patience",
+      "stress_focus": "believe, roommates, patience",
+      "intonation_focus": "falling tone opinion",
+      "connected_speech_focus": "teaches you linked",
+      "vocabulary": [
+        {
+          "word": "patience",
+          "meaning": "the ability to stay calm"
+        }
+      ],
+      "grammar_focus": "gerund subject with belief statement",
+      "tags": [
+        "sharing",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We take turns cooking dinner so nobody has to do it every day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on turns",
+      "stress_focus": "turns, cooking, nobody",
+      "intonation_focus": "falling tone",
+      "connected_speech_focus": "take turns linked",
+      "vocabulary": [
+        {
+          "word": "turns",
+          "meaning": "scheduled chances"
+        }
+      ],
+      "grammar_focus": "present simple with purpose clause",
+      "tags": [
+        "sharing",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "If everyone in the house pitched in occasionally, the chores wouldn't pile up so quickly on weekends.",
+      "natural_form": "If everyone in the house pitched in occasionally, the chores wouldn't pile up so quickly on weekends.",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb pitched in",
+      "stress_focus": "pitched, pile, quickly",
+      "intonation_focus": "falling tone with conditional emphasis",
+      "connected_speech_focus": "wouldn't reduced",
+      "vocabulary": [
+        {
+          "word": "pitch in",
+          "meaning": "to help with a task"
+        }
+      ],
+      "grammar_focus": "conditional sentence type 2",
+      "tags": [
+        "chores",
+        "conditional"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Even though I set a timer for the dryer, I still ended up forgetting about it and leaving everything wrinkled.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contrast even though",
+      "stress_focus": "timer, forgetting, wrinkled",
+      "intonation_focus": "falling tone with contrast",
+      "connected_speech_focus": "ended up linked",
+      "vocabulary": [
+        {
+          "word": "wrinkled",
+          "meaning": "having creases or folds"
+        }
+      ],
+      "grammar_focus": "contrast clause with even though",
+      "tags": [
+        "laundry",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Because the landlord kept putting off the repairs, the leak eventually caused serious water damage to the ceiling.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "cause-effect stress",
+      "stress_focus": "kept, eventually, damage",
+      "intonation_focus": "falling tone with cause-effect",
+      "connected_speech_focus": "putting off linked",
+      "vocabulary": [
+        {
+          "word": "eventually",
+          "meaning": "in the end, after a delay"
+        }
+      ],
+      "grammar_focus": "cause and effect with because clause",
+      "tags": [
+        "repairs",
+        "cause"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Although some landlords are reasonable, others take advantage of tenants who don't know their legal rights.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contrast although",
+      "stress_focus": "reasonable, advantage, tenants",
+      "intonation_focus": "falling tone with contrast",
+      "connected_speech_focus": "take advantage linked",
+      "vocabulary": [
+        {
+          "word": "tenants",
+          "meaning": "people who rent property"
+        }
+      ],
+      "grammar_focus": "contrast clause with although",
+      "tags": [
+        "renting",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "If we hadn't switched providers last year, we would be paying twice as much for internet right now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "conditional stress on hadn't",
+      "stress_focus": "switched, providers, twice",
+      "intonation_focus": "falling tone with hypothetical emphasis",
+      "connected_speech_focus": "hadn't switched linked",
+      "vocabulary": [
+        {
+          "word": "providers",
+          "meaning": "companies supplying a service"
+        }
+      ],
+      "grammar_focus": "third conditional mixed with present result",
+      "tags": [
+        "bills",
+        "conditional"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We ended up giving away half our furniture because it simply wouldn't fit in the new apartment.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb ended up, giving away",
+      "stress_focus": "ended, giving, simply",
+      "intonation_focus": "falling tone with reason",
+      "connected_speech_focus": "wouldn't fit linked",
+      "vocabulary": [
+        {
+          "word": "giving away",
+          "meaning": "to give something for free"
+        }
+      ],
+      "grammar_focus": "phrasal verbs with cause and result",
+      "tags": [
+        "moving",
+        "cause"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Even though the building has strict noise rules, some tenants still throw loud parties every weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contrast even though",
+      "stress_focus": "strict, tenants, throw",
+      "intonation_focus": "falling tone with contrast",
+      "connected_speech_focus": "still throw linked",
+      "vocabulary": [
+        {
+          "word": "strict",
+          "meaning": "demanding obedience to rules"
+        }
+      ],
+      "grammar_focus": "contrast clause with even though",
+      "tags": [
+        "rules",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Living with roommates works out well as long as everyone communicates honestly about expectations and boundaries.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on communicates",
+      "stress_focus": "works, communicates, expectations",
+      "intonation_focus": "falling tone with condition",
+      "connected_speech_focus": "works out linked",
+      "vocabulary": [
+        {
+          "word": "boundaries",
+          "meaning": "limits that define acceptable behavior"
+        }
+      ],
+      "grammar_focus": "conditional clause with as long as",
+      "tags": [
+        "sharing",
+        "condition"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "No matter how often I clean the kitchen, it somehow gets messy again within a couple of hours.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on somehow",
+      "stress_focus": "matter, somehow, couple",
+      "intonation_focus": "falling tone with contrast",
+      "connected_speech_focus": "gets messy linked",
+      "vocabulary": [
+        {
+          "word": "somehow",
+          "meaning": "in some way that is not clear"
+        }
+      ],
+      "grammar_focus": "concessive clause with no matter how",
+      "tags": [
+        "chores",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I'd rather do the dishes by hand than deal with a dishwasher that never seems to work properly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "comparative stress on rather",
+      "stress_focus": "rather, dishwasher, properly",
+      "intonation_focus": "falling tone with preference",
+      "connected_speech_focus": "seems to linked",
+      "vocabulary": [
+        {
+          "word": "properly",
+          "meaning": "correctly"
+        }
+      ],
+      "grammar_focus": "preference structure with would rather",
+      "tags": [
+        "dishes",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Once the plumber finally showed up, it only took him about twenty minutes to fix the whole problem.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on finally",
+      "stress_focus": "plumber, finally, twenty",
+      "intonation_focus": "falling tone with time sequence",
+      "connected_speech_focus": "showed up linked",
+      "vocabulary": [
+        {
+          "word": "plumber",
+          "meaning": "a person who repairs pipes"
+        }
+      ],
+      "grammar_focus": "time clause with once",
+      "tags": [
+        "repairs",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Unless the landlord agrees to fix the heating before winter, we're planning to look for another place to live.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on unless",
+      "stress_focus": "unless, heating, planning",
+      "intonation_focus": "falling tone with condition",
+      "connected_speech_focus": "we're planning linked",
+      "vocabulary": [
+        {
+          "word": "heating",
+          "meaning": "a system that warms a building"
+        }
+      ],
+      "grammar_focus": "conditional clause with unless",
+      "tags": [
+        "renting",
+        "conditional"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I think utility companies should be more transparent about how they calculate monthly charges for customers.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on transparent",
+      "stress_focus": "utility, transparent, calculate",
+      "intonation_focus": "falling tone opinion",
+      "connected_speech_focus": "should be linked",
+      "vocabulary": [
+        {
+          "word": "transparent",
+          "meaning": "open and honest about information"
+        }
+      ],
+      "grammar_focus": "modal should with passive structure",
+      "tags": [
+        "bills",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "After weeks of searching, we finally found a secondhand couch that fit perfectly in our tiny living room.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on secondhand",
+      "stress_focus": "weeks, secondhand, perfectly",
+      "intonation_focus": "falling tone with time sequence",
+      "connected_speech_focus": "found a linked",
+      "vocabulary": [
+        {
+          "word": "secondhand",
+          "meaning": "previously owned"
+        }
+      ],
+      "grammar_focus": "past simple with time sequence clause",
+      "tags": [
+        "furniture",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Whether you're renting with friends or strangers, setting clear house rules from the start really helps avoid conflict.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on conflict",
+      "stress_focus": "renting, strangers, conflict",
+      "intonation_focus": "falling tone with generalization",
+      "connected_speech_focus": "really helps linked",
+      "vocabulary": [
+        {
+          "word": "conflict",
+          "meaning": "disagreement or argument"
+        }
+      ],
+      "grammar_focus": "whether-or clause with gerund subject",
+      "tags": [
+        "sharing",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Even with a cleaning schedule taped to the fridge, somehow nobody ever remembers whose turn it is to vacuum.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on taped",
+      "stress_focus": "schedule, taped, remembers",
+      "intonation_focus": "falling tone with contrast",
+      "connected_speech_focus": "whose turn linked",
+      "vocabulary": [
+        {
+          "word": "taped",
+          "meaning": "attached with tape"
+        }
+      ],
+      "grammar_focus": "concessive clause with even with",
+      "tags": [
+        "chores",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Laundry & dishes",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "By the time I got around to doing the laundry, the pile had grown so big it barely fit in the machine.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb got around to",
+      "stress_focus": "pile, grown, barely",
+      "intonation_focus": "falling tone with result",
+      "connected_speech_focus": "barely fit linked",
+      "vocabulary": [
+        {
+          "word": "barely",
+          "meaning": "almost not"
+        }
+      ],
+      "grammar_focus": "time clause with by the time",
+      "tags": [
+        "laundry",
+        "result"
+      ]
+    },
+    {
+      "subcategory": "Repairs & maintenance",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "If landlords responded to repair requests more quickly, tenants wouldn't have to live with broken appliances for weeks.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "conditional stress on responded",
+      "stress_focus": "responded, appliances, weeks",
+      "intonation_focus": "falling tone with hypothetical emphasis",
+      "connected_speech_focus": "wouldn't have linked",
+      "vocabulary": [
+        {
+          "word": "appliances",
+          "meaning": "household machines like fridges or stoves"
+        }
+      ],
+      "grammar_focus": "second conditional with modal result",
+      "tags": [
+        "repairs",
+        "conditional"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Since rent prices keep rising in the city, more young people are choosing to live with roommates instead of alone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "cause stress on rising",
+      "stress_focus": "rising, choosing, instead",
+      "intonation_focus": "falling tone with cause-effect",
+      "connected_speech_focus": "keep rising linked",
+      "vocabulary": [
+        {
+          "word": "instead",
+          "meaning": "as an alternative"
+        }
+      ],
+      "grammar_focus": "cause and effect clause with since",
+      "tags": [
+        "renting",
+        "cause"
+      ]
+    },
+    {
+      "subcategory": "Utilities & bills",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Although we cut back on heating this winter, our energy bill still came out higher than we expected.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contrast although",
+      "stress_focus": "cut, energy, expected",
+      "intonation_focus": "falling tone with contrast",
+      "connected_speech_focus": "came out linked",
+      "vocabulary": [
+        {
+          "word": "expected",
+          "meaning": "anticipated or predicted"
+        }
+      ],
+      "grammar_focus": "contrast clause with although",
+      "tags": [
+        "bills",
+        "contrast"
+      ]
+    },
+    {
+      "subcategory": "Furniture & moving",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Now that we've finally unpacked every box, the apartment is starting to feel like an actual home.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "present perfect stress on unpacked",
+      "stress_focus": "unpacked, apartment, actual",
+      "intonation_focus": "falling tone with resolution",
+      "connected_speech_focus": "now that linked",
+      "vocabulary": [
+        {
+          "word": "unpacked",
+          "meaning": "removed items from boxes"
+        }
+      ],
+      "grammar_focus": "time clause with now that plus present perfect",
+      "tags": [
+        "moving",
+        "description"
+      ]
+    },
+    {
+      "subcategory": "Neighbours & building rules",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "If the building committee actually enforced the rules consistently, there would be a lot fewer complaints from residents.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "conditional stress on enforced",
+      "stress_focus": "enforced, consistently, complaints",
+      "intonation_focus": "falling tone with hypothetical emphasis",
+      "connected_speech_focus": "would be linked",
+      "vocabulary": [
+        {
+          "word": "enforced",
+          "meaning": "made sure a rule is obeyed"
+        }
+      ],
+      "grammar_focus": "second conditional with hypothetical result",
+      "tags": [
+        "rules",
+        "conditional"
+      ]
+    },
+    {
+      "subcategory": "Sharing a home",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Having lived with three different roommates over the years, I've learned that clear communication solves most problems before they start.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "present perfect stress on learned",
+      "stress_focus": "lived, learned, communication",
+      "intonation_focus": "falling tone with reflection",
+      "connected_speech_focus": "having lived linked",
+      "vocabulary": [
+        {
+          "word": "communication",
+          "meaning": "exchanging information or ideas"
+        }
+      ],
+      "grammar_focus": "perfect participle clause with present perfect",
+      "tags": [
+        "sharing",
+        "reflection"
+      ]
+    },
+    {
+      "subcategory": "Chores & cleaning",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Looking back, I wish we'd split the chores more evenly from the very beginning instead of letting resentment build up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "stress on resentment",
+      "stress_focus": "wish, evenly, resentment",
+      "intonation_focus": "falling tone with regret",
+      "connected_speech_focus": "build up linked",
+      "vocabulary": [
+        {
+          "word": "resentment",
+          "meaning": "bitter feelings from unfair treatment"
+        }
+      ],
+      "grammar_focus": "wish clause expressing past regret",
+      "tags": [
+        "chores",
+        "regret"
+      ]
+    },
+    {
+      "subcategory": "Renting & landlords",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Had we known how strict the landlord's rules were about guests, we probably wouldn't have signed that lease in the first place.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "third conditional stress on known",
+      "stress_focus": "strict, guests, lease",
+      "intonation_focus": "falling tone with hypothetical regret",
+      "connected_speech_focus": "wouldn't have linked",
+      "vocabulary": [
+        {
+          "word": "lease",
+          "meaning": "a rental agreement"
+        }
+      ],
+      "grammar_focus": "inverted third conditional",
+      "tags": [
+        "renting",
+        "regret"
+      ]
+    }
+  ]
+}

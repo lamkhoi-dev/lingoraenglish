@@ -1,0 +1,2441 @@
+{
+  "slug": "travel-airport-hotel",
+  "name": "Travel, Airport & Hotel",
+  "topic_group": "Everyday English",
+  "blurb": "Practice natural spoken English for flights, hotels, and getting around while traveling.",
+  "sort_order": 5,
+  "sentences": [
+    {
+      "subcategory": "Airport check-in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I have a flight today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in flight",
+      "stress_focus": "flight",
+      "intonation_focus": "falling intonation at the end",
+      "connected_speech_focus": "link 'have a' as ha-va",
+      "vocabulary": [
+        {
+          "word": "flight",
+          "meaning": "a trip by airplane"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "travel",
+        "airport",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Where is the check-in desk?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ch/ in check-in",
+      "stress_focus": "check-in, desk",
+      "intonation_focus": "rising then falling wh-question",
+      "connected_speech_focus": "link 'is the' smoothly",
+      "vocabulary": [
+        {
+          "word": "check-in desk",
+          "meaning": "counter where you register for a flight"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "travel",
+        "airport",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My suitcase is heavy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /s/ in suitcase",
+      "stress_focus": "suitcase, heavy",
+      "intonation_focus": "falling statement intonation",
+      "connected_speech_focus": "none notable",
+      "vocabulary": [
+        {
+          "word": "suitcase",
+          "meaning": "a case for carrying clothes when traveling"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "travel",
+        "luggage"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Do you have your passport?",
+      "natural_form": "Do ya have your passport?",
+      "accent": "american",
+      "pronunciation_focus": "the /p/ in passport",
+      "stress_focus": "passport",
+      "intonation_focus": "rising yes/no question",
+      "connected_speech_focus": "reduce 'do you' to 'd'ya'",
+      "vocabulary": [
+        {
+          "word": "passport",
+          "meaning": "official travel document"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "travel",
+        "documents"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "response",
+      "sentence": "Yes, here it is.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in here",
+      "stress_focus": "here",
+      "intonation_focus": "falling confirmation",
+      "connected_speech_focus": "link 'here it' as hee-rit",
+      "vocabulary": [
+        {
+          "word": "here it is",
+          "meaning": "phrase used when handing something over"
+        }
+      ],
+      "grammar_focus": "short answer",
+      "tags": [
+        "travel",
+        "response"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The plane leaves at six.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /l/ in leaves",
+      "stress_focus": "leaves, six",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'leaves at' as leave-sat",
+      "vocabulary": [
+        {
+          "word": "leaves",
+          "meaning": "departs"
+        }
+      ],
+      "grammar_focus": "simple present for schedules",
+      "tags": [
+        "travel",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "Security",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Please take off your shoes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /sh/ in shoes",
+      "stress_focus": "take, shoes",
+      "intonation_focus": "falling command intonation",
+      "connected_speech_focus": "link 'take off' as tay-koff",
+      "vocabulary": [
+        {
+          "word": "take off",
+          "meaning": "remove"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "travel",
+        "security",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Security",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I need to go through security.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /th/ in through",
+      "stress_focus": "security",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'go through' smoothly",
+      "vocabulary": [
+        {
+          "word": "security",
+          "meaning": "area where bags are checked"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "travel",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Baggage",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This is my bag.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /b/ in bag",
+      "stress_focus": "bag",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "none notable",
+      "vocabulary": [
+        {
+          "word": "bag",
+          "meaning": "a container for carrying things"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "travel",
+        "luggage",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Baggage",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Where can I find my luggage?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /l/ in luggage",
+      "stress_focus": "luggage",
+      "intonation_focus": "rising wh-question",
+      "connected_speech_focus": "link 'find my' smoothly",
+      "vocabulary": [
+        {
+          "word": "luggage",
+          "meaning": "bags used for traveling"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "travel",
+        "luggage"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I have a reservation.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in reservation",
+      "stress_focus": "reservation",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'have a' as ha-va",
+      "vocabulary": [
+        {
+          "word": "reservation",
+          "meaning": "a booking made in advance"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "hotel",
+        "booking"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Do you have a room for tonight?",
+      "natural_form": "Do ya have a room for tonight?",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in room",
+      "stress_focus": "room, tonight",
+      "intonation_focus": "rising yes/no question",
+      "connected_speech_focus": "reduce 'do you' to 'd'ya'",
+      "vocabulary": [
+        {
+          "word": "tonight",
+          "meaning": "this evening or night"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "hotel",
+        "booking"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "Sure, one moment please.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /sh/ in sure",
+      "stress_focus": "sure, moment",
+      "intonation_focus": "falling polite response",
+      "connected_speech_focus": "link 'one moment' smoothly",
+      "vocabulary": [
+        {
+          "word": "moment",
+          "meaning": "a short period of time"
+        }
+      ],
+      "grammar_focus": "polite response",
+      "tags": [
+        "hotel",
+        "response"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My name is on the list.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /n/ in name",
+      "stress_focus": "name, list",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'is on' as i-zon",
+      "vocabulary": [
+        {
+          "word": "list",
+          "meaning": "a written record of names"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "hotel",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Directions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Where is the elevator?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /v/ in elevator",
+      "stress_focus": "elevator",
+      "intonation_focus": "rising wh-question",
+      "connected_speech_focus": "link 'is the' smoothly",
+      "vocabulary": [
+        {
+          "word": "elevator",
+          "meaning": "a lift that moves between floors"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "hotel",
+        "directions"
+      ]
+    },
+    {
+      "subcategory": "Directions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The room is on the third floor.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /th/ in third",
+      "stress_focus": "third, floor",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'is on' as i-zon",
+      "vocabulary": [
+        {
+          "word": "floor",
+          "meaning": "a level of a building"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "hotel",
+        "directions"
+      ]
+    },
+    {
+      "subcategory": "Money",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "How much does it cost?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in cost",
+      "stress_focus": "how much, cost",
+      "intonation_focus": "rising wh-question",
+      "connected_speech_focus": "link 'does it' as duh-zit",
+      "vocabulary": [
+        {
+          "word": "cost",
+          "meaning": "the price of something"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "travel",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Money",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need to exchange money.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ks/ in exchange",
+      "stress_focus": "exchange, money",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'need to' as nee-tuh",
+      "vocabulary": [
+        {
+          "word": "exchange",
+          "meaning": "to trade one currency for another"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "travel",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Restaurant",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can I have the menu, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /m/ in menu",
+      "stress_focus": "menu, please",
+      "intonation_focus": "polite rising intonation",
+      "connected_speech_focus": "link 'can I' as ca-nai",
+      "vocabulary": [
+        {
+          "word": "menu",
+          "meaning": "a list of food available"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "travel",
+        "food",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Restaurant",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The food here is good.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in food",
+      "stress_focus": "food, good",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "none notable",
+      "vocabulary": [
+        {
+          "word": "food",
+          "meaning": "things you eat"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "travel",
+        "food"
+      ]
+    },
+    {
+      "subcategory": "Weather",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think it will rain today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in rain",
+      "stress_focus": "think, rain",
+      "intonation_focus": "falling opinion statement",
+      "connected_speech_focus": "link 'will rain' smoothly",
+      "vocabulary": [
+        {
+          "word": "rain",
+          "meaning": "water falling from clouds"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "travel",
+        "weather",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Packing",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I forgot my toothbrush.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /th/ in toothbrush",
+      "stress_focus": "forgot, toothbrush",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'forgot my' smoothly",
+      "vocabulary": [
+        {
+          "word": "toothbrush",
+          "meaning": "a brush for cleaning teeth"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "travel",
+        "packing"
+      ]
+    },
+    {
+      "subcategory": "Packing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Did you pack your charger?",
+      "natural_form": "Didja pack your charger?",
+      "accent": "american",
+      "pronunciation_focus": "the /ch/ in charger",
+      "stress_focus": "pack, charger",
+      "intonation_focus": "rising yes/no question",
+      "connected_speech_focus": "reduce 'did you' to 'didja'",
+      "vocabulary": [
+        {
+          "word": "charger",
+          "meaning": "a device for charging batteries"
+        }
+      ],
+      "grammar_focus": "simple past question",
+      "tags": [
+        "travel",
+        "packing"
+      ]
+    },
+    {
+      "subcategory": "Transport",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The taxi is waiting outside.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in waiting",
+      "stress_focus": "taxi, waiting",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'is waiting' smoothly",
+      "vocabulary": [
+        {
+          "word": "taxi",
+          "meaning": "a car you pay to ride in"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "subcategory": "Transport",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "How far is the airport from here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in far",
+      "stress_focus": "far, airport",
+      "intonation_focus": "rising wh-question",
+      "connected_speech_focus": "link 'is the' smoothly",
+      "vocabulary": [
+        {
+          "word": "far",
+          "meaning": "a long distance away"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'd like to check two bags, please.",
+      "natural_form": "I'd like ta check two bags, please.",
+      "accent": "american",
+      "pronunciation_focus": "the /ch/ in check",
+      "stress_focus": "check, bags",
+      "intonation_focus": "falling polite statement",
+      "connected_speech_focus": "link 'like to' as like-tuh",
+      "vocabulary": [
+        {
+          "word": "check bags",
+          "meaning": "to hand over luggage for a flight"
+        }
+      ],
+      "grammar_focus": "would like to",
+      "tags": [
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Is this flight direct or does it have a layover?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /l/ in layover",
+      "stress_focus": "direct, layover",
+      "intonation_focus": "rising then falling choice question",
+      "connected_speech_focus": "link 'does it' as duh-zit",
+      "vocabulary": [
+        {
+          "word": "layover",
+          "meaning": "a stop between flights"
+        }
+      ],
+      "grammar_focus": "alternative question",
+      "tags": [
+        "travel",
+        "airport"
+      ]
+    },
+    {
+      "subcategory": "Security",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could you put your laptop in a separate bin?",
+      "natural_form": "Could ya put your laptop in a separate bin?",
+      "accent": "american",
+      "pronunciation_focus": "the /p/ in laptop",
+      "stress_focus": "laptop, separate, bin",
+      "intonation_focus": "polite falling request",
+      "connected_speech_focus": "reduce 'could you' to 'coulja'",
+      "vocabulary": [
+        {
+          "word": "bin",
+          "meaning": "a container, here for security screening"
+        }
+      ],
+      "grammar_focus": "polite request with could",
+      "tags": [
+        "travel",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Security",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I set off the metal detector.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d/ in detector",
+      "stress_focus": "metal, detector",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'set off' as se-doff",
+      "vocabulary": [
+        {
+          "word": "metal detector",
+          "meaning": "a device that finds metal objects"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "travel",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Boarding",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Boarding starts thirty minutes before departure.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /th/ in thirty",
+      "stress_focus": "boarding, departure",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'starts thirty' smoothly",
+      "vocabulary": [
+        {
+          "word": "departure",
+          "meaning": "the act of leaving"
+        }
+      ],
+      "grammar_focus": "simple present for schedules",
+      "tags": [
+        "travel",
+        "boarding"
+      ]
+    },
+    {
+      "subcategory": "Boarding",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "What gate are we boarding from?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /g/ in gate",
+      "stress_focus": "gate, boarding",
+      "intonation_focus": "rising wh-question",
+      "connected_speech_focus": "link 'are we' smoothly",
+      "vocabulary": [
+        {
+          "word": "gate",
+          "meaning": "area where you board a plane"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "travel",
+        "boarding"
+      ]
+    },
+    {
+      "subcategory": "Boarding",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "reaction",
+      "sentence": "Oh no, they just changed our gate!",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ch/ in changed",
+      "stress_focus": "changed, gate",
+      "intonation_focus": "surprised rising-falling intonation",
+      "connected_speech_focus": "link 'they just' smoothly",
+      "vocabulary": [
+        {
+          "word": "changed",
+          "meaning": "switched to something different"
+        }
+      ],
+      "grammar_focus": "exclamation",
+      "tags": [
+        "travel",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "In-flight",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could I get a glass of water, please?",
+      "natural_form": "Could I get a glassa water, please?",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in water",
+      "stress_focus": "glass, water",
+      "intonation_focus": "polite rising request",
+      "connected_speech_focus": "link 'glass of' as glas-suh",
+      "vocabulary": [
+        {
+          "word": "glass",
+          "meaning": "a container for drinking"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "travel",
+        "flight"
+      ]
+    },
+    {
+      "subcategory": "In-flight",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Please fasten your seatbelt during turbulence.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /t/ in fasten",
+      "stress_focus": "fasten, seatbelt, turbulence",
+      "intonation_focus": "falling instruction",
+      "connected_speech_focus": "link 'fasten your' smoothly",
+      "vocabulary": [
+        {
+          "word": "turbulence",
+          "meaning": "rough movement of the plane"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "travel",
+        "flight"
+      ]
+    },
+    {
+      "subcategory": "Baggage claim",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "My suitcase didn't come out on the carousel.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in carousel",
+      "stress_focus": "suitcase, carousel",
+      "intonation_focus": "falling statement, frustration",
+      "connected_speech_focus": "link 'didn't come' as di-dn't come",
+      "vocabulary": [
+        {
+          "word": "carousel",
+          "meaning": "the moving belt where luggage appears"
+        }
+      ],
+      "grammar_focus": "simple past negative",
+      "tags": [
+        "travel",
+        "luggage"
+      ]
+    },
+    {
+      "subcategory": "Baggage claim",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Has anyone seen a black bag with a red tag?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /z/ in has",
+      "stress_focus": "anyone, black, tag",
+      "intonation_focus": "rising question intonation",
+      "connected_speech_focus": "link 'has anyone' smoothly",
+      "vocabulary": [
+        {
+          "word": "tag",
+          "meaning": "a small label attached to something"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "travel",
+        "luggage"
+      ]
+    },
+    {
+      "subcategory": "Customs",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I have nothing to declare.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /th/ in nothing",
+      "stress_focus": "nothing, declare",
+      "intonation_focus": "falling formal statement",
+      "connected_speech_focus": "link 'nothing to' smoothly",
+      "vocabulary": [
+        {
+          "word": "declare",
+          "meaning": "to state goods to customs officers"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "travel",
+        "customs"
+      ]
+    },
+    {
+      "subcategory": "Customs",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Do I need to fill out a customs form?",
+      "natural_form": "D'you need to fill out a customs form?",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in fill, form",
+      "stress_focus": "fill out, customs",
+      "intonation_focus": "rising yes/no question",
+      "connected_speech_focus": "reduce 'do I' to 'd'you'",
+      "vocabulary": [
+        {
+          "word": "customs form",
+          "meaning": "a document declaring goods you're bringing in"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "travel",
+        "customs"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I booked a room online last week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /b/ in booked",
+      "stress_focus": "booked, online",
+      "intonation_focus": "falling past statement",
+      "connected_speech_focus": "link 'booked a' smoothly",
+      "vocabulary": [
+        {
+          "word": "booked",
+          "meaning": "reserved in advance"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "hotel",
+        "booking"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could you upgrade me to a bigger room?",
+      "natural_form": "Could ya upgrade me to a bigger room?",
+      "accent": "american",
+      "pronunciation_focus": "the /g/ in upgrade",
+      "stress_focus": "upgrade, bigger",
+      "intonation_focus": "polite request intonation",
+      "connected_speech_focus": "reduce 'could you' to 'coulja'",
+      "vocabulary": [
+        {
+          "word": "upgrade",
+          "meaning": "to move to a better version"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "hotel",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Hotel amenities",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Does the hotel offer free breakfast?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in free",
+      "stress_focus": "breakfast, offer",
+      "intonation_focus": "rising yes/no question",
+      "connected_speech_focus": "link 'does the' smoothly",
+      "vocabulary": [
+        {
+          "word": "amenities",
+          "meaning": "useful features offered by a place"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "hotel",
+        "amenities"
+      ]
+    },
+    {
+      "subcategory": "Hotel amenities",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "There's a gym on the second floor.",
+      "natural_form": "There's a gym on the second floor.",
+      "accent": "american",
+      "pronunciation_focus": "the /j/ in gym",
+      "stress_focus": "gym, floor",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'there's a' smoothly",
+      "vocabulary": [
+        {
+          "word": "gym",
+          "meaning": "a place for exercise"
+        }
+      ],
+      "grammar_focus": "there is/are",
+      "tags": [
+        "hotel",
+        "amenities"
+      ]
+    },
+    {
+      "subcategory": "Hotel issues",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Could someone come fix the air conditioning?",
+      "natural_form": "Could someone come fix the AC?",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in fix",
+      "stress_focus": "air conditioning",
+      "intonation_focus": "polite request intonation",
+      "connected_speech_focus": "link 'come fix' smoothly",
+      "vocabulary": [
+        {
+          "word": "fix",
+          "meaning": "to repair"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "hotel",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Hotel issues",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "The Wi-Fi in my room isn't working.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in Wi-Fi",
+      "stress_focus": "Wi-Fi, working",
+      "intonation_focus": "falling complaint statement",
+      "connected_speech_focus": "link 'isn't working' smoothly",
+      "vocabulary": [
+        {
+          "word": "Wi-Fi",
+          "meaning": "wireless internet connection"
+        }
+      ],
+      "grammar_focus": "present continuous negative",
+      "tags": [
+        "hotel",
+        "complaint"
+      ]
+    },
+    {
+      "subcategory": "Directions",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "How do I get to the train station from here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /tr/ in train",
+      "stress_focus": "train station",
+      "intonation_focus": "rising wh-question",
+      "connected_speech_focus": "link 'get to' as ge-tuh",
+      "vocabulary": [
+        {
+          "word": "train station",
+          "meaning": "a place where trains stop"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "subcategory": "Directions",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Turn left at the next corner.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in turn",
+      "stress_focus": "turn, corner",
+      "intonation_focus": "falling instruction",
+      "connected_speech_focus": "link 'turn left' smoothly",
+      "vocabulary": [
+        {
+          "word": "corner",
+          "meaning": "where two streets meet"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "subcategory": "Sightseeing",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I think the old town is worth visiting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /w/ in worth",
+      "stress_focus": "worth, visiting",
+      "intonation_focus": "falling opinion statement",
+      "connected_speech_focus": "link 'worth visiting' smoothly",
+      "vocabulary": [
+        {
+          "word": "worth visiting",
+          "meaning": "good enough to go see"
+        }
+      ],
+      "grammar_focus": "opinion with think",
+      "tags": [
+        "travel",
+        "sightseeing"
+      ]
+    },
+    {
+      "subcategory": "Sightseeing",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "What time does the museum close?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /m/ in museum",
+      "stress_focus": "museum, close",
+      "intonation_focus": "rising wh-question",
+      "connected_speech_focus": "link 'does the' smoothly",
+      "vocabulary": [
+        {
+          "word": "museum",
+          "meaning": "a building displaying art or history"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "travel",
+        "sightseeing"
+      ]
+    },
+    {
+      "subcategory": "Transport",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We missed the last bus back to the hotel.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /s/ cluster in missed",
+      "stress_focus": "missed, last, bus",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'missed the' smoothly",
+      "vocabulary": [
+        {
+          "word": "missed",
+          "meaning": "failed to catch"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "subcategory": "Transport",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Is there a shuttle from the airport to downtown?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /sh/ in shuttle",
+      "stress_focus": "shuttle, downtown",
+      "intonation_focus": "rising yes/no question",
+      "connected_speech_focus": "link 'is there' smoothly",
+      "vocabulary": [
+        {
+          "word": "shuttle",
+          "meaning": "a bus that runs a short regular route"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I ended up getting bumped to a later flight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /b/ in bumped",
+      "stress_focus": "ended up, bumped",
+      "intonation_focus": "falling narrative statement",
+      "connected_speech_focus": "link 'ended up' as en-di-dup",
+      "vocabulary": [
+        {
+          "word": "bumped",
+          "meaning": "removed from a flight due to overbooking"
+        }
+      ],
+      "grammar_focus": "phrasal verb, past narrative",
+      "tags": [
+        "travel",
+        "airport",
+        "phrasal verb"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "Actually, I don't think we're at the right terminal.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in right",
+      "stress_focus": "right, terminal",
+      "intonation_focus": "falling disagreement statement",
+      "connected_speech_focus": "link 'don't think' smoothly",
+      "vocabulary": [
+        {
+          "word": "terminal",
+          "meaning": "a building at an airport for passengers"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "travel",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Security",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, do you mean I have to take out my liquids too?",
+      "natural_form": "Sorry, d'you mean I gotta take out my liquids too?",
+      "accent": "american",
+      "pronunciation_focus": "the /kw/ in liquids",
+      "stress_focus": "take out, liquids",
+      "intonation_focus": "rising clarifying question",
+      "connected_speech_focus": "reduce 'have to' to 'gotta'",
+      "vocabulary": [
+        {
+          "word": "liquids",
+          "meaning": "items in liquid form like shampoo"
+        }
+      ],
+      "grammar_focus": "clarification question",
+      "tags": [
+        "travel",
+        "security",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Security",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "They pulled my bag aside for a random check.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in random",
+      "stress_focus": "pulled, random",
+      "intonation_focus": "falling narrative statement",
+      "connected_speech_focus": "link 'pulled my' smoothly",
+      "vocabulary": [
+        {
+          "word": "pulled aside",
+          "meaning": "taken out of line for inspection"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "travel",
+        "security"
+      ]
+    },
+    {
+      "subcategory": "Boarding",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "reaction",
+      "sentence": "Ugh, they're boarding by zones and I'm in the last one.",
+      "natural_form": "Ugh, they're boarding by zones and I'm in the last one.",
+      "accent": "american",
+      "pronunciation_focus": "the /z/ in zones",
+      "stress_focus": "boarding, zones",
+      "intonation_focus": "frustrated falling intonation",
+      "connected_speech_focus": "link 'they're boarding' smoothly",
+      "vocabulary": [
+        {
+          "word": "zones",
+          "meaning": "groups used to organize boarding order"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "travel",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Boarding",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "We're still waiting for the crew to show up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /kr/ in crew",
+      "stress_focus": "waiting, crew",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'show up' smoothly",
+      "vocabulary": [
+        {
+          "word": "crew",
+          "meaning": "the staff working on a flight"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "travel",
+        "boarding"
+      ]
+    },
+    {
+      "subcategory": "In-flight",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Would you mind switching seats with me?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /sw/ in switching",
+      "stress_focus": "switching, seats",
+      "intonation_focus": "polite falling request",
+      "connected_speech_focus": "link 'would you' as wou-jyu",
+      "vocabulary": [
+        {
+          "word": "switching",
+          "meaning": "exchanging or swapping"
+        }
+      ],
+      "grammar_focus": "polite request with would you mind",
+      "tags": [
+        "travel",
+        "flight",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "In-flight",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "We hit some turbulence right after takeoff.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /t/ in takeoff",
+      "stress_focus": "turbulence, takeoff",
+      "intonation_focus": "falling narrative statement",
+      "connected_speech_focus": "link 'hit some' smoothly",
+      "vocabulary": [
+        {
+          "word": "takeoff",
+          "meaning": "the moment a plane leaves the ground"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "travel",
+        "flight"
+      ]
+    },
+    {
+      "subcategory": "Baggage claim",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "By the time I got to the carousel, my bag was already gone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /g/ in gone",
+      "stress_focus": "carousel, gone",
+      "intonation_focus": "falling storytelling intonation",
+      "connected_speech_focus": "link 'got to' as go-tuh",
+      "vocabulary": [
+        {
+          "word": "carousel",
+          "meaning": "the belt that delivers luggage"
+        }
+      ],
+      "grammar_focus": "past perfect narrative",
+      "tags": [
+        "travel",
+        "storytelling"
+      ]
+    },
+    {
+      "subcategory": "Baggage claim",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "agreement",
+      "sentence": "Yeah, I've had my luggage lost twice this year too.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /l/ in luggage",
+      "stress_focus": "lost, twice",
+      "intonation_focus": "falling agreement statement",
+      "connected_speech_focus": "link 'I've had' smoothly",
+      "vocabulary": [
+        {
+          "word": "lost luggage",
+          "meaning": "bags that don't arrive with the passenger"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "travel",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Customs",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Wait, are you asking if I'm bringing in food or just cash?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in cash",
+      "stress_focus": "bringing in, cash",
+      "intonation_focus": "rising clarifying question",
+      "connected_speech_focus": "link 'are you' smoothly",
+      "vocabulary": [
+        {
+          "word": "bringing in",
+          "meaning": "importing or carrying into a country"
+        }
+      ],
+      "grammar_focus": "clarification question",
+      "tags": [
+        "travel",
+        "customs"
+      ]
+    },
+    {
+      "subcategory": "Customs",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "They went through my bag pretty thoroughly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /th/ in thoroughly",
+      "stress_focus": "thoroughly, went through",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'went through' smoothly",
+      "vocabulary": [
+        {
+          "word": "thoroughly",
+          "meaning": "in a very careful and complete way"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "travel",
+        "customs"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Would it be possible to check in a bit early?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /p/ in possible",
+      "stress_focus": "possible, early",
+      "intonation_focus": "polite rising request",
+      "connected_speech_focus": "link 'check in' smoothly",
+      "vocabulary": [
+        {
+          "word": "check in early",
+          "meaning": "to arrive and register before the usual time"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "hotel",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "Actually, I booked a king bed, not two doubles.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in king",
+      "stress_focus": "booked, king",
+      "intonation_focus": "falling disagreement statement",
+      "connected_speech_focus": "link 'booked a' smoothly",
+      "vocabulary": [
+        {
+          "word": "king bed",
+          "meaning": "a large size of bed"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "hotel",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Hotel amenities",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "The pool's closed for maintenance until next week.",
+      "natural_form": "The pool's closed for maintenance till next week.",
+      "accent": "american",
+      "pronunciation_focus": "the /m/ in maintenance",
+      "stress_focus": "closed, maintenance",
+      "intonation_focus": "falling statement",
+      "connected_speech_focus": "link 'closed for' smoothly",
+      "vocabulary": [
+        {
+          "word": "maintenance",
+          "meaning": "repair and upkeep work"
+        }
+      ],
+      "grammar_focus": "passive voice",
+      "tags": [
+        "hotel",
+        "amenities"
+      ]
+    },
+    {
+      "subcategory": "Hotel issues",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "The noise from the hallway kept us up all night.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in hallway",
+      "stress_focus": "noise, hallway",
+      "intonation_focus": "falling complaint statement",
+      "connected_speech_focus": "link 'kept us' smoothly",
+      "vocabulary": [
+        {
+          "word": "kept us up",
+          "meaning": "prevented us from sleeping"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "hotel",
+        "complaint"
+      ]
+    },
+    {
+      "subcategory": "Hotel issues",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Could we get moved to a quieter room?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /kw/ in quieter",
+      "stress_focus": "moved, quieter",
+      "intonation_focus": "polite falling request",
+      "connected_speech_focus": "link 'get moved' smoothly",
+      "vocabulary": [
+        {
+          "word": "quieter",
+          "meaning": "less noisy"
+        }
+      ],
+      "grammar_focus": "passive causative",
+      "tags": [
+        "hotel",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Money",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "question",
+      "sentence": "Do you know if this place charges a foreign transaction fee?",
+      "natural_form": "D'you know if this place charges a foreign transaction fee?",
+      "accent": "american",
+      "pronunciation_focus": "the /tr/ in transaction",
+      "stress_focus": "foreign, transaction, fee",
+      "intonation_focus": "rising embedded question",
+      "connected_speech_focus": "reduce 'do you' to 'd'you'",
+      "vocabulary": [
+        {
+          "word": "transaction fee",
+          "meaning": "extra charge for processing a payment"
+        }
+      ],
+      "grammar_focus": "embedded question",
+      "tags": [
+        "travel",
+        "money"
+      ]
+    },
+    {
+      "subcategory": "Money",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, exchanging cash at the airport is a rip-off.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ks/ in exchanging",
+      "stress_focus": "exchanging, rip-off",
+      "intonation_focus": "falling opinion statement",
+      "connected_speech_focus": "link 'exchanging cash' smoothly",
+      "vocabulary": [
+        {
+          "word": "rip-off",
+          "meaning": "something overpriced or a bad deal"
+        }
+      ],
+      "grammar_focus": "opinion statement",
+      "tags": [
+        "travel",
+        "money",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Directions",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, did you say turn right after the bridge or before it?",
+      "natural_form": "Sorry, didja say turn right after the bridge or before it?",
+      "accent": "american",
+      "pronunciation_focus": "the /br/ in bridge",
+      "stress_focus": "bridge, before",
+      "intonation_focus": "rising clarifying question",
+      "connected_speech_focus": "reduce 'did you' to 'didja'",
+      "vocabulary": [
+        {
+          "word": "bridge",
+          "meaning": "a structure crossing a river or road"
+        }
+      ],
+      "grammar_focus": "clarification question",
+      "tags": [
+        "travel",
+        "directions"
+      ]
+    },
+    {
+      "subcategory": "Sightseeing",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "We wandered around the old quarter for hours without a map.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /qu/ in quarter",
+      "stress_focus": "wandered, quarter",
+      "intonation_focus": "falling storytelling intonation",
+      "connected_speech_focus": "link 'wandered around' smoothly",
+      "vocabulary": [
+        {
+          "word": "wandered",
+          "meaning": "walked around without a clear direction"
+        }
+      ],
+      "grammar_focus": "simple past narrative",
+      "tags": [
+        "travel",
+        "storytelling"
+      ]
+    },
+    {
+      "subcategory": "Sightseeing",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "I'd say the guided tour is worth the extra money.",
+      "natural_form": "I'd say the guided tour's worth the extra money.",
+      "accent": "american",
+      "pronunciation_focus": "the /gw/ in guided",
+      "stress_focus": "guided, worth",
+      "intonation_focus": "falling opinion statement",
+      "connected_speech_focus": "link 'I'd say' smoothly",
+      "vocabulary": [
+        {
+          "word": "guided tour",
+          "meaning": "a tour led by a guide"
+        }
+      ],
+      "grammar_focus": "opinion with I'd say",
+      "tags": [
+        "travel",
+        "sightseeing",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Transport",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Could you drop us off near the main entrance?",
+      "natural_form": "Could ya drop us off near the main entrance?",
+      "accent": "american",
+      "pronunciation_focus": "the /dr/ in drop",
+      "stress_focus": "drop off, entrance",
+      "intonation_focus": "polite falling request",
+      "connected_speech_focus": "reduce 'could you' to 'coulja'",
+      "vocabulary": [
+        {
+          "word": "drop off",
+          "meaning": "to let someone out of a vehicle"
+        }
+      ],
+      "grammar_focus": "phrasal verb request",
+      "tags": [
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "subcategory": "Transport",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "Traffic was backed up all the way to the terminal.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /b/ in backed",
+      "stress_focus": "traffic, backed up",
+      "intonation_focus": "falling narrative statement",
+      "connected_speech_focus": "link 'backed up' smoothly",
+      "vocabulary": [
+        {
+          "word": "backed up",
+          "meaning": "congested, not moving"
+        }
+      ],
+      "grammar_focus": "simple past",
+      "tags": [
+        "travel",
+        "transport"
+      ]
+    },
+    {
+      "subcategory": "Weather",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "reaction",
+      "sentence": "Great, our flight's delayed because of the storm.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d/ in delayed",
+      "stress_focus": "delayed, storm",
+      "intonation_focus": "sarcastic falling intonation",
+      "connected_speech_focus": "link 'flight's delayed' smoothly",
+      "vocabulary": [
+        {
+          "word": "delayed",
+          "meaning": "made to happen later than planned"
+        }
+      ],
+      "grammar_focus": "present passive",
+      "tags": [
+        "travel",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "By the time we'd made it through the line, they'd already closed the gate.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "weak forms of 'had' in 'we'd' and 'they'd'",
+      "stress_focus": "made it, closed the gate",
+      "intonation_focus": "falling storytelling with dramatic pause",
+      "connected_speech_focus": "link 'made it through' as ma-di-through",
+      "vocabulary": [
+        {
+          "word": "closed the gate",
+          "meaning": "stopped allowing passengers to board"
+        }
+      ],
+      "grammar_focus": "past perfect",
+      "tags": [
+        "travel",
+        "storytelling",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Airport check-in",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I'd rather pay extra for a direct flight than deal with a layover.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in rather",
+      "stress_focus": "rather, layover",
+      "intonation_focus": "falling opinion statement",
+      "connected_speech_focus": "link 'rather pay' smoothly",
+      "vocabulary": [
+        {
+          "word": "layover",
+          "meaning": "a stopover between connecting flights"
+        }
+      ],
+      "grammar_focus": "would rather",
+      "tags": [
+        "travel",
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Security",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "I get that it's for safety, but the whole process feels overly complicated.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k\u0259/ in complicated",
+      "stress_focus": "safety, overly, complicated",
+      "intonation_focus": "falling nuanced disagreement",
+      "connected_speech_focus": "link 'I get that' smoothly",
+      "vocabulary": [
+        {
+          "word": "overly complicated",
+          "meaning": "unnecessarily complex"
+        }
+      ],
+      "grammar_focus": "concession clause with but",
+      "tags": [
+        "travel",
+        "disagreement",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Security",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "They ended up confiscating my water bottle even though it was empty.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /f/ in confiscating",
+      "stress_focus": "confiscating, empty",
+      "intonation_focus": "falling statement with concession",
+      "connected_speech_focus": "link 'ended up' as en-di-dup",
+      "vocabulary": [
+        {
+          "word": "confiscate",
+          "meaning": "to officially take something away"
+        }
+      ],
+      "grammar_focus": "even though clause",
+      "tags": [
+        "travel",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Boarding",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "reaction",
+      "sentence": "Unbelievable, they overbooked the flight and now people are getting bumped left and right.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u028c/ in unbelievable",
+      "stress_focus": "overbooked, bumped",
+      "intonation_focus": "exasperated falling intonation",
+      "connected_speech_focus": "link 'and now' smoothly",
+      "vocabulary": [
+        {
+          "word": "overbooked",
+          "meaning": "sold more tickets than there are seats"
+        }
+      ],
+      "grammar_focus": "present continuous for complaints",
+      "tags": [
+        "travel",
+        "reaction",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Boarding",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "We ended up sprinting through the terminal just to make our connection.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /spr/ in sprinting",
+      "stress_focus": "sprinting, connection",
+      "intonation_focus": "falling narrative statement",
+      "connected_speech_focus": "link 'ended up' as en-di-dup",
+      "vocabulary": [
+        {
+          "word": "connection",
+          "meaning": "a connecting flight"
+        }
+      ],
+      "grammar_focus": "past narrative with just to",
+      "tags": [
+        "travel",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "In-flight",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "If I'm being honest, I can never sleep on planes no matter how tired I am.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0252/ in honest",
+      "stress_focus": "honest, tired",
+      "intonation_focus": "falling opinion, contrastive stress on 'never'",
+      "connected_speech_focus": "link 'no matter' smoothly",
+      "vocabulary": [
+        {
+          "word": "no matter how",
+          "meaning": "regardless of how much"
+        }
+      ],
+      "grammar_focus": "conditional with concession",
+      "tags": [
+        "travel",
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "In-flight",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "clarification",
+      "sentence": "Wait, are we saying the delay was due to weather or a mechanical issue?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in mechanical",
+      "stress_focus": "delay, mechanical",
+      "intonation_focus": "rising clarifying question with contrastive stress",
+      "connected_speech_focus": "link 'due to' smoothly",
+      "vocabulary": [
+        {
+          "word": "mechanical issue",
+          "meaning": "a problem with the machinery"
+        }
+      ],
+      "grammar_focus": "clarification with due to",
+      "tags": [
+        "travel",
+        "clarification",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Baggage claim",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "After circling the carousel for an hour, we finally gave up and filed a claim.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /s/ in circling",
+      "stress_focus": "circling, filed a claim",
+      "intonation_focus": "falling storytelling narrative",
+      "connected_speech_focus": "link 'gave up' smoothly",
+      "vocabulary": [
+        {
+          "word": "file a claim",
+          "meaning": "submit an official report for lost items"
+        }
+      ],
+      "grammar_focus": "past narrative with after clause",
+      "tags": [
+        "travel",
+        "storytelling",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Baggage claim",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "agreement",
+      "sentence": "Tell me about it, I swear every airline loses bags these days.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /sw/ in swear",
+      "stress_focus": "swear, loses",
+      "intonation_focus": "falling emphatic agreement",
+      "connected_speech_focus": "link 'tell me about it' as an idiom",
+      "vocabulary": [
+        {
+          "word": "tell me about it",
+          "meaning": "idiom expressing strong agreement"
+        }
+      ],
+      "grammar_focus": "idiomatic agreement",
+      "tags": [
+        "travel",
+        "agreement",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Customs",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "I had no idea I was supposed to declare the gifts I brought back.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /d\u0292/ in gifts",
+      "stress_focus": "declare, gifts",
+      "intonation_focus": "falling statement with regret",
+      "connected_speech_focus": "link 'had no idea' smoothly",
+      "vocabulary": [
+        {
+          "word": "declare",
+          "meaning": "to officially state goods for customs"
+        }
+      ],
+      "grammar_focus": "past perfect with supposed to",
+      "tags": [
+        "travel",
+        "customs",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Customs",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "It seems a bit excessive to search every single bag at random.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /ks/ in excessive",
+      "stress_focus": "excessive, random",
+      "intonation_focus": "falling opinion statement",
+      "connected_speech_focus": "link 'seems a bit' smoothly",
+      "vocabulary": [
+        {
+          "word": "excessive",
+          "meaning": "more than necessary"
+        }
+      ],
+      "grammar_focus": "it seems + adjective",
+      "tags": [
+        "travel",
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "With all due respect, that's not the rate I was quoted online.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /kw/ in quoted",
+      "stress_focus": "respect, quoted",
+      "intonation_focus": "firm falling disagreement",
+      "connected_speech_focus": "link 'with all' smoothly",
+      "vocabulary": [
+        {
+          "word": "quoted",
+          "meaning": "told a price in advance"
+        }
+      ],
+      "grammar_focus": "polite disagreement idiom",
+      "tags": [
+        "hotel",
+        "disagreement",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Hotel check-in",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "storytelling",
+      "sentence": "We showed up at midnight only to find out our reservation had been canceled.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /k/ in canceled",
+      "stress_focus": "reservation, canceled",
+      "intonation_focus": "falling storytelling with twist",
+      "connected_speech_focus": "link 'showed up' smoothly",
+      "vocabulary": [
+        {
+          "word": "only to find out",
+          "meaning": "used to introduce an unexpected discovery"
+        }
+      ],
+      "grammar_focus": "past perfect passive",
+      "tags": [
+        "hotel",
+        "storytelling",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Hotel amenities",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "I'm not gonna lie, the breakfast buffet alone was worth the price of the room.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "weak form 'gonna'",
+      "stress_focus": "buffet, worth",
+      "intonation_focus": "falling emphatic opinion",
+      "connected_speech_focus": "reduce 'going to' to 'gonna'",
+      "vocabulary": [
+        {
+          "word": "buffet",
+          "meaning": "a meal where guests serve themselves"
+        }
+      ],
+      "grammar_focus": "emphatic opinion",
+      "tags": [
+        "hotel",
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Hotel issues",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "We'd asked for a non-smoking room, yet somehow ended up right next to the smoking lounge.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0292/ in lounge",
+      "stress_focus": "non-smoking, lounge",
+      "intonation_focus": "falling frustrated narrative",
+      "connected_speech_focus": "link 'ended up' as en-di-dup",
+      "vocabulary": [
+        {
+          "word": "lounge",
+          "meaning": "a common area for relaxing"
+        }
+      ],
+      "grammar_focus": "past perfect with yet",
+      "tags": [
+        "hotel",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Hotel issues",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "request",
+      "sentence": "Would there be any way to get a partial refund given the inconvenience?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0283/ in inconvenience",
+      "stress_focus": "partial, refund, inconvenience",
+      "intonation_focus": "polite rising formal request",
+      "connected_speech_focus": "link 'given the' smoothly",
+      "vocabulary": [
+        {
+          "word": "inconvenience",
+          "meaning": "trouble or difficulty caused"
+        }
+      ],
+      "grammar_focus": "formal polite request",
+      "tags": [
+        "hotel",
+        "request",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Money",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "At the end of the day, using a travel card just saves you so much hassle.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /h/ in hassle",
+      "stress_focus": "hassle, saves",
+      "intonation_focus": "falling emphatic opinion",
+      "connected_speech_focus": "link 'at the end' as an idiom",
+      "vocabulary": [
+        {
+          "word": "hassle",
+          "meaning": "difficulty or annoyance"
+        }
+      ],
+      "grammar_focus": "idiomatic opinion",
+      "tags": [
+        "travel",
+        "money",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Money",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "clarification",
+      "sentence": "Hold on, are you telling me the exchange rate changed since this morning?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /t\u0283/ in exchange",
+      "stress_focus": "exchange rate, changed",
+      "intonation_focus": "rising surprised clarification",
+      "connected_speech_focus": "link 'are you' smoothly",
+      "vocabulary": [
+        {
+          "word": "exchange rate",
+          "meaning": "the value of one currency compared to another"
+        }
+      ],
+      "grammar_focus": "present perfect clarification",
+      "tags": [
+        "travel",
+        "clarification",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Directions",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "We must've walked in circles for twenty minutes before we finally spotted a street sign.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "weak form 'must've'",
+      "stress_focus": "circles, spotted",
+      "intonation_focus": "falling storytelling with reduced modal",
+      "connected_speech_focus": "link 'must have' as mus-tuv",
+      "vocabulary": [
+        {
+          "word": "spotted",
+          "meaning": "noticed or caught sight of"
+        }
+      ],
+      "grammar_focus": "modal of past deduction",
+      "tags": [
+        "travel",
+        "storytelling",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Sightseeing",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "As touristy as it sounds, watching the sunset from that rooftop was genuinely unforgettable.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /\u028c/ in unforgettable",
+      "stress_focus": "touristy, unforgettable",
+      "intonation_focus": "falling passionate opinion",
+      "connected_speech_focus": "link 'as touristy as' smoothly",
+      "vocabulary": [
+        {
+          "word": "unforgettable",
+          "meaning": "impossible to forget, memorable"
+        }
+      ],
+      "grammar_focus": "as...as concession clause",
+      "tags": [
+        "travel",
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Sightseeing",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "Half the places we wanted to see ended up being closed for renovations.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /r/ in renovations",
+      "stress_focus": "renovations, closed",
+      "intonation_focus": "falling statement with disappointment",
+      "connected_speech_focus": "link 'ended up' as en-di-dup",
+      "vocabulary": [
+        {
+          "word": "renovations",
+          "meaning": "repairs or improvements to a building"
+        }
+      ],
+      "grammar_focus": "passive with ended up",
+      "tags": [
+        "travel",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Transport",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "agreement",
+      "sentence": "Totally, ride-sharing apps have made getting around way easier than hailing a cab.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /a\u026a/ in hailing",
+      "stress_focus": "ride-sharing, hailing",
+      "intonation_focus": "falling enthusiastic agreement",
+      "connected_speech_focus": "link 'way easier' smoothly",
+      "vocabulary": [
+        {
+          "word": "hailing a cab",
+          "meaning": "signaling a taxi to stop"
+        }
+      ],
+      "grammar_focus": "comparative with present perfect",
+      "tags": [
+        "travel",
+        "agreement",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Transport",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "I'd argue the subway's actually faster than driving during rush hour.",
+      "natural_form": "I'd argue the subway's actually faster than driving during rush hour.",
+      "accent": "american",
+      "pronunciation_focus": "the /\u0292/ in subway's",
+      "stress_focus": "argue, rush hour",
+      "intonation_focus": "falling assertive opinion",
+      "connected_speech_focus": "link 'I'd argue' smoothly",
+      "vocabulary": [
+        {
+          "word": "rush hour",
+          "meaning": "the busiest time for traffic"
+        }
+      ],
+      "grammar_focus": "comparative opinion",
+      "tags": [
+        "travel",
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Weather",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "Just when we thought the trip couldn't get any worse, a storm grounded every flight out of the city.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the /g/ in grounded",
+      "stress_focus": "grounded, worse",
+      "intonation_focus": "falling dramatic storytelling",
+      "connected_speech_focus": "link 'couldn't get' smoothly",
+      "vocabulary": [
+        {
+          "word": "grounded",
+          "meaning": "prevented planes from flying"
+        }
+      ],
+      "grammar_focus": "complex narrative with just when",
+      "tags": [
+        "travel",
+        "storytelling",
+        "advanced"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "exam": "pte",
+      "slug": "pte-global-coffee-consumption",
+      "task_type": "describe-image",
+      "task_label": "Describe Image",
+      "topic": "Global Coffee Consumption by Country",
+      "difficulty": "Intermediate",
+      "instructions": "Look at the bar chart below and describe the information in 40 seconds.",
+      "prepare_seconds": 25,
+      "speak_seconds": 40,
+      "questions": [
+        "A bar chart shows annual coffee consumption in kg per capita: Finland leads at 12kg, Norway at 9kg, Iceland at 8.5kg, Denmark at 8kg, and the Netherlands at 7.5kg. Describe the chart in 40 seconds.",
+        "A bar chart compares coffee consumption across five major cities: New York at 3 cups daily, London at 2.5, Paris at 2.8, Rome at 3.5, and Berlin at 3.2. Describe the chart in 40 seconds.",
+        "A bar chart illustrates the export volume of coffee beans from Brazil, Vietnam, Colombia, and Ethiopia over the last five years, showing Brazil as the dominant exporter. Describe the chart in 40 seconds."
+      ],
+      "sort_order": 11
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-london-monthly-temperatures",
+      "task_type": "describe-image",
+      "task_label": "Describe Image",
+      "topic": "London Average Monthly Temperatures",
+      "difficulty": "Beginner",
+      "instructions": "Look at the line graph and describe the main trends shown.",
+      "prepare_seconds": 25,
+      "speak_seconds": 40,
+      "questions": [
+        "A line graph tracks London's average high temperatures from January to December: starting at 8°C in Jan, peaking at 23°C in July, and falling back to 9°C in Dec. Describe the chart in 40 seconds.",
+        "A line graph shows the fluctuations in monthly rainfall in London, with a significant peak in October and a notable dip in July. Describe the chart in 40 seconds.",
+        "A line graph depicts the number of tourists visiting London museums monthly, showing a steady climb from April through August before a decline in autumn. Describe the chart in 40 seconds."
+      ],
+      "sort_order": 12
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mobile-os-market-share",
+      "task_type": "describe-image",
+      "task_label": "Describe Image",
+      "topic": "Global Mobile Operating Systems Share",
+      "difficulty": "Intermediate",
+      "instructions": "Examine the pie chart and describe the distribution of market share.",
+      "prepare_seconds": 25,
+      "speak_seconds": 40,
+      "questions": [
+        "A pie chart shows mobile OS market share: Android at 72%, iOS at 27%, and others at 1%. Android clearly dominates the global market. Describe the chart in 40 seconds.",
+        "A pie chart breaks down smartphone usage by age group: 18-24 (30%), 25-34 (35%), 35-44 (20%), and 45+ (15%). Describe the chart in 40 seconds.",
+        "A pie chart illustrates the preferred communication methods among teens: Social Media (50%), Instant Messaging (30%), Voice Calls (10%), and Email (10%). Describe the chart in 40 seconds."
+      ],
+      "sort_order": 13
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-natural-water-cycle",
+      "task_type": "describe-image",
+      "task_label": "Describe Image",
+      "topic": "The Natural Water Cycle",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Look at the diagram and explain the stages of the process.",
+      "prepare_seconds": 25,
+      "speak_seconds": 40,
+      "questions": [
+        "A process diagram shows the water cycle: evaporation from oceans, condensation into clouds, precipitation as rain or snow, and collection in rivers and lakes. Describe the chart in 40 seconds.",
+        "A process diagram illustrates the recycling of plastic bottles, from collection and sorting to shredding, melting, and manufacturing new products. Describe the chart in 40 seconds.",
+        "A process diagram depicts the life cycle of a butterfly, starting from eggs, moving to the larva or caterpillar stage, then the pupa, and finally the adult butterfly. Describe the chart in 40 seconds."
+      ],
+      "sort_order": 14
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-european-population-density",
+      "task_type": "describe-image",
+      "task_label": "Describe Image",
+      "topic": "European Population Density Map",
+      "difficulty": "Advanced",
+      "instructions": "Study the map and describe the patterns of population density across the region.",
+      "prepare_seconds": 25,
+      "speak_seconds": 40,
+      "questions": [
+        "A map of Europe shows population density: high density in Benelux and North-Rhine Westphalia, moderate density in France and Italy, and low density in Scandinavia. Describe the chart in 40 seconds.",
+        "A map of Australia highlights the population distribution, showing heavy concentration along the eastern and southern coastlines with a sparsely populated interior. Describe the chart in 40 seconds.",
+        "A map of the United States illustrates the intensity of light pollution, with the most significant brightness concentrated in the Northeast corridor and major metropolitan areas. Describe the chart in 40 seconds."
+      ],
+      "sort_order": 15
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-coral-reef-ecosystems",
+      "task_type": "retell-lecture",
+      "task_label": "Retell Lecture",
+      "topic": "Ecosystem Services of Coral Reefs",
+      "difficulty": "Intermediate",
+      "instructions": "You will hear a lecture. After listening, please retell what you have heard in your own words.",
+      "prepare_seconds": 10,
+      "speak_seconds": 40,
+      "questions": [
+        "Coral reefs are often called the rainforests of the sea because they support a vast diversity of marine life. They provide essential ecosystem services, including coastal protection from storms and nursery grounds for many fish species. However, rising ocean temperatures and acidification are causing widespread bleaching events. Protecting these fragile environments is crucial not only for biodiversity but also for the millions of people who depend on them for food and tourism.",
+        "Marine biologists have discovered that coral reefs contribute billions of dollars annually to the global economy. Beyond their aesthetic value, they act as natural breakwaters, reducing the impact of waves and preventing coastal erosion. The lecture emphasized that local stressors, such as overfishing and pollution, exacerbate the global threats posed by climate change. Integrated management strategies are needed to restore reef health and ensure their long-term survival for future generations.",
+        "The symbiotic relationship between coral polyps and zooxanthellae algae is the foundation of reef ecosystems. These algae provide nutrients through photosynthesis, while corals offer a protected environment and compounds for growth. When water temperatures rise, corals expel the algae, leading to bleaching and potential death. This breakdown of symbiosis illustrates the extreme sensitivity of marine life to even minor environmental changes, highlighting the urgent need for climate action."
+      ],
+      "sort_order": 16
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-supply-and-demand",
+      "task_type": "retell-lecture",
+      "task_label": "Retell Lecture",
+      "topic": "Fundamentals of Supply and Demand",
+      "difficulty": "Beginner",
+      "instructions": "Listen to the lecture and summarize the key points in your own words.",
+      "prepare_seconds": 10,
+      "speak_seconds": 40,
+      "questions": [
+        "The law of supply and demand is a fundamental concept in economics that determines market prices. According to this principle, when the demand for a product increases while supply remains constant, the price tends to rise. Conversely, if supply exceeds demand, prices typically fall. This interaction creates a market equilibrium where the quantity supplied matches the quantity demanded, ensuring the efficient allocation of resources within a competitive economy.",
+        "Economists use the supply and demand model to analyze how external factors, such as technology or government policy, shift market dynamics. For instance, a technological advancement that lowers production costs will increase supply, potentially lowering prices for consumers. On the other hand, a tax on a specific good might reduce supply and increase costs. Understanding these shifts is essential for businesses and policymakers to anticipate changes in the market environment.",
+        "Market equilibrium occurs at the intersection of the supply and demand curves. At this point, the price is stable because the amount of goods sellers want to sell equals the amount buyers want to purchase. If the price is set too high, a surplus develops, prompting sellers to lower prices. If it's too low, a shortage occurs, driving prices up. This self-correcting mechanism is a hallmark of free-market systems across the globe."
+      ],
+      "sort_order": 17
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-memory-retention",
+      "task_type": "retell-lecture",
+      "task_label": "Retell Lecture",
+      "topic": "Human Memory and Retention Rates",
+      "difficulty": "Intermediate",
+      "instructions": "Listen to the lecture and retell the main ideas you heard.",
+      "prepare_seconds": 10,
+      "speak_seconds": 40,
+      "questions": [
+        "The lecture discussed the Ebbinghaus Forgetting Curve, which illustrates how information is lost over time when there is no attempt to retain it. Research shows that humans forget about 50 percent of new information within an hour of learning it. To combat this, spaced repetition and active recall are recommended. By reviewing material at increasing intervals, learners can strengthen neural pathways and move information from short-term to long-term memory.",
+        "Memory is not a single process but a complex system involving encoding, storage, and retrieval. Sensory memory acts as a brief buffer for incoming information, which then moves to short-term memory if attended to. Long-term memory has a virtually unlimited capacity but requires meaningful associations for effective storage. The speaker emphasized that sleep plays a critical role in memory consolidation, helping the brain process and organize the day's experiences.",
+        "Cognitive psychology identifies several types of memory, including episodic, semantic, and procedural. Episodic memory involves personal experiences, while semantic memory deals with facts and general knowledge. Procedural memory covers skills like riding a bike or typing. Understanding these distinctions helps educators design better teaching methods that cater to how the brain naturally processes different kinds of information. The lecture concluded by highlighting that multi-sensory learning often leads to better long-term retention."
+      ],
+      "sort_order": 18
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-plate-tectonics",
+      "task_type": "retell-lecture",
+      "task_label": "Retell Lecture",
+      "topic": "Theory of Plate Tectonics",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Listen to the lecture and summarize the information presented.",
+      "prepare_seconds": 10,
+      "speak_seconds": 40,
+      "questions": [
+        "Plate tectonics is the scientific theory describing the large-scale motion of the plates making up Earth's lithosphere. These plates move due to convection currents in the underlying mantle. Where plates meet, they interact in three ways: they can converge, diverge, or slide past one another. These interactions are responsible for most of the world's seismic and volcanic activity, as well as the formation of mountain ranges like the Himalayas.",
+        "The concept of continental drift, proposed by Alfred Wegener, was the precursor to modern plate tectonics. Wegener noticed that the coastlines of Africa and South America fit together like puzzle pieces and shared similar fossils. However, he lacked a mechanism for how continents moved. It wasn't until the discovery of seafloor spreading in the mid-20th century that scientists understood the process of new crust being created at oceanic ridges.",
+        "Geological evidence supports the idea that the Earth's surface is dynamic rather than static. Transform boundaries, such as the San Andreas Fault, occur where plates slide horizontally past each other, often resulting in powerful earthquakes. Subduction zones, where one plate sinks beneath another, are areas of intense volcanic activity and deep-sea trenches. This continuous cycle of crustal creation and destruction drives the evolution of our planet's geography over millions of years."
+      ],
+      "sort_order": 19
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-ai-ethics",
+      "task_type": "retell-lecture",
+      "task_label": "Retell Lecture",
+      "topic": "Ethical Implications of Artificial Intelligence",
+      "difficulty": "Advanced",
+      "instructions": "Listen to the lecture and retell the key arguments discussed.",
+      "prepare_seconds": 10,
+      "speak_seconds": 40,
+      "questions": [
+        "As artificial intelligence becomes more integrated into society, ethical considerations are moving to the forefront. One major concern is algorithmic bias, where AI systems inherit the prejudices of their human creators or the data they are trained on. This can lead to unfair treatment in areas like hiring, lending, and law enforcement. The speaker argued for greater transparency and accountability in AI development to ensure these technologies benefit everyone equitably.",
+        "The potential for AI to automate jobs raises significant economic and social questions. While automation can increase efficiency and create new types of work, it also threatens to displace millions of workers in traditional sectors. The lecture highlighted the need for robust reskilling programs and social safety nets to manage this transition. Furthermore, the development of autonomous weapons systems poses a unique threat, necessitating international agreements on the use of AI in warfare.",
+        "Privacy is another critical ethical frontier in the age of AI. Advanced data analytics allow for unprecedented levels of surveillance and behavioral prediction, often without individuals' explicit consent. The lecture emphasized the importance of data sovereignty and the right to explanation, where users can understand how AI-driven decisions are made. Balancing innovation with the protection of fundamental human rights is perhaps the greatest challenge facing the tech industry today."
+      ],
+      "sort_order": 20
+    }
+  ]
+}

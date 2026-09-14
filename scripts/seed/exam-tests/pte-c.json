@@ -1,0 +1,179 @@
+{
+  "tests": [
+    {
+      "exam": "pte",
+      "slug": "pte-mix-short-answer-general",
+      "task_type": "short-answer",
+      "task_label": "Answer Short Question",
+      "topic": "General Knowledge and Everyday Science",
+      "difficulty": "Beginner",
+      "instructions": "You will hear a question. Please give a simple and short answer in one or a few words.",
+      "prepare_seconds": 0,
+      "speak_seconds": 10,
+      "questions": [
+        "What do you call a person who studies stars and planets?",
+        "Which instrument is used to measure body temperature?",
+        "What is the name of the long sleep animals take during winter?",
+        "What gas do plants absorb from the atmosphere for photosynthesis?"
+      ],
+      "sort_order": 21
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-short-answer-academic",
+      "task_type": "short-answer",
+      "task_label": "Answer Short Question",
+      "topic": "Academic Vocabulary and Definitions",
+      "difficulty": "Intermediate",
+      "instructions": "You will hear a question. Please give a simple and short answer in one or a few words.",
+      "prepare_seconds": 0,
+      "speak_seconds": 10,
+      "questions": [
+        "What do you call the list of sources used in a research paper?",
+        "Which subject deals with the study of the human mind and behavior?",
+        "What is the primary language spoken in Brazil?",
+        "What term describes the process of liquid turning into gas?"
+      ],
+      "sort_order": 22
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-short-answer-math",
+      "task_type": "short-answer",
+      "task_label": "Answer Short Question",
+      "topic": "Measurement and Quantitative Concepts",
+      "difficulty": "Intermediate",
+      "instructions": "You will hear a question. Please give a simple and short answer in one or a few words.",
+      "prepare_seconds": 0,
+      "speak_seconds": 10,
+      "questions": [
+        "How many years are there in a millennium?",
+        "What is the square root of sixty-four?",
+        "How many sides does a hexagon have?",
+        "What do you call a period of ten years?"
+      ],
+      "sort_order": 23
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-short-answer-geography",
+      "task_type": "short-answer",
+      "task_label": "Answer Short Question",
+      "topic": "Geographical and Cultural Facts",
+      "difficulty": "Beginner",
+      "instructions": "You will hear a question. Please give a simple and short answer in one or a few words.",
+      "prepare_seconds": 0,
+      "speak_seconds": 10,
+      "questions": [
+        "Which continent is the Sahara Desert located in?",
+        "What is the capital city of France?",
+        "Which ocean lies between Africa and Australia?",
+        "What is the largest planet in our solar system?"
+      ],
+      "sort_order": 24
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-read-aloud-ai",
+      "task_type": "read-aloud",
+      "task_label": "Read Aloud",
+      "topic": "The Impact of Artificial Intelligence",
+      "difficulty": "Advanced",
+      "instructions": "Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible.",
+      "prepare_seconds": 35,
+      "speak_seconds": 40,
+      "questions": [
+        "Artificial intelligence is revolutionizing the way we interact with technology, from personalized recommendations on streaming services to advanced diagnostic tools in healthcare. As algorithms become more sophisticated, ethical considerations regarding data privacy and algorithmic bias are becoming increasingly important for developers and policymakers to address in a globalized society.",
+        "The integration of machine learning into industrial processes has significantly improved efficiency and reduced waste. By analyzing vast amounts of sensor data in real-time, companies can predict equipment failures before they occur, allowing for proactive maintenance and minimizing downtime in complex manufacturing environments.",
+        "Natural language processing allows computers to understand and respond to human speech with remarkable accuracy. This technology powers virtual assistants and translation software, breaking down language barriers and facilitating international communication. However, capturing the nuances of human emotion and cultural context remains a significant challenge for researchers."
+      ],
+      "sort_order": 25
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-read-aloud-marine",
+      "task_type": "read-aloud",
+      "task_label": "Read Aloud",
+      "topic": "Marine Biodiversity in Tropical Reefs",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Look at the text below. In 35 seconds, you must read this text aloud as naturally and clearly as possible.",
+      "prepare_seconds": 35,
+      "speak_seconds": 40,
+      "questions": [
+        "Tropical coral reefs are some of the most diverse ecosystems on Earth, providing a habitat for thousands of marine species. These vibrant underwater structures protect coastlines from erosion and support local economies through tourism and fishing. Unfortunately, rising ocean temperatures and acidification pose a severe threat to their survival.",
+        "Marine biologists are studying the resilience of various coral species to environmental stressors. Some corals exhibit a surprising ability to adapt to warmer waters, while others are highly susceptible to bleaching events. Understanding these biological mechanisms is crucial for developing effective conservation strategies to preserve our oceans' biodiversity.",
+        "Pollution from plastic waste and chemical runoff continues to degrade marine habitats worldwide. Microplastics are now found in the deepest parts of the ocean, entering the food chain and affecting the health of marine life and humans alike. Collective global action is required to reduce waste and protect these vital ecosystems."
+      ],
+      "sort_order": 26
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-repeat-sentence-campus",
+      "task_type": "repeat-sentence",
+      "task_label": "Repeat Sentence",
+      "topic": "Campus Life and Academic Services",
+      "difficulty": "Intermediate",
+      "instructions": "You will hear a sentence. Please repeat the sentence exactly as you hear it.",
+      "prepare_seconds": 0,
+      "speak_seconds": 15,
+      "questions": [
+        "The library will be closed for maintenance during the winter break.",
+        "Please ensure that all your assignments are submitted before the deadline.",
+        "The student counseling center offers free workshops on stress management.",
+        "Detailed information about the scholarship program is available on the website."
+      ],
+      "sort_order": 27
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-describe-image-energy",
+      "task_type": "describe-image",
+      "task_label": "Describe Image",
+      "topic": "Global Renewable Energy Consumption Trends",
+      "difficulty": "Upper-Intermediate",
+      "instructions": "Look at the chart below. In 25 seconds, please speak into the microphone and describe in detail what the chart is showing.",
+      "prepare_seconds": 25,
+      "speak_seconds": 40,
+      "questions": [
+        "A line graph showing the global consumption of solar and wind energy from 2000 to 2020. Describe the main trends and significant changes shown in the graph.",
+        "A pie chart illustrating the percentage share of different energy sources, including coal, gas, and renewables, in a developed nation. Compare the major segments.",
+        "A bar chart comparing the carbon emissions of five different countries over the last decade. Summarize the highest and lowest emitters and any notable patterns."
+      ],
+      "sort_order": 28
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-describe-image-population",
+      "task_type": "describe-image",
+      "task_label": "Describe Image",
+      "topic": "Population Distribution by Age Group",
+      "difficulty": "Intermediate",
+      "instructions": "Look at the chart below. In 25 seconds, please speak into the microphone and describe in detail what the chart is showing.",
+      "prepare_seconds": 25,
+      "speak_seconds": 40,
+      "questions": [
+        "A population pyramid for a developing country, showing a large base of young people and a narrow top for the elderly. Describe the demographic structure.",
+        "A map highlighting the urban population density across various regions of Asia. Identify the areas with the highest and lowest densities.",
+        "A table listing the life expectancy and literacy rates in several countries. Describe the relationship between these two indicators as shown in the table."
+      ],
+      "sort_order": 29
+    },
+    {
+      "exam": "pte",
+      "slug": "pte-mix-retell-lecture-architecture",
+      "task_type": "retell-lecture",
+      "task_label": "Retell Lecture",
+      "topic": "The History of Sustainable Architecture",
+      "difficulty": "Advanced",
+      "instructions": "You will hear a lecture. After listening to the lecture, in 10 seconds, please speak into the microphone and retell what you have just heard from the lecture in your own words.",
+      "prepare_seconds": 10,
+      "speak_seconds": 40,
+      "questions": [
+        "The lecture explored the evolution of sustainable architecture, beginning with traditional building methods that utilized local materials and natural ventilation. It then traced the shift towards industrialization, which prioritized speed and cost over environmental impact. Finally, the speaker discussed modern green building standards like LEED and BREEAM, which emphasize energy efficiency and reduced carbon footprints.",
+        "The professor discussed the importance of biophilic design in modern urban planning. By incorporating natural elements like plants, water features, and natural light into office buildings, architects can improve the well-being and productivity of employees. The lecture highlighted several case studies where these designs resulted in lower stress levels and increased creativity among workers.",
+        "This talk focused on the challenges of retrofitting older buildings to meet current energy standards. While new constructions can easily integrate solar panels and high-efficiency insulation, older structures often face structural and aesthetic constraints. The speaker argued that preserving historical integrity while improving energy performance is a key challenge for future urban development."
+      ],
+      "sort_order": 30
+    }
+  ]
+}

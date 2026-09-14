@@ -1,0 +1,41 @@
+{
+  "topic_slug": "meetings-opinions",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Sharing an opinion",
+      "turns": [
+        { "speaker_label": "Manager", "speaker_voice": "alloy", "sentence": "What do you think about the new schedule?", "is_free": true },
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "I think it's a good idea.", "is_free": true },
+        { "speaker_label": "Manager", "speaker_voice": "alloy", "sentence": "Why do you like it?", "is_free": true },
+        { "speaker_label": "Employee", "speaker_voice": "shimmer", "sentence": "It gives us more time in the morning.", "is_free": true },
+        { "speaker_label": "Manager", "speaker_voice": "alloy", "sentence": "That's true. Thanks for sharing.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Presenting an update",
+      "turns": [
+        { "speaker_label": "Presenter", "speaker_voice": "sage", "sentence": "So far, the project is on track, though we've hit a small delay with the vendor.", "is_free": false },
+        { "speaker_label": "Colleague", "speaker_voice": "coral", "sentence": "How much of a delay are we talking about, roughly?", "is_free": false },
+        { "speaker_label": "Presenter", "speaker_voice": "sage", "sentence": "Probably around a week, but it shouldn't affect the final deadline.", "is_free": false },
+        { "speaker_label": "Colleague", "speaker_voice": "coral", "sentence": "Good to know. Should we notify the client just to be safe?", "is_free": false },
+        { "speaker_label": "Presenter", "speaker_voice": "sage", "sentence": "I think a brief heads-up would be wise, yes.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Debating a strategy",
+      "turns": [
+        { "speaker_label": "Director", "speaker_voice": "nova", "sentence": "I want to hear pushback, not just agreement — does anyone genuinely think this strategy has a flaw?", "is_free": false },
+        { "speaker_label": "Analyst", "speaker_voice": "shimmer", "sentence": "Since you're asking, I'm concerned we're underestimating how long the rollout will actually take.", "is_free": false },
+        { "speaker_label": "Director", "speaker_voice": "nova", "sentence": "Go on — what makes you say that, specifically?", "is_free": false },
+        { "speaker_label": "Analyst", "speaker_voice": "shimmer", "sentence": "The last comparable rollout took nearly twice our current estimate, and the scope here is broader.", "is_free": false },
+        { "speaker_label": "Director", "speaker_voice": "nova", "sentence": "That's a fair challenge — let's revisit the timeline with that precedent in mind before finalizing.", "is_free": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2480 @@
+{
+  "slug": "office-communication",
+  "name": "Office Communication",
+  "topic_group": "Work & Professional English",
+  "blurb": "Practice everyday spoken English for offices, meetings, and workplace conversations.",
+  "sort_order": 33,
+  "sentences": [
+    {
+      "subcategory": "asking for help",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Can you help me?",
+      "natural_form": "Can ya help me?",
+      "translation": "Bạn có thể giúp tôi không?",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ sound",
+      "stress_focus": "stress on 'help'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "can you -> kən yə",
+      "vocabulary": [
+        {
+          "word": "help",
+          "meaning": "giúp đỡ"
+        }
+      ],
+      "grammar_focus": "modal verb 'can'",
+      "tags": [
+        "help",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "How was your weekend?",
+      "natural_form": "How wuz your weekend?",
+      "translation": "Cuối tuần của bạn thế nào?",
+      "accent": "american",
+      "pronunciation_focus": "w sound linking",
+      "stress_focus": "stress on 'weekend'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "was your -> wazyer",
+      "vocabulary": [
+        {
+          "word": "weekend",
+          "meaning": "cuối tuần"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "greeting",
+        "casual"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The meeting starts at nine.",
+      "natural_form": "The meeting starts at nine.",
+      "translation": "Cuộc họp bắt đầu lúc chín giờ.",
+      "accent": "american",
+      "pronunciation_focus": "clear consonant endings",
+      "stress_focus": "stress on 'nine'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "starts at -> starts-it",
+      "vocabulary": [
+        {
+          "word": "meeting",
+          "meaning": "cuộc họp"
+        }
+      ],
+      "grammar_focus": "simple present for schedules",
+      "tags": [
+        "meeting",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What do I do next?",
+      "natural_form": "Whadda I do next?",
+      "translation": "Tôi phải làm gì tiếp theo?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'do I'",
+      "stress_focus": "stress on 'next'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "what do -> whadda",
+      "vocabulary": [
+        {
+          "word": "next",
+          "meaning": "tiếp theo"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "instructions"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I'm sorry for the delay.",
+      "natural_form": "I'm sorry for the delay.",
+      "translation": "Tôi xin lỗi vì sự chậm trễ.",
+      "accent": "american",
+      "pronunciation_focus": "clear /s/ sound",
+      "stress_focus": "stress on 'sorry'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "for the -> fer the",
+      "vocabulary": [
+        {
+          "word": "delay",
+          "meaning": "sự chậm trễ"
+        }
+      ],
+      "grammar_focus": "present tense apology",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please send me the file.",
+      "natural_form": "Please send me the file.",
+      "translation": "Vui lòng gửi cho tôi tệp tin.",
+      "accent": "american",
+      "pronunciation_focus": "clear /f/ sound",
+      "stress_focus": "stress on 'file'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "send me -> sen'me",
+      "vocabulary": [
+        {
+          "word": "file",
+          "meaning": "tệp tin"
+        }
+      ],
+      "grammar_focus": "imperative request",
+      "tags": [
+        "email",
+        "task"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I finished the report.",
+      "natural_form": "I finished the report.",
+      "translation": "Tôi đã hoàn thành báo cáo.",
+      "accent": "american",
+      "pronunciation_focus": "past tense -ed ending",
+      "stress_focus": "stress on 'finished'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "finished the -> finishtha",
+      "vocabulary": [
+        {
+          "word": "report",
+          "meaning": "báo cáo"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "work",
+        "update"
+      ]
+    },
+    {
+      "subcategory": "reminders",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Don't forget the meeting.",
+      "natural_form": "Don't ferget the meeting.",
+      "translation": "Đừng quên cuộc họp nhé.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'forget'",
+      "stress_focus": "stress on 'forget'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "don't forget -> don' ferget",
+      "vocabulary": [
+        {
+          "word": "forget",
+          "meaning": "quên"
+        }
+      ],
+      "grammar_focus": "negative imperative",
+      "tags": [
+        "reminder"
+      ]
+    },
+    {
+      "subcategory": "polite requests",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Could you open the door?",
+      "natural_form": "Could ya open the door?",
+      "translation": "Bạn có thể mở cửa không?",
+      "accent": "american",
+      "pronunciation_focus": "link could you",
+      "stress_focus": "stress on 'open'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "could you -> could ya",
+      "vocabulary": [
+        {
+          "word": "door",
+          "meaning": "cửa"
+        }
+      ],
+      "grammar_focus": "modal 'could' for politeness",
+      "tags": [
+        "polite",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you have a minute?",
+      "natural_form": "Do ya have a minute?",
+      "translation": "Bạn có rảnh một chút không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'do you'",
+      "stress_focus": "stress on 'minute'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "do you -> d'ya",
+      "vocabulary": [
+        {
+          "word": "minute",
+          "meaning": "phút"
+        }
+      ],
+      "grammar_focus": "present simple question",
+      "tags": [
+        "help"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Nice to see you again.",
+      "natural_form": "Nice ta see ya again.",
+      "translation": "Rất vui được gặp lại bạn.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'again'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "to see -> ta see",
+      "vocabulary": [
+        {
+          "word": "again",
+          "meaning": "lại"
+        }
+      ],
+      "grammar_focus": "greeting phrase",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Are you free tomorrow?",
+      "natural_form": "Are ya free tomorrow?",
+      "translation": "Bạn có rảnh vào ngày mai không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'you'",
+      "stress_focus": "stress on 'free'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "are you -> are ya",
+      "vocabulary": [
+        {
+          "word": "tomorrow",
+          "meaning": "ngày mai"
+        }
+      ],
+      "grammar_focus": "present simple question",
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Can you repeat that?",
+      "natural_form": "Can ya repeat that?",
+      "translation": "Bạn có thể nhắc lại không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'can you'",
+      "stress_focus": "stress on 'repeat'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "can you -> canya",
+      "vocabulary": [
+        {
+          "word": "repeat",
+          "meaning": "nhắc lại"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "clarify"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Sorry, I'm running late.",
+      "natural_form": "Sorry, I'm runnin' late.",
+      "translation": "Xin lỗi, tôi đến trễ.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in running",
+      "stress_focus": "stress on 'late'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "running late -> runnin late",
+      "vocabulary": [
+        {
+          "word": "late",
+          "meaning": "trễ"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please call the client.",
+      "natural_form": "Please call the client.",
+      "translation": "Vui lòng gọi cho khách hàng.",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ sound",
+      "stress_focus": "stress on 'client'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "call the -> call-the",
+      "vocabulary": [
+        {
+          "word": "client",
+          "meaning": "khách hàng"
+        }
+      ],
+      "grammar_focus": "imperative sentence",
+      "tags": [
+        "task"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The task is almost done.",
+      "natural_form": "The task is almost done.",
+      "translation": "Công việc gần như đã xong.",
+      "accent": "american",
+      "pronunciation_focus": "clear /t/ ending",
+      "stress_focus": "stress on 'almost'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "is almost -> izalmost",
+      "vocabulary": [
+        {
+          "word": "task",
+          "meaning": "công việc"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "update"
+      ]
+    },
+    {
+      "subcategory": "reminders",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please remember the deadline.",
+      "natural_form": "Please remember the deadline.",
+      "translation": "Vui lòng nhớ hạn chót.",
+      "accent": "american",
+      "pronunciation_focus": "clear /r/ sound",
+      "stress_focus": "stress on 'deadline'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "the deadline -> tha deadline",
+      "vocabulary": [
+        {
+          "word": "deadline",
+          "meaning": "hạn chót"
+        }
+      ],
+      "grammar_focus": "imperative reminder",
+      "tags": [
+        "reminder"
+      ]
+    },
+    {
+      "subcategory": "polite requests",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Would you mind waiting?",
+      "natural_form": "Would ya mind waitin'?",
+      "translation": "Bạn có phiền chờ không?",
+      "accent": "american",
+      "pronunciation_focus": "link would you",
+      "stress_focus": "stress on 'mind'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "would you -> would ya",
+      "vocabulary": [
+        {
+          "word": "waiting",
+          "meaning": "chờ đợi"
+        }
+      ],
+      "grammar_focus": "polite modal question",
+      "tags": [
+        "polite"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Could you assist me?",
+      "natural_form": "Could ya assist me?",
+      "translation": "Bạn có thể hỗ trợ tôi không?",
+      "accent": "american",
+      "pronunciation_focus": "link could you",
+      "stress_focus": "stress on 'assist'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "could you -> couldya",
+      "vocabulary": [
+        {
+          "word": "assist",
+          "meaning": "hỗ trợ"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "help"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "How's it going today?",
+      "natural_form": "How's it goin' today?",
+      "translation": "Hôm nay thế nào rồi?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in going",
+      "stress_focus": "stress on 'today'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "it going -> it goin",
+      "vocabulary": [
+        {
+          "word": "today",
+          "meaning": "hôm nay"
+        }
+      ],
+      "grammar_focus": "present continuous question",
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's meet at noon.",
+      "natural_form": "Let's meet at noon.",
+      "translation": "Chúng ta hãy gặp lúc trưa.",
+      "accent": "american",
+      "pronunciation_focus": "clear /n/ ending",
+      "stress_focus": "stress on 'noon'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "meet at -> meetat",
+      "vocabulary": [
+        {
+          "word": "noon",
+          "meaning": "buổi trưa"
+        }
+      ],
+      "grammar_focus": "let's + verb suggestion",
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What does this mean?",
+      "natural_form": "Whaddoes this mean?",
+      "translation": "Cái này có nghĩa là gì?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'does'",
+      "stress_focus": "stress on 'mean'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "does this -> doesthis",
+      "vocabulary": [
+        {
+          "word": "mean",
+          "meaning": "nghĩa là"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "clarify"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I apologize for that.",
+      "natural_form": "I apologize for that.",
+      "translation": "Tôi xin lỗi về điều đó.",
+      "accent": "american",
+      "pronunciation_focus": "clear /z/ sound",
+      "stress_focus": "stress on 'apologize'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "for that -> ferthat",
+      "vocabulary": [
+        {
+          "word": "apologize",
+          "meaning": "xin lỗi"
+        }
+      ],
+      "grammar_focus": "present simple apology",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please check the email.",
+      "natural_form": "Please check the email.",
+      "translation": "Vui lòng kiểm tra email.",
+      "accent": "american",
+      "pronunciation_focus": "clear /ch/ sound",
+      "stress_focus": "stress on 'email'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "check the -> check-the",
+      "vocabulary": [
+        {
+          "word": "email",
+          "meaning": "thư điện tử"
+        }
+      ],
+      "grammar_focus": "imperative sentence",
+      "tags": [
+        "task"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We're on schedule now.",
+      "natural_form": "We're on schedule now.",
+      "translation": "Chúng tôi đang đúng tiến độ.",
+      "accent": "american",
+      "pronunciation_focus": "link 'we're on'",
+      "stress_focus": "stress on 'schedule'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "on schedule -> onschedule",
+      "vocabulary": [
+        {
+          "word": "schedule",
+          "meaning": "lịch trình"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "update"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Could you show me how to fix this?",
+      "natural_form": "Could ya show me how ta fix this?",
+      "translation": "Bạn có thể chỉ tôi cách sửa cái này không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'how to'",
+      "stress_focus": "stress on 'fix'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "how to -> how ta",
+      "vocabulary": [
+        {
+          "word": "fix",
+          "meaning": "sửa chữa"
+        }
+      ],
+      "grammar_focus": "modal + infinitive",
+      "tags": [
+        "help",
+        "instructions"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I heard you went on vacation last week.",
+      "natural_form": "I heard ya went on vacation last week.",
+      "translation": "Tôi nghe nói bạn đã đi nghỉ tuần trước.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'you'",
+      "stress_focus": "stress on 'vacation'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "heard you -> heardya",
+      "vocabulary": [
+        {
+          "word": "vacation",
+          "meaning": "kỳ nghỉ"
+        }
+      ],
+      "grammar_focus": "past simple tense",
+      "tags": [
+        "greeting",
+        "casual"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Can we reschedule the call for tomorrow?",
+      "natural_form": "Can we reschedule the call fer tomorrow?",
+      "translation": "Chúng ta có thể dời cuộc gọi sang mai không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'for'",
+      "stress_focus": "stress on 'reschedule'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "for tomorrow -> fer tomorrow",
+      "vocabulary": [
+        {
+          "word": "reschedule",
+          "meaning": "dời lịch"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can you walk me through the process?",
+      "natural_form": "Can ya walk me through the process?",
+      "translation": "Bạn có thể hướng dẫn tôi quy trình không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'walk me'",
+      "stress_focus": "stress on 'process'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "walk me -> walkme",
+      "vocabulary": [
+        {
+          "word": "process",
+          "meaning": "quy trình"
+        }
+      ],
+      "grammar_focus": "modal request",
+      "tags": [
+        "instructions"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm really sorry about the confusion.",
+      "natural_form": "I'm really sorry 'bout the confusion.",
+      "translation": "Tôi thực sự xin lỗi vì sự nhầm lẫn.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'about'",
+      "stress_focus": "stress on 'confusion'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "about the -> 'bout the",
+      "vocabulary": [
+        {
+          "word": "confusion",
+          "meaning": "sự nhầm lẫn"
+        }
+      ],
+      "grammar_focus": "present tense apology",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you take care of this task?",
+      "natural_form": "Could ya take care of this task?",
+      "translation": "Bạn có thể lo việc này giúp tôi không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'take care'",
+      "stress_focus": "stress on 'task'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "take care of -> take caruv",
+      "vocabulary": [
+        {
+          "word": "task",
+          "meaning": "nhiệm vụ"
+        }
+      ],
+      "grammar_focus": "modal request",
+      "tags": [
+        "task",
+        "delegate"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We're making good progress on the project.",
+      "natural_form": "We're makin' good progress on the project.",
+      "translation": "Chúng tôi đang tiến triển tốt trong dự án.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in making",
+      "stress_focus": "stress on 'progress'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "making good -> makin' good",
+      "vocabulary": [
+        {
+          "word": "progress",
+          "meaning": "tiến triển"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "update",
+        "project"
+      ]
+    },
+    {
+      "subcategory": "reminders",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Don't forget to submit the report today.",
+      "natural_form": "Don't ferget ta submit the report today.",
+      "translation": "Đừng quên nộp báo cáo hôm nay nhé.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'forget to'",
+      "stress_focus": "stress on 'submit'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "forget to -> ferget ta",
+      "vocabulary": [
+        {
+          "word": "submit",
+          "meaning": "nộp"
+        }
+      ],
+      "grammar_focus": "negative imperative",
+      "tags": [
+        "reminder",
+        "report"
+      ]
+    },
+    {
+      "subcategory": "polite requests",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Would it be possible to reschedule our meeting?",
+      "natural_form": "Would it be possible ta reschedule our meeting?",
+      "translation": "Có thể dời lại cuộc họp của chúng ta không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'possible'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "possible to -> possible ta",
+      "vocabulary": [
+        {
+          "word": "possible",
+          "meaning": "có thể"
+        }
+      ],
+      "grammar_focus": "polite conditional phrasing",
+      "tags": [
+        "polite",
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Do you know how this software works?",
+      "natural_form": "Do ya know how this software works?",
+      "translation": "Bạn có biết phần mềm này hoạt động thế nào không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'do you'",
+      "stress_focus": "stress on 'software'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "do you -> d'ya",
+      "vocabulary": [
+        {
+          "word": "software",
+          "meaning": "phần mềm"
+        }
+      ],
+      "grammar_focus": "present simple question",
+      "tags": [
+        "help",
+        "tech"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Did you enjoy the company event last night?",
+      "natural_form": "Did ya enjoy the company event last night?",
+      "translation": "Bạn có thích sự kiện công ty tối qua không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'did you'",
+      "stress_focus": "stress on 'enjoy'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "did you -> didya",
+      "vocabulary": [
+        {
+          "word": "event",
+          "meaning": "sự kiện"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "casual",
+        "event"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I have a conflict with that time slot.",
+      "natural_form": "I have a conflict with that time slot.",
+      "translation": "Tôi bị trùng lịch vào khung giờ đó.",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ sound",
+      "stress_focus": "stress on 'conflict'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "with that -> with-that",
+      "vocabulary": [
+        {
+          "word": "conflict",
+          "meaning": "xung đột lịch"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Could you clarify what you mean by that?",
+      "natural_form": "Could ya clarify whatcha mean by that?",
+      "translation": "Bạn có thể làm rõ ý bạn muốn nói không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'what you'",
+      "stress_focus": "stress on 'clarify'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "what you -> whatcha",
+      "vocabulary": [
+        {
+          "word": "clarify",
+          "meaning": "làm rõ"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "clarify"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I apologize for missing the deadline yesterday.",
+      "natural_form": "I apologize for missin' the deadline yesterday.",
+      "translation": "Tôi xin lỗi vì đã trễ hạn chót hôm qua.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in missing",
+      "stress_focus": "stress on 'deadline'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "missing the -> missin' the",
+      "vocabulary": [
+        {
+          "word": "deadline",
+          "meaning": "hạn chót"
+        }
+      ],
+      "grammar_focus": "past reference apology",
+      "tags": [
+        "apology",
+        "deadline"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Please ask Sarah to prepare the slides.",
+      "natural_form": "Please ask Sarah ta prepare the slides.",
+      "translation": "Vui lòng nhờ Sarah chuẩn bị slide.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'prepare'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "to prepare -> ta prepare",
+      "vocabulary": [
+        {
+          "word": "slides",
+          "meaning": "slide trình chiếu"
+        }
+      ],
+      "grammar_focus": "imperative with infinitive",
+      "tags": [
+        "delegate",
+        "task"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll send an update by the end of the day.",
+      "natural_form": "I'll send an update by the end o' the day.",
+      "translation": "Tôi sẽ gửi cập nhật vào cuối ngày.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'of'",
+      "stress_focus": "stress on 'update'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "end of the -> end o' the",
+      "vocabulary": [
+        {
+          "word": "update",
+          "meaning": "cập nhật"
+        }
+      ],
+      "grammar_focus": "future simple",
+      "tags": [
+        "update"
+      ]
+    },
+    {
+      "subcategory": "reminders",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Just a reminder that the meeting moved to two.",
+      "natural_form": "Just a reminder the meeting moved ta two.",
+      "translation": "Chỉ là lời nhắc rằng cuộc họp đã dời sang 2 giờ.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'moved'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "moved to -> moved ta",
+      "vocabulary": [
+        {
+          "word": "reminder",
+          "meaning": "lời nhắc nhở"
+        }
+      ],
+      "grammar_focus": "present simple reminder",
+      "tags": [
+        "reminder",
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "polite requests",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Would you mind sending me a copy?",
+      "natural_form": "Would ya mind sendin' me a copy?",
+      "translation": "Bạn có phiền gửi cho tôi một bản sao không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in sending",
+      "stress_focus": "stress on 'copy'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "sending me -> sendin' me",
+      "vocabulary": [
+        {
+          "word": "copy",
+          "meaning": "bản sao"
+        }
+      ],
+      "grammar_focus": "polite gerund question",
+      "tags": [
+        "polite",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can you give me a hand with this spreadsheet?",
+      "natural_form": "Can ya give me a hand with this spreadsheet?",
+      "translation": "Bạn có thể giúp tôi bảng tính này không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'give me'",
+      "stress_focus": "stress on 'spreadsheet'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "give me -> givme",
+      "vocabulary": [
+        {
+          "word": "spreadsheet",
+          "meaning": "bảng tính"
+        }
+      ],
+      "grammar_focus": "idiomatic request",
+      "tags": [
+        "help",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We should grab coffee sometime this week.",
+      "natural_form": "We should grab coffee sometime this week.",
+      "translation": "Chúng ta nên đi uống cà phê tuần này.",
+      "accent": "american",
+      "pronunciation_focus": "clear /k/ sound",
+      "stress_focus": "stress on 'coffee'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "should grab -> shouldgrab",
+      "vocabulary": [
+        {
+          "word": "sometime",
+          "meaning": "lúc nào đó"
+        }
+      ],
+      "grammar_focus": "modal suggestion",
+      "tags": [
+        "casual",
+        "suggestion"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What time works best for everyone?",
+      "natural_form": "What time works best fer everyone?",
+      "translation": "Giờ nào phù hợp nhất cho mọi người?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'for'",
+      "stress_focus": "stress on 'best'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "best for -> bestfer",
+      "vocabulary": [
+        {
+          "word": "everyone",
+          "meaning": "mọi người"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'm not sure I understand the instructions.",
+      "natural_form": "I'm not sure I understand the instructions.",
+      "translation": "Tôi không chắc mình hiểu hướng dẫn.",
+      "accent": "american",
+      "pronunciation_focus": "clear /d/ sound",
+      "stress_focus": "stress on 'understand'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "not sure -> notsure",
+      "vocabulary": [
+        {
+          "word": "instructions",
+          "meaning": "hướng dẫn"
+        }
+      ],
+      "grammar_focus": "present simple negative",
+      "tags": [
+        "clarify"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Sorry for the inconvenience this may have caused.",
+      "natural_form": "Sorry for the inconvenience this may've caused.",
+      "translation": "Xin lỗi vì sự bất tiện này gây ra.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'may have'",
+      "stress_focus": "stress on 'inconvenience'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "may have -> may've",
+      "vocabulary": [
+        {
+          "word": "inconvenience",
+          "meaning": "sự bất tiện"
+        }
+      ],
+      "grammar_focus": "modal perfect",
+      "tags": [
+        "apology"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you handle the client call today?",
+      "natural_form": "Could ya handle the client call today?",
+      "translation": "Bạn có thể xử lý cuộc gọi khách hàng hôm nay không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'could you'",
+      "stress_focus": "stress on 'handle'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "could you -> couldya",
+      "vocabulary": [
+        {
+          "word": "handle",
+          "meaning": "xử lý"
+        }
+      ],
+      "grammar_focus": "modal request",
+      "tags": [
+        "delegate",
+        "client"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Everything is on track for the launch date.",
+      "natural_form": "Everything is on track fer the launch date.",
+      "translation": "Mọi thứ đang đúng tiến độ cho ngày ra mắt.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'for'",
+      "stress_focus": "stress on 'track'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "for the -> fer the",
+      "vocabulary": [
+        {
+          "word": "launch",
+          "meaning": "ra mắt"
+        }
+      ],
+      "grammar_focus": "present simple",
+      "tags": [
+        "update",
+        "project"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Would you be able to help me troubleshoot this issue before the meeting?",
+      "natural_form": "Would ya be able ta help me troubleshoot this issue before the meeting?",
+      "translation": "Bạn có thể giúp tôi khắc phục sự cố này trước cuộc họp không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'able to'",
+      "stress_focus": "stress on 'troubleshoot'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "able to -> ableta",
+      "vocabulary": [
+        {
+          "word": "troubleshoot",
+          "meaning": "khắc phục sự cố"
+        }
+      ],
+      "grammar_focus": "modal + infinitive phrase",
+      "tags": [
+        "help",
+        "tech"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "It's great catching up with you after all this time.",
+      "natural_form": "It's great catchin' up with ya after all this time.",
+      "translation": "Thật tuyệt khi được trò chuyện lại với bạn sau bao lâu.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in catching",
+      "stress_focus": "stress on 'catching'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "catching up -> catchin' up",
+      "vocabulary": [
+        {
+          "word": "catching up",
+          "meaning": "trò chuyện cập nhật"
+        }
+      ],
+      "grammar_focus": "present tense idiom",
+      "tags": [
+        "casual",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could we push the meeting back to next Thursday instead?",
+      "natural_form": "Could we push the meetin' back ta next Thursday instead?",
+      "translation": "Chúng ta có thể dời cuộc họp sang thứ Năm tuần sau không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in meeting",
+      "stress_focus": "stress on 'Thursday'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "back to -> back ta",
+      "vocabulary": [
+        {
+          "word": "instead",
+          "meaning": "thay vào đó"
+        }
+      ],
+      "grammar_focus": "modal request",
+      "tags": [
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you break down the steps so I don't miss anything?",
+      "natural_form": "Could ya break down the steps so I don't miss anythin'?",
+      "translation": "Bạn có thể phân tích các bước để tôi không bỏ sót gì không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in anything",
+      "stress_focus": "stress on 'steps'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "break down -> breakdown",
+      "vocabulary": [
+        {
+          "word": "steps",
+          "meaning": "các bước"
+        }
+      ],
+      "grammar_focus": "modal request with purpose clause",
+      "tags": [
+        "clarify",
+        "instructions"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I sincerely apologize for the miscommunication earlier this morning.",
+      "natural_form": "I sincerely apologize for the miscommunication earlier this mornin'.",
+      "translation": "Tôi thực sự xin lỗi vì sự hiểu lầm sáng nay.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in morning",
+      "stress_focus": "stress on 'miscommunication'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "earlier this -> earlier-this",
+      "vocabulary": [
+        {
+          "word": "miscommunication",
+          "meaning": "sự hiểu lầm"
+        }
+      ],
+      "grammar_focus": "present tense formal apology",
+      "tags": [
+        "apology",
+        "formal"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would you mind taking the lead on this presentation?",
+      "natural_form": "Would ya mind takin' the lead on this presentation?",
+      "translation": "Bạn có phiền dẫn dắt bài thuyết trình này không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in taking",
+      "stress_focus": "stress on 'lead'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "taking the -> takin' the",
+      "vocabulary": [
+        {
+          "word": "presentation",
+          "meaning": "bài thuyết trình"
+        }
+      ],
+      "grammar_focus": "gerund after 'mind'",
+      "tags": [
+        "delegate",
+        "presentation"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We're slightly behind schedule, but we should catch up by Friday.",
+      "natural_form": "We're slightly behind schedule, but we should catch up by Friday.",
+      "translation": "Chúng tôi hơi chậm tiến độ, nhưng sẽ bắt kịp vào thứ Sáu.",
+      "accent": "american",
+      "pronunciation_focus": "clear consonant clusters",
+      "stress_focus": "stress on 'behind'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "should catch -> shouldcatch",
+      "vocabulary": [
+        {
+          "word": "behind schedule",
+          "meaning": "chậm tiến độ"
+        }
+      ],
+      "grammar_focus": "present tense with contrast clause",
+      "tags": [
+        "update",
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "reminders",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Just a heads-up that the deadline was moved up to Monday.",
+      "natural_form": "Just a heads-up the deadline was moved up ta Monday.",
+      "translation": "Chỉ nhắc là hạn chót đã được đẩy lên thứ Hai.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'deadline'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "moved up to -> moved up ta",
+      "vocabulary": [
+        {
+          "word": "heads-up",
+          "meaning": "lời nhắc trước"
+        }
+      ],
+      "grammar_focus": "passive voice reminder",
+      "tags": [
+        "reminder",
+        "deadline"
+      ]
+    },
+    {
+      "subcategory": "polite requests",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "I was wondering if you could review my draft when you have time.",
+      "natural_form": "I was wonderin' if ya could review my draft when ya have time.",
+      "translation": "Tôi tự hỏi liệu bạn có thể xem lại bản nháp của tôi khi rảnh không.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in wondering",
+      "stress_focus": "stress on 'review'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "wondering if -> wonderin' if",
+      "vocabulary": [
+        {
+          "word": "draft",
+          "meaning": "bản nháp"
+        }
+      ],
+      "grammar_focus": "polite indirect question",
+      "tags": [
+        "polite",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Is there anyone who could explain this policy to me in more detail?",
+      "natural_form": "Is there anyone who could explain this policy ta me in more detail?",
+      "translation": "Có ai có thể giải thích chính sách này kỹ hơn cho tôi không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'policy'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "explain this -> explainthis",
+      "vocabulary": [
+        {
+          "word": "policy",
+          "meaning": "chính sách"
+        }
+      ],
+      "grammar_focus": "relative clause question",
+      "tags": [
+        "help",
+        "policy"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "So, how are things going with the new office setup?",
+      "natural_form": "So, how are things goin' with the new office setup?",
+      "translation": "Vậy, mọi thứ với văn phòng mới thế nào rồi?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in going",
+      "stress_focus": "stress on 'setup'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "things going -> things goin'",
+      "vocabulary": [
+        {
+          "word": "setup",
+          "meaning": "cách bố trí"
+        }
+      ],
+      "grammar_focus": "present continuous question",
+      "tags": [
+        "casual",
+        "office"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Let's find a time that works for everyone on the team.",
+      "natural_form": "Let's find a time that works fer everyone on the team.",
+      "translation": "Hãy tìm thời gian phù hợp cho cả nhóm.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'for'",
+      "stress_focus": "stress on 'everyone'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "works for -> worksfer",
+      "vocabulary": [
+        {
+          "word": "team",
+          "meaning": "nhóm"
+        }
+      ],
+      "grammar_focus": "relative clause",
+      "tags": [
+        "schedule",
+        "team"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Just to confirm, are we submitting this by email or in person?",
+      "natural_form": "Just ta confirm, are we submittin' this by email or in person?",
+      "translation": "Chỉ để xác nhận, chúng ta nộp qua email hay trực tiếp?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in submitting",
+      "stress_focus": "stress on 'confirm'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "to confirm -> ta confirm",
+      "vocabulary": [
+        {
+          "word": "submit",
+          "meaning": "nộp"
+        }
+      ],
+      "grammar_focus": "present continuous question",
+      "tags": [
+        "clarify",
+        "confirm"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I owe you an apology for not responding to your email sooner.",
+      "natural_form": "I owe ya an apology fer not respondin' ta your email sooner.",
+      "translation": "Tôi nợ bạn lời xin lỗi vì chưa phản hồi email sớm hơn.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in responding",
+      "stress_focus": "stress on 'apology'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "owe you -> owe ya",
+      "vocabulary": [
+        {
+          "word": "respond",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "present simple apology with gerund",
+      "tags": [
+        "apology",
+        "email"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you delegate the follow-up calls to someone on your team?",
+      "natural_form": "Could ya delegate the follow-up calls ta someone on your team?",
+      "translation": "Bạn có thể giao các cuộc gọi tiếp theo cho ai đó trong nhóm không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'delegate'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "calls to -> calls ta",
+      "vocabulary": [
+        {
+          "word": "delegate",
+          "meaning": "giao việc"
+        }
+      ],
+      "grammar_focus": "modal request",
+      "tags": [
+        "delegate",
+        "team"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The client feedback has been mostly positive, with a few minor concerns.",
+      "natural_form": "The client feedback's been mostly positive, with a few minor concerns.",
+      "translation": "Phản hồi của khách hàng chủ yếu tích cực, với vài lo ngại nhỏ.",
+      "accent": "american",
+      "pronunciation_focus": "link 'has been'",
+      "stress_focus": "stress on 'positive'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "has been -> feedback's been",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "update",
+        "client"
+      ]
+    },
+    {
+      "subcategory": "reminders",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Don't forget we have a company-wide meeting first thing tomorrow.",
+      "natural_form": "Don't ferget we have a company-wide meetin' first thing tomorrow.",
+      "translation": "Đừng quên chúng ta có cuộc họp toàn công ty vào sáng mai.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in meeting",
+      "stress_focus": "stress on 'company-wide'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "forget we -> ferget we",
+      "vocabulary": [
+        {
+          "word": "company-wide",
+          "meaning": "toàn công ty"
+        }
+      ],
+      "grammar_focus": "negative imperative reminder",
+      "tags": [
+        "reminder",
+        "meeting"
+      ]
+    },
+    {
+      "subcategory": "polite requests",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would you be willing to share your notes from the workshop?",
+      "natural_form": "Would ya be willin' ta share your notes from the workshop?",
+      "translation": "Bạn có sẵn lòng chia sẻ ghi chú từ buổi hội thảo không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in willing",
+      "stress_focus": "stress on 'workshop'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "willing to -> willin' ta",
+      "vocabulary": [
+        {
+          "word": "workshop",
+          "meaning": "buổi hội thảo"
+        }
+      ],
+      "grammar_focus": "polite modal request",
+      "tags": [
+        "polite",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Would you mind lending a hand with the annual report this week?",
+      "natural_form": "Would ya mind lendin' a hand with the annual report this week?",
+      "translation": "Bạn có phiền giúp tôi làm báo cáo thường niên tuần này không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in lending",
+      "stress_focus": "stress on 'annual'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "lending a -> lendin' a",
+      "vocabulary": [
+        {
+          "word": "annual report",
+          "meaning": "báo cáo thường niên"
+        }
+      ],
+      "grammar_focus": "idiomatic gerund request",
+      "tags": [
+        "help",
+        "report"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I can't believe how fast this year has gone by already.",
+      "natural_form": "I can't believe how fast this year's gone by already.",
+      "translation": "Tôi không thể tin năm nay trôi qua nhanh đến vậy.",
+      "accent": "american",
+      "pronunciation_focus": "link 'has gone'",
+      "stress_focus": "stress on 'fast'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "this year has -> this year's",
+      "vocabulary": [
+        {
+          "word": "already",
+          "meaning": "đã, rồi"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "casual",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you check if the conference room is free at three?",
+      "natural_form": "Could ya check if the conference room's free at three?",
+      "translation": "Bạn có thể kiểm tra phòng họp có trống lúc 3 giờ không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'room is'",
+      "stress_focus": "stress on 'conference'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "room is -> room's",
+      "vocabulary": [
+        {
+          "word": "conference room",
+          "meaning": "phòng hội nghị"
+        }
+      ],
+      "grammar_focus": "conditional clause with 'if'",
+      "tags": [
+        "schedule",
+        "room"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I want to make sure I've got the requirements right before I start.",
+      "natural_form": "I wanna make sure I've got the requirements right before I start.",
+      "translation": "Tôi muốn chắc chắn mình hiểu đúng yêu cầu trước khi bắt đầu.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'want to'",
+      "stress_focus": "stress on 'requirements'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "want to -> wanna",
+      "vocabulary": [
+        {
+          "word": "requirements",
+          "meaning": "yêu cầu"
+        }
+      ],
+      "grammar_focus": "present perfect with purpose clause",
+      "tags": [
+        "clarify",
+        "requirements"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Please accept my apologies; I completely forgot about our appointment.",
+      "natural_form": "Please accept my apologies; I completely fergot about our appointment.",
+      "translation": "Xin nhận lời xin lỗi của tôi; tôi hoàn toàn quên mất cuộc hẹn.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'forgot'",
+      "stress_focus": "stress on 'appointment'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "forgot about -> fergot about",
+      "vocabulary": [
+        {
+          "word": "appointment",
+          "meaning": "cuộc hẹn"
+        }
+      ],
+      "grammar_focus": "formal apology with past tense",
+      "tags": [
+        "apology",
+        "formal"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's split the workload so we can finish before the deadline.",
+      "natural_form": "Let's split the workload so we can finish before the deadline.",
+      "translation": "Hãy chia công việc để chúng ta có thể hoàn thành trước hạn.",
+      "accent": "american",
+      "pronunciation_focus": "clear consonant endings",
+      "stress_focus": "stress on 'workload'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "split the -> splitthe",
+      "vocabulary": [
+        {
+          "word": "workload",
+          "meaning": "khối lượng công việc"
+        }
+      ],
+      "grammar_focus": "modal with purpose clause",
+      "tags": [
+        "delegate",
+        "teamwork"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We hit a small snag, but the team resolved it quickly.",
+      "natural_form": "We hit a small snag, but the team resolved it quickly.",
+      "translation": "Chúng tôi gặp trục trặc nhỏ, nhưng đội đã giải quyết nhanh chóng.",
+      "accent": "american",
+      "pronunciation_focus": "clear /g/ ending",
+      "stress_focus": "stress on 'snag'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "hit a -> hitta",
+      "vocabulary": [
+        {
+          "word": "snag",
+          "meaning": "trục trặc"
+        }
+      ],
+      "grammar_focus": "past simple with contrast",
+      "tags": [
+        "update",
+        "problem"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "I hate to keep bothering you, but could you possibly walk me through this contract one more time before I sign it?",
+      "natural_form": "I hate ta keep botherin' ya, but could ya possibly walk me through this contract one more time before I sign it?",
+      "translation": "Tôi không muốn làm phiền bạn thêm, nhưng bạn có thể giải thích lại hợp đồng này lần nữa trước khi tôi ký không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in bothering",
+      "stress_focus": "stress on 'contract'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "hate to -> hate ta",
+      "vocabulary": [
+        {
+          "word": "contract",
+          "meaning": "hợp đồng"
+        }
+      ],
+      "grammar_focus": "complex sentence with modal and purpose clause",
+      "tags": [
+        "help",
+        "contract"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "It's funny how we ended up working at the same company again after all these years apart.",
+      "natural_form": "It's funny how we ended up workin' at the same company again after all these years apart.",
+      "translation": "Thật buồn cười khi chúng ta lại làm việc cùng công ty sau bao năm xa cách.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in working",
+      "stress_focus": "stress on 'ended'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "ended up -> ended-up",
+      "vocabulary": [
+        {
+          "word": "apart",
+          "meaning": "xa cách"
+        }
+      ],
+      "grammar_focus": "present tense with time clause",
+      "tags": [
+        "casual",
+        "reunion"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Would it be possible to move our one-on-one to later this afternoon since something urgent just came up?",
+      "natural_form": "Would it be possible ta move our one-on-one ta later this afternoon since somethin' urgent just came up?",
+      "translation": "Có thể dời buổi gặp riêng của chúng ta sang chiều nay vì có việc gấp không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'urgent'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "possible to -> possible ta",
+      "vocabulary": [
+        {
+          "word": "urgent",
+          "meaning": "khẩn cấp"
+        }
+      ],
+      "grammar_focus": "conditional request with reason clause",
+      "tags": [
+        "schedule",
+        "urgent"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could you clarify whether the client wants the report in a spreadsheet format or as a written summary?",
+      "natural_form": "Could ya clarify whether the client wants the report in a spreadsheet format or as a written summary?",
+      "translation": "Bạn có thể làm rõ khách hàng muốn báo cáo dưới dạng bảng tính hay bản tóm tắt viết không?",
+      "accent": "american",
+      "pronunciation_focus": "link 'could you'",
+      "stress_focus": "stress on 'spreadsheet'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "could you -> couldya",
+      "vocabulary": [
+        {
+          "word": "summary",
+          "meaning": "bản tóm tắt"
+        }
+      ],
+      "grammar_focus": "embedded question with 'whether'",
+      "tags": [
+        "clarify",
+        "report"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I want to sincerely apologize for the mix-up with the invoice and assure you it won't happen again.",
+      "natural_form": "I wanna sincerely apologize for the mix-up with the invoice and assure ya it won't happen again.",
+      "translation": "Tôi muốn chân thành xin lỗi vì sự nhầm lẫn hóa đơn và đảm bảo điều đó sẽ không tái diễn.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'want to'",
+      "stress_focus": "stress on 'apologize'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "want to -> wanna",
+      "vocabulary": [
+        {
+          "word": "invoice",
+          "meaning": "hóa đơn"
+        }
+      ],
+      "grammar_focus": "compound sentence with assurance clause",
+      "tags": [
+        "apology",
+        "invoice"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Since you have more experience with the vendor, would you mind taking over the negotiations from here?",
+      "natural_form": "Since ya have more experience with the vendor, would ya mind takin' over the negotiations from here?",
+      "translation": "Vì bạn có kinh nghiệm hơn với nhà cung cấp, bạn có phiền tiếp quản đàm phán từ đây không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in taking",
+      "stress_focus": "stress on 'negotiations'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "taking over -> takin' over",
+      "vocabulary": [
+        {
+          "word": "negotiations",
+          "meaning": "đàm phán"
+        }
+      ],
+      "grammar_focus": "reason clause with polite request",
+      "tags": [
+        "delegate",
+        "negotiation"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We're still on track to meet the launch date, although a couple of minor bugs need to be fixed first.",
+      "natural_form": "We're still on track ta meet the launch date, although a couple o' minor bugs need ta be fixed first.",
+      "translation": "Chúng tôi vẫn đúng tiến độ ra mắt, dù còn vài lỗi nhỏ cần sửa trước.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'of'",
+      "stress_focus": "stress on 'launch'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "couple of -> couple o'",
+      "vocabulary": [
+        {
+          "word": "bugs",
+          "meaning": "lỗi phần mềm"
+        }
+      ],
+      "grammar_focus": "complex sentence with concession clause",
+      "tags": [
+        "update",
+        "launch"
+      ]
+    },
+    {
+      "subcategory": "reminders",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Just wanted to remind everyone that the quarterly review has been moved to next Wednesday afternoon.",
+      "natural_form": "Just wanted ta remind everyone the quarterly review's been moved ta next Wednesday afternoon.",
+      "translation": "Chỉ muốn nhắc mọi người rằng buổi đánh giá quý đã được dời sang chiều thứ Tư tuần sau.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'quarterly'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "review has been -> review's been",
+      "vocabulary": [
+        {
+          "word": "quarterly",
+          "meaning": "hàng quý"
+        }
+      ],
+      "grammar_focus": "passive voice reminder with time clause",
+      "tags": [
+        "reminder",
+        "review"
+      ]
+    },
+    {
+      "subcategory": "polite requests",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Would you be so kind as to loop me in on any updates regarding the merger discussions?",
+      "natural_form": "Would ya be so kind as ta loop me in on any updates regardin' the merger discussions?",
+      "translation": "Bạn có thể vui lòng cập nhật cho tôi về các cuộc thảo luận sáp nhập không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in regarding",
+      "stress_focus": "stress on 'merger'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "kind as to -> kind as ta",
+      "vocabulary": [
+        {
+          "word": "merger",
+          "meaning": "sự sáp nhập"
+        }
+      ],
+      "grammar_focus": "formal polite request idiom",
+      "tags": [
+        "polite",
+        "formal"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Would anyone be able to cover my shift on Friday since I have a family emergency to deal with?",
+      "natural_form": "Would anyone be able ta cover my shift on Friday since I have a family emergency ta deal with?",
+      "translation": "Có ai có thể trực thay ca của tôi vào thứ Sáu vì tôi có việc gia đình khẩn cấp không?",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'emergency'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "able to -> ableta",
+      "vocabulary": [
+        {
+          "word": "emergency",
+          "meaning": "tình huống khẩn cấp"
+        }
+      ],
+      "grammar_focus": "complex sentence with reason clause",
+      "tags": [
+        "help",
+        "emergency"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Did you hear that management is planning to renovate the whole office next quarter?",
+      "natural_form": "Did ya hear that management's plannin' ta renovate the whole office next quarter?",
+      "translation": "Bạn có nghe nói ban quản lý định cải tạo toàn bộ văn phòng vào quý tới không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in planning",
+      "stress_focus": "stress on 'renovate'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "management is -> management's",
+      "vocabulary": [
+        {
+          "word": "renovate",
+          "meaning": "cải tạo"
+        }
+      ],
+      "grammar_focus": "present continuous with reported clause",
+      "tags": [
+        "casual",
+        "office"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Given everyone's conflicting schedules, it might be easier to just do this over email instead of meeting in person.",
+      "natural_form": "Given everyone's conflictin' schedules, it might be easier ta just do this over email instead of meetin' in person.",
+      "translation": "Do lịch của mọi người xung đột, có lẽ nên trao đổi qua email thay vì gặp trực tiếp.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in conflicting",
+      "stress_focus": "stress on 'easier'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "might be -> mightbe",
+      "vocabulary": [
+        {
+          "word": "conflicting",
+          "meaning": "xung đột"
+        }
+      ],
+      "grammar_focus": "complex sentence with comparative",
+      "tags": [
+        "schedule",
+        "comparison"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Before we proceed, could you double-check that everyone understands their role in this project?",
+      "natural_form": "Before we proceed, could ya double-check that everyone understands their role in this project?",
+      "translation": "Trước khi tiếp tục, bạn có thể kiểm tra lại xem mọi người đã hiểu vai trò của mình chưa?",
+      "accent": "american",
+      "pronunciation_focus": "clear consonant clusters",
+      "stress_focus": "stress on 'double-check'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "could you -> couldya",
+      "vocabulary": [
+        {
+          "word": "role",
+          "meaning": "vai trò"
+        }
+      ],
+      "grammar_focus": "imperative with subordinate clause",
+      "tags": [
+        "clarify",
+        "project"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I realize this has caused you a great deal of frustration, and for that I sincerely apologize.",
+      "natural_form": "I realize this has caused ya a great deal of frustration, and for that I sincerely apologize.",
+      "translation": "Tôi nhận ra điều này đã gây cho bạn nhiều bực bội, và tôi thực sự xin lỗi vì điều đó.",
+      "accent": "american",
+      "pronunciation_focus": "clear /z/ sound",
+      "stress_focus": "stress on 'frustration'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "caused you -> causedya",
+      "vocabulary": [
+        {
+          "word": "frustration",
+          "meaning": "sự bực bội"
+        }
+      ],
+      "grammar_focus": "present perfect with formal apology",
+      "tags": [
+        "apology",
+        "formal"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "I'd appreciate it if you could oversee the onboarding process for the new hires this month.",
+      "natural_form": "I'd appreciate it if ya could oversee the onboardin' process for the new hires this month.",
+      "translation": "Tôi sẽ đánh giá cao nếu bạn giám sát quy trình đào tạo nhân viên mới tháng này.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in onboarding",
+      "stress_focus": "stress on 'onboarding'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "appreciate it -> appreciateit",
+      "vocabulary": [
+        {
+          "word": "onboarding",
+          "meaning": "quá trình đào tạo nhập môn"
+        }
+      ],
+      "grammar_focus": "conditional polite request",
+      "tags": [
+        "delegate",
+        "hiring"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Overall, the project is progressing smoothly, though we may need extra resources for the final phase.",
+      "natural_form": "Overall, the project's progressin' smoothly, though we may need extra resources fer the final phase.",
+      "translation": "Nhìn chung, dự án đang tiến triển suôn sẻ, dù có thể cần thêm nguồn lực cho giai đoạn cuối.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'for'",
+      "stress_focus": "stress on 'resources'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "project is -> project's",
+      "vocabulary": [
+        {
+          "word": "resources",
+          "meaning": "nguồn lực"
+        }
+      ],
+      "grammar_focus": "present continuous with concession",
+      "tags": [
+        "update",
+        "project"
+      ]
+    },
+    {
+      "subcategory": "reminders",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "This is just a friendly reminder that badges must be renewed before the end of the month.",
+      "natural_form": "This is just a friendly reminder that badges gotta be renewed before the end of the month.",
+      "translation": "Đây là lời nhắc thân thiện rằng thẻ ra vào phải được gia hạn trước cuối tháng.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'got to'",
+      "stress_focus": "stress on 'renewed'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "must be -> gotta be",
+      "vocabulary": [
+        {
+          "word": "badges",
+          "meaning": "thẻ ra vào"
+        }
+      ],
+      "grammar_focus": "passive voice with obligation modal",
+      "tags": [
+        "reminder",
+        "policy"
+      ]
+    },
+    {
+      "subcategory": "polite requests",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "If it's not too much trouble, could you send over the updated figures by tomorrow morning?",
+      "natural_form": "If it's not too much trouble, could ya send over the updated figures by tomorrow mornin'?",
+      "translation": "Nếu không phiền quá, bạn có thể gửi số liệu cập nhật vào sáng mai được không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in morning",
+      "stress_focus": "stress on 'figures'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "not too much -> nottoomuch",
+      "vocabulary": [
+        {
+          "word": "figures",
+          "meaning": "số liệu"
+        }
+      ],
+      "grammar_focus": "conditional polite request",
+      "tags": [
+        "polite",
+        "data"
+      ]
+    },
+    {
+      "subcategory": "asking for help",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could someone with more experience in accounting take a look at these numbers before we submit them?",
+      "natural_form": "Could someone with more experience in accountin' take a look at these numbers before we submit them?",
+      "translation": "Ai đó có kinh nghiệm kế toán có thể xem lại những con số này trước khi nộp không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in accounting",
+      "stress_focus": "stress on 'accounting'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "take a look -> takealook",
+      "vocabulary": [
+        {
+          "word": "accounting",
+          "meaning": "kế toán"
+        }
+      ],
+      "grammar_focus": "complex request with subordinate clause",
+      "tags": [
+        "help",
+        "finance"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I've noticed you've been putting in a lot of extra hours lately; make sure you take some time off too.",
+      "natural_form": "I've noticed ya've been puttin' in a lot of extra hours lately; make sure ya take some time off too.",
+      "translation": "Tôi để ý bạn làm thêm giờ nhiều gần đây; hãy nhớ dành thời gian nghỉ ngơi nữa nhé.",
+      "accent": "american",
+      "pronunciation_focus": "drop g in putting",
+      "stress_focus": "stress on 'extra'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "noticed you've -> noticed ya've",
+      "vocabulary": [
+        {
+          "word": "lately",
+          "meaning": "gần đây"
+        }
+      ],
+      "grammar_focus": "present perfect continuous with advice clause",
+      "tags": [
+        "casual",
+        "wellbeing"
+      ]
+    },
+    {
+      "subcategory": "scheduling",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could we set up a recurring meeting every Monday morning to go over weekly priorities?",
+      "natural_form": "Could we set up a recurrin' meetin' every Monday mornin' ta go over weekly priorities?",
+      "translation": "Chúng ta có thể lập lịch họp định kỳ mỗi sáng thứ Hai để bàn ưu tiên tuần không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in recurring",
+      "stress_focus": "stress on 'priorities'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "set up -> setup",
+      "vocabulary": [
+        {
+          "word": "priorities",
+          "meaning": "ưu tiên"
+        }
+      ],
+      "grammar_focus": "modal request with purpose infinitive",
+      "tags": [
+        "schedule",
+        "routine"
+      ]
+    },
+    {
+      "subcategory": "clarifying instructions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Just so I understand correctly, are you asking me to redo the whole presentation from scratch?",
+      "natural_form": "Just so I understand correctly, are ya askin' me ta redo the whole presentation from scratch?",
+      "translation": "Chỉ để tôi hiểu đúng, bạn đang yêu cầu tôi làm lại toàn bộ bài thuyết trình từ đầu à?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in asking",
+      "stress_focus": "stress on 'scratch'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "asking me -> askin' me",
+      "vocabulary": [
+        {
+          "word": "scratch",
+          "meaning": "từ đầu"
+        }
+      ],
+      "grammar_focus": "present continuous confirmation question",
+      "tags": [
+        "clarify",
+        "presentation"
+      ]
+    },
+    {
+      "subcategory": "apologizing",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I know this puts you in a difficult position, and I'm truly sorry for any trouble it's caused.",
+      "natural_form": "I know this puts ya in a difficult position, and I'm truly sorry for any trouble it's caused.",
+      "translation": "Tôi biết điều này khiến bạn gặp khó khăn, và tôi thực sự xin lỗi vì rắc rối đã gây ra.",
+      "accent": "american",
+      "pronunciation_focus": "clear /z/ sound",
+      "stress_focus": "stress on 'difficult'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "puts you -> putsya",
+      "vocabulary": [
+        {
+          "word": "position",
+          "meaning": "tình huống, vị trí"
+        }
+      ],
+      "grammar_focus": "compound sentence with apology clause",
+      "tags": [
+        "apology",
+        "empathy"
+      ]
+    },
+    {
+      "subcategory": "delegating",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Given your background in design, would you be willing to lead the rebranding project this quarter?",
+      "natural_form": "Given your background in design, would ya be willin' ta lead the rebrandin' project this quarter?",
+      "translation": "Với nền tảng thiết kế của bạn, bạn có sẵn lòng dẫn dắt dự án tái thương hiệu quý này không?",
+      "accent": "american",
+      "pronunciation_focus": "drop g in rebranding",
+      "stress_focus": "stress on 'rebranding'",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "willing to -> willin' ta",
+      "vocabulary": [
+        {
+          "word": "rebranding",
+          "meaning": "tái thương hiệu"
+        }
+      ],
+      "grammar_focus": "reason clause with polite modal request",
+      "tags": [
+        "delegate",
+        "design"
+      ]
+    },
+    {
+      "subcategory": "status updates",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "To sum up, we're ahead of schedule on development, but marketing still needs more time to finalize the campaign.",
+      "natural_form": "To sum up, we're ahead of schedule on development, but marketing still needs more time ta finalize the campaign.",
+      "translation": "Tóm lại, chúng tôi vượt tiến độ phát triển, nhưng marketing vẫn cần thêm thời gian hoàn thiện chiến dịch.",
+      "accent": "american",
+      "pronunciation_focus": "reduce 'to'",
+      "stress_focus": "stress on 'finalize'",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "needs more -> needsmore",
+      "vocabulary": [
+        {
+          "word": "campaign",
+          "meaning": "chiến dịch"
+        }
+      ],
+      "grammar_focus": "complex sentence with contrast conjunction",
+      "tags": [
+        "update",
+        "marketing"
+      ]
+    }
+  ]
+}

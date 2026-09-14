@@ -1,0 +1,748 @@
+{
+  "lessons": [
+    {
+      "title": "What is word stress?",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Every English word of two or more syllables has one strong syllable. The strong one is longer, louder and clearer.",
+      "points": ["Stressed syllable: longer, louder, clear vowel.", "Unstressed syllable: short and often a schwa /ə/.", "Only one primary stress per word."],
+      "items": [
+        { "text": "water", "pattern": "WA-ter", "note": "Two syllables, stress on the first." },
+        { "text": "hotel", "pattern": "ho-TEL", "note": "Stress on the second." },
+        { "text": "computer", "pattern": "com-PU-ter", "note": "Middle syllable is strongest." },
+        { "text": "important", "pattern": "im-POR-tant", "note": "The two weak syllables use /ə/." },
+        { "text": "beautiful", "pattern": "BEAU-ti-ful", "note": "First syllable carries the beat." }
+      ]
+    },
+    {
+      "title": "Stress that changes the word",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Some words change meaning or word class when the stress moves. Say both versions and feel the difference.",
+      "points": ["Nouns often stress the first syllable.", "Verbs often stress the second syllable."],
+      "items": [
+        { "text": "a REcord", "pattern": "REcord (noun)", "note": "I bought a record." },
+        { "text": "to reCORD", "pattern": "reCORD (verb)", "note": "I want to record my voice." },
+        { "text": "a PREsent", "pattern": "PREsent (noun)", "note": "Here is your present." },
+        { "text": "to preSENT", "pattern": "preSENT (verb)", "note": "I will present the plan." },
+        { "text": "an INcrease", "pattern": "INcrease (noun)", "note": "There is an increase in price." },
+        { "text": "to inCREASE", "pattern": "inCREASE (verb)", "note": "Prices increase every year." }
+      ]
+    },
+    {
+      "title": "Word families and secondary stress",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "When you add an ending, the stress often moves. Longer words also have a weaker secondary beat.",
+      "points": ["Primary stress: the strongest beat.", "Secondary stress: a smaller beat, usually earlier in the word."],
+      "items": [
+        { "text": "photograph", "pattern": "PHO-to-graph" },
+        { "text": "photographer", "pattern": "pho-TO-gra-pher" },
+        { "text": "photographic", "pattern": "pho-to-GRAPH-ic" },
+        { "text": "pronunciation", "pattern": "pro-nun-ci-A-tion", "note": "Secondary beat on 'pro'." },
+        { "text": "international", "pattern": "in-ter-NA-tio-nal", "note": "Secondary beat on 'in'." }
+      ]
+    },
+    {
+      "title": "More noun/verb stress pairs",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "This noun/verb pattern is very common — dozens of English words work this way.",
+      "points": ["Noun = stress first syllable.", "Verb = stress second syllable."],
+      "items": [
+        { "text": "a CONtract", "pattern": "CONtract (noun)", "note": "Sign the contract." },
+        { "text": "to conTRACT", "pattern": "conTRACT (verb)", "note": "Muscles contract when you exercise." },
+        { "text": "an OBject", "pattern": "OBject (noun)", "note": "What is that object?" },
+        { "text": "to obJECT", "pattern": "obJECT (verb)", "note": "I object to this plan." },
+        { "text": "a PROject", "pattern": "PROject (noun)", "note": "This is a big project." },
+        { "text": "to proJECT", "pattern": "proJECT (verb)", "note": "They project a small loss." }
+      ]
+    },
+    {
+      "title": "Even more noun/verb pairs",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Keep practising this pattern until switching the stress feels automatic.",
+      "points": ["Listen for the vowel quality change too, not just loudness."],
+      "items": [
+        { "text": "an EXport", "pattern": "EXport (noun)", "note": "Coffee is a major export." },
+        { "text": "to exPORT", "pattern": "exPORT (verb)", "note": "We export coffee worldwide." },
+        { "text": "a PERmit", "pattern": "PERmit (noun)", "note": "You need a permit." },
+        { "text": "to perMIT", "pattern": "perMIT (verb)", "note": "They don't permit smoking." },
+        { "text": "a SUSpect", "pattern": "SUSpect (noun)", "note": "The police have a suspect." },
+        { "text": "to susPECT", "pattern": "susPECT (verb)", "note": "I suspect he is lying." }
+      ]
+    },
+    {
+      "title": "Two-syllable nouns: first-syllable stress",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Most two-syllable English nouns stress the first syllable.",
+      "points": ["This is the default pattern for nouns — assume first syllable unless you learn otherwise."],
+      "items": [
+        { "text": "table", "pattern": "TA-ble" },
+        { "text": "window", "pattern": "WIN-dow" },
+        { "text": "garden", "pattern": "GAR-den" },
+        { "text": "office", "pattern": "OF-fice" },
+        { "text": "picture", "pattern": "PIC-ture" }
+      ]
+    },
+    {
+      "title": "Two-syllable verbs: second-syllable stress",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Most two-syllable English verbs stress the second syllable — the opposite of nouns.",
+      "points": ["This is the default pattern for verbs."],
+      "items": [
+        { "text": "begin", "pattern": "be-GIN" },
+        { "text": "forget", "pattern": "for-GET" },
+        { "text": "arrive", "pattern": "ar-RIVE" },
+        { "text": "decide", "pattern": "de-CIDE" },
+        { "text": "suggest", "pattern": "sug-GEST" }
+      ]
+    },
+    {
+      "title": "-tion and -sion always take the stress before them",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Words ending in -tion or -sion always stress the syllable right before the ending.",
+      "points": ["-tion / -sion → stress moves to the syllable just before it."],
+      "items": [
+        { "text": "information", "pattern": "in-for-MA-tion" },
+        { "text": "decision", "pattern": "de-CI-sion" },
+        { "text": "celebration", "pattern": "ce-le-BRA-tion" },
+        { "text": "television", "pattern": "TE-le-vi-sion", "note": "Exception pattern — check a dictionary if unsure." },
+        { "text": "organization", "pattern": "or-ga-ni-ZA-tion" }
+      ]
+    },
+    {
+      "title": "-ic and -ical always take the stress before them",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Words ending in -ic or -ical stress the syllable right before the ending, just like -tion.",
+      "points": ["-ic / -ical → stress the syllable before the ending."],
+      "items": [
+        { "text": "economic", "pattern": "e-co-NO-mic" },
+        { "text": "photographic", "pattern": "pho-to-GRAPH-ic" },
+        { "text": "historical", "pattern": "his-TO-ri-cal" },
+        { "text": "scientific", "pattern": "sci-en-TI-fic" },
+        { "text": "athletic", "pattern": "ath-LE-tic" }
+      ]
+    },
+    {
+      "title": "-ity and -ety always take the stress before them",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Another reliable rule: -ity and -ety pull the stress onto the syllable right before them.",
+      "points": ["-ity / -ety → stress the syllable before the ending."],
+      "items": [
+        { "text": "ability", "pattern": "a-BI-li-ty" },
+        { "text": "university", "pattern": "u-ni-VER-si-ty" },
+        { "text": "curiosity", "pattern": "cu-ri-O-si-ty" },
+        { "text": "variety", "pattern": "va-RI-e-ty" },
+        { "text": "responsibility", "pattern": "re-spon-si-BI-li-ty" }
+      ]
+    },
+    {
+      "title": "Prefixes usually don't take the stress",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Adding un-, re-, dis- or non- to a word doesn't move the stress — the prefix stays weak.",
+      "points": ["un- / re- / dis- / non- are almost never stressed."],
+      "items": [
+        { "text": "happy → unhappy", "pattern": "un-HAP-py" },
+        { "text": "do → redo", "pattern": "re-DO" },
+        { "text": "agree → disagree", "pattern": "dis-a-GREE" },
+        { "text": "sense → nonsense", "pattern": "NON-sense", "note": "A common exception — 'nonsense' stresses the first syllable." },
+        { "text": "possible → impossible", "pattern": "im-POS-si-ble" }
+      ]
+    },
+    {
+      "title": "Compound nouns: stress the first word",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "When two words combine into one noun, the first word usually carries the stress.",
+      "points": ["Compound NOUN → stress word 1.", "Compare with phrasal adjectives, which stress word 2 (see next lesson)."],
+      "items": [
+        { "text": "blackbird", "pattern": "BLACK-bird", "note": "One kind of bird." },
+        { "text": "greenhouse", "pattern": "GREEN-house" },
+        { "text": "keyboard", "pattern": "KEY-board" },
+        { "text": "sunrise", "pattern": "SUN-rise" },
+        { "text": "toothbrush", "pattern": "TOOTH-brush" }
+      ]
+    },
+    {
+      "title": "Adjective + noun phrases: stress the second word",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Compare this to the last lesson: when it's really an adjective describing a noun (two separate words, two meanings), the stress moves to the noun.",
+      "points": ["black BIRD = a bird that is black (any bird).", "BLACKbird = one specific kind of bird."],
+      "items": [
+        { "text": "black bird", "pattern": "black BIRD", "note": "Any bird that happens to be black." },
+        { "text": "green house", "pattern": "green HOUSE", "note": "A house painted green." },
+        { "text": "White House", "pattern": "White HOUSE", "note": "Compare: WHITEhouse (compound) doesn't exist — this stays two words." },
+        { "text": "hot dog", "pattern": "hot DOG", "note": "A dog that is hot (not the food, HOT dog)." }
+      ]
+    },
+    {
+      "title": "Numbers: -teen vs -ty",
+      "level": "beginner",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Thirteen and thirty are often confused. The stress placement is the main difference.",
+      "points": ["-TEEN numbers: stress the second syllable.", "-ty numbers: stress the first syllable."],
+      "items": [
+        { "text": "thirteen", "pattern": "thir-TEEN" },
+        { "text": "thirty", "pattern": "THIR-ty" },
+        { "text": "fourteen", "pattern": "four-TEEN" },
+        { "text": "forty", "pattern": "FOR-ty" },
+        { "text": "She's thirteen, not thirty.", "pattern": "thir-TEEN ... THIR-ty", "note": "Exaggerate the contrast so listeners can tell them apart." }
+      ]
+    },
+    {
+      "title": "Job titles and professions",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Job-title vocabulary you'll use constantly in small talk and interviews.",
+      "points": ["Most end in -er/-or/-ist and stress the syllable before that ending."],
+      "items": [
+        { "text": "teacher", "pattern": "TEA-cher" },
+        { "text": "engineer", "pattern": "en-gi-NEER", "note": "Exception — stress falls on the last syllable." },
+        { "text": "photographer", "pattern": "pho-TO-gra-pher" },
+        { "text": "journalist", "pattern": "JOUR-na-list" },
+        { "text": "accountant", "pattern": "ac-COUN-tant" }
+      ]
+    },
+    {
+      "title": "Technology vocabulary",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Common tech words — useful for work meetings and everyday conversation about phones and computers.",
+      "points": [],
+      "items": [
+        { "text": "software", "pattern": "SOFT-ware" },
+        { "text": "database", "pattern": "DA-ta-base" },
+        { "text": "algorithm", "pattern": "AL-go-rithm" },
+        { "text": "application", "pattern": "ap-pli-CA-tion" },
+        { "text": "download", "pattern": "DOWN-load", "note": "Noun/verb — stress stays on the first syllable in both." }
+      ]
+    },
+    {
+      "title": "Business and office vocabulary",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Words you'll say in every meeting — get the stress right and you'll sound confident at work.",
+      "points": [],
+      "items": [
+        { "text": "manager", "pattern": "MA-na-ger" },
+        { "text": "colleague", "pattern": "COL-league" },
+        { "text": "deadline", "pattern": "DEAD-line" },
+        { "text": "budget", "pattern": "BUD-get" },
+        { "text": "negotiate", "pattern": "ne-GO-ti-ate" }
+      ]
+    },
+    {
+      "title": "Travel and tourism vocabulary",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Practise these before your next trip — mispronouncing 'hotel' or 'airport' is a common stumbling block.",
+      "points": [],
+      "items": [
+        { "text": "airport", "pattern": "AIR-port" },
+        { "text": "hotel", "pattern": "ho-TEL" },
+        { "text": "passport", "pattern": "PASS-port" },
+        { "text": "luggage", "pattern": "LUG-gage" },
+        { "text": "itinerary", "pattern": "i-TI-ne-ra-ry" }
+      ]
+    },
+    {
+      "title": "Food and cooking vocabulary",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Everyday food words — great for restaurant conversations.",
+      "points": [],
+      "items": [
+        { "text": "restaurant", "pattern": "RES-tau-rant" },
+        { "text": "vegetable", "pattern": "VE-ge-ta-ble" },
+        { "text": "delicious", "pattern": "de-LI-cious" },
+        { "text": "ingredient", "pattern": "in-GRE-di-ent" },
+        { "text": "recipe", "pattern": "RE-ci-pe" }
+      ]
+    },
+    {
+      "title": "Family and relationship words",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Talking about family is one of the first things learners need — stress these correctly from the start.",
+      "points": [],
+      "items": [
+        { "text": "parents", "pattern": "PA-rents" },
+        { "text": "grandmother", "pattern": "GRAND-mo-ther" },
+        { "text": "relative", "pattern": "RE-la-tive" },
+        { "text": "marriage", "pattern": "MAR-riage" },
+        { "text": "divorce", "pattern": "di-VORCE" }
+      ]
+    },
+    {
+      "title": "Emotion words",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Describing feelings accurately needs the right stress, or listeners may mishear the word entirely.",
+      "points": [],
+      "items": [
+        { "text": "excited", "pattern": "ex-CI-ted" },
+        { "text": "nervous", "pattern": "NER-vous" },
+        { "text": "confident", "pattern": "CON-fi-dent" },
+        { "text": "embarrassed", "pattern": "em-BAR-rassed" },
+        { "text": "frustrated", "pattern": "FRUS-tra-ted" }
+      ]
+    },
+    {
+      "title": "Countries and nationalities",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Country and nationality names often have unexpected stress for learners.",
+      "points": [],
+      "items": [
+        { "text": "Japan", "pattern": "Ja-PAN" },
+        { "text": "Japanese", "pattern": "Ja-pa-NESE" },
+        { "text": "Vietnam", "pattern": "Vi-et-NAM" },
+        { "text": "Vietnamese", "pattern": "Vi-et-na-MESE" },
+        { "text": "Italy", "pattern": "I-ta-ly" },
+        { "text": "Italian", "pattern": "I-TAL-ian" }
+      ]
+    },
+    {
+      "title": "-ous and -eous adjectives",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Adjectives ending in -ous almost always stress the syllable right before the ending.",
+      "points": ["-ous → stress the syllable before it."],
+      "items": [
+        { "text": "dangerous", "pattern": "DAN-ge-rous" },
+        { "text": "curious", "pattern": "CU-ri-ous" },
+        { "text": "enormous", "pattern": "e-NOR-mous" },
+        { "text": "ambitious", "pattern": "am-BI-tious" },
+        { "text": "courageous", "pattern": "cou-RA-geous" }
+      ]
+    },
+    {
+      "title": "-ial and -ual adjectives",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Like -ous, endings -ial and -ual usually pull stress onto the syllable right before them.",
+      "points": [],
+      "items": [
+        { "text": "official", "pattern": "of-FI-cial" },
+        { "text": "essential", "pattern": "es-SEN-tial" },
+        { "text": "individual", "pattern": "in-di-VI-dual" },
+        { "text": "usual", "pattern": "U-sual" },
+        { "text": "commercial", "pattern": "com-MER-cial" }
+      ]
+    },
+    {
+      "title": "-ate: noun/adjective vs verb",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Words ending in -ate can be a noun/adjective (shorter vowel, earlier stress) or a verb (long 'ate' /eɪt/, later stress).",
+      "points": ["Noun/adjective -ate: shorter, earlier stress.", "Verb -ate: full /eɪt/ sound, often later stress."],
+      "items": [
+        { "text": "a graduate (noun)", "pattern": "GRA-du-ate", "note": "Weak final syllable." },
+        { "text": "to graduate (verb)", "pattern": "GRA-du-ATE", "note": "Full /eɪt/ at the end." },
+        { "text": "a certificate (noun)", "pattern": "cer-TI-fi-cate" },
+        { "text": "to certificate", "pattern": "cer-TI-fi-cate", "note": "Rarely used as a verb — 'certify' is more common." },
+        { "text": "an estimate (noun)", "pattern": "ES-ti-mate" },
+        { "text": "to estimate (verb)", "pattern": "ES-ti-MATE" }
+      ]
+    },
+    {
+      "title": "Acronyms and abbreviations",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "When you spell out an abbreviation letter by letter, the LAST letter usually gets the strongest stress.",
+      "points": ["Spelling out letters: last letter is strongest."],
+      "items": [
+        { "text": "USA", "pattern": "U-S-A ↗↗↘", "note": "Stress falls on 'A'." },
+        { "text": "CEO", "pattern": "C-E-O ↗↗↘" },
+        { "text": "ID", "pattern": "I-D ↗↘" },
+        { "text": "ATM", "pattern": "A-T-M ↗↗↘" }
+      ]
+    },
+    {
+      "title": "Days, months and time words",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Time vocabulary is used in every conversation, so get the stress automatic early.",
+      "points": [],
+      "items": [
+        { "text": "Monday", "pattern": "MON-day" },
+        { "text": "September", "pattern": "Sep-TEM-ber" },
+        { "text": "yesterday", "pattern": "YES-ter-day" },
+        { "text": "tomorrow", "pattern": "to-MOR-row" },
+        { "text": "weekend", "pattern": "WEEK-end" }
+      ]
+    },
+    {
+      "title": "Loanwords from French",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "English borrowed many French words and often keeps the final-syllable stress they had in French.",
+      "points": ["French loanwords often stress the LAST syllable — the opposite of typical English nouns."],
+      "items": [
+        { "text": "ballet", "pattern": "bal-LET" },
+        { "text": "garage", "pattern": "ga-RAGE", "note": "British English often says GAR-age instead." },
+        { "text": "cliché", "pattern": "cli-CHÉ" },
+        { "text": "café", "pattern": "ca-FÉ" },
+        { "text": "buffet", "pattern": "buf-FET" }
+      ]
+    },
+    {
+      "title": "Compound adjectives with hyphens",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Hyphenated adjectives before a noun usually stress the second part more when spoken alone, but level out when placed before the noun they describe.",
+      "points": [],
+      "items": [
+        { "text": "well-known", "pattern": "well-KNOWN", "note": "A well-known author." },
+        { "text": "part-time", "pattern": "part-TIME", "note": "A part-time job." },
+        { "text": "self-employed", "pattern": "self-em-PLOYED" },
+        { "text": "old-fashioned", "pattern": "old-FASH-ioned" }
+      ]
+    },
+    {
+      "title": "Three-syllable words: pattern practice",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Three-syllable words often stress the first syllable, but not always — always double-check unfamiliar words.",
+      "points": [],
+      "items": [
+        { "text": "yesterday", "pattern": "YES-ter-day" },
+        { "text": "wonderful", "pattern": "WON-der-ful" },
+        { "text": "difficult", "pattern": "DIF-fi-cult" },
+        { "text": "eleven", "pattern": "e-LE-ven", "note": "Exception — stress on the middle syllable." },
+        { "text": "banana", "pattern": "ba-NA-na", "note": "Exception — stress on the middle syllable." }
+      ]
+    },
+    {
+      "title": "Adjective/noun pairs with the -al ending",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Words ending in -al often keep the stress in the same place as their root word.",
+      "points": [],
+      "items": [
+        { "text": "nature → natural", "pattern": "NA-ture → NA-tu-ral" },
+        { "text": "culture → cultural", "pattern": "CUL-ture → CUL-tu-ral" },
+        { "text": "person → personal", "pattern": "PER-son → PER-so-nal" },
+        { "text": "origin → original", "pattern": "O-ri-gin → o-RI-gi-nal", "note": "Stress does shift here — an exception to watch for." }
+      ]
+    },
+    {
+      "title": "Sports and hobbies vocabulary",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Talking about hobbies is classic small-talk material — get comfortable with this vocabulary.",
+      "points": [],
+      "items": [
+        { "text": "basketball", "pattern": "BAS-ket-ball" },
+        { "text": "swimming", "pattern": "SWIM-ming" },
+        { "text": "photography", "pattern": "pho-TO-gra-phy" },
+        { "text": "gardening", "pattern": "GAR-de-ning" },
+        { "text": "volleyball", "pattern": "VOL-ley-ball" }
+      ]
+    },
+    {
+      "title": "Weather vocabulary",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Weather talk is universal small talk — make sure the stress is automatic.",
+      "points": [],
+      "items": [
+        { "text": "temperature", "pattern": "TEM-pe-ra-ture" },
+        { "text": "humidity", "pattern": "hu-MI-di-ty" },
+        { "text": "thunderstorm", "pattern": "THUN-der-storm" },
+        { "text": "forecast", "pattern": "FORE-cast" },
+        { "text": "umbrella", "pattern": "um-BREL-la" }
+      ]
+    },
+    {
+      "title": "Health and medical vocabulary",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Useful, sometimes urgent vocabulary — worth practising until it's automatic.",
+      "points": [],
+      "items": [
+        { "text": "medicine", "pattern": "ME-di-cine" },
+        { "text": "hospital", "pattern": "HOS-pi-tal" },
+        { "text": "appointment", "pattern": "ap-POINT-ment" },
+        { "text": "symptom", "pattern": "SYMP-tom" },
+        { "text": "prescription", "pattern": "pre-SCRIP-tion" }
+      ]
+    },
+    {
+      "title": "Education vocabulary",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "School and study vocabulary — common in IELTS Speaking Part 1 too.",
+      "points": [],
+      "items": [
+        { "text": "university", "pattern": "u-ni-VER-si-ty" },
+        { "text": "graduate", "pattern": "GRA-du-ate" },
+        { "text": "curriculum", "pattern": "cur-RI-cu-lum" },
+        { "text": "scholarship", "pattern": "SCHO-lar-ship" },
+        { "text": "assignment", "pattern": "as-SIGN-ment" }
+      ]
+    },
+    {
+      "title": "Finance and money vocabulary",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Money vocabulary shows up constantly — from shopping to salary negotiations.",
+      "points": [],
+      "items": [
+        { "text": "economy", "pattern": "e-CO-no-my" },
+        { "text": "investment", "pattern": "in-VEST-ment" },
+        { "text": "insurance", "pattern": "in-SUR-ance" },
+        { "text": "mortgage", "pattern": "MORT-gage" },
+        { "text": "currency", "pattern": "CUR-ren-cy" }
+      ]
+    },
+    {
+      "title": "Verb + noun stress-shift practice",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Final round of the noun/verb stress-shift pattern — by now it should start to feel automatic.",
+      "points": [],
+      "items": [
+        { "text": "a CONflict", "pattern": "CONflict (noun)" },
+        { "text": "to conFLICT", "pattern": "conFLICT (verb)" },
+        { "text": "a PROgress", "pattern": "PROgress (noun)" },
+        { "text": "to proGRESS", "pattern": "proGRESS (verb)" },
+        { "text": "an ADdress", "pattern": "ADdress (noun)", "note": "British English often stresses the second syllable for both." },
+        { "text": "to adDRESS", "pattern": "adDRESS (verb)" }
+      ]
+    },
+    {
+      "title": "Adjective endings: -able and -ible",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "-able and -ible usually don't change the stress of the root word.",
+      "points": [],
+      "items": [
+        { "text": "comfort → comfortable", "pattern": "COM-fort → COM-for-ta-ble" },
+        { "text": "reason → reasonable", "pattern": "REA-son → REA-so-na-ble" },
+        { "text": "afford → affordable", "pattern": "af-FORD → af-FOR-da-ble" },
+        { "text": "response → responsible", "pattern": "re-SPONSE → re-SPON-si-ble" }
+      ]
+    },
+    {
+      "title": "Longer academic words",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Academic English uses long, Latin-based words — apply the -tion/-ity/-ic rules you've already learned.",
+      "points": [],
+      "items": [
+        { "text": "methodology", "pattern": "me-tho-DO-lo-gy" },
+        { "text": "hypothesis", "pattern": "hy-PO-the-sis" },
+        { "text": "characteristic", "pattern": "cha-rac-te-RIS-tic" },
+        { "text": "identification", "pattern": "i-den-ti-fi-CA-tion" }
+      ]
+    },
+    {
+      "title": "Everyday greetings and expressions",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "You'll say these words every single day — stress them naturally from day one.",
+      "points": [],
+      "items": [
+        { "text": "welcome", "pattern": "WEL-come" },
+        { "text": "goodbye", "pattern": "good-BYE" },
+        { "text": "congratulations", "pattern": "con-gra-tu-LA-tions" },
+        { "text": "apology", "pattern": "a-PO-lo-gy" },
+        { "text": "attention", "pattern": "at-TEN-tion" }
+      ]
+    },
+    {
+      "title": "City and place-name stress",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Place names sometimes break the usual rules — worth practising the common ones by heart.",
+      "points": [],
+      "items": [
+        { "text": "Chicago", "pattern": "Chi-CA-go" },
+        { "text": "Toronto", "pattern": "To-RON-to" },
+        { "text": "Amsterdam", "pattern": "AM-ster-dam" },
+        { "text": "Bangkok", "pattern": "Bang-KOK", "note": "Often BANG-kok in casual American speech too." }
+      ]
+    },
+    {
+      "title": "Verbs ending in -ize / -ise",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Verbs ending in -ize (US) or -ise (UK) keep the stress on the syllable before the ending.",
+      "points": [],
+      "items": [
+        { "text": "organize", "pattern": "OR-ga-nize" },
+        { "text": "realize", "pattern": "REA-lize" },
+        { "text": "specialize", "pattern": "SPE-cial-ize" },
+        { "text": "memorize", "pattern": "ME-mo-rize" }
+      ]
+    },
+    {
+      "title": "Emphatic stress on longer descriptive adjectives",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Descriptive adjectives you'll use to make small talk more vivid.",
+      "points": [],
+      "items": [
+        { "text": "incredible", "pattern": "in-CRE-di-ble" },
+        { "text": "unbelievable", "pattern": "un-be-LIE-va-ble" },
+        { "text": "spectacular", "pattern": "spec-TA-cu-lar" },
+        { "text": "extraordinary", "pattern": "ex-TRAOR-di-na-ry" }
+      ]
+    },
+    {
+      "title": "Words that look similar but stress differently",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Spelling doesn't always predict stress — these near-twins trip up even advanced learners.",
+      "points": [],
+      "items": [
+        { "text": "desert (dry land)", "pattern": "DE-sert" },
+        { "text": "dessert (sweet food)", "pattern": "des-SERT" },
+        { "text": "content (satisfied)", "pattern": "con-TENT" },
+        { "text": "content (what's inside)", "pattern": "CON-tent" }
+      ]
+    },
+    {
+      "title": "Practice set: mixed review",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A final mixed set pulling together nouns, verbs, suffix rules and compounds — say each one before checking the pattern.",
+      "points": [],
+      "items": [
+        { "text": "photograph, photographer, photographic", "pattern": "PHO-to-graph / pho-TO-gra-pher / pho-to-GRAPH-ic" },
+        { "text": "a REcord / to reCORD", "pattern": "noun vs verb" },
+        { "text": "unhappy", "pattern": "un-HAP-py" },
+        { "text": "responsibility", "pattern": "re-spon-si-BI-li-ty" },
+        { "text": "well-known author", "pattern": "well-KNOWN AU-thor" }
+      ]
+    },
+    {
+      "title": "Phrasal verb vs compound noun",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "A phrasal verb stresses the particle; the noun made from it stresses the first part instead.",
+      "points": ["Verb: break DOWN, print OUT.", "Noun: a BREAKdown, a PRINTout."],
+      "items": [
+        { "text": "to break down", "pattern": "break DOWN (verb)" },
+        { "text": "a breakdown", "pattern": "BREAKdown (noun)" },
+        { "text": "to check in", "pattern": "check IN (verb)" },
+        { "text": "a check-in", "pattern": "CHECK-in (noun)" },
+        { "text": "to set up", "pattern": "set UP (verb)" },
+        { "text": "a setup", "pattern": "SETup (noun)" }
+      ]
+    },
+    {
+      "title": "Big numbers and money amounts",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Hundred, thousand and million are never stressed themselves — the number just before them carries the beat.",
+      "points": [],
+      "items": [
+        { "text": "two hundred dollars", "pattern": "TWO hundred DOLlars" },
+        { "text": "fifteen thousand", "pattern": "fifTEEN thousand" },
+        { "text": "three million people", "pattern": "THREE million PEOple" },
+        { "text": "nine ninety-nine", "pattern": "NINE NINEty-NINE", "note": "A common price pattern: $9.99." }
+      ]
+    },
+    {
+      "title": "Common idioms and fixed expressions",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Idioms have their own fixed stress pattern learners should memorise as a whole chunk.",
+      "points": [],
+      "items": [
+        { "text": "piece of cake", "pattern": "piece of CAKE" },
+        { "text": "break a leg", "pattern": "break a LEG" },
+        { "text": "under the weather", "pattern": "under the WEAther" },
+        { "text": "once in a blue moon", "pattern": "once in a blue MOON" }
+      ]
+    },
+    {
+      "title": "Words that lose a syllable in fast speech",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Some common words are almost always said with one fewer syllable than they're spelled with — this changes where the stress lands.",
+      "points": [],
+      "items": [
+        { "text": "comfortable", "pattern": "COMF-ta-ble", "note": "3 syllables in fast speech, not 4." },
+        { "text": "vegetable", "pattern": "VEDGE-ta-ble", "note": "3 syllables, not 4." },
+        { "text": "chocolate", "pattern": "CHOC-late", "note": "2 syllables, not 3." },
+        { "text": "every", "pattern": "EV-ry", "note": "2 syllables, not 3." }
+      ]
+    },
+    {
+      "title": "Final mixed review",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "One last mixed set — nouns, verbs, compounds and suffix rules together. Say each one before checking the pattern.",
+      "points": [],
+      "items": [
+        { "text": "an EXport / to exPORT", "pattern": "noun vs verb" },
+        { "text": "unbelievable", "pattern": "un-be-LIEV-a-ble" },
+        { "text": "a CONTRACT (noun)", "pattern": "CON-tract" },
+        { "text": "part-time job", "pattern": "part-TIME JOB" },
+        { "text": "comfortable chair", "pattern": "COMF-ta-ble CHAIR" }
+      ]
+    }
+  ]
+}

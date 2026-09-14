@@ -1,0 +1,41 @@
+{
+  "topic_slug": "small-talk-weather",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Elevator small talk",
+      "turns": [
+        { "speaker_label": "Neighbor A", "speaker_voice": "shimmer", "sentence": "Nice weather today, isn't it?", "is_free": true },
+        { "speaker_label": "Neighbor B", "speaker_voice": "alloy", "sentence": "Yes, much better than yesterday.", "is_free": true },
+        { "speaker_label": "Neighbor A", "speaker_voice": "shimmer", "sentence": "I hope it stays like this for the weekend.", "is_free": true },
+        { "speaker_label": "Neighbor B", "speaker_voice": "alloy", "sentence": "Me too. Have a good day!", "is_free": true },
+        { "speaker_label": "Neighbor A", "speaker_voice": "shimmer", "sentence": "You too, take care.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Waiting room chat",
+      "turns": [
+        { "speaker_label": "Person A", "speaker_voice": "coral", "sentence": "This waiting room is freezing — do you feel that too?", "is_free": false },
+        { "speaker_label": "Person B", "speaker_voice": "sage", "sentence": "I do, actually. I think the air conditioning is set way too low.", "is_free": false },
+        { "speaker_label": "Person A", "speaker_voice": "coral", "sentence": "I should've brought a jacket, honestly.", "is_free": false },
+        { "speaker_label": "Person B", "speaker_voice": "sage", "sentence": "Same here. Hopefully we won't be waiting too much longer.", "is_free": false },
+        { "speaker_label": "Person A", "speaker_voice": "coral", "sentence": "Fingers crossed — I've got somewhere to be in an hour.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Breaking the ice at an event",
+      "turns": [
+        { "speaker_label": "Guest A", "speaker_voice": "nova", "sentence": "I always find these networking events a little awkward until the second glass of wine kicks in.", "is_free": false },
+        { "speaker_label": "Guest B", "speaker_voice": "shimmer", "sentence": "Ha, I couldn't agree more — though I suppose talking about the weather is the universal fallback.", "is_free": false },
+        { "speaker_label": "Guest A", "speaker_voice": "nova", "sentence": "True, though I'd rather hear what actually brought you here tonight.", "is_free": false },
+        { "speaker_label": "Guest B", "speaker_voice": "shimmer", "sentence": "Fair enough — I'm scouting for potential collaborators for a project I'm launching next year.", "is_free": false },
+        { "speaker_label": "Guest A", "speaker_voice": "nova", "sentence": "Now that's a far more interesting conversation than small talk — tell me more.", "is_free": false }
+      ]
+    }
+  ]
+}

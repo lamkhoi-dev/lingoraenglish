@@ -1,0 +1,2409 @@
+{
+  "slug": "meetings-opinions",
+  "name": "Meetings, Opinions & Presentations",
+  "topic_group": "Work & Professional English",
+  "blurb": "Practice speaking naturally in meetings, giving opinions, and presenting ideas at work.",
+  "sort_order": 10,
+  "sentences": [
+    {
+      "subcategory": "Scheduling",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The meeting starts at nine.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'starts'",
+      "stress_focus": "Put the main stress on 'starts'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'at' and 'nine' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "starts",
+          "meaning": "begins"
+        }
+      ],
+      "grammar_focus": "simple present for schedules",
+      "tags": [
+        "meetings",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "Starting a Meeting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Are we ready to begin?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'ready'",
+      "stress_focus": "Put the main stress on 'ready'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'to' and 'begin' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "ready",
+          "meaning": "prepared"
+        }
+      ],
+      "grammar_focus": "be + adjective questions",
+      "tags": [
+        "meetings",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Starting a Meeting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Let's get started, everyone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'get started'",
+      "stress_focus": "Put the main stress on 'get started'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "get started",
+          "meaning": "begin"
+        }
+      ],
+      "grammar_focus": "let's + base verb",
+      "tags": [
+        "meetings",
+        "phrases"
+      ]
+    },
+    {
+      "subcategory": "Asking Questions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I have a quick question.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'quick'",
+      "stress_focus": "Put the main stress on 'quick'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'quick' and 'question' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "quick",
+          "meaning": "short, fast"
+        }
+      ],
+      "grammar_focus": "simple present with have",
+      "tags": [
+        "meetings",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Video Calls",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Can you hear me okay?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'hear'",
+      "stress_focus": "Put the main stress on 'hear'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'me' and 'okay' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "hear",
+          "meaning": "perceive sound"
+        }
+      ],
+      "grammar_focus": "can for ability/permission",
+      "tags": [
+        "meetings",
+        "technology"
+      ]
+    },
+    {
+      "subcategory": "Scheduling",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Sorry, I'm running a bit late.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'running late'",
+      "stress_focus": "Put the main stress on 'running late'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'm' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "running late",
+          "meaning": "behind schedule"
+        }
+      ],
+      "grammar_focus": "present continuous for near future",
+      "tags": [
+        "meetings",
+        "apologies"
+      ]
+    },
+    {
+      "subcategory": "Starting a Meeting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thanks for joining us today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'joining'",
+      "stress_focus": "Put the main stress on 'joining'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'us' and 'today' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "joining",
+          "meaning": "coming to take part"
+        }
+      ],
+      "grammar_focus": "gerund after preposition for",
+      "tags": [
+        "meetings",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Roles",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Who is taking notes today?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'taking notes'",
+      "stress_focus": "Put the main stress on 'taking notes'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Link 'notes' and 'today' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "taking notes",
+          "meaning": "writing down information"
+        }
+      ],
+      "grammar_focus": "wh-question with present continuous",
+      "tags": [
+        "meetings",
+        "roles"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "agreement",
+      "sentence": "I agree with that point.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'agree'",
+      "stress_focus": "Put the main stress on 'agree'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'that' and 'point' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "agree",
+          "meaning": "share the same view"
+        }
+      ],
+      "grammar_focus": "agree with + noun",
+      "tags": [
+        "opinions",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "disagreement",
+      "sentence": "I'm not sure I agree.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'not sure'",
+      "stress_focus": "Put the main stress on 'not sure'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'I'm' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "not sure",
+          "meaning": "uncertain"
+        }
+      ],
+      "grammar_focus": "negative with sure + clause",
+      "tags": [
+        "opinions",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can we move to the next item?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'item'",
+      "stress_focus": "Put the main stress on 'item'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'next' and 'item' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "item",
+          "meaning": "a point on a list"
+        }
+      ],
+      "grammar_focus": "can we + base verb",
+      "tags": [
+        "meetings",
+        "agenda"
+      ]
+    },
+    {
+      "subcategory": "Breaks",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Let's take a short break.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'break'",
+      "stress_focus": "Put the main stress on 'break'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "break",
+          "meaning": "pause from work"
+        }
+      ],
+      "grammar_focus": "let's + noun phrase",
+      "tags": [
+        "meetings",
+        "breaks"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "reaction",
+      "sentence": "That's a good idea, actually.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'actually'",
+      "stress_focus": "Put the main stress on 'actually'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'That's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "actually",
+          "meaning": "in fact"
+        }
+      ],
+      "grammar_focus": "that's + adjective",
+      "tags": [
+        "opinions",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll send the notes later.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'send'",
+      "stress_focus": "Put the main stress on 'send'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "send",
+          "meaning": "deliver, share"
+        }
+      ],
+      "grammar_focus": "will for future promise",
+      "tags": [
+        "meetings",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Presentations",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Do you have the slides ready?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'slides'",
+      "stress_focus": "Put the main stress on 'slides'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'slides' and 'ready' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "slides",
+          "meaning": "presentation pages"
+        }
+      ],
+      "grammar_focus": "do you have + noun",
+      "tags": [
+        "presentations",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Video Calls",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Let me share my screen.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'share my screen'",
+      "stress_focus": "Put the main stress on 'share my screen'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Linking 'let me' \u2192 'lemme'",
+      "vocabulary": [
+        {
+          "word": "share my screen",
+          "meaning": "show your display"
+        }
+      ],
+      "grammar_focus": "let me + base verb",
+      "tags": [
+        "meetings",
+        "technology"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think that makes sense.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'makes sense'",
+      "stress_focus": "Put the main stress on 'makes sense'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'makes' and 'sense' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "makes sense",
+          "meaning": "is logical"
+        }
+      ],
+      "grammar_focus": "I think + clause",
+      "tags": [
+        "opinions",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you repeat that, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'repeat'",
+      "stress_focus": "Put the main stress on 'repeat'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Linking 'could' + 'you' \u2192 'couldja'",
+      "vocabulary": [
+        {
+          "word": "repeat",
+          "meaning": "say again"
+        }
+      ],
+      "grammar_focus": "could you + base verb, polite request",
+      "tags": [
+        "clarification",
+        "meetings"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, could you say that again?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'say that again'",
+      "stress_focus": "Put the main stress on 'say that again'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Linking 'could' + 'you' \u2192 'couldja'",
+      "vocabulary": [
+        {
+          "word": "say that again",
+          "meaning": "repeat what was said"
+        }
+      ],
+      "grammar_focus": "could you + base verb",
+      "tags": [
+        "clarification",
+        "meetings"
+      ]
+    },
+    {
+      "subcategory": "Time Management",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We're almost out of time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'out of time'",
+      "stress_focus": "Put the main stress on 'out of time'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'out of' \u2192 'outta'",
+      "vocabulary": [
+        {
+          "word": "out of time",
+          "meaning": "no time left"
+        }
+      ],
+      "grammar_focus": "present continuous for current state",
+      "tags": [
+        "meetings",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "Ending a Meeting",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's wrap this up soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'wrap up'",
+      "stress_focus": "Put the main stress on 'wrap up'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "wrap up",
+          "meaning": "finish, conclude"
+        }
+      ],
+      "grammar_focus": "let's + phrasal verb",
+      "tags": [
+        "meetings",
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Ending a Meeting",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Thanks, everyone, for your time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'for your time'",
+      "stress_focus": "Put the main stress on 'for your time'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'your' and 'time' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "for your time",
+          "meaning": "for the time given"
+        }
+      ],
+      "grammar_focus": "thanks for + noun",
+      "tags": [
+        "meetings",
+        "closing"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'll follow up by email.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'follow up'",
+      "stress_focus": "Put the main stress on 'follow up'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "follow up",
+          "meaning": "continue contact later"
+        }
+      ],
+      "grammar_focus": "will + phrasal verb",
+      "tags": [
+        "meetings",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Q&A",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Does anyone have any questions?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'any questions'",
+      "stress_focus": "Put the main stress on 'any questions'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'any' and 'questions' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "any questions",
+          "meaning": "some questions"
+        }
+      ],
+      "grammar_focus": "does anyone + base verb",
+      "tags": [
+        "meetings",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Scheduling",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "agreement",
+      "sentence": "That works for me, thanks.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'works for me'",
+      "stress_focus": "Put the main stress on 'works for me'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'me' and 'thanks' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "works for me",
+          "meaning": "is suitable"
+        }
+      ],
+      "grammar_focus": "that works + for + pronoun",
+      "tags": [
+        "meetings",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Let's circle back.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'circle back'",
+      "stress_focus": "Put the main stress on 'circle back'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "circle back",
+          "meaning": "return to a topic later"
+        }
+      ],
+      "grammar_focus": "phrasal verb as imperative",
+      "tags": [
+        "meetings",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "reaction",
+      "sentence": "I see your point.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'see your point'",
+      "stress_focus": "Put the main stress on 'see your point'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'your' and 'point' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "see your point",
+          "meaning": "understand your view"
+        }
+      ],
+      "grammar_focus": "I see + noun phrase",
+      "tags": [
+        "opinions",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "reaction",
+      "sentence": "Good point, honestly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'honestly'",
+      "stress_focus": "Put the main stress on 'honestly'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'point' and 'honestly' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "honestly",
+          "meaning": "to be truthful"
+        }
+      ],
+      "grammar_focus": "adverb for emphasis",
+      "tags": [
+        "opinions",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's table that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'table that'",
+      "stress_focus": "Put the main stress on 'table that'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "table that",
+          "meaning": "postpone discussion"
+        }
+      ],
+      "grammar_focus": "phrasal verb table as verb",
+      "tags": [
+        "meetings",
+        "agenda"
+      ]
+    },
+    {
+      "subcategory": "Agreement",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "agreement",
+      "sentence": "Sounds good to me.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'sounds good'",
+      "stress_focus": "Put the main stress on 'sounds good'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'to' and 'me' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "sounds good",
+          "meaning": "seems acceptable"
+        }
+      ],
+      "grammar_focus": "sounds + adjective",
+      "tags": [
+        "meetings",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "disagreement",
+      "sentence": "I disagree, actually.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'disagree'",
+      "stress_focus": "Put the main stress on 'disagree'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'disagree' and 'actually' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "disagree",
+          "meaning": "have a different opinion"
+        }
+      ],
+      "grammar_focus": "simple present opinion verb",
+      "tags": [
+        "opinions",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Can you elaborate?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'elaborate'",
+      "stress_focus": "Put the main stress on 'elaborate'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'you' and 'elaborate' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "elaborate",
+          "meaning": "give more detail"
+        }
+      ],
+      "grammar_focus": "can you + base verb",
+      "tags": [
+        "clarification",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Team Coordination",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's loop him in.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'loop in'",
+      "stress_focus": "Put the main stress on 'loop in'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "loop in",
+          "meaning": "include someone in communication"
+        }
+      ],
+      "grammar_focus": "phrasal verb loop in",
+      "tags": [
+        "meetings",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "reaction",
+      "sentence": "That's off-topic.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'off-topic'",
+      "stress_focus": "Put the main stress on 'off-topic'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'That's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "off-topic",
+          "meaning": "unrelated to the subject"
+        }
+      ],
+      "grammar_focus": "adjective compound",
+      "tags": [
+        "meetings",
+        "agenda"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's stay focused.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'stay focused'",
+      "stress_focus": "Put the main stress on 'stay focused'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "stay focused",
+          "meaning": "keep attention on task"
+        }
+      ],
+      "grammar_focus": "let's + adjective phrase",
+      "tags": [
+        "meetings",
+        "agenda"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'll double-check that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'double-check'",
+      "stress_focus": "Put the main stress on 'double-check'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "double-check",
+          "meaning": "verify again"
+        }
+      ],
+      "grammar_focus": "will + phrasal verb",
+      "tags": [
+        "meetings",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Agreement",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "agreement",
+      "sentence": "Fair enough, I guess.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'fair enough'",
+      "stress_focus": "Put the main stress on 'fair enough'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'I' and 'guess' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "fair enough",
+          "meaning": "reasonably acceptable"
+        }
+      ],
+      "grammar_focus": "fair + enough",
+      "tags": [
+        "opinions",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Let's touch base tomorrow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'touch base'",
+      "stress_focus": "Put the main stress on 'touch base'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "touch base",
+          "meaning": "make brief contact"
+        }
+      ],
+      "grammar_focus": "idiomatic phrase touch base",
+      "tags": [
+        "meetings",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could you clarify that?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'clarify'",
+      "stress_focus": "Put the main stress on 'clarify'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Linking 'could' + 'you' \u2192 'couldja'",
+      "vocabulary": [
+        {
+          "word": "clarify",
+          "meaning": "make clearer"
+        }
+      ],
+      "grammar_focus": "could you + base verb",
+      "tags": [
+        "clarification",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Presentations",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's keep it brief.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'brief'",
+      "stress_focus": "Put the main stress on 'brief'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "brief",
+          "meaning": "short in duration"
+        }
+      ],
+      "grammar_focus": "keep it + adjective",
+      "tags": [
+        "presentations",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "reaction",
+      "sentence": "Noted, thanks a lot.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'noted'",
+      "stress_focus": "Put the main stress on 'noted'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'a' and 'lot' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "noted",
+          "meaning": "acknowledged, written down"
+        }
+      ],
+      "grammar_focus": "past participle as reaction",
+      "tags": [
+        "meetings",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Starting a Meeting",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's dive right in.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'dive in'",
+      "stress_focus": "Put the main stress on 'dive in'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "dive in",
+          "meaning": "start immediately"
+        }
+      ],
+      "grammar_focus": "phrasal verb dive in",
+      "tags": [
+        "meetings",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "reaction",
+      "sentence": "That's a fair point.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'fair point'",
+      "stress_focus": "Put the main stress on 'fair point'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'That's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "fair point",
+          "meaning": "reasonable argument"
+        }
+      ],
+      "grammar_focus": "that's + noun phrase",
+      "tags": [
+        "opinions",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Team Coordination",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'll follow your lead.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'follow your lead'",
+      "stress_focus": "Put the main stress on 'follow your lead'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "follow your lead",
+          "meaning": "do what you decide"
+        }
+      ],
+      "grammar_focus": "will + idiom",
+      "tags": [
+        "meetings",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's revisit this later.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'revisit'",
+      "stress_focus": "Put the main stress on 'revisit'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "revisit",
+          "meaning": "discuss again"
+        }
+      ],
+      "grammar_focus": "let's + base verb",
+      "tags": [
+        "meetings",
+        "agenda"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "agreement",
+      "sentence": "I stand corrected, thanks.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'stand corrected'",
+      "stress_focus": "Put the main stress on 'stand corrected'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'corrected' and 'thanks' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "stand corrected",
+          "meaning": "admit you were wrong"
+        }
+      ],
+      "grammar_focus": "idiom with stand",
+      "tags": [
+        "clarification",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's park that idea.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'park that'",
+      "stress_focus": "Put the main stress on 'park that'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "park that",
+          "meaning": "set aside temporarily"
+        }
+      ],
+      "grammar_focus": "phrasal idiom park",
+      "tags": [
+        "meetings",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Presentations",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Can we skip ahead?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'skip ahead'",
+      "stress_focus": "Put the main stress on 'skip ahead'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'skip' and 'ahead' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "skip ahead",
+          "meaning": "move forward quickly"
+        }
+      ],
+      "grammar_focus": "can we + phrasal verb",
+      "tags": [
+        "presentations",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "Scheduling",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I'll check my calendar.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'calendar'",
+      "stress_focus": "Put the main stress on 'calendar'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "calendar",
+          "meaning": "schedule of dates"
+        }
+      ],
+      "grammar_focus": "will + base verb",
+      "tags": [
+        "meetings",
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Let's finalize the details.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'finalize'",
+      "stress_focus": "Put the main stress on 'finalize'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "finalize",
+          "meaning": "complete, settle"
+        }
+      ],
+      "grammar_focus": "let's + base verb",
+      "tags": [
+        "meetings",
+        "agenda"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "disagreement",
+      "sentence": "Sorry to jump in, but I disagree.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'jump in'",
+      "stress_focus": "Put the main stress on 'jump in'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'I' and 'disagree' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "jump in",
+          "meaning": "interrupt to speak"
+        }
+      ],
+      "grammar_focus": "sorry to + base verb clause",
+      "tags": [
+        "opinions",
+        "interrupting"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Let's hash out the details afterward.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'hash out'",
+      "stress_focus": "Put the main stress on 'hash out'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "hash out",
+          "meaning": "discuss thoroughly to reach agreement"
+        }
+      ],
+      "grammar_focus": "phrasal verb hash out",
+      "tags": [
+        "meetings",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "I want to build on that point.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'build on'",
+      "stress_focus": "Put the main stress on 'build on'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Linking 'want to' \u2192 'wanna'",
+      "vocabulary": [
+        {
+          "word": "build on",
+          "meaning": "add to an existing idea"
+        }
+      ],
+      "grammar_focus": "want to + phrasal verb",
+      "tags": [
+        "opinions",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "We should follow up with the client soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'follow up'",
+      "stress_focus": "Put the main stress on 'follow up'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'client' and 'soon' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "follow up",
+          "meaning": "continue communication"
+        }
+      ],
+      "grammar_focus": "should + phrasal verb",
+      "tags": [
+        "meetings",
+        "follow-up"
+      ]
+    },
+    {
+      "subcategory": "Scheduling",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Can we push the deadline back a week?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'push back'",
+      "stress_focus": "Put the main stress on 'push back'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'a' and 'week' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "push back",
+          "meaning": "postpone"
+        }
+      ],
+      "grammar_focus": "can we + phrasal verb + object",
+      "tags": [
+        "meetings",
+        "scheduling"
+      ]
+    },
+    {
+      "subcategory": "Reporting",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I ran the numbers and they don't add up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'add up'",
+      "stress_focus": "Put the main stress on 'add up'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'don't' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "add up",
+          "meaning": "make logical sense"
+        }
+      ],
+      "grammar_focus": "past simple with connector and",
+      "tags": [
+        "workplace",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Presentations",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Let's break this down step by step.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'break down'",
+      "stress_focus": "Put the main stress on 'break down'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "break down",
+          "meaning": "divide into simpler parts"
+        }
+      ],
+      "grammar_focus": "phrasal verb break down",
+      "tags": [
+        "presentations",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "I'd like to weigh in on this.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'weigh in'",
+      "stress_focus": "Put the main stress on 'weigh in'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'I'd' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "weigh in",
+          "meaning": "give an opinion"
+        }
+      ],
+      "grammar_focus": "would like to + phrasal verb",
+      "tags": [
+        "opinions",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Time Management",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "We ran out of time, unfortunately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'ran out of'",
+      "stress_focus": "Put the main stress on 'ran out of'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'out of' \u2192 'outta'",
+      "vocabulary": [
+        {
+          "word": "ran out of",
+          "meaning": "used up completely"
+        }
+      ],
+      "grammar_focus": "past simple phrasal verb",
+      "tags": [
+        "meetings",
+        "time"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "Let's not go down that road again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'go down that road'",
+      "stress_focus": "Put the main stress on 'go down that road'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "go down that road",
+          "meaning": "pursue that approach"
+        }
+      ],
+      "grammar_focus": "idiom with go down",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "On the other hand, there's another option.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'on the other hand'",
+      "stress_focus": "Put the main stress on 'on the other hand'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'there's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "on the other hand",
+          "meaning": "presenting a contrasting idea"
+        }
+      ],
+      "grammar_focus": "connector on the other hand",
+      "tags": [
+        "opinions",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Reporting",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "As far as I know, the budget is fixed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'as far as I know'",
+      "stress_focus": "Put the main stress on 'as far as I know'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'is' and 'fixed' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "as far as I know",
+          "meaning": "based on what I understand"
+        }
+      ],
+      "grammar_focus": "connector as far as",
+      "tags": [
+        "workplace",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Let's circle back to that after the break.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'circle back'",
+      "stress_focus": "Put the main stress on 'circle back'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "circle back",
+          "meaning": "return to later"
+        }
+      ],
+      "grammar_focus": "phrasal verb with connector after",
+      "tags": [
+        "meetings",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "I hear what you're saying, but I disagree.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'hear what you're saying'",
+      "stress_focus": "Put the main stress on 'hear what you're saying'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'you're' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "hear what you're saying",
+          "meaning": "understand your view"
+        }
+      ],
+      "grammar_focus": "contrast connector but",
+      "tags": [
+        "opinions",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "We need to iron out a few issues.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'iron out'",
+      "stress_focus": "Put the main stress on 'iron out'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'few' and 'issues' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "iron out",
+          "meaning": "resolve problems"
+        }
+      ],
+      "grammar_focus": "need to + phrasal verb",
+      "tags": [
+        "meetings",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Reporting",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Could we drill down into the data a bit?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'drill down'",
+      "stress_focus": "Put the main stress on 'drill down'",
+      "intonation_focus": "Rising intonation at the end since it's a yes/no question",
+      "connected_speech_focus": "Link 'a' and 'bit' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "drill down",
+          "meaning": "examine in more detail"
+        }
+      ],
+      "grammar_focus": "could we + phrasal verb",
+      "tags": [
+        "workplace",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "That's a valid point, though I see it differently.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'valid point'",
+      "stress_focus": "Put the main stress on 'valid point'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'That's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "valid point",
+          "meaning": "reasonable argument"
+        }
+      ],
+      "grammar_focus": "though as concession connector",
+      "tags": [
+        "opinions",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Team Coordination",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Let's get everyone on the same page first.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'on the same page'",
+      "stress_focus": "Put the main stress on 'on the same page'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "on the same page",
+          "meaning": "in agreement"
+        }
+      ],
+      "grammar_focus": "idiom on the same page",
+      "tags": [
+        "meetings",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "I'll loop back once I hear from finance.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'loop back'",
+      "stress_focus": "Put the main stress on 'loop back'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'I'll' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "loop back",
+          "meaning": "return to a topic"
+        }
+      ],
+      "grammar_focus": "future with once clause",
+      "tags": [
+        "meetings",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "Bottom line, we need more resources.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'bottom line'",
+      "stress_focus": "Put the main stress on 'bottom line'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'more' and 'resources' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "bottom line",
+          "meaning": "the main point"
+        }
+      ],
+      "grammar_focus": "idiom as sentence opener",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "request",
+      "sentence": "Let's park the small issues and focus on this.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'park'",
+      "stress_focus": "Put the main stress on 'park'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "park",
+          "meaning": "postpone temporarily"
+        }
+      ],
+      "grammar_focus": "and connector joining clauses",
+      "tags": [
+        "meetings",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Reporting",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "I want to flag a concern before we move on.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'flag a concern'",
+      "stress_focus": "Put the main stress on 'flag a concern'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'want to' \u2192 'wanna'",
+      "vocabulary": [
+        {
+          "word": "flag a concern",
+          "meaning": "point out a worry"
+        }
+      ],
+      "grammar_focus": "before + clause connector",
+      "tags": [
+        "workplace",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "Given the timeline, we should prioritize this task.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'given'",
+      "stress_focus": "Put the main stress on 'given'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'this' and 'task' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "given",
+          "meaning": "considering"
+        }
+      ],
+      "grammar_focus": "given as connector",
+      "tags": [
+        "meetings",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Presentations",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "request",
+      "sentence": "Let's touch on that briefly before wrapping up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'touch on'",
+      "stress_focus": "Put the main stress on 'touch on'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "touch on",
+          "meaning": "mention briefly"
+        }
+      ],
+      "grammar_focus": "phrasal verb + before clause",
+      "tags": [
+        "presentations",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "disagreement",
+      "sentence": "To be honest, I'm not fully convinced yet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'convinced'",
+      "stress_focus": "Put the main stress on 'convinced'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'I'm' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "convinced",
+          "meaning": "persuaded, sure"
+        }
+      ],
+      "grammar_focus": "to be honest connector",
+      "tags": [
+        "opinions",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "Just to play devil's advocate, what if the numbers are wrong?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'play devil's advocate'",
+      "stress_focus": "Put the main stress on 'play devil's advocate'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Smooth contraction in 'devil's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "play devil's advocate",
+          "meaning": "argue the opposite side for discussion"
+        }
+      ],
+      "grammar_focus": "conditional clause with what if",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "clarification",
+      "sentence": "I don't want to put words in your mouth, but that's what I heard.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'put words in your mouth'",
+      "stress_focus": "Put the main stress on 'put words in your mouth'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Linking 'want to' \u2192 'wanna'",
+      "vocabulary": [
+        {
+          "word": "put words in your mouth",
+          "meaning": "misrepresent what someone said"
+        }
+      ],
+      "grammar_focus": "contrast connector but",
+      "tags": [
+        "clarification",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "Let's not reinvent the wheel; we already have a template for this.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'reinvent the wheel'",
+      "stress_focus": "Put the main stress on 'reinvent the wheel'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "reinvent the wheel",
+          "meaning": "waste effort recreating something existing"
+        }
+      ],
+      "grammar_focus": "semicolon joining related clauses",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "At the end of the day, the client's satisfaction is what matters most.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'at the end of the day'",
+      "stress_focus": "Put the main stress on 'at the end of the day'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'client's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "at the end of the day",
+          "meaning": "ultimately, considering everything"
+        }
+      ],
+      "grammar_focus": "idiom as sentence opener with relative clause",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Reporting",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "I hate to be the bearer of bad news, but the launch is delayed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'bearer of bad news'",
+      "stress_focus": "Put the main stress on 'bearer of bad news'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'is' and 'delayed' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "bearer of bad news",
+          "meaning": "the person announcing unwelcome information"
+        }
+      ],
+      "grammar_focus": "contrast connector but with idiom",
+      "tags": [
+        "workplace",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "We should think outside the box if we want this campaign to stand out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'think outside the box'",
+      "stress_focus": "Put the main stress on 'think outside the box'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'stand' and 'out' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "think outside the box",
+          "meaning": "think creatively, unconventionally"
+        }
+      ],
+      "grammar_focus": "conditional if-clause",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "clarification",
+      "sentence": "Correct me if I'm wrong, but didn't we agree on a different approach?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'correct me if I'm wrong'",
+      "stress_focus": "Put the main stress on 'correct me if I'm wrong'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Smooth contraction in 'I'm' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "correct me if I'm wrong",
+          "meaning": "polite way to check accuracy"
+        }
+      ],
+      "grammar_focus": "conditional with negative question tag",
+      "tags": [
+        "clarification",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Reporting",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "Let's not beat around the bush; the project is behind schedule.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'beat around the bush'",
+      "stress_focus": "Put the main stress on 'beat around the bush'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "beat around the bush",
+          "meaning": "avoid speaking directly about something"
+        }
+      ],
+      "grammar_focus": "semicolon connecting idiom to fact",
+      "tags": [
+        "workplace",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "Honestly, I think we're jumping the gun by announcing this so early.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'jumping the gun'",
+      "stress_focus": "Put the main stress on 'jumping the gun'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'we're' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "jumping the gun",
+          "meaning": "acting too soon"
+        }
+      ],
+      "grammar_focus": "gerund phrase after by",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Scheduling",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "request",
+      "sentence": "If it's all the same to you, I'd rather present after lunch.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'if it's all the same to you'",
+      "stress_focus": "Put the main stress on 'if it's all the same to you'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'it's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "if it's all the same to you",
+          "meaning": "if you don't mind either way"
+        }
+      ],
+      "grammar_focus": "conditional polite request",
+      "tags": [
+        "meetings",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "request",
+      "sentence": "Let's cut to the chase and talk about the budget shortfall.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'cut to the chase'",
+      "stress_focus": "Put the main stress on 'cut to the chase'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "cut to the chase",
+          "meaning": "get straight to the main point"
+        }
+      ],
+      "grammar_focus": "imperative with and connector",
+      "tags": [
+        "meetings",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I'm on the fence about this proposal until I see the projected costs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'on the fence'",
+      "stress_focus": "Put the main stress on 'on the fence'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'I'm' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "on the fence",
+          "meaning": "undecided"
+        }
+      ],
+      "grammar_focus": "until clause as time connector",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "disagreement",
+      "sentence": "With all due respect, I think that timeline is unrealistic.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'with all due respect'",
+      "stress_focus": "Put the main stress on 'with all due respect'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Link 'is' and 'unrealistic' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "with all due respect",
+          "meaning": "polite way to disagree"
+        }
+      ],
+      "grammar_focus": "prepositional phrase opener",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Team Coordination",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "request",
+      "sentence": "Let's take this offline so we don't eat into everyone's time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'take this offline'",
+      "stress_focus": "Put the main stress on 'take this offline'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "take this offline",
+          "meaning": "discuss privately later"
+        }
+      ],
+      "grammar_focus": "so + clause of purpose",
+      "tags": [
+        "meetings",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Reporting",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "To put it bluntly, this quarter's results fell short of expectations.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'to put it bluntly'",
+      "stress_focus": "Put the main stress on 'to put it bluntly'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'quarter's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "to put it bluntly",
+          "meaning": "speaking very directly"
+        }
+      ],
+      "grammar_focus": "infinitive phrase as sentence opener",
+      "tags": [
+        "workplace",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "clarification",
+      "sentence": "I know this is a bit of a tangent, but it's worth mentioning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'a bit of a tangent'",
+      "stress_focus": "Put the main stress on 'a bit of a tangent'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'it's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "a bit of a tangent",
+          "meaning": "a side topic unrelated to the main point"
+        }
+      ],
+      "grammar_focus": "contrast connector but with concession",
+      "tags": [
+        "clarification",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "We're spinning our wheels on this issue and need a fresh perspective.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'spinning our wheels'",
+      "stress_focus": "Put the main stress on 'spinning our wheels'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'We're' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "spinning our wheels",
+          "meaning": "making no real progress"
+        }
+      ],
+      "grammar_focus": "present continuous idiom with and connector",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Agenda",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "Let's not lose sight of the bigger picture while fixing this bug.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'lose sight of'",
+      "stress_focus": "Put the main stress on 'lose sight of'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "lose sight of",
+          "meaning": "forget to consider"
+        }
+      ],
+      "grammar_focus": "while + gerund clause",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "For what it's worth, I think the original plan was stronger.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'for what it's worth'",
+      "stress_focus": "Put the main stress on 'for what it's worth'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'it's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "for what it's worth",
+          "meaning": "my opinion, though it may not matter much"
+        }
+      ],
+      "grammar_focus": "idiom as sentence opener",
+      "tags": [
+        "opinions",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "request",
+      "sentence": "Let's touch base offline and hammer out the remaining logistics.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'hammer out'",
+      "stress_focus": "Put the main stress on 'hammer out'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "hammer out",
+          "meaning": "work through details to reach agreement"
+        }
+      ],
+      "grammar_focus": "and connector joining phrasal verbs",
+      "tags": [
+        "meetings",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Clarification",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "clarification",
+      "sentence": "I don't mean to nitpick, but the figures on slide three seem off.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'nitpick'",
+      "stress_focus": "Put the main stress on 'nitpick'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Smooth contraction in 'don't' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "nitpick",
+          "meaning": "criticize small, unimportant details"
+        }
+      ],
+      "grammar_focus": "contrast connector but with polite hedge",
+      "tags": [
+        "clarification",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Reporting",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "statement",
+      "sentence": "Long story short, we need to push the launch to next month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'long story short'",
+      "stress_focus": "Put the main stress on 'long story short'",
+      "intonation_focus": "Falling intonation to signal the statement is complete",
+      "connected_speech_focus": "Link 'next' and 'month' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "long story short",
+          "meaning": "to summarize briefly"
+        }
+      ],
+      "grammar_focus": "idiom as summary connector",
+      "tags": [
+        "workplace",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Team Coordination",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "request",
+      "sentence": "Let's get the ball rolling before the client loses interest.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'get the ball rolling'",
+      "stress_focus": "Put the main stress on 'get the ball rolling'",
+      "intonation_focus": "Slight rise at the end to keep the request polite",
+      "connected_speech_focus": "Smooth contraction in 'Let's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "get the ball rolling",
+          "meaning": "start something moving forward"
+        }
+      ],
+      "grammar_focus": "before + clause as time connector",
+      "tags": [
+        "meetings",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Follow-up",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "question",
+      "sentence": "Speaking of which, did anyone follow up on the vendor contract?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'speaking of which'",
+      "stress_focus": "Put the main stress on 'speaking of which'",
+      "intonation_focus": "Falling intonation at the end since it's a wh-question",
+      "connected_speech_focus": "Link 'vendor' and 'contract' with no pause between them",
+      "vocabulary": [
+        {
+          "word": "speaking of which",
+          "meaning": "transitioning to a related topic"
+        }
+      ],
+      "grammar_focus": "transition connector plus past simple question",
+      "tags": [
+        "meetings",
+        "connectors"
+      ]
+    },
+    {
+      "subcategory": "Opinions",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "At this point, I think it's best if we regroup and reassess next week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Focus on clear pronunciation of 'regroup'",
+      "stress_focus": "Put the main stress on 'regroup'",
+      "intonation_focus": "Falling intonation to sound confident and definite",
+      "connected_speech_focus": "Smooth contraction in 'it's' \u2014 say it as one beat",
+      "vocabulary": [
+        {
+          "word": "regroup",
+          "meaning": "reorganize and plan again"
+        }
+      ],
+      "grammar_focus": "it's best if + subjunctive clause",
+      "tags": [
+        "opinions",
+        "connectors"
+      ]
+    }
+  ]
+}

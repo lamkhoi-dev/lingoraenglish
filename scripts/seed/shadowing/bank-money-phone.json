@@ -1,0 +1,2513 @@
+{
+ "slug": "bank-money-phone",
+ "name": "Bank, Money & Phone Calls",
+ "topic_group": "Everyday English",
+ "blurb": "Practice natural spoken English for banking errands, money talk, and phone conversations.",
+ "sort_order": 7,
+ "sentences": [
+  {
+   "subcategory": "Opening an Account",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I need to open a bank account.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on need, open, bank",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "bank account",
+     "meaning": "a place to keep your money"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Finding an ATM",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "Where is the nearest ATM?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Where, nearest",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "ATM",
+     "meaning": "a machine that gives out cash"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Cash Back",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "Can I get some cash back?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on some, cash, back",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "cash back",
+     "meaning": "extra cash from a card purchase"
+    }
+   ],
+   "grammar_focus": "modal request",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basic Money Talk",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "How much money do you have?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on much, money, have",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "money",
+     "meaning": "cash or funds"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "banking",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Basic Money Talk",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I have twenty dollars in my wallet.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on have, twenty, dollars",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "wallet",
+     "meaning": "a small case for cash and cards"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "banking",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Prices",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "opinion",
+   "sentence": "This coffee is too expensive.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on This, coffee, expensive",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "expensive",
+     "meaning": "costs a lot"
+    }
+   ],
+   "grammar_focus": "adjective + noun",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "Can you call me later?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on call, later",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "call",
+     "meaning": "to phone someone"
+    }
+   ],
+   "grammar_focus": "modal request",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "Who is calling, please?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on calling, please",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "calling",
+     "meaning": "phoning"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "My phone is out of battery.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on phone, battery",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link as ou-of",
+   "vocabulary": [
+    {
+     "word": "battery",
+     "meaning": "the power source of a phone"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "response",
+   "sentence": "I'll call you back in five minutes.",
+   "natural_form": "I'll call you back in five minutes.",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on I'll, call, back",
+   "intonation_focus": "falling intonation to signal a complete answer",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "call back",
+     "meaning": "to return a phone call"
+    }
+   ],
+   "grammar_focus": "future with will",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Please hold for a moment.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on Please, hold, moment",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "hold",
+     "meaning": "to wait on the phone"
+    }
+   ],
+   "grammar_focus": "imperative",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Bank Cards",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "I lost my debit card.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the American /r/ sound",
+   "stress_focus": "stress on lost, debit, card",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "debit card",
+     "meaning": "a card that takes money from your bank"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "banking",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Payment Methods",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Do you take credit cards here?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the American /r/ sound",
+   "stress_focus": "stress on take, credit, cards",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "credit card",
+     "meaning": "a card used to borrow money for payments"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Payment Methods",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "I paid in cash.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on paid, cash",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "cash",
+     "meaning": "paper money and coins"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Making Change",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "request",
+   "sentence": "Can you break a twenty?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on break, twenty",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "break a bill",
+     "meaning": "to exchange a large bill for smaller ones"
+    }
+   ],
+   "grammar_focus": "modal request",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Making Change",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "response",
+   "sentence": "Sorry, I don't have any change.",
+   "natural_form": "Sorry, I don't have any change.",
+   "accent": "american",
+   "pronunciation_focus": "the reduced \"t\" in contractions",
+   "stress_focus": "stress on Sorry, don't, have",
+   "intonation_focus": "falling intonation to signal a complete answer",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "change",
+     "meaning": "coins or small bills"
+    }
+   ],
+   "grammar_focus": "negative statement",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Saving Money",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I want to save some money.",
+   "natural_form": "I wanna save some money.",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on want, save, some",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link as wanna",
+   "vocabulary": [
+    {
+     "word": "save",
+     "meaning": "to keep money instead of spending it"
+    }
+   ],
+   "grammar_focus": "want to + verb",
+   "tags": [
+    "banking",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "How can I help you today?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on help, today",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "help",
+     "meaning": "assistance"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Bank Balance",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "I'd like to check my balance.",
+   "natural_form": "I'd like to check my balance.",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on like, check, balance",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "balance",
+     "meaning": "the amount of money in an account"
+    }
+   ],
+   "grammar_focus": "polite request",
+   "tags": [
+    "banking",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "Your call is important to us.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on Your, call, important",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "important",
+     "meaning": "having great value"
+    }
+   ],
+   "grammar_focus": "passive-like phrase",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Bills",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I need to pay my phone bill.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on need, phone, bill",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "phone bill",
+     "meaning": "the monthly cost for phone service"
+    }
+   ],
+   "grammar_focus": "need to + verb",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Prices",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "That's a really good price.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on That's, really, good",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "price",
+     "meaning": "the cost of something"
+    }
+   ],
+   "grammar_focus": "adjective + noun",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Can I speak to the manager?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on speak, manager",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "manager",
+     "meaning": "the person in charge"
+    }
+   ],
+   "grammar_focus": "modal request",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "response",
+   "sentence": "Sure, one moment please.",
+   "natural_form": "Sure, one sec.",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on Sure, moment, please",
+   "intonation_focus": "falling intonation to signal a complete answer",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "moment",
+     "meaning": "a short period of time"
+    }
+   ],
+   "grammar_focus": "short response",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I think I dialed the wrong number.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on think, dialed, wrong",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "dial",
+     "meaning": "to enter a phone number"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "phone",
+    "everyday",
+    "beginner"
+   ]
+  },
+  {
+   "subcategory": "Deposits",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "I'd like to deposit this check into my savings account.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on like, deposit, this",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "deposit",
+     "meaning": "to put money into an account"
+    },
+    {
+     "word": "check",
+     "meaning": "a paper order to pay money"
+    }
+   ],
+   "grammar_focus": "would like to + verb",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Bank Balance",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Could you tell me my current account balance?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on Could, tell, current",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "current",
+     "meaning": "right now, present"
+    }
+   ],
+   "grammar_focus": "modal politeness",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Transfers",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I'm trying to transfer money to my friend.",
+   "natural_form": "I'm tryin' to transfer money to my friend.",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on trying, transfer, money",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "transfer",
+     "meaning": "to move money from one place to another"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "Do you know if this bank charges a monthly fee?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on know, this, bank",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "fee",
+     "meaning": "a charge for a service"
+    }
+   ],
+   "grammar_focus": "embedded question",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, could you repeat that? I didn't catch your number.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Sorry, could, repeat",
+   "intonation_focus": "rising intonation to check understanding",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "catch",
+     "meaning": "to hear or understand"
+    }
+   ],
+   "grammar_focus": "polite clarification",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I've been on hold for almost twenty minutes.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on I've, been, hold",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "on hold",
+     "meaning": "waiting on the phone"
+    }
+   ],
+   "grammar_focus": "present perfect continuous",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Would it be possible to speak with someone in billing?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on Would, possible, speak",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "billing",
+     "meaning": "the department handling payments"
+    }
+   ],
+   "grammar_focus": "polite request with modal",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Bank Statements",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "I think there's a mistake on my last statement.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on think, there's, mistake",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "statement",
+     "meaning": "a document listing account activity"
+    }
+   ],
+   "grammar_focus": "there is + noun",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Online Banking",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "Can you walk me through how to set up online banking?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on walk, through, online",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "walk through",
+     "meaning": "to explain step by step"
+    }
+   ],
+   "grammar_focus": "phrasal verb request",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Budgeting",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I'm not sure I can afford that this month.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Honestly, sure, afford",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "afford",
+     "meaning": "to have enough money for something"
+    }
+   ],
+   "grammar_focus": "modal of ability",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "response",
+   "sentence": "I'll text you as soon as I land.",
+   "natural_form": "I'll text you as soon as I land.",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on I'll, text, soon",
+   "intonation_focus": "falling intonation to signal a complete answer",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "text",
+     "meaning": "to send a written message by phone"
+    }
+   ],
+   "grammar_focus": "future time clause",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Phone Problems",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "My call keeps dropping every few minutes.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on call, keeps, dropping",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "drop a call",
+     "meaning": "when a phone call disconnects"
+    }
+   ],
+   "grammar_focus": "present simple habitual",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Bank Cards",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "request",
+   "sentence": "I need to report a lost credit card right away.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the American /r/ sound",
+   "stress_focus": "stress on need, report, lost",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "report",
+     "meaning": "to formally tell someone about something"
+    }
+   ],
+   "grammar_focus": "need to + verb",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Currency Exchange",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "What's the exchange rate today for US dollars?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on What's, exchange, rate",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "exchange rate",
+     "meaning": "the value of one currency compared to another"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Loans",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "workplace",
+   "sentence": "I'm calling to follow up on my loan application.",
+   "natural_form": "I'm callin' to follow up on my loan application.",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on calling, follow, loan",
+   "intonation_focus": "neutral, professional falling intonation",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "follow up",
+     "meaning": "to check on the progress of something"
+    }
+   ],
+   "grammar_focus": "present continuous for purpose",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Bills",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "clarification",
+   "sentence": "Actually, I think I already paid that bill last week.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Actually, think, already",
+   "intonation_focus": "rising intonation to check understanding",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "already",
+     "meaning": "before now"
+    }
+   ],
+   "grammar_focus": "present perfect",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Direct Deposit",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "request",
+   "sentence": "Can you set up a direct deposit for my paycheck?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on direct, deposit, paycheck",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "direct deposit",
+     "meaning": "automatic payment into a bank account"
+    }
+   ],
+   "grammar_focus": "modal request",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Bank Cards",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "workplace",
+   "sentence": "I'm afraid your card has been declined.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the American /r/ sound",
+   "stress_focus": "stress on afraid, your, card",
+   "intonation_focus": "neutral, professional falling intonation",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "declined",
+     "meaning": "refused or rejected"
+    }
+   ],
+   "grammar_focus": "passive voice",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Phone Plans",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "agreement",
+   "sentence": "That sounds reasonable, let's go with that plan.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on That, sounds, reasonable",
+   "intonation_focus": "falling intonation to show confidence",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "reasonable",
+     "meaning": "fair and sensible"
+    }
+   ],
+   "grammar_focus": "agreement expression",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Phone Plans",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "disagreement",
+   "sentence": "I'm not convinced this phone plan is worth the price.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on convinced, this, phone",
+   "intonation_focus": "falling-rising intonation to soften disagreement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "convinced",
+     "meaning": "certain or persuaded"
+    }
+   ],
+   "grammar_focus": "negative present",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "request",
+   "sentence": "Could you hang on while I grab my card details?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the American /r/ sound",
+   "stress_focus": "stress on Could, hang, while",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "hang on",
+     "meaning": "to wait"
+    }
+   ],
+   "grammar_focus": "phrasal verb imperative",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Bank Accounts",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "storytelling",
+   "sentence": "I opened a joint account with my sister last year.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on opened, joint, account",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "joint account",
+     "meaning": "a bank account shared by two people"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "workplace",
+   "sentence": "Let me put you through to the right department.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on through, right, department",
+   "intonation_focus": "neutral, professional falling intonation",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "put through",
+     "meaning": "to connect a phone call"
+    }
+   ],
+   "grammar_focus": "phrasal verb",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Online Banking",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I usually check my balance on my phone app.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on usually, check, balance",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "app",
+     "meaning": "a phone application"
+    }
+   ],
+   "grammar_focus": "adverb of frequency",
+   "tags": [
+    "banking",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "clarification",
+   "sentence": "Sorry for the confusion, let me clarify what I meant.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Sorry, confusion, clarify",
+   "intonation_focus": "rising intonation to check understanding",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "clarify",
+     "meaning": "to make something clearer"
+    }
+   ],
+   "grammar_focus": "imperative with purpose",
+   "tags": [
+    "phone",
+    "everyday",
+    "elementary"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "I've been meaning to switch banks because the fees keep piling up.",
+   "natural_form": "I've been meanin' to switch banks 'cause the fees keep pilin' up.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on I've, been, meaning",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "pile up",
+     "meaning": "to accumulate"
+    }
+   ],
+   "grammar_focus": "present perfect continuous",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "clarification",
+   "sentence": "Could you break this down for me? I don't get why I was charged twice.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Could, break, this",
+   "intonation_focus": "rising intonation to check understanding",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "break down",
+     "meaning": "to explain in detail"
+    }
+   ],
+   "grammar_focus": "phrasal verb request",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "response",
+   "sentence": "I'll have to call the bank back once I dig up my account number.",
+   "natural_form": "I'll hafta call the bank back once I dig up my account number.",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on I'll, have, call",
+   "intonation_focus": "falling intonation to signal a complete answer",
+   "connected_speech_focus": "link as hafta",
+   "vocabulary": [
+    {
+     "word": "dig up",
+     "meaning": "to find after searching"
+    }
+   ],
+   "grammar_focus": "future with modal necessity",
+   "tags": [
+    "phone",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Phone Basics",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "request",
+   "sentence": "Hang on, I'm putting you on speaker so my husband can hear too.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on Hang, putting, speaker",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "on speaker",
+     "meaning": "using the loudspeaker function"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "phone",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Transfers",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "question",
+   "sentence": "If I transfer the funds today, will they clear by tomorrow?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on transfer, funds, today",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "clear",
+     "meaning": "to be fully processed"
+    }
+   ],
+   "grammar_focus": "first conditional",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Overdrafts",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "storytelling",
+   "sentence": "I ended up overdrawing my account because I forgot to check the balance.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on ended, overdrawing, account",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "overdraw",
+     "meaning": "to spend more than what's in your account"
+    }
+   ],
+   "grammar_focus": "past continuous cause-effect",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "request",
+   "sentence": "Would you mind holding for just a second while I pull up your file?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on Would, mind, holding",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "pull up",
+     "meaning": "to bring up on screen"
+    }
+   ],
+   "grammar_focus": "would you mind + gerund",
+   "tags": [
+    "phone",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "disagreement",
+   "sentence": "I get that the fee is standard, but it still feels a bit steep.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on that, standard, still",
+   "intonation_focus": "falling-rising intonation to soften disagreement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "steep",
+     "meaning": "unreasonably high"
+    }
+   ],
+   "grammar_focus": "concession clause",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Transfers",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "agreement",
+   "sentence": "You're on the right track, just double-check the routing number.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on You're, right, track",
+   "intonation_focus": "falling intonation to show confidence",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "routing number",
+     "meaning": "a code identifying a bank"
+    }
+   ],
+   "grammar_focus": "imperative with agreement",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Phone Problems",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "I keep getting these robocalls about my car's extended warranty.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on keep, getting, these",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "robocall",
+     "meaning": "an automated phone call"
+    }
+   ],
+   "grammar_focus": "present continuous habitual complaint",
+   "tags": [
+    "phone",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Bills",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "Once I set up autopay, I never have to worry about late fees again.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear vowel sounds and word-final consonants",
+   "stress_focus": "stress on Once, autopay, never",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link as hafta",
+   "vocabulary": [
+    {
+     "word": "autopay",
+     "meaning": "automatic bill payment"
+    }
+   ],
+   "grammar_focus": "zero conditional",
+   "tags": [
+    "phone",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Bank Statements",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "workplace",
+   "sentence": "I'm calling about a charge I don't recognize on my statement.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on calling, about, charge",
+   "intonation_focus": "neutral, professional falling intonation",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "recognize",
+     "meaning": "to identify as familiar"
+    }
+   ],
+   "grammar_focus": "present continuous for purpose",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "request",
+   "sentence": "Would it be too much trouble to waive this late fee just this once?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Would, much, trouble",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "waive",
+     "meaning": "to officially cancel a requirement"
+    }
+   ],
+   "grammar_focus": "polite negotiation",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Phone Plans",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "Frankly, I think this phone carrier has gone downhill lately.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Frankly, think, this",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "go downhill",
+     "meaning": "to get worse"
+    }
+   ],
+   "grammar_focus": "present perfect for recent change",
+   "tags": [
+    "phone",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Fraud",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "request",
+   "sentence": "Could you patch me through to someone who handles fraud claims?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Could, patch, through",
+   "intonation_focus": "polite rising-falling intonation for a request",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "patch through",
+     "meaning": "to connect a call"
+    }
+   ],
+   "grammar_focus": "phrasal verb request",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Fraud",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "storytelling",
+   "sentence": "I noticed a suspicious charge, so I froze my card right away.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the American /r/ sound",
+   "stress_focus": "stress on noticed, suspicious, charge",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "freeze a card",
+     "meaning": "to temporarily disable a card"
+    }
+   ],
+   "grammar_focus": "sequence of past actions",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Transfers",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "So what you're saying is the transfer fee only applies internationally?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on what, you're, saying",
+   "intonation_focus": "rising intonation to check understanding",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "apply",
+     "meaning": "to be relevant in a situation"
+    }
+   ],
+   "grammar_focus": "reported clarification",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Interest Rates",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "disagreement",
+   "sentence": "I hear you, but I still think the interest rate's too high.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on hear, still, think",
+   "intonation_focus": "falling-rising intonation to soften disagreement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "interest rate",
+     "meaning": "the cost of borrowing money"
+    }
+   ],
+   "grammar_focus": "concessive disagreement",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Loans",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "workplace",
+   "sentence": "Let's touch base once you've spoken with the loan officer.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Let's, touch, base",
+   "intonation_focus": "neutral, professional falling intonation",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "touch base",
+     "meaning": "to make brief contact"
+    }
+   ],
+   "grammar_focus": "imperative with time clause",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Phone Plans",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I ran out of data halfway through the month again.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on data, halfway, through",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link as ou-of",
+   "vocabulary": [
+    {
+     "word": "run out of",
+     "meaning": "to have no more of something"
+    }
+   ],
+   "grammar_focus": "phrasal verb past",
+   "tags": [
+    "phone",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Bank Hours",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "question",
+   "sentence": "Do you happen to know if this branch is open on Saturdays?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on happen, know, this",
+   "intonation_focus": "rising intonation at the end for a yes/no question",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "branch",
+     "meaning": "a local office of a bank"
+    }
+   ],
+   "grammar_focus": "embedded polite question",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Bank Accounts",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "storytelling",
+   "sentence": "I switched to a no-fee checking account and it's saved me a ton.",
+   "natural_form": "I switched to a no-fee checking account and it's saved me a ton.",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on switched, no-fee, checking",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "checking account",
+     "meaning": "an account for everyday transactions"
+    }
+   ],
+   "grammar_focus": "present perfect result",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Refunds",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "Just so we're clear, the refund will hit my account in three days?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Just, we're, clear",
+   "intonation_focus": "rising intonation to check understanding",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "hit",
+     "meaning": "to arrive or reach"
+    }
+   ],
+   "grammar_focus": "tag-style confirmation",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "reaction",
+   "sentence": "I get so frustrated when I'm bounced between departments on the phone.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on frustrated, when, bounced",
+   "intonation_focus": "sharp rise in pitch to show surprise or emotion",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "bounced between",
+     "meaning": "transferred repeatedly"
+    }
+   ],
+   "grammar_focus": "present simple emotion",
+   "tags": [
+    "phone",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Mortgages",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "It's worth shopping around before you commit to a mortgage rate.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on It's, worth, shopping",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "shop around",
+     "meaning": "to compare different options"
+    }
+   ],
+   "grammar_focus": "phrasal verb advice",
+   "tags": [
+    "banking",
+    "everyday",
+    "intermediate"
+   ]
+  },
+  {
+   "subcategory": "Transfers",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "If I'd known the wire transfer would take five business days, I would've just paid by card instead.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on known, wire, transfer",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "wire transfer",
+     "meaning": "an electronic money transfer between banks"
+    }
+   ],
+   "grammar_focus": "third conditional",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "reaction",
+   "sentence": "What really gets under my skin is being put on hold only to get disconnected right when someone picks up.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on What, really, gets",
+   "intonation_focus": "sharp rise in pitch to show surprise or emotion",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "get under one's skin",
+     "meaning": "to irritate someone"
+    }
+   ],
+   "grammar_focus": "cleft sentence with complaint",
+   "tags": [
+    "phone",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "disagreement",
+   "sentence": "Look, I hear where you're coming from, but the fine print clearly states the fee is non-refundable.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Look, hear, where",
+   "intonation_focus": "falling-rising intonation to soften disagreement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "fine print",
+     "meaning": "the small, detailed text in a contract"
+    }
+   ],
+   "grammar_focus": "concession + counterargument",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Fraud",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "Had the bank flagged the transaction sooner, we could've avoided the whole overdraft mess.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on bank, flagged, transaction",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "flag a transaction",
+     "meaning": "to mark it as suspicious"
+    }
+   ],
+   "grammar_focus": "inverted third conditional",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "clarification",
+   "sentence": "I'm not trying to be difficult, but could someone explain why I'm being charged for a service I never signed up for?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on trying, difficult, could",
+   "intonation_focus": "rising intonation to check understanding",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "sign up for",
+     "meaning": "to agree to receive a service"
+    }
+   ],
+   "grammar_focus": "hedged request with reported question",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Bank Accounts",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "Between you and me, I think they're just trying to upsell you a premium account you don't actually need.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Between, think, they're",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "upsell",
+     "meaning": "to persuade someone to buy something more expensive"
+    }
+   ],
+   "grammar_focus": "idiomatic hedge with opinion",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Savings",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "statement",
+   "sentence": "By the time the check clears, I'll have already covered the rent with my emergency savings.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on time, check, clears",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "emergency savings",
+     "meaning": "money set aside for unexpected costs"
+    }
+   ],
+   "grammar_focus": "future perfect",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "I've been going back and forth with customer support for weeks, and honestly, nothing's gotten resolved.",
+   "natural_form": "I've been goin' back and forth with customer support for weeks, and honestly, nothin's gotten resolved.",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on I've, been, going",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "go back and forth",
+     "meaning": "to exchange messages repeatedly without progress"
+    }
+   ],
+   "grammar_focus": "present perfect continuous with result",
+   "tags": [
+    "phone",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "reaction",
+   "sentence": "Whoever's handling my case clearly hasn't bothered to read the notes I left last time.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Whoever's, handling, case",
+   "intonation_focus": "sharp rise in pitch to show surprise or emotion",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "bother to",
+     "meaning": "to make the effort to do something"
+    }
+   ],
+   "grammar_focus": "whoever-clause with negative present perfect",
+   "tags": [
+    "phone",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "Provided you keep a minimum balance, the bank will waive the monthly maintenance fee altogether.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Provided, keep, minimum",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "maintenance fee",
+     "meaning": "a regular charge for keeping an account open"
+    }
+   ],
+   "grammar_focus": "conditional with provided that",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Savings",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "I'd hold off on transferring the rest of your savings until the interest rates settle down a bit.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on hold, transferring, rest",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "hold off",
+     "meaning": "to delay an action"
+    }
+   ],
+   "grammar_focus": "advice with phrasal verb",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Phone Plans",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "The way I see it, switching carriers isn't worth the hassle unless you're saving more than fifty bucks a month.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on switching, carriers, isn't",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "hassle",
+     "meaning": "an annoying inconvenience"
+    }
+   ],
+   "grammar_focus": "conditional opinion with unless",
+   "tags": [
+    "phone",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "No matter how many times I explain the situation, they keep transferring me to a different rep.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on matter, many, times",
+   "intonation_focus": "sharp rise in pitch to show surprise or emotion",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "rep",
+     "meaning": "a representative"
+    }
+   ],
+   "grammar_focus": "no matter how + present habitual",
+   "tags": [
+    "phone",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "disagreement",
+   "sentence": "I hate to be that person, but I've called about this exact issue three times now with no resolution.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on hate, that, person",
+   "intonation_focus": "falling-rising intonation to soften disagreement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "resolution",
+     "meaning": "a solution to a problem"
+    }
+   ],
+   "grammar_focus": "hedge with present perfect complaint",
+   "tags": [
+    "phone",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Fraud",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "statement",
+   "sentence": "Once the fraud department verifies your identity, they'll release the hold on your account within the hour.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Once, fraud, department",
+   "intonation_focus": "falling intonation at the end of the statement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "release a hold",
+     "meaning": "to remove a restriction"
+    }
+   ],
+   "grammar_focus": "future time clause with passive elements",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Currency Exchange",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "Assuming the exchange rate stays roughly the same, converting now shouldn't cost you much more than waiting.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Assuming, exchange, rate",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "convert",
+     "meaning": "to exchange one currency for another"
+    }
+   ],
+   "grammar_focus": "assuming-clause conditional",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "disagreement",
+   "sentence": "It just doesn't sit right with me that they can change the terms without giving customers a heads-up.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on just, doesn't, right",
+   "intonation_focus": "falling-rising intonation to soften disagreement",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "heads-up",
+     "meaning": "advance warning"
+    }
+   ],
+   "grammar_focus": "idiomatic negative opinion",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Bills",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "I could've sworn I set up autopay for that bill, but apparently it never went through.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on could've, sworn, autopay",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "go through",
+     "meaning": "to be successfully processed"
+    }
+   ],
+   "grammar_focus": "modal perfect with contrast",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Fraud",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "Given how often my card's been compromised lately, I'm seriously considering switching to a bank with better fraud protection.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on Given, often, card's",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "compromised",
+     "meaning": "made vulnerable or unsafe"
+    }
+   ],
+   "grammar_focus": "given-clause with present perfect",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Interest Rates",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "clarification",
+   "sentence": "Not to nitpick, but the representative on the phone quoted me a completely different rate than what's on your website.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on nitpick, representative, phone",
+   "intonation_focus": "rising intonation to check understanding",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "nitpick",
+     "meaning": "to criticize small details"
+    }
+   ],
+   "grammar_focus": "hedge with contrastive comparison",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "As far as I'm concerned, a bank that can't answer a simple billing question doesn't deserve my business.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on concerned, bank, that",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "as far as I'm concerned",
+     "meaning": "in my opinion"
+    }
+   ],
+   "grammar_focus": "idiomatic opinion phrase",
+   "tags": [
+    "phone",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Refunds",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "They ended up refunding the fee, but only after I threatened to close my account altogether.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on They, ended, refunding",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "end up",
+     "meaning": "to eventually reach a result"
+    }
+   ],
+   "grammar_focus": "past narrative with contrast",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Bank Fees",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "Even after I explained the mix-up twice, the agent still insisted the charge was legitimate.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on Even, after, explained",
+   "intonation_focus": "varied intonation to keep the story engaging",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "legitimate",
+     "meaning": "valid or lawful"
+    }
+   ],
+   "grammar_focus": "even after-clause past narrative",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Customer Service",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "I'd rather deal with a chatbot than sit through another twenty-minute hold with elevator music.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ or /\u00f0/ sound in \"th\" words",
+   "stress_focus": "stress on rather, deal, with",
+   "intonation_focus": "falling intonation with slight emphasis on the opinion word",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "hold music",
+     "meaning": "music played while a caller waits"
+    }
+   ],
+   "grammar_focus": "would rather comparison",
+   "tags": [
+    "phone",
+    "everyday",
+    "advanced"
+   ]
+  },
+  {
+   "subcategory": "Bank Accounts",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "reaction",
+   "sentence": "What I can't wrap my head around is why setting up a joint account requires so much extra paperwork.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the -ing ending, avoid dropping the /g/",
+   "stress_focus": "stress on What, can't, wrap",
+   "intonation_focus": "sharp rise in pitch to show surprise or emotion",
+   "connected_speech_focus": "link the final consonant of one word to the vowel of the next",
+   "vocabulary": [
+    {
+     "word": "wrap one's head around",
+     "meaning": "to fully understand something"
+    }
+   ],
+   "grammar_focus": "cleft sentence with gerund clause",
+   "tags": [
+    "banking",
+    "everyday",
+    "advanced"
+   ]
+  }
+ ]
+}

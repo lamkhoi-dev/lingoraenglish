@@ -1,0 +1,41 @@
+{
+  "topic_slug": "transport-directions",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Asking for directions",
+      "turns": [
+        { "speaker_label": "Tourist", "speaker_voice": "shimmer", "sentence": "Excuse me, how do I get to the train station?", "is_free": true },
+        { "speaker_label": "Local", "speaker_voice": "alloy", "sentence": "Go straight, then turn left at the light.", "is_free": true },
+        { "speaker_label": "Tourist", "speaker_voice": "shimmer", "sentence": "Is it far from here?", "is_free": true },
+        { "speaker_label": "Local", "speaker_voice": "alloy", "sentence": "No, it's about a ten-minute walk.", "is_free": true },
+        { "speaker_label": "Tourist", "speaker_voice": "shimmer", "sentence": "Great, thank you so much.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Buying a ticket",
+      "turns": [
+        { "speaker_label": "Passenger", "speaker_voice": "coral", "sentence": "Could I get a return ticket to downtown, please?", "is_free": false },
+        { "speaker_label": "Clerk", "speaker_voice": "sage", "sentence": "Sure — are you looking to travel today, or is this for a later date?", "is_free": false },
+        { "speaker_label": "Passenger", "speaker_voice": "coral", "sentence": "Today, and I'd like to come back sometime this evening.", "is_free": false },
+        { "speaker_label": "Clerk", "speaker_voice": "sage", "sentence": "In that case the off-peak return would actually save you a couple of dollars.", "is_free": false },
+        { "speaker_label": "Passenger", "speaker_voice": "coral", "sentence": "That works for me, I'll take that one.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Missed connection",
+      "turns": [
+        { "speaker_label": "Passenger", "speaker_voice": "shimmer", "sentence": "I just missed my connecting bus because the first one ran nearly fifteen minutes behind schedule.", "is_free": false },
+        { "speaker_label": "Staff", "speaker_voice": "nova", "sentence": "I'm sorry to hear that — unfortunately delays like that aren't uncommon during rush hour on this route.", "is_free": false },
+        { "speaker_label": "Passenger", "speaker_voice": "shimmer", "sentence": "Is there any way to get some kind of credit toward the next fare, given the circumstances?", "is_free": false },
+        { "speaker_label": "Staff", "speaker_voice": "nova", "sentence": "I can issue you a same-day transfer voucher — that should cover the next leg of your journey at no extra cost.", "is_free": false },
+        { "speaker_label": "Passenger", "speaker_voice": "shimmer", "sentence": "That's fair enough, I appreciate you sorting it out.", "is_free": false }
+      ]
+    }
+  ]
+}

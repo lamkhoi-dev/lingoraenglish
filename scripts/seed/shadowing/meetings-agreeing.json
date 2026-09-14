@@ -1,0 +1,2409 @@
+{
+  "slug": "meetings-agreeing",
+  "name": "Meetings: Agreeing, Disagreeing & Decisions",
+  "topic_group": "Work & Professional English",
+  "blurb": "Practice natural spoken English for stating opinions, agreeing, disagreeing politely, and reaching decisions in meetings.",
+  "sort_order": 32,
+  "sentences": [
+    {
+      "subcategory": "Starting a meeting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's get started, everyone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear /l/ in 'let's'",
+      "stress_focus": "STARTED stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "let's + get linked",
+      "vocabulary": [
+        {
+          "word": "get started",
+          "meaning": "begin"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "start",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Thanks for joining today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'for' to /fər/",
+      "stress_focus": "THANKS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "for joining linked",
+      "vocabulary": [
+        {
+          "word": "joining",
+          "meaning": "attending"
+        }
+      ],
+      "grammar_focus": "present participle",
+      "tags": [
+        "start",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We have three items today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "THREE clearly enunciated",
+      "stress_focus": "ITEMS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "have three linked",
+      "vocabulary": [
+        {
+          "word": "items",
+          "meaning": "points on a list"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "agenda",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's keep this short.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "short vowel in 'this'",
+      "stress_focus": "SHORT stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "keep this linked",
+      "vocabulary": [
+        {
+          "word": "keep short",
+          "meaning": "be brief"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "time",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "I think that's a good idea.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "THINK with clear /th/",
+      "stress_focus": "GOOD IDEA stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "that's a linked",
+      "vocabulary": [
+        {
+          "word": "idea",
+          "meaning": "a plan or thought"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "opinion",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "In my view, it works.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "VIEW clear vowel",
+      "stress_focus": "VIEW stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "in my linked",
+      "vocabulary": [
+        {
+          "word": "view",
+          "meaning": "opinion"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "opinion",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I agree with you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "AGREE stressed on second syllable",
+      "stress_focus": "AGREE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "with you linked",
+      "vocabulary": [
+        {
+          "word": "agree",
+          "meaning": "have the same opinion"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "agree",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "That sounds good to me.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SOUNDS clear /s/",
+      "stress_focus": "GOOD stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "sounds good linked",
+      "vocabulary": [
+        {
+          "word": "sounds good",
+          "meaning": "seems fine"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "agree",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Yes, that makes sense.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "YES falling tone",
+      "stress_focus": "SENSE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "makes sense linked",
+      "vocabulary": [
+        {
+          "word": "makes sense",
+          "meaning": "is logical"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "agree",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "I see it differently.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "DIFFERENTLY clear stress",
+      "stress_focus": "DIFFERENTLY stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "see it linked",
+      "vocabulary": [
+        {
+          "word": "differently",
+          "meaning": "in another way"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "disagree",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "I'm not so sure.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "NOT SO SURE rhythm",
+      "stress_focus": "SURE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "not so linked",
+      "vocabulary": [
+        {
+          "word": "not so sure",
+          "meaning": "doubtful"
+        }
+      ],
+      "grammar_focus": "contraction",
+      "tags": [
+        "disagree",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Could you explain that?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising then falling",
+      "stress_focus": "EXPLAIN stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "could you linked",
+      "vocabulary": [
+        {
+          "word": "explain",
+          "meaning": "make clear"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "clarify",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What do you mean?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "MEAN clear vowel",
+      "stress_focus": "MEAN stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "do you linked",
+      "vocabulary": [
+        {
+          "word": "mean",
+          "meaning": "intend to say"
+        }
+      ],
+      "grammar_focus": "question form",
+      "tags": [
+        "clarify",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Sorry, can you repeat that?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SORRY falling",
+      "stress_focus": "REPEAT stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "can you linked",
+      "vocabulary": [
+        {
+          "word": "repeat",
+          "meaning": "say again"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "clarify",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's go with option two.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "OPTION clear /sh/",
+      "stress_focus": "TWO stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "go with linked",
+      "vocabulary": [
+        {
+          "word": "option",
+          "meaning": "choice"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "decide",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We'll decide by Friday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "WE'LL contraction clear",
+      "stress_focus": "FRIDAY stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "decide by linked",
+      "vocabulary": [
+        {
+          "word": "decide",
+          "meaning": "make a choice"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "decide",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I'll send the notes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SEND clear /s/",
+      "stress_focus": "NOTES stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'll send linked",
+      "vocabulary": [
+        {
+          "word": "notes",
+          "meaning": "written summary"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "action",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Please follow up soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "PLEASE polite tone",
+      "stress_focus": "FOLLOW UP stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "follow up linked",
+      "vocabulary": [
+        {
+          "word": "follow up",
+          "meaning": "check progress later"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "action",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's begin the meeting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "BEGIN stressed on second syllable",
+      "stress_focus": "MEETING stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "begin the linked",
+      "vocabulary": [
+        {
+          "word": "begin",
+          "meaning": "start"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "start",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We're running out of time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "RUNNING clear /r/",
+      "stress_focus": "TIME stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "running out linked",
+      "vocabulary": [
+        {
+          "word": "running out",
+          "meaning": "almost finished"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "time",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I like it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "HONESTLY clear stress",
+      "stress_focus": "LIKE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "like it linked",
+      "vocabulary": [
+        {
+          "word": "honestly",
+          "meaning": "speaking truthfully"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "opinion",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Absolutely, let's do that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "ABSOLUTELY strong stress",
+      "stress_focus": "ABSOLUTELY stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "let's do linked",
+      "vocabulary": [
+        {
+          "word": "absolutely",
+          "meaning": "definitely"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "agree",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "That's a fair point, though.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "FAIR clear vowel",
+      "stress_focus": "POINT stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "fair point linked",
+      "vocabulary": [
+        {
+          "word": "fair point",
+          "meaning": "valid argument"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "disagree",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let's vote on it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "VOTE clear /v/",
+      "stress_focus": "VOTE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "vote on linked",
+      "vocabulary": [
+        {
+          "word": "vote",
+          "meaning": "decide by choice"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "decide",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "John will handle that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "HANDLE clear stress",
+      "stress_focus": "JOHN stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "will handle linked",
+      "vocabulary": [
+        {
+          "word": "handle",
+          "meaning": "take care of"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "action",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Thanks everyone for making time to meet today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "THANKS clear stress",
+      "stress_focus": "MAKING TIME stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "thanks for linked",
+      "vocabulary": [
+        {
+          "word": "make time",
+          "meaning": "set aside time"
+        }
+      ],
+      "grammar_focus": "gerund phrase",
+      "tags": [
+        "start",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let's quickly go over today's agenda first.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "QUICKLY clear /kw/",
+      "stress_focus": "AGENDA stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "go over linked",
+      "vocabulary": [
+        {
+          "word": "agenda",
+          "meaning": "list of meeting topics"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "start",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We only have thirty minutes, so let's be quick.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "THIRTY clear /th/",
+      "stress_focus": "QUICK stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "so let's linked",
+      "vocabulary": [
+        {
+          "word": "thirty minutes",
+          "meaning": "a short period"
+        }
+      ],
+      "grammar_focus": "compound sentence",
+      "tags": [
+        "agenda",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can we move on to the next point?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "MOVE ON clear stress",
+      "stress_focus": "NEXT POINT stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "move on linked",
+      "vocabulary": [
+        {
+          "word": "move on",
+          "meaning": "proceed to next topic"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "agenda",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We'll come back to that item later.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "COME BACK clear stress",
+      "stress_focus": "LATER stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "come back linked",
+      "vocabulary": [
+        {
+          "word": "come back to",
+          "meaning": "return to a topic"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "agenda",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "Personally, I think we should try the new approach.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "PERSONALLY clear stress",
+      "stress_focus": "NEW APPROACH stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "think we linked",
+      "vocabulary": [
+        {
+          "word": "approach",
+          "meaning": "method or way of doing"
+        }
+      ],
+      "grammar_focus": "modal 'should'",
+      "tags": [
+        "opinion",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "From my perspective, the budget looks a bit tight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "PERSPECTIVE clear stress",
+      "stress_focus": "TIGHT stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "looks a linked",
+      "vocabulary": [
+        {
+          "word": "tight budget",
+          "meaning": "limited money available"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "opinion",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I'd like to add something to that point.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "I'D contraction clear",
+      "stress_focus": "ADD stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "like to linked",
+      "vocabulary": [
+        {
+          "word": "add",
+          "meaning": "contribute an idea"
+        }
+      ],
+      "grammar_focus": "conditional 'would'",
+      "tags": [
+        "opinion",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "You're right, that makes a lot of sense.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "RIGHT clear stress",
+      "stress_focus": "LOT stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "makes a linked",
+      "vocabulary": [
+        {
+          "word": "makes sense",
+          "meaning": "is logical"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "agree",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I couldn't agree more with that suggestion.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "COULDN'T contraction clear",
+      "stress_focus": "MORE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "agree more linked",
+      "vocabulary": [
+        {
+          "word": "suggestion",
+          "meaning": "an idea proposed"
+        }
+      ],
+      "grammar_focus": "negative + comparative",
+      "tags": [
+        "agree",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "That's exactly what I was thinking too.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "EXACTLY clear stress",
+      "stress_focus": "THINKING stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "was thinking linked",
+      "vocabulary": [
+        {
+          "word": "exactly",
+          "meaning": "precisely"
+        }
+      ],
+      "grammar_focus": "past continuous",
+      "tags": [
+        "agree",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I understand your point, but I disagree slightly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "UNDERSTAND clear stress",
+      "stress_focus": "DISAGREE stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "but I linked",
+      "vocabulary": [
+        {
+          "word": "disagree",
+          "meaning": "have a different opinion"
+        }
+      ],
+      "grammar_focus": "contrastive clause",
+      "tags": [
+        "disagree",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "That's a fair point, but I see it differently.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "FAIR clear stress",
+      "stress_focus": "DIFFERENTLY stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "but I linked",
+      "vocabulary": [
+        {
+          "word": "fair point",
+          "meaning": "valid argument"
+        }
+      ],
+      "grammar_focus": "contrastive clause",
+      "tags": [
+        "disagree",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I'm afraid I have to disagree on this one.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "AFRAID clear stress",
+      "stress_focus": "DISAGREE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "have to linked",
+      "vocabulary": [
+        {
+          "word": "afraid",
+          "meaning": "used to soften disagreement"
+        }
+      ],
+      "grammar_focus": "modal 'have to'",
+      "tags": [
+        "disagree",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Could you clarify what you mean by that?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "CLARIFY clear stress",
+      "stress_focus": "MEAN stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "could you linked",
+      "vocabulary": [
+        {
+          "word": "clarify",
+          "meaning": "explain more clearly"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "clarify",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Sorry, could you walk us through that again?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "WALK US clear stress",
+      "stress_focus": "AGAIN stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "walk us linked",
+      "vocabulary": [
+        {
+          "word": "walk through",
+          "meaning": "explain step by step"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "clarify",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Just to confirm, are we launching next month?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "CONFIRM clear stress",
+      "stress_focus": "LAUNCHING stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "are we linked",
+      "vocabulary": [
+        {
+          "word": "confirm",
+          "meaning": "make certain"
+        }
+      ],
+      "grammar_focus": "present continuous question",
+      "tags": [
+        "clarify",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "So, let's go ahead with the second proposal.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "AHEAD clear stress",
+      "stress_focus": "SECOND stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "go ahead linked",
+      "vocabulary": [
+        {
+          "word": "proposal",
+          "meaning": "a suggested plan"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "decide",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "It sounds like we've reached an agreement.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SOUNDS LIKE clear stress",
+      "stress_focus": "AGREEMENT stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "we've reached linked",
+      "vocabulary": [
+        {
+          "word": "agreement",
+          "meaning": "a decision everyone accepts"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "decide",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let's put it to a vote right now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "VOTE clear stress",
+      "stress_focus": "NOW stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "put it linked",
+      "vocabulary": [
+        {
+          "word": "put to a vote",
+          "meaning": "decide by voting"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "decide",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I'll take care of the client email today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "TAKE CARE clear stress",
+      "stress_focus": "TODAY stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "take care linked",
+      "vocabulary": [
+        {
+          "word": "take care of",
+          "meaning": "handle a task"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "action",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Could you send the report by Wednesday?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "REPORT clear stress",
+      "stress_focus": "WEDNESDAY stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "could you linked",
+      "vocabulary": [
+        {
+          "word": "report",
+          "meaning": "a written summary"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "action",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let's assign owners to each action item.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "ASSIGN clear stress",
+      "stress_focus": "OWNERS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "assign owners linked",
+      "vocabulary": [
+        {
+          "word": "owner",
+          "meaning": "person responsible for a task"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "action",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We'll check in on progress next week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "CHECK IN clear stress",
+      "stress_focus": "PROGRESS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "check in linked",
+      "vocabulary": [
+        {
+          "word": "check in",
+          "meaning": "review progress"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "action",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Before we start, does everyone have the document?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "BEFORE clear stress",
+      "stress_focus": "DOCUMENT stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "does everyone linked",
+      "vocabulary": [
+        {
+          "word": "document",
+          "meaning": "a written file"
+        }
+      ],
+      "grammar_focus": "present simple question",
+      "tags": [
+        "start",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Before we dive in, let's make sure everyone's on the same page.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "DIVE IN clear stress",
+      "stress_focus": "SAME PAGE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "let's make linked",
+      "vocabulary": [
+        {
+          "word": "on the same page",
+          "meaning": "having a shared understanding"
+        }
+      ],
+      "grammar_focus": "imperative + idiom",
+      "tags": [
+        "start",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We've got a lot to cover, so let's stick to the schedule.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "GOT A LOT reduced",
+      "stress_focus": "SCHEDULE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "stick to linked",
+      "vocabulary": [
+        {
+          "word": "stick to",
+          "meaning": "follow without deviating"
+        }
+      ],
+      "grammar_focus": "compound sentence",
+      "tags": [
+        "agenda",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Can we table that discussion until the end of the meeting?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "TABLE clear stress",
+      "stress_focus": "END stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "table that linked",
+      "vocabulary": [
+        {
+          "word": "table (a discussion)",
+          "meaning": "postpone it"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "agenda",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "From what I've seen, the current process is slowing us down.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "FROM WHAT I'VE linked",
+      "stress_focus": "SLOWING stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "slowing us linked",
+      "vocabulary": [
+        {
+          "word": "process",
+          "meaning": "a series of steps"
+        }
+      ],
+      "grammar_focus": "present perfect + present continuous",
+      "tags": [
+        "opinion",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "My concern is that we're underestimating how long this will take.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "CONCERN clear stress",
+      "stress_focus": "UNDERESTIMATING stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "how long linked",
+      "vocabulary": [
+        {
+          "word": "underestimate",
+          "meaning": "guess too low"
+        }
+      ],
+      "grammar_focus": "noun clause",
+      "tags": [
+        "opinion",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "If you ask me, we should focus on the client's priorities first.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "IF YOU ASK linked",
+      "stress_focus": "PRIORITIES stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "should focus linked",
+      "vocabulary": [
+        {
+          "word": "priority",
+          "meaning": "something important"
+        }
+      ],
+      "grammar_focus": "conditional phrase",
+      "tags": [
+        "opinion",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I'm completely on board with the direction you've outlined.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "ON BOARD clear stress",
+      "stress_focus": "OUTLINED stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "you've outlined linked",
+      "vocabulary": [
+        {
+          "word": "on board",
+          "meaning": "in agreement, supportive"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "agree",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "That aligns with what several of us were already thinking.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "ALIGNS clear stress",
+      "stress_focus": "ALREADY stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "were already linked",
+      "vocabulary": [
+        {
+          "word": "align with",
+          "meaning": "match or agree with"
+        }
+      ],
+      "grammar_focus": "past continuous",
+      "tags": [
+        "agree",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "You've made a solid case, and I'm happy to support it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SOLID CASE clear stress",
+      "stress_focus": "SUPPORT stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "happy to linked",
+      "vocabulary": [
+        {
+          "word": "make a case",
+          "meaning": "present a convincing argument"
+        }
+      ],
+      "grammar_focus": "present perfect + coordination",
+      "tags": [
+        "agree",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "With respect, I think there's a risk we're overlooking here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "WITH RESPECT clear stress",
+      "stress_focus": "OVERLOOKING stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "there's a linked",
+      "vocabulary": [
+        {
+          "word": "overlook",
+          "meaning": "fail to notice"
+        }
+      ],
+      "grammar_focus": "existential 'there is'",
+      "tags": [
+        "disagree",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I hear what you're saying, but I'm not entirely convinced.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "HEAR clear stress",
+      "stress_focus": "CONVINCED stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "not entirely linked",
+      "vocabulary": [
+        {
+          "word": "convinced",
+          "meaning": "certain something is true"
+        }
+      ],
+      "grammar_focus": "contrastive clause",
+      "tags": [
+        "disagree",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I take your point, though I'd frame it a bit differently.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "TAKE YOUR POINT linked",
+      "stress_focus": "DIFFERENTLY stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "I'd frame linked",
+      "vocabulary": [
+        {
+          "word": "frame",
+          "meaning": "present or describe"
+        }
+      ],
+      "grammar_focus": "conditional 'would'",
+      "tags": [
+        "disagree",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Just so I understand correctly, are we pushing the deadline back?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "JUST SO clear stress",
+      "stress_focus": "DEADLINE stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "pushing the linked",
+      "vocabulary": [
+        {
+          "word": "push back",
+          "meaning": "delay"
+        }
+      ],
+      "grammar_focus": "present continuous question",
+      "tags": [
+        "clarify",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Sorry to interrupt, but could you clarify who owns this task?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "INTERRUPT clear stress",
+      "stress_focus": "OWNS stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "who owns linked",
+      "vocabulary": [
+        {
+          "word": "own (a task)",
+          "meaning": "be responsible for"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "clarify",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "When you say 'soon,' do you mean this week or next?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SOON emphasized",
+      "stress_focus": "WEEK stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "do you linked",
+      "vocabulary": [
+        {
+          "word": "soon",
+          "meaning": "in the near future"
+        }
+      ],
+      "grammar_focus": "reported speech fragment",
+      "tags": [
+        "clarify",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "So, to summarize, we'll go ahead with option two for now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SUMMARIZE clear stress",
+      "stress_focus": "OPTION TWO stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "go ahead linked",
+      "vocabulary": [
+        {
+          "word": "summarize",
+          "meaning": "give a brief overview"
+        }
+      ],
+      "grammar_focus": "future with will",
+      "tags": [
+        "decide",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Given the feedback, let's finalize the plan by end of day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "GIVEN clear stress",
+      "stress_focus": "FINALIZE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "end of linked",
+      "vocabulary": [
+        {
+          "word": "finalize",
+          "meaning": "make final and official"
+        }
+      ],
+      "grammar_focus": "imperative + prepositional phrase",
+      "tags": [
+        "decide",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "It seems we're all leaning toward the same solution here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "LEANING clear stress",
+      "stress_focus": "SOLUTION stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "leaning toward linked",
+      "vocabulary": [
+        {
+          "word": "lean toward",
+          "meaning": "tend to favor"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "decide",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Let's make sure the action items are documented before we wrap up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "DOCUMENTED clear stress",
+      "stress_focus": "WRAP UP stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "wrap up linked",
+      "vocabulary": [
+        {
+          "word": "wrap up",
+          "meaning": "finish or conclude"
+        }
+      ],
+      "grammar_focus": "passive voice",
+      "tags": [
+        "action",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could someone volunteer to draft the follow-up email after this?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "VOLUNTEER clear stress",
+      "stress_focus": "DRAFT stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "after this linked",
+      "vocabulary": [
+        {
+          "word": "draft",
+          "meaning": "write a preliminary version"
+        }
+      ],
+      "grammar_focus": "modal question",
+      "tags": [
+        "action",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We'll circle back on the budget once finance sends their numbers.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "CIRCLE BACK clear stress",
+      "stress_focus": "NUMBERS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "once finance linked",
+      "vocabulary": [
+        {
+          "word": "circle back",
+          "meaning": "return to a topic later"
+        }
+      ],
+      "grammar_focus": "future + time clause",
+      "tags": [
+        "action",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Let's kick things off by reviewing where we left off last time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "KICK THINGS OFF clear stress",
+      "stress_focus": "REVIEWING stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "left off linked",
+      "vocabulary": [
+        {
+          "word": "kick off",
+          "meaning": "start"
+        }
+      ],
+      "grammar_focus": "gerund phrase",
+      "tags": [
+        "start",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We're a bit behind schedule, so let's move through the rest quickly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "BEHIND SCHEDULE clear stress",
+      "stress_focus": "QUICKLY stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "move through linked",
+      "vocabulary": [
+        {
+          "word": "behind schedule",
+          "meaning": "later than planned"
+        }
+      ],
+      "grammar_focus": "compound sentence",
+      "tags": [
+        "agenda",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I'd argue that the risks outweigh the potential benefits here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "ARGUE clear stress",
+      "stress_focus": "OUTWEIGH stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "the risks linked",
+      "vocabulary": [
+        {
+          "word": "outweigh",
+          "meaning": "be greater than"
+        }
+      ],
+      "grammar_focus": "conditional 'would'",
+      "tags": [
+        "opinion",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I don't quite see it the same way, if I'm honest.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "QUITE clear stress",
+      "stress_focus": "HONEST stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "if I'm linked",
+      "vocabulary": [
+        {
+          "word": "see it the same way",
+          "meaning": "agree"
+        }
+      ],
+      "grammar_focus": "conditional clause",
+      "tags": [
+        "disagree",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Before we dive into the details, I want to make sure everyone's had a chance to review the pre-read.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "PRE-READ clear stress",
+      "stress_focus": "CHANCE TO REVIEW stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "had a linked",
+      "vocabulary": [
+        {
+          "word": "pre-read",
+          "meaning": "material sent before a meeting"
+        }
+      ],
+      "grammar_focus": "complex sentence with subordinate clause",
+      "tags": [
+        "start",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Given how much we still need to cover, I'd suggest we table the smaller items until next week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "GIVEN HOW MUCH linked",
+      "stress_focus": "SMALLER ITEMS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'd suggest linked",
+      "vocabulary": [
+        {
+          "word": "table (an item)",
+          "meaning": "postpone"
+        }
+      ],
+      "grammar_focus": "conditional suggestion",
+      "tags": [
+        "agenda",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "While I understand the appeal of moving fast, I worry that we're skipping steps that could cost us later.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "APPEAL clear stress",
+      "stress_focus": "SKIPPING STEPS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "could cost linked",
+      "vocabulary": [
+        {
+          "word": "skip steps",
+          "meaning": "omit necessary stages"
+        }
+      ],
+      "grammar_focus": "concessive clause with 'while'",
+      "tags": [
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "If we're being honest, the current numbers suggest this strategy isn't delivering the returns we expected.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "BEING HONEST clear stress",
+      "stress_focus": "RETURNS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "isn't delivering linked",
+      "vocabulary": [
+        {
+          "word": "returns",
+          "meaning": "financial gains"
+        }
+      ],
+      "grammar_focus": "conditional + relative clause",
+      "tags": [
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Now that you've laid it out that way, I completely agree we should prioritize the client feedback first.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "LAID IT OUT linked",
+      "stress_focus": "PRIORITIZE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "now that linked",
+      "vocabulary": [
+        {
+          "word": "prioritize",
+          "meaning": "treat as most important"
+        }
+      ],
+      "grammar_focus": "temporal clause with 'now that'",
+      "tags": [
+        "agree",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I was skeptical at first, but after hearing your reasoning, I'm fully convinced this is the right call.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SKEPTICAL clear stress",
+      "stress_focus": "CONVINCED stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "after hearing linked",
+      "vocabulary": [
+        {
+          "word": "skeptical",
+          "meaning": "doubtful"
+        }
+      ],
+      "grammar_focus": "contrastive clause with 'but'",
+      "tags": [
+        "agree",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I don't want to derail things, but I think we're underestimating how disruptive this change could be for the team.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "DERAIL clear stress",
+      "stress_focus": "DISRUPTIVE stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "could be linked",
+      "vocabulary": [
+        {
+          "word": "derail",
+          "meaning": "disrupt progress"
+        }
+      ],
+      "grammar_focus": "complex sentence with modal 'could'",
+      "tags": [
+        "disagree",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "With all due respect, I think the data tells a slightly different story than what's being presented.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "WITH ALL DUE RESPECT linked",
+      "stress_focus": "DIFFERENT STORY stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "what's being linked",
+      "vocabulary": [
+        {
+          "word": "present (data)",
+          "meaning": "show or display"
+        }
+      ],
+      "grammar_focus": "passive voice clause",
+      "tags": [
+        "disagree",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Just to make sure we're aligned, could you walk me through how this decision affects the other teams?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "ALIGNED clear stress",
+      "stress_focus": "AFFECTS stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "walk me linked",
+      "vocabulary": [
+        {
+          "word": "aligned",
+          "meaning": "in agreement"
+        }
+      ],
+      "grammar_focus": "indirect question",
+      "tags": [
+        "clarify",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Given everything we've discussed, it sounds like the consensus is to move forward with the revised proposal.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "CONSENSUS clear stress",
+      "stress_focus": "REVISED PROPOSAL stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "sounds like linked",
+      "vocabulary": [
+        {
+          "word": "consensus",
+          "meaning": "general agreement"
+        }
+      ],
+      "grammar_focus": "participial clause",
+      "tags": [
+        "decide",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Unless anyone objects, I think we should lock in this decision and start planning the next phase.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "OBJECTS clear stress",
+      "stress_focus": "LOCK IN stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "unless anyone linked",
+      "vocabulary": [
+        {
+          "word": "lock in",
+          "meaning": "finalize firmly"
+        }
+      ],
+      "grammar_focus": "conditional 'unless'",
+      "tags": [
+        "decide",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "So that we don't lose momentum, let's make sure every action item has an owner and a clear deadline.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "MOMENTUM clear stress",
+      "stress_focus": "OWNER stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "so that linked",
+      "vocabulary": [
+        {
+          "word": "momentum",
+          "meaning": "forward progress"
+        }
+      ],
+      "grammar_focus": "purpose clause with 'so that'",
+      "tags": [
+        "action",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Would it be possible for someone to circulate the minutes before end of day, so everyone stays informed?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "CIRCULATE clear stress",
+      "stress_focus": "INFORMED stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "before end linked",
+      "vocabulary": [
+        {
+          "word": "circulate",
+          "meaning": "distribute to a group"
+        }
+      ],
+      "grammar_focus": "purpose clause + modal question",
+      "tags": [
+        "action",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Starting a meeting",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since a few people couldn't make it last time, let's quickly recap the key decisions before moving forward today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "RECAP clear stress",
+      "stress_focus": "KEY DECISIONS stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "couldn't make linked",
+      "vocabulary": [
+        {
+          "word": "recap",
+          "meaning": "summarize briefly"
+        }
+      ],
+      "grammar_focus": "reason clause with 'since'",
+      "tags": [
+        "start",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Although the proposal looks promising on paper, I think we need to stress-test it against a worst-case scenario.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "STRESS-TEST clear stress",
+      "stress_focus": "WORST-CASE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "on paper linked",
+      "vocabulary": [
+        {
+          "word": "stress-test",
+          "meaning": "examine under difficult conditions"
+        }
+      ],
+      "grammar_focus": "concessive clause with 'although'",
+      "tags": [
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I take the point about speed, but rushing this without proper testing could backfire on us down the line.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "BACKFIRE clear stress",
+      "stress_focus": "RUSHING stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "down the line linked",
+      "vocabulary": [
+        {
+          "word": "backfire",
+          "meaning": "produce an unwanted opposite result"
+        }
+      ],
+      "grammar_focus": "contrastive clause with modal 'could'",
+      "tags": [
+        "disagree",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Because we're running out of time, I propose we vote now and revisit any concerns in a follow-up session.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "REVISIT clear stress",
+      "stress_focus": "FOLLOW-UP SESSION stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "running out linked",
+      "vocabulary": [
+        {
+          "word": "revisit",
+          "meaning": "return to and reconsider"
+        }
+      ],
+      "grammar_focus": "causal clause with 'because'",
+      "tags": [
+        "decide",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Before we finalize anything, can someone clarify whether legal has actually signed off on this version of the contract?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "LEGAL clear stress",
+      "stress_focus": "SIGNED OFF stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "signed off linked",
+      "vocabulary": [
+        {
+          "word": "sign off (on something)",
+          "meaning": "give formal approval"
+        }
+      ],
+      "grammar_focus": "embedded question with 'whether'",
+      "tags": [
+        "clarify",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Agenda & timekeeping",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since we're already over time, let's park the remaining agenda items and schedule a dedicated follow-up meeting.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "PARK clear stress",
+      "stress_focus": "DEDICATED stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "over time linked",
+      "vocabulary": [
+        {
+          "word": "park (an item)",
+          "meaning": "set aside temporarily"
+        }
+      ],
+      "grammar_focus": "reason clause + imperative",
+      "tags": [
+        "agenda",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Giving opinions",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, if I had to choose between speed and accuracy right now, I'd lean toward getting it right first.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "LEAN TOWARD clear stress",
+      "stress_focus": "ACCURACY stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "I'd lean linked",
+      "vocabulary": [
+        {
+          "word": "lean toward",
+          "meaning": "favor slightly"
+        }
+      ],
+      "grammar_focus": "conditional 'if I had to'",
+      "tags": [
+        "opinion",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Agreeing",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Having weighed the pros and cons you laid out, I'm now fully aligned with pushing ahead on this initiative.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "WEIGHED clear stress",
+      "stress_focus": "INITIATIVE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "laid out linked",
+      "vocabulary": [
+        {
+          "word": "weigh (pros and cons)",
+          "meaning": "consider carefully"
+        }
+      ],
+      "grammar_focus": "perfect participle clause",
+      "tags": [
+        "agree",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Disagreeing diplomatically",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "I recognize the pressure we're under to ship this quickly, but cutting corners here could damage client trust irreversibly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "SHIP clear stress",
+      "stress_focus": "IRREVERSIBLY stressed",
+      "intonation_focus": "falling-rising",
+      "connected_speech_focus": "cutting corners linked",
+      "vocabulary": [
+        {
+          "word": "cut corners",
+          "meaning": "do something poorly to save time"
+        }
+      ],
+      "grammar_focus": "concessive clause + modal 'could'",
+      "tags": [
+        "disagree",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Making decisions",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Provided finance confirms the numbers by tomorrow, we'll finalize the budget and present it to the board next week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "PROVIDED clear stress",
+      "stress_focus": "FINALIZE stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "provided finance linked",
+      "vocabulary": [
+        {
+          "word": "provided (that)",
+          "meaning": "on the condition that"
+        }
+      ],
+      "grammar_focus": "conditional clause with 'provided'",
+      "tags": [
+        "decide",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Action items & follow-up",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Assuming everyone's on board with the plan, let's assign clear owners so nothing falls through the cracks this time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "ASSUMING clear stress",
+      "stress_focus": "FALLS THROUGH stressed",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "falls through linked",
+      "vocabulary": [
+        {
+          "word": "fall through the cracks",
+          "meaning": "be overlooked or forgotten"
+        }
+      ],
+      "grammar_focus": "conditional clause with 'assuming'",
+      "tags": [
+        "action",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Asking for clarification",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "Given how much this decision affects other departments, could you clarify exactly who needs to sign off before we proceed?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "AFFECTS clear stress",
+      "stress_focus": "SIGN OFF stressed",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "needs to linked",
+      "vocabulary": [
+        {
+          "word": "proceed",
+          "meaning": "continue with a plan"
+        }
+      ],
+      "grammar_focus": "embedded question + purpose clause",
+      "tags": [
+        "clarify",
+        "advanced"
+      ]
+    }
+  ]
+}

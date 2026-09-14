@@ -1,0 +1,304 @@
+{
+  "lessons": [
+    {
+      "title": "Everyday reductions",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Reductions help you understand fast speech and sound relaxed in conversation.",
+      "points": ["going to → gonna", "want to → wanna", "have to → hafta", "got to → gotta"],
+      "caution": "These are informal spoken forms. Do not write them in essays, emails or formal exams, and avoid them in a formal presentation.",
+      "items": [
+        { "text": "I'm going to call her.", "pattern": "I'm gonna call her." },
+        { "text": "I want to try again.", "pattern": "I wanna try again." },
+        { "text": "I have to leave now.", "pattern": "I hafta leave now." },
+        { "text": "You've got to see this.", "pattern": "You gotta see this." }
+      ]
+    },
+    {
+      "title": "kinda, sorta, lemme, gimme",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "More casual reductions you will hear constantly in films and real conversation.",
+      "points": ["kind of → kinda", "sort of → sorta", "let me → lemme", "give me → gimme", "what do you → whaddaya"],
+      "caution": "Informal only. In an IELTS or job interview, keep the full forms.",
+      "items": [
+        { "text": "It's kind of expensive.", "pattern": "It's kinda expensive." },
+        { "text": "I sort of agree.", "pattern": "I sorta agree." },
+        { "text": "Let me think about it.", "pattern": "Lemme think about it." },
+        { "text": "What do you think?", "pattern": "Whaddaya think?" }
+      ]
+    },
+    {
+      "title": "hafta, needa, useta",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "More obligation and habit reductions common in relaxed spoken English.",
+      "points": ["have to → hafta", "need to → needa", "used to → useta"],
+      "caution": "Informal spoken forms only — never write them.",
+      "items": [
+        { "text": "I need to go now.", "pattern": "I needa go now." },
+        { "text": "I used to live there.", "pattern": "I useta live there." },
+        { "text": "She has to finish it today.", "pattern": "She hasta finish it today." }
+      ]
+    },
+    {
+      "title": "coulda, woulda, shoulda",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Past modal reductions — very common when talking about regrets or hypothetical situations.",
+      "points": ["could have → coulda", "would have → woulda", "should have → shoulda"],
+      "caution": "Informal spoken only — write 'could have' in full in formal writing.",
+      "items": [
+        { "text": "I could have called you.", "pattern": "I coulda called you." },
+        { "text": "She would have said yes.", "pattern": "She woulda said yes." },
+        { "text": "You should have told me.", "pattern": "You shoulda told me." }
+      ]
+    },
+    {
+      "title": "dunno, dontcha, whatcha",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Very casual reductions common in songs, films and relaxed conversation among friends.",
+      "points": ["don't know → dunno", "don't you → dontcha", "what are you → whatcha"],
+      "caution": "Very informal — only with close friends, never in professional or exam contexts.",
+      "items": [
+        { "text": "I don't know.", "pattern": "I dunno." },
+        { "text": "Don't you want some?", "pattern": "Dontcha want some?" },
+        { "text": "What are you doing?", "pattern": "Whatcha doing?" }
+      ]
+    },
+    {
+      "title": "outta, offa, cuppa",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Common preposition-linked reductions in casual speech.",
+      "points": ["out of → outta", "off of → offa", "cup of → cuppa"],
+      "caution": "Informal only.",
+      "items": [
+        { "text": "Get out of here!", "pattern": "Get outta here!" },
+        { "text": "Take it off of the table.", "pattern": "Take it offa the table." },
+        { "text": "Want a cup of tea?", "pattern": "Want a cuppa tea?" }
+      ]
+    },
+    {
+      "title": "c'mon, gonna be, s'more",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Everyday exclamations and casual phrases with heavy reduction.",
+      "points": ["come on → c'mon", "going to be → gonna be", "some more → s'more"],
+      "caution": "Informal only.",
+      "items": [
+        { "text": "Come on, let's go!", "pattern": "C'mon, let's go!" },
+        { "text": "It's going to be great.", "pattern": "It's gonna be great." },
+        { "text": "Can I get some more?", "pattern": "Can I get s'more?" }
+      ]
+    },
+    {
+      "title": "Reductions in casual questions",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Question-starters reduce heavily in fast, casual conversation.",
+      "points": ["did you → dja", "do you → dya", "would you → wouldja"],
+      "caution": "Only for casual, spoken contexts.",
+      "items": [
+        { "text": "Did you see that?", "pattern": "Dja see that?" },
+        { "text": "Do you want to go?", "pattern": "Dya wanna go?" },
+        { "text": "Would you mind?", "pattern": "Wouldja mind?" }
+      ]
+    },
+    {
+      "title": "Reductions with numbers and time",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Casual speech often reduces time phrases too.",
+      "points": ["a couple of → a couple", "in a minute → in a min"],
+      "caution": "Fine in casual talk, not in writing.",
+      "items": [
+        { "text": "Give me a couple of minutes.", "pattern": "Give me a couple minutes." },
+        { "text": "I'll be there in a minute.", "pattern": "I'll be there in a min." }
+      ]
+    },
+    {
+      "title": "probably, trying to, supposed to",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "More common casual reductions heard constantly in relaxed conversation.",
+      "points": ["probably → prolly", "trying to → tryna", "supposed to → s'posed to"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "It's probably fine.", "pattern": "It's prolly fine." },
+        { "text": "I'm trying to focus.", "pattern": "I'm tryna focus." },
+        { "text": "You're supposed to call first.", "pattern": "You're s'posed to call first." }
+      ]
+    },
+    {
+      "title": "let's, gimme that, y'all",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Casual reductions common among friends and in American informal speech.",
+      "points": ["let's go → less go", "give it to me → gimme that", "you all → y'all"],
+      "caution": "Very informal — 'y'all' is regional (Southern US) but widely understood.",
+      "items": [
+        { "text": "Let's go already!", "pattern": "Less go already!" },
+        { "text": "Gimme that back.", "pattern": "Gimme that back." },
+        { "text": "Y'all wanna come with?", "pattern": "Y'all wanna come with?" }
+      ]
+    },
+    {
+      "title": "Casual numbers in fast speech",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Round numbers reduce their middle consonant sounds in fast, casual American speech.",
+      "points": ["twenty → twenny", "hundred → hunnerd"],
+      "caution": "Informal spoken only — always say the full form in formal contexts.",
+      "items": [
+        { "text": "It's twenty dollars.", "pattern": "It's twenny dollars." },
+        { "text": "About a hundred people showed up.", "pattern": "About a hunnerd people showed up." }
+      ]
+    },
+    {
+      "title": "Words that shrink one syllable in casual talk",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "A different set of everyday words that regularly lose a syllable in fast, relaxed speech.",
+      "points": ["different → diff'rent", "general → gen'ral", "several → sev'ral", "camera → cam'ra"],
+      "caution": "Fine in casual speech; say the full form clearly in formal presentations.",
+      "items": [
+        { "text": "That's a different story.", "pattern": "That's a diff'rent story." },
+        { "text": "We need a general idea first.", "pattern": "We need a gen'ral idea first." },
+        { "text": "I've told you several times.", "pattern": "I've told you sev'ral times." }
+      ]
+    },
+    {
+      "title": "I'ma and other ultra-casual forms",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "Very informal reductions you'll hear in songs and casual American speech, but should never use in professional settings.",
+      "points": ["I'm going to → I'ma", "kind of like → kinda like"],
+      "caution": "Extremely informal — friends/song lyrics only, never professional contexts.",
+      "items": [
+        { "text": "I'ma head out now.", "pattern": "I'ma head out now." },
+        { "text": "It's kinda like a sequel.", "pattern": "It's kinda like a sequel." }
+      ]
+    },
+    {
+      "title": "More casual greeting reductions",
+      "level": "intermediate",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Extra everyday greeting reductions beyond what's up / how's it going.",
+      "points": ["how are you → how ya doin'", "good to see you → good to see ya"],
+      "caution": "Casual spoken forms only.",
+      "items": [
+        { "text": "Hey, how ya doin'?", "pattern": "Hey, how ya doin'?" },
+        { "text": "Good to see ya, man.", "pattern": "Good to see ya, man." }
+      ]
+    },
+    {
+      "title": "oughta, don't hafta, wantcha",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "More obligation and desire reductions common in relaxed American speech.",
+      "points": ["ought to → oughta", "don't have to → don't hafta", "want you → wantcha"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "You oughta try this place.", "pattern": "You oughta try this place." },
+        { "text": "You don't hafta come if you don't want to.", "pattern": "You don't hafta come if you don't want to." },
+        { "text": "I wantcha to meet someone.", "pattern": "I wantcha to meet someone." }
+      ]
+    },
+    {
+      "title": "Famous extreme reduction: 'Did you eat yet?'",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "This is a classic example of how far casual American reduction can go — several words blur into what sounds like one.",
+      "points": ["Did you eat yet? → Jeetyet?", "Did you already? → Jeetalready?"],
+      "caution": "Extremely informal — for recognizing fast native speech, not for your own formal speaking.",
+      "items": [
+        { "text": "Did you eat yet?", "pattern": "Jeetyet?" },
+        { "text": "No, not yet, did you?", "pattern": "No, not yet, jou?" }
+      ]
+    },
+    {
+      "title": "'because of' and 'sort of a'",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Two more common phrase-level reductions in casual conversation.",
+      "points": ["because of → 'cause of", "sort of a → sorta a"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "We're late because of traffic.", "pattern": "We're late 'cause of traffic." },
+        { "text": "It's sort of a weird situation.", "pattern": "It's sorta a weird situation." }
+      ]
+    },
+    {
+      "title": "Casual yes/no: yep, nope, uh-huh",
+      "level": "beginner",
+      "difficulty": "easy",
+      "accent": "us",
+      "explain": "Very common casual alternatives to 'yes' and 'no' in relaxed spoken English.",
+      "points": ["yes → yep / uh-huh", "no → nope / nah"],
+      "caution": "Casual conversation only — use 'yes'/'no' in formal or exam contexts.",
+      "items": [
+        { "text": "Yep, sounds good to me.", "pattern": "Yep, sounds good to me." },
+        { "text": "Nah, I'm good, thanks.", "pattern": "Nah, I'm good, thanks." }
+      ]
+    },
+    {
+      "title": "'want a' (thing) vs 'want to' (action)",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Both reduce to a similar-sounding 'wanna', but one is followed by a noun and the other by a verb — worth noticing the difference.",
+      "points": ["want a (coffee) → wanna coffee", "want to (go) → wanna go"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "I wanna coffee.", "pattern": "want A coffee (noun)" },
+        { "text": "I wanna go home.", "pattern": "want TO go (verb)" }
+      ]
+    },
+    {
+      "title": "wouldn't have → wouldn'ta",
+      "level": "advanced",
+      "difficulty": "hard",
+      "accent": "us",
+      "explain": "The negative version of 'would have' reduces the same way as the positive form.",
+      "points": ["wouldn't have → wouldn'ta"],
+      "caution": "Informal spoken only — write 'wouldn't have' in full otherwise.",
+      "items": [
+        { "text": "I wouldn't have said that.", "pattern": "I wouldn'ta said that." },
+        { "text": "She wouldn't have known anyway.", "pattern": "She wouldn'ta known anyway." }
+      ]
+    },
+    {
+      "title": "just 'cause, gonna need",
+      "level": "advanced",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Two more everyday reductions common in casual explanations and requests.",
+      "points": ["just because → just 'cause", "going to need → gonna need"],
+      "caution": "Informal spoken only.",
+      "items": [
+        { "text": "I did it just 'cause I wanted to.", "pattern": "I did it just 'cause I wanted to." },
+        { "text": "We're gonna need more chairs.", "pattern": "We're gonna need more chairs." }
+      ]
+    }
+  ]
+}

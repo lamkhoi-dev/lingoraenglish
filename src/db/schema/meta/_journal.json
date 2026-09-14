@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789058839164,
+      "tag": "0000_conscious_banshee",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1789357725699,
+      "tag": "0001_pronunciation_mastered",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1789365661820,
+      "tag": "0002_pronunciation_lessons",
+      "breakpoints": true
+    }
+  ]
+}

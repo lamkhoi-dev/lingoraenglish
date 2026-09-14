@@ -1,0 +1,41 @@
+{
+  "topic_slug": "remote-work-balance",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Working from home",
+      "turns": [
+        { "speaker_label": "Friend A", "speaker_voice": "shimmer", "sentence": "Do you like working from home?", "is_free": true },
+        { "speaker_label": "Friend B", "speaker_voice": "alloy", "sentence": "Yes, I like it a lot.", "is_free": true },
+        { "speaker_label": "Friend A", "speaker_voice": "shimmer", "sentence": "What's the best part?", "is_free": true },
+        { "speaker_label": "Friend B", "speaker_voice": "alloy", "sentence": "I don't have to commute anymore.", "is_free": true },
+        { "speaker_label": "Friend A", "speaker_voice": "shimmer", "sentence": "That sounds really nice.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Setting boundaries",
+      "turns": [
+        { "speaker_label": "Coworker A", "speaker_voice": "coral", "sentence": "Do you find it hard to switch off after work when you're at home all day?", "is_free": false },
+        { "speaker_label": "Coworker B", "speaker_voice": "sage", "sentence": "Honestly, yes — I've started setting a hard stop at six just to create some separation.", "is_free": false },
+        { "speaker_label": "Coworker A", "speaker_voice": "coral", "sentence": "That's smart. Does closing your laptop help, or do you still get tempted to check messages?", "is_free": false },
+        { "speaker_label": "Coworker B", "speaker_voice": "sage", "sentence": "I actually put my phone in another room now — it's made a bigger difference than I expected.", "is_free": false },
+        { "speaker_label": "Coworker A", "speaker_voice": "coral", "sentence": "I might have to try that myself, it's been hard to fully disconnect lately.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Negotiating a hybrid schedule",
+      "turns": [
+        { "speaker_label": "Employee", "speaker_voice": "nova", "sentence": "I'd like to propose shifting to two days in the office instead of four, if that's something we could discuss.", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "shimmer", "sentence": "I'm open to that, though I'd want to make sure it doesn't affect your collaboration with the design team.", "is_free": false },
+        { "speaker_label": "Employee", "speaker_voice": "nova", "sentence": "That's a fair concern — I could keep the two in-office days aligned with our joint planning sessions.", "is_free": false },
+        { "speaker_label": "Manager", "speaker_voice": "shimmer", "sentence": "That would address my main worry. Let's trial it for a month and reassess from there.", "is_free": false },
+        { "speaker_label": "Employee", "speaker_voice": "nova", "sentence": "That sounds completely reasonable, thank you for considering it.", "is_free": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2409 @@
+{
+  "slug": "canadian-life",
+  "name": "Canadian Life & Community",
+  "topic_group": "Social & Canadian Life",
+  "blurb": "Practice natural spoken English about everyday Canadian life, neighbourhoods, and community culture.",
+  "sort_order": 15,
+  "sentences": [
+    {
+      "subcategory": "weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It's really cold outside today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"cold\"",
+      "stress_focus": "It's, really, cold, outside",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "cold",
+          "meaning": "low temperature"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "beginner",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It's snowing again this morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"snowing\"",
+      "stress_focus": "It's, snowing, again, this",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "snowing",
+          "meaning": "snow falling from the sky"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "beginner",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "greetings",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "How's it going, eh?",
+      "natural_form": "How's it goin', eh?",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"eh\"",
+      "stress_focus": "How's, going",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "eh",
+          "meaning": "a friendly Canadian question tag"
+        }
+      ],
+      "grammar_focus": "tag question",
+      "tags": [
+        "beginner",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "greetings",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "response",
+      "sentence": "Not bad, thanks, and you?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"thanks\"",
+      "stress_focus": "thanks",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "not bad",
+          "meaning": "okay, fine"
+        }
+      ],
+      "grammar_focus": "short response",
+      "tags": [
+        "beginner",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I take the bus to work every day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"bus\"",
+      "stress_focus": "take, work, every",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "bus",
+          "meaning": "public transportation vehicle"
+        }
+      ],
+      "grammar_focus": "simple present habits",
+      "tags": [
+        "beginner",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Where's the nearest subway station?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"subway\"",
+      "stress_focus": "Where's, nearest, subway, station",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "subway",
+          "meaning": "underground train"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "beginner",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My neighbour is really friendly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"neighbour\"",
+      "stress_focus": "neighbour, really, friendly",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "neighbour",
+          "meaning": "person living next door"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "beginner",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "coffee",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Can I get a medium double-double, please?",
+      "natural_form": "Can I get a medium double-double, please?",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"double-double\"",
+      "stress_focus": "medium, double, double, please",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "double-double",
+          "meaning": "coffee with two creams and two sugars"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "beginner",
+        "coffee"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We need a warmer jacket for winter.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"warmer\"",
+      "stress_focus": "need, warmer, jacket, winter",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "jacket",
+          "meaning": "a light coat"
+        }
+      ],
+      "grammar_focus": "comparative adjective",
+      "tags": [
+        "beginner",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "hockey",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My son plays hockey on Saturdays.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"hockey\"",
+      "stress_focus": "plays, hockey, Saturdays",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "hockey",
+          "meaning": "ice sport popular in Canada"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "beginner",
+        "hockey"
+      ]
+    },
+    {
+      "subcategory": "politeness",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "Sorry, I didn't mean to bump into you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"sorry\"",
+      "stress_focus": "Sorry, didn't, mean, bump",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "bump into",
+          "meaning": "to accidentally hit someone"
+        }
+      ],
+      "grammar_focus": "past simple apology",
+      "tags": [
+        "beginner",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "garbage",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Garbage day is on Tuesday this week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"garbage\"",
+      "stress_focus": "Garbage, Tuesday, this, week",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "garbage day",
+          "meaning": "the day trash gets collected"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "beginner",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Is it going to rain later?",
+      "natural_form": "Is it gonna rain later?",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"gonna\"",
+      "stress_focus": "going, rain, later",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "link \"going to\" together",
+      "vocabulary": [
+        {
+          "word": "later",
+          "meaning": "after this"
+        }
+      ],
+      "grammar_focus": "future going to",
+      "tags": [
+        "beginner",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The bus is usually on time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"usually\"",
+      "stress_focus": "usually, time",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "usually",
+          "meaning": "most of the time"
+        }
+      ],
+      "grammar_focus": "adverb of frequency",
+      "tags": [
+        "beginner",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "food",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Poutine is fries with cheese and gravy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"gravy\"",
+      "stress_focus": "Poutine, fries, with, cheese",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "gravy",
+          "meaning": "a thick brown sauce"
+        }
+      ],
+      "grammar_focus": "simple present definition",
+      "tags": [
+        "beginner",
+        "food"
+      ]
+    },
+    {
+      "subcategory": "seasons",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Fall is my favourite season here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"favourite\"",
+      "stress_focus": "Fall, favourite, season, here",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "favourite",
+          "meaning": "liked the most"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "beginner",
+        "seasons"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Do you know your neighbours well?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"neighbours\"",
+      "stress_focus": "know, your, neighbours, well",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "well",
+          "meaning": "closely, in a good way"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "beginner",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "healthcare",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I have a doctor's appointment tomorrow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"appointment\"",
+      "stress_focus": "have, doctor's, appointment, tomorrow",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "appointment",
+          "meaning": "a scheduled meeting"
+        }
+      ],
+      "grammar_focus": "simple present for future",
+      "tags": [
+        "beginner",
+        "healthcare"
+      ]
+    },
+    {
+      "subcategory": "library",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Could you help me find a library card?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"library card\"",
+      "stress_focus": "Could, help, find, library",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "library card",
+          "meaning": "a card to borrow books"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "beginner",
+        "library"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "It gets dark really early in winter.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"dark\"",
+      "stress_focus": "gets, dark, really, early",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "dark",
+          "meaning": "without light"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "beginner",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "multicultural",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "There are people from all over the world here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"world\"",
+      "stress_focus": "There, people, from, over",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "all over the world",
+          "meaning": "from many countries"
+        }
+      ],
+      "grammar_focus": "there is/are",
+      "tags": [
+        "beginner",
+        "multicultural"
+      ]
+    },
+    {
+      "subcategory": "small talk",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Nice weather we're having, isn't it?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"isn't it\"",
+      "stress_focus": "Nice, weather, we're, having",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "nice weather",
+          "meaning": "pleasant weather"
+        }
+      ],
+      "grammar_focus": "tag question",
+      "tags": [
+        "beginner",
+        "small talk"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We're going to a community barbecue this weekend.",
+      "natural_form": "We're gonna go to a community barbecue this weekend.",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"barbecue\"",
+      "stress_focus": "We're, going, community, barbecue",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "link \"going to\" together",
+      "vocabulary": [
+        {
+          "word": "barbecue",
+          "meaning": "an outdoor cookout"
+        }
+      ],
+      "grammar_focus": "future going to",
+      "tags": [
+        "beginner",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Yeah, just tap your card at the front.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"tap\"",
+      "stress_focus": "Yeah, just, your, card",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "tap",
+          "meaning": "touch briefly to pay"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "beginner",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Bring an umbrella, it might rain.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"umbrella\"",
+      "stress_focus": "Bring, umbrella, might, rain",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "umbrella",
+          "meaning": "a tool to stay dry in rain"
+        }
+      ],
+      "grammar_focus": "modal might",
+      "tags": [
+        "beginner",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "cottage",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We're heading up to the cottage this weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"heading\"",
+      "stress_focus": "We're, heading, cottage, this",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "link \"heading up\" together",
+      "vocabulary": [
+        {
+          "word": "cottage",
+          "meaning": "a vacation house, often by a lake"
+        }
+      ],
+      "grammar_focus": "present continuous for future",
+      "tags": [
+        "elementary",
+        "cottage"
+      ]
+    },
+    {
+      "subcategory": "hockey",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think hockey is basically our national obsession.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"obsession\"",
+      "stress_focus": "think, hockey, basically, national",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "obsession",
+          "meaning": "something you're extremely into"
+        }
+      ],
+      "grammar_focus": "simple present opinion",
+      "tags": [
+        "elementary",
+        "hockey"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, this weather can change in five minutes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"honestly\"",
+      "stress_focus": "Honestly, this, weather, change",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "honestly",
+          "meaning": "to be truthful"
+        }
+      ],
+      "grammar_focus": "modal can for possibility",
+      "tags": [
+        "elementary",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "The subway gets pretty packed during rush hour.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"packed\"",
+      "stress_focus": "subway, gets, pretty, packed",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "packed",
+          "meaning": "very crowded"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "elementary",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Our street throws a block party every summer.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"block party\"",
+      "stress_focus": "street, throws, block, party",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "block party",
+          "meaning": "a neighbourhood street celebration"
+        }
+      ],
+      "grammar_focus": "simple present habits",
+      "tags": [
+        "elementary",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "politeness",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, what was that again?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"sorry\"",
+      "stress_focus": "Sorry, what, that, again",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "what was that again",
+          "meaning": "asking someone to repeat"
+        }
+      ],
+      "grammar_focus": "clarification question",
+      "tags": [
+        "elementary",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "multicultural",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "This neighbourhood has such a great mix of cultures.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"mix\"",
+      "stress_focus": "This, neighbourhood, such, great",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "mix",
+          "meaning": "a combination of different things"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "elementary",
+        "multicultural"
+      ]
+    },
+    {
+      "subcategory": "healthcare",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "You just show your health card at the clinic.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"clinic\"",
+      "stress_focus": "just, show, your, health",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "health card",
+          "meaning": "a card for public healthcare"
+        }
+      ],
+      "grammar_focus": "imperative/instruction",
+      "tags": [
+        "elementary",
+        "healthcare"
+      ]
+    },
+    {
+      "subcategory": "french",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "A lot of signs here are in both English and French.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"both\"",
+      "stress_focus": "signs, here, both, English",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "bilingual",
+          "meaning": "using two languages"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "elementary",
+        "french"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I actually don't mind the snow that much.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"mind\"",
+      "stress_focus": "actually, don't, mind, snow",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "don't mind",
+          "meaning": "not bothered by"
+        }
+      ],
+      "grammar_focus": "negative present simple",
+      "tags": [
+        "elementary",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "recycling",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could you separate the recycling from the garbage?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"separate\"",
+      "stress_focus": "Could, separate, recycling, from",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "recycling",
+          "meaning": "materials collected to reuse"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "elementary",
+        "recycling"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "storytelling",
+      "sentence": "So last weekend our whole street helped shovel an elderly neighbour's driveway.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"shovel\"",
+      "stress_focus": "last, weekend, whole, street",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "shovel",
+          "meaning": "to clear snow with a tool"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "elementary",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "coffee",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Tim Hortons is basically on every corner around here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"corner\"",
+      "stress_focus": "Hortons, basically, every, corner",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "on every corner",
+          "meaning": "found everywhere nearby"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "elementary",
+        "coffee"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Do you know if this bus goes downtown?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"downtown\"",
+      "stress_focus": "know, this, goes, downtown",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "downtown",
+          "meaning": "the central area of a city"
+        }
+      ],
+      "grammar_focus": "embedded question",
+      "tags": [
+        "elementary",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "agreement",
+      "sentence": "Yeah, it's been a really mild winter so far.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"mild\"",
+      "stress_focus": "Yeah, it's, been, really",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "mild",
+          "meaning": "not too cold or severe"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "elementary",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "People here are pretty quick to hold the door for you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"hold the door\"",
+      "stress_focus": "People, here, pretty, quick",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "hold the door",
+          "meaning": "to keep a door open for someone"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "elementary",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "hockey",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "reaction",
+      "sentence": "Oh man, did you see that goal last night?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"goal\"",
+      "stress_focus": "that, goal, last, night",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "goal",
+          "meaning": "a scoring play in hockey"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "elementary",
+        "hockey"
+      ]
+    },
+    {
+      "subcategory": "neighbours",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "We ended up chatting with our neighbours for an hour.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"ended up\"",
+      "stress_focus": "ended, chatting, with, neighbours",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "end up",
+          "meaning": "to finally do something unplanned"
+        }
+      ],
+      "grammar_focus": "past simple phrasal verb",
+      "tags": [
+        "elementary",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "The forecast says it's going to clear up by noon.",
+      "natural_form": "The forecast says it's gonna clear up by noon.",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"clear up\"",
+      "stress_focus": "forecast, says, it's, going",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "link \"going to\" together",
+      "vocabulary": [
+        {
+          "word": "clear up",
+          "meaning": "to become sunny after bad weather"
+        }
+      ],
+      "grammar_focus": "future going to",
+      "tags": [
+        "elementary",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "volunteering",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "She volunteers at the food bank on weekends.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"food bank\"",
+      "stress_focus": "volunteers, food, bank, weekends",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "food bank",
+          "meaning": "a place that gives free food to people in need"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "elementary",
+        "volunteering"
+      ]
+    },
+    {
+      "subcategory": "politeness",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, could you say that a bit slower?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"slower\"",
+      "stress_focus": "Sorry, could, that, slower",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "a bit",
+          "meaning": "slightly"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "elementary",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "We're trying to get to know more people in the building.",
+      "natural_form": "We're tryin' to get to know more people in the building.",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"get to know\"",
+      "stress_focus": "We're, trying, know, more",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "link \"trying to\" together",
+      "vocabulary": [
+        {
+          "word": "get to know",
+          "meaning": "to become familiar with someone"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "elementary",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "market",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "The farmers market sets up downtown every Saturday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"sets up\"",
+      "stress_focus": "farmers, market, sets, downtown",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "farmers market",
+          "meaning": "an outdoor market selling local food"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "elementary",
+        "market"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "We had to shovel the driveway twice yesterday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"driveway\"",
+      "stress_focus": "shovel, driveway, twice, yesterday",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "driveway",
+          "meaning": "the path leading to a garage or house"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "elementary",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "healthcare",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, waiting for a family doctor can take forever around here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"forever\"",
+      "stress_focus": "Honestly, waiting, family, doctor",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "take forever",
+          "meaning": "to take a very long time"
+        }
+      ],
+      "grammar_focus": "modal can + present simple",
+      "tags": [
+        "intermediate",
+        "healthcare"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "storytelling",
+      "sentence": "When we first moved in, our neighbours dropped off a whole tray of cookies.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"dropped off\"",
+      "stress_focus": "When, first, moved, neighbours",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "drop off",
+          "meaning": "to deliver something briefly"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "intermediate",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "politics",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "I feel like municipal politics doesn't get nearly enough attention.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"attention\"",
+      "stress_focus": "feel, like, municipal, politics",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "municipal",
+          "meaning": "related to local city government"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "intermediate",
+        "politics"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "We've been getting hit with one storm after another this month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"hit\"",
+      "stress_focus": "We've, been, getting, with",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "one after another",
+          "meaning": "repeatedly, in a row"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "intermediate",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Would you mind letting me know when we get to my stop?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"letting me know\"",
+      "stress_focus": "Would, mind, letting, know",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "let someone know",
+          "meaning": "to inform someone"
+        }
+      ],
+      "grammar_focus": "polite request with would you mind",
+      "tags": [
+        "intermediate",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "multicultural",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "Growing up, our building had families from at least ten different countries.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"growing up\"",
+      "stress_focus": "Growing, building, families, from",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "link \"growing up\" together",
+      "vocabulary": [
+        {
+          "word": "growing up",
+          "meaning": "during someone's childhood"
+        }
+      ],
+      "grammar_focus": "past simple with participle clause",
+      "tags": [
+        "intermediate",
+        "multicultural"
+      ]
+    },
+    {
+      "subcategory": "immigration",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "My parents settled here in the nineties and never really looked back.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"settled\"",
+      "stress_focus": "parents, settled, here, nineties",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "settle",
+          "meaning": "to move and start living somewhere permanently"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "intermediate",
+        "immigration"
+      ]
+    },
+    {
+      "subcategory": "french",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Wait, do they teach French immersion at that school too?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"immersion\"",
+      "stress_focus": "Wait, they, teach, French",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "French immersion",
+          "meaning": "a program taught mostly in French"
+        }
+      ],
+      "grammar_focus": "embedded question",
+      "tags": [
+        "intermediate",
+        "french"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "reaction",
+      "sentence": "Ugh, I can't believe we're getting another snowstorm this late in the season.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"this late\"",
+      "stress_focus": "can't, believe, we're, getting",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "snowstorm",
+          "meaning": "a heavy storm with snow"
+        }
+      ],
+      "grammar_focus": "present continuous for future",
+      "tags": [
+        "intermediate",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "agreement",
+      "sentence": "Totally, this neighbourhood has really come together since the pandemic.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"come together\"",
+      "stress_focus": "Totally, this, neighbourhood, really",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "come together",
+          "meaning": "to unite and support each other"
+        }
+      ],
+      "grammar_focus": "present perfect",
+      "tags": [
+        "intermediate",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "hockey",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "disagreement",
+      "sentence": "I get it, but I don't think that call was actually offside.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"offside\"",
+      "stress_focus": "don't, think, that, call",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "offside",
+          "meaning": "a rule violation in hockey"
+        }
+      ],
+      "grammar_focus": "present simple disagreement",
+      "tags": [
+        "intermediate",
+        "hockey"
+      ]
+    },
+    {
+      "subcategory": "recycling",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "You're supposed to rinse out the containers before you toss them in the blue bin.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"toss\"",
+      "stress_focus": "You're, supposed, rinse, containers",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "blue bin",
+          "meaning": "a recycling bin"
+        }
+      ],
+      "grammar_focus": "modal be supposed to",
+      "tags": [
+        "intermediate",
+        "recycling"
+      ]
+    },
+    {
+      "subcategory": "cottage",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "We spent the whole long weekend just fixing up the dock and swimming.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"fixing up\"",
+      "stress_focus": "spent, whole, long, weekend",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "link \"fixing up\" together",
+      "vocabulary": [
+        {
+          "word": "fix up",
+          "meaning": "to repair or improve something"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "intermediate",
+        "cottage"
+      ]
+    },
+    {
+      "subcategory": "healthcare",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, just to clarify, is this covered under provincial health insurance?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"covered\"",
+      "stress_focus": "Sorry, just, clarify, this",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "provincial health insurance",
+          "meaning": "government healthcare coverage"
+        }
+      ],
+      "grammar_focus": "clarification question",
+      "tags": [
+        "intermediate",
+        "healthcare"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "Volunteering at the shelter really changed how I see the neighbourhood.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"shelter\"",
+      "stress_focus": "Volunteering, shelter, really, changed",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "shelter",
+          "meaning": "a place that helps people in need"
+        }
+      ],
+      "grammar_focus": "past simple + gerund subject",
+      "tags": [
+        "intermediate",
+        "volunteering"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I'd take a cold winter over a humid summer any day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"take over\"",
+      "stress_focus": "Honestly, take, cold, winter",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "humid",
+          "meaning": "hot and damp"
+        }
+      ],
+      "grammar_focus": "conditional preference",
+      "tags": [
+        "intermediate",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "They finally extended the light rail line all the way out to the suburbs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"extended\"",
+      "stress_focus": "They, finally, extended, light",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "light rail",
+          "meaning": "a type of urban train"
+        }
+      ],
+      "grammar_focus": "past simple",
+      "tags": [
+        "intermediate",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Would you be up for organizing the street party this year?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"up for\"",
+      "stress_focus": "Would, organizing, street, party",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "be up for",
+          "meaning": "to be willing to do something"
+        }
+      ],
+      "grammar_focus": "polite request",
+      "tags": [
+        "intermediate",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "multicultural",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "Every summer the city puts on a huge multicultural festival downtown.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"puts on\"",
+      "stress_focus": "Every, summer, city, puts",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "put on",
+          "meaning": "to organize an event"
+        }
+      ],
+      "grammar_focus": "simple present",
+      "tags": [
+        "intermediate",
+        "multicultural"
+      ]
+    },
+    {
+      "subcategory": "hockey",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "We drove three hours just to watch the local team make the playoffs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"playoffs\"",
+      "stress_focus": "drove, three, hours, just",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "playoffs",
+          "meaning": "the final rounds of a sports season"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "intermediate",
+        "hockey"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "It's supposed to warm up a bit by the weekend, apparently.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"warm up\"",
+      "stress_focus": "It's, supposed, warm, weekend",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "apparently",
+          "meaning": "according to what people say"
+        }
+      ],
+      "grammar_focus": "modal be supposed to",
+      "tags": [
+        "intermediate",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "healthcare",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "reaction",
+      "sentence": "Wow, I didn't realize walk-in clinics could get that busy on a Monday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"walk-in\"",
+      "stress_focus": "didn't, realize, walk, clinics",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "walk-in clinic",
+          "meaning": "a clinic you visit without an appointment"
+        }
+      ],
+      "grammar_focus": "past simple with modal could",
+      "tags": [
+        "intermediate",
+        "healthcare"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "If you ask me, this city's really lost some of its small-town feel.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"small-town feel\"",
+      "stress_focus": "this, city's, really, lost",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "small-town feel",
+          "meaning": "the friendly atmosphere of a small town"
+        }
+      ],
+      "grammar_focus": "present perfect opinion",
+      "tags": [
+        "intermediate",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "recycling",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Wait, does that mean pizza boxes actually go in the compost now?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"compost\"",
+      "stress_focus": "Wait, does, that, mean",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "compost",
+          "meaning": "organic waste collected for recycling"
+        }
+      ],
+      "grammar_focus": "clarification question",
+      "tags": [
+        "intermediate",
+        "recycling"
+      ]
+    },
+    {
+      "subcategory": "politeness",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "agreement",
+      "sentence": "Totally, people here really do apologize for absolutely everything.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"absolutely\"",
+      "stress_focus": "Totally, people, here, really",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "apologize",
+          "meaning": "to say sorry"
+        }
+      ],
+      "grammar_focus": "present simple agreement",
+      "tags": [
+        "intermediate",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "immigration",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "storytelling",
+      "sentence": "By the time my grandparents finally got their citizenship, they'd already spent a decade building a life here from scratch.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"from scratch\"",
+      "stress_focus": "time, grandparents, finally, their",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "from scratch",
+          "meaning": "starting with nothing"
+        }
+      ],
+      "grammar_focus": "past perfect + past simple",
+      "tags": [
+        "advanced",
+        "immigration"
+      ]
+    },
+    {
+      "subcategory": "politics",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "What really gets me is how little turnout there is for municipal elections, considering how much city council actually decides.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"turnout\"",
+      "stress_focus": "What, really, gets, little",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "turnout",
+          "meaning": "the number of people who vote"
+        }
+      ],
+      "grammar_focus": "complex sentence with relative clause",
+      "tags": [
+        "advanced",
+        "politics"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "We'd barely finished shovelling the driveway when another storm rolled in and buried the whole street again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"rolled in\"",
+      "stress_focus": "We'd, barely, finished, shovelling",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "roll in",
+          "meaning": "to arrive, usually gradually"
+        }
+      ],
+      "grammar_focus": "past perfect + past simple narrative",
+      "tags": [
+        "advanced",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "I've noticed that the more diverse a neighbourhood gets, the more people actually seem to look out for one another.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"look out for\"",
+      "stress_focus": "I've, noticed, that, more",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "look out for",
+          "meaning": "to care for and protect someone"
+        }
+      ],
+      "grammar_focus": "comparative correlative structure",
+      "tags": [
+        "advanced",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "healthcare",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "I hear what you're saying about wait times, but I'd still take this system over paying out of pocket for everything.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"out of pocket\"",
+      "stress_focus": "hear, what, you're, saying",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "link \"paying out\" together",
+      "vocabulary": [
+        {
+          "word": "out of pocket",
+          "meaning": "paying with your own money"
+        }
+      ],
+      "grammar_focus": "conditional preference with concession",
+      "tags": [
+        "advanced",
+        "healthcare"
+      ]
+    },
+    {
+      "subcategory": "multicultural",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "Growing up, our block was basically a mini United Nations, with every kid bringing something different to the potluck.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"mini United Nations\"",
+      "stress_focus": "Growing, block, basically, mini",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "link \"growing up\" together",
+      "vocabulary": [
+        {
+          "word": "potluck",
+          "meaning": "a meal where everyone brings a dish"
+        }
+      ],
+      "grammar_focus": "past simple descriptive narrative",
+      "tags": [
+        "advanced",
+        "multicultural"
+      ]
+    },
+    {
+      "subcategory": "hockey",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "There's something about a packed arena on a Saturday night that still gets me, even after all these years.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"gets me\"",
+      "stress_focus": "There's, something, about, packed",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "arena",
+          "meaning": "a large venue for sports events"
+        }
+      ],
+      "grammar_focus": "present simple with concessive clause",
+      "tags": [
+        "advanced",
+        "hockey"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "Between the delays and the fare hikes, I honestly don't know how anyone without a car manages to get around this city.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"fare hikes\"",
+      "stress_focus": "Between, delays, fare, hikes",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "fare hike",
+          "meaning": "an increase in the cost of a ticket"
+        }
+      ],
+      "grammar_focus": "present simple with rhetorical complaint",
+      "tags": [
+        "advanced",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "cottage",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "We ended up staying an extra week at the cottage because the highway was washed out after all that rain.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"washed out\"",
+      "stress_focus": "ended, staying, extra, week",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "washed out",
+          "meaning": "damaged and unusable due to water"
+        }
+      ],
+      "grammar_focus": "past simple with causal clause",
+      "tags": [
+        "advanced",
+        "cottage"
+      ]
+    },
+    {
+      "subcategory": "recycling",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think the city could do a lot more to explain what actually counts as recyclable, because half my neighbours still get it wrong.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"counts as\"",
+      "stress_focus": "Honestly, think, city, could",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "recyclable",
+          "meaning": "able to be reused or processed"
+        }
+      ],
+      "grammar_focus": "complex sentence with causal clause",
+      "tags": [
+        "advanced",
+        "recycling"
+      ]
+    },
+    {
+      "subcategory": "french",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "clarification",
+      "sentence": "Just so I'm clear, are you saying kids in immersion end up more comfortable in French than English by high school?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"end up\"",
+      "stress_focus": "Just, clear, saying, kids",
+      "intonation_focus": "rising intonation at the end for the question",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "comfortable",
+          "meaning": "confident and at ease"
+        }
+      ],
+      "grammar_focus": "embedded question with comparative",
+      "tags": [
+        "advanced",
+        "french"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "reaction",
+      "sentence": "Honestly, after the ice storm knocked out our power for four days, I've never looked at a generator the same way again.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"knocked out\"",
+      "stress_focus": "Honestly, after, storm, knocked",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "ice storm",
+          "meaning": "a storm that coats everything in ice"
+        }
+      ],
+      "grammar_focus": "present perfect with past narrative clause",
+      "tags": [
+        "advanced",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "It wasn't until the flood that half the street even met each other, and now we've got a group chat that never stops buzzing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"never stops buzzing\"",
+      "stress_focus": "wasn't, until, flood, that",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "flood",
+          "meaning": "when water overflows onto land"
+        }
+      ],
+      "grammar_focus": "cleft sentence with present perfect",
+      "tags": [
+        "advanced",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "healthcare",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "After bouncing between three different walk-in clinics, I finally found a doctor who actually remembers my name.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"bouncing between\"",
+      "stress_focus": "After, bouncing, between, three",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "bounce between",
+          "meaning": "to move repeatedly from one thing to another"
+        }
+      ],
+      "grammar_focus": "past simple with present simple contrast",
+      "tags": [
+        "advanced",
+        "healthcare"
+      ]
+    },
+    {
+      "subcategory": "immigration",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "What strikes me most is how quickly people who moved here as refugees end up giving back to the same communities that took them in.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"strikes me\"",
+      "stress_focus": "What, strikes, most, quickly",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "refugee",
+          "meaning": "someone forced to leave their country"
+        }
+      ],
+      "grammar_focus": "complex sentence with nested clauses",
+      "tags": [
+        "advanced",
+        "immigration"
+      ]
+    },
+    {
+      "subcategory": "politics",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "disagreement",
+      "sentence": "I get the argument for lower property taxes, but not if it means the library down the street ends up closing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"ends up closing\"",
+      "stress_focus": "argument, lower, property, taxes",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "property taxes",
+          "meaning": "taxes paid on owning property"
+        }
+      ],
+      "grammar_focus": "conditional with concession",
+      "tags": [
+        "advanced",
+        "politics"
+      ]
+    },
+    {
+      "subcategory": "multicultural",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "statement",
+      "sentence": "Half the reason I love this city is that you can grab dim sum, perogies, and jerk chicken all within a ten-minute walk.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"dim sum\"",
+      "stress_focus": "Half, reason, love, this",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "perogies",
+          "meaning": "dumplings filled with potato or cheese"
+        }
+      ],
+      "grammar_focus": "present simple with complex noun phrase",
+      "tags": [
+        "advanced",
+        "multicultural"
+      ]
+    },
+    {
+      "subcategory": "hockey",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "We'd given up on tickets entirely until a coworker's cousin backed out last minute and handed us two seats right behind the bench.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"backed out\"",
+      "stress_focus": "We'd, given, tickets, entirely",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "backed out",
+          "meaning": "withdrew from a plan"
+        }
+      ],
+      "grammar_focus": "past perfect + past simple narrative",
+      "tags": [
+        "advanced",
+        "hockey"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "If there's one thing I've learned living here, it's that people will drop everything to help a neighbour shovel out after a storm.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"drop everything\"",
+      "stress_focus": "there's, thing, I've, learned",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "link \"everything to\" together",
+      "vocabulary": [
+        {
+          "word": "drop everything",
+          "meaning": "to stop what you're doing immediately"
+        }
+      ],
+      "grammar_focus": "cleft sentence with infinitive clause",
+      "tags": [
+        "advanced",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "weather",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "It's not so much the cold that gets to me as the fact that it's dark by four thirty for half the year.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"gets to me\"",
+      "stress_focus": "It's, much, cold, that",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "gets to me",
+          "meaning": "annoys or bothers me"
+        }
+      ],
+      "grammar_focus": "not so much...as construction",
+      "tags": [
+        "advanced",
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "recycling",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "agreement",
+      "sentence": "Totally agree, and honestly, the compost program alone has probably cut our garbage in half since they rolled it out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"cut in half\"",
+      "stress_focus": "Totally, agree, honestly, compost",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "rolled out",
+          "meaning": "introduced gradually"
+        }
+      ],
+      "grammar_focus": "present perfect with quantifying phrase",
+      "tags": [
+        "advanced",
+        "recycling"
+      ]
+    },
+    {
+      "subcategory": "transit",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I know people complain about the transit fares, but compared to what my cousin pays for parking downtown, it's honestly a steal.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"a steal\"",
+      "stress_focus": "know, people, complain, about",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "a steal",
+          "meaning": "something that costs much less than it's worth"
+        }
+      ],
+      "grammar_focus": "comparative clause with concession",
+      "tags": [
+        "advanced",
+        "transit"
+      ]
+    },
+    {
+      "subcategory": "healthcare",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "By the time the ambulance actually showed up, the neighbours had already carried him inside and called his family themselves.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"showed up\"",
+      "stress_focus": "time, ambulance, actually, showed",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "ambulance",
+          "meaning": "a vehicle that takes people to hospital"
+        }
+      ],
+      "grammar_focus": "past perfect + past simple narrative",
+      "tags": [
+        "advanced",
+        "healthcare"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "We've lived on this street for twelve years now, and I still can't get over how many people showed up when our basement flooded.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"can't get over\"",
+      "stress_focus": "We've, lived, this, street",
+      "intonation_focus": "falling intonation at the end of the statement",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "can't get over",
+          "meaning": "to be amazed by something"
+        }
+      ],
+      "grammar_focus": "present perfect with embedded exclamation",
+      "tags": [
+        "advanced",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "immigration",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "It always gets me thinking about how much courage it must've taken for my grandparents to start over somewhere they didn't even speak the language.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"start over\"",
+      "stress_focus": "always, gets, thinking, about",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "courage",
+          "meaning": "bravery"
+        }
+      ],
+      "grammar_focus": "complex sentence with modal perfect",
+      "tags": [
+        "advanced",
+        "immigration"
+      ]
+    },
+    {
+      "subcategory": "community",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "People sometimes forget that community feeling like this actually takes real effort to keep up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "the sound pattern in \"keep up\"",
+      "stress_focus": "People, sometimes, forget, that",
+      "intonation_focus": "expressive falling-rising intonation to show feeling",
+      "connected_speech_focus": "smooth linking between neighbouring words in the sentence",
+      "vocabulary": [
+        {
+          "word": "keep up",
+          "meaning": "to maintain"
+        }
+      ],
+      "grammar_focus": "present simple opinion",
+      "tags": [
+        "advanced",
+        "community"
+      ]
+    }
+  ]
+}

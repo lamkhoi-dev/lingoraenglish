@@ -1,0 +1,2409 @@
+{
+ "slug": "greetings-introductions",
+ "name": "Greetings & Introductions",
+ "topic_group": "Everyday English",
+ "blurb": "Practice natural greetings, small talk, and introducing yourself and others.",
+ "sort_order": 1,
+ "sentences": [
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "Hi, my name is Sarah.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the clear /s/ in Sarah",
+   "stress_focus": "name",
+   "intonation_focus": "falling tone at the end",
+   "connected_speech_focus": "no strong linking here",
+   "vocabulary": [
+    {
+     "word": "name",
+     "meaning": "what you're called"
+    }
+   ],
+   "grammar_focus": "simple present: to be",
+   "tags": [
+    "greetings",
+    "intro"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "How are you today?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /h/ sound in how",
+   "stress_focus": "how, today",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'are you' as ar-you",
+   "vocabulary": [
+    {
+     "word": "today",
+     "meaning": "this day"
+    }
+   ],
+   "grammar_focus": "simple present question",
+   "tags": [
+    "greetings",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Responses",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "response",
+   "sentence": "I'm fine, thanks.",
+   "natural_form": "I'm fine, thanks.",
+   "accent": "american",
+   "pronunciation_focus": "reduced vowel in I'm",
+   "stress_focus": "fine",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'I'm' smoothly",
+   "vocabulary": [
+    {
+     "word": "fine",
+     "meaning": "good, okay"
+    }
+   ],
+   "grammar_focus": "simple present with contraction",
+   "tags": [
+    "response",
+    "small talk"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "Good morning, everyone.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /m/ in morning",
+   "stress_focus": "morning",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "no major linking",
+   "vocabulary": [
+    {
+     "word": "morning",
+     "meaning": "the early part of the day"
+    }
+   ],
+   "grammar_focus": "greeting phrase",
+   "tags": [
+    "greetings",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "request",
+   "sentence": "Nice to meet you.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t/ in meet",
+   "stress_focus": "nice, meet",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'meet you' as mee-chu",
+   "vocabulary": [
+    {
+     "word": "meet",
+     "meaning": "to see someone for the first time"
+    }
+   ],
+   "grammar_focus": "fixed expression",
+   "tags": [
+    "intro",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "Good evening, sir.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /v/ in evening",
+   "stress_focus": "evening",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "no major linking",
+   "vocabulary": [
+    {
+     "word": "evening",
+     "meaning": "the later part of the day"
+    }
+   ],
+   "grammar_focus": "greeting phrase",
+   "tags": [
+    "greetings",
+    "formal"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "This is my friend Tom.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in friend",
+   "stress_focus": "friend, Tom",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'this is' as thi-sis",
+   "vocabulary": [
+    {
+     "word": "friend",
+     "meaning": "someone you like and know well"
+    }
+   ],
+   "grammar_focus": "demonstrative pronoun this",
+   "tags": [
+    "intro",
+    "people"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "See you later.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the long /i\u02d0/ in see",
+   "stress_focus": "later",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'see you' as see-yuh",
+   "vocabulary": [
+    {
+     "word": "later",
+     "meaning": "at a future time"
+    }
+   ],
+   "grammar_focus": "fixed farewell expression",
+   "tags": [
+    "farewell",
+    "casual"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "question",
+   "sentence": "What's your name?",
+   "natural_form": "Whatcha name?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'what's' /w\u028cts/",
+   "stress_focus": "name",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'what's your' as wha-cher",
+   "vocabulary": [
+    {
+     "word": "name",
+     "meaning": "what you're called"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "intro",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Responses",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "response",
+   "sentence": "My name is John.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /d\u0292/ in John",
+   "stress_focus": "John",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "no major linking",
+   "vocabulary": [
+    {
+     "word": "name",
+     "meaning": "what you're called"
+    }
+   ],
+   "grammar_focus": "simple present: to be",
+   "tags": [
+    "intro",
+    "response"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "Hello, how's it going?",
+   "natural_form": "Hello, how's it goin'?",
+   "accent": "american",
+   "pronunciation_focus": "dropped final g in going",
+   "stress_focus": "hello, going",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'how's it' as how-zit",
+   "vocabulary": [
+    {
+     "word": "going",
+     "meaning": "happening, progressing"
+    }
+   ],
+   "grammar_focus": "informal greeting",
+   "tags": [
+    "greetings",
+    "casual"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "beginner",
+   "difficulty": 1,
+   "sentence_type": "statement",
+   "sentence": "I'm from Canada.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced vowel in I'm",
+   "stress_focus": "Canada",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'I'm from' smoothly",
+   "vocabulary": [
+    {
+     "word": "from",
+     "meaning": "originating in a place"
+    }
+   ],
+   "grammar_focus": "simple present with preposition",
+   "tags": [
+    "intro",
+    "origin"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "Take care.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /k/ sounds",
+   "stress_focus": "care",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "no major linking",
+   "vocabulary": [
+    {
+     "word": "take care",
+     "meaning": "a friendly way to say goodbye"
+    }
+   ],
+   "grammar_focus": "imperative",
+   "tags": [
+    "farewell",
+    "casual"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Where are you from?",
+   "natural_form": "Where ya from?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'are you' to ya",
+   "stress_focus": "where, from",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'where are' as whe-rar",
+   "vocabulary": [
+    {
+     "word": "from",
+     "meaning": "originating in a place"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "intro",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Responses",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "response",
+   "sentence": "I'm doing well, thank you.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /w/ in well",
+   "stress_focus": "well",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'thank you' as than-kyu",
+   "vocabulary": [
+    {
+     "word": "well",
+     "meaning": "in good health"
+    }
+   ],
+   "grammar_focus": "present continuous",
+   "tags": [
+    "response",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "This is my sister, Emma.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /s/ in sister",
+   "stress_focus": "sister, Emma",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'this is' as thi-sis",
+   "vocabulary": [
+    {
+     "word": "sister",
+     "meaning": "a female sibling"
+    }
+   ],
+   "grammar_focus": "demonstrative pronoun this",
+   "tags": [
+    "intro",
+    "family"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "It's nice to see you again.",
+   "natural_form": "It's nice to see ya again.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'you' to ya",
+   "stress_focus": "nice, again",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'see you' as see-yuh",
+   "vocabulary": [
+    {
+     "word": "again",
+     "meaning": "one more time"
+    }
+   ],
+   "grammar_focus": "fixed expression",
+   "tags": [
+    "greetings",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "Goodnight, sleep well.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /n/ cluster in goodnight",
+   "stress_focus": "goodnight, sleep",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'goodnight' as one word",
+   "vocabulary": [
+    {
+     "word": "sleep well",
+     "meaning": "have a good rest"
+    }
+   ],
+   "grammar_focus": "imperative",
+   "tags": [
+    "farewell",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "question",
+   "sentence": "Do you have a business card?",
+   "natural_form": "Do ya have a business card?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'do you' to ya",
+   "stress_focus": "business, card",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'have a' as ha-va",
+   "vocabulary": [
+    {
+     "word": "business card",
+     "meaning": "a small card with your contact info"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "intro",
+    "formal"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "response",
+   "sentence": "Not much, just relaxing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'just' /d\u0292\u0259st/",
+   "stress_focus": "relaxing",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'not much' smoothly",
+   "vocabulary": [
+    {
+     "word": "relaxing",
+     "meaning": "resting, taking it easy"
+    }
+   ],
+   "grammar_focus": "informal response",
+   "tags": [
+    "response",
+    "casual"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "I work at a hospital.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in work",
+   "stress_focus": "hospital",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'work at' as wor-kat",
+   "vocabulary": [
+    {
+     "word": "hospital",
+     "meaning": "a place where sick people are treated"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "intro",
+    "work"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "Long time no see!",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear stress on each word",
+   "stress_focus": "long, time, see",
+   "intonation_focus": "falling tone with emphasis",
+   "connected_speech_focus": "no major linking",
+   "vocabulary": [
+    {
+     "word": "long time no see",
+     "meaning": "said when you haven't seen someone in a while"
+    }
+   ],
+   "grammar_focus": "fixed idiom",
+   "tags": [
+    "greetings",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "Have a good day.",
+   "natural_form": "Have a good day!",
+   "accent": "american",
+   "pronunciation_focus": "clear /d/ sounds",
+   "stress_focus": "good, day",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'have a' as ha-va",
+   "vocabulary": [
+    {
+     "word": "have a good day",
+     "meaning": "a friendly farewell"
+    }
+   ],
+   "grammar_focus": "imperative",
+   "tags": [
+    "farewell",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "beginner",
+   "difficulty": 2,
+   "sentence_type": "statement",
+   "sentence": "I'm twenty-five years old.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear number pronunciation",
+   "stress_focus": "twenty-five",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'years old' smoothly",
+   "vocabulary": [
+    {
+     "word": "years old",
+     "meaning": "age in years"
+    }
+   ],
+   "grammar_focus": "simple present with age",
+   "tags": [
+    "intro",
+    "personal info"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "beginner",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "Can I ask your name?",
+   "natural_form": "Can I ask yer name?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'your' to yer",
+   "stress_focus": "ask, name",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'ask your' smoothly",
+   "vocabulary": [
+    {
+     "word": "ask",
+     "meaning": "to request information"
+    }
+   ],
+   "grammar_focus": "modal question with can",
+   "tags": [
+    "intro",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "Let me introduce myself.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /s/ in myself",
+   "stress_focus": "introduce, myself",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'let me' as le-me",
+   "vocabulary": [
+    {
+     "word": "introduce",
+     "meaning": "to tell someone who you are"
+    }
+   ],
+   "grammar_focus": "imperative with reflexive pronoun",
+   "tags": [
+    "intro",
+    "formal"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "What do you do for a living?",
+   "natural_form": "Whaddaya do for a livin'?",
+   "accent": "american",
+   "pronunciation_focus": "dropped final g in living",
+   "stress_focus": "do, living",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'what do you' as whad-daya",
+   "vocabulary": [
+    {
+     "word": "for a living",
+     "meaning": "as one's job"
+    }
+   ],
+   "grammar_focus": "wh-question, present simple",
+   "tags": [
+    "work",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "response",
+   "sentence": "I work in marketing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "clear /r/ in marketing",
+   "stress_focus": "marketing",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'work in' as wor-kin",
+   "vocabulary": [
+    {
+     "word": "marketing",
+     "meaning": "promoting and selling products"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "work",
+    "response"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "It's great to finally meet you in person.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in finally",
+   "stress_focus": "great, finally, person",
+   "intonation_focus": "falling tone with emphasis on great",
+   "connected_speech_focus": "link 'meet you' as mee-chu",
+   "vocabulary": [
+    {
+     "word": "in person",
+     "meaning": "face to face, not online"
+    }
+   ],
+   "grammar_focus": "adverb placement",
+   "tags": [
+    "greetings",
+    "formal"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I've been living here for three years.",
+   "natural_form": "I've been livin' here for three years.",
+   "accent": "american",
+   "pronunciation_focus": "dropped final g in living",
+   "stress_focus": "living, three, years",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'been living' smoothly",
+   "vocabulary": [
+    {
+     "word": "living",
+     "meaning": "residing, staying"
+    }
+   ],
+   "grammar_focus": "present perfect continuous",
+   "tags": [
+    "intro",
+    "time"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "opinion",
+   "sentence": "The weather's been really nice lately.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'weather's' /\u02c8w\u025b\u00f0\u0259rz/",
+   "stress_focus": "nice, lately",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'been really' smoothly",
+   "vocabulary": [
+    {
+     "word": "lately",
+     "meaning": "recently"
+    }
+   ],
+   "grammar_focus": "present perfect",
+   "tags": [
+    "weather",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "How do you know each other?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /i\u02d0/ in each",
+   "stress_focus": "know, each, other",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'know each' as no-weach",
+   "vocabulary": [
+    {
+     "word": "each other",
+     "meaning": "referring to a mutual relationship"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "intro",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "response",
+   "sentence": "We met at a conference last year.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ cluster in conference",
+   "stress_focus": "met, conference",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'met at' as me-tat",
+   "vocabulary": [
+    {
+     "word": "conference",
+     "meaning": "a large formal meeting"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "intro",
+    "work"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I should get going, it was great catching up.",
+   "natural_form": "I should get goin', it was great catchin' up.",
+   "accent": "american",
+   "pronunciation_focus": "dropped final g sounds",
+   "stress_focus": "should, going, great",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'catching up' as catchin-up",
+   "vocabulary": [
+    {
+     "word": "catching up",
+     "meaning": "talking about what's new"
+    }
+   ],
+   "grammar_focus": "modal should + phrasal verb",
+   "tags": [
+    "farewell",
+    "casual"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "reaction",
+   "sentence": "Wow, I haven't seen you in ages!",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "long vowel emphasis on wow",
+   "stress_focus": "wow, ages",
+   "intonation_focus": "rising exclamation then falling",
+   "connected_speech_focus": "link 'seen you' as see-nyu",
+   "vocabulary": [
+    {
+     "word": "ages",
+     "meaning": "a very long time"
+    }
+   ],
+   "grammar_focus": "present perfect negative",
+   "tags": [
+    "greetings",
+    "reaction"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "question",
+   "sentence": "So, what brings you to the city?",
+   "natural_form": "So, whaddaya doin' in the city?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'what' cluster",
+   "stress_focus": "brings, city",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'brings you' as brin-gyu",
+   "vocabulary": [
+    {
+     "word": "brings you",
+     "meaning": "the reason you came"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "small talk",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "elementary",
+   "difficulty": 3,
+   "sentence_type": "statement",
+   "sentence": "I moved here a couple of months ago.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /v/ in moved",
+   "stress_focus": "moved, couple, months",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'couple of' as cou-pla",
+   "vocabulary": [
+    {
+     "word": "a couple of",
+     "meaning": "a small number of, around two"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "intro",
+    "time"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "I think we've met before, actually.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'we've' /wiv/",
+   "stress_focus": "think, met, actually",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'we've met' smoothly",
+   "vocabulary": [
+    {
+     "word": "actually",
+     "meaning": "in fact, really"
+    }
+   ],
+   "grammar_focus": "present perfect",
+   "tags": [
+    "opinion",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, could you say your name again?",
+   "natural_form": "Sorry, could ya say yer name again?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'could you' to could ya",
+   "stress_focus": "sorry, say, again",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'could you' as cou-dju",
+   "vocabulary": [
+    {
+     "word": "could you",
+     "meaning": "a polite way to ask"
+    }
+   ],
+   "grammar_focus": "polite request with could",
+   "tags": [
+    "clarification",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "It's a pleasure to finally put a face to the name.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /pl/ cluster in pleasure",
+   "stress_focus": "pleasure, finally, face",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'put a' as pu-da",
+   "vocabulary": [
+    {
+     "word": "put a face to the name",
+     "meaning": "to see someone you've only heard about"
+    }
+   ],
+   "grammar_focus": "infinitive of purpose",
+   "tags": [
+    "greetings",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "Are you enjoying the party so far?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in enjoying",
+   "stress_focus": "enjoying, party, far",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'so far' smoothly",
+   "vocabulary": [
+    {
+     "word": "so far",
+     "meaning": "up until now"
+    }
+   ],
+   "grammar_focus": "present continuous question",
+   "tags": [
+    "small talk",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Responses",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "response",
+   "sentence": "Yeah, it's been a lot of fun.",
+   "natural_form": "Yeah, it's been a lotta fun.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'lot of' to lotta",
+   "stress_focus": "fun",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'lot of' as lo-ta",
+   "vocabulary": [
+    {
+     "word": "a lot of fun",
+     "meaning": "very enjoyable"
+    }
+   ],
+   "grammar_focus": "present perfect",
+   "tags": [
+    "response",
+    "casual"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I'm here with a few coworkers.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /k/ in coworkers",
+   "stress_focus": "here, coworkers",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'here with' smoothly",
+   "vocabulary": [
+    {
+     "word": "coworkers",
+     "meaning": "people you work with"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "intro",
+    "work"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "question",
+   "sentence": "Do you know anyone else here?",
+   "natural_form": "Do ya know anyone else here?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'do you' to ya",
+   "stress_focus": "anyone, else",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'know anyone' as no-wenyone",
+   "vocabulary": [
+    {
+     "word": "anyone else",
+     "meaning": "any other person"
+    }
+   ],
+   "grammar_focus": "yes/no question",
+   "tags": [
+    "question",
+    "small talk"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "agreement",
+   "sentence": "Same here, it's been a busy week.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /z/ in busy",
+   "stress_focus": "same, busy, week",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'been a' as bee-na",
+   "vocabulary": [
+    {
+     "word": "same here",
+     "meaning": "I feel the same way"
+    }
+   ],
+   "grammar_focus": "present perfect",
+   "tags": [
+    "agreement",
+    "small talk"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "Let's keep in touch.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in touch",
+   "stress_focus": "keep, touch",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'keep in' as kee-pin",
+   "vocabulary": [
+    {
+     "word": "keep in touch",
+     "meaning": "to continue communicating"
+    }
+   ],
+   "grammar_focus": "imperative with let's",
+   "tags": [
+    "farewell",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "statement",
+   "sentence": "I go by Alex, but my full name's Alexander.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /g/ in go",
+   "stress_focus": "Alex, Alexander",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'go by' smoothly",
+   "vocabulary": [
+    {
+     "word": "go by",
+     "meaning": "to be called by a certain name"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "intro",
+    "name"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, I'm terrible with names.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ in honestly",
+   "stress_focus": "honestly, terrible",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "no major linking",
+   "vocabulary": [
+    {
+     "word": "terrible with names",
+     "meaning": "bad at remembering names"
+    }
+   ],
+   "grammar_focus": "adjective phrase",
+   "tags": [
+    "opinion",
+    "self-deprecating"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "elementary",
+   "difficulty": 4,
+   "sentence_type": "reaction",
+   "sentence": "Oh, I didn't recognize you at first!",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'didn't' /d\u026ad\u0259nt/",
+   "stress_focus": "recognize, first",
+   "intonation_focus": "falling tone with surprise",
+   "connected_speech_focus": "link 'recognize you' as recog-nize-yu",
+   "vocabulary": [
+    {
+     "word": "recognize",
+     "meaning": "to know who someone is from before"
+    }
+   ],
+   "grammar_focus": "simple past negative",
+   "tags": [
+    "reaction",
+    "greetings"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "elementary",
+   "difficulty": 5,
+   "sentence_type": "request",
+   "sentence": "Text me when you get home safe.",
+   "natural_form": "Text me when ya get home safe.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'you' to ya",
+   "stress_focus": "text, home, safe",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'get home' smoothly",
+   "vocabulary": [
+    {
+     "word": "text",
+     "meaning": "to send a message by phone"
+    }
+   ],
+   "grammar_focus": "imperative",
+   "tags": [
+    "farewell",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "We should probably exchange numbers before you head out.",
+   "natural_form": "We should probably exchange numbers before ya head out.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'you' to ya",
+   "stress_focus": "probably, exchange, head out",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'head out' as hea-dout",
+   "vocabulary": [
+    {
+     "word": "head out",
+     "meaning": "to leave"
+    }
+   ],
+   "grammar_focus": "modal should + phrasal verb",
+   "tags": [
+    "small talk",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "I've been meaning to introduce you two for a while now.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'been' /b\u026an/",
+   "stress_focus": "meaning, introduce, while",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'meaning to' smoothly",
+   "vocabulary": [
+    {
+     "word": "meaning to",
+     "meaning": "intending to"
+    }
+   ],
+   "grammar_focus": "present perfect continuous",
+   "tags": [
+    "intro",
+    "connectors"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "question",
+   "sentence": "How's everything been going with the new job?",
+   "natural_form": "How's everything been goin' with the new job?",
+   "accent": "american",
+   "pronunciation_focus": "dropped final g in going",
+   "stress_focus": "everything, going, job",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'been going' smoothly",
+   "vocabulary": [
+    {
+     "word": "how's everything going",
+     "meaning": "a casual way to ask how someone's life is"
+    }
+   ],
+   "grammar_focus": "present perfect continuous",
+   "tags": [
+    "small talk",
+    "work"
+   ]
+  },
+  {
+   "subcategory": "Responses",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "response",
+   "sentence": "Pretty good, actually, thanks for asking.",
+   "natural_form": "Pretty good, actually, thanks for askin'.",
+   "accent": "american",
+   "pronunciation_focus": "dropped final g in asking",
+   "stress_focus": "pretty, actually",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'thanks for' smoothly",
+   "vocabulary": [
+    {
+     "word": "pretty good",
+     "meaning": "fairly good"
+    }
+   ],
+   "grammar_focus": "informal response",
+   "tags": [
+    "response",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "storytelling",
+   "sentence": "We actually ran into each other at the grocery store last week.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ cluster in ran",
+   "stress_focus": "ran into, grocery, last week",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'ran into' as ra-ninto",
+   "vocabulary": [
+    {
+     "word": "ran into",
+     "meaning": "met by chance"
+    }
+   ],
+   "grammar_focus": "phrasal verb, simple past",
+   "tags": [
+    "storytelling",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "clarification",
+   "sentence": "Wait, are we talking about the same Mike?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "emphasis on same",
+   "stress_focus": "wait, same, Mike",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'are we' as ar-we",
+   "vocabulary": [
+    {
+     "word": "the same",
+     "meaning": "identical, not different"
+    }
+   ],
+   "grammar_focus": "present continuous question",
+   "tags": [
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "statement",
+   "sentence": "She's the one who recommended this restaurant to me.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ cluster in recommended",
+   "stress_focus": "recommended, restaurant",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "relative clause linking",
+   "vocabulary": [
+    {
+     "word": "recommended",
+     "meaning": "suggested as good"
+    }
+   ],
+   "grammar_focus": "relative clause with who",
+   "tags": [
+    "intro",
+    "connectors"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "opinion",
+   "sentence": "I get the feeling we've crossed paths before.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /kr/ cluster in crossed",
+   "stress_focus": "feeling, crossed, paths",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'crossed paths' smoothly",
+   "vocabulary": [
+    {
+     "word": "crossed paths",
+     "meaning": "met each other before"
+    }
+   ],
+   "grammar_focus": "present perfect",
+   "tags": [
+    "opinion",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "request",
+   "sentence": "Come on in, make yourself at home.",
+   "natural_form": "Come on in, make yerself at home.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'yourself' to yerself",
+   "stress_focus": "come, make, home",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'come on' as co-mon",
+   "vocabulary": [
+    {
+     "word": "make yourself at home",
+     "meaning": "relax as if you were in your own house"
+    }
+   ],
+   "grammar_focus": "imperative",
+   "tags": [
+    "request",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "question",
+   "sentence": "What's it like working over there?",
+   "natural_form": "Whaddit like workin' over there?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'what's it' cluster",
+   "stress_focus": "working, over there",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'what's it' smoothly",
+   "vocabulary": [
+    {
+     "word": "what's it like",
+     "meaning": "asking someone to describe an experience"
+    }
+   ],
+   "grammar_focus": "wh-question",
+   "tags": [
+    "question",
+    "work"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "storytelling",
+   "sentence": "A mutual friend introduced us at a wedding a few years back.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in mutual",
+   "stress_focus": "mutual, wedding, back",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'introduced us' as introduce-dus",
+   "vocabulary": [
+    {
+     "word": "mutual friend",
+     "meaning": "a friend shared by two people"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "storytelling",
+    "intro"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 5,
+   "sentence_type": "disagreement",
+   "sentence": "Actually, I don't think we've met before.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'don't' /do\u028ant/",
+   "stress_focus": "actually, met, before",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'we've met' smoothly",
+   "vocabulary": [
+    {
+     "word": "actually",
+     "meaning": "used to politely correct someone"
+    }
+   ],
+   "grammar_focus": "present perfect negative",
+   "tags": [
+    "disagreement",
+    "clarification"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "I'll let you get back to it, it was good chatting.",
+   "natural_form": "I'll letcha get back to it, it was good chattin'.",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'let you' to letcha",
+   "stress_focus": "back to it, chatting",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'let you' as le-chu",
+   "vocabulary": [
+    {
+     "word": "get back to it",
+     "meaning": "return to what you were doing"
+    }
+   ],
+   "grammar_focus": "future with will",
+   "tags": [
+    "farewell",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "You seem a lot more relaxed than the last time we spoke.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in relaxed",
+   "stress_focus": "relaxed, last time, spoke",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'more relaxed' smoothly",
+   "vocabulary": [
+    {
+     "word": "relaxed",
+     "meaning": "calm, not stressed"
+    }
+   ],
+   "grammar_focus": "comparative adjective",
+   "tags": [
+    "opinion",
+    "comparison"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "question",
+   "sentence": "Do you mind if I join you guys?",
+   "natural_form": "Do ya mind if I join you guys?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'do you' to ya",
+   "stress_focus": "mind, join, guys",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'join you' as join-yu",
+   "vocabulary": [
+    {
+     "word": "do you mind if",
+     "meaning": "a polite way to ask permission"
+    }
+   ],
+   "grammar_focus": "polite request",
+   "tags": [
+    "question",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "He's my roommate from back in college.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ cluster in roommate",
+   "stress_focus": "roommate, college",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'from back' smoothly",
+   "vocabulary": [
+    {
+     "word": "roommate",
+     "meaning": "someone you share a room or apartment with"
+    }
+   ],
+   "grammar_focus": "simple present",
+   "tags": [
+    "intro",
+    "people"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "reaction",
+   "sentence": "No way, small world! I didn't know you two knew each other.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "emphasis on small world",
+   "stress_focus": "way, small world",
+   "intonation_focus": "rising exclamation",
+   "connected_speech_focus": "link 'didn't know' smoothly",
+   "vocabulary": [
+    {
+     "word": "small world",
+     "meaning": "a phrase said when you find an unexpected connection"
+    }
+   ],
+   "grammar_focus": "past simple negative",
+   "tags": [
+    "reaction",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "agreement",
+   "sentence": "Totally, I was thinking the exact same thing.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in exact",
+   "stress_focus": "totally, exact, same",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'thinking the' smoothly",
+   "vocabulary": [
+    {
+     "word": "exact same thing",
+     "meaning": "identical thought or idea"
+    }
+   ],
+   "grammar_focus": "past continuous",
+   "tags": [
+    "agreement",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "Sorry I'm late, traffic was absolutely brutal.",
+   "natural_form": "Sorry I'm late, traffic was absolutely brutal.",
+   "accent": "american",
+   "pronunciation_focus": "the /tr/ cluster in traffic",
+   "stress_focus": "sorry, absolutely, brutal",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'I'm late' smoothly",
+   "vocabulary": [
+    {
+     "word": "brutal",
+     "meaning": "very difficult or unpleasant"
+    }
+   ],
+   "grammar_focus": "simple past",
+   "tags": [
+    "greetings",
+    "apology"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "opinion",
+   "sentence": "You two would actually get along really well.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ in really",
+   "stress_focus": "get along, really, well",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'get along' as ge-talong",
+   "vocabulary": [
+    {
+     "word": "get along",
+     "meaning": "to have a good relationship"
+    }
+   ],
+   "grammar_focus": "conditional with would",
+   "tags": [
+    "opinion",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "question",
+   "sentence": "What made you decide to move out here?",
+   "natural_form": "Whaddaya decide to move out here?",
+   "accent": "american",
+   "pronunciation_focus": "reduced 'what made you' cluster",
+   "stress_focus": "decide, move out",
+   "intonation_focus": "rising then falling",
+   "connected_speech_focus": "link 'made you' as ma-dyu",
+   "vocabulary": [
+    {
+     "word": "move out here",
+     "meaning": "relocate to this place"
+    }
+   ],
+   "grammar_focus": "wh-question, past simple",
+   "tags": [
+    "question",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Farewells",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "Let's grab coffee sometime and really catch up.",
+   "natural_form": "Let's grab coffee sometime and really catch up.",
+   "accent": "american",
+   "pronunciation_focus": "the /gr/ cluster in grab",
+   "stress_focus": "grab, sometime, catch up",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'catch up' as ca-chup",
+   "vocabulary": [
+    {
+     "word": "catch up",
+     "meaning": "to talk and share news"
+    }
+   ],
+   "grammar_focus": "imperative with let's",
+   "tags": [
+    "farewell",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "clarification",
+   "sentence": "Sorry, I didn't quite catch your name the first time.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in catch",
+   "stress_focus": "quite, catch, first",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'catch your' as catch-yer",
+   "vocabulary": [
+    {
+     "word": "didn't catch",
+     "meaning": "didn't hear or understand clearly"
+    }
+   ],
+   "grammar_focus": "past simple negative",
+   "tags": [
+    "clarification",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "intermediate",
+   "difficulty": 6,
+   "sentence_type": "statement",
+   "sentence": "We go way back, actually, more than ten years now.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /w/ in way",
+   "stress_focus": "way back, actually, years",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'go way' smoothly",
+   "vocabulary": [
+    {
+     "word": "go way back",
+     "meaning": "have known each other for a long time"
+    }
+   ],
+   "grammar_focus": "idiomatic present",
+   "tags": [
+    "intro",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "intermediate",
+   "difficulty": 7,
+   "sentence_type": "reaction",
+   "sentence": "Look who it is! I was just talking about you.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "emphasis on look who",
+   "stress_focus": "look, just, talking",
+   "intonation_focus": "rising exclamation",
+   "connected_speech_focus": "link 'talking about' smoothly",
+   "vocabulary": [
+    {
+     "word": "look who it is",
+     "meaning": "an exclamation of pleasant surprise"
+    }
+   ],
+   "grammar_focus": "past continuous",
+   "tags": [
+    "reaction",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "Funny enough, we actually met years ago at some random networking event, but neither of us remembered until just now.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ clusters in random, remembered",
+   "stress_focus": "funny enough, random, remembered",
+   "intonation_focus": "falling tone with emphasis on funny enough",
+   "connected_speech_focus": "link 'neither of us' smoothly",
+   "vocabulary": [
+    {
+     "word": "funny enough",
+     "meaning": "surprisingly"
+    }
+   ],
+   "grammar_focus": "past perfect with adverbial clause",
+   "tags": [
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "I'd been dreading this introduction all week, but it turned out to be way less awkward than I'd imagined.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /dr/ cluster in dreading",
+   "stress_focus": "dreading, awkward, imagined",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'turned out' smoothly",
+   "vocabulary": [
+    {
+     "word": "dreading",
+     "meaning": "fearing something that's about to happen"
+    }
+   ],
+   "grammar_focus": "past perfect + past simple",
+   "tags": [
+    "opinion",
+    "connectors"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "clarification",
+   "sentence": "Hold on, when you say you two go way back, do you mean like childhood friends, or just acquaintances?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in childhood",
+   "stress_focus": "hold on, childhood, acquaintances",
+   "intonation_focus": "rising intonation on the question",
+   "connected_speech_focus": "link 'do you mean' as do-yu-mean",
+   "vocabulary": [
+    {
+     "word": "acquaintances",
+     "meaning": "people you know slightly but aren't close friends"
+    }
+   ],
+   "grammar_focus": "embedded question",
+   "tags": [
+    "clarification",
+    "question"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "disagreement",
+   "sentence": "I hate to be that person, but I'm pretty sure we've never actually met, even though your face looks familiar.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /f/ in familiar",
+   "stress_focus": "pretty sure, familiar",
+   "intonation_focus": "falling tone with hedging",
+   "connected_speech_focus": "link 'looks familiar' smoothly",
+   "vocabulary": [
+    {
+     "word": "hedging",
+     "meaning": "softening a statement to avoid sounding rude"
+    }
+   ],
+   "grammar_focus": "concessive clause with even though",
+   "tags": [
+    "disagreement",
+    "politeness"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "So get this, it turns out her cousin used to date my roommate, small world, right?",
+   "natural_form": "So get this, it turns out her cousin used to date my roommate, small world, right?",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in cousin",
+   "stress_focus": "get this, turns out, small world",
+   "intonation_focus": "rising then falling, tag question rise",
+   "connected_speech_focus": "link 'used to' as use-ta",
+   "vocabulary": [
+    {
+     "word": "used to",
+     "meaning": "did something regularly in the past"
+    }
+   ],
+   "grammar_focus": "used to + tag question",
+   "tags": [
+    "storytelling",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "opinion",
+   "sentence": "Honestly, first impressions can be so misleading, she came across as standoffish at first, but she's actually hilarious.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0283/ in misleading, standoffish",
+   "stress_focus": "misleading, standoffish, hilarious",
+   "intonation_focus": "falling tone with contrast",
+   "connected_speech_focus": "link 'came across' smoothly",
+   "vocabulary": [
+    {
+     "word": "standoffish",
+     "meaning": "cold or unfriendly at first"
+    }
+   ],
+   "grammar_focus": "contrastive clause with but",
+   "tags": [
+    "opinion",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "question",
+   "sentence": "Would you mind terribly if I introduced you as my plus-one, or would that be weird given everything?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /t\u0283/ in terribly",
+   "stress_focus": "terribly, plus-one, weird",
+   "intonation_focus": "rising intonation, softened by would",
+   "connected_speech_focus": "link 'introduced you' as introduce-dyu",
+   "vocabulary": [
+    {
+     "word": "plus-one",
+     "meaning": "a guest you bring to an event"
+    }
+   ],
+   "grammar_focus": "polite conditional question",
+   "tags": [
+    "question",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "advanced",
+   "difficulty": 7,
+   "sentence_type": "storytelling",
+   "sentence": "I almost didn't recognize her, she's completely changed her look since we last hung out.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u014b/ in hung",
+   "stress_focus": "almost, recognize, completely",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'hung out' as hun-gout",
+   "vocabulary": [
+    {
+     "word": "hung out",
+     "meaning": "spent casual time together"
+    }
+   ],
+   "grammar_focus": "past simple with almost",
+   "tags": [
+    "storytelling",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "agreement",
+   "sentence": "You're telling me, I nearly walked right past him because he shaved his beard off.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /v/ in shaved",
+   "stress_focus": "telling me, nearly, shaved",
+   "intonation_focus": "falling tone with emphatic agreement",
+   "connected_speech_focus": "link 'walked right' smoothly",
+   "vocabulary": [
+    {
+     "word": "you're telling me",
+     "meaning": "an expression of strong agreement"
+    }
+   ],
+   "grammar_focus": "past simple with intensifier nearly",
+   "tags": [
+    "agreement",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "clarification",
+   "sentence": "Just to clear things up, when I said we go back, I meant we grew up on the same street, not that we're related.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /kl/ cluster in clear",
+   "stress_focus": "clear things up, grew up, related",
+   "intonation_focus": "falling tone with clarifying emphasis",
+   "connected_speech_focus": "link 'grew up' smoothly",
+   "vocabulary": [
+    {
+     "word": "clear things up",
+     "meaning": "to explain and remove confusion"
+    }
+   ],
+   "grammar_focus": "reported speech with meant",
+   "tags": [
+    "clarification",
+    "connectors"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "There's something about meeting people through mutual friends that makes the whole thing feel less forced, you know?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u0292/ sound in mutual",
+   "stress_focus": "mutual, forced, feel",
+   "intonation_focus": "falling tone with tag question rise",
+   "connected_speech_focus": "link 'makes the' smoothly",
+   "vocabulary": [
+    {
+     "word": "forced",
+     "meaning": "not natural, awkward"
+    }
+   ],
+   "grammar_focus": "relative clause with that",
+   "tags": [
+    "opinion",
+    "tag question"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "reaction",
+   "sentence": "I can't believe it's actually you, I thought you moved overseas years ago!",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /v/ in overseas",
+   "stress_focus": "can't believe, overseas, years",
+   "intonation_focus": "rising exclamation then falling",
+   "connected_speech_focus": "link 'thought you' as though-chu",
+   "vocabulary": [
+    {
+     "word": "overseas",
+     "meaning": "in or to a foreign country across the ocean"
+    }
+   ],
+   "grammar_focus": "past continuous belief, past simple",
+   "tags": [
+    "reaction",
+    "surprise"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "storytelling",
+   "sentence": "By the time we finally got introduced properly, we'd already been messaging back and forth for weeks without knowing it.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in messaging",
+   "stress_focus": "by the time, properly, messaging",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'back and forth' smoothly",
+   "vocabulary": [
+    {
+     "word": "back and forth",
+     "meaning": "exchanging messages repeatedly"
+    }
+   ],
+   "grammar_focus": "past perfect continuous",
+   "tags": [
+    "storytelling",
+    "connectors"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "disagreement",
+   "sentence": "I wouldn't exactly call us close, we've only really spoken a handful of times, if that.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /h/ in handful",
+   "stress_focus": "wouldn't exactly, handful, if that",
+   "intonation_focus": "falling tone with downplaying emphasis",
+   "connected_speech_focus": "link 'spoken a' smoothly",
+   "vocabulary": [
+    {
+     "word": "a handful of",
+     "meaning": "a small number of"
+    }
+   ],
+   "grammar_focus": "present perfect with hedge",
+   "tags": [
+    "disagreement",
+    "hedging"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "question",
+   "sentence": "Isn't it a bit strange how you can know someone for years and still not really know much about them?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /st/ cluster in strange",
+   "stress_focus": "strange, know, much",
+   "intonation_focus": "rising then falling, rhetorical",
+   "connected_speech_focus": "link 'know someone' smoothly",
+   "vocabulary": [
+    {
+     "word": "rhetorical question",
+     "meaning": "a question asked to make a point, not for an answer"
+    }
+   ],
+   "grammar_focus": "rhetorical question",
+   "tags": [
+    "question",
+    "opinion"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "advanced",
+   "difficulty": 8,
+   "sentence_type": "opinion",
+   "sentence": "There's a real art to remembering people's names, and honestly, I've never quite mastered it.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ cluster in art, remembering",
+   "stress_focus": "art, remembering, mastered",
+   "intonation_focus": "falling tone with self-deprecating tone",
+   "connected_speech_focus": "link 'never quite' smoothly",
+   "vocabulary": [
+    {
+     "word": "mastered",
+     "meaning": "become fully skilled at something"
+    }
+   ],
+   "grammar_focus": "present perfect negative",
+   "tags": [
+    "opinion",
+    "self-deprecating"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "We got talking at a bus stop of all places, and now, five years later, she's one of my closest friends.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /kl/ cluster in closest",
+   "stress_focus": "of all places, closest, friends",
+   "intonation_focus": "falling tone with contrast on now",
+   "connected_speech_focus": "link 'got talking' smoothly",
+   "vocabulary": [
+    {
+     "word": "of all places",
+     "meaning": "emphasizing how unlikely or unusual a location was"
+    }
+   ],
+   "grammar_focus": "past simple with time contrast",
+   "tags": [
+    "storytelling",
+    "connectors"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "clarification",
+   "sentence": "When you introduce me, could you maybe leave out the part about the incident at my last job?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d\u0292/ in incident",
+   "stress_focus": "introduce, incident, job",
+   "intonation_focus": "rising intonation, softened request",
+   "connected_speech_focus": "link 'leave out' as lea-vout",
+   "vocabulary": [
+    {
+     "word": "leave out",
+     "meaning": "to omit or not mention"
+    }
+   ],
+   "grammar_focus": "polite embedded request",
+   "tags": [
+    "clarification",
+    "request"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "I always find it a little awkward introducing two friend groups that have never crossed paths before.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /kw/ cluster in awkward",
+   "stress_focus": "awkward, crossed paths, before",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'crossed paths' smoothly",
+   "vocabulary": [
+    {
+     "word": "friend groups",
+     "meaning": "separate circles of friends"
+    }
+   ],
+   "grammar_focus": "gerund as object",
+   "tags": [
+    "opinion",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "storytelling",
+   "sentence": "The last time I saw him, he was still in university, so seeing him show up in a suit threw me off completely.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /\u03b8/ in threw",
+   "stress_focus": "university, suit, threw me off",
+   "intonation_focus": "falling tone with contrast",
+   "connected_speech_focus": "link 'threw me off' smoothly",
+   "vocabulary": [
+    {
+     "word": "threw me off",
+     "meaning": "surprised or confused me"
+    }
+   ],
+   "grammar_focus": "past simple with contrast connector so",
+   "tags": [
+    "storytelling",
+    "phrasal verb"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "agreement",
+   "sentence": "Right, exactly, that's basically how I ended up meeting half the people at this party in the first place.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /z/ in basically",
+   "stress_focus": "basically, ended up, first place",
+   "intonation_focus": "falling tone with confirming emphasis",
+   "connected_speech_focus": "link 'ended up' as en-dedup",
+   "vocabulary": [
+    {
+     "word": "in the first place",
+     "meaning": "originally, to begin with"
+    }
+   ],
+   "grammar_focus": "past simple with connectors",
+   "tags": [
+    "agreement",
+    "connectors"
+   ]
+  },
+  {
+   "subcategory": "Introductions",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "request",
+   "sentence": "Before you introduce us, just give me a heads-up on anything I should avoid bringing up, okay?",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /d/ cluster in heads-up",
+   "stress_focus": "heads-up, avoid, bringing up",
+   "intonation_focus": "falling tone with polite request",
+   "connected_speech_focus": "link 'give me' as gi-me",
+   "vocabulary": [
+    {
+     "word": "heads-up",
+     "meaning": "advance warning or information"
+    }
+   ],
+   "grammar_focus": "imperative with conditional clause",
+   "tags": [
+    "request",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "opinion",
+   "sentence": "It's funny how some introductions just click right away, and others take forever to feel natural.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /kl/ cluster in click",
+   "stress_focus": "click, forever, natural",
+   "intonation_focus": "falling tone with contrast",
+   "connected_speech_focus": "link 'take forever' smoothly",
+   "vocabulary": [
+    {
+     "word": "click",
+     "meaning": "to instantly get along with someone"
+    }
+   ],
+   "grammar_focus": "comparative contrast clause",
+   "tags": [
+    "opinion",
+    "idiom"
+   ]
+  },
+  {
+   "subcategory": "Greetings",
+   "level": "advanced",
+   "difficulty": 9,
+   "sentence_type": "disagreement",
+   "sentence": "I get what you're saying, but I really don't think this is the right moment to introduce that topic.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /r/ cluster in right, moment",
+   "stress_focus": "right moment, introduce, topic",
+   "intonation_focus": "falling tone with polite disagreement",
+   "connected_speech_focus": "link 'don't think' smoothly",
+   "vocabulary": [
+    {
+     "word": "the right moment",
+     "meaning": "an appropriate or well-timed occasion"
+    }
+   ],
+   "grammar_focus": "polite disagreement with concession",
+   "tags": [
+    "disagreement",
+    "polite"
+   ]
+  },
+  {
+   "subcategory": "Small talk",
+   "level": "advanced",
+   "difficulty": 10,
+   "sentence_type": "storytelling",
+   "sentence": "We ended up talking for hours that first night, and looking back, I think that's when I knew we'd stay friends.",
+   "natural_form": "",
+   "accent": "american",
+   "pronunciation_focus": "the /a\u028a/ diphthong in ended, hours",
+   "stress_focus": "ended up, looking back, knew",
+   "intonation_focus": "falling tone",
+   "connected_speech_focus": "link 'ended up' as en-dedup",
+   "vocabulary": [
+    {
+     "word": "looking back",
+     "meaning": "reflecting on the past"
+    }
+   ],
+   "grammar_focus": "past perfect insight with looking back",
+   "tags": [
+    "storytelling",
+    "reflection"
+   ]
+  }
+ ]
+}

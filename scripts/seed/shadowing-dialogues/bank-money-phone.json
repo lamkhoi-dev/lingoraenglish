@@ -1,0 +1,41 @@
+{
+  "topic_slug": "bank-money-phone",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Opening an account",
+      "turns": [
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Hi, I'd like to open a bank account.", "is_free": true },
+        { "speaker_label": "Teller", "speaker_voice": "alloy", "sentence": "Sure. Do you have your ID with you?", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Yes, here's my passport.", "is_free": true },
+        { "speaker_label": "Teller", "speaker_voice": "alloy", "sentence": "Perfect. Would you like a savings account or a checking account?", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "A checking account, please.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Phone banking",
+      "turns": [
+        { "speaker_label": "Agent", "speaker_voice": "coral", "sentence": "Thank you for calling. Can I get your account number to verify your identity?", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "sage", "sentence": "Sure, it's ending in 4471. I'm calling about a charge I don't recognize.", "is_free": false },
+        { "speaker_label": "Agent", "speaker_voice": "coral", "sentence": "I see it here — a charge of $45 from yesterday. Does that ring a bell at all?", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "sage", "sentence": "No, definitely not. I haven't used my card since last week.", "is_free": false },
+        { "speaker_label": "Agent", "speaker_voice": "coral", "sentence": "In that case, let's dispute the charge and get you a replacement card right away.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Loan discussion",
+      "turns": [
+        { "speaker_label": "Advisor", "speaker_voice": "nova", "sentence": "Based on your income and credit history, you'd likely qualify for a more favorable interest rate than the standard offer.", "is_free": false },
+        { "speaker_label": "Client", "speaker_voice": "shimmer", "sentence": "That's good to hear — could you break down how the repayment schedule would actually work?", "is_free": false },
+        { "speaker_label": "Advisor", "speaker_voice": "nova", "sentence": "Of course. You'd have the option of fixed monthly payments over five or seven years, whichever suits your budget better.", "is_free": false },
+        { "speaker_label": "Client", "speaker_voice": "shimmer", "sentence": "I'd lean toward the longer term, just to keep the monthly payments manageable.", "is_free": false },
+        { "speaker_label": "Advisor", "speaker_voice": "nova", "sentence": "That's a sensible approach — I'll draw up the paperwork with that structure in mind.", "is_free": false }
+      ]
+    }
+  ]
+}

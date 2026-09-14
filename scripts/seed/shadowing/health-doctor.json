@@ -1,0 +1,2487 @@
+{
+  "slug": "health-doctor",
+  "name": "Health, Doctor & Pharmacy",
+  "topic_group": "Everyday English",
+  "blurb": "Talk naturally about symptoms, doctor visits, and the pharmacy.",
+  "sort_order": 6,
+  "sentences": [
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I have a headache.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel in 'headache'",
+      "stress_focus": "stress on HEAD-ache",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "headache",
+          "meaning": "pain in your head"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "symptoms",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "My throat hurts.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "th sound in 'throat'",
+      "stress_focus": "stress on THROAT",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "hurts",
+          "meaning": "causes pain"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "symptoms",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I feel sick today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 's' in 'sick'",
+      "stress_focus": "stress on SICK",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "feel sick",
+          "meaning": "not feeling well"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "symptoms",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Are you okay?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising pitch on 'okay'",
+      "stress_focus": "stress on OKAY",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "okay",
+          "meaning": "fine, well"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "health",
+        "question",
+        "concern"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I have a fever.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'v' in 'fever'",
+      "stress_focus": "stress on FE-ver",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "fever",
+          "meaning": "high body temperature"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Can I see a doctor?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'can I'",
+      "stress_focus": "stress on DOC-tor",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "can-I linked",
+      "vocabulary": [
+        {
+          "word": "see a doctor",
+          "meaning": "visit a doctor"
+        }
+      ],
+      "grammar_focus": "modal verb request",
+      "tags": [
+        "health",
+        "request",
+        "doctor"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "Yes, come right in.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'right in'",
+      "stress_focus": "stress on RIGHT",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "right-in linked",
+      "vocabulary": [
+        {
+          "word": "right in",
+          "meaning": "immediately, now"
+        }
+      ],
+      "grammar_focus": "imperative",
+      "tags": [
+        "health",
+        "response",
+        "doctor"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need some medicine.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'ss' in 'medicine'",
+      "stress_focus": "stress on MED-i-cine",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "medicine",
+          "meaning": "drug that treats illness"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "pharmacy",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Do you have aspirin?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'have aspirin'",
+      "stress_focus": "stress on AS-pirin",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "have-aspirin linked",
+      "vocabulary": [
+        {
+          "word": "aspirin",
+          "meaning": "pain relief medicine"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "health",
+        "pharmacy",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My stomach hurts a lot.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'ch' in 'stomach'",
+      "stress_focus": "stress on STOM-ach",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "stomach",
+          "meaning": "belly, abdomen"
+        }
+      ],
+      "grammar_focus": "adverb of degree",
+      "tags": [
+        "health",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I have an appointment today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 't' in 'appointment'",
+      "stress_focus": "stress on ap-POINT-ment",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "an-appointment linked",
+      "vocabulary": [
+        {
+          "word": "appointment",
+          "meaning": "scheduled meeting time"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "doctor",
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What's wrong with you?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'what's'",
+      "stress_focus": "stress on WRONG",
+      "intonation_focus": "rising then falling",
+      "connected_speech_focus": "what's-wrong linked",
+      "vocabulary": [
+        {
+          "word": "what's wrong",
+          "meaning": "what's the problem"
+        }
+      ],
+      "grammar_focus": "contraction with question word",
+      "tags": [
+        "health",
+        "question",
+        "concern"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I feel dizzy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'zz' in 'dizzy'",
+      "stress_focus": "stress on DIZ-zy",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "dizzy",
+          "meaning": "feeling unsteady, spinning"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Please give me the pills.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'p' sounds",
+      "stress_focus": "stress on PILLS",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "give-me linked",
+      "vocabulary": [
+        {
+          "word": "pills",
+          "meaning": "tablets of medicine"
+        }
+      ],
+      "grammar_focus": "imperative request",
+      "tags": [
+        "health",
+        "pharmacy",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need to rest.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 't' in 'rest'",
+      "stress_focus": "stress on REST",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "rest",
+          "meaning": "relax, take a break"
+        }
+      ],
+      "grammar_focus": "infinitive of purpose",
+      "tags": [
+        "health",
+        "advice"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I have a cold.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'c' in 'cold'",
+      "stress_focus": "stress on COLD",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "cold",
+          "meaning": "common minor illness"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "symptoms",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Is it serious?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "rising pitch on 'serious'",
+      "stress_focus": "stress on SE-ri-ous",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "is-it linked",
+      "vocabulary": [
+        {
+          "word": "serious",
+          "meaning": "important or dangerous"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "health",
+        "question",
+        "concern"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "This is a small pharmacy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'ph' in 'pharmacy'",
+      "stress_focus": "stress on PHAR-ma-cy",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "pharmacy",
+          "meaning": "store that sells medicine"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I can't stop coughing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'can't'",
+      "stress_focus": "stress on COUGH-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "can't linked with stop",
+      "vocabulary": [
+        {
+          "word": "coughing",
+          "meaning": "pushing air from lungs loudly"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "health",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "Thanks for your help, doctor.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'thanks for'",
+      "stress_focus": "stress on HELP",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "thanks-for linked",
+      "vocabulary": [
+        {
+          "word": "thanks for",
+          "meaning": "expression of gratitude"
+        }
+      ],
+      "grammar_focus": "prepositional phrase",
+      "tags": [
+        "health",
+        "response",
+        "gratitude"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I need a prescription.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'scr' in 'prescription'",
+      "stress_focus": "stress on pre-SCRIP-tion",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "prescription",
+          "meaning": "doctor's order for medicine"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I broke my arm.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'oke' in 'broke'",
+      "stress_focus": "stress on ARM",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "broke",
+          "meaning": "fractured, past tense of break"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "health",
+        "symptoms",
+        "injury"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "When is my appointment?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'when-is'",
+      "stress_focus": "stress on AP-point-ment",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "when-is linked",
+      "vocabulary": [
+        {
+          "word": "appointment",
+          "meaning": "scheduled visit"
+        }
+      ],
+      "grammar_focus": "wh-question",
+      "tags": [
+        "health",
+        "question",
+        "schedule"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Can you fill this prescription?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'can-you'",
+      "stress_focus": "stress on FILL",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "can-you reduced to 'kinya'",
+      "vocabulary": [
+        {
+          "word": "fill a prescription",
+          "meaning": "prepare the medicine ordered"
+        }
+      ],
+      "grammar_focus": "modal verb request",
+      "tags": [
+        "health",
+        "pharmacy",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I haven't been sleeping well.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'haven't'",
+      "stress_focus": "stress on SLEEP-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "haven't-been linked",
+      "vocabulary": [
+        {
+          "word": "sleeping well",
+          "meaning": "getting good rest"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "health",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I've had this cough for a week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I've'",
+      "stress_focus": "stress on WEEK",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I've-had linked",
+      "vocabulary": [
+        {
+          "word": "cough",
+          "meaning": "forceful expel of air from lungs"
+        }
+      ],
+      "grammar_focus": "present perfect tense",
+      "tags": [
+        "health",
+        "symptoms",
+        "duration"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "My back has been sore lately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'sore'",
+      "stress_focus": "stress on SORE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "has-been reduced",
+      "vocabulary": [
+        {
+          "word": "sore",
+          "meaning": "painful, aching"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "health",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How often should I take this?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'should-I'",
+      "stress_focus": "stress on OF-ten",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "should-I reduced",
+      "vocabulary": [
+        {
+          "word": "how often",
+          "meaning": "how frequently"
+        }
+      ],
+      "grammar_focus": "modal verb question",
+      "tags": [
+        "health",
+        "pharmacy",
+        "dosage"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "I'll try to rest more.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I'll'",
+      "stress_focus": "stress on REST",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I'll-try linked",
+      "vocabulary": [
+        {
+          "word": "try to",
+          "meaning": "attempt to"
+        }
+      ],
+      "grammar_focus": "future tense with will",
+      "tags": [
+        "health",
+        "response",
+        "advice"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I get headaches almost every day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'almost'",
+      "stress_focus": "stress on AL-most",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "almost every day",
+          "meaning": "nearly daily"
+        }
+      ],
+      "grammar_focus": "simple present with frequency",
+      "tags": [
+        "health",
+        "symptoms",
+        "frequency"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "This medicine makes me sleepy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'sleepy'",
+      "stress_focus": "stress on SLEE-py",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "makes-me linked",
+      "vocabulary": [
+        {
+          "word": "sleepy",
+          "meaning": "feeling tired, drowsy"
+        }
+      ],
+      "grammar_focus": "causative verb",
+      "tags": [
+        "health",
+        "pharmacy",
+        "side effects"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Do I need any tests?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'do-I'",
+      "stress_focus": "stress on TESTS",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "do-I reduced",
+      "vocabulary": [
+        {
+          "word": "tests",
+          "meaning": "medical exams"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "health",
+        "question",
+        "doctor"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I feel much better now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'much'",
+      "stress_focus": "stress on BET-ter",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "much better",
+          "meaning": "greatly improved"
+        }
+      ],
+      "grammar_focus": "comparative adjective",
+      "tags": [
+        "health",
+        "recovery"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Could I get a refill on this?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'could-I'",
+      "stress_focus": "stress on RE-fill",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "could-I reduced",
+      "vocabulary": [
+        {
+          "word": "refill",
+          "meaning": "more of the same medicine"
+        }
+      ],
+      "grammar_focus": "modal verb request",
+      "tags": [
+        "health",
+        "pharmacy",
+        "request"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I think I just need some sleep.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'I think'",
+      "stress_focus": "stress on SLEEP",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I-think reduced",
+      "vocabulary": [
+        {
+          "word": "I think",
+          "meaning": "expressing an opinion"
+        }
+      ],
+      "grammar_focus": "opinion clause",
+      "tags": [
+        "health",
+        "opinion",
+        "advice"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "My allergies are really bad this year.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'allergies'",
+      "stress_focus": "stress on AL-ler-gies",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "allergies",
+          "meaning": "immune reactions to substances"
+        }
+      ],
+      "grammar_focus": "simple present tense",
+      "tags": [
+        "health",
+        "symptoms",
+        "seasonal"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Can you check my blood pressure?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'blood-pressure'",
+      "stress_focus": "stress on PRES-sure",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "can-you reduced",
+      "vocabulary": [
+        {
+          "word": "blood pressure",
+          "meaning": "force of blood in arteries"
+        }
+      ],
+      "grammar_focus": "modal verb question",
+      "tags": [
+        "health",
+        "doctor",
+        "checkup"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I ran out of my pills.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb 'ran out'",
+      "stress_focus": "stress on RAN OUT",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "ran-out linked",
+      "vocabulary": [
+        {
+          "word": "ran out of",
+          "meaning": "used up completely"
+        }
+      ],
+      "grammar_focus": "phrasal verb",
+      "tags": [
+        "health",
+        "pharmacy",
+        "phrasal verb"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I twisted my ankle yesterday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'twisted'",
+      "stress_focus": "stress on TWIST-ed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "twisted",
+          "meaning": "injured by turning sharply"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "health",
+        "injury"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "The doctor gave me some good advice.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'advice'",
+      "stress_focus": "stress on ad-VICE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "gave-me linked",
+      "vocabulary": [
+        {
+          "word": "advice",
+          "meaning": "guidance or recommendations"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "health",
+        "doctor"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Is this available over the counter?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'over-the'",
+      "stress_focus": "stress on COUN-ter",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "over-the reduced",
+      "vocabulary": [
+        {
+          "word": "over the counter",
+          "meaning": "sold without a prescription"
+        }
+      ],
+      "grammar_focus": "passive voice",
+      "tags": [
+        "health",
+        "pharmacy",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I've lost my appetite lately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I've'",
+      "stress_focus": "stress on AP-pe-tite",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I've-lost linked",
+      "vocabulary": [
+        {
+          "word": "lost my appetite",
+          "meaning": "don't feel like eating"
+        }
+      ],
+      "grammar_focus": "present perfect tense",
+      "tags": [
+        "health",
+        "symptoms",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, could you repeat that?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'could-you'",
+      "stress_focus": "stress on RE-peat",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "could-you reduced",
+      "vocabulary": [
+        {
+          "word": "repeat",
+          "meaning": "say again"
+        }
+      ],
+      "grammar_focus": "polite request clause",
+      "tags": [
+        "health",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "The pharmacist explained the side effects.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'pharmacist'",
+      "stress_focus": "stress on PHAR-ma-cist",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "side effects",
+          "meaning": "unwanted reactions to a drug"
+        }
+      ],
+      "grammar_focus": "simple past tense",
+      "tags": [
+        "health",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I think I pulled a muscle.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'pulled'",
+      "stress_focus": "stress on MUS-cle",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I-think reduced",
+      "vocabulary": [
+        {
+          "word": "pulled a muscle",
+          "meaning": "strained a muscle"
+        }
+      ],
+      "grammar_focus": "opinion clause with past tense",
+      "tags": [
+        "health",
+        "injury",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "agreement",
+      "sentence": "Yeah, that sounds like a good plan.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "informal 'yeah'",
+      "stress_focus": "stress on PLAN",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "sounds-like linked",
+      "vocabulary": [
+        {
+          "word": "sounds like",
+          "meaning": "seems to be"
+        }
+      ],
+      "grammar_focus": "agreement expression",
+      "tags": [
+        "health",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Do you take insurance here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'take-insurance'",
+      "stress_focus": "stress on IN-sur-ance",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "take-insurance linked",
+      "vocabulary": [
+        {
+          "word": "insurance",
+          "meaning": "plan that helps pay for care"
+        }
+      ],
+      "grammar_focus": "yes/no question",
+      "tags": [
+        "health",
+        "pharmacy",
+        "payment"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I've been feeling really tired lately.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I've'",
+      "stress_focus": "stress on TIRED",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I've-been linked",
+      "vocabulary": [
+        {
+          "word": "lately",
+          "meaning": "recently"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "health",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "reaction",
+      "sentence": "Oh no, that doesn't sound good.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'doesn't'",
+      "stress_focus": "stress on GOOD",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "doesn't-sound linked",
+      "vocabulary": [
+        {
+          "word": "doesn't sound good",
+          "meaning": "seems bad or worrying"
+        }
+      ],
+      "grammar_focus": "negative contraction",
+      "tags": [
+        "health",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I need to pick up my prescription.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb 'pick up'",
+      "stress_focus": "stress on PICK UP",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "pick-up linked",
+      "vocabulary": [
+        {
+          "word": "pick up",
+          "meaning": "collect, retrieve"
+        }
+      ],
+      "grammar_focus": "phrasal verb with infinitive",
+      "tags": [
+        "health",
+        "pharmacy",
+        "phrasal verb"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "storytelling",
+      "sentence": "I woke up with a terrible sore throat this morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'terrible'",
+      "stress_focus": "stress on TER-ri-ble",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "woke-up linked",
+      "vocabulary": [
+        {
+          "word": "woke up",
+          "meaning": "stopped sleeping"
+        }
+      ],
+      "grammar_focus": "past tense narrative",
+      "tags": [
+        "health",
+        "storytelling",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I've been dealing with this back pain for months.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb 'dealing with'",
+      "stress_focus": "stress on MONTHS",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "dealing-with linked",
+      "vocabulary": [
+        {
+          "word": "dealing with",
+          "meaning": "coping with, handling"
+        }
+      ],
+      "grammar_focus": "present perfect continuous",
+      "tags": [
+        "health",
+        "symptoms",
+        "duration"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "Do you know if this is contagious?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'do-you'",
+      "stress_focus": "stress on con-TA-gious",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "do-you reduced",
+      "vocabulary": [
+        {
+          "word": "contagious",
+          "meaning": "able to spread to others"
+        }
+      ],
+      "grammar_focus": "embedded question",
+      "tags": [
+        "health",
+        "question",
+        "illness"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "I'm not really sure this medicine is working.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I'm'",
+      "stress_focus": "stress on WORK-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I'm-not reduced",
+      "vocabulary": [
+        {
+          "word": "working",
+          "meaning": "having the intended effect"
+        }
+      ],
+      "grammar_focus": "opinion with present continuous",
+      "tags": [
+        "health",
+        "opinion",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "request",
+      "sentence": "Could you write that down for me, please?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'write-that'",
+      "stress_focus": "stress on DOWN",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "write-it-down reduced",
+      "vocabulary": [
+        {
+          "word": "write down",
+          "meaning": "put in writing"
+        }
+      ],
+      "grammar_focus": "phrasal verb request",
+      "tags": [
+        "health",
+        "request",
+        "doctor"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "I sprained my wrist while playing basketball last weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'sprained'",
+      "stress_focus": "stress on SPRAINED",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "while-playing linked",
+      "vocabulary": [
+        {
+          "word": "sprained",
+          "meaning": "injured a joint by twisting"
+        }
+      ],
+      "grammar_focus": "past continuous with main clause",
+      "tags": [
+        "health",
+        "storytelling",
+        "injury"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Wait, so I need to take this twice a day?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'so-I'",
+      "stress_focus": "stress on TWICE",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "twice-a-day reduced",
+      "vocabulary": [
+        {
+          "word": "twice a day",
+          "meaning": "two times each day"
+        }
+      ],
+      "grammar_focus": "clarifying question",
+      "tags": [
+        "health",
+        "clarification",
+        "dosage"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "question",
+      "sentence": "Is there a generic version of this drug?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'generic'",
+      "stress_focus": "stress on ge-NER-ic",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "is-there reduced",
+      "vocabulary": [
+        {
+          "word": "generic version",
+          "meaning": "cheaper equivalent brand"
+        }
+      ],
+      "grammar_focus": "existential question",
+      "tags": [
+        "health",
+        "pharmacy",
+        "cost"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "Actually, I don't think that's the problem.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'don't'",
+      "stress_focus": "stress on PROB-lem",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "don't-think linked",
+      "vocabulary": [
+        {
+          "word": "actually",
+          "meaning": "used to correct or disagree"
+        }
+      ],
+      "grammar_focus": "disagreement clause",
+      "tags": [
+        "health",
+        "disagreement"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "My symptoms seem to be getting worse every day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'symptoms'",
+      "stress_focus": "stress on WORSE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "seem-to reduced",
+      "vocabulary": [
+        {
+          "word": "getting worse",
+          "meaning": "becoming more severe"
+        }
+      ],
+      "grammar_focus": "comparative with present continuous",
+      "tags": [
+        "health",
+        "symptoms",
+        "progress"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think we should run some blood tests.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'honestly'",
+      "stress_focus": "stress on BLOOD",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "should-run linked",
+      "vocabulary": [
+        {
+          "word": "run tests",
+          "meaning": "perform medical examinations"
+        }
+      ],
+      "grammar_focus": "modal opinion clause",
+      "tags": [
+        "health",
+        "opinion",
+        "doctor"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Would you mind explaining how to take this correctly?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'would-you'",
+      "stress_focus": "stress on COR-rect-ly",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "would-you-mind reduced",
+      "vocabulary": [
+        {
+          "word": "correctly",
+          "meaning": "in the right way"
+        }
+      ],
+      "grammar_focus": "polite request with gerund",
+      "tags": [
+        "health",
+        "request",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "I've had this weird pain in my chest since Tuesday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I've'",
+      "stress_focus": "stress on CHEST",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I've-had linked",
+      "vocabulary": [
+        {
+          "word": "weird",
+          "meaning": "strange, unusual"
+        }
+      ],
+      "grammar_focus": "present perfect with time marker",
+      "tags": [
+        "health",
+        "storytelling",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "agreement",
+      "sentence": "Yeah, I've noticed the same thing happening to me.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "informal 'yeah'",
+      "stress_focus": "stress on SAME",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "I've-noticed linked",
+      "vocabulary": [
+        {
+          "word": "noticed",
+          "meaning": "became aware of"
+        }
+      ],
+      "grammar_focus": "agreement with present perfect",
+      "tags": [
+        "health",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "question",
+      "sentence": "How long do you think it'll take to heal?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'it'll'",
+      "stress_focus": "stress on HEAL",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "it'll-take reduced",
+      "vocabulary": [
+        {
+          "word": "heal",
+          "meaning": "recover, get better"
+        }
+      ],
+      "grammar_focus": "embedded wh-question",
+      "tags": [
+        "health",
+        "question",
+        "recovery"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "The pharmacist recommended I switch to a different brand.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'recommended'",
+      "stress_focus": "stress on rec-om-MEND-ed",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "none",
+      "vocabulary": [
+        {
+          "word": "switch",
+          "meaning": "change to something else"
+        }
+      ],
+      "grammar_focus": "reported suggestion",
+      "tags": [
+        "health",
+        "pharmacy",
+        "recommendation"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "reaction",
+      "sentence": "Wow, I really didn't expect that diagnosis at all.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'didn't'",
+      "stress_focus": "stress on DI-ag-NO-sis",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "didn't-expect linked",
+      "vocabulary": [
+        {
+          "word": "diagnosis",
+          "meaning": "identification of an illness"
+        }
+      ],
+      "grammar_focus": "emphatic negative past",
+      "tags": [
+        "health",
+        "reaction"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "storytelling",
+      "sentence": "I've been coughing nonstop since I caught that cold last week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'nonstop'",
+      "stress_focus": "stress on NON-stop",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "since-I linked",
+      "vocabulary": [
+        {
+          "word": "nonstop",
+          "meaning": "without stopping"
+        }
+      ],
+      "grammar_focus": "present perfect continuous with time clause",
+      "tags": [
+        "health",
+        "storytelling",
+        "symptoms"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "In my opinion, you should get a second opinion.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'opinion'",
+      "stress_focus": "stress on SEC-ond",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "should-get reduced",
+      "vocabulary": [
+        {
+          "word": "second opinion",
+          "meaning": "another doctor's assessment"
+        }
+      ],
+      "grammar_focus": "modal opinion clause",
+      "tags": [
+        "health",
+        "opinion",
+        "advice"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, did you say two pills or just one?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'did-you'",
+      "stress_focus": "stress on TWO",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "did-you reduced",
+      "vocabulary": [
+        {
+          "word": "just one",
+          "meaning": "only a single amount"
+        }
+      ],
+      "grammar_focus": "clarifying alternative question",
+      "tags": [
+        "health",
+        "clarification",
+        "dosage"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "question",
+      "sentence": "Have you had any allergic reactions to medication before?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'allergic'",
+      "stress_focus": "stress on al-LER-gic",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "have-you reduced",
+      "vocabulary": [
+        {
+          "word": "allergic reaction",
+          "meaning": "harmful immune response"
+        }
+      ],
+      "grammar_focus": "present perfect question",
+      "tags": [
+        "health",
+        "question",
+        "allergies"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "I've noticed my heart racing whenever I climb stairs.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'racing'",
+      "stress_focus": "stress on RAC-ing",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "whenever-I linked",
+      "vocabulary": [
+        {
+          "word": "heart racing",
+          "meaning": "heart beating very fast"
+        }
+      ],
+      "grammar_focus": "present perfect with subordinate clause",
+      "tags": [
+        "health",
+        "symptoms",
+        "cardio"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "agreement",
+      "sentence": "That makes sense, I'll follow your advice then.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'I'll'",
+      "stress_focus": "stress on AD-vice",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "makes-sense linked",
+      "vocabulary": [
+        {
+          "word": "makes sense",
+          "meaning": "is logical, understandable"
+        }
+      ],
+      "grammar_focus": "agreement with future intention",
+      "tags": [
+        "health",
+        "agreement"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "request",
+      "sentence": "Can you double-check the dosage before I leave?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "compound word 'double-check'",
+      "stress_focus": "stress on DOU-ble-check",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "double-check reduced",
+      "vocabulary": [
+        {
+          "word": "dosage",
+          "meaning": "amount of medicine to take"
+        }
+      ],
+      "grammar_focus": "imperative request with time clause",
+      "tags": [
+        "health",
+        "request",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "The nurse took my temperature before the doctor came in.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'temperature'",
+      "stress_focus": "stress on TEM-per-a-ture",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "before-the reduced",
+      "vocabulary": [
+        {
+          "word": "took my temperature",
+          "meaning": "measured body heat"
+        }
+      ],
+      "grammar_focus": "past tense with subordinate clause",
+      "tags": [
+        "health",
+        "doctor",
+        "checkup"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "I've been putting off going to the doctor for weeks, but the pain finally got unbearable.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'putting-off'",
+      "stress_focus": "stress on UN-BEAR-a-ble",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "putting-off linked",
+      "vocabulary": [
+        {
+          "word": "putting off",
+          "meaning": "delaying, postponing"
+        }
+      ],
+      "grammar_focus": "present perfect continuous with contrast clause",
+      "tags": [
+        "health",
+        "storytelling",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I feel like doctors these days rush through appointments way too fast.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'these-days'",
+      "stress_focus": "stress on RUSH",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "rush-through linked",
+      "vocabulary": [
+        {
+          "word": "rush through",
+          "meaning": "do something too quickly"
+        }
+      ],
+      "grammar_focus": "opinion clause with comparative",
+      "tags": [
+        "health",
+        "opinion",
+        "criticism"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "clarification",
+      "sentence": "Wait, are you saying I should take this on an empty stomach or with food?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'are-you'",
+      "stress_focus": "stress on EMP-ty",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "on-an reduced",
+      "vocabulary": [
+        {
+          "word": "empty stomach",
+          "meaning": "without having eaten"
+        }
+      ],
+      "grammar_focus": "clarifying alternative question",
+      "tags": [
+        "health",
+        "clarification",
+        "dosage"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "By the time I got to the ER, the pain had spread all the way down my arm.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'ER'",
+      "stress_focus": "stress on SPREAD",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "by-the-time linked",
+      "vocabulary": [
+        {
+          "word": "ER",
+          "meaning": "emergency room"
+        }
+      ],
+      "grammar_focus": "past perfect narrative",
+      "tags": [
+        "health",
+        "storytelling",
+        "emergency"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "I get what you're saying, but I really don't think it's just stress this time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'you're'",
+      "stress_focus": "stress on STRESS",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "get-what linked",
+      "vocabulary": [
+        {
+          "word": "I get what you're saying",
+          "meaning": "I understand your point"
+        }
+      ],
+      "grammar_focus": "disagreement with concession",
+      "tags": [
+        "health",
+        "disagreement",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "question",
+      "sentence": "Do you think it's worth getting a full checkup, or should I just wait it out?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'worth-getting'",
+      "stress_focus": "stress on CHECK-up",
+      "intonation_focus": "rising then falling",
+      "connected_speech_focus": "wait-it-out reduced",
+      "vocabulary": [
+        {
+          "word": "wait it out",
+          "meaning": "be patient until it resolves"
+        }
+      ],
+      "grammar_focus": "alternative question with idiom",
+      "tags": [
+        "health",
+        "question",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "If you ask me, generic medications work just as well as the brand-name ones.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'brand-name'",
+      "stress_focus": "stress on GE-NER-ic",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "if-you-ask reduced",
+      "vocabulary": [
+        {
+          "word": "if you ask me",
+          "meaning": "in my opinion"
+        }
+      ],
+      "grammar_focus": "conditional opinion clause",
+      "tags": [
+        "health",
+        "opinion",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "The doctor sat me down and explained that I'd need to make some pretty big lifestyle changes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'lifestyle'",
+      "stress_focus": "stress on LIFE-style",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "sat-me-down linked",
+      "vocabulary": [
+        {
+          "word": "sat me down",
+          "meaning": "had a serious talk with me"
+        }
+      ],
+      "grammar_focus": "reported speech with past perfect",
+      "tags": [
+        "health",
+        "storytelling",
+        "lifestyle"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "Ever since I started that new job, my stress levels have been through the roof.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "idiom 'through the roof'",
+      "stress_focus": "stress on ROOF",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "ever-since linked",
+      "vocabulary": [
+        {
+          "word": "through the roof",
+          "meaning": "extremely high"
+        }
+      ],
+      "grammar_focus": "present perfect with time clause and idiom",
+      "tags": [
+        "health",
+        "symptoms",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "reaction",
+      "sentence": "Honestly, that's such a relief to hear, I was bracing myself for bad news.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "idiom 'bracing myself'",
+      "stress_focus": "stress on RE-lief",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "was-bracing linked",
+      "vocabulary": [
+        {
+          "word": "bracing myself",
+          "meaning": "preparing for something difficult"
+        }
+      ],
+      "grammar_focus": "past continuous with idiom",
+      "tags": [
+        "health",
+        "reaction",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "agreement",
+      "sentence": "You're right, it probably is smarter to finish the whole course of antibiotics.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'antibiotics'",
+      "stress_focus": "stress on an-ti-bi-OT-ics",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "finish-the reduced",
+      "vocabulary": [
+        {
+          "word": "course of antibiotics",
+          "meaning": "full treatment cycle of medicine"
+        }
+      ],
+      "grammar_focus": "agreement with comparative adjective",
+      "tags": [
+        "health",
+        "agreement",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I know it sounds dramatic, but I really think we should get this checked out right away.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'we-should'",
+      "stress_focus": "stress on RIGHT AWAY",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "checked-out linked",
+      "vocabulary": [
+        {
+          "word": "checked out",
+          "meaning": "examined by a professional"
+        }
+      ],
+      "grammar_focus": "concessive opinion clause",
+      "tags": [
+        "health",
+        "opinion",
+        "urgency"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "I brushed it off as nothing at first, but it turned out to be something pretty serious.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "idiom 'brushed it off'",
+      "stress_focus": "stress on SE-ri-ous",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "turned-out linked",
+      "vocabulary": [
+        {
+          "word": "brushed it off",
+          "meaning": "ignored or dismissed it"
+        }
+      ],
+      "grammar_focus": "past tense narrative with contrast",
+      "tags": [
+        "health",
+        "storytelling",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "question",
+      "sentence": "Would it be possible to get in sooner, given how much pain I'm in right now?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "linking 'given-how'",
+      "stress_focus": "stress on SOON-er",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "given-how reduced",
+      "vocabulary": [
+        {
+          "word": "given",
+          "meaning": "considering, taking into account"
+        }
+      ],
+      "grammar_focus": "conditional question with reason clause",
+      "tags": [
+        "health",
+        "question",
+        "urgency"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "clarification",
+      "sentence": "Just to make sure I've got this right, I take one in the morning and two before bed?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'I've-got'",
+      "stress_focus": "stress on MORN-ing",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "just-to reduced",
+      "vocabulary": [
+        {
+          "word": "just to make sure",
+          "meaning": "to confirm understanding"
+        }
+      ],
+      "grammar_focus": "clarifying question with sequencing",
+      "tags": [
+        "health",
+        "clarification",
+        "dosage"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "disagreement",
+      "sentence": "I hear you, but I'm honestly not convinced that surgery is the only option here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'I'm'",
+      "stress_focus": "stress on SUR-ger-y",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "not-convinced linked",
+      "vocabulary": [
+        {
+          "word": "I hear you",
+          "meaning": "I understand your point"
+        }
+      ],
+      "grammar_focus": "disagreement with concession clause",
+      "tags": [
+        "health",
+        "disagreement",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "statement",
+      "sentence": "My allergies flare up every spring, and this year they're worse than ever.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb 'flare up'",
+      "stress_focus": "stress on FLARE UP",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "they're-worse reduced",
+      "vocabulary": [
+        {
+          "word": "flare up",
+          "meaning": "suddenly become worse"
+        }
+      ],
+      "grammar_focus": "present tense with comparative clause",
+      "tags": [
+        "health",
+        "symptoms",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "storytelling",
+      "sentence": "I ended up in the waiting room for almost three hours before they finally called my name.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'waiting room'",
+      "stress_focus": "stress on THREE HOURS",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "ended-up linked",
+      "vocabulary": [
+        {
+          "word": "ended up",
+          "meaning": "eventually found myself in a situation"
+        }
+      ],
+      "grammar_focus": "past tense narrative with time expression",
+      "tags": [
+        "health",
+        "storytelling",
+        "waiting"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "Personally, I'd rather deal with the side effects than live with the pain every single day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "contraction 'I'd'",
+      "stress_focus": "stress on SIDE EF-fects",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "rather-deal reduced",
+      "vocabulary": [
+        {
+          "word": "I'd rather",
+          "meaning": "I would prefer to"
+        }
+      ],
+      "grammar_focus": "comparative preference clause",
+      "tags": [
+        "health",
+        "opinion",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "reaction",
+      "sentence": "That's exactly what I was afraid of, I had a feeling something was off.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "idiom 'something was off'",
+      "stress_focus": "stress on A-FRAID",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "had-a-feeling linked",
+      "vocabulary": [
+        {
+          "word": "something was off",
+          "meaning": "something seemed wrong"
+        }
+      ],
+      "grammar_focus": "past tense with idiom",
+      "tags": [
+        "health",
+        "reaction",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "storytelling",
+      "sentence": "It started as a mild ache in my knee, but within a few days I could barely walk on it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'barely'",
+      "stress_focus": "stress on BARE-ly",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "within-a reduced",
+      "vocabulary": [
+        {
+          "word": "barely",
+          "meaning": "almost not at all"
+        }
+      ],
+      "grammar_focus": "past tense narrative with contrast clause",
+      "tags": [
+        "health",
+        "storytelling"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "I really appreciate you taking the time to walk me through all these test results.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "phrasal verb 'walk me through'",
+      "stress_focus": "stress on RE-SULTS",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "walk-me-through linked",
+      "vocabulary": [
+        {
+          "word": "walk through",
+          "meaning": "explain step by step"
+        }
+      ],
+      "grammar_focus": "gerund clause with appreciation",
+      "tags": [
+        "health",
+        "opinion",
+        "gratitude"
+      ]
+    },
+    {
+      "subcategory": "Pharmacy",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "question",
+      "sentence": "Is there any chance this could interact badly with the other medication I'm already on?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'interact'",
+      "stress_focus": "stress on IN-ter-act",
+      "intonation_focus": "rising intonation",
+      "connected_speech_focus": "already-on reduced",
+      "vocabulary": [
+        {
+          "word": "interact",
+          "meaning": "react together, often negatively"
+        }
+      ],
+      "grammar_focus": "conditional question with relative clause",
+      "tags": [
+        "health",
+        "question",
+        "pharmacy"
+      ]
+    },
+    {
+      "subcategory": "Doctor Visit",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "agreement",
+      "sentence": "You know, that actually makes a lot of sense, I hadn't thought about it that way before.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced 'hadn't'",
+      "stress_focus": "stress on SENSE",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "hadn't-thought linked",
+      "vocabulary": [
+        {
+          "word": "hadn't thought about it",
+          "meaning": "had not considered it"
+        }
+      ],
+      "grammar_focus": "past perfect with agreement",
+      "tags": [
+        "health",
+        "agreement",
+        "idiom"
+      ]
+    },
+    {
+      "subcategory": "Symptoms",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "storytelling",
+      "sentence": "Looking back, I probably should have gone to the doctor the moment I noticed something was wrong.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear 'looking back'",
+      "stress_focus": "stress on MO-ment",
+      "intonation_focus": "falling intonation",
+      "connected_speech_focus": "should-have-gone reduced",
+      "vocabulary": [
+        {
+          "word": "looking back",
+          "meaning": "reflecting on the past"
+        }
+      ],
+      "grammar_focus": "past modal with regret",
+      "tags": [
+        "health",
+        "storytelling",
+        "regret"
+      ]
+    }
+  ]
+}

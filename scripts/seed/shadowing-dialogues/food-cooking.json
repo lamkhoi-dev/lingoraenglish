@@ -1,0 +1,41 @@
+{
+  "topic_slug": "food-cooking",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Cooking together",
+      "turns": [
+        { "speaker_label": "Mia", "speaker_voice": "shimmer", "sentence": "What are we making for dinner?", "is_free": true },
+        { "speaker_label": "Jon", "speaker_voice": "alloy", "sentence": "Let's make pasta. Can you chop the onions?", "is_free": true },
+        { "speaker_label": "Mia", "speaker_voice": "shimmer", "sentence": "Sure. How many do we need?", "is_free": true },
+        { "speaker_label": "Jon", "speaker_voice": "alloy", "sentence": "Just one should be enough.", "is_free": true },
+        { "speaker_label": "Mia", "speaker_voice": "shimmer", "sentence": "Okay, I'll start right now.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Recipe advice",
+      "turns": [
+        { "speaker_label": "Noah", "speaker_voice": "sage", "sentence": "This sauce tastes a bit bland — do you think it needs more seasoning?", "is_free": false },
+        { "speaker_label": "Ivy", "speaker_voice": "coral", "sentence": "Maybe try a pinch of salt and a squeeze of lemon — that usually brightens things up.", "is_free": false },
+        { "speaker_label": "Noah", "speaker_voice": "sage", "sentence": "Good call. Should I let it simmer a bit longer as well?", "is_free": false },
+        { "speaker_label": "Ivy", "speaker_voice": "coral", "sentence": "Yeah, another ten minutes should help the flavors come together.", "is_free": false },
+        { "speaker_label": "Noah", "speaker_voice": "sage", "sentence": "Perfect, I'll check back on it in a bit.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Dietary preferences",
+      "turns": [
+        { "speaker_label": "Host", "speaker_voice": "nova", "sentence": "I want to make sure everyone can actually eat what I'm serving — does anyone have dietary restrictions I should know about?", "is_free": false },
+        { "speaker_label": "Guest", "speaker_voice": "shimmer", "sentence": "I'm mostly plant-based these days, but I'm not overly strict about it if there's nothing else available.", "is_free": false },
+        { "speaker_label": "Host", "speaker_voice": "nova", "sentence": "No, I'd rather accommodate that properly — I'll put together a vegetable stir-fry alongside the main dish.", "is_free": false },
+        { "speaker_label": "Guest", "speaker_voice": "shimmer", "sentence": "That's really thoughtful of you, thank you for going to the trouble.", "is_free": false },
+        { "speaker_label": "Host", "speaker_voice": "nova", "sentence": "It's no trouble at all — I'd rather ask upfront than have anyone left with nothing to eat.", "is_free": false }
+      ]
+    }
+  ]
+}

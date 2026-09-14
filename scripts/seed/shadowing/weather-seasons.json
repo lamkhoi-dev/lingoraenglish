@@ -1,0 +1,2409 @@
+{
+  "slug": "weather-seasons",
+  "name": "Weather, Seasons & Small Talk",
+  "topic_group": "Everyday English",
+  "blurb": "Talk naturally about weather, seasons, and everyday small talk in American English.",
+  "sort_order": 23,
+  "sentences": [
+    {
+      "subcategory": "Today's weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It's really cold today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "cold",
+          "meaning": "low temperature"
+        }
+      ],
+      "grammar_focus": "present tense adjective",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It's so hot outside.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "hot",
+          "meaning": "high temperature"
+        }
+      ],
+      "grammar_focus": "present tense adjective",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is it raining right now?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "rising intonation for question",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "raining",
+          "meaning": "water falling from sky"
+        }
+      ],
+      "grammar_focus": "present continuous question",
+      "tags": [
+        "weather",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "The sky looks really gray.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "gray",
+          "meaning": "cloudy color"
+        }
+      ],
+      "grammar_focus": "present tense description",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It might rain later.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "might",
+          "meaning": "possibility"
+        }
+      ],
+      "grammar_focus": "modal for possibility",
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Will it snow tomorrow?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "rising intonation for question",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "snow",
+          "meaning": "frozen rain"
+        }
+      ],
+      "grammar_focus": "future simple question",
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "There's snow on the ground.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "snow",
+          "meaning": "frozen precipitation"
+        }
+      ],
+      "grammar_focus": "existential there is",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Winter is my favorite season.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "favorite",
+          "meaning": "most liked"
+        }
+      ],
+      "grammar_focus": "present tense statement",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Summer is way too hot.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "too",
+          "meaning": "excessively"
+        }
+      ],
+      "grammar_focus": "intensifier use",
+      "tags": [
+        "weather",
+        "summer"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "I love sunny summer days.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "sunny",
+          "meaning": "full of sun"
+        }
+      ],
+      "grammar_focus": "simple present opinion",
+      "tags": [
+        "weather",
+        "summer",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It's pouring rain outside.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "pouring",
+          "meaning": "raining heavily"
+        }
+      ],
+      "grammar_focus": "present continuous",
+      "tags": [
+        "weather",
+        "rain"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "The thunder is really loud.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "thunder",
+          "meaning": "loud storm sound"
+        }
+      ],
+      "grammar_focus": "simple present description",
+      "tags": [
+        "weather",
+        "storm"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "request",
+      "sentence": "Bring a jacket, it's chilly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "chilly",
+          "meaning": "a bit cold"
+        }
+      ],
+      "grammar_focus": "imperative request",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need a warm coat.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "coat",
+          "meaning": "outer garment"
+        }
+      ],
+      "grammar_focus": "need + noun",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We can't go out now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "can't",
+          "meaning": "not able to"
+        }
+      ],
+      "grammar_focus": "modal negative",
+      "tags": [
+        "weather",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Rain ruined our picnic plans.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "ruined",
+          "meaning": "spoiled"
+        }
+      ],
+      "grammar_focus": "past simple statement",
+      "tags": [
+        "weather",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Nice weather, isn't it?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "rising intonation for question",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "nice",
+          "meaning": "pleasant"
+        }
+      ],
+      "grammar_focus": "tag question",
+      "tags": [
+        "smalltalk",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "How's the weather today?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "rising intonation for question",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "weather",
+          "meaning": "atmospheric conditions"
+        }
+      ],
+      "grammar_focus": "wh-question present",
+      "tags": [
+        "smalltalk",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "It's windy this morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "windy",
+          "meaning": "having strong wind"
+        }
+      ],
+      "grammar_focus": "present tense description",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It feels warm outside.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "feels",
+          "meaning": "seems"
+        }
+      ],
+      "grammar_focus": "linking verb feel",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "It's going to be sunny.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "sunny",
+          "meaning": "bright with sunshine"
+        }
+      ],
+      "grammar_focus": "going to future",
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I love the falling snow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "falling",
+          "meaning": "coming down"
+        }
+      ],
+      "grammar_focus": "present participle as adjective",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "description",
+      "sentence": "The heat is unbearable today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "unbearable",
+          "meaning": "too hard to bear"
+        }
+      ],
+      "grammar_focus": "present tense description",
+      "tags": [
+        "weather",
+        "summer"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "The storm just started.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "storm",
+          "meaning": "violent weather"
+        }
+      ],
+      "grammar_focus": "past simple statement",
+      "tags": [
+        "weather",
+        "storm"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "opinion",
+      "sentence": "I really like this breeze.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "clear vowel sounds",
+      "stress_focus": "stress on key content word",
+      "intonation_focus": "falling intonation on statements",
+      "connected_speech_focus": "smooth linking between words",
+      "vocabulary": [
+        {
+          "word": "breeze",
+          "meaning": "light wind"
+        }
+      ],
+      "grammar_focus": "simple present opinion",
+      "tags": [
+        "smalltalk",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The temperature dropped a lot since this morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "dropped",
+          "meaning": "decreased"
+        }
+      ],
+      "grammar_focus": "past simple with time phrase",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "It's a lot cooler than yesterday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "cooler",
+          "meaning": "less warm"
+        }
+      ],
+      "grammar_focus": "comparative adjective",
+      "tags": [
+        "weather",
+        "comparison"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The forecast says it'll be cloudy all day.",
+      "natural_form": "it'll",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "forecast",
+          "meaning": "weather prediction"
+        }
+      ],
+      "grammar_focus": "reported prediction",
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Do you think it's going to storm tonight?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "rising intonation for yes/no question",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "storm",
+          "meaning": "severe weather"
+        }
+      ],
+      "grammar_focus": "embedded question with going to",
+      "tags": [
+        "weather",
+        "forecast",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The roads are covered in ice this morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "covered",
+          "meaning": "hidden under a layer"
+        }
+      ],
+      "grammar_focus": "passive-like description",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We got almost a foot of snow last night.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "foot",
+          "meaning": "unit of measurement"
+        }
+      ],
+      "grammar_focus": "past simple with quantity",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I can't stand this humidity anymore.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "humidity",
+          "meaning": "moisture in the air"
+        }
+      ],
+      "grammar_focus": "can't stand + noun",
+      "tags": [
+        "weather",
+        "summer",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "It's been hot for almost a week now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "hot",
+          "meaning": "high temperature"
+        }
+      ],
+      "grammar_focus": "present perfect with duration",
+      "tags": [
+        "weather",
+        "summer"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "Lightning lit up the whole sky last night.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "lightning",
+          "meaning": "electric flash in storm"
+        }
+      ],
+      "grammar_focus": "past simple description",
+      "tags": [
+        "weather",
+        "storm"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The rain finally stopped around noon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "stopped",
+          "meaning": "ceased"
+        }
+      ],
+      "grammar_focus": "past simple with time",
+      "tags": [
+        "weather",
+        "rain"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "You should wear boots, the ground is icy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "boots",
+          "meaning": "sturdy footwear"
+        }
+      ],
+      "grammar_focus": "should for advice",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I always carry an umbrella just in case.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "umbrella",
+          "meaning": "rain protection"
+        }
+      ],
+      "grammar_focus": "present simple habit",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The game got postponed because of the storm.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "postponed",
+          "meaning": "delayed"
+        }
+      ],
+      "grammar_focus": "passive past simple",
+      "tags": [
+        "weather",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I think we should reschedule the trip.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "reschedule",
+          "meaning": "plan for another time"
+        }
+      ],
+      "grammar_focus": "should + verb",
+      "tags": [
+        "weather",
+        "plans",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Can you believe how hot it's been?",
+      "natural_form": "it's",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "rising intonation for yes/no question",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "believe",
+          "meaning": "accept as true"
+        }
+      ],
+      "grammar_focus": "exclamatory question",
+      "tags": [
+        "smalltalk",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "This weather is driving me crazy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "driving crazy",
+          "meaning": "making frustrated"
+        }
+      ],
+      "grammar_focus": "present continuous idiom",
+      "tags": [
+        "smalltalk"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "There's a nice breeze coming through the window.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "breeze",
+          "meaning": "gentle wind"
+        }
+      ],
+      "grammar_focus": "present continuous description",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "They're predicting thunderstorms for the weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "predicting",
+          "meaning": "forecasting"
+        }
+      ],
+      "grammar_focus": "present continuous future",
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My car wouldn't start because of the cold.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "wouldn't start",
+          "meaning": "failed to start"
+        }
+      ],
+      "grammar_focus": "past modal negative",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "description",
+      "sentence": "The pavement is hot enough to fry an egg.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "pavement",
+          "meaning": "paved ground"
+        }
+      ],
+      "grammar_focus": "adjective + enough to",
+      "tags": [
+        "weather",
+        "summer"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "opinion",
+      "sentence": "I actually enjoy the sound of rain.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "enjoy",
+          "meaning": "like"
+        }
+      ],
+      "grammar_focus": "simple present opinion",
+      "tags": [
+        "weather",
+        "rain",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Layer up, it's freezing outside today.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "layer up",
+          "meaning": "wear multiple layers"
+        }
+      ],
+      "grammar_focus": "imperative phrasal verb",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We might have to cancel the barbecue.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "cancel",
+          "meaning": "call off"
+        }
+      ],
+      "grammar_focus": "modal for possibility",
+      "tags": [
+        "weather",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Did you catch the weather report this morning?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "rising intonation for yes/no question",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "catch",
+          "meaning": "see or hear"
+        }
+      ],
+      "grammar_focus": "past simple question",
+      "tags": [
+        "smalltalk",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "It's warmer than expected for this time of year.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "reduced function words",
+      "stress_focus": "stress on new information",
+      "intonation_focus": "varied intonation for complex sentence",
+      "connected_speech_focus": "linking consonant to vowel",
+      "vocabulary": [
+        {
+          "word": "expected",
+          "meaning": "anticipated"
+        }
+      ],
+      "grammar_focus": "comparative with expectation",
+      "tags": [
+        "weather",
+        "comparison"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "It's supposed to warm up a bit by the afternoon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "warm up",
+          "meaning": "become warmer"
+        }
+      ],
+      "grammar_focus": "be supposed to + phrasal verb",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I don't mind the rain that much.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "mind",
+          "meaning": "object to"
+        }
+      ],
+      "grammar_focus": "present simple with adverb",
+      "tags": [
+        "weather",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "According to the forecast, it should clear up soon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "clear up",
+          "meaning": "become sunny"
+        }
+      ],
+      "grammar_focus": "modal should with phrasal verb",
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Do you know if it's supposed to rain this weekend?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "rising-falling for tag/rhetorical question",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "supposed to",
+          "meaning": "expected to"
+        }
+      ],
+      "grammar_focus": "embedded yes/no question",
+      "tags": [
+        "weather",
+        "forecast",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "The whole neighborhood got buried under a foot of snow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "buried",
+          "meaning": "covered deeply"
+        }
+      ],
+      "grammar_focus": "passive past simple",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I had to shovel the driveway before I could leave.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "shovel",
+          "meaning": "dig snow with a tool"
+        }
+      ],
+      "grammar_focus": "had to + infinitive",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "Personally, I'd rather deal with heat than cold.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "would rather",
+          "meaning": "prefer"
+        }
+      ],
+      "grammar_focus": "would rather comparison",
+      "tags": [
+        "weather",
+        "summer",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The heat wave has lasted almost two weeks now.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "heat wave",
+          "meaning": "long period of hot weather"
+        }
+      ],
+      "grammar_focus": "present perfect with duration",
+      "tags": [
+        "weather",
+        "summer"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "The wind picked up right before the storm hit.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "picked up",
+          "meaning": "increased"
+        }
+      ],
+      "grammar_focus": "phrasal verb past simple",
+      "tags": [
+        "weather",
+        "storm"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We lost power for a few hours during the storm.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "lost power",
+          "meaning": "electricity stopped"
+        }
+      ],
+      "grammar_focus": "past simple narrative",
+      "tags": [
+        "weather",
+        "storm"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Grab an extra sweater in case it gets chilly tonight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "in case",
+          "meaning": "as a precaution"
+        }
+      ],
+      "grammar_focus": "imperative with in case",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I never know what to wear when the weather's this unpredictable.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "unpredictable",
+          "meaning": "hard to forecast"
+        }
+      ],
+      "grammar_focus": "embedded question structure",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Because of the flooding, several flights got delayed.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "flooding",
+          "meaning": "overflow of water"
+        }
+      ],
+      "grammar_focus": "cause and effect clause",
+      "tags": [
+        "weather",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I think we should wait until the storm passes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "passes",
+          "meaning": "goes away"
+        }
+      ],
+      "grammar_focus": "should + time clause",
+      "tags": [
+        "weather",
+        "plans",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Have you noticed how unpredictable the weather's been lately?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "rising-falling for tag/rhetorical question",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "unpredictable",
+          "meaning": "changeable"
+        }
+      ],
+      "grammar_focus": "present perfect question",
+      "tags": [
+        "smalltalk",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "This is the coldest spring I can remember.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "coldest",
+          "meaning": "superlative of cold"
+        }
+      ],
+      "grammar_focus": "superlative adjective",
+      "tags": [
+        "smalltalk"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "It's a little humid, but at least it's not raining.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "humid",
+          "meaning": "damp air"
+        }
+      ],
+      "grammar_focus": "contrast with but",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The weekend forecast keeps changing every time I check it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "keeps changing",
+          "meaning": "continues to change"
+        }
+      ],
+      "grammar_focus": "present continuous habitual",
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "opinion",
+      "sentence": "I don't mind the snow as long as I don't have to drive in it.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "as long as",
+          "meaning": "provided that"
+        }
+      ],
+      "grammar_focus": "conditional-like clause",
+      "tags": [
+        "weather",
+        "winter",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "description",
+      "sentence": "Even with the AC on, the apartment still feels stuffy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "stuffy",
+          "meaning": "lacking fresh air"
+        }
+      ],
+      "grammar_focus": "even with concession",
+      "tags": [
+        "weather",
+        "summer"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "By the time we got home, the rain had already stopped.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "by the time",
+          "meaning": "before another event"
+        }
+      ],
+      "grammar_focus": "past perfect with time clause",
+      "tags": [
+        "weather",
+        "rain"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "You'll want a raincoat if you're heading out this afternoon.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "heading out",
+          "meaning": "going outside"
+        }
+      ],
+      "grammar_focus": "first conditional-like advice",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The hike got cancelled once the fog rolled in.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "rolled in",
+          "meaning": "arrived gradually"
+        }
+      ],
+      "grammar_focus": "phrasal verb past simple",
+      "tags": [
+        "weather",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Isn't it crazy how fast the weather changed today?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "rising-falling for tag/rhetorical question",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "crazy",
+          "meaning": "surprising"
+        }
+      ],
+      "grammar_focus": "negative question for emphasis",
+      "tags": [
+        "smalltalk",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "It cooled off a lot once the sun went down.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural rhythm and reductions",
+      "stress_focus": "stress on contrasting ideas",
+      "intonation_focus": "intonation shift at clause boundary",
+      "connected_speech_focus": "linking across clauses",
+      "vocabulary": [
+        {
+          "word": "cooled off",
+          "meaning": "became cooler"
+        }
+      ],
+      "grammar_focus": "phrasal verb past simple",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "Even though the sun's out, there's still a bitter wind that cuts right through you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "bitter",
+          "meaning": "harshly cold"
+        }
+      ],
+      "grammar_focus": "concession clause with even though",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I wouldn't trust that forecast too much, since it's been wrong all week.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "trust",
+          "meaning": "rely on"
+        }
+      ],
+      "grammar_focus": "reason clause with since",
+      "tags": [
+        "weather",
+        "forecast",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "By the time the plows came through, the streets had already turned into sheets of ice.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "plows",
+          "meaning": "snow-clearing vehicles"
+        }
+      ],
+      "grammar_focus": "past perfect narrative",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "If it keeps snowing like this, school will probably get cancelled tomorrow.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "cancelled",
+          "meaning": "called off"
+        }
+      ],
+      "grammar_focus": "first conditional",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "As much as I love summer, this constant heat is starting to wear me down.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "wear down",
+          "meaning": "exhaust gradually"
+        }
+      ],
+      "grammar_focus": "concession with as much as",
+      "tags": [
+        "weather",
+        "summer",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "The heat's been so intense that they issued a warning for the whole region.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "issued",
+          "meaning": "officially released"
+        }
+      ],
+      "grammar_focus": "so...that result clause",
+      "tags": [
+        "weather",
+        "summer"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "description",
+      "sentence": "The storm rolled in so quickly that we didn't even have time to bring the chairs inside.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "rolled in",
+          "meaning": "arrived suddenly"
+        }
+      ],
+      "grammar_focus": "so...that with negative result",
+      "tags": [
+        "weather",
+        "storm"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We ended up stuck at the airport for hours because the storm grounded every flight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "grounded",
+          "meaning": "prevented from flying"
+        }
+      ],
+      "grammar_focus": "because cause clause",
+      "tags": [
+        "weather",
+        "storm"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Make sure you layer up properly, because it's supposed to drop below freezing tonight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "drop below freezing",
+          "meaning": "fall under zero degrees"
+        }
+      ],
+      "grammar_focus": "imperative with reason clause",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I'd rather overdress and be too warm than freeze because I didn't bring a coat.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "overdress",
+          "meaning": "wear too many clothes"
+        }
+      ],
+      "grammar_focus": "comparative preference with rather",
+      "tags": [
+        "weather",
+        "clothing",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Since the roads were flooded, we had to reroute the whole trip at the last minute.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "reroute",
+          "meaning": "change the route"
+        }
+      ],
+      "grammar_focus": "since cause clause with past",
+      "tags": [
+        "weather",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, I think we should've checked the forecast before we booked the trip.",
+      "natural_form": "should've",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "should've checked",
+          "meaning": "past regret"
+        }
+      ],
+      "grammar_focus": "past modal of regret",
+      "tags": [
+        "weather",
+        "plans",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Isn't it wild how the weather can go from sunny to pouring rain in ten minutes?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "rising-falling rhetorical intonation",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "wild",
+          "meaning": "surprising"
+        }
+      ],
+      "grammar_focus": "rhetorical negative question",
+      "tags": [
+        "smalltalk",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "People around here always complain about the weather, no matter what it's doing.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "no matter what",
+          "meaning": "regardless of"
+        }
+      ],
+      "grammar_focus": "present habitual with concession",
+      "tags": [
+        "smalltalk"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "It looks like it's clearing up, but I wouldn't put away the umbrella just yet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "natural reductions across clauses",
+      "stress_focus": "stress on contrast and cause/effect words",
+      "intonation_focus": "complex intonation with multiple clauses",
+      "connected_speech_focus": "linking and reductions in fast speech",
+      "vocabulary": [
+        {
+          "word": "clearing up",
+          "meaning": "becoming sunny"
+        }
+      ],
+      "grammar_focus": "contrast with but and modal",
+      "tags": [
+        "weather"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "Even after living here for years, I still can't get used to how fast the snow piles up once a storm really gets going.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "piles up",
+          "meaning": "accumulates"
+        }
+      ],
+      "grammar_focus": "concession with time clause",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Summer & heat",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "If I'm being honest, I'd take a freezing winter over another summer like this one, humidity and all.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "humidity and all",
+          "meaning": "including the humidity"
+        }
+      ],
+      "grammar_focus": "conditional preference with tag phrase",
+      "tags": [
+        "weather",
+        "summer",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Rain & storms",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "By the time the warning finally went out, the storm had already knocked out power across half the county.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "knocked out",
+          "meaning": "disabled"
+        }
+      ],
+      "grammar_focus": "past perfect with cause and effect",
+      "tags": [
+        "weather",
+        "storm"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "Looking back, we probably should've rescheduled the whole event instead of gambling on the forecast clearing up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "gambling on",
+          "meaning": "risking based on"
+        }
+      ],
+      "grammar_focus": "past modal of regret with gerund",
+      "tags": [
+        "weather",
+        "plans",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Dressing for the weather",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "No matter how many layers I put on, that wind still manages to cut straight through everything.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "cut through",
+          "meaning": "penetrate"
+        }
+      ],
+      "grammar_focus": "no matter how concession",
+      "tags": [
+        "weather",
+        "clothing"
+      ]
+    },
+    {
+      "subcategory": "Forecast",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Apparently the forecast keeps flip-flopping so much that even the meteorologists don't seem confident about the weekend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "flip-flopping",
+          "meaning": "changing repeatedly"
+        }
+      ],
+      "grammar_focus": "result clause with so...that",
+      "tags": [
+        "weather",
+        "forecast"
+      ]
+    },
+    {
+      "subcategory": "Today's weather",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "It's funny how one warm afternoon can make everyone forget how brutal the winter actually was.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "brutal",
+          "meaning": "extremely harsh"
+        }
+      ],
+      "grammar_focus": "cause and effect with gerund subject",
+      "tags": [
+        "weather",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Everyday small talk openers",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "Don't you find it strange that we can go from a heat wave to frost within the same week?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "rising-falling for rhetorical embedded question",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "frost",
+          "meaning": "ice on surfaces"
+        }
+      ],
+      "grammar_focus": "embedded question with contrast",
+      "tags": [
+        "smalltalk",
+        "question"
+      ]
+    },
+    {
+      "subcategory": "Winter & snow",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "Once the pipes froze overnight, we realized just how unprepared the house was for a cold snap like that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "cold snap",
+          "meaning": "sudden period of cold weather"
+        }
+      ],
+      "grammar_focus": "once clause with realization",
+      "tags": [
+        "weather",
+        "winter"
+      ]
+    },
+    {
+      "subcategory": "Weather affecting plans",
+      "level": "advanced",
+      "difficulty": 5,
+      "sentence_type": "description",
+      "sentence": "The festival organizers ended up moving everything indoors at the last second, since the radar showed the storm arriving hours earlier than expected.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "smooth connected speech across long clauses",
+      "stress_focus": "stress on emphasis and contrast words",
+      "intonation_focus": "layered intonation for multi-clause sentence",
+      "connected_speech_focus": "heavy linking and reduction typical of natural speech",
+      "vocabulary": [
+        {
+          "word": "radar",
+          "meaning": "weather-tracking system"
+        }
+      ],
+      "grammar_focus": "since cause clause with comparative",
+      "tags": [
+        "weather",
+        "plans"
+      ]
+    }
+  ]
+}

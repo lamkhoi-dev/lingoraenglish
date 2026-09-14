@@ -1,0 +1,741 @@
+{
+ "lessons": [
+  {
+   "slug": "c1-executive-coaching-session",
+   "title": "Finding Focus: An Executive Coaching Session",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "executive coaching session",
+   "difficulty": 9,
+   "duration_seconds": 150,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Coach",
+     "line": "So, tell me honestly, how has delegation been going since our last session?"
+    },
+    {
+     "speaker": "Client",
+     "line": "Not great, if I'm being frank. I still end up micromanaging everything."
+    },
+    {
+     "speaker": "Coach",
+     "line": "What do you think is driving that urge to step back in?"
+    },
+    {
+     "speaker": "Client",
+     "line": "I guess I'm worried that if I let go, the quality will slip."
+    },
+    {
+     "speaker": "Coach",
+     "line": "That's a common fear, but it's worth unpacking whether it's actually founded."
+    },
+    {
+     "speaker": "Client",
+     "line": "Fair enough. Last week my team hit their deadline without me hovering over them."
+    },
+    {
+     "speaker": "Coach",
+     "line": "So the evidence is already contradicting the story you're telling yourself."
+    },
+    {
+     "speaker": "Client",
+     "line": "When you put it that way, it does sound a bit irrational."
+    },
+    {
+     "speaker": "Coach",
+     "line": "Let's try a small experiment. This week, pick one project and hand it off completely."
+    },
+    {
+     "speaker": "Client",
+     "line": "Completely? No check-ins at all?"
+    },
+    {
+     "speaker": "Coach",
+     "line": "One check-in at the midpoint, that's it. See how it feels to trust the process."
+    },
+    {
+     "speaker": "Client",
+     "line": "Okay, I'll give it a shot. It's uncomfortable, but I see the logic."
+    },
+    {
+     "speaker": "Coach",
+     "line": "Discomfort is usually a sign you're actually growing, not failing."
+    },
+    {
+     "speaker": "Client",
+     "line": "I'll report back next week with how it went, good or bad."
+    },
+    {
+     "speaker": "Coach",
+     "line": "Perfect. And remember, the goal isn't perfection, it's building trust incrementally."
+    },
+    {
+     "speaker": "Client",
+     "line": "Building trust incrementally. I like that framing much better than just 'letting go'."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main focus of this coaching session?",
+     "options": [
+      "Improving delegation skills",
+      "Negotiating a raise",
+      "Planning a vacation",
+      "Hiring new staff"
+     ],
+     "answer": "Improving delegation skills",
+     "explanation": "The whole conversation centers on the client learning to delegate.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What happened last week when the client didn't hover over the team?",
+     "options": [
+      "The team missed the deadline",
+      "The team hit their deadline",
+      "The team quit",
+      "The team asked for more supervision"
+     ],
+     "answer": "The team hit their deadline",
+     "explanation": "The client mentions the team met their deadline without supervision.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the coach suggest one check-in at the midpoint?",
+     "options": [
+      "To eliminate trust entirely",
+      "To balance support with letting go",
+      "To increase the client's workload",
+      "To replace the client's role"
+     ],
+     "answer": "To balance support with letting go",
+     "explanation": "The coach offers a small compromise to help the client practice trust.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'founded' mean in 'whether it's actually founded'?",
+     "options": [
+      "Discovered",
+      "Justified",
+      "Funded financially",
+      "Built physically"
+     ],
+     "answer": "Justified",
+     "explanation": "Here 'founded' means based on solid reasoning or evidence.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "true_false",
+     "prompt": "The client refuses to try the coach's experiment.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "The client agrees to try handing off a project completely.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the coach say discomfort usually signals?",
+     "options": [
+      "Failure",
+      "Growth",
+      "Weakness",
+      "Burnout"
+     ],
+     "answer": "Growth",
+     "explanation": "The coach states discomfort is a sign of growing, not failing.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does the client mean by 'I'll give it a shot'?",
+     "options": [
+      "I'll refuse",
+      "I'll try it",
+      "I'll photograph it",
+      "I'll delay it"
+     ],
+     "answer": "I'll try it",
+     "explanation": "'Give it a shot' is an idiom meaning to attempt something.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Not great, if I'm being frank. I still end up micromanaging everything.",
+     "blanks": [
+      "I'm",
+      "being",
+      "frank"
+     ],
+     "challenge": "contraction",
+     "explanation": "The contraction 'I'm' is often reduced in fast speech."
+    },
+    {
+     "sentence": "What do you think is driving that urge to step back in?",
+     "blanks": [
+      "What",
+      "do",
+      "you"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'What do you' often blends together as 'whaddya' in speech."
+    },
+    {
+     "sentence": "So the evidence is already contradicting the story you're telling yourself.",
+     "blanks": [
+      "you're",
+      "telling",
+      "yourself"
+     ],
+     "challenge": "contraction",
+     "explanation": "'You're' is a reduced contraction of 'you are'."
+    },
+    {
+     "sentence": "Let's try a small experiment. This week, pick one project and hand it off completely.",
+     "blanks": [
+      "hand",
+      "it",
+      "off"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Hand it off' links smoothly with the 't' sound linking to 'it'."
+    },
+    {
+     "sentence": "One check-in at the midpoint, that's it. See how it feels to trust the process.",
+     "blanks": [
+      "that's",
+      "it"
+     ],
+     "challenge": "contraction",
+     "explanation": "'That's' is the contracted form of 'that is'."
+    },
+    {
+     "sentence": "Building trust incrementally. I like that framing much better than just 'letting go'.",
+     "blanks": [
+      "much",
+      "better",
+      "than"
+     ],
+     "challenge": "expression",
+     "explanation": "This comparative expression signals preference between two ideas."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "going to",
+     "reduced": "gonna",
+     "context": "Casual future plans in spoken English"
+    },
+    {
+     "phrase": "want to",
+     "reduced": "wanna",
+     "context": "Expressing desire informally"
+    },
+    {
+     "phrase": "what do you",
+     "reduced": "whaddya",
+     "context": "Fast questions in casual conversation"
+    }
+   ]
+  },
+  {
+   "slug": "c1-media-interview-with-an-author",
+   "title": "Behind the Pages: A Media Interview with an Author",
+   "level": "C1",
+   "category": "Social English",
+   "topic": "media interview with an author",
+   "difficulty": 8,
+   "duration_seconds": 160,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Host",
+     "line": "Welcome back. Today we're joined by the author of the bestselling novel 'Quiet Tides'."
+    },
+    {
+     "speaker": "Author",
+     "line": "Thanks so much for having me, it's a pleasure to be here."
+    },
+    {
+     "speaker": "Host",
+     "line": "Let's dive right in. What was the initial spark for this story?"
+    },
+    {
+     "speaker": "Author",
+     "line": "Honestly, it started with an overheard conversation on a train about a decade ago."
+    },
+    {
+     "speaker": "Host",
+     "line": "That's fascinating. Did the story change much from that original idea?"
+    },
+    {
+     "speaker": "Author",
+     "line": "Completely. The characters basically took over and steered it somewhere unexpected."
+    },
+    {
+     "speaker": "Host",
+     "line": "Many readers have praised the emotional depth of the protagonist. Was that intentional?"
+    },
+    {
+     "speaker": "Author",
+     "line": "I wanted her flaws to feel real rather than tidy, so yes, very deliberate."
+    },
+    {
+     "speaker": "Host",
+     "line": "Was there a particular chapter that was difficult to write?"
+    },
+    {
+     "speaker": "Author",
+     "line": "The final confrontation scene took me nearly a year to get right."
+    },
+    {
+     "speaker": "Host",
+     "line": "Wow, a year for one scene. What made it so tricky?"
+    },
+    {
+     "speaker": "Author",
+     "line": "Balancing anger with forgiveness without making either feel forced."
+    },
+    {
+     "speaker": "Host",
+     "line": "Do you have any advice for aspiring novelists listening today?"
+    },
+    {
+     "speaker": "Author",
+     "line": "Write the messy first draft and trust that revision is where the magic happens."
+    },
+    {
+     "speaker": "Host",
+     "line": "Brilliant advice. Thank you so much for joining us today."
+    },
+    {
+     "speaker": "Author",
+     "line": "Thank you, it's been a genuine pleasure discussing the book."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this interview?",
+     "options": [
+      "To discuss the author's novel",
+      "To review a film adaptation",
+      "To promote a cooking show",
+      "To debate politics"
+     ],
+     "answer": "To discuss the author's novel",
+     "explanation": "The entire conversation focuses on the author's book, 'Quiet Tides'.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Where did the idea for the novel originate?",
+     "options": [
+      "A dream",
+      "An overheard train conversation",
+      "A newspaper article",
+      "A childhood memory"
+     ],
+     "answer": "An overheard train conversation",
+     "explanation": "The author mentions overhearing a conversation on a train.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Which scene took nearly a year to write?",
+     "options": [
+      "The opening chapter",
+      "The final confrontation scene",
+      "The wedding scene",
+      "The epilogue"
+     ],
+     "answer": "The final confrontation scene",
+     "explanation": "The author explicitly states this scene took almost a year.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why did the author make the protagonist's flaws feel real?",
+     "options": [
+      "To make her unlikeable",
+      "To create authenticity",
+      "To confuse readers",
+      "To shorten the book"
+     ],
+     "answer": "To create authenticity",
+     "explanation": "The author wanted flaws to feel real rather than tidy, meaning authentic.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'the characters basically took over' suggest?",
+     "options": [
+      "The characters were deleted",
+      "The story developed unexpectedly through them",
+      "The author lost the manuscript",
+      "The publisher rewrote it"
+     ],
+     "answer": "The story developed unexpectedly through them",
+     "explanation": "This idiom means the characters influenced the plot direction.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "true_false",
+     "prompt": "The author advises new writers to aim for a perfect first draft.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "The author advises writing a messy draft and trusting revision instead.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'tidy' mean in the context of the protagonist's flaws?",
+     "options": [
+      "Organized and clean",
+      "Too neat or simplistic",
+      "Small in size",
+      "Financially sound"
+     ],
+     "answer": "Too neat or simplistic",
+     "explanation": "'Tidy' here means overly simple or unrealistic in a narrative sense.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Honestly, it started with an overheard conversation on a train about a decade ago.",
+     "blanks": [
+      "about",
+      "a",
+      "decade"
+     ],
+     "challenge": "expression",
+     "explanation": "'About a decade' expresses an approximate time period."
+    },
+    {
+     "sentence": "Completely. The characters basically took over and steered it somewhere unexpected.",
+     "blanks": [
+      "took",
+      "over",
+      "and"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Took over and' links smoothly with reduced vowel sounds."
+    },
+    {
+     "sentence": "I wanted her flaws to feel real rather than tidy, so yes, very deliberate.",
+     "blanks": [
+      "rather",
+      "than",
+      "tidy"
+     ],
+     "challenge": "similar_sounds",
+     "explanation": "'Rather than' can be tricky due to similar vowel sounds blending."
+    },
+    {
+     "sentence": "The final confrontation scene took me nearly a year to get right.",
+     "blanks": [
+      "nearly",
+      "a",
+      "year"
+     ],
+     "challenge": "numbers",
+     "explanation": "Time expressions like 'a year' are often reduced in speech."
+    },
+    {
+     "sentence": "Balancing anger with forgiveness without making either feel forced.",
+     "blanks": [
+      "without",
+      "making",
+      "either"
+     ],
+     "challenge": "weak_form",
+     "explanation": "'Either' has a weak pronunciation in fast connected speech."
+    },
+    {
+     "sentence": "Write the messy first draft and trust that revision is where the magic happens.",
+     "blanks": [
+      "trust",
+      "that",
+      "revision"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Trust that' links with a soft 't' sound in natural speech."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "kind of",
+     "reduced": "kinda",
+     "context": "Softening a statement casually"
+    },
+    {
+     "phrase": "is where",
+     "reduced": "izwhere",
+     "context": "Fast linking between words in a sentence"
+    },
+    {
+     "phrase": "about a",
+     "reduced": "abouta",
+     "context": "Reduced linking in approximate expressions"
+    }
+   ]
+  },
+  {
+   "slug": "c1-dinner-party-debate-about-technology",
+   "title": "Screens at the Table: A Dinner-Party Debate About Technology",
+   "level": "C1",
+   "category": "Social English",
+   "topic": "dinner-party debate about technology",
+   "difficulty": 9,
+   "duration_seconds": 170,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Marco",
+     "line": "Honestly, I think smartphones have ruined the art of conversation."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I have to disagree. They've actually connected us across distances in ways we never could before."
+    },
+    {
+     "speaker": "Marco",
+     "line": "Sure, but look around this table. Half of us checked our phones during dinner."
+    },
+    {
+     "speaker": "Elena",
+     "line": "Guilty as charged, but that doesn't mean the technology itself is the villain here."
+    },
+    {
+     "speaker": "Marco",
+     "line": "Then what is, if not the constant notifications pulling our attention away?"
+    },
+    {
+     "speaker": "Priya",
+     "line": "Maybe it's more about our habits than the devices themselves."
+    },
+    {
+     "speaker": "Elena",
+     "line": "Exactly. I turned off notifications last month, and it changed everything for me."
+    },
+    {
+     "speaker": "Marco",
+     "line": "Fair point, but most people don't have that kind of discipline."
+    },
+    {
+     "speaker": "Priya",
+     "line": "That's where design comes in. Apps are literally built to be addictive."
+    },
+    {
+     "speaker": "Marco",
+     "line": "Right, so we're back to blaming the technology after all."
+    },
+    {
+     "speaker": "Elena",
+     "line": "I'd say it's shared responsibility, both the companies and the users."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I can get behind that. Regulation plus personal awareness seems the balanced approach."
+    },
+    {
+     "speaker": "Marco",
+     "line": "I still miss the days when dinner meant everyone was fully present."
+    },
+    {
+     "speaker": "Elena",
+     "line": "Maybe we should try a phone basket at the door next time we host."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I'm actually up for that experiment, believe it or not."
+    },
+    {
+     "speaker": "Marco",
+     "line": "Deal. Let's see if we survive an entire meal without our screens."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the central topic of this dinner-party discussion?",
+     "options": [
+      "The impact of smartphones on social interaction",
+      "Choosing a restaurant",
+      "Planning a work trip",
+      "Comparing diets"
+     ],
+     "answer": "The impact of smartphones on social interaction",
+     "explanation": "The friends debate whether phones harm real conversation.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What did Elena do last month that changed her phone habits?",
+     "options": [
+      "Deleted all her apps",
+      "Turned off notifications",
+      "Bought a new phone",
+      "Stopped using social media entirely"
+     ],
+     "answer": "Turned off notifications",
+     "explanation": "Elena mentions turning off notifications changed things for her.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Priya mention app design?",
+     "options": [
+      "To recommend a new app",
+      "To argue devices are intentionally addictive",
+      "To criticize Elena's phone",
+      "To change the subject"
+     ],
+     "answer": "To argue devices are intentionally addictive",
+     "explanation": "Priya points out apps are built to be addictive, shifting some blame to design.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'guilty as charged' mean in this context?",
+     "options": [
+      "Elena is legally accused",
+      "Elena admits she did it too",
+      "Elena denies the accusation",
+      "Elena is angry"
+     ],
+     "answer": "Elena admits she did it too",
+     "explanation": "It's an idiom meaning someone accepts the accusation is true.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "true_false",
+     "prompt": "All three friends agree phones are entirely harmless.",
+     "options": [
+      "True",
+      "False"
+     ],
+     "answer": "False",
+     "explanation": "They debate different views, and none argue phones are entirely harmless.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What solution do they propose for their next dinner?",
+     "options": [
+      "Banning dessert",
+      "A phone basket at the door",
+      "Hiring a moderator",
+      "Turning off the wifi"
+     ],
+     "answer": "A phone basket at the door",
+     "explanation": "Elena suggests a phone basket for their next gathering.",
+     "skill": "details"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does Priya mean by 'I can get behind that'?",
+     "options": [
+      "She physically moves behind Marco",
+      "She supports the idea",
+      "She rejects the idea",
+      "She is confused by it"
+     ],
+     "answer": "She supports the idea",
+     "explanation": "'Get behind' is an idiom meaning to support or endorse something.",
+     "skill": "vocabulary"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Honestly, I think smartphones have ruined the art of conversation.",
+     "blanks": [
+      "have",
+      "ruined",
+      "the"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Have ruined' blends together with reduced auxiliary pronunciation."
+    },
+    {
+     "sentence": "Sure, but look around this table. Half of us checked our phones during dinner.",
+     "blanks": [
+      "Half",
+      "of",
+      "us"
+     ],
+     "challenge": "weak_form",
+     "explanation": "'Of' is often reduced to a weak schwa sound in fast speech."
+    },
+    {
+     "sentence": "Guilty as charged, but that doesn't mean the technology itself is the villain here.",
+     "blanks": [
+      "doesn't",
+      "mean",
+      "the"
+     ],
+     "challenge": "contraction",
+     "explanation": "'Doesn't' is the contracted form of 'does not'."
+    },
+    {
+     "sentence": "Exactly. I turned off notifications last month, and it changed everything for me.",
+     "blanks": [
+      "turned",
+      "off",
+      "notifications"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Turned off' links with a soft consonant blend in natural speech."
+    },
+    {
+     "sentence": "That's where design comes in. Apps are literally built to be addictive.",
+     "blanks": [
+      "built",
+      "to",
+      "be"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'To be' is commonly reduced in casual spoken English."
+    },
+    {
+     "sentence": "Deal. Let's see if we survive an entire meal without our screens.",
+     "blanks": [
+      "Let's",
+      "see",
+      "if"
+     ],
+     "challenge": "contraction",
+     "explanation": "'Let's' is the contraction of 'let us'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "going to",
+     "reduced": "gonna",
+     "context": "Talking about future intentions casually"
+    },
+    {
+     "phrase": "have to",
+     "reduced": "hafta",
+     "context": "Expressing obligation in fast speech"
+    },
+    {
+     "phrase": "kind of discipline",
+     "reduced": "kinda discipline",
+     "context": "Casual qualifier before a noun"
+    }
+   ]
+  }
+ ]
+}

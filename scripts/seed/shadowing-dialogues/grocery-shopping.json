@@ -1,0 +1,41 @@
+{
+  "topic_slug": "grocery-shopping",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Finding items",
+      "turns": [
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Excuse me, where can I find the milk?", "is_free": true },
+        { "speaker_label": "Staff", "speaker_voice": "alloy", "sentence": "It's in aisle four, next to the eggs.", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Thank you. Do you have any low-fat milk?", "is_free": true },
+        { "speaker_label": "Staff", "speaker_voice": "alloy", "sentence": "Yes, it's on the bottom shelf.", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Great, thanks for your help.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "At the checkout",
+      "turns": [
+        { "speaker_label": "Cashier", "speaker_voice": "nova", "sentence": "Did you find everything you were looking for today?", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "coral", "sentence": "Almost — you were out of the bread I usually get.", "is_free": false },
+        { "speaker_label": "Cashier", "speaker_voice": "nova", "sentence": "Sorry about that, the delivery's running a bit late this week.", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "coral", "sentence": "No problem, I'll grab it next time. Do you take contactless?", "is_free": false },
+        { "speaker_label": "Cashier", "speaker_voice": "nova", "sentence": "We do — just tap your card whenever you're ready.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Product inquiry",
+      "turns": [
+        { "speaker_label": "Customer", "speaker_voice": "sage", "sentence": "I don't suppose you carry anything that's both gluten-free and dairy-free?", "is_free": false },
+        { "speaker_label": "Staff", "speaker_voice": "shimmer", "sentence": "We've actually just expanded that section — it's tucked away near the health foods, easy to miss.", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "sage", "sentence": "That would explain why I've walked past it a dozen times without noticing.", "is_free": false },
+        { "speaker_label": "Staff", "speaker_voice": "shimmer", "sentence": "Happens more often than you'd think. I can walk you over if you'd like.", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "sage", "sentence": "That would be incredibly helpful, thank you.", "is_free": false }
+      ]
+    }
+  ]
+}

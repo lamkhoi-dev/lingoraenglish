@@ -1,0 +1,1910 @@
+{
+  "lessons": [
+    {
+      "slug": "b1-explaining-problem-manager",
+      "title": "A Problem With the Order",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "explaining a problem to a manager",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Anna",
+          "line": "Hey, do you have a minute? I need to talk to you about something."
+        },
+        {
+          "speaker": "Mike",
+          "line": "Sure, what's going on?"
+        },
+        {
+          "speaker": "Anna",
+          "line": "So, actually, we messed up the Peterson order. It's gonna be late."
+        },
+        {
+          "speaker": "Mike",
+          "line": "Wait, how late are we talking?"
+        },
+        {
+          "speaker": "Anna",
+          "line": "Like, two or three days, I think. The supplier didn't send the parts on time."
+        },
+        {
+          "speaker": "Mike",
+          "line": "Okay, that's not great, but it happens. Did you call the client yet?"
+        },
+        {
+          "speaker": "Anna",
+          "line": "Not yet, I wanted to check with you first before I said anything."
+        },
+        {
+          "speaker": "Mike",
+          "line": "Good call. Let me think for a second... okay, tell them we're gonna give a discount for the delay."
+        },
+        {
+          "speaker": "Anna",
+          "line": "That should help smooth things over."
+        },
+        {
+          "speaker": "Mike",
+          "line": "Yeah, and next time, let's get the supplier confirmation earlier, you know?"
+        },
+        {
+          "speaker": "Anna",
+          "line": "Definitely. I'll set up a reminder for that."
+        },
+        {
+          "speaker": "Mike",
+          "line": "Sounds good. Thanks for coming to me right away."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is the conversation mainly about?",
+          "options": [
+            "A promotion request",
+            "A late order and how to handle it",
+            "A new client meeting",
+            "A vacation request"
+          ],
+          "answer": "A late order and how to handle it",
+          "explanation": "Anna explains the order will be late and they discuss a solution.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "Why is the order late?",
+          "options": [
+            "The truck broke down",
+            "The supplier didn't send parts on time",
+            "Anna forgot to order it",
+            "The client changed the address"
+          ],
+          "answer": "The supplier didn't send parts on time",
+          "explanation": "Anna says the supplier didn't send the parts on time.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "How late will the order be?",
+          "options": [
+            "One day",
+            "Two or three days",
+            "A week",
+            "It won't be late"
+          ],
+          "answer": "Two or three days",
+          "explanation": "Anna says it's about two or three days late.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why did Anna talk to Mike before calling the client?",
+          "options": [
+            "She forgot the client's number",
+            "She wanted his approval on how to handle it",
+            "She wanted him to make the call",
+            "She was told to wait a week"
+          ],
+          "answer": "She wanted his approval on how to handle it",
+          "explanation": "She wanted to check with him before saying anything to the client.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does Mike mean by 'that should help smooth things over'?",
+          "options": [
+            "It will make the delay worse",
+            "It will help fix the client's frustration",
+            "It will speed up the shipment",
+            "It will cancel the order"
+          ],
+          "answer": "It will help fix the client's frustration",
+          "explanation": "'Smooth things over' means to make a bad situation better.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "wh",
+          "prompt": "What does Mike suggest offering the client?",
+          "options": [
+            "A free product",
+            "A discount",
+            "A refund",
+            "A gift card"
+          ],
+          "answer": "A discount",
+          "explanation": "Mike suggests giving a discount for the delay.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "So, actually, we messed up the Peterson order.",
+          "blanks": [
+            "messed up"
+          ],
+          "challenge": "expression",
+          "explanation": "'Messed up' means made a mistake with something."
+        },
+        {
+          "sentence": "It's gonna be late.",
+          "blanks": [
+            "gonna"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'Gonna' is the spoken reduction of 'going to'."
+        },
+        {
+          "sentence": "Not yet, I wanted to check with you first before I said anything.",
+          "blanks": [
+            "check with"
+          ],
+          "challenge": "expression",
+          "explanation": "'Check with' means to ask someone for confirmation."
+        },
+        {
+          "sentence": "Let me think for a second... okay, tell them we're gonna give a discount for the delay.",
+          "blanks": [
+            "we're gonna"
+          ],
+          "challenge": "contraction",
+          "explanation": "'We're' is the contraction of 'we are'."
+        },
+        {
+          "sentence": "Yeah, and next time, let's get the supplier confirmation earlier, you know?",
+          "blanks": [
+            "let's get"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Let's' is the contraction of 'let us'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        },
+        {
+          "written": "want to",
+          "spoken": "wanna"
+        }
+      ]
+    },
+    {
+      "slug": "b1-asking-coworker-clarification",
+      "title": "Wait, What Did You Mean?",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "asking a coworker for clarification",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Tom",
+          "line": "Hey Sara, sorry to bug you, but I'm kind of confused about the email you sent."
+        },
+        {
+          "speaker": "Sara",
+          "line": "Oh yeah, sure, which part?"
+        },
+        {
+          "speaker": "Tom",
+          "line": "The part about the deadline. Did you mean Friday this week or next week?"
+        },
+        {
+          "speaker": "Sara",
+          "line": "Oh, sorry, that was unclear. I meant this Friday, the 14th."
+        },
+        {
+          "speaker": "Tom",
+          "line": "Okay, that changes things a bit. I thought we had more time."
+        },
+        {
+          "speaker": "Sara",
+          "line": "Yeah, I should've been clearer, my bad."
+        },
+        {
+          "speaker": "Tom",
+          "line": "No worries, it happens. Can you also clarify what format you want the report in?"
+        },
+        {
+          "speaker": "Sara",
+          "line": "Just a simple PDF is fine, nothing fancy."
+        },
+        {
+          "speaker": "Tom",
+          "line": "Got it. And one more thing, who else is gonna review it before it goes out?"
+        },
+        {
+          "speaker": "Sara",
+          "line": "Just me for now, but I might loop in the manager later."
+        },
+        {
+          "speaker": "Tom",
+          "line": "Alright, that makes sense. Thanks for clearing that up."
+        },
+        {
+          "speaker": "Sara",
+          "line": "No problem, thanks for asking instead of just guessing!"
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is Tom mainly trying to do?",
+          "options": [
+            "Complain about Sara's email",
+            "Get clarification about a deadline and format",
+            "Ask for a day off",
+            "Cancel a meeting"
+          ],
+          "answer": "Get clarification about a deadline and format",
+          "explanation": "Tom asks Sara to clarify the deadline and report format.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "When is the actual deadline?",
+          "options": [
+            "Next Friday",
+            "This Friday, the 14th",
+            "Monday",
+            "This Thursday"
+          ],
+          "answer": "This Friday, the 14th",
+          "explanation": "Sara clarifies she meant this Friday, the 14th.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What format does Sara want the report in?",
+          "options": [
+            "Word document",
+            "PowerPoint",
+            "A simple PDF",
+            "Excel spreadsheet"
+          ],
+          "answer": "A simple PDF",
+          "explanation": "Sara says a simple PDF is fine.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Tom say 'sorry to bug you'?",
+          "options": [
+            "He is angry at Sara",
+            "He is being polite before asking a question",
+            "He wants to end the conversation",
+            "He is joking about something else"
+          ],
+          "answer": "He is being polite before asking a question",
+          "explanation": "It's a polite way to start an interruption.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does Sara mean by 'my bad'?",
+          "options": [
+            "She is blaming Tom",
+            "She is admitting her mistake",
+            "She is asking for help",
+            "She is refusing to apologize"
+          ],
+          "answer": "She is admitting her mistake",
+          "explanation": "'My bad' is an informal way of saying 'it's my fault'.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "wh",
+          "prompt": "Who will review the report besides Sara?",
+          "options": [
+            "No one else",
+            "Possibly the manager later",
+            "The whole team",
+            "A client"
+          ],
+          "answer": "Possibly the manager later",
+          "explanation": "Sara says she might loop in the manager later.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hey Sara, sorry to bug you, but I'm kind of confused about the email you sent.",
+          "blanks": [
+            "sorry to bug you"
+          ],
+          "challenge": "expression",
+          "explanation": "'Sorry to bug you' is a polite way to interrupt someone."
+        },
+        {
+          "sentence": "Oh, sorry, that was unclear. I meant this Friday, the 14th.",
+          "blanks": [
+            "the 14th"
+          ],
+          "challenge": "dates",
+          "explanation": "Dates are often reduced in speech but still important to catch."
+        },
+        {
+          "sentence": "Yeah, I should've been clearer, my bad.",
+          "blanks": [
+            "should've"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Should've' is the contraction of 'should have'."
+        },
+        {
+          "sentence": "And one more thing, who else is gonna review it before it goes out?",
+          "blanks": [
+            "gonna"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'Gonna' is the reduced spoken form of 'going to'."
+        },
+        {
+          "sentence": "No problem, thanks for asking instead of just guessing!",
+          "blanks": [
+            "instead of"
+          ],
+          "challenge": "expression",
+          "explanation": "'Instead of' introduces an alternative action."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        },
+        {
+          "written": "should have",
+          "spoken": "should've"
+        }
+      ]
+    },
+    {
+      "slug": "b1-project-update-meeting",
+      "title": "Where Are We With the Website?",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "giving a project update",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Lena",
+          "line": "Alright, let's start. Can you give us a quick update on the website project?"
+        },
+        {
+          "speaker": "Josh",
+          "line": "Sure, yeah. So, we're about seventy percent done with the design."
+        },
+        {
+          "speaker": "Lena",
+          "line": "Nice, that's ahead of schedule, right?"
+        },
+        {
+          "speaker": "Josh",
+          "line": "Kind of, yeah. We're gonna finish design by Wednesday, then move to testing."
+        },
+        {
+          "speaker": "Lena",
+          "line": "Great. Any blockers so far?"
+        },
+        {
+          "speaker": "Josh",
+          "line": "Actually, yeah, one thing. We're still waiting on the final logo files from marketing."
+        },
+        {
+          "speaker": "Lena",
+          "line": "Okay, I'll follow up with them today."
+        },
+        {
+          "speaker": "Josh",
+          "line": "That'd be great, 'cause without that we can't finalize the homepage."
+        },
+        {
+          "speaker": "Lena",
+          "line": "Got it. What about the mobile version?"
+        },
+        {
+          "speaker": "Josh",
+          "line": "That's a bit behind, honestly. Maybe another week or so."
+        },
+        {
+          "speaker": "Lena",
+          "line": "That's fine, just keep me posted."
+        },
+        {
+          "speaker": "Josh",
+          "line": "Will do, thanks for checking in."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is this meeting about?",
+          "options": [
+            "Hiring new staff",
+            "An update on the website project",
+            "Planning a company event",
+            "A budget review"
+          ],
+          "answer": "An update on the website project",
+          "explanation": "Josh gives Lena an update on the website's progress.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "How much of the design is done?",
+          "options": [
+            "Fifty percent",
+            "Seventy percent",
+            "Ninety percent",
+            "One hundred percent"
+          ],
+          "answer": "Seventy percent",
+          "explanation": "Josh says they're about seventy percent done.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "What is the current blocker?",
+          "options": [
+            "Lack of budget",
+            "Waiting on logo files from marketing",
+            "No developers available",
+            "A server crash"
+          ],
+          "answer": "Waiting on logo files from marketing",
+          "explanation": "Josh mentions waiting on final logo files from marketing.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Lena say she'll follow up with marketing?",
+          "options": [
+            "To fire someone",
+            "To help remove the blocker",
+            "To cancel the project",
+            "To change the deadline"
+          ],
+          "answer": "To help remove the blocker",
+          "explanation": "She offers to follow up to solve the logo issue.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'keep me posted' mean?",
+          "options": [
+            "Send physical mail",
+            "Continue giving updates",
+            "Stop working on it",
+            "Post it online"
+          ],
+          "answer": "Continue giving updates",
+          "explanation": "'Keep me posted' means to keep informing someone of progress.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "wh",
+          "prompt": "When will the design be finished?",
+          "options": [
+            "Monday",
+            "Wednesday",
+            "Friday",
+            "Next month"
+          ],
+          "answer": "Wednesday",
+          "explanation": "Josh says they're gonna finish design by Wednesday.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "So, we're about seventy percent done with the design.",
+          "blanks": [
+            "seventy percent"
+          ],
+          "challenge": "numbers",
+          "explanation": "Numbers and percentages are common in project updates."
+        },
+        {
+          "sentence": "We're gonna finish design by Wednesday, then move to testing.",
+          "blanks": [
+            "gonna"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'Gonna' replaces 'going to' in casual speech."
+        },
+        {
+          "sentence": "Actually, yeah, one thing. We're still waiting on the final logo files from marketing.",
+          "blanks": [
+            "waiting on"
+          ],
+          "challenge": "expression",
+          "explanation": "'Waiting on' means waiting for something to arrive."
+        },
+        {
+          "sentence": "That'd be great, 'cause without that we can't finalize the homepage.",
+          "blanks": [
+            "'cause"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "''Cause' is the reduced spoken form of 'because'."
+        },
+        {
+          "sentence": "That's a bit behind, honestly. Maybe another week or so.",
+          "blanks": [
+            "a bit behind"
+          ],
+          "challenge": "expression",
+          "explanation": "'A bit behind' means slightly late on schedule."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        },
+        {
+          "written": "because",
+          "spoken": "'cause"
+        }
+      ]
+    },
+    {
+      "slug": "b1-calling-a-client",
+      "title": "A Quick Call With the Client",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "calling a client",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "british",
+      "script": [
+        {
+          "speaker": "Claire",
+          "line": "Hi, is this Mr. Owens? This is Claire calling from Bright Solutions."
+        },
+        {
+          "speaker": "Owens",
+          "line": "Yes, speaking. Hi Claire."
+        },
+        {
+          "speaker": "Claire",
+          "line": "Hi there, I'm just calling to check in on the software installation. How's it going on your end?"
+        },
+        {
+          "speaker": "Owens",
+          "line": "Actually, we've had a couple of small issues, nothing major though."
+        },
+        {
+          "speaker": "Claire",
+          "line": "Oh no, sorry to hear that. What kind of issues?"
+        },
+        {
+          "speaker": "Owens",
+          "line": "Well, the system logs us out randomly sometimes. It's a bit annoying."
+        },
+        {
+          "speaker": "Claire",
+          "line": "Got it, I'll pass that along to our tech team right away."
+        },
+        {
+          "speaker": "Owens",
+          "line": "That'd be appreciated, thanks."
+        },
+        {
+          "speaker": "Claire",
+          "line": "No problem at all. Is there a good time for someone to call you back tomorrow?"
+        },
+        {
+          "speaker": "Owens",
+          "line": "Sure, anytime after ten works for me."
+        },
+        {
+          "speaker": "Claire",
+          "line": "Perfect, we'll ring you around ten thirty then."
+        },
+        {
+          "speaker": "Owens",
+          "line": "Sounds good, thanks for following up, Claire."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "Why is Claire calling Mr. Owens?",
+          "options": [
+            "To sell a new product",
+            "To check on the software installation",
+            "To cancel his account",
+            "To schedule a meeting"
+          ],
+          "answer": "To check on the software installation",
+          "explanation": "Claire calls to check in on how the installation is going.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "What problem does Mr. Owens mention?",
+          "options": [
+            "The software crashes",
+            "The system logs users out randomly",
+            "The software is too slow",
+            "It doesn't save files"
+          ],
+          "answer": "The system logs users out randomly",
+          "explanation": "Owens says the system logs them out randomly sometimes.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What time will someone call Mr. Owens back?",
+          "options": [
+            "Nine o'clock",
+            "Ten thirty",
+            "Noon",
+            "Two o'clock"
+          ],
+          "answer": "Ten thirty",
+          "explanation": "Claire says they'll ring him around ten thirty.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "What does Claire plan to do about the issue?",
+          "options": [
+            "Ignore it",
+            "Pass it along to the tech team",
+            "Cancel the contract",
+            "Ask Owens to fix it himself"
+          ],
+          "answer": "Pass it along to the tech team",
+          "explanation": "She says she'll pass that along to their tech team right away.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'nothing major though' mean?",
+          "options": [
+            "The problems are very serious",
+            "The problems are not too serious",
+            "There are no problems at all",
+            "The system is completely broken"
+          ],
+          "answer": "The problems are not too serious",
+          "explanation": "'Nothing major' means the issues aren't very serious.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Mr. Owens says he is available anytime after ten tomorrow.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "True",
+          "explanation": "Owens says anytime after ten works for him.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hi there, I'm just calling to check in on the software installation.",
+          "blanks": [
+            "check in on"
+          ],
+          "challenge": "expression",
+          "explanation": "'Check in on' means to see how something is going."
+        },
+        {
+          "sentence": "Actually, we've had a couple of small issues, nothing major though.",
+          "blanks": [
+            "we've had"
+          ],
+          "challenge": "contraction",
+          "explanation": "'We've' is the contraction of 'we have'."
+        },
+        {
+          "sentence": "Well, the system logs us out randomly sometimes. It's a bit annoying.",
+          "blanks": [
+            "a bit annoying"
+          ],
+          "challenge": "expression",
+          "explanation": "'A bit' softens the complaint in a polite way."
+        },
+        {
+          "sentence": "Sure, anytime after ten works for me.",
+          "blanks": [
+            "works for me"
+          ],
+          "challenge": "expression",
+          "explanation": "'Works for me' means something is acceptable or convenient."
+        },
+        {
+          "sentence": "Perfect, we'll ring you around ten thirty then.",
+          "blanks": [
+            "ten thirty"
+          ],
+          "challenge": "numbers",
+          "explanation": "Times are often given in this natural spoken format."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "we have",
+          "spoken": "we've"
+        },
+        {
+          "written": "we will",
+          "spoken": "we'll"
+        }
+      ]
+    },
+    {
+      "slug": "b1-job-interview-small-talk",
+      "title": "Before the Interview Starts",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "job interview small talk",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Diana",
+          "line": "Hi, come on in, have a seat! Did you find the office okay?"
+        },
+        {
+          "speaker": "Ravi",
+          "line": "Yeah, actually, I did, thanks. Your directions were really clear."
+        },
+        {
+          "speaker": "Diana",
+          "line": "Oh good, I'm glad. Did you come from far?"
+        },
+        {
+          "speaker": "Ravi",
+          "line": "Not too far, maybe twenty minutes by bus."
+        },
+        {
+          "speaker": "Diana",
+          "line": "Nice, not bad at all. Can I get you some water or coffee?"
+        },
+        {
+          "speaker": "Ravi",
+          "line": "Water would be great, thanks."
+        },
+        {
+          "speaker": "Diana",
+          "line": "Sure thing. So, how's your day going so far?"
+        },
+        {
+          "speaker": "Ravi",
+          "line": "Pretty good, a bit nervous, but excited too, honestly."
+        },
+        {
+          "speaker": "Diana",
+          "line": "That's totally normal, don't worry. We're gonna keep this pretty relaxed."
+        },
+        {
+          "speaker": "Ravi",
+          "line": "That's good to hear, thanks for saying that."
+        },
+        {
+          "speaker": "Diana",
+          "line": "Of course. Alright, should we get started then?"
+        },
+        {
+          "speaker": "Ravi",
+          "line": "Sounds good, I'm ready when you are."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is happening in this conversation?",
+          "options": [
+            "A job interview is about to start",
+            "A performance review is happening",
+            "A coworker is being fired",
+            "A client meeting is ending"
+          ],
+          "answer": "A job interview is about to start",
+          "explanation": "Diana and Ravi make small talk before the interview begins.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "How did Ravi get to the office?",
+          "options": [
+            "By car",
+            "By bus",
+            "By train",
+            "On foot"
+          ],
+          "answer": "By bus",
+          "explanation": "Ravi says it took about twenty minutes by bus.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What does Ravi ask for to drink?",
+          "options": [
+            "Coffee",
+            "Tea",
+            "Water",
+            "Juice"
+          ],
+          "answer": "Water",
+          "explanation": "Ravi says water would be great.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Diana say 'we're gonna keep this pretty relaxed'?",
+          "options": [
+            "To make Ravi feel more comfortable",
+            "To end the interview early",
+            "To tell him he's hired",
+            "To warn him about hard questions"
+          ],
+          "answer": "To make Ravi feel more comfortable",
+          "explanation": "She's reassuring him since he said he was nervous.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does Ravi mean by 'I'm ready when you are'?",
+          "options": [
+            "He wants to leave",
+            "He is ready to start whenever Diana wants",
+            "He needs more time",
+            "He is unsure about the interview"
+          ],
+          "answer": "He is ready to start whenever Diana wants",
+          "explanation": "This phrase means he's prepared to begin at any moment.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Ravi says he is only nervous, not excited.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "He says he's a bit nervous but excited too.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hi, come on in, have a seat! Did you find the office okay?",
+          "blanks": [
+            "have a seat"
+          ],
+          "challenge": "expression",
+          "explanation": "'Have a seat' is a polite way to invite someone to sit."
+        },
+        {
+          "sentence": "Not too far, maybe twenty minutes by bus.",
+          "blanks": [
+            "twenty minutes"
+          ],
+          "challenge": "numbers",
+          "explanation": "Time expressions like this are common in small talk."
+        },
+        {
+          "sentence": "Pretty good, a bit nervous, but excited too, honestly.",
+          "blanks": [
+            "a bit nervous"
+          ],
+          "challenge": "expression",
+          "explanation": "'A bit' softens the adjective that follows."
+        },
+        {
+          "sentence": "That's totally normal, don't worry. We're gonna keep this pretty relaxed.",
+          "blanks": [
+            "gonna"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'Gonna' is the spoken reduction of 'going to'."
+        },
+        {
+          "sentence": "Sounds good, I'm ready when you are.",
+          "blanks": [
+            "I'm ready"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'm' is the contraction of 'I am'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        },
+        {
+          "written": "I am",
+          "spoken": "I'm"
+        }
+      ]
+    },
+    {
+      "slug": "b1-disagreeing-politely-meeting",
+      "title": "I See It a Bit Differently",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "disagreeing politely in a meeting",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Carlos",
+          "line": "Okay, so I think we should launch the campaign next week, no later."
+        },
+        {
+          "speaker": "Priya",
+          "line": "Hmm, I see where you're coming from, but I'm not sure that's enough time."
+        },
+        {
+          "speaker": "Carlos",
+          "line": "What makes you say that?"
+        },
+        {
+          "speaker": "Priya",
+          "line": "Well, the design team still needs to finish the graphics, and that usually takes a few days."
+        },
+        {
+          "speaker": "Carlos",
+          "line": "Fair point, I hadn't thought about that."
+        },
+        {
+          "speaker": "Priya",
+          "line": "Also, we haven't tested the landing page yet, which kinda worries me."
+        },
+        {
+          "speaker": "Carlos",
+          "line": "Yeah, that's true. So what would you suggest instead?"
+        },
+        {
+          "speaker": "Priya",
+          "line": "Maybe we push it to the following Monday? That gives us a bit of breathing room."
+        },
+        {
+          "speaker": "Carlos",
+          "line": "That could work. I don't love the delay, but I get your point."
+        },
+        {
+          "speaker": "Priya",
+          "line": "I know it's not ideal, but I'd rather launch it right than launch it fast."
+        },
+        {
+          "speaker": "Carlos",
+          "line": "Yeah, you're right, actually. Let's go with Monday."
+        },
+        {
+          "speaker": "Priya",
+          "line": "Great, I'll let the team know."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What are Carlos and Priya discussing?",
+          "options": [
+            "The budget for a campaign",
+            "When to launch the campaign",
+            "Who to hire for design",
+            "A client complaint"
+          ],
+          "answer": "When to launch the campaign",
+          "explanation": "They discuss whether to launch next week or later.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "Why does Priya think next week is too soon?",
+          "options": [
+            "The budget isn't approved",
+            "The design and testing aren't finished",
+            "The client hasn't signed the contract",
+            "The team is on vacation"
+          ],
+          "answer": "The design and testing aren't finished",
+          "explanation": "She mentions unfinished graphics and untested landing page.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What new date does Priya suggest?",
+          "options": [
+            "This Friday",
+            "The following Monday",
+            "Next Wednesday",
+            "In a month"
+          ],
+          "answer": "The following Monday",
+          "explanation": "Priya suggests pushing it to the following Monday.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Priya say 'I see where you're coming from'?",
+          "options": [
+            "To completely agree with Carlos",
+            "To politely acknowledge his view before disagreeing",
+            "To end the discussion",
+            "To insult his idea"
+          ],
+          "answer": "To politely acknowledge his view before disagreeing",
+          "explanation": "It's a polite way to soften disagreement.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'breathing room' mean here?",
+          "options": [
+            "Fresh air in the office",
+            "Extra time to complete tasks",
+            "A place to relax",
+            "A physical room in the building"
+          ],
+          "answer": "Extra time to complete tasks",
+          "explanation": "'Breathing room' means extra time or space to work comfortably.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Carlos agrees to delay the launch by the end of the conversation.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "True",
+          "explanation": "Carlos agrees to go with Monday at the end.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hmm, I see where you're coming from, but I'm not sure that's enough time.",
+          "blanks": [
+            "coming from"
+          ],
+          "challenge": "expression",
+          "explanation": "'See where you're coming from' means understanding someone's perspective."
+        },
+        {
+          "sentence": "Also, we haven't tested the landing page yet, which kinda worries me.",
+          "blanks": [
+            "kinda"
+          ],
+          "challenge": "reduced_form",
+          "explanation": "'Kinda' is the reduced spoken form of 'kind of'."
+        },
+        {
+          "sentence": "Maybe we push it to the following Monday? That gives us a bit of breathing room.",
+          "blanks": [
+            "breathing room"
+          ],
+          "challenge": "expression",
+          "explanation": "This idiom means extra time to complete something."
+        },
+        {
+          "sentence": "I know it's not ideal, but I'd rather launch it right than launch it fast.",
+          "blanks": [
+            "I'd rather"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'd' is the contraction of 'I would'."
+        },
+        {
+          "sentence": "Yeah, you're right, actually. Let's go with Monday.",
+          "blanks": [
+            "you're right"
+          ],
+          "challenge": "contraction",
+          "explanation": "'You're' is the contraction of 'you are'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "kind of",
+          "spoken": "kinda"
+        },
+        {
+          "written": "I would",
+          "spoken": "I'd"
+        }
+      ]
+    },
+    {
+      "slug": "b1-negotiating-deadline",
+      "title": "Can We Push the Deadline?",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "negotiating a deadline",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Ben",
+          "line": "Hey, so about the report, I'm gonna be honest, Friday's tight."
+        },
+        {
+          "speaker": "Sue",
+          "line": "Yeah? What's going on?"
+        },
+        {
+          "speaker": "Ben",
+          "line": "We're still waiting on data from finance, and that's holding everything up."
+        },
+        {
+          "speaker": "Sue",
+          "line": "Hmm, how much extra time do you think you'd need?"
+        },
+        {
+          "speaker": "Ben",
+          "line": "Maybe two more days, so like Tuesday next week?"
+        },
+        {
+          "speaker": "Sue",
+          "line": "Let me think... that could work, but I'll need to tell the client."
+        },
+        {
+          "speaker": "Ben",
+          "line": "That's fair, I really appreciate the flexibility."
+        },
+        {
+          "speaker": "Sue",
+          "line": "No problem, just try not to make it a habit, yeah?"
+        },
+        {
+          "speaker": "Ben",
+          "line": "Ha, definitely not. This one's really out of our hands, though."
+        },
+        {
+          "speaker": "Sue",
+          "line": "I get it. Send me a quick email confirming the new date."
+        },
+        {
+          "speaker": "Ben",
+          "line": "Will do, thanks for understanding."
+        },
+        {
+          "speaker": "Sue",
+          "line": "No worries, we'll make it work."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is Ben asking Sue for?",
+          "options": [
+            "More budget",
+            "More time on the deadline",
+            "A new team member",
+            "A different project"
+          ],
+          "answer": "More time on the deadline",
+          "explanation": "Ben asks for a deadline extension.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "Why is Ben behind schedule?",
+          "options": [
+            "He's sick",
+            "Waiting on data from finance",
+            "The client cancelled",
+            "Equipment failure"
+          ],
+          "answer": "Waiting on data from finance",
+          "explanation": "Ben says they're waiting on data from finance.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What new date does Ben suggest?",
+          "options": [
+            "Monday",
+            "Tuesday next week",
+            "Wednesday",
+            "Next Friday"
+          ],
+          "answer": "Tuesday next week",
+          "explanation": "Ben suggests Tuesday next week as the new deadline.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Sue say 'just try not to make it a habit'?",
+          "options": [
+            "She's angry with Ben",
+            "She wants to warn him gently about future delays",
+            "She's ending the project",
+            "She doesn't trust him"
+          ],
+          "answer": "She wants to warn him gently about future delays",
+          "explanation": "It's a light warning, said in a friendly tone.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'out of our hands' mean?",
+          "options": [
+            "Something we can easily control",
+            "Something beyond our control",
+            "Something we did on purpose",
+            "Something finished already"
+          ],
+          "answer": "Something beyond our control",
+          "explanation": "'Out of our hands' means it's not something they can control.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Sue needs to tell the client about the new date.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "True",
+          "explanation": "Sue says she'll need to tell the client.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Hey, so about the report, I'm gonna be honest, Friday's tight.",
+          "blanks": [
+            "gonna"
+          ],
+          "challenge": "connected_speech",
+          "explanation": "'Gonna' is the reduced spoken form of 'going to'."
+        },
+        {
+          "sentence": "Maybe two more days, so like Tuesday next week?",
+          "blanks": [
+            "two more days"
+          ],
+          "challenge": "numbers",
+          "explanation": "Time durations are common in negotiation."
+        },
+        {
+          "sentence": "Let me think... that could work, but I'll need to tell the client.",
+          "blanks": [
+            "I'll need"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is the contraction of 'I will'."
+        },
+        {
+          "sentence": "Ha, definitely not. This one's really out of our hands, though.",
+          "blanks": [
+            "out of our hands"
+          ],
+          "challenge": "expression",
+          "explanation": "This idiom means something is beyond their control."
+        },
+        {
+          "sentence": "No worries, we'll make it work.",
+          "blanks": [
+            "we'll"
+          ],
+          "challenge": "contraction",
+          "explanation": "'We'll' is the contraction of 'we will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "going to",
+          "spoken": "gonna"
+        },
+        {
+          "written": "I will",
+          "spoken": "I'll"
+        }
+      ]
+    },
+    {
+      "slug": "b1-reporting-mistake-at-work",
+      "title": "I Think I Made a Mistake",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "reporting a mistake at work",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Nina",
+          "line": "Hey, um, do you have a sec? I need to tell you something."
+        },
+        {
+          "speaker": "Alex",
+          "line": "Sure, what's up?"
+        },
+        {
+          "speaker": "Nina",
+          "line": "So, I think I sent the invoice to the wrong client. Like, actually wrong."
+        },
+        {
+          "speaker": "Alex",
+          "line": "Oh no. Which client did it go to instead?"
+        },
+        {
+          "speaker": "Nina",
+          "line": "It went to Larson Corp instead of Larsen Inc. Similar names, I totally mixed them up."
+        },
+        {
+          "speaker": "Alex",
+          "line": "Okay, that happens. Did you catch it before they replied?"
+        },
+        {
+          "speaker": "Nina",
+          "line": "Yeah, luckily, I noticed right after I hit send."
+        },
+        {
+          "speaker": "Alex",
+          "line": "Good. Let's send a quick apology email to Larson Corp and then send the correct one to Larsen."
+        },
+        {
+          "speaker": "Nina",
+          "line": "Okay, I'll do that right now."
+        },
+        {
+          "speaker": "Alex",
+          "line": "And maybe double-check the client list next time before sending anything financial."
+        },
+        {
+          "speaker": "Nina",
+          "line": "Yeah, for sure, I'll be way more careful."
+        },
+        {
+          "speaker": "Alex",
+          "line": "No big deal, thanks for telling me right away."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What mistake did Nina make?",
+          "options": [
+            "She missed a deadline",
+            "She sent an invoice to the wrong client",
+            "She deleted a file",
+            "She forgot a meeting"
+          ],
+          "answer": "She sent an invoice to the wrong client",
+          "explanation": "Nina explains she sent the invoice to the wrong company.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "Which company received the invoice by mistake?",
+          "options": [
+            "Larsen Inc",
+            "Larson Corp",
+            "Peterson Co",
+            "Bright Solutions"
+          ],
+          "answer": "Larson Corp",
+          "explanation": "Nina says it went to Larson Corp instead of Larsen Inc.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "When did Nina notice the mistake?",
+          "options": [
+            "The next day",
+            "Right after she hit send",
+            "A week later",
+            "She never noticed"
+          ],
+          "answer": "Right after she hit send",
+          "explanation": "Nina says she noticed right after hitting send.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Nina tell Alex about the mistake?",
+          "options": [
+            "To blame someone else",
+            "To be honest and fix it quickly",
+            "To ask for a day off",
+            "To complain about the client"
+          ],
+          "answer": "To be honest and fix it quickly",
+          "explanation": "She reports it right away so it can be fixed.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'mixed them up' mean?",
+          "options": [
+            "Combined them successfully",
+            "Confused two things with each other",
+            "Organized them well",
+            "Deleted them by accident"
+          ],
+          "answer": "Confused two things with each other",
+          "explanation": "'Mixed up' means confused one thing for another.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Alex tells Nina it's a big deal and she should be worried.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "Alex says 'no big deal' at the end.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "So, I think I sent the invoice to the wrong client. Like, actually wrong.",
+          "blanks": [
+            "wrong client"
+          ],
+          "challenge": "expression",
+          "explanation": "This phrase highlights the nature of Nina's mistake."
+        },
+        {
+          "sentence": "It went to Larson Corp instead of Larsen Inc. Similar names, I totally mixed them up.",
+          "blanks": [
+            "mixed them up"
+          ],
+          "challenge": "similar_sounds",
+          "explanation": "'Larson' and 'Larsen' sound very similar, causing confusion."
+        },
+        {
+          "sentence": "Yeah, luckily, I noticed right after I hit send.",
+          "blanks": [
+            "hit send"
+          ],
+          "challenge": "expression",
+          "explanation": "'Hit send' means to click the send button."
+        },
+        {
+          "sentence": "Good. Let's send a quick apology email to Larson Corp and then send the correct one to Larsen.",
+          "blanks": [
+            "Let's send"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Let's' is the contraction of 'let us'."
+        },
+        {
+          "sentence": "Yeah, for sure, I'll be way more careful.",
+          "blanks": [
+            "I'll be"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is the contraction of 'I will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "let us",
+          "spoken": "let's"
+        },
+        {
+          "written": "I will",
+          "spoken": "I'll"
+        }
+      ]
+    },
+    {
+      "slug": "b1-asking-for-time-off",
+      "title": "Could I Take Next Friday Off?",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "asking for time off",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "british",
+      "script": [
+        {
+          "speaker": "Jason",
+          "line": "Hey, do you have a minute? I wanted to ask about taking some time off."
+        },
+        {
+          "speaker": "Marie",
+          "line": "Sure, what were you thinking?"
+        },
+        {
+          "speaker": "Jason",
+          "line": "I was hoping to take next Friday off, if that's okay. It's my sister's wedding."
+        },
+        {
+          "speaker": "Marie",
+          "line": "Oh, congrats to her! Let me check the schedule real quick."
+        },
+        {
+          "speaker": "Jason",
+          "line": "Thanks, I know it's kind of short notice."
+        },
+        {
+          "speaker": "Marie",
+          "line": "It's alright, we're not too busy that day. I think it should be fine."
+        },
+        {
+          "speaker": "Jason",
+          "line": "That's a relief, thank you so much."
+        },
+        {
+          "speaker": "Marie",
+          "line": "No problem at all. Can you just finish the client report before you leave Thursday?"
+        },
+        {
+          "speaker": "Jason",
+          "line": "Yeah, definitely, I'll have it done by end of day Thursday."
+        },
+        {
+          "speaker": "Marie",
+          "line": "Perfect, that works. I'll approve the request today."
+        },
+        {
+          "speaker": "Jason",
+          "line": "Awesome, thanks again, I really appreciate it."
+        },
+        {
+          "speaker": "Marie",
+          "line": "Of course, enjoy the wedding!"
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is Jason asking Marie for?",
+          "options": [
+            "A raise",
+            "Time off for his sister's wedding",
+            "A new project",
+            "Help with a report"
+          ],
+          "answer": "Time off for his sister's wedding",
+          "explanation": "Jason asks for Friday off to attend his sister's wedding.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "Why does Jason want the day off?",
+          "options": [
+            "A doctor's appointment",
+            "His sister's wedding",
+            "A vacation trip",
+            "A family emergency"
+          ],
+          "answer": "His sister's wedding",
+          "explanation": "He mentions it's his sister's wedding.",
+          "skill": "details"
+        },
+        {
+          "type": "detail",
+          "prompt": "What does Marie ask Jason to finish before he leaves?",
+          "options": [
+            "The client report",
+            "A presentation",
+            "The budget sheet",
+            "An email to the client"
+          ],
+          "answer": "The client report",
+          "explanation": "Marie asks him to finish the client report before Thursday.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Jason say 'I know it's kind of short notice'?",
+          "options": [
+            "To brag about the wedding",
+            "To acknowledge he's asking with little advance warning",
+            "To cancel his request",
+            "To complain about work"
+          ],
+          "answer": "To acknowledge he's asking with little advance warning",
+          "explanation": "He's being polite about the short notice of his request.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'that's a relief' mean?",
+          "options": [
+            "That's disappointing",
+            "That reduces worry or stress",
+            "That's confusing",
+            "That's unimportant"
+          ],
+          "answer": "That reduces worry or stress",
+          "explanation": "'A relief' means something that removes worry.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Marie says the office is very busy on that Friday.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "Marie says they're not too busy that day.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "I was hoping to take next Friday off, if that's okay.",
+          "blanks": [
+            "take next Friday off"
+          ],
+          "challenge": "expression",
+          "explanation": "'Take a day off' means to not work on that day."
+        },
+        {
+          "sentence": "Thanks, I know it's kind of short notice.",
+          "blanks": [
+            "short notice"
+          ],
+          "challenge": "expression",
+          "explanation": "'Short notice' means very little advance warning."
+        },
+        {
+          "sentence": "It's alright, we're not too busy that day. I think it should be fine.",
+          "blanks": [
+            "we're not"
+          ],
+          "challenge": "contraction",
+          "explanation": "'We're' is the contraction of 'we are'."
+        },
+        {
+          "sentence": "Yeah, definitely, I'll have it done by end of day Thursday.",
+          "blanks": [
+            "I'll have"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is the contraction of 'I will'."
+        },
+        {
+          "sentence": "Perfect, that works. I'll approve the request today.",
+          "blanks": [
+            "I'll approve"
+          ],
+          "challenge": "contraction",
+          "explanation": "'I'll' is the contraction of 'I will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "we are",
+          "spoken": "we're"
+        },
+        {
+          "written": "I will",
+          "spoken": "I'll"
+        }
+      ]
+    },
+    {
+      "slug": "b1-onboarding-new-coworker",
+      "title": "Welcome to the Team!",
+      "level": "B1",
+      "category": "Work & Career",
+      "topic": "onboarding a new coworker",
+      "difficulty": 6,
+      "duration_seconds": 70,
+      "accent": "american",
+      "script": [
+        {
+          "speaker": "Katie",
+          "line": "Hey! You must be Sam, right? Welcome to the team!"
+        },
+        {
+          "speaker": "Sam",
+          "line": "Yeah, that's me, thanks! I'm excited to get started."
+        },
+        {
+          "speaker": "Katie",
+          "line": "Great, let me show you around a bit. This is your desk over here."
+        },
+        {
+          "speaker": "Sam",
+          "line": "Oh nice, it's got a good view of the window."
+        },
+        {
+          "speaker": "Katie",
+          "line": "Yeah, one of the perks. So, your laptop should already be set up, but let me know if you're having trouble logging in."
+        },
+        {
+          "speaker": "Sam",
+          "line": "Will do, thanks. Is there like a schedule for meetings I should know about?"
+        },
+        {
+          "speaker": "Katie",
+          "line": "Yep, we've got a team meeting every Monday at ten, and one-on-ones are usually on Thursdays."
+        },
+        {
+          "speaker": "Sam",
+          "line": "Got it, I'll write that down."
+        },
+        {
+          "speaker": "Katie",
+          "line": "Also, don't hesitate to ask questions, everyone here is super friendly."
+        },
+        {
+          "speaker": "Sam",
+          "line": "That's good to know, I was a little nervous, honestly."
+        },
+        {
+          "speaker": "Katie",
+          "line": "Totally normal, we've all been there. You'll settle in fast, trust me."
+        },
+        {
+          "speaker": "Sam",
+          "line": "Thanks, Katie, I really appreciate the warm welcome."
+        }
+      ],
+      "questions": [
+        {
+          "type": "main_idea",
+          "prompt": "What is happening in this conversation?",
+          "options": [
+            "A performance review",
+            "Onboarding a new employee",
+            "A client meeting",
+            "A team is being fired"
+          ],
+          "answer": "Onboarding a new employee",
+          "explanation": "Katie is showing Sam around on his first day.",
+          "skill": "main_idea"
+        },
+        {
+          "type": "detail",
+          "prompt": "When is the weekly team meeting?",
+          "options": [
+            "Monday at ten",
+            "Tuesday at noon",
+            "Friday at nine",
+            "Wednesday at three"
+          ],
+          "answer": "Monday at ten",
+          "explanation": "Katie says the team meeting is every Monday at ten.",
+          "skill": "numbers_dates"
+        },
+        {
+          "type": "detail",
+          "prompt": "When are one-on-one meetings usually held?",
+          "options": [
+            "Mondays",
+            "Thursdays",
+            "Fridays",
+            "Wednesdays"
+          ],
+          "answer": "Thursdays",
+          "explanation": "Katie mentions one-on-ones are usually on Thursdays.",
+          "skill": "details"
+        },
+        {
+          "type": "intention",
+          "prompt": "Why does Katie say 'we've all been there'?",
+          "options": [
+            "To make Sam feel less alone about being nervous",
+            "To complain about her own first day",
+            "To end the conversation",
+            "To ask Sam a personal question"
+          ],
+          "answer": "To make Sam feel less alone about being nervous",
+          "explanation": "She's reassuring Sam that nervousness on the first day is normal.",
+          "skill": "intention"
+        },
+        {
+          "type": "meaning",
+          "prompt": "What does 'settle in' mean?",
+          "options": [
+            "Become comfortable in a new place",
+            "Leave a job quickly",
+            "Complain about something",
+            "Finish a task"
+          ],
+          "answer": "Become comfortable in a new place",
+          "explanation": "'Settle in' means to get used to and comfortable in a new environment.",
+          "skill": "vocabulary"
+        },
+        {
+          "type": "true_false",
+          "prompt": "Sam says he isn't nervous at all about starting.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False",
+          "explanation": "Sam admits he was a little nervous, honestly.",
+          "skill": "details"
+        }
+      ],
+      "dictation": [
+        {
+          "sentence": "Great, let me show you around a bit. This is your desk over here.",
+          "blanks": [
+            "show you around"
+          ],
+          "challenge": "expression",
+          "explanation": "'Show someone around' means to give a tour of a place."
+        },
+        {
+          "sentence": "Yep, we've got a team meeting every Monday at ten, and one-on-ones are usually on Thursdays.",
+          "blanks": [
+            "we've got"
+          ],
+          "challenge": "contraction",
+          "explanation": "'We've' is the contraction of 'we have'."
+        },
+        {
+          "sentence": "Also, don't hesitate to ask questions, everyone here is super friendly.",
+          "blanks": [
+            "don't hesitate"
+          ],
+          "challenge": "contraction",
+          "explanation": "'Don't' is the contraction of 'do not'."
+        },
+        {
+          "sentence": "That's good to know, I was a little nervous, honestly.",
+          "blanks": [
+            "a little nervous"
+          ],
+          "challenge": "expression",
+          "explanation": "'A little' softens the adjective that follows."
+        },
+        {
+          "sentence": "Totally normal, we've all been there. You'll settle in fast, trust me.",
+          "blanks": [
+            "You'll settle"
+          ],
+          "challenge": "contraction",
+          "explanation": "'You'll' is the contraction of 'you will'."
+        }
+      ],
+      "connected_speech": [
+        {
+          "written": "we have",
+          "spoken": "we've"
+        },
+        {
+          "written": "you will",
+          "spoken": "you'll"
+        }
+      ]
+    }
+  ]
+}

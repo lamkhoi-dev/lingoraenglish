@@ -1,0 +1,41 @@
+{
+  "topic_slug": "customer-service",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Simple request",
+      "turns": [
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Can I return this shirt? It's too small.", "is_free": true },
+        { "speaker_label": "Staff", "speaker_voice": "alloy", "sentence": "Sure, do you have the receipt?", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "Yes, here it is.", "is_free": true },
+        { "speaker_label": "Staff", "speaker_voice": "alloy", "sentence": "Great, would you like a refund or an exchange?", "is_free": true },
+        { "speaker_label": "Customer", "speaker_voice": "shimmer", "sentence": "An exchange for a larger size, please.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Handling a complaint",
+      "turns": [
+        { "speaker_label": "Customer", "speaker_voice": "coral", "sentence": "This is the second time my order has arrived damaged. I'm getting pretty frustrated.", "is_free": false },
+        { "speaker_label": "Agent", "speaker_voice": "sage", "sentence": "I completely understand your frustration, and I'm sorry we've let you down twice now.", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "coral", "sentence": "What can you do to make sure this doesn't happen a third time?", "is_free": false },
+        { "speaker_label": "Agent", "speaker_voice": "sage", "sentence": "I'll flag your account for extra packaging care and send a replacement with priority shipping today.", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "coral", "sentence": "Okay, I appreciate you taking it seriously.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "De-escalating a difficult customer",
+      "turns": [
+        { "speaker_label": "Customer", "speaker_voice": "nova", "sentence": "I've been on hold for forty minutes and nobody seems to have a straight answer for me.", "is_free": false },
+        { "speaker_label": "Agent", "speaker_voice": "shimmer", "sentence": "I'm truly sorry for the wait — that's not the experience we want you to have, and I intend to resolve this now.", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "nova", "sentence": "I certainly hope so, because I'm close to canceling my subscription altogether.", "is_free": false },
+        { "speaker_label": "Agent", "speaker_voice": "shimmer", "sentence": "I understand completely, and I'd rather fix the underlying issue than lose you as a customer over this.", "is_free": false },
+        { "speaker_label": "Customer", "speaker_voice": "nova", "sentence": "Alright, I'm willing to hear you out — what do you propose?", "is_free": false }
+      ]
+    }
+  ]
+}

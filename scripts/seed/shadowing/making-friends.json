@@ -1,0 +1,2509 @@
+{
+  "slug": "making-friends",
+  "name": "Making Friends & Social Events",
+  "topic_group": "Social & Canadian Life",
+  "blurb": "Learn natural spoken English for meeting new people and navigating social events.",
+  "sort_order": 14,
+  "sentences": [
+    {
+      "subcategory": "Introductions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Hi, my name is Sarah.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear vowel in 'name', rising pitch on greeting.",
+      "stress_focus": "Stress on SA-rah.",
+      "intonation_focus": "Friendly rising intonation on greeting.",
+      "connected_speech_focus": "Link 'my' and 'name' smoothly.",
+      "vocabulary": [
+        {
+          "word": "name",
+          "meaning": "what you're called"
+        }
+      ],
+      "grammar_focus": "Simple present with 'to be'",
+      "tags": [
+        "greetings",
+        "introductions",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Introductions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What's your name?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'what's' to /wʌts/.",
+      "stress_focus": "Stress on NAME.",
+      "intonation_focus": "Rising intonation for a question.",
+      "connected_speech_focus": "Link 'what's' and 'your'.",
+      "vocabulary": [
+        {
+          "word": "what's",
+          "meaning": "what is"
+        }
+      ],
+      "grammar_focus": "Question with 'be'",
+      "tags": [
+        "greetings",
+        "questions",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Introductions",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "response",
+      "sentence": "Nice to meet you too.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /t/ sounds in 'meet' and 'to'.",
+      "stress_focus": "Stress on MEET and TOO.",
+      "intonation_focus": "Falling intonation showing politeness.",
+      "connected_speech_focus": "Link 'meet' and 'you'.",
+      "vocabulary": [
+        {
+          "word": "nice to meet you",
+          "meaning": "polite greeting phrase"
+        }
+      ],
+      "grammar_focus": "Fixed expression",
+      "tags": [
+        "greetings",
+        "politeness",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you come here a lot?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Short 'a' in 'a lot'.",
+      "stress_focus": "Stress on COME and LOT.",
+      "intonation_focus": "Rising intonation for yes/no question.",
+      "connected_speech_focus": "Link 'come' and 'here'.",
+      "vocabulary": [
+        {
+          "word": "a lot",
+          "meaning": "frequently"
+        }
+      ],
+      "grammar_focus": "Simple present question",
+      "tags": [
+        "small-talk",
+        "questions",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I love meeting new people.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /l/ in 'love'.",
+      "stress_focus": "Stress on LOVE and NEW.",
+      "intonation_focus": "Falling intonation for statement.",
+      "connected_speech_focus": "Link 'meeting' and 'new'.",
+      "vocabulary": [
+        {
+          "word": "meeting",
+          "meaning": "getting to know"
+        }
+      ],
+      "grammar_focus": "Simple present",
+      "tags": [
+        "small-talk",
+        "hobbies",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Invitations",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Do you want to hang out sometime?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'want to' to 'wanna'.",
+      "stress_focus": "Stress on HANG and SOMETIME.",
+      "intonation_focus": "Rising intonation, friendly tone.",
+      "connected_speech_focus": "Link 'hang' and 'out'.",
+      "vocabulary": [
+        {
+          "word": "hang out",
+          "meaning": "spend casual time together"
+        }
+      ],
+      "grammar_focus": "Phrasal verb intro",
+      "tags": [
+        "invitations",
+        "phrasal-verbs",
+        "casual"
+      ]
+    },
+    {
+      "subcategory": "Invitations",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "Sure, that sounds fun!",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /s/ in 'sounds'.",
+      "stress_focus": "Stress on SURE and FUN.",
+      "intonation_focus": "Excited falling-rising intonation.",
+      "connected_speech_focus": "Link 'sounds' and 'fun'.",
+      "vocabulary": [
+        {
+          "word": "sounds fun",
+          "meaning": "seems enjoyable"
+        }
+      ],
+      "grammar_focus": "Simple present with 'sound'",
+      "tags": [
+        "invitations",
+        "agreement",
+        "casual"
+      ]
+    },
+    {
+      "subcategory": "Invitations",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We're having a party this weekend.",
+      "natural_form": "We're having a party this weekend.",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'we're' to /wɪr/.",
+      "stress_focus": "Stress on PAR-ty and WEEK-end.",
+      "intonation_focus": "Falling intonation for statement.",
+      "connected_speech_focus": "Link 'this' and 'weekend'.",
+      "vocabulary": [
+        {
+          "word": "party",
+          "meaning": "social gathering"
+        }
+      ],
+      "grammar_focus": "Present continuous for future plans",
+      "tags": [
+        "invitations",
+        "events",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Invitations",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Can you come to my birthday?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'can you' to /kənju/.",
+      "stress_focus": "Stress on COME and BIRTH-day.",
+      "intonation_focus": "Rising intonation for a question.",
+      "connected_speech_focus": "Link 'can' and 'you'.",
+      "vocabulary": [
+        {
+          "word": "birthday",
+          "meaning": "the day someone was born"
+        }
+      ],
+      "grammar_focus": "Modal 'can' for ability/permission",
+      "tags": [
+        "invitations",
+        "questions",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Introductions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "This is my friend Mike.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /f/ in 'friend'.",
+      "stress_focus": "Stress on FRIEND and MIKE.",
+      "intonation_focus": "Falling intonation, introducing someone.",
+      "connected_speech_focus": "Link 'this' and 'is'.",
+      "vocabulary": [
+        {
+          "word": "friend",
+          "meaning": "a close companion"
+        }
+      ],
+      "grammar_focus": "Demonstrative pronoun 'this'",
+      "tags": [
+        "introductions",
+        "basic",
+        "greetings"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Where are you from?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'are you' to /ɑrju/.",
+      "stress_focus": "Stress on WHERE and FROM.",
+      "intonation_focus": "Rising intonation for information question.",
+      "connected_speech_focus": "Link 'are' and 'you'.",
+      "vocabulary": [
+        {
+          "word": "from",
+          "meaning": "originating in a place"
+        }
+      ],
+      "grammar_focus": "Wh-question with 'be'",
+      "tags": [
+        "small-talk",
+        "questions",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "I'm from Toronto.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I'm' to /aɪm/.",
+      "stress_focus": "Stress on To-RON-to.",
+      "intonation_focus": "Falling intonation for answer.",
+      "connected_speech_focus": "Link 'I'm' and 'from'.",
+      "vocabulary": [
+        {
+          "word": "Toronto",
+          "meaning": "a city in Canada"
+        }
+      ],
+      "grammar_focus": "Simple present with 'be'",
+      "tags": [
+        "small-talk",
+        "canada",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What do you do for fun?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'do you' to /dju/.",
+      "stress_focus": "Stress on FUN.",
+      "intonation_focus": "Rising intonation for question.",
+      "connected_speech_focus": "Link 'do' and 'you'.",
+      "vocabulary": [
+        {
+          "word": "for fun",
+          "meaning": "as a hobby"
+        }
+      ],
+      "grammar_focus": "Wh-question, simple present",
+      "tags": [
+        "small-talk",
+        "hobbies",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "I usually go hiking on weekends.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /h/ in 'hiking'.",
+      "stress_focus": "Stress on HIK-ing and WEEK-ends.",
+      "intonation_focus": "Falling intonation for statement.",
+      "connected_speech_focus": "Link 'go' and 'hiking'.",
+      "vocabulary": [
+        {
+          "word": "hiking",
+          "meaning": "walking outdoors for exercise"
+        }
+      ],
+      "grammar_focus": "Simple present with adverb of frequency",
+      "tags": [
+        "small-talk",
+        "hobbies",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "request",
+      "sentence": "Let's grab coffee sometime.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'let's' to /lɛts/.",
+      "stress_focus": "Stress on GRAB and COFFEE.",
+      "intonation_focus": "Falling intonation for a suggestion.",
+      "connected_speech_focus": "Link 'grab' and 'coffee'.",
+      "vocabulary": [
+        {
+          "word": "grab coffee",
+          "meaning": "get coffee together casually"
+        }
+      ],
+      "grammar_focus": "Imperative with 'let's'",
+      "tags": [
+        "invitations",
+        "casual",
+        "plans"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "response",
+      "sentence": "Sounds good, I'm free Saturday.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I'm' to /aɪm/.",
+      "stress_focus": "Stress on GOOD and SAT-ur-day.",
+      "intonation_focus": "Falling intonation for agreement.",
+      "connected_speech_focus": "Link 'sounds' and 'good'.",
+      "vocabulary": [
+        {
+          "word": "free",
+          "meaning": "available"
+        }
+      ],
+      "grammar_focus": "Simple present with 'be'",
+      "tags": [
+        "plans",
+        "agreement",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Introductions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I just moved to this city.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /dʒ/ in 'just'.",
+      "stress_focus": "Stress on MOVED and CI-ty.",
+      "intonation_focus": "Falling intonation for statement.",
+      "connected_speech_focus": "Link 'moved' and 'to'.",
+      "vocabulary": [
+        {
+          "word": "moved",
+          "meaning": "relocated"
+        }
+      ],
+      "grammar_focus": "Simple past",
+      "tags": [
+        "introductions",
+        "storytelling",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Introductions",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "How long have you lived here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'have you' to /həvju/.",
+      "stress_focus": "Stress on LONG and LIVED.",
+      "intonation_focus": "Rising intonation for question.",
+      "connected_speech_focus": "Link 'have' and 'you'.",
+      "vocabulary": [
+        {
+          "word": "lived",
+          "meaning": "resided"
+        }
+      ],
+      "grammar_focus": "Present perfect",
+      "tags": [
+        "questions",
+        "introductions",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "beginner",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "My roommate is really friendly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'roommate'.",
+      "stress_focus": "Stress on ROOM-mate and FRIEND-ly.",
+      "intonation_focus": "Falling intonation for statement.",
+      "connected_speech_focus": "Link 'roommate' and 'is'.",
+      "vocabulary": [
+        {
+          "word": "roommate",
+          "meaning": "a person you share a home with"
+        }
+      ],
+      "grammar_focus": "Simple present with 'be'",
+      "tags": [
+        "small-talk",
+        "basic",
+        "relationships"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Are you free this Friday night?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'are you' to /ɑrju/.",
+      "stress_focus": "Stress on FREE and FRI-day.",
+      "intonation_focus": "Rising intonation for question.",
+      "connected_speech_focus": "Link 'this' and 'Friday'.",
+      "vocabulary": [
+        {
+          "word": "free",
+          "meaning": "not busy"
+        }
+      ],
+      "grammar_focus": "Simple present question",
+      "tags": [
+        "plans",
+        "questions",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Yeah, I don't have plans yet.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'don't' to /doʊnt/.",
+      "stress_focus": "Stress on DON'T and PLANS.",
+      "intonation_focus": "Falling intonation for answer.",
+      "connected_speech_focus": "Link 'don't' and 'have'.",
+      "vocabulary": [
+        {
+          "word": "plans",
+          "meaning": "arranged activities"
+        }
+      ],
+      "grammar_focus": "Negative simple present",
+      "tags": [
+        "plans",
+        "response",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "There's a potluck at my place tonight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'there's' to /ðɛrz/.",
+      "stress_focus": "Stress on POT-luck and TO-night.",
+      "intonation_focus": "Falling intonation for statement.",
+      "connected_speech_focus": "Link 'at' and 'my'.",
+      "vocabulary": [
+        {
+          "word": "potluck",
+          "meaning": "a meal where guests bring food"
+        }
+      ],
+      "grammar_focus": "Existential 'there is'",
+      "tags": [
+        "events",
+        "invitations",
+        "canada"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Should I bring anything?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'should I' to /ʃʊdaɪ/.",
+      "stress_focus": "Stress on BRING and A-ny-thing.",
+      "intonation_focus": "Rising intonation for question.",
+      "connected_speech_focus": "Link 'bring' and 'anything'.",
+      "vocabulary": [
+        {
+          "word": "bring",
+          "meaning": "to carry with you"
+        }
+      ],
+      "grammar_focus": "Modal 'should' question",
+      "tags": [
+        "events",
+        "questions",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Just bring yourself, that's enough.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /f/ in 'yourself'.",
+      "stress_focus": "Stress on YOUR-self and E-nough.",
+      "intonation_focus": "Falling intonation, reassuring tone.",
+      "connected_speech_focus": "Link 'that's' and 'enough'.",
+      "vocabulary": [
+        {
+          "word": "enough",
+          "meaning": "sufficient"
+        }
+      ],
+      "grammar_focus": "Imperative sentence",
+      "tags": [
+        "events",
+        "response",
+        "politeness"
+      ]
+    },
+    {
+      "subcategory": "Introductions",
+      "level": "beginner",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We met at the gym last month.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /g/ in 'gym'.",
+      "stress_focus": "Stress on MET and GYM.",
+      "intonation_focus": "Falling intonation for storytelling.",
+      "connected_speech_focus": "Link 'met' and 'at'.",
+      "vocabulary": [
+        {
+          "word": "gym",
+          "meaning": "a place to exercise"
+        }
+      ],
+      "grammar_focus": "Simple past",
+      "tags": [
+        "storytelling",
+        "introductions",
+        "basic"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I've been meaning to call you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I've' to /aɪv/.",
+      "stress_focus": "Stress on MEAN-ing and CALL.",
+      "intonation_focus": "Falling intonation, slightly apologetic.",
+      "connected_speech_focus": "Link 'been' and 'meaning'.",
+      "vocabulary": [
+        {
+          "word": "meaning to",
+          "meaning": "intending to"
+        }
+      ],
+      "grammar_focus": "Present perfect continuous",
+      "tags": [
+        "small-talk",
+        "relationships",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How do you two know each other?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'do you' to /dju/.",
+      "stress_focus": "Stress on KNOW and EACH.",
+      "intonation_focus": "Rising intonation for curiosity.",
+      "connected_speech_focus": "Link 'each' and 'other'.",
+      "vocabulary": [
+        {
+          "word": "know each other",
+          "meaning": "be familiar with someone"
+        }
+      ],
+      "grammar_focus": "Wh-question with reciprocal pronoun",
+      "tags": [
+        "small-talk",
+        "questions",
+        "relationships"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "We actually met through a mutual friend.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /tʃ/ in 'mutual'.",
+      "stress_focus": "Stress on MET and MU-tual.",
+      "intonation_focus": "Falling intonation for explanation.",
+      "connected_speech_focus": "Link 'met' and 'through'.",
+      "vocabulary": [
+        {
+          "word": "mutual friend",
+          "meaning": "a friend shared by two people"
+        }
+      ],
+      "grammar_focus": "Simple past passive-like structure",
+      "tags": [
+        "small-talk",
+        "response",
+        "relationships"
+      ]
+    },
+    {
+      "subcategory": "Compliments",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "You have such a great sense of humor.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /h/ in 'humor'.",
+      "stress_focus": "Stress on GREAT and HU-mor.",
+      "intonation_focus": "Falling intonation, warm tone.",
+      "connected_speech_focus": "Link 'sense' and 'of'.",
+      "vocabulary": [
+        {
+          "word": "sense of humor",
+          "meaning": "ability to find things funny"
+        }
+      ],
+      "grammar_focus": "Exclamatory statement",
+      "tags": [
+        "compliments",
+        "opinion",
+        "relationships"
+      ]
+    },
+    {
+      "subcategory": "Compliments",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "Thanks, that means a lot coming from you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'that means' link.",
+      "stress_focus": "Stress on MEANS and A LOT.",
+      "intonation_focus": "Falling intonation, appreciative tone.",
+      "connected_speech_focus": "Link 'coming' and 'from'.",
+      "vocabulary": [
+        {
+          "word": "means a lot",
+          "meaning": "is very meaningful"
+        }
+      ],
+      "grammar_focus": "Present participle clause",
+      "tags": [
+        "compliments",
+        "response",
+        "gratitude"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "request",
+      "sentence": "Why don't we all go out this weekend?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'don't we' to /doʊntwi/.",
+      "stress_focus": "Stress on GO and WEEK-end.",
+      "intonation_focus": "Rising intonation, suggestion tone.",
+      "connected_speech_focus": "Link 'go' and 'out'.",
+      "vocabulary": [
+        {
+          "word": "why don't we",
+          "meaning": "suggestion phrase"
+        }
+      ],
+      "grammar_focus": "Suggestion with 'why don't'",
+      "tags": [
+        "plans",
+        "suggestion",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "response",
+      "sentence": "I'm down for whatever, honestly.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I'm' to /aɪm/.",
+      "stress_focus": "Stress on DOWN and WHAT-ev-er.",
+      "intonation_focus": "Falling intonation, casual agreement.",
+      "connected_speech_focus": "Link 'down' and 'for'.",
+      "vocabulary": [
+        {
+          "word": "I'm down",
+          "meaning": "I'm willing/agreeable"
+        }
+      ],
+      "grammar_focus": "Idiomatic expression",
+      "tags": [
+        "plans",
+        "agreement",
+        "casual"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "elementary",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The turnout for the barbecue was huge.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /tʃ/ in 'huge'.",
+      "stress_focus": "Stress on TURN-out and HUGE.",
+      "intonation_focus": "Falling intonation for storytelling.",
+      "connected_speech_focus": "Link 'was' and 'huge'.",
+      "vocabulary": [
+        {
+          "word": "turnout",
+          "meaning": "the number of people who show up"
+        }
+      ],
+      "grammar_focus": "Simple past with 'be'",
+      "tags": [
+        "events",
+        "storytelling",
+        "canada"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Are you going to Jen's housewarming?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'going to' to 'gonna'.",
+      "stress_focus": "Stress on JEN'S and HOUSE-warming.",
+      "intonation_focus": "Rising intonation for question.",
+      "connected_speech_focus": "Link 'going' and 'to'.",
+      "vocabulary": [
+        {
+          "word": "housewarming",
+          "meaning": "a party for a new home"
+        }
+      ],
+      "grammar_focus": "Present continuous for future",
+      "tags": [
+        "events",
+        "questions",
+        "canada"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "response",
+      "sentence": "I wasn't planning to, but maybe now I will.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'wasn't' to /wʌzənt/.",
+      "stress_focus": "Stress on PLAN-ning and MAY-be.",
+      "intonation_focus": "Falling then rising intonation.",
+      "connected_speech_focus": "Link 'wasn't' and 'planning'.",
+      "vocabulary": [
+        {
+          "word": "planning to",
+          "meaning": "intending to"
+        }
+      ],
+      "grammar_focus": "Past continuous with contrast clause",
+      "tags": [
+        "events",
+        "response",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Compliments",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "It's so easy to talk to you.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'it's' to /ɪts/.",
+      "stress_focus": "Stress on EA-sy and TALK.",
+      "intonation_focus": "Falling intonation, sincere tone.",
+      "connected_speech_focus": "Link 'easy' and 'to'.",
+      "vocabulary": [
+        {
+          "word": "easy to talk to",
+          "meaning": "comfortable to converse with"
+        }
+      ],
+      "grammar_focus": "Adjective + infinitive",
+      "tags": [
+        "compliments",
+        "relationships",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "What made you decide to move here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'made you' link.",
+      "stress_focus": "Stress on DE-cide and MOVE.",
+      "intonation_focus": "Rising intonation for curiosity.",
+      "connected_speech_focus": "Link 'made' and 'you'.",
+      "vocabulary": [
+        {
+          "word": "decide",
+          "meaning": "to choose"
+        }
+      ],
+      "grammar_focus": "Wh-question with infinitive",
+      "tags": [
+        "small-talk",
+        "questions",
+        "storytelling"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "response",
+      "sentence": "Honestly, it was mostly for the job.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /dʒ/ in 'job'.",
+      "stress_focus": "Stress on HON-est-ly and JOB.",
+      "intonation_focus": "Falling intonation for explanation.",
+      "connected_speech_focus": "Link 'was' and 'mostly'.",
+      "vocabulary": [
+        {
+          "word": "mostly",
+          "meaning": "mainly"
+        }
+      ],
+      "grammar_focus": "Simple past with adverb",
+      "tags": [
+        "small-talk",
+        "response",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "We should keep in touch after this.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /tʃ/ in 'touch'.",
+      "stress_focus": "Stress on KEEP and TOUCH.",
+      "intonation_focus": "Falling intonation, sincere suggestion.",
+      "connected_speech_focus": "Link 'keep' and 'in'.",
+      "vocabulary": [
+        {
+          "word": "keep in touch",
+          "meaning": "stay connected"
+        }
+      ],
+      "grammar_focus": "Modal 'should' suggestion",
+      "tags": [
+        "plans",
+        "phrasal-verbs",
+        "relationships"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "request",
+      "sentence": "Text me when you're free to hang out.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'you're' to /jʊr/.",
+      "stress_focus": "Stress on TEXT and FREE.",
+      "intonation_focus": "Falling intonation, casual request.",
+      "connected_speech_focus": "Link 'when' and 'you're'.",
+      "vocabulary": [
+        {
+          "word": "hang out",
+          "meaning": "spend time together"
+        }
+      ],
+      "grammar_focus": "Imperative with time clause",
+      "tags": [
+        "plans",
+        "request",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Compliments",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "You always know how to make people laugh.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /l/ in 'laugh'.",
+      "stress_focus": "Stress on ALWAYS and LAUGH.",
+      "intonation_focus": "Falling intonation, admiring tone.",
+      "connected_speech_focus": "Link 'know' and 'how'.",
+      "vocabulary": [
+        {
+          "word": "make people laugh",
+          "meaning": "cause others to laugh"
+        }
+      ],
+      "grammar_focus": "Simple present with infinitive",
+      "tags": [
+        "compliments",
+        "opinion",
+        "relationships"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Do you know if there's a dress code?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'do you' to /dju/.",
+      "stress_focus": "Stress on DRESS and CODE.",
+      "intonation_focus": "Rising intonation for question.",
+      "connected_speech_focus": "Link 'if' and 'there's'.",
+      "vocabulary": [
+        {
+          "word": "dress code",
+          "meaning": "expected style of clothing"
+        }
+      ],
+      "grammar_focus": "Embedded yes/no question",
+      "tags": [
+        "events",
+        "questions",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "clarification",
+      "sentence": "Wait, is this a potluck or just drinks?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /w/ in 'wait'.",
+      "stress_focus": "Stress on POT-luck and DRINKS.",
+      "intonation_focus": "Rising intonation, seeking clarity.",
+      "connected_speech_focus": "Link 'is' and 'this'.",
+      "vocabulary": [
+        {
+          "word": "potluck",
+          "meaning": "shared-food gathering"
+        }
+      ],
+      "grammar_focus": "Alternative question",
+      "tags": [
+        "events",
+        "clarification",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "She's got a really outgoing personality.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'she's' to /ʃiz/.",
+      "stress_focus": "Stress on OUT-going and PER-son-al-i-ty.",
+      "intonation_focus": "Falling intonation for description.",
+      "connected_speech_focus": "Link 'she's' and 'got'.",
+      "vocabulary": [
+        {
+          "word": "outgoing",
+          "meaning": "sociable and friendly"
+        }
+      ],
+      "grammar_focus": "Present perfect with 'got'",
+      "tags": [
+        "small-talk",
+        "opinion",
+        "relationships"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "opinion",
+      "sentence": "I think you two would really hit it off.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'would' to /wʊd/.",
+      "stress_focus": "Stress on HIT and OFF.",
+      "intonation_focus": "Falling intonation, confident opinion.",
+      "connected_speech_focus": "Link 'hit' and 'it'.",
+      "vocabulary": [
+        {
+          "word": "hit it off",
+          "meaning": "get along well immediately"
+        }
+      ],
+      "grammar_focus": "Modal 'would' for prediction",
+      "tags": [
+        "opinion",
+        "relationships",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "elementary",
+      "difficulty": 4,
+      "sentence_type": "agreement",
+      "sentence": "Yeah, let's definitely make that happen.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'let's' to /lɛts/.",
+      "stress_focus": "Stress on DE-finite-ly and HAPPEN.",
+      "intonation_focus": "Falling intonation, enthusiastic agreement.",
+      "connected_speech_focus": "Link 'make' and 'that'.",
+      "vocabulary": [
+        {
+          "word": "make it happen",
+          "meaning": "cause something to occur"
+        }
+      ],
+      "grammar_focus": "Imperative with modal adverb",
+      "tags": [
+        "agreement",
+        "plans",
+        "casual"
+      ]
+    },
+    {
+      "subcategory": "Compliments",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I really appreciate you including me tonight.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /pr/ in 'appreciate'.",
+      "stress_focus": "Stress on A-PPRE-ciate and IN-clud-ing.",
+      "intonation_focus": "Falling intonation, sincere gratitude.",
+      "connected_speech_focus": "Link 'including' and 'me'.",
+      "vocabulary": [
+        {
+          "word": "include",
+          "meaning": "invite someone to join"
+        }
+      ],
+      "grammar_focus": "Present participle clause",
+      "tags": [
+        "gratitude",
+        "compliments",
+        "events"
+      ]
+    },
+    {
+      "subcategory": "Events",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "storytelling",
+      "sentence": "We ended up staying until two in the morning.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'ended up' link.",
+      "stress_focus": "Stress on STAY-ing and MORN-ing.",
+      "intonation_focus": "Falling intonation for storytelling.",
+      "connected_speech_focus": "Link 'ended' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "ended up",
+          "meaning": "eventually did something unplanned"
+        }
+      ],
+      "grammar_focus": "Past continuous with phrasal verb",
+      "tags": [
+        "storytelling",
+        "events",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "So, what's your story? How'd you end up here?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'how'd' to /haʊd/.",
+      "stress_focus": "Stress on STO-ry and END up.",
+      "intonation_focus": "Rising intonation, curious tone.",
+      "connected_speech_focus": "Link 'end' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "end up",
+          "meaning": "eventually arrive at a situation"
+        }
+      ],
+      "grammar_focus": "Two connected wh-questions",
+      "tags": [
+        "questions",
+        "storytelling",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Compliments",
+      "level": "elementary",
+      "difficulty": 5,
+      "sentence_type": "reaction",
+      "sentence": "Aw, that's really sweet of you to say.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'that's' to /ðæts/.",
+      "stress_focus": "Stress on SWEET and SAY.",
+      "intonation_focus": "Falling intonation, touched reaction.",
+      "connected_speech_focus": "Link 'sweet' and 'of'.",
+      "vocabulary": [
+        {
+          "word": "sweet",
+          "meaning": "kind and thoughtful"
+        }
+      ],
+      "grammar_focus": "Exclamatory reaction",
+      "tags": [
+        "reaction",
+        "compliments",
+        "gratitude"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "We've gotten a lot closer since we started carpooling.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'we've' to /wiv/.",
+      "stress_focus": "Stress on CLOS-er and CAR-pool-ing.",
+      "intonation_focus": "Falling intonation for reflection.",
+      "connected_speech_focus": "Link 'gotten' and 'a lot'.",
+      "vocabulary": [
+        {
+          "word": "carpooling",
+          "meaning": "sharing a car ride"
+        }
+      ],
+      "grammar_focus": "Present perfect with comparative",
+      "tags": [
+        "friendship",
+        "storytelling",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "opinion",
+      "sentence": "I feel like she's someone I can really open up to.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'she's' to /ʃiz/.",
+      "stress_focus": "Stress on O-pen UP.",
+      "intonation_focus": "Falling intonation, thoughtful tone.",
+      "connected_speech_focus": "Link 'open' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "open up to",
+          "meaning": "share personal feelings with"
+        }
+      ],
+      "grammar_focus": "Relative clause with modal",
+      "tags": [
+        "opinion",
+        "friendship",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "question",
+      "sentence": "Do you ever feel like you're drifting apart from old friends?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'you're' to /jʊr/.",
+      "stress_focus": "Stress on DRIFT-ing and A-PART.",
+      "intonation_focus": "Rising intonation, reflective question.",
+      "connected_speech_focus": "Link 'drifting' and 'apart'.",
+      "vocabulary": [
+        {
+          "word": "drifting apart",
+          "meaning": "gradually becoming less close"
+        }
+      ],
+      "grammar_focus": "Present continuous embedded question",
+      "tags": [
+        "friendship",
+        "questions",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "response",
+      "sentence": "Honestly, yeah, it happens when everyone gets busy.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'it happens' link.",
+      "stress_focus": "Stress on HON-est-ly and BU-sy.",
+      "intonation_focus": "Falling intonation, resigned tone.",
+      "connected_speech_focus": "Link 'gets' and 'busy'.",
+      "vocabulary": [
+        {
+          "word": "drift apart",
+          "meaning": "implied context, become distant"
+        }
+      ],
+      "grammar_focus": "Simple present cause clause",
+      "tags": [
+        "response",
+        "friendship",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Social Events",
+      "level": "intermediate",
+      "difficulty": 5,
+      "sentence_type": "statement",
+      "sentence": "I ended up chatting with a bunch of strangers at the mixer.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /tʃ/ in 'chatting'.",
+      "stress_focus": "Stress on CHAT-ting and STRANG-ers.",
+      "intonation_focus": "Falling intonation for storytelling.",
+      "connected_speech_focus": "Link 'ended' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "mixer",
+          "meaning": "a casual social event to meet people"
+        }
+      ],
+      "grammar_focus": "Past continuous with phrasal verb",
+      "tags": [
+        "storytelling",
+        "events",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Social Events",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Would you mind introducing me to your coworkers?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'would you' to /wʊdʒə/.",
+      "stress_focus": "Stress on IN-tro-DUC-ing and CO-work-ers.",
+      "intonation_focus": "Rising intonation, polite request.",
+      "connected_speech_focus": "Link 'mind' and 'introducing'.",
+      "vocabulary": [
+        {
+          "word": "would you mind",
+          "meaning": "polite way to ask for a favor"
+        }
+      ],
+      "grammar_focus": "Polite request with gerund",
+      "tags": [
+        "request",
+        "politeness",
+        "workplace"
+      ]
+    },
+    {
+      "subcategory": "Social Events",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "response",
+      "sentence": "Of course, come with me, I'll introduce you around.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I'll' to /aɪl/.",
+      "stress_focus": "Stress on IN-tro-DUCE and A-round.",
+      "intonation_focus": "Falling intonation, warm reassurance.",
+      "connected_speech_focus": "Link 'introduce' and 'you'.",
+      "vocabulary": [
+        {
+          "word": "introduce around",
+          "meaning": "present someone to a group"
+        }
+      ],
+      "grammar_focus": "Imperative with future intention",
+      "tags": [
+        "response",
+        "politeness",
+        "events"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "statement",
+      "sentence": "We just clicked right away, which almost never happens.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /k/ in 'clicked'.",
+      "stress_focus": "Stress on CLICKED and NEV-er.",
+      "intonation_focus": "Falling intonation, surprised tone.",
+      "connected_speech_focus": "Link 'right' and 'away'.",
+      "vocabulary": [
+        {
+          "word": "clicked",
+          "meaning": "connected instantly with someone"
+        }
+      ],
+      "grammar_focus": "Simple past with relative clause",
+      "tags": [
+        "friendship",
+        "storytelling",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "To be honest, I find it hard to keep up with everyone.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'to be' quickly.",
+      "stress_focus": "Stress on HARD and KEEP UP.",
+      "intonation_focus": "Falling intonation, candid opinion.",
+      "connected_speech_focus": "Link 'keep' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "keep up with",
+          "meaning": "stay in contact or pace with"
+        }
+      ],
+      "grammar_focus": "Infinitive clause with phrasal verb",
+      "tags": [
+        "opinion",
+        "friendship",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "agreement",
+      "sentence": "Same here, it's tough once everyone moves away.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'it's' to /ɪts/.",
+      "stress_focus": "Stress on TOUGH and MOVES.",
+      "intonation_focus": "Falling intonation, sympathetic agreement.",
+      "connected_speech_focus": "Link 'moves' and 'away'.",
+      "vocabulary": [
+        {
+          "word": "same here",
+          "meaning": "I feel the same way"
+        }
+      ],
+      "grammar_focus": "Simple present time clause",
+      "tags": [
+        "agreement",
+        "friendship",
+        "opinion"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "request",
+      "sentence": "Could you loop me in next time you guys plan something?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'could you' to /kʊdʒə/.",
+      "stress_focus": "Stress on LOOP and PLAN.",
+      "intonation_focus": "Rising intonation, friendly request.",
+      "connected_speech_focus": "Link 'loop' and 'me'.",
+      "vocabulary": [
+        {
+          "word": "loop someone in",
+          "meaning": "include someone in communication"
+        }
+      ],
+      "grammar_focus": "Modal request with time clause",
+      "tags": [
+        "request",
+        "plans",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "response",
+      "sentence": "For sure, I'll shoot you a message next time.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I'll' to /aɪl/.",
+      "stress_focus": "Stress on SHOOT and MES-sage.",
+      "intonation_focus": "Falling intonation, casual promise.",
+      "connected_speech_focus": "Link 'shoot' and 'you'.",
+      "vocabulary": [
+        {
+          "word": "shoot a message",
+          "meaning": "send a quick message"
+        }
+      ],
+      "grammar_focus": "Future with 'will'",
+      "tags": [
+        "response",
+        "plans",
+        "casual"
+      ]
+    },
+    {
+      "subcategory": "Social Events",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "clarification",
+      "sentence": "Wait, so is this a potluck, or is food being catered?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'is this' link.",
+      "stress_focus": "Stress on CA-tered.",
+      "intonation_focus": "Rising intonation, clarifying question.",
+      "connected_speech_focus": "Link 'being' and 'catered'.",
+      "vocabulary": [
+        {
+          "word": "catered",
+          "meaning": "food professionally provided"
+        }
+      ],
+      "grammar_focus": "Passive voice question",
+      "tags": [
+        "clarification",
+        "events",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Social Events",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "disagreement",
+      "sentence": "I don't think it's really my kind of scene, to be honest.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'it's' to /ɪts/.",
+      "stress_focus": "Stress on SCENE and HON-est.",
+      "intonation_focus": "Falling intonation, gentle disagreement.",
+      "connected_speech_focus": "Link 'kind' and 'of'.",
+      "vocabulary": [
+        {
+          "word": "scene",
+          "meaning": "a type of social setting"
+        }
+      ],
+      "grammar_focus": "Negative opinion with hedge",
+      "tags": [
+        "disagreement",
+        "opinion",
+        "events"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "storytelling",
+      "sentence": "We lost touch for years until we randomly bumped into each other.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /tʃ/ in 'touch'.",
+      "stress_focus": "Stress on LOST TOUCH and BUMPED.",
+      "intonation_focus": "Falling intonation for storytelling.",
+      "connected_speech_focus": "Link 'bumped' and 'into'.",
+      "vocabulary": [
+        {
+          "word": "bump into",
+          "meaning": "meet someone unexpectedly"
+        }
+      ],
+      "grammar_focus": "Past simple with time clause",
+      "tags": [
+        "storytelling",
+        "friendship",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "opinion",
+      "sentence": "I think real friendships are the ones that pick up right where you left off.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'that' to /ðət/.",
+      "stress_focus": "Stress on PICK UP and LEFT OFF.",
+      "intonation_focus": "Falling intonation, confident opinion.",
+      "connected_speech_focus": "Link 'pick' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "pick up where you left off",
+          "meaning": "resume as if no time passed"
+        }
+      ],
+      "grammar_focus": "Relative clause with idiom",
+      "tags": [
+        "opinion",
+        "friendship",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Social Events",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "question",
+      "sentence": "Are you bringing anyone else, or is it just you?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'or is it' link.",
+      "stress_focus": "Stress on BRING-ing and ELSE.",
+      "intonation_focus": "Rising intonation for alternative question.",
+      "connected_speech_focus": "Link 'anyone' and 'else'.",
+      "vocabulary": [
+        {
+          "word": "bringing anyone",
+          "meaning": "inviting a guest"
+        }
+      ],
+      "grammar_focus": "Alternative question",
+      "tags": [
+        "questions",
+        "events",
+        "clarification"
+      ]
+    },
+    {
+      "subcategory": "Social Events",
+      "level": "intermediate",
+      "difficulty": 6,
+      "sentence_type": "response",
+      "sentence": "Just me this time, my plus-one bailed last minute.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /z/ in 'bailed'.",
+      "stress_focus": "Stress on PLUS-one and BAILED.",
+      "intonation_focus": "Falling intonation, explaining tone.",
+      "connected_speech_focus": "Link 'plus' and 'one'.",
+      "vocabulary": [
+        {
+          "word": "bail",
+          "meaning": "cancel plans suddenly"
+        }
+      ],
+      "grammar_focus": "Simple past explanation",
+      "tags": [
+        "response",
+        "events",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "statement",
+      "sentence": "She has this way of making everyone feel included right away.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /w/ in 'way'.",
+      "stress_focus": "Stress on IN-clud-ed and RIGHT away.",
+      "intonation_focus": "Falling intonation, admiring tone.",
+      "connected_speech_focus": "Link 'right' and 'away'.",
+      "vocabulary": [
+        {
+          "word": "included",
+          "meaning": "made to feel part of a group"
+        }
+      ],
+      "grammar_focus": "Relative clause with gerund",
+      "tags": [
+        "opinion",
+        "friendship",
+        "compliments"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "Honestly, small talk exhausts me more than actual deep conversations.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'exhausts' clearly.",
+      "stress_focus": "Stress on EX-hausts and DEEP.",
+      "intonation_focus": "Falling intonation, candid tone.",
+      "connected_speech_focus": "Link 'more' and 'than'.",
+      "vocabulary": [
+        {
+          "word": "exhaust",
+          "meaning": "to tire someone out"
+        }
+      ],
+      "grammar_focus": "Comparative structure",
+      "tags": [
+        "opinion",
+        "small-talk",
+        "personality"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "agreement",
+      "sentence": "Totally agree, I'd rather have a few close friends than tons of acquaintances.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I'd' to /aɪd/.",
+      "stress_focus": "Stress on CLOSE and AC-quain-tan-ces.",
+      "intonation_focus": "Falling intonation, firm agreement.",
+      "connected_speech_focus": "Link 'rather' and 'have'.",
+      "vocabulary": [
+        {
+          "word": "acquaintance",
+          "meaning": "someone you know but not closely"
+        }
+      ],
+      "grammar_focus": "Comparative with 'rather'",
+      "tags": [
+        "agreement",
+        "opinion",
+        "friendship"
+      ]
+    },
+    {
+      "subcategory": "Making Plans",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "request",
+      "sentence": "Let's iron out the details before everyone shows up, okay?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'let's' to /lɛts/.",
+      "stress_focus": "Stress on I-ron OUT and DE-tails.",
+      "intonation_focus": "Rising intonation, checking agreement.",
+      "connected_speech_focus": "Link 'iron' and 'out'.",
+      "vocabulary": [
+        {
+          "word": "iron out",
+          "meaning": "resolve or finalize something"
+        }
+      ],
+      "grammar_focus": "Imperative with tag question",
+      "tags": [
+        "request",
+        "plans",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Social Events",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "reaction",
+      "sentence": "Oh wow, I had no idea this many people would show up.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'had no' link.",
+      "stress_focus": "Stress on NO IDEA and SHOW UP.",
+      "intonation_focus": "Falling-rising intonation, surprised reaction.",
+      "connected_speech_focus": "Link 'show' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "show up",
+          "meaning": "arrive at an event"
+        }
+      ],
+      "grammar_focus": "Past perfect with modal",
+      "tags": [
+        "reaction",
+        "events",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Small Talk",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "clarification",
+      "sentence": "Sorry, did you say you work with Jen, or you're just neighbors?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'did you' to /dɪdʒə/.",
+      "stress_focus": "Stress on WORK and NEIGH-bors.",
+      "intonation_focus": "Rising intonation, clarifying.",
+      "connected_speech_focus": "Link 'work' and 'with'.",
+      "vocabulary": [
+        {
+          "word": "neighbors",
+          "meaning": "people who live nearby"
+        }
+      ],
+      "grammar_focus": "Reported question clarification",
+      "tags": [
+        "clarification",
+        "small-talk",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Deepening Friendships",
+      "level": "intermediate",
+      "difficulty": 7,
+      "sentence_type": "storytelling",
+      "sentence": "We used to be inseparable back in university, believe it or not.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'used to' to /juːstə/.",
+      "stress_focus": "Stress on IN-sep-a-ra-ble and U-ni-ver-si-ty.",
+      "intonation_focus": "Falling intonation for nostalgic storytelling.",
+      "connected_speech_focus": "Link 'used' and 'to'.",
+      "vocabulary": [
+        {
+          "word": "inseparable",
+          "meaning": "always together, very close"
+        }
+      ],
+      "grammar_focus": "Past habitual with 'used to'",
+      "tags": [
+        "storytelling",
+        "friendship",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 7,
+      "sentence_type": "opinion",
+      "sentence": "I think what really cements a friendship is showing up when things get hard, not just during the fun stuff.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear stress pattern across long clauses.",
+      "stress_focus": "Stress on CE-ments and SHOW-ing UP.",
+      "intonation_focus": "Falling intonation, thoughtful and reflective.",
+      "connected_speech_focus": "Link 'show' and 'up', 'not' and 'just'.",
+      "vocabulary": [
+        {
+          "word": "cements",
+          "meaning": "makes something strong and permanent"
+        }
+      ],
+      "grammar_focus": "Complex sentence with contrast clause",
+      "tags": [
+        "opinion",
+        "friendship",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "We'd drifted apart for a couple of years, but the second we reconnected, it was like no time had passed at all.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'we'd' to /wid/.",
+      "stress_focus": "Stress on DRIFT-ed A-PART and RE-con-NECT-ed.",
+      "intonation_focus": "Falling intonation for storytelling with contrast.",
+      "connected_speech_focus": "Link 'like' and 'no'.",
+      "vocabulary": [
+        {
+          "word": "reconnected",
+          "meaning": "re-established contact"
+        }
+      ],
+      "grammar_focus": "Past perfect with comparison clause",
+      "tags": [
+        "storytelling",
+        "friendship",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "disagreement",
+      "sentence": "I get where you're coming from, but I honestly don't think ghosting someone is ever okay, even if things get awkward.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'you're' to /jʊr/.",
+      "stress_focus": "Stress on GHOST-ing and AWK-ward.",
+      "intonation_focus": "Falling intonation, firm but respectful disagreement.",
+      "connected_speech_focus": "Link 'don't' and 'think'.",
+      "vocabulary": [
+        {
+          "word": "ghosting",
+          "meaning": "suddenly cutting off contact with no explanation"
+        }
+      ],
+      "grammar_focus": "Concessive clause with 'even if'",
+      "tags": [
+        "disagreement",
+        "opinion",
+        "relationships"
+      ]
+    },
+    {
+      "subcategory": "Networking Events",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "workplace",
+      "sentence": "I try to work the room a little at these things instead of just sticking with people I already know.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear stress on phrasal 'work the room'.",
+      "stress_focus": "Stress on WORK the ROOM and STICK-ing.",
+      "intonation_focus": "Falling intonation, confident tone.",
+      "connected_speech_focus": "Link 'stick' and 'with'.",
+      "vocabulary": [
+        {
+          "word": "work the room",
+          "meaning": "socialize actively with many people"
+        }
+      ],
+      "grammar_focus": "Infinitive clause with contrast",
+      "tags": [
+        "workplace",
+        "networking",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Networking Events",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "question",
+      "sentence": "Do you find it awkward to network, or have you gotten used to putting yourself out there?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'have you' to /həvju/.",
+      "stress_focus": "Stress on NET-work and PUT-ting your-SELF.",
+      "intonation_focus": "Rising intonation, curious tone.",
+      "connected_speech_focus": "Link 'put' and 'yourself'.",
+      "vocabulary": [
+        {
+          "word": "put yourself out there",
+          "meaning": "take a social risk"
+        }
+      ],
+      "grammar_focus": "Alternative question with present perfect",
+      "tags": [
+        "questions",
+        "networking",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Networking Events",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "response",
+      "sentence": "It took me years, honestly, but I've learned to just dive into conversations instead of overthinking every word.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I've' to /aɪv/.",
+      "stress_focus": "Stress on DIVE IN-to and O-ver-think-ing.",
+      "intonation_focus": "Falling intonation, reflective tone.",
+      "connected_speech_focus": "Link 'dive' and 'into'.",
+      "vocabulary": [
+        {
+          "word": "overthinking",
+          "meaning": "thinking too much about something"
+        }
+      ],
+      "grammar_focus": "Present perfect with contrast infinitive",
+      "tags": [
+        "response",
+        "opinion",
+        "personality"
+      ]
+    },
+    {
+      "subcategory": "Community & Belonging",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "opinion",
+      "sentence": "What I love about this neighborhood is that people actually look out for each other, not just wave and move on.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /ð/ in 'look out for'.",
+      "stress_focus": "Stress on LOOK OUT and WAVE.",
+      "intonation_focus": "Falling intonation, warm and sincere.",
+      "connected_speech_focus": "Link 'look' and 'out'.",
+      "vocabulary": [
+        {
+          "word": "look out for",
+          "meaning": "care about and protect"
+        }
+      ],
+      "grammar_focus": "Cleft sentence with contrast",
+      "tags": [
+        "opinion",
+        "community",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Community & Belonging",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "storytelling",
+      "sentence": "When we first moved here, the neighbors dropped by with a casserole before we'd even finished unpacking the boxes.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /kæs/ in 'casserole'.",
+      "stress_focus": "Stress on DROPPED BY and UN-PACK-ing.",
+      "intonation_focus": "Falling intonation, warm storytelling.",
+      "connected_speech_focus": "Link 'dropped' and 'by'.",
+      "vocabulary": [
+        {
+          "word": "casserole",
+          "meaning": "a baked dish, often shared as a gift"
+        }
+      ],
+      "grammar_focus": "Past perfect with time clause",
+      "tags": [
+        "storytelling",
+        "canada",
+        "community"
+      ]
+    },
+    {
+      "subcategory": "Community & Belonging",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "agreement",
+      "sentence": "Exactly, that's what I love about small communities, everyone pitches in without even being asked.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'that's' to /ðæts/.",
+      "stress_focus": "Stress on PITCH-es IN and ASKED.",
+      "intonation_focus": "Falling intonation, enthusiastic agreement.",
+      "connected_speech_focus": "Link 'pitches' and 'in'.",
+      "vocabulary": [
+        {
+          "word": "pitch in",
+          "meaning": "contribute or help voluntarily"
+        }
+      ],
+      "grammar_focus": "Relative clause with passive gerund",
+      "tags": [
+        "agreement",
+        "community",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 8,
+      "sentence_type": "clarification",
+      "sentence": "Hold on, are we talking about the same Mark, the one who used to organize all the game nights?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'are we' link.",
+      "stress_focus": "Stress on SAME MARK and OR-gan-ize.",
+      "intonation_focus": "Rising intonation, seeking clarification.",
+      "connected_speech_focus": "Link 'used' and 'to'.",
+      "vocabulary": [
+        {
+          "word": "organize",
+          "meaning": "to plan and arrange"
+        }
+      ],
+      "grammar_focus": "Relative clause for clarification",
+      "tags": [
+        "clarification",
+        "friendship",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "At the end of the day, I'd rather have one friend who really gets me than a dozen who just show up for the fun parts.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear stress on contrast pair.",
+      "stress_focus": "Stress on GETS ME and SHOW UP.",
+      "intonation_focus": "Falling intonation, firm opinion.",
+      "connected_speech_focus": "Link 'show' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "gets me",
+          "meaning": "understands me deeply"
+        }
+      ],
+      "grammar_focus": "Comparative clause with relative pronouns",
+      "tags": [
+        "opinion",
+        "friendship",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Networking Events",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "reaction",
+      "sentence": "Honestly, I was dreading this mixer, but it turned out to be one of the best nights I've had in a while.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'I was' link.",
+      "stress_focus": "Stress on DREAD-ing and TURNED OUT.",
+      "intonation_focus": "Falling-rising intonation, pleasantly surprised.",
+      "connected_speech_focus": "Link 'turned' and 'out'.",
+      "vocabulary": [
+        {
+          "word": "dreading",
+          "meaning": "fearing something in advance"
+        }
+      ],
+      "grammar_focus": "Contrast clause with present perfect",
+      "tags": [
+        "reaction",
+        "networking",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Community & Belonging",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "storytelling",
+      "sentence": "By the time the block party wrapped up, half the street had exchanged numbers and made plans to do it again next year.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Clear /r/ in 'wrapped'.",
+      "stress_focus": "Stress on WRAPPED UP and EX-CHANGED.",
+      "intonation_focus": "Falling intonation, storytelling flow.",
+      "connected_speech_focus": "Link 'wrapped' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "wrapped up",
+          "meaning": "finished or concluded"
+        }
+      ],
+      "grammar_focus": "Past perfect with sequential clauses",
+      "tags": [
+        "storytelling",
+        "community",
+        "canada"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "disagreement",
+      "sentence": "I hear you, but I don't buy the idea that you can only have deep friendships in person, some of mine are mostly online.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'don't' to /doʊnt/.",
+      "stress_focus": "Stress on BUY THE i-DEA and ON-line.",
+      "intonation_focus": "Falling intonation, respectful pushback.",
+      "connected_speech_focus": "Link 'buy' and 'the'.",
+      "vocabulary": [
+        {
+          "word": "buy the idea",
+          "meaning": "believe or accept a claim"
+        }
+      ],
+      "grammar_focus": "Complex sentence with contrast",
+      "tags": [
+        "disagreement",
+        "opinion",
+        "technology"
+      ]
+    },
+    {
+      "subcategory": "Networking Events",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "workplace",
+      "sentence": "I try not to talk shop the whole time; it's nice to actually get to know people outside of work stuff.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'it's' to /ɪts/.",
+      "stress_focus": "Stress on TALK SHOP and OUT-side.",
+      "intonation_focus": "Falling intonation, reflective tone.",
+      "connected_speech_focus": "Link 'talk' and 'shop'.",
+      "vocabulary": [
+        {
+          "word": "talk shop",
+          "meaning": "discuss work-related topics"
+        }
+      ],
+      "grammar_focus": "Infinitive clause with contrast",
+      "tags": [
+        "workplace",
+        "networking",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Community & Belonging",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I've noticed that once you volunteer for something local, you end up meeting way more people than you would just by living here.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'you would' to /jud/.",
+      "stress_focus": "Stress on VOL-un-teer and END UP.",
+      "intonation_focus": "Falling intonation, reflective opinion.",
+      "connected_speech_focus": "Link 'end' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "end up",
+          "meaning": "eventually reach a situation"
+        }
+      ],
+      "grammar_focus": "Conditional-like comparative clause",
+      "tags": [
+        "opinion",
+        "community",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "question",
+      "sentence": "Have you ever had a friendship just fizzle out with no real explanation, and it still bugs you to this day?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'have you' to /həvju/.",
+      "stress_focus": "Stress on FIZZ-le OUT and BUGS.",
+      "intonation_focus": "Rising intonation, reflective curiosity.",
+      "connected_speech_focus": "Link 'fizzle' and 'out'.",
+      "vocabulary": [
+        {
+          "word": "fizzle out",
+          "meaning": "gradually end or fade away"
+        }
+      ],
+      "grammar_focus": "Present perfect with embedded clause",
+      "tags": [
+        "questions",
+        "friendship",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "response",
+      "sentence": "It happened to me once, and honestly, I think we just grew apart, no drama, we simply wanted different things.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'we simply' link.",
+      "stress_focus": "Stress on GREW APART and DRAM-a.",
+      "intonation_focus": "Falling intonation, calm reflection.",
+      "connected_speech_focus": "Link 'grew' and 'apart'.",
+      "vocabulary": [
+        {
+          "word": "grew apart",
+          "meaning": "gradually became less close"
+        }
+      ],
+      "grammar_focus": "Compound sentence with contrast",
+      "tags": [
+        "response",
+        "friendship",
+        "storytelling"
+      ]
+    },
+    {
+      "subcategory": "Community & Belonging",
+      "level": "advanced",
+      "difficulty": 9,
+      "sentence_type": "opinion",
+      "sentence": "I used to think community meant nothing in a big city, but this neighborhood has completely changed my mind about that.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'used to' to /juːstə/.",
+      "stress_focus": "Stress on COM-plete-ly and CHANGED.",
+      "intonation_focus": "Falling intonation, sincere reflection.",
+      "connected_speech_focus": "Link 'changed' and 'my'.",
+      "vocabulary": [
+        {
+          "word": "changed my mind",
+          "meaning": "altered my opinion"
+        }
+      ],
+      "grammar_focus": "Past habitual with contrast clause",
+      "tags": [
+        "opinion",
+        "community",
+        "canada"
+      ]
+    },
+    {
+      "subcategory": "Networking Events",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "storytelling",
+      "sentence": "I almost didn't go to that conference mixer, but a coworker practically dragged me along, and it ended up being how I met half my current network.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'didn't' to /dɪdənt/.",
+      "stress_focus": "Stress on DRAGGED and ENDED UP.",
+      "intonation_focus": "Falling intonation, engaging storytelling.",
+      "connected_speech_focus": "Link 'ended' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "dragged along",
+          "meaning": "persuaded someone to come reluctantly"
+        }
+      ],
+      "grammar_focus": "Complex sentence with multiple clauses",
+      "tags": [
+        "storytelling",
+        "networking",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "opinion",
+      "sentence": "I've come to realize that maintaining friendships as an adult takes actual effort, it's not like when you were kids and saw each other every single day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'it's not' link.",
+      "stress_focus": "Stress on MAIN-tain-ing and EF-fort.",
+      "intonation_focus": "Falling intonation, mature reflective tone.",
+      "connected_speech_focus": "Link 'come' and 'to'.",
+      "vocabulary": [
+        {
+          "word": "maintaining",
+          "meaning": "keeping something going"
+        }
+      ],
+      "grammar_focus": "Complex sentence with comparative clause",
+      "tags": [
+        "opinion",
+        "friendship",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Community & Belonging",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "agreement",
+      "sentence": "Couldn't agree more, once you start showing up to these community events regularly, people actually start recognizing you and saying hello.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'couldn't' to /kʊdənt/.",
+      "stress_focus": "Stress on SHOW-ing UP and REC-og-NIZ-ing.",
+      "intonation_focus": "Falling intonation, enthusiastic agreement.",
+      "connected_speech_focus": "Link 'showing' and 'up'.",
+      "vocabulary": [
+        {
+          "word": "recognizing",
+          "meaning": "identifying someone you've seen before"
+        }
+      ],
+      "grammar_focus": "Conditional-like clause with contrast",
+      "tags": [
+        "agreement",
+        "community",
+        "phrasal-verbs"
+      ]
+    },
+    {
+      "subcategory": "Navigating Friendships",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "reaction",
+      "sentence": "Wow, I can't believe you two haven't talked in five years, you used to be absolutely inseparable back in the day.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'can't' clearly.",
+      "stress_focus": "Stress on IN-SEP-a-ra-ble and BACK in the DAY.",
+      "intonation_focus": "Falling-rising intonation, surprised reaction.",
+      "connected_speech_focus": "Link 'used' and 'to'.",
+      "vocabulary": [
+        {
+          "word": "inseparable",
+          "meaning": "always together"
+        }
+      ],
+      "grammar_focus": "Present perfect negative with contrast",
+      "tags": [
+        "reaction",
+        "friendship",
+        "idioms"
+      ]
+    },
+    {
+      "subcategory": "Networking Events",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "clarification",
+      "sentence": "Just to clarify, when you say you'll introduce me around, do you mean at the actual event, or before it even starts?",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'you'll' to /jul/.",
+      "stress_focus": "Stress on IN-tro-DUCE and BE-fore.",
+      "intonation_focus": "Rising intonation, careful clarification.",
+      "connected_speech_focus": "Link 'introduce' and 'me'.",
+      "vocabulary": [
+        {
+          "word": "introduce around",
+          "meaning": "present to multiple people"
+        }
+      ],
+      "grammar_focus": "Embedded alternative question",
+      "tags": [
+        "clarification",
+        "networking",
+        "questions"
+      ]
+    },
+    {
+      "subcategory": "Community & Belonging",
+      "level": "advanced",
+      "difficulty": 10,
+      "sentence_type": "storytelling",
+      "sentence": "It's funny, we barely spoke for the first year we lived next door, and now she's honestly one of my closest friends in the city.",
+      "natural_form": "",
+      "accent": "american",
+      "pronunciation_focus": "Reduce 'it's' to /ɪts/.",
+      "stress_focus": "Stress on BARE-ly SPOKE and CLOS-est.",
+      "intonation_focus": "Falling intonation, warm storytelling.",
+      "connected_speech_focus": "Link 'lived' and 'next'.",
+      "vocabulary": [
+        {
+          "word": "next door",
+          "meaning": "in the adjacent house"
+        }
+      ],
+      "grammar_focus": "Contrast clause with present state",
+      "tags": [
+        "storytelling",
+        "friendship",
+        "community"
+      ]
+    }
+  ]
+}

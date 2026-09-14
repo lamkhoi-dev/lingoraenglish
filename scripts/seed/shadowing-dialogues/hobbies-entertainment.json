@@ -1,0 +1,41 @@
+{
+  "topic_slug": "hobbies-entertainment",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Talking about hobbies",
+      "turns": [
+        { "speaker_label": "Amy", "speaker_voice": "shimmer", "sentence": "What do you like to do in your free time?", "is_free": true },
+        { "speaker_label": "Leo", "speaker_voice": "alloy", "sentence": "I like playing guitar. What about you?", "is_free": true },
+        { "speaker_label": "Amy", "speaker_voice": "shimmer", "sentence": "I enjoy painting.", "is_free": true },
+        { "speaker_label": "Leo", "speaker_voice": "alloy", "sentence": "That's cool! How long have you painted?", "is_free": true },
+        { "speaker_label": "Amy", "speaker_voice": "shimmer", "sentence": "About two years now.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Recommending a show",
+      "turns": [
+        { "speaker_label": "Chris", "speaker_voice": "coral", "sentence": "Have you watched that new series everyone's been talking about?", "is_free": false },
+        { "speaker_label": "Dana", "speaker_voice": "sage", "sentence": "Not yet, is it actually worth the hype?", "is_free": false },
+        { "speaker_label": "Chris", "speaker_voice": "coral", "sentence": "Honestly, the first couple of episodes are a bit slow, but it really picks up after that.", "is_free": false },
+        { "speaker_label": "Dana", "speaker_voice": "sage", "sentence": "Okay, I'll give it a shot this weekend then.", "is_free": false },
+        { "speaker_label": "Chris", "speaker_voice": "coral", "sentence": "Let me know what you think — I'm dying to talk about the ending with someone.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Picking up a new hobby",
+      "turns": [
+        { "speaker_label": "Riley", "speaker_voice": "nova", "sentence": "I've been meaning to pick up a new hobby, something that gets me away from screens entirely.", "is_free": false },
+        { "speaker_label": "Jordan", "speaker_voice": "shimmer", "sentence": "Have you thought about pottery? It's oddly meditative once you get past the initial frustration.", "is_free": false },
+        { "speaker_label": "Riley", "speaker_voice": "nova", "sentence": "I hadn't considered it, but I imagine there's a steep learning curve at the start.", "is_free": false },
+        { "speaker_label": "Jordan", "speaker_voice": "shimmer", "sentence": "There is, but most studios run beginner classes that ease you into it gradually.", "is_free": false },
+        { "speaker_label": "Riley", "speaker_voice": "nova", "sentence": "That's reassuring — I might actually look into signing up this month.", "is_free": false }
+      ]
+    }
+  ]
+}

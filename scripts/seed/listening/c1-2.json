@@ -1,0 +1,476 @@
+{
+ "lessons": [
+  {
+   "slug": "c1-academic-seminar-discussion",
+   "title": "The Trouble with Nudging: A Seminar Debate",
+   "level": "C1",
+   "category": "Social English",
+   "topic": "academic seminar discussion",
+   "difficulty": 9,
+   "duration_seconds": 150,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Professor Hale",
+     "line": "Right, let's pick up where we left off. Today's reading was on behavioural nudges. Priya, you looked sceptical throughout the whole chapter."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I was, honestly. The whole premise seems to hinge on this idea that people are basically irrational, and once you accept that, you can justify almost any intervention."
+    },
+    {
+     "speaker": "Professor Hale",
+     "line": "That's a fair challenge. But surely there's a difference between manipulation and simply making the default option the sensible one?"
+    },
+    {
+     "speaker": "Marcus",
+     "line": "I'd push back a little there. Defaults still exploit inertia. It's just a softer form of coercion dressed up in nicer language."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Exactly my point. Calling it 'choice architecture' doesn't change the fact that someone else is deciding what's best for you behind the scenes."
+    },
+    {
+     "speaker": "Professor Hale",
+     "line": "So you'd argue transparency is the crux of the matter, not the nudge itself?"
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Partly, yes. If people knew exactly why the default was set that way, I think most of the objection would evaporate overnight."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I'm not convinced disclosure fixes it. Even when you tell people about a nudge, it still works on them almost as effectively."
+    },
+    {
+     "speaker": "Professor Hale",
+     "line": "There's actually a study that backs that up. Sunstein found that so-called 'transparent nudges' barely lost any of their punch."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Which is a bit unsettling, if you think about it. It suggests we're less rational than we'd like to believe, regardless of whether we're warned."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Right, and that's precisely why I worry about handing this much power to policymakers. Good intentions today can easily curdle into paternalism tomorrow."
+    },
+    {
+     "speaker": "Professor Hale",
+     "line": "Let's not lose the thread, though. Are you arguing nudges shouldn't be used at all, or just that we need stronger safeguards?"
+    },
+    {
+     "speaker": "Priya",
+     "line": "The latter, mostly. I'd want independent oversight, sunset clauses, the works. Not a blanket ban."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "That seems reasonable. My worry is more about scale, honestly. A nudge in one supermarket is trivial; a nudge baked into every government form is a different beast entirely."
+    },
+    {
+     "speaker": "Professor Hale",
+     "line": "Good distinction. For next week, I want you both to bring one real-world nudge policy and pull it apart, warts and all."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Can it be something petty, like the way cafeterias arrange the salad bar?"
+    },
+    {
+     "speaker": "Professor Hale",
+     "line": "Petty is exactly where the best examples hide. Bring it on."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main tension explored in the seminar discussion?",
+     "options": [
+      "Whether nudges are effective marketing tools",
+      "Whether nudges are ethical even when they work well",
+      "Whether students should read more academic papers",
+      "Whether cafeterias should remove salad bars"
+     ],
+     "answer": "Whether nudges are ethical even when they work well",
+     "explanation": "The debate centres on whether subtly steering choices is manipulation, even when transparent.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "According to the professor, what did Sunstein's study find about transparent nudges?",
+     "options": [
+      "They stopped working completely",
+      "They lost almost none of their effectiveness",
+      "They became illegal in most countries",
+      "They only worked on children"
+     ],
+     "answer": "They lost almost none of their effectiveness",
+     "explanation": "The professor says transparent nudges 'barely lost any of their punch.'",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does Priya propose instead of banning nudges outright?",
+     "options": [
+      "Independent oversight and sunset clauses",
+      "A full public referendum on every nudge",
+      "Replacing nudges with fines",
+      "Removing all defaults from forms"
+     ],
+     "answer": "Independent oversight and sunset clauses",
+     "explanation": "She says she'd want oversight and sunset clauses rather than a blanket ban.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Marcus mention the difference between a supermarket nudge and one 'baked into every government form'?",
+     "options": [
+      "To argue nudges are always harmless",
+      "To highlight how scale changes the ethical stakes",
+      "To change the subject away from ethics",
+      "To praise government efficiency"
+     ],
+     "answer": "To highlight how scale changes the ethical stakes",
+     "explanation": "He's distinguishing trivial, small-scale nudges from ones with wide institutional reach.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "When Priya says good intentions can 'curdle into paternalism,' what is she implying?",
+     "options": [
+      "That good intentions are irrelevant to policy",
+      "That well-meant policies can turn controlling over time",
+      "That milk-related metaphors are common in academia",
+      "That paternalism is always intentional from the start"
+     ],
+     "answer": "That well-meant policies can turn controlling over time",
+     "explanation": "'Curdle' implies a gradual spoiling from good intent into something oppressive.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "In context, what does 'choice architecture' mean as Priya uses it?",
+     "options": [
+      "The literal building design of a shop",
+      "The way options are structured to influence decisions",
+      "A university course on urban planning",
+      "A legal term for consumer contracts"
+     ],
+     "answer": "The way options are structured to influence decisions",
+     "explanation": "She uses it to mean the deliberate framing of options to steer behaviour.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the professor ask the students to bring next week?",
+     "options": [
+      "A written essay on ethics",
+      "A real-world nudge policy to analyze critically",
+      "A summary of Sunstein's biography",
+      "A survey of classmates' opinions"
+     ],
+     "answer": "A real-world nudge policy to analyze critically",
+     "explanation": "He asks them to bring a policy example and 'pull it apart, warts and all.'",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I was, honestly. The whole premise seems to hinge on this idea that people are basically irrational, and once you accept that, you can justify almost any intervention.",
+     "blanks": [
+      "hinge on"
+     ],
+     "challenge": "expression",
+     "explanation": "'Hinge on' means to depend entirely on something."
+    },
+    {
+     "sentence": "Defaults still exploit inertia. It's just a softer form of coercion dressed up in nicer language.",
+     "blanks": [
+      "dressed up"
+     ],
+     "challenge": "expression",
+     "explanation": "'Dressed up' means disguised to seem more acceptable."
+    },
+    {
+     "sentence": "There's actually a study that backs that up. Sunstein found that so-called 'transparent nudges' barely lost any of their punch.",
+     "blanks": [
+      "barely",
+      "lost"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'Barely lost' is often blended quickly in fast speech."
+    },
+    {
+     "sentence": "Good intentions today can easily curdle into paternalism tomorrow.",
+     "blanks": [
+      "curdle"
+     ],
+     "challenge": "expression",
+     "explanation": "'Curdle' is a vivid metaphor for turning sour or negative."
+    },
+    {
+     "sentence": "My worry is more about scale, honestly. A nudge in one supermarket is trivial; a nudge baked into every government form is a different beast entirely.",
+     "blanks": [
+      "a different beast"
+     ],
+     "challenge": "expression",
+     "explanation": "'A different beast' means something fundamentally different in kind."
+    },
+    {
+     "sentence": "Petty is exactly where the best examples hide. Bring it on.",
+     "blanks": [
+      "bring it on"
+     ],
+     "challenge": "expression",
+     "explanation": "'Bring it on' is an informal challenge or invitation."
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "kinda hinge on",
+     "meaning": "informal reduction of 'kind of hinge on', though only 'hinge on' is spoken here as a fast collocation"
+    },
+    {
+     "phrase": "barely lost any of",
+     "meaning": "words blend together quickly, 'lost any' almost merging"
+    },
+    {
+     "phrase": "dressed up in",
+     "meaning": "linked smoothly as one phrase in fast speech"
+    }
+   ]
+  },
+  {
+   "slug": "c1-policy-briefing-monologue",
+   "title": "Briefing Note: The New Emissions Framework",
+   "level": "C1",
+   "category": "Work & Career",
+   "topic": "policy briefing monologue",
+   "difficulty": 9,
+   "duration_seconds": 140,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Director Reyes",
+     "line": "Good morning, everyone. I'll keep this brief, because I know your inboxes are already on fire."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "As of next quarter, the ministry is rolling out the revised emissions framework, and I want to walk you through what actually changes on the ground."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "First, the reporting threshold drops from fifty thousand tonnes to twenty-five thousand. That alone pulls roughly six hundred more facilities into scope."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "Second, and this is the part that's already causing headaches, penalties for late filings are no longer flat fees. They now scale with company revenue."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "So a small operator missing a deadline pays a modest fine, but a large conglomerate could be looking at seven figures for the same slip-up."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "Industry groups have already pushed back hard on that point, and frankly, I don't think that pushback is going away anytime soon."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "Third, there's a new provision for what the framework calls 'transitional credits.' Essentially, firms that overachieve early can bank the surplus against future obligations."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "This is meant to reward early movers rather than punish them for going above and beyond, which, frankly, the old system never really did."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "Now, timeline-wise, consultations close at the end of this month, and the final rules get published in September."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "I want to flag one risk clearly: if we don't finalize guidance before implementation, companies will be flying blind for at least a few weeks."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "That's not a hypothetical. It happened with the last framework, and it created a genuine mess for compliance teams everywhere."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "So my ask to each of you is simple: get your sector's feedback in before the window closes, because once the draft is locked, it's locked."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "I know some of you think this framework is too aggressive, and others think it doesn't go nearly far enough."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "Honestly, that tension probably means we've landed somewhere close to a workable compromise, even if nobody's thrilled about it."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "I'll send the full technical annex around this afternoon. Read it before Thursday's call, please, not during it."
+    },
+    {
+     "speaker": "Director Reyes",
+     "line": "Any urgent questions can come to me directly. Otherwise, let's reconvene once the consultation period wraps up. Thanks, everyone."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this briefing?",
+     "options": [
+      "To announce the cancellation of the emissions framework",
+      "To explain key changes in the new emissions framework and next steps",
+      "To celebrate a successful compliance audit",
+      "To recruit new staff for the ministry"
+     ],
+     "answer": "To explain key changes in the new emissions framework and next steps",
+     "explanation": "The director walks through changes, risks, and a deadline for feedback.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What happens to the reporting threshold under the new framework?",
+     "options": [
+      "It rises from twenty-five thousand to fifty thousand tonnes",
+      "It drops from fifty thousand to twenty-five thousand tonnes",
+      "It stays exactly the same",
+      "It is removed entirely"
+     ],
+     "answer": "It drops from fifty thousand to twenty-five thousand tonnes",
+     "explanation": "She states the threshold drops from fifty thousand to twenty-five thousand tonnes.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "How do late-filing penalties change under the new rules?",
+     "options": [
+      "They become flat fees for everyone",
+      "They scale with company revenue",
+      "They are eliminated completely",
+      "They only apply to small operators"
+     ],
+     "answer": "They scale with company revenue",
+     "explanation": "Penalties now scale with revenue instead of being flat fees.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the director mention what happened with the last framework?",
+     "options": [
+      "To reminisce about her career",
+      "To warn that delayed guidance caused real compliance problems before",
+      "To praise the previous framework's success",
+      "To explain why the ministry has more staff now"
+     ],
+     "answer": "To warn that delayed guidance caused real compliance problems before",
+     "explanation": "She uses the past example as evidence of a real, recurring risk.",
+     "skill": "intention"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does the director say the mixed reactions probably mean they've reached a workable compromise?",
+     "options": [
+      "Because everyone agrees the framework is perfect",
+      "Because criticism from both sides suggests a balanced middle ground",
+      "Because she wants to end the disagreement immediately",
+      "Because mixed reactions always indicate failure"
+     ],
+     "answer": "Because criticism from both sides suggests a balanced middle ground",
+     "explanation": "She frames simultaneous opposite complaints as a sign of balance.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'flying blind' mean in this context?",
+     "options": [
+      "Traveling without proper documentation",
+      "Operating without clear guidance or information",
+      "Literally losing electricity during a flight",
+      "Ignoring instructions on purpose"
+     ],
+     "answer": "Operating without clear guidance or information",
+     "explanation": "It means companies would have to act without finalized guidance.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the director ask people to do before Thursday's call?",
+     "options": [
+      "Submit their resignation",
+      "Read the technical annex",
+      "Book a flight",
+      "Call industry groups directly"
+     ],
+     "answer": "Read the technical annex",
+     "explanation": "She asks them to read the annex before the call, not during it.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Good morning, everyone. I'll keep this brief, because I know your inboxes are already on fire.",
+     "blanks": [
+      "on fire"
+     ],
+     "challenge": "expression",
+     "explanation": "'On fire' here means overwhelmed with messages."
+    },
+    {
+     "sentence": "First, the reporting threshold drops from fifty thousand tonnes to twenty-five thousand.",
+     "blanks": [
+      "fifty thousand",
+      "twenty-five thousand"
+     ],
+     "challenge": "numbers",
+     "explanation": "These numbers are easy to mishear quickly in speech."
+    },
+    {
+     "sentence": "So a small operator missing a deadline pays a modest fine, but a large conglomerate could be looking at seven figures for the same slip-up.",
+     "blanks": [
+      "seven figures"
+     ],
+     "challenge": "expression",
+     "explanation": "'Seven figures' means an amount in the millions."
+    },
+    {
+     "sentence": "I want to flag one risk clearly: if we don't finalize guidance before implementation, companies will be flying blind for at least a few weeks.",
+     "blanks": [
+      "flying blind"
+     ],
+     "challenge": "expression",
+     "explanation": "'Flying blind' is an idiom for acting without necessary information."
+    },
+    {
+     "sentence": "So my ask to each of you is simple: get your sector's feedback in before the window closes, because once the draft is locked, it's locked.",
+     "blanks": [
+      "it's locked"
+     ],
+     "challenge": "contraction",
+     "explanation": "'It's' is a contraction of 'it is,' spoken quickly here for emphasis."
+    },
+    {
+     "sentence": "Honestly, that tension probably means we've landed somewhere close to a workable compromise, even if nobody's thrilled about it.",
+     "blanks": [
+      "we've landed"
+     ],
+     "challenge": "contraction",
+     "explanation": "'We've' contracts 'we have' and links quickly to 'landed.'"
+    }
+   ],
+   "connected_speech": [
+    {
+     "phrase": "gonna be flying blind",
+     "meaning": "the script says 'will be flying blind', spoken smoothly as one unit"
+    },
+    {
+     "phrase": "it's locked, it's locked",
+     "meaning": "repeated contraction spoken fast for emphasis"
+    },
+    {
+     "phrase": "we've landed somewhere close to",
+     "meaning": "contraction plus linking of 'landed somewhere' heard as almost one word"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+-- Run AFTER supabase/migrations/*.sql (has_role() must already exist).
+--
+-- Bug fix discovered while validating the auth compat shim, unrelated to
+-- the Supabase→Postgres port itself:
+--
+-- supabase/migrations/20260901180707_43901d8e-a742-4d1e-ae3d-c70103bb1010.sql
+-- revokes execute on has_role() from anon/authenticated/public, then only
+-- re-grants it to service_role — and later,
+-- 20260905070318_b669c810-3e55-4954-b33b-5f880505ac76.sql re-grants it to
+-- authenticated. `anon` never gets it back. Several RLS policies (e.g.
+-- "read entitled vocabulary_words") are
+-- `to anon, authenticated using (... or has_role(auth.uid(),'admin'))` —
+-- when the first branch of that OR doesn't short-circuit to true, Postgres
+-- evaluates has_role() for the anon session too and the query fails with
+-- "permission denied for function has_role".
+--
+-- This almost certainly also affects the live Supabase Cloud project this
+-- was ported from (same migrations, same gap, never patched there) —
+-- worth running this one line against that project directly too, whether
+-- or not the rebuild goes ahead.
+grant execute on function public.has_role(uuid, public.app_role) to anon;

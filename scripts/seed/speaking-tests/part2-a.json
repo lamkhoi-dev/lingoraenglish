@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "slug": "p2-influential-person",
+      "part": 2,
+      "topic": "A person who influenced you",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a person who has influenced you.",
+      "cue_points": [
+        "who this person is",
+        "how you know them",
+        "what they have done",
+        "and explain why they influenced you"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 1
+    },
+    {
+      "slug": "p2-memorable-trip",
+      "part": 2,
+      "topic": "A memorable trip",
+      "difficulty": "Beginner",
+      "questions": [],
+      "cue_card": "Describe a memorable trip you have been on.",
+      "cue_points": [
+        "where you went",
+        "who you went with",
+        "what you did during the trip",
+        "and explain why it was memorable"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 2
+    },
+    {
+      "slug": "p2-useful-object",
+      "part": 2,
+      "topic": "A useful object you own",
+      "difficulty": "Beginner",
+      "questions": [],
+      "cue_card": "Describe a useful object that you own.",
+      "cue_points": [
+        "what the object is",
+        "where you got it from",
+        "how often you use it",
+        "and explain why it is useful to you"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 3
+    },
+    {
+      "slug": "p2-relaxing-place",
+      "part": 2,
+      "topic": "A place where you like to relax",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a place where you like to relax.",
+      "cue_points": [
+        "where this place is",
+        "how often you go there",
+        "what you usually do there",
+        "and explain why you find it relaxing"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 4
+    },
+    {
+      "slug": "p2-important-decision",
+      "part": 2,
+      "topic": "An important decision you made",
+      "difficulty": "Upper-Intermediate",
+      "questions": [],
+      "cue_card": "Describe an important decision you made.",
+      "cue_points": [
+        "what the decision was",
+        "when you made it",
+        "what alternatives you considered",
+        "and explain how you felt about this decision"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 5
+    },
+    {
+      "slug": "p2-skill-to-learn",
+      "part": 2,
+      "topic": "A skill you would like to learn",
+      "difficulty": "Intermediate",
+      "questions": [],
+      "cue_card": "Describe a skill you would like to learn.",
+      "cue_points": [
+        "what the skill is",
+        "why you want to learn it",
+        "how you would learn it",
+        "and explain how this skill would help you"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 6
+    },
+    {
+      "slug": "p2-influential-book",
+      "part": 2,
+      "topic": "A book that influenced you",
+      "difficulty": "Advanced",
+      "questions": [],
+      "cue_card": "Describe a book that has influenced you.",
+      "cue_points": [
+        "what the book is",
+        "when you read it",
+        "what it is about",
+        "and explain how it influenced you"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 7
+    },
+    {
+      "slug": "p2-helped-someone",
+      "part": 2,
+      "topic": "A time you helped someone",
+      "difficulty": "Beginner",
+      "questions": [],
+      "cue_card": "Describe a time you helped someone.",
+      "cue_points": [
+        "who you helped",
+        "what the situation was",
+        "what you did to help",
+        "and explain how you felt afterwards"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 8
+    },
+    {
+      "slug": "p2-difficult-challenge",
+      "part": 2,
+      "topic": "A difficult challenge you overcame",
+      "difficulty": "Advanced",
+      "questions": [],
+      "cue_card": "Describe a difficult challenge you overcame.",
+      "cue_points": [
+        "what the challenge was",
+        "when it happened",
+        "how you dealt with it",
+        "and explain how you felt after overcoming it"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 9
+    },
+    {
+      "slug": "p2-memorable-meal",
+      "part": 2,
+      "topic": "A memorable meal",
+      "difficulty": "Upper-Intermediate",
+      "questions": [],
+      "cue_card": "Describe a memorable meal you had.",
+      "cue_points": [
+        "where you had this meal",
+        "who you were with",
+        "what you ate",
+        "and explain why this meal was memorable"
+      ],
+      "preparation_time": 60,
+      "speaking_time": 120,
+      "sort_order": 10
+    }
+  ]
+}

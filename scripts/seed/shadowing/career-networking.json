@@ -1,0 +1,2609 @@
+{
+  "slug": "career-networking",
+  "name": "Career Development & Networking",
+  "topic_group": "Work & Professional English",
+  "blurb": "Master the language of professional growth and networking to advance your career.",
+  "sort_order": 36,
+  "sentences": [
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I am a software engineer.",
+      "natural_form": "",
+      "translation": "Tôi là một kỹ sư phần mềm.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "engineer",
+          "meaning": "kỹ sư"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Where do you work?",
+      "natural_form": "",
+      "translation": "Bạn làm việc ở đâu?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "work",
+          "meaning": "làm việc"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I work for a big company.",
+      "natural_form": "",
+      "translation": "Tôi làm việc cho một công ty lớn.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "company",
+          "meaning": "công ty"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I want a new job.",
+      "natural_form": "",
+      "translation": "Tôi muốn một công việc mới.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "new",
+          "meaning": "mới"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This is a great mentor.",
+      "natural_form": "",
+      "translation": "Đây là một người cố vấn tuyệt vời.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "mentor",
+          "meaning": "người cố vấn"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I love my career.",
+      "natural_form": "",
+      "translation": "Tôi yêu sự nghiệp của mình.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "career",
+          "meaning": "sự nghiệp"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I am learning new skills.",
+      "natural_form": "",
+      "translation": "Tôi đang học các kỹ năng mới.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "skills",
+          "meaning": "kỹ năng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Nice to meet you.",
+      "natural_form": "",
+      "translation": "Rất vui được gặp bạn.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "meet",
+          "meaning": "gặp gỡ"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Are you on LinkedIn?",
+      "natural_form": "",
+      "translation": "Bạn có dùng LinkedIn không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "LinkedIn",
+          "meaning": "mạng xã hội nghề nghiệp"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I need some help.",
+      "natural_form": "",
+      "translation": "Tôi cần một chút giúp đỡ.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "help",
+          "meaning": "giúp đỡ"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "What is your goal?",
+      "natural_form": "",
+      "translation": "Mục tiêu của bạn là gì?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "goal",
+          "meaning": "mục tiêu"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I study every day.",
+      "natural_form": "",
+      "translation": "Tôi học mỗi ngày.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "study",
+          "meaning": "học"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Let us connect soon.",
+      "natural_form": "",
+      "translation": "Chúng ta hãy kết nối sớm nhé.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "connect",
+          "meaning": "kết nối"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I work in tech.",
+      "natural_form": "",
+      "translation": "Tôi làm trong ngành công nghệ.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "tech",
+          "meaning": "công nghệ"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Is the conference good?",
+      "natural_form": "",
+      "translation": "Hội thảo có tốt không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "conference",
+          "meaning": "hội thảo"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I have a meeting.",
+      "natural_form": "",
+      "translation": "Tôi có một cuộc họp.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "meeting",
+          "meaning": "cuộc họp"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "She is my boss.",
+      "natural_form": "",
+      "translation": "Cô ấy là sếp của tôi.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "boss",
+          "meaning": "sếp/cấp trên"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "We are a team.",
+      "natural_form": "",
+      "translation": "Chúng tôi là một đội.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "team",
+          "meaning": "đội/nhóm"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "He is very smart.",
+      "natural_form": "",
+      "translation": "Anh ấy rất thông minh.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "smart",
+          "meaning": "thông minh"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "question",
+      "sentence": "Do you like training?",
+      "natural_form": "",
+      "translation": "Bạn có thích đào tạo không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "training",
+          "meaning": "đào tạo"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I am a designer.",
+      "natural_form": "",
+      "translation": "Tôi là một nhà thiết kế.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "designer",
+          "meaning": "nhà thiết kế"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "This office is big.",
+      "natural_form": "",
+      "translation": "Văn phòng này lớn.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "office",
+          "meaning": "văn phòng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "I want a promotion.",
+      "natural_form": "",
+      "translation": "Tôi muốn được thăng chức.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "promotion",
+          "meaning": "thăng chức"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Send me an email.",
+      "natural_form": "",
+      "translation": "Gửi cho tôi một email.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "email",
+          "meaning": "thư điện tử"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "beginner",
+      "difficulty": 1,
+      "sentence_type": "statement",
+      "sentence": "Good luck today.",
+      "natural_form": "",
+      "translation": "Chúc may mắn ngày hôm nay.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "luck",
+          "meaning": "may mắn"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "beginner"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I am looking for a job.",
+      "natural_form": "",
+      "translation": "Tôi đang tìm kiếm một công việc.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "looking for",
+          "meaning": "tìm kiếm"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Can you check my resume?",
+      "natural_form": "",
+      "translation": "Bạn có thể kiểm tra sơ yếu lý lịch của tôi không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "resume",
+          "meaning": "sơ yếu lý lịch"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I attended a networking event.",
+      "natural_form": "",
+      "translation": "Tôi đã tham dự một sự kiện kết nối.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "attended",
+          "meaning": "tham dự"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Let's talk about my salary.",
+      "natural_form": "",
+      "translation": "Hãy nói về mức lương của tôi.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "salary",
+          "meaning": "lương"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Who is your role model?",
+      "natural_form": "",
+      "translation": "Hình mẫu lý tưởng của bạn là ai?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "role model",
+          "meaning": "hình mẫu"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I want to improve skills.",
+      "natural_form": "",
+      "translation": "Tôi muốn cải thiện các kỹ năng.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "improve",
+          "meaning": "cải thiện"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "He gave me good advice.",
+      "natural_form": "",
+      "translation": "Anh ấy đã cho tôi lời khuyên tốt.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "advice",
+          "meaning": "lời khuyên"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I changed my career path.",
+      "natural_form": "",
+      "translation": "Tôi đã thay đổi con đường sự nghiệp của mình.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "path",
+          "meaning": "con đường"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The workshop was very helpful.",
+      "natural_form": "",
+      "translation": "Buổi hội thảo rất hữu ích.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "workshop",
+          "meaning": "hội thảo/buổi học"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I added you on LinkedIn.",
+      "natural_form": "",
+      "translation": "Tôi đã thêm bạn trên LinkedIn.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "added",
+          "meaning": "đã thêm"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "What are your long-term goals?",
+      "natural_form": "",
+      "translation": "Mục tiêu dài hạn của bạn là gì?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "long-term",
+          "meaning": "dài hạn"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I applied for a position.",
+      "natural_form": "",
+      "translation": "Tôi đã ứng tuyển vào một vị trí.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "applied",
+          "meaning": "ứng tuyển"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "We need to work together.",
+      "natural_form": "",
+      "translation": "Chúng ta cần làm việc cùng nhau.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "together",
+          "meaning": "cùng nhau"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "She is a senior developer.",
+      "natural_form": "",
+      "translation": "Cô ấy là một nhà phát triển cấp cao.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "senior",
+          "meaning": "cấp cao"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I have a job interview.",
+      "natural_form": "",
+      "translation": "Tôi có một buổi phỏng vấn xin việc.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "interview",
+          "meaning": "phỏng vấn"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Please give me some feedback.",
+      "natural_form": "",
+      "translation": "Vui lòng cho tôi một số phản hồi.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "feedback",
+          "meaning": "phản hồi"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I finished my online course.",
+      "natural_form": "",
+      "translation": "Tôi đã hoàn thành khóa học trực tuyến của mình.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "finished",
+          "meaning": "hoàn thành"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Networking is very important here.",
+      "natural_form": "",
+      "translation": "Kết nối là rất quan trọng ở đây.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "important",
+          "meaning": "quan trọng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I am ready for challenges.",
+      "natural_form": "",
+      "translation": "Tôi đã sẵn sàng cho những thử thách.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "challenges",
+          "meaning": "thử thách"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "question",
+      "sentence": "Can we meet for coffee?",
+      "natural_form": "",
+      "translation": "Chúng ta có thể gặp nhau uống cà phê không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "coffee",
+          "meaning": "cà phê"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I want to be a manager.",
+      "natural_form": "",
+      "translation": "Tôi muốn trở thành một người quản lý.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "manager",
+          "meaning": "quản lý"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "The company offers good benefits.",
+      "natural_form": "",
+      "translation": "Công ty cung cấp các phúc lợi tốt.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "benefits",
+          "meaning": "phúc lợi"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I am updating my profile.",
+      "natural_form": "",
+      "translation": "Tôi đang cập nhật hồ sơ của mình.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "updating",
+          "meaning": "cập nhật"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "Skills are more important now.",
+      "natural_form": "",
+      "translation": "Các kỹ năng hiện nay quan trọng hơn.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "important",
+          "meaning": "quan trọng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "elementary",
+      "difficulty": 2,
+      "sentence_type": "statement",
+      "sentence": "I will attend the seminar.",
+      "natural_form": "",
+      "translation": "Tôi sẽ tham dự buổi hội thảo.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "seminar",
+          "meaning": "hội thảo"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "elementary"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am looking for a mentor to guide me.",
+      "natural_form": "",
+      "translation": "Tôi đang tìm kiếm một người cố vấn để hướng dẫn tôi.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "guide",
+          "meaning": "hướng dẫn"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Could you introduce me to your manager?",
+      "natural_form": "",
+      "translation": "Bạn có thể giới thiệu tôi với quản lý của bạn không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "introduce",
+          "meaning": "giới thiệu"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I want to discuss my career growth.",
+      "natural_form": "",
+      "translation": "Tôi muốn thảo luận về sự phát triển sự nghiệp của mình.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "growth",
+          "meaning": "phát triển"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "What skills should I focus on next?",
+      "natural_form": "",
+      "translation": "Tôi nên tập trung vào những kỹ năng nào tiếp theo?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "focus",
+          "meaning": "tập trung"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am interested in a leadership role.",
+      "natural_form": "",
+      "translation": "Tôi quan tâm đến một vai trò lãnh đạo.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "leadership",
+          "meaning": "lãnh đạo"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How do you handle difficult coworkers?",
+      "natural_form": "",
+      "translation": "Làm thế nào để bạn đối phó với những đồng nghiệp khó tính?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "handle",
+          "meaning": "đối phó/xử lý"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am planning to switch industries soon.",
+      "natural_form": "",
+      "translation": "Tôi đang lên kế hoạch chuyển đổi ngành nghề sớm.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "switch",
+          "meaning": "chuyển đổi"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Can we schedule a performance review?",
+      "natural_form": "",
+      "translation": "Chúng ta có thể lên lịch đánh giá hiệu suất không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "performance",
+          "meaning": "hiệu suất"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I need to expand my professional network.",
+      "natural_form": "",
+      "translation": "Tôi cần mở rộng mạng lưới chuyên nghiệp của mình.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "expand",
+          "meaning": "mở rộng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "What is the best way to network?",
+      "natural_form": "",
+      "translation": "Cách tốt nhất để kết nối mạng lưới là gì?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "network",
+          "meaning": "kết nối mạng lưới"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I have been working here for years.",
+      "natural_form": "",
+      "translation": "Tôi đã làm việc ở đây nhiều năm rồi.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "years",
+          "meaning": "nhiều năm"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am pursuing a professional certification.",
+      "natural_form": "",
+      "translation": "Tôi đang theo đuổi một chứng chỉ chuyên môn.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "pursuing",
+          "meaning": "theo đuổi"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "The company culture is very supportive.",
+      "natural_form": "",
+      "translation": "Văn hóa công ty rất mang tính hỗ trợ.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "supportive",
+          "meaning": "hỗ trợ"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I would like to apply for a raise.",
+      "natural_form": "",
+      "translation": "Tôi muốn đề nghị tăng lương.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "raise",
+          "meaning": "tăng lương"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Networking events can be quite intimidating.",
+      "natural_form": "",
+      "translation": "Các sự kiện kết nối có thể khá đáng sợ.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "intimidating",
+          "meaning": "đáng sợ/ngại ngùng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am researching new market trends.",
+      "natural_form": "",
+      "translation": "Tôi đang nghiên cứu các xu hướng thị trường mới.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "trends",
+          "meaning": "xu hướng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Let's catch up over lunch sometime.",
+      "natural_form": "",
+      "translation": "Thỉnh thoảng chúng ta hãy cùng ăn trưa và trò chuyện nhé.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "catch up",
+          "meaning": "trò chuyện/cập nhật tình hình"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am passionate about project management.",
+      "natural_form": "",
+      "translation": "Tôi đam mê quản lý dự án.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "passionate",
+          "meaning": "đam mê"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "How do you stay updated in tech?",
+      "natural_form": "",
+      "translation": "Làm thế nào để bạn luôn cập nhật công nghệ?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "updated",
+          "meaning": "cập nhật"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am looking for creative opportunities.",
+      "natural_form": "",
+      "translation": "Tôi đang tìm kiếm các cơ hội sáng tạo.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "creative",
+          "meaning": "sáng tạo"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "Public speaking is a valuable skill.",
+      "natural_form": "",
+      "translation": "Nói trước công chúng là một kỹ năng quý giá.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "valuable",
+          "meaning": "quý giá"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I want to improve my leadership abilities.",
+      "natural_form": "",
+      "translation": "Tôi muốn cải thiện khả năng lãnh đạo của mình.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "abilities",
+          "meaning": "khả năng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "We should collaborate on this project.",
+      "natural_form": "",
+      "translation": "Chúng ta nên cộng tác trong dự án này.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "collaborate",
+          "meaning": "cộng tác"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "statement",
+      "sentence": "I am excited about the new challenge.",
+      "natural_form": "",
+      "translation": "Tôi hào hứng với thử thách mới.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "excited",
+          "meaning": "hào hứng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "intermediate",
+      "difficulty": 3,
+      "sentence_type": "question",
+      "sentence": "Can you recommend any good books?",
+      "natural_form": "",
+      "translation": "Bạn có thể giới thiệu cuốn sách hay nào không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "recommend",
+          "meaning": "giới thiệu/khuyên dùng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "intermediate"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I have been consistently exceeding my performance targets and would like to discuss the possibility of a promotion to a senior role.",
+      "natural_form": "",
+      "translation": "Tôi đã liên tục vượt mục tiêu hiệu suất của mình và muốn thảo luận về khả năng thăng tiến lên một vai trò cấp cao.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "consistently",
+          "meaning": "nhất quán/liên tục"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Networking is not just about exchanging business cards but about building meaningful long-term relationships that benefit both parties involved in the industry.",
+      "natural_form": "",
+      "translation": "Kết nối không chỉ là trao đổi danh thiếp mà là xây dựng các mối quan hệ lâu dài ý nghĩa mang lại lợi ích cho cả hai bên.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "meaningful",
+          "meaning": "ý nghĩa"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am currently seeking a position where I can utilize my extensive experience in software development to contribute to innovative and impactful projects.",
+      "natural_form": "",
+      "translation": "Tôi hiện đang tìm kiếm một vị trí mà tôi có thể sử dụng kinh nghiệm sâu rộng của mình trong phát triển phần mềm để đóng góp.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "extensive",
+          "meaning": "sâu rộng/rộng lớn"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "question",
+      "sentence": "Could you provide some insight into the company's strategic vision and how my current role aligns with the organization's long-term objectives and goals?",
+      "natural_form": "",
+      "translation": "Bạn có thể cung cấp một số thông tin chi tiết về tầm nhìn chiến lược của công ty và cách vai trò của tôi phù hợp không?",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "rising",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "strategic",
+          "meaning": "chiến lược"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am looking for a mentor who can provide guidance on navigating complex corporate environments and developing the soft skills necessary for executive leadership.",
+      "natural_form": "",
+      "translation": "Tôi đang tìm kiếm một người cố vấn có thể hướng dẫn về cách điều hướng môi trường doanh nghiệp phức tạp và phát triển kỹ năng mềm.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "navigating",
+          "meaning": "điều hướng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Participating in industry conferences is an excellent way to stay abreast of the latest technological advancements and connect with thought leaders in the field.",
+      "natural_form": "",
+      "translation": "Tham gia các hội thảo chuyên ngành là một cách tuyệt vời để cập nhật những tiến bộ công nghệ mới nhất và kết nối với các lãnh đạo.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "abreast",
+          "meaning": "cập nhật/theo kịp"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "It is essential to maintain a professional online presence on platforms like LinkedIn to attract potential recruiters and stay connected with former colleagues.",
+      "natural_form": "",
+      "translation": "Điều cần thiết là duy trì sự hiện diện trực tuyến chuyên nghiệp trên các nền tảng như LinkedIn để thu hút các nhà tuyển dụng tiềm năng.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "presence",
+          "meaning": "sự hiện diện"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I would appreciate the opportunity to take on more responsibilities and lead a team to demonstrate my potential for further growth within this organization.",
+      "natural_form": "",
+      "translation": "Tôi sẽ đánh giá cao cơ hội đảm nhận nhiều trách nhiệm hơn và lãnh đạo một đội nhóm để chứng minh tiềm năng phát triển của mình.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "responsibilities",
+          "meaning": "trách nhiệm"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Developing a diverse set of technical and interpersonal skills is crucial for anyone looking to advance their career in today's highly competitive job market.",
+      "natural_form": "",
+      "translation": "Phát triển một bộ kỹ năng kỹ thuật và giao tiếp đa dạng là rất quan trọng đối với bất kỳ ai muốn thăng tiến trong sự nghiệp.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "interpersonal",
+          "meaning": "giữa cá nhân/giao tiếp"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am considering transitioning into a consultancy role where I can leverage my expertise to help multiple clients solve complex business and technical problems.",
+      "natural_form": "",
+      "translation": "Tôi đang xem xét việc chuyển sang vai trò tư vấn, nơi tôi có thể tận dụng kiến thức chuyên môn của mình để giúp nhiều khách hàng.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "leverage",
+          "meaning": "tận dụng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Effective communication and active listening are fundamental components of successful networking and can lead to many unexpected professional opportunities and fruitful collaborations.",
+      "natural_form": "",
+      "translation": "Giao tiếp hiệu quả và lắng nghe tích cực là những thành phần cơ bản của việc kết nối thành công và có thể dẫn đến cơ hội.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "fundamental",
+          "meaning": "cơ bản"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am highly motivated to pursue further education and specialized training to ensure that my skill set remains relevant and competitive in the industry.",
+      "natural_form": "",
+      "translation": "Tôi có động lực cao để theo đuổi giáo dục cao hơn và đào tạo chuyên sâu để đảm bảo bộ kỹ năng của mình luôn phù hợp.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "motivated",
+          "meaning": "có động lực"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Building a strong professional brand requires consistency and a clear understanding of your unique value proposition and how you can contribute to the success.",
+      "natural_form": "",
+      "translation": "Xây dựng thương hiệu chuyên nghiệp mạnh mẽ đòi hỏi sự nhất quán và hiểu biết rõ ràng về đề xuất giá trị độc đáo của bạn.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "proposition",
+          "meaning": "đề xuất"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I would like to explore the possibility of a lateral move within the company to broaden my experience and gain a better understanding.",
+      "natural_form": "",
+      "translation": "Tôi muốn khám phá khả năng chuyển đổi ngang trong công ty để mở rộng kinh nghiệm và hiểu biết tốt hơn về hoạt động.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "lateral",
+          "meaning": "ngang/bên cạnh"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Mentorship programs are invaluable for transferring knowledge from experienced professionals to younger employees, fostering a culture of continuous learning and professional development.",
+      "natural_form": "",
+      "translation": "Các chương trình cố vấn vô cùng quý giá để chuyển giao kiến thức từ những chuyên gia giàu kinh nghiệm sang các nhân viên trẻ.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "invaluable",
+          "meaning": "vô giá"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am interested in learning more about the company's international expansion plans and whether there are any opportunities for overseas assignments in the future.",
+      "natural_form": "",
+      "translation": "Tôi quan tâm đến việc tìm hiểu thêm về các kế hoạch mở rộng quốc tế của công ty và liệu có cơ hội đi công tác nước ngoài không.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "expansion",
+          "meaning": "mở rộng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Adapting to new technologies and methodologies is a constant requirement in the software industry, necessitating a commitment to lifelong learning and professional agility.",
+      "natural_form": "",
+      "translation": "Thích nghi với các công nghệ và phương pháp mới là yêu cầu thường xuyên trong ngành phần mềm, đòi hỏi cam kết học tập suốt đời.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "agility",
+          "meaning": "sự nhanh nhạy"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Mentoring",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am seeking a challenging environment where I can push my boundaries and contribute to solving some of the most pressing technical issues.",
+      "natural_form": "",
+      "translation": "Tôi đang tìm kiếm một môi trường đầy thử thách, nơi tôi có thể vượt qua giới hạn của mình và đóng góp vào việc giải quyết vấn đề.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "pressing",
+          "meaning": "cấp bách/cấp thiết"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Career goals",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Effective networking often involves giving back to the community by sharing your knowledge and helping others achieve their professional goals and career aspirations.",
+      "natural_form": "",
+      "translation": "Kết nối hiệu quả thường bao gồm việc đóng góp lại cho cộng đồng bằng cách chia sẻ kiến thức và giúp đỡ người khác đạt mục tiêu.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "aspirations",
+          "meaning": "nguyện vọng/khát vọng"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Changing jobs",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I believe that my background in data analysis combined with my project management skills makes me a strong candidate for the senior operations manager.",
+      "natural_form": "",
+      "translation": "Tôi tin rằng nền tảng phân tích dữ liệu kết hợp với kỹ năng quản lý dự án giúp tôi trở thành ứng viên sáng giá cho vị trí này.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "candidate",
+          "meaning": "ứng viên"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Skills and training",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "It is important to set specific, measurable, achievable, relevant, and time-bound goals to track your progress and stay focused on your long-term career.",
+      "natural_form": "",
+      "translation": "Điều quan trọng là phải thiết lập các mục tiêu cụ thể, có thể đo lường, có thể đạt được, phù hợp và có thời hạn để theo dõi.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "measurable",
+          "meaning": "có thể đo lường"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Introducing yourself professionally",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Attending global summits provides a unique perspective on the industry and allows professionals to exchange ideas and best practices with experts from different cultures.",
+      "natural_form": "",
+      "translation": "Tham gia các hội nghị thượng đỉnh toàn cầu mang lại một góc nhìn độc đáo về ngành và cho phép các chuyên gia trao đổi ý tưởng.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "perspective",
+          "meaning": "góc nhìn/quan điểm"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Conferences",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I am looking forward to collaborating with a team of high-performing individuals who are dedicated to achieving excellence and driving innovation in the market.",
+      "natural_form": "",
+      "translation": "Tôi mong muốn được hợp tác với một đội ngũ gồm những cá nhân có hiệu suất cao, những người tận tâm đạt được sự xuất sắc.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "dedicated",
+          "meaning": "tận tâm"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "LinkedIn/online networking",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "Maintaining a healthy work-life balance is essential for long-term career success and prevents burnout in high-pressure environments like the fast-paced technology sector.",
+      "natural_form": "",
+      "translation": "Duy trì sự cân bằng lành mạnh giữa công việc và cuộc sống là điều cần thiết để thành công trong sự nghiệp lâu dài và ngăn ngừa kiệt sức.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "burnout",
+          "meaning": "kiệt sức"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    },
+    {
+      "subcategory": "Asking for a promotion",
+      "level": "advanced",
+      "difficulty": 4,
+      "sentence_type": "statement",
+      "sentence": "I would like to request a formal meeting to discuss how I can further contribute to the department's strategic goals and potential career advancement opportunities.",
+      "natural_form": "",
+      "translation": "Tôi muốn yêu cầu một cuộc họp chính thức để thảo luận về cách tôi có thể đóng góp thêm vào các mục tiêu chiến lược của bộ phận.",
+      "accent": "american",
+      "pronunciation_focus": "sentence rhythm",
+      "stress_focus": "content words",
+      "intonation_focus": "falling",
+      "connected_speech_focus": "linking",
+      "vocabulary": [
+        {
+          "word": "advancement",
+          "meaning": "sự tiến triển/thăng tiến"
+        }
+      ],
+      "grammar_focus": "general usage",
+      "tags": [
+        "career",
+        "professional",
+        "advanced"
+      ]
+    }
+  ]
+}

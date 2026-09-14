@@ -1,0 +1,41 @@
+{
+  "topic_slug": "weather-seasons",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Talking about weather",
+      "turns": [
+        { "speaker_label": "Ana", "speaker_voice": "shimmer", "sentence": "It's really cold today.", "is_free": true },
+        { "speaker_label": "Ben", "speaker_voice": "alloy", "sentence": "Yes, I heard it might snow tonight.", "is_free": true },
+        { "speaker_label": "Ana", "speaker_voice": "shimmer", "sentence": "Really? I should bring a warmer coat.", "is_free": true },
+        { "speaker_label": "Ben", "speaker_voice": "alloy", "sentence": "That's a good idea.", "is_free": true },
+        { "speaker_label": "Ana", "speaker_voice": "shimmer", "sentence": "I hope the roads aren't too icy tomorrow.", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Weekend weather plans",
+      "turns": [
+        { "speaker_label": "Kai", "speaker_voice": "coral", "sentence": "Do you think the weather will hold up for the picnic on Saturday?", "is_free": false },
+        { "speaker_label": "Zoe", "speaker_voice": "sage", "sentence": "The forecast says sunny in the morning, but there's a chance of rain later in the afternoon.", "is_free": false },
+        { "speaker_label": "Kai", "speaker_voice": "coral", "sentence": "Maybe we should move it earlier, just to be safe.", "is_free": false },
+        { "speaker_label": "Zoe", "speaker_voice": "sage", "sentence": "Good idea — let's start around eleven instead of one.", "is_free": false },
+        { "speaker_label": "Kai", "speaker_voice": "coral", "sentence": "I'll let the others know about the change.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Adjusting to a new climate",
+      "turns": [
+        { "speaker_label": "Newcomer", "speaker_voice": "nova", "sentence": "I still haven't quite adjusted to how quickly the weather here can turn from sunny to pouring rain.", "is_free": false },
+        { "speaker_label": "Local", "speaker_voice": "shimmer", "sentence": "Yeah, it catches most newcomers off guard — the golden rule here is to always carry an umbrella, rain or shine.", "is_free": false },
+        { "speaker_label": "Newcomer", "speaker_voice": "nova", "sentence": "I'll admit I've been caught out more than once without one.", "is_free": false },
+        { "speaker_label": "Local", "speaker_voice": "shimmer", "sentence": "You'll get the hang of it eventually — after a year or so, checking the sky becomes second nature.", "is_free": false },
+        { "speaker_label": "Newcomer", "speaker_voice": "nova", "sentence": "I'll hold you to that — for now, I'm just going to keep an umbrella in every bag I own.", "is_free": false }
+      ]
+    }
+  ]
+}

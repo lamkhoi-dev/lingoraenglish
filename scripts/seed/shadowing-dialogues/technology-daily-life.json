@@ -1,0 +1,41 @@
+{
+  "topic_slug": "technology-daily-life",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Phone trouble",
+      "turns": [
+        { "speaker_label": "User", "speaker_voice": "shimmer", "sentence": "My phone won't turn on.", "is_free": true },
+        { "speaker_label": "Friend", "speaker_voice": "alloy", "sentence": "Did you try charging it?", "is_free": true },
+        { "speaker_label": "User", "speaker_voice": "shimmer", "sentence": "Yes, but it's still not working.", "is_free": true },
+        { "speaker_label": "Friend", "speaker_voice": "alloy", "sentence": "Try holding the power button for ten seconds.", "is_free": true },
+        { "speaker_label": "User", "speaker_voice": "shimmer", "sentence": "Oh, it's turning on now. Thanks!", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Choosing a new laptop",
+      "turns": [
+        { "speaker_label": "Shopper", "speaker_voice": "coral", "sentence": "I'm torn between these two laptops — do you have a recommendation?", "is_free": false },
+        { "speaker_label": "Sales rep", "speaker_voice": "sage", "sentence": "It depends on what you'll mainly use it for — is it more for work or gaming?", "is_free": false },
+        { "speaker_label": "Shopper", "speaker_voice": "coral", "sentence": "Mostly work, but I'd like it to handle some light video editing too.", "is_free": false },
+        { "speaker_label": "Sales rep", "speaker_voice": "sage", "sentence": "In that case, I'd go with the one that has more RAM — editing tends to be memory-hungry.", "is_free": false },
+        { "speaker_label": "Shopper", "speaker_voice": "coral", "sentence": "That makes sense, I'll go with your suggestion.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Screen time concerns",
+      "turns": [
+        { "speaker_label": "Parent", "speaker_voice": "nova", "sentence": "I've been trying to figure out a reasonable screen-time limit without it turning into a constant battle.", "is_free": false },
+        { "speaker_label": "Teacher", "speaker_voice": "shimmer", "sentence": "It often works better to focus on the type of content rather than a strict number of hours.", "is_free": false },
+        { "speaker_label": "Parent", "speaker_voice": "nova", "sentence": "That's an interesting reframe — how would you go about implementing that in practice?", "is_free": false },
+        { "speaker_label": "Teacher", "speaker_voice": "shimmer", "sentence": "Encourage things that involve creating or learning, and gently limit passive scrolling instead.", "is_free": false },
+        { "speaker_label": "Parent", "speaker_voice": "nova", "sentence": "That feels far more sustainable than the fights we've been having over a timer.", "is_free": false }
+      ]
+    }
+  ]
+}

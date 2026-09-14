@@ -1,0 +1,2054 @@
+{
+ "lessons": [
+  {
+   "slug": "b2-performance-review-honest-feedback",
+   "title": "A Tough but Fair Review",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "performance review",
+   "difficulty": 7,
+   "duration_seconds": 100,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Manager",
+     "line": "So, overall, I think you've had a pretty solid quarter."
+    },
+    {
+     "speaker": "Employee",
+     "line": "Thanks, I was a little nervous going into this, to be honest."
+    },
+    {
+     "speaker": "Manager",
+     "line": "No need. I mean, your client work was great, but there's one thing I gotta bring up."
+    },
+    {
+     "speaker": "Employee",
+     "line": "Okay, go ahead."
+    },
+    {
+     "speaker": "Manager",
+     "line": "The deadlines. You've missed a couple, and it's kind of become a pattern."
+    },
+    {
+     "speaker": "Employee",
+     "line": "Yeah, I know. I shoulda flagged it earlier instead of just pushing through."
+    },
+    {
+     "speaker": "Manager",
+     "line": "Exactly. I'd rather you tell me you're swamped than scramble at the last minute."
+    },
+    {
+     "speaker": "Employee",
+     "line": "That's fair. I think I've been biting off more than I can chew lately."
+    },
+    {
+     "speaker": "Manager",
+     "line": "Right, and that's not sustainable. Let's figure out a way to manage your workload better."
+    },
+    {
+     "speaker": "Employee",
+     "line": "I'd appreciate that. Maybe I could hand off a couple of the smaller accounts?"
+    },
+    {
+     "speaker": "Manager",
+     "line": "That could work. Let's revisit in a month and see how it's going."
+    },
+    {
+     "speaker": "Employee",
+     "line": "Sounds good. And thanks for being straight with me about it."
+    },
+    {
+     "speaker": "Manager",
+     "line": "Of course. Overall, though, you're doing well — this is just one thing to tighten up."
+    },
+    {
+     "speaker": "Employee",
+     "line": "Got it. I'll put together a plan and send it your way by Friday."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this conversation?",
+     "options": [
+      "To fire the employee",
+      "To give balanced feedback and address missed deadlines",
+      "To announce a promotion",
+      "To discuss a client complaint"
+     ],
+     "answer": "To give balanced feedback and address missed deadlines",
+     "explanation": "The manager praises the employee but raises a specific concern about deadlines.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What specific issue does the manager bring up?",
+     "options": [
+      "Poor client communication",
+      "Missed deadlines",
+      "Low sales numbers",
+      "Attendance problems"
+     ],
+     "answer": "Missed deadlines",
+     "explanation": "The manager says the employee missed a couple of deadlines.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the employee suggest as a solution?",
+     "options": [
+      "Quitting the smaller accounts entirely",
+      "Handing off some smaller accounts",
+      "Working overtime every week",
+      "Asking for a deadline extension"
+     ],
+     "answer": "Handing off some smaller accounts",
+     "explanation": "The employee proposes handing off a couple of smaller accounts.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "How does the employee seem to feel about the feedback?",
+     "options": [
+      "Angry and defensive",
+      "Accepting and reflective",
+      "Completely indifferent",
+      "Confused about what was said"
+     ],
+     "answer": "Accepting and reflective",
+     "explanation": "The employee agrees and reflects on taking on too much work.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'biting off more than I can chew' mean?",
+     "options": [
+      "Eating too quickly",
+      "Taking on more than one can handle",
+      "Speaking too much in meetings",
+      "Chewing gum during work"
+     ],
+     "answer": "Taking on more than one can handle",
+     "explanation": "It's an idiom for overcommitting to tasks.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "When will they revisit the situation?",
+     "options": [
+      "Next week",
+      "In a month",
+      "Next quarter",
+      "Tomorrow"
+     ],
+     "answer": "In a month",
+     "explanation": "The manager suggests revisiting in a month.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I shoulda flagged it earlier instead of just pushing through.",
+     "blanks": [
+      "shoulda",
+      "flagged"
+     ],
+     "challenge": "contraction",
+     "explanation": "'shoulda' is a reduced spoken form of 'should have'."
+    },
+    {
+     "sentence": "I think I've been biting off more than I can chew lately.",
+     "blanks": [
+      "biting off"
+     ],
+     "challenge": "expression",
+     "explanation": "This idiom means taking on too much."
+    },
+    {
+     "sentence": "That could work. Let's revisit in a month and see how it's going.",
+     "blanks": [
+      "revisit"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'Let's' is a common contraction heard in fast speech."
+    },
+    {
+     "sentence": "I'd rather you tell me you're swamped than scramble at the last minute.",
+     "blanks": [
+      "swamped"
+     ],
+     "challenge": "expression",
+     "explanation": "'Swamped' means very busy, an informal idiom."
+    },
+    {
+     "sentence": "I'll put together a plan and send it your way by Friday.",
+     "blanks": [
+      "put together"
+     ],
+     "challenge": "expression",
+     "explanation": "'Put together' is a phrasal expression meaning to create or assemble."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "should have",
+     "spoken": "shoulda"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    },
+    {
+     "written": "I would",
+     "spoken": "I'd"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-scope-creep-pushback",
+   "title": "Pushing Back on Scope Creep",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "pushing back on scope creep",
+   "difficulty": 7,
+   "duration_seconds": 105,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Dana",
+     "line": "Hey, do you have a sec? I wanted to talk about the project timeline."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Sure, what's up?"
+    },
+    {
+     "speaker": "Dana",
+     "line": "So the client's asked for like three new features that weren't in the original scope."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Yeah, I noticed that too. It's kinda getting out of hand, honestly."
+    },
+    {
+     "speaker": "Dana",
+     "line": "Right, and we're still expected to hit the original deadline, which doesn't add up."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "I mean, we can't just keep saying yes to everything without pushing the date."
+    },
+    {
+     "speaker": "Dana",
+     "line": "Exactly. I was thinking we should go back to them with a revised timeline."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Or charge extra for the additional work — that usually gets their attention."
+    },
+    {
+     "speaker": "Dana",
+     "line": "Ha, true. Either way, we gotta set some boundaries here."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Agreed. Want me to draft an email laying out the extra scope?"
+    },
+    {
+     "speaker": "Dana",
+     "line": "That'd be great. Just be diplomatic about it — we don't want to sound difficult."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "No worries, I'll frame it as protecting the quality of the deliverable."
+    },
+    {
+     "speaker": "Dana",
+     "line": "Perfect. Send it my way before it goes out, just to double-check."
+    },
+    {
+     "speaker": "Marcus",
+     "line": "Will do. I'll have it to you by end of day."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the conversation mainly about?",
+     "options": [
+      "Planning a company party",
+      "Addressing extra work requests beyond the agreed scope",
+      "Complaining about a coworker",
+      "Discussing a hiring decision"
+     ],
+     "answer": "Addressing extra work requests beyond the agreed scope",
+     "explanation": "They discuss the client asking for extra features beyond scope.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How many new features did the client request?",
+     "options": [
+      "One",
+      "Two",
+      "Three",
+      "Five"
+     ],
+     "answer": "Three",
+     "explanation": "Dana mentions the client asked for three new features.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does Marcus offer to do?",
+     "options": [
+      "Call the client directly",
+      "Draft an email about the extra scope",
+      "Quit the project",
+      "Ignore the client's requests"
+     ],
+     "answer": "Draft an email about the extra scope",
+     "explanation": "Marcus offers to draft an email laying out the extra scope.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why does Dana ask Marcus to be diplomatic?",
+     "options": [
+      "She doesn't trust him",
+      "She wants to avoid seeming difficult to the client",
+      "She wants to delay the email",
+      "She's annoyed with Marcus"
+     ],
+     "answer": "She wants to avoid seeming difficult to the client",
+     "explanation": "Dana says they don't want to sound difficult.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'getting out of hand' mean here?",
+     "options": [
+      "Becoming manageable",
+      "Becoming excessive or uncontrolled",
+      "Being handed off to someone else",
+      "Being resolved quickly"
+     ],
+     "answer": "Becoming excessive or uncontrolled",
+     "explanation": "It means the situation is becoming difficult to control.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "What alternative solution does Marcus suggest besides a new timeline?",
+     "options": [
+      "Firing the client",
+      "Charging extra for additional work",
+      "Cancelling the project",
+      "Hiring more staff"
+     ],
+     "answer": "Charging extra for additional work",
+     "explanation": "Marcus suggests charging extra for the added scope.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "It's kinda getting out of hand, honestly.",
+     "blanks": [
+      "kinda"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'kinda' is the spoken reduction of 'kind of'."
+    },
+    {
+     "sentence": "I mean, we can't just keep saying yes to everything without pushing the date.",
+     "blanks": [
+      "can't"
+     ],
+     "challenge": "contraction",
+     "explanation": "'can't' is a contraction of 'cannot'."
+    },
+    {
+     "sentence": "Either way, we gotta set some boundaries here.",
+     "blanks": [
+      "gotta"
+     ],
+     "challenge": "contraction",
+     "explanation": "'gotta' is a reduced spoken form of 'got to'."
+    },
+    {
+     "sentence": "That'd be great. Just be diplomatic about it — we don't want to sound difficult.",
+     "blanks": [
+      "That'd"
+     ],
+     "challenge": "contraction",
+     "explanation": "'That'd' is a contraction of 'that would'."
+    },
+    {
+     "sentence": "Will do. I'll have it to you by end of day.",
+     "blanks": [
+      "I'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'll' is a contraction of 'I will'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "kind of",
+     "spoken": "kinda"
+    },
+    {
+     "written": "got to",
+     "spoken": "gotta"
+    },
+    {
+     "written": "that would",
+     "spoken": "that'd"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-client-escalation-call",
+   "title": "Handling a Client Escalation",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "client escalation call",
+   "difficulty": 8,
+   "duration_seconds": 110,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Support Lead",
+     "line": "Hi Mr. Aldridge, I understand you've had some issues with the last delivery."
+    },
+    {
+     "speaker": "Client",
+     "line": "Issues is putting it mildly. This is the third time we've had a problem this month."
+    },
+    {
+     "speaker": "Support Lead",
+     "line": "I hear you, and I'm really sorry it's come to this point."
+    },
+    {
+     "speaker": "Client",
+     "line": "To be honest, we're starting to look at other suppliers."
+    },
+    {
+     "speaker": "Support Lead",
+     "line": "I completely understand the frustration. Can I ask what went wrong this time specifically?"
+    },
+    {
+     "speaker": "Client",
+     "line": "The shipment arrived two days late, and half the boxes were damaged."
+    },
+    {
+     "speaker": "Support Lead",
+     "line": "Right, that's on us. We'll replace the damaged stock and cover the shipping."
+    },
+    {
+     "speaker": "Client",
+     "line": "That's something, but it doesn't really fix the trust issue."
+    },
+    {
+     "speaker": "Support Lead",
+     "line": "Fair enough. I'd like to set up a call with our operations manager to go over what's happening internally."
+    },
+    {
+     "speaker": "Client",
+     "line": "I suppose that couldn't hurt. Just don't string us along."
+    },
+    {
+     "speaker": "Support Lead",
+     "line": "Absolutely not. I'll personally follow up by Thursday with a concrete plan."
+    },
+    {
+     "speaker": "Client",
+     "line": "Alright. We'll give it one more shot, but this really is the last chance."
+    },
+    {
+     "speaker": "Support Lead",
+     "line": "Understood, and thank you for your patience with us on this."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the client's main concern?",
+     "options": [
+      "The price of the product",
+      "Repeated delivery problems",
+      "A billing error",
+      "A staff member's rudeness"
+     ],
+     "answer": "Repeated delivery problems",
+     "explanation": "The client mentions this is the third issue this month.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What went wrong with this specific shipment?",
+     "options": [
+      "It never arrived",
+      "It was two days late and boxes were damaged",
+      "It was the wrong product",
+      "It was overcharged"
+     ],
+     "answer": "It was two days late and boxes were damaged",
+     "explanation": "The client describes the shipment as late with damaged boxes.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the support lead offer to do about the damage?",
+     "options": [
+      "Give a full refund",
+      "Replace the stock and cover shipping",
+      "Cancel the contract",
+      "End the meeting early"
+     ],
+     "answer": "Replace the stock and cover shipping",
+     "explanation": "The support lead offers to replace stock and cover shipping costs.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "What is the client's attitude by the end of the call?",
+     "options": [
+      "Fully satisfied and reassured",
+      "Cautiously willing to give one more chance",
+      "Completely done with the company",
+      "Uninterested in the outcome"
+     ],
+     "answer": "Cautiously willing to give one more chance",
+     "explanation": "The client agrees to give one more shot but warns it's the last chance.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'don't string us along' mean?",
+     "options": [
+      "Don't tie the boxes properly",
+      "Don't keep delaying without real progress",
+      "Don't call again",
+      "Don't send another shipment"
+     ],
+     "answer": "Don't keep delaying without real progress",
+     "explanation": "It's an idiom meaning not to deceive or delay someone.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "By when will the support lead follow up?",
+     "options": [
+      "By Monday",
+      "By Thursday",
+      "By the end of the month",
+      "By next Friday"
+     ],
+     "answer": "By Thursday",
+     "explanation": "The support lead promises to follow up by Thursday.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Issues is putting it mildly.",
+     "blanks": [
+      "putting it mildly"
+     ],
+     "challenge": "expression",
+     "explanation": "This idiom means the situation is actually worse than described."
+    },
+    {
+     "sentence": "Fair enough. I'd like to set up a call with our operations manager to go over what's happening internally.",
+     "blanks": [
+      "I'd like"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'd' is the contraction of 'I would'."
+    },
+    {
+     "sentence": "I suppose that couldn't hurt.",
+     "blanks": [
+      "couldn't hurt"
+     ],
+     "challenge": "expression",
+     "explanation": "'Couldn't hurt' means something is worth trying with little risk."
+    },
+    {
+     "sentence": "We'll replace the damaged stock and cover the shipping.",
+     "blanks": [
+      "We'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "'We'll' is a contraction of 'we will'."
+    },
+    {
+     "sentence": "We'll give it one more shot, but this really is the last chance.",
+     "blanks": [
+      "one more shot"
+     ],
+     "challenge": "expression",
+     "explanation": "'One more shot' means one more attempt or opportunity."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "I would",
+     "spoken": "I'd"
+    },
+    {
+     "written": "we will",
+     "spoken": "we'll"
+    },
+    {
+     "written": "that could not",
+     "spoken": "couldn't"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-cross-team-disagreement",
+   "title": "A Disagreement Between Teams",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "cross-team disagreement",
+   "difficulty": 7,
+   "duration_seconds": 100,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Priya",
+     "line": "So I looked at the design specs your team sent over, and honestly, I don't think they'll work."
+    },
+    {
+     "speaker": "Tom",
+     "line": "Wait, why not? We spent weeks on those."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I hear you, but the load times will be way too slow with that many animations."
+    },
+    {
+     "speaker": "Tom",
+     "line": "I mean, we tested it and it seemed fine on our end."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Maybe on a fast connection, but a lot of our users are on mobile data."
+    },
+    {
+     "speaker": "Tom",
+     "line": "Okay, fair point, I didn't think about that angle."
+    },
+    {
+     "speaker": "Priya",
+     "line": "I'm not saying scrap the whole thing, just maybe simplify a couple of the transitions."
+    },
+    {
+     "speaker": "Tom",
+     "line": "I guess that could work. It's just frustrating redoing stuff this late."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Totally get it. If it helps, I can send over some lighter alternatives."
+    },
+    {
+     "speaker": "Tom",
+     "line": "That'd actually be really helpful, yeah."
+    },
+    {
+     "speaker": "Priya",
+     "line": "Cool, I'll have something to you by tomorrow morning."
+    },
+    {
+     "speaker": "Tom",
+     "line": "Appreciate it. Sorry if I sounded a bit defensive earlier."
+    },
+    {
+     "speaker": "Priya",
+     "line": "No worries at all, it happens when you've put in that much work."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the disagreement mainly about?",
+     "options": [
+      "Budget allocation",
+      "Whether the design will cause slow load times",
+      "Who owns the project",
+      "A missed deadline"
+     ],
+     "answer": "Whether the design will cause slow load times",
+     "explanation": "Priya's concern is about slow load times from too many animations.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "Why does Priya think the design is a problem?",
+     "options": [
+      "It looks outdated",
+      "Many users are on mobile data and it will load slowly",
+      "It's too expensive",
+      "It doesn't match the branding"
+     ],
+     "answer": "Many users are on mobile data and it will load slowly",
+     "explanation": "Priya points out mobile data users will experience slow load times.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does Priya offer to send Tom?",
+     "options": [
+      "A new budget proposal",
+      "Lighter design alternatives",
+      "A complete rewrite of the specs",
+      "A meeting invite"
+     ],
+     "answer": "Lighter design alternatives",
+     "explanation": "Priya offers to send lighter alternatives for the transitions.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "How does Tom feel about redoing the work?",
+     "options": [
+      "Excited about the challenge",
+      "A bit frustrated but willing to cooperate",
+      "Completely opposed to any changes",
+      "Indifferent"
+     ],
+     "answer": "A bit frustrated but willing to cooperate",
+     "explanation": "Tom admits it's frustrating but agrees it could work.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does Priya mean by 'scrap the whole thing'?",
+     "options": [
+      "Save the whole project",
+      "Throw away or abandon the whole project",
+      "Speed up the whole project",
+      "Present the whole project"
+     ],
+     "answer": "Throw away or abandon the whole project",
+     "explanation": "'Scrap' means to discard or abandon something entirely.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "When will Priya send the alternatives?",
+     "options": [
+      "Later that afternoon",
+      "By tomorrow morning",
+      "Next week",
+      "By the end of the month"
+     ],
+     "answer": "By tomorrow morning",
+     "explanation": "Priya says she'll have something by tomorrow morning.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I hear you, but the load times will be way too slow with that many animations.",
+     "blanks": [
+      "way too slow"
+     ],
+     "challenge": "expression",
+     "explanation": "'Way too' is an informal intensifier meaning 'much too'."
+    },
+    {
+     "sentence": "I guess that could work. It's just frustrating redoing stuff this late.",
+     "blanks": [
+      "It's just"
+     ],
+     "challenge": "contraction",
+     "explanation": "'It's' is a contraction of 'it is'."
+    },
+    {
+     "sentence": "That'd actually be really helpful, yeah.",
+     "blanks": [
+      "That'd"
+     ],
+     "challenge": "contraction",
+     "explanation": "'That'd' is a reduced spoken form of 'that would'."
+    },
+    {
+     "sentence": "Cool, I'll have something to you by tomorrow morning.",
+     "blanks": [
+      "I'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'll' is a contraction of 'I will'."
+    },
+    {
+     "sentence": "Sorry if I sounded a bit defensive earlier.",
+     "blanks": [
+      "a bit"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'a bit' is a common hedging expression softening the statement."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "that would",
+     "spoken": "that'd"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "it is",
+     "spoken": "it's"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-negotiating-salary",
+   "title": "Negotiating a Raise",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "negotiating salary",
+   "difficulty": 7,
+   "duration_seconds": 105,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Employee",
+     "line": "Thanks for meeting with me. I wanted to talk about my compensation."
+    },
+    {
+     "speaker": "Manager",
+     "line": "Sure, go ahead, I figured this was coming."
+    },
+    {
+     "speaker": "Employee",
+     "line": "So, I've taken on a lot more responsibility over the past year, and I think my pay should reflect that."
+    },
+    {
+     "speaker": "Manager",
+     "line": "I hear you. What number did you have in mind?"
+    },
+    {
+     "speaker": "Employee",
+     "line": "I was thinking around a twelve percent increase, based on market research I did."
+    },
+    {
+     "speaker": "Manager",
+     "line": "That's a bit higher than what I was expecting, to be honest."
+    },
+    {
+     "speaker": "Employee",
+     "line": "I get that, but given the projects I've led, I think it's justified."
+    },
+    {
+     "speaker": "Manager",
+     "line": "Let me be upfront — I can't promise twelve, but I could probably push for eight."
+    },
+    {
+     "speaker": "Employee",
+     "line": "I appreciate that. Could we also talk about additional vacation days as part of the package?"
+    },
+    {
+     "speaker": "Manager",
+     "line": "That's more doable, actually. I could probably swing an extra week."
+    },
+    {
+     "speaker": "Employee",
+     "line": "That would help a lot, honestly."
+    },
+    {
+     "speaker": "Manager",
+     "line": "Let me run the numbers by HR and get back to you by Friday."
+    },
+    {
+     "speaker": "Employee",
+     "line": "Sounds good, thank you for hearing me out."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the employee doing in this conversation?",
+     "options": [
+      "Resigning from the job",
+      "Negotiating a raise and benefits",
+      "Complaining about a coworker",
+      "Applying for a new position"
+     ],
+     "answer": "Negotiating a raise and benefits",
+     "explanation": "The employee asks for a raise and additional vacation days.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What percentage increase does the employee initially ask for?",
+     "options": [
+      "Five percent",
+      "Eight percent",
+      "Ten percent",
+      "Twelve percent"
+     ],
+     "answer": "Twelve percent",
+     "explanation": "The employee says they were thinking around twelve percent.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the manager say they could push for instead?",
+     "options": [
+      "Five percent",
+      "Eight percent",
+      "Ten percent",
+      "Fifteen percent"
+     ],
+     "answer": "Eight percent",
+     "explanation": "The manager says they could probably push for eight percent.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "What is the manager's tone throughout the negotiation?",
+     "options": [
+      "Dismissive and uninterested",
+      "Honest and willing to compromise",
+      "Angry and defensive",
+      "Completely unwilling to negotiate"
+     ],
+     "answer": "Honest and willing to compromise",
+     "explanation": "The manager is upfront but offers a compromise on pay and vacation.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'I could probably swing an extra week' mean?",
+     "options": [
+      "I could physically move a week",
+      "I could probably arrange or manage an extra week",
+      "I could delay by a week",
+      "I could cancel the vacation policy"
+     ],
+     "answer": "I could probably arrange or manage an extra week",
+     "explanation": "'Swing' here means to manage or arrange something.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "When will the manager get back to the employee?",
+     "options": [
+      "By Monday",
+      "By Friday",
+      "By next month",
+      "Immediately"
+     ],
+     "answer": "By Friday",
+     "explanation": "The manager says they'll get back to the employee by Friday.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Sure, go ahead, I figured this was coming.",
+     "blanks": [
+      "I figured"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'I figured' is an informal way to say 'I assumed'."
+    },
+    {
+     "sentence": "That's a bit higher than what I was expecting, to be honest.",
+     "blanks": [
+      "a bit"
+     ],
+     "challenge": "expression",
+     "explanation": "'a bit' softens the statement, a common hedging phrase."
+    },
+    {
+     "sentence": "Let me be upfront — I can't promise twelve, but I could probably push for eight.",
+     "blanks": [
+      "can't"
+     ],
+     "challenge": "contraction",
+     "explanation": "'can't' is a contraction of 'cannot'."
+    },
+    {
+     "sentence": "That's more doable, actually. I could probably swing an extra week.",
+     "blanks": [
+      "swing"
+     ],
+     "challenge": "expression",
+     "explanation": "'Swing' means to manage to arrange something."
+    },
+    {
+     "sentence": "Sounds good, thank you for hearing me out.",
+     "blanks": [
+      "hearing me out"
+     ],
+     "challenge": "expression",
+     "explanation": "'Hear someone out' means to listen fully to their point."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "that is",
+     "spoken": "that's"
+    },
+    {
+     "written": "cannot",
+     "spoken": "can't"
+    },
+    {
+     "written": "I am",
+     "spoken": "I'm"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-giving-critical-feedback",
+   "title": "Giving Critical Feedback Kindly",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "giving critical feedback",
+   "difficulty": 7,
+   "duration_seconds": 95,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "Lead",
+     "line": "Hey, thanks for hopping on. I wanted to chat about the report you sent yesterday."
+    },
+    {
+     "speaker": "Analyst",
+     "line": "Sure, was there something wrong with it?"
+    },
+    {
+     "speaker": "Lead",
+     "line": "Not wrong exactly, but I think it could be a lot clearer."
+    },
+    {
+     "speaker": "Analyst",
+     "line": "Oh, okay. What part specifically?"
+    },
+    {
+     "speaker": "Lead",
+     "line": "The data's solid, but the conclusions section kind of buries the main point."
+    },
+    {
+     "speaker": "Analyst",
+     "line": "Hmm, I see what you mean, I did try to cover everything at once."
+    },
+    {
+     "speaker": "Lead",
+     "line": "Right, and that's the thing — less is more sometimes with these reports."
+    },
+    {
+     "speaker": "Analyst",
+     "line": "That makes sense. Should I lead with the recommendation instead?"
+    },
+    {
+     "speaker": "Lead",
+     "line": "Exactly, put that upfront, then back it up with the supporting data after."
+    },
+    {
+     "speaker": "Analyst",
+     "line": "Got it. I'll redo the structure and send it back over today."
+    },
+    {
+     "speaker": "Lead",
+     "line": "No rush, tomorrow's fine too. I just want it to land well with the client."
+    },
+    {
+     "speaker": "Analyst",
+     "line": "Understood, appreciate you catching that before it went out."
+    },
+    {
+     "speaker": "Lead",
+     "line": "Of course, that's what I'm here for."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main point of this conversation?",
+     "options": [
+      "Firing an employee for poor work",
+      "Giving constructive feedback on a report's structure",
+      "Discussing a client complaint",
+      "Assigning a new project"
+     ],
+     "answer": "Giving constructive feedback on a report's structure",
+     "explanation": "The lead gives feedback about clarity and structure of a report.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What specific issue does the lead point out?",
+     "options": [
+      "Spelling mistakes",
+      "The conclusion buries the main point",
+      "Wrong data was used",
+      "The report was late"
+     ],
+     "answer": "The conclusion buries the main point",
+     "explanation": "The lead says the conclusions section buries the main point.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What suggestion does the lead give for restructuring?",
+     "options": [
+      "Add more charts",
+      "Lead with the recommendation first",
+      "Remove the data entirely",
+      "Make the report longer"
+     ],
+     "answer": "Lead with the recommendation first",
+     "explanation": "The lead suggests putting the recommendation upfront.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "How does the lead deliver the feedback?",
+     "options": [
+      "Harshly and impatiently",
+      "Gently and constructively",
+      "Sarcastically",
+      "Without any explanation"
+     ],
+     "answer": "Gently and constructively",
+     "explanation": "The lead softens the feedback and offers clear guidance.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'less is more' mean in this context?",
+     "options": [
+      "Writing less pays more money",
+      "Being concise is often more effective",
+      "Fewer people should read the report",
+      "Less data means less accuracy"
+     ],
+     "answer": "Being concise is often more effective",
+     "explanation": "It's an idiom suggesting simplicity is often better.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "By when does the analyst need to send the revised report?",
+     "options": [
+      "Right now",
+      "By tomorrow, no rush",
+      "Within the hour",
+      "Next week"
+     ],
+     "answer": "By tomorrow, no rush",
+     "explanation": "The lead says tomorrow is fine, no rush.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "The data's solid, but the conclusions section kind of buries the main point.",
+     "blanks": [
+      "kind of"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'kind of' is a hedging phrase softening the criticism."
+    },
+    {
+     "sentence": "Right, and that's the thing — less is more sometimes with these reports.",
+     "blanks": [
+      "less is more"
+     ],
+     "challenge": "expression",
+     "explanation": "This idiom means simplicity is often more effective."
+    },
+    {
+     "sentence": "Got it. I'll redo the structure and send it back over today.",
+     "blanks": [
+      "I'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'll' is a contraction of 'I will'."
+    },
+    {
+     "sentence": "No rush, tomorrow's fine too.",
+     "blanks": [
+      "tomorrow's"
+     ],
+     "challenge": "contraction",
+     "explanation": "'tomorrow's' is a contraction of 'tomorrow is'."
+    },
+    {
+     "sentence": "Understood, appreciate you catching that before it went out.",
+     "blanks": [
+      "catching that"
+     ],
+     "challenge": "expression",
+     "explanation": "'Catching' here means noticing or identifying an error."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "kind of",
+     "spoken": "kinda"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "tomorrow is",
+     "spoken": "tomorrow's"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-explaining-missed-target",
+   "title": "Explaining a Missed Sales Target",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "explaining a missed target",
+   "difficulty": 7,
+   "duration_seconds": 100,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Director",
+     "line": "So we came in about fifteen percent under target this quarter. Walk me through what happened."
+    },
+    {
+     "speaker": "Sales Manager",
+     "line": "Yeah, honestly, a couple things hit us at once."
+    },
+    {
+     "speaker": "Director",
+     "line": "Okay, like what?"
+    },
+    {
+     "speaker": "Sales Manager",
+     "line": "First off, two of our biggest accounts delayed renewal until next quarter."
+    },
+    {
+     "speaker": "Director",
+     "line": "That's a decent chunk right there."
+    },
+    {
+     "speaker": "Sales Manager",
+     "line": "Right, and on top of that, we lost a rep mid-quarter, which left a gap in coverage."
+    },
+    {
+     "speaker": "Director",
+     "line": "I see. Was that something we could've planned for?"
+    },
+    {
+     "speaker": "Sales Manager",
+     "line": "Not really, it was a sudden resignation. We're backfilling now, but it takes time to ramp up."
+    },
+    {
+     "speaker": "Director",
+     "line": "Fair enough. What's the plan to recover?"
+    },
+    {
+     "speaker": "Sales Manager",
+     "line": "We're pushing hard to close those delayed renewals early next quarter, and I'm covering some accounts myself in the meantime."
+    },
+    {
+     "speaker": "Director",
+     "line": "Okay, that sounds reasonable. I just don't want this to become a habit."
+    },
+    {
+     "speaker": "Sales Manager",
+     "line": "Totally understand. I'll have weekly updates so there's no surprise next time."
+    },
+    {
+     "speaker": "Director",
+     "line": "Appreciate that. Let's regroup in two weeks and see where we stand."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is this conversation mainly about?",
+     "options": [
+      "Announcing a new product",
+      "Explaining why a sales target was missed",
+      "Discussing a promotion",
+      "Planning a company event"
+     ],
+     "answer": "Explaining why a sales target was missed",
+     "explanation": "The sales manager explains the reasons behind the missed target.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "By how much did they miss the target?",
+     "options": [
+      "Five percent",
+      "Ten percent",
+      "Fifteen percent",
+      "Twenty percent"
+     ],
+     "answer": "Fifteen percent",
+     "explanation": "The director states they came in fifteen percent under target.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What caused a gap in sales coverage?",
+     "options": [
+      "A new office opening",
+      "A rep's sudden resignation",
+      "A merger",
+      "A software issue"
+     ],
+     "answer": "A rep's sudden resignation",
+     "explanation": "The sales manager mentions losing a rep mid-quarter due to resignation.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "What is the director's attitude toward the explanation?",
+     "options": [
+      "Completely dismissive of the excuses",
+      "Understanding but cautious about it happening again",
+      "Furious and threatening",
+      "Uninterested in details"
+     ],
+     "answer": "Understanding but cautious about it happening again",
+     "explanation": "The director accepts the explanation but wants to avoid a repeat.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'that's a decent chunk right there' mean?",
+     "options": [
+      "That's a small amount",
+      "That's a significant portion",
+      "That's an irrelevant detail",
+      "That's a mistake"
+     ],
+     "answer": "That's a significant portion",
+     "explanation": "'Decent chunk' means a sizeable amount or portion.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "When will they regroup to review progress?",
+     "options": [
+      "Next quarter",
+      "In two weeks",
+      "Tomorrow",
+      "At the end of the year"
+     ],
+     "answer": "In two weeks",
+     "explanation": "The director suggests regrouping in two weeks.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Yeah, honestly, a couple things hit us at once.",
+     "blanks": [
+      "hit us"
+     ],
+     "challenge": "expression",
+     "explanation": "'Hit us' means affected us suddenly and negatively."
+    },
+    {
+     "sentence": "That's a decent chunk right there.",
+     "blanks": [
+      "decent chunk"
+     ],
+     "challenge": "expression",
+     "explanation": "'Decent chunk' means a significant amount."
+    },
+    {
+     "sentence": "Not really, it was a sudden resignation. We're backfilling now, but it takes time to ramp up.",
+     "blanks": [
+      "We're",
+      "ramp up"
+     ],
+     "challenge": "contraction",
+     "explanation": "'We're' is a contraction of 'we are'."
+    },
+    {
+     "sentence": "I'll have weekly updates so there's no surprise next time.",
+     "blanks": [
+      "I'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'll' is a contraction of 'I will'."
+    },
+    {
+     "sentence": "Was that something we could've planned for?",
+     "blanks": [
+      "could've"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'could've' is the reduced spoken form of 'could have'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "could have",
+     "spoken": "could've"
+    },
+    {
+     "written": "we are",
+     "spoken": "we're"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "going to",
+     "spoken": "gonna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-restructuring-announcement",
+   "title": "Announcing a Team Restructuring",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "restructuring announcement",
+   "difficulty": 8,
+   "duration_seconds": 110,
+   "accent": "british",
+   "script": [
+    {
+     "speaker": "VP",
+     "line": "Thanks everyone for joining on short notice. I know this is a bit unusual."
+    },
+    {
+     "speaker": "Employee1",
+     "line": "Yeah, we're all a little on edge, to be honest."
+    },
+    {
+     "speaker": "VP",
+     "line": "Fair enough, I'll get straight to it. We're restructuring the department starting next month."
+    },
+    {
+     "speaker": "Employee2",
+     "line": "Does that mean layoffs?"
+    },
+    {
+     "speaker": "VP",
+     "line": "There will be some role changes, and unfortunately a few positions will be affected."
+    },
+    {
+     "speaker": "Employee1",
+     "line": "Do we know who yet, or is that still being worked out?"
+    },
+    {
+     "speaker": "VP",
+     "line": "HR will be reaching out individually by the end of the week."
+    },
+    {
+     "speaker": "Employee2",
+     "line": "This is a lot to take in, honestly."
+    },
+    {
+     "speaker": "VP",
+     "line": "I completely understand, and I wish I could've given more notice."
+    },
+    {
+     "speaker": "Employee1",
+     "line": "What's driving the change, if you don't mind me asking?"
+    },
+    {
+     "speaker": "VP",
+     "line": "Mainly the merger — we're consolidating a few overlapping teams."
+    },
+    {
+     "speaker": "Employee2",
+     "line": "Okay. I guess we just wait to hear more, then."
+    },
+    {
+     "speaker": "VP",
+     "line": "Yes, and I promise transparency as we go through this. I know it's not easy."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the VP announcing?",
+     "options": [
+      "A new product launch",
+      "A department restructuring including possible layoffs",
+      "A company holiday",
+      "A salary increase for everyone"
+     ],
+     "answer": "A department restructuring including possible layoffs",
+     "explanation": "The VP announces restructuring with some positions affected.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "When will the restructuring start?",
+     "options": [
+      "Immediately",
+      "Next month",
+      "Next year",
+      "In two weeks"
+     ],
+     "answer": "Next month",
+     "explanation": "The VP says the restructuring starts next month.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "Who will reach out to affected individuals?",
+     "options": [
+      "The VP personally",
+      "HR",
+      "The CEO",
+      "Employee1"
+     ],
+     "answer": "HR",
+     "explanation": "The VP says HR will reach out individually.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "How do the employees seem to feel about the news?",
+     "options": [
+      "Excited and relieved",
+      "Anxious and uncertain",
+      "Completely unaffected",
+      "Angry and confrontational"
+     ],
+     "answer": "Anxious and uncertain",
+     "explanation": "Employees express feeling on edge and that it's a lot to take in.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'a bit on edge' mean?",
+     "options": [
+      "Standing near the edge of a room",
+      "Feeling nervous or anxious",
+      "Feeling very confident",
+      "Feeling extremely happy"
+     ],
+     "answer": "Feeling nervous or anxious",
+     "explanation": "'On edge' is an idiom meaning nervous or tense.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "What is driving the restructuring?",
+     "options": [
+      "A budget cut",
+      "The merger and consolidating overlapping teams",
+      "A new CEO's request",
+      "A drop in sales"
+     ],
+     "answer": "The merger and consolidating overlapping teams",
+     "explanation": "The VP explains the merger is driving the consolidation.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "Yeah, we're all a little on edge, to be honest.",
+     "blanks": [
+      "on edge"
+     ],
+     "challenge": "expression",
+     "explanation": "'On edge' means feeling nervous or tense."
+    },
+    {
+     "sentence": "Fair enough, I'll get straight to it.",
+     "blanks": [
+      "I'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'll' is a contraction of 'I will'."
+    },
+    {
+     "sentence": "I completely understand, and I wish I could've given more notice.",
+     "blanks": [
+      "could've"
+     ],
+     "challenge": "connected_speech",
+     "explanation": "'could've' is the reduced spoken form of 'could have'."
+    },
+    {
+     "sentence": "This is a lot to take in, honestly.",
+     "blanks": [
+      "a lot to take in"
+     ],
+     "challenge": "expression",
+     "explanation": "'A lot to take in' means it's a lot of information to process."
+    },
+    {
+     "sentence": "Mainly the merger — we're consolidating a few overlapping teams.",
+     "blanks": [
+      "we're"
+     ],
+     "challenge": "contraction",
+     "explanation": "'we're' is a contraction of 'we are'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "could have",
+     "spoken": "could've"
+    },
+    {
+     "written": "we are",
+     "spoken": "we're"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "is not",
+     "spoken": "isn't"
+    }
+   ]
+  },
+  {
+   "slug": "b2-mentoring-conversation",
+   "title": "A Mentoring Check-In",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "mentoring conversation",
+   "difficulty": 6,
+   "duration_seconds": 90,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Mentor",
+     "line": "So, how've you been finding things since you started three months ago?"
+    },
+    {
+     "speaker": "Mentee",
+     "line": "Honestly, pretty overwhelming at first, but it's getting better."
+    },
+    {
+     "speaker": "Mentor",
+     "line": "That's normal. What's been the toughest part so far?"
+    },
+    {
+     "speaker": "Mentee",
+     "line": "Probably just figuring out who to go to for what. There's so many people involved in each project."
+    },
+    {
+     "speaker": "Mentor",
+     "line": "Yeah, that takes a while to click. I still mix people up sometimes, honestly."
+    },
+    {
+     "speaker": "Mentee",
+     "line": "Ha, good to know it's not just me."
+    },
+    {
+     "speaker": "Mentor",
+     "line": "Definitely not. Have you had a chance to sit in on any client calls yet?"
+    },
+    {
+     "speaker": "Mentee",
+     "line": "A couple, yeah. I mostly just listened, though. I wasn't sure if I should jump in."
+    },
+    {
+     "speaker": "Mentor",
+     "line": "Next time, feel free to ask a question or two, even a small one. It shows you're engaged."
+    },
+    {
+     "speaker": "Mentee",
+     "line": "Okay, I'll try that. I guess I didn't want to overstep."
+    },
+    {
+     "speaker": "Mentor",
+     "line": "Totally understandable, but trust me, people appreciate the initiative."
+    },
+    {
+     "speaker": "Mentee",
+     "line": "Good to know. I'll push myself a bit more going forward."
+    },
+    {
+     "speaker": "Mentor",
+     "line": "That's the spirit. Let's check in again in a few weeks."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main topic of this conversation?",
+     "options": [
+      "Discussing a performance issue",
+      "A mentor checking in on a new employee's progress",
+      "Planning a team outing",
+      "Discussing a client complaint"
+     ],
+     "answer": "A mentor checking in on a new employee's progress",
+     "explanation": "The mentor is checking in on how the mentee is adjusting.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "How long has the mentee been at the job?",
+     "options": [
+      "One month",
+      "Three months",
+      "Six months",
+      "One year"
+     ],
+     "answer": "Three months",
+     "explanation": "The mentor asks how things have been since starting three months ago.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What does the mentee say has been the toughest part?",
+     "options": [
+      "The workload",
+      "Figuring out who to go to for what",
+      "Client meetings",
+      "The commute"
+     ],
+     "answer": "Figuring out who to go to for what",
+     "explanation": "The mentee mentions figuring out who to go to for what is toughest.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "Why didn't the mentee ask questions during client calls?",
+     "options": [
+      "They weren't allowed to speak",
+      "They didn't want to overstep",
+      "They forgot the questions",
+      "They weren't interested"
+     ],
+     "answer": "They didn't want to overstep",
+     "explanation": "The mentee explains they didn't want to overstep.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'that takes a while to click' mean?",
+     "options": [
+      "It makes a clicking sound",
+      "It takes time to understand or become familiar",
+      "It requires clicking a button",
+      "It happens instantly"
+     ],
+     "answer": "It takes time to understand or become familiar",
+     "explanation": "'Click' here means to suddenly understand or feel comfortable with something.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "When will they check in again?",
+     "options": [
+      "Tomorrow",
+      "In a few weeks",
+      "Next year",
+      "Never"
+     ],
+     "answer": "In a few weeks",
+     "explanation": "The mentor suggests checking in again in a few weeks.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "So, how've you been finding things since you started three months ago?",
+     "blanks": [
+      "how've"
+     ],
+     "challenge": "contraction",
+     "explanation": "'how've' is a contraction of 'how have'."
+    },
+    {
+     "sentence": "Yeah, that takes a while to click.",
+     "blanks": [
+      "click"
+     ],
+     "challenge": "expression",
+     "explanation": "'Click' means to suddenly make sense or become familiar."
+    },
+    {
+     "sentence": "Okay, I'll try that. I guess I didn't want to overstep.",
+     "blanks": [
+      "I'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'll' is a contraction of 'I will'."
+    },
+    {
+     "sentence": "Good to know. I'll push myself a bit more going forward.",
+     "blanks": [
+      "a bit"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'a bit' softens the statement in casual speech."
+    },
+    {
+     "sentence": "That's the spirit. Let's check in again in a few weeks.",
+     "blanks": [
+      "Let's"
+     ],
+     "challenge": "contraction",
+     "explanation": "'Let's' is a contraction of 'let us'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "how have",
+     "spoken": "how've"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "let us",
+     "spoken": "let's"
+    },
+    {
+     "written": "want to",
+     "spoken": "wanna"
+    }
+   ]
+  },
+  {
+   "slug": "b2-hiring-debrief",
+   "title": "A Hiring Panel Debrief",
+   "level": "B2",
+   "category": "Work & Career",
+   "topic": "hiring debrief",
+   "difficulty": 7,
+   "duration_seconds": 105,
+   "accent": "american",
+   "script": [
+    {
+     "speaker": "Interviewer1",
+     "line": "Okay, so what did everyone think of the last candidate, Sam?"
+    },
+    {
+     "speaker": "Interviewer2",
+     "line": "I liked him a lot, honestly. Strong technical answers, good energy."
+    },
+    {
+     "speaker": "Interviewer3",
+     "line": "I'm a bit more on the fence, to be honest."
+    },
+    {
+     "speaker": "Interviewer1",
+     "line": "Yeah? What's holding you back?"
+    },
+    {
+     "speaker": "Interviewer3",
+     "line": "His answers on teamwork felt kind of rehearsed, like he'd prepped a script."
+    },
+    {
+     "speaker": "Interviewer2",
+     "line": "Hmm, I didn't get that vibe, but I see what you mean."
+    },
+    {
+     "speaker": "Interviewer1",
+     "line": "I noticed that too, a little. Though his actual project examples were pretty solid."
+    },
+    {
+     "speaker": "Interviewer3",
+     "line": "Right, the technical side wasn't the issue for me, more the culture fit piece."
+    },
+    {
+     "speaker": "Interviewer2",
+     "line": "Could we bring him back for a team lunch or informal chat before deciding?"
+    },
+    {
+     "speaker": "Interviewer1",
+     "line": "That's not a bad idea, actually. Low pressure, and we'd get a better read on him."
+    },
+    {
+     "speaker": "Interviewer3",
+     "line": "I'm on board with that. Better than making a call based on one interview."
+    },
+    {
+     "speaker": "Interviewer2",
+     "line": "Agreed. I'll reach out to schedule something for next week."
+    },
+    {
+     "speaker": "Interviewer1",
+     "line": "Perfect, let's regroup after that and make the final call."
+    }
+   ],
+   "questions": [
+    {
+     "type": "main_idea",
+     "prompt": "What is the main purpose of this conversation?",
+     "options": [
+      "Discussing a client contract",
+      "Debriefing after a job interview to decide on a candidate",
+      "Planning a company event",
+      "Reviewing a budget report"
+     ],
+     "answer": "Debriefing after a job interview to decide on a candidate",
+     "explanation": "The panel is discussing their impressions of a job candidate.",
+     "skill": "main_idea"
+    },
+    {
+     "type": "detail",
+     "prompt": "What was Interviewer2's initial impression of the candidate?",
+     "options": [
+      "Negative and unimpressed",
+      "Positive, liked his technical answers",
+      "Neutral, no opinion",
+      "Confused about his answers"
+     ],
+     "answer": "Positive, liked his technical answers",
+     "explanation": "Interviewer2 says they liked him and his strong technical answers.",
+     "skill": "details"
+    },
+    {
+     "type": "detail",
+     "prompt": "What concern does Interviewer3 raise?",
+     "options": [
+      "The candidate was late",
+      "His teamwork answers felt rehearsed",
+      "He lacked technical skills",
+      "He was rude during the interview"
+     ],
+     "answer": "His teamwork answers felt rehearsed",
+     "explanation": "Interviewer3 feels the teamwork answers seemed prepared or scripted.",
+     "skill": "details"
+    },
+    {
+     "type": "intention",
+     "prompt": "What do they decide to do before making a final decision?",
+     "options": [
+      "Reject the candidate immediately",
+      "Invite him to an informal team lunch",
+      "Hire him right away",
+      "Cancel the search entirely"
+     ],
+     "answer": "Invite him to an informal team lunch",
+     "explanation": "They agree to bring him back for a team lunch before deciding.",
+     "skill": "intention"
+    },
+    {
+     "type": "meaning",
+     "prompt": "What does 'on the fence' mean?",
+     "options": [
+      "Sitting outside on a fence",
+      "Undecided about something",
+      "Very confident about a decision",
+      "Angry about a decision"
+     ],
+     "answer": "Undecided about something",
+     "explanation": "'On the fence' is an idiom meaning undecided.",
+     "skill": "vocabulary"
+    },
+    {
+     "type": "detail",
+     "prompt": "Who will reach out to schedule the follow-up?",
+     "options": [
+      "Interviewer1",
+      "Interviewer2",
+      "Interviewer3",
+      "HR"
+     ],
+     "answer": "Interviewer2",
+     "explanation": "Interviewer2 says they'll reach out to schedule something.",
+     "skill": "details"
+    }
+   ],
+   "dictation": [
+    {
+     "sentence": "I'm a bit more on the fence, to be honest.",
+     "blanks": [
+      "on the fence"
+     ],
+     "challenge": "expression",
+     "explanation": "'On the fence' means undecided about something."
+    },
+    {
+     "sentence": "His answers on teamwork felt kind of rehearsed, like he'd prepped a script.",
+     "blanks": [
+      "kind of"
+     ],
+     "challenge": "reduced_form",
+     "explanation": "'kind of' is a hedge softening the criticism."
+    },
+    {
+     "sentence": "That's not a bad idea, actually.",
+     "blanks": [
+      "That's"
+     ],
+     "challenge": "contraction",
+     "explanation": "'That's' is a contraction of 'that is'."
+    },
+    {
+     "sentence": "I'll reach out to schedule something for next week.",
+     "blanks": [
+      "I'll"
+     ],
+     "challenge": "contraction",
+     "explanation": "'I'll' is a contraction of 'I will'."
+    },
+    {
+     "sentence": "Perfect, let's regroup after that and make the final call.",
+     "blanks": [
+      "let's"
+     ],
+     "challenge": "contraction",
+     "explanation": "'let's' is a contraction of 'let us'."
+    }
+   ],
+   "connected_speech": [
+    {
+     "written": "that is",
+     "spoken": "that's"
+    },
+    {
+     "written": "I will",
+     "spoken": "I'll"
+    },
+    {
+     "written": "let us",
+     "spoken": "let's"
+    },
+    {
+     "written": "he had",
+     "spoken": "he'd"
+    }
+   ]
+  }
+ ]
+}

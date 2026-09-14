@@ -1,0 +1,41 @@
+{
+  "topic_slug": "presentations-public-speaking",
+  "dialogues": [
+    {
+      "level": "beginner",
+      "difficulty": 1,
+      "subcategory": "Before a presentation",
+      "turns": [
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Are you ready for your presentation?", "is_free": true },
+        { "speaker_label": "Colleague B", "speaker_voice": "alloy", "sentence": "I think so. I'm a little nervous.", "is_free": true },
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "You'll do great. You practiced a lot.", "is_free": true },
+        { "speaker_label": "Colleague B", "speaker_voice": "alloy", "sentence": "Thanks, that helps.", "is_free": true },
+        { "speaker_label": "Colleague A", "speaker_voice": "shimmer", "sentence": "Good luck!", "is_free": true }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "difficulty": 3,
+      "subcategory": "Handling questions",
+      "turns": [
+        { "speaker_label": "Audience member", "speaker_voice": "sage", "sentence": "Could you clarify how this timeline accounts for the holiday season?", "is_free": false },
+        { "speaker_label": "Presenter", "speaker_voice": "coral", "sentence": "Good question — we've built in an extra two weeks specifically to cover that slowdown.", "is_free": false },
+        { "speaker_label": "Audience member", "speaker_voice": "sage", "sentence": "That's reassuring. And is that buffer reflected in the budget as well?", "is_free": false },
+        { "speaker_label": "Presenter", "speaker_voice": "coral", "sentence": "Yes, it's already factored into the numbers on slide twelve.", "is_free": false },
+        { "speaker_label": "Audience member", "speaker_voice": "sage", "sentence": "Perfect, that answers my concern completely.", "is_free": false }
+      ]
+    },
+    {
+      "level": "advanced",
+      "difficulty": 5,
+      "subcategory": "Recovering from a mistake",
+      "turns": [
+        { "speaker_label": "Presenter", "speaker_voice": "nova", "sentence": "I apologize, I seem to have skipped ahead — let me back up and walk through that slide properly.", "is_free": false },
+        { "speaker_label": "Colleague", "speaker_voice": "shimmer", "sentence": "No harm done, honestly nobody noticed until you mentioned it.", "is_free": false },
+        { "speaker_label": "Presenter", "speaker_voice": "nova", "sentence": "I appreciate that, though I'd still rather make sure the numbers land clearly.", "is_free": false },
+        { "speaker_label": "Colleague", "speaker_voice": "shimmer", "sentence": "Fair enough — take your time, the room's with you.", "is_free": false },
+        { "speaker_label": "Presenter", "speaker_voice": "nova", "sentence": "Thanks, that's good to hear. Let's pick up right where we left off.", "is_free": false }
+      ]
+    }
+  ]
+}
