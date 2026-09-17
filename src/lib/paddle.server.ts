@@ -5,7 +5,16 @@ import type { PaddleEnv } from "./payments-env";
 export { EventName };
 export type { PaddleEnv };
 
-const GATEWAY_BASE_URL = "https://connector-gateway.lovable.dev/paddle";
+/** Paddle's own REST API — no gateway, no proxy, no third-party dependency. */
+const REST_BASE_URL: Record<PaddleEnv, string> = {
+  sandbox: "https://sandbox-api.paddle.com",
+  live: "https://api.paddle.com",
+};
+
+const SDK_ENVIRONMENT: Record<PaddleEnv, Environment> = {
+  sandbox: Environment.sandbox,
+  live: Environment.production,
+};
 
 function getEnv(key: string): string {
   const value = process.env[key];
@@ -13,37 +22,25 @@ function getEnv(key: string): string {
   return value;
 }
 
-export function getConnectionApiKey(env: PaddleEnv): string {
+export function getPaddleApiKey(env: PaddleEnv): string {
   return env === "sandbox" ? getEnv("PADDLE_SANDBOX_API_KEY") : getEnv("PADDLE_LIVE_API_KEY");
 }
 
 export function getPaddleClient(env: PaddleEnv): Paddle {
-  const connectionApiKey = getConnectionApiKey(env);
-  const lovableApiKey = getEnv("LOVABLE_API_KEY");
-
-  return new Paddle(connectionApiKey, {
-    environment: GATEWAY_BASE_URL as unknown as Environment,
-    customHeaders: {
-      "X-Connection-Api-Key": connectionApiKey,
-      "Lovable-API-Key": lovableApiKey,
-    },
-  });
+  return new Paddle(getPaddleApiKey(env), { environment: SDK_ENVIRONMENT[env] });
 }
 
 /** For REST endpoints the SDK does not cover (external_id lookups, metrics…). */
-export async function gatewayFetch(
+export async function paddleFetch(
   env: PaddleEnv,
   path: string,
   init?: RequestInit,
 ): Promise<Response> {
-  const connectionApiKey = getConnectionApiKey(env);
-  const lovableApiKey = getEnv("LOVABLE_API_KEY");
-  return fetch(`${GATEWAY_BASE_URL}${path}`, {
+  return fetch(`${REST_BASE_URL[env]}${path}`, {
     ...init,
     headers: {
       "Content-Type": "application/json",
-      "X-Connection-Api-Key": connectionApiKey,
-      "Lovable-API-Key": lovableApiKey,
+      Authorization: `Bearer ${getPaddleApiKey(env)}`,
       ...init?.headers,
     },
   });

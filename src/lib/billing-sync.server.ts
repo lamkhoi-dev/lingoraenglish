@@ -20,8 +20,8 @@ export async function syncSubscriptionFromProvider(
   env: PaddleEnv,
   fallbackUserId?: string,
 ) {
-  const { gatewayFetch } = await import("./paddle.server");
-  const response = await gatewayFetch(env, `/subscriptions/${encodeURIComponent(subscriptionId)}`);
+  const { paddleFetch } = await import("./paddle.server");
+  const response = await paddleFetch(env, `/subscriptions/${encodeURIComponent(subscriptionId)}`);
   if (!response.ok) throw new Error("Could not read the subscription from the payment provider.");
 
   const result = (await response.json()) as {
@@ -30,6 +30,8 @@ export async function syncSubscriptionFromProvider(
       customer_id: string;
       status: string;
       custom_data?: { userId?: string } | null;
+      started_at?: string | null;
+      first_billed_at?: string | null;
       current_billing_period?: { starts_at?: string; ends_at?: string } | null;
       scheduled_change?: { action?: string } | null;
       trial_dates?: { ends_at?: string } | null;
@@ -71,6 +73,8 @@ export async function syncSubscriptionFromProvider(
     amount: Number(item?.price?.unit_price?.amount ?? 0),
     currentPeriodStart: sub.current_billing_period?.starts_at ?? null,
     currentPeriodEnd: sub.current_billing_period?.ends_at ?? null,
+    // Original signup date for /account (Yêu cầu 12), not the current period.
+    startedAt: sub.started_at ?? sub.first_billed_at ?? null,
     cancelAtPeriodEnd: sub.scheduled_change?.action === "cancel",
     scheduledChange: sub.scheduled_change?.action ?? "",
     trialEndsAt: sub.trial_dates?.ends_at ?? null,
@@ -78,6 +82,9 @@ export async function syncSubscriptionFromProvider(
     updatedAt: new Date().toISOString(),
   };
   await withAdmin((db) =>
-    db.insert(subscriptions).values(row).onConflictDoUpdate({ target: subscriptions.paddleSubscriptionId, set: row }),
+    db
+      .insert(subscriptions)
+      .values(row)
+      .onConflictDoUpdate({ target: subscriptions.paddleSubscriptionId, set: row }),
   );
 }

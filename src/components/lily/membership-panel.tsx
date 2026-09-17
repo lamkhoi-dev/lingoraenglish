@@ -55,6 +55,8 @@ export function MembershipPanel() {
         amount: number | null;
         current_period_start: string | null;
         current_period_end: string | null;
+        started_at: string | null;
+        created_at: string;
         cancel_at_period_end: boolean;
         trial_ends_at: string | null;
       }
@@ -67,8 +69,11 @@ export function MembershipPanel() {
   const rows: { label: string; value: string }[] = [
     { label: t("membership.plan"), value: entitlement?.planName ?? t("plan.free") },
     {
+      // Yêu cầu 12: the original signup date. current_period_start would be
+      // wrong here — the webhook moves it forward on every renewal. created_at
+      // covers rows written before started_at was captured.
       label: t("membership.startDate"),
-      value: fmtDate(subscription?.current_period_start, locale),
+      value: fmtDate(subscription?.started_at ?? subscription?.created_at, locale),
     },
     {
       label: t("membership.expiresOn"),
@@ -192,7 +197,10 @@ export function PaymentHistoryPanel() {
   return (
     <PanelCard title={t("billing.history")}>
       {payments.isLoading && <p className="mt-2 text-sm text-muted-foreground">{t("common.loading")}</p>}
-      {!payments.isLoading && rows.length === 0 && (
+      {payments.data?.stale && (
+        <p className="mt-2 text-sm text-muted-foreground">{t("billing.historyOffline")}</p>
+      )}
+      {!payments.isLoading && !payments.data?.stale && rows.length === 0 && (
         <p className="mt-2 text-sm text-muted-foreground">{t("billing.noPayments")}</p>
       )}
 

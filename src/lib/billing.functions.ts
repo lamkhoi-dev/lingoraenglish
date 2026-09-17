@@ -7,13 +7,13 @@
  * subscription.
  */
 import { createServerFn } from "@tanstack/react-start";
-import { and, asc, desc, eq } from "drizzle-orm";
+import { and, asc, desc, eq, sql } from "drizzle-orm";
 import { z } from "zod";
 
-import { withAnon, withUser } from "@/db";
-import { billingPlans, subscriptions } from "@/db/schema/schema";
+import { withAdmin, withAnon, withUser } from "@/db";
+import { billingEvents, billingPlans, subscriptions } from "@/db/schema/schema";
 import { requireAuth } from "@/lib/require-auth";
-import { getEntitlement, logBillingEvent } from "./entitlements.server";
+import { getEntitlement, logBillingEvent, MONTHLY_QUOTA_KEYS } from "./entitlements.server";
 import { getPaddleEnvironment, type PaddleEnv } from "./payments-env";
 
 /* --------------------------------------------------------------------- plans */
@@ -22,25 +22,38 @@ import { getPaddleEnvironment, type PaddleEnv } from "./payments-env";
  * plans"), so a plain withAnon() read is correct even for a logged-in caller. */
 export const getPublicPlans = createServerFn({ method: "GET" }).handler(async () => {
   const rows = await withAnon((db) =>
-    db.select().from(billingPlans).where(eq(billingPlans.isActive, true)).orderBy(asc(billingPlans.sortOrder)),
+    db
+      .select()
+      .from(billingPlans)
+      .where(eq(billingPlans.isActive, true))
+      .orderBy(asc(billingPlans.sortOrder)),
   );
-  return rows.map((r) => ({
-    plan_key: r.planKey,
-    tier: r.tier as "free" | "premium" | "ielts_pro",
-    name: r.name,
-    tagline: r.tagline,
-    badge: r.badge,
-    currency: r.currency,
-    monthly_amount: r.monthlyAmount,
-    yearly_amount: r.yearlyAmount,
-    monthly_price_id: r.monthlyPriceId,
-    yearly_price_id: r.yearlyPriceId,
-    features: r.features as string[],
-    limits: r.limits as Record<string, number>,
-    trial_enabled: r.trialEnabled,
-    trial_days: r.trialDays,
-    sort_order: r.sortOrder,
-  }));
+  return rows.map((r) => {
+    // Same MONTHLY_QUOTA_KEYS filter as getEntitlement() — /pricing's
+    // allowance comparison table must not leak Yêu cầu 9's internal
+    // content-unlock config keys (or the retired stt/tts monthly caps) as if
+    // they were customer-facing plan allowances.
+    const allLimits = r.limits as Record<string, number>;
+    const limits: Record<string, number> = {};
+    for (const key of MONTHLY_QUOTA_KEYS) if (key in allLimits) limits[key] = allLimits[key]!;
+    return {
+      plan_key: r.planKey,
+      tier: r.tier as "free" | "premium" | "ielts_pro",
+      name: r.name,
+      tagline: r.tagline,
+      badge: r.badge,
+      currency: r.currency,
+      monthly_amount: r.monthlyAmount,
+      yearly_amount: r.yearlyAmount,
+      monthly_price_id: r.monthlyPriceId,
+      yearly_price_id: r.yearlyPriceId,
+      features: r.features as string[],
+      limits,
+      trial_enabled: r.trialEnabled,
+      trial_days: r.trialDays,
+      sort_order: r.sortOrder,
+    };
+  });
 });
 
 /* ------------------------------------------------------------------ prices */
@@ -50,9 +63,9 @@ export const resolvePaddlePrice = createServerFn({ method: "GET" })
     z.object({ priceId: z.string().min(1).max(80) }).parse(data),
   )
   .handler(async ({ data }) => {
-    const { gatewayFetch } = await import("./paddle.server");
+    const { paddleFetch } = await import("./paddle.server");
     const env = getPaddleEnvironment();
-    const response = await gatewayFetch(
+    const response = await paddleFetch(
       env,
       `/prices?external_id=${encodeURIComponent(data.priceId)}`,
     );
@@ -84,6 +97,7 @@ function toSubscriptionRow(row: typeof subscriptions.$inferSelect) {
     amount: row.amount,
     current_period_start: row.currentPeriodStart,
     current_period_end: row.currentPeriodEnd,
+    started_at: row.startedAt,
     cancel_at_period_end: row.cancelAtPeriodEnd,
     scheduled_change: row.scheduledChange,
     trial_ends_at: row.trialEndsAt,
@@ -122,38 +136,107 @@ export const getMyBilling = createServerFn({ method: "POST" })
     return { entitlement, subscription };
   });
 
-/** Payment history straight from the provider — we never store card data. */
+/**
+ * Payment history. The provider is asked first — it is the authority, and it
+ * knows about refunds/adjustments we never store. When it cannot be reached we
+ * fall back to what the (signature-verified) webhook already wrote, because
+ * Yêu cầu 11 requires the history to stay readable while the payment gateway
+ * is temporarily down. `stale` says which of the two the learner is looking at.
+ * Card data is never stored — only the brand and last four the provider sent.
+ */
 export const listMyPayments = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
     const env = getPaddleEnvironment();
     const sub = await myLatestSubscription(context.userId, env);
     const customerId = sub?.paddle_customer_id;
-    if (!customerId) return { payments: [] as PaymentRow[] };
 
-    const { gatewayFetch, toMajorUnit } = await import("./paddle.server");
-    const response = await gatewayFetch(
-      env,
-      `/transactions?customer_id=${encodeURIComponent(customerId)}&per_page=50&order_by=created_at[DESC]`,
-    );
-    if (!response.ok) return { payments: [] as PaymentRow[] };
+    if (customerId) {
+      try {
+        const { paddleFetch, toMajorUnit } = await import("./paddle.server");
+        const response = await paddleFetch(
+          env,
+          `/transactions?customer_id=${encodeURIComponent(customerId)}&per_page=50&order_by=created_at[DESC]`,
+        );
+        if (response.ok) {
+          const result = (await response.json()) as { data?: RawTransaction[] };
+          const payments: PaymentRow[] = (result.data ?? []).map((tx) => ({
+            id: tx.id,
+            date: tx.billed_at ?? tx.created_at,
+            status: tx.status,
+            currency: tx.currency_code,
+            subtotal: toMajorUnit(tx.details?.totals?.subtotal, tx.currency_code),
+            tax: toMajorUnit(tx.details?.totals?.tax, tx.currency_code),
+            total: toMajorUnit(tx.details?.totals?.total, tx.currency_code),
+            description: tx.items?.[0]?.price?.description ?? tx.items?.[0]?.price?.name ?? "",
+            invoiceNumber: tx.invoice_number ?? null,
+            paymentMethod: describePaymentMethod(tx),
+          }));
+          return { payments, stale: false };
+        }
+        console.error("Payment history: provider answered", response.status);
+      } catch (error) {
+        console.error("Payment history: provider unreachable", error);
+      }
+    }
 
-    const result = (await response.json()) as { data?: RawTransaction[] };
-    const payments: PaymentRow[] = (result.data ?? []).map((tx) => ({
-      id: tx.id,
-      date: tx.billed_at ?? tx.created_at,
-      status: tx.status,
-      currency: tx.currency_code,
-      subtotal: toMajorUnit(tx.details?.totals?.subtotal, tx.currency_code),
-      tax: toMajorUnit(tx.details?.totals?.tax, tx.currency_code),
-      total: toMajorUnit(tx.details?.totals?.total, tx.currency_code),
-      description: tx.items?.[0]?.price?.description ?? tx.items?.[0]?.price?.name ?? "",
-      invoiceNumber: tx.invoice_number ?? null,
-      paymentMethod: describePaymentMethod(tx),
-    }));
-
-    return { payments };
+    return { payments: await storedPayments(context.userId, env), stale: Boolean(customerId) };
   });
+
+/** What the webhook recorded for one payment, for the offline fallback above. */
+type StoredPaymentMeta = {
+  transactionId?: string;
+  billedAt?: string | null;
+  status?: string;
+  currency?: string;
+  subtotal?: string | null;
+  tax?: string | null;
+  total?: string | null;
+  description?: string;
+  invoiceNumber?: string | null;
+  paymentMethodType?: string | null;
+  cardBrand?: string | null;
+  cardLast4?: string | null;
+};
+
+/** withAdmin because billing_events' only read policy is the admin one — the
+ * rows are filtered to the caller's own id, which requireAuth just proved. */
+async function storedPayments(userId: string, env: PaddleEnv): Promise<PaymentRow[]> {
+  const rows = await withAdmin((db) =>
+    db
+      .select({ metadata: billingEvents.metadata, createdAt: billingEvents.createdAt })
+      .from(billingEvents)
+      .where(
+        and(
+          eq(billingEvents.userId, userId),
+          eq(billingEvents.environment, env),
+          eq(billingEvents.event, "payment_succeeded"),
+        ),
+      )
+      .orderBy(desc(billingEvents.createdAt))
+      .limit(50),
+  );
+
+  const { toMajorUnit } = await import("./paddle.server");
+  return rows
+    .map((row) => ({ meta: (row.metadata ?? {}) as StoredPaymentMeta, createdAt: row.createdAt }))
+    .filter(({ meta }) => Boolean(meta.transactionId))
+    .map(({ meta, createdAt }) => {
+      const currency = meta.currency ?? "USD";
+      return {
+        id: meta.transactionId!,
+        date: meta.billedAt ?? createdAt,
+        status: meta.status ?? "completed",
+        currency,
+        subtotal: toMajorUnit(meta.subtotal, currency),
+        tax: toMajorUnit(meta.tax, currency),
+        total: toMajorUnit(meta.total, currency),
+        description: meta.description ?? "",
+        invoiceNumber: meta.invoiceNumber ?? null,
+        paymentMethod: formatPaymentMethod(meta.paymentMethodType, meta.cardBrand, meta.cardLast4),
+      };
+    });
+}
 
 type RawTransaction = {
   id: string;
@@ -182,14 +265,22 @@ export type PaymentRow = {
   paymentMethod: string | null;
 };
 
+function formatPaymentMethod(
+  type: string | null | undefined,
+  cardBrand: string | null | undefined,
+  cardLast4: string | null | undefined,
+): string | null {
+  if (cardLast4) {
+    const brand = (cardBrand ?? "card").replace(/_/g, " ");
+    return `${brand.charAt(0).toUpperCase()}${brand.slice(1)} •••• ${cardLast4}`;
+  }
+  return type ? type.replace(/_/g, " ") : null;
+}
+
 function describePaymentMethod(tx: RawTransaction): string | null {
   const details = tx.payments?.[0]?.method_details;
   if (!details) return null;
-  if (details.card?.last4) {
-    const brand = (details.card.type ?? "card").replace(/_/g, " ");
-    return `${brand.charAt(0).toUpperCase()}${brand.slice(1)} •••• ${details.card.last4}`;
-  }
-  return details.type ? details.type.replace(/_/g, " ") : null;
+  return formatPaymentMethod(details.type, details.card?.type, details.card?.last4);
 }
 
 /** A receipt/invoice URL generated by the provider (never built by us). */
@@ -204,13 +295,13 @@ export const getInvoiceUrl = createServerFn({ method: "POST" })
     const customerId = sub?.paddle_customer_id;
     if (!customerId) throw new Error("No billing account found.");
 
-    const { gatewayFetch } = await import("./paddle.server");
+    const { paddleFetch } = await import("./paddle.server");
     // Confirm the transaction really belongs to this learner before revealing it.
-    const check = await gatewayFetch(env, `/transactions/${encodeURIComponent(data.transactionId)}`);
+    const check = await paddleFetch(env, `/transactions/${encodeURIComponent(data.transactionId)}`);
     const tx = (await check.json()) as { data?: { customer_id?: string } };
     if (tx.data?.customer_id !== customerId) throw new Error("Not found.");
 
-    const response = await gatewayFetch(
+    const response = await paddleFetch(
       env,
       `/transactions/${encodeURIComponent(data.transactionId)}/invoice`,
     );
@@ -234,12 +325,12 @@ export const verifyCheckout = createServerFn({ method: "POST" })
     const env = getPaddleEnvironment();
 
     let row = await myLatestSubscription(context.userId, env);
-    let confirmed = isLive(row);
+    let confirmed = await hasLiveSubscription(context.userId, env);
 
     if (!confirmed && data.transactionId) {
       // Webhook may still be in flight: ask the provider directly.
-      const { gatewayFetch } = await import("./paddle.server");
-      const response = await gatewayFetch(
+      const { paddleFetch } = await import("./paddle.server");
+      const response = await paddleFetch(
         env,
         `/transactions/${encodeURIComponent(data.transactionId)}?include=subscription`,
       );
@@ -256,27 +347,37 @@ export const verifyCheckout = createServerFn({ method: "POST" })
         const { syncSubscriptionFromProvider } = await import("./billing-sync.server");
         await syncSubscriptionFromProvider(tx.subscription_id, env, context.userId);
         row = await myLatestSubscription(context.userId, env);
-        confirmed = isLive(row);
+        confirmed = await hasLiveSubscription(context.userId, env);
       }
     }
 
     const entitlement = await getEntitlement(context.userId, env);
     if (confirmed) {
+      // subscriptionId is what idx_billing_events_activation_once dedupes on —
+      // reloading /checkout/success must not log a second activation.
       await logBillingEvent("subscription_activated", {
         userId: context.userId,
         planKey: entitlement.planKey,
         env,
+        metadata: { subscriptionId: row?.paddle_subscription_id ?? null },
       });
     }
 
     return { confirmed, subscription: row, entitlement };
   });
 
-function isLive(row: ReturnType<typeof toSubscriptionRow> | null): boolean {
-  if (!row) return false;
-  const notExpired = !row.current_period_end || new Date(row.current_period_end).getTime() > Date.now();
-  if (["active", "trialing", "past_due"].includes(row.status)) return notExpired;
-  return row.status === "canceled" && notExpired;
+/**
+ * "Does this learner have a live paid subscription" — asked of the same SQL
+ * function effective_tier() gates content with, so the success screen can never
+ * disagree with what the app actually unlocks (it used to be a fourth
+ * hand-written copy of the rule, which the Yêu cầu 11 grace window would have
+ * made diverge). Grace period comes with it, from billing_plans.limits.
+ */
+async function hasLiveSubscription(userId: string, env: PaddleEnv): Promise<boolean> {
+  const rows = await withAdmin((db) =>
+    db.execute(sql`select has_active_subscription(${userId}, ${env}) as live`),
+  );
+  return Boolean((rows as unknown as { live: boolean }[])[0]?.live);
 }
 
 /* --------------------------------------------------------------- coupons */
@@ -297,9 +398,9 @@ export const validateCoupon = createServerFn({ method: "POST" })
   )
   .handler(async ({ data }) => {
     const env = getPaddleEnvironment();
-    const { gatewayFetch } = await import("./paddle.server");
+    const { paddleFetch } = await import("./paddle.server");
 
-    const response = await gatewayFetch(
+    const response = await paddleFetch(
       env,
       `/discounts?code=${encodeURIComponent(data.code.toUpperCase())}&status=active`,
     );
@@ -327,7 +428,7 @@ export const validateCoupon = createServerFn({ method: "POST" })
     }
 
     if (discount.restrict_to?.length) {
-      const priceResponse = await gatewayFetch(
+      const priceResponse = await paddleFetch(
         env,
         `/prices?external_id=${encodeURIComponent(data.priceId)}`,
       );
@@ -337,7 +438,8 @@ export const validateCoupon = createServerFn({ method: "POST" })
       const price = priceResult.data?.[0];
       const allowed =
         price &&
-        (discount.restrict_to.includes(price.id) || discount.restrict_to.includes(price.product_id));
+        (discount.restrict_to.includes(price.id) ||
+          discount.restrict_to.includes(price.product_id));
       if (!allowed) return { valid: false as const, reason: "not_applicable" };
     }
 
@@ -388,8 +490,8 @@ export const keepMySubscription = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
     const { row, env } = await requireOwnSubscription(context.userId, getPaddleEnvironment());
-    const { gatewayFetch } = await import("./paddle.server");
-    const response = await gatewayFetch(
+    const { paddleFetch } = await import("./paddle.server");
+    const response = await paddleFetch(
       env,
       `/subscriptions/${encodeURIComponent(row.paddle_subscription_id)}`,
       { method: "PATCH", body: JSON.stringify({ scheduled_change: null }) },
@@ -410,14 +512,22 @@ export const changeMyPlan = createServerFn({ method: "POST" })
 
     const plans = await withAnon((db) =>
       db
-        .select({ planKey: billingPlans.planKey, tier: billingPlans.tier, monthlyPriceId: billingPlans.monthlyPriceId, yearlyPriceId: billingPlans.yearlyPriceId, isActive: billingPlans.isActive })
+        .select({
+          planKey: billingPlans.planKey,
+          tier: billingPlans.tier,
+          monthlyPriceId: billingPlans.monthlyPriceId,
+          yearlyPriceId: billingPlans.yearlyPriceId,
+          isActive: billingPlans.isActive,
+        })
         .from(billingPlans),
     );
-    const plan = plans.find((p) => p.isActive && (p.monthlyPriceId === data.priceId || p.yearlyPriceId === data.priceId));
+    const plan = plans.find(
+      (p) => p.isActive && (p.monthlyPriceId === data.priceId || p.yearlyPriceId === data.priceId),
+    );
     if (!plan) throw new Error("That plan is not available.");
 
-    const { gatewayFetch, getPaddleClient } = await import("./paddle.server");
-    const priceLookup = await gatewayFetch(
+    const { paddleFetch, getPaddleClient } = await import("./paddle.server");
+    const priceLookup = await paddleFetch(
       env,
       `/prices?external_id=${encodeURIComponent(data.priceId)}`,
     );

@@ -259,7 +259,10 @@ function BillingPage() {
       <BillingCard className="mt-5">
         <h3 className="text-base font-semibold text-foreground">{t("billing.history")}</h3>
         {payments.isLoading && <p className="mt-2 text-sm text-muted-foreground">{t("common.loading")}</p>}
-        {payments.data && payments.data.payments.length === 0 && (
+        {payments.data?.stale && (
+          <p className="mt-2 text-sm text-muted-foreground">{t("billing.historyOffline")}</p>
+        )}
+        {payments.data && !payments.data.stale && payments.data.payments.length === 0 && (
           <p className="mt-2 text-sm text-muted-foreground">{t("billing.noPayments")}</p>
         )}
         {payments.data && payments.data.payments.length > 0 && (

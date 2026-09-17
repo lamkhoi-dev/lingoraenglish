@@ -222,7 +222,7 @@ export const adminListMembers = createServerFn({ method: "POST" })
           .select({ id: complimentaryAccess.id, userId: complimentaryAccess.userId, tier: complimentaryAccess.tier, expiresAt: complimentaryAccess.expiresAt, note: complimentaryAccess.note, createdAt: complimentaryAccess.createdAt })
           .from(complimentaryAccess)
           .where(eq(complimentaryAccess.revoked, false)),
-        db.select({ planKey: billingPlans.planKey, tier: billingPlans.tier, name: billingPlans.name, monthlyPriceId: billingPlans.monthlyPriceId, yearlyPriceId: billingPlans.yearlyPriceId }).from(billingPlans),
+        db.select({ planKey: billingPlans.planKey, tier: billingPlans.tier, name: billingPlans.name, monthlyPriceId: billingPlans.monthlyPriceId, yearlyPriceId: billingPlans.yearlyPriceId, limits: billingPlans.limits }).from(billingPlans),
       ]),
     );
 
@@ -230,14 +230,23 @@ export const adminListMembers = createServerFn({ method: "POST" })
     const planFor = (priceId: string) => plans.find((p) => p.monthlyPriceId === priceId || p.yearlyPriceId === priceId) ?? null;
 
     const now = Date.now();
+    // Mirrors has_active_subscription()/effective_tier() in SQL, grace window
+    // included — this roster must not call someone Premium that the content
+    // gates treat as free, or the other way round.
+    const graceMs = (plan: { limits?: unknown } | null) => {
+      const raw = (plan?.limits as Record<string, unknown> | undefined)?.["grace_period_days"];
+      return (typeof raw === "number" && raw > 0 ? Math.min(raw, 365) : 0) * 86_400_000;
+    };
+
     const members = profileRows.map((profile) => {
       const sub = subs.find((row) => row.userId === profile.id) ?? null;
       const subPlan = sub ? planFor(sub.priceId) : null;
+      const endsAt = sub?.currentPeriodEnd ? new Date(sub.currentPeriodEnd).getTime() : null;
       const subLive =
-        sub &&
-        (["active", "trialing", "past_due"].includes(sub.status) ||
-          (sub.status === "canceled" && sub.currentPeriodEnd !== null && new Date(sub.currentPeriodEnd).getTime() > now)) &&
-        (!sub.currentPeriodEnd || new Date(sub.currentPeriodEnd).getTime() > now);
+        sub !== null &&
+        ((["active", "trialing", "past_due"].includes(sub.status) &&
+          (endsAt === null || endsAt + graceMs(subPlan) > now)) ||
+          (sub.status === "canceled" && endsAt !== null && endsAt > now));
 
       const comp =
         comps
