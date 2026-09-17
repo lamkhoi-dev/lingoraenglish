@@ -77,6 +77,7 @@ const base = {
   "common.score": "Score",
   "common.all": "All",
   "common.none": "None yet",
+  "common.loadMore": "Load more",
   "common.minutes": "{{count}} min",
   "mic.startRecording": "Start recording",
   "mic.stopRecording": "Stop recording",
@@ -370,6 +371,31 @@ const base = {
   "progress.duration": "Duration",
   "progress.performance": "Performance",
   "progress.empty": "Nothing here yet — your first practice will appear straight away.",
+  // Yêu cầu 13 — the four skills, their detail sections, and the empty state.
+  "progress.overview": "Overall English progress",
+  "progress.completionNote":
+    "Each bar is how much of the available material you have completed — not your average score.",
+  "progress.sectionSpeaking": "Speaking",
+  "progress.sectionListening": "Listening",
+  "progress.sectionPronunciation": "Pronunciation",
+  "progress.sectionVocabulary": "Vocabulary",
+  "progress.coachSessions": "AI Coach sessions",
+  "progress.shadowingCompleted": "Shadowing completed",
+  "progress.testsCompleted": "Speaking Tests completed",
+  "progress.averageScore": "Average score",
+  "progress.lessonsCompleted": "Lessons completed",
+  "progress.comprehension": "Comprehension",
+  "progress.dictation": "Dictation",
+  "progress.listeningTime": "Listening time",
+  "progress.soundsMastered": "{{mastered}} / {{total}} sounds mastered",
+  "progress.masteryNote":
+    "A sound counts as mastered after two attempts in a row scoring 90 or above; a lower score resets it.",
+  "progress.wordsLearned": "{{count}} words learned",
+  "progress.wordsOfTotal": "of {{total}} available",
+  "progress.emptyTitle": "No practice recorded yet",
+  "progress.emptyBody":
+    "Your progress will appear here as soon as you finish your first practice. Nothing is estimated or filled in for you.",
+  "progress.noSoundsYet": "No pronunciation attempts yet — practise a sound to see your scores here.",
   "progress.meta.title": "My English Progress — Lingora English",
   "progress.meta.description":
     "Track your speaking scores, pronunciation by sound, streak and practice minutes, and get a personalised daily plan.",
@@ -378,6 +404,7 @@ const base = {
   "account.sub": "Your profile, your languages and your privacy.",
   "account.profile": "Profile",
   "account.fullName": "Name",
+  "account.viewFullProgress": "View full progress",
   "account.nativeLanguage": "Native language",
   "account.englishLevel": "English level",
   "account.targetLevel": "Target level",
@@ -527,6 +554,8 @@ const base = {
   "billing.total": "Total",
   "billing.invoice": "Invoice",
   "billing.noPayments": "No payments yet.",
+  "billing.historyOffline":
+    "Our payment partner is temporarily unreachable, so this is the payment record we hold ourselves. Very recent payments and refunds may be missing.",
   "billing.morNote":
     "Payments, invoices and tax are handled by our payment partner, which acts as merchant of record. We never see or store your card details.",
   "billing.manage": "Manage my subscription",
@@ -541,7 +570,13 @@ const base = {
   "billing.coupon.expired": "That discount code has expired.",
   "billing.coupon.not_applicable": "That code does not apply to this plan.",
   "billing.limit.speaking_minutes": "Speaking analyses",
-  "billing.limit.conversations": "Conversations with Lingora English",
+  // Counts what it actually meters: the only thing that draws on this
+  // allowance is generating a personalised learning plan (CAPABILITY_MAP in
+  // lily.functions.ts maps just learning_plan -> "plan" -> this key). Coach
+  // conversations are metered separately by coach_turns/coach_reserve_turn(),
+  // so labelling this "Conversations" showed a number that never moved when
+  // the learner actually talked to LiLy — and claimed it on /pricing too.
+  "billing.limit.conversations": "AI learning plans",
   "billing.limit.pronunciation": "Pronunciation checks",
   "billing.limit.ielts_analyses": "IELTS evaluations",
   "billing.limit.stt_requests": "Voice recordings",

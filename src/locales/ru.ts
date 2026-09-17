@@ -325,6 +325,8 @@ export const ru: Dictionary = {
   "progress.streak": "Серия обучения",
   "progress.days": "{{count}} дней",
   "progress.days_one": "{{count}} день",
+  "progress.days_few": "{{count}} дня",
+  "progress.days_many": "{{count}} дней",
   "progress.days_other": "{{count}} дня",
   "progress.practiceMinutes": "Минуты практики",
   "progress.lessons": "Завершённые уроки",
