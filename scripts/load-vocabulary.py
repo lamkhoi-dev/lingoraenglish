@@ -146,8 +146,9 @@ if warnings:
 
 url = os.environ.get("SUPABASE_DB_URL")
 if not url:
-    print("SUPABASE_DB_URL is not set — printing SQL instead.")
-    print(sql)
+    print("SUPABASE_DB_URL is not set — writing SQL to vocab.sql instead.")
+    with open("vocab.sql", "w", encoding="utf-8") as f:
+        f.write(sql)
     sys.exit(0)
 
 proc = subprocess.run(["psql", url, "-v", "ON_ERROR_STOP=1", "-c", sql], capture_output=True, text=True)

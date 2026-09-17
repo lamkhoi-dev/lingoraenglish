@@ -18,6 +18,17 @@ up free, since "chủ đề" was never actually being gated on. A new category
 added later needs one line added to CATEGORY_ORDER (unknown categories sort
 after all listed ones, i.e. locked, rather than silently free) — no other
 code change. Re-running the script is safe: rows are matched on slug.
+
+CATEGORY_ORDER here is only the seed value for a brand-new lesson's is_free
+flag — the number of free categories (FREE_CATEGORY_COUNT) is now set in
+one place (billing_plans.limits.listening_free_categories, admin-editable
+in the "Plans" tab) and entitlements.server.ts#resyncContentFreeRanks()
+recomputes every row's is_free from LISTENING_CATEGORIES
+(src/lib/listening-content.ts) on every plan save (Yêu cầu 9), which is the
+list this one must keep matching order-for-order — it used to be a second,
+independently-ordered copy of the same category list (functionally correct
+today only because both copies happen to agree on which categories are
+1st-6th vs 7th, not because the ordering itself is enforced to match).
 """
 import glob
 import json
@@ -36,11 +47,11 @@ SKILLS = {
     "fast_speech",
 }
 CATEGORY_ORDER = [
-    "Travel",
     "Everyday Life",
-    "Social English",
     "Work & Career",
     "Canadian Life",
+    "Travel",
+    "Social English",
     "Academic English",
     "Entertainment & Media",
 ]

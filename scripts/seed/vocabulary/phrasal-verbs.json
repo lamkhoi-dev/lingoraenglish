@@ -1,0 +1,1989 @@
+{
+  "category": "Phrasal Verbs",
+  "words": [
+    {
+      "word": "wake up",
+      "ipa": "/weɪk ʌp/",
+      "meaningEn": "to stop sleeping",
+      "meaningVi": "thức giấc, tỉnh giấc",
+      "exampleSentence": "I usually wake up at 6 AM.",
+      "exampleVi": "Tôi thường thức giấc lúc 6 giờ sáng.",
+      "usageContext": "Used commonly in daily routines.",
+      "level": "A1",
+      "synonyms": [
+        "awaken",
+        "get up"
+      ],
+      "antonyms": [
+        "fall asleep",
+        "go to sleep"
+      ]
+    },
+    {
+      "word": "get up",
+      "ipa": "/ɡɛt ʌp/",
+      "meaningEn": "to rise from bed after sleeping",
+      "meaningVi": "thức dậy (ra khỏi giường)",
+      "exampleSentence": "She has to get up early for work.",
+      "exampleVi": "Cô ấy phải thức dậy sớm để đi làm.",
+      "usageContext": "Everyday actions, daily routines.",
+      "level": "A1",
+      "synonyms": [
+        "rise",
+        "arise"
+      ],
+      "antonyms": [
+        "lie down",
+        "go to bed"
+      ]
+    },
+    {
+      "word": "sit down",
+      "ipa": "/sɪt daʊn/",
+      "meaningEn": "to move from a standing position to a sitting position",
+      "meaningVi": "ngồi xuống",
+      "exampleSentence": "Please sit down and make yourself comfortable.",
+      "exampleVi": "Xin hãy ngồi xuống và cứ tự nhiên.",
+      "usageContext": "Used as a polite request or instruction.",
+      "level": "A1",
+      "synonyms": [
+        "take a seat",
+        "be seated"
+      ],
+      "antonyms": [
+        "stand up",
+        "rise"
+      ]
+    },
+    {
+      "word": "stand up",
+      "ipa": "/stænd ʌp/",
+      "meaningEn": "to rise to a vertical position on one's feet",
+      "meaningVi": "đứng lên",
+      "exampleSentence": "The students stand up when the teacher enters.",
+      "exampleVi": "Học sinh đứng lên khi giáo viên bước vào.",
+      "usageContext": "Used for physical movement from sitting to standing.",
+      "level": "A1",
+      "synonyms": [
+        "rise",
+        "get to one's feet"
+      ],
+      "antonyms": [
+        "sit down"
+      ]
+    },
+    {
+      "word": "turn on",
+      "ipa": "/tɜrn ɑn/",
+      "meaningEn": "to start the operation or flow of something",
+      "meaningVi": "bật (máy móc, đèn)",
+      "exampleSentence": "Can you turn on the lights?",
+      "exampleVi": "Bạn có thể bật đèn lên không?",
+      "usageContext": "Commonly used with electronics and lights.",
+      "level": "A1",
+      "synonyms": [
+        "switch on",
+        "power on"
+      ],
+      "antonyms": [
+        "turn off",
+        "shut down"
+      ]
+    },
+    {
+      "word": "turn off",
+      "ipa": "/tɜrn ɔf/",
+      "meaningEn": "to stop the operation of something",
+      "meaningVi": "tắt (máy móc, đèn)",
+      "exampleSentence": "Don't forget to turn off the TV before you leave.",
+      "exampleVi": "Đừng quên tắt TV trước khi bạn rời đi.",
+      "usageContext": "Common with devices to save energy or when not in use.",
+      "level": "A1",
+      "synonyms": [
+        "switch off",
+        "shut off"
+      ],
+      "antonyms": [
+        "turn on"
+      ]
+    },
+    {
+      "word": "put on",
+      "ipa": "/pʊt ɑn/",
+      "meaningEn": "to dress oneself in clothing",
+      "meaningVi": "mặc vào, đội vào, mang vào",
+      "exampleSentence": "Put on your coat, it's cold outside.",
+      "exampleVi": "Mặc áo khoác vào đi, ngoài trời lạnh lắm.",
+      "usageContext": "Used when getting dressed.",
+      "level": "A1",
+      "synonyms": [
+        "wear",
+        "dress in"
+      ],
+      "antonyms": [
+        "take off"
+      ]
+    },
+    {
+      "word": "take off",
+      "ipa": "/teɪk ɔf/",
+      "meaningEn": "to remove clothing from one's body",
+      "meaningVi": "cởi ra",
+      "exampleSentence": "Please take off your shoes at the door.",
+      "exampleVi": "Vui lòng cởi giày ở cửa.",
+      "usageContext": "Used for removing clothes or shoes.",
+      "level": "A1",
+      "synonyms": [
+        "remove",
+        "strip off"
+      ],
+      "antonyms": [
+        "put on"
+      ]
+    },
+    {
+      "word": "pick up",
+      "ipa": "/pɪk ʌp/",
+      "meaningEn": "to take hold of and lift something",
+      "meaningVi": "nhặt lên, lấy lên",
+      "exampleSentence": "He bent down to pick up the pen.",
+      "exampleVi": "Anh ấy cúi xuống để nhặt cây bút lên.",
+      "usageContext": "Physical action of lifting.",
+      "level": "A1",
+      "synonyms": [
+        "lift",
+        "grab"
+      ],
+      "antonyms": [
+        "put down",
+        "drop"
+      ]
+    },
+    {
+      "word": "put down",
+      "ipa": "/pʊt daʊn/",
+      "meaningEn": "to place something on a surface",
+      "meaningVi": "đặt xuống",
+      "exampleSentence": "Put down the book and come eat dinner.",
+      "exampleVi": "Đặt sách xuống và ra ăn tối đi.",
+      "usageContext": "Instruction to release something from hand.",
+      "level": "A1",
+      "synonyms": [
+        "place down",
+        "set down"
+      ],
+      "antonyms": [
+        "pick up",
+        "lift"
+      ]
+    },
+    {
+      "word": "look at",
+      "ipa": "/lʊk æt/",
+      "meaningEn": "to direct one's eyes towards someone or something",
+      "meaningVi": "nhìn vào",
+      "exampleSentence": "Look at the beautiful sunset!",
+      "exampleVi": "Hãy nhìn cảnh hoàng hôn tuyệt đẹp kìa!",
+      "usageContext": "Directing visual attention.",
+      "level": "A1",
+      "synonyms": [
+        "glance at",
+        "stare at"
+      ],
+      "antonyms": [
+        "ignore",
+        "look away"
+      ]
+    },
+    {
+      "word": "look for",
+      "ipa": "/lʊk fɔr/",
+      "meaningEn": "to try to find someone or something",
+      "meaningVi": "tìm kiếm",
+      "exampleSentence": "I am looking for my keys.",
+      "exampleVi": "Tôi đang tìm chìa khóa của mình.",
+      "usageContext": "Searching for a misplaced item or person.",
+      "level": "A2",
+      "synonyms": [
+        "search for",
+        "seek"
+      ],
+      "antonyms": [
+        "find",
+        "discover"
+      ]
+    },
+    {
+      "word": "find out",
+      "ipa": "/faɪnd aʊt/",
+      "meaningEn": "to discover information",
+      "meaningVi": "tìm ra, phát hiện ra (thông tin)",
+      "exampleSentence": "We need to find out what time the train leaves.",
+      "exampleVi": "Chúng ta cần tìm xem tàu rời đi lúc mấy giờ.",
+      "usageContext": "Used when gathering facts or learning a secret.",
+      "level": "A2",
+      "synonyms": [
+        "discover",
+        "learn"
+      ],
+      "antonyms": [
+        "ignore",
+        "hide"
+      ]
+    },
+    {
+      "word": "give up",
+      "ipa": "/ɡɪv ʌp/",
+      "meaningEn": "to stop trying or doing something",
+      "meaningVi": "từ bỏ",
+      "exampleSentence": "Don't give up, you're almost there!",
+      "exampleVi": "Đừng bỏ cuộc, bạn sắp đến nơi rồi!",
+      "usageContext": "Encouragement not to quit, or admitting defeat.",
+      "level": "A2",
+      "synonyms": [
+        "quit",
+        "surrender"
+      ],
+      "antonyms": [
+        "continue",
+        "persevere"
+      ]
+    },
+    {
+      "word": "grow up",
+      "ipa": "/ɡroʊ ʌp/",
+      "meaningEn": "to develop from a child into an adult",
+      "meaningVi": "lớn lên, trưởng thành",
+      "exampleSentence": "I grew up in a small town.",
+      "exampleVi": "Tôi lớn lên ở một thị trấn nhỏ.",
+      "usageContext": "Describing childhood origins or maturing.",
+      "level": "A2",
+      "synonyms": [
+        "mature",
+        "develop"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "look after",
+      "ipa": "/lʊk ˈæftər/",
+      "meaningEn": "to take care of someone or something",
+      "meaningVi": "chăm sóc",
+      "exampleSentence": "Can you look after my dog this weekend?",
+      "exampleVi": "Bạn có thể chăm sóc con chó của tôi cuối tuần này không?",
+      "usageContext": "Asking or offering to care for a person, pet, or item.",
+      "level": "A2",
+      "synonyms": [
+        "take care of",
+        "tend to"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore"
+      ]
+    },
+    {
+      "word": "try on",
+      "ipa": "/traɪ ɑn/",
+      "meaningEn": "to put on a piece of clothing to see if it fits",
+      "meaningVi": "mặc thử",
+      "exampleSentence": "I want to try on this dress before buying it.",
+      "exampleVi": "Tôi muốn mặc thử chiếc váy này trước khi mua.",
+      "usageContext": "Used in shopping contexts for clothes.",
+      "level": "A2",
+      "synonyms": [
+        "test",
+        "fit"
+      ],
+      "antonyms": [
+        "take off"
+      ]
+    },
+    {
+      "word": "fill in",
+      "ipa": "/fɪl ɪn/",
+      "meaningEn": "to add information to a form or document",
+      "meaningVi": "điền vào",
+      "exampleSentence": "Please fill in your name and address here.",
+      "exampleVi": "Vui lòng điền tên và địa chỉ của bạn vào đây.",
+      "usageContext": "Completing paperwork or digital forms.",
+      "level": "A2",
+      "synonyms": [
+        "complete",
+        "fill out"
+      ],
+      "antonyms": [
+        "erase",
+        "blank out"
+      ]
+    },
+    {
+      "word": "go out",
+      "ipa": "/ɡoʊ aʊt/",
+      "meaningEn": "to leave one's home for social or leisure activities",
+      "meaningVi": "đi chơi, ra ngoài",
+      "exampleSentence": "We like to go out for dinner on Fridays.",
+      "exampleVi": "Chúng tôi thích ra ngoài ăn tối vào các ngày thứ Sáu.",
+      "usageContext": "Socializing, dining, or entertainment.",
+      "level": "A2",
+      "synonyms": [
+        "hang out",
+        "leave"
+      ],
+      "antonyms": [
+        "stay in"
+      ]
+    },
+    {
+      "word": "come back",
+      "ipa": "/kʌm bæk/",
+      "meaningEn": "to return to a place",
+      "meaningVi": "trở lại, quay về",
+      "exampleSentence": "When will you come back from your trip?",
+      "exampleVi": "Khi nào bạn sẽ quay về sau chuyến đi?",
+      "usageContext": "Returning home or to a familiar place.",
+      "level": "A2",
+      "synonyms": [
+        "return"
+      ],
+      "antonyms": [
+        "leave",
+        "depart"
+      ]
+    },
+    {
+      "word": "go on",
+      "ipa": "/ɡoʊ ɑn/",
+      "meaningEn": "to continue doing something",
+      "meaningVi": "tiếp tục",
+      "exampleSentence": "Please go on reading, I am listening.",
+      "exampleVi": "Xin hãy tiếp tục đọc, tôi đang nghe đây.",
+      "usageContext": "Encouraging someone not to stop an action.",
+      "level": "B1",
+      "synonyms": [
+        "continue",
+        "proceed"
+      ],
+      "antonyms": [
+        "stop",
+        "cease"
+      ]
+    },
+    {
+      "word": "carry on",
+      "ipa": "/ˈkæri ɑn/",
+      "meaningEn": "to continue an activity or task",
+      "meaningVi": "tiếp tục (thực hiện một việc gì đó)",
+      "exampleSentence": "Carry on with your work, I'll be back shortly.",
+      "exampleVi": "Hãy tiếp tục công việc của bạn, tôi sẽ quay lại ngay.",
+      "usageContext": "Often used in professional or task-oriented settings.",
+      "level": "B1",
+      "synonyms": [
+        "continue",
+        "keep going"
+      ],
+      "antonyms": [
+        "give up",
+        "halt"
+      ]
+    },
+    {
+      "word": "take out",
+      "ipa": "/teɪk aʊt/",
+      "meaningEn": "to remove something from a place",
+      "meaningVi": "lấy ra, đổ (rác)",
+      "exampleSentence": "Can you take out the trash tonight?",
+      "exampleVi": "Tối nay bạn có thể đi đổ rác không?",
+      "usageContext": "Removing items, such as trash, or treating someone to dinner.",
+      "level": "B1",
+      "synonyms": [
+        "remove",
+        "extract"
+      ],
+      "antonyms": [
+        "put in",
+        "insert"
+      ]
+    },
+    {
+      "word": "give back",
+      "ipa": "/ɡɪv bæk/",
+      "meaningEn": "to return something to its owner",
+      "meaningVi": "trả lại",
+      "exampleSentence": "You must give back the book to the library.",
+      "exampleVi": "Bạn phải trả lại sách cho thư viện.",
+      "usageContext": "Returning borrowed items.",
+      "level": "B1",
+      "synonyms": [
+        "return"
+      ],
+      "antonyms": [
+        "keep",
+        "take"
+      ]
+    },
+    {
+      "word": "pay back",
+      "ipa": "/peɪ bæk/",
+      "meaningEn": "to return borrowed money",
+      "meaningVi": "trả nợ, trả lại tiền",
+      "exampleSentence": "I will pay back the money I owe you tomorrow.",
+      "exampleVi": "Ngày mai tôi sẽ trả lại số tiền tôi nợ bạn.",
+      "usageContext": "Financial situations.",
+      "level": "B1",
+      "synonyms": [
+        "repay",
+        "refund"
+      ],
+      "antonyms": [
+        "borrow",
+        "steal"
+      ]
+    },
+    {
+      "word": "look forward to",
+      "ipa": "/lʊk ˈfɔrwərd tu/",
+      "meaningEn": "to feel pleased and excited about something that is going to happen",
+      "meaningVi": "mong đợi, háo hức (việc gì đó sắp tới)",
+      "exampleSentence": "I am looking forward to my holiday.",
+      "exampleVi": "Tôi rất mong đợi kỳ nghỉ của mình.",
+      "usageContext": "Common in both friendly and formal letters or emails.",
+      "level": "B1",
+      "synonyms": [
+        "anticipate",
+        "await"
+      ],
+      "antonyms": [
+        "dread"
+      ]
+    },
+    {
+      "word": "work out",
+      "ipa": "/wɜrk aʊt/",
+      "meaningEn": "to exercise in order to improve health or strength",
+      "meaningVi": "tập thể dục",
+      "exampleSentence": "He works out at the gym three times a week.",
+      "exampleVi": "Anh ấy tập thể dục ở phòng gym ba lần một tuần.",
+      "usageContext": "Fitness and health discussions.",
+      "level": "B1",
+      "synonyms": [
+        "exercise",
+        "train"
+      ],
+      "antonyms": [
+        "rest"
+      ]
+    },
+    {
+      "word": "hang out",
+      "ipa": "/hæŋ aʊt/",
+      "meaningEn": "to spend time relaxing or socializing informally",
+      "meaningVi": "đi chơi, tụ tập (với bạn bè)",
+      "exampleSentence": "We usually hang out at the mall on weekends.",
+      "exampleVi": "Chúng tôi thường tụ tập ở trung tâm mua sắm vào cuối tuần.",
+      "usageContext": "Casual conversation about leisure time.",
+      "level": "B1",
+      "synonyms": [
+        "socialize",
+        "chill"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "break down",
+      "ipa": "/breɪk daʊn/",
+      "meaningEn": "to stop working (of machinery or vehicles)",
+      "meaningVi": "hỏng hóc, chết máy",
+      "exampleSentence": "My car broke down on the way to work.",
+      "exampleVi": "Xe của tôi đã bị hỏng trên đường đi làm.",
+      "usageContext": "Talking about mechanical failures.",
+      "level": "B1",
+      "synonyms": [
+        "stop working",
+        "fail"
+      ],
+      "antonyms": [
+        "work",
+        "run"
+      ]
+    },
+    {
+      "word": "call back",
+      "ipa": "/kɔl bæk/",
+      "meaningEn": "to return a phone call",
+      "meaningVi": "gọi điện thoại lại",
+      "exampleSentence": "I'm busy right now, can I call you back later?",
+      "exampleVi": "Hiện tại tôi đang bận, tôi có thể gọi lại cho bạn sau được không?",
+      "usageContext": "Phone conversations.",
+      "level": "B1",
+      "synonyms": [
+        "return a call"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "catch up",
+      "ipa": "/kætʃ ʌp/",
+      "meaningEn": "to reach the same quality or standard as someone or something else",
+      "meaningVi": "bắt kịp, theo kịp",
+      "exampleSentence": "He missed school and has to catch up on his studies.",
+      "exampleVi": "Cậu ấy đã nghỉ học và phải học bù để theo kịp.",
+      "usageContext": "When someone is behind in progress and needs to level up.",
+      "level": "B1",
+      "synonyms": [
+        "keep pace",
+        "draw level"
+      ],
+      "antonyms": [
+        "fall behind"
+      ]
+    },
+    {
+      "word": "calm down",
+      "ipa": "/kɑm daʊn/",
+      "meaningEn": "to stop feeling upset, angry, or excited",
+      "meaningVi": "bình tĩnh lại",
+      "exampleSentence": "Take a deep breath and calm down.",
+      "exampleVi": "Hít một hơi thật sâu và bình tĩnh lại đi.",
+      "usageContext": "De-escalating emotions in stressful situations.",
+      "level": "B1",
+      "synonyms": [
+        "relax",
+        "chill out"
+      ],
+      "antonyms": [
+        "get angry",
+        "panic"
+      ]
+    },
+    {
+      "word": "cheer up",
+      "ipa": "/tʃɪr ʌp/",
+      "meaningEn": "to become happier or to make someone happier",
+      "meaningVi": "vui lên, làm ai đó vui lên",
+      "exampleSentence": "I bought her some flowers to cheer her up.",
+      "exampleVi": "Tôi mua cho cô ấy vài bông hoa để làm cô ấy vui lên.",
+      "usageContext": "Comforting sad friends.",
+      "level": "B1",
+      "synonyms": [
+        "brighten up",
+        "encourage"
+      ],
+      "antonyms": [
+        "depress",
+        "bring down"
+      ]
+    },
+    {
+      "word": "eat out",
+      "ipa": "/it aʊt/",
+      "meaningEn": "to eat at a restaurant instead of at home",
+      "meaningVi": "ăn ngoài (ăn ở nhà hàng)",
+      "exampleSentence": "Let's eat out tonight; I'm too tired to cook.",
+      "exampleVi": "Tối nay chúng ta đi ăn ngoài đi; em quá mệt để nấu nướng.",
+      "usageContext": "Making dining plans.",
+      "level": "B1",
+      "synonyms": [
+        "dine out"
+      ],
+      "antonyms": [
+        "eat in",
+        "dine in"
+      ]
+    },
+    {
+      "word": "get along",
+      "ipa": "/ɡɛt əˈlɔŋ/",
+      "meaningEn": "to have a harmonious or friendly relationship",
+      "meaningVi": "hòa thuận, có mối quan hệ tốt",
+      "exampleSentence": "I get along very well with my colleagues.",
+      "exampleVi": "Tôi rất hòa thuận với các đồng nghiệp của mình.",
+      "usageContext": "Describing interpersonal relationships.",
+      "level": "B1",
+      "synonyms": [
+        "get on",
+        "be friendly"
+      ],
+      "antonyms": [
+        "argue",
+        "clash"
+      ]
+    },
+    {
+      "word": "give out",
+      "ipa": "/ɡɪv aʊt/",
+      "meaningEn": "to distribute something to many people",
+      "meaningVi": "phân phát",
+      "exampleSentence": "The teacher gave out the test papers.",
+      "exampleVi": "Giáo viên đã phát bài kiểm tra.",
+      "usageContext": "Handing items to a group.",
+      "level": "B1",
+      "synonyms": [
+        "distribute",
+        "hand out"
+      ],
+      "antonyms": [
+        "collect",
+        "gather"
+      ]
+    },
+    {
+      "word": "grow apart",
+      "ipa": "/ɡroʊ əˈpɑrt/",
+      "meaningEn": "to stop having a close relationship with someone over time",
+      "meaningVi": "xa cách nhau (về mặt tình cảm)",
+      "exampleSentence": "As we went to different universities, we slowly grew apart.",
+      "exampleVi": "Khi chúng tôi học ở những trường đại học khác nhau, chúng tôi dần xa cách.",
+      "usageContext": "Reflecting on drifting relationships.",
+      "level": "B1",
+      "synonyms": [
+        "drift apart"
+      ],
+      "antonyms": [
+        "grow closer",
+        "bond"
+      ]
+    },
+    {
+      "word": "hold on",
+      "ipa": "/hoʊld ɑn/",
+      "meaningEn": "to wait for a short time",
+      "meaningVi": "chờ đợi, giữ máy (điện thoại)",
+      "exampleSentence": "Hold on a minute, I need to find my keys.",
+      "exampleVi": "Chờ một chút, tôi cần tìm chìa khóa.",
+      "usageContext": "Asking someone to pause or wait, often on the phone.",
+      "level": "B1",
+      "synonyms": [
+        "wait",
+        "hang on"
+      ],
+      "antonyms": [
+        "hurry up",
+        "rush"
+      ]
+    },
+    {
+      "word": "keep on",
+      "ipa": "/kip ɑn/",
+      "meaningEn": "to continue doing something repeatedly",
+      "meaningVi": "tiếp tục (không ngừng nghỉ)",
+      "exampleSentence": "She kept on talking despite the noise.",
+      "exampleVi": "Cô ấy vẫn tiếp tục nói bất chấp tiếng ồn.",
+      "usageContext": "Showing persistence or repetition.",
+      "level": "B1",
+      "synonyms": [
+        "continue",
+        "carry on"
+      ],
+      "antonyms": [
+        "stop",
+        "cease"
+      ]
+    },
+    {
+      "word": "point out",
+      "ipa": "/pɔɪnt aʊt/",
+      "meaningEn": "to direct someone's attention to a fact or object",
+      "meaningVi": "chỉ ra",
+      "exampleSentence": "He pointed out the mistakes in my report.",
+      "exampleVi": "Anh ấy đã chỉ ra những lỗi sai trong báo cáo của tôi.",
+      "usageContext": "Clarifying or highlighting details.",
+      "level": "B1",
+      "synonyms": [
+        "indicate",
+        "highlight"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal"
+      ]
+    },
+    {
+      "word": "show up",
+      "ipa": "/ʃoʊ ʌp/",
+      "meaningEn": "to arrive where you are expected to be",
+      "meaningVi": "xuất hiện, đến (nơi hẹn)",
+      "exampleSentence": "He didn't show up for the meeting.",
+      "exampleVi": "Anh ấy đã không xuất hiện tại cuộc họp.",
+      "usageContext": "Talking about attendance or punctuality.",
+      "level": "B1",
+      "synonyms": [
+        "arrive",
+        "appear"
+      ],
+      "antonyms": [
+        "disappear",
+        "hide"
+      ]
+    },
+    {
+      "word": "take over",
+      "ipa": "/teɪk ˈoʊvər/",
+      "meaningEn": "to assume control or responsibility for something",
+      "meaningVi": "tiếp quản",
+      "exampleSentence": "The new manager will take over next week.",
+      "exampleVi": "Người quản lý mới sẽ tiếp quản vào tuần tới.",
+      "usageContext": "Business or leadership transitions.",
+      "level": "B2",
+      "synonyms": [
+        "take control",
+        "assume command"
+      ],
+      "antonyms": [
+        "give up",
+        "surrender"
+      ]
+    },
+    {
+      "word": "turn out",
+      "ipa": "/tɜrn aʊt/",
+      "meaningEn": "to develop or end in a particular way",
+      "meaningVi": "hóa ra, kết quả là",
+      "exampleSentence": "The weather turned out to be beautiful despite the forecast.",
+      "exampleVi": "Thời tiết hóa ra lại rất đẹp bất chấp dự báo.",
+      "usageContext": "Expressing unexpected results or conclusions.",
+      "level": "B2",
+      "synonyms": [
+        "end up",
+        "result"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "bring up",
+      "ipa": "/brɪŋ ʌp/",
+      "meaningEn": "to introduce a topic into a conversation or to raise a child",
+      "meaningVi": "đề cập đến, nuôi dưỡng (trẻ em)",
+      "exampleSentence": "Don't bring up politics at the dinner table.",
+      "exampleVi": "Đừng đề cập đến chính trị trên bàn ăn.",
+      "usageContext": "Used in conversations regarding sensitive topics or child-rearing.",
+      "level": "B2",
+      "synonyms": [
+        "mention",
+        "raise"
+      ],
+      "antonyms": [
+        "suppress",
+        "ignore"
+      ]
+    },
+    {
+      "word": "come across",
+      "ipa": "/kʌm əˈkrɔs/",
+      "meaningEn": "to find or meet by chance",
+      "meaningVi": "tình cờ gặp, tình cờ thấy",
+      "exampleSentence": "I came across my old diary while cleaning the attic.",
+      "exampleVi": "Tôi tình cờ thấy cuốn nhật ký cũ của mình khi dọn dẹp gác xép.",
+      "usageContext": "Finding items unexpectedly.",
+      "level": "B2",
+      "synonyms": [
+        "run into",
+        "encounter"
+      ],
+      "antonyms": [
+        "lose",
+        "misplace"
+      ]
+    },
+    {
+      "word": "figure out",
+      "ipa": "/ˈfɪɡjər aʊt/",
+      "meaningEn": "to understand or solve something",
+      "meaningVi": "hiểu ra, giải quyết được",
+      "exampleSentence": "It took me hours to figure out the math problem.",
+      "exampleVi": "Tôi mất hàng giờ để giải quyết bài toán đó.",
+      "usageContext": "Solving complex issues or mysteries.",
+      "level": "B2",
+      "synonyms": [
+        "solve",
+        "understand"
+      ],
+      "antonyms": [
+        "confuse",
+        "misunderstand"
+      ]
+    },
+    {
+      "word": "look up",
+      "ipa": "/lʊk ʌp/",
+      "meaningEn": "to search for information (e.g., in a dictionary)",
+      "meaningVi": "tra cứu (từ điển, thông tin)",
+      "exampleSentence": "If you don't know the word, look it up in a dictionary.",
+      "exampleVi": "Nếu bạn không biết từ đó, hãy tra nó trong từ điển.",
+      "usageContext": "Researching or searching references.",
+      "level": "B2",
+      "synonyms": [
+        "search",
+        "find"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "make up",
+      "ipa": "/meɪk ʌp/",
+      "meaningEn": "to invent a story or excuse, or to forgive after a fight",
+      "meaningVi": "bịa chuyện, làm hòa",
+      "exampleSentence": "They had an argument but they made up quickly.",
+      "exampleVi": "Họ đã cãi nhau nhưng đã nhanh chóng làm hòa.",
+      "usageContext": "Interpersonal relationships or storytelling.",
+      "level": "B2",
+      "synonyms": [
+        "invent",
+        "reconcile"
+      ],
+      "antonyms": [
+        "argue",
+        "tell the truth"
+      ]
+    },
+    {
+      "word": "put off",
+      "ipa": "/pʊt ɔf/",
+      "meaningEn": "to delay doing something until a later time",
+      "meaningVi": "trì hoãn",
+      "exampleSentence": "We had to put off the meeting because of the bad weather.",
+      "exampleVi": "Chúng tôi đã phải hoãn cuộc họp vì thời tiết xấu.",
+      "usageContext": "Scheduling and procrastination.",
+      "level": "B2",
+      "synonyms": [
+        "delay",
+        "postpone"
+      ],
+      "antonyms": [
+        "advance",
+        "do immediately"
+      ]
+    },
+    {
+      "word": "run out",
+      "ipa": "/rʌn aʊt/",
+      "meaningEn": "to use all of something so that none is left",
+      "meaningVi": "cạn kiệt, hết sạch",
+      "exampleSentence": "We have run out of milk, I need to buy some.",
+      "exampleVi": "Chúng ta hết sạch sữa rồi, tôi cần mua thêm.",
+      "usageContext": "Talking about supplies or time.",
+      "level": "B2",
+      "synonyms": [
+        "exhaust",
+        "use up"
+      ],
+      "antonyms": [
+        "stock up",
+        "hoard"
+      ]
+    },
+    {
+      "word": "set up",
+      "ipa": "/sɛt ʌp/",
+      "meaningEn": "to arrange, organize, or establish something",
+      "meaningVi": "thành lập, thiết lập",
+      "exampleSentence": "They plan to set up a new company next year.",
+      "exampleVi": "Họ dự định thành lập một công ty mới vào năm tới.",
+      "usageContext": "Business creation, event organizing, or assembling items.",
+      "level": "B2",
+      "synonyms": [
+        "establish",
+        "organize"
+      ],
+      "antonyms": [
+        "dismantle",
+        "destroy"
+      ]
+    },
+    {
+      "word": "take up",
+      "ipa": "/teɪk ʌp/",
+      "meaningEn": "to begin to do something (a hobby, a sport, a job)",
+      "meaningVi": "bắt đầu (một sở thích, thói quen)",
+      "exampleSentence": "I decided to take up yoga to relax.",
+      "exampleVi": "Tôi quyết định bắt đầu tập yoga để thư giãn.",
+      "usageContext": "Starting new habits or hobbies.",
+      "level": "B2",
+      "synonyms": [
+        "start",
+        "begin"
+      ],
+      "antonyms": [
+        "give up",
+        "drop"
+      ]
+    },
+    {
+      "word": "turn down",
+      "ipa": "/tɜrn daʊn/",
+      "meaningEn": "to refuse an offer or request, or reduce volume",
+      "meaningVi": "từ chối, vặn nhỏ (âm lượng)",
+      "exampleSentence": "She turned down the job offer because the salary was too low.",
+      "exampleVi": "Cô ấy đã từ chối lời mời làm việc vì mức lương quá thấp.",
+      "usageContext": "Rejecting proposals or lowering audio levels.",
+      "level": "B2",
+      "synonyms": [
+        "reject",
+        "refuse"
+      ],
+      "antonyms": [
+        "accept",
+        "agree"
+      ]
+    },
+    {
+      "word": "cut down",
+      "ipa": "/kʌt daʊn/",
+      "meaningEn": "to reduce the amount or quantity of something",
+      "meaningVi": "cắt giảm",
+      "exampleSentence": "I am trying to cut down on sugar.",
+      "exampleVi": "Tôi đang cố gắng cắt giảm lượng đường.",
+      "usageContext": "Dieting, budgeting, or minimizing habits.",
+      "level": "B2",
+      "synonyms": [
+        "reduce",
+        "decrease"
+      ],
+      "antonyms": [
+        "increase",
+        "add"
+      ]
+    },
+    {
+      "word": "drop in",
+      "ipa": "/drɑp ɪn/",
+      "meaningEn": "to visit someone informally without arranging it",
+      "meaningVi": "ghé thăm (không báo trước)",
+      "exampleSentence": "Drop in anytime you are in the neighborhood.",
+      "exampleVi": "Hãy ghé thăm bất cứ khi nào bạn ở gần khu vực này.",
+      "usageContext": "Casual visits.",
+      "level": "B2",
+      "synonyms": [
+        "visit",
+        "pop in"
+      ],
+      "antonyms": [
+        "ignore",
+        "stay away"
+      ]
+    },
+    {
+      "word": "fall apart",
+      "ipa": "/fɔl əˈpɑrt/",
+      "meaningEn": "to break into pieces, or to lose one's emotional control",
+      "meaningVi": "vỡ vụn, suy sụp (tinh thần)",
+      "exampleSentence": "Their marriage began to fall apart after a year.",
+      "exampleVi": "Cuộc hôn nhân của họ bắt đầu đổ vỡ sau một năm.",
+      "usageContext": "Describing degradation of physical objects or relationships.",
+      "level": "B2",
+      "synonyms": [
+        "disintegrate",
+        "crumble"
+      ],
+      "antonyms": [
+        "stay intact",
+        "hold together"
+      ]
+    },
+    {
+      "word": "get over",
+      "ipa": "/ɡɛt ˈoʊvər/",
+      "meaningEn": "to recover from an illness or a bad experience",
+      "meaningVi": "vượt qua (bệnh tật, nỗi buồn)",
+      "exampleSentence": "It took her a long time to get over the breakup.",
+      "exampleVi": "Cô ấy đã mất rất nhiều thời gian để vượt qua cuộc chia tay.",
+      "usageContext": "Healing emotionally or physically.",
+      "level": "B2",
+      "synonyms": [
+        "recover",
+        "overcome"
+      ],
+      "antonyms": [
+        "succumb",
+        "dwell on"
+      ]
+    },
+    {
+      "word": "hand in",
+      "ipa": "/hænd ɪn/",
+      "meaningEn": "to give something to a person in authority",
+      "meaningVi": "nộp (bài tập, tài liệu)",
+      "exampleSentence": "Students must hand in their essays by Friday.",
+      "exampleVi": "Sinh viên phải nộp bài luận trước thứ Sáu.",
+      "usageContext": "Submitting assignments or official documents.",
+      "level": "B2",
+      "synonyms": [
+        "submit",
+        "turn in"
+      ],
+      "antonyms": [
+        "keep",
+        "hold back"
+      ]
+    },
+    {
+      "word": "look into",
+      "ipa": "/lʊk ˈɪntu/",
+      "meaningEn": "to investigate or examine the facts about a problem",
+      "meaningVi": "điều tra, xem xét",
+      "exampleSentence": "The police are looking into the cause of the fire.",
+      "exampleVi": "Cảnh sát đang điều tra nguyên nhân vụ cháy.",
+      "usageContext": "Used when searching for truth or solving issues.",
+      "level": "B2",
+      "synonyms": [
+        "investigate",
+        "examine"
+      ],
+      "antonyms": [
+        "ignore",
+        "neglect"
+      ]
+    },
+    {
+      "word": "pass away",
+      "ipa": "/pæs əˈweɪ/",
+      "meaningEn": "a polite way of saying 'to die'",
+      "meaningVi": "qua đời, mất",
+      "exampleSentence": "Her grandfather passed away last night.",
+      "exampleVi": "Ông của cô ấy đã qua đời đêm qua.",
+      "usageContext": "Respectful phrasing for death.",
+      "level": "B2",
+      "synonyms": [
+        "die",
+        "decease"
+      ],
+      "antonyms": [
+        "be born",
+        "survive"
+      ]
+    },
+    {
+      "word": "pass out",
+      "ipa": "/pæs aʊt/",
+      "meaningEn": "to become unconscious for a short time",
+      "meaningVi": "ngất xỉu",
+      "exampleSentence": "It was so hot in the room that he passed out.",
+      "exampleVi": "Trong phòng quá nóng đến nỗi anh ấy đã ngất xỉu.",
+      "usageContext": "Medical emergencies or extreme exhaustion.",
+      "level": "B2",
+      "synonyms": [
+        "faint",
+        "black out"
+      ],
+      "antonyms": [
+        "revive",
+        "wake up"
+      ]
+    },
+    {
+      "word": "run into",
+      "ipa": "/rʌn ˈɪntu/",
+      "meaningEn": "to meet someone by chance, or crash into something",
+      "meaningVi": "tình cờ gặp, đâm vào",
+      "exampleSentence": "I ran into my old teacher at the supermarket.",
+      "exampleVi": "Tôi tình cờ gặp giáo viên cũ của mình ở siêu thị.",
+      "usageContext": "Unexpected encounters or accidents.",
+      "level": "B2",
+      "synonyms": [
+        "bump into",
+        "encounter"
+      ],
+      "antonyms": [
+        "avoid"
+      ]
+    },
+    {
+      "word": "stand out",
+      "ipa": "/stænd aʊt/",
+      "meaningEn": "to be easily noticeable or much better than others",
+      "meaningVi": "nổi bật",
+      "exampleSentence": "Her bright red hair makes her stand out in a crowd.",
+      "exampleVi": "Mái tóc đỏ rực của cô ấy khiến cô ấy nổi bật giữa đám đông.",
+      "usageContext": "Describing unique traits or excellence.",
+      "level": "B2",
+      "synonyms": [
+        "be conspicuous",
+        "distinguish oneself"
+      ],
+      "antonyms": [
+        "blend in",
+        "hide"
+      ]
+    },
+    {
+      "word": "bring about",
+      "ipa": "/brɪŋ əˈbaʊt/",
+      "meaningEn": "to cause something to happen",
+      "meaningVi": "gây ra, mang lại",
+      "exampleSentence": "The new government aims to bring about significant changes.",
+      "exampleVi": "Chính phủ mới nhằm mục đích mang lại những thay đổi đáng kể.",
+      "usageContext": "Discussing causes and effects of large-scale changes.",
+      "level": "C1",
+      "synonyms": [
+        "cause",
+        "generate"
+      ],
+      "antonyms": [
+        "stop",
+        "prevent"
+      ]
+    },
+    {
+      "word": "call off",
+      "ipa": "/kɔl ɔf/",
+      "meaningEn": "to decide that a planned event will not happen",
+      "meaningVi": "hủy bỏ",
+      "exampleSentence": "They had to call off the match due to the storm.",
+      "exampleVi": "Họ đã phải hủy bỏ trận đấu do cơn bão.",
+      "usageContext": "Canceling meetings or events.",
+      "level": "C1",
+      "synonyms": [
+        "cancel"
+      ],
+      "antonyms": [
+        "proceed",
+        "initiate"
+      ]
+    },
+    {
+      "word": "come up with",
+      "ipa": "/kʌm ʌp wɪθ/",
+      "meaningEn": "to suggest or think of an idea or plan",
+      "meaningVi": "nghĩ ra (ý tưởng, kế hoạch)",
+      "exampleSentence": "She came up with a brilliant idea for the project.",
+      "exampleVi": "Cô ấy đã nghĩ ra một ý tưởng tuyệt vời cho dự án.",
+      "usageContext": "Brainstorming and creativity.",
+      "level": "C1",
+      "synonyms": [
+        "invent",
+        "devise"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "fall through",
+      "ipa": "/fɔl θru/",
+      "meaningEn": "to fail to happen or be completed (of plans or arrangements)",
+      "meaningVi": "thất bại, không thành công",
+      "exampleSentence": "Our holiday plans fell through because of a lack of money.",
+      "exampleVi": "Kế hoạch kỳ nghỉ của chúng tôi đã thất bại vì thiếu tiền.",
+      "usageContext": "When deals or plans unexpectedly break down.",
+      "level": "C1",
+      "synonyms": [
+        "fail",
+        "collapse"
+      ],
+      "antonyms": [
+        "succeed",
+        "go through"
+      ]
+    },
+    {
+      "word": "get away with",
+      "ipa": "/ɡɛt əˈweɪ wɪθ/",
+      "meaningEn": "to do something wrong and not be punished for it",
+      "meaningVi": "thoát tội, làm sai mà không bị phạt",
+      "exampleSentence": "He thought he could cheat on the test and get away with it.",
+      "exampleVi": "Cậu ấy nghĩ rằng cậu ấy có thể gian lận trong bài kiểm tra và thoát tội.",
+      "usageContext": "Discussing unpunished bad behavior.",
+      "level": "C1",
+      "synonyms": [
+        "escape punishment"
+      ],
+      "antonyms": [
+        "be caught",
+        "be punished"
+      ]
+    },
+    {
+      "word": "look down on",
+      "ipa": "/lʊk daʊn ɑn/",
+      "meaningEn": "to think that you are better than someone",
+      "meaningVi": "coi thường",
+      "exampleSentence": "He tends to look down on people who are less educated than him.",
+      "exampleVi": "Anh ta có xu hướng coi thường những người ít học hơn mình.",
+      "usageContext": "Describing arrogance or snobbery.",
+      "level": "C1",
+      "synonyms": [
+        "despise",
+        "scorn"
+      ],
+      "antonyms": [
+        "look up to",
+        "respect"
+      ]
+    },
+    {
+      "word": "look up to",
+      "ipa": "/lʊk ʌp tu/",
+      "meaningEn": "to admire and respect someone",
+      "meaningVi": "tôn trọng, ngưỡng mộ",
+      "exampleSentence": "I have always looked up to my older sister.",
+      "exampleVi": "Tôi luôn ngưỡng mộ chị gái của mình.",
+      "usageContext": "Expressing admiration for role models.",
+      "level": "C1",
+      "synonyms": [
+        "respect",
+        "admire"
+      ],
+      "antonyms": [
+        "look down on",
+        "despise"
+      ]
+    },
+    {
+      "word": "make out",
+      "ipa": "/meɪk aʊt/",
+      "meaningEn": "to manage to see, hear, or understand something with difficulty",
+      "meaningVi": "nhìn rõ, hiểu rõ (một cách khó khăn)",
+      "exampleSentence": "I couldn't make out what he was saying over the loud music.",
+      "exampleVi": "Tôi không thể nghe rõ anh ấy đang nói gì giữa tiếng nhạc ồn ào.",
+      "usageContext": "Struggling with perception or comprehension.",
+      "level": "C1",
+      "synonyms": [
+        "discern",
+        "distinguish"
+      ],
+      "antonyms": [
+        "miss",
+        "overlook"
+      ]
+    },
+    {
+      "word": "put up with",
+      "ipa": "/pʊt ʌp wɪθ/",
+      "meaningEn": "to tolerate or endure something unpleasant without complaining",
+      "meaningVi": "chịu đựng",
+      "exampleSentence": "I don't know how she puts up with his constant complaining.",
+      "exampleVi": "Tôi không hiểu sao cô ấy lại chịu đựng được sự phàn nàn liên tục của anh ta.",
+      "usageContext": "Dealing with annoying behavior or situations.",
+      "level": "C1",
+      "synonyms": [
+        "tolerate",
+        "endure"
+      ],
+      "antonyms": [
+        "reject",
+        "fight"
+      ]
+    },
+    {
+      "word": "run over",
+      "ipa": "/rʌn ˈoʊvər/",
+      "meaningEn": "to review or explain something quickly",
+      "meaningVi": "xem xét nhanh, điểm qua",
+      "exampleSentence": "Let's run over the schedule for tomorrow one more time.",
+      "exampleVi": "Hãy cùng điểm qua lịch trình ngày mai một lần nữa.",
+      "usageContext": "Summarizing or reviewing plans.",
+      "level": "C1",
+      "synonyms": [
+        "review",
+        "rehearse"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "take after",
+      "ipa": "/teɪk ˈæftər/",
+      "meaningEn": "to resemble an older relative in appearance or character",
+      "meaningVi": "giống (ai đó trong gia đình)",
+      "exampleSentence": "She really takes after her mother in her stubbornness.",
+      "exampleVi": "Cô ấy thực sự giống mẹ ở tính bướng bỉnh.",
+      "usageContext": "Comparing family members' traits.",
+      "level": "C1",
+      "synonyms": [
+        "resemble",
+        "look like"
+      ],
+      "antonyms": [
+        "differ from"
+      ]
+    },
+    {
+      "word": "turn into",
+      "ipa": "/tɜrn ˈɪntu/",
+      "meaningEn": "to change or develop into something different",
+      "meaningVi": "biến thành, trở thành",
+      "exampleSentence": "The caterpillar will turn into a beautiful butterfly.",
+      "exampleVi": "Con sâu bướm sẽ biến thành một con bướm xinh đẹp.",
+      "usageContext": "Describing transformation.",
+      "level": "C1",
+      "synonyms": [
+        "transform into",
+        "become"
+      ],
+      "antonyms": [
+        "remain"
+      ]
+    },
+    {
+      "word": "wear out",
+      "ipa": "/wɛr aʊt/",
+      "meaningEn": "to make someone extremely tired, or to use something until it breaks",
+      "meaningVi": "làm kiệt sức, dùng đến sờn rách",
+      "exampleSentence": "Walking all day around the city really wore me out.",
+      "exampleVi": "Việc đi bộ cả ngày quanh thành phố thực sự làm tôi kiệt sức.",
+      "usageContext": "Expressing exhaustion or material degradation.",
+      "level": "C1",
+      "synonyms": [
+        "exhaust",
+        "tire out"
+      ],
+      "antonyms": [
+        "refresh",
+        "energize"
+      ]
+    },
+    {
+      "word": "lay off",
+      "ipa": "/leɪ ɔf/",
+      "meaningEn": "to dismiss an employee, usually due to lack of work",
+      "meaningVi": "sa thải, cho nghỉ việc",
+      "exampleSentence": "The company had to lay off hundreds of workers due to the recession.",
+      "exampleVi": "Công ty đã phải cho nghỉ việc hàng trăm công nhân do suy thoái kinh tế.",
+      "usageContext": "Business restructurings and economic downturns.",
+      "level": "C1",
+      "synonyms": [
+        "dismiss",
+        "make redundant"
+      ],
+      "antonyms": [
+        "hire",
+        "employ"
+      ]
+    },
+    {
+      "word": "crack down on",
+      "ipa": "/kræk daʊn ɑn/",
+      "meaningEn": "to take severe measures against bad behavior or rule-breaking",
+      "meaningVi": "trừng trị thẳng tay, siết chặt",
+      "exampleSentence": "The police are cracking down on drunk driving.",
+      "exampleVi": "Cảnh sát đang siết chặt việc lái xe khi say rượu.",
+      "usageContext": "Enforcing laws and rules strictly.",
+      "level": "C1",
+      "synonyms": [
+        "suppress",
+        "clamp down on"
+      ],
+      "antonyms": [
+        "allow",
+        "tolerate"
+      ]
+    },
+    {
+      "word": "boil down to",
+      "ipa": "/bɔɪl daʊn tu/",
+      "meaningEn": "to be the main or most important result of something",
+      "meaningVi": "chung quy lại là, tóm lại là",
+      "exampleSentence": "The problem boils down to a lack of funding.",
+      "exampleVi": "Vấn đề chung quy lại là do thiếu vốn.",
+      "usageContext": "Summarizing complex situations into core issues.",
+      "level": "C1",
+      "synonyms": [
+        "come down to",
+        "reduce to"
+      ],
+      "antonyms": [
+        "complicate"
+      ]
+    },
+    {
+      "word": "brush up on",
+      "ipa": "/brʌʃ ʌp ɑn/",
+      "meaningEn": "to improve your knowledge, skill, or memory of something",
+      "meaningVi": "ôn tập lại, cải thiện (kỹ năng)",
+      "exampleSentence": "I need to brush up on my French before I visit Paris.",
+      "exampleVi": "Tôi cần ôn lại tiếng Pháp trước khi đến thăm Paris.",
+      "usageContext": "Refreshing old skills or knowledge.",
+      "level": "C1",
+      "synonyms": [
+        "review",
+        "refresh"
+      ],
+      "antonyms": [
+        "forget",
+        "neglect"
+      ]
+    },
+    {
+      "word": "come down with",
+      "ipa": "/kʌm daʊn wɪθ/",
+      "meaningEn": "to begin to suffer from an illness",
+      "meaningVi": "mắc bệnh, nhiễm bệnh",
+      "exampleSentence": "I think I am coming down with the flu.",
+      "exampleVi": "Tôi nghĩ tôi đang bị cảm cúm.",
+      "usageContext": "Describing the onset of sickness.",
+      "level": "C1",
+      "synonyms": [
+        "fall ill with",
+        "catch"
+      ],
+      "antonyms": [
+        "recover from"
+      ]
+    },
+    {
+      "word": "do away with",
+      "ipa": "/du əˈweɪ wɪθ/",
+      "meaningEn": "to get rid of or destroy something",
+      "meaningVi": "loại bỏ, bãi bỏ",
+      "exampleSentence": "The school decided to do away with school uniforms.",
+      "exampleVi": "Nhà trường quyết định bãi bỏ đồng phục học sinh.",
+      "usageContext": "Ending traditions, rules, or objects.",
+      "level": "C1",
+      "synonyms": [
+        "abolish",
+        "eliminate"
+      ],
+      "antonyms": [
+        "keep",
+        "establish"
+      ]
+    },
+    {
+      "word": "fall back on",
+      "ipa": "/fɔl bæk ɑn/",
+      "meaningEn": "to use something as a last resort when other plans fail",
+      "meaningVi": "dựa vào (khi không còn cách nào khác)",
+      "exampleSentence": "If the business fails, he has his savings to fall back on.",
+      "exampleVi": "Nếu việc kinh doanh thất bại, anh ấy có khoản tiết kiệm để dựa vào.",
+      "usageContext": "Relying on backups or alternatives.",
+      "level": "C1",
+      "synonyms": [
+        "rely on",
+        "resort to"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "get round to",
+      "ipa": "/ɡɛt raʊnd tu/",
+      "meaningEn": "to do something that you have intended to do for a long time",
+      "meaningVi": "sắp xếp thời gian để làm (việc đã định từ lâu)",
+      "exampleSentence": "I finally got round to reading that book you recommended.",
+      "exampleVi": "Cuối cùng tôi cũng có thời gian để đọc cuốn sách bạn giới thiệu.",
+      "usageContext": "Finally completing delayed tasks.",
+      "level": "C1",
+      "synonyms": [
+        "find time for"
+      ],
+      "antonyms": [
+        "procrastinate",
+        "ignore"
+      ]
+    },
+    {
+      "word": "go down with",
+      "ipa": "/ɡoʊ daʊn wɪθ/",
+      "meaningEn": "to become ill with a disease",
+      "meaningVi": "mắc bệnh",
+      "exampleSentence": "Half the office has gone down with the flu.",
+      "exampleVi": "Một nửa văn phòng đã mắc bệnh cúm.",
+      "usageContext": "Similar to 'come down with', often used for spreading illnesses.",
+      "level": "C1",
+      "synonyms": [
+        "catch",
+        "contract"
+      ],
+      "antonyms": [
+        "recover from"
+      ]
+    },
+    {
+      "word": "live up to",
+      "ipa": "/lɪv ʌp tu/",
+      "meaningEn": "to be as good as what was expected",
+      "meaningVi": "đáp ứng được kỳ vọng",
+      "exampleSentence": "The concert didn't live up to my expectations.",
+      "exampleVi": "Buổi hòa nhạc đã không đáp ứng được kỳ vọng của tôi.",
+      "usageContext": "Comparing reality to expectations.",
+      "level": "C1",
+      "synonyms": [
+        "fulfill",
+        "satisfy"
+      ],
+      "antonyms": [
+        "fail",
+        "disappoint"
+      ]
+    },
+    {
+      "word": "make up for",
+      "ipa": "/meɪk ʌp fɔr/",
+      "meaningEn": "to compensate for something bad with something good",
+      "meaningVi": "bù đắp cho",
+      "exampleSentence": "He bought her flowers to make up for being late.",
+      "exampleVi": "Anh ấy mua hoa cho cô ấy để bù đắp cho việc đến trễ.",
+      "usageContext": "Apologizing or compensating for errors.",
+      "level": "C1",
+      "synonyms": [
+        "compensate for",
+        "atone for"
+      ],
+      "antonyms": [
+        "worsen"
+      ]
+    },
+    {
+      "word": "play down",
+      "ipa": "/pleɪ daʊn/",
+      "meaningEn": "to try to make a problem or situation seem less important than it is",
+      "meaningVi": "làm giảm mức độ nghiêm trọng, nói giảm nói tránh",
+      "exampleSentence": "The government is trying to play down the severity of the crisis.",
+      "exampleVi": "Chính phủ đang cố gắng nói giảm nói tránh mức độ nghiêm trọng của cuộc khủng hoảng.",
+      "usageContext": "Minimizing issues in media or conversation.",
+      "level": "C1",
+      "synonyms": [
+        "minimize",
+        "downplay"
+      ],
+      "antonyms": [
+        "exaggerate",
+        "highlight"
+      ]
+    },
+    {
+      "word": "rule out",
+      "ipa": "/rul aʊt/",
+      "meaningEn": "to eliminate something as a possibility",
+      "meaningVi": "loại trừ",
+      "exampleSentence": "The police have ruled out suicide in this case.",
+      "exampleVi": "Cảnh sát đã loại trừ khả năng tự sát trong vụ án này.",
+      "usageContext": "Deducing facts by eliminating options.",
+      "level": "C1",
+      "synonyms": [
+        "eliminate",
+        "exclude"
+      ],
+      "antonyms": [
+        "include",
+        "consider"
+      ]
+    },
+    {
+      "word": "step down",
+      "ipa": "/stɛp daʊn/",
+      "meaningEn": "to resign from an important position or office",
+      "meaningVi": "từ chức",
+      "exampleSentence": "The CEO decided to step down after the scandal.",
+      "exampleVi": "Giám đốc điều hành quyết định từ chức sau vụ bê bối.",
+      "usageContext": "High-level resignations in business or politics.",
+      "level": "C1",
+      "synonyms": [
+        "resign",
+        "quit"
+      ],
+      "antonyms": [
+        "take office",
+        "assume position"
+      ]
+    },
+    {
+      "word": "take aback",
+      "ipa": "/teɪk əˈbæk/",
+      "meaningEn": "to surprise or shock someone so much that they do not know how to behave",
+      "meaningVi": "làm ngạc nhiên, làm sửng sốt",
+      "exampleSentence": "I was completely taken aback by his sudden resignation.",
+      "exampleVi": "Tôi hoàn toàn sửng sốt trước việc từ chức đột ngột của anh ấy.",
+      "usageContext": "Expressing intense surprise (usually passive).",
+      "level": "C1",
+      "synonyms": [
+        "surprise",
+        "shock"
+      ],
+      "antonyms": [
+        "expect",
+        "anticipate"
+      ]
+    },
+    {
+      "word": "touch upon",
+      "ipa": "/tʌtʃ əˈpɑn/",
+      "meaningEn": "to mention a subject briefly in speech or writing",
+      "meaningVi": "đề cập ngắn gọn đến",
+      "exampleSentence": "The speaker only touched upon the issue of climate change.",
+      "exampleVi": "Diễn giả chỉ đề cập ngắn gọn đến vấn đề biến đổi khí hậu.",
+      "usageContext": "Discussing topics lightly without depth.",
+      "level": "C1",
+      "synonyms": [
+        "mention briefly",
+        "allude to"
+      ],
+      "antonyms": [
+        "elaborate",
+        "dwell on"
+      ]
+    },
+    {
+      "word": "track down",
+      "ipa": "/træk daʊn/",
+      "meaningEn": "to find someone or something after a thorough search",
+      "meaningVi": "truy lùng, tìm ra",
+      "exampleSentence": "The police finally tracked down the suspect hiding in the woods.",
+      "exampleVi": "Cảnh sát cuối cùng đã truy lùng ra nghi phạm đang lẩn trốn trong rừng.",
+      "usageContext": "Intensive searching or investigating.",
+      "level": "C1",
+      "synonyms": [
+        "locate",
+        "unearth"
+      ],
+      "antonyms": [
+        "lose",
+        "give up"
+      ]
+    },
+    {
+      "word": "back out",
+      "ipa": "/bæk aʊt/",
+      "meaningEn": "to withdraw from a commitment or agreement",
+      "meaningVi": "rút lui (khỏi một thỏa thuận)",
+      "exampleSentence": "They backed out of the deal at the last minute.",
+      "exampleVi": "Họ đã rút lui khỏi thỏa thuận vào phút chót.",
+      "usageContext": "Business deals or personal promises.",
+      "level": "C2",
+      "synonyms": [
+        "withdraw",
+        "renege"
+      ],
+      "antonyms": [
+        "commit",
+        "follow through"
+      ]
+    },
+    {
+      "word": "bring off",
+      "ipa": "/brɪŋ ɔf/",
+      "meaningEn": "to succeed in doing something difficult",
+      "meaningVi": "thành công (trong việc khó khăn)",
+      "exampleSentence": "It was a risky plan, but she brought it off perfectly.",
+      "exampleVi": "Đó là một kế hoạch rủi ro, nhưng cô ấy đã thành công một cách hoàn hảo.",
+      "usageContext": "Accomplishing challenging tasks.",
+      "level": "C2",
+      "synonyms": [
+        "achieve",
+        "pull off"
+      ],
+      "antonyms": [
+        "fail",
+        "mess up"
+      ]
+    },
+    {
+      "word": "cave in",
+      "ipa": "/keɪv ɪn/",
+      "meaningEn": "to collapse, or to finally stop opposing something",
+      "meaningVi": "sụp đổ, nhượng bộ",
+      "exampleSentence": "The government eventually caved in to the protesters' demands.",
+      "exampleVi": "Chính phủ cuối cùng đã nhượng bộ trước yêu cầu của những người biểu tình.",
+      "usageContext": "Political pressure or physical collapses.",
+      "level": "C2",
+      "synonyms": [
+        "yield",
+        "collapse"
+      ],
+      "antonyms": [
+        "stand firm",
+        "resist"
+      ]
+    },
+    {
+      "word": "churn out",
+      "ipa": "/tʃɜrn aʊt/",
+      "meaningEn": "to produce something quickly and in large amounts, often without caring about quality",
+      "meaningVi": "sản xuất hàng loạt (thường kém chất lượng)",
+      "exampleSentence": "The factory churns out thousands of cheap toys every day.",
+      "exampleVi": "Nhà máy sản xuất hàng loạt hàng nghìn đồ chơi rẻ tiền mỗi ngày.",
+      "usageContext": "Criticizing mass production of low-quality items.",
+      "level": "C2",
+      "synonyms": [
+        "mass-produce",
+        "pump out"
+      ],
+      "antonyms": [
+        "craft",
+        "refine"
+      ]
+    },
+    {
+      "word": "clamp down",
+      "ipa": "/klæmp daʊn/",
+      "meaningEn": "to take strict action to prevent something",
+      "meaningVi": "đàn áp, kiểm soát chặt chẽ",
+      "exampleSentence": "The city is clamping down on illegal parking.",
+      "exampleVi": "Thành phố đang kiểm soát chặt chẽ việc đỗ xe trái phép.",
+      "usageContext": "Authoritative action against illegal acts.",
+      "level": "C2",
+      "synonyms": [
+        "suppress",
+        "crack down"
+      ],
+      "antonyms": [
+        "encourage",
+        "allow"
+      ]
+    },
+    {
+      "word": "crop up",
+      "ipa": "/krɑp ʌp/",
+      "meaningEn": "to appear or happen suddenly or unexpectedly",
+      "meaningVi": "bất ngờ xảy ra, nảy sinh",
+      "exampleSentence": "A few minor problems have cropped up during the project.",
+      "exampleVi": "Một vài vấn đề nhỏ đã bất ngờ nảy sinh trong suốt dự án.",
+      "usageContext": "Describing sudden issues or events.",
+      "level": "C2",
+      "synonyms": [
+        "arise",
+        "emerge"
+      ],
+      "antonyms": [
+        "disappear",
+        "vanish"
+      ]
+    },
+    {
+      "word": "dawdle over",
+      "ipa": "/ˈdɔdəl ˈoʊvər/",
+      "meaningEn": "to take a long time to do something, moving slowly",
+      "meaningVi": "la cà, lề mề, tốn thời gian vào việc gì",
+      "exampleSentence": "Stop dawdling over your breakfast or you'll be late for school.",
+      "exampleVi": "Đừng lề mề ăn sáng nữa nếu không con sẽ bị trễ học.",
+      "usageContext": "Scolding someone for being slow.",
+      "level": "C2",
+      "synonyms": [
+        "linger over",
+        "dally"
+      ],
+      "antonyms": [
+        "hurry through",
+        "rush"
+      ]
+    },
+    {
+      "word": "fend off",
+      "ipa": "/fɛnd ɔf/",
+      "meaningEn": "to defend oneself against an attack or criticism",
+      "meaningVi": "chống đỡ, đẩy lùi",
+      "exampleSentence": "He managed to fend off his attackers with a heavy stick.",
+      "exampleVi": "Anh ta đã cố gắng chống đỡ những kẻ tấn công bằng một cây gậy nặng.",
+      "usageContext": "Physical defense or deflecting harsh questions.",
+      "level": "C2",
+      "synonyms": [
+        "repel",
+        "deflect"
+      ],
+      "antonyms": [
+        "succumb to",
+        "submit"
+      ]
+    },
+    {
+      "word": "fizzle out",
+      "ipa": "/ˈfɪzəl aʊt/",
+      "meaningEn": "to gradually end or fail in a weak or disappointing way",
+      "meaningVi": "xẹp lép, thất bại dần dần",
+      "exampleSentence": "Their romance fizzled out after a few months.",
+      "exampleVi": "Chuyện tình cảm của họ nhạt dần và kết thúc sau vài tháng.",
+      "usageContext": "Describing the loss of momentum in trends or relationships.",
+      "level": "C2",
+      "synonyms": [
+        "peter out",
+        "die away"
+      ],
+      "antonyms": [
+        "flourish",
+        "thrive"
+      ]
+    },
+    {
+      "word": "gloss over",
+      "ipa": "/ɡlɔs ˈoʊvər/",
+      "meaningEn": "to avoid talking about something unpleasant or embarrassing",
+      "meaningVi": "lấp liếm, che giấu (khuyết điểm)",
+      "exampleSentence": "The director tried to gloss over the company's financial failures.",
+      "exampleVi": "Giám đốc cố gắng lấp liếm những thất bại tài chính của công ty.",
+      "usageContext": "Evading hard truths or flaws.",
+      "level": "C2",
+      "synonyms": [
+        "cover up",
+        "hide"
+      ],
+      "antonyms": [
+        "highlight",
+        "emphasize"
+      ]
+    },
+    {
+      "word": "hinge on",
+      "ipa": "/hɪndʒ ɑn/",
+      "meaningEn": "to completely depend on something",
+      "meaningVi": "hoàn toàn phụ thuộc vào",
+      "exampleSentence": "The success of the project hinges on securing enough funding.",
+      "exampleVi": "Sự thành công của dự án hoàn toàn phụ thuộc vào việc đảm bảo đủ kinh phí.",
+      "usageContext": "Emphasizing critical conditions for success.",
+      "level": "C2",
+      "synonyms": [
+        "depend on",
+        "rely on"
+      ],
+      "antonyms": [
+        "be independent of"
+      ]
+    },
+    {
+      "word": "iron out",
+      "ipa": "/ˈaɪərn aʊt/",
+      "meaningEn": "to resolve or solve problems or difficulties",
+      "meaningVi": "giải quyết triệt để (những khó khăn, bất đồng)",
+      "exampleSentence": "We need to iron out a few problems before signing the contract.",
+      "exampleVi": "Chúng ta cần giải quyết triệt để một vài vấn đề trước khi ký hợp đồng.",
+      "usageContext": "Finalizing agreements or fixing final bugs.",
+      "level": "C2",
+      "synonyms": [
+        "resolve",
+        "settle"
+      ],
+      "antonyms": [
+        "complicate",
+        "worsen"
+      ]
+    },
+    {
+      "word": "jot down",
+      "ipa": "/dʒɑt daʊn/",
+      "meaningEn": "to write something quickly on a piece of paper",
+      "meaningVi": "ghi chép nhanh",
+      "exampleSentence": "Let me just jot down your phone number.",
+      "exampleVi": "Để tôi ghi nhanh lại số điện thoại của bạn.",
+      "usageContext": "Taking quick notes.",
+      "level": "C2",
+      "synonyms": [
+        "note down",
+        "write down"
+      ],
+      "antonyms": [
+        "erase",
+        "delete"
+      ]
+    },
+    {
+      "word": "keel over",
+      "ipa": "/kil ˈoʊvər/",
+      "meaningEn": "to fall over suddenly, often because of fainting",
+      "meaningVi": "ngã quỵ (do ngất hoặc mệt mỏi)",
+      "exampleSentence": "It was so hot that the soldier keeled over during the parade.",
+      "exampleVi": "Trời quá nóng đến nỗi người lính ngã quỵ trong cuộc diễu hành.",
+      "usageContext": "Physical collapse from extreme conditions.",
+      "level": "C2",
+      "synonyms": [
+        "collapse",
+        "faint"
+      ],
+      "antonyms": [
+        "stand strong"
+      ]
+    },
+    {
+      "word": "lash out",
+      "ipa": "/læʃ aʊt/",
+      "meaningEn": "to suddenly attack someone or something physically or verbally",
+      "meaningVi": "tấn công (bằng lời nói hoặc hành động) một cách giận dữ",
+      "exampleSentence": "She lashed out at the reporter for asking invasive questions.",
+      "exampleVi": "Cô ấy đã mắng nhiếc phóng viên vì hỏi những câu mang tính xâm phạm.",
+      "usageContext": "Reacting aggressively due to anger.",
+      "level": "C2",
+      "synonyms": [
+        "attack",
+        "strike out"
+      ],
+      "antonyms": [
+        "praise",
+        "comfort"
+      ]
+    },
+    {
+      "word": "mull over",
+      "ipa": "/mʌl ˈoʊvər/",
+      "meaningEn": "to think deeply about something for a long time",
+      "meaningVi": "suy ngẫm, nghiền ngẫm",
+      "exampleSentence": "I need a few days to mull over your proposal.",
+      "exampleVi": "Tôi cần vài ngày để suy ngẫm về đề xuất của bạn.",
+      "usageContext": "Taking time to make careful decisions.",
+      "level": "C2",
+      "synonyms": [
+        "ponder",
+        "contemplate"
+      ],
+      "antonyms": [
+        "ignore",
+        "rush into"
+      ]
+    },
+    {
+      "word": "nail down",
+      "ipa": "/neɪl daʊn/",
+      "meaningEn": "to make a firm decision or agreement about something",
+      "meaningVi": "chốt lại, xác định rõ ràng",
+      "exampleSentence": "We need to nail down the dates for the conference.",
+      "exampleVi": "Chúng ta cần chốt lại ngày diễn ra hội nghị.",
+      "usageContext": "Finalizing plans or details.",
+      "level": "C2",
+      "synonyms": [
+        "finalize",
+        "secure"
+      ],
+      "antonyms": [
+        "leave open",
+        "delay"
+      ]
+    },
+    {
+      "word": "opt out",
+      "ipa": "/ɑpt aʊt/",
+      "meaningEn": "to choose not to participate in something",
+      "meaningVi": "từ chối tham gia, rút lui",
+      "exampleSentence": "Employees have the right to opt out of the pension scheme.",
+      "exampleVi": "Nhân viên có quyền từ chối tham gia chương trình lương hưu.",
+      "usageContext": "Making a formal decision not to join a program.",
+      "level": "C2",
+      "synonyms": [
+        "withdraw",
+        "choose not to"
+      ],
+      "antonyms": [
+        "opt in",
+        "participate"
+      ]
+    },
+    {
+      "word": "phase out",
+      "ipa": "/feɪz aʊt/",
+      "meaningEn": "to gradually stop using or providing something",
+      "meaningVi": "loại bỏ dần dần",
+      "exampleSentence": "The airline plans to phase out its older aircraft over the next five years.",
+      "exampleVi": "Hãng hàng không dự định loại bỏ dần các máy bay cũ trong 5 năm tới.",
+      "usageContext": "Strategic retirement of equipment or policies.",
+      "level": "C2",
+      "synonyms": [
+        "withdraw gradually",
+        "eliminate"
+      ],
+      "antonyms": [
+        "phase in",
+        "introduce"
+      ]
+    },
+    {
+      "word": "pore over",
+      "ipa": "/pɔr ˈoʊvər/",
+      "meaningEn": "to read or look at something very carefully",
+      "meaningVi": "miệt mài nghiên cứu, xem xét kỹ lưỡng",
+      "exampleSentence": "She spent hours poring over the old documents.",
+      "exampleVi": "Cô ấy đã dành hàng giờ đồng hồ miệt mài nghiên cứu các tài liệu cũ.",
+      "usageContext": "Studying documents intensely.",
+      "level": "C2",
+      "synonyms": [
+        "scrutinize",
+        "examine"
+      ],
+      "antonyms": [
+        "skim",
+        "glance at"
+      ]
+    }
+  ]
+}
