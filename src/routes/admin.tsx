@@ -6,7 +6,10 @@ import { toast } from "sonner";
 import { AdminBillingPanel } from "@/components/lily/admin-billing";
 import { AdminCoachPanel } from "@/components/lily/admin-coach";
 import { AdminShadowingPanel } from "@/components/lily/admin-shadowing";
+import { AdminAiCostPanel } from "@/components/lily/admin-ai-cost";
+import { AdminListeningPanel } from "@/components/lily/admin-listening";
 import { AdminPronunciationPanel } from "@/components/lily/admin-pronunciation";
+import { AdminSpeakingTestsPanel } from "@/components/lily/admin-speaking-tests";
 import { AdminVocabularyPanel } from "@/components/lily/admin-vocabulary";
 import { AdminMembers } from "@/components/lily/admin-members";
 import { AdminPlansPanel } from "@/components/lily/admin-plans";
@@ -49,10 +52,18 @@ type Tab =
   | "coach"
   | "shadowing"
   | "pronunciation"
-  | "vocabulary";
+  | "vocabulary"
+  | "listening"
+  | "speakingTests"
+  | "aiCost";
 type ContentRow = {
   id: string;
-  table: "vocabulary_words" | "grammar_lessons" | "speaking_questions" | "ielts_questions" | "listening_exercises";
+  table:
+    | "vocabulary_words"
+    | "grammar_lessons"
+    | "speaking_questions"
+    | "ielts_questions"
+    | "listening_exercises";
   rowId: string;
   label: string;
   status: string;
@@ -85,7 +96,14 @@ function AdminPage() {
   const [missingOnly, setMissingOnly] = useState(false);
   const [overrides, setOverrides] = useState<Record<string, string>>({});
   const [draft, setDraft] = useState<Record<string, string>>({});
-  const [newLang, setNewLang] = useState({ code: "", nativeName: "", englishName: "", flag: "", direction: "ltr", intlTag: "" });
+  const [newLang, setNewLang] = useState({
+    code: "",
+    nativeName: "",
+    englishName: "",
+    flag: "",
+    direction: "ltr",
+    intlTag: "",
+  });
   const [addingLang, setAddingLang] = useState(false);
 
   useEffect(() => {
@@ -94,24 +112,45 @@ function AdminPage() {
       const overview = await getAdminOverviewFn();
       setStudents(overview.students);
       const tally = new Map<string, number>();
-      for (const capability of overview.usage) tally.set(capability, (tally.get(capability) ?? 0) + 1);
-      setUsage([...tally.entries()].map(([capability, count]) => ({ capability, count })).sort((a, b) => b.count - a.count));
+      for (const capability of overview.usage)
+        tally.set(capability, (tally.get(capability) ?? 0) + 1);
+      setUsage(
+        [...tally.entries()]
+          .map(([capability, count]) => ({ capability, count }))
+          .sort((a, b) => b.count - a.count),
+      );
       setCounts((prev) => ({ ...prev, ...overview.counts }));
     })();
   }, [isAdmin, getAdminOverviewFn]);
 
-  /** Content access level. Row policies enforce the same rule for learners. */
+  /** Content access level. Row policies enforce the same rule for learners.
+   * vocabulary_words is excluded (Yêu cầu 9): its access_tier is now
+   * recomputed from billing_plans.limits.vocabulary_free_per_category by
+   * entitlements.server.ts#resyncContentFreeRanks() on every plan save, so a
+   * one-off edit here would just get silently overwritten by the next admin
+   * who touches the "Plans" tab — exactly the "two places disagreeing"
+   * problem the central config exists to avoid. Edit the free count there
+   * instead; grammar_lessons/speaking_questions/ielts_questions/
+   * listening_exercises below are legacy pre-rebuild tables no live feature
+   * gates on any more (see roadmap.md), left editable here only because
+   * nothing depends on them either way. */
   const setAccessTier = async (row: ContentRow, tier: string) => {
-    if (row.table === "speaking_questions") return;
+    if (row.table === "speaking_questions" || row.table === "vocabulary_words") return;
     try {
       await setContentAccessTierFn({
-        data: { table: row.table, rowId: row.rowId, tier: tier as "free" | "premium" | "ielts_pro" },
+        data: {
+          table: row.table,
+          rowId: row.rowId,
+          tier: tier as "free" | "premium" | "ielts_pro",
+        },
       });
     } catch (error) {
       toast.error(error instanceof Error ? error.message : t("common.somethingWrong"));
       return;
     }
-    setContent((prev) => prev.map((item) => (item.id === row.id ? { ...item, access_tier: tier } : item)));
+    setContent((prev) =>
+      prev.map((item) => (item.id === row.id ? { ...item, access_tier: tier } : item)),
+    );
   };
 
   useEffect(() => {
@@ -119,11 +158,51 @@ function AdminPage() {
     void (async () => {
       const { vocab, grammar, speakingQ, ieltsQ, listening } = await getAdminContentFn();
       const rows: ContentRow[] = [
-        ...vocab.map((r) => ({ id: `v${r.id}`, table: "vocabulary_words" as const, rowId: r.id, label: `📚 ${r.word}`, status: r.status, access_tier: r.access_tier, updated_at: r.updated_at })),
-        ...grammar.map((r) => ({ id: `g${r.id}`, table: "grammar_lessons" as const, rowId: r.id, label: `📖 ${r.title}`, status: r.status, access_tier: r.access_tier, updated_at: r.updated_at })),
-        ...speakingQ.map((r) => ({ id: `s${r.id}`, table: "speaking_questions" as const, rowId: r.id, label: `🎤 ${r.prompt}`, status: r.status, access_tier: "free", updated_at: r.updated_at })),
-        ...ieltsQ.map((r) => ({ id: `i${r.id}`, table: "ielts_questions" as const, rowId: r.id, label: `🎯 ${r.prompt}`, status: r.status, access_tier: r.access_tier, updated_at: r.updated_at })),
-        ...listening.map((r) => ({ id: `l${r.id}`, table: "listening_exercises" as const, rowId: r.id, label: `🎧 ${r.title}`, status: r.status, access_tier: r.access_tier, updated_at: r.updated_at })),
+        ...vocab.map((r) => ({
+          id: `v${r.id}`,
+          table: "vocabulary_words" as const,
+          rowId: r.id,
+          label: `📚 ${r.word}`,
+          status: r.status,
+          access_tier: r.access_tier,
+          updated_at: r.updated_at,
+        })),
+        ...grammar.map((r) => ({
+          id: `g${r.id}`,
+          table: "grammar_lessons" as const,
+          rowId: r.id,
+          label: `📖 ${r.title}`,
+          status: r.status,
+          access_tier: r.access_tier,
+          updated_at: r.updated_at,
+        })),
+        ...speakingQ.map((r) => ({
+          id: `s${r.id}`,
+          table: "speaking_questions" as const,
+          rowId: r.id,
+          label: `🎤 ${r.prompt}`,
+          status: r.status,
+          access_tier: "free",
+          updated_at: r.updated_at,
+        })),
+        ...ieltsQ.map((r) => ({
+          id: `i${r.id}`,
+          table: "ielts_questions" as const,
+          rowId: r.id,
+          label: `🎯 ${r.prompt}`,
+          status: r.status,
+          access_tier: r.access_tier,
+          updated_at: r.updated_at,
+        })),
+        ...listening.map((r) => ({
+          id: `l${r.id}`,
+          table: "listening_exercises" as const,
+          rowId: r.id,
+          label: `🎧 ${r.title}`,
+          status: r.status,
+          access_tier: r.access_tier,
+          updated_at: r.updated_at,
+        })),
       ];
       setContent(rows);
       setCounts((prev) => ({ ...prev, content: rows.length }));
@@ -141,7 +220,10 @@ function AdminPage() {
     })();
   }, [isAdmin, tab, targetLocale, getTranslationOverridesFn]);
 
-  const coverage = useMemo(() => translationCoverage(targetLocale, overrides as never), [targetLocale, overrides]);
+  const coverage = useMemo(
+    () => translationCoverage(targetLocale, overrides as never),
+    [targetLocale, overrides],
+  );
 
   const keys = useMemo(() => {
     const all = Object.keys(en) as TranslationKey[];
@@ -173,7 +255,12 @@ function AdminPage() {
    * scripts/load-languages.py or by switching this tab's locale to the new
    * code and saving keys one by one. */
   const addLanguage = async () => {
-    if (!newLang.code.trim() || !newLang.nativeName.trim() || !newLang.englishName.trim() || !newLang.intlTag.trim()) {
+    if (
+      !newLang.code.trim() ||
+      !newLang.nativeName.trim() ||
+      !newLang.englishName.trim() ||
+      !newLang.intlTag.trim()
+    ) {
       toast.error("Code, native name, English name and Intl tag are required.");
       return;
     }
@@ -190,7 +277,14 @@ function AdminPage() {
         },
       });
       toast.success(`${newLang.nativeName} added`);
-      setNewLang({ code: "", nativeName: "", englishName: "", flag: "", direction: "ltr", intlTag: "" });
+      setNewLang({
+        code: "",
+        nativeName: "",
+        englishName: "",
+        flag: "",
+        direction: "ltr",
+        intlTag: "",
+      });
     } catch (e) {
       toast.error(e instanceof Error ? e.message : "Could not add the language");
     } finally {
@@ -209,7 +303,11 @@ function AdminPage() {
   if (!isAdmin) {
     return (
       <AppShell>
-        <SectionHeading eyebrow={t("nav.admin")} title={t("admin.title")} description={t("admin.onlyAdmins")} />
+        <SectionHeading
+          eyebrow={t("nav.admin")}
+          title={t("admin.title")}
+          description={t("admin.onlyAdmins")}
+        />
       </AppShell>
     );
   }
@@ -226,12 +324,18 @@ function AdminPage() {
     { id: "shadowing", label: "Shadowing" },
     { id: "pronunciation", label: "Pronunciation" },
     { id: "vocabulary", label: "Vocabulary" },
+    { id: "listening", label: "Listening Lab" },
+    { id: "speakingTests", label: "Speaking Tests" },
+    { id: "aiCost", label: "AI Cost" },
   ];
-
 
   return (
     <AppShell>
-      <SectionHeading eyebrow={t("nav.admin")} title={t("admin.title")} description={t("admin.sub")} />
+      <SectionHeading
+        eyebrow={t("nav.admin")}
+        title={t("admin.title")}
+        description={t("admin.sub")}
+      />
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="lounge-panel p-5">
@@ -255,7 +359,9 @@ function AdminPage() {
             type="button"
             onClick={() => setTab(item.id)}
             className={`rounded-full px-4 py-2 text-sm font-semibold ring-1 ring-border ${
-              tab === item.id ? "bg-brass text-plum-deep" : "bg-surface-2 text-muted-foreground hover:text-foreground"
+              tab === item.id
+                ? "bg-brass text-plum-deep"
+                : "bg-surface-2 text-muted-foreground hover:text-foreground"
             }`}
           >
             {item.label}
@@ -290,8 +396,22 @@ function AdminPage() {
                 <li key={row.id} className="flex flex-wrap items-center justify-between gap-2 py-3">
                   <p className="line-clamp-1 text-sm text-foreground">{row.label}</p>
                   <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                    <span className="rounded-full bg-surface-2 px-2.5 py-1 ring-1 ring-border">{row.status}</span>
-                    {row.table === "speaking_questions" ? null : (
+                    <span className="rounded-full bg-surface-2 px-2.5 py-1 ring-1 ring-border">
+                      {row.status}
+                    </span>
+                    {row.table === "speaking_questions" ? null : row.table ===
+                      "vocabulary_words" ? (
+                      <span
+                        className="rounded-full bg-surface-2 px-2.5 py-1 text-xs text-muted-foreground ring-1 ring-border"
+                        title='Set in the "Plans" tab (vocabulary_free_per_category) — one shared place for every category.'
+                      >
+                        {row.access_tier === "ielts_pro"
+                          ? t("plan.ieltsPro")
+                          : row.access_tier === "premium"
+                            ? t("plan.premium")
+                            : t("plan.free")}
+                      </span>
+                    ) : (
                       <select
                         value={row.access_tier}
                         onChange={(event) => void setAccessTier(row, event.target.value)}
@@ -299,7 +419,11 @@ function AdminPage() {
                       >
                         {ACCESS_TIERS.map((tier) => (
                           <option key={tier} value={tier}>
-                            {tier === "ielts_pro" ? t("plan.ieltsPro") : tier === "premium" ? t("plan.premium") : t("plan.free")}
+                            {tier === "ielts_pro"
+                              ? t("plan.ieltsPro")
+                              : tier === "premium"
+                                ? t("plan.premium")
+                                : t("plan.free")}
                           </option>
                         ))}
                       </select>
@@ -321,8 +445,8 @@ function AdminPage() {
                 + Register a new language ({languages.length} enabled)
               </summary>
               <p className="mt-2 text-[11px] text-muted-foreground">
-                Adds the language everywhere it's picked immediately — no code change or redeploy. Its
-                dictionary starts empty; fill it in below (pick this code once added) or via
+                Adds the language everywhere it's picked immediately — no code change or redeploy.
+                Its dictionary starts empty; fill it in below (pick this code once added) or via
                 scripts/load-languages.py.
               </p>
               <div className="mt-3 flex flex-wrap gap-2">
@@ -402,7 +526,9 @@ function AdminPage() {
               >
                 {t("admin.missingOnly")}
               </button>
-              <span className="text-xs text-plum-soft">{t("admin.missingCount", { count: coverage.missing.length })}</span>
+              <span className="text-xs text-plum-soft">
+                {t("admin.missingCount", { count: coverage.missing.length })}
+              </span>
             </div>
 
             <ul className="mt-5 space-y-3">
@@ -462,7 +588,9 @@ function AdminPage() {
         {tab === "shadowing" && <AdminShadowingPanel />}
         {tab === "pronunciation" && <AdminPronunciationPanel />}
         {tab === "vocabulary" && <AdminVocabularyPanel />}
-
+        {tab === "listening" && <AdminListeningPanel />}
+        {tab === "speakingTests" && <AdminSpeakingTestsPanel />}
+        {tab === "aiCost" && <AdminAiCostPanel />}
       </div>
     </AppShell>
   );
