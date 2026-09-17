@@ -1,0 +1,15 @@
+-- Yêu cầu 12, mục 5: "Ngày bắt đầu gói trả phí = Ngày đăng ký gói ban đầu,
+-- không phải ngày bắt đầu kỳ thanh toán hiện tại."
+--
+-- /account showed subscriptions.current_period_start, which the webhook
+-- rewrites on every subscription.updated — so after the first renewal the
+-- "signup date" silently moved to the current billing period, which is exactly
+-- what the requirement rules out. Paddle sends the real one (started_at) on
+-- every subscription event and it never changes; we simply were not storing it.
+--
+-- Left NULL for rows that predate this column instead of backfilling a guess:
+-- membership-panel falls back to subscriptions.created_at (when our own row was
+-- first written, i.e. roughly signup) so the column only ever holds provider
+-- truth. handleSubscriptionUpdated only writes it when the payload carries a
+-- value, so a partial update can never blank it out.
+ALTER TABLE "subscriptions" ADD COLUMN IF NOT EXISTS "started_at" timestamp with time zone;

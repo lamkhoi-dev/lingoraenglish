@@ -7,6 +7,7 @@ import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
 import { MembershipPanel, PaymentHistoryPanel } from "@/components/lily/membership-panel";
 import { PanelCard } from "@/components/lily/score-panel";
+import { AiUsagePanel, ProgressSummaryPanel } from "@/components/lily/usage-progress";
 import { deleteMyAccountData, getMyAccountProfile, updateMyAccountProfile } from "@/lib/account.functions";
 import { useAuth } from "@/lib/auth";
 import { LANGUAGES, useI18n, type LocaleCode } from "@/lib/i18n";
@@ -138,6 +139,12 @@ function AccountPage() {
       <div className="mt-8 grid gap-6 lg:grid-cols-2">
         <MembershipPanel />
         <PaymentHistoryPanel />
+      </div>
+
+      {/* Yêu cầu 12, mục 8 + 9 — same server functions the dashboard reads. */}
+      <div className="mt-6 grid gap-6 lg:grid-cols-2">
+        <AiUsagePanel />
+        <ProgressSummaryPanel />
       </div>
 
       <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_320px]">
