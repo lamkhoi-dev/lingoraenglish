@@ -4,14 +4,20 @@ import { z } from "zod";
 
 import { withUser } from "@/db";
 import {
+  coachTurns,
   conversationMessages,
   conversationSessions,
+  dailyPlans,
   ieltsAttempts,
   listeningAttempts,
+  listeningProgress,
   profiles,
   pronunciationAttempts,
   pronunciationScores,
+  shadowingProgress,
   speakingAttempts,
+  speakingTestProgress,
+  vocabularyProgress,
 } from "@/db/schema/schema";
 import { requireAuth } from "@/lib/require-auth";
 
@@ -150,9 +156,33 @@ export const deleteMyAccountData = createServerFn({ method: "POST" })
       await db.delete(pronunciationAttempts).where(eq(pronunciationAttempts.userId, userId));
       await db.delete(pronunciationScores).where(eq(pronunciationScores.userId, userId));
       await db.delete(ieltsAttempts).where(eq(ieltsAttempts.userId, userId));
+      await db.delete(dailyPlans).where(eq(dailyPlans.userId, userId));
+      // Current tables. The three below them are the Supabase-era ones this
+      // function was written against and which nothing writes to any more —
+      // kept so older accounts are cleared too.
+      await db.delete(listeningProgress).where(eq(listeningProgress.userId, userId));
+      await db.delete(shadowingProgress).where(eq(shadowingProgress.userId, userId));
+      await db.delete(vocabularyProgress).where(eq(vocabularyProgress.userId, userId));
+      await db.delete(speakingTestProgress).where(eq(speakingTestProgress.userId, userId));
       await db.delete(listeningAttempts).where(eq(listeningAttempts.userId, userId));
       await db.delete(conversationMessages).where(eq(conversationMessages.userId, userId));
       await db.delete(conversationSessions).where(eq(conversationSessions.userId, userId));
+
+      // Coach history is redacted rather than deleted, and the rows stay.
+      // coach_turns is both the learner's transcript *and* the ledger the free
+      // allowance is counted from (coach_reserve_turn, migration 0005), and
+      // coach_sessions cascades into it — so deleting would hand every free
+      // account unlimited turns by pressing this button. Clearing the text
+      // removes what is actually private; coach_text keeps a non-empty
+      // tombstone because the count only includes turns whose reply landed.
+      await db
+        .update(coachTurns)
+        .set({ userText: "", coachText: "[deleted]", analysis: null })
+        .where(eq(coachTurns.userId, userId));
+      // coach_sessions is deliberately left alone: coach_turns.session_id
+      // cascades from it, so deleting a session would take the redacted ledger
+      // rows with it and reset the allowance after all. Its columns are a
+      // catalogue topic, level and status — nothing the learner wrote.
     });
     return { ok: true };
   });

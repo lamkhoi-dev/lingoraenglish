@@ -87,11 +87,27 @@ function AuthPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
+  /**
+   * Whitelist, not a blocklist: only messages this app itself deliberately
+   * wrote in auth.functions.ts are ever shown verbatim. Anything else — a raw
+   * driver/SQL error, an unexpected exception message, a future bug — falls
+   * back to a generic message instead of reaching the screen. The
+   * 2026-09-17 incident was a raw Postgres error ("Failed query: select
+   * auth_rate_take($1, $2, $3)...", exposing an internal function name, an
+   * email hash and the rate-limit window/threshold) rendered straight into a
+   * toast because the old version let anything through except two known
+   * phrases.
+   */
   const friendlyError = (message: string) => {
     const lower = message.toLowerCase();
     if (lower.includes("already exists")) return t("auth.emailTaken");
     if (lower.includes("invalid email or password")) return t("auth.badCredentials");
-    return message;
+    if (lower.startsWith("too many attempts")) return message; // rate-limit.server.ts's own wording
+    if (lower.includes("signs in with google")) return message;
+    if (lower.includes("verify your email before signing in")) return message;
+    if (lower.includes("reset link is invalid or has expired")) return message;
+    if (lower.includes("verification link is invalid or has expired")) return message;
+    return t("common.somethingWrong");
   };
 
   const resend = async () => {
@@ -235,7 +251,9 @@ function AuthPage() {
             <>
               <div className="grid gap-3 sm:grid-cols-2">
                 <label className="block">
-                  <span className="text-xs font-semibold text-foreground">{t("auth.firstName")}</span>
+                  <span className="text-xs font-semibold text-foreground">
+                    {t("auth.firstName")}
+                  </span>
                   <input
                     value={firstName}
                     onChange={(e) => setFirstName(e.target.value)}
@@ -245,7 +263,9 @@ function AuthPage() {
                   />
                 </label>
                 <label className="block">
-                  <span className="text-xs font-semibold text-foreground">{t("auth.lastName")}</span>
+                  <span className="text-xs font-semibold text-foreground">
+                    {t("auth.lastName")}
+                  </span>
                   <input
                     value={lastName}
                     onChange={(e) => setLastName(e.target.value)}
@@ -320,7 +340,9 @@ function AuthPage() {
                   </select>
                 </label>
                 <label className="block">
-                  <span className="text-xs font-semibold text-foreground">{t("auth.ageRange")}</span>
+                  <span className="text-xs font-semibold text-foreground">
+                    {t("auth.ageRange")}
+                  </span>
                   <select
                     value={ageRange}
                     onChange={(e) => setAgeRange(e.target.value)}
@@ -416,17 +438,29 @@ function AuthPage() {
 
         <div className="mt-5 flex flex-wrap justify-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
           {mode !== "signup" && (
-            <button type="button" onClick={() => setMode("signup")} className="hover:text-foreground">
+            <button
+              type="button"
+              onClick={() => setMode("signup")}
+              className="hover:text-foreground"
+            >
               {t("auth.createAccount")}
             </button>
           )}
           {mode !== "signin" && (
-            <button type="button" onClick={() => setMode("signin")} className="hover:text-foreground">
+            <button
+              type="button"
+              onClick={() => setMode("signin")}
+              className="hover:text-foreground"
+            >
               {t("auth.haveAccount")}
             </button>
           )}
           {mode !== "forgot" && (
-            <button type="button" onClick={() => setMode("forgot")} className="hover:text-foreground">
+            <button
+              type="button"
+              onClick={() => setMode("forgot")}
+              className="hover:text-foreground"
+            >
               {t("auth.forgot")}
             </button>
           )}

@@ -1,5 +1,7 @@
 import { createServerFn } from "@tanstack/react-start";
 import { getRequestHeader, getRequestIP } from "@tanstack/react-start/server";
+
+import { clearRateLimit, enforceRateLimit } from "@/lib/rate-limit.server";
 import { and, eq } from "drizzle-orm";
 import { z } from "zod";
 
@@ -14,6 +16,7 @@ import {
 } from "@/lib/session.server";
 import { withAdmin, withUser } from "@/db";
 import {
+  authEvents,
   emailVerificationTokensInAuth,
   oauthAccountsInAuth,
   passwordResetTokensInAuth,
@@ -52,6 +55,21 @@ function clientMeta() {
     userAgent: getRequestHeader("user-agent") ?? "",
     ip: getRequestIP() ?? "",
   };
+}
+
+/**
+ * Mục 3.5 "ghi nhật ký các sự kiện quan trọng". Never throws: an audit write
+ * failing must not be what stops someone signing in.
+ */
+async function logAuthEvent(event: string, userId: string | null): Promise<void> {
+  const meta = clientMeta();
+  try {
+    await withAdmin((db) =>
+      db.insert(authEvents).values({ userId, event, ip: meta.ip, userAgent: meta.userAgent }),
+    );
+  } catch (error) {
+    console.error("auth event log failed", event, error);
+  }
 }
 
 async function issueEmailVerification(userId: string, email: string): Promise<void> {
@@ -137,9 +155,11 @@ export const signUp = createServerFn({ method: "POST" })
       );
       const session = await createSession(userId, clientMeta());
       writeSessionCookie(session.id);
+      await logAuthEvent("signup", userId);
       return { requiresVerification: false };
     }
 
+    await logAuthEvent("signup", userId);
     await issueEmailVerification(userId, data.email);
 
     // No session yet — matches the original Supabase project's "confirm
@@ -159,6 +179,21 @@ const signInSchema = z.object({
 export const signIn = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => signInSchema.parse(d))
   .handler(async ({ data }) => {
+    // Mục 3.1. Per-email stops guessing one account; per-IP stops one host
+    // working through many accounts. The IP allowance is higher because real
+    // learners can share an address behind NAT. Both windows are short, so a
+    // learner locked out by someone else's guessing waits minutes, not hours.
+    const ip = getRequestIP() ?? "";
+    try {
+      await enforceRateLimit([
+        { kind: "signin:email", value: data.email, limit: 10, windowSeconds: 900 },
+        { kind: "signin:ip", value: ip, limit: 30, windowSeconds: 900 },
+      ]);
+    } catch (error) {
+      await logAuthEvent("signin_rate_limited", null);
+      throw error;
+    }
+
     const rows = await withAdmin((db) =>
       db
         .select({
@@ -178,15 +213,23 @@ export const signIn = createServerFn({ method: "POST" })
       throw new Error("This account signs in with Google. Use the Google button, or set a password from Account settings.");
     }
     const ok = await verifyPassword(data.password, user.encryptedPassword);
-    if (!ok) throw new Error(genericError);
+    if (!ok) {
+      await logAuthEvent("signin_failed", user.id);
+      throw new Error(genericError);
+    }
     // Checked after the password so a wrong-password guess on an unverified
     // account still gets the generic error, not a hint that the account exists.
     if (!user.emailConfirmedAt && !devSkipEmailVerification()) {
       throw new Error("Please verify your email before signing in — check your inbox for the confirmation link.");
     }
 
+    // Signed in for real — drop the counters so ordinary use never builds up.
+    await clearRateLimit("signin:email", data.email);
+    await clearRateLimit("signin:ip", ip);
+
     const session = await createSession(user.id, clientMeta());
     writeSessionCookie(session.id);
+    await logAuthEvent("signin_success", user.id);
     return { userId: user.id };
   });
 
@@ -387,6 +430,14 @@ const requestResetSchema = z.object({ email: z.string().trim().toLowerCase().ema
 export const requestPasswordReset = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => requestResetSchema.parse(d))
   .handler(async ({ data }) => {
+    // Mục 3.1: this endpoint sends mail, so without a cap it can be looped to
+    // flood a real learner's inbox and burn the SMTP quota. Capped before the
+    // lookup, so a blocked caller still cannot tell whether the address exists.
+    await enforceRateLimit([
+      { kind: "pwreset:email", value: data.email, limit: 3, windowSeconds: 3600 },
+      { kind: "pwreset:ip", value: getRequestIP() ?? "", limit: 10, windowSeconds: 3600 },
+    ]);
+
     // Always return the same generic result whether or not the email exists —
     // don't let this endpoint be used to enumerate registered accounts.
     const rows = await withAdmin((db) =>
@@ -502,6 +553,12 @@ const resendVerificationSchema = z.object({ email: z.string().trim().toLowerCase
 export const resendVerification = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => resendVerificationSchema.parse(d))
   .handler(async ({ data }) => {
+    // Same mail-flooding cap as requestPasswordReset (mục 3.1).
+    await enforceRateLimit([
+      { kind: "verify:email", value: data.email, limit: 3, windowSeconds: 3600 },
+      { kind: "verify:ip", value: getRequestIP() ?? "", limit: 10, windowSeconds: 3600 },
+    ]);
+
     // Same "don't leak account existence" principle as requestPasswordReset —
     // always return the same generic result either way.
     const rows = await withAdmin((db) =>
