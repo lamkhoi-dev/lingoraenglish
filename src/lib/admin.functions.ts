@@ -23,6 +23,7 @@ import {
 } from "@/db/schema/schema";
 import { bustLanguagesCache, bustLocaleCache } from "@/lib/i18n.functions";
 import { requireAdmin } from "@/lib/require-auth";
+import { logAdminAction } from "./entitlements.server";
 
 /* -------------------------------- overview ----------------------------- */
 
@@ -69,6 +70,88 @@ export const getAdminOverview = createServerFn({ method: "GET" })
       })),
       usage: usageRows.map((r) => r.capability),
     };
+  });
+
+/**
+ * Mục 3.2: "Trang quản trị có báo cáo mức sử dụng theo từng tính năng và theo
+ * thời gian" plus the budget/alert state. Aggregated in Postgres rather than
+ * pulling rows out and counting them here — the log grows with every AI call,
+ * so it must not be read into memory to be summarised.
+ */
+export const getAiCostReport = createServerFn({ method: "GET" })
+  .middleware([requireAdmin])
+  .handler(async () => {
+    const { getCostStatus } = await import("./ai-cost.server");
+    const [byFeature, byDay, status] = await Promise.all([
+      withAdmin((db) =>
+        db.execute(sql`
+          select capability, count(*)::int as calls,
+                 coalesce(sum(estimated_cost_micro_usd), 0)::bigint as cost_micro_usd
+          from ai_usage_log
+          where created_at >= now() - interval '30 days'
+          group by capability
+          order by cost_micro_usd desc
+        `),
+      ),
+      withAdmin((db) =>
+        db.execute(sql`
+          select to_char(date_trunc('day', created_at), 'YYYY-MM-DD') as day,
+                 count(*)::int as calls,
+                 coalesce(sum(estimated_cost_micro_usd), 0)::bigint as cost_micro_usd
+          from ai_usage_log
+          where created_at >= now() - interval '30 days'
+          group by 1
+          order by 1
+        `),
+      ),
+      getCostStatus(),
+    ]);
+
+    const toUsd = (micro: string | number) => Number(micro) / 1_000_000;
+    return {
+      byFeature: (byFeature as unknown as { capability: string; calls: number; cost_micro_usd: string }[]).map(
+        (r) => ({ capability: r.capability, calls: r.calls, costUsd: toUsd(r.cost_micro_usd) }),
+      ),
+      byDay: (byDay as unknown as { day: string; calls: number; cost_micro_usd: string }[]).map((r) => ({
+        day: r.day,
+        calls: r.calls,
+        costUsd: toUsd(r.cost_micro_usd),
+      })),
+      today: {
+        spentUsd: toUsd(status.spentMicroUsd),
+        budgetUsd: status.budgetMicroUsd === null ? null : toUsd(status.budgetMicroUsd),
+        alertThresholdPercent: status.alertThresholdPercent,
+        alerting: status.alerting,
+        overBudget: status.overBudget,
+      },
+    };
+  });
+
+const costSettingsSchema = z.object({
+  dailyBudgetUsd: z.number().min(0).max(100000).nullable(),
+  alertThresholdPercent: z.number().int().min(1).max(100),
+});
+
+/** Lets the customer set the budget themselves — no redeploy to change a number. */
+export const updateAiCostSettings = createServerFn({ method: "POST" })
+  .middleware([requireAdmin])
+  .inputValidator((d: unknown) => costSettingsSchema.parse(d))
+  .handler(async ({ data, context }) => {
+    const budgetMicro = data.dailyBudgetUsd === null ? null : Math.round(data.dailyBudgetUsd * 1_000_000);
+    await withAdmin((db) =>
+      db.execute(sql`
+        update ai_cost_settings
+        set daily_budget_micro_usd = ${budgetMicro},
+            alert_threshold_percent = ${data.alertThresholdPercent},
+            updated_at = now()
+        where id
+      `),
+    );
+    await logAdminAction(context.userId, "ai_cost_settings_updated", null, {
+      dailyBudgetUsd: data.dailyBudgetUsd,
+      alertThresholdPercent: data.alertThresholdPercent,
+    });
+    return { ok: true };
   });
 
 /* --------------------------------- content ------------------------------- */
