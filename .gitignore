@@ -55,3 +55,14 @@ db.sqlite
 
 # Scratch files
 scratch_keys.json
+
+# Server-function id map for scripts/test-usage-limits.mjs (regenerated per deploy)
+scripts/.usage-limit-ids.json
+
+# Scratch/debug artifacts from working sessions (SQL snippets, one-off dumps)
+audit_queries.sql
+verify.sql
+vocab.sql
+dump-en.ts
+en_keys_ref.txt
+deploy.batcls
