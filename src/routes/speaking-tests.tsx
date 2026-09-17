@@ -512,7 +512,11 @@ function TestRunner({
     }
   };
 
-  const shown = user && result ? result : { ...DEMO_IELTS, transcript: DEMO_IELTS.transcript };
+  // A signed-in learner only ever sees their own result: before they submit,
+  // the score panel is hidden rather than filled with DEMO_IELTS bands, which
+  // read as real marks. The sample stays for signed-out visitors, which is what
+  // demo-data.ts is for ("used only when the visitor is not signed in").
+  const shown = user ? result : { ...DEMO_IELTS, transcript: DEMO_IELTS.transcript };
   const mockAverage =
     mock && mock.bands.length > 0
       ? Math.round((mock.bands.reduce((a, b) => a + b, 0) / mock.bands.length) * 2) / 2
@@ -606,6 +610,7 @@ function TestRunner({
             />
           </div>
 
+          {shown && (
           <div className="mt-8 border-t border-border pt-6">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <ScoreStat label={t("tests.score.aiEstimated")} value={shown.estimated_band} suffix="/9.0" />
@@ -666,6 +671,7 @@ function TestRunner({
               </div>
             )}
           </div>
+          )}
         </PanelCard>
 
         <aside className="lounge-panel h-fit p-5">

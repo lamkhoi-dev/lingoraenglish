@@ -6,14 +6,14 @@ import { toast } from "sonner";
 
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
-import { PanelCard, ScoreStat } from "@/components/lily/score-panel";
+import { PanelCard, ScoreBar, ScoreStat } from "@/components/lily/score-panel";
 import { SpeakingFeedback } from "@/components/lily/speaking-feedback";
 import { useAuth } from "@/lib/auth";
-import { DEMO_SOUND_PROGRESS } from "@/lib/demo-data";
 import { useI18n } from "@/lib/i18n";
 import { generateLearningPlan, type LearningPlan } from "@/lib/lily.functions";
 import {
   getMyProgressHistory,
+  getProgressOverview,
   type ProgressSessionRow,
   type ProgressSoundRow,
   type ProgressSpeakingRow,
@@ -33,6 +33,16 @@ export const Route = createFileRoute("/progress")({
   component: ProgressPage,
 });
 
+/** One labelled number in a Yêu cầu 13 detail section. */
+function Metric({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="rounded-xl bg-surface-2 p-3 ring-1 ring-border">
+      <dt className="text-[11px] uppercase tracking-[0.12em] text-muted-foreground">{label}</dt>
+      <dd className="mt-1 font-display text-lg text-foreground">{value}</dd>
+    </div>
+  );
+}
+
 function tone(score: number) {
   if (score >= 85) return { dot: "bg-brass", label: "progress.good" as const };
   if (score >= 70) return { dot: "bg-brass-soft/60", label: "progress.practiceMore" as const };
@@ -45,7 +55,9 @@ function ProgressPage() {
   const { user, profile } = useAuth();
   const requestPlan = useServerFn(generateLearningPlan);
   const getMyProgressHistoryFn = useServerFn(getMyProgressHistory);
+  const getProgressOverviewFn = useServerFn(getProgressOverview);
 
+  const [overview, setOverview] = useState<Awaited<ReturnType<typeof getProgressOverview>> | null>(null);
   const [speaking, setSpeaking] = useState<ProgressSpeakingRow[]>([]);
   const [sessions, setSessions] = useState<ProgressSessionRow[]>([]);
   const [sounds, setSounds] = useState<ProgressSoundRow[]>([]);
@@ -57,6 +69,7 @@ function ProgressPage() {
 
   useEffect(() => {
     if (!user) return;
+    void getProgressOverviewFn().then(setOverview).catch(() => setOverview(null));
     void (async () => {
       const history = await getMyProgressHistoryFn();
       setSpeaking(history.speaking);
@@ -71,7 +84,7 @@ function ProgressPage() {
         setTestSummary(null);
       }
     })();
-  }, [user, getMyProgressHistoryFn]);
+  }, [user, getMyProgressHistoryFn, getProgressOverviewFn]);
 
   const generate = async () => {
     if (!user) return;
@@ -89,7 +102,14 @@ function ProgressPage() {
   const average = scored.length
     ? Math.round((scored.reduce((sum, s) => sum + (s.overall ?? 0), 0) / scored.length) * 10) / 10
     : null;
-  const shownSounds = user && sounds.length > 0 ? sounds : DEMO_SOUND_PROGRESS;
+  // Yêu cầu 13: a signed-in learner never sees sample data — an empty list is
+  // shown as an empty state instead (this used to fall back to DEMO_SOUND_PROGRESS).
+  const formatListeningTime = (seconds: number) => {
+    const minutes = Math.round(seconds / 60);
+    return minutes < 60
+      ? t("common.minutes", { count: minutes })
+      : `${Math.floor(minutes / 60)}h ${minutes % 60}m`;
+  };
 
   if (!user) {
     return (
@@ -111,6 +131,107 @@ function ProgressPage() {
   return (
     <AppShell>
       <SectionHeading eyebrow={t("nav.progress")} title={t("progress.title")} description={t("progress.sub")} />
+
+      {overview && !overview.hasData && (
+        <div className="lounge-panel mt-8 p-6">
+          <h3 className="font-display text-lg text-foreground">{t("progress.emptyTitle")}</h3>
+          <p className="mt-2 text-sm text-muted-foreground">{t("progress.emptyBody")}</p>
+          <div className="mt-4 flex flex-wrap gap-3">
+            <Link
+              to="/ai-speaking"
+              className="rounded-full bg-brass px-5 py-2.5 text-sm font-semibold text-plum-deep hover:bg-brass-soft"
+            >
+              {t("nav.coach")}
+            </Link>
+            <Link
+              to="/listening-lab"
+              className="rounded-full bg-surface-2 px-5 py-2.5 text-sm font-semibold text-foreground ring-1 ring-border"
+            >
+              {t("nav.listeningLab")}
+            </Link>
+          </div>
+        </div>
+      )}
+
+      {overview?.hasData && (
+        <>
+          <div className="mt-8">
+            <PanelCard title={t("progress.overview")}>
+            <div className="mt-4 space-y-4">
+              <ScoreBar label={t("progress.sectionSpeaking")} value={overview.skills.speaking} max={100} />
+              <ScoreBar label={t("progress.sectionListening")} value={overview.skills.listening} max={100} />
+              <ScoreBar
+                label={t("progress.sectionPronunciation")}
+                value={overview.skills.pronunciation}
+                max={100}
+              />
+              <ScoreBar label={t("progress.sectionVocabulary")} value={overview.skills.vocabulary} max={100} />
+            </div>
+            <p className="mt-4 text-xs text-muted-foreground">{t("progress.completionNote")}</p>
+            </PanelCard>
+          </div>
+
+          <div className="mt-6 grid gap-6 lg:grid-cols-2">
+            <PanelCard title={t("progress.sectionSpeaking")}>
+              <dl className="mt-3 grid gap-3 sm:grid-cols-2">
+                <Metric label={t("progress.coachSessions")} value={overview.speaking.coachSessions} />
+                <Metric
+                  label={t("progress.shadowingCompleted")}
+                  value={`${overview.speaking.shadowingCompleted} / ${overview.speaking.shadowingTotal}`}
+                />
+                <Metric
+                  label={t("progress.testsCompleted")}
+                  value={`${overview.speaking.testsCompleted} / ${overview.speaking.testsTotal}`}
+                />
+                <Metric
+                  label={t("progress.averageScore")}
+                  value={overview.speaking.averageScore === null ? "—" : `${overview.speaking.averageScore}/10`}
+                />
+              </dl>
+            </PanelCard>
+
+            <PanelCard title={t("progress.sectionListening")}>
+              <dl className="mt-3 grid gap-3 sm:grid-cols-2">
+                <Metric
+                  label={t("progress.lessonsCompleted")}
+                  value={`${overview.listening.lessonsCompleted} / ${overview.listening.lessonsTotal}`}
+                />
+                <Metric
+                  label={t("progress.comprehension")}
+                  value={overview.listening.comprehension === null ? "—" : `${overview.listening.comprehension}%`}
+                />
+                <Metric
+                  label={t("progress.dictation")}
+                  value={overview.listening.dictation === null ? "—" : `${overview.listening.dictation}%`}
+                />
+                <Metric
+                  label={t("progress.listeningTime")}
+                  value={formatListeningTime(overview.listening.secondsListened)}
+                />
+              </dl>
+            </PanelCard>
+
+            <PanelCard title={t("progress.sectionPronunciation")}>
+              <p className="mt-3 font-display text-2xl text-foreground">
+                {t("progress.soundsMastered", {
+                  mastered: overview.pronunciation.mastered,
+                  total: overview.pronunciation.total,
+                })}
+              </p>
+              <p className="mt-2 text-xs text-muted-foreground">{t("progress.masteryNote")}</p>
+            </PanelCard>
+
+            <PanelCard title={t("progress.sectionVocabulary")}>
+              <p className="mt-3 font-display text-2xl text-foreground">
+                {t("progress.wordsLearned", { count: overview.vocabulary.learned })}
+              </p>
+              <p className="mt-2 text-xs text-muted-foreground">
+                {t("progress.wordsOfTotal", { total: overview.vocabulary.total })}
+              </p>
+            </PanelCard>
+          </div>
+        </>
+      )}
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <div className="lounge-panel p-5">
@@ -297,9 +418,12 @@ function ProgressPage() {
         </div>
 
         <aside>
-          <PanelCard title={t("progress.pronProgress")} demo={sounds.length === 0}>
+          <PanelCard title={t("progress.pronProgress")}>
+            {sounds.length === 0 && (
+              <p className="text-sm text-muted-foreground">{t("progress.noSoundsYet")}</p>
+            )}
             <ul className="space-y-3">
-              {shownSounds.map((row) => {
+              {sounds.map((row) => {
                 const info = tone(row.score);
                 return (
                   <li key={row.sound}>

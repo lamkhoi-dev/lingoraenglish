@@ -1,15 +1,20 @@
 import { createServerFn } from "@tanstack/react-start";
-import { and, desc, eq, gte } from "drizzle-orm";
+import { and, desc, eq, gte, sql } from "drizzle-orm";
 
 import { withUser } from "@/db";
 import {
-  conversationSessions,
+  coachSessions,
   listeningAttempts,
+  listeningLessons,
   listeningProgress,
   pronunciationScores,
   shadowingProgress,
+  shadowingSentences,
   speakingAttempts,
+  speakingTestProgress,
+  speakingTests,
   vocabularyProgress,
+  vocabularyWords,
 } from "@/db/schema/schema";
 import type { SpeakingAnalysis } from "@/lib/lily.functions";
 import { requireAuth } from "@/lib/require-auth";
@@ -22,54 +27,147 @@ function num(value: string | null): number | null {
   return value === null ? null : Number(value);
 }
 
-/** Dashboard's 5 skill-area score bars. */
-export const getDashboardProgress = createServerFn({ method: "GET" })
+/**
+ * Yêu cầu 13 — everything the progress page shows, from real rows only.
+ *
+ * The four percentages are **completion**, not average score: "số mục đã hoàn
+ * thành trên tổng số mục có sẵn". The spec rules out average-score bars
+ * explicitly, which is what this page used to render.
+ *
+ *  - Speaking     = (shadowing mastered + speaking tests completed) / everything published
+ *                   in those two. Coach sessions are excluded from the ratio on purpose:
+ *                   conversations are unlimited, so there is no denominator — the count
+ *                   is reported on its own in the Speaking section instead.
+ *  - Listening    = lessons completed / published lessons
+ *  - Pronunciation= sounds mastered / 44
+ *  - Vocabulary   = words marked learned / published words
+ *
+ * "Mastered" for a sound is `pronunciation_scores.mastered`, set by
+ * pronunciation.functions.ts when clear_runs reaches 2 — i.e. two consecutive
+ * attempts scoring >= 90, and lost again after a lower score. The page states
+ * that threshold to the learner, per "cần định nghĩa rõ ngưỡng".
+ */
+export const getProgressOverview = createServerFn({ method: "GET" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
     const userId = context.userId;
-    const [speaking, vocab, listening, pron, sessions] = await withUser(userId, (db) =>
+    const { SOUND_COUNT } = await import("./pronunciation-sounds.server");
+
+    const count = (rows: { n: number }[]) => rows[0]?.n ?? 0;
+    const one = sql<number>`count(*)::int`;
+
+    const [
+      coachCount,
+      shadowDone,
+      shadowTotal,
+      testsDone,
+      testsTotal,
+      listenRows,
+      listenTotal,
+      soundsMastered,
+      vocabLearned,
+      vocabTotal,
+      speakingScores,
+    ] = await withUser(userId, (db) =>
       Promise.all([
+        db.select({ n: one }).from(coachSessions).where(eq(coachSessions.userId, userId)),
+        db
+          .select({ n: one })
+          .from(shadowingProgress)
+          .where(
+            and(eq(shadowingProgress.userId, userId), eq(shadowingProgress.status, "mastered")),
+          ),
+        db
+          .select({ n: one })
+          .from(shadowingSentences)
+          .where(eq(shadowingSentences.status, "published")),
+        db
+          .select({ n: one })
+          .from(speakingTestProgress)
+          .where(
+            and(
+              eq(speakingTestProgress.userId, userId),
+              sql`${speakingTestProgress.completedAt} is not null`,
+            ),
+          ),
+        db.select({ n: one }).from(speakingTests).where(eq(speakingTests.status, "published")),
+        db
+          .select({
+            comprehension: listeningProgress.comprehensionScore,
+            dictation: listeningProgress.dictationScore,
+            seconds: listeningProgress.secondsListened,
+            completedAt: listeningProgress.completedAt,
+          })
+          .from(listeningProgress)
+          .where(eq(listeningProgress.userId, userId)),
+        db
+          .select({ n: one })
+          .from(listeningLessons)
+          .where(eq(listeningLessons.status, "published")),
+        db
+          .select({ n: one })
+          .from(pronunciationScores)
+          .where(
+            and(eq(pronunciationScores.userId, userId), eq(pronunciationScores.mastered, true)),
+          ),
+        db
+          .select({ n: one })
+          .from(vocabularyProgress)
+          .where(and(eq(vocabularyProgress.userId, userId), eq(vocabularyProgress.mastered, true))),
+        db.select({ n: one }).from(vocabularyWords).where(eq(vocabularyWords.status, "published")),
         db
           .select({ overall: speakingAttempts.overall })
           .from(speakingAttempts)
-          .where(eq(speakingAttempts.userId, userId))
-          .limit(50),
-        db
-          .select({ mastered: vocabularyProgress.mastered })
-          .from(vocabularyProgress)
-          .where(eq(vocabularyProgress.userId, userId))
-          .limit(500),
-        db
-          .select({ score: listeningAttempts.score })
-          .from(listeningAttempts)
-          .where(eq(listeningAttempts.userId, userId))
-          .limit(50),
-        db
-          .select({ score: pronunciationScores.score })
-          .from(pronunciationScores)
-          .where(eq(pronunciationScores.userId, userId))
-          .limit(100),
-        db
-          .select({ performance: conversationSessions.performance })
-          .from(conversationSessions)
-          .where(eq(conversationSessions.userId, userId))
-          .limit(50),
+          .where(eq(speakingAttempts.userId, userId)),
       ]),
     );
 
-    const avg = (values: (string | null)[], scale = 10) => {
-      const nums = values.map(num).filter((v): v is number => v !== null);
-      if (!nums.length) return 0;
-      return Math.round((nums.reduce((a, b) => a + b, 0) / nums.length) * (100 / scale));
+    const pct = (done: number, total: number) =>
+      total > 0 ? Math.min(100, Math.round((done / total) * 100)) : 0;
+    const average = (values: (number | null)[]) => {
+      const nums = values.filter((v): v is number => v !== null);
+      return nums.length ? Math.round(nums.reduce((a, b) => a + b, 0) / nums.length) : null;
     };
-    const mastered = vocab.filter((r) => r.mastered).length;
+
+    const listenCompleted = listenRows.filter((r) => r.completedAt !== null).length;
+    const speakingDone = count(shadowDone) + count(testsDone);
+    const speakingTotalItems = count(shadowTotal) + count(testsTotal);
+    const overallScores = speakingScores.map((r) => num(r.overall));
 
     return {
-      speaking: avg(speaking.map((r) => r.overall)),
-      vocabulary: Math.min(100, mastered * 2),
-      grammar: avg(sessions.map((r) => r.performance)),
-      listening: avg(listening.map((r) => r.score), 100),
-      pronunciation: avg(pron.map((r) => r.score), 100),
+      skills: {
+        speaking: pct(speakingDone, speakingTotalItems),
+        listening: pct(listenCompleted, count(listenTotal)),
+        pronunciation: pct(count(soundsMastered), SOUND_COUNT),
+        vocabulary: pct(count(vocabLearned), count(vocabTotal)),
+      },
+      speaking: {
+        coachSessions: count(coachCount),
+        shadowingCompleted: count(shadowDone),
+        shadowingTotal: count(shadowTotal),
+        testsCompleted: count(testsDone),
+        testsTotal: count(testsTotal),
+        averageScore: average(overallScores),
+      },
+      listening: {
+        lessonsCompleted: listenCompleted,
+        lessonsTotal: count(listenTotal),
+        comprehension: average(listenRows.map((r) => r.comprehension)),
+        dictation: average(listenRows.map((r) => r.dictation)),
+        secondsListened: listenRows.reduce((sum, r) => sum + r.seconds, 0),
+      },
+      pronunciation: { mastered: count(soundsMastered), total: SOUND_COUNT },
+      vocabulary: { learned: count(vocabLearned), total: count(vocabTotal) },
+      /** Drives the empty state — nothing practised yet must not render zeros
+       * as if they were results (Yêu cầu 13: "không hiển thị số liệu giả"). */
+      hasData:
+        count(coachCount) > 0 ||
+        count(shadowDone) > 0 ||
+        count(testsDone) > 0 ||
+        listenRows.length > 0 ||
+        count(soundsMastered) > 0 ||
+        count(vocabLearned) > 0 ||
+        speakingScores.length > 0,
     };
   });
 
@@ -172,16 +270,15 @@ export const getMyProgressHistory = createServerFn({ method: "GET" })
           .limit(10),
         db
           .select({
-            id: conversationSessions.id,
-            topic: conversationSessions.topic,
-            durationSeconds: conversationSessions.durationSeconds,
-            performance: conversationSessions.performance,
-            feedback: conversationSessions.feedback,
-            createdAt: conversationSessions.createdAt,
+            id: coachSessions.id,
+            topic: coachSessions.topicTitle,
+            createdAt: coachSessions.createdAt,
+            updatedAt: coachSessions.updatedAt,
+            userTurns: coachSessions.userTurns,
           })
-          .from(conversationSessions)
-          .where(eq(conversationSessions.userId, userId))
-          .orderBy(desc(conversationSessions.createdAt))
+          .from(coachSessions)
+          .where(eq(coachSessions.userId, userId))
+          .orderBy(desc(coachSessions.createdAt))
           .limit(10),
         db
           .select({ sound: pronunciationScores.sound, score: pronunciationScores.score })
@@ -214,9 +311,9 @@ export const getMyProgressHistory = createServerFn({ method: "GET" })
     const sessions: ProgressSessionRow[] = sessionRows.map((row) => ({
       id: row.id,
       topic: row.topic,
-      duration_seconds: row.durationSeconds,
-      performance: num(row.performance),
-      feedback: row.feedback,
+      duration_seconds: Math.max(60, row.userTurns * 60),
+      performance: null,
+      feedback: "",
       created_at: row.createdAt,
     }));
     const sounds: ProgressSoundRow[] = soundRows.map((row) => ({ sound: row.sound, score: Number(row.score) }));

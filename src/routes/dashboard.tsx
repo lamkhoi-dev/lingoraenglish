@@ -4,14 +4,13 @@ import { useEffect, useState } from "react";
 
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
-import { UsageMeter } from "@/components/lily/paywall";
-import { PanelCard, ScoreBar } from "@/components/lily/score-panel";
+import { PanelCard } from "@/components/lily/score-panel";
 import { SubscriptionSummary } from "@/components/lily/subscription-summary";
+import { AiUsagePanel, ProgressSummaryPanel } from "@/components/lily/usage-progress";
 import { useBilling } from "@/hooks/use-billing";
 import { useAuth } from "@/lib/auth";
-import { getCoachUsage, type CoachUsage } from "@/lib/coach.functions";
 import { useI18n } from "@/lib/i18n";
-import { getDashboardProgress, getTodayCompletion } from "@/lib/progress.functions";
+import { getTodayCompletion } from "@/lib/progress.functions";
 import { en } from "@/locales/en";
 
 export const Route = createFileRoute("/dashboard")({
@@ -26,29 +25,6 @@ export const Route = createFileRoute("/dashboard")({
   component: DashboardPage,
 });
 
-type Progress = {
-  speaking: number;
-  vocabulary: number;
-  grammar: number;
-  listening: number;
-  pronunciation: number;
-};
-
-/**
- * The other 5 official free/premium thresholds (Yêu cầu 10) are fixed
- * content-unlock rules, not depleting monthly counters — shown as a static
- * rule rather than a usage meter. AI Speaking Coach is the only one of the 6
- * that's a real usage meter (see coachUsage below), since it's the only one
- * counted by turns used rather than by which items are unlocked.
- */
-const FIXED_LIMITS: { label: string; freeText: string }[] = [
-  { label: "nav.pronunciation", freeText: "dash.limits.pronunciationSounds" },
-  { label: "nav.vocabulary", freeText: "dash.limits.vocabulary" },
-  { label: "nav.tests", freeText: "dash.limits.speakingTests" },
-  { label: "nav.listeningLab", freeText: "dash.limits.listeningLab" },
-  { label: "dash.limits.pronunciationAdvancedLabel", freeText: "dash.limits.pronunciationAdvanced" },
-];
-
 const TODAY_TASKS = [
   { to: "/vocabulary" as const, label: "nav.vocabulary" as const },
   { to: "/ai-speaking" as const, label: "nav.coach" as const },
@@ -61,11 +37,7 @@ function DashboardPage() {
   const { user, profile, loading } = useAuth();
   const navigate = useNavigate();
   const billing = useBilling();
-  const getDashboardProgressFn = useServerFn(getDashboardProgress);
   const getTodayCompletionFn = useServerFn(getTodayCompletion);
-  const getCoachUsageFn = useServerFn(getCoachUsage);
-  const [progress, setProgress] = useState<Progress | null>(null);
-  const [coachUsage, setCoachUsage] = useState<CoachUsage | null>(null);
   const [doneToday, setDoneToday] = useState<Record<(typeof TODAY_TASKS)[number]["to"], boolean>>({
     "/vocabulary": false,
     "/ai-speaking": false,
@@ -79,15 +51,6 @@ function DashboardPage() {
     if (!loading && !user) void navigate({ to: "/auth", search: { next: "/dashboard" } as never });
   }, [loading, user, navigate]);
 
-  useEffect(() => {
-    if (!user) return;
-    void getDashboardProgressFn().then(setProgress);
-  }, [user, getDashboardProgressFn]);
-
-  useEffect(() => {
-    if (!user) return;
-    void getCoachUsageFn().then(setCoachUsage).catch(() => setCoachUsage(null));
-  }, [user, getCoachUsageFn]);
 
   // "Today's practice" completion: derived from real activity rows created/updated
   // since local midnight, not a separate plan table — no AI call needed.
@@ -117,52 +80,11 @@ function DashboardPage() {
       />
 
       <div className="mt-8 grid gap-5 lg:grid-cols-2">
-        <PanelCard title={t("dash.journey")}>
-          <div className="mt-4 space-y-4">
-            <ScoreBar label={t("nav.speaking")} value={progress?.speaking ?? 0} max={100} />
-            <ScoreBar label={t("nav.listening")} value={progress?.listening ?? 0} max={100} />
-            <ScoreBar label={t("nav.pronunciation")} value={progress?.pronunciation ?? 0} max={100} />
-            <ScoreBar label={t("nav.vocabulary")} value={progress?.vocabulary ?? 0} max={100} />
-          </div>
-        </PanelCard>
+        {/* Yêu cầu 13: /progress is the single progress-tracking page — this is
+            a summary that links there, sharing its data so they cannot differ. */}
+        <ProgressSummaryPanel />
 
-        <PanelCard title={t("dash.remaining")}>
-          <p className="mt-1 text-xs text-muted-foreground">
-            {t("dash.planLabel")}: {entitlement?.planName ?? t("plan.free")}
-          </p>
-          <div className="mt-4 grid gap-3">
-            {/* AI Speaking Coach is the one official limit that's a real usage
-                meter (turns used), read from coach_turns via getCoachUsage() —
-                not the legacy entitlements.server.ts capability system. */}
-            {coachUsage && !coachUsage.unlimited && (
-              <UsageMeter
-                label={t("nav.coach")}
-                used={coachUsage.tier === "free" ? coachUsage.freeTurnsUsed : coachUsage.monthlyUsed}
-                limit={coachUsage.tier === "free" ? coachUsage.freeTurnLimit : coachUsage.monthlyLimit}
-              />
-            )}
-            {coachUsage?.unlimited && (
-              <div className="rounded-2xl bg-surface-2/70 p-4 ring-1 ring-border">
-                <div className="flex items-baseline justify-between gap-3">
-                  <span className="text-sm font-medium text-foreground">{t("nav.coach")}</span>
-                  <span className="text-xs text-muted-foreground">{t("dash.limits.allUnlocked")}</span>
-                </div>
-              </div>
-            )}
-            {/* The other 5 official limits are fixed content-unlock thresholds,
-                not depleting counters, so they're shown as a plain rule. */}
-            {FIXED_LIMITS.map((item) => (
-              <div key={item.label} className="rounded-2xl bg-surface-2/70 p-4 ring-1 ring-border">
-                <div className="flex items-baseline justify-between gap-3">
-                  <span className="text-sm font-medium text-foreground">{t(item.label as never)}</span>
-                  <span className="text-xs text-muted-foreground">
-                    {tier === "free" ? t(item.freeText as never) : t("dash.limits.allUnlocked")}
-                  </span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </PanelCard>
+        <AiUsagePanel />
       </div>
 
       <div className="mt-5">
