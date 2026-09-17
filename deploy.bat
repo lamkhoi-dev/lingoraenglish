@@ -29,11 +29,17 @@ if errorlevel 1 (
   exit /b 1
 )
 del %GZ_FILE% 2>nul
-gzip %TAR_FILE%
+rem Dung PowerShell GZipStream thay vi goi thang "gzip" - may Windows chay
+rem deploy.bat qua cmd.exe (khac Git Bash) thuong khong co gzip.exe trong PATH
+rem he thong du Git for Windows co cai no o "<git>\usr\bin\gzip.exe". Output
+rem cua GZipStream la gzip format chuan (RFC 1952), gunzip ben VPS doc duoc
+rem y het - da test doi chieu byte-for-byte truoc khi doi sang cach nay.
+powershell -NoProfile -Command "$in=[IO.File]::OpenRead('%TAR_FILE%'); $out=[IO.File]::Create('%GZ_FILE%'); $gz=New-Object IO.Compression.GZipStream($out,[IO.Compression.CompressionLevel]::Optimal); $in.CopyTo($gz); $gz.Close(); $out.Close(); $in.Close()"
 if errorlevel 1 (
   echo [LOI] Nen file that bai. Dung lai.
   exit /b 1
 )
+del %TAR_FILE% 2>nul
 
 echo.
 echo === 3/5 Copy image (nen) + docker-compose.yml + .env.docker len VPS ===
