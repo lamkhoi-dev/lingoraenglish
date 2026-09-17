@@ -4,8 +4,9 @@ import { z } from "zod";
 
 import { withAdmin, withUser } from "@/db";
 import { pronunciationAttempts, pronunciationLessons, pronunciationScores } from "@/db/schema/schema";
-import { resolveTier, TIER_RANK } from "@/lib/entitlements.server";
-import { FREE_SOUND_COUNT, PHONEMES, type Phoneme } from "@/lib/pronunciation-content";
+import { getLimits, resolveTier, TIER_RANK, UpgradeRequiredError } from "@/lib/entitlements.server";
+import type { Phoneme } from "@/lib/pronunciation-content";
+import { findSoundIndex, isSoundIndexFree, PHONEMES, SOUND_COUNT } from "@/lib/pronunciation-sounds.server";
 import { getOptionalUserId, requireAuth } from "@/lib/require-auth";
 
 export type SoundCatalogueEntry = Phoneme & { unlocked: boolean };
@@ -23,8 +24,9 @@ export const getSoundsCatalogue = createServerFn({ method: "GET" }).handler(asyn
   const userId = await getOptionalUserId();
   const tier = userId ? await resolveTier(userId) : "free";
   const premium = TIER_RANK[tier] >= TIER_RANK.premium;
+  const freeCount = (await getLimits("free"))["pronunciation_sounds_free_count"] ?? 3;
   return PHONEMES.map((p, index): SoundCatalogueEntry => {
-    const unlocked = premium || index < FREE_SOUND_COUNT;
+    const unlocked = premium || isSoundIndexFree(index, freeCount);
     if (unlocked) return { ...p, unlocked };
     // exactOptionalPropertyTypes forbids accentNote: undefined — drop the key
     // entirely instead so a locked sound has no accent note rather than one
@@ -46,12 +48,18 @@ export const getSoundsCatalogue = createServerFn({ method: "GET" }).handler(asyn
   });
 });
 
-/** First 5 lessons (by sort_order) of each advanced skill are free by
- * default at load time (Yêu cầu 6) — purely a display constant now; the
- * real gate is each row's own is_free column (set at load time, editable
- * per-row or in bulk by an admin via adminSetPronunciationFreeCount), not a
- * live position computed from this number. */
-export const FREE_SKILL_LESSON_COUNT = 5;
+/** Yêu cầu 9: the "first N free" numbers shown in the UI (Sounds and the 8
+ * advanced skills) come from the same billing_plans.limits every gate
+ * reads, instead of a hard-coded display constant that could drift from
+ * the real enforcement. */
+export const getPronunciationFreeCounts = createServerFn({ method: "GET" }).handler(async () => {
+  const limits = await getLimits("free");
+  return {
+    sounds: limits["pronunciation_sounds_free_count"] ?? 3,
+    lessonsPerSkill: limits["pronunciation_lessons_free_per_skill"] ?? 5,
+    totalSounds: SOUND_COUNT,
+  };
+});
 
 export type SkillLessonItem = { text: string; pattern?: string; note?: string };
 
@@ -169,6 +177,19 @@ export const updatePronunciationSoundScore = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => updateSoundScoreSchema.parse(d))
   .handler(async ({ data, context }): Promise<SoundScoreUpdate> => {
     const userId = context.userId;
+    const index = findSoundIndex(data.sound);
+    if (index < 0) throw new Error("Unknown sound.");
+    const freeCount = (await getLimits("free"))["pronunciation_sounds_free_count"] ?? 3;
+    if (!isSoundIndexFree(index, freeCount)) {
+      const tier = await resolveTier(userId);
+      if (TIER_RANK[tier] < TIER_RANK.premium) {
+        throw new UpgradeRequiredError(
+          "pronunciation",
+          tier,
+          `The first ${freeCount} sounds are free. Upgrade to Premium to unlock all ${SOUND_COUNT} sounds.`,
+        );
+      }
+    }
     return withUser(userId, async (db) => {
       const existingRows = await db
         .select({

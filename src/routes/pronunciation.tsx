@@ -11,18 +11,16 @@ import { ScoreBar } from "@/components/lily/score-panel";
 import { useAuth } from "@/lib/auth";
 import { useI18n } from "@/lib/i18n";
 import {
-  FREE_SKILL_LESSON_COUNT,
   getMyPronunciationProgress,
+  getPronunciationFreeCounts,
   getSkillLessonsCatalogue,
   getSoundsCatalogue,
   type SkillLessonCatalogueEntry,
   type SoundCatalogueEntry,
 } from "@/lib/pronunciation.functions";
 import {
-  FREE_SOUND_COUNT,
   PHONEME_GROUPS,
   SKILLS,
-  SOUND_COUNT,
   type Accent,
   type Difficulty,
   type PronLevel,
@@ -146,6 +144,7 @@ function PronunciationPage() {
   const getMyPronunciationProgressFn = useServerFn(getMyPronunciationProgress);
   const getSoundsCatalogueFn = useServerFn(getSoundsCatalogue);
   const getSkillLessonsCatalogueFn = useServerFn(getSkillLessonsCatalogue);
+  const getPronunciationFreeCountsFn = useServerFn(getPronunciationFreeCounts);
 
   const [skill, setSkill] = useState<SkillId>("sounds");
   const [level, setLevel] = useState<PronLevel | "all">("all");
@@ -154,6 +153,7 @@ function PronunciationPage() {
   const [query, setQuery] = useState("");
   const [sounds, setSounds] = useState<SoundCatalogueEntry[]>([]);
   const [skillLessons, setSkillLessons] = useState<SkillLessonCatalogueEntry[]>([]);
+  const [freeCounts, setFreeCounts] = useState({ sounds: 3, lessonsPerSkill: 5, totalSounds: 44 });
   const [soundSymbol, setSoundSymbol] = useState<string | null>(null);
   const [wordTarget, setWordTarget] = useState<string | null>(null);
   const [lessonId, setLessonId] = useState<string | null>(null);
@@ -189,6 +189,16 @@ function PronunciationPage() {
       alive = false;
     };
   }, [getSkillLessonsCatalogueFn]);
+
+  useEffect(() => {
+    let alive = true;
+    void getPronunciationFreeCountsFn().then((counts) => {
+      if (alive) setFreeCounts(counts);
+    });
+    return () => {
+      alive = false;
+    };
+  }, [getPronunciationFreeCountsFn]);
 
   /* deep links from the coach or shadowing: ?sound=/θ/ or ?skill=intonation */
   useEffect(() => {
@@ -305,7 +315,7 @@ function PronunciationPage() {
       <SectionHeading
         eyebrow="Pronunciation"
         title="Sound clearer, more natural, more fluent"
-        description={`All ${SOUND_COUNT} English sounds plus word stress, sentence stress, intonation, connected speech, reductions, rhythm, chunking and fluency — every lesson ends with your own recording.`}
+        description={`All ${freeCounts.totalSounds} English sounds plus word stress, sentence stress, intonation, connected speech, reductions, rhythm, chunking and fluency — every lesson ends with your own recording.`}
       />
 
       {/* ------------------------------- dashboard ------------------------------ */}
@@ -422,7 +432,7 @@ function PronunciationPage() {
               {/* sound cards grouped by family */}
               <section className="lounge-panel p-5">
                 <div className="flex items-baseline justify-between">
-                  <h2 className="font-display text-lg text-foreground">The {SOUND_COUNT} English sounds</h2>
+                  <h2 className="font-display text-lg text-foreground">The {freeCounts.totalSounds} English sounds</h2>
                   <span className="text-xs text-muted-foreground">{filteredSounds.length} shown</span>
                 </div>
                 <div className="mt-4 space-y-4">
@@ -494,13 +504,13 @@ function PronunciationPage() {
                         pairs — is part of Lingora English Premium.
                       </p>
                       <p className="mt-1 text-xs text-muted-foreground">
-                        The first {FREE_SOUND_COUNT} sounds are free. Upgrade to unlock all {SOUND_COUNT}.
+                        The first {freeCounts.sounds} sounds are free. Upgrade to unlock all {freeCounts.totalSounds}.
                       </p>
                       <Link
                         to="/pricing"
                         className="mt-4 inline-flex rounded-full bg-brass px-4 py-2 text-sm font-semibold text-plum-deep shadow-brass"
                       >
-                        Unlock all {SOUND_COUNT} sounds
+                        Unlock all {freeCounts.totalSounds} sounds
                       </Link>
                     </div>
                   ) : (
@@ -678,7 +688,7 @@ function PronunciationPage() {
                         Premium.
                       </p>
                       <p className="mt-1 text-xs text-muted-foreground">
-                        The first {FREE_SKILL_LESSON_COUNT} examples of each skill are free. Upgrade to unlock the
+                        The first {freeCounts.lessonsPerSkill} examples of each skill are free. Upgrade to unlock the
                         rest.
                       </p>
                       <Link

@@ -6,7 +6,6 @@ import { toast } from "sonner";
 import {
   adminGetCoachSettings,
   adminListCoachTopics,
-  adminSaveCoachSettings,
   adminSetCoachTopicActive,
   COACH_CATEGORIES,
   type CoachCategory,
@@ -36,13 +35,11 @@ export function AdminCoachPanel() {
   const listTopics = useServerFn(adminListCoachTopics);
   const setActive = useServerFn(adminSetCoachTopicActive);
   const getSettings = useServerFn(adminGetCoachSettings);
-  const saveSettings = useServerFn(adminSaveCoachSettings);
 
   const [category, setCategory] = useState<CoachCategory>("free");
   const [rows, setRows] = useState<TopicRow[]>([]);
   const [loading, setLoading] = useState(false);
-  const [limits, setLimits] = useState({ free_turn_limit: 4, premium_monthly_turns: 0, pro_monthly_turns: 0 });
-  const [saving, setSaving] = useState(false);
+  const [limits, setLimits] = useState({ free_turn_limit: 3, premium_monthly_turns: 0, pro_monthly_turns: 0 });
 
   useEffect(() => {
     setLoading(true);
@@ -73,54 +70,27 @@ export function AdminCoachPanel() {
     }
   };
 
-  const persist = async () => {
-    setSaving(true);
-    try {
-      await saveSettings({ data: limits });
-      toast.success("Speaking limits saved");
-    } catch (e) {
-      toast.error(e instanceof Error ? e.message : "Could not save limits");
-    } finally {
-      setSaving(false);
-    }
-  };
-
   return (
     <div className="space-y-6">
       <div className="lounge-panel p-5">
         <h2 className="font-display text-lg text-foreground">Speaking turn limits</h2>
         <p className="mt-1 text-sm text-muted-foreground">
-          Free students get a fixed number of speaking turns in total. Use 0 for unlimited on paid plans.
+          Set in the "Plans" tab now (one shared place for every plan's limits) — shown here read-only.
         </p>
-        <div className="mt-4 grid gap-3 sm:grid-cols-3">
-          {(
-            [
-              ["free_turn_limit", "Free student turns (total)"],
-              ["premium_monthly_turns", "Premium turns / month"],
-              ["pro_monthly_turns", "IELTS Pro turns / month"],
-            ] as const
-          ).map(([key, label]) => (
-            <label key={key} className="text-xs text-muted-foreground">
-              {label}
-              <input
-                type="number"
-                min={0}
-                value={limits[key]}
-                onChange={(e) => setLimits((p) => ({ ...p, [key]: Number(e.target.value) }))}
-                className="mt-1 w-full rounded-xl bg-surface-2 px-3 py-2 text-sm text-foreground ring-1 ring-border outline-none focus:ring-brass/40"
-              />
-            </label>
-          ))}
+        <div className="mt-4 grid gap-3 text-sm text-foreground sm:grid-cols-3">
+          <div>
+            <span className="block text-xs text-muted-foreground">Free student turns (total)</span>
+            {limits.free_turn_limit}
+          </div>
+          <div>
+            <span className="block text-xs text-muted-foreground">Premium turns / month (0 = unlimited)</span>
+            {limits.premium_monthly_turns}
+          </div>
+          <div>
+            <span className="block text-xs text-muted-foreground">IELTS Pro turns / month (0 = unlimited)</span>
+            {limits.pro_monthly_turns}
+          </div>
         </div>
-        <button
-          type="button"
-          onClick={() => void persist()}
-          disabled={saving}
-          className="mt-4 inline-flex items-center gap-2 rounded-full bg-brass px-5 py-2.5 text-sm font-semibold text-plum-deep disabled:opacity-50"
-        >
-          {saving && <Loader2 className="size-4 animate-spin" />}
-          Save limits
-        </button>
       </div>
 
       <div className="lounge-panel p-5">

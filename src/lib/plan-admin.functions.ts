@@ -13,7 +13,7 @@ import { z } from "zod";
 import { withAdmin } from "@/db";
 import { billingPlans, profiles, subscriptions } from "@/db/schema/schema";
 import { requireAdmin } from "@/lib/require-auth";
-import { logAdminAction } from "./entitlements.server";
+import { bustLimitsCache, logAdminAction, resyncContentFreeRanks } from "./entitlements.server";
 import { getPaddleEnvironment } from "./payments-env";
 
 const LIMIT_KEYS = [
@@ -21,11 +21,29 @@ const LIMIT_KEYS = [
   "conversations",
   "pronunciation",
   "ielts_analyses",
-  "stt_requests",
-  "tts_requests",
+  // stt_requests/tts_requests removed 2026-09-16 — a hidden, undocumented
+  // monthly cap shared across every recording-based feature at once; see the
+  // CAPABILITY_MAP comment in lily.functions.ts. DAILY_AI_LIMIT there is the
+  // customer's actual "chống lạm dụng" ask (a flat daily cap).
   "vocabulary_lessons",
   "grammar_lessons",
   "listening_lessons",
+  // Yêu cầu 9: mọi hạn mức free/premium của từng tính năng gộp về đây —
+  // xem entitlements.server.ts (getLimits/resyncContentFreeRanks) cho nơi
+  // các số này thực sự được đọc/áp dụng.
+  "coach_free_turns_lifetime",
+  "coach_monthly_turns",
+  "shadowing_free_per_topic_level",
+  "pronunciation_lessons_free_per_skill",
+  "pronunciation_sounds_free_count",
+  "vocabulary_free_per_category",
+  "listening_free_categories",
+  "speaking_tests_free_per_part",
+  "speaking_tests_free_toefl_pte",
+  // Yêu cầu 11 / Vấn đề 4: days of access kept after a renewal payment fails,
+  // on top of the period already paid for. 0 = downgrade as soon as the paid
+  // period ends. Read by effective_tier()/has_active_subscription() in SQL.
+  "grace_period_days",
 ] as const;
 
 export const adminListPlans = createServerFn({ method: "POST" })
@@ -156,5 +174,16 @@ export const adminUpdatePlan = createServerFn({ method: "POST" })
       planKey: data.planKey,
       limits: data.limits,
     });
+
+    // Yêu cầu 9 acceptance criterion: a limit changed in one place takes
+    // effect everywhere immediately. bustLimitsCache() drops the short TTL
+    // cache so the next read sees the new numbers right away; resync
+    // recomputes the stored is_free/access_tier flags that Shadowing,
+    // Pronunciation lessons, Vocabulary and Listening actually gate on
+    // (harmless no-op if this save didn't touch the "free" plan's content
+    // keys — resync only ever reads the free plan's current limits).
+    bustLimitsCache();
+    await resyncContentFreeRanks();
+
     return { ok: true };
   });

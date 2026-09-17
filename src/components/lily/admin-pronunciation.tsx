@@ -6,7 +6,6 @@ import { toast } from "sonner";
 import {
   adminListPronunciationLessons,
   adminSavePronunciationLesson,
-  adminSetPronunciationFreeCount,
   adminSetPronunciationLessonStatus,
 } from "@/lib/pronunciation-admin.functions";
 import { cn } from "@/lib/utils";
@@ -83,7 +82,6 @@ export function AdminPronunciationPanel() {
   const listLessons = useServerFn(adminListPronunciationLessons);
   const saveLesson = useServerFn(adminSavePronunciationLesson);
   const setStatus = useServerFn(adminSetPronunciationLessonStatus);
-  const setFreeCount = useServerFn(adminSetPronunciationFreeCount);
 
   const [lessons, setLessons] = useState<LessonRow[]>([]);
   const [tally, setTally] = useState<Tally>({});
@@ -203,28 +201,9 @@ export function AdminPronunciationPanel() {
               >
                 {skill.label}
                 <span className="ml-2 text-xs font-normal text-muted-foreground">
-                  {t.total} lessons · {t.free} free (target: 50, 5 free)
+                  {t.total} lessons · {t.free} free (target: 50 · free count set in the "Plans" tab)
                 </span>
               </button>
-              <label className="flex items-center gap-1 text-xs text-muted-foreground">
-                Free
-                <input
-                  type="number"
-                  min={0}
-                  defaultValue={t.free}
-                  onBlur={(e) => {
-                    const n = Number(e.target.value);
-                    if (Number.isNaN(n) || n === t.free) return;
-                    void setFreeCount({ data: { skill: skill.id, free_count: n } })
-                      .then(() => {
-                        toast.success("Free preview updated");
-                        refresh();
-                      })
-                      .catch((err: unknown) => toast.error(err instanceof Error ? err.message : "Could not update"));
-                  }}
-                  className="w-16 rounded-lg bg-surface-3 px-2 py-1 text-xs text-foreground ring-1 ring-border"
-                />
-              </label>
             </div>
 
             {open && (

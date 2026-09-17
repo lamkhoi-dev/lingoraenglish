@@ -113,7 +113,14 @@ export function ShadowPractice({ sentence, progress, onSaved, onNext, position, 
         data: { audioBase64: recording.base64, mimeType: recording.mimeType },
       });
       const analysis = await analyse({
-        data: { target, transcript, lang, audioBase64: recording.base64, mimeType: recording.mimeType },
+        data: {
+          sentenceId: sentence.id,
+          target,
+          transcript,
+          lang,
+          audioBase64: recording.base64,
+          mimeType: recording.mimeType,
+        },
       });
       setResult(analysis);
       setMetrics(measureDelivery(transcript, recording.seconds));

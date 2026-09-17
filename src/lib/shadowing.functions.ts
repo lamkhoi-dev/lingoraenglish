@@ -1,9 +1,10 @@
 import { createServerFn } from "@tanstack/react-start";
-import { eq, sql } from "drizzle-orm";
+import { and, eq, sql } from "drizzle-orm";
 import { z } from "zod";
 
-import { withAnon, withUser } from "@/db";
-import { shadowingProgress } from "@/db/schema/schema";
+import { withAdmin, withAnon, withUser } from "@/db";
+import { shadowingProgress, shadowingSentences } from "@/db/schema/schema";
+import { assertUnlockedOrPremium } from "@/lib/entitlements.server";
 import { getOptionalUserId, requireAuth } from "@/lib/require-auth";
 
 const numOrNull = (n: number | null) => (n === null ? null : String(n));
@@ -103,6 +104,21 @@ export const saveShadowingProgress = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => saveShadowingProgressSchema.parse(d))
   .handler(async ({ data, context }) => {
     const userId = context.userId;
+    const sentenceRows = await withAdmin((db) =>
+      db
+        .select({ isFree: shadowingSentences.isFree })
+        .from(shadowingSentences)
+        .where(and(eq(shadowingSentences.id, data.sentenceId), eq(shadowingSentences.status, "published")))
+        .limit(1),
+    );
+    const sentence = sentenceRows[0];
+    if (!sentence) throw new Error("That sentence is no longer available.");
+    await assertUnlockedOrPremium(
+      userId,
+      sentence.isFree,
+      "pronunciation",
+      "This sentence is part of Lingora English Premium. Upgrade to unlock every Shadowing sentence.",
+    );
     const rows = await withUser(userId, (db) =>
       db
         .insert(shadowingProgress)

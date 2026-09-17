@@ -6,15 +6,17 @@
  * editing frontend code cannot reset it.
  */
 import { createServerFn } from "@tanstack/react-start";
-import { and, asc, eq, gte, sql } from "drizzle-orm";
+import { and, asc, eq, gt, gte, sql } from "drizzle-orm";
 import { z } from "zod";
 
 import { withAdmin, withAnon, withUser } from "@/db";
-import { aiUsageLog, coachSessions, coachSettings, coachTopics, coachTurns } from "@/db/schema/schema";
+import { aiUsageLog, coachSessions, coachTopics, coachTurns } from "@/db/schema/schema";
 import { getOptionalUserId, requireAdmin, requireAuth } from "@/lib/require-auth";
 import { currentLlmModel, currentTextProvider, llmCompleteWhole, type ChatMessage } from "./ai-providers.server";
-import { resolveTier, UpgradeRequiredError, type Tier } from "./entitlements.server";
+import { getLimits, resolveTier, UpgradeRequiredError, type Tier } from "./entitlements.server";
+import { explanationLanguageSchema } from "./explanation-language";
 import type { SpeakingAnalysis } from "./lily.functions";
+import { analyseSpeakingTranscript } from "./speaking-analysis.server";
 
 export const COACH_CATEGORIES = ["free", "daily", "roleplay", "interview", "challenge"] as const;
 export type CoachCategory = (typeof COACH_CATEGORIES)[number];
@@ -72,19 +74,21 @@ export const getCoachTopicCatalogue = createServerFn({ method: "GET" })
     return rows as unknown as CoachTopicPublic[];
   });
 
+/** Yêu cầu 9: turn thresholds come from billing_plans.limits (the one
+ * central config every feature reads — see entitlements.server.ts)
+ * instead of the old coach_settings singleton table. coach_settings is
+ * left in the schema unused for now rather than dropped immediately, as a
+ * rollback safety net — see 0004_unify_feature_limits.sql. */
 async function settings() {
-  const rows = await withAdmin((db) =>
-    db
-      .select({ freeTurnLimit: coachSettings.freeTurnLimit, premiumMonthlyTurns: coachSettings.premiumMonthlyTurns, proMonthlyTurns: coachSettings.proMonthlyTurns })
-      .from(coachSettings)
-      .where(eq(coachSettings.id, "default"))
-      .limit(1),
-  );
-  const row = rows[0];
+  const [freeLimits, premiumLimits, proLimits] = await Promise.all([
+    getLimits("free"),
+    getLimits("premium"),
+    getLimits("ielts_pro"),
+  ]);
   return {
-    freeTurnLimit: row?.freeTurnLimit ?? 3,
-    premiumMonthlyTurns: row?.premiumMonthlyTurns ?? 0,
-    proMonthlyTurns: row?.proMonthlyTurns ?? 0,
+    freeTurnLimit: freeLimits["coach_free_turns_lifetime"] ?? 3,
+    premiumMonthlyTurns: premiumLimits["coach_monthly_turns"] ?? 0,
+    proMonthlyTurns: proLimits["coach_monthly_turns"] ?? 0,
   };
 }
 
@@ -93,12 +97,19 @@ function monthStart() {
   return new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1)).toISOString();
 }
 
-async function countTurns(userId: string, extra: ReturnType<typeof eq>) {
+/** A turn counts once the coach actually answered it, or while its AI call
+ * may still be in flight. Same rule as coach_reserve_turn() (migration
+ * 0005): a reservation whose request died without completing — the process
+ * restarted mid-call, or the refund delete itself failed — stops costing the
+ * learner a turn after this window instead of costing one forever. */
+const countsAsUsed = sql`(${coachTurns.coachText} <> '' or ${coachTurns.createdAt} > now() - interval '5 minutes')`;
+
+async function countTurns(userId: string, extra: ReturnType<typeof and>) {
   const rows = await withAdmin((db) =>
     db
       .select({ n: sql<number>`count(*)::int` })
       .from(coachTurns)
-      .where(and(eq(coachTurns.userId, userId), extra)),
+      .where(and(eq(coachTurns.userId, userId), countsAsUsed, extra)),
   );
   return rows[0]!.n;
 }
@@ -108,8 +119,9 @@ async function readUsage(userId: string): Promise<CoachUsage> {
   const [tier, cfg, freeUsed, monthUsed] = await Promise.all([
     resolveTier(userId),
     settings(),
-    countTurns(userId, eq(coachTurns.countedFree, true)),
-    countTurns(userId, gte(coachTurns.createdAt, monthStart())),
+    countTurns(userId, and(eq(coachTurns.countedFree, true))),
+    // turn 0 is the coach's own opening line, not a learner turn.
+    countTurns(userId, and(gt(coachTurns.turnNumber, 0), gte(coachTurns.createdAt, monthStart()))),
   ]);
 
   const monthlyLimit =
@@ -373,10 +385,25 @@ export const startCoachSession = createServerFn({ method: "POST" })
 
 /* -------------------------------- coach reply ----------------------------- */
 
+/**
+ * One learner turn: reserves the turn, gets the coach's reply and scores the
+ * learner's answer — all inside this one request. Scoring used to be a
+ * separate analyseSpeaking call the page fired alongside this one, which
+ * meant a free learner with no turns left could keep calling that endpoint
+ * directly for unlimited AI feedback. Now feedback only exists for a turn
+ * that was actually spent (Yêu cầu 10), and both AI calls still run in
+ * parallel, just server-side.
+ */
 export const coachReply = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .inputValidator((d: unknown) =>
-    z.object({ sessionId: z.string().uuid(), transcript: z.string().min(1).max(4000) }).parse(d),
+    z
+      .object({
+        sessionId: z.string().uuid(),
+        transcript: z.string().min(1).max(4000),
+        lang: explanationLanguageSchema,
+      })
+      .parse(d),
   )
   .handler(async ({ data, context }) => {
     const sessionRows = await withAdmin((db) =>
@@ -435,17 +462,21 @@ export const coachReply = createServerFn({ method: "POST" })
     }
     messages.push({ role: "user", content: data.transcript });
 
-    // Reserve the turn in the database FIRST so the free allowance cannot be
-    // beaten by firing several requests at once. Calls the original
-    // coach_reserve_turn() Postgres function as-is (not reimplemented) —
-    // it takes an advisory lock for the duration of the transaction and
-    // checks auth.uid() itself, which is exactly why this one call runs
-    // through withUser() while everything else in this file uses
-    // withAdmin(): the function requires a real authenticated caller.
+    // Reserve the turn in the database FIRST so the allowance cannot be
+    // beaten by firing several requests at once. coach_reserve_turn() takes
+    // a per-learner advisory lock for the whole transaction and re-counts
+    // used turns under it — the free lifetime allowance and (since
+    // migration 0005) a paid plan's monthly allowance alike, so concurrent
+    // requests can't overshoot either one. It checks auth.uid() itself,
+    // which is why this one call runs through withUser() while everything
+    // else in this file uses withAdmin().
     let turnNumber: number;
     try {
+      const monthlyLimit = usage.tier === "free" ? 0 : usage.monthlyLimit;
       const rows = await withUser(context.userId, (db) =>
-        db.execute(sql`select coach_reserve_turn(${session.id}, ${usage.freeTurnLimit}, ${usage.tier === "free"}) as turn_number`),
+        db.execute(
+          sql`select coach_reserve_turn(${session.id}, ${usage.freeTurnLimit}, ${usage.tier === "free"}, ${monthlyLimit}) as turn_number`,
+        ),
       );
       const value = (rows as unknown as { turn_number: number | null }[])[0]?.turn_number;
       if (value == null) throw new Error("Could not start that turn.");
@@ -462,34 +493,67 @@ export const coachReply = createServerFn({ method: "POST" })
         }
         cause = cause instanceof Error ? cause.cause : undefined;
       }
-      if (turnLimitReached) assertTurnAvailable({ ...usage, turnsLeft: 0 });
+      // `usage` was read before the lock, so another request may have taken
+      // the last turn in between — report the limit as reached regardless.
+      if (turnLimitReached) {
+        assertTurnAvailable({ ...usage, freeTurnsUsed: usage.freeTurnLimit, turnsLeft: 0, unlimited: false });
+      }
       throw new Error("Could not start that turn.");
     }
 
+    const question = [...history].reverse().find((row) => row.coachText)?.coachText ?? topic.title;
+    // Scoring is best-effort (a turn still counts if only the scorecard
+    // fails), so it never rejects — only the coach's reply decides whether
+    // the reserved turn is kept or handed back.
+    const scoring = analyseSpeakingTranscript({
+      question,
+      transcript: data.transcript,
+      level: session.level,
+      lang: data.lang,
+    }).catch(() => null);
+
     let reply: string;
+    let analysis: SpeakingAnalysis | null;
     try {
-      const { text, inputTokens, outputTokens } = await llmCompleteWhole(messages, { maxTokens: 220 });
-      reply = text.trim();
+      const [completion, scored] = await Promise.all([llmCompleteWhole(messages, { maxTokens: 220 }), scoring]);
+      reply = completion.text.trim();
+      analysis = scored?.value ?? null;
 
       await withAdmin((db) =>
         db
           .update(coachTurns)
-          .set({ userText: data.transcript, coachText: reply })
+          .set({ userText: data.transcript, coachText: reply, analysis })
           .where(and(eq(coachTurns.sessionId, session.id), eq(coachTurns.turnNumber, turnNumber))),
       );
 
       await withAdmin((db) =>
-        db.insert(aiUsageLog).values({
-          userId: context.userId,
-          capability: "coach_turn",
-          provider: currentTextProvider(),
-          model: currentLlmModel(),
-          units: 1,
-          inputTokens,
-          outputTokens,
-        }),
+        db.insert(aiUsageLog).values([
+          {
+            userId: context.userId,
+            capability: "coach_turn",
+            provider: currentTextProvider(),
+            model: currentLlmModel(),
+            units: 1,
+            inputTokens: completion.inputTokens,
+            outputTokens: completion.outputTokens,
+          },
+          ...(scored
+            ? [
+                {
+                  userId: context.userId,
+                  capability: "speaking_analysis",
+                  provider: currentTextProvider(),
+                  model: currentLlmModel(),
+                  units: 1,
+                  inputTokens: scored.inputTokens,
+                  outputTokens: scored.outputTokens,
+                },
+              ]
+            : []),
+        ]),
       );
     } catch (error) {
+      // Refund: the AI call failed, so the reserved turn must not count.
       await withAdmin((db) =>
         db
           .delete(coachTurns)
@@ -501,53 +565,11 @@ export const coachReply = createServerFn({ method: "POST" })
     const after = await readUsage(context.userId);
     return {
       reply,
+      analysis,
       usage: after,
       locked: after.tier === "free" && after.freeTurnsUsed >= after.freeTurnLimit,
       turnNumber,
     };
-  });
-
-/**
- * Attaches the speaking-analysis scorecard to the turn it belongs to, so
- * reloading the page (getCoachSession above) can restore the feedback panel
- * for past turns instead of just the bare transcript. Best-effort: the
- * caller computes this analysis via a separate AI call from coachReply
- * (they run in parallel — see ai-speaking.tsx), so it's saved as a follow-up
- * write rather than inside coachReply itself.
- */
-const turnAnalysisSchema = z.object({
-  fluency: z.number(),
-  grammar: z.number(),
-  vocabulary: z.number(),
-  overall: z.number(),
-  mistakes: z.array(z.object({ wrong: z.string(), why: z.string() })),
-  corrections: z.array(z.object({ from: z.string(), to: z.string() })),
-  better_vocabulary: z.array(z.object({ instead_of: z.string(), use: z.string() })),
-  natural_answer: z.string(),
-  feedback: z.string(),
-});
-
-export const saveCoachTurnAnalysis = createServerFn({ method: "POST" })
-  .middleware([requireAuth])
-  .inputValidator((d: unknown) =>
-    z
-      .object({ sessionId: z.string().uuid(), turnNumber: z.number().int().min(1), analysis: turnAnalysisSchema })
-      .parse(d),
-  )
-  .handler(async ({ data, context }) => {
-    const sessionRows = await withAdmin((db) =>
-      db.select({ userId: coachSessions.userId }).from(coachSessions).where(eq(coachSessions.id, data.sessionId)).limit(1),
-    );
-    const session = sessionRows[0];
-    if (!session || session.userId !== context.userId) throw new Error("Session not found.");
-
-    await withAdmin((db) =>
-      db
-        .update(coachTurns)
-        .set({ analysis: data.analysis })
-        .where(and(eq(coachTurns.sessionId, data.sessionId), eq(coachTurns.turnNumber, data.turnNumber))),
-    );
-    return { ok: true };
   });
 
 /* ------------------------------ admin controls ---------------------------- */
@@ -657,31 +679,10 @@ export const adminSetCoachTopicActive = createServerFn({ method: "POST" })
     return { ok: true };
   });
 
+/** Read-only now — Yêu cầu 9 moved editing to the admin "Plans" tab
+ * (billing_plans.limits, via plan-admin.functions.ts) so this one number
+ * isn't settable from two different admin screens. Kept so admin-coach.tsx
+ * can still display the current allowance next to the topic list. */
 export const adminGetCoachSettings = createServerFn({ method: "GET" })
   .middleware([requireAdmin])
   .handler(async () => settings());
-
-export const adminSaveCoachSettings = createServerFn({ method: "POST" })
-  .middleware([requireAdmin])
-  .inputValidator((d: unknown) =>
-    z
-      .object({
-        free_turn_limit: z.number().int().min(0).max(100),
-        premium_monthly_turns: z.number().int().min(0).max(100000),
-        pro_monthly_turns: z.number().int().min(0).max(100000),
-      })
-      .parse(d),
-  )
-  .handler(async ({ data }) => {
-    await withAdmin((db) =>
-      db
-        .update(coachSettings)
-        .set({
-          freeTurnLimit: data.free_turn_limit,
-          premiumMonthlyTurns: data.premium_monthly_turns,
-          proMonthlyTurns: data.pro_monthly_turns,
-        })
-        .where(eq(coachSettings.id, "default")),
-    );
-    return { ok: true };
-  });

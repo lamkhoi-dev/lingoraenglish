@@ -2,8 +2,9 @@ import { createServerFn } from "@tanstack/react-start";
 import { and, eq, sql } from "drizzle-orm";
 import { z } from "zod";
 
-import { withAnon, withUser } from "@/db";
+import { withAdmin, withAnon, withUser } from "@/db";
 import { listeningLessons, listeningProgress } from "@/db/schema/schema";
+import { assertUnlockedOrPremium } from "@/lib/entitlements.server";
 import { getOptionalUserId, requireAuth } from "@/lib/require-auth";
 
 /** Public catalogue — calls the original listening_catalogue() Postgres
@@ -136,6 +137,21 @@ export const saveListeningProgress = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => saveProgressSchema.parse(d))
   .handler(async ({ data, context }) => {
     const userId = context.userId;
+    const lessonRows = await withAdmin((db) =>
+      db
+        .select({ isFree: listeningLessons.isFree })
+        .from(listeningLessons)
+        .where(and(eq(listeningLessons.id, data.lessonId), eq(listeningLessons.status, "published")))
+        .limit(1),
+    );
+    const lesson = lessonRows[0];
+    if (!lesson) throw new Error("That lesson is no longer available.");
+    await assertUnlockedOrPremium(
+      userId,
+      lesson.isFree,
+      "speaking",
+      "This lesson is part of Lingora English Premium. Upgrade to unlock every Listening Lab topic.",
+    );
     const saved = await withUser(userId, async (db) => {
       const existingRows = await db
         .select({ attempts: listeningProgress.attempts, secondsListened: listeningProgress.secondsListened })

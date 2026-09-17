@@ -6,7 +6,7 @@
  * library can be grown or edited from the dashboard without code changes.
  */
 import { createServerFn } from "@tanstack/react-start";
-import { and, asc, eq, gt, lte } from "drizzle-orm";
+import { asc, eq } from "drizzle-orm";
 import { z } from "zod";
 
 import { withAdmin } from "@/db";
@@ -146,21 +146,7 @@ export const adminSetPronunciationLessonStatus = createServerFn({ method: "POST"
     return { ok: true };
   });
 
-/** Marks the first N lessons (by sort_order) of one skill free and the rest
- * premium — mirrors adminSetShadowFreeCount exactly. */
-export const adminSetPronunciationFreeCount = createServerFn({ method: "POST" })
-  .middleware([requireAdmin])
-  .inputValidator((d: unknown) => z.object({ skill: z.enum(SKILLS), free_count: z.number().int().min(0).max(200) }).parse(d))
-  .handler(async ({ data }) => {
-    await withAdmin(async (db) => {
-      await db
-        .update(pronunciationLessons)
-        .set({ isFree: true })
-        .where(and(eq(pronunciationLessons.skill, data.skill), lte(pronunciationLessons.sortOrder, data.free_count)));
-      await db
-        .update(pronunciationLessons)
-        .set({ isFree: false })
-        .where(and(eq(pronunciationLessons.skill, data.skill), gt(pronunciationLessons.sortOrder, data.free_count)));
-    });
-    return { ok: true };
-  });
+// Yêu cầu 9: per-skill "set free count" removed — see the matching note in
+// shadowing-admin.functions.ts. The number now lives at
+// billing_plans.limits.pronunciation_lessons_free_per_skill and is applied
+// to every skill by entitlements.server.ts's resyncContentFreeRanks().

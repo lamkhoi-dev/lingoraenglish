@@ -1,4 +1,4 @@
-import { pgTable, pgSchema, unique, uuid, text, jsonb, timestamp, foreignKey, pgPolicy, numeric, integer, boolean, date, index, check, uniqueIndex, pgEnum } from "drizzle-orm/pg-core"
+import { pgTable, pgSchema, unique, uuid, text, jsonb, timestamp, foreignKey, pgPolicy, numeric, integer, boolean, date, index, check, uniqueIndex, pgEnum, primaryKey } from "drizzle-orm/pg-core"
 import { sql } from "drizzle-orm"
 
 export const auth = pgSchema("auth");
@@ -93,6 +93,8 @@ export const aiUsageLog = pgTable("ai_usage_log", {
 	units: integer().default(1).notNull(),
 	inputTokens: integer("input_tokens").default(0).notNull(),
 	outputTokens: integer("output_tokens").default(0).notNull(),
+	/** Micro-USD (1e-6), priced at call time — see ai-cost.server.ts. */
+	estimatedCostMicroUsd: integer("estimated_cost_micro_usd").default(0).notNull(),
 	createdAt: timestamp("created_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
 }, (table) => [
 	foreignKey({
@@ -458,6 +460,8 @@ export const subscriptions = pgTable("subscriptions", {
 	amount: integer(),
 	currentPeriodStart: timestamp("current_period_start", { withTimezone: true, mode: 'string' }),
 	currentPeriodEnd: timestamp("current_period_end", { withTimezone: true, mode: 'string' }),
+	/** Provider's original signup date — never rewritten on renewal (Yêu cầu 12). */
+	startedAt: timestamp("started_at", { withTimezone: true, mode: 'string' }),
 	cancelAtPeriodEnd: boolean("cancel_at_period_end").default(false).notNull(),
 	scheduledChange: text("scheduled_change").default('').notNull(),
 	trialEndsAt: timestamp("trial_ends_at", { withTimezone: true, mode: 'string' }),
@@ -543,6 +547,41 @@ export const billingEvents = pgTable("billing_events", {
 			name: "billing_events_user_id_fkey"
 		}).onDelete("set null"),
 	pgPolicy("Admins read billing events", { as: "permissive", for: "select", to: ["authenticated"], using: sql`has_role(auth.uid(), 'admin'::app_role)` }),
+]);
+
+/** Sign-up / sign-in trail, including refused attempts (mục 3.5). */
+export const authEvents = pgTable("auth_events", {
+	id: uuid().defaultRandom().primaryKey().notNull(),
+	userId: uuid("user_id"),
+	event: text().notNull(),
+	ip: text().default('').notNull(),
+	userAgent: text("user_agent").default('').notNull(),
+	createdAt: timestamp("created_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
+});
+
+/** Single-row AI spend controls (mục 3.2) — see ai-cost.server.ts. */
+export const aiCostSettings = pgTable("ai_cost_settings", {
+	id: boolean().default(true).primaryKey().notNull(),
+	dailyBudgetMicroUsd: integer("daily_budget_micro_usd"),
+	alertThresholdPercent: integer("alert_threshold_percent").default(80).notNull(),
+	updatedAt: timestamp("updated_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
+});
+
+/** Fixed-window counters for the auth endpoints — see rate-limit.server.ts. */
+export const authRateLimits = pgTable("auth_rate_limits", {
+	bucket: text().primaryKey().notNull(),
+	windowStart: timestamp("window_start", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
+	attempts: integer().default(0).notNull(),
+});
+
+/** One row per provider webhook event already processed — see webhook.ts. */
+export const processedWebhookEvents = pgTable("processed_webhook_events", {
+	eventId: text("event_id").notNull(),
+	environment: text().default('sandbox').notNull(),
+	eventType: text("event_type").default('').notNull(),
+	processedAt: timestamp("processed_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
+}, (table) => [
+	primaryKey({ columns: [table.eventId, table.environment], name: "processed_webhook_events_pkey" }),
 ]);
 
 export const usageCounters = pgTable("usage_counters", {

@@ -11,8 +11,8 @@ export type CatalogueKind = "vocabulary" | "grammar" | "listening";
 export type { CatalogueItem };
 
 /**
- * Titles of every published item plus whether the learner's plan includes it.
- * Locked bodies are never sent to the browser — row policies withhold them.
+ * Every published item plus whether the learner's plan includes it. Locked
+ * items arrive without id or title — only level, category and tier.
  */
 export function useContentCatalogue(kind: CatalogueKind) {
   const fetchCatalogue = useServerFn(getContentCatalogue);
@@ -40,6 +40,13 @@ export function LockedContentList({ kind, title }: { kind: CatalogueKind; title?
   const locked = (data ?? []).filter((item) => !item.unlocked);
   if (locked.length === 0) return null;
 
+  const groups = new Map<string, { count: number; tier: string }>();
+  for (const item of locked) {
+    const group = groups.get(item.category) ?? { count: 0, tier: item.access_tier };
+    group.count += 1;
+    groups.set(item.category, group);
+  }
+
   return (
     <section className="mt-10 rounded-3xl border border-brass/25 bg-surface-2/50 p-6 sm:p-8">
       <div className="flex flex-wrap items-center justify-between gap-3">
@@ -55,18 +62,16 @@ export function LockedContentList({ kind, title }: { kind: CatalogueKind; title?
       <p className="mt-2 text-sm text-muted-foreground">{t("locked.sub", { count: String(locked.length) })}</p>
 
       <ul className="mt-5 grid gap-2 sm:grid-cols-2">
-        {locked.slice(0, 12).map((item) => (
+        {[...groups.entries()].slice(0, 12).map(([category, group]) => (
           <li
-            key={item.id}
+            key={category}
             className="flex items-center justify-between gap-3 rounded-2xl bg-surface-1/70 px-4 py-3 ring-1 ring-border"
           >
             <span className="min-w-0">
-              <span className="block truncate text-sm font-medium text-foreground/80">{item.title}</span>
-              <span className="text-[11px] uppercase tracking-[0.12em] text-muted-foreground">
-                {[item.level, item.category].filter(Boolean).join(" · ")}
-              </span>
+              <span className="block truncate text-sm font-medium text-foreground/80">{category}</span>
+              <span className="text-[11px] uppercase tracking-[0.12em] text-muted-foreground">{group.count}</span>
             </span>
-            <TierBadge tier={item.access_tier} />
+            <TierBadge tier={group.tier} />
           </li>
         ))}
       </ul>

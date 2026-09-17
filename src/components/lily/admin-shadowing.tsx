@@ -9,7 +9,6 @@ import {
   adminSaveShadowDialogue,
   adminSaveShadowSentence,
   adminSaveShadowTopic,
-  adminSetShadowFreeCount,
   adminSetShadowTopicActive,
   adminUpdateShadowSentence,
 } from "@/lib/shadowing-admin.functions";
@@ -60,7 +59,6 @@ export function AdminShadowingPanel() {
   const listSentences = useServerFn(adminListShadowSentences);
   const saveSentence = useServerFn(adminSaveShadowSentence);
   const updateSentence = useServerFn(adminUpdateShadowSentence);
-  const setFreeCount = useServerFn(adminSetShadowFreeCount);
   const saveDialogue = useServerFn(adminSaveShadowDialogue);
 
   const [topics, setTopics] = useState<TopicRow[]>([]);
@@ -251,27 +249,6 @@ export function AdminShadowingPanel() {
                       {t.total_sentences} sentences · {t.free_sentences} free · #{t.sort_order}
                     </span>
                   </button>
-                  <label className="flex items-center gap-1 text-xs text-muted-foreground">
-                    Free
-                    <input
-                      type="number"
-                      min={0}
-                      defaultValue={t.free_sentences}
-                      onBlur={(e) => {
-                        const n = Number(e.target.value);
-                        if (Number.isNaN(n) || n === t.free_sentences) return;
-                        void setFreeCount({ data: { topic_id: t.id, free_count: n } })
-                          .then(() => {
-                            toast.success("Free preview updated");
-                            refreshTopics();
-                          })
-                          .catch((err: unknown) =>
-                            toast.error(err instanceof Error ? err.message : "Could not update"),
-                          );
-                      }}
-                      className="w-16 rounded-lg bg-surface-3 px-2 py-1 text-xs text-foreground ring-1 ring-border"
-                    />
-                  </label>
                   <button
                     type="button"
                     onClick={() =>

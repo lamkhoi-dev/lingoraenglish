@@ -5,7 +5,7 @@
  * library can be grown or edited from the dashboard without code changes.
  */
 import { createServerFn } from "@tanstack/react-start";
-import { and, asc, eq, gt, lte, sql } from "drizzle-orm";
+import { and, asc, eq, sql } from "drizzle-orm";
 import { z } from "zod";
 
 import { withAdmin } from "@/db";
@@ -301,22 +301,10 @@ export const adminSaveShadowDialogue = createServerFn({ method: "POST" })
     return { dialogue_id: dialogueId, turns: data.turns.length };
   });
 
-/** Marks the first N sentences of a topic free and the rest premium. */
-export const adminSetShadowFreeCount = createServerFn({ method: "POST" })
-  .middleware([requireAdmin])
-  .inputValidator((d: unknown) =>
-    z.object({ topic_id: z.string().uuid(), free_count: z.number().int().min(0).max(100) }).parse(d),
-  )
-  .handler(async ({ data }) => {
-    await withAdmin(async (db) => {
-      await db
-        .update(shadowingSentences)
-        .set({ isFree: true })
-        .where(and(eq(shadowingSentences.topicId, data.topic_id), lte(shadowingSentences.sortOrder, data.free_count)));
-      await db
-        .update(shadowingSentences)
-        .set({ isFree: false })
-        .where(and(eq(shadowingSentences.topicId, data.topic_id), gt(shadowingSentences.sortOrder, data.free_count)));
-    });
-    return { ok: true };
-  });
+// Yêu cầu 9: per-topic "set free count" removed — how many sentences are
+// free per (topic, level) now comes from billing_plans.limits
+// ("shadowing_free_per_topic_level", admin-editable in the "Plans" tab) and
+// is applied to every topic at once by entitlements.server.ts's
+// resyncContentFreeRanks(), instead of this feature keeping its own copy of
+// the same "mark first N free" logic that Pronunciation and Vocabulary each
+// used to duplicate too.

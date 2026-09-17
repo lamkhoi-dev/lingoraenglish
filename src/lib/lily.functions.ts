@@ -9,9 +9,11 @@ import {
   profiles,
   pronunciationLessons,
   pronunciationScores,
+  shadowingSentences,
   speakingAttempts,
   speakingTests,
   ttsCache,
+  vocabularyWords,
 } from "@/db/schema/schema";
 import { requireAuth } from "@/lib/require-auth";
 import {
@@ -27,44 +29,81 @@ import {
   providerStatuses,
   synthesise,
   transcribe,
-  type ChatMessage,
 } from "./ai-providers.server";
-import { recordUsage, requireCapacity, resolveTier, TIER_RANK, UpgradeRequiredError, type Capability } from "./entitlements.server";
-import { findSoundIndex, FREE_SOUND_COUNT, isSoundIndexFree } from "./pronunciation-content";
+import { assertWithinDailyBudget, priceCall } from "./ai-cost.server";
+import { assertUnlockedOrPremium, getLimits, reserveUsage, type Capability, type Tier } from "./entitlements.server";
+import { explanationLanguageSchema, langNote } from "./explanation-language";
+import { findSoundIndex, isSoundIndexFree, soundPracticeTargets } from "./pronunciation-sounds.server";
+import { analyseSpeakingTranscript } from "./speaking-analysis.server";
+import { vocabularySpeakingQuestion } from "./vocabulary-practice";
 
-/**
- * Free/premium here is decided purely by the item's own position (sound
- * index, lesson rank within its skill, or the speaking_tests.is_free flag)
- * — never by the generic monthly capability quota in entitlements.server.ts.
- * Throws UpgradeRequiredError when the caller's tier isn't Premium/IELTS Pro
- * and the item is past the free allowance.
- */
-async function assertUnlockedOrPremium(userId: string, unlocked: boolean, capability: Capability, message: string) {
-  if (unlocked) return;
-  const tier = await resolveTier(userId);
-  if (TIER_RANK[tier] < TIER_RANK["premium"]) {
-    throw new UpgradeRequiredError(capability, tier, message);
+/* ------------------------- practice-item binding ------------------------- */
+// Yêu cầu 10: every AI scoring call names ONE concrete practice item, and the
+// server checks both that the caller may open that item and that the text
+// being scored really belongs to it. Otherwise a direct API call could skip
+// the item id altogether, or pair a free item's id with a locked item's
+// words, and get unlimited scoring for content the plan doesn't include.
+
+const sameText = (a: string, b: string) => a.trim().replace(/\s+/g, " ") === b.trim().replace(/\s+/g, " ");
+
+function assertTextBelongs(text: string, allowed: string[]) {
+  if (!allowed.some((candidate) => sameText(candidate, text))) {
+    throw new Error("That practice line doesn't belong to this exercise.");
   }
+}
+
+/** Same prompt list speaking-test-library.ts#testPrompts shows: the cue card
+ * for IELTS Part 2, the question list for everything else. */
+async function assertSpeakingTestPrompt(userId: string, testId: string, prompt: string, capability: Capability) {
+  const rows = await withAdmin((db) =>
+    db
+      .select({ isFree: speakingTests.isFree, questions: speakingTests.questions, cueCard: speakingTests.cueCard })
+      .from(speakingTests)
+      .where(and(eq(speakingTests.id, testId), eq(speakingTests.status, "published")))
+      .limit(1),
+  );
+  const test = rows[0];
+  if (!test) throw new Error("That test is no longer available.");
+  await assertUnlockedOrPremium(
+    userId,
+    test.isFree,
+    capability,
+    "This test is part of Lingora English Premium. Upgrade to unlock all Speaking Tests.",
+  );
+  const questions = Array.isArray(test.questions) ? test.questions.filter((q): q is string => typeof q === "string") : [];
+  assertTextBelongs(prompt, test.cueCard ? [...questions, test.cueCard] : questions);
 }
 
 /* ----------------------------- cost control ----------------------------- */
 
 const DAILY_AI_LIMIT = 300;
 
-/** Which plan allowance each AI capability draws from. Deliberately does NOT
+/**
+ * Which plan allowance each AI capability draws from. Deliberately does NOT
  * include speaking_analysis/ielts_evaluation/pronunciation_feedback — those
  * are gated by each item's own free/premium status instead (see
  * assertUnlockedOrPremium below), which is the single source of truth for
- * AI Coach turns, Speaking Tests and Pronunciation. Keeping them mapped to a
- * separate monthly quota here would just reintroduce the two gates
- * disagreeing with each other. enforceLimit() below still runs its flat
- * daily abuse cap and cost log for every capability regardless. */
+ * AI Coach turns, Speaking Tests and Pronunciation. enforceLimit() below
+ * still runs its flat daily abuse cap and cost log for every capability
+ * regardless of whether it's mapped here.
+ *
+ * stt/tts used to be mapped to monthly stt_requests/tts_requests quotas
+ * (40-100/month free) — removed 2026-09-16. That was a hidden 7th/8th limit:
+ * not one of the six the customer's spec names (Yêu cầu 10), shared across
+ * every recording-based feature at once (a learner well within their 3 free
+ * Coach turns could still get blocked practising Pronunciation just from
+ * having re-recorded 40 times that month), and never shown to the learner.
+ * The spec's actual ask for this (3.1 "giới hạn tần suất... chống lạm dụng",
+ * 3.2 "giới hạn chi phí theo ngày") is a flat DAILY cap across everything,
+ * which DAILY_AI_LIMIT above already is — a second, monthly, per-service cap
+ * on top of it was never requested. Keep in sync with MONTHLY_QUOTA_KEYS in
+ * entitlements.server.ts. */
 const CAPABILITY_MAP: Record<string, Capability> = {
-  stt: "stt",
-  tts: "tts",
   learning_plan: "plan",
 };
 
+/** Cost log only — the plan allowance itself was already claimed by
+ * enforceLimit()'s reservation before the AI call. */
 async function logUsage(
   userId: string,
   capability: string,
@@ -83,17 +122,21 @@ async function logUsage(
       units,
       inputTokens,
       outputTokens,
+      // Priced now, not at read time: model prices change, and a past call has
+      // to keep what it actually cost (mục 3.2 "chi phí ước tính").
+      estimatedCostMicroUsd: priceCall(model, inputTokens, outputTokens),
     }),
   );
-
-  const mapped = CAPABILITY_MAP[capability];
-  if (mapped) await recordUsage(userId, mapped, units);
 }
 
-async function enforceLimit(userId: string, capability: string) {
-  const mapped = CAPABILITY_MAP[capability];
-  // Plan entitlement first: paid capabilities are gated server-side only.
-  if (mapped) await requireCapacity(userId, mapped);
+/** Runs the daily abuse cap, then atomically claims one unit of the plan
+ * allowance (when `capability` is metered). Returns the refund to call if
+ * the AI call that follows fails, so a failed call never costs the learner
+ * a use (Yêu cầu 10). */
+async function enforceLimit(userId: string, capability: string): Promise<() => Promise<void>> {
+  // Mục 3.2 "giới hạn chi phí theo ngày" — a whole-system spend cap, checked
+  // before the per-learner call cap below. Inert until an admin sets a budget.
+  await assertWithinDailyBudget();
 
   const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
   const rows = await withAdmin((db) =>
@@ -102,6 +145,9 @@ async function enforceLimit(userId: string, capability: string) {
   if (rows.length >= DAILY_AI_LIMIT) {
     throw new Error("You have reached today's practice limit. Come back tomorrow — Lingora English will be here!");
   }
+
+  const mapped = CAPABILITY_MAP[capability];
+  return mapped ? reserveUsage(userId, mapped) : async () => {};
 }
 
 function toError(error: unknown): never {
@@ -110,85 +156,6 @@ function toError(error: unknown): never {
   }
   throw error;
 }
-
-/** Interface languages Lingora English can explain in. English is the
- * fallback. This list is still static (unlike the interface-text
- * dictionaries, which are DB-driven — see i18n.functions.ts) — a language
- * registered purely via admin data entry after this list was last extended
- * falls back to English for AI-explanation language until a code change
- * adds it here. Documented limitation (see roadmap.md), not silently
- * broken: explanationLanguageSchema below already degrades safely to "en"
- * for any unrecognised code rather than erroring. */
-const LANGUAGE_NAMES: Record<string, string> = {
-  en: "English",
-  vi: "Vietnamese",
-  es: "Spanish",
-  pt: "Brazilian Portuguese",
-  fr: "French",
-  de: "German",
-  it: "Italian",
-  ja: "Japanese",
-  ko: "Korean",
-  "zh-CN": "Simplified Chinese",
-  "zh-TW": "Traditional Chinese",
-  hi: "Hindi",
-  id: "Indonesian",
-  tr: "Turkish",
-  ru: "Russian",
-  ar: "Modern Standard Arabic",
-  th: "Thai",
-  pl: "Polish",
-  nl: "Dutch",
-  sv: "Swedish",
-  da: "Danish",
-  nb: "Norwegian",
-  fi: "Finnish",
-  is: "Icelandic",
-  cs: "Czech",
-  sk: "Slovak",
-  hu: "Hungarian",
-  el: "Greek",
-  he: "Hebrew",
-  fa: "Persian",
-  ur: "Urdu",
-  ro: "Romanian",
-  uk: "Ukrainian",
-  bg: "Bulgarian",
-  hr: "Croatian",
-  sr: "Serbian",
-  sl: "Slovenian",
-  lt: "Lithuanian",
-  lv: "Latvian",
-  et: "Estonian",
-  ms: "Malay",
-  fil: "Filipino",
-  bn: "Bengali",
-  pa: "Punjabi",
-  ta: "Tamil",
-  te: "Telugu",
-  mr: "Marathi",
-  gu: "Gujarati",
-  kn: "Kannada",
-  ml: "Malayalam",
-  si: "Sinhala",
-  ne: "Nepali",
-  my: "Burmese",
-  km: "Khmer",
-};
-
-export const explanationLanguageSchema = z
-  .string()
-  .max(8)
-  .default("en")
-  .transform((code) => (LANGUAGE_NAMES[code] ? code : "en"));
-
-const langNote = (lang: string) => {
-  const name = LANGUAGE_NAMES[lang] ?? "English";
-  return name === "English"
-    ? "Write everything in clear, simple English."
-    : `Write every explanation and feedback field in ${name}, but keep English example sentences, corrections, rewrites and vocabulary in English.`;
-};
-
 
 /* ----------------------------- provider status ----------------------------- */
 
@@ -202,30 +169,36 @@ export const transcribeAudio = createServerFn({ method: "POST" })
     z.object({ audioBase64: z.string().min(64), mimeType: z.string().default("audio/wav") }).parse(d),
   )
   .handler(async ({ data, context }) => {
-    await enforceLimit(context.userId, "stt");
+    const refund = await enforceLimit(context.userId, "stt");
     try {
       const bytes = Uint8Array.from(atob(data.audioBase64), (c) => c.charCodeAt(0));
       const text = await transcribe(bytes, data.mimeType);
       await logUsage(context.userId, "stt", 1, 0, 0, currentSttModel());
       return { transcript: text };
     } catch (error) {
+      await refund();
       toError(error);
     }
   });
 
 /* ----------------------------- speaking analysis ---------------------------- */
 
-const speakingSchema = z.object({
-  question: z.string().min(1).max(500),
-  transcript: z.string().min(1).max(4000),
-  lang: explanationLanguageSchema,
-  level: z.string().default("B1"),
-  /** Set only by the TOEFL/PTE non-read-back tasks in Speaking Tests — AI
-   * Coach turn grading and Vocabulary's "use it in speaking" leave this
-   * unset, since they're already gated elsewhere (coach_turns, and
-   * vocabulary_words' own RLS respectively). */
-  testId: z.string().uuid().optional(),
-});
+const speakingSchema = z
+  .object({
+    question: z.string().min(1).max(500),
+    transcript: z.string().min(1).max(4000),
+    lang: explanationLanguageSchema,
+    level: z.string().default("B1"),
+    /** A TOEFL/PTE Speaking Test (the question must be one of its prompts). */
+    testId: z.string().uuid().optional(),
+    /** A Vocabulary word ("Use it in speaking") — the question is rebuilt
+     * from the word's own row. AI Coach turns are not scored here at all:
+     * coachReply scores them inside the same request that spends the turn. */
+    wordId: z.string().uuid().optional(),
+  })
+  .refine((d) => Boolean(d.testId) !== Boolean(d.wordId), {
+    message: "Choose one test or one word to practise with.",
+  });
 
 export type SpeakingAnalysis = {
   fluency: number;
@@ -243,35 +216,36 @@ export const analyseSpeaking = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .inputValidator((d: unknown) => speakingSchema.parse(d))
   .handler(async ({ data, context }) => {
+    let question = data.question;
     if (data.testId) {
-      const testRows = await withAdmin((db) =>
-        db.select({ isFree: speakingTests.isFree }).from(speakingTests).where(eq(speakingTests.id, data.testId!)).limit(1),
+      await assertSpeakingTestPrompt(context.userId, data.testId, data.question, "speaking");
+    } else {
+      const rows = await withAdmin((db) =>
+        db
+          .select({ word: vocabularyWords.word, exampleSentence: vocabularyWords.exampleSentence, accessTier: vocabularyWords.accessTier })
+          .from(vocabularyWords)
+          .where(and(eq(vocabularyWords.id, data.wordId!), eq(vocabularyWords.status, "published")))
+          .limit(1),
       );
-      const test = testRows[0];
-      if (!test) throw new Error("That test is no longer available.");
+      const word = rows[0];
+      if (!word) throw new Error("That word is no longer available.");
       await assertUnlockedOrPremium(
         context.userId,
-        test.isFree,
+        word.accessTier === "free",
         "speaking",
-        "This test is part of Lingora English Premium. Upgrade to unlock all Speaking Tests.",
+        "This word is part of Lingora English Premium. Upgrade to practise every word in the library.",
+        word.accessTier as Tier,
       );
+      question = vocabularySpeakingQuestion(word.word, word.exampleSentence);
     }
     await enforceLimit(context.userId, "speaking_analysis");
     try {
-      const messages: ChatMessage[] = [
-        {
-          role: "system",
-          content: `You are Lingora English, a warm, patient, encouraging female English teacher. Score honestly but kindly. ${langNote(data.lang)}
-Return JSON only:
-{"fluency":0-10,"grammar":0-10,"vocabulary":0-10,"overall":0-10,"mistakes":[{"wrong":"","why":""}],"corrections":[{"from":"","to":""}],"better_vocabulary":[{"instead_of":"","use":""}],"natural_answer":"","feedback":""}
-Max 4 items per array. feedback: max 3 short sentences. Do NOT score pronunciation — you only see a transcript.`,
-        },
-        {
-          role: "user",
-          content: `Level: ${data.level}\nQuestion: ${data.question}\nStudent (speech-to-text): ${data.transcript}`,
-        },
-      ];
-      const { value, inputTokens, outputTokens } = await llmJson<SpeakingAnalysis>(messages, 900);
+      const { value, inputTokens, outputTokens } = await analyseSpeakingTranscript({
+        question,
+        transcript: data.transcript,
+        level: data.level,
+        lang: data.lang,
+      });
       await logUsage(context.userId, "speaking_analysis", 1, inputTokens, outputTokens);
       return value;
     } catch (error) {
@@ -319,17 +293,7 @@ export const evaluateIelts = createServerFn({ method: "POST" })
       .parse(d),
   )
   .handler(async ({ data, context }) => {
-    const testRows = await withAdmin((db) =>
-      db.select({ isFree: speakingTests.isFree }).from(speakingTests).where(eq(speakingTests.id, data.testId)).limit(1),
-    );
-    const test = testRows[0];
-    if (!test) throw new Error("That test is no longer available.");
-    await assertUnlockedOrPremium(
-      context.userId,
-      test.isFree,
-      "ielts",
-      "This test is part of Lingora English Premium. Upgrade to unlock all Speaking Tests.",
-    );
+    await assertSpeakingTestPrompt(context.userId, data.testId, data.question, "ielts");
     await enforceLimit(context.userId, "ielts_evaluation");
     try {
       const audioBytes = data.audioBase64 ? Uint8Array.from(atob(data.audioBase64), (c) => c.charCodeAt(0)) : null;
@@ -396,38 +360,49 @@ export const analysePronunciation = createServerFn({ method: "POST" })
     z
       .object({
         target: z.string().min(1).max(400),
-        /** IPA symbol when the drill focuses on one of the 44 sounds — also
-         * re-checked below against the free-sound allowance regardless of
-         * what the client thinks is unlocked. */
-        targetSound: z.string().max(20).optional(),
         transcript: z.string().max(1000),
         lang: explanationLanguageSchema,
-        /** Set by Pronunciation Coach's 8 advanced-skill lessons — a
-         * pronunciation_lessons row id. */
+        /** Exactly one practice item, checked server-side (the target must be
+         * one of that item's own practice lines):
+         * - targetSound: one of the 44 sounds (IPA symbol, RP or American)
+         * - lessonId: a pronunciation_lessons row (8 advanced skills)
+         * - testId: a TOEFL/PTE read-back task in Speaking Tests
+         * - sentenceId: a Shadowing sentence (the target is taken from it) */
+        targetSound: z.string().max(20).optional(),
         lessonId: z.string().uuid().optional(),
-        /** Set by the TOEFL/PTE read-back tasks in Speaking Tests. */
         testId: z.string().uuid().optional(),
+        sentenceId: z.string().uuid().optional(),
         /** The learner's own recording, so feedback can be grounded in what
          * was actually said rather than only the STT transcript. Optional —
          * every caller that has the recording handy should send it. */
         audioBase64: z.string().max(4_000_000).optional(),
         mimeType: z.string().max(60).optional(),
       })
+      .refine((d) => [d.targetSound, d.lessonId, d.testId, d.sentenceId].filter(Boolean).length === 1, {
+        message: "Choose one sound, lesson, test or sentence to practise.",
+      })
       .parse(d),
   )
   .handler(async ({ data, context }) => {
+    let target = data.target;
     if (data.targetSound) {
       const index = findSoundIndex(data.targetSound);
+      if (index < 0) throw new Error("Unknown sound.");
+      const freeSoundCount = (await getLimits("free"))["pronunciation_sounds_free_count"] ?? 3;
       await assertUnlockedOrPremium(
         context.userId,
-        isSoundIndexFree(index),
+        isSoundIndexFree(index, freeSoundCount),
         "pronunciation",
-        `The first ${FREE_SOUND_COUNT} sounds are free. Upgrade to Premium to unlock all 44 sounds.`,
+        `The first ${freeSoundCount} sounds are free. Upgrade to Premium to unlock all 44 sounds.`,
       );
-    }
-    if (data.lessonId) {
+      assertTextBelongs(target, soundPracticeTargets(index));
+    } else if (data.lessonId) {
       const lessonRows = await withAdmin((db) =>
-        db.select({ isFree: pronunciationLessons.isFree }).from(pronunciationLessons).where(eq(pronunciationLessons.id, data.lessonId!)).limit(1),
+        db
+          .select({ isFree: pronunciationLessons.isFree, items: pronunciationLessons.items })
+          .from(pronunciationLessons)
+          .where(and(eq(pronunciationLessons.id, data.lessonId!), eq(pronunciationLessons.status, "published")))
+          .limit(1),
       );
       const lesson = lessonRows[0];
       if (!lesson) throw new Error("That example is no longer available.");
@@ -437,19 +412,30 @@ export const analysePronunciation = createServerFn({ method: "POST" })
         "pronunciation",
         "This example is part of Lingora English Premium. Upgrade to unlock the rest.",
       );
-    }
-    if (data.testId) {
-      const rows = await withAdmin((db) =>
-        db.select({ isFree: speakingTests.isFree }).from(speakingTests).where(eq(speakingTests.id, data.testId!)).limit(1),
+      const items = Array.isArray(lesson.items) ? (lesson.items as { text?: unknown }[]) : [];
+      assertTextBelongs(
+        target,
+        items.map((item) => item.text).filter((text): text is string => typeof text === "string"),
       );
-      const test = rows[0];
-      if (!test) throw new Error("That test is no longer available.");
+    } else if (data.testId) {
+      await assertSpeakingTestPrompt(context.userId, data.testId, target, "ielts");
+    } else {
+      const sentenceRows = await withAdmin((db) =>
+        db
+          .select({ isFree: shadowingSentences.isFree, sentence: shadowingSentences.sentence })
+          .from(shadowingSentences)
+          .where(and(eq(shadowingSentences.id, data.sentenceId!), eq(shadowingSentences.status, "published")))
+          .limit(1),
+      );
+      const sentence = sentenceRows[0];
+      if (!sentence) throw new Error("That sentence is no longer available.");
       await assertUnlockedOrPremium(
         context.userId,
-        test.isFree,
-        "ielts",
-        "This test is part of Lingora English Premium. Upgrade to unlock all Speaking Tests.",
+        sentence.isFree,
+        "pronunciation",
+        "This sentence is part of Lingora English Premium. Upgrade to unlock every Shadowing sentence.",
       );
+      target = sentence.sentence;
     }
     await enforceLimit(context.userId, "pronunciation_feedback");
     try {
@@ -459,7 +445,7 @@ export const analysePronunciation = createServerFn({ method: "POST" })
           .replace(/[^a-z\s']/g, " ")
           .split(/\s+/)
           .filter(Boolean);
-      const targetWords = norm(data.target);
+      const targetWords = norm(target);
       const saidWords = norm(data.transcript);
       const said = new Set(saidWords);
       const matched = targetWords.filter((w) => said.has(w));
@@ -472,7 +458,7 @@ export const analysePronunciation = createServerFn({ method: "POST" })
         ? await analysePronunciationAudio(
             Uint8Array.from(atob(data.audioBase64), (c) => c.charCodeAt(0)),
             data.mimeType || "audio/wav",
-            data.target,
+            target,
             langNote(data.lang),
           ).catch(() => null)
         : null;
@@ -495,7 +481,7 @@ JSON only: {"feedback":"max 3 short sentences"}`,
             },
             {
               role: "user",
-              content: `Target${data.targetSound ? ` (focus sound ${data.targetSound})` : ""}: ${data.target}\nRead back as: ${data.transcript || "(nothing recognised)"}\nWords not recognised: ${missed.join(", ") || "none"}`,
+              content: `Target${data.targetSound ? ` (focus sound ${data.targetSound})` : ""}: ${target}\nRead back as: ${data.transcript || "(nothing recognised)"}\nWords not recognised: ${missed.join(", ") || "none"}`,
             },
           ],
           250,
@@ -554,7 +540,7 @@ export const speak = createServerFn({ method: "POST" })
       return { audioBase64: cached.audioBase64, mime: cached.mimeType, cached: true };
     }
 
-    await enforceLimit(context.userId, "tts");
+    const refund = await enforceLimit(context.userId, "tts");
     try {
       const { base64, mime } = await synthesise(data.text, data.voice);
       // Two requests for the same text can race here (e.g. auto-play plus a
@@ -569,6 +555,7 @@ export const speak = createServerFn({ method: "POST" })
       await logUsage(context.userId, "tts", 1, 0, 0, currentTtsModel());
       return { audioBase64: base64, mime, cached: false };
     } catch (error) {
+      await refund();
       toError(error);
     }
   });
@@ -598,8 +585,6 @@ export const generateLearningPlan = createServerFn({ method: "POST" })
         tasks: (existing.tasks ?? []) as unknown as LearningPlan["tasks"],
       };
     }
-
-    await enforceLimit(userId, "learning_plan");
 
     const [speaking, sounds, profileRows] = await withUser(userId, (db) =>
       Promise.all([
@@ -636,6 +621,7 @@ export const generateLearningPlan = createServerFn({ method: "POST" })
       .filter(Boolean)
       .join(" ");
 
+    const refund = await enforceLimit(userId, "learning_plan");
     try {
       const { value, inputTokens, outputTokens } = await llmJson<LearningPlan>(
         [
@@ -661,6 +647,7 @@ Exactly 4 tasks, one each from pronunciation, grammar, vocabulary, speaking (or 
       );
       return value;
     } catch (error) {
+      await refund();
       toError(error);
     }
   });

@@ -59,30 +59,54 @@ function VocabularyPage() {
   const getMyVocabularyProgressFn = useServerFn(getMyVocabularyProgress);
   const toggleVocabularyWordKnownFn = useServerFn(toggleVocabularyWordKnown);
 
-  const [category, setCategory] = useState<string>("all");
+  const [category, setCategory] = useState<string>(VOCAB_CATEGORIES[0] ?? "all");
   const [words, setWords] = useState<Word[]>([]);
+  const [offset, setOffset] = useState(0);
+  const [hasMore, setHasMore] = useState(true);
+  const [loading, setLoading] = useState(false);
   const [translations, setTranslations] = useState<Record<string, { meaning: string; example: string }>>({});
   const [known, setKnown] = useState<Record<string, boolean>>({});
   const [speakWord, setSpeakWord] = useState<Word | null>(null);
 
   useEffect(() => {
+    setWords([]);
+    setOffset(0);
+    setHasMore(true);
+  }, [category]);
+
+  useEffect(() => {
+    if (!hasMore && offset > 0) return;
     void (async () => {
-      const rows = await getVocabularyWordsFn({ data: { category: category === "all" ? undefined : category } });
-      setWords(rows);
+      setLoading(true);
+      try {
+        const rows = await getVocabularyWordsFn({ data: { category: category === "all" ? undefined : category, offset } });
+        if (offset === 0) setWords(rows);
+        else setWords(prev => [...prev, ...rows]);
+        if (rows.length < 50) setHasMore(false);
+      } finally {
+        setLoading(false);
+      }
     })();
-  }, [category, getVocabularyWordsFn]);
+  }, [category, offset, getVocabularyWordsFn, hasMore]);
 
   useEffect(() => {
     if (words.length === 0 || locale === "en") return;
+    const missingIds = words.map((w) => w.id).filter(id => !translations[id]);
+    if (missingIds.length === 0) return;
+    
     void (async () => {
       const rows = await getVocabularyTranslationsFn({
-        data: { locale, wordIds: words.map((w) => w.id) },
+        data: { locale, wordIds: missingIds.slice(0, 200) },
       });
-      const map: Record<string, { meaning: string; example: string }> = {};
-      for (const row of rows) map[row.wordId] = { meaning: row.meaning, example: row.exampleTranslation };
-      setTranslations(map);
+      setTranslations((prev) => {
+        const next = { ...prev };
+        for (const row of rows) next[row.wordId] = { meaning: row.meaning, example: row.exampleTranslation };
+        // Mark missing ones as empty so we don't refetch
+        missingIds.forEach(id => { if (!next[id]) next[id] = { meaning: "", example: "" }; });
+        return next;
+      });
     })();
-  }, [words, locale, getVocabularyTranslationsFn]);
+  }, [words, locale, getVocabularyTranslationsFn, translations]);
 
   useEffect(() => {
     if (!user) return;
@@ -143,7 +167,7 @@ function VocabularyPage() {
           <VocabSpeakPractice
             wordId={speakWord.id}
             word={speakWord.word}
-            prompt={`Answer this out loud: ${speakWord.exampleSentence}`}
+            exampleSentence={speakWord.exampleSentence}
           />
           <button
             type="button"
@@ -271,6 +295,20 @@ function VocabularyPage() {
           ))}
         </div>
       )}
+
+      {words.length > 0 && hasMore && (
+        <div className="mt-8 flex justify-center">
+          <button
+            type="button"
+            disabled={loading}
+            onClick={() => setOffset(o => o + 50)}
+            className="rounded-full bg-surface-2 px-6 py-2.5 text-sm font-semibold text-foreground ring-1 ring-border hover:bg-surface-3 disabled:opacity-50"
+          >
+            {loading ? t("common.loading") : t("common.loadMore")}
+          </button>
+        </div>
+      )}
+
       <LockedContentList kind="vocabulary" />
     </AppShell>
   );

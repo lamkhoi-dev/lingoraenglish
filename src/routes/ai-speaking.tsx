@@ -21,7 +21,6 @@ import {
   getCoachSession,
   getCoachTopicCatalogue,
   getCoachUsage,
-  saveCoachTurnAnalysis,
   startCoachSession,
   type CoachCategory,
   type CoachTopicPublic,
@@ -29,7 +28,7 @@ import {
 } from "@/lib/coach.functions";
 import { DEMO_SPEAKING } from "@/lib/demo-data";
 import { useI18n } from "@/lib/i18n";
-import { analyseSpeaking, transcribeAudio, type SpeakingAnalysis } from "@/lib/lily.functions";
+import { transcribeAudio, type SpeakingAnalysis } from "@/lib/lily.functions";
 import { hreflangLinks } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
@@ -83,11 +82,9 @@ function CoachPage() {
   const lang = englishOnly ? "en" : locale;
   const { user, profile } = useAuth();
   const transcribe = useServerFn(transcribeAudio);
-  const analyse = useServerFn(analyseSpeaking);
   const startSession = useServerFn(startCoachSession);
   const restoreSession = useServerFn(getCoachSession);
   const sendTurn = useServerFn(coachReply);
-  const saveTurnAnalysis = useServerFn(saveCoachTurnAnalysis);
   const fetchUsage = useServerFn(getCoachUsage);
   const fetchTopics = useServerFn(getCoachTopicCatalogue);
   const saveAttempt = useServerFn(saveSpeakingAttempt);
@@ -260,16 +257,11 @@ function CoachPage() {
     setBusy(true);
     const question = currentQuestion();
     try {
-      // The coach reply and the grammar/vocab analysis are independent calls
-      // (analysis only needs the question + transcript, not the reply) — run
-      // them together instead of back-to-back so each turn isn't paying for
-      // two sequential AI round trips.
-      const [res, analysis] = await Promise.all([
-        sendTurn({ data: { sessionId, transcript: text } }),
-        analyse({
-          data: { question, transcript: text, lang, level: profile?.english_level ?? "B1" },
-        }).catch(() => null),
-      ]);
+      // One request: the server spends the turn, gets the coach's reply and
+      // scores the answer (in parallel, server-side) — the scorecard is saved
+      // on the turn itself, so a reload restores it via getCoachSession.
+      const res = await sendTurn({ data: { sessionId, transcript: text, lang } });
+      const analysis = res.analysis;
       setUsage(res.usage);
 
       setTurns((prev) => [
@@ -280,10 +272,6 @@ function CoachPage() {
 
       if (analysis) {
         setLastScores(toAttemptScores(analysis));
-        // Best-effort: this only feeds restoring the feedback panel on a
-        // future reload (getCoachSession) — a failure here must never turn
-        // into an error toast for a turn that already succeeded.
-        void saveTurnAnalysis({ data: { sessionId, turnNumber: res.turnNumber, analysis } }).catch(() => undefined);
         await saveAttempt({
           data: {
             questionText: question.slice(0, 500),

@@ -1,0 +1,13 @@
+-- Yêu cầu 10 — stt_requests/tts_requests removed as a gate (2026-09-16): a
+-- hidden, undocumented monthly cap (40-100/month on free) shared across every
+-- recording-based feature at once, never shown to the learner, and not one
+-- of the six limits the customer's spec names. The spec's actual ask for an
+-- anti-abuse/cost-control cap (3.1 "giới hạn tần suất... chống lạm dụng",
+-- 3.2 "giới hạn chi phí theo ngày") is DAILY_AI_LIMIT in lily.functions.ts
+-- (a flat 300/day across everything) — that already existed and needed no
+-- DB change. This migration just removes the two now-dead keys from the
+-- config data itself so nothing lingers to be misread later (the app-side
+-- fix — CAPABILITY_MAP no longer maps stt/tts to them, and
+-- MONTHLY_QUOTA_KEYS keeps them out of /billing + /pricing regardless of
+-- what the jsonb contains — already ships without this).
+UPDATE "billing_plans" SET "limits" = "limits" - 'stt_requests' - 'tts_requests';

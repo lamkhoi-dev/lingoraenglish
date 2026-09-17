@@ -18,7 +18,7 @@ import {
   getEntitlement,
   logAdminAction,
   logBillingEvent,
-  recordUsage,
+  reserveUsage,
   resolveTier,
 } from "../src/lib/entitlements.server";
 import { rawSql, withAdmin } from "../src/db";
@@ -46,14 +46,19 @@ async function main() {
   }
   console.log("getEntitlement(): free-tier defaults, no complimentary access. OK.");
 
-  // recordUsage: first call inserts, second call increments the same row.
-  await recordUsage(userId, "conversation", 1);
-  await recordUsage(userId, "conversation", 2);
+  // reserveUsage: first claim inserts, second accumulates on the same row, and
+  // the returned refund hands a claim back.
+  await reserveUsage(userId, "conversation", 1);
+  const refund = await reserveUsage(userId, "conversation", 2);
   const period = currentPeriodStart();
-  const rows = await withAdmin((db) => db.select().from(usageCounters).where(eq(usageCounters.userId, userId)));
-  const row = rows.find((r) => r.periodStart === period && r.capability === "conversations");
-  if (!row || row.units !== 3) throw new Error(`FAIL: expected units=3 after two recordUsage calls, got ${JSON.stringify(row)}`);
-  console.log("recordUsage(): insert then accumulate (1 + 2 = 3), single row per (user, capability, period). OK.");
+  const readUnits = async () => {
+    const rows = await withAdmin((db) => db.select().from(usageCounters).where(eq(usageCounters.userId, userId)));
+    return rows.find((r) => r.periodStart === period && r.capability === "conversations")?.units;
+  };
+  if ((await readUnits()) !== 3) throw new Error("FAIL: expected units=3 after claiming 1 + 2");
+  await refund();
+  if ((await readUnits()) !== 1) throw new Error("FAIL: expected units=1 after refunding the 2-unit claim");
+  console.log("reserveUsage(): claims accumulate on one row per (user, capability, period), refund hands a claim back. OK.");
 
   // logBillingEvent / logAdminAction — plain inserts, confirm they land.
   await logBillingEvent("test_event", { userId, planKey: "premium" });

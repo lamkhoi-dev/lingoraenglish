@@ -23,12 +23,18 @@ export type CatalogueItem = {
 
 const catalogueSchema = z.object({ kind: z.enum(["vocabulary", "grammar", "listening"]) });
 
+/** Locked rows keep only what a lock card needs (level, category, tier) —
+ * never the id or the title. For vocabulary the "title" IS the word itself,
+ * so returning it for words 11+ of every topic handed a free learner the
+ * whole locked word list by calling this directly (Yêu cầu 7: "từ thứ 11 bị
+ * khóa và kiểm tra ở phía máy chủ"), and the ids were enough to pull their
+ * translations. */
 export const getContentCatalogue = createServerFn({ method: "GET" })
   .inputValidator((d: unknown) => catalogueSchema.parse(d))
   .handler(async ({ data }) => {
     const userId = await getOptionalUserId();
     const query = (db: Parameters<Parameters<typeof withAnon>[0]>[0]) =>
       db.execute(sql`select * from content_catalogue(${data.kind})`);
-    const rows = userId ? await withUser(userId, query) : await withAnon(query);
-    return rows as unknown as CatalogueItem[];
+    const rows = (userId ? await withUser(userId, query) : await withAnon(query)) as unknown as CatalogueItem[];
+    return rows.map((row) => (row.unlocked ? row : { ...row, id: "", title: "" }));
   });

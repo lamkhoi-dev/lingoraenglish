@@ -2,8 +2,9 @@ import { createServerFn } from "@tanstack/react-start";
 import { and, eq, sql } from "drizzle-orm";
 import { z } from "zod";
 
-import { withAnon, withUser } from "@/db";
-import { speakingTestProgress } from "@/db/schema/schema";
+import { withAdmin, withAnon, withUser } from "@/db";
+import { speakingTestProgress, speakingTests } from "@/db/schema/schema";
+import { assertUnlockedOrPremium } from "@/lib/entitlements.server";
 import { getOptionalUserId, requireAuth } from "@/lib/require-auth";
 
 const examSchema = z.object({ exam: z.enum(["ielts", "toefl", "pte"]) });
@@ -74,6 +75,21 @@ export const recordSpeakingTestAttempt = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => recordAttemptSchema.parse(d))
   .handler(async ({ data, context }) => {
     const userId = context.userId;
+    const testRows = await withAdmin((db) =>
+      db
+        .select({ isFree: speakingTests.isFree })
+        .from(speakingTests)
+        .where(and(eq(speakingTests.id, data.testId), eq(speakingTests.status, "published")))
+        .limit(1),
+    );
+    const test = testRows[0];
+    if (!test) throw new Error("That test is no longer available.");
+    await assertUnlockedOrPremium(
+      userId,
+      test.isFree,
+      "ielts",
+      "This test is part of Lingora English Premium. Upgrade to unlock all Speaking Tests.",
+    );
     await withUser(userId, async (db) => {
       const existingRows = await db
         .select({ id: speakingTestProgress.id, attempts: speakingTestProgress.attempts, bestBand: speakingTestProgress.bestBand })
@@ -94,7 +110,7 @@ export const recordSpeakingTestAttempt = createServerFn({ method: "POST" })
         await db
           .update(speakingTestProgress)
           .set({
-            attempts: existing.attempts + 1,
+            attempts: sql`${speakingTestProgress.attempts} + 1`,
             lastBand: data.band === null ? null : String(data.band),
             bestBand: best === null ? null : String(best),
             completedAt: new Date().toISOString(),

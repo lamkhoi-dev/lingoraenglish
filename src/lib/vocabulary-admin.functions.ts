@@ -5,7 +5,7 @@
  * library can be grown or edited from the dashboard without code changes.
  */
 import { createServerFn } from "@tanstack/react-start";
-import { and, asc, eq, gt, lte } from "drizzle-orm";
+import { asc, eq } from "drizzle-orm";
 import { z } from "zod";
 
 import { withAdmin } from "@/db";
@@ -135,23 +135,7 @@ export const adminSetVocabularyWordStatus = createServerFn({ method: "POST" })
     return { ok: true };
   });
 
-/** Marks the first N words (by sort_order) of one category free and the
- * rest premium — mirrors adminSetPronunciationFreeCount exactly. */
-export const adminSetVocabularyFreeCount = createServerFn({ method: "POST" })
-  .middleware([requireAdmin])
-  .inputValidator((d: unknown) =>
-    z.object({ category: z.enum(CATEGORIES as [string, ...string[]]), free_count: z.number().int().min(0).max(200) }).parse(d),
-  )
-  .handler(async ({ data }) => {
-    await withAdmin(async (db) => {
-      await db
-        .update(vocabularyWords)
-        .set({ accessTier: "free" })
-        .where(and(eq(vocabularyWords.category, data.category), lte(vocabularyWords.sortOrder, data.free_count)));
-      await db
-        .update(vocabularyWords)
-        .set({ accessTier: "premium" })
-        .where(and(eq(vocabularyWords.category, data.category), gt(vocabularyWords.sortOrder, data.free_count)));
-    });
-    return { ok: true };
-  });
+// Yêu cầu 9: per-category "set free count" removed — see the matching note
+// in shadowing-admin.functions.ts. The number now lives at
+// billing_plans.limits.vocabulary_free_per_category and is applied to
+// every category by entitlements.server.ts's resyncContentFreeRanks().

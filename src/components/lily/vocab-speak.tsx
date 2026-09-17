@@ -13,6 +13,7 @@ import { saveSpeakingAttempt } from "@/lib/attempts.functions";
 import { useI18n } from "@/lib/i18n";
 import { analyseSpeaking, transcribeAudio, type SpeakingAnalysis } from "@/lib/lily.functions";
 import { recordVocabularyPractice } from "@/lib/vocabulary.functions";
+import { vocabularySpeakingQuestion } from "@/lib/vocabulary-practice";
 
 /**
  * "USE IT": the learner speaks a sentence with the target word and the coach
@@ -22,7 +23,15 @@ import { recordVocabularyPractice } from "@/lib/vocabulary.functions";
  * attempt only ever landed in speaking_attempts and the word's own progress
  * never moved.
  */
-export function VocabSpeakPractice({ wordId, word, prompt }: { wordId: string; word: string; prompt: string }) {
+export function VocabSpeakPractice({
+  wordId,
+  word,
+  exampleSentence,
+}: {
+  wordId: string;
+  word: string;
+  exampleSentence: string;
+}) {
   const { locale, englishOnly } = useI18n();
   const lang = englishOnly ? "en" : locale;
   const { user, profile } = useAuth();
@@ -35,7 +44,7 @@ export function VocabSpeakPractice({ wordId, word, prompt }: { wordId: string; w
   const [busy, setBusy] = useState(false);
   const [result, setResult] = useState<{ analysis: SpeakingAnalysis; transcript: string } | null>(null);
 
-  const question = `${prompt} Use the word "${word}" in your answer.`;
+  const question = vocabularySpeakingQuestion(word, exampleSentence);
 
   const submit = async (recording: Recording) => {
     if (!user) return;
@@ -50,7 +59,7 @@ export function VocabSpeakPractice({ wordId, word, prompt }: { wordId: string; w
         return;
       }
       const analysis = await analyse({
-        data: { question, transcript, lang, level: profile?.english_level ?? "B1" },
+        data: { wordId, question, transcript, lang, level: profile?.english_level ?? "B1" },
       });
       setResult({ analysis, transcript });
       await Promise.all([

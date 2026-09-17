@@ -7,7 +7,6 @@ import { VOCAB_CATEGORIES } from "@/lib/ipa-data";
 import {
   adminListVocabularyWords,
   adminSaveVocabularyWord,
-  adminSetVocabularyFreeCount,
   adminSetVocabularyWordStatus,
 } from "@/lib/vocabulary-admin.functions";
 import { cn } from "@/lib/utils";
@@ -83,7 +82,6 @@ export function AdminVocabularyPanel() {
   const listWords = useServerFn(adminListVocabularyWords);
   const saveWord = useServerFn(adminSaveVocabularyWord);
   const setStatus = useServerFn(adminSetVocabularyWordStatus);
-  const setFreeCount = useServerFn(adminSetVocabularyFreeCount);
 
   const [words, setWords] = useState<WordRow[]>([]);
   const [tally, setTally] = useState<Tally>({});
@@ -192,28 +190,9 @@ export function AdminVocabularyPanel() {
               >
                 {category}
                 <span className="ml-2 text-xs font-normal text-muted-foreground">
-                  {t.total} words · {t.free} free (target: 100, 10 free)
+                  {t.total} words · {t.free} free (target: 100 · free count set in the "Plans" tab)
                 </span>
               </button>
-              <label className="flex items-center gap-1 text-xs text-muted-foreground">
-                Free
-                <input
-                  type="number"
-                  min={0}
-                  defaultValue={t.free}
-                  onBlur={(e) => {
-                    const n = Number(e.target.value);
-                    if (Number.isNaN(n) || n === t.free) return;
-                    void setFreeCount({ data: { category, free_count: n } })
-                      .then(() => {
-                        toast.success("Free preview updated");
-                        refresh();
-                      })
-                      .catch((err: unknown) => toast.error(err instanceof Error ? err.message : "Could not update"));
-                  }}
-                  className="w-16 rounded-lg bg-surface-3 px-2 py-1 text-xs text-foreground ring-1 ring-border"
-                />
-              </label>
             </div>
 
             {open && (
