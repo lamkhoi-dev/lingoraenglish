@@ -14,7 +14,7 @@ import { withAdmin } from "@/db";
 import { billingPlans, profiles, subscriptions } from "@/db/schema/schema";
 import { requireAdmin } from "@/lib/require-auth";
 import { bustLimitsCache, logAdminAction, resyncContentFreeRanks } from "./entitlements.server";
-import { getPaddleEnvironment } from "./payments-env";
+import { getPaymentsEnv } from "./payments-env";
 
 const LIMIT_KEYS = [
   "speaking_minutes",
@@ -49,7 +49,7 @@ const LIMIT_KEYS = [
 export const adminListPlans = createServerFn({ method: "POST" })
   .middleware([requireAdmin])
   .handler(async () => {
-    const env = getPaddleEnvironment();
+    const env = getPaymentsEnv();
 
     const [plans, subs, learnerCount] = await withAdmin((db) =>
       Promise.all([

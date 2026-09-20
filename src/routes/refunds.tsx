@@ -12,12 +12,12 @@ export const Route = createFileRoute("/refunds")({
       {
         name: "description",
         content:
-          "Ms Thao English offers a 30-day money-back guarantee on Lingora English subscriptions. Learn how to request a refund through Paddle.",
+          "Ms Thao English offers a 30-day money-back guarantee on Lingora English subscriptions. Learn how to request a refund.",
       },
       { property: "og:title", content: "Refund Policy — Lingora English" },
       {
         property: "og:description",
-        content: "30-day money-back guarantee on Lingora English subscriptions, with refunds handled by Paddle.",
+        content: "30-day money-back guarantee on Lingora English subscriptions, with refunds issued by us.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -30,7 +30,7 @@ export const Route = createFileRoute("/refunds")({
 const SECTIONS: { title: string; body: React.ReactNode }[] = [
   {
     title: "1. Who this policy is from",
-    body: "This refund policy applies to all subscriptions to Lingora English, sold by Ms Thao English (\"we\", \"us\"). Our order process is conducted by our online reseller Paddle.com, which is the Merchant of Record for all our orders and handles all billing, refunds and customer service enquiries relating to payments.",
+    body: "This refund policy applies to all subscriptions to Lingora English, sold by Ms Thao English (\"we\", \"us\"). Payments are processed by Stripe; we handle refund and billing questions ourselves.",
   },
   {
     title: "2. 30-day money-back guarantee",
@@ -38,24 +38,15 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "3. Renewals",
-    body: "Renewal payments are also covered by a 30-day window from the date of the renewal charge. If an unwanted renewal has just been billed, contact us or Paddle within 30 days and we will arrange a refund.",
+    body: "Renewal payments are also covered by a 30-day window from the date of the renewal charge. If an unwanted renewal has just been billed, contact us within 30 days and we will arrange a refund.",
   },
   {
     title: "4. How to request a refund",
     body: (
       <>
-        Refunds are processed by our payment provider, Paddle. Visit{" "}
-        <a
-          href="https://paddle.net"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-primary underline"
-        >
-          paddle.net
-        </a>{" "}
-        and enter the email address you used at checkout to find your order and request a refund, or email us at
-        phanthithuthao10081996@gmail.com and we will raise the request with Paddle on your behalf. Refunds are returned to
-        the original payment method and typically appear within 5–10 business days, depending on your bank.
+        Email us at phanthithuthao10081996@gmail.com from the address you used at checkout, and include your invoice
+        number if you have it. We will confirm your request and issue the refund, including any tax charged, to the
+        original payment method. It typically appears within 5–10 business days, depending on your bank.
       </>
     ),
   },

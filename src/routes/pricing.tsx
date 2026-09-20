@@ -9,9 +9,8 @@ import { SectionHeading } from "@/components/lily/brand";
 import { formatMoney, BillingCard } from "@/components/lily/billing-ui";
 import { useBilling, usePlans, type PlanRecord } from "@/hooks/use-billing";
 import { useAuth } from "@/lib/auth";
-import { getPublicPlans, recordBillingEvent, validateCoupon } from "@/lib/billing.functions";
+import { createCheckoutSession, getPublicPlans, recordBillingEvent, validateCoupon } from "@/lib/billing.functions";
 import { useI18n } from "@/lib/i18n";
-import { getPaddlePriceId, initializePaddle } from "@/lib/paddle";
 import { canonicalLink } from "@/lib/seo";
 import { en } from "@/locales/en";
 
@@ -63,6 +62,7 @@ function PricingPage() {
   const [busyPlan, setBusyPlan] = useState<string | null>(null);
 
   const checkCoupon = useServerFn(validateCoupon);
+  const createCheckout = useServerFn(createCheckoutSession);
   const logEvent = useServerFn(recordBillingEvent);
 
   useEffect(() => {
@@ -136,26 +136,16 @@ function PricingPage() {
         data: { event: "plan_selected", planKey: plan.plan_key, intervalKey: interval },
       }).catch(() => undefined);
 
-      await initializePaddle();
-      const providerPriceId = await getPaddlePriceId(priceIdFor(plan));
+      // The server builds the Stripe Checkout Session (amount, trial and tax are decided there,
+      // from our own records) and hands back the hosted page to send the learner to.
+      const { url } = await createCheckout({ data: { priceId: priceIdFor(plan), coupon } });
 
       await logEvent({
         data: { event: "checkout_started", planKey: plan.plan_key, intervalKey: interval },
       }).catch(() => undefined);
 
-      window.Paddle.Checkout.open({
-        items: [{ priceId: providerPriceId, quantity: 1 }],
-        customer: user.email ? { email: user.email } : undefined,
-        customData: { userId: user.id, planKey: plan.plan_key },
-        ...(coupon ? { discountCode: coupon } : {}),
-        settings: {
-          displayMode: "overlay",
-          variant: "one-page",
-          allowLogout: false,
-          locale: locale === "zh-CN" || locale === "zh-TW" ? "zh-Hans" : locale,
-          successUrl: `${window.location.origin}/billing/success`,
-        },
-      });
+      // Stripe returns the learner to /billing/success or /billing/cancelled.
+      window.location.assign(url);
     } catch (error) {
       await logEvent({
         data: { event: "checkout_failed", planKey: plan.plan_key, intervalKey: interval },

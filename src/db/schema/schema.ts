@@ -450,8 +450,10 @@ export const vocabularyTranslations = pgTable("vocabulary_translations", {
 export const subscriptions = pgTable("subscriptions", {
 	id: uuid().defaultRandom().primaryKey().notNull(),
 	userId: uuid("user_id").notNull(),
-	paddleSubscriptionId: text("paddle_subscription_id").notNull(),
-	paddleCustomerId: text("paddle_customer_id").notNull(),
+	/** The payment provider's own ids (Stripe: sub_… / cus_…). Named after the column, not the
+	 * provider, so switching providers again never needs another rename. */
+	providerSubscriptionId: text("provider_subscription_id").notNull(),
+	providerCustomerId: text("provider_customer_id").notNull(),
 	productId: text("product_id").notNull(),
 	priceId: text("price_id").notNull(),
 	status: text().default('active').notNull(),
@@ -469,14 +471,14 @@ export const subscriptions = pgTable("subscriptions", {
 	createdAt: timestamp("created_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
 	updatedAt: timestamp("updated_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
 }, (table) => [
-	index("idx_subscriptions_paddle_id").using("btree", table.paddleSubscriptionId.asc().nullsLast().op("text_ops")),
+	index("idx_subscriptions_provider_id").using("btree", table.providerSubscriptionId.asc().nullsLast().op("text_ops")),
 	index("idx_subscriptions_user_id").using("btree", table.userId.asc().nullsLast().op("uuid_ops")),
 	foreignKey({
 			columns: [table.userId],
 			foreignColumns: [usersInAuth.id],
 			name: "subscriptions_user_id_fkey"
 		}).onDelete("cascade"),
-	unique("subscriptions_paddle_subscription_id_key").on(table.paddleSubscriptionId),
+	unique("subscriptions_provider_subscription_id_key").on(table.providerSubscriptionId),
 	pgPolicy("Users read own subscription", { as: "permissive", for: "select", to: ["authenticated"], using: sql`((auth.uid() = user_id) OR has_role(auth.uid(), 'admin'::app_role))` }),
 ]);
 

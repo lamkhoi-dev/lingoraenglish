@@ -23,7 +23,7 @@ import {
   vocabularyWords,
 } from "@/db/schema/schema";
 import { LISTENING_CATEGORIES } from "@/lib/listening-content";
-import { getPaddleEnvironment, type PaddleEnv } from "./payments-env";
+import { getPaymentsEnv, type PaymentsEnv } from "./payments-env";
 
 export type Tier = "free" | "premium" | "ielts_pro";
 
@@ -146,7 +146,7 @@ export type Entitlement = {
   tier: Tier;
   planKey: string;
   planName: string;
-  environment: PaddleEnv;
+  environment: PaymentsEnv;
   limits: Record<string, number>;
   usage: Record<string, number>;
   periodStart: string;
@@ -164,7 +164,7 @@ export function currentPeriodStart(): string {
  * must always run through withAdmin(), never withUser()/withAnon()). Complex
  * rank-comparison logic between paid and complimentary tiers; not worth
  * reimplementing in Drizzle when the exact-behavior original already exists. */
-export async function resolveTier(userId: string, env: PaddleEnv = getPaddleEnvironment()): Promise<Tier> {
+export async function resolveTier(userId: string, env: PaymentsEnv = getPaymentsEnv()): Promise<Tier> {
   const rows = await withAdmin((db) => db.execute(sql`select effective_tier(${userId}, ${env}) as tier`));
   const tier = (rows as unknown as { tier: string | null }[])[0]?.tier;
   return (tier ?? "free") as Tier;
@@ -172,7 +172,7 @@ export async function resolveTier(userId: string, env: PaddleEnv = getPaddleEnvi
 
 export async function getEntitlement(
   userId: string,
-  env: PaddleEnv = getPaddleEnvironment(),
+  env: PaymentsEnv = getPaymentsEnv(),
 ): Promise<Entitlement> {
   const tier = await resolveTier(userId, env);
   const period = currentPeriodStart();
@@ -431,7 +431,7 @@ export async function logBillingEvent(
     planKey?: string;
     intervalKey?: string;
     metadata?: Record<string, unknown>;
-    env?: PaddleEnv;
+    env?: PaymentsEnv;
   } = {},
 ) {
   // onConflictDoNothing covers idx_billing_events_activation_once, which keeps
@@ -445,7 +445,7 @@ export async function logBillingEvent(
         event,
         planKey: opts.planKey ?? "",
         intervalKey: opts.intervalKey ?? "",
-        environment: opts.env ?? getPaddleEnvironment(),
+        environment: opts.env ?? getPaymentsEnv(),
         metadata: opts.metadata ?? {},
       })
       .onConflictDoNothing(),

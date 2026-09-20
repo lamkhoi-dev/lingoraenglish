@@ -186,7 +186,7 @@ export function PaymentHistoryPanel() {
   const openInvoice = (transactionId: string) => {
     void (async () => {
       try {
-        const { url } = await fetchInvoice({ data: { transactionId } });
+        const { url } = await fetchInvoice({ data: { paymentId: transactionId } });
         window.open(url, "_blank", "noopener");
       } catch (error) {
         toast.error(error instanceof Error ? error.message : t("common.somethingWrong"));

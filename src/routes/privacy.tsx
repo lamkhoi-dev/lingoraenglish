@@ -47,11 +47,11 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "5. Payments",
-    body: "Our order process is conducted by our online reseller Paddle.com, which acts as Merchant of Record and handles checkout, billing, tax and invoicing. Card data is collected and processed by Paddle — we never see or store card numbers. We receive only the subscription status and identifiers needed to unlock your plan.",
+    body: "Payments are processed by Stripe, our payment processor, which handles checkout, card payments and invoicing. Card data is collected and processed by Stripe under its own privacy policy (stripe.com/privacy) — we never see or store card numbers. We receive only the subscription status, billing identifiers and invoice details needed to unlock your plan and show your billing history.",
   },
   {
     title: "6. Who we share data with",
-    body: "Service providers and subprocessors that host, secure and operate the platform (cloud hosting, database, authentication, email delivery), AI and speech providers that process your practice content, Paddle.com as Merchant of Record for the sale, subscription management, payments, tax compliance and invoicing, professional advisers such as accountants and lawyers, and public authorities where the law requires it. We do not sell your personal data.",
+    body: "Service providers and subprocessors that host, secure and operate the platform (cloud hosting, database, authentication, email delivery), AI and speech providers that process your practice content, Stripe as our payment processor for card payments, subscription billing and invoicing, professional advisers such as accountants and lawyers, and public authorities where the law requires it. We do not sell your personal data.",
   },
   {
     title: "7. International transfers",

@@ -1,24 +1,24 @@
+import { useQuery } from "@tanstack/react-query";
 import { Link } from "@tanstack/react-router";
+import { useServerFn } from "@tanstack/react-start";
 
-import { isTestPayments } from "@/lib/payments-env";
+import { getPaymentEnvironment } from "@/lib/billing.functions";
 import { useI18n } from "@/lib/i18n";
 
-/** Shown only in builds wired to the payment provider's test environment. */
+/** Shown only while the server is wired to Stripe's test mode (STRIPE_SECRET_KEY = sk_test_…). */
 export function PaymentTestModeBanner() {
   const { t } = useI18n();
-  if (!isTestPayments()) return null;
+  const fetchEnvironment = useServerFn(getPaymentEnvironment);
+  const { data } = useQuery({
+    queryKey: ["payment-environment"],
+    queryFn: () => fetchEnvironment(),
+    staleTime: Number.POSITIVE_INFINITY,
+  });
+  if (data?.environment !== "sandbox") return null;
 
   return (
     <div className="w-full border-b border-accent/40 bg-accent/15 px-4 py-2 text-center text-xs text-accent-foreground sm:text-sm">
-      {t("billing.testBanner")}{" "}
-      <a
-        href="https://docs.lovable.dev/features/payments#test-and-live-environments"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="font-medium underline"
-      >
-        {t("billing.testBannerLink")}
-      </a>
+      {t("billing.testBanner")}
     </div>
   );
 }

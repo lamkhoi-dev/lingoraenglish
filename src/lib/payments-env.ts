@@ -1,19 +1,19 @@
 /**
- * Which payment environment the build talks to.
+ * Which Stripe environment this deployment talks to.
  *
- * The client token lives in .env.development (test) and .env.production (live),
- * so the prefix is the single source of truth on both client and server — no
- * environment value is ever accepted from the browser.
+ * Decided at RUNTIME from the secret key's prefix (`sk_test_…` → "sandbox",
+ * `sk_live_…` → "live"), so switching between test and live is only a change to
+ * STRIPE_SECRET_KEY in the server environment — no rebuild, and no environment
+ * value is ever accepted from the browser. "sandbox" is kept as the name of the
+ * test environment because `subscriptions.environment` and `billing_events.environment`
+ * already store that value.
+ *
+ * Server-only (reads process.env). The browser asks the server via
+ * getPaymentEnvironment() in billing.functions.ts.
  */
-export type PaddleEnv = "sandbox" | "live";
+export type PaymentsEnv = "sandbox" | "live";
 
-export const PAYMENTS_CLIENT_TOKEN: string | undefined = import.meta.env
-  ["VITE_PAYMENTS_CLIENT_TOKEN"] as string | undefined;
-
-export function getPaddleEnvironment(): PaddleEnv {
-  return PAYMENTS_CLIENT_TOKEN?.startsWith("test_") ? "sandbox" : "live";
-}
-
-export function isTestPayments(): boolean {
-  return getPaddleEnvironment() === "sandbox";
+export function getPaymentsEnv(): PaymentsEnv {
+  const key = process.env["STRIPE_SECRET_KEY"] ?? "";
+  return key.startsWith("sk_live_") || key.startsWith("rk_live_") ? "live" : "sandbox";
 }

@@ -1,10 +1,10 @@
 /**
  * One-off validation script — NOT part of the app. Exercises the DB logic
- * behind the Paddle webhook handlers (webhook.ts) — signature verification
- * itself is external Paddle SDK code, untouched by this migration, so this
+ * behind the Stripe webhook handlers (webhook.ts) — signature verification
+ * itself is covered by verifyStripeSignature (stripe.server.ts), so this
  * only replicates what each handler does to `subscriptions`/`billing_events`
  * once a verified event is in hand. Specific risk: handleSubscriptionUpdated's
- * PARTIAL update (only touches fields Paddle actually sent — a plain
+ * PARTIAL update (only touches fields the provider actually sent — a plain
  * `.set({...always all fields...})` would silently null out priceId/currency
  * on updates that don't carry a price change).
  */
@@ -21,13 +21,13 @@ async function main() {
     return rows[0]!.id;
   });
 
-  const paddleSubId = `sub_${randomUUID()}`;
+  const providerSubId = `sub_${randomUUID()}`;
 
   // handleSubscriptionCreated-style: insert.
   const createdRow = {
     userId,
-    paddleSubscriptionId: paddleSubId,
-    paddleCustomerId: "cus_test",
+    providerSubscriptionId: providerSubId,
+    providerCustomerId: "cus_test",
     productId: "pro_test",
     priceId: "pri_monthly",
     status: "active",
@@ -37,14 +37,14 @@ async function main() {
     environment: "sandbox" as const,
     updatedAt: new Date().toISOString(),
   };
-  await withAdmin((db) => db.insert(subscriptions).values(createdRow).onConflictDoUpdate({ target: subscriptions.paddleSubscriptionId, set: createdRow }));
-  await withAdmin((db) => db.insert(billingEvents).values({ userId, event: "subscription_created", environment: "sandbox", metadata: { subscriptionId: paddleSubId } }));
-  let row = (await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.paddleSubscriptionId, paddleSubId)))).at(0)!;
+  await withAdmin((db) => db.insert(subscriptions).values(createdRow).onConflictDoUpdate({ target: subscriptions.providerSubscriptionId, set: createdRow }));
+  await withAdmin((db) => db.insert(billingEvents).values({ userId, event: "subscription_created", environment: "sandbox", metadata: { subscriptionId: providerSubId } }));
+  let row = (await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.providerSubscriptionId, providerSubId)))).at(0)!;
   if (row.status !== "active" || row.priceId !== "pri_monthly") throw new Error(`FAIL: handleSubscriptionCreated-style insert wrong — ${JSON.stringify(row)}`);
   console.log("handleSubscriptionCreated-style insert + billing_events log: OK.");
 
   // handleSubscriptionUpdated-style: PARTIAL update — status changes, but this
-  // particular Paddle payload carries no price/billing-cycle info, so
+  // particular provider payload carries no price/billing-cycle info, so
   // priceId/billingInterval/currency/amount must stay exactly as they were.
   await withAdmin((db) =>
     db
@@ -52,39 +52,39 @@ async function main() {
       .set({
         status: "past_due",
         // no priceId/billingInterval/currency/amount spread in — simulates a
-        // Paddle payload without a price change, matching handleSubscriptionUpdated's
+        // provider payload without a price change, matching handleSubscriptionUpdated's
         // conditional spread logic.
         currentPeriodEnd: "2027-01-01T00:00:00Z",
         updatedAt: new Date().toISOString(),
       })
-      .where(and(eq(subscriptions.paddleSubscriptionId, paddleSubId), eq(subscriptions.environment, "sandbox"))),
+      .where(and(eq(subscriptions.providerSubscriptionId, providerSubId), eq(subscriptions.environment, "sandbox"))),
   );
-  row = (await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.paddleSubscriptionId, paddleSubId)))).at(0)!;
+  row = (await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.providerSubscriptionId, providerSubId)))).at(0)!;
   if (row.status !== "past_due") throw new Error("FAIL: status did not update");
   if (row.priceId !== "pri_monthly" || row.currency !== "USD" || row.amount !== 999) {
     throw new Error(`FAIL: partial update clobbered fields it shouldn't have touched — ${JSON.stringify(row)}`);
   }
   console.log("handleSubscriptionUpdated-style partial update: status changes, untouched fields (priceId/currency/amount) survive. OK.");
 
-  // handleSubscriptionCanceled-style: status -> canceled, scoped by (paddle_subscription_id, environment).
+  // handleSubscriptionCanceled-style: status -> canceled, scoped by (provider_subscription_id, environment).
   await withAdmin((db) =>
     db
       .update(subscriptions)
       .set({ status: "canceled", updatedAt: new Date().toISOString() })
-      .where(and(eq(subscriptions.paddleSubscriptionId, paddleSubId), eq(subscriptions.environment, "sandbox"))),
+      .where(and(eq(subscriptions.providerSubscriptionId, providerSubId), eq(subscriptions.environment, "sandbox"))),
   );
-  row = (await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.paddleSubscriptionId, paddleSubId)))).at(0)!;
+  row = (await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.providerSubscriptionId, providerSubId)))).at(0)!;
   if (row.status !== "canceled") throw new Error("FAIL: handleSubscriptionCanceled-style update did not land");
   console.log("handleSubscriptionCanceled-style update: OK.");
 
-  // Environment scoping: an update for the SAME paddle_subscription_id but a
+  // Environment scoping: an update for the SAME provider_subscription_id but a
   // different environment must not match (sandbox vs live are separate rows
   // in practice, but this checks the WHERE clause itself is scoped correctly).
   const liveUpdateResult = await withAdmin((db) =>
     db
       .update(subscriptions)
       .set({ status: "should_not_apply" })
-      .where(and(eq(subscriptions.paddleSubscriptionId, paddleSubId), eq(subscriptions.environment, "live")))
+      .where(and(eq(subscriptions.providerSubscriptionId, providerSubId), eq(subscriptions.environment, "live")))
       .returning({ id: subscriptions.id }),
   );
   if (liveUpdateResult.length !== 0) throw new Error("FAIL: environment-scoped update matched a row in the wrong environment");

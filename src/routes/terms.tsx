@@ -49,18 +49,19 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
     body: (
       <>
         Premium and IELTS Pro are recurring subscriptions billed monthly or yearly and renew automatically until
-        cancelled. Our order process is conducted by our online reseller Paddle.com. Paddle.com is the Merchant of
-        Record for all our orders. Paddle provides all customer service inquiries and handles returns. Payment,
-        billing, currency, tax and invoicing are governed by the{" "}
+        cancelled. They are sold by Ms Thao English. Payments are processed securely by{" "}
         <a
-          href="https://www.paddle.com/legal/checkout-buyer-terms"
+          href="https://stripe.com"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary underline"
         >
-          Paddle Buyer Terms
+          Stripe
         </a>
-        . Trials, when offered, convert to a paid subscription unless cancelled before the trial ends.
+        , our payment processor: we never see or store your card number. Prices are shown in US dollars and tax is
+        added at checkout — the full amount is shown to you before you pay, and an invoice is available for each
+        payment from My Subscription. Each account is eligible for one free trial; a trial converts to a paid
+        subscription unless cancelled before the trial ends.
       </>
     ),
   },
@@ -73,7 +74,7 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
         <Link to="/refunds" className="text-primary underline">
           Refund Policy
         </Link>{" "}
-        — a 30-day money-back guarantee, with refunds processed by Paddle.
+        — a 30-day money-back guarantee, with refunds issued by us to your original payment method.
       </>
     ),
   },

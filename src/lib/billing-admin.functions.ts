@@ -10,12 +10,12 @@ import { withAdmin } from "@/db";
 import { billingEvents, billingPlans, complimentaryAccess, profiles, subscriptions } from "@/db/schema/schema";
 import { requireAdmin } from "@/lib/require-auth";
 import { logAdminAction } from "./entitlements.server";
-import { getPaddleEnvironment } from "./payments-env";
+import { getPaymentsEnv } from "./payments-env";
 
 export const adminBillingOverview = createServerFn({ method: "POST" })
   .middleware([requireAdmin])
   .handler(async () => {
-    const env = getPaddleEnvironment();
+    const env = getPaymentsEnv();
 
     const [subs, events, comps, learnerCount] = await withAdmin((db) =>
       Promise.all([
@@ -191,7 +191,7 @@ export const adminListMembers = createServerFn({ method: "POST" })
     z.object({ search: z.string().max(120).optional() }).parse(data ?? {}),
   )
   .handler(async ({ data }) => {
-    const env = getPaddleEnvironment();
+    const env = getPaymentsEnv();
     const search = (data.search ?? "").trim();
 
     const [profileRows, subs, comps, plans] = await withAdmin((db) =>

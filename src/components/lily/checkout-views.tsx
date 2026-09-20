@@ -22,6 +22,7 @@ export function CheckoutSuccessView() {
   const [state, setState] = useState<"checking" | "confirmed" | "pending">("checking");
   const [planName, setPlanName] = useState("");
   const [status, setStatus] = useState("");
+  const [trialing, setTrialing] = useState(false);
   const [returnTo, setReturnTo] = useState<string | null>(null);
 
   useEffect(() => {
@@ -31,16 +32,18 @@ export function CheckoutSuccessView() {
   useEffect(() => {
     if (!user) return;
     let cancelled = false;
-    const transactionId = new URLSearchParams(window.location.search).get("_ptxn");
+    // Stripe appends the checkout session id to the success URL (see createCheckoutSession).
+    const sessionId = new URLSearchParams(window.location.search).get("session_id");
 
     const poll = async (attempt: number): Promise<void> => {
       if (cancelled) return;
       try {
-        const result = await verify({ data: transactionId ? { transactionId } : {} });
+        const result = await verify({ data: sessionId ? { sessionId } : {} });
         if (cancelled) return;
         if (result.confirmed) {
           setPlanName(result.entitlement.planName);
           setStatus(result.entitlement.tier);
+          setTrialing(result.subscription?.status === "trialing");
           setState("confirmed");
           return;
         }
@@ -81,7 +84,9 @@ export function CheckoutSuccessView() {
                   {t("billing.status")}
                 </dt>
                 <dd className="text-foreground">
-                  {status === "free" ? t("pricing.free") : t("billing.state.active")}
+                  {status === "free"
+                    ? t("pricing.free")
+                    : t(trialing ? "billing.state.trialing" : "billing.state.active")}
                 </dd>
               </div>
             </dl>

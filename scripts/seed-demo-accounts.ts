@@ -116,8 +116,8 @@ async function main() {
         const amount = spec.tier === "premium" ? 999 : 1999;
         await db.insert(subscriptions).values({
           userId: id,
-          paddleSubscriptionId: `demo_sub_${spec.tier}_${id.slice(0, 8)}`,
-          paddleCustomerId: `demo_cust_${spec.tier}_${id.slice(0, 8)}`,
+          providerSubscriptionId: `demo_sub_${spec.tier}_${id.slice(0, 8)}`,
+          providerCustomerId: `demo_cust_${spec.tier}_${id.slice(0, 8)}`,
           productId: `demo_product_${spec.tier}`,
           priceId,
           status: "active",
@@ -127,13 +127,12 @@ async function main() {
           currentPeriodStart: new Date().toISOString(),
           currentPeriodEnd: new Date(Date.now() + 30 * 24 * 3600 * 1000).toISOString(),
           // The REAL app resolves tier via resolveTier()/getEntitlement() in entitlements.server.ts,
-          // which defaults `env` to getPaddleEnvironment() (src/lib/payments-env.ts) — that reads
-          // VITE_PAYMENTS_CLIENT_TOKEN's prefix, not a hardcoded "live". In dev (.env.development has
-          // a "test_..." token) that resolves to "sandbox", so a subscription row stamped "live" here
-          // is invisible to the actual app even though effective_tier(id) in a raw SQL query (which
-          // defaults its own check_env param to 'live') would still show it as active — a false
-          // positive if you only check with raw SQL instead of the app's real code path. Match
-          // whichever environment this deployment's build actually resolves to.
+          // which defaults `env` to getPaymentsEnv() (src/lib/payments-env.ts) — that reads the prefix of
+          // STRIPE_SECRET_KEY (sk_test_ → "sandbox", sk_live_ → "live"), not a hardcoded "live". A row
+          // stamped with the other environment is invisible to the actual app even though
+          // effective_tier(id) in a raw SQL query (which defaults its own check_env param to 'live')
+          // would still show it as active — a false positive if you only check with raw SQL instead of
+          // the app's real code path. Match whichever environment this deployment resolves to.
           environment: "sandbox",
         });
       }

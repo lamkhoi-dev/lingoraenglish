@@ -1,92 +1,69 @@
 /**
- * Writes provider subscription state into the database.
- * Shared by the webhook handler and the success-page verification path so both
- * derive access from the provider, never from the browser.
+ * Writes Stripe subscription state into the database.
+ * Shared by the webhook handler, the checkout-success verification and the
+ * cancel / keep / change-plan actions, so all of them derive access from Stripe,
+ * never from the browser.
  */
 import { withAdmin } from "@/db";
 import { subscriptions } from "@/db/schema/schema";
-import type { PaddleEnv } from "./payments-env";
-
-type PriceLike = {
-  id?: string;
-  product_id?: string;
-  billing_cycle?: { interval?: string } | null;
-  unit_price?: { amount?: string; currency_code?: string } | null;
-  import_meta?: { external_id?: string | null } | null;
-  custom_data?: Record<string, unknown> | null;
-};
+import type { PaymentsEnv } from "./payments-env";
 
 export async function syncSubscriptionFromProvider(
   subscriptionId: string,
-  env: PaddleEnv,
+  env: PaymentsEnv,
   fallbackUserId?: string,
 ) {
-  const { paddleFetch, catalogKeyOf, planPriceKeyOf } = await import("./paddle.server");
-  const response = await paddleFetch(env, `/subscriptions/${encodeURIComponent(subscriptionId)}`);
-  if (!response.ok) throw new Error("Could not read the subscription from the payment provider.");
+  const { stripeFetch, toIso } = await import("./stripe.server");
+  const sub = await stripeFetch<import("./stripe.server").StripeSubscription>(
+    "GET",
+    `/v1/subscriptions/${encodeURIComponent(subscriptionId)}`,
+  );
 
-  const result = (await response.json()) as {
-    data?: {
-      id: string;
-      customer_id: string;
-      status: string;
-      custom_data?: { userId?: string } | null;
-      started_at?: string | null;
-      first_billed_at?: string | null;
-      current_billing_period?: { starts_at?: string; ends_at?: string } | null;
-      scheduled_change?: { action?: string } | null;
-      trial_dates?: { ends_at?: string } | null;
-      items?: {
-        trial_dates?: { ends_at?: string } | null;
-        price?: PriceLike;
-        product?: {
-          import_meta?: { external_id?: string | null } | null;
-          custom_data?: Record<string, unknown> | null;
-        };
-      }[];
-    };
-  };
-
-  const sub = result.data;
-  if (!sub) throw new Error("Subscription not found.");
-
-  const userId = sub.custom_data?.userId ?? fallbackUserId;
+  // Both are stamped on the subscription by our own checkout / plan change (see
+  // createCheckoutSession, changeMyPlan) — Stripe carries them back to us verbatim.
+  const userId = sub.metadata?.["userId"] ?? fallbackUserId;
   if (!userId) {
     console.warn("Subscription has no linked user", { subscriptionId });
     return;
   }
-
-  const item = sub.items?.[0];
-  const priceId = planPriceKeyOf(item?.price);
-  const productId = catalogKeyOf(item?.product);
-  if (!priceId || !productId) {
-    // A paid subscription we cannot map to a plan — loud on purpose: the learner
-    // paid and would otherwise stay on Free with nothing in the logs.
-    console.error("Skipping subscription: price/product has no lingora_key in custom_data", {
-      subscriptionId,
-      rawPriceId: item?.price?.id,
-    });
+  const priceId = sub.metadata?.["priceId"];
+  const productKey = sub.metadata?.["productKey"];
+  if (!priceId || !productKey) {
+    // A paid subscription we cannot map to a plan — loud on purpose: the learner paid and
+    // would otherwise stay on Free with nothing in the logs.
+    console.error("Skipping subscription: no priceId/productKey in its metadata", { subscriptionId });
     return;
   }
 
+  const item = sub.items?.data?.[0];
+  const customerId = typeof sub.customer === "string" ? sub.customer : sub.customer.id;
+  // The billing period sits on the subscription in the API version we pin, and on the
+  // item in newer ones — accept either so a version bump cannot silently blank the dates.
+  const periodStart = sub.current_period_start ?? item?.current_period_start;
+  const periodEnd = sub.current_period_end ?? item?.current_period_end;
+  // A Stripe "canceled" subscription has really ended (cancelled from the Dashboard or after
+  // the last paid period), so access must stop then — not at the period end it had been paid to.
+  // The has_active_subscription() rule keeps access until current_period_end for "canceled".
+  const endedAt = sub.status === "canceled" ? (sub.ended_at ?? sub.canceled_at ?? null) : null;
+  const accessEnd = endedAt !== null ? Math.min(periodEnd ?? endedAt, endedAt) : periodEnd;
+
   const row = {
     userId,
-    paddleSubscriptionId: sub.id,
-    paddleCustomerId: sub.customer_id,
-    productId,
+    providerSubscriptionId: sub.id,
+    providerCustomerId: customerId,
+    productId: productKey,
     priceId,
     status: sub.status,
-    billingInterval: item?.price?.billing_cycle?.interval ?? "month",
-    currency: item?.price?.unit_price?.currency_code ?? "USD",
-    amount: Number(item?.price?.unit_price?.amount ?? 0),
-    currentPeriodStart: sub.current_billing_period?.starts_at ?? null,
-    currentPeriodEnd: sub.current_billing_period?.ends_at ?? null,
+    billingInterval: item?.price?.recurring?.interval ?? "month",
+    currency: (sub.currency ?? item?.price?.currency ?? "usd").toUpperCase(),
+    amount: item?.price?.unit_amount ?? null,
+    currentPeriodStart: toIso(periodStart),
+    currentPeriodEnd: toIso(accessEnd),
     // Original signup date for /account (Yêu cầu 12), not the current period.
-    startedAt: sub.started_at ?? sub.first_billed_at ?? null,
-    cancelAtPeriodEnd: sub.scheduled_change?.action === "cancel",
-    scheduledChange: sub.scheduled_change?.action ?? "",
-    // Paddle puts the trial window on the subscription ITEM, not the subscription itself.
-    trialEndsAt: item?.trial_dates?.ends_at ?? sub.trial_dates?.ends_at ?? null,
+    startedAt: toIso(sub.start_date ?? sub.created),
+    cancelAtPeriodEnd: sub.cancel_at_period_end,
+    scheduledChange: sub.cancel_at_period_end ? "cancel" : "",
+    trialEndsAt: toIso(sub.trial_end),
     environment: env,
     updatedAt: new Date().toISOString(),
   };
@@ -94,6 +71,6 @@ export async function syncSubscriptionFromProvider(
     db
       .insert(subscriptions)
       .values(row)
-      .onConflictDoUpdate({ target: subscriptions.paddleSubscriptionId, set: row }),
+      .onConflictDoUpdate({ target: subscriptions.providerSubscriptionId, set: row }),
   );
 }

@@ -134,7 +134,7 @@ function BillingPage() {
                         : t("pricing.perMonth")}
                     </p>
                   ) : null}
-                  {subscription.trial_ends_at && (
+                  {subscription.status === "trialing" && subscription.trial_ends_at && (
                     <p className="text-muted-foreground">
                       {t("billing.trialEnds", {
                         date: formatDate(subscription.trial_ends_at, locale),
@@ -216,43 +216,33 @@ function BillingPage() {
           {subscription && otherPaidPlans.length > 0 && (
             <div className="mt-6 border-t border-border/60 pt-5">
               <h4 className="text-sm font-semibold text-foreground">{t("billing.changePlan")}</h4>
-              {subscription.status === "trialing" ? (
-                // Paddle refuses item changes on a trialing subscription, so say so
-                // instead of offering buttons that can only fail.
-                <p className="mt-2 text-xs text-muted-foreground">
-                  {t("billing.changePlanAfterTrial")}
-                </p>
-              ) : (
-                <>
-                  <div className="mt-3 flex flex-wrap gap-3">
-                    {otherPaidPlans.map((plan) => (
-                      <button
-                        key={plan.plan_key}
-                        type="button"
-                        disabled={busy}
-                        onClick={() =>
-                          void run(
-                            () =>
-                              switchPlan({
-                                data: {
-                                  priceId:
-                                    subscription.billing_interval === "year"
-                                      ? plan.yearly_price_id
-                                      : plan.monthly_price_id,
-                                },
-                              }),
-                            t("billing.planChanged"),
-                          )
-                        }
-                        className="rounded-full border border-border px-4 py-2 text-sm font-medium disabled:opacity-60"
-                      >
-                        {t("billing.switchTo", { plan: plan.name })}
-                      </button>
-                    ))}
-                  </div>
-                  <p className="mt-2 text-xs text-muted-foreground">{t("billing.prorationNote")}</p>
-                </>
-              )}
+              <div className="mt-3 flex flex-wrap gap-3">
+                {otherPaidPlans.map((plan) => (
+                  <button
+                    key={plan.plan_key}
+                    type="button"
+                    disabled={busy}
+                    onClick={() =>
+                      void run(
+                        () =>
+                          switchPlan({
+                            data: {
+                              priceId:
+                                subscription.billing_interval === "year"
+                                  ? plan.yearly_price_id
+                                  : plan.monthly_price_id,
+                            },
+                          }),
+                        t("billing.planChanged"),
+                      )
+                    }
+                    className="rounded-full border border-border px-4 py-2 text-sm font-medium disabled:opacity-60"
+                  >
+                    {t("billing.switchTo", { plan: plan.name })}
+                  </button>
+                ))}
+              </div>
+              <p className="mt-2 text-xs text-muted-foreground">{t("billing.prorationNote")}</p>
             </div>
           )}
         </BillingCard>
@@ -341,7 +331,7 @@ function BillingPage() {
                           void (async () => {
                             try {
                               const { url } = await invoiceUrl({
-                                data: { transactionId: payment.id },
+                                data: { paymentId: payment.id },
                               });
                               window.open(url, "_blank", "noopener");
                             } catch (error) {

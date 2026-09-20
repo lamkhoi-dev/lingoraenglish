@@ -13,33 +13,12 @@ rem Giu ket noi SSH song khi truyen file lon, tranh bi thiet bi mang giua duong
 rem cat ket noi vi tuong la "khong hoat dong".
 set SSH_OPTS=-o ServerAliveInterval=15 -o ServerAliveCountMax=6 -o ConnectTimeout=15
 
-rem ==== Che do thanh toan (Paddle) ====
-rem   deploy.bat           -> LIVE:    token live_ tu .env.production, can PADDLE_LIVE_API_KEY
-rem                                    va PAYMENTS_LIVE_WEBHOOK_SECRET trong .env.docker.
-rem   deploy.bat sandbox   -> SANDBOX: token test_ tu .env.development, dung thanh toan thu
-rem                                    (the 4242 4242 4242 4242), khong tru tien that. Can
-rem                                    PADDLE_SANDBOX_API_KEY + PAYMENTS_SANDBOX_WEBHOOK_SECRET.
-rem Moi truong Paddle duoc CO DINH luc build (xem src/lib/payments-env.ts), nen chuyen
-rem qua lai giua 2 che do = deploy lai. Lan deploy tiep theo khong tham so se tro ve LIVE.
-set BUILD_ARGS=
-set PAY_MODE=LIVE
-if /i not "%~1"=="sandbox" goto :mode_chosen
-set SANDBOX_TOKEN=
-for /f "tokens=2 delims==" %%T in ('findstr /b "VITE_PAYMENTS_CLIENT_TOKEN=" .env.development') do set SANDBOX_TOKEN=%%T
-set SANDBOX_TOKEN=%SANDBOX_TOKEN:"=%
-if not "%SANDBOX_TOKEN:~0,5%"=="test_" (
-  echo [LOI] Khong doc duoc token test_ trong .env.development. Dung lai.
-  exit /b 1
-)
-set BUILD_ARGS=--build-arg VITE_PAYMENTS_CLIENT_TOKEN=%SANDBOX_TOKEN%
-set PAY_MODE=SANDBOX
-:mode_chosen
+rem Che do thanh toan (Stripe test / live) KHONG con la viec cua build: server doc STRIPE_SECRET_KEY
+rem (sk_test_... hoac sk_live_...) trong .env.docker luc chay. Doi che do = sua .env.docker roi deploy.
 
 echo.
-echo ==== Che do thanh toan: %PAY_MODE% ====
-echo.
 echo === 1/5 Build Docker image tu code hien tai ===
-docker build %BUILD_ARGS% -t %IMAGE_NAME% .
+docker build -t %IMAGE_NAME% .
 if errorlevel 1 (
   echo [LOI] Build that bai. Dung lai, kiem tra loi ben tren.
   exit /b 1
@@ -105,7 +84,7 @@ del %TAR_FILE% 2>nul
 del %GZ_FILE% 2>nul
 
 echo.
-echo ==== XONG (che do thanh toan: %PAY_MODE%). Dang xem log container (Ctrl+C de thoat, container van chay binh thuong) ====
+echo ==== XONG. Dang xem log container (Ctrl+C de thoat, container van chay binh thuong) ====
 ssh %SSH_OPTS% -i "%SSH_KEY%" %VPS_USER%@%VPS_HOST% "cd %REMOTE_DIR% && docker compose logs -f app"
 
 rem Neu co migration DB moi (file .sql moi trong src\db\schema\), chay migrate.bat

@@ -13,8 +13,8 @@ import { billingPlans, subscriptions, usersInAuth } from "../src/db/schema/schem
 
 function toSubscriptionRow(row: typeof subscriptions.$inferSelect) {
   return {
-    paddle_subscription_id: row.paddleSubscriptionId,
-    paddle_customer_id: row.paddleCustomerId,
+    provider_subscription_id: row.providerSubscriptionId,
+    provider_customer_id: row.providerCustomerId,
     status: row.status,
     current_period_end: row.currentPeriodEnd,
     environment: row.environment,
@@ -46,19 +46,19 @@ async function main() {
 
   // Two subscriptions, different environments — must pick the right one AND the newest.
   await withAdmin((db) =>
-    db.insert(subscriptions).values({ userId, paddleSubscriptionId: `sub-old-${randomUUID()}`, paddleCustomerId: "cus", productId: "p", priceId: "pr", status: "canceled", environment: "sandbox", createdAt: new Date(Date.now() - 100000).toISOString() }),
+    db.insert(subscriptions).values({ userId, providerSubscriptionId: `sub-old-${randomUUID()}`, providerCustomerId: "cus", productId: "p", priceId: "pr", status: "canceled", environment: "sandbox", createdAt: new Date(Date.now() - 100000).toISOString() }),
   );
   await withAdmin((db) =>
-    db.insert(subscriptions).values({ userId, paddleSubscriptionId: `sub-new-${randomUUID()}`, paddleCustomerId: "cus2", productId: "p", priceId: "pr", status: "active", environment: "sandbox" }),
+    db.insert(subscriptions).values({ userId, providerSubscriptionId: `sub-new-${randomUUID()}`, providerCustomerId: "cus2", productId: "p", priceId: "pr", status: "active", environment: "sandbox" }),
   );
   await withAdmin((db) =>
-    db.insert(subscriptions).values({ userId, paddleSubscriptionId: `sub-live-${randomUUID()}`, paddleCustomerId: "cus3", productId: "p", priceId: "pr", status: "active", environment: "live" }),
+    db.insert(subscriptions).values({ userId, providerSubscriptionId: `sub-live-${randomUUID()}`, providerCustomerId: "cus3", productId: "p", priceId: "pr", status: "active", environment: "live" }),
   );
 
   const sandboxLatest = await myLatestSubscription(userId, "sandbox");
-  if (sandboxLatest?.paddle_customer_id !== "cus2") throw new Error(`FAIL: expected the newest sandbox sub (cus2), got ${JSON.stringify(sandboxLatest)}`);
+  if (sandboxLatest?.provider_customer_id !== "cus2") throw new Error(`FAIL: expected the newest sandbox sub (cus2), got ${JSON.stringify(sandboxLatest)}`);
   const liveLatest = await myLatestSubscription(userId, "live");
-  if (liveLatest?.paddle_customer_id !== "cus3") throw new Error(`FAIL: expected the live sub (cus3), got ${JSON.stringify(liveLatest)}`);
+  if (liveLatest?.provider_customer_id !== "cus3") throw new Error(`FAIL: expected the live sub (cus3), got ${JSON.stringify(liveLatest)}`);
   console.log("myLatestSubscription(): picks the newest row scoped to (user, environment), doesn't leak across environments. OK.");
 
   // changeMyPlan-style plan lookup by price id, active plans only. `tier` is

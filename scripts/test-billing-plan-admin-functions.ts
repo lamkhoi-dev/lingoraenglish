@@ -1,7 +1,7 @@
 /**
  * One-off validation script — NOT part of the app. Exercises:
  *   1. billing-sync.server.ts's upsert-on-conflict logic (subscriptions,
- *      unique on paddle_subscription_id) — insert then update via the same
+ *      unique on provider_subscription_id) — insert then update via the same
  *      conflict target.
  *   2. plan-admin.functions.ts's adminUpdatePlan-style write (billing_plans.limits,
  *      a jsonb column round-tripping as a plain object, not a string).
@@ -23,11 +23,11 @@ async function main() {
   });
 
   // syncSubscriptionFromProvider-style upsert.
-  const paddleSubId = `sub_${randomUUID()}`;
+  const providerSubId = `sub_${randomUUID()}`;
   const row = {
     userId,
-    paddleSubscriptionId: paddleSubId,
-    paddleCustomerId: "cus_test",
+    providerSubscriptionId: providerSubId,
+    providerCustomerId: "cus_test",
     productId: "pro_test",
     priceId: "pri_test",
     status: "active",
@@ -38,17 +38,17 @@ async function main() {
     updatedAt: new Date().toISOString(),
   };
   await withAdmin((db) =>
-    db.insert(subscriptions).values(row).onConflictDoUpdate({ target: subscriptions.paddleSubscriptionId, set: row }),
+    db.insert(subscriptions).values(row).onConflictDoUpdate({ target: subscriptions.providerSubscriptionId, set: row }),
   );
-  let subRows = await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.paddleSubscriptionId, paddleSubId)));
+  let subRows = await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.providerSubscriptionId, providerSubId)));
   if (subRows.length !== 1 || subRows[0]!.status !== "active") throw new Error(`FAIL: first upsert wrong — ${JSON.stringify(subRows)}`);
   console.log("syncSubscriptionFromProvider-style insert: OK.");
 
   const updatedRow = { ...row, status: "canceled", updatedAt: new Date().toISOString() };
   await withAdmin((db) =>
-    db.insert(subscriptions).values(updatedRow).onConflictDoUpdate({ target: subscriptions.paddleSubscriptionId, set: updatedRow }),
+    db.insert(subscriptions).values(updatedRow).onConflictDoUpdate({ target: subscriptions.providerSubscriptionId, set: updatedRow }),
   );
-  subRows = await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.paddleSubscriptionId, paddleSubId)));
+  subRows = await withAdmin((db) => db.select().from(subscriptions).where(eq(subscriptions.providerSubscriptionId, providerSubId)));
   if (subRows.length !== 1 || subRows[0]!.status !== "canceled") {
     throw new Error(`FAIL: second upsert should update the same row to status=canceled, got ${JSON.stringify(subRows)}`);
   }

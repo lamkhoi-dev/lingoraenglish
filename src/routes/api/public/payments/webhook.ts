@@ -1,5 +1,5 @@
 /**
- * Payment provider webhook — the single source of truth for subscription state.
+ * Stripe webhook — the single source of truth for subscription state.
  * Every request's signature is verified before anything is written.
  */
 import { createFileRoute } from "@tanstack/react-router";
@@ -8,24 +8,19 @@ import { and, eq } from "drizzle-orm";
 import { withAdmin } from "@/db";
 import { processedWebhookEvents, subscriptions } from "@/db/schema/schema";
 import { logBillingEvent } from "@/lib/entitlements.server";
-import {
-  catalogKeyOf,
-  EventName,
-  planPriceKeyOf,
-  verifyWebhook,
-  type PaddleEnv,
-} from "@/lib/paddle.server";
+import { getPaymentsEnv, type PaymentsEnv } from "@/lib/payments-env";
+import { getStripeWebhookSecret, stripeFetch, toIso, verifyStripeSignature } from "@/lib/stripe.server";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
- * Claims one provider event. Paddle redelivers whenever this endpoint times
+ * Claims one provider event. Stripe redelivers whenever this endpoint times
  * out or answers non-2xx (which it does on any handler error), so a delivery
  * we have already applied must do nothing the second time — Yêu cầu 11:
  * "gửi lại cùng một thông báo thanh toán nhiều lần không làm sai dữ liệu".
  * Returns false when the event was processed before.
  */
-async function claimEvent(eventId: string, eventType: string, env: PaddleEnv): Promise<boolean> {
+async function claimEvent(eventId: string, eventType: string, env: PaymentsEnv): Promise<boolean> {
   const claimed = await withAdmin((db) =>
     db
       .insert(processedWebhookEvents)
@@ -36,8 +31,8 @@ async function claimEvent(eventId: string, eventType: string, env: PaddleEnv): P
   return claimed.length > 0;
 }
 
-/** Hands the claim back when processing failed, so Paddle's retry still lands. */
-async function releaseEvent(eventId: string, env: PaddleEnv) {
+/** Hands the claim back when processing failed, so Stripe's retry still lands. */
+async function releaseEvent(eventId: string, env: PaymentsEnv) {
   await withAdmin((db) =>
     db
       .delete(processedWebhookEvents)
@@ -50,32 +45,15 @@ async function releaseEvent(eventId: string, env: PaddleEnv) {
   );
 }
 
-/**
- * Re-reads the subscription from the provider and upserts it. Throwing is the
- * point: the caller's claim is released and Paddle retries, rather than the
- * event being lost because we could not reach the provider right now.
- */
-async function backfillFromProvider(
-  subscriptionId: string,
-  env: PaddleEnv,
-  fallbackUserId?: string,
-) {
-  const { syncSubscriptionFromProvider } = await import("@/lib/billing-sync.server");
-  await syncSubscriptionFromProvider(subscriptionId, env, fallbackUserId);
-}
-
-/** Renewals may arrive without customData — fall back to the subscription's owner. */
-async function userIdForSubscription(
-  subscriptionId: string,
-  env: PaddleEnv,
-): Promise<string | null> {
+/** Renewals and invoices may arrive without our metadata — fall back to the subscription's owner. */
+async function userIdForSubscription(subscriptionId: string, env: PaymentsEnv): Promise<string | null> {
   const rows = await withAdmin((db) =>
     db
       .select({ userId: subscriptions.userId })
       .from(subscriptions)
       .where(
         and(
-          eq(subscriptions.paddleSubscriptionId, subscriptionId),
+          eq(subscriptions.providerSubscriptionId, subscriptionId),
           eq(subscriptions.environment, env),
         ),
       )
@@ -84,193 +62,130 @@ async function userIdForSubscription(
   return rows[0]?.userId ?? null;
 }
 
-async function handleSubscriptionCreated(data: any, env: PaddleEnv) {
-  const userId = data.customData?.userId as string | undefined;
-  if (!userId) {
-    console.error("No userId in customData for subscription", data.id);
-    return;
-  }
+/**
+ * Re-reads the subscription from Stripe and upserts it. Reading it back (instead of trusting the
+ * event body) means an out-of-order or duplicated delivery can never overwrite newer state.
+ * Throwing is the point: the caller's claim is released and Stripe retries.
+ */
+async function syncFromProvider(subscriptionId: string, env: PaymentsEnv, fallbackUserId?: string) {
+  const { syncSubscriptionFromProvider } = await import("@/lib/billing-sync.server");
+  await syncSubscriptionFromProvider(subscriptionId, env, fallbackUserId);
+}
 
-  const item = data.items?.[0];
-  const priceId = planPriceKeyOf(item?.price);
-  const productId = catalogKeyOf(item?.product);
-  if (!priceId || !productId) {
-    // A paid subscription we cannot map to a plan — loud on purpose: the learner
-    // paid and would otherwise stay on Free with nothing in the logs.
-    console.error("Skipping subscription: price/product has no lingora_key in custom_data", {
-      subscriptionId: data.id,
-      rawPriceId: item?.price?.id,
-      rawProductId: item?.product?.id,
+async function handleSubscription(type: string, sub: any, env: PaymentsEnv) {
+  const userId = sub.metadata?.userId as string | undefined;
+  await syncFromProvider(sub.id, env, userId);
+
+  const metadata = { subscriptionId: sub.id, priceId: sub.metadata?.priceId ?? null, productId: sub.metadata?.productKey ?? null };
+  if (type === "customer.subscription.created") {
+    await logBillingEvent(sub.status === "trialing" ? "trial_started" : "subscription_created", {
+      userId: userId ?? null,
+      env,
+      metadata,
     });
-    return;
+  } else if (type === "customer.subscription.deleted") {
+    await logBillingEvent("subscription_cancelled", { userId: userId ?? null, env, metadata });
+  } else {
+    await logBillingEvent("subscription_updated", {
+      userId: userId ?? null,
+      env,
+      metadata: { ...metadata, status: sub.status },
+    });
   }
-
-  const row = {
-    userId,
-    paddleSubscriptionId: data.id as string,
-    paddleCustomerId: data.customerId as string,
-    productId: productId as string,
-    priceId: priceId as string,
-    status: data.status as string,
-    billingInterval: item?.price?.billingCycle?.interval ?? "month",
-    currency: item?.price?.unitPrice?.currencyCode ?? "USD",
-    amount: Number(item?.price?.unitPrice?.amount ?? 0),
-    currentPeriodStart: data.currentBillingPeriod?.startsAt ?? null,
-    currentPeriodEnd: data.currentBillingPeriod?.endsAt ?? null,
-    // The signup date /account must show (Yêu cầu 12) — not the current period.
-    startedAt: data.startedAt ?? data.firstBilledAt ?? null,
-    cancelAtPeriodEnd: data.scheduledChange?.action === "cancel",
-    scheduledChange: data.scheduledChange?.action ?? "",
-    trialEndsAt: item?.trialDates?.endsAt ?? data.trialDates?.endsAt ?? null,
-    environment: env,
-    updatedAt: new Date().toISOString(),
-  };
-  await withAdmin((db) =>
-    db.insert(subscriptions).values(row).onConflictDoUpdate({ target: subscriptions.paddleSubscriptionId, set: row }),
-  );
-
-  await logBillingEvent(data.status === "trialing" ? "trial_started" : "subscription_created", {
-    userId,
-    env,
-    metadata: { priceId, productId, subscriptionId: data.id },
-  });
 }
 
-async function handleSubscriptionUpdated(data: any, env: PaddleEnv) {
-  const item = data.items?.[0];
-  const priceId = planPriceKeyOf(item?.price);
-
-  const updated = await withAdmin((db) =>
-    db
-      .update(subscriptions)
-      .set({
-        status: data.status,
-        ...(priceId ? { priceId } : {}),
-        ...(item?.price?.billingCycle?.interval ? { billingInterval: item.price.billingCycle.interval } : {}),
-        ...(item?.price?.unitPrice
-          ? { currency: item.price.unitPrice.currencyCode ?? "USD", amount: Number(item.price.unitPrice.amount ?? 0) }
-          : {}),
-        currentPeriodStart: data.currentBillingPeriod?.startsAt ?? null,
-        currentPeriodEnd: data.currentBillingPeriod?.endsAt ?? null,
-        // Conditional on purpose: a payload without it must never blank out the
-        // signup date, and Paddle never changes it once set (Yêu cầu 12).
-        ...(data.startedAt || data.firstBilledAt
-          ? { startedAt: data.startedAt ?? data.firstBilledAt }
-          : {}),
-        cancelAtPeriodEnd: data.scheduledChange?.action === "cancel",
-        scheduledChange: data.scheduledChange?.action ?? "",
-        trialEndsAt: item?.trialDates?.endsAt ?? data.trialDates?.endsAt ?? null,
-        updatedAt: new Date().toISOString(),
-      })
-      .where(and(eq(subscriptions.paddleSubscriptionId, data.id), eq(subscriptions.environment, env)))
-      .returning({ id: subscriptions.id }),
-  );
-
-  // Paddle does not promise delivery order, so an update can land before the
-  // subscription.created that would have inserted the row. Updating nothing
-  // would drop the event for good and leave a paying learner on free.
-  if (updated.length === 0) {
-    await backfillFromProvider(data.id, env, data.customData?.userId);
-  }
-
-  await logBillingEvent("subscription_updated", {
-    userId: data.customData?.userId ?? null,
-    env,
-    metadata: { status: data.status, subscriptionId: data.id },
-  });
-}
-
-async function handleSubscriptionCanceled(data: any, env: PaddleEnv) {
-  const updated = await withAdmin((db) =>
-    db
-      .update(subscriptions)
-      .set({ status: "canceled", updatedAt: new Date().toISOString() })
-      .where(and(eq(subscriptions.paddleSubscriptionId, data.id), eq(subscriptions.environment, env)))
-      .returning({ id: subscriptions.id }),
-  );
-
-  if (updated.length === 0) {
-    await backfillFromProvider(data.id, env, data.customData?.userId);
-  }
-
-  await logBillingEvent("subscription_cancelled", { userId: data.customData?.userId ?? null, env, metadata: { subscriptionId: data.id } });
-}
-
-async function handleTransaction(event: string, data: any, env: PaddleEnv) {
-  const subscriptionId = (data.subscriptionId as string | null) ?? null;
+async function handleInvoice(event: string, invoice: any, env: PaymentsEnv) {
+  const subscriptionId: string | null =
+    typeof invoice.subscription === "string" ? invoice.subscription : (invoice.subscription?.id ?? null);
   const userId =
-    (data.customData?.userId as string | undefined) ??
+    (invoice.subscription_details?.metadata?.userId as string | undefined) ??
     (subscriptionId ? await userIdForSubscription(subscriptionId, env) : null);
 
-  const totals = data.details?.totals;
-  const price = data.items?.[0]?.price;
-  const method = data.payments?.[0]?.methodDetails;
+  // Card brand / last four, kept so /billing's history stays readable while Stripe is down.
+  // Only present on invoices that actually charged a card ($0 trial invoices have no charge).
+  let paymentMethodType: string | null = null;
+  let cardBrand: string | null = null;
+  let cardLast4: string | null = null;
+  if (typeof invoice.charge === "string") {
+    try {
+      const charge = await stripeFetch<any>("GET", `/v1/charges/${encodeURIComponent(invoice.charge)}`);
+      paymentMethodType = charge.payment_method_details?.type ?? null;
+      cardBrand = charge.payment_method_details?.card?.brand ?? null;
+      cardLast4 = charge.payment_method_details?.card?.last4 ?? null;
+    } catch (error) {
+      console.error("Could not read the charge behind an invoice", error);
+    }
+  }
 
   await logBillingEvent(event, {
     userId,
     env,
     metadata: {
-      transactionId: data.id,
+      transactionId: invoice.id,
       subscriptionId,
-      status: data.status,
-      currency: data.currencyCode,
-      total: totals?.total ?? null,
-      // Everything /billing's history table renders, kept here so the learner
-      // can still read their history while the provider is unreachable
-      // (Yêu cầu 11) — listMyPayments falls back to these rows.
-      subtotal: totals?.subtotal ?? null,
-      tax: totals?.tax ?? null,
-      billedAt: data.billedAt ?? null,
-      invoiceNumber: data.invoiceNumber ?? null,
-      description: price?.description ?? price?.name ?? "",
-      paymentMethodType: method?.type ?? null,
-      cardBrand: method?.card?.type ?? null,
-      cardLast4: method?.card?.last4 ?? null,
+      status: invoice.status === "paid" ? "completed" : invoice.status,
+      currency: String(invoice.currency ?? "usd").toUpperCase(),
+      total: invoice.total != null ? String(invoice.total) : null,
+      subtotal: invoice.subtotal != null ? String(invoice.subtotal) : null,
+      tax: invoice.tax != null ? String(invoice.tax) : null,
+      billedAt: toIso(invoice.status_transitions?.paid_at ?? invoice.created),
+      invoiceNumber: invoice.number ?? null,
+      description: String(invoice.lines?.data?.[0]?.description ?? "").replace(/^\d+\s*×\s*/, ""),
+      paymentMethodType,
+      cardBrand,
+      cardLast4,
     },
   });
 
-  // A completed renewal can carry fresh period dates before subscription.updated
-  // arrives — keep the row current so access never lapses for a paid learner.
-  if (event === "payment_succeeded" && data.subscriptionId) {
+  // A paid renewal can carry fresh period dates before customer.subscription.updated arrives —
+  // keep the row current so access never lapses for a paid learner.
+  if (event === "payment_succeeded" && subscriptionId) {
     try {
-      const { syncSubscriptionFromProvider } = await import("@/lib/billing-sync.server");
-      await syncSubscriptionFromProvider(data.subscriptionId, env);
+      await syncFromProvider(subscriptionId, env, userId ?? undefined);
     } catch (error) {
       console.error("Subscription re-sync failed", error);
     }
   }
 }
 
-async function handleWebhook(req: Request, env: PaddleEnv) {
-  const event = await verifyWebhook(req, env);
+async function handleWebhook(req: Request) {
+  const rawBody = await req.text();
+  if (!verifyStripeSignature(rawBody, req.headers.get("stripe-signature"), getStripeWebhookSecret())) {
+    throw new Error("Invalid webhook signature");
+  }
+  const event = JSON.parse(rawBody) as { id: string; type: string; livemode: boolean; data: { object: any } };
+  const env: PaymentsEnv = event.livemode ? "live" : "sandbox";
 
-  if (!(await claimEvent(event.eventId, event.eventType, env))) {
-    console.log("Duplicate payment event ignored:", event.eventId);
+  // A test-mode event reaching a live deployment (or the reverse) is a misconfiguration, not
+  // something to write: acknowledge it so Stripe stops retrying, and leave the data alone.
+  if (env !== getPaymentsEnv()) {
+    console.warn("Ignoring a webhook from the other Stripe mode", { id: event.id, type: event.type, env });
+    return;
+  }
+
+  if (!(await claimEvent(event.id, event.type, env))) {
+    console.log("Duplicate payment event ignored:", event.id);
     return;
   }
 
   try {
-    switch (event.eventType) {
-      case EventName.SubscriptionCreated:
-        await handleSubscriptionCreated(event.data, env);
+    switch (event.type) {
+      case "customer.subscription.created":
+      case "customer.subscription.updated":
+      case "customer.subscription.deleted":
+        await handleSubscription(event.type, event.data.object, env);
         break;
-      case EventName.SubscriptionUpdated:
-        await handleSubscriptionUpdated(event.data, env);
+      case "invoice.paid":
+        await handleInvoice("payment_succeeded", event.data.object, env);
         break;
-      case EventName.SubscriptionCanceled:
-        await handleSubscriptionCanceled(event.data, env);
-        break;
-      case EventName.TransactionCompleted:
-        await handleTransaction("payment_succeeded", event.data, env);
-        break;
-      case EventName.TransactionPaymentFailed:
-        await handleTransaction("payment_failed", event.data, env);
+      case "invoice.payment_failed":
+        await handleInvoice("payment_failed", event.data.object, env);
         break;
       default:
-        console.log("Unhandled payment event:", event.eventType);
+        console.log("Unhandled payment event:", event.type);
     }
   } catch (error) {
-    await releaseEvent(event.eventId, env);
+    await releaseEvent(event.id, env);
     throw error;
   }
 }
@@ -279,10 +194,8 @@ export const Route = createFileRoute("/api/public/payments/webhook")({
   server: {
     handlers: {
       POST: async ({ request }) => {
-        const url = new URL(request.url);
-        const env = (url.searchParams.get("env") || "sandbox") as PaddleEnv;
         try {
-          await handleWebhook(request, env);
+          await handleWebhook(request);
           return Response.json({ received: true });
         } catch (error) {
           console.error("Webhook error:", error);

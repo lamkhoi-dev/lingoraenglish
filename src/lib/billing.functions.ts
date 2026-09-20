@@ -1,20 +1,19 @@
 /**
  * Learner-facing billing server functions.
  *
- * Nothing here trusts the browser: the payment environment is derived from the
- * build's client token, plan/price data comes from the database or the payment
- * provider, and every mutation is scoped to the authenticated user's own
- * subscription.
+ * Nothing here trusts the browser: the payment environment comes from the server's own Stripe
+ * key, plan and price data comes from the database, and every mutation is scoped to the
+ * authenticated user's own subscription.
  */
 import { createServerFn } from "@tanstack/react-start";
 import { and, asc, desc, eq, sql } from "drizzle-orm";
 import { z } from "zod";
 
 import { withAdmin, withAnon, withUser } from "@/db";
-import { billingEvents, billingPlans, subscriptions } from "@/db/schema/schema";
+import { billingEvents, billingPlans, profiles, subscriptions } from "@/db/schema/schema";
 import { requireAuth } from "@/lib/require-auth";
 import { getEntitlement, logBillingEvent, MONTHLY_QUOTA_KEYS } from "./entitlements.server";
-import { getPaddleEnvironment, type PaddleEnv } from "./payments-env";
+import { getPaymentsEnv, type PaymentsEnv } from "./payments-env";
 
 /* --------------------------------------------------------------------- plans */
 
@@ -56,32 +55,22 @@ export const getPublicPlans = createServerFn({ method: "GET" }).handler(async ()
   });
 });
 
-/* ------------------------------------------------------------------ prices */
+/** The active paid plan a website price id ("lily_premium_monthly"…) belongs to, plus which billing
+ * interval that id stands for. billing_plans is the only source of amounts — Stripe holds no
+ * catalogue of prices, so what the page shows and what is charged cannot differ. */
+async function findActivePlanByPriceId(priceId: string) {
+  const rows = await withAnon((db) => db.select().from(billingPlans).where(eq(billingPlans.isActive, true)));
+  const plan = rows.find((p) => p.monthlyPriceId === priceId || p.yearlyPriceId === priceId);
+  if (!plan || plan.tier === "free") return null;
+  const interval = plan.yearlyPriceId === priceId ? ("year" as const) : ("month" as const);
+  const amount = interval === "year" ? plan.yearlyAmount : plan.monthlyAmount;
+  if (!amount || amount <= 0) return null;
+  return { plan, interval, amount };
+}
 
-/**
- * The Paddle price to open checkout with. One free trial per account: an account that has
- * never had a subscription in this environment gets the plan's trial price; anyone who has
- * (whatever its status — canceled and expired count) gets the no-trial twin. Decided here, on
- * the server, from our own records — never from anything the browser sends.
- */
-export const resolvePaddlePrice = createServerFn({ method: "GET" })
-  .middleware([requireAuth])
-  .inputValidator((data: { priceId: string }) =>
-    z.object({ priceId: z.string().min(1).max(80) }).parse(data),
-  )
-  .handler(async ({ data, context }) => {
-    const env = getPaddleEnvironment();
-    const { findPriceByKey, NO_TRIAL_SUFFIX } = await import("./paddle.server");
-    const trialUsed = (await myLatestSubscription(context.userId, env)) !== null;
-    // Strict on purpose: if the twin is missing we fail rather than hand a repeat trial.
-    const price = await findPriceByKey(env, trialUsed ? data.priceId + NO_TRIAL_SUFFIX : data.priceId);
-    if (!price) throw new Error("That plan price is not available yet.");
-    return price.id;
-  });
-
-/** Which payment environment this build talks to — for the test-mode banner. */
+/** Which payment environment the server is wired to — for the test-mode banner. */
 export const getPaymentEnvironment = createServerFn({ method: "GET" }).handler(async () => ({
-  environment: getPaddleEnvironment(),
+  environment: getPaymentsEnv(),
 }));
 
 /* ------------------------------------------------------- my subscription */
@@ -92,8 +81,8 @@ function toSubscriptionRow(row: typeof subscriptions.$inferSelect) {
   return {
     id: row.id,
     user_id: row.userId,
-    paddle_subscription_id: row.paddleSubscriptionId,
-    paddle_customer_id: row.paddleCustomerId,
+    provider_subscription_id: row.providerSubscriptionId,
+    provider_customer_id: row.providerCustomerId,
     product_id: row.productId,
     price_id: row.priceId,
     status: row.status,
@@ -112,7 +101,7 @@ function toSubscriptionRow(row: typeof subscriptions.$inferSelect) {
   };
 }
 
-async function myLatestSubscription(userId: string, env: PaddleEnv) {
+async function myLatestSubscription(userId: string, env: PaymentsEnv) {
   const rows = await withUser(userId, (db) =>
     db
       .select()
@@ -124,7 +113,7 @@ async function myLatestSubscription(userId: string, env: PaddleEnv) {
   return rows[0] ? toSubscriptionRow(rows[0]) : null;
 }
 
-async function requireOwnSubscription(userId: string, env: PaddleEnv) {
+async function requireOwnSubscription(userId: string, env: PaymentsEnv) {
   const row = await myLatestSubscription(userId, env);
   if (!row) throw new Error("No subscription found for your account.");
   return { row, env };
@@ -133,56 +122,193 @@ async function requireOwnSubscription(userId: string, env: PaddleEnv) {
 export const getMyBilling = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
-    const env = getPaddleEnvironment();
-    const [entitlement, subscription] = await Promise.all([
+    const env = getPaymentsEnv();
+    const [entitlement, latest] = await Promise.all([
       getEntitlement(context.userId, env),
       myLatestSubscription(context.userId, env),
     ]);
+    // A subscription that has ended is history, not something to manage: the pages then offer
+    // the plans again. The trial rule still looks at the full history.
+    const ended =
+      latest?.status === "canceled" &&
+      (!latest.current_period_end || new Date(latest.current_period_end).getTime() <= Date.now());
     // One free trial per account: eligible only if it has never had a subscription here.
-    return { entitlement, subscription, trialEligible: subscription === null };
+    return { entitlement, subscription: ended ? null : latest, trialEligible: latest === null };
   });
 
+/* --------------------------------------------------------------- checkout */
+
+type PromotionCode = {
+  id: string;
+  code: string;
+  active: boolean;
+  expires_at?: number | null;
+  max_redemptions?: number | null;
+  times_redeemed?: number;
+  coupon: {
+    valid: boolean;
+    name?: string | null;
+    percent_off?: number | null;
+    amount_off?: number | null;
+    currency?: string | null;
+    duration?: string;
+    applies_to?: { products?: string[] } | null;
+  };
+};
+
+type PromotionLookup =
+  | { ok: true; promo: PromotionCode }
+  | { ok: false; reason: "unknown" | "expired" | "not_applicable" };
+
+/** Finds a customer-facing promotion code and checks it can be used on this plan's product. */
+async function lookupPromotionCode(code: string, productId: string): Promise<PromotionLookup> {
+  const { stripeFetch } = await import("./stripe.server");
+  const list = await stripeFetch<{ data: PromotionCode[] }>("GET", "/v1/promotion_codes", {
+    code,
+    active: true,
+    limit: 1,
+    expand: ["data.coupon"],
+  });
+  const promo = list.data[0];
+  if (!promo || !promo.active) return { ok: false, reason: "unknown" };
+  if (!promo.coupon.valid) return { ok: false, reason: "expired" };
+  if (promo.expires_at && promo.expires_at * 1000 < Date.now()) return { ok: false, reason: "expired" };
+  if (promo.max_redemptions && (promo.times_redeemed ?? 0) >= promo.max_redemptions) {
+    return { ok: false, reason: "unknown" };
+  }
+  const restrictedTo = promo.coupon.applies_to?.products;
+  if (restrictedTo?.length && !restrictedTo.includes(productId)) return { ok: false, reason: "not_applicable" };
+  return { ok: true, promo };
+}
+
 /**
- * Payment history. The provider is asked first — it is the authority, and it
- * knows about refunds/adjustments we never store. When it cannot be reached we
- * fall back to what the (signature-verified) webhook already wrote, because
- * Yêu cầu 11 requires the history to stay readable while the payment gateway
- * is temporarily down. `stale` says which of the two the learner is looking at.
+ * Starts checkout on Stripe's hosted page and returns its URL. Everything that matters is decided
+ * here, on the server, from our own records — never from anything the browser sends:
+ *  - the amount comes from billing_plans;
+ *  - one free trial per account: only an account that has never had a subscription in this
+ *    environment gets the trial (a canceled or expired one counts as having had it);
+ *  - the flat tax rate is attached to the line item.
+ * The subscription is stamped with our user/plan ids so the webhook can map it back.
+ */
+export const createCheckoutSession = createServerFn({ method: "POST" })
+  .middleware([requireAuth])
+  .inputValidator((data: { priceId: string; coupon?: string | null }) =>
+    z
+      .object({
+        priceId: z.string().min(1).max(80),
+        coupon: z
+          .string()
+          .max(32)
+          .regex(/^[A-Za-z0-9]+$/, "Coupon codes are letters and numbers only.")
+          .nullish(),
+      })
+      .parse(data),
+  )
+  .handler(async ({ data, context }) => {
+    const env = getPaymentsEnv();
+    const found = await findActivePlanByPriceId(data.priceId);
+    if (!found) throw new Error("That plan is not available.");
+    const { plan, interval, amount } = found;
+
+    const existing = await myLatestSubscription(context.userId, env);
+    const trialDays = existing === null && plan.trialEnabled ? plan.trialDays : 0;
+
+    const { stripeFetch, ensureProductId, ensureTaxRateId, appUrl } = await import("./stripe.server");
+    const [productId, taxRateId, profileRows] = await Promise.all([
+      ensureProductId(plan.tier, plan.name),
+      ensureTaxRateId(),
+      withUser(context.userId, (db) =>
+        db.select({ email: profiles.email }).from(profiles).where(eq(profiles.id, context.userId)).limit(1),
+      ),
+    ]);
+    const email = profileRows[0]?.email ?? "";
+
+    let promotionCodeId: string | undefined;
+    if (data.coupon) {
+      const lookup = await lookupPromotionCode(data.coupon, productId);
+      if (!lookup.ok) throw new Error("That coupon can't be used for this plan.");
+      promotionCodeId = lookup.promo.id;
+    }
+
+    const stamp = { userId: context.userId, planKey: plan.planKey, priceId: data.priceId, productKey: plan.tier };
+    const session = await stripeFetch<{ url: string | null }>("POST", "/v1/checkout/sessions", {
+      mode: "subscription",
+      client_reference_id: context.userId,
+      // Reuse the Stripe customer when this learner already has one (keeps invoices and the
+      // billing portal in one place); otherwise let Checkout create it from their email.
+      ...(existing ? { customer: existing.provider_customer_id } : email ? { customer_email: email } : {}),
+      line_items: [
+        {
+          quantity: 1,
+          tax_rates: [taxRateId],
+          price_data: {
+            currency: plan.currency.toLowerCase(),
+            product: productId,
+            unit_amount: amount,
+            recurring: { interval },
+          },
+        },
+      ],
+      subscription_data: { metadata: stamp, ...(trialDays > 0 ? { trial_period_days: trialDays } : {}) },
+      metadata: stamp,
+      // Card up front even for the trial, so it converts without a second step.
+      payment_method_collection: "always",
+      ...(promotionCodeId ? { discounts: [{ promotion_code: promotionCodeId }] } : {}),
+      // This account has Stripe "Managed Payments" (Stripe as merchant of record) on by default.
+      // We sell as ourselves and add our own flat tax rate, so switch it off for these sessions.
+      managed_payments: { enabled: false },
+      success_url: `${appUrl()}/billing/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${appUrl()}/billing/cancelled`,
+    });
+    if (!session.url) throw new Error("Could not start checkout — please try again.");
+    return { url: session.url };
+  });
+
+/* --------------------------------------------------------------- history */
+
+/**
+ * Payment history. Stripe is asked first — it is the authority, and it knows about refunds and
+ * credits we never store. When it cannot be reached we fall back to what the (signature-verified)
+ * webhook already wrote, because Yêu cầu 11 requires the history to stay readable while the payment
+ * gateway is temporarily down. `stale` says which of the two the learner is looking at.
  * Card data is never stored — only the brand and last four the provider sent.
  */
 export const listMyPayments = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
-    const env = getPaddleEnvironment();
+    const env = getPaymentsEnv();
     const sub = await myLatestSubscription(context.userId, env);
-    const customerId = sub?.paddle_customer_id;
+    const customerId = sub?.provider_customer_id;
 
     if (customerId) {
       try {
-        const { paddleFetch, toMajorUnit } = await import("./paddle.server");
-        const response = await paddleFetch(
-          env,
-          `/transactions?customer_id=${encodeURIComponent(customerId)}&per_page=50&order_by=created_at[DESC]`,
-        );
-        if (response.ok) {
-          const result = (await response.json()) as { data?: RawTransaction[] };
-          // draft/ready are checkouts opened but never paid (and canceled ones): not payments.
-          const paid = (result.data ?? []).filter((tx) => !UNPAID_STATUSES.has(tx.status));
-          const payments: PaymentRow[] = paid.map((tx) => ({
-            id: tx.id,
-            date: tx.billed_at ?? tx.created_at,
-            status: tx.status,
-            currency: tx.currency_code,
-            subtotal: toMajorUnit(tx.details?.totals?.subtotal, tx.currency_code),
-            tax: toMajorUnit(tx.details?.totals?.tax, tx.currency_code),
-            total: toMajorUnit(tx.details?.totals?.total, tx.currency_code),
-            description: tx.items?.[0]?.price?.description ?? tx.items?.[0]?.price?.name ?? "",
-            invoiceNumber: tx.invoice_number ?? null,
-            paymentMethod: describePaymentMethod(tx),
-          }));
-          return { payments, stale: false };
-        }
-        console.error("Payment history: provider answered", response.status);
+        const { stripeFetch, toMajorUnit, toIso } = await import("./stripe.server");
+        const list = await stripeFetch<{ data: RawInvoice[] }>("GET", "/v1/invoices", {
+          customer: customerId,
+          limit: 50,
+          expand: ["data.charge"],
+        });
+        // Drafts and voided invoices were never a payment.
+        const payments: PaymentRow[] = list.data
+          .filter((inv) => !UNPAID_STATUSES.has(inv.status))
+          .map((inv) => {
+            const currency = inv.currency.toUpperCase();
+            const charge = typeof inv.charge === "object" && inv.charge ? inv.charge : null;
+            const card = charge?.payment_method_details?.card;
+            return {
+              id: inv.id,
+              date: toIso(inv.status_transitions?.paid_at ?? inv.created) ?? new Date().toISOString(),
+              status: displayStatus(inv.status),
+              currency,
+              subtotal: toMajorUnit(inv.subtotal, currency),
+              tax: toMajorUnit(inv.tax ?? 0, currency),
+              total: toMajorUnit(inv.total, currency),
+              description: cleanDescription(inv.lines?.data?.[0]?.description),
+              invoiceNumber: inv.number ?? null,
+              paymentMethod: formatPaymentMethod(charge?.payment_method_details?.type, card?.brand, card?.last4),
+            };
+          });
+        return { payments, stale: false };
       } catch (error) {
         console.error("Payment history: provider unreachable", error);
       }
@@ -191,7 +317,19 @@ export const listMyPayments = createServerFn({ method: "POST" })
     return { payments: await storedPayments(context.userId, env), stale: Boolean(customerId) };
   });
 
-const UNPAID_STATUSES = new Set(["draft", "ready", "canceled"]);
+const UNPAID_STATUSES = new Set(["draft", "void"]);
+
+/** The history table shows one vocabulary; Stripe's invoice statuses are mapped onto it. */
+function displayStatus(status: string): string {
+  if (status === "paid") return "completed";
+  if (status === "uncollectible") return "failed";
+  return status;
+}
+
+/** Stripe describes a line as "1 × LiLy AI Premium (at $9.99 / month)". */
+function cleanDescription(description: string | null | undefined): string {
+  return (description ?? "").replace(/^\d+\s*×\s*/, "");
+}
 
 /** What the webhook recorded for one payment, for the offline fallback above. */
 type StoredPaymentMeta = {
@@ -211,7 +349,7 @@ type StoredPaymentMeta = {
 
 /** withAdmin because billing_events' only read policy is the admin one — the
  * rows are filtered to the caller's own id, which requireAuth just proved. */
-async function storedPayments(userId: string, env: PaddleEnv): Promise<PaymentRow[]> {
+async function storedPayments(userId: string, env: PaymentsEnv): Promise<PaymentRow[]> {
   const rows = await withAdmin((db) =>
     db
       .select({ metadata: billingEvents.metadata, createdAt: billingEvents.createdAt })
@@ -227,7 +365,7 @@ async function storedPayments(userId: string, env: PaddleEnv): Promise<PaymentRo
       .limit(50),
   );
 
-  const { toMajorUnit } = await import("./paddle.server");
+  const { toMajorUnit } = await import("./stripe.server");
   return rows
     .map((row) => ({ meta: (row.metadata ?? {}) as StoredPaymentMeta, createdAt: row.createdAt }))
     .filter(({ meta }) => Boolean(meta.transactionId))
@@ -248,18 +386,18 @@ async function storedPayments(userId: string, env: PaddleEnv): Promise<PaymentRo
     });
 }
 
-type RawTransaction = {
+type RawInvoice = {
   id: string;
   status: string;
-  currency_code: string;
-  created_at: string;
-  billed_at?: string | null;
-  invoice_number?: string | null;
-  items?: { price?: { name?: string; description?: string } }[];
-  details?: { totals?: { subtotal?: string; tax?: string; total?: string } };
-  payments?: {
-    method_details?: { type?: string; card?: { type?: string; last4?: string } };
-  }[];
+  currency: string;
+  created: number;
+  number?: string | null;
+  subtotal: number;
+  tax?: number | null;
+  total: number;
+  status_transitions?: { paid_at?: number | null };
+  lines?: { data?: { description?: string | null }[] };
+  charge?: { payment_method_details?: { type?: string; card?: { brand?: string; last4?: string } } } | string | null;
 };
 
 export type PaymentRow = {
@@ -287,75 +425,60 @@ function formatPaymentMethod(
   return type ? type.replace(/_/g, " ") : null;
 }
 
-function describePaymentMethod(tx: RawTransaction): string | null {
-  const details = tx.payments?.[0]?.method_details;
-  if (!details) return null;
-  return formatPaymentMethod(details.type, details.card?.type, details.card?.last4);
-}
-
-/** A receipt/invoice URL generated by the provider (never built by us). */
+/** A receipt/invoice URL hosted by Stripe (never built by us). */
 export const getInvoiceUrl = createServerFn({ method: "POST" })
   .middleware([requireAuth])
-  .inputValidator((data: { transactionId: string }) =>
-    z.object({ transactionId: z.string().min(3).max(80) }).parse(data),
+  .inputValidator((data: { paymentId: string }) =>
+    z.object({ paymentId: z.string().min(3).max(80) }).parse(data),
   )
   .handler(async ({ data, context }) => {
-    const env = getPaddleEnvironment();
+    const env = getPaymentsEnv();
     const sub = await myLatestSubscription(context.userId, env);
-    const customerId = sub?.paddle_customer_id;
+    const customerId = sub?.provider_customer_id;
     if (!customerId) throw new Error("No billing account found.");
 
-    const { paddleFetch } = await import("./paddle.server");
-    // Confirm the transaction really belongs to this learner before revealing it.
-    const check = await paddleFetch(env, `/transactions/${encodeURIComponent(data.transactionId)}`);
-    const tx = (await check.json()) as { data?: { customer_id?: string } };
-    if (tx.data?.customer_id !== customerId) throw new Error("Not found.");
+    const { stripeFetch } = await import("./stripe.server");
+    const invoice = await stripeFetch<{ customer?: string; hosted_invoice_url?: string | null; invoice_pdf?: string | null }>(
+      "GET",
+      `/v1/invoices/${encodeURIComponent(data.paymentId)}`,
+    ).catch(() => null);
+    // Confirm the invoice really belongs to this learner before revealing it.
+    if (!invoice || invoice.customer !== customerId) throw new Error("Not found.");
 
-    const response = await paddleFetch(
-      env,
-      `/transactions/${encodeURIComponent(data.transactionId)}/invoice`,
-    );
-    const result = (await response.json()) as { data?: { url?: string } };
-    if (!result.data?.url) throw new Error("No invoice is available for this payment yet.");
-    return { url: result.data.url };
+    const url = invoice.hosted_invoice_url ?? invoice.invoice_pdf;
+    if (!url) throw new Error("No invoice is available for this payment yet.");
+    return { url };
   });
 
-/* ------------------------------------------------------------- checkout */
+/* ------------------------------------------------- checkout confirmation */
 
 /**
- * Called by the success page. Access is granted only when the provider
- * confirms the subscription/transaction — never because the page was visited.
+ * Called by the success page. Access is granted only when Stripe confirms the
+ * subscription — never because the page was visited.
  */
 export const verifyCheckout = createServerFn({ method: "POST" })
   .middleware([requireAuth])
-  .inputValidator((data: { transactionId?: string }) =>
-    z.object({ transactionId: z.string().max(80).optional() }).parse(data ?? {}),
+  .inputValidator((data: { sessionId?: string }) =>
+    z.object({ sessionId: z.string().max(200).optional() }).parse(data ?? {}),
   )
   .handler(async ({ data, context }) => {
-    const env = getPaddleEnvironment();
+    const env = getPaymentsEnv();
 
     let row = await myLatestSubscription(context.userId, env);
     let confirmed = await hasLiveSubscription(context.userId, env);
 
-    if (!confirmed && data.transactionId) {
-      // Webhook may still be in flight: ask the provider directly.
-      const { paddleFetch } = await import("./paddle.server");
-      const response = await paddleFetch(
-        env,
-        `/transactions/${encodeURIComponent(data.transactionId)}?include=subscription`,
-      );
-      const result = (await response.json()) as {
-        data?: {
-          status?: string;
-          custom_data?: { userId?: string };
-          subscription_id?: string | null;
-        };
-      };
-      const tx = result.data;
-      const belongsToUser = tx?.custom_data?.userId === context.userId;
-      if (tx?.status === "completed" && belongsToUser && tx.subscription_id) {
+    if (!confirmed && data.sessionId) {
+      // Webhook may still be in flight: ask Stripe directly.
+      const { stripeFetch } = await import("./stripe.server");
+      const session = await stripeFetch<{
+        status?: string;
+        client_reference_id?: string | null;
+        subscription?: string | null;
+      }>("GET", `/v1/checkout/sessions/${encodeURIComponent(data.sessionId)}`).catch(() => null);
+      const belongsToUser = session?.client_reference_id === context.userId;
+      if (session?.status === "complete" && belongsToUser && session.subscription) {
         const { syncSubscriptionFromProvider } = await import("./billing-sync.server");
-        await syncSubscriptionFromProvider(tx.subscription_id, env, context.userId);
+        await syncSubscriptionFromProvider(session.subscription, env, context.userId);
         row = await myLatestSubscription(context.userId, env);
         confirmed = await hasLiveSubscription(context.userId, env);
       }
@@ -364,12 +487,12 @@ export const verifyCheckout = createServerFn({ method: "POST" })
     const entitlement = await getEntitlement(context.userId, env);
     if (confirmed) {
       // subscriptionId is what idx_billing_events_activation_once dedupes on —
-      // reloading /checkout/success must not log a second activation.
+      // reloading /billing/success must not log a second activation.
       await logBillingEvent("subscription_activated", {
         userId: context.userId,
         planKey: entitlement.planKey,
         env,
-        metadata: { subscriptionId: row?.paddle_subscription_id ?? null },
+        metadata: { subscriptionId: row?.provider_subscription_id ?? null },
       });
     }
 
@@ -383,7 +506,7 @@ export const verifyCheckout = createServerFn({ method: "POST" })
  * hand-written copy of the rule, which the Yêu cầu 11 grace window would have
  * made diverge). Grace period comes with it, from billing_plans.limits.
  */
-async function hasLiveSubscription(userId: string, env: PaddleEnv): Promise<boolean> {
+async function hasLiveSubscription(userId: string, env: PaymentsEnv): Promise<boolean> {
   const rows = await withAdmin((db) =>
     db.execute(sql`select has_active_subscription(${userId}, ${env}) as live`),
   );
@@ -407,83 +530,53 @@ export const validateCoupon = createServerFn({ method: "POST" })
       .parse(data),
   )
   .handler(async ({ data }) => {
-    const env = getPaddleEnvironment();
-    const { paddleFetch } = await import("./paddle.server");
+    const found = await findActivePlanByPriceId(data.priceId);
+    if (!found) return { valid: false as const, reason: "unknown" as const };
 
-    const response = await paddleFetch(
-      env,
-      `/discounts?code=${encodeURIComponent(data.code.toUpperCase())}&status=active`,
-    );
-    const result = (await response.json()) as {
-      data?: {
-        id: string;
-        code: string;
-        status: string;
-        type: string;
-        amount: string;
-        currency_code?: string | null;
-        description?: string;
-        expires_at?: string | null;
-        restrict_to?: string[] | null;
-        recur?: boolean;
-      }[];
-    };
+    const { ensureProductId, toMajorUnit } = await import("./stripe.server");
+    const productId = await ensureProductId(found.plan.tier, found.plan.name);
+    const lookup = await lookupPromotionCode(data.code, productId);
+    if (!lookup.ok) return { valid: false as const, reason: lookup.reason };
 
-    const discount = result.data?.[0];
-    if (!discount || discount.status !== "active") {
-      return { valid: false as const, reason: "unknown" };
-    }
-    if (discount.expires_at && new Date(discount.expires_at) < new Date()) {
-      return { valid: false as const, reason: "expired" };
-    }
-
-    if (discount.restrict_to?.length) {
-      const { findPriceByKey } = await import("./paddle.server");
-      const price = await findPriceByKey(env, data.priceId);
-      const allowed =
-        price &&
-        (discount.restrict_to.includes(price.id) ||
-          discount.restrict_to.includes(price.product_id));
-      if (!allowed) return { valid: false as const, reason: "not_applicable" };
-    }
-
+    const { promo } = lookup;
+    const isPercent = promo.coupon.percent_off != null;
     return {
       valid: true as const,
-      code: discount.code,
-      type: discount.type,
-      amount: discount.amount,
-      currency: discount.currency_code ?? null,
-      recurring: Boolean(discount.recur),
-      description: discount.description ?? "",
+      code: promo.code,
+      type: isPercent ? "percentage" : "flat",
+      amount: isPercent
+        ? String(promo.coupon.percent_off)
+        : String(toMajorUnit(promo.coupon.amount_off ?? 0, promo.coupon.currency ?? "usd")),
+      currency: promo.coupon.currency ? promo.coupon.currency.toUpperCase() : null,
+      recurring: promo.coupon.duration !== "once",
+      description: promo.coupon.name ?? "",
     };
   });
 
 /* -------------------------------------------------- subscription actions */
 
-/** Opens the provider's hosted billing portal (payment method, invoices…). */
+/** Opens Stripe's hosted billing portal (payment method, invoices…). */
 export const createPortalSession = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
-    const { row, env } = await requireOwnSubscription(context.userId, getPaddleEnvironment());
-    const { getPaddleClient } = await import("./paddle.server");
-    const paddle = getPaddleClient(env);
-    const session = await paddle.customerPortalSessions.create(row.paddle_customer_id, [
-      row.paddle_subscription_id,
-    ]);
-    return {
-      overviewUrl: session.urls.general.overview,
-      subscriptionUrls: session.urls.subscriptions ?? [],
-    };
+    const { row } = await requireOwnSubscription(context.userId, getPaymentsEnv());
+    const { stripeFetch, appUrl, ensurePortalConfigurationId } = await import("./stripe.server");
+    const session = await stripeFetch<{ url: string }>("POST", "/v1/billing_portal/sessions", {
+      customer: row.provider_customer_id,
+      configuration: await ensurePortalConfigurationId(),
+      return_url: `${appUrl()}/billing`,
+    });
+    return { overviewUrl: session.url };
   });
 
 /**
- * Pull the provider's new subscription state into our row straight after a
+ * Pull Stripe's new subscription state into our row straight after a
  * cancel / keep / plan change. Without it /billing refetches before the webhook
  * (about a second later) has written anything and keeps showing the old buttons.
  * The webhook still arrives and is idempotent; a failure here must never fail
  * the action the learner just took.
  */
-async function syncAfterAction(subscriptionId: string, env: PaddleEnv, userId: string) {
+async function syncAfterAction(subscriptionId: string, env: PaymentsEnv, userId: string) {
   try {
     const { syncSubscriptionFromProvider } = await import("./billing-sync.server");
     await syncSubscriptionFromProvider(subscriptionId, env, userId);
@@ -495,14 +588,14 @@ async function syncAfterAction(subscriptionId: string, env: PaddleEnv, userId: s
 export const cancelMySubscription = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
-    const { row, env } = await requireOwnSubscription(context.userId, getPaddleEnvironment());
-    const { getPaddleClient } = await import("./paddle.server");
-    const paddle = getPaddleClient(env);
-    // End of billing period — the learner keeps access to what they paid for.
-    await paddle.subscriptions.cancel(row.paddle_subscription_id, {
-      effectiveFrom: "next_billing_period",
+    const { row, env } = await requireOwnSubscription(context.userId, getPaymentsEnv());
+    const { stripeFetch } = await import("./stripe.server");
+    // End of billing period — the learner keeps access to what they paid for (and, during a
+    // trial, is never charged).
+    await stripeFetch("POST", `/v1/subscriptions/${encodeURIComponent(row.provider_subscription_id)}`, {
+      cancel_at_period_end: true,
     });
-    await syncAfterAction(row.paddle_subscription_id, env, context.userId);
+    await syncAfterAction(row.provider_subscription_id, env, context.userId);
     await logBillingEvent("subscription_cancel_requested", { userId: context.userId, env });
     return { ok: true };
   });
@@ -510,61 +603,63 @@ export const cancelMySubscription = createServerFn({ method: "POST" })
 export const keepMySubscription = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
-    const { row, env } = await requireOwnSubscription(context.userId, getPaddleEnvironment());
-    const { paddleFetch } = await import("./paddle.server");
-    const response = await paddleFetch(
-      env,
-      `/subscriptions/${encodeURIComponent(row.paddle_subscription_id)}`,
-      { method: "PATCH", body: JSON.stringify({ scheduled_change: null }) },
-    );
-    if (!response.ok) throw new Error("We could not restore your subscription — please try again.");
-    await syncAfterAction(row.paddle_subscription_id, env, context.userId);
+    const { row, env } = await requireOwnSubscription(context.userId, getPaymentsEnv());
+    const { stripeFetch } = await import("./stripe.server");
+    try {
+      await stripeFetch("POST", `/v1/subscriptions/${encodeURIComponent(row.provider_subscription_id)}`, {
+        cancel_at_period_end: false,
+      });
+    } catch {
+      throw new Error("We could not restore your subscription — please try again.");
+    }
+    await syncAfterAction(row.provider_subscription_id, env, context.userId);
     await logBillingEvent("subscription_cancel_reverted", { userId: context.userId, env });
     return { ok: true };
   });
 
-/** Upgrade or downgrade between paid plans through the provider. */
+/** Upgrade or downgrade between paid plans through Stripe (works during a trial too). */
 export const changeMyPlan = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .inputValidator((data: { priceId: string }) =>
     z.object({ priceId: z.string().min(1).max(80) }).parse(data),
   )
   .handler(async ({ data, context }) => {
-    const { row, env } = await requireOwnSubscription(context.userId, getPaddleEnvironment());
-    // Paddle rejects item changes while a subscription is in trial ("You can't add or
-    // remove items for a subscription in trial…") — say it plainly instead of leaking that.
-    if (row.status === "trialing") {
-      throw new Error("You can switch plans once your free trial has ended.");
-    }
+    const { row, env } = await requireOwnSubscription(context.userId, getPaymentsEnv());
 
-    const plans = await withAnon((db) =>
-      db
-        .select({
-          planKey: billingPlans.planKey,
-          tier: billingPlans.tier,
-          monthlyPriceId: billingPlans.monthlyPriceId,
-          yearlyPriceId: billingPlans.yearlyPriceId,
-          isActive: billingPlans.isActive,
-        })
-        .from(billingPlans),
+    const found = await findActivePlanByPriceId(data.priceId);
+    if (!found) throw new Error("That plan is not available.");
+    const { plan, interval, amount } = found;
+
+    const { stripeFetch, ensureProductId, ensureTaxRateId } = await import("./stripe.server");
+    const current = await stripeFetch<import("./stripe.server").StripeSubscription>(
+      "GET",
+      `/v1/subscriptions/${encodeURIComponent(row.provider_subscription_id)}`,
     );
-    const plan = plans.find(
-      (p) => p.isActive && (p.monthlyPriceId === data.priceId || p.yearlyPriceId === data.priceId),
-    );
-    if (!plan) throw new Error("That plan is not available.");
+    const itemId = current.items?.data?.[0]?.id;
+    if (!itemId) throw new Error("Could not read your current plan.");
 
-    const { getPaddleClient, findPriceByKey, NO_TRIAL_SUFFIX } = await import("./paddle.server");
-    // A plan change is never a new trial: switch to the plan's no-trial twin.
-    const providerPrice = await findPriceByKey(env, data.priceId + NO_TRIAL_SUFFIX);
-    if (!providerPrice) throw new Error("That plan price is not available yet.");
-    const providerPriceId = providerPrice.id;
-
-    const paddle = getPaddleClient(env);
-    await paddle.subscriptions.update(row.paddle_subscription_id, {
-      items: [{ priceId: providerPriceId, quantity: 1 }],
-      prorationBillingMode: "prorated_immediately",
+    const [productId, taxRateId] = await Promise.all([ensureProductId(plan.tier, plan.name), ensureTaxRateId()]);
+    await stripeFetch("POST", `/v1/subscriptions/${encodeURIComponent(row.provider_subscription_id)}`, {
+      items: [
+        {
+          id: itemId,
+          tax_rates: [taxRateId],
+          price_data: {
+            currency: plan.currency.toLowerCase(),
+            product: productId,
+            unit_amount: amount,
+            recurring: { interval },
+          },
+        },
+      ],
+      // The webhook maps the subscription back to a plan through this metadata.
+      metadata: { priceId: data.priceId, planKey: plan.planKey, productKey: plan.tier },
+      // Charge (or credit) the difference now rather than waiting for the next renewal, and
+      // surface a declined card as an error instead of leaving a half-changed subscription.
+      proration_behavior: "always_invoice",
+      payment_behavior: "error_if_incomplete",
     });
-    await syncAfterAction(row.paddle_subscription_id, env, context.userId);
+    await syncAfterAction(row.provider_subscription_id, env, context.userId);
 
     await logBillingEvent("plan_changed", {
       userId: context.userId,
