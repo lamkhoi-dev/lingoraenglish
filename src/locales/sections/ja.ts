@@ -319,6 +319,7 @@ export const sectionsJa: Dictionary = {
   "app.home.features.listening.body": "実践的な会話、理解度チェック、ディクテーションで耳を鍛えます。",
   "app.home.features.vocab.title": "スピーキング語彙",
   "app.home.features.vocab.body": "役立つ単語を学び、すぐに発話練習で使ってみましょう。",
+  "app.home.features.explore": "詳しく見る",
   "app.home.how.title": "Lingora Englishの仕組み",
   "app.home.how.1": "話す",
   "app.home.how.2": "AIが音声を分析",

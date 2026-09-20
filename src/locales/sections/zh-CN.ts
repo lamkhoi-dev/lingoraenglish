@@ -319,6 +319,7 @@ export const sectionsZhCN: Dictionary = {
   "app.home.features.listening.body": "通过真实对话、理解问答和听写训练听力。",
   "app.home.features.vocab.title": "口语词汇",
   "app.home.features.vocab.body": "学习实用词汇，并立即在口语句子中加以运用。",
+  "app.home.features.explore": "探索",
   "app.home.how.title": "Lingora 如何运作",
   "app.home.how.1": "开口表达",
   "app.home.how.2": "AI 分析你的发音与表达",

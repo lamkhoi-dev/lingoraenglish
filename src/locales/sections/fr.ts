@@ -303,6 +303,7 @@ export const sectionsFr: Dictionary = {
   "app.home.features.listening.body": "Entraînez votre oreille avec des conversations réalistes, des questions de compréhension et des dictées.",
   "app.home.features.vocab.title": "Vocabulaire pour l'oral",
   "app.home.features.vocab.body": "Apprenez des mots utiles et utilisez-les immédiatement dans une phrase à l'oral.",
+  "app.home.features.explore": "Explorer",
   "app.home.how.title": "Comment fonctionne Lingora",
   "app.home.how.1": "Parlez",
   "app.home.how.2": "L'IA analyse votre prise de parole",

@@ -1208,6 +1208,7 @@
     "tests.duration.3to4": "3-4 min",
     "tests.duration.4to5": "4-5 min",
     "lily.tapToStart": "Dotaknite se \"Začni pogovor\" in Lingora English vas bo najprej pozdravil.",
-    "progress.days_two": "{{count}} dni"
+    "progress.days_two": "{{count}} dni",
+    "app.home.features.explore": "Razišči"
   }
 }

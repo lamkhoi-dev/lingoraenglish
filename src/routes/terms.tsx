@@ -3,6 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
 import { useI18n } from "@/lib/i18n";
+import { canonicalLink } from "@/lib/seo";
 
 export const Route = createFileRoute("/terms")({
   head: () => ({
@@ -21,6 +22,7 @@ export const Route = createFileRoute("/terms")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
+    links: [canonicalLink("/terms")],
   }),
   component: TermsPage,
 });
@@ -28,7 +30,7 @@ export const Route = createFileRoute("/terms")({
 const SECTIONS: { title: string; body: React.ReactNode }[] = [
   {
     title: "1. Who you are contracting with",
-    body: "Lingora English (the \"Service\") is operated and sold by Ms Thao English (\"we\", \"us\", \"our\"). These Terms of Service form the agreement between you and Ms Thao English. You can reach us at support@msthaoenglish.com.",
+    body: "Lingora English (the \"Service\") is operated and sold by Ms Thao English (\"we\", \"us\", \"our\"). These Terms of Service form the agreement between you and Ms Thao English. You can reach us at phanthithuthao10081996@gmail.com.",
   },
   {
     title: "2. Acceptance of these terms",

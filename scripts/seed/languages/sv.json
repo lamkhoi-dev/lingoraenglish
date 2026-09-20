@@ -9,7 +9,6 @@
     "brand.short": "Lingora English",
     "brand.line1": "Lingora English",
     "brand.tagline": "Din personliga AI-engelsklärare",
-
     "nav.home": "Hem",
     "nav.coach": "AI-talcoach",
     "nav.shadowing": "Skuggning",
@@ -27,7 +26,6 @@
     "nav.language": "Språk",
     "nav.admin": "Administratör",
     "nav.menu": "Meny",
-
     "lang.title": "Språk",
     "lang.choose": "Välj ditt språk",
     "lang.interface": "Gränssnittsspråk",
@@ -35,7 +33,6 @@
     "lang.keepEnglish": "Behåll engelska",
     "lang.switchTo": "Byt till {{language}}",
     "lang.note": "Gränssnittet byter språk — engelskan du övar på förblir engelska.",
-
     "common.signIn": "Logga in",
     "common.signUp": "Skapa konto",
     "common.signOut": "Logga ut",
@@ -92,7 +89,6 @@
     "checkout.continueWhere": "Fortsätt där du slutade",
     "common.somethingWrong": "Något gick fel.",
     "common.demoMode": "Demoläge",
-
     "home.heroSub": "Öva på att tala, förbättra uttalet, lär dig ordförråd och bygg självförtroende i engelska med Lingora English.",
     "home.badge": "AI-engelsklärare",
     "home.cta.start": "Börja lära dig",
@@ -135,7 +131,6 @@
     "home.cta2.button": "Börja tala med Lingora English",
     "home.meta.title": "Lingora English — Din personliga AI-engelsklärare",
     "home.meta.description": "Öva på att tala, förbättra ditt uttal och öva inför IELTS med Lingora English — en tålmodig AI-engelsklärare för elever överallt.",
-
     "auth.welcome": "Välkommen tillbaka",
     "auth.create": "Skapa ditt konto",
     "auth.reset": "Återställ ditt lösenord",
@@ -154,7 +149,6 @@
     "auth.resetSent": "Återställningslänk skickad — kontrollera din e-post.",
     "auth.welcomeBack": "Välkommen tillbaka!",
     "auth.created": "Konto skapat. Du är inloggad!",
-
     "onboarding.title": "Låt oss ställa in din engelska",
     "onboarding.sub": "Fyra snabba frågor så att Lingora English kan lära dig på det sätt som fungerar bäst för dig.",
     "onboarding.step": "Steg {{current}} av {{total}}",
@@ -164,14 +158,12 @@
     "onboarding.q.goal": "Vad är ditt mål?",
     "onboarding.q.minutes": "Hur många minuter per dag kan du öva?",
     "onboarding.done": "Du är redo. Lingora English väntar.",
-
     "level.A1": "A1 — Nybörjare",
     "level.A2": "A2 — Grundläggande",
     "level.B1": "B1 — Mellannivå",
     "level.B2": "B2 — Övre mellannivå",
     "level.C1": "C1 — Avancerad",
     "level.C2": "C2 — Mycket avancerad",
-
     "goal.confidence": "Tala engelska med självförtroende",
     "goal.pronunciation": "Förbättra uttalet",
     "goal.work": "Engelska för arbete",
@@ -182,7 +174,6 @@
     "goal.daily": "Vardagsengelska",
     "goal.business": "Affärsengelska",
     "goal.interview": "Anställningsintervjuer",
-
     "lily.title": "Lingora English",
     "lily.sub": "Din personliga engelsklärare, tillgänglig när som helst.",
     "lily.intro": "Välj ett ämne och börja prata. Lingora English kommer ihåg det här samtalet och ger dig alltid något att svara på.",
@@ -208,7 +199,6 @@
     "lily.notHeard": "Lingora English hörde inte det — försök igen.",
     "lily.meta.title": "Lingora English — Din personliga AI-engelsklärare",
     "lily.meta.description": "Prata med Lingora English om vardagsliv, arbete, resor och mer. Hon lyssnar, svarar naturligt och ställer alltid en följdfråga.",
-
     "speaking.title": "Talövning",
     "speaking.sub": "Svara högt. Lingora English transkriberar exakt vad du sa och visar dig sedan hur du kan säga det bättre.",
     "speaking.question": "Din fråga",
@@ -230,7 +220,6 @@
     "speaking.hint": "Tala naturligt — Lingora English lyssnar tålmodigt.",
     "speaking.meta.title": "AI-talövning — Lingora English",
     "speaking.meta.description": "Spela in ditt svar på en riktig engelsk fråga och få omedelbar feedback om flyt, grammatik och ordförråd från Lingora English.",
-
     "pron.title": "Lingora English uttalscoach",
     "pron.sub": "Lär dig varje engelskt ljud med tydlig vägledning för mun och tunga, spela sedan in dig själv och jämför.",
     "pron.tab.sounds": "IPA-ljud",
@@ -252,7 +241,6 @@
     "pron.accent.uk": "Brittisk engelska",
     "pron.meta.title": "Engelsk uttalscoach — IPA, minimala par och betoning",
     "pron.meta.description": "Öva varje engelskt IPA-ljud, minimala par, ordbetoning och intonation med Lingora English och ärlig, lättbegriplig feedback.",
-
     "vocab.title": "Ordförråd",
     "vocab.sub": "Engelska ord med IPA, en engelsk definition, ett exempel och betydelsen på ditt språk.",
     "vocab.definition": "Engelsk definition",
@@ -266,7 +254,6 @@
     "vocab.learning": "Håller fortfarande på att lära mig",
     "vocab.meta.title": "Engelskt ordförråd med IPA och ljud — Lingora English",
     "vocab.meta.description": "Lär dig engelskt ordförråd efter kategori med IPA, ljud, exempelmeningar och översättningar på ditt eget språk.",
-
     "grammar.title": "Lingora English grammatikcoach",
     "grammar.sub": "Tydliga förklaringar, riktiga exempel och övningar som Lingora English kontrollerar åt dig.",
     "grammar.explanation": "Förklaring",
@@ -282,7 +269,6 @@
     "grammar.incorrect": "Inte riktigt",
     "grammar.meta.title": "Engelsk grammatikcoach — tempus, modala verb, konditionalis",
     "grammar.meta.description": "Lär dig engelsk grammatik med Lingora English: tydliga förklaringar, exempel, övningar och omedelbar AI-rättning.",
-
     "listen.title": "Lyssnarövning",
     "listen.sub": "Lyssna på naturlig engelska, svara sedan, fyll i luckorna eller skriv vad du hör.",
     "listen.play": "Spela upp ljud",
@@ -295,7 +281,6 @@
     "listen.correctAnswers": "Rätta svar",
     "listen.meta.title": "Engelsk lyssnarövning A1–C1 — Lingora English",
     "listen.meta.description": "Öva på att lyssna och välja, diktamen och skuggning på nivå A1 till C1 med transkript och förklaringar.",
-
     "ielts.title": "IELTS Speaking från Lingora English",
     "ielts.sub": "Öva på Part 1, 2 och 3 med en genomgång av ditt eget svar i examinatorstil.",
     "ielts.part1": "Part 1",
@@ -318,7 +303,6 @@
     "ielts.band8": "Band 8-version",
     "ielts.meta.title": "Öva IELTS Speaking med AI-uppskattat band — Lingora English",
     "ielts.meta.description": "Öva IELTS Speaking Part 1, 2 och 3 med Lingora English och få ett uppskattat band plus omskrivningar av ditt svar på Band 6-, 7- och 8-nivå.",
-
     "progress.title": "Mina framsteg",
     "progress.sub": "Allt Lingora English har hört från dig, och vad du bör öva härnäst.",
     "progress.streak": "Inlärningsstreak",
@@ -343,7 +327,6 @@
     "progress.empty": "Inget här ännu — din första övning visas direkt.",
     "progress.meta.title": "Mina engelska framsteg — Lingora English",
     "progress.meta.description": "Följ dina talpoäng, uttal per ljud, streak och övningsminuter, och få en personligt anpassad daglig plan.",
-
     "account.title": "Mitt konto",
     "account.sub": "Din profil, dina språk och din integritet.",
     "account.profile": "Profil",
@@ -365,7 +348,6 @@
     "account.deleted": "Din övningsdata har raderats.",
     "account.meta.title": "Mitt konto — Lingora English",
     "account.meta.description": "Hantera ditt gränssnittsspråk, modersmål, engelska nivå, dagliga mål, inlärningsläge och integritetsinställningar.",
-
     "admin.title": "Administratörspanel",
     "admin.sub": "Elever, innehåll, översättningar och AI-användning.",
     "admin.tab.students": "Elever",
@@ -391,45 +373,36 @@
     "admin.defaultLanguage": "Standardspråk",
     "admin.missingCount": "{{count}} saknas",
     "admin.onlyAdmins": "Det här området är endast för administratörer.",
-
     "usage.title": "AI-användning",
     "usage.requests": "Förfrågningar",
     "usage.stt": "Tal till text",
     "usage.tts": "Text till tal",
     "usage.analyses": "Analyser",
     "usage.cacheHits": "Cacheträffar",
-
     "grammar.lessonsTitle": "Lektioner",
     "grammar.selectLesson": "Välj en lektion för att se förklaringen och övningen.",
     "grammar.noLessons": "Inga lektioner ännu — kom tillbaka snart.",
     "grammar.checkAll": "Kontrollera svar",
-
     "listen.selectExercise": "Välj en övning för att börja.",
     "listen.noExercises": "Inga lyssnarövningar för den här nivån ännu.",
     "listen.questions": "Frågor",
     "listen.transcript": "Transkript",
-
     "vocab.noWords": "Inga ord i den här kategorin ännu.",
     "vocab.category": "Kategori",
-
     "admin.name": "Namn",
     "admin.email": "E-post",
     "admin.joined": "Gick med",
     "admin.role": "Roll",
     "admin.noStudents": "Inga elever ännu.",
     "admin.locale": "Språk",
-
     "account.accent": "Accent",
     "account.voicePreference": "Röst",
-
     "ielts.timeRemaining": "Återstående tid",
     "ielts.prepDone": "Förberedelse klar — du kan börja tala.",
     "ielts.selectQuestion": "Välj en fråga",
     "ielts.yourRecording": "Din inspelning",
-
     "progress.todaysTasks": "Dagens uppgifter",
     "progress.noPlan": "Ingen plan ännu — generera en nedan.",
-
     "pricing.title": "Planer och priser",
     "pricing.sub": "Börja gratis. Uppgradera när du vill att Lingora English ska lyssna på dig varje dag.",
     "pricing.monthly": "Månadsvis",
@@ -458,7 +431,6 @@
     "pricing.faq.refund.a": "Kontakta oss inom 30 dagar efter en betalning så återbetalar vi den via vår betalningspartner.",
     "pricing.meta.title": "Priser — Lingora English",
     "pricing.meta.description": "Free-, Premium- och IELTS Pro-planer för AI-baserat tal, uttal och IELTS-övning med Lingora English. Lokal valuta och skatt hanteras i kassan.",
-
     "billing.title": "Min prenumeration",
     "billing.sub": "Din plan, din användning och din betalningshistorik.",
     "billing.currentPlan": "Nuvarande plan",
@@ -514,7 +486,6 @@
     "billing.testBannerLink": "Läs mer",
     "billing.meta.title": "Min prenumeration — Lingora English",
     "billing.meta.description": "Hantera din Lingora English-plan, se den här månadens övningstilldelning, uppdatera betalningsmetod och ladda ner fakturor.",
-
     "checkout.verifying": "Bekräftar din betalning med vår betalningspartner…",
     "checkout.confirmed": "Du har {{plan}}. Lingora English är redo när du är det.",
     "checkout.pending": "Din betalning genomfördes och vi aktiverar fortfarande din plan. Detta tar vanligtvis några sekunder — uppdatera din prenumerationssida om den inte visas.",
@@ -528,7 +499,6 @@
     "checkout.cancelled.sub": "Ingen betalning togs ut. Du kan fortsätta öva på den gratis planen.",
     "checkout.cancelled.meta.title": "Kassan avbruten — Lingora English",
     "checkout.cancelled.meta.description": "Din kassa avbröts och ingen betalning togs ut.",
-
     "admin.tab.billing": "Fakturering",
     "admin.tab.plans": "Planer och gränser",
     "adminBilling.active": "Aktiva prenumerationer",
@@ -555,7 +525,6 @@
     "adminBilling.revoke": "Återkalla",
     "adminBilling.revoked": "Kostnadsfri åtkomst återkallad.",
     "adminBilling.noExpiry": "inget utgångsdatum",
-
     "admin.tab.members": "Premiummedlemmar",
     "adminMembers.title": "Medlemmar",
     "adminMembers.count": "{{premium}} betalande / {{total}} elever",
@@ -583,7 +552,6 @@
     "billing.state.complimentary": "Kostnadsfri åtkomst",
     "billing.state.completed": "Betald",
     "billing.state.billed": "Väntar på betalning",
-
     "nav.myLearning": "Mitt lärande",
     "nav.dashboard": "Panel",
     "nav.profile": "Profil",
@@ -592,7 +560,6 @@
     "nav.createFree": "Skapa gratiskonto",
     "nav.terms": "Användarvillkor",
     "nav.privacy": "Integritetspolicy",
-
     "auth.firstName": "Förnamn",
     "auth.lastName": "Efternamn",
     "auth.confirmPassword": "Bekräfta lösenord",
@@ -620,7 +587,6 @@
     "auth.resetInvalid": "Den här återställningslänken har gått ut. Be om en ny.",
     "auth.reset.meta.title": "Återställ ditt lösenord — Lingora English",
     "auth.reset.meta.description": "Välj ett nytt lösenord för ditt Lingora English-konto.",
-
     "dash.meta.title": "Panel — Lingora English",
     "dash.meta.description": "Din personliga engelska inlärningspanel: framsteg, dagens övning och dina återstående Lingora English-sessioner.",
     "dash.welcome": "Välkommen tillbaka, {{name}}!",
@@ -647,7 +613,6 @@
     "dash.limits.pronunciationAdvancedLabel": "Uttal — avancerat",
     "dash.limits.pronunciationAdvanced": "Första 5 exemplen per färdighet gratis",
     "dash.limits.allUnlocked": "Allt upplåst i din plan",
-
     "paywall.limitTitle": "Du har nått din gratis övningsgräns",
     "paywall.limitBody": "Fortsätt lära dig med obegränsad åtkomst till Lingora English.",
     "paywall.speakingTitle": "Fortsätt öva med Lingora English",
@@ -666,7 +631,6 @@
     "paywall.stayFree": "Fortsätt med den gratis planen",
     "paywall.locked": "Premium",
     "paywall.signInFirst": "Skapa ett gratiskonto för att börja öva",
-
     "adminLimits.title": "Planer och användningsgränser",
     "adminLimits.sub": "Månatliga tilldelningar per plan. Sparade värden gäller omedelbart för varje elev på den planen.",
     "adminLimits.trialEnabled": "Gratis provperiod aktiverad",
@@ -676,14 +640,11 @@
     "adminLimits.saved": "Plangränser uppdaterade.",
     "adminLimits.users": "Elever per plan",
     "adminLimits.conversion": "Konverteringsgrad",
-
     "legal.terms.title": "Användarvillkor",
     "legal.privacy.title": "Integritetspolicy",
     "legal.updated": "Senast uppdaterad {{date}}",
-
     "nav.pricing": "Priser",
     "nav.billing": "Prenumeration",
-
     "app.home.badge": "AI-talcoach",
     "app.home.heroTitle": "Tala engelska. Bli rättad. Förbättra varje dag.",
     "app.home.heroSub": "Öva engelska med din AI-talcoach och få omedelbar feedback om uttal, grammatik, ordförråd, flyt och naturlig engelska.",
@@ -726,19 +687,15 @@
     "app.home.cta.title": "Din coach är redo. Säg något.",
     "app.home.cta.body": "Skapa ett gratiskonto och starta din första talsession på mindre än en minut.",
     "app.home.cta.button": "Börja tala",
-
     "app.footer.ielts": "IELTS",
     "app.footer.refunds": "Återbetalningspolicy",
-
     "app.voice.loading": "Laddar…",
     "app.voice.resume": "Återuppta",
     "app.voice.pause": "Pausa",
     "app.voice.stop": "Stoppa",
-
     "coach.eyebrow": "AI-talcoach",
     "coach.title": "Tala. Bli rättad. Tala igen.",
     "coach.description": "Hundratals ämnen i fem sätt att öva på. Din coach talar alltid först, lyssnar på din röst och rättar dig medan samtalet fortgår.",
-
     "coach.category.free.label": "Fritt samtal",
     "coach.category.free.blurb": "Prata naturligt om vilket ämne du vill.",
     "coach.category.daily.label": "Vardagssamtal",
@@ -750,51 +707,40 @@
     "coach.category.challenge.label": "Talutmaning",
     "coach.category.challenge.blurb": "En uppgift, en timer, en poäng.",
     "coach.topicsCount": "{{count}} ämnen",
-
     "coach.searchPlaceholder": "Sök ämnen…",
     "coach.levels.all": "Alla nivåer",
     "coach.access.all": "alla",
     "coach.access.free": "gratis",
     "coach.access.premium": "premium",
-
     "coach.usage.unlimited": "Obegränsade talturer",
     "coach.usage.freeLeft": "{{left}} av {{limit}} gratis talturer kvar",
     "coach.usage.turnsLeftMonth": "{{count}} talturer kvar den här månaden",
-
     "coach.audioPlayError": "Jag kunde inte spela upp ljudet. Du kan läsa svaret och trycka på Spela upp igen.",
     "coach.couldNotHear": "Jag hörde dig inte tydligt. Försök igen.",
-
     "coach.loadingTopics": "Laddar ämnen…",
     "coach.noTopicsMatch": "Inga ämnen matchar de filtren ännu.",
     "coach.badge.free": "GRATIS",
     "coach.badge.premium": "PREMIUM",
-
     "coach.chooseTopicTitle": "Välj ett ämne för att börja",
     "coach.signIn.title": "Din coach talar först.",
     "coach.signIn.description": "Skapa ett gratiskonto för att börja prata. Varje elev får gratis talturer för att prova coachen.",
     "coach.signIn.cta": "Skapa ett gratiskonto för att börja",
-
     "coach.gettingReady": "Din coach förbereder sig…",
     "coach.pickTopicPrompt": "Välj ett ämne till vänster så börjar din coach prata.",
     "coach.rolePlayRoles": "Din coach spelar {{aiRole}}. Du är {{userRole}}.",
     "coach.roleYourself": "dig själv",
-
     "coach.speaker.coach": "Coach",
     "coach.speaker.you": "Du",
-
     "coach.outOfTurns": "Dina gratis talturer är slut.",
     "coach.upgradeToKeepGoing": "Uppgradera till Premium",
     "coach.upgradeSuffix": "för att fortsätta det här samtalet.",
-
     "coach.timerLabel": "{{seconds}}s timer",
     "coach.busyLabel": "Förstår ditt svar",
     "coach.answerHint": "Svara din coach högt, i fullständiga meningar.",
     "coach.typeAnswerPlaceholder": "Eller skriv ditt svar…",
     "coach.sendAnswer": "Skicka svar",
     "coach.startTopicAgain": "Börja det här ämnet igen",
-
     "coach.exampleFeedback": "Exempelfeedback",
-
     "coach.correctionLoop.title": "Rättningsloopen",
     "coach.correctionLoop.step1": "Coach talar först",
     "coach.correctionLoop.step2": "Du svarar med din röst",
@@ -802,13 +748,10 @@
     "coach.correctionLoop.step4": "Du får en bättre mening",
     "coach.correctionLoop.step5": "Samtalet fortsätter naturligt",
     "coach.correctionLoop.step6": "Framsteg sparas",
-
     "coach.keepImproving.title": "Fortsätt förbättras",
-
     "coach.mic.aiSpeaking": "🔊 AI talar…",
     "coach.mic.speakAgain": "🎙️ Tala igen",
     "coach.mic.takeYourTime": "Ta din tid — korta pauser är okej. Din tur skickas när du slutar tala.",
-
     "coach.feedback.demoNotice": "Det här är ett exempel på feedbacken du får. Logga in och tala för att få din egen analys.",
     "coach.feedback.scoreImproved": "Toppen! Din talpoäng förbättrades med {{points}} poäng.",
     "coach.feedback.fluency": "Flyt",
@@ -831,18 +774,14 @@
     "coach.feedback.pronunciationCoach": "Uttalscoach",
     "coach.feedback.myProgress": "Mina framsteg",
     "coach.speakingPracticeFallback": "Talövning",
-
     "listen.page.eyebrow": "🎧 Lyssnarlabbet",
     "listen.page.title": "Träna dina öron att förstå riktig engelska.",
     "listen.page.description": "Lyssna på realistiska samtal, testa din förståelse och träna dina öron att uppfatta den engelska människor faktiskt använder i vardagen.",
-
     "listen.loadingLesson": "Laddar lektion…",
     "listen.loadingLibrary": "Laddar lyssnarbiblioteket…",
     "listen.noMatches": "Inga lektioner matchar dessa filter ännu.",
-
     "listen.guide.gotIt": "Förstått — visa mig lektionerna →",
     "listen.guide.strategyHint": "Lyssna efter helheten → sedan detaljerna → sedan de exakta orden → sedan repetera.",
-
     "listen.progress.title": "Dina lyssnarframsteg",
     "listen.progress.lessonsCompleted": "Avslutade lektioner",
     "listen.progress.comprehension": "Förståelse",
@@ -850,9 +789,7 @@
     "listen.progress.listeningTime": "Lyssnartid",
     "listen.progress.overallScore": "Total lyssnarpoäng:",
     "listen.progress.weakAreas": " · Svaga områden: {{areas}}",
-
     "listen.next.title": "Vad du ska lyssna på härnäst",
-
     "listen.filter.allLevels": "Alla nivåer",
     "listen.filter.allTopics": "Alla ämnen",
     "listen.filter.difficultyLabel": "Svårighetsgrad",
@@ -871,21 +808,17 @@
     "listen.filter.status.in_progress": "Pågående",
     "listen.filter.status.completed": "Avslutad",
     "listen.filter.searchPlaceholder": "Sök lektioner och situationer",
-
     "listen.level.A1": "A1 Nybörjare",
     "listen.level.A2": "A2 Grundläggande",
     "listen.level.B1": "B1 Mellannivå",
     "listen.level.B2": "B2 Övre mellannivå",
     "listen.level.C1": "C1 Avancerad",
-
     "listen.difficulty.gentle": "Mild",
     "listen.difficulty.steady": "Jämn",
     "listen.difficulty.fast": "Snabb",
     "listen.difficulty.veryFast": "Mycket snabb",
-
     "listen.accent.british": "Brittisk engelska",
     "listen.accent.northAmerican": "Nordamerikansk engelska",
-
     "listen.skill.main_idea": "Huvudidé",
     "listen.skill.details": "Specifika detaljer",
     "listen.skill.intention": "Talarens avsikt",
@@ -893,7 +826,6 @@
     "listen.skill.vocabulary": "Betydelse i kontext",
     "listen.skill.numbers_dates": "Siffror och datum",
     "listen.skill.fast_speech": "Snabbt tal",
-
     "listen.challenge.contraction": "Sammandragning",
     "listen.challenge.connected_speech": "Sammanbundet tal",
     "listen.challenge.reduced_form": "Reducerad form",
@@ -903,7 +835,6 @@
     "listen.challenge.numbers": "Siffror",
     "listen.challenge.dates": "Datum",
     "listen.challenge.expression": "Vardagligt uttryck",
-
     "listen.card.free": "Gratis",
     "listen.card.premium": "Premium",
     "listen.card.questionsAndDictation": "{{questions}} frågor · {{dictation}} diktamen",
@@ -912,21 +843,17 @@
     "listen.card.notStarted": "Inte påbörjad",
     "listen.card.start": "Starta",
     "listen.card.unlockPremium": "🔒 Lås upp med Premium",
-
     "listen.signInToPlaySave": "Logga in för att spela upp ljudet och spara dina lyssnarpoäng.",
     "listen.signIn": "Logga in",
-
     "listen.backToLab": "Tillbaka till Lyssnarlabbet",
     "listen.tryAgain": "Försök igen",
     "listen.nextLesson": "Nästa lektion",
-
     "listen.stage.listen": "Lyssna",
     "listen.stage.understand": "Förstå",
     "listen.stage.dictation": "Diktamen",
     "listen.stage.review": "Repetition",
     "listen.stage.progressAriaLabel": "Lektionssteg",
     "listen.guide.listenFor": "Lyssna efter",
-
     "listen.guide.howToTitle": "🎧 Så gör du den här lyssnarlektionen",
     "listen.guide.hide": "Dölj",
     "listen.guide.show": "Visa",
@@ -945,23 +872,18 @@
     "listen.guide.step3.point3": "Oroa dig inte om du gör fel — det här tränar din lyssnarprecision.",
     "listen.guide.step4.title": "Steg 4 — Repetition",
     "listen.guide.step4.point1": "Kontrollera dina resultat och repetera orden eller fraserna du missade.",
-
     "listen.guide.dontWorryTitle": "❤️ Oroa dig inte om du inte förstår allt.",
     "listen.guide.dontWorry1": "Riktig engelska kan låta snabb och svår till en början.",
     "listen.guide.dontWorry2": "Du förväntas inte förstå varje ord.",
     "listen.guide.dontWorry3": "Ditt mål är att förstå lite mer varje gång du lyssnar.",
-
     "listen.guide.beforeYouStartTitle": "💡 Innan du börjar",
     "listen.guide.beforeYouStart1": "Försök inte översätta varje mening till ditt eget språk.",
     "listen.guide.beforeYouStart2": "Fokusera först på att förstå situationen och huvudidén.",
     "listen.guide.beforeYouStart3": "Det är helt normalt att inte förstå allt första gången.",
-
     "listen.guide.readyToListen": "Redo? Nu lyssnar vi →",
     "listen.guide.dontShowAgain": "Visa inte det här igen",
     "listen.guide.howDoesThisWork": "Hur fungerar det här?",
-
     "listen.guide.tipLabel": "Tips",
-
     "listen.stage1.title": "🎧 Runda 1: Lyssna",
     "listen.stage1.instruction": "Lyssna efter den allmänna betydelsen. Oroa dig inte för varje ord.",
     "listen.stage1.who": "Vem talar?",
@@ -973,7 +895,6 @@
     "listen.stage1.continueMainIdea": "Jag förstod huvudidén — Fortsätt",
     "listen.stage1.needAnotherListen": "Behöver du lyssna en gång till? Använd Spela upp igen ovan.",
     "listen.stage1.continueToComprehension": "Fortsätt till Förståelse",
-
     "listen.stage2.title": "🧠 Runda 2: Förstå",
     "listen.stage2.instruction": "Testa nu hur väl du förstod samtalet.",
     "listen.stage2.beforeAnswering": "Innan du svarar",
@@ -988,7 +909,6 @@
     "listen.stage2.correctSummary": "{{correct}} rätt · {{remaining}} att repetera",
     "listen.stage2.reviewAreas": " · Repetera: {{areas}}",
     "listen.stage2.continueToDictation": "Fortsätt till Diktamen",
-
     "listen.stage3.title": "⌨️ Runda 3: Diktamen",
     "listen.stage3.instruction": "Lyssna nu noga och fyll i de saknade orden. Den här gången, fokusera på de exakta orden du hör.",
     "listen.stage3.listenThinkTypeCheck": "Lyssna → Tänk → Skriv → Kontrollera",
@@ -1000,7 +920,6 @@
     "listen.stage3.correctLabel": "Rätt:",
     "listen.stage3.dictationResult": "Diktamen: {{score}}%",
     "listen.stage3.seeResults": "Se mina resultat",
-
     "listen.dictation.strategyToggle": "Prova det här: Lyssna → Tänk → Skriv → Kontrollera",
     "listen.dictation.step1": "Lyssna en gång — förstå hela meningen.",
     "listen.dictation.step2": "Lyssna igen — fokusera på det saknade ordet.",
@@ -1010,7 +929,6 @@
     "listen.dictation.payAttentionTitle": "💡 Var uppmärksam på",
     "listen.dictation.payAttentionList": "Korta ord · verbändelser · sammandragningar · siffror · datum · sammanbundet tal · ord som låter lika",
     "listen.dictation.example": "Exempel — du hör \"I was going to call you yesterday.\" och övningen visar \"I was going to ______ you yesterday.\" Du skriver {{word}}.",
-
     "listen.transcript.show": "Visa transkript",
     "listen.transcript.hide": "Dölj transkript",
     "listen.transcript.whySoundsDifferent": "Varför det låter annorlunda",
@@ -1021,7 +939,6 @@
     "listen.transcript.whenToUse1": "Försök lyssna utan transkript först.",
     "listen.transcript.whenToUse2": "Använd det efter att du har försökt förstå ljudet.",
     "listen.transcript.whenToUse3": "Transkriptet hjälper dig upptäcka vad du missade.",
-
     "listen.questionHint.main_idea": "Tänk på samtalets övergripande syfte.",
     "listen.questionHint.details": "Lyssna efter den exakta informationen.",
     "listen.questionHint.intention": "Tänk på vad talaren menar eller vill göra.",
@@ -1029,7 +946,6 @@
     "listen.questionHint.vocabulary": "Använd det omgivande samtalet för att förstå betydelsen.",
     "listen.questionHint.numbers_dates": "Lyssna noga efter siffror, tider och datum.",
     "listen.questionHint.fast_speech": "Fånga nyckelorden, inte varje ord.",
-
     "listen.stage4.title": "🎧 Lyssnarlektionen är klar!",
     "listen.stage4.comprehension": "Lyssnarförståelse",
     "listen.stage4.dictation": "Diktamen",
@@ -1040,7 +956,6 @@
     "listen.stage4.cleanRun": "Inget — en felfri genomgång",
     "listen.stage4.signInToSave": "Logga in för att spara dessa lyssnarpoäng i dina framsteg.",
     "listen.stage4.saving": "Sparar dina framsteg…",
-
     "listen.player.audioLabel": "🎧 Ljud",
     "listen.player.ready": "Redo",
     "listen.player.partOf": "Del {{index}} av {{total}}",
@@ -1051,12 +966,10 @@
     "listen.player.stop": "Stoppa",
     "listen.player.volumeAria": "Volym",
     "listen.player.signInToPlay": "Logga in för att spela upp ljudet för den här lektionen.",
-
     "listen.error.signInToPlay": "Logga in för att spela upp lyssnarljudet.",
     "listen.error.playbackFailed": "Uppspelningen av ljudet misslyckades.",
     "listen.error.couldNotPlay": "Kunde inte spela upp ljudet.",
     "listen.error.couldNotSaveProgress": "Kunde inte spara dina lyssnarframsteg.",
-
     "shadow.page.eyebrow": "Skuggningsbibliotek",
     "shadow.page.title": "Lyssna. Skugga. Spela in. Jämför. Förbättra.",
     "shadow.page.description": "Ett progressivt bibliotek för varje ämne: korta nybörjarrader först, sedan längre, mer naturlig engelska. Öva några meningar varje dag och låt coachen jämföra vad du sa med modellen.",
@@ -1065,7 +978,6 @@
     "shadow.topics.free": "{{count}} gratis",
     "shadow.topics.loading": "Laddar biblioteket…",
     "shadow.topics.fallbackName": "Meningar",
-
     "shadow.stats.practised": "Övat",
     "shadow.stats.mastered": "Behärskat",
     "shadow.stats.needsPractice": "Behöver övning",
@@ -1073,20 +985,16 @@
     "shadow.stats.practiceTime": "Övningstid",
     "shadow.stats.practiceTimeValue": "{{minutes}} min",
     "shadow.stats.pronunciation": "Uttal",
-
     "shadow.weakest.notice": "Dina inspelningar visar att {{skill}} är det svagaste området just nu.",
     "shadow.weakest.cta": "Öva den här färdigheten",
-
     "shadow.today.heading": "Dagens skuggning · cirka 10 minuter",
     "shadow.today.description": "Svåra meningar först, sedan dina nya, avslutat med en repetition.",
     "shadow.today.sentenceFallback": "Mening {{n}}",
-
     "shadow.filters.searchPlaceholder": "Sök meningar…",
     "shadow.filters.allLevels": "Alla nivåer",
     "shadow.filters.allSentences": "Alla meningar",
     "shadow.filters.free": "Gratis",
     "shadow.filters.premium": "⭐ Premium",
-
     "shadow.level.beginner.label": "Nybörjare",
     "shadow.level.beginner.blurb": "Korta, vanliga meningar — 5 till 10 ord.",
     "shadow.level.elementary.label": "Grundläggande",
@@ -1095,7 +1003,6 @@
     "shadow.level.intermediate.blurb": "Naturligt samtal, frasala verb, sammanbundet tal.",
     "shadow.level.advanced.label": "Avancerad",
     "shadow.level.advanced.blurb": "Lång, idiomatisk, nyanserad engelska från infödda talare.",
-
     "shadow.skill.all": "Alla färdigheter",
     "shadow.skill.pronunciation": "Uttal",
     "shadow.skill.stress": "Satsbetoning",
@@ -1103,14 +1010,12 @@
     "shadow.skill.connectedSpeech": "Sammanbundet tal",
     "shadow.skill.rhythm": "Rytm",
     "shadow.skill.fluency": "Flyt",
-
     "shadow.status.all": "Alla",
     "shadow.status.new": "Ny",
     "shadow.status.inProgress": "Pågående",
     "shadow.status.needsPractice": "Behöver övning",
     "shadow.status.strong": "Stark",
     "shadow.status.mastered": "Behärskat",
-
     "shadow.mode.start.label": "Börja från början",
     "shadow.mode.start.blurb": "Från mening 1 och uppåt.",
     "shadow.mode.continue.label": "Fortsätt där du slutade",
@@ -1123,34 +1028,27 @@
     "shadow.mode.review.blurb": "Meningar markerade som behöver övning.",
     "shadow.mode.mastered.label": "Behärskade meningar",
     "shadow.mode.mastered.blurb": "Håll dem färska.",
-
     "shadow.group.everyday.name": "Vardagsengelska",
     "shadow.group.everyday.blurb": "Engelska från verkliga livet för hem, shopping, mat, resor, hälsa, pengar, telefonsamtal och fritid.",
     "shadow.group.work.name": "Arbets- och yrkesengelska",
     "shadow.group.work.blurb": "Språk du kan använda på jobbet: möten, presentationer, e-post, kunder, feedback, projekt och anställningsintervjuer.",
-
     "shadow.list.loading": "Laddar meningar…",
     "shadow.list.empty": "Inget matchar dessa filter ännu.",
     "shadow.list.premiumSentence": "Premiummening",
     "shadow.list.free": "GRATIS",
     "shadow.list.premium": "⭐ PREMIUM",
     "shadow.list.unlockWithPremium": "Lås upp med Premium",
-
     "shadow.empty.pickSentence": "Välj en mening till vänster för att börja skugga.",
-
     "shadow.locked.title": "⭐ Du har avslutat de {{count}} gratis skuggningsmeningarna för det här ämnet.",
     "shadow.locked.description": "Lås upp Premium för att fortsätta öva alla {{total}} meningar och varje nivå, med AI-feedback vid varje försök och din fullständiga framstegshistorik.",
     "shadow.locked.cta": "⭐ Lås upp Premium",
     "shadow.locked.alreadyMember": "Redan medlem?",
     "shadow.locked.signIn": "Logga in",
-
     "shadow.position.sentence": "Mening {{n}} / {{total}} · {{cefr}} · {{access}}",
     "shadow.sentenceFallback": "Mening {{n}}",
-
     "shadow.practice.accent.british": "Brittisk engelska",
     "shadow.practice.accent.american": "Nordamerikansk engelska",
     "shadow.practice.difficulty": "Svårighetsgrad {{n}}/10",
-
     "shadow.practice.step.listen": "Lyssna",
     "shadow.practice.step.listenHint": "Hör hela meningen i naturligt tempo.",
     "shadow.practice.step.shadow": "Skugga",
@@ -1163,14 +1061,11 @@
     "shadow.practice.step.tryAgainHint": "Upprepa tills det känns lätt.",
     "shadow.practice.step.mastered": "Behärskat",
     "shadow.practice.step.masteredHint": "Två tydliga försök i rad.",
-
     "shadow.practice.hideRelaxed": "Dölj avslappnat tal",
     "shadow.practice.showRelaxed": "Visa avslappnat tal (informellt)",
     "shadow.practice.relaxedHint": "Informell talad form — säg meningen skriven ovan på noggrann engelska.",
-
     "shadow.practice.dialogue.speaking": "🗣️ {{speaker}} säger:",
     "shadow.practice.dialogue.someone": "Någon",
-
     "shadow.practice.listen": "Lyssna",
     "shadow.practice.loop": "Loop",
     "shadow.practice.hideText": "Dölj text",
@@ -1179,19 +1074,15 @@
     "shadow.practice.modelAudioNote": "Modelljudet är Lingoras AI-röst i {{accent}}, ingen mänsklig inspelning.",
     "shadow.practice.signInToHear": "Logga in för att höra modelljudet.",
     "shadow.practice.playError": "Kunde inte spela upp ljudet.",
-
     "shadow.practice.focus.pronunciation": "Uttal",
     "shadow.practice.focus.stress": "Satsbetoning",
     "shadow.practice.focus.intonation": "Intonation",
     "shadow.practice.focus.connectedSpeech": "Sammanbundet tal",
     "shadow.practice.grammar": "Grammatik: {{value}}",
-
     "shadow.practice.recorder.busyLabel": "Jämför ditt tal",
     "shadow.practice.recorder.hint": "Skugga ljudet några gånger och spela sedan in meningen på egen hand.",
     "shadow.practice.recorder.signInToRecord": "Logga in för att spela in",
-
     "shadow.practice.yourRecording": "Din inspelning",
-
     "shadow.practice.result.pronunciation": "Uttal",
     "shadow.practice.result.speakingSpeed": "Talhastighet",
     "shadow.practice.result.wpm": " ord per minut",
@@ -1199,36 +1090,29 @@
     "shadow.practice.result.heard": "Hört",
     "shadow.practice.result.fix": "Åtgärda",
     "shadow.practice.result.coach": "Coach",
-
     "shadow.practice.tryAgain": "Försök igen",
     "shadow.practice.nextSentence": "Nästa mening",
     "shadow.practice.practiseSkill": "Öva {{skill}}",
     "shadow.practice.useWithCoach": "Använd med coachen",
-
     "tests.hero.eyebrow": "Talprov",
     "tests.hero.title": "IELTS-, TOEFL- och PTE-talövning",
     "tests.hero.description": "Riktiga uppgiftsformat, riktiga timers, din egen inspelning — och en AI-uppskattad poäng med rättelser och modellsvar efter varje försök.",
-
     "tests.exam.ielts.label": "IELTS Speaking",
     "tests.exam.ielts.blurb": "Part 1-3 och ett fullständigt övningsprov.",
     "tests.exam.toefl.label": "TOEFL Speaking",
     "tests.exam.toefl.blurb": "Lyssna & Upprepa och Genomför en intervju.",
     "tests.exam.pte.label": "PTE Speaking",
     "tests.exam.pte.blurb": "Läs högt, Upprepa mening och mer.",
-
     "tests.footer.disclaimer": "Lingora English är inte anslutet till IELTS, ETS (TOEFL) eller Pearson (PTE). Alla visade poäng är en",
     "tests.footer.disclaimerEmphasis": "AI-uppskattad talpoäng",
     "tests.footer.disclaimerSuffix": "endast för övning, inget officiellt resultat.",
-
     "tests.stat.testsInLibrary": "Prov i biblioteket",
     "tests.stat.testsCompleted": "Avslutade prov",
     "tests.stat.averageBand": "Genomsnittligt band",
     "tests.stat.bestBand": "Bästa band",
     "tests.stat.taskFormats": "Uppgiftsformat",
     "tests.stat.freeTests": "Gratis prov",
-
     "tests.partProgress": "Part 1: {{p1}} avslutade · Part 2: {{p2}} avslutade · Part 3: {{p3}} avslutade",
-
     "tests.filter.allParts": "Alla delar",
     "tests.filter.part1": "Part 1",
     "tests.filter.part2": "Part 2",
@@ -1248,10 +1132,8 @@
     "tests.filter.allTests": "Alla prov",
     "tests.filter.completed": "Avslutade",
     "tests.filter.notCompleted": "Inte avslutade",
-
     "tests.showingIelts": "Visar {{visible}} av {{total}} prov. De tre första proven är helt gratis — frågor, timers, inspelning, AI-uppskattat band, rättelser och modellsvar.",
     "tests.showingExam": "Visar {{visible}} av {{total}} {{exam}}-prov. De tre första proven är helt gratis — uppgifter, timers, inspelning och AI-feedback.",
-
     "tests.card.ieltsNumber": "IELTS Speaking-prov #{{number}}",
     "tests.card.examNumber": "{{exam}}-prov #{{number}}",
     "tests.card.durationLabel": "Varaktighet: {{duration}}",
@@ -1262,10 +1144,8 @@
     "tests.card.notCompleted": "Inte avslutat än",
     "tests.card.startTest": "Starta provet",
     "tests.card.unlockWithPremium": "Lås upp med Premium",
-
     "tests.empty.noMatchPart": "Inga prov matchar de filtren ännu — försök rensa sökningen eller välja en annan del.",
     "tests.empty.noMatchTask": "Inga prov matchar de filtren ännu — försök rensa sökningen eller välja en annan uppgift.",
-
     "tests.runner.leaveMock": "Lämna övningsprovet",
     "tests.runner.backToLibrary": "Tillbaka till provbiblioteket",
     "tests.runner.backToExamLibrary": "Tillbaka till {{exam}}-biblioteket",
@@ -1273,19 +1153,16 @@
     "tests.runner.mockAverageSoFar": " · AI-uppskattad talpoäng hittills: {{average}} / 9.0",
     "tests.runner.ieltsStatus": "IELTS Speaking-prov #{{number}} · {{part}} · {{difficulty}}",
     "tests.runner.examStatus": "{{exam}}-prov #{{number}} · {{task}} · {{difficulty}}",
-
     "tests.runner.cueCard": "Ämneskort",
     "tests.runner.partQuestion": "{{part}}-fråga",
     "tests.runner.nextQuestion": "Nästa fråga",
     "tests.runner.nextPrompt": "Nästa uppgift ({{current}}/{{total}})",
     "tests.runner.questionOf": " · Fråga {{current}} av {{total}}",
-
     "tests.runner.prep1Min": "1 minuts förberedelse",
     "tests.runner.prepSeconds": "{{seconds}}s förberedelse",
     "tests.runner.noPrepTime": "Ingen förberedelsetid",
     "tests.runner.prepTimeSeconds": "{{seconds}}s förberedelsetid",
     "tests.runner.promptCount": "{{count}} uppgift(er) i det här provet",
-
     "tests.runner.busyMarking": "Rättar ditt svar",
     "tests.runner.busyScoring": "Poängsätter ditt svar",
     "tests.runner.hintPart2": "Tala i en till två minuter.",
@@ -1293,12 +1170,10 @@
     "tests.runner.hintReadBack": "Säg meningen exakt som du hörde den.",
     "tests.runner.hintOpenTask": "Svara i fullständiga meningar och fortsätt tala tills tiden är slut.",
     "tests.runner.signInToRecord": "Logga in för att spela in",
-
     "tests.runner.couldNotHear": "Jag hörde inte det. Spela in igen.",
     "tests.runner.loadErrorIelts": "Kunde inte ladda talprovsbiblioteket.",
     "tests.runner.loadErrorExam": "Kunde inte ladda provbiblioteket.",
     "tests.runner.mockLibraryLoading": "Övningsprovet behöver att biblioteket blir klart med att ladda.",
-
     "tests.score.aiEstimated": "AI-uppskattad talpoäng",
     "tests.score.aiEstimatedScore": "AI-uppskattad poäng",
     "tests.score.fluencyCoherence": "Flyt och sammanhang",
@@ -1306,7 +1181,6 @@
     "tests.score.grammaticalRange": "Grammatisk omfattning",
     "tests.score.pronunciationHint": "Uttal",
     "tests.score.accuracyAgainstTarget": "Noggrannhet mot målet",
-
     "tests.block.yourAnswer": "Ditt svar",
     "tests.block.corrected": "Rättat",
     "tests.block.moreNatural": "Mer naturligt",
@@ -1317,11 +1191,9 @@
     "tests.block.whatWeHeard": "Vad vi hörde",
     "tests.block.wordsToFix": "Ord att åtgärda",
     "tests.block.noneWellDone": "Inga — bra jobbat.",
-
     "tests.action.tryAgain": "Försök igen",
     "tests.action.continueNextPart": "Fortsätt till nästa del",
     "tests.action.practisePronunciation": "Öva uttal",
-
     "tests.sidebar.howPartsWork": "Så fungerar delarna",
     "tests.sidebar.part1Title": "Part 1",
     "tests.sidebar.part1Body": "vardagliga frågor om dig.",
@@ -1333,8 +1205,8 @@
     "tests.sidebar.thisTest": "Det här provet",
     "tests.sidebar.responseSuffix": " svar",
     "tests.sidebar.warmUpWithCoach": "Värm upp med din coach",
-
     "tests.duration.3to4": "3-4 min",
-    "tests.duration.4to5": "4-5 min"
+    "tests.duration.4to5": "4-5 min",
+    "app.home.features.explore": "Utforska"
   }
 }

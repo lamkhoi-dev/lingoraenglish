@@ -32,7 +32,7 @@ import {
   type ShadowSkillId,
   type ShadowTopicOverview,
 } from "@/lib/shadowing-content";
-import { hreflangLinks } from "@/lib/seo";
+import { canonicalLink } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 const TITLE = "Shadowing Library — Lingora English";
@@ -49,7 +49,7 @@ export const Route = createFileRoute("/shadowing")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: hreflangLinks("/shadowing"),
+    links: [canonicalLink("/shadowing")],
   }),
   component: ShadowingPage,
 });
@@ -178,11 +178,20 @@ function ShadowingPage() {
 
   return (
     <AppShell>
-      <SectionHeading
-        eyebrow={t("shadow.page.eyebrow")}
-        title={t("shadow.page.title")}
-        description={t("shadow.page.description")}
-      />
+      <div className="grid items-center gap-6 lg:grid-cols-[1.3fr_0.7fr]">
+        <SectionHeading
+          eyebrow={t("shadow.page.eyebrow")}
+          title={t("shadow.page.title")}
+          description={t("shadow.page.description")}
+        />
+        <div className="hidden lg:block overflow-hidden rounded-3xl border border-border shadow-lg">
+          <img
+            src="/images/shadowing-practice.jpg"
+            alt="Shadowing Practice"
+            className="h-44 w-full object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+      </div>
 
       {/* Categories */}
       <div className="mt-8 grid gap-3 sm:grid-cols-2">

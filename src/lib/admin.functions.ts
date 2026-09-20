@@ -11,6 +11,7 @@ import { z } from "zod";
 import { withAdmin } from "@/db";
 import {
   aiUsageLog,
+  authEvents,
   grammarLessons,
   ieltsQuestions,
   listeningExercises,
@@ -70,6 +71,42 @@ export const getAdminOverview = createServerFn({ method: "GET" })
       })),
       usage: usageRows.map((r) => r.capability),
     };
+  });
+
+/**
+ * Mục 3.5: "Ghi nhật ký các sự kiện quan trọng: đăng ký, đăng nhập" —
+ * auth_events is written to by auth.functions.ts on every signup/sign-in
+ * attempt but had no reader anywhere; this is the read side, joined to the
+ * learner's email where the event is tied to a known account (signup and
+ * successful sign-in always are; failed/rate-limited sign-ins may not be,
+ * since the email is hashed for the rate-limit bucket rather than stored).
+ */
+export const getAuthEventsLog = createServerFn({ method: "GET" })
+  .middleware([requireAdmin])
+  .handler(async () => {
+    const rows = await withAdmin((db) =>
+      db
+        .select({
+          id: authEvents.id,
+          event: authEvents.event,
+          ip: authEvents.ip,
+          userAgent: authEvents.userAgent,
+          createdAt: authEvents.createdAt,
+          email: profiles.email,
+        })
+        .from(authEvents)
+        .leftJoin(profiles, eq(profiles.id, authEvents.userId))
+        .orderBy(desc(authEvents.createdAt))
+        .limit(200),
+    );
+    return rows.map((r) => ({
+      id: r.id,
+      event: r.event,
+      ip: r.ip,
+      user_agent: r.userAgent,
+      created_at: r.createdAt,
+      email: r.email,
+    }));
   });
 
 /**

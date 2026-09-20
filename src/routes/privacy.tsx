@@ -3,6 +3,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
 import { useI18n } from "@/lib/i18n";
+import { canonicalLink } from "@/lib/seo";
 
 export const Route = createFileRoute("/privacy")({
   head: () => ({
@@ -22,6 +23,7 @@ export const Route = createFileRoute("/privacy")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
+    links: [canonicalLink("/privacy")],
   }),
   component: PrivacyPage,
 });
@@ -29,7 +31,7 @@ export const Route = createFileRoute("/privacy")({
 const SECTIONS: { title: string; body: React.ReactNode }[] = [
   {
     title: "1. Who we are",
-    body: "Lingora English is operated by Ms Thao English, which is the data controller for the personal data described in this notice. You can contact us about privacy at support@msthaoenglish.com.",
+    body: "Lingora English is operated by Ms Thao English, which is the data controller for the personal data described in this notice. You can contact us about privacy at phanthithuthao10081996@gmail.com.",
   },
   {
     title: "2. What we collect and why",
@@ -57,7 +59,7 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "8. Your control and your rights",
-    body: "You can edit your profile, change your interface language, delete your practice history from My Account, and cancel your subscription at any time. Subject to local law you also have the right to access, correct, erase, restrict or object to processing of your data, to receive a portable copy, to withdraw consent at any time, and to complain to your data protection authority. Email support@msthaoenglish.com and we will respond within one month.",
+    body: "You can edit your profile, change your interface language, delete your practice history from My Account, and cancel your subscription at any time. Subject to local law you also have the right to access, correct, erase, restrict or object to processing of your data, to receive a portable copy, to withdraw consent at any time, and to complain to your data protection authority. Email phanthithuthao10081996@gmail.com and we will respond within one month.",
   },
   {
     title: "9. Retention",

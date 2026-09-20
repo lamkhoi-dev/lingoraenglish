@@ -319,6 +319,7 @@ export const sectionsTr: Dictionary = {
   "app.home.features.listening.body": "Gerçekçi diyaloglar, anlama soruları ve dikte ile dinleme becerinizi geliştirin.",
   "app.home.features.vocab.title": "Konuşma için Kelimeler",
   "app.home.features.vocab.body": "Faydalı kelimeler öğrenin ve bunları hemen konuşurken bir cümlede kullanın.",
+  "app.home.features.explore": "Keşfet",
   "app.home.how.title": "Lingora nasıl çalışır?",
   "app.home.how.1": "Konuşun",
   "app.home.how.2": "Yapay zekâ konuşmanızı analiz etsin",

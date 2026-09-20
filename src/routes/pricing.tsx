@@ -9,10 +9,10 @@ import { SectionHeading } from "@/components/lily/brand";
 import { formatMoney, BillingCard } from "@/components/lily/billing-ui";
 import { useBilling, usePlans, type PlanRecord } from "@/hooks/use-billing";
 import { useAuth } from "@/lib/auth";
-import { recordBillingEvent, validateCoupon } from "@/lib/billing.functions";
+import { getPublicPlans, recordBillingEvent, validateCoupon } from "@/lib/billing.functions";
 import { useI18n } from "@/lib/i18n";
 import { getPaddlePriceId, initializePaddle } from "@/lib/paddle";
-import { hreflangLinks } from "@/lib/seo";
+import { canonicalLink } from "@/lib/seo";
 import { en } from "@/locales/en";
 
 export const Route = createFileRoute("/pricing")({
@@ -21,6 +21,16 @@ export const Route = createFileRoute("/pricing")({
     interval: z.enum(["month", "year"]).optional(),
     checkout: z.string().optional(),
   }),
+  // Plans, prices and features are loaded on the SERVER so they are in the HTML itself. A visitor who
+  // does not run JavaScript — a crawler, or a payment provider's automated site review — must still see
+  // what is sold and for how much. If the read fails the page falls back to loading them in the browser.
+  loader: async () => {
+    try {
+      return (await getPublicPlans()) as unknown as PlanRecord[];
+    } catch {
+      return null;
+    }
+  },
   head: () => ({
     meta: [
       { title: en["pricing.meta.title"] },
@@ -30,7 +40,7 @@ export const Route = createFileRoute("/pricing")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: hreflangLinks("/pricing"),
+    links: [canonicalLink("/pricing")],
   }),
   component: PricingPage,
 });
@@ -41,7 +51,8 @@ function PricingPage() {
   const { t, locale } = useI18n();
   const { user } = useAuth();
   const navigate = useNavigate();
-  const plans = usePlans();
+  const serverPlans = Route.useLoaderData();
+  const plans = usePlans(serverPlans ?? undefined);
   const billing = useBilling();
 
   const search = useSearch({ from: "/pricing" });
@@ -59,6 +70,9 @@ function PricingPage() {
     void logEvent({ data: { event: "pricing_viewed" } }).catch(() => undefined);
   }, [user, logEvent]);
 
+  // One free trial per account: hidden once this account has had a subscription (and until we
+  // know, for a signed-in learner, so an ineligible one never sees it flash up).
+  const showTrial = !user || billing.data?.trialEligible === true;
   const currentTier = billing.data?.entitlement.tier ?? "free";
   const currentSub = billing.data?.subscription as
     | { cancel_at_period_end: boolean; current_period_end: string | null }
@@ -225,7 +239,7 @@ function PricingPage() {
                 )}
               </div>
 
-              {plan.trial_enabled && plan.tier !== "free" && (
+              {plan.trial_enabled && plan.tier !== "free" && showTrial && (
                 <p className="mt-2 text-xs font-medium text-accent">
                   {t("pricing.trial", { count: String(plan.trial_days) })}
                 </p>

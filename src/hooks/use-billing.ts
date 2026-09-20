@@ -22,13 +22,16 @@ export type PlanRecord = {
   sort_order: number;
 };
 
-/** Public plan catalogue — safe to read without an account. */
-export function usePlans() {
+/** Public plan catalogue — safe to read without an account. `initialData` lets a route that already
+ * loaded the plans on the server (see /pricing's loader) hand them over, so the first render — and the
+ * HTML the server sends — already contains them instead of an empty page filled in after hydration. */
+export function usePlans(initialData?: PlanRecord[]) {
   const fetchPlans = useServerFn(getPublicPlans);
   return useQuery({
     queryKey: ["billing-plans"],
     queryFn: (): Promise<PlanRecord[]> => fetchPlans() as unknown as Promise<PlanRecord[]>,
     staleTime: 5 * 60 * 1000,
+    ...(initialData ? { initialData } : {}),
   });
 }
 

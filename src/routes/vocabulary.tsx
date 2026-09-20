@@ -12,7 +12,7 @@ import { useSpeak } from "@/hooks/use-speak";
 import { useAuth } from "@/lib/auth";
 import { useI18n } from "@/lib/i18n";
 import { VOCAB_CATEGORIES } from "@/lib/ipa-data";
-import { hreflangLinks } from "@/lib/seo";
+import { canonicalLink } from "@/lib/seo";
 import {
   getMyVocabularyProgress,
   getVocabularyTranslations,
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/vocabulary")({
       { property: "og:title", content: en["vocab.meta.title"] },
       { property: "og:description", content: en["vocab.meta.description"] },
     ],
-    links: hreflangLinks("/vocabulary"),
+    links: [canonicalLink("/vocabulary")],
   }),
   component: VocabularyPage,
 });
@@ -136,7 +136,16 @@ function VocabularyPage() {
 
   return (
     <AppShell>
-      <SectionHeading eyebrow={t("nav.vocabulary")} title={t("vocab.title")} description={t("vocab.sub")} />
+      <div className="grid items-center gap-6 lg:grid-cols-[1.3fr_0.7fr]">
+        <SectionHeading eyebrow={t("nav.vocabulary")} title={t("vocab.title")} description={t("vocab.sub")} />
+        <div className="hidden lg:block overflow-hidden rounded-3xl border border-border shadow-lg">
+          <img
+            src="/images/vocabulary-cards.jpg"
+            alt="English Vocabulary & Flashcards"
+            className="h-44 w-full object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+      </div>
 
       <div className="mt-6 flex flex-wrap gap-2">
         <button

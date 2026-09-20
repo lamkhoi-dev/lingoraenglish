@@ -22,8 +22,11 @@ tất — file đó giờ chỉ còn giá trị lịch sử (cách đã làm cut
 - Backend đã 100% tự vận hành: **Postgres tự host trên VPS + Drizzle ORM**, không còn phụ thuộc Supabase
   ở bất kỳ đâu (đã gỡ `@supabase/supabase-js`, `src/integrations/supabase/`).
 - Auth tự viết hoàn chỉnh: session lưu DB (cookie httpOnly, thu hồi được ngay), bcryptjs, xác thực email
-  qua token, Google OAuth thủ công — nhưng **Google OAuth chưa có credentials thật** (xem mục "Còn thiếu"
-  bên dưới), đăng ký/đăng nhập bằng email đã chạy thật với SMTP thật (Resend).
+  qua token, Google OAuth thủ công. **Google OAuth**: đã điền `GOOGLE_CLIENT_ID`/`GOOGLE_CLIENT_SECRET`
+  thật vào `.env.docker` (2026-09-18), chờ `deploy.bat` để build lại (build-time var). **SMTP (Resend)**:
+  có API key thật nhưng **domain `lingoraenglishai.com` chưa xác minh trên Resend** — mọi email xác thực
+  đăng ký/quên mật khẩu đều gửi lỗi 403, xem mục "🔴 Bug đăng ký..." bên dưới. Ghi chú cũ ở đây từng nói
+  "đã chạy thật với SMTP thật" — sai, chưa từng tự test gửi thật trước 2026-09-18, đã sửa lại.
 - Database production đã bootstrap đầy đủ: 3 role Postgres (`anon`/`authenticated`/`service_role`) +
   `auth.uid()` qua `db/0000_auth_compat_shim.sql`, 43 bảng nghiệp vụ + RLS gốc qua 19 file
   `supabase/migrations/*.sql` chạy gần như nguyên vẹn, cộng `db/0001-0003_*.sql` (bugfix quyền, bảng auth
@@ -513,6 +516,39 @@ trên production **toàn bộ 38 ngôn ngữ mới** qua seed DB + **16 ngôn ng
 
 ---
 
+## 🔴 Bug đăng ký 2026-09-18 (code đã vá, ⛔ nguyên nhân gốc — domain email — CHƯA vá, cần người dùng làm)
+
+**Triệu chứng thật do người dùng báo**: đăng ký tài khoản → toast lỗi chung chung "Something went wrong".
+Đăng ký lại lần 2 cùng email → báo "email đã được sử dụng" → chứng tỏ tài khoản **đã tạo trong DB** ở lần
+đầu nhưng bị lỗi giữa chừng, kẹt lại vĩnh viễn không xác thực được, không có cách tự khôi phục.
+
+**Đã tra ra 2 lớp nguyên nhân, xác minh bằng dữ liệu thật (không đoán):**
+
+1. **Nguyên nhân gốc — domain email chưa xác minh trên Resend, ⛔ CHƯA VÁ, chỉ người dùng tự làm được**:
+   test gửi trực tiếp qua đúng `SMTP_PASS` đang dùng trong `.env.docker` (gọi thẳng Resend HTTP API, không
+   qua nodemailer) trả về `403: "The lingoraenglishai.com domain is not verified. Please, add and verify
+   your domain on https://resend.com/domains"`. API key tự nó hợp lệ (không phải sai key) — chỉ riêng bước
+   xác minh domain (DNS TXT + CNAME) trong `HUONG_DAN_LAY_SMTP_GOOGLE_OAUTH.md` Phần 1 Bước 2 chưa hoàn
+   tất/chưa lan truyền. Ghi chú cũ ở đầu file này ("đăng ký/đăng nhập bằng email đã chạy thật với SMTP
+   thật") là **sai** — chưa từng tự test gửi thật trước ngày này, đã sửa lại. Query DB xác nhận 2 tài khoản
+   test (`tunghv.21it@vku.udn.vn`, `thanhhuyen191223@gmail.com`) đều có dòng trong `auth.users` VÀ đúng 1
+   dòng trong `auth.email_verification_tokens` (nghĩa là bước tạo token cũng thành công) nhưng
+   `email_confirmed_at` vẫn NULL — khớp chính xác: lỗi xảy ra đúng ở bước gửi mail, sau khi mọi ghi DB đã
+   xong. **Cách sửa (người dùng tự làm)**: xem mục "⛔ Cần làm ngay" đầu file
+   `HUONG_DAN_LAY_SMTP_GOOGLE_OAUTH.md`.
+2. **Lỗi code thật, ĐÃ VÁ**: `signUp()`/`resendVerification()` (`auth.functions.ts`) gọi
+   `issueEmailVerification()` không có try/catch — khi gửi mail lỗi vì bất kỳ lý do gì (không riêng vụ
+   domain lần này — cũng có thể là Resend rớt mạng, rate-limit tạm thời...), lỗi văng thẳng ra ngoài
+   `createServerFn`, tài khoản đã tạo/token đã tạo nhưng client nhận lỗi 500 chung chung thay vì màn hình
+   "check your email". Đã bọc try/catch quanh cả 2 lời gọi, `console.error` lại lỗi phía server (cùng
+   nguyên tắc fail-open như `rate-limit.server.ts`) nhưng vẫn trả `requiresVerification: true`/`{ok: true}`
+   như bình thường — người học luôn thấy đúng màn hình "kiểm tra email" thay vì lỗi khó hiểu, và nút "Gửi
+   lại" dùng lại được ngay khi domain email được xác minh xong, không cần tạo tài khoản mới. Đã typecheck
+   sạch. **2 tài khoản test kẹt lại ở trên vẫn cần xử lý tay** (xoá hoặc chờ domain xác minh xong rồi bấm
+   "Gửi lại email xác thực") — chưa tự xử lý vì không chắc người dùng muốn giữ hay xoá 2 tài khoản test đó.
+
+---
+
 ## 🔴 SỰ CỐ NGHIÊM TRỌNG 2026-09-17 (đã vá) — migration 0009 chặn toàn bộ đăng nhập production
 
 **Đọc mục này trước nếu đang debug bất kỳ lỗi đăng nhập/quyền hàm Postgres nào.**
@@ -733,6 +769,313 @@ mục sau:
   "Full Mock Tests" (không định nghĩa cấu phần) — chưa chốt dứt khoát phần nào có/không.
 - Ràng buộc 1 & 2 (VPS tự vận hành, bảng phân bổ Gemini/DeepSeek) được ghi "là yêu cầu của khách hàng"
   nhưng **không có trong file 02** — không truy vết được nguồn.
+
+---
+
+## Audit BE-vs-FE (2026-09-17, tiếp) — 2 lỗ hổng đã vá, 2 để ngỏ có chủ đích
+
+Rà soát toàn bộ ~110 hàm `createServerFn` trong `src/lib/*.functions.ts` xem có hàm nào backend đã viết
+xong nhưng không route/component nào gọi tới (đúng kiểu bug từng xảy ra với tab AI Cost — xem mục Phần
+III 3.2 ở trên). Đối chiếu từng phát hiện với spec thật (`01_DAC_TA_YEU_CAU_LINGORA_ENGLISH.md`) trước
+khi quyết định sửa hay để đó. 4 phát hiện:
+
+1. **AI Speaking Coach — thiếu form tạo/sửa topic trong admin — ĐÃ VÁ.** `adminSaveCoachTopic`
+   (`coach.functions.ts:637`, schema đủ 20 trường) trước đó không ai gọi; `admin-coach.tsx` chỉ có
+   list + bật/tắt. Spec dòng 857 (*"đội phát triển cần xây dựng công cụ... quản trị để bổ sung, chỉnh
+   sửa học liệu về sau mà không cần sửa mã nguồn"*) không nêu tên "Coach topics" trực tiếp, nhưng đúng
+   nguyên tắc đã áp dụng cho cả 5 loại nội dung còn lại — để thiếu là không nhất quán với tiền lệ đã tự
+   đặt ra. Đã thêm `TopicEditor` (form đầy đủ 19 trường editable, theo đúng pattern accordion inline của
+   `admin-pronunciation.tsx`'s `LessonEditor`) vào `admin-coach.tsx`, gọi thẳng `adminSaveCoachTopic` có
+   sẵn — không cần sửa backend.
+2. **`auth_events` (log đăng nhập/đăng ký) không có UI xem — ĐÃ VÁ.** Bảng chỉ có đúng 1 chỗ ghi
+   (`auth.functions.ts:68`), không hàm nào đọc. Spec dòng 805 chỉ yêu cầu *"ghi nhật ký"*, không đòi hỏi
+   rõ phải có màn hình xem — nên đây là mức ưu tiên thấp, làm thêm cho tinh thần "giám sát" (dòng 807)
+   chứ không phải vá lỗi sai spec. Đã thêm `getAuthEventsLog` (`admin.functions.ts`, join `profiles` lấy
+   email khi biết, 200 dòng gần nhất) + tab "Sign-in Log" mới trong `/admin` (`admin-auth-log.tsx`).
+3. **`adminBulkImportTranslations` mồ côi — để ngỏ có chủ đích, không vá.** Hàm đầy đủ
+   (`admin.functions.ts:306`) nhưng tab "translations" chỉ nối phần sửa từng key. Spec dòng 515 (*"trang
+   quản trị cho phép chỉnh sửa bản dịch và xem tỷ lệ dịch còn thiếu"*) đã đạt đủ bằng editor từng key có
+   sẵn — nhập hàng loạt chỉ là tiện ích thêm, không bắt buộc. Chưa làm gì thêm.
+4. **`getAiStatus` (kiểm tra key AI có hoạt động) mồ côi — để ngỏ có chủ đích, không vá.** Không xuất
+   hiện ở đâu trong spec, thuần công cụ nội bộ ngoài yêu cầu khách. Có thể cân nhắc xoá sau này nếu dọn
+   dead code, không phải việc cần làm ngay.
+
+Đã typecheck sạch (`tsc --noEmit` qua Docker). **Không xác minh được qua trình duyệt thật** — máy dev
+Windows này vẫn dính đúng lỗi `rolldown` cũ khi chạy `vite dev` (lỗi ngay từ bước load `vite.config.ts`,
+xác nhận lại không liên quan gì tới thay đổi lần này). Không cần migration DB (2 bảng `coach_topics` và
+`auth_events` đã có sẵn từ trước) — chỉ cần `deploy.bat` để lên production.
+
+---
+
+## Onboarding — thiết kế lại theo khảo sát khách cung cấp (2026-09-18), thêm CRUD admin
+
+Khách yêu cầu thay khảo sát onboarding cũ (4 bước: ngôn ngữ giao diện / ngôn ngữ mẹ đẻ / trình độ CEFR
+hiện tại+mục tiêu / mục tiêu+phút luyện) bằng 5 câu hỏi mới (mục tiêu chính, muốn cải thiện gì nhất —
+multi-select, tần suất luyện tập, tự đánh giá trình độ, ngôn ngữ hướng dẫn/giải thích), có CRUD admin.
+Đã audit code hiện có trước khi làm — `onboarding.tsx`/`completeOnboarding` đã tồn tại sẵn nhưng 100%
+hard-code, 0% chỉnh được qua admin.
+
+**Quyết định thiết kế chính** (đã người dùng xác nhận qua 2 câu hỏi):
+- Thay thế hoàn toàn 4 bước cũ, không giữ song song. Ngôn ngữ giao diện không hỏi lại trong onboarding
+  nữa — đã có sẵn 2 nơi khác (`LanguageSelector` ở header/footer, và `/account`), không mất chức năng.
+- Câu "ngôn ngữ hướng dẫn/giải thích" (English/Vietnamese) **không tạo cột DB riêng** — tái dùng
+  `englishOnlyMode` + `interfaceLanguage` sẵn có: chọn English → bật `englishOnlyMode`; chọn Vietnamese →
+  tắt `englishOnlyMode` + set `interfaceLanguage='vi'`. Trước đó "ngôn ngữ giải thích AI" chưa từng có
+  trường lưu riêng — luôn tính lại mỗi request từ 2 trường trên (xác nhận qua audit `explanation-language.ts`).
+- Trình độ (câu 4) vẫn giữ enum CEFR A1-C1 bên trong (map "Beginner→A1...Advanced→C1", "I'm not sure"→B1
+  — B1 trùng giá trị mặc định cột) — vì `englishLevel` đang được dùng thật trong prompt AI (Coach tone,
+  chấm Speaking, sinh learning plan), không phải chỉ hiển thị. Không hỏi lại "target level" trong
+  onboarding nữa (spec khách không có câu này) — cột `targetLevel` giữ default 'C1', vẫn sửa được sau ở
+  `/account`.
+- "Muốn cải thiện gì nhất" (multi-select) là hoàn toàn mới — thêm cột `profiles.focus_areas` (`text[]`).
+
+**Hạ tầng CRUD mới**: bảng `onboarding_options` (migration `src/db/schema/0012_onboarding_survey.sql`) —
+5 `question_key` cố định (goal/focus_areas/minutes/level/instruction_language, khớp logic app, admin
+không tự thêm được câu hỏi mới) × option_value/label_en/label_vi/sort_order/is_active admin tự do
+thêm/sửa/ẩn/sắp xếp trong mỗi câu. Label chỉ có EN+VI (52 ngôn ngữ giao diện còn lại fallback tiếng Anh
+cho riêng màn hình này — đánh đổi có chủ đích, không đụng tới i18n 54 ngôn ngữ đã có ở nơi khác của app).
+Đọc công khai qua `onboarding.functions.ts#getOnboardingOptions` (`withAnon`, không cần đăng nhập vì
+onboarding có thể chạy trước khi có tài khoản), sửa qua `onboarding-admin.functions.ts` + tab "Onboarding"
+mới trong `/admin` (`admin-onboarding.tsx`).
+
+**🔴 Phát hiện quan trọng khi test trên Postgres tạm (áp dụng cho mọi migration RLS sau này, không riêng
+tính năng này)**: `CREATE POLICY ... FOR SELECT TO public` **không kèm `USING`** thì `polqual` là `NULL`
+— RLS coi đó là **deny-all**, không phải allow-all như vẫn tưởng. Xác minh thực nghiệm 2 lần độc lập trên
+Postgres 16 sạch. Ban đầu copy đúng pattern không-USING từ `pronunciation_lessons_read_free`/
+`read_premium` (migration `0002_pronunciation_lessons.sql`) — phát hiện ra **2 policy đó trên production
+cũng bị lỗi y hệt, đang deny-all thật sự**, nhưng chưa từng gây sự cố vì `getSkillLessonsCatalogue` đọc
+qua `withAdmin` (service_role, bỏ qua RLS hoàn toàn), không phải `withUser`/`withAnon` — RLS ở đó chỉ là
+trang trí, chưa bao giờ được thực thi. Bảng `onboarding_options` của tính năng này thì khác: đọc thật qua
+`withAnon`, nên nếu không thêm `USING (true)` rõ ràng thì màn hình onboarding sẽ luôn rỗng 0 lựa chọn
+trên production — đã tự bắt được và sửa trước khi deploy (`onboarding_options_read` policy có `USING
+(true)` tường minh). **Chưa sửa `pronunciation_lessons`** (ngoài phạm vi phiên này, không gây hại thật vì
+dormant) — nếu sau này có code nào đổi từ `withAdmin` sang `withUser`/`withAnon` cho bảng đó, sẽ bất ngờ
+trả về rỗng, nhớ mục này.
+
+Đã test đầy đủ trên Postgres tạm với đúng role (`anon`/`authenticated` không-admin/`authenticated`
+có-admin/`service_role`) — GRANT + RLS đúng dự kiến sau khi sửa, kể cả trường hợp `authenticated` có role
+admin vẫn bị chặn ghi ở tầng GRANT (đúng chủ đích, khớp mọi bảng nội dung khác — ghi thật luôn qua
+`withAdmin`+`requireAdmin`, RLS "admin" chỉ là lớp phòng thủ phụ, không phải đường ghi thật sự dùng).
+Đã typecheck sạch. Chưa deploy — cần `migrate.bat` rồi `deploy.bat`.
+
+**Còn treo, không thuộc phạm vi khách yêu cầu lần này**: `/account` chưa hiển thị/sửa được `focus_areas`
+(chỉ mới lưu được qua onboarding) — nếu khách muốn sửa lại sau khi hoàn thành onboarding thì cần thêm UI
+riêng, chưa làm.
+
+### 🔴 Nối khảo sát vào luồng đăng nhập/đăng ký (2026-09-19) — bản 2026-09-18 chỉ có trang, chưa có đường dẫn tới
+
+Khách báo đăng nhập Google **không thấy màn khảo sát**. Audit lại: bản 2026-09-18 làm xong trang `/onboarding`
++ CRUD admin + `completeOnboarding`, nhưng **không có chỗ nào trong app dẫn tới `/onboarding`**, và
+`profiles.onboarded_at` được ghi mà **chưa từng được đọc** — nên mọi cách đăng nhập (Google lẫn email) đều vào
+thẳng dashboard. Ngoài ra khi khách chưa đăng nhập làm khảo sát, đáp án bị bỏ (`if (user) {...}`), nên luồng
+"khảo sát trước, đăng ký sau" trong yêu cầu gốc chưa chạy được. Đã nối lại:
+
+- **Người chưa có tài khoản** bấm tạo tài khoản (`/auth` chế độ signup) → chưa làm khảo sát thì được chuyển
+  sang `/onboarding` trước → xong thì đáp án lưu tạm (`src/lib/onboarding-flow.ts` — localStorage + bản
+  in-memory phòng khi trình duyệt chặn storage, sống được qua các lần redirect của Google OAuth/link xác thực
+  email) → quay lại `/auth?mode=signup` để đăng ký → ngay khi có session, `OnboardingGate` tự ghi đáp án vào
+  profile (`completeOnboarding`).
+- **Người đã đăng nhập mà `onboarded_at` còn null** (Google lần đầu, tài khoản cũ trước khi có khảo sát...) →
+  `src/components/lily/onboarding-gate.tsx` (mount ở `__root.tsx`) đưa sang `/onboarding?next=<trang đang vào>`,
+  làm xong quay lại đúng trang đó. Miễn trừ: `/`, `/pricing`, `/auth*`, `/onboarding`, `/checkout`, `/billing*`,
+  `/terms`, `/privacy`, `/refunds`, `/reset-password`, `/api` — trang công khai/thanh toán không bao giờ bị đá.
+- **"Skip"** giờ ghi `onboarded_at` thật (`skipOnboarding` trong `account.functions.ts`, không đổi thông số nào
+  khác) — trước đó Skip chỉ chuyển trang nên nếu gate bật thì sẽ bị hỏi lại mỗi lần vào.
+- `getCurrentUser` trả thêm `onboarded_at` (kiểu `Profile` ở `auth.tsx`).
+- **Hệ quả cần biết**: mọi tài khoản hiện có chưa có `onboarded_at` (trừ 4 demo — `seed-demo-accounts.ts` đã
+  set) sẽ bị hỏi khảo sát 1 lần ở lần vào tiếp theo (có nút Skip).
+- Đã typecheck sạch (`tsc --noEmit`). **Chưa chạy thử trên trình duyệt** (dev server Windows máy này không
+  chạy được, xem mục Pronunciation 2026-09-14) — khách/QA cần test tay: Google lần đầu, email signup, và
+  khảo sát-trước-đăng-ký. Chưa deploy — không cần migration mới (cột `onboarded_at` có sẵn), chỉ cần `deploy.bat`.
+
+---
+
+## SEO / hiện trên Google (2026-09-19)
+
+Audit site thật (`curl` với UA Googlebot) trước khi sửa: `sitemap.xml` 404, `robots.txt` không có dòng Sitemap,
+**không có canonical**, `https://www.lingoraenglishai.com/` trả 200 cùng nội dung với apex (trùng lặp), không
+có `og:image`/`twitter:image` (dù khai báo `summary_large_image`), không có JSON-LD, các trang riêng tư
+(`/dashboard`, `/account`, `/billing`, `/auth`…) không có noindex, hreflang dùng URL tương đối và trỏ tới
+`?lang=xx` nhưng **server luôn render tiếng Anh** (đổi ngôn ngữ chỉ xảy ra sau hydrate) nên 16 URL đó là cùng một
+nội dung → hreflang sai, đã bỏ. Đã sửa phía code:
+
+- `src/lib/seo.ts`: `SITE_URL` (`https://lingoraenglishai.com`, apex là host chuẩn), `canonicalLink()`,
+  `NOINDEX_META`, `OG_IMAGE_URL`. Bỏ `hreflangLinks`.
+- Canonical trên 11 trang công khai (`/`, `/ai-speaking`, `/pronunciation`, `/shadowing`, `/listening-lab`,
+  `/vocabulary`, `/speaking-tests`, `/pricing`, `/privacy`, `/terms`, `/refunds`) — `?lang=xx` tự gộp về URL sạch.
+- `noindex` (meta, không dùng Disallow vì Google chỉ đọc được noindex trên trang được phép tải) cho `/auth`,
+  `/auth/verify`, `/auth/google-callback`, `/dashboard`, `/account`, `/billing*`, `/checkout/*`, `/onboarding`,
+  `/progress`, `/reset-password` (`/admin` đã có từ trước).
+- `__root.tsx`: `og:site_name`, `og:image` (+ kích thước, alt), `twitter:image` mặc định cho mọi trang.
+  `public/og-image.png` (1200×630) sinh bằng PowerShell/System.Drawing từ `logo-icon.png` — logo có chữ "L"
+  trong suốt nên phải đặt trên ô trắng; muốn ảnh đẹp hơn thì thay file này, không cần đổi code.
+- Trang chủ: JSON-LD `Organization` + `WebSite` + `WebApplication` (chỉ dữ kiện thật — không rating/giá, Google
+  coi markup không khớp nội dung là spam).
+- `public/robots.txt` (1 nhóm `*`, `Disallow: /api/`, dòng `Sitemap:`) và `public/sitemap.xml` (11 URL, viết tay —
+  **thêm trang công khai mới thì phải thêm vào file này**).
+- `/daily-english` → `/listening-lab` đổi 307 → 301 (chuyển vĩnh viễn thì mới chuyển được thứ hạng).
+- Đã typecheck sạch. **Chưa deploy** — chưa có gì trên Google cho tới khi chạy `deploy.bat`.
+
+**Việc ngoài code, phải làm tay:**
+1. ✅ **Đã làm 2026-09-19**: `www` → apex 301 trong nginx trên VPS (`/etc/nginx/sites-available/lingoraenglishai.com`,
+   khối HTTPS `www` riêng chỉ `return 301`, khối port 80 chuyển thẳng `http://www` → `https://lingoraenglishai.com`;
+   chứng chỉ Let's Encrypt đã phủ cả 2 tên nên không phải cấp lại). Bản sao lưu: `/root/nginx-lingoraenglishai.com.bak-20260919203525`
+   trên VPS — khôi phục bằng `cp` bản đó về file trên rồi `nginx -t && systemctl reload nginx`. Đã kiểm tra bằng
+   `curl`: http/https www đều 301 về apex (giữ nguyên path + query), apex vẫn 200. Lưu ý `deploy/nginx.conf` trong
+   repo chỉ là bản mẫu trước certbot, KHÔNG phải file đang chạy và chưa cập nhật theo thay đổi này.
+2. Google Search Console: thêm property (nên chọn "Domain" + TXT DNS), gửi `sitemap.xml`, "Request indexing" cho
+   trang chủ. Cần tài khoản Google của khách.
+3. **Hạn chế còn lại (quyết định sản phẩm)**: server luôn render tiếng Anh, nên Google chỉ thấy bản tiếng Anh dù app
+   có 54 ngôn ngữ. Muốn lên top bằng tiếng Việt/ngôn ngữ khác thì cần URL riêng theo ngôn ngữ (`/vi/...`) + hreflang
+   đúng — thay đổi lớn, chưa làm.
+
+---
+
+## 🔴 Paddle: nhận diện gói bằng `custom_data` thay vì `import_meta.external_id` (2026-09-19)
+
+Khi khách có key sandbox thật, kiểm tra tài khoản sandbox phát hiện lỗi nền tảng ở cả sandbox lẫn live: code tra giá
+bằng `GET /prices?external_id=lily_premium_monthly` và đọc `price.import_meta.external_id` để biết đây là gói nào —
+nhưng theo tài liệu Paddle, `external_id` **chỉ nằm trong dữ liệu trả về (do công cụ import của Paddle đặt), không
+đặt được khi tạo giá qua API/dashboard và `/prices` không có filter đó**. Đó là tàn dư của gateway Lovable cũ. Hậu quả:
+checkout báo "That plan price is not available yet", và nếu có người trả tiền thì webhook/`syncSubscriptionFromProvider`
+bỏ qua đăng ký (log warn) → người trả tiền vẫn ở Free. (Nếu Paddle bỏ qua filter lạ thì `data[0]` còn là giá đầu tiên
+bất kỳ — có thể tính nhầm gói.)
+
+Đã sửa: mỗi product/price trên Paddle mang `custom_data: {"lingora_key": "<mã của mình>"}`
+(`lily_premium_monthly`/`_yearly`, `lily_ielts_monthly`/`_yearly`; product `lily_premium`, `lily_ielts`).
+- `paddle.server.ts`: `catalogKeyOf()` (đọc `lingora_key`, dự phòng `import_meta.external_id`, nhận cả snake_case của
+  REST lẫn camelCase của payload webhook SDK) + `findPriceByKey()` (duyệt `/prices?status=active`, khớp chính xác,
+  không bao giờ "lấy giá đầu tiên").
+- Dùng ở `billing.functions.ts` (`resolvePaddlePrice`, `validateCoupon`, `changeMyPlan`),
+  `billing-sync.server.ts`, `webhook.ts` (created/updated). Thiếu key → `console.error` (to, có chủ đích: người dùng đã
+  trả tiền mà không map được gói).
+- `scripts/create-paddle-catalog.mjs`: tạo catalog, chạy lặp lại an toàn, mặc định dry-run (`--apply` mới ghi,
+  `--env live` cho tài khoản thật). Giá lấy từ `billing_plans` production: Premium 9.99/79.99 USD, IELTS Pro
+  19.99/159.99 USD, trial 7 ngày. **Đổi giá ở /admin → Plans thì phải đổi cả script + Paddle** (Paddle mới là nơi tính
+  tiền thật).
+- **Đã chạy `--apply` trên sandbox** (2 product + 4 price, chạy lại lần 2 không tạo trùng) và chạy thật
+  `findPriceByKey` với sandbox: tra đúng cả 4 giá, `null` với mã không tồn tại.
+- **Live chưa làm**: khi có tài khoản Paddle live được duyệt phải chạy `node scripts/create-paddle-catalog.mjs --env
+  live --apply` trước khi mở bán, nếu không live sẽ dính đúng lỗi trên.
+- **Việc khách/vận hành còn phải làm** (không tự làm được): (1) sandbox → Notifications: destination đang là
+  `https://lingoraenglishai.com/api/webhooks/paddle` (route không tồn tại) — phải là
+  `.../api/public/payments/webhook?env=sandbox`, 5 sự kiện trong `HUONG_DAN_LAY_PADDLE_KEYS.md`; (2) `.env.docker`:
+  `PAYMENTS_SANDBOX_WEBHOOK_SECRET` và `PAYMENTS_LIVE_WEBHOOK_SECRET` đang chứa 1 đường dẫn URL, không phải secret
+  `pdl_ntfset_...` — điền secret thật; (3) local `.env` cũng đang để trống 2 biến sandbox.
+- **Sandbox vs live là quyết định lúc BUILD** (prefix của `VITE_PAYMENTS_CLIENT_TOKEN`: `test_` = sandbox, `live_` =
+  live; `payments-env.ts`). Bản production hiện tại build với `live_…` nên báo `PADDLE_LIVE_API_KEY is not configured`
+  (key live trên VPS đang trống) — không phải lỗi code. Để test sandbox ngay trên production: **`deploy.bat sandbox`**
+  (lấy token `test_` từ `.env.development`, truyền qua `--build-arg`; Dockerfile có ARG + guard vì Vite cho biến môi
+  trường RỖNG cũng ghi đè `.env.production` → nếu không guard, build live thường sẽ mất token). `deploy.bat` không tham
+  số = live như cũ. Chuyển qua lại = deploy lại. Webhook sandbox đã đúng (destination
+  `…/webhook?env=sandbox`, secret `.env.docker` khớp — kiểm tra bằng API 2026-09-19).
+- **Tác dụng phụ khi production ở chế độ sandbox**: mọi kiểm tra quyền dùng `getPaddleEnvironment()`, nên
+  `demo-premium`/`demo-ielts` (subscription `environment='live'`, xem mục demo ở trên) sẽ hiện **Free** cho tới khi
+  deploy lại về live. Dùng `demo-free` hoặc tài khoản mới để thử mua. Đơn sandbox ghi vào DB production với
+  `environment='sandbox'`, bản live bỏ qua. Khách thật không trả tiền được trong lúc ở sandbox.
+- **Lỗi "Something went wrong" của Paddle khi bấm thanh toán trên sandbox (2026-09-19) — 2 nguyên nhân, cả hai
+  đều nằm ở tài khoản Paddle chứ không phải code**: (1) tài khoản sandbox chưa đặt **Default payment link** (API trả
+  `transaction_default_checkout_url_not_set` khi thử `POST /transactions`) — chỉ đặt được trong dashboard: Checkout →
+  Checkout settings; (2) `VITE_PAYMENTS_CLIENT_TOKEN` cũ (`test_ad6c…`, thừa hưởng từ thời Lovable) **không thuộc
+  tài khoản sandbox chứa key/giá hiện tại** (`GET /client-tokens` của tài khoản trống) nên Paddle.js không thấy các giá
+  vừa tạo. Đã tạo token mới qua API (`POST /client-tokens`, tên `lingoraenglish-sandbox-web`, id `ctkn_01m2x4d9…`) và ghi
+  vào `.env.development` (file này gitignored). Email `@lingoraenglish.local` của tài khoản demo **được** Paddle chấp
+  nhận (đã thử) nên không phải nguyên nhân. **Cảnh báo tương tự cho live**: `VITE_PAYMENTS_CLIENT_TOKEN=live_…` trong
+  `.env.production` rất có thể cũng của tài khoản cũ — khi có tài khoản Paddle live thật phải tạo client token live
+  mới (Developer Tools → Authentication → Client-side tokens) và thay vào đó, đồng thời đặt Default payment link
+  + duyệt domain trên tài khoản live.
+- ✅ **Đã test trọn vẹn trên production ở chế độ sandbox (2026-09-19, Chrome headless qua playwright-core, tài khoản
+  `demo-free`, thẻ 4242)**: `deploy.bat sandbox` (token `test_d668…` baked, container healthy) → `/pricing` (banner test mode,
+  9,99/19,99 US$) → bấm chọn Premium → overlay Paddle mở (`POST transaction-checkout` 201, "7 day free trial", nhãn
+  Test Mode) → trả bằng thẻ 4242 → về `/billing/success` "Đã nhận thanh toán… Đang hoạt động". DB production:
+  `subscriptions` có đúng 1 dòng `environment='sandbox'`, `status='trialing'`, `price_id=lily_premium_monthly`,
+  `product_id=lily_premium` (tức `lingora_key` ánh xạ đúng); `billing_events` có `trial_started` + `payment_succeeded`
+  (chỉ webhook mới ghi → **webhook sandbox đã xác thực chữ ký và chạy đúng**) rồi `subscription_activated` (từ
+  `verifyCheckout`). Paddle trả `items[0].price.custom_data`/`product.custom_data` đúng, `custom_data` của subscription mang
+  `userId`. **Tác dụng phụ**: `demo-free` hiện đang có gói Premium sandbox (chỉ hiệu lực khi production build sandbox).
+  Chưa test: huỷ gói, đổi gói, gia hạn/thanh toán thất bại, thẻ bị từ chối (4000 0000 0000 0002).
+- 🐛 Sửa kèm (chưa deploy): `trial_ends_at` luôn `null` vì Paddle đặt `trial_dates` trong `items[0]`, không phải cấp
+  subscription (`webhook.ts` created/updated + `billing-sync.server.ts`) → dòng "Dùng thử kết thúc ngày…" ở `/billing`
+  chưa từng hiện. Đã đọc `item.trial_dates` (dự phòng cấp trên). Dòng của `demo-free` hiện tại vẫn null tới khi có sự
+  kiện mới sau khi deploy.
+- ✅ **Đã test huỷ / giữ lại / gia hạn (2026-09-19, sandbox, `demo-free`)**: `/billing` có "Hủy gói đăng ký" (huỷ cuối
+  kỳ, `effectiveFrom: next_billing_period` → giữ quyền truy cập tới hết kỳ; đang dùng thử thì huỷ = không bị thu đồng
+  nào), "Giữ gói đăng ký" (hoàn tác), "Đổi gói", "Cập nhật phương thức thanh toán" (portal Paddle), hoá đơn. Huỷ →
+  `cancel_at_period_end=true` + `subscription_updated` từ webhook; giữ lại → về `false`. **Gia hạn tự động**: kết thúc
+  sớm dùng thử bằng `POST /subscriptions/{id}/activate` (API sandbox, chỉ để test) → Paddle tự trừ thẻ 4242 **11,10 USD**
+  (9,99 + VAT Việt Nam 11,11%; US không thuế), `status` → `active`, kỳ 19/9→19/10, `next_billed_at` 19/10, webhook
+  `subscription_updated` + `payment_succeeded` cập nhật DB đúng. `collection_mode=automatic` nên hết dùng thử/hết kỳ là tự
+  thu tiền, người dùng phải chủ động huỷ.
+- 🐛 Sửa thêm (chưa deploy): (a) sau khi huỷ/giữ/đổi gói, `/billing` refetch **trước** khi webhook (~1s sau) ghi DB nên
+  vẫn hiện nút cũ tới khi tải lại → `syncAfterAction()` đồng bộ từ Paddle ngay trong `cancelMySubscription`/
+  `keepMySubscription`/`changeMyPlan`; (b) lịch sử thanh toán liệt kê cả giao dịch `draft`/`ready`/`canceled` (mỗi lần mở
+  checkout rồi bỏ là 1 dòng "0 US$ ready" có link hoá đơn) → lọc bỏ (`UNPAID_STATUSES`). **Đã deploy `deploy.bat sandbox`
+  lúc 16:21 UTC 2026-09-19 và kiểm chứng lại bằng Chrome headless** (xem mục dưới).
+- ✅ **Bộ test hoàn chỉnh sau deploy (sandbox, production, 2026-09-19)**: (1) thẻ từ chối `4000 0000 0000 0002` →
+  Paddle báo "This payment was declined by your bank…", không tạo gói, webhook ghi `payment_failed`; (2) mua mới bằng
+  `demo-premium`: `trial_ends_at` **có giá trị**, `/billing` hiện "Hết hạn dùng thử vào 26 thg 9", lịch sử chỉ còn 1 dòng
+  `completed`; (3) huỷ/giữ lại **tự cập nhật giao diện ngay** (không cần tải lại); (4) **đổi gói**: đã trả tiền (`active`)
+  đổi Premium→IELTS Pro thành công (thu chênh lệch theo tỉ lệ, `price_id` → `lily_ielts_monthly`, webhook
+  `subscription_updated`+`payment_succeeded`, giao diện đổi ngay); đang **dùng thử** thì Paddle từ chối đổi ("You can't
+  add or remove items for a subscription in trial…") → giao diện thay nút bằng dòng `billing.changePlanAfterTrial` và
+  `changeMyPlan` chặn sớm với thông báo rõ (không lộ câu lỗi Paddle); (5) quyền truy cập khi gia hạn lỗi, thử trong
+  transaction rồi ROLLBACK trên `has_active_subscription`: `past_due` quá kỳ + ân hạn 0 ngày → mất quyền; ân hạn 3 ngày →
+  còn quyền, quá 3 ngày → mất; `past_due` nhưng kỳ chưa hết → còn; đã huỷ còn hạn → còn, hết hạn → mất. Chưa test: email
+  nhắc gia hạn/biên lai (app không tự gửi, chỉ Paddle), thanh toán lại thành công sau `past_due` thật, PayPal.
+  Dữ liệu test còn lại (chỉ hiệu lực khi production build sandbox): `demo-free` = IELTS Pro `active`, `demo-premium` và
+  `tranthanhhuyen191223@gmail.com` = Premium `trialing`.
+- 🟢 **CHUYỂN SANG LIVE (2026-09-19, 16:47 UTC)**: `deploy.bat` không tham số → production build với token `live_0ece…`,
+  container có `PADDLE_LIVE_API_KEY`/`PAYMENTS_LIVE_WEBHOOK_SECRET`, banner test-mode đã biến mất. Kiểm tra tài khoản Paddle
+  **live** (chỉ đọc, rồi ghi 2 thay đổi theo yêu cầu rõ ràng của khách): tài khoản live là tài khoản Lovable tạo sẵn — có 2
+  product + 4 price (9,99/79,99/19,99/159,99 USD) mang `import_meta.external_id` = `lily_premium_monthly`… (nên
+  `findPriceByKey` nhận ngay nhờ dự phòng `import_meta`, KHÔNG cần chạy `create-paddle-catalog.mjs --env live`; product
+  key live là `lily_premium`/`lily_ielts_pro`); client token `live_0ece…` ("Lovable - do not remove") thuộc đúng tài khoản
+  này; chưa có khách/subscription nào. **Đã sửa 2 chỗ trên Paddle live**: (1) 4 giá chưa có dùng thử (`trial_period` null,
+  trái với quảng cáo 7 ngày) → PATCH `trial_period = 7 day`; (2) destination webhook có secret khớp `.env.docker`
+  (`ntfset_01m2ww7g…`) trỏ `/api/webhooks/paddle` (route không tồn tại) → PATCH thành
+  `https://lingoraenglishai.com/api/public/payments/webhook?env=live`; route trả 400 với request không chữ ký (đúng).
+  **Còn treo**: (a) domain `lingoraenglishai.com` đang **Pending** duyệt tại vendors.paddle.com/request-domain-approval —
+  tới khi duyệt xong checkout live sẽ lỗi và chưa đặt được Default payment link (đặt `https://lingoraenglishai.com/pricing`
+  sau khi duyệt); (b) 2 destination webhook trỏ về Lovable (`api.lovable.dev/...`, `*.lovable.app/...`) vẫn nhận dữ liệu
+  thanh toán live — nên tắt/xoá; (c) client token do Lovable quản lý — nên tạo token riêng rồi thay `.env.production`;
+  (d) tên doanh nghiệp trong tài khoản Paddle phải khớp "Ms Thao English"; (e) sau khi duyệt: mua thử 1 gói thật + hoàn tiền.
+  Gói sandbox của demo-free/demo-premium/tài khoản Google giờ không còn hiệu lực (bản live bỏ qua `environment='sandbox'`);
+  demo-premium/demo-ielts (gói `live`) hiện lại là Premium/IELTS Pro.
+- 🔒 **Mỗi tài khoản chỉ được dùng thử 1 lần (2026-09-19/20, khách chốt)**. Trước đó không có gì chặn: dùng thử là thuộc tính
+  của **giá** Paddle nên ai mua cũng được 7 ngày, huỷ rồi mua lại là thêm 7 ngày miễn phí. Cách làm: mỗi giá gói có **giá
+  song sinh không dùng thử** mang mã `<mã gói>_notrial` (`lily_premium_monthly_notrial`…, cùng product, `NO_TRIAL_SUFFIX` trong
+  `paddle.server.ts`). `resolvePaddlePrice` (giờ **bắt buộc đăng nhập**) tự chọn phía server: tài khoản **chưa từng có subscription
+  nào** (mọi trạng thái, kể cả đã huỷ, trong môi trường hiện tại) → giá có dùng thử; còn lại → giá `_notrial`. `changeMyPlan`
+  luôn dùng `_notrial`. Cố ý **nghiêm ngặt**: thiếu giá song sinh thì báo lỗi chứ không tặng dùng thử lần nữa. Webhook/sync
+  chuẩn hoá qua `planPriceKeyOf()` nên `subscriptions.price_id` luôn là mã gói gốc (SQL `has_active_subscription`/join
+  `billing_plans` không đổi). `getMyBilling` trả thêm `trialEligible`; `/pricing` ẩn dòng "7-day free trial" với tài khoản
+  không còn đủ điều kiện. `scripts/create-paddle-catalog.mjs` giờ tạo cả 8 giá (có alias sản phẩm `lily_ielts`↔`lily_ielts_pro`
+  cho live nên không tạo trùng). **Đã test trên sandbox (production build sandbox tạm thời, sau đó đã trả về live)**: tài khoản
+  chưa từng có gói thấy "7-day free trial" + checkout dùng giá có trial ("Start your free trial"); tài khoản đã từng có gói
+  không thấy dòng trial + checkout dùng giá `_notrial` ("Subscribe now — $11.10 now"); đổi gói đi qua `_notrial`, DB vẫn lưu
+  `lily_premium_monthly`. Chưa chặn được người tạo tài khoản mới bằng email khác (cần chặn email tạm thời/CAPTCHA — việc riêng).
+  **⚠️ Trên Paddle LIVE 4 giá `_notrial` CHƯA được tạo** (chờ khách cho phép ghi vào tài khoản live): tới khi tạo
+  (`node scripts/create-paddle-catalog.mjs --env live --apply`, dry-run đã xác nhận chỉ tạo đúng 4 giá, không trùng), khách đã
+  từng có gói / đổi gói ở live sẽ gặp lỗi "That plan price is not available yet" (người mua lần đầu vẫn ổn).
+- 📋 **Đối chiếu website với yêu cầu duyệt domain của Paddle (2026-09-20)** — danh sách Paddle: mô tả sản phẩm, trang giá, tính
+  năng từng gói, Terms/Refund/Privacy hiển thị rõ, tên công ty trong Terms, website chạy + HTTPS, chỉ gửi domain liên quan.
+  Kiểm tra bằng Chrome headless ẩn danh + `curl` HTML thô: **đạt** — 11 trang công khai 200, có h1, không link hỏng, không còn
+  chữ Lovable/test-mode; Terms §1 ghi "operated and sold by Ms Thao English"; Refund/Privacy/Terms nhắc Paddle là Merchant of
+  Record; hoàn tiền 30 ngày; HTTPS Let's Encrypt (hết hạn 2026-12-09) + HSTS, http→https và www→apex đều 301. **Đã sửa 1 lỗ
+  hổng**: `/pricing` trước đây KHÔNG có giá/tên gói/tính năng trong HTML thô (nạp bằng JS sau hydrate) → trình thu thập không
+  chạy JS (có thể gồm cả bot duyệt của Paddle) thấy trang giá trống. Nay `/pricing` có `loader` gọi `getPublicPlans()` phía
+  server (`usePlans(initialData)`), HTML thô có đủ 2 mức giá tháng, tên 3 gói, danh sách tính năng, dùng thử/huỷ/hoàn tiền
+  (giá NĂM chỉ hiện sau khi bấm "Yearly" — mặc định là tháng). **Còn treo**: (1) gỡ 2 domain `lingoraenglish.lovable.app` (vẫn
+  online, là bản sao cũ của site — có thể bị index trùng) và `lily-talk-learn.lovable.app` (404) khỏi hồ sơ duyệt — khách
+  quyết định bỏ; chỉ dashboard Paddle làm được; (2) ✅ **ĐÃ ĐỔI (2026-09-20)**: email liên hệ trong Terms/Refund/Privacy trước là
+  `support@msthaoenglish.com` nhưng cả `msthaoenglish.com` lẫn `lingoraenglishai.com` KHÔNG có bản ghi MX (thư không nhận được)
+  → khách cung cấp `phanthithuthao10081996@gmail.com`, đã thay ở `terms.tsx`/`refunds.tsx`/`privacy.tsx` (4 chỗ) và deploy
+  live. Lưu ý đây là Gmail cá nhân hiển thị công khai; nếu sau này dựng hộp thư theo tên miền thì đổi lại ở 3 file đó; (3) tên doanh nghiệp trong tài khoản Paddle phải khớp "Ms Thao English". Ghi chú: `msthaoenglish.com` là website
+  thật của trung tâm Anh ngữ Ms. Thảo (Thanh Hóa) — khớp pháp nhân trong Terms. Email hệ thống (xác thực/đặt lại mật khẩu) vẫn
+  phụ thuộc Resend chưa xác minh domain (xem mục SMTP đầu file).
+- Trước khi mở bán thật: điền `PADDLE_LIVE_API_KEY` + `PAYMENTS_LIVE_WEBHOOK_SECRET` vào `.env.docker`, chạy
+  `node scripts/create-paddle-catalog.mjs --env live --apply`, rồi `deploy.bat` (không tham số).
+- Chưa test được luồng trả tiền hết đường trên trình duyệt (cần bấm checkout với thẻ 4242…). Chưa deploy.
 
 ---
 

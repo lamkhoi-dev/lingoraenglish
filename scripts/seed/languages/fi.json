@@ -9,7 +9,6 @@
     "brand.short": "Lingora English",
     "brand.line1": "Lingora English",
     "brand.tagline": "Henkilökohtainen tekoälyenglanninopettajasi",
-
     "nav.home": "Etusivu",
     "nav.coach": "Tekoälypuhevalmentaja",
     "nav.shadowing": "Varjostus",
@@ -27,7 +26,6 @@
     "nav.language": "Kieli",
     "nav.admin": "Ylläpito",
     "nav.menu": "Valikko",
-
     "lang.title": "Kieli",
     "lang.choose": "Valitse kielesi",
     "lang.interface": "Käyttöliittymän kieli",
@@ -35,7 +33,6 @@
     "lang.keepEnglish": "Pidä englanti",
     "lang.switchTo": "Vaihda kieleen {{language}}",
     "lang.note": "Käyttöliittymän kieli vaihtuu — harjoittelemasi englanti pysyy englanniksi.",
-
     "common.signIn": "Kirjaudu sisään",
     "common.signUp": "Luo tili",
     "common.signOut": "Kirjaudu ulos",
@@ -92,7 +89,6 @@
     "checkout.continueWhere": "Jatka siitä, mihin jäit",
     "common.somethingWrong": "Jotain meni pieleen.",
     "common.demoMode": "Demotila",
-
     "home.heroSub": "Harjoittele puhumista, paranna ääntämistäsi, opi sanastoa ja rakenna itseluottamusta englannin kielessä Lingora Englishin kanssa.",
     "home.badge": "Tekoälyenglanninopettaja",
     "home.cta.start": "Aloita oppiminen",
@@ -135,7 +131,6 @@
     "home.cta2.button": "Aloita puhuminen Lingora Englishin kanssa",
     "home.meta.title": "Lingora English — Henkilökohtainen tekoälyenglanninopettajasi",
     "home.meta.description": "Harjoittele puhumista, paranna ääntämistäsi ja valmistaudu IELTSiin Lingora Englishin kanssa — kärsivällinen tekoälyenglanninopettaja oppijoille kaikkialla maailmassa.",
-
     "auth.welcome": "Tervetuloa takaisin",
     "auth.create": "Luo tilisi",
     "auth.reset": "Nollaa salasanasi",
@@ -154,7 +149,6 @@
     "auth.resetSent": "Nollauslinkki lähetetty — tarkista sähköpostisi.",
     "auth.welcomeBack": "Tervetuloa takaisin!",
     "auth.created": "Tili luotu. Olet kirjautunut sisään!",
-
     "onboarding.title": "Määritellään englanninopiskelusi",
     "onboarding.sub": "Neljä nopeaa kysymystä, jotta Lingora English voi opettaa sinua parhaiten sopivalla tavalla.",
     "onboarding.step": "Vaihe {{current}}/{{total}}",
@@ -164,14 +158,12 @@
     "onboarding.q.goal": "Mikä on tavoitteesi?",
     "onboarding.q.minutes": "Kuinka monta minuuttia voit harjoitella päivittäin?",
     "onboarding.done": "Olet valmis. Lingora English odottaa.",
-
     "level.A1": "A1 — Alkeet",
     "level.A2": "A2 — Selviytyjä",
     "level.B1": "B1 — Keskitaso",
     "level.B2": "B2 — Ylempi keskitaso",
     "level.C1": "C1 — Taitava",
     "level.C2": "C2 — Erinomainen",
-
     "goal.confidence": "Puhu englantia itsevarmasti",
     "goal.pronunciation": "Paranna ääntämistä",
     "goal.work": "Englantia työhön",
@@ -182,7 +174,6 @@
     "goal.daily": "Arkienglanti",
     "goal.business": "Liike-englanti",
     "goal.interview": "Työhaastattelut",
-
     "lily.title": "Lingora English",
     "lily.sub": "Henkilökohtainen englanninopettajasi, aina saatavilla.",
     "lily.intro": "Valitse aihe ja ala puhua. Lingora English muistaa tämän keskustelun ja antaa sinulle aina jotain vastattavaa.",
@@ -208,7 +199,6 @@
     "lily.notHeard": "Lingora English ei kuullut sitä — yritä uudelleen.",
     "lily.meta.title": "Lingora English — Henkilökohtainen tekoälyenglanninopettajasi",
     "lily.meta.description": "Keskustele Lingora Englishin kanssa arjesta, työstä, matkustamisesta ja muusta. Hän kuuntelee, vastaa luontevasti ja esittää aina jatkokysymyksen.",
-
     "speaking.title": "Puheharjoittelu",
     "speaking.sub": "Vastaa ääneen. Lingora English litteroi tarkalleen, mitä sanoit, ja näyttää sitten, miten voit sanoa sen paremmin.",
     "speaking.question": "Kysymyksesi",
@@ -230,7 +220,6 @@
     "speaking.hint": "Puhu luontevasti — Lingora English kuuntelee kärsivällisesti.",
     "speaking.meta.title": "Tekoälyavusteinen puheharjoittelu — Lingora English",
     "speaking.meta.description": "Nauhoita vastauksesi oikeaan englanninkieliseen kysymykseen ja saat välittömän palautteen sujuvuudesta, kieliopista ja sanastosta Lingora Englishiltä.",
-
     "pron.title": "Lingora Englishin ääntämisvalmentaja",
     "pron.sub": "Opi jokainen englannin äänne selkeiden suun ja kielen asentojen ohjeiden avulla, nauhoita sitten itsesi ja vertaile.",
     "pron.tab.sounds": "IPA-äänteet",
@@ -252,7 +241,6 @@
     "pron.accent.uk": "Brittienglanti",
     "pron.meta.title": "Englannin ääntämisvalmentaja — IPA, minimaaliparit ja paino",
     "pron.meta.description": "Harjoittele jokaista englannin IPA-äännettä, minimaalipareja, sananpainoa ja intonaatiota Lingora Englishin kanssa sekä rehellistä, selkeää palautetta.",
-
     "vocab.title": "Sanasto",
     "vocab.sub": "Englanninkielisiä sanoja IPA-merkinnällä, englanninkielisellä määritelmällä, esimerkillä ja merkityksellä omalla kielelläsi.",
     "vocab.definition": "Englanninkielinen määritelmä",
@@ -266,7 +254,6 @@
     "vocab.learning": "Vielä opeteltavana",
     "vocab.meta.title": "Englannin sanasto IPA-merkinnällä ja äänellä — Lingora English",
     "vocab.meta.description": "Opi englannin sanastoa kategorioittain IPA-merkinnän, äänen, esimerkkilauseiden ja omankielisten käännösten avulla.",
-
     "grammar.title": "Lingora Englishin kielioppivalmentaja",
     "grammar.sub": "Selkeät selitykset, aidot esimerkit ja harjoitukset, jotka Lingora English tarkistaa puolestasi.",
     "grammar.explanation": "Selitys",
@@ -282,7 +269,6 @@
     "grammar.incorrect": "Ei ihan",
     "grammar.meta.title": "Englannin kielioppivalmentaja — aikamuodot, modaaliverbit, konditionaalit",
     "grammar.meta.description": "Opi englannin kielioppia Lingora Englishin kanssa: selkeät selitykset, esimerkit, harjoitukset ja välitön tekoälykorjaus.",
-
     "listen.title": "Kuunteluharjoittelu",
     "listen.sub": "Kuuntele luonnollista englantia ja vastaa sitten, täytä aukot tai kirjoita kuulemasi.",
     "listen.play": "Toista ääni",
@@ -295,7 +281,6 @@
     "listen.correctAnswers": "Oikeat vastaukset",
     "listen.meta.title": "Englannin kuunteluharjoittelu A1–C1 — Lingora English",
     "listen.meta.description": "Kuuntele ja valitse, sanelu- ja varjostusharjoituksia tasoilla A1–C1 litterointeineen ja selityksineen.",
-
     "ielts.title": "Lingora English IELTS Speaking",
     "ielts.sub": "Harjoittele Part 1, 2 ja 3 tutkijatyylisellä erittelyllä omasta vastauksestasi.",
     "ielts.part1": "Part 1",
@@ -318,7 +303,6 @@
     "ielts.band8": "Band 8 -versio",
     "ielts.meta.title": "IELTS Speaking -harjoittelu tekoälyn bändiarviolla — Lingora English",
     "ielts.meta.description": "Harjoittele IELTS Speaking Part 1, 2 ja 3 Lingora Englishin kanssa ja saat arvioidun bändin sekä Band 6-, 7- ja 8-tason uudelleenkirjoitukset vastauksestasi.",
-
     "progress.title": "Edistymiseni",
     "progress.sub": "Kaikki, mitä Lingora English on kuullut sinulta, ja mitä harjoitella seuraavaksi.",
     "progress.streak": "Oppimisputki",
@@ -343,7 +327,6 @@
     "progress.empty": "Ei vielä mitään täällä — ensimmäinen harjoituksesi näkyy heti.",
     "progress.meta.title": "Englannin edistymiseni — Lingora English",
     "progress.meta.description": "Seuraa puhepisteitäsi, ääntämistä äänteittäin, putkea ja harjoitteluminuutteja, ja saat yksilöllisen päivittäisen suunnitelman.",
-
     "account.title": "Oma tili",
     "account.sub": "Profiilisi, kielesi ja yksityisyytesi.",
     "account.profile": "Profiili",
@@ -365,7 +348,6 @@
     "account.deleted": "Harjoitustietosi on poistettu.",
     "account.meta.title": "Oma tili — Lingora English",
     "account.meta.description": "Hallitse käyttöliittymän kieltä, äidinkieltäsi, englannin tasoasi, päivittäistä tavoitettasi, oppimistilaa ja yksityisyysasetuksia.",
-
     "admin.title": "Hallintapaneeli",
     "admin.sub": "Oppilaat, sisältö, käännökset ja tekoälyn käyttö.",
     "admin.tab.students": "Oppilaat",
@@ -391,45 +373,36 @@
     "admin.defaultLanguage": "Oletuskieli",
     "admin.missingCount": "{{count}} puuttuu",
     "admin.onlyAdmins": "Tämä alue on vain ylläpitäjille.",
-
     "usage.title": "Tekoälyn käyttö",
     "usage.requests": "Pyynnöt",
     "usage.stt": "Puheesta tekstiksi",
     "usage.tts": "Tekstistä puheeksi",
     "usage.analyses": "Analyysit",
     "usage.cacheHits": "Välimuistiosumat",
-
     "grammar.lessonsTitle": "Oppitunnit",
     "grammar.selectLesson": "Valitse oppitunti nähdäksesi selityksen ja harjoituksen.",
     "grammar.noLessons": "Ei vielä oppitunteja — katso pian uudelleen.",
     "grammar.checkAll": "Tarkista vastaukset",
-
     "listen.selectExercise": "Valitse harjoitus aloittaaksesi.",
     "listen.noExercises": "Ei vielä kuunteluharjoituksia tälle tasolle.",
     "listen.questions": "Kysymykset",
     "listen.transcript": "Litterointi",
-
     "vocab.noWords": "Ei vielä sanoja tässä kategoriassa.",
     "vocab.category": "Kategoria",
-
     "admin.name": "Nimi",
     "admin.email": "Sähköposti",
     "admin.joined": "Liittynyt",
     "admin.role": "Rooli",
     "admin.noStudents": "Ei vielä oppilaita.",
     "admin.locale": "Kieli",
-
     "account.accent": "Aksentti",
     "account.voicePreference": "Ääni",
-
     "ielts.timeRemaining": "Aikaa jäljellä",
     "ielts.prepDone": "Valmistautuminen päättyi — voit aloittaa puhumisen.",
     "ielts.selectQuestion": "Valitse kysymys",
     "ielts.yourRecording": "Nauhoitteesi",
-
     "progress.todaysTasks": "Tämän päivän tehtävät",
     "progress.noPlan": "Ei vielä suunnitelmaa — luo yksi alta.",
-
     "pricing.title": "Tilaukset ja hinnat",
     "pricing.sub": "Aloita ilmaiseksi. Päivitä, kun haluat Lingora Englishin kuuntelevan sinua joka päivä.",
     "pricing.monthly": "Kuukausittain",
@@ -458,7 +431,6 @@
     "pricing.faq.refund.a": "Ota yhteyttä 30 päivän kuluessa maksusta, niin palautamme sen maksukumppanimme kautta.",
     "pricing.meta.title": "Hinnat — Lingora English",
     "pricing.meta.description": "Ilmainen, Premium- ja IELTS Pro -tilaukset tekoälypuhumiseen, ääntämiseen ja IELTS-harjoitteluun Lingora Englishin kanssa. Paikallinen valuutta ja vero hoidetaan kassalla.",
-
     "billing.title": "Tilaukseni",
     "billing.sub": "Tilauksesi, käyttösi ja maksuhistoriasi.",
     "billing.currentPlan": "Nykyinen tilaus",
@@ -514,7 +486,6 @@
     "billing.testBannerLink": "Lue lisää",
     "billing.meta.title": "Tilaukseni — Lingora English",
     "billing.meta.description": "Hallitse Lingora English -tilaustasi, katso tämän kuukauden harjoittelurajasi, päivitä maksutapasi ja lataa laskusi.",
-
     "checkout.verifying": "Vahvistetaan maksuasi maksukumppanimme kanssa…",
     "checkout.confirmed": "Sinulla on {{plan}}. Lingora English on valmiina, kun sinä olet.",
     "checkout.pending": "Maksusi meni läpi, ja aktivoimme yhä tilaustasi. Tämä kestää yleensä muutaman sekunnin — päivitä tilaussivusi, jos se ei näy.",
@@ -528,7 +499,6 @@
     "checkout.cancelled.sub": "Maksua ei veloitettu. Voit jatkaa harjoittelua ilmaisella tilauksella.",
     "checkout.cancelled.meta.title": "Kassa peruutettu — Lingora English",
     "checkout.cancelled.meta.description": "Kassasi peruutettiin, eikä maksua veloitettu.",
-
     "admin.tab.billing": "Laskutus",
     "admin.tab.plans": "Tilaukset ja rajat",
     "adminBilling.active": "Aktiiviset tilaukset",
@@ -555,7 +525,6 @@
     "adminBilling.revoke": "Peruuta",
     "adminBilling.revoked": "Ilmainen käyttöoikeus peruutettu.",
     "adminBilling.noExpiry": "ei vanhenemispäivää",
-
     "admin.tab.members": "Premium-jäsenet",
     "adminMembers.title": "Jäsenet",
     "adminMembers.count": "{{premium}} maksavaa / {{total}} oppilasta",
@@ -583,7 +552,6 @@
     "billing.state.complimentary": "Ilmainen käyttöoikeus",
     "billing.state.completed": "Maksettu",
     "billing.state.billed": "Odottaa maksua",
-
     "nav.myLearning": "Oppimiseni",
     "nav.dashboard": "Kojelauta",
     "nav.profile": "Profiili",
@@ -592,7 +560,6 @@
     "nav.createFree": "Luo ilmainen tili",
     "nav.terms": "Käyttöehdot",
     "nav.privacy": "Tietosuojakäytäntö",
-
     "auth.firstName": "Etunimi",
     "auth.lastName": "Sukunimi",
     "auth.confirmPassword": "Vahvista salasana",
@@ -620,7 +587,6 @@
     "auth.resetInvalid": "Tämä nollauslinkki on vanhentunut. Pyydä uusi.",
     "auth.reset.meta.title": "Nollaa salasanasi — Lingora English",
     "auth.reset.meta.description": "Valitse uusi salasana Lingora English -tilillesi.",
-
     "dash.meta.title": "Kojelauta — Lingora English",
     "dash.meta.description": "Henkilökohtainen englanninoppimisen kojelautasi: edistyminen, tämän päivän harjoittelu ja jäljellä olevat Lingora English -istuntosi.",
     "dash.welcome": "Tervetuloa takaisin, {{name}}!",
@@ -647,7 +613,6 @@
     "dash.limits.pronunciationAdvancedLabel": "Ääntäminen — edistynyt",
     "dash.limits.pronunciationAdvanced": "Ensimmäiset 5 esimerkkiä per taito ilmaiseksi",
     "dash.limits.allUnlocked": "Kaikki avattu tilauksessasi",
-
     "paywall.limitTitle": "Olet saavuttanut ilmaisen harjoittelurajasi",
     "paywall.limitBody": "Jatka oppimista rajattomalla pääsyllä Lingora Englishiin.",
     "paywall.speakingTitle": "Jatka harjoittelua Lingora Englishin kanssa",
@@ -666,7 +631,6 @@
     "paywall.stayFree": "Jatka ilmaisella tilauksella",
     "paywall.locked": "Premium",
     "paywall.signInFirst": "Luo ilmainen tili aloittaaksesi harjoittelun",
-
     "adminLimits.title": "Tilaukset ja käyttörajat",
     "adminLimits.sub": "Kuukausittaiset käyttörajat tilauksittain. Tallennetut arvot tulevat voimaan heti kaikille kyseisen tilauksen oppilaille.",
     "adminLimits.trialEnabled": "Ilmainen kokeilu käytössä",
@@ -676,14 +640,11 @@
     "adminLimits.saved": "Tilauksen rajat päivitetty.",
     "adminLimits.users": "Oppilaat tilauksittain",
     "adminLimits.conversion": "Konversioaste",
-
     "legal.terms.title": "Käyttöehdot",
     "legal.privacy.title": "Tietosuojakäytäntö",
     "legal.updated": "Viimeksi päivitetty {{date}}",
-
     "nav.pricing": "Hinnat",
     "nav.billing": "Tilaus",
-
     "app.home.badge": "Tekoälypuhevalmentaja",
     "app.home.heroTitle": "Puhu englantia. Saa korjauksia. Kehity joka päivä.",
     "app.home.heroSub": "Harjoittele englantia tekoälypuhevalmentajasi kanssa ja saa välitöntä palautetta ääntämisestä, kieliopista, sanastosta, sujuvuudesta ja luonnollisesta englannista.",
@@ -726,19 +687,15 @@
     "app.home.cta.title": "Valmentajasi on valmiina. Sano jotain.",
     "app.home.cta.body": "Luo ilmainen tili ja aloita ensimmäinen puheistuntosi alle minuutissa.",
     "app.home.cta.button": "Aloita puhuminen",
-
     "app.footer.ielts": "IELTS",
     "app.footer.refunds": "Palautuskäytäntö",
-
     "app.voice.loading": "Ladataan…",
     "app.voice.resume": "Jatka",
     "app.voice.pause": "Tauko",
     "app.voice.stop": "Pysäytä",
-
     "coach.eyebrow": "Tekoälypuhevalmentaja",
     "coach.title": "Puhu. Saa korjauksia. Puhu uudelleen.",
     "coach.description": "Satoja aiheita viidellä eri harjoittelutavalla. Valmentajasi puhuu aina ensin, kuuntelee ääntäsi ja korjaa sinua keskustelun edetessä.",
-
     "coach.category.free.label": "Vapaa keskustelu",
     "coach.category.free.blurb": "Keskustele luontevasti mistä tahansa haluamastasi aiheesta.",
     "coach.category.daily.label": "Arkikeskustelu",
@@ -750,51 +707,40 @@
     "coach.category.challenge.label": "Puhehaaste",
     "coach.category.challenge.blurb": "Yksi tehtävä, yksi ajastin, yksi pistemäärä.",
     "coach.topicsCount": "{{count}} aihetta",
-
     "coach.searchPlaceholder": "Hae aiheita…",
     "coach.levels.all": "Kaikki tasot",
     "coach.access.all": "kaikki",
     "coach.access.free": "ilmainen",
     "coach.access.premium": "premium",
-
     "coach.usage.unlimited": "Rajattomat puhevuorot",
     "coach.usage.freeLeft": "{{left}}/{{limit}} ilmaista puhevuoroa jäljellä",
     "coach.usage.turnsLeftMonth": "{{count}} puhevuoroa jäljellä tässä kuussa",
-
     "coach.audioPlayError": "En pystynyt toistamaan ääntä. Voit lukea vastauksen ja painaa Toista uudelleen.",
     "coach.couldNotHear": "En kuullut sinua selvästi. Yritä uudelleen.",
-
     "coach.loadingTopics": "Ladataan aiheita…",
     "coach.noTopicsMatch": "Yksikään aihe ei vastaa näitä suodattimia vielä.",
     "coach.badge.free": "ILMAINEN",
     "coach.badge.premium": "PREMIUM",
-
     "coach.chooseTopicTitle": "Valitse aihe aloittaaksesi",
     "coach.signIn.title": "Valmentajasi puhuu ensin.",
     "coach.signIn.description": "Luo ilmainen tili aloittaaksesi keskustelun. Jokainen oppilas saa ilmaisia puhevuoroja valmentajan kokeiluun.",
     "coach.signIn.cta": "Luo ilmainen tili aloittaaksesi",
-
     "coach.gettingReady": "Valmentajasi valmistautuu…",
     "coach.pickTopicPrompt": "Valitse aihe vasemmalta, niin valmentajasi alkaa puhua.",
     "coach.rolePlayRoles": "Valmentajasi näyttelee roolia {{aiRole}}. Sinä olet {{userRole}}.",
     "coach.roleYourself": "sinä itse",
-
     "coach.speaker.coach": "Valmentaja",
     "coach.speaker.you": "Sinä",
-
     "coach.outOfTurns": "Ilmaiset puhevuorosi on käytetty loppuun.",
     "coach.upgradeToKeepGoing": "Päivitä Premiumiin",
     "coach.upgradeSuffix": "jatkaaksesi tätä keskustelua.",
-
     "coach.timerLabel": "{{seconds}} s ajastin",
     "coach.busyLabel": "Käsitellään vastaustasi",
     "coach.answerHint": "Vastaa valmentajallesi ääneen, kokonaisin lausein.",
     "coach.typeAnswerPlaceholder": "Tai kirjoita vastauksesi…",
     "coach.sendAnswer": "Lähetä vastaus",
     "coach.startTopicAgain": "Aloita tämä aihe uudelleen",
-
     "coach.exampleFeedback": "Esimerkkipalaute",
-
     "coach.correctionLoop.title": "Korjaussilmukka",
     "coach.correctionLoop.step1": "Valmentaja puhuu ensin",
     "coach.correctionLoop.step2": "Vastaat äänelläsi",
@@ -802,13 +748,10 @@
     "coach.correctionLoop.step4": "Saat paremman lauseen",
     "coach.correctionLoop.step5": "Keskustelu jatkuu luontevasti",
     "coach.correctionLoop.step6": "Edistyminen tallennetaan",
-
     "coach.keepImproving.title": "Jatka kehittymistä",
-
     "coach.mic.aiSpeaking": "🔊 Tekoäly puhuu…",
     "coach.mic.speakAgain": "🎙️ Puhu uudelleen",
     "coach.mic.takeYourTime": "Ota aikaa — lyhyet tauot ovat ihan ok. Vuorosi lähetetään, kun lopetat puhumisen.",
-
     "coach.feedback.demoNotice": "Tämä on esimerkki saamastasi palautteesta. Kirjaudu sisään ja puhu saadaksesi oman analyysisi.",
     "coach.feedback.scoreImproved": "Hienoa! Puhepistemääräsi parani {{points}} pisteellä.",
     "coach.feedback.fluency": "Sujuvuus",
@@ -831,18 +774,14 @@
     "coach.feedback.pronunciationCoach": "Ääntämisvalmentaja",
     "coach.feedback.myProgress": "Edistymiseni",
     "coach.speakingPracticeFallback": "Puheharjoittelu",
-
     "listen.page.eyebrow": "🎧 Kuuntelulaboratorio",
     "listen.page.title": "Harjoita korviasi ymmärtämään oikeaa englantia.",
     "listen.page.description": "Kuuntele realistisia keskusteluja, testaa ymmärtämystäsi ja harjoita korviasi tunnistamaan englanti, jota ihmiset todella käyttävät arjessa.",
-
     "listen.loadingLesson": "Ladataan oppituntia…",
     "listen.loadingLibrary": "Ladataan kuuntelukirjastoa…",
     "listen.noMatches": "Yksikään oppitunti ei vastaa näitä suodattimia vielä.",
-
     "listen.guide.gotIt": "Selvä — näytä oppitunnit →",
     "listen.guide.strategyHint": "Kuuntele ensin kokonaiskuva → sitten yksityiskohdat → sitten tarkat sanat → lopuksi kertaa.",
-
     "listen.progress.title": "Kuunteluedistymisesi",
     "listen.progress.lessonsCompleted": "Suoritetut oppitunnit",
     "listen.progress.comprehension": "Ymmärtäminen",
@@ -850,9 +789,7 @@
     "listen.progress.listeningTime": "Kuunteluaika",
     "listen.progress.overallScore": "Kokonaiskuuntelupistemäärä:",
     "listen.progress.weakAreas": " · Heikot osa-alueet: {{areas}}",
-
     "listen.next.title": "Mitä kuunnella seuraavaksi",
-
     "listen.filter.allLevels": "Kaikki tasot",
     "listen.filter.allTopics": "Kaikki aiheet",
     "listen.filter.difficultyLabel": "Vaikeustaso",
@@ -871,21 +808,17 @@
     "listen.filter.status.in_progress": "Kesken",
     "listen.filter.status.completed": "Suoritettu",
     "listen.filter.searchPlaceholder": "Hae oppitunteja ja tilanteita",
-
     "listen.level.A1": "A1 Alkeet",
     "listen.level.A2": "A2 Selviytyjä",
     "listen.level.B1": "B1 Keskitaso",
     "listen.level.B2": "B2 Ylempi keskitaso",
     "listen.level.C1": "C1 Taitava",
-
     "listen.difficulty.gentle": "Rauhallinen",
     "listen.difficulty.steady": "Tasainen",
     "listen.difficulty.fast": "Nopea",
     "listen.difficulty.veryFast": "Erittäin nopea",
-
     "listen.accent.british": "Brittienglanti",
     "listen.accent.northAmerican": "Pohjois-amerikkalainen englanti",
-
     "listen.skill.main_idea": "Pääajatus",
     "listen.skill.details": "Yksityiskohdat",
     "listen.skill.intention": "Puhujan tarkoitus",
@@ -893,7 +826,6 @@
     "listen.skill.vocabulary": "Merkitys asiayhteydessä",
     "listen.skill.numbers_dates": "Numerot ja päivämäärät",
     "listen.skill.fast_speech": "Nopea puhe",
-
     "listen.challenge.contraction": "Supistuma",
     "listen.challenge.connected_speech": "Sidottu puhe",
     "listen.challenge.reduced_form": "Redusoitu muoto",
@@ -903,7 +835,6 @@
     "listen.challenge.numbers": "Numerot",
     "listen.challenge.dates": "Päivämäärät",
     "listen.challenge.expression": "Arkipäivän ilmaus",
-
     "listen.card.free": "Ilmainen",
     "listen.card.premium": "Premium",
     "listen.card.questionsAndDictation": "{{questions}} kysymystä · {{dictation}} sanelua",
@@ -912,21 +843,17 @@
     "listen.card.notStarted": "Ei aloitettu",
     "listen.card.start": "Aloita",
     "listen.card.unlockPremium": "🔒 Avaa Premiumilla",
-
     "listen.signInToPlaySave": "Kirjaudu sisään toistaaksesi äänen ja tallentaaksesi kuuntelupisteesi.",
     "listen.signIn": "Kirjaudu sisään",
-
     "listen.backToLab": "Takaisin Kuuntelulaboratorioon",
     "listen.tryAgain": "Yritä uudelleen",
     "listen.nextLesson": "Seuraava oppitunti",
-
     "listen.stage.listen": "Kuuntele",
     "listen.stage.understand": "Ymmärrä",
     "listen.stage.dictation": "Sanelu",
     "listen.stage.review": "Kertaa",
     "listen.stage.progressAriaLabel": "Oppitunnin vaiheet",
     "listen.guide.listenFor": "Kuuntele",
-
     "listen.guide.howToTitle": "🎧 Näin teet tämän kuunteluoppitunnin",
     "listen.guide.hide": "Piilota",
     "listen.guide.show": "Näytä",
@@ -945,23 +872,18 @@
     "listen.guide.step3.point3": "Ei haittaa, vaikka teet virheitä — tämä harjoittaa kuuntelutarkkuuttasi.",
     "listen.guide.step4.title": "Vaihe 4 — Kertaa",
     "listen.guide.step4.point1": "Tarkista tuloksesi ja kertaa sanat tai ilmaukset, jotka jäivät huomaamatta.",
-
     "listen.guide.dontWorryTitle": "❤️ Älä huoli, vaikket ymmärrä kaikkea.",
     "listen.guide.dontWorry1": "Oikea englanti voi kuulostaa aluksi nopealta ja vaikealta.",
     "listen.guide.dontWorry2": "Sinun ei odoteta ymmärtävän jokaista sanaa.",
     "listen.guide.dontWorry3": "Tavoitteesi on ymmärtää vähän enemmän joka kerta, kun kuuntelet.",
-
     "listen.guide.beforeYouStartTitle": "💡 Ennen kuin aloitat",
     "listen.guide.beforeYouStart1": "Älä yritä kääntää jokaista lausetta omalle kielellesi.",
     "listen.guide.beforeYouStart2": "Keskity ensin ymmärtämään tilanne ja pääajatus.",
     "listen.guide.beforeYouStart3": "On täysin normaalia olla ymmärtämättä kaikkea ensimmäisellä kerralla.",
-
     "listen.guide.readyToListen": "Valmiina? Aloitetaan kuuntelu →",
     "listen.guide.dontShowAgain": "Älä näytä tätä uudelleen",
     "listen.guide.howDoesThisWork": "Miten tämä toimii?",
-
     "listen.guide.tipLabel": "Vihje",
-
     "listen.stage1.title": "🎧 Kierros 1: Kuuntele",
     "listen.stage1.instruction": "Kuuntele kokonaismerkitystä. Älä huolestu jokaisesta sanasta.",
     "listen.stage1.who": "Kuka puhuu?",
@@ -973,7 +895,6 @@
     "listen.stage1.continueMainIdea": "Ymmärsin pääajatuksen — Jatka",
     "listen.stage1.needAnotherListen": "Tarvitsetko toisen kuuntelukerran? Käytä yllä olevaa Toista-painiketta.",
     "listen.stage1.continueToComprehension": "Jatka ymmärtämisosioon",
-
     "listen.stage2.title": "🧠 Kierros 2: Ymmärrä",
     "listen.stage2.instruction": "Testaa nyt, kuinka hyvin ymmärsit keskustelun.",
     "listen.stage2.beforeAnswering": "Ennen vastaamista",
@@ -988,7 +909,6 @@
     "listen.stage2.correctSummary": "{{correct}} oikein · {{remaining}} kerrattavana",
     "listen.stage2.reviewAreas": " · Kertaa: {{areas}}",
     "listen.stage2.continueToDictation": "Jatka Sanelu-osioon",
-
     "listen.stage3.title": "⌨️ Kierros 3: Sanelu",
     "listen.stage3.instruction": "Kuuntele nyt tarkasti ja täydennä puuttuvat sanat. Keskity tällä kertaa tarkkoihin kuulemiisi sanoihin.",
     "listen.stage3.listenThinkTypeCheck": "Kuuntele → Ajattele → Kirjoita → Tarkista",
@@ -1000,7 +920,6 @@
     "listen.stage3.correctLabel": "Oikein:",
     "listen.stage3.dictationResult": "Sanelu: {{score}} %",
     "listen.stage3.seeResults": "Katso tulokseni",
-
     "listen.dictation.strategyToggle": "Kokeile tätä: Kuuntele → Ajattele → Kirjoita → Tarkista",
     "listen.dictation.step1": "Kuuntele kerran — ymmärrä koko lause.",
     "listen.dictation.step2": "Kuuntele uudelleen — keskity puuttuvaan sanaan.",
@@ -1010,7 +929,6 @@
     "listen.dictation.payAttentionTitle": "💡 Kiinnitä huomiota",
     "listen.dictation.payAttentionList": "Pienet sanat · verbien päätteet · supistumat · numerot · päivämäärät · sidottu puhe · samalta kuulostavat sanat",
     "listen.dictation.example": "Esimerkki — kuulet \"I was going to call you yesterday.\", ja harjoitus näyttää \"I was going to ______ you yesterday.\" Kirjoitat {{word}}.",
-
     "listen.transcript.show": "Näytä litterointi",
     "listen.transcript.hide": "Piilota litterointi",
     "listen.transcript.whySoundsDifferent": "Miksi se kuulostaa erilaiselta",
@@ -1021,7 +939,6 @@
     "listen.transcript.whenToUse1": "Yritä ensin kuunnella ilman litterointia.",
     "listen.transcript.whenToUse2": "Käytä sitä sen jälkeen, kun olet yrittänyt ymmärtää äänen.",
     "listen.transcript.whenToUse3": "Litterointi auttaa sinua huomaamaan, mikä jäi ymmärtämättä.",
-
     "listen.questionHint.main_idea": "Ajattele keskustelun yleistä tarkoitusta.",
     "listen.questionHint.details": "Kuuntele tarkkaa tietoa.",
     "listen.questionHint.intention": "Ajattele, mitä puhuja tarkoittaa tai haluaa tehdä.",
@@ -1029,7 +946,6 @@
     "listen.questionHint.vocabulary": "Käytä ympäröivää keskustelua ymmärtääksesi merkityksen.",
     "listen.questionHint.numbers_dates": "Kuuntele tarkasti numeroita, kellonaikoja ja päivämääriä.",
     "listen.questionHint.fast_speech": "Tartu avainsanoihin, et jokaiseen yksittäiseen sanaan.",
-
     "listen.stage4.title": "🎧 Kuunteluoppitunti suoritettu!",
     "listen.stage4.comprehension": "Kuuntelun ymmärtäminen",
     "listen.stage4.dictation": "Sanelu",
@@ -1040,7 +956,6 @@
     "listen.stage4.cleanRun": "Ei mitään — puhdas suoritus",
     "listen.stage4.signInToSave": "Kirjaudu sisään tallentaaksesi nämä kuuntelupisteet edistymiseesi.",
     "listen.stage4.saving": "Tallennetaan edistymistäsi…",
-
     "listen.player.audioLabel": "🎧 Ääni",
     "listen.player.ready": "Valmis",
     "listen.player.partOf": "Osa {{index}}/{{total}}",
@@ -1051,12 +966,10 @@
     "listen.player.stop": "Pysäytä",
     "listen.player.volumeAria": "Äänenvoimakkuus",
     "listen.player.signInToPlay": "Kirjaudu sisään toistaaksesi tämän oppitunnin äänen.",
-
     "listen.error.signInToPlay": "Kirjaudu sisään toistaaksesi kuunteluäänen.",
     "listen.error.playbackFailed": "Äänen toisto epäonnistui.",
     "listen.error.couldNotPlay": "Ääntä ei voitu toistaa.",
     "listen.error.couldNotSaveProgress": "Kuunteluedistymistäsi ei voitu tallentaa.",
-
     "shadow.page.eyebrow": "Varjostuskirjasto",
     "shadow.page.title": "Kuuntele. Varjosta. Nauhoita. Vertaa. Kehity.",
     "shadow.page.description": "Etenevä kirjasto jokaiselle aiheelle: lyhyet aloittelijan lauseet ensin, sitten pidempi ja luonnollisempi englanti. Harjoittele muutama lause joka päivä ja anna valmentajan verrata sanomaasi malliin.",
@@ -1065,7 +978,6 @@
     "shadow.topics.free": "{{count}} ilmaista",
     "shadow.topics.loading": "Ladataan kirjastoa…",
     "shadow.topics.fallbackName": "Lauseet",
-
     "shadow.stats.practised": "Harjoiteltu",
     "shadow.stats.mastered": "Hallittu",
     "shadow.stats.needsPractice": "Vaatii harjoitusta",
@@ -1073,20 +985,16 @@
     "shadow.stats.practiceTime": "Harjoitteluaika",
     "shadow.stats.practiceTimeValue": "{{minutes}} min",
     "shadow.stats.pronunciation": "Ääntäminen",
-
     "shadow.weakest.notice": "Nauhoitteesi osoittavat, että {{skill}} on tällä hetkellä heikoin osa-alueesi.",
     "shadow.weakest.cta": "Harjoittele tätä taitoa",
-
     "shadow.today.heading": "Tämän päivän varjostus · noin 10 minuuttia",
     "shadow.today.description": "Vaikeat lauseet ensin, sitten seuraavat uudet lauseesi, lopuksi yksi kertaus.",
     "shadow.today.sentenceFallback": "Lause {{n}}",
-
     "shadow.filters.searchPlaceholder": "Hae lauseita…",
     "shadow.filters.allLevels": "Kaikki tasot",
     "shadow.filters.allSentences": "Kaikki lauseet",
     "shadow.filters.free": "Ilmainen",
     "shadow.filters.premium": "⭐ Premium",
-
     "shadow.level.beginner.label": "Aloittelija",
     "shadow.level.beginner.blurb": "Lyhyitä, yleisiä lauseita — 5–10 sanaa.",
     "shadow.level.elementary.label": "Selviytyjä",
@@ -1095,7 +1003,6 @@
     "shadow.level.intermediate.blurb": "Luonnollista keskustelua, fraasiverbejä, sidottua puhetta.",
     "shadow.level.advanced.label": "Edistynyt",
     "shadow.level.advanced.blurb": "Pitkää, idiomaattista ja vivahteikasta syntyperäistä englantia.",
-
     "shadow.skill.all": "Kaikki taidot",
     "shadow.skill.pronunciation": "Ääntäminen",
     "shadow.skill.stress": "Lauseen painotus",
@@ -1103,14 +1010,12 @@
     "shadow.skill.connectedSpeech": "Sidottu puhe",
     "shadow.skill.rhythm": "Rytmi",
     "shadow.skill.fluency": "Sujuvuus",
-
     "shadow.status.all": "Kaikki",
     "shadow.status.new": "Uusi",
     "shadow.status.inProgress": "Kesken",
     "shadow.status.needsPractice": "Vaatii harjoitusta",
     "shadow.status.strong": "Vahva",
     "shadow.status.mastered": "Hallittu",
-
     "shadow.mode.start.label": "Aloita alusta",
     "shadow.mode.start.blurb": "Lauseesta 1 ylöspäin.",
     "shadow.mode.continue.label": "Jatka siitä, mihin jäit",
@@ -1123,34 +1028,27 @@
     "shadow.mode.review.blurb": "Lauseet, jotka on merkitty vaatimaan harjoitusta.",
     "shadow.mode.mastered.label": "Hallitut lauseet",
     "shadow.mode.mastered.blurb": "Pidä ne tuoreina.",
-
     "shadow.group.everyday.name": "Arkienglanti",
     "shadow.group.everyday.blurb": "Tosielämän englantia kotiin, ostoksiin, ruokaan, matkustamiseen, terveyteen, rahaan, puheluihin ja vapaa-aikaan.",
     "shadow.group.work.name": "Työ- ja ammattienglanti",
     "shadow.group.work.blurb": "Kieltä, jota voit käyttää työssä: kokoukset, esitykset, sähköpostit, asiakkaat, palaute, projektit ja haastattelut.",
-
     "shadow.list.loading": "Ladataan lauseita…",
     "shadow.list.empty": "Mikään ei vastaa näitä suodattimia vielä.",
     "shadow.list.premiumSentence": "Premium-lause",
     "shadow.list.free": "ILMAINEN",
     "shadow.list.premium": "⭐ PREMIUM",
     "shadow.list.unlockWithPremium": "Avaa Premiumilla",
-
     "shadow.empty.pickSentence": "Valitse lause vasemmalta aloittaaksesi varjostuksen.",
-
     "shadow.locked.title": "⭐ Olet suorittanut tämän aiheen {{count}} ilmaista varjostuslausetta.",
     "shadow.locked.description": "Avaa Premium jatkaaksesi kaikkien {{total}} lauseen ja jokaisen tason harjoittelua, tekoälypalautteella jokaisesta yrityksestä ja koko edistymishistoriallasi.",
     "shadow.locked.cta": "⭐ Avaa Premium",
     "shadow.locked.alreadyMember": "Oletko jo jäsen?",
     "shadow.locked.signIn": "Kirjaudu sisään",
-
     "shadow.position.sentence": "Lause {{n}} / {{total}} · {{cefr}} · {{access}}",
     "shadow.sentenceFallback": "Lause {{n}}",
-
     "shadow.practice.accent.british": "Brittienglanti",
     "shadow.practice.accent.american": "Pohjois-amerikkalainen englanti",
     "shadow.practice.difficulty": "Vaikeustaso {{n}}/10",
-
     "shadow.practice.step.listen": "Kuuntele",
     "shadow.practice.step.listenHint": "Kuuntele koko lause luonnollisella nopeudella.",
     "shadow.practice.step.shadow": "Varjosta",
@@ -1163,14 +1061,11 @@
     "shadow.practice.step.tryAgainHint": "Toista, kunnes se tuntuu helpolta.",
     "shadow.practice.step.mastered": "Hallittu",
     "shadow.practice.step.masteredHint": "Kaksi onnistunutta yritystä peräkkäin.",
-
     "shadow.practice.hideRelaxed": "Piilota rento puhe",
     "shadow.practice.showRelaxed": "Näytä rento puhe (epävirallinen)",
     "shadow.practice.relaxedHint": "Epävirallinen puhuttu muoto — sano yllä oleva kirjoitettu lause huolellisella englannilla.",
-
     "shadow.practice.dialogue.speaking": "🗣️ {{speaker}} sanoo:",
     "shadow.practice.dialogue.someone": "Joku",
-
     "shadow.practice.listen": "Kuuntele",
     "shadow.practice.loop": "Silmukka",
     "shadow.practice.hideText": "Piilota teksti",
@@ -1179,19 +1074,15 @@
     "shadow.practice.modelAudioNote": "Malliääni on Lingoran {{accent}}-tekoälyääni, ei ihmisen nauhoite.",
     "shadow.practice.signInToHear": "Kirjaudu sisään kuullaksesi malliäänen.",
     "shadow.practice.playError": "Ääntä ei voitu toistaa.",
-
     "shadow.practice.focus.pronunciation": "Ääntäminen",
     "shadow.practice.focus.stress": "Lauseen painotus",
     "shadow.practice.focus.intonation": "Intonaatio",
     "shadow.practice.focus.connectedSpeech": "Sidottu puhe",
     "shadow.practice.grammar": "Kielioppi: {{value}}",
-
     "shadow.practice.recorder.busyLabel": "Vertaillaan puhettasi",
     "shadow.practice.recorder.hint": "Varjosta ääntä muutaman kerran ja nauhoita sitten lause itse.",
     "shadow.practice.recorder.signInToRecord": "Kirjaudu sisään nauhoittaaksesi",
-
     "shadow.practice.yourRecording": "Nauhoitteesi",
-
     "shadow.practice.result.pronunciation": "Ääntäminen",
     "shadow.practice.result.speakingSpeed": "Puhenopeus",
     "shadow.practice.result.wpm": " sanaa/min",
@@ -1199,36 +1090,29 @@
     "shadow.practice.result.heard": "Kuultu",
     "shadow.practice.result.fix": "Korjaa",
     "shadow.practice.result.coach": "Valmentaja",
-
     "shadow.practice.tryAgain": "Yritä uudelleen",
     "shadow.practice.nextSentence": "Seuraava lause",
     "shadow.practice.practiseSkill": "Harjoittele taitoa {{skill}}",
     "shadow.practice.useWithCoach": "Käytä valmentajan kanssa",
-
     "tests.hero.eyebrow": "Puhekokeet",
     "tests.hero.title": "IELTS-, TOEFL- ja PTE-puheharjoittelu",
     "tests.hero.description": "Aitoja tehtävämuotoja, aitoja ajastimia, oma nauhoitteesi — ja tekoälyn arvioima pistemäärä korjauksineen ja mallivastauksineen jokaisen yrityksen jälkeen.",
-
     "tests.exam.ielts.label": "IELTS Speaking",
     "tests.exam.ielts.blurb": "Part 1-3 ja täysi harjoituskoe.",
     "tests.exam.toefl.label": "TOEFL Speaking",
     "tests.exam.toefl.blurb": "Listen & Repeat ja Take an Interview.",
     "tests.exam.pte.label": "PTE Speaking",
     "tests.exam.pte.blurb": "Read Aloud, Repeat Sentence ja muuta.",
-
     "tests.footer.disclaimer": "Lingora English ei ole sidoksissa IELTSiin, ETS:ään (TOEFL) tai Pearsoniin (PTE). Kaikki näytetyt pisteet ovat",
     "tests.footer.disclaimerEmphasis": "tekoälyn arvioima puhepistemäärä",
     "tests.footer.disclaimerSuffix": "vain harjoittelua varten, ei virallinen tulos.",
-
     "tests.stat.testsInLibrary": "Kokeita kirjastossa",
     "tests.stat.testsCompleted": "Suoritetut kokeet",
     "tests.stat.averageBand": "Keskimääräinen band",
     "tests.stat.bestBand": "Paras band",
     "tests.stat.taskFormats": "Tehtävämuodot",
     "tests.stat.freeTests": "Ilmaiset kokeet",
-
     "tests.partProgress": "Part 1: {{p1}} suoritettu · Part 2: {{p2}} suoritettu · Part 3: {{p3}} suoritettu",
-
     "tests.filter.allParts": "Kaikki osat",
     "tests.filter.part1": "Part 1",
     "tests.filter.part2": "Part 2",
@@ -1248,10 +1132,8 @@
     "tests.filter.allTests": "Kaikki kokeet",
     "tests.filter.completed": "Suoritettu",
     "tests.filter.notCompleted": "Ei suoritettu",
-
     "tests.showingIelts": "Näytetään {{visible}}/{{total}} koetta. Ensimmäiset kolme koetta ovat täysin ilmaisia — kysymykset, ajastimet, nauhoitus, tekoälyn arvioima band, korjaukset ja mallivastaukset.",
     "tests.showingExam": "Näytetään {{visible}}/{{total}} {{exam}}-koetta. Ensimmäiset kolme koetta ovat täysin ilmaisia — tehtävänannot, ajastimet, nauhoitus ja tekoälypalaute.",
-
     "tests.card.ieltsNumber": "IELTS Speaking -koe #{{number}}",
     "tests.card.examNumber": "{{exam}}-koe #{{number}}",
     "tests.card.durationLabel": "Kesto: {{duration}}",
@@ -1262,10 +1144,8 @@
     "tests.card.notCompleted": "Ei vielä suoritettu",
     "tests.card.startTest": "Aloita koe",
     "tests.card.unlockWithPremium": "Avaa Premiumilla",
-
     "tests.empty.noMatchPart": "Yksikään koe ei vastaa näitä suodattimia vielä — kokeile tyhjentää haku tai valita toinen osa.",
     "tests.empty.noMatchTask": "Yksikään koe ei vastaa näitä suodattimia vielä — kokeile tyhjentää haku tai valita toinen tehtävä.",
-
     "tests.runner.leaveMock": "Poistu harjoituskokeesta",
     "tests.runner.backToLibrary": "Takaisin kokeiden kirjastoon",
     "tests.runner.backToExamLibrary": "Takaisin {{exam}}-kirjastoon",
@@ -1273,19 +1153,16 @@
     "tests.runner.mockAverageSoFar": " · Tekoälyn arvioima puhepistemäärä tähän mennessä: {{average}} / 9.0",
     "tests.runner.ieltsStatus": "IELTS Speaking -koe #{{number}} · {{part}} · {{difficulty}}",
     "tests.runner.examStatus": "{{exam}}-koe #{{number}} · {{task}} · {{difficulty}}",
-
     "tests.runner.cueCard": "Aihekortti",
     "tests.runner.partQuestion": "{{part}}-kysymys",
     "tests.runner.nextQuestion": "Seuraava kysymys",
     "tests.runner.nextPrompt": "Seuraava tehtävänanto ({{current}}/{{total}})",
     "tests.runner.questionOf": " · Kysymys {{current}}/{{total}}",
-
     "tests.runner.prep1Min": "1 minuutin valmistautuminen",
     "tests.runner.prepSeconds": "{{seconds}} s valmistautuminen",
     "tests.runner.noPrepTime": "Ei valmistautumisaikaa",
     "tests.runner.prepTimeSeconds": "{{seconds}} s valmistautumisaikaa",
     "tests.runner.promptCount": "{{count}} tehtävänanto(a) tässä kokeessa",
-
     "tests.runner.busyMarking": "Arvioidaan vastaustasi",
     "tests.runner.busyScoring": "Pisteytetään vastaustasi",
     "tests.runner.hintPart2": "Puhu yhdestä kahteen minuuttia.",
@@ -1293,12 +1170,10 @@
     "tests.runner.hintReadBack": "Sano lause tarkalleen niin kuin kuulit sen.",
     "tests.runner.hintOpenTask": "Vastaa kokonaisin lausein ja jatka puhumista, kunnes aika loppuu.",
     "tests.runner.signInToRecord": "Kirjaudu sisään nauhoittaaksesi",
-
     "tests.runner.couldNotHear": "En kuullut sitä. Nauhoita uudelleen.",
     "tests.runner.loadErrorIelts": "Puhekoekirjastoa ei voitu ladata.",
     "tests.runner.loadErrorExam": "Koekirjastoa ei voitu ladata.",
     "tests.runner.mockLibraryLoading": "Harjoituskoe tarvitsee kirjaston latautumisen loppuun asti.",
-
     "tests.score.aiEstimated": "Tekoälyn arvioima puhepistemäärä",
     "tests.score.aiEstimatedScore": "Tekoälyn arvioima pistemäärä",
     "tests.score.fluencyCoherence": "Sujuvuus ja johdonmukaisuus",
@@ -1306,7 +1181,6 @@
     "tests.score.grammaticalRange": "Kieliopin laajuus ja tarkkuus",
     "tests.score.pronunciationHint": "Ääntäminen",
     "tests.score.accuracyAgainstTarget": "Tarkkuus kohteeseen verrattuna",
-
     "tests.block.yourAnswer": "Vastauksesi",
     "tests.block.corrected": "Korjattu",
     "tests.block.moreNatural": "Luontevampi",
@@ -1317,11 +1191,9 @@
     "tests.block.whatWeHeard": "Mitä kuulimme",
     "tests.block.wordsToFix": "Korjattavat sanat",
     "tests.block.noneWellDone": "Ei mitään — hyvin tehty.",
-
     "tests.action.tryAgain": "Yritä uudelleen",
     "tests.action.continueNextPart": "Jatka seuraavaan osaan",
     "tests.action.practisePronunciation": "Harjoittele ääntämistä",
-
     "tests.sidebar.howPartsWork": "Näin osat toimivat",
     "tests.sidebar.part1Title": "Part 1",
     "tests.sidebar.part1Body": "arkipäivän kysymyksiä sinusta.",
@@ -1333,8 +1205,8 @@
     "tests.sidebar.thisTest": "Tämä koe",
     "tests.sidebar.responseSuffix": " vastaus",
     "tests.sidebar.warmUpWithCoach": "Lämmittele valmentajan kanssa",
-
     "tests.duration.3to4": "3–4 min",
-    "tests.duration.4to5": "4–5 min"
+    "tests.duration.4to5": "4–5 min",
+    "app.home.features.explore": "Tutustu"
   }
 }

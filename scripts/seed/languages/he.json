@@ -1207,6 +1207,7 @@
     "tests.duration.3to4": "3-4 דק׳",
     "tests.duration.4to5": "4-5 דק׳",
     "lily.tapToStart": "לחץ על \"התחל שיחה\" ו-Lingora English יגיד שלום ראשון.",
-    "progress.days_two": "{{count}} ימים"
+    "progress.days_two": "{{count}} ימים",
+    "app.home.features.explore": "גלה"
   }
 }

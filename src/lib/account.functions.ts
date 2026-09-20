@@ -1,5 +1,5 @@
 import { createServerFn } from "@tanstack/react-start";
-import { eq } from "drizzle-orm";
+import { and, eq, isNull } from "drizzle-orm";
 import { z } from "zod";
 
 import { withUser } from "@/db";
@@ -110,18 +110,23 @@ export const updateEnglishOnlyMode = createServerFn({ method: "POST" })
   });
 
 const completeOnboardingSchema = z.object({
-  interfaceLanguage: z.string().max(8),
-  nativeLanguage: z.string().max(100),
-  englishLevel: cefrLevelSchema,
-  targetLevel: cefrLevelSchema,
-  learningGoal: z.string().max(50),
+  goal: z.string().max(50),
+  focusAreas: z.array(z.string().max(30)).max(6).default([]),
   dailyGoalMinutes: z.number().int().min(1).max(240),
+  englishLevel: cefrLevelSchema,
+  // Drives englishOnlyMode + (when "vi") interfaceLanguage together, rather
+  // than being its own stored column — see the handler below. Onboarding no
+  // longer asks for interface language directly: it's already selectable
+  // from the header/footer LanguageSelector and from /account, so it isn't
+  // onboarding's only home for that setting.
+  instructionLanguage: z.enum(["en", "vi"]),
 });
 
-/** Partial update, unlike updateMyAccountProfile — onboarding only ever
- * touches these 6 fields plus onboardedAt, leaving fullName/voicePreference/
- * englishOnlyMode etc. untouched (matches the original Supabase .update()
- * call exactly, which only listed these columns). */
+/** Redesigned 2026-09-18 for the customer's 5-question survey (was 4 CEFR/
+ * language-picker steps) — partial update, unlike updateMyAccountProfile:
+ * only touches the fields below plus onboardedAt, leaving fullName/
+ * voicePreference/nativeLanguage/targetLevel etc. untouched (all still
+ * editable later from /account, which keeps its own full field set). */
 export const completeOnboarding = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .inputValidator((d: unknown) => completeOnboardingSchema.parse(d))
@@ -130,16 +135,31 @@ export const completeOnboarding = createServerFn({ method: "POST" })
       db
         .update(profiles)
         .set({
-          interfaceLanguage: data.interfaceLanguage,
-          uiLanguage: data.interfaceLanguage,
-          nativeLanguage: data.nativeLanguage,
-          englishLevel: data.englishLevel,
-          targetLevel: data.targetLevel,
-          learningGoal: data.learningGoal,
+          learningGoal: data.goal,
+          focusAreas: data.focusAreas,
           dailyGoalMinutes: data.dailyGoalMinutes,
+          englishLevel: data.englishLevel,
+          englishOnlyMode: data.instructionLanguage === "en",
+          ...(data.instructionLanguage === "vi" ? { interfaceLanguage: "vi", uiLanguage: "vi" } : {}),
           onboardedAt: new Date().toISOString(),
         })
         .where(eq(profiles.id, context.userId)),
+    );
+    return { ok: true };
+  });
+
+/** "Skip" on the onboarding survey: only stamps onboardedAt so the learner
+ * isn't sent back to the survey on every visit — leaves every preference at
+ * its default (all still editable from /account). No-op if already onboarded,
+ * so a stale skip can never clobber a real completion time. */
+export const skipOnboarding = createServerFn({ method: "POST" })
+  .middleware([requireAuth])
+  .handler(async ({ context }) => {
+    await withUser(context.userId, (db) =>
+      db
+        .update(profiles)
+        .set({ onboardedAt: new Date().toISOString() })
+        .where(and(eq(profiles.id, context.userId), isNull(profiles.onboardedAt))),
     );
     return { ok: true };
   });

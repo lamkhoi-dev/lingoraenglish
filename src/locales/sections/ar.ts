@@ -303,6 +303,7 @@ export const sectionsAr: Dictionary = {
   "app.home.features.listening.body": "درّب أذنيك من خلال محادثات واقعية، وأسئلة الفهم، وdictation.",
   "app.home.features.vocab.title": "مفردات للتحدث",
   "app.home.features.vocab.body": "تعلم كلمات مفيدة واستخدمها مباشرة في جمل منطوقة.",
+  "app.home.features.explore": "استكشف",
   "app.home.how.title": "كيف يعمل Lingora",
   "app.home.how.1": "تحدّث",
   "app.home.how.2": "يحلل الذكاء الاصطناعي حديثك",

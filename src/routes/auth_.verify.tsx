@@ -8,8 +8,10 @@ import { AppShell } from "@/components/lily/app-shell";
 import { useAuth } from "@/lib/auth";
 import { verifyEmail } from "@/lib/auth.functions";
 import { useI18n } from "@/lib/i18n";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/auth_/verify")({
+  head: () => ({ meta: [NOINDEX_META] }),
   validateSearch: z.object({ token: z.string().optional() }),
   component: VerifyEmailPage,
 });

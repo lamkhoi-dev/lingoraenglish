@@ -7,8 +7,10 @@ import { AppShell } from "@/components/lily/app-shell";
 import { useAuth } from "@/lib/auth";
 import { googleOAuthCallback } from "@/lib/auth.functions";
 import { useI18n } from "@/lib/i18n";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/auth_/google-callback")({
+  head: () => ({ meta: [NOINDEX_META] }),
   validateSearch: (search: Record<string, unknown>): { code?: string; error?: string; state?: string } => ({
     ...(typeof search["code"] === "string" ? { code: search["code"] } : {}),
     ...(typeof search["error"] === "string" ? { error: search["error"] } : {}),

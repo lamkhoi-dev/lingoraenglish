@@ -19,10 +19,12 @@ import {
 } from "@/lib/billing.functions";
 import { useI18n } from "@/lib/i18n";
 import { en } from "@/locales/en";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/billing")({
   head: () => ({
     meta: [
+      NOINDEX_META,
       { title: en["billing.meta.title"] },
       { name: "description", content: en["billing.meta.description"] },
       { property: "og:title", content: en["billing.meta.title"] },
@@ -106,7 +108,9 @@ function BillingPage() {
       <div className="mt-6 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
         <BillingCard>
           <h3 className="text-base font-semibold text-foreground">{t("billing.currentPlan")}</h3>
-          {billing.isLoading && <p className="mt-2 text-sm text-muted-foreground">{t("common.loading")}</p>}
+          {billing.isLoading && (
+            <p className="mt-2 text-sm text-muted-foreground">{t("common.loading")}</p>
+          )}
 
           {entitlement && (
             <div className="mt-3 space-y-2 text-sm">
@@ -117,24 +121,35 @@ function BillingPage() {
               {subscription ? (
                 <>
                   <p className="text-muted-foreground">
-                    {t("billing.status")}: <span className="text-foreground">{t(`billing.state.${subscription.status}` as never) || subscription.status}</span>
+                    {t("billing.status")}:{" "}
+                    <span className="text-foreground">
+                      {t(`billing.state.${subscription.status}` as never) || subscription.status}
+                    </span>
                   </p>
                   {subscription.amount ? (
                     <p className="text-muted-foreground">
                       {formatMoney(subscription.amount / 100, subscription.currency, locale)}{" "}
-                      {subscription.billing_interval === "year" ? t("pricing.perYear") : t("pricing.perMonth")}
+                      {subscription.billing_interval === "year"
+                        ? t("pricing.perYear")
+                        : t("pricing.perMonth")}
                     </p>
                   ) : null}
                   {subscription.trial_ends_at && (
                     <p className="text-muted-foreground">
-                      {t("billing.trialEnds", { date: formatDate(subscription.trial_ends_at, locale) })}
+                      {t("billing.trialEnds", {
+                        date: formatDate(subscription.trial_ends_at, locale),
+                      })}
                     </p>
                   )}
                   {subscription.current_period_end && (
                     <p className="text-muted-foreground">
                       {subscription.cancel_at_period_end
-                        ? t("billing.endsOn", { date: formatDate(subscription.current_period_end, locale) })
-                        : t("billing.renewsOn", { date: formatDate(subscription.current_period_end, locale) })}
+                        ? t("billing.endsOn", {
+                            date: formatDate(subscription.current_period_end, locale),
+                          })
+                        : t("billing.renewsOn", {
+                            date: formatDate(subscription.current_period_end, locale),
+                          })}
                     </p>
                   )}
                 </>
@@ -164,7 +179,9 @@ function BillingPage() {
                   <button
                     type="button"
                     disabled={busy}
-                    onClick={() => void run(() => keepSub({ data: undefined as never }), t("billing.kept"))}
+                    onClick={() =>
+                      void run(() => keepSub({ data: undefined as never }), t("billing.kept"))
+                    }
                     className="rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground disabled:opacity-60"
                   >
                     {t("billing.keepPlan")}
@@ -175,7 +192,10 @@ function BillingPage() {
                     disabled={busy}
                     onClick={() => {
                       if (!window.confirm(t("billing.cancelConfirm"))) return;
-                      void run(() => cancelSub({ data: undefined as never }), t("billing.cancelled"));
+                      void run(
+                        () => cancelSub({ data: undefined as never }),
+                        t("billing.cancelled"),
+                      );
                     }}
                     className="rounded-full border border-destructive/50 px-5 py-2.5 text-sm font-medium text-destructive disabled:opacity-60"
                   >
@@ -196,33 +216,43 @@ function BillingPage() {
           {subscription && otherPaidPlans.length > 0 && (
             <div className="mt-6 border-t border-border/60 pt-5">
               <h4 className="text-sm font-semibold text-foreground">{t("billing.changePlan")}</h4>
-              <div className="mt-3 flex flex-wrap gap-3">
-                {otherPaidPlans.map((plan) => (
-                  <button
-                    key={plan.plan_key}
-                    type="button"
-                    disabled={busy}
-                    onClick={() =>
-                      void run(
-                        () =>
-                          switchPlan({
-                            data: {
-                              priceId:
-                                subscription.billing_interval === "year"
-                                  ? plan.yearly_price_id
-                                  : plan.monthly_price_id,
-                            },
-                          }),
-                        t("billing.planChanged"),
-                      )
-                    }
-                    className="rounded-full border border-border px-4 py-2 text-sm font-medium disabled:opacity-60"
-                  >
-                    {t("billing.switchTo", { plan: plan.name })}
-                  </button>
-                ))}
-              </div>
-              <p className="mt-2 text-xs text-muted-foreground">{t("billing.prorationNote")}</p>
+              {subscription.status === "trialing" ? (
+                // Paddle refuses item changes on a trialing subscription, so say so
+                // instead of offering buttons that can only fail.
+                <p className="mt-2 text-xs text-muted-foreground">
+                  {t("billing.changePlanAfterTrial")}
+                </p>
+              ) : (
+                <>
+                  <div className="mt-3 flex flex-wrap gap-3">
+                    {otherPaidPlans.map((plan) => (
+                      <button
+                        key={plan.plan_key}
+                        type="button"
+                        disabled={busy}
+                        onClick={() =>
+                          void run(
+                            () =>
+                              switchPlan({
+                                data: {
+                                  priceId:
+                                    subscription.billing_interval === "year"
+                                      ? plan.yearly_price_id
+                                      : plan.monthly_price_id,
+                                },
+                              }),
+                            t("billing.planChanged"),
+                          )
+                        }
+                        className="rounded-full border border-border px-4 py-2 text-sm font-medium disabled:opacity-60"
+                      >
+                        {t("billing.switchTo", { plan: plan.name })}
+                      </button>
+                    ))}
+                  </div>
+                  <p className="mt-2 text-xs text-muted-foreground">{t("billing.prorationNote")}</p>
+                </>
+              )}
             </div>
           )}
         </BillingCard>
@@ -237,7 +267,9 @@ function BillingPage() {
                 return (
                   <li key={key}>
                     <div className="flex justify-between">
-                      <span className="text-muted-foreground">{t(`billing.limit.${key}` as never) || key}</span>
+                      <span className="text-muted-foreground">
+                        {t(`billing.limit.${key}` as never) || key}
+                      </span>
                       <span className="text-foreground">
                         {used} / {limit}
                       </span>
@@ -258,7 +290,9 @@ function BillingPage() {
 
       <BillingCard className="mt-5">
         <h3 className="text-base font-semibold text-foreground">{t("billing.history")}</h3>
-        {payments.isLoading && <p className="mt-2 text-sm text-muted-foreground">{t("common.loading")}</p>}
+        {payments.isLoading && (
+          <p className="mt-2 text-sm text-muted-foreground">{t("common.loading")}</p>
+        )}
         {payments.data?.stale && (
           <p className="mt-2 text-sm text-muted-foreground">{t("billing.historyOffline")}</p>
         )}
@@ -281,15 +315,23 @@ function BillingPage() {
               <tbody>
                 {payments.data.payments.map((payment) => (
                   <tr key={payment.id} className="border-t border-border/60">
-                    <td className="py-2 text-muted-foreground">{formatDate(payment.date, locale)}</td>
+                    <td className="py-2 text-muted-foreground">
+                      {formatDate(payment.date, locale)}
+                    </td>
                     <td className="py-2 text-foreground">
                       {payment.description}
                       {payment.paymentMethod ? (
-                        <span className="block text-xs text-muted-foreground">{payment.paymentMethod}</span>
+                        <span className="block text-xs text-muted-foreground">
+                          {payment.paymentMethod}
+                        </span>
                       ) : null}
                     </td>
-                    <td className="py-2 text-muted-foreground">{formatMoney(payment.tax, payment.currency, locale)}</td>
-                    <td className="py-2 text-foreground">{formatMoney(payment.total, payment.currency, locale)}</td>
+                    <td className="py-2 text-muted-foreground">
+                      {formatMoney(payment.tax, payment.currency, locale)}
+                    </td>
+                    <td className="py-2 text-foreground">
+                      {formatMoney(payment.total, payment.currency, locale)}
+                    </td>
                     <td className="py-2 text-muted-foreground">{payment.status}</td>
                     <td className="py-2">
                       <button
@@ -298,10 +340,14 @@ function BillingPage() {
                         onClick={() =>
                           void (async () => {
                             try {
-                              const { url } = await invoiceUrl({ data: { transactionId: payment.id } });
+                              const { url } = await invoiceUrl({
+                                data: { transactionId: payment.id },
+                              });
                               window.open(url, "_blank", "noopener");
                             } catch (error) {
-                              toast.error(error instanceof Error ? error.message : t("common.somethingWrong"));
+                              toast.error(
+                                error instanceof Error ? error.message : t("common.somethingWrong"),
+                              );
                             }
                           })()
                         }

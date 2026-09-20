@@ -1206,6 +1206,7 @@
     "tests.sidebar.warmUpWithCoach": "Tee oma juhendajaga soojendust",
     "tests.duration.3to4": "3-4 min",
     "tests.duration.4to5": "4-5 min",
-    "lily.tapToStart": "Puuduta \"Alusta vestlust\" ja Lingora English ütleb esimesena tere."
+    "lily.tapToStart": "Puuduta \"Alusta vestlust\" ja Lingora English ütleb esimesena tere.",
+    "app.home.features.explore": "Uuri lähemalt"
   }
 }

@@ -1207,6 +1207,7 @@
     "tests.sidebar.warmUpWithCoach": "Zagrejte se sa svojim trenerom",
     "tests.duration.3to4": "3-4 min",
     "tests.duration.4to5": "4-5 min",
-    "lily.tapToStart": "Dodirnite \"Započni razgovor\" i Lingora English će vam se prvi javiti."
+    "lily.tapToStart": "Dodirnite \"Započni razgovor\" i Lingora English će vam se prvi javiti.",
+    "app.home.features.explore": "Истражите"
   }
 }

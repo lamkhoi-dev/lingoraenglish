@@ -319,6 +319,7 @@ export const sectionsKo: Dictionary = {
   "app.home.features.listening.body": "실전 대화, 이해도 퀴즈, 딕테이션으로 귀를 트이게 하세요.",
   "app.home.features.vocab.title": "스피킹 어휘",
   "app.home.features.vocab.body": "유용한 단어를 배우고 문장으로 말하며 바로 입에 익히세요.",
+  "app.home.features.explore": "탐색하기",
   "app.home.how.title": "Lingora 학습 방법",
   "app.home.how.1": "말하기",
   "app.home.how.2": "AI 음성 분석",

@@ -12,10 +12,12 @@ import { useAuth } from "@/lib/auth";
 import { useI18n } from "@/lib/i18n";
 import { getTodayCompletion } from "@/lib/progress.functions";
 import { en } from "@/locales/en";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/dashboard")({
   head: () => ({
     meta: [
+      NOINDEX_META,
       { title: en["dash.meta.title"] },
       { name: "description", content: en["dash.meta.description"] },
       { property: "og:title", content: en["dash.meta.title"] },

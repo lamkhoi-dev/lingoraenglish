@@ -30,7 +30,7 @@ import {
   type ListeningLevel,
   type ListeningProgressRow,
 } from "@/lib/listening-content";
-import { hreflangLinks } from "@/lib/seo";
+import { canonicalLink } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 const TITLE = "Listening Lab — Lingora English";
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/listening-lab")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: hreflangLinks("/listening-lab"),
+    links: [canonicalLink("/listening-lab")],
   }),
   component: ListeningLabPage,
 });
@@ -159,11 +159,20 @@ function ListeningLabPage() {
 
   return (
     <AppShell>
-      <SectionHeading
-        eyebrow={t("listen.page.eyebrow")}
-        title={t("listen.page.title")}
-        description={t("listen.page.description")}
-      />
+      <div className="grid items-center gap-6 lg:grid-cols-[1.3fr_0.7fr]">
+        <SectionHeading
+          eyebrow={t("listen.page.eyebrow")}
+          title={t("listen.page.title")}
+          description={t("listen.page.description")}
+        />
+        <div className="hidden lg:block overflow-hidden rounded-3xl border border-border shadow-lg">
+          <img
+            src="/images/listening-dictation.jpg"
+            alt="English Dictation & Listening Lab"
+            className="h-44 w-full object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+      </div>
 
       {openCard && openCard.unlocked ? (
         <div className="mt-8">

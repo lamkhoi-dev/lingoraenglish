@@ -319,6 +319,7 @@ export const sectionsId: Dictionary = {
   "app.home.features.listening.body": "Latih pendengaranmu dengan percakapan realistis, soal pemahaman, dan dikte.",
   "app.home.features.vocab.title": "Kosakata untuk Berbicara",
   "app.home.features.vocab.body": "Pelajari kata-kata yang berguna dan langsung gunakan dalam kalimat yang kamu ucapkan.",
+  "app.home.features.explore": "Jelajahi",
   "app.home.how.title": "Cara kerja Lingora",
   "app.home.how.1": "Bicara",
   "app.home.how.2": "AI menganalisis ucapanmu",

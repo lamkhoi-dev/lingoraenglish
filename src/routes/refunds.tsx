@@ -3,6 +3,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
 import { useI18n } from "@/lib/i18n";
+import { canonicalLink } from "@/lib/seo";
 
 export const Route = createFileRoute("/refunds")({
   head: () => ({
@@ -21,6 +22,7 @@ export const Route = createFileRoute("/refunds")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],
+    links: [canonicalLink("/refunds")],
   }),
   component: RefundsPage,
 });
@@ -52,7 +54,7 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
           paddle.net
         </a>{" "}
         and enter the email address you used at checkout to find your order and request a refund, or email us at
-        support@msthaoenglish.com and we will raise the request with Paddle on your behalf. Refunds are returned to
+        phanthithuthao10081996@gmail.com and we will raise the request with Paddle on your behalf. Refunds are returned to
         the original payment method and typically appear within 5–10 business days, depending on your bank.
       </>
     ),

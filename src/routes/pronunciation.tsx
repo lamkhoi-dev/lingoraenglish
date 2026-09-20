@@ -26,7 +26,7 @@ import {
   type PronLevel,
   type SkillId,
 } from "@/lib/pronunciation-content";
-import { hreflangLinks } from "@/lib/seo";
+import { canonicalLink } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 const TITLE = "Pronunciation Coach — 44 sounds, stress, intonation & connected speech";
@@ -47,7 +47,7 @@ export const Route = createFileRoute("/pronunciation")({
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: hreflangLinks("/pronunciation"),
+    links: [canonicalLink("/pronunciation")],
   }),
   component: PronunciationPage,
 });
@@ -312,11 +312,20 @@ function PronunciationPage() {
 
   return (
     <AppShell>
-      <SectionHeading
-        eyebrow="Pronunciation"
-        title="Sound clearer, more natural, more fluent"
-        description={`All ${freeCounts.totalSounds} English sounds plus word stress, sentence stress, intonation, connected speech, reductions, rhythm, chunking and fluency — every lesson ends with your own recording.`}
-      />
+      <div className="grid items-center gap-6 lg:grid-cols-[1.3fr_0.7fr]">
+        <SectionHeading
+          eyebrow="Pronunciation"
+          title="Sound clearer, more natural, more fluent"
+          description={`All ${freeCounts.totalSounds} English sounds plus word stress, sentence stress, intonation, connected speech, reductions, rhythm, chunking and fluency — every lesson ends with your own recording.`}
+        />
+        <div className="hidden lg:block overflow-hidden rounded-3xl border border-border shadow-lg">
+          <img
+            src="/images/pronunciation-guide.jpg"
+            alt="Pronunciation Articulation & IPA"
+            className="h-44 w-full object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+      </div>
 
       {/* ------------------------------- dashboard ------------------------------ */}
       <section className="lounge-panel mt-8 p-5 sm:p-6">

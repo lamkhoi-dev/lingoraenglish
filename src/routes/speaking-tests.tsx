@@ -45,7 +45,7 @@ import {
   type SpeakingTest,
   type TestProgress,
 } from "@/lib/speaking-test-library";
-import { hreflangLinks } from "@/lib/seo";
+import { canonicalLink } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 const TITLE = "IELTS, TOEFL & PTE Speaking Practice — Lingora English";
@@ -60,7 +60,7 @@ export const Route = createFileRoute("/speaking-tests")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
     ],
-    links: hreflangLinks("/speaking-tests"),
+    links: [canonicalLink("/speaking-tests")],
   }),
   component: SpeakingTestsPage,
 });
@@ -73,11 +73,20 @@ function SpeakingTestsPage() {
 
   return (
     <AppShell>
-      <SectionHeading
-        eyebrow={t("tests.hero.eyebrow")}
-        title={t("tests.hero.title")}
-        description={t("tests.hero.description")}
-      />
+      <div className="grid items-center gap-6 lg:grid-cols-[1.3fr_0.7fr]">
+        <SectionHeading
+          eyebrow={t("tests.hero.eyebrow")}
+          title={t("tests.hero.title")}
+          description={t("tests.hero.description")}
+        />
+        <div className="hidden lg:block overflow-hidden rounded-3xl border border-border shadow-lg">
+          <img
+            src="/images/ielts-speaking-exam.jpg"
+            alt="IELTS & International Exam Simulation"
+            className="h-44 w-full object-cover transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+      </div>
 
       <div className="mt-8 grid gap-3 sm:grid-cols-3">
         {(

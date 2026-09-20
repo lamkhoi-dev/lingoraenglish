@@ -319,6 +319,7 @@ export const sectionsVi: Dictionary = {
   "app.home.features.listening.body": "Luyện tai với các đoạn hội thoại thực tế, câu hỏi đọc hiểu và dictation.",
   "app.home.features.vocab.title": "Từ vựng cho Speaking",
   "app.home.features.vocab.body": "Học từ vựng hữu ích và áp dụng ngay vào câu nói.",
+  "app.home.features.explore": "Khám phá",
   "app.home.how.title": "Cách Lingora hoạt động",
   "app.home.how.1": "Nói",
   "app.home.how.2": "AI phân tích giọng nói",

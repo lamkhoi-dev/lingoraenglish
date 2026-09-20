@@ -9,11 +9,13 @@ import { AppShell } from "@/components/lily/app-shell";
 import { resetPassword } from "@/lib/auth.functions";
 import { useI18n } from "@/lib/i18n";
 import { en } from "@/locales/en";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/reset-password")({
   validateSearch: z.object({ token: z.string().optional() }),
   head: () => ({
     meta: [
+      NOINDEX_META,
       { title: en["auth.reset.meta.title"] },
       { name: "description", content: en["auth.reset.meta.description"] },
       { property: "og:title", content: en["auth.reset.meta.title"] },

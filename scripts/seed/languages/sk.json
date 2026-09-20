@@ -9,7 +9,6 @@
     "brand.short": "Lingora English",
     "brand.line1": "Lingora English",
     "brand.tagline": "Váš osobný učiteľ angličtiny s umelou inteligenciou",
-
     "nav.home": "Domov",
     "nav.coach": "AI tréner hovorenia",
     "nav.shadowing": "Tieňovanie",
@@ -27,7 +26,6 @@
     "nav.language": "Jazyk",
     "nav.admin": "Administrácia",
     "nav.menu": "Menu",
-
     "lang.title": "Jazyk",
     "lang.choose": "Vyberte si jazyk",
     "lang.interface": "Jazyk rozhrania",
@@ -35,7 +33,6 @@
     "lang.keepEnglish": "Ponechať angličtinu",
     "lang.switchTo": "Prepnúť na {{language}}",
     "lang.note": "Rozhranie zmení jazyk — angličtina, ktorú si precvičujete, zostáva anglicky.",
-
     "common.signIn": "Prihlásiť sa",
     "common.signUp": "Vytvoriť účet",
     "common.signOut": "Odhlásiť sa",
@@ -92,7 +89,6 @@
     "checkout.continueWhere": "Pokračovať tam, kde ste skončili",
     "common.somethingWrong": "Niečo sa pokazilo.",
     "common.demoMode": "Ukážkový režim",
-
     "home.heroSub": "Precvičujte si hovorenie, zlepšujte výslovnosť, učte sa slovnú zásobu a budujte si sebadôveru v angličtine s Lingora English.",
     "home.badge": "Učiteľ angličtiny s umelou inteligenciou",
     "home.cta.start": "Začať sa učiť",
@@ -135,7 +131,6 @@
     "home.cta2.button": "Začať hovoriť s Lingora English",
     "home.meta.title": "Lingora English — Váš osobný učiteľ angličtiny s umelou inteligenciou",
     "home.meta.description": "Precvičujte si hovorenie, zlepšujte výslovnosť a pripravte sa na IELTS s Lingora English — trpezlivým učiteľom angličtiny s umelou inteligenciou pre študentov kdekoľvek na svete.",
-
     "auth.welcome": "Vitajte späť",
     "auth.create": "Vytvorte si účet",
     "auth.reset": "Obnovte si heslo",
@@ -154,7 +149,6 @@
     "auth.resetSent": "Odkaz na obnovenie bol odoslaný — skontrolujte si e-mail.",
     "auth.welcomeBack": "Vitajte späť!",
     "auth.created": "Účet bol vytvorený. Ste prihlásení!",
-
     "onboarding.title": "Nastavme si vašu angličtinu",
     "onboarding.sub": "Štyri rýchle otázky, aby vás Lingora English mohla učiť spôsobom, ktorý vám vyhovuje najlepšie.",
     "onboarding.step": "Krok {{current}} z {{total}}",
@@ -164,14 +158,12 @@
     "onboarding.q.goal": "Aký je váš cieľ?",
     "onboarding.q.minutes": "Koľko minút denne môžete precvičovať?",
     "onboarding.done": "Ste pripravení. Lingora English čaká.",
-
     "level.A1": "A1 — Začiatočník",
     "level.A2": "A2 — Mierne pokročilý",
     "level.B1": "B1 — Stredne pokročilý",
     "level.B2": "B2 — Vyššie stredne pokročilý",
     "level.C1": "C1 — Pokročilý",
     "level.C2": "C2 — Expert",
-
     "goal.confidence": "Hovoriť po anglicky sebavedomo",
     "goal.pronunciation": "Zlepšiť výslovnosť",
     "goal.work": "Angličtina do práce",
@@ -182,7 +174,6 @@
     "goal.daily": "Bežná angličtina",
     "goal.business": "Obchodná angličtina",
     "goal.interview": "Pracovné pohovory",
-
     "lily.title": "Lingora English",
     "lily.sub": "Váš osobný učiteľ angličtiny, dostupný kedykoľvek.",
     "lily.intro": "Vyberte si tému a začnite hovoriť. Lingora English si pamätá túto konverzáciu a vždy vám dá niečo, na čo môžete odpovedať.",
@@ -208,7 +199,6 @@
     "lily.notHeard": "Lingora English vás nepočula — skúste to znova.",
     "lily.meta.title": "Lingora English — Váš osobný učiteľ angličtiny s umelou inteligenciou",
     "lily.meta.description": "Rozprávajte sa s Lingora English o bežnom živote, práci, cestovaní a ďalších témach. Počúva, odpovedá prirodzene a vždy sa doopytuje.",
-
     "speaking.title": "Precvičovanie hovorenia",
     "speaking.sub": "Odpovedzte nahlas. Lingora English prepíše presne to, čo ste povedali, a potom vám ukáže, ako to povedať lepšie.",
     "speaking.question": "Vaša otázka",
@@ -230,7 +220,6 @@
     "speaking.hint": "Hovorte prirodzene — Lingora English trpezlivo počúva.",
     "speaking.meta.title": "Precvičovanie hovorenia s umelou inteligenciou — Lingora English",
     "speaking.meta.description": "Nahrajte si odpoveď na skutočnú anglickú otázku a získajte okamžitú spätnú väzbu o plynulosti, gramatike a slovnej zásobe od Lingora English.",
-
     "pron.title": "Tréner výslovnosti Lingora English",
     "pron.sub": "Naučte sa každú anglickú hlásku s jasným návodom na postavenie úst a jazyka, potom sa nahrajte a porovnajte.",
     "pron.tab.sounds": "Hlásky IPA",
@@ -252,7 +241,6 @@
     "pron.accent.uk": "Britská angličtina",
     "pron.meta.title": "Tréner anglickej výslovnosti — IPA, minimálne páry a prízvuk",
     "pron.meta.description": "Precvičujte si každú anglickú hlásku IPA, minimálne páry, prízvuk v slovách a intonáciu s Lingora English a úprimnou, zrozumiteľnou spätnou väzbou.",
-
     "vocab.title": "Slovná zásoba",
     "vocab.sub": "Anglické slová s IPA, anglickým výkladom, príkladom a významom vo vašom jazyku.",
     "vocab.definition": "Anglický výklad",
@@ -266,7 +254,6 @@
     "vocab.learning": "Ešte sa učím",
     "vocab.meta.title": "Anglická slovná zásoba s IPA a zvukom — Lingora English",
     "vocab.meta.description": "Učte sa anglickú slovnú zásobu podľa kategórií s IPA, zvukom, príkladovými vetami a prekladmi do vášho vlastného jazyka.",
-
     "grammar.title": "Tréner gramatiky Lingora English",
     "grammar.sub": "Jasné vysvetlenia, skutočné príklady a cvičenia, ktoré Lingora English za vás skontroluje.",
     "grammar.explanation": "Vysvetlenie",
@@ -282,7 +269,6 @@
     "grammar.incorrect": "Nie celkom",
     "grammar.meta.title": "Tréner anglickej gramatiky — časy, modálne slovesá, podmienkové vety",
     "grammar.meta.description": "Učte sa anglickú gramatiku s Lingora English: jasné vysvetlenia, príklady, cvičenia a okamžitá oprava od umelej inteligencie.",
-
     "listen.title": "Precvičovanie počúvania",
     "listen.sub": "Počúvajte prirodzenú angličtinu, potom odpovedzte, doplňte medzery alebo napíšte, čo počujete.",
     "listen.play": "Prehrať zvuk",
@@ -295,7 +281,6 @@
     "listen.correctAnswers": "Správne odpovede",
     "listen.meta.title": "Precvičovanie anglického počúvania A1–C1 — Lingora English",
     "listen.meta.description": "Počúvajte a vyberajte, diktáty a tieňovanie na úrovni A1 až C1 s prepismi a vysvetleniami.",
-
     "ielts.title": "IELTS Speaking od Lingora English",
     "ielts.sub": "Precvičte si Part 1, 2 a 3 s rozborom vašej vlastnej odpovede v štýle skúšajúceho.",
     "ielts.part1": "Part 1",
@@ -318,7 +303,6 @@
     "ielts.band8": "Verzia pre Band 8",
     "ielts.meta.title": "Precvičovanie IELTS Speaking s odhadom pásma od AI — Lingora English",
     "ielts.meta.description": "Precvičte si IELTS Speaking Part 1, 2 a 3 s Lingora English a získajte odhadované pásmo spolu s prepismi vašej odpovede na úrovni Band 6, 7 a 8.",
-
     "progress.title": "Môj pokrok",
     "progress.sub": "Všetko, čo Lingora English od vás počula, a čo si precvičiť ďalej.",
     "progress.streak": "Učebná šnúra",
@@ -345,7 +329,6 @@
     "progress.empty": "Zatiaľ tu nič nie je — vaše prvé cvičenie sa zobrazí hneď.",
     "progress.meta.title": "Môj pokrok v angličtine — Lingora English",
     "progress.meta.description": "Sledujte svoje skóre z hovorenia, výslovnosť podľa hlások, šnúru a minúty cvičenia a získajte personalizovaný denný plán.",
-
     "account.title": "Môj účet",
     "account.sub": "Váš profil, vaše jazyky a vaše súkromie.",
     "account.profile": "Profil",
@@ -367,7 +350,6 @@
     "account.deleted": "Vaše cvičné údaje boli vymazané.",
     "account.meta.title": "Môj účet — Lingora English",
     "account.meta.description": "Spravujte jazyk rozhrania, materinský jazyk, úroveň angličtiny, denný cieľ, režim učenia a nastavenia súkromia.",
-
     "admin.title": "Administrátorský panel",
     "admin.sub": "Študenti, obsah, preklady a využitie umelej inteligencie.",
     "admin.tab.students": "Študenti",
@@ -393,45 +375,36 @@
     "admin.defaultLanguage": "Predvolený jazyk",
     "admin.missingCount": "{{count}} chýba",
     "admin.onlyAdmins": "Táto sekcia je len pre administrátorov.",
-
     "usage.title": "Využitie AI",
     "usage.requests": "Požiadavky",
     "usage.stt": "Reč na text",
     "usage.tts": "Text na reč",
     "usage.analyses": "Analýzy",
     "usage.cacheHits": "Zásahy vo vyrovnávacej pamäti",
-
     "grammar.lessonsTitle": "Lekcie",
     "grammar.selectLesson": "Vyberte lekciu, aby ste videli vysvetlenie a cvičenie.",
     "grammar.noLessons": "Zatiaľ žiadne lekcie — čoskoro sa vráťte.",
     "grammar.checkAll": "Skontrolovať odpovede",
-
     "listen.selectExercise": "Vyberte cvičenie a začnite.",
     "listen.noExercises": "Zatiaľ žiadne cvičenia počúvania pre túto úroveň.",
     "listen.questions": "Otázky",
     "listen.transcript": "Prepis",
-
     "vocab.noWords": "Zatiaľ žiadne slová v tejto kategórii.",
     "vocab.category": "Kategória",
-
     "admin.name": "Meno",
     "admin.email": "E-mail",
     "admin.joined": "Registrácia",
     "admin.role": "Rola",
     "admin.noStudents": "Zatiaľ žiadni študenti.",
     "admin.locale": "Jazyk",
-
     "account.accent": "Prízvuk",
     "account.voicePreference": "Hlas",
-
     "ielts.timeRemaining": "Zostávajúci čas",
     "ielts.prepDone": "Príprava skončila — môžete začať hovoriť.",
     "ielts.selectQuestion": "Vyberte otázku",
     "ielts.yourRecording": "Vaša nahrávka",
-
     "progress.todaysTasks": "Dnešné úlohy",
     "progress.noPlan": "Zatiaľ žiadny plán — vytvorte si ho nižšie.",
-
     "pricing.title": "Plány a ceny",
     "pricing.sub": "Začnite zadarmo. Prejdite na vyšší plán, keď chcete, aby vás Lingora English počúvala každý deň.",
     "pricing.monthly": "Mesačne",
@@ -460,7 +433,6 @@
     "pricing.faq.refund.a": "Kontaktujte nás do 30 dní od platby a vrátime ju prostredníctvom nášho platobného partnera.",
     "pricing.meta.title": "Ceny — Lingora English",
     "pricing.meta.description": "Plány Zadarmo, Premium a IELTS Pro pre precvičovanie hovorenia, výslovnosti a IELTS s umelou inteligenciou od Lingora English. Miestna mena a daň sa vybavia pri platbe.",
-
     "billing.title": "Moje predplatné",
     "billing.sub": "Váš plán, vaše využitie a história platieb.",
     "billing.currentPlan": "Súčasný plán",
@@ -516,7 +488,6 @@
     "billing.testBannerLink": "Zistiť viac",
     "billing.meta.title": "Moje predplatné — Lingora English",
     "billing.meta.description": "Spravujte svoje predplatné Lingora English, pozrite si limit cvičenia na tento mesiac, aktualizujte spôsob platby a stiahnite si faktúry.",
-
     "checkout.verifying": "Potvrdzujeme vašu platbu u nášho platobného partnera…",
     "checkout.confirmed": "Máte {{plan}}. Lingora English je pripravená, keď budete vy.",
     "checkout.pending": "Vaša platba prebehla a stále aktivujeme váš plán. Zvyčajne to trvá len pár sekúnd — ak sa nezobrazí, obnovte si stránku predplatného.",
@@ -530,7 +501,6 @@
     "checkout.cancelled.sub": "Žiadna platba nebola vykonaná. Môžete pokračovať v cvičení na bezplatnom pláne.",
     "checkout.cancelled.meta.title": "Platba zrušená — Lingora English",
     "checkout.cancelled.meta.description": "Vaša platba bola zrušená a nebola vykonaná žiadna platba.",
-
     "admin.tab.billing": "Platby",
     "admin.tab.plans": "Plány a limity",
     "adminBilling.active": "Aktívne predplatné",
@@ -557,7 +527,6 @@
     "adminBilling.revoke": "Odobrať",
     "adminBilling.revoked": "Bezplatný prístup bol odobratý.",
     "adminBilling.noExpiry": "bez platnosti",
-
     "admin.tab.members": "Premium členovia",
     "adminMembers.title": "Členovia",
     "adminMembers.count": "{{premium}} platiacich / {{total}} študentov",
@@ -585,7 +554,6 @@
     "billing.state.complimentary": "Bezplatný prístup",
     "billing.state.completed": "Zaplatené",
     "billing.state.billed": "Čaká sa na platbu",
-
     "nav.myLearning": "Moje učenie",
     "nav.dashboard": "Prehľad",
     "nav.profile": "Profil",
@@ -594,7 +562,6 @@
     "nav.createFree": "Vytvoriť bezplatný účet",
     "nav.terms": "Podmienky používania",
     "nav.privacy": "Zásady ochrany osobných údajov",
-
     "auth.firstName": "Krstné meno",
     "auth.lastName": "Priezvisko",
     "auth.confirmPassword": "Potvrďte heslo",
@@ -622,7 +589,6 @@
     "auth.resetInvalid": "Platnosť tohto odkazu na obnovenie vypršala. Vyžiadajte si nový.",
     "auth.reset.meta.title": "Obnovte si heslo — Lingora English",
     "auth.reset.meta.description": "Vyberte si nové heslo pre svoj účet Lingora English.",
-
     "dash.meta.title": "Prehľad — Lingora English",
     "dash.meta.description": "Váš osobný prehľad učenia angličtiny: pokrok, dnešné cvičenie a vaše zostávajúce lekcie Lingora English.",
     "dash.welcome": "Vitajte späť, {{name}}!",
@@ -649,7 +615,6 @@
     "dash.limits.pronunciationAdvancedLabel": "Výslovnosť — pokročilé",
     "dash.limits.pronunciationAdvanced": "Prvých 5 príkladov na zručnosť zadarmo",
     "dash.limits.allUnlocked": "Vo vašom pláne je odomknuté všetko",
-
     "paywall.limitTitle": "Dosiahli ste svoj bezplatný limit cvičenia",
     "paywall.limitBody": "Pokračujte v učení s neobmedzeným prístupom k Lingora English.",
     "paywall.speakingTitle": "Pokračujte v cvičení s Lingora English",
@@ -668,7 +633,6 @@
     "paywall.stayFree": "Pokračovať s bezplatným plánom",
     "paywall.locked": "Premium",
     "paywall.signInFirst": "Vytvorte si bezplatný účet a začnite cvičiť",
-
     "adminLimits.title": "Plány a limity využitia",
     "adminLimits.sub": "Mesačné limity podľa plánu. Uložené hodnoty platia okamžite pre všetkých študentov na danom pláne.",
     "adminLimits.trialEnabled": "Bezplatná skúšobná verzia zapnutá",
@@ -678,14 +642,11 @@
     "adminLimits.saved": "Limity plánu boli aktualizované.",
     "adminLimits.users": "Študenti podľa plánu",
     "adminLimits.conversion": "Miera konverzie",
-
     "legal.terms.title": "Podmienky používania",
     "legal.privacy.title": "Zásady ochrany osobných údajov",
     "legal.updated": "Naposledy aktualizované {{date}}",
-
     "nav.pricing": "Ceny",
     "nav.billing": "Predplatné",
-
     "app.home.badge": "AI tréner hovorenia",
     "app.home.heroTitle": "Hovorte po anglicky. Získajte opravy. Zlepšujte sa každý deň.",
     "app.home.heroSub": "Precvičujte si angličtinu so svojím AI trénerom hovorenia a získajte okamžitú spätnú väzbu o výslovnosti, gramatike, slovnej zásobe, plynulosti a prirodzenej angličtine.",
@@ -728,19 +689,15 @@
     "app.home.cta.title": "Váš tréner je pripravený. Povedzte niečo.",
     "app.home.cta.body": "Vytvorte si bezplatný účet a začnite svoju prvú lekciu hovorenia za menej ako minútu.",
     "app.home.cta.button": "Začať hovoriť",
-
     "app.footer.ielts": "IELTS",
     "app.footer.refunds": "Zásady vrátenia peňazí",
-
     "app.voice.loading": "Načítava sa…",
     "app.voice.resume": "Pokračovať",
     "app.voice.pause": "Pozastaviť",
     "app.voice.stop": "Zastaviť",
-
     "coach.eyebrow": "AI tréner hovorenia",
     "coach.title": "Hovorte. Získajte opravy. Hovorte znova.",
     "coach.description": "Stovky tém v piatich rôznych spôsoboch cvičenia. Váš tréner vždy hovorí ako prvý, počúva váš hlas a opravuje vás, ako konverzácia pokračuje.",
-
     "coach.category.free.label": "Voľná konverzácia",
     "coach.category.free.blurb": "Hovorte prirodzene o akejkoľvek téme, ktorá sa vám páči.",
     "coach.category.daily.label": "Bežná konverzácia",
@@ -752,51 +709,40 @@
     "coach.category.challenge.label": "Výzva v hovorení",
     "coach.category.challenge.blurb": "Jedna úloha, jeden časovač, jedno skóre.",
     "coach.topicsCount": "{{count}} tém",
-
     "coach.searchPlaceholder": "Hľadať témy…",
     "coach.levels.all": "Všetky úrovne",
     "coach.access.all": "všetko",
     "coach.access.free": "zadarmo",
     "coach.access.premium": "premium",
-
     "coach.usage.unlimited": "Neobmedzené kolá hovorenia",
     "coach.usage.freeLeft": "Zostáva {{left}} z {{limit}} bezplatných kôl hovorenia",
     "coach.usage.turnsLeftMonth": "Zostáva {{count}} kôl hovorenia tento mesiac",
-
     "coach.audioPlayError": "Nepodarilo sa mi prehrať zvuk. Odpoveď si môžete prečítať a skúsiť znova stlačiť Prehrať.",
     "coach.couldNotHear": "Nepočula som vás jasne. Skúste to znova.",
-
     "coach.loadingTopics": "Načítavajú sa témy…",
     "coach.noTopicsMatch": "Zatiaľ žiadne témy nezodpovedajú týmto filtrom.",
     "coach.badge.free": "ZADARMO",
     "coach.badge.premium": "PREMIUM",
-
     "coach.chooseTopicTitle": "Vyberte si tému a začnite",
     "coach.signIn.title": "Váš tréner hovorí prvý.",
     "coach.signIn.description": "Vytvorte si bezplatný účet a začnite hovoriť. Každý študent dostane bezplatné kolá hovorenia na vyskúšanie trénera.",
     "coach.signIn.cta": "Vytvoriť bezplatný účet a začať",
-
     "coach.gettingReady": "Váš tréner sa pripravuje…",
     "coach.pickTopicPrompt": "Vyberte si tému vľavo a váš tréner začne hovoriť.",
     "coach.rolePlayRoles": "Váš tréner hrá {{aiRole}}. Vy ste {{userRole}}.",
     "coach.roleYourself": "vy sami",
-
     "coach.speaker.coach": "Tréner",
     "coach.speaker.you": "Vy",
-
     "coach.outOfTurns": "Vaše bezplatné kolá hovorenia sú vyčerpané.",
     "coach.upgradeToKeepGoing": "Prejsť na Premium",
     "coach.upgradeSuffix": "a pokračujte v tejto konverzácii.",
-
     "coach.timerLabel": "časovač {{seconds}} s",
     "coach.busyLabel": "Spracúva sa vaša odpoveď",
     "coach.answerHint": "Odpovedzte trénerovi nahlas, v celých vetách.",
     "coach.typeAnswerPlaceholder": "Alebo napíšte svoju odpoveď…",
     "coach.sendAnswer": "Odoslať odpoveď",
     "coach.startTopicAgain": "Začať túto tému znova",
-
     "coach.exampleFeedback": "Ukážková spätná väzba",
-
     "coach.correctionLoop.title": "Cyklus opráv",
     "coach.correctionLoop.step1": "Tréner hovorí prvý",
     "coach.correctionLoop.step2": "Odpoviete svojím hlasom",
@@ -804,13 +750,10 @@
     "coach.correctionLoop.step4": "Dostanete lepšiu vetu",
     "coach.correctionLoop.step5": "Konverzácia prirodzene pokračuje",
     "coach.correctionLoop.step6": "Pokrok sa ukladá",
-
     "coach.keepImproving.title": "Pokračujte v zlepšovaní",
-
     "coach.mic.aiSpeaking": "🔊 AI hovorí…",
     "coach.mic.speakAgain": "🎙️ Hovorte znova",
     "coach.mic.takeYourTime": "Nechajte si čas — krátke prestávky sú v poriadku. Vaše kolo sa odošle, keď prestanete hovoriť.",
-
     "coach.feedback.demoNotice": "Toto je príklad spätnej väzby, ktorú dostanete. Prihláste sa a hovorte, aby ste získali vlastnú analýzu.",
     "coach.feedback.scoreImproved": "Výborne! Vaše skóre hovorenia sa zlepšilo o {{points}} bodov.",
     "coach.feedback.fluency": "Plynulosť",
@@ -833,18 +776,14 @@
     "coach.feedback.pronunciationCoach": "Tréner výslovnosti",
     "coach.feedback.myProgress": "Môj pokrok",
     "coach.speakingPracticeFallback": "Precvičovanie hovorenia",
-
     "listen.page.eyebrow": "🎧 Laboratórium počúvania",
     "listen.page.title": "Trénujte svoj sluch, aby ste rozumeli skutočnej angličtine.",
     "listen.page.description": "Počúvajte realistické konverzácie, otestujte si porozumenie a trénujte sluch na angličtinu, ktorú ľudia naozaj používajú v bežnom živote.",
-
     "listen.loadingLesson": "Načítava sa lekcia…",
     "listen.loadingLibrary": "Načítava sa knižnica počúvania…",
     "listen.noMatches": "Zatiaľ žiadne lekcie nezodpovedajú týmto filtrom.",
-
     "listen.guide.gotIt": "Rozumiem — ukážte mi lekcie →",
     "listen.guide.strategyHint": "Počúvajte najprv celkový obraz → potom detaily → potom presné slová → potom si to zopakujte.",
-
     "listen.progress.title": "Váš pokrok v počúvaní",
     "listen.progress.lessonsCompleted": "Dokončené lekcie",
     "listen.progress.comprehension": "Porozumenie",
@@ -852,9 +791,7 @@
     "listen.progress.listeningTime": "Čas počúvania",
     "listen.progress.overallScore": "Celkové skóre počúvania:",
     "listen.progress.weakAreas": " · Slabé oblasti: {{areas}}",
-
     "listen.next.title": "Čo počúvať ďalej",
-
     "listen.filter.allLevels": "Všetky úrovne",
     "listen.filter.allTopics": "Všetky témy",
     "listen.filter.difficultyLabel": "Náročnosť",
@@ -873,21 +810,17 @@
     "listen.filter.status.in_progress": "Rozpracované",
     "listen.filter.status.completed": "Dokončené",
     "listen.filter.searchPlaceholder": "Hľadať lekcie a situácie",
-
     "listen.level.A1": "A1 Začiatočník",
     "listen.level.A2": "A2 Mierne pokročilý",
     "listen.level.B1": "B1 Stredne pokročilý",
     "listen.level.B2": "B2 Vyššie stredne pokročilý",
     "listen.level.C1": "C1 Pokročilý",
-
     "listen.difficulty.gentle": "Pomalé",
     "listen.difficulty.steady": "Plynulé",
     "listen.difficulty.fast": "Rýchle",
     "listen.difficulty.veryFast": "Veľmi rýchle",
-
     "listen.accent.british": "Britská angličtina",
     "listen.accent.northAmerican": "Severoamerická angličtina",
-
     "listen.skill.main_idea": "Hlavná myšlienka",
     "listen.skill.details": "Konkrétne detaily",
     "listen.skill.intention": "Zámer hovoriaceho",
@@ -895,7 +828,6 @@
     "listen.skill.vocabulary": "Význam v kontexte",
     "listen.skill.numbers_dates": "Čísla a dátumy",
     "listen.skill.fast_speech": "Rýchla reč",
-
     "listen.challenge.contraction": "Skrátený tvar",
     "listen.challenge.connected_speech": "Súvislá reč",
     "listen.challenge.reduced_form": "Redukovaný tvar",
@@ -905,7 +837,6 @@
     "listen.challenge.numbers": "Čísla",
     "listen.challenge.dates": "Dátumy",
     "listen.challenge.expression": "Bežný výraz",
-
     "listen.card.free": "Zadarmo",
     "listen.card.premium": "Premium",
     "listen.card.questionsAndDictation": "{{questions}} otázok · {{dictation}} diktátov",
@@ -914,21 +845,17 @@
     "listen.card.notStarted": "Nezačaté",
     "listen.card.start": "Začať",
     "listen.card.unlockPremium": "🔒 Odomknúť s Premium",
-
     "listen.signInToPlaySave": "Prihláste sa, aby ste mohli prehrať zvuk a ukladať svoje skóre z počúvania.",
     "listen.signIn": "Prihlásiť sa",
-
     "listen.backToLab": "Späť do Laboratória počúvania",
     "listen.tryAgain": "Skúsiť znova",
     "listen.nextLesson": "Ďalšia lekcia",
-
     "listen.stage.listen": "Počúvať",
     "listen.stage.understand": "Porozumieť",
     "listen.stage.dictation": "Diktát",
     "listen.stage.review": "Zhrnutie",
     "listen.stage.progressAriaLabel": "Kroky lekcie",
     "listen.guide.listenFor": "Počúvajte",
-
     "listen.guide.howToTitle": "🎧 Ako postupovať pri tejto lekcii počúvania",
     "listen.guide.hide": "Skryť",
     "listen.guide.show": "Zobraziť",
@@ -947,23 +874,18 @@
     "listen.guide.step3.point3": "Nerobte si starosti, ak urobíte chyby — trénuje to vašu presnosť v počúvaní.",
     "listen.guide.step4.title": "Krok 4 — Zhrnutie",
     "listen.guide.step4.point1": "Skontrolujte si výsledky a zopakujte si slová alebo frázy, ktoré vám unikli.",
-
     "listen.guide.dontWorryTitle": "❤️ Nerobte si starosti, ak nerozumiete všetkému.",
     "listen.guide.dontWorry1": "Skutočná angličtina môže spočiatku znieť rýchlo a náročne.",
     "listen.guide.dontWorry2": "Neočakáva sa, že budete rozumieť každému slovu.",
     "listen.guide.dontWorry3": "Vaším cieľom je pri každom počúvaní rozumieť o niečo viac.",
-
     "listen.guide.beforeYouStartTitle": "💡 Predtým, ako začnete",
     "listen.guide.beforeYouStart1": "Nesnažte sa prekladať každú vetu do svojho jazyka.",
     "listen.guide.beforeYouStart2": "Najprv sa sústreďte na pochopenie situácie a hlavnej myšlienky.",
     "listen.guide.beforeYouStart3": "Je úplne bežné, že napoprvé nerozumiete všetkému.",
-
     "listen.guide.readyToListen": "Pripravení? Poďme počúvať →",
     "listen.guide.dontShowAgain": "Nabudúce to nezobrazovať",
     "listen.guide.howDoesThisWork": "Ako to funguje?",
-
     "listen.guide.tipLabel": "Tip",
-
     "listen.stage1.title": "🎧 Kolo 1: Počúvať",
     "listen.stage1.instruction": "Počúvajte celkový význam. Nerobte si starosti o každé slovo.",
     "listen.stage1.who": "Kto hovorí?",
@@ -975,7 +897,6 @@
     "listen.stage1.continueMainIdea": "Pochopil som hlavnú myšlienku — Pokračovať",
     "listen.stage1.needAnotherListen": "Potrebujete si to vypočuť znova? Použite tlačidlo Prehrať znova vyššie.",
     "listen.stage1.continueToComprehension": "Pokračovať na Porozumenie",
-
     "listen.stage2.title": "🧠 Kolo 2: Porozumieť",
     "listen.stage2.instruction": "Teraz si otestujte, ako dobre ste porozumeli konverzácii.",
     "listen.stage2.beforeAnswering": "Pred odpovedaním",
@@ -990,7 +911,6 @@
     "listen.stage2.correctSummary": "{{correct}} správne · {{remaining}} na zopakovanie",
     "listen.stage2.reviewAreas": " · Zopakovať: {{areas}}",
     "listen.stage2.continueToDictation": "Pokračovať na Diktát",
-
     "listen.stage3.title": "⌨️ Kolo 3: Diktát",
     "listen.stage3.instruction": "Teraz počúvajte pozorne a doplňte chýbajúce slová. Tentokrát sa zamerajte na presné slová, ktoré počujete.",
     "listen.stage3.listenThinkTypeCheck": "Počúvať → Premýšľať → Napísať → Skontrolovať",
@@ -1002,7 +922,6 @@
     "listen.stage3.correctLabel": "Správne:",
     "listen.stage3.dictationResult": "Diktát: {{score}} %",
     "listen.stage3.seeResults": "Zobraziť moje výsledky",
-
     "listen.dictation.strategyToggle": "Skúste toto: Počúvať → Premýšľať → Napísať → Skontrolovať",
     "listen.dictation.step1": "Vypočujte si to raz — porozumejte celej vete.",
     "listen.dictation.step2": "Vypočujte si to znova — zamerajte sa na chýbajúce slovo.",
@@ -1012,7 +931,6 @@
     "listen.dictation.payAttentionTitle": "💡 Venujte pozornosť",
     "listen.dictation.payAttentionList": "Krátkym slovám · koncovkám slovies · skráteným tvarom · číslam · dátumom · súvislej reči · podobne znejúcim slovám",
     "listen.dictation.example": "Príklad — počujete \"I was going to call you yesterday.\" a cvičenie ukazuje \"I was going to ______ you yesterday.\" Napíšete {{word}}.",
-
     "listen.transcript.show": "Zobraziť prepis",
     "listen.transcript.hide": "Skryť prepis",
     "listen.transcript.whySoundsDifferent": "Prečo to znie inak",
@@ -1023,7 +941,6 @@
     "listen.transcript.whenToUse1": "Najprv skúste počúvať bez prepisu.",
     "listen.transcript.whenToUse2": "Použite ho po tom, čo ste sa pokúsili porozumieť zvuku.",
     "listen.transcript.whenToUse3": "Prepis vám pomôže objaviť, čo vám uniklo.",
-
     "listen.questionHint.main_idea": "Premyslite si celkový účel konverzácie.",
     "listen.questionHint.details": "Počúvajte presné informácie.",
     "listen.questionHint.intention": "Premyslite si, čo hovoriaci myslí alebo chce urobiť.",
@@ -1031,7 +948,6 @@
     "listen.questionHint.vocabulary": "Na pochopenie významu použite okolitú konverzáciu.",
     "listen.questionHint.numbers_dates": "Pozorne počúvajte čísla, časy a dátumy.",
     "listen.questionHint.fast_speech": "Zachyťte kľúčové slová, nie každé jedno slovo.",
-
     "listen.stage4.title": "🎧 Lekcia počúvania dokončená!",
     "listen.stage4.comprehension": "Porozumenie počúvania",
     "listen.stage4.dictation": "Diktát",
@@ -1042,7 +958,6 @@
     "listen.stage4.cleanRun": "Nič — bezchybný priebeh",
     "listen.stage4.signInToSave": "Prihláste sa, aby ste si toto skóre z počúvania uložili do svojho pokroku.",
     "listen.stage4.saving": "Ukladá sa váš pokrok…",
-
     "listen.player.audioLabel": "🎧 Zvuk",
     "listen.player.ready": "Pripravené",
     "listen.player.partOf": "Časť {{index}} z {{total}}",
@@ -1053,12 +968,10 @@
     "listen.player.stop": "Zastaviť",
     "listen.player.volumeAria": "Hlasitosť",
     "listen.player.signInToPlay": "Prihláste sa, aby ste mohli prehrať zvuk k tejto lekcii.",
-
     "listen.error.signInToPlay": "Prihláste sa, aby ste mohli prehrať zvuk na počúvanie.",
     "listen.error.playbackFailed": "Prehrávanie zvuku zlyhalo.",
     "listen.error.couldNotPlay": "Zvuk sa nepodarilo prehrať.",
     "listen.error.couldNotSaveProgress": "Váš pokrok v počúvaní sa nepodarilo uložiť.",
-
     "shadow.page.eyebrow": "Knižnica tieňovania",
     "shadow.page.title": "Počúvajte. Tieňujte. Nahrajte. Porovnajte. Zlepšujte sa.",
     "shadow.page.description": "Postupná knižnica pre každú tému: najprv krátke začiatočnícke vety, potom dlhšia a prirodzenejšia angličtina. Precvičujte si niekoľko viet každý deň a nechajte trénera porovnať, čo ste povedali, so vzorom.",
@@ -1067,7 +980,6 @@
     "shadow.topics.free": "{{count}} zadarmo",
     "shadow.topics.loading": "Načítava sa knižnica…",
     "shadow.topics.fallbackName": "Vety",
-
     "shadow.stats.practised": "Precvičené",
     "shadow.stats.mastered": "Zvládnuté",
     "shadow.stats.needsPractice": "Potrebuje precvičiť",
@@ -1075,20 +987,16 @@
     "shadow.stats.practiceTime": "Čas cvičenia",
     "shadow.stats.practiceTimeValue": "{{minutes}} min",
     "shadow.stats.pronunciation": "Výslovnosť",
-
     "shadow.weakest.notice": "Vaše nahrávky ukazujú, že {{skill}} je momentálne najslabšou oblasťou.",
     "shadow.weakest.cta": "Precvičiť túto zručnosť",
-
     "shadow.today.heading": "Dnešné tieňovanie · asi 10 minút",
     "shadow.today.description": "Najprv náročné vety, potom vaše ďalšie nové vety, na záver jedno zopakovanie.",
     "shadow.today.sentenceFallback": "Veta {{n}}",
-
     "shadow.filters.searchPlaceholder": "Hľadať vety…",
     "shadow.filters.allLevels": "Všetky úrovne",
     "shadow.filters.allSentences": "Všetky vety",
     "shadow.filters.free": "Zadarmo",
     "shadow.filters.premium": "⭐ Premium",
-
     "shadow.level.beginner.label": "Začiatočník",
     "shadow.level.beginner.blurb": "Krátke, bežné vety — 5 až 10 slov.",
     "shadow.level.elementary.label": "Mierne pokročilý",
@@ -1097,7 +1005,6 @@
     "shadow.level.intermediate.blurb": "Prirodzená konverzácia, frázové slovesá, súvislá reč.",
     "shadow.level.advanced.label": "Pokročilý",
     "shadow.level.advanced.blurb": "Dlhá, idiomatická a jemne odtienená angličtina rodených hovoriacich.",
-
     "shadow.skill.all": "Všetky zručnosti",
     "shadow.skill.pronunciation": "Výslovnosť",
     "shadow.skill.stress": "Vetný prízvuk",
@@ -1105,14 +1012,12 @@
     "shadow.skill.connectedSpeech": "Súvislá reč",
     "shadow.skill.rhythm": "Rytmus",
     "shadow.skill.fluency": "Plynulosť",
-
     "shadow.status.all": "Všetko",
     "shadow.status.new": "Nové",
     "shadow.status.inProgress": "Rozpracované",
     "shadow.status.needsPractice": "Potrebuje precvičiť",
     "shadow.status.strong": "Silné",
     "shadow.status.mastered": "Zvládnuté",
-
     "shadow.mode.start.label": "Začať od začiatku",
     "shadow.mode.start.blurb": "Od vety 1 vyššie.",
     "shadow.mode.continue.label": "Pokračovať tam, kde ste skončili",
@@ -1125,34 +1030,27 @@
     "shadow.mode.review.blurb": "Vety označené ako vyžadujúce precvičenie.",
     "shadow.mode.mastered.label": "Zvládnuté vety",
     "shadow.mode.mastered.blurb": "Udržujte si ich v pamäti.",
-
     "shadow.group.everyday.name": "Bežná angličtina",
     "shadow.group.everyday.blurb": "Angličtina zo skutočného života na domácnosť, nákupy, jedlo, cestovanie, zdravie, peniaze, telefonáty a voľný čas.",
     "shadow.group.work.name": "Pracovná a profesionálna angličtina",
     "shadow.group.work.blurb": "Jazyk, ktorý môžete používať v práci: stretnutia, prezentácie, e-maily, klientov, spätnú väzbu, projekty a pracovné pohovory.",
-
     "shadow.list.loading": "Načítavajú sa vety…",
     "shadow.list.empty": "Zatiaľ nič nezodpovedá týmto filtrom.",
     "shadow.list.premiumSentence": "Premium veta",
     "shadow.list.free": "ZADARMO",
     "shadow.list.premium": "⭐ PREMIUM",
     "shadow.list.unlockWithPremium": "Odomknúť s Premium",
-
     "shadow.empty.pickSentence": "Vyberte si vetu vľavo a začnite tieňovať.",
-
     "shadow.locked.title": "⭐ Dokončili ste {{count}} bezplatných viet na tieňovanie pre túto tému.",
     "shadow.locked.description": "Odomknite Premium a pokračujte v precvičovaní všetkých {{total}} viet a všetkých úrovní, so spätnou väzbou od AI pri každom pokuse a s celou históriou vášho pokroku.",
     "shadow.locked.cta": "⭐ Odomknúť Premium",
     "shadow.locked.alreadyMember": "Už ste členom?",
     "shadow.locked.signIn": "Prihlásiť sa",
-
     "shadow.position.sentence": "Veta {{n}} / {{total}} · {{cefr}} · {{access}}",
     "shadow.sentenceFallback": "Veta {{n}}",
-
     "shadow.practice.accent.british": "Britská angličtina",
     "shadow.practice.accent.american": "Severoamerická angličtina",
     "shadow.practice.difficulty": "Náročnosť {{n}}/10",
-
     "shadow.practice.step.listen": "Počúvať",
     "shadow.practice.step.listenHint": "Vypočujte si celú vetu prirodzenou rýchlosťou.",
     "shadow.practice.step.shadow": "Tieňovať",
@@ -1165,14 +1063,11 @@
     "shadow.practice.step.tryAgainHint": "Opakujte, kým to nebude ľahké.",
     "shadow.practice.step.mastered": "Zvládnuté",
     "shadow.practice.step.masteredHint": "Dva jasné pokusy za sebou.",
-
     "shadow.practice.hideRelaxed": "Skryť uvoľnenú reč",
     "shadow.practice.showRelaxed": "Zobraziť uvoľnenú reč (neformálne)",
     "shadow.practice.relaxedHint": "Neformálna hovorená podoba — vyššie napísanú vetu vyslovte v starostlivej angličtine.",
-
     "shadow.practice.dialogue.speaking": "🗣️ {{speaker}} hovorí:",
     "shadow.practice.dialogue.someone": "Niekto",
-
     "shadow.practice.listen": "Počúvať",
     "shadow.practice.loop": "Opakovať v slučke",
     "shadow.practice.hideText": "Skryť text",
@@ -1181,19 +1076,15 @@
     "shadow.practice.modelAudioNote": "Vzorový zvuk je AI hlas Lingory s prízvukom {{accent}}, nie ľudská nahrávka.",
     "shadow.practice.signInToHear": "Prihláste sa, aby ste si vypočuli vzorový zvuk.",
     "shadow.practice.playError": "Zvuk sa nepodarilo prehrať.",
-
     "shadow.practice.focus.pronunciation": "Výslovnosť",
     "shadow.practice.focus.stress": "Vetný prízvuk",
     "shadow.practice.focus.intonation": "Intonácia",
     "shadow.practice.focus.connectedSpeech": "Súvislá reč",
     "shadow.practice.grammar": "Gramatika: {{value}}",
-
     "shadow.practice.recorder.busyLabel": "Porovnáva sa vaša reč",
     "shadow.practice.recorder.hint": "Niekoľkokrát si otieňujte zvuk a potom si vetu nahrajte sami.",
     "shadow.practice.recorder.signInToRecord": "Prihláste sa, aby ste mohli nahrávať",
-
     "shadow.practice.yourRecording": "Vaša nahrávka",
-
     "shadow.practice.result.pronunciation": "Výslovnosť",
     "shadow.practice.result.speakingSpeed": "Rýchlosť hovorenia",
     "shadow.practice.result.wpm": " slov/min",
@@ -1201,36 +1092,29 @@
     "shadow.practice.result.heard": "Počuté",
     "shadow.practice.result.fix": "Opraviť",
     "shadow.practice.result.coach": "Tréner",
-
     "shadow.practice.tryAgain": "Skúsiť znova",
     "shadow.practice.nextSentence": "Ďalšia veta",
     "shadow.practice.practiseSkill": "Precvičiť {{skill}}",
     "shadow.practice.useWithCoach": "Použiť s trénerom",
-
     "tests.hero.eyebrow": "Testy hovorenia",
     "tests.hero.title": "Precvičovanie hovorenia IELTS, TOEFL a PTE",
     "tests.hero.description": "Skutočné formáty úloh, skutočné časovače, vaša vlastná nahrávka — a AI odhadované skóre s opravami a vzorovými odpoveďami po každom pokuse.",
-
     "tests.exam.ielts.label": "IELTS Speaking",
     "tests.exam.ielts.blurb": "Part 1-3 a celý skúšobný test.",
     "tests.exam.toefl.label": "TOEFL Speaking",
     "tests.exam.toefl.blurb": "Listen & Repeat a Take an Interview.",
     "tests.exam.pte.label": "PTE Speaking",
     "tests.exam.pte.blurb": "Read Aloud, Repeat Sentence a ďalšie.",
-
     "tests.footer.disclaimer": "Lingora English nie je spojená s IELTS, ETS (TOEFL) ani Pearson (PTE). Všetky zobrazené skóre sú",
     "tests.footer.disclaimerEmphasis": "skóre odhadované umelou inteligenciou",
     "tests.footer.disclaimerSuffix": "len na precvičovanie, nie oficiálny výsledok.",
-
     "tests.stat.testsInLibrary": "Testy v knižnici",
     "tests.stat.testsCompleted": "Dokončené testy",
     "tests.stat.averageBand": "Priemerné pásmo",
     "tests.stat.bestBand": "Najlepšie pásmo",
     "tests.stat.taskFormats": "Formáty úloh",
     "tests.stat.freeTests": "Bezplatné testy",
-
     "tests.partProgress": "Part 1: {{p1}} dokončených · Part 2: {{p2}} dokončených · Part 3: {{p3}} dokončených",
-
     "tests.filter.allParts": "Všetky časti",
     "tests.filter.part1": "Part 1",
     "tests.filter.part2": "Part 2",
@@ -1250,10 +1134,8 @@
     "tests.filter.allTests": "Všetky testy",
     "tests.filter.completed": "Dokončené",
     "tests.filter.notCompleted": "Nedokončené",
-
     "tests.showingIelts": "Zobrazených {{visible}} z {{total}} testov. Prvé tri testy sú úplne zadarmo — otázky, časovače, nahrávanie, AI odhadované pásmo, opravy a vzorové odpovede.",
     "tests.showingExam": "Zobrazených {{visible}} z {{total}} testov {{exam}}. Prvé tri testy sú úplne zadarmo — zadania, časovače, nahrávanie a spätná väzba od AI.",
-
     "tests.card.ieltsNumber": "Test IELTS Speaking #{{number}}",
     "tests.card.examNumber": "Test {{exam}} #{{number}}",
     "tests.card.durationLabel": "Trvanie: {{duration}}",
@@ -1264,10 +1146,8 @@
     "tests.card.notCompleted": "Zatiaľ nedokončené",
     "tests.card.startTest": "Spustiť test",
     "tests.card.unlockWithPremium": "Odomknúť s Premium",
-
     "tests.empty.noMatchPart": "Zatiaľ žiadne testy nezodpovedajú týmto filtrom — skúste vymazať vyhľadávanie alebo vybrať inú časť.",
     "tests.empty.noMatchTask": "Zatiaľ žiadne testy nezodpovedajú týmto filtrom — skúste vymazať vyhľadávanie alebo vybrať inú úlohu.",
-
     "tests.runner.leaveMock": "Opustiť skúšobný test",
     "tests.runner.backToLibrary": "Späť do knižnice testov",
     "tests.runner.backToExamLibrary": "Späť do knižnice {{exam}}",
@@ -1275,19 +1155,16 @@
     "tests.runner.mockAverageSoFar": " · Doterajšie AI odhadované skóre hovorenia: {{average}} / 9.0",
     "tests.runner.ieltsStatus": "Test IELTS Speaking #{{number}} · {{part}} · {{difficulty}}",
     "tests.runner.examStatus": "Test {{exam}} #{{number}} · {{task}} · {{difficulty}}",
-
     "tests.runner.cueCard": "Kartička s témou",
     "tests.runner.partQuestion": "Otázka časti {{part}}",
     "tests.runner.nextQuestion": "Ďalšia otázka",
     "tests.runner.nextPrompt": "Ďalšie zadanie ({{current}}/{{total}})",
     "tests.runner.questionOf": " · Otázka {{current}} z {{total}}",
-
     "tests.runner.prep1Min": "1-minútová príprava",
     "tests.runner.prepSeconds": "{{seconds}} s príprava",
     "tests.runner.noPrepTime": "Žiadny čas na prípravu",
     "tests.runner.prepTimeSeconds": "{{seconds}} s času na prípravu",
     "tests.runner.promptCount": "{{count}} zadaní v tomto teste",
-
     "tests.runner.busyMarking": "Vyhodnocuje sa vaša odpoveď",
     "tests.runner.busyScoring": "Bodovanie vašej odpovede",
     "tests.runner.hintPart2": "Hovorte jednu až dve minúty.",
@@ -1295,12 +1172,10 @@
     "tests.runner.hintReadBack": "Povedzte vetu presne tak, ako ste ju počuli.",
     "tests.runner.hintOpenTask": "Odpovedajte v celých vetách a hovorte, kým čas nevyprší.",
     "tests.runner.signInToRecord": "Prihláste sa, aby ste mohli nahrávať",
-
     "tests.runner.couldNotHear": "Nepočula som to. Nahrajte to znova.",
     "tests.runner.loadErrorIelts": "Knižnicu testov hovorenia sa nepodarilo načítať.",
     "tests.runner.loadErrorExam": "Knižnicu testov sa nepodarilo načítať.",
     "tests.runner.mockLibraryLoading": "Skúšobný test čaká, kým sa knižnica dokončí načítavať.",
-
     "tests.score.aiEstimated": "AI odhadované skóre hovorenia",
     "tests.score.aiEstimatedScore": "AI odhadované skóre",
     "tests.score.fluencyCoherence": "Plynulosť a súvislosť",
@@ -1308,7 +1183,6 @@
     "tests.score.grammaticalRange": "Gramatický rozsah a presnosť",
     "tests.score.pronunciationHint": "Výslovnosť",
     "tests.score.accuracyAgainstTarget": "Presnosť voči cieľu",
-
     "tests.block.yourAnswer": "Vaša odpoveď",
     "tests.block.corrected": "Opravené",
     "tests.block.moreNatural": "Prirodzenejšie",
@@ -1319,11 +1193,9 @@
     "tests.block.whatWeHeard": "Čo sme počuli",
     "tests.block.wordsToFix": "Slová na opravu",
     "tests.block.noneWellDone": "Žiadne — výborne.",
-
     "tests.action.tryAgain": "Skúsiť znova",
     "tests.action.continueNextPart": "Pokračovať ďalšou časťou",
     "tests.action.practisePronunciation": "Precvičiť výslovnosť",
-
     "tests.sidebar.howPartsWork": "Ako fungujú jednotlivé časti",
     "tests.sidebar.part1Title": "Part 1",
     "tests.sidebar.part1Body": "bežné otázky o vás.",
@@ -1335,8 +1207,8 @@
     "tests.sidebar.thisTest": "Tento test",
     "tests.sidebar.responseSuffix": " odpoveď",
     "tests.sidebar.warmUpWithCoach": "Rozohrejte sa so svojím trénerom",
-
     "tests.duration.3to4": "3 – 4 min",
-    "tests.duration.4to5": "4 – 5 min"
+    "tests.duration.4to5": "4 – 5 min",
+    "app.home.features.explore": "Preskúmať"
   }
 }

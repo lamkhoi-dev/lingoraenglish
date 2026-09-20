@@ -1208,6 +1208,7 @@
     "tests.sidebar.warmUpWithCoach": "Розігрійтеся з тренером",
     "tests.duration.3to4": "3-4 хв",
     "tests.duration.4to5": "4-5 хв",
-    "lily.tapToStart": "Натисніть \"Розпочати розмову\", і Lingora English привітається першим."
+    "lily.tapToStart": "Натисніть \"Розпочати розмову\", і Lingora English привітається першим.",
+    "app.home.features.explore": "Дослідити"
   }
 }

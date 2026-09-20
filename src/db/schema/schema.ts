@@ -695,6 +695,12 @@ export const profiles = pgTable("profiles", {
 	ageRange: text("age_range").default('').notNull(),
 	termsAcceptedAt: timestamp("terms_accepted_at", { withTimezone: true, mode: 'string' }),
 	privacyAcceptedAt: timestamp("privacy_accepted_at", { withTimezone: true, mode: 'string' }),
+	/** Onboarding Q2 "What do you want to improve most?" — multi-select,
+	 * values are onboarding_options.option_value rows for question_key
+	 * 'focus_areas' (speaking/listening/pronunciation/vocabulary/grammar/
+	 * fluency). Not read anywhere yet (net-new, 2026-09-18) — display-only
+	 * on /account for now, same as learningGoal. */
+	focusAreas: text("focus_areas").array().default([]).notNull(),
 }, (table) => [
 	foreignKey({
 			columns: [table.id],
@@ -704,6 +710,31 @@ export const profiles = pgTable("profiles", {
 	pgPolicy("own profile update", { as: "permissive", for: "update", to: ["authenticated"], using: sql`(id = auth.uid())`, withCheck: sql`(id = auth.uid())`  }),
 	pgPolicy("own profile insert", { as: "permissive", for: "insert", to: ["authenticated"] }),
 	pgPolicy("own profile read", { as: "permissive", for: "select", to: ["authenticated"] }),
+]);
+
+/** Admin-editable options for the 5-question onboarding survey (added
+ * 2026-09-18, replaces the old hard-coded 4-step wizard). question_key is
+ * one of 5 fixed slots the app's own logic understands (see onboarding.tsx/
+ * completeOnboarding) — admin can add/edit/reorder/hide OPTIONS within a
+ * slot, not invent new slots (that needs a code change). Readable by anyone,
+ * including signed-out visitors, since onboarding can start before login. */
+export const onboardingOptions = pgTable("onboarding_options", {
+	id: uuid().defaultRandom().primaryKey().notNull(),
+	questionKey: text("question_key").notNull(),
+	optionValue: text("option_value").notNull(),
+	labelEn: text("label_en").default('').notNull(),
+	labelVi: text("label_vi").default('').notNull(),
+	sortOrder: integer("sort_order").default(0).notNull(),
+	isActive: boolean("is_active").default(true).notNull(),
+	createdAt: timestamp("created_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
+}, (table) => [
+	unique("onboarding_options_unique").on(table.questionKey, table.optionValue),
+	pgPolicy("onboarding_options_admin", { as: "permissive", for: "all", to: ["authenticated"], using: sql`has_role(auth.uid(), 'admin'::app_role)`, withCheck: sql`has_role(auth.uid(), 'admin'::app_role)`  }),
+	// Explicit `using: sql\`true\`` is load-bearing, not decorative — a SELECT
+	// policy with no USING clause denies every row (verified on scratch
+	// Postgres; see the matching comment in 0012_onboarding_survey.sql).
+	pgPolicy("onboarding_options_read", { as: "permissive", for: "select", to: ["public"], using: sql`true` }),
+	check("onboarding_options_question_key_check", sql`question_key = ANY (ARRAY['goal'::text, 'focus_areas'::text, 'minutes'::text, 'level'::text, 'instruction_language'::text])`),
 ]);
 
 export const shadowingTopics = pgTable("shadowing_topics", {

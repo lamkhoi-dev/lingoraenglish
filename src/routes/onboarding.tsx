@@ -1,19 +1,31 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { ArrowLeft, ArrowRight, Check, Globe, Sparkles } from "lucide-react";
-import { useState } from "react";
+import { ArrowLeft, ArrowRight, Check, Loader2, Sparkles } from "lucide-react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
+import { z } from "zod";
 
-import { AppShell } from "@/components/lily/app-shell";
-import { completeOnboarding } from "@/lib/account.functions";
+import { Spotlights } from "@/components/lily/brand";
+import { completeOnboarding, skipOnboarding } from "@/lib/account.functions";
 import { useAuth } from "@/lib/auth";
-import { LANGUAGES, useI18n, type LocaleCode } from "@/lib/i18n";
-import { en, type TranslationKey } from "@/locales/en";
+import { postAuthNavigation, savePendingSurvey, type SurveyAnswers } from "@/lib/onboarding-flow";
+import { getOnboardingOptions, type OnboardingQuestionKey } from "@/lib/onboarding.functions";
 import { cn } from "@/lib/utils";
+import { en, type TranslationKey } from "@/locales/en";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/onboarding")({
+  // Where to go afterwards — set by OnboardingGate (page the learner was
+  // heading to) and by /auth (plan picked on /pricing), so the survey never
+  // costs them their place.
+  validateSearch: z.object({
+    next: z.string().optional(),
+    plan: z.string().optional(),
+    interval: z.enum(["month", "year"]).optional(),
+  }),
   head: () => ({
     meta: [
+      NOINDEX_META,
       { title: `${en["onboarding.title"]} — ${en["brand.name"]}` },
       { name: "description", content: en["onboarding.sub"] },
       { property: "og:title", content: `${en["onboarding.title"]} — ${en["brand.name"]}` },
@@ -23,51 +35,46 @@ export const Route = createFileRoute("/onboarding")({
   component: OnboardingPage,
 });
 
-const LEVELS: { value: string; key: TranslationKey }[] = [
-  { value: "A1", key: "level.A1" },
-  { value: "A2", key: "level.A2" },
-  { value: "B1", key: "level.B1" },
-  { value: "B2", key: "level.B2" },
-  { value: "C1", key: "level.C1" },
-  { value: "C2", key: "level.C2" },
-];
+type Option = { value: string; label_en: string; label_vi: string };
+type OptionsByQuestion = Record<OnboardingQuestionKey, Option[]>;
 
-const GOALS: { value: string; key: TranslationKey }[] = [
-  { value: "confidence", key: "goal.confidence" },
-  { value: "pronunciation", key: "goal.pronunciation" },
-  { value: "work", key: "goal.work" },
-  { value: "travel", key: "goal.travel" },
-  { value: "ielts", key: "goal.ielts" },
-  { value: "toeic", key: "goal.toeic" },
-  { value: "study", key: "goal.study" },
-  { value: "daily", key: "goal.daily" },
-  { value: "business", key: "goal.business" },
-  { value: "interview", key: "goal.interview" },
-];
+const TOTAL_STEPS = 5;
 
-const MINUTES = [5, 10, 15, 30, 60];
-const TOTAL_STEPS = 4;
+/** The survey is English-only on purpose: it has no header (so no language
+ * switcher) and it is the one screen every new learner must get through, so it
+ * must not depend on whatever interface language they happened to land in.
+ * Question 5 is where they choose the language for instructions afterwards. */
+function t(key: TranslationKey, vars?: Record<string, string | number>): string {
+  return en[key].replace(/\{\{(\w+)\}\}/g, (_m, name: string) => String(vars?.[name] ?? ""));
+}
+
+/** Deliberately not AppShell: the survey is a focused 5-step flow, so no site
+ * header, footer or banners — just the brand background and the steps. */
+function OnboardingShell({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="relative min-h-screen bg-background spotlight">
+      <Spotlights />
+      <main className="relative mx-auto flex min-h-screen max-w-2xl flex-col justify-center px-5 py-10 sm:px-8">
+        {children}
+      </main>
+    </div>
+  );
+}
 
 function OptionButton({
   selected,
   onClick,
   children,
-  lang,
-  dir,
 }: {
   selected: boolean;
   onClick: () => void;
   children: React.ReactNode;
-  lang?: string;
-  dir?: "ltr" | "rtl";
 }) {
   return (
     <button
       type="button"
       onClick={onClick}
       aria-pressed={selected}
-      lang={lang}
-      dir={dir}
       className={cn(
         "flex items-center justify-between gap-3 rounded-2xl px-4 py-3.5 text-start text-sm font-medium ring-1 transition-colors",
         selected
@@ -81,42 +88,86 @@ function OptionButton({
   );
 }
 
+/**
+ * Redesigned 2026-09-18 to the customer's 5-question survey (was 4 steps:
+ * interface language / native language / CEFR level+target / goal+minutes).
+ * Interface language is dropped here — it's already selectable from the
+ * header/footer LanguageSelector and from /account. Question text and the
+ * options themselves come from getOnboardingOptions (admin-editable in
+ * /admin's "Onboarding" tab), not hard-coded, so the customer's next round
+ * of survey-question changes doesn't need a code deploy.
+ *
+ * Two entry points, one page: a visitor with no account answers it BEFORE
+ * signing up (answers are parked in onboarding-flow.ts, then sent to /auth);
+ * a signed-in learner who hasn't done it yet — e.g. a first Google sign-in,
+ * which has no survey step of its own — is sent here by OnboardingGate and the
+ * answers are saved straight to their profile.
+ */
 function OnboardingPage() {
-  const { t, locale, setLocale, language, languages } = useI18n();
   const { user, refreshProfile } = useAuth();
   const navigate = useNavigate();
+  const { next, plan, interval } = Route.useSearch();
+  const getOptionsFn = useServerFn(getOnboardingOptions);
   const completeOnboardingFn = useServerFn(completeOnboarding);
-
+  const skipOnboardingFn = useServerFn(skipOnboarding);
   const [step, setStep] = useState(1);
-  const [native, setNative] = useState<string>(language.english);
-  const [level, setLevel] = useState("A2");
-  const [target, setTarget] = useState("B2");
-  const [goal, setGoal] = useState("confidence");
-  const [minutes, setMinutes] = useState(10);
+  const [options, setOptions] = useState<OptionsByQuestion | null>(null);
+  const [goal, setGoal] = useState("");
+  const [focusAreas, setFocusAreas] = useState<string[]>([]);
+  const [minutes, setMinutes] = useState("");
+  const [level, setLevel] = useState("");
+  const [instructionLanguage, setInstructionLanguage] = useState<"en" | "vi">("en");
   const [saving, setSaving] = useState(false);
+
+  useEffect(() => {
+    void getOptionsFn({ data: undefined as never })
+      .then((res) => {
+        setOptions(res);
+        setGoal((g) => g || res.goal[0]?.value || "");
+        setMinutes((m) => m || res.minutes[0]?.value || "");
+        setLevel((l) => l || res.level[0]?.value || "");
+      })
+      .catch(() => toast.error(t("common.somethingWrong")));
+  }, [getOptionsFn]);
+
+  const label = (o: Option) => o.label_en;
+
+  const toggleFocusArea = (value: string) => {
+    setFocusAreas((prev) => (prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]));
+  };
+
+  const canNext = () => {
+    if (step === 1) return !!goal;
+    if (step === 3) return !!minutes;
+    if (step === 4) return !!level;
+    return true;
+  };
+
+  // Not signed in yet → on to the sign-up form (survey comes first, account
+  // second); signed in → on to wherever the learner was heading.
+  const afterSurvey = () =>
+    user
+      ? navigate(postAuthNavigation({ next, plan, interval }, "/ai-speaking") as never)
+      : navigate({ to: "/auth", search: { mode: "signup", next, plan, interval } as never });
 
   const finish = async () => {
     setSaving(true);
     try {
-      window.localStorage.setItem(
-        "lily.onboarding",
-        JSON.stringify({ locale, native, level, target, goal, minutes }),
-      );
+      const answers: SurveyAnswers = {
+        goal,
+        focusAreas,
+        dailyGoalMinutes: Number(minutes) || 10,
+        englishLevel: (level === "unsure" ? "B1" : level) as SurveyAnswers["englishLevel"],
+        instructionLanguage,
+      };
       if (user) {
-        await completeOnboardingFn({
-          data: {
-            interfaceLanguage: locale,
-            nativeLanguage: native,
-            englishLevel: level as "A1" | "A2" | "B1" | "B2" | "C1" | "C2",
-            targetLevel: target as "A1" | "A2" | "B1" | "B2" | "C1" | "C2",
-            learningGoal: goal,
-            dailyGoalMinutes: minutes,
-          },
-        });
+        await completeOnboardingFn({ data: answers });
         await refreshProfile();
+        toast.success(t("onboarding.done"));
+      } else {
+        savePendingSurvey({ answers });
       }
-      toast.success(t("onboarding.done"));
-      await navigate({ to: user ? "/ai-speaking" : "/auth" });
+      await afterSurvey();
     } catch {
       toast.error(t("common.somethingWrong"));
     } finally {
@@ -124,8 +175,32 @@ function OnboardingPage() {
     }
   };
 
+  const skip = async () => {
+    try {
+      if (user) {
+        await skipOnboardingFn();
+        await refreshProfile();
+      } else {
+        savePendingSurvey({ skipped: true });
+      }
+      await afterSurvey();
+    } catch {
+      toast.error(t("common.somethingWrong"));
+    }
+  };
+
+  if (!options) {
+    return (
+      <OnboardingShell>
+        <div className="flex min-h-[50vh] items-center justify-center">
+          <Loader2 className="size-6 animate-spin text-brass-soft" />
+        </div>
+      </OnboardingShell>
+    );
+  }
+
   return (
-    <AppShell>
+    <OnboardingShell>
       <div className="mx-auto max-w-2xl">
         <div className="flex items-center gap-2 text-brass-soft">
           <Sparkles className="size-4" />
@@ -146,24 +221,11 @@ function OnboardingPage() {
         <div className="lounge-panel mt-8 p-5 sm:p-7">
           {step === 1 && (
             <>
-              <h2 className="flex items-center gap-2 font-display text-lg text-foreground">
-                <Globe className="size-4 text-brass" />
-                {t("onboarding.q.language")}
-              </h2>
-              <p className="mt-2 text-xs text-muted-foreground">{t("lang.note")}</p>
-              <div className="mt-5 grid max-h-[28rem] gap-2 overflow-y-auto pe-1 sm:grid-cols-2">
-                {languages.map((l) => (
-                  <OptionButton
-                    key={l.code}
-                    selected={l.code === locale}
-                    onClick={() => setLocale(l.code as LocaleCode)}
-                    lang={l.code}
-                    dir={l.dir}
-                  >
-                    <span aria-hidden className="me-2">
-                      {l.flag}
-                    </span>
-                    {l.native}
+              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.goal")}</h2>
+              <div className="mt-5 grid gap-2 sm:grid-cols-2">
+                {options.goal.map((o) => (
+                  <OptionButton key={o.value} selected={goal === o.value} onClick={() => setGoal(o.value)}>
+                    {label(o)}
                   </OptionButton>
                 ))}
               </div>
@@ -172,17 +234,16 @@ function OnboardingPage() {
 
           {step === 2 && (
             <>
-              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.native")}</h2>
+              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.focus")}</h2>
+              <p className="mt-2 text-xs text-muted-foreground">{t("onboarding.q.focusHint")}</p>
               <div className="mt-5 grid gap-2 sm:grid-cols-2">
-                {LANGUAGES.map((l) => (
+                {options.focus_areas.map((o) => (
                   <OptionButton
-                    key={l.code}
-                    selected={native === l.english}
-                    onClick={() => setNative(l.english)}
-                    lang={l.code}
-                    dir={l.dir}
+                    key={o.value}
+                    selected={focusAreas.includes(o.value)}
+                    onClick={() => toggleFocusArea(o.value)}
                   >
-                    {l.native}
+                    {label(o)}
                   </OptionButton>
                 ))}
               </div>
@@ -191,19 +252,11 @@ function OnboardingPage() {
 
           {step === 3 && (
             <>
-              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.level")}</h2>
+              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.minutes")}</h2>
               <div className="mt-5 grid gap-2 sm:grid-cols-2">
-                {LEVELS.map((l) => (
-                  <OptionButton key={l.value} selected={level === l.value} onClick={() => setLevel(l.value)}>
-                    {t(l.key)}
-                  </OptionButton>
-                ))}
-              </div>
-              <h3 className="mt-7 font-display text-base text-foreground">{t("account.targetLevel")}</h3>
-              <div className="mt-3 grid gap-2 sm:grid-cols-2">
-                {LEVELS.map((l) => (
-                  <OptionButton key={l.value} selected={target === l.value} onClick={() => setTarget(l.value)}>
-                    {t(l.key)}
+                {options.minutes.map((o) => (
+                  <OptionButton key={o.value} selected={minutes === o.value} onClick={() => setMinutes(o.value)}>
+                    {label(o)}
                   </OptionButton>
                 ))}
               </div>
@@ -212,31 +265,29 @@ function OnboardingPage() {
 
           {step === 4 && (
             <>
-              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.goal")}</h2>
+              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.level")}</h2>
               <div className="mt-5 grid gap-2 sm:grid-cols-2">
-                {GOALS.map((g) => (
-                  <OptionButton key={g.value} selected={goal === g.value} onClick={() => setGoal(g.value)}>
-                    {t(g.key)}
+                {options.level.map((o) => (
+                  <OptionButton key={o.value} selected={level === o.value} onClick={() => setLevel(o.value)}>
+                    {label(o)}
                   </OptionButton>
                 ))}
               </div>
-              <h3 className="mt-7 font-display text-base text-foreground">{t("onboarding.q.minutes")}</h3>
-              <div className="mt-3 flex flex-wrap gap-2">
-                {MINUTES.map((m) => (
-                  <button
-                    key={m}
-                    type="button"
-                    onClick={() => setMinutes(m)}
-                    aria-pressed={minutes === m}
-                    className={cn(
-                      "rounded-full px-4 py-2.5 text-sm font-semibold ring-1 transition-colors",
-                      minutes === m
-                        ? "bg-brass text-background ring-brass"
-                        : "bg-surface-2 text-foreground ring-border hover:bg-surface-3",
-                    )}
+            </>
+          )}
+
+          {step === 5 && (
+            <>
+              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.instructionLanguage")}</h2>
+              <div className="mt-5 grid gap-2 sm:grid-cols-2">
+                {options.instruction_language.map((o) => (
+                  <OptionButton
+                    key={o.value}
+                    selected={instructionLanguage === o.value}
+                    onClick={() => setInstructionLanguage(o.value as "en" | "vi")}
                   >
-                    {t("common.minutes", { count: m })}
-                  </button>
+                    {label(o)}
+                  </OptionButton>
                 ))}
               </div>
             </>
@@ -256,7 +307,7 @@ function OnboardingPage() {
           <div className="flex items-center gap-2">
             <button
               type="button"
-              onClick={() => void navigate({ to: "/ai-speaking" })}
+              onClick={() => void skip()}
               className="rounded-full px-4 py-3 text-sm font-medium text-muted-foreground hover:text-foreground"
             >
               {t("common.skip")}
@@ -264,8 +315,9 @@ function OnboardingPage() {
             {step < TOTAL_STEPS ? (
               <button
                 type="button"
+                disabled={!canNext()}
                 onClick={() => setStep((s) => s + 1)}
-                className="inline-flex items-center gap-2 rounded-full bg-brass px-5 py-3 text-sm font-semibold text-background shadow-brass"
+                className="inline-flex items-center gap-2 rounded-full bg-brass px-5 py-3 text-sm font-semibold text-background shadow-brass disabled:opacity-60"
               >
                 {t("common.next")}
                 <ArrowRight className="size-4 rtl:rotate-180" />
@@ -273,7 +325,7 @@ function OnboardingPage() {
             ) : (
               <button
                 type="button"
-                disabled={saving}
+                disabled={saving || !canNext()}
                 onClick={() => void finish()}
                 className="inline-flex items-center gap-2 rounded-full bg-brass px-5 py-3 text-sm font-semibold text-background shadow-brass disabled:opacity-60"
               >
@@ -284,6 +336,6 @@ function OnboardingPage() {
           </div>
         </div>
       </div>
-    </AppShell>
+    </OnboardingShell>
   );
 }

@@ -29,7 +29,7 @@ import {
 import { DEMO_SPEAKING } from "@/lib/demo-data";
 import { useI18n } from "@/lib/i18n";
 import { transcribeAudio, type SpeakingAnalysis } from "@/lib/lily.functions";
-import { hreflangLinks } from "@/lib/seo";
+import { canonicalLink } from "@/lib/seo";
 import { cn } from "@/lib/utils";
 
 const TITLE = "AI Speaking Coach — Lingora English";
@@ -44,7 +44,7 @@ export const Route = createFileRoute("/ai-speaking")({
       { property: "og:title", content: TITLE },
       { property: "og:description", content: DESCRIPTION },
     ],
-    links: hreflangLinks("/ai-speaking"),
+    links: [canonicalLink("/ai-speaking")],
   }),
   component: CoachPage,
 });

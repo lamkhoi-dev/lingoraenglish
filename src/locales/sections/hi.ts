@@ -319,6 +319,7 @@ export const sectionsHi: Dictionary = {
   "app.home.features.listening.body": "वास्तविक बातचीत, कॉम्प्रिहेंशन प्रश्नों और डिक्टेशन के साथ अपने सुनने के कौशल को बेहतर बनाएं।",
   "app.home.features.vocab.title": "स्पीकिंग के लिए वोकैबुलरी",
   "app.home.features.vocab.body": "उपयोगी शब्द सीखें और तुरंत बोलचाल के वाक्यों में उनका उपयोग करें।",
+  "app.home.features.explore": "एक्सप्लोर करें",
   "app.home.how.title": "Lingora कैसे काम करता है",
   "app.home.how.1": "बोलें",
   "app.home.how.2": "AI आपकी स्पीच का विश्लेषण करता है",

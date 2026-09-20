@@ -9,7 +9,6 @@
     "brand.short": "Lingora English",
     "brand.line1": "Lingora English",
     "brand.tagline": "ครูสอนภาษาอังกฤษ AI ส่วนตัวของคุณ",
-
     "nav.home": "หน้าแรก",
     "nav.coach": "โค้ชฝึกพูด AI",
     "nav.shadowing": "ฝึกพูดตาม",
@@ -27,7 +26,6 @@
     "nav.language": "ภาษา",
     "nav.admin": "ผู้ดูแลระบบ",
     "nav.menu": "เมนู",
-
     "lang.title": "ภาษา",
     "lang.choose": "เลือกภาษาของคุณ",
     "lang.interface": "ภาษาที่ใช้แสดงผล",
@@ -35,7 +33,6 @@
     "lang.keepEnglish": "ใช้ภาษาอังกฤษต่อไป",
     "lang.switchTo": "เปลี่ยนเป็น {{language}}",
     "lang.note": "หน้าจอจะเปลี่ยนภาษา แต่เนื้อหาภาษาอังกฤษที่คุณฝึกยังคงเป็นภาษาอังกฤษเหมือนเดิม",
-
     "common.signIn": "เข้าสู่ระบบ",
     "common.signUp": "สร้างบัญชี",
     "common.signOut": "ออกจากระบบ",
@@ -92,7 +89,6 @@
     "checkout.continueWhere": "ทำต่อจากที่ค้างไว้",
     "common.somethingWrong": "เกิดข้อผิดพลาดบางอย่าง",
     "common.demoMode": "โหมดตัวอย่าง",
-
     "home.heroSub": "ฝึกพูด พัฒนาการออกเสียง เรียนรู้คำศัพท์ และสร้างความมั่นใจในภาษาอังกฤษไปกับ Lingora English",
     "home.badge": "ครูสอนภาษาอังกฤษ AI",
     "home.cta.start": "เริ่มเรียน",
@@ -135,7 +131,6 @@
     "home.cta2.button": "เริ่มพูดกับ Lingora English",
     "home.meta.title": "Lingora English — ครูสอนภาษาอังกฤษ AI ส่วนตัวของคุณ",
     "home.meta.description": "ฝึกพูด พัฒนาการออกเสียง และฝึกซ้อม IELTS กับ Lingora English ครูสอนภาษาอังกฤษ AI ที่ใจเย็นสำหรับผู้เรียนทั่วโลก",
-
     "auth.welcome": "ยินดีต้อนรับกลับมา",
     "auth.create": "สร้างบัญชีของคุณ",
     "auth.reset": "รีเซ็ตรหัสผ่านของคุณ",
@@ -154,7 +149,6 @@
     "auth.resetSent": "ส่งลิงก์รีเซ็ตแล้ว — ตรวจสอบอีเมลของคุณ",
     "auth.welcomeBack": "ยินดีต้อนรับกลับมา!",
     "auth.created": "สร้างบัญชีแล้ว คุณเข้าสู่ระบบแล้ว!",
-
     "onboarding.title": "มาตั้งค่าภาษาอังกฤษของคุณกัน",
     "onboarding.sub": "คำถามสั้น ๆ สี่ข้อ เพื่อให้ Lingora English สอนคุณในแบบที่คุณเรียนรู้ได้ดีที่สุด",
     "onboarding.step": "ขั้นตอน {{current}} จาก {{total}}",
@@ -164,14 +158,12 @@
     "onboarding.q.goal": "เป้าหมายของคุณคืออะไร?",
     "onboarding.q.minutes": "คุณฝึกได้กี่นาทีต่อวัน?",
     "onboarding.done": "พร้อมแล้ว Lingora English กำลังรอคุณอยู่",
-
     "level.A1": "A1 — ผู้เริ่มต้น",
     "level.A2": "A2 — ระดับพื้นฐาน",
     "level.B1": "B1 — ระดับกลาง",
     "level.B2": "B2 — ระดับกลางค่อนข้างสูง",
     "level.C1": "C1 — ระดับสูง",
     "level.C2": "C2 — ระดับเชี่ยวชาญ",
-
     "goal.confidence": "พูดภาษาอังกฤษอย่างมั่นใจ",
     "goal.pronunciation": "พัฒนาการออกเสียง",
     "goal.work": "ภาษาอังกฤษเพื่อการทำงาน",
@@ -182,7 +174,6 @@
     "goal.daily": "ภาษาอังกฤษในชีวิตประจำวัน",
     "goal.business": "ภาษาอังกฤษธุรกิจ",
     "goal.interview": "สัมภาษณ์งาน",
-
     "lily.title": "Lingora English",
     "lily.sub": "ครูสอนภาษาอังกฤษส่วนตัวของคุณ พร้อมให้บริการทุกเมื่อ",
     "lily.intro": "เลือกหัวข้อแล้วเริ่มพูดคุย Lingora English จดจำบทสนทนานี้และมีคำถามให้คุณตอบเสมอ",
@@ -208,7 +199,6 @@
     "lily.notHeard": "Lingora English ไม่ได้ยินสิ่งที่คุณพูด — ลองอีกครั้ง",
     "lily.meta.title": "Lingora English — ครูสอนภาษาอังกฤษ AI ส่วนตัวของคุณ",
     "lily.meta.description": "พูดคุยกับ Lingora English เรื่องชีวิตประจำวัน การทำงาน การเดินทาง และอื่น ๆ เธอฟัง ตอบกลับอย่างเป็นธรรมชาติ และถามคำถามต่อเนื่องเสมอ",
-
     "speaking.title": "ฝึกพูด",
     "speaking.sub": "ตอบด้วยเสียงพูด Lingora English จะถอดเสียงสิ่งที่คุณพูดจริง ๆ แล้วแสดงวิธีพูดให้ดีขึ้น",
     "speaking.question": "คำถามของคุณ",
@@ -230,7 +220,6 @@
     "speaking.hint": "พูดอย่างเป็นธรรมชาติ — Lingora English กำลังฟังอย่างอดทน",
     "speaking.meta.title": "ฝึกพูดด้วย AI — Lingora English",
     "speaking.meta.description": "บันทึกคำตอบของคุณต่อคำถามภาษาอังกฤษจริงและรับคำแนะนำด้านความคล่องแคล่ว ไวยากรณ์ และคำศัพท์ทันทีจาก Lingora English",
-
     "pron.title": "โค้ชการออกเสียง Lingora English",
     "pron.sub": "เรียนรู้ทุกเสียงภาษาอังกฤษด้วยคำแนะนำตำแหน่งปากและลิ้นที่ชัดเจน แล้วบันทึกเสียงตัวเองเพื่อเปรียบเทียบ",
     "pron.tab.sounds": "เสียง IPA",
@@ -252,7 +241,6 @@
     "pron.accent.uk": "ภาษาอังกฤษแบบอังกฤษ",
     "pron.meta.title": "โค้ชการออกเสียงภาษาอังกฤษ — IPA คู่เสียงคล้าย และการเน้นเสียง",
     "pron.meta.description": "ฝึกเสียง IPA ภาษาอังกฤษทุกเสียง คู่เสียงคล้าย การเน้นเสียงคำและทำนองเสียงกับ Lingora English พร้อมคำแนะนำที่ตรงไปตรงมาและเข้าใจง่าย",
-
     "vocab.title": "คำศัพท์",
     "vocab.sub": "คำศัพท์ภาษาอังกฤษพร้อม IPA คำจำกัดความภาษาอังกฤษ ตัวอย่าง และความหมายในภาษาของคุณ",
     "vocab.definition": "คำจำกัดความภาษาอังกฤษ",
@@ -266,7 +254,6 @@
     "vocab.learning": "กำลังเรียนรู้",
     "vocab.meta.title": "คำศัพท์ภาษาอังกฤษพร้อม IPA และเสียง — Lingora English",
     "vocab.meta.description": "เรียนรู้คำศัพท์ภาษาอังกฤษตามหมวดหมู่พร้อม IPA เสียง ประโยคตัวอย่าง และคำแปลในภาษาของคุณเอง",
-
     "grammar.title": "โค้ชไวยากรณ์ Lingora English",
     "grammar.sub": "คำอธิบายที่ชัดเจน ตัวอย่างจริง และแบบฝึกหัดที่ Lingora English ตรวจให้คุณ",
     "grammar.explanation": "คำอธิบาย",
@@ -282,7 +269,6 @@
     "grammar.incorrect": "ยังไม่ถูกต้อง",
     "grammar.meta.title": "โค้ชไวยากรณ์ภาษาอังกฤษ — กาล กริยาช่วย ประโยคเงื่อนไข",
     "grammar.meta.description": "เรียนรู้ไวยากรณ์ภาษาอังกฤษกับ Lingora English คำอธิบายที่ชัดเจน ตัวอย่าง แบบฝึกหัด และการแก้ไขด้วย AI ทันที",
-
     "listen.title": "ฝึกฟัง",
     "listen.sub": "ฟังภาษาอังกฤษที่เป็นธรรมชาติ แล้วตอบคำถาม เติมช่องว่าง หรือเขียนสิ่งที่คุณได้ยิน",
     "listen.play": "เล่นเสียง",
@@ -295,7 +281,6 @@
     "listen.correctAnswers": "คำตอบที่ถูกต้อง",
     "listen.meta.title": "ฝึกฟังภาษาอังกฤษ A1–C1 — Lingora English",
     "listen.meta.description": "ฝึกฟังและเลือกคำตอบ เขียนตามคำบอก และฝึกพูดตามในระดับ A1 ถึง C1 พร้อมบทถอดเสียงและคำอธิบาย",
-
     "ielts.title": "IELTS Speaking โดย Lingora English",
     "ielts.sub": "ฝึกซ้อม Part 1, 2 และ 3 พร้อมการวิเคราะห์คำตอบของคุณแบบกรรมการสอบ",
     "ielts.part1": "Part 1",
@@ -318,7 +303,6 @@
     "ielts.band8": "ตัวอย่าง Band 8",
     "ielts.meta.title": "ฝึกพูด IELTS พร้อมประเมินแบนด์ด้วย AI — Lingora English",
     "ielts.meta.description": "ฝึกพูด IELTS Part 1, 2 และ 3 กับ Lingora English และรับแบนด์คะแนนโดยประมาณ พร้อมตัวอย่างคำตอบระดับ Band 6, 7 และ 8",
-
     "progress.title": "ความคืบหน้าของฉัน",
     "progress.sub": "ทุกสิ่งที่ Lingora English ได้ยินจากคุณ และสิ่งที่ควรฝึกต่อไป",
     "progress.streak": "สถิติการเรียนต่อเนื่อง",
@@ -343,7 +327,6 @@
     "progress.empty": "ยังไม่มีข้อมูลที่นี่ — การฝึกครั้งแรกของคุณจะปรากฏขึ้นทันที",
     "progress.meta.title": "ความคืบหน้าภาษาอังกฤษของฉัน — Lingora English",
     "progress.meta.description": "ติดตามคะแนนการพูด การออกเสียงรายเสียง สถิติต่อเนื่อง และเวลาฝึกฝน พร้อมรับแผนรายวันที่ปรับให้เหมาะกับคุณ",
-
     "account.title": "บัญชีของฉัน",
     "account.sub": "โปรไฟล์ ภาษา และความเป็นส่วนตัวของคุณ",
     "account.profile": "โปรไฟล์",
@@ -365,7 +348,6 @@
     "account.deleted": "ข้อมูลการฝึกของคุณถูกลบแล้ว",
     "account.meta.title": "บัญชีของฉัน — Lingora English",
     "account.meta.description": "จัดการภาษาที่ใช้แสดงผล ภาษาแม่ ระดับภาษาอังกฤษ เป้าหมายรายวัน โหมดการเรียนรู้ และการตั้งค่าความเป็นส่วนตัว",
-
     "admin.title": "แดชบอร์ดผู้ดูแลระบบ",
     "admin.sub": "นักเรียน เนื้อหา คำแปล และการใช้งาน AI",
     "admin.tab.students": "นักเรียน",
@@ -391,45 +373,36 @@
     "admin.defaultLanguage": "ภาษาเริ่มต้น",
     "admin.missingCount": "ยังไม่แปล {{count}} รายการ",
     "admin.onlyAdmins": "พื้นที่นี้สำหรับผู้ดูแลระบบเท่านั้น",
-
     "usage.title": "การใช้งาน AI",
     "usage.requests": "คำขอ",
     "usage.stt": "แปลงเสียงเป็นข้อความ",
     "usage.tts": "แปลงข้อความเป็นเสียง",
     "usage.analyses": "การวิเคราะห์",
     "usage.cacheHits": "จำนวนที่ใช้แคช",
-
     "grammar.lessonsTitle": "บทเรียน",
     "grammar.selectLesson": "เลือกบทเรียนเพื่อดูคำอธิบายและแบบฝึกหัด",
     "grammar.noLessons": "ยังไม่มีบทเรียน — กลับมาดูใหม่เร็ว ๆ นี้",
     "grammar.checkAll": "ตรวจคำตอบ",
-
     "listen.selectExercise": "เลือกแบบฝึกหัดเพื่อเริ่มต้น",
     "listen.noExercises": "ยังไม่มีแบบฝึกฟังสำหรับระดับนี้",
     "listen.questions": "คำถาม",
     "listen.transcript": "บทถอดเสียง",
-
     "vocab.noWords": "ยังไม่มีคำศัพท์ในหมวดหมู่นี้",
     "vocab.category": "หมวดหมู่",
-
     "admin.name": "ชื่อ",
     "admin.email": "อีเมล",
     "admin.joined": "เข้าร่วมเมื่อ",
     "admin.role": "บทบาท",
     "admin.noStudents": "ยังไม่มีนักเรียน",
     "admin.locale": "ภาษา",
-
     "account.accent": "สำเนียง",
     "account.voicePreference": "เสียง",
-
     "ielts.timeRemaining": "เวลาที่เหลือ",
     "ielts.prepDone": "เตรียมตัวเสร็จสิ้น — คุณสามารถเริ่มพูดได้แล้ว",
     "ielts.selectQuestion": "เลือกคำถาม",
     "ielts.yourRecording": "การบันทึกเสียงของคุณ",
-
     "progress.todaysTasks": "งานของวันนี้",
     "progress.noPlan": "ยังไม่มีแผน — สร้างแผนได้ด้านล่าง",
-
     "pricing.title": "แพ็กเกจและราคา",
     "pricing.sub": "เริ่มต้นฟรี อัปเกรดเมื่อคุณต้องการให้ Lingora English ฟังคุณทุกวัน",
     "pricing.monthly": "รายเดือน",
@@ -458,7 +431,6 @@
     "pricing.faq.refund.a": "ติดต่อเราภายใน 30 วันหลังการชำระเงิน แล้วเราจะคืนเงินให้ผ่านพันธมิตรชำระเงินของเรา",
     "pricing.meta.title": "ราคา — Lingora English",
     "pricing.meta.description": "แพ็กเกจ Free, Premium และ IELTS Pro สำหรับการฝึกพูด การออกเสียง และ IELTS ด้วย AI กับ Lingora English รองรับสกุลเงินท้องถิ่นและคำนวณภาษีตอนชำระเงิน",
-
     "billing.title": "การสมัครสมาชิกของฉัน",
     "billing.sub": "แพ็กเกจ การใช้งาน และประวัติการชำระเงินของคุณ",
     "billing.currentPlan": "แพ็กเกจปัจจุบัน",
@@ -514,7 +486,6 @@
     "billing.testBannerLink": "อ่านเพิ่มเติม",
     "billing.meta.title": "การสมัครสมาชิกของฉัน — Lingora English",
     "billing.meta.description": "จัดการแพ็กเกจ Lingora English ของคุณ ดูโควตาการฝึกฝนเดือนนี้ อัปเดตวิธีการชำระเงิน และดาวน์โหลดใบแจ้งหนี้",
-
     "checkout.verifying": "กำลังยืนยันการชำระเงินของคุณกับพันธมิตรชำระเงินของเรา…",
     "checkout.confirmed": "คุณอยู่ในแพ็กเกจ {{plan}} แล้ว Lingora English พร้อมเมื่อคุณพร้อม",
     "checkout.pending": "การชำระเงินของคุณสำเร็จแล้วและเรากำลังเปิดใช้งานแพ็กเกจของคุณ โดยปกติจะใช้เวลาไม่กี่วินาที — รีเฟรชหน้าการสมัครสมาชิกของคุณหากยังไม่ปรากฏ",
@@ -528,7 +499,6 @@
     "checkout.cancelled.sub": "ไม่มีการเรียกเก็บเงิน คุณสามารถฝึกฝนต่อในแพ็กเกจฟรีได้",
     "checkout.cancelled.meta.title": "ยกเลิกการชำระเงิน — Lingora English",
     "checkout.cancelled.meta.description": "การชำระเงินของคุณถูกยกเลิกและไม่มีการเรียกเก็บเงิน",
-
     "admin.tab.billing": "การเรียกเก็บเงิน",
     "admin.tab.plans": "แพ็กเกจและโควตา",
     "adminBilling.active": "การสมัครสมาชิกที่ใช้งานอยู่",
@@ -555,7 +525,6 @@
     "adminBilling.revoke": "เพิกถอน",
     "adminBilling.revoked": "เพิกถอนสิทธิ์เข้าถึงพิเศษแล้ว",
     "adminBilling.noExpiry": "ไม่มีวันหมดอายุ",
-
     "admin.tab.members": "สมาชิกพรีเมียม",
     "adminMembers.title": "สมาชิก",
     "adminMembers.count": "ชำระเงิน {{premium}} / ผู้เรียนทั้งหมด {{total}}",
@@ -583,7 +552,6 @@
     "billing.state.complimentary": "สิทธิ์พิเศษ",
     "billing.state.completed": "ชำระเงินแล้ว",
     "billing.state.billed": "รอการชำระเงิน",
-
     "nav.myLearning": "การเรียนของฉัน",
     "nav.dashboard": "แดชบอร์ด",
     "nav.profile": "โปรไฟล์",
@@ -592,7 +560,6 @@
     "nav.createFree": "สร้างบัญชีฟรี",
     "nav.terms": "ข้อกำหนดการให้บริการ",
     "nav.privacy": "นโยบายความเป็นส่วนตัว",
-
     "auth.firstName": "ชื่อจริง",
     "auth.lastName": "นามสกุล",
     "auth.confirmPassword": "ยืนยันรหัสผ่าน",
@@ -620,7 +587,6 @@
     "auth.resetInvalid": "ลิงก์รีเซ็ตนี้หมดอายุแล้ว ขอลิงก์ใหม่",
     "auth.reset.meta.title": "รีเซ็ตรหัสผ่านของคุณ — Lingora English",
     "auth.reset.meta.description": "เลือกรหัสผ่านใหม่สำหรับบัญชี Lingora English ของคุณ",
-
     "dash.meta.title": "แดชบอร์ด — Lingora English",
     "dash.meta.description": "แดชบอร์ดการเรียนภาษาอังกฤษส่วนตัวของคุณ ความคืบหน้า การฝึกฝนวันนี้ และเซสชัน Lingora English ที่เหลือของคุณ",
     "dash.welcome": "ยินดีต้อนรับกลับมา {{name}}!",
@@ -647,7 +613,6 @@
     "dash.limits.pronunciationAdvancedLabel": "การออกเสียง — ขั้นสูง",
     "dash.limits.pronunciationAdvanced": "ฟรี 5 ตัวอย่างแรกต่อทักษะ",
     "dash.limits.allUnlocked": "ปลดล็อกทั้งหมดในแพ็กเกจของคุณ",
-
     "paywall.limitTitle": "คุณถึงขีดจำกัดการฝึกฝนฟรีแล้ว",
     "paywall.limitBody": "เรียนต่อด้วยสิทธิ์เข้าถึง Lingora English แบบไม่จำกัด",
     "paywall.speakingTitle": "ฝึกฝนต่อกับ Lingora English",
@@ -666,7 +631,6 @@
     "paywall.stayFree": "ใช้งานต่อในแพ็กเกจฟรี",
     "paywall.locked": "พรีเมียม",
     "paywall.signInFirst": "สร้างบัญชีฟรีเพื่อเริ่มฝึกฝน",
-
     "adminLimits.title": "แพ็กเกจและขีดจำกัดการใช้งาน",
     "adminLimits.sub": "โควตารายเดือนต่อแพ็กเกจ ค่าที่บันทึกจะมีผลทันทีกับผู้เรียนทุกคนในแพ็กเกจนั้น",
     "adminLimits.trialEnabled": "เปิดใช้งานทดลองฟรี",
@@ -676,14 +640,11 @@
     "adminLimits.saved": "อัปเดตขีดจำกัดแพ็กเกจแล้ว",
     "adminLimits.users": "ผู้เรียนตามแพ็กเกจ",
     "adminLimits.conversion": "อัตราการเปลี่ยนเป็นสมาชิก",
-
     "legal.terms.title": "ข้อกำหนดการให้บริการ",
     "legal.privacy.title": "นโยบายความเป็นส่วนตัว",
     "legal.updated": "อัปเดตล่าสุด {{date}}",
-
     "nav.pricing": "ราคา",
     "nav.billing": "การสมัครสมาชิก",
-
     "app.home.badge": "โค้ชฝึกพูด AI",
     "app.home.heroTitle": "พูดภาษาอังกฤษ รับการแก้ไข พัฒนาขึ้นทุกวัน",
     "app.home.heroSub": "ฝึกภาษาอังกฤษกับโค้ชฝึกพูด AI ของคุณ และรับคำแนะนำทันทีเกี่ยวกับการออกเสียง ไวยากรณ์ คำศัพท์ ความคล่องแคล่ว และภาษาอังกฤษที่เป็นธรรมชาติ",
@@ -726,19 +687,15 @@
     "app.home.cta.title": "โค้ชของคุณพร้อมแล้ว พูดอะไรสักอย่างสิ",
     "app.home.cta.body": "สร้างบัญชีฟรีและเริ่มเซสชันฝึกพูดครั้งแรกของคุณภายในไม่ถึงหนึ่งนาที",
     "app.home.cta.button": "เริ่มพูด",
-
     "app.footer.ielts": "IELTS",
     "app.footer.refunds": "นโยบายการคืนเงิน",
-
     "app.voice.loading": "กำลังโหลด…",
     "app.voice.resume": "เล่นต่อ",
     "app.voice.pause": "หยุดชั่วคราว",
     "app.voice.stop": "หยุด",
-
     "coach.eyebrow": "โค้ชฝึกพูด AI",
     "coach.title": "พูด รับการแก้ไข พูดอีกครั้ง",
     "coach.description": "หัวข้อหลายร้อยหัวข้อในห้าวิธีการฝึกฝน โค้ชของคุณจะพูดก่อนเสมอ ฟังเสียงของคุณ และแก้ไขคุณตลอดบทสนทนา",
-
     "coach.category.free.label": "สนทนาอิสระ",
     "coach.category.free.blurb": "พูดคุยอย่างเป็นธรรมชาติเกี่ยวกับหัวข้อใดก็ได้ที่คุณชอบ",
     "coach.category.daily.label": "บทสนทนาประจำวัน",
@@ -750,51 +707,40 @@
     "coach.category.challenge.label": "ความท้าทายการพูด",
     "coach.category.challenge.blurb": "หนึ่งภารกิจ หนึ่งตัวจับเวลา หนึ่งคะแนน",
     "coach.topicsCount": "{{count}} หัวข้อ",
-
     "coach.searchPlaceholder": "ค้นหาหัวข้อ…",
     "coach.levels.all": "ทุกระดับ",
     "coach.access.all": "ทั้งหมด",
     "coach.access.free": "ฟรี",
     "coach.access.premium": "พรีเมียม",
-
     "coach.usage.unlimited": "รอบการพูดไม่จำกัด",
     "coach.usage.freeLeft": "เหลือรอบการพูดฟรี {{left}} จาก {{limit}}",
     "coach.usage.turnsLeftMonth": "เหลือรอบการพูด {{count}} รอบในเดือนนี้",
-
     "coach.audioPlayError": "ฉันไม่สามารถเล่นเสียงได้ คุณสามารถอ่านคำตอบและกดเล่นอีกครั้งได้",
     "coach.couldNotHear": "ฉันไม่ได้ยินคุณชัดเจน กรุณาลองอีกครั้ง",
-
     "coach.loadingTopics": "กำลังโหลดหัวข้อ…",
     "coach.noTopicsMatch": "ยังไม่มีหัวข้อที่ตรงกับตัวกรองเหล่านั้น",
     "coach.badge.free": "ฟรี",
     "coach.badge.premium": "พรีเมียม",
-
     "coach.chooseTopicTitle": "เลือกหัวข้อเพื่อเริ่มต้น",
     "coach.signIn.title": "โค้ชของคุณพูดก่อนเสมอ",
     "coach.signIn.description": "สร้างบัญชีฟรีเพื่อเริ่มพูดคุย ผู้เรียนทุกคนได้รับรอบการพูดฟรีเพื่อลองใช้โค้ช",
     "coach.signIn.cta": "สร้างบัญชีฟรีเพื่อเริ่มต้น",
-
     "coach.gettingReady": "โค้ชของคุณกำลังเตรียมตัว…",
     "coach.pickTopicPrompt": "เลือกหัวข้อทางด้านซ้ายแล้วโค้ชของคุณจะเริ่มพูด",
     "coach.rolePlayRoles": "โค้ชของคุณสวมบทบาทเป็น {{aiRole}} คุณคือ {{userRole}}",
     "coach.roleYourself": "ตัวคุณเอง",
-
     "coach.speaker.coach": "โค้ช",
     "coach.speaker.you": "คุณ",
-
     "coach.outOfTurns": "รอบการพูดฟรีของคุณถูกใช้หมดแล้ว",
     "coach.upgradeToKeepGoing": "อัปเกรดเป็นพรีเมียม",
     "coach.upgradeSuffix": "เพื่อสนทนาต่อ",
-
     "coach.timerLabel": "ตัวจับเวลา {{seconds}} วินาที",
     "coach.busyLabel": "กำลังทำความเข้าใจคำตอบของคุณ",
     "coach.answerHint": "ตอบโค้ชของคุณด้วยเสียงพูด เป็นประโยคที่สมบูรณ์",
     "coach.typeAnswerPlaceholder": "หรือพิมพ์คำตอบของคุณ…",
     "coach.sendAnswer": "ส่งคำตอบ",
     "coach.startTopicAgain": "เริ่มหัวข้อนี้ใหม่",
-
     "coach.exampleFeedback": "ตัวอย่างคำแนะนำ",
-
     "coach.correctionLoop.title": "วงจรการแก้ไข",
     "coach.correctionLoop.step1": "โค้ชพูดก่อน",
     "coach.correctionLoop.step2": "คุณตอบด้วยเสียงพูด",
@@ -802,13 +748,10 @@
     "coach.correctionLoop.step4": "คุณได้รับประโยคที่ดีกว่า",
     "coach.correctionLoop.step5": "บทสนทนาดำเนินต่อไปอย่างเป็นธรรมชาติ",
     "coach.correctionLoop.step6": "ความคืบหน้าถูกบันทึกไว้",
-
     "coach.keepImproving.title": "พัฒนาต่อไป",
-
     "coach.mic.aiSpeaking": "🔊 AI กำลังพูด…",
     "coach.mic.speakAgain": "🎙️ พูดอีกครั้ง",
     "coach.mic.takeYourTime": "ใช้เวลาของคุณ — หยุดสั้น ๆ ได้ตามปกติ ระบบจะส่งคำตอบของคุณเมื่อคุณหยุดพูด",
-
     "coach.feedback.demoNotice": "นี่คือตัวอย่างคำแนะนำที่คุณจะได้รับ เข้าสู่ระบบและพูดเพื่อรับการวิเคราะห์ของคุณเอง",
     "coach.feedback.scoreImproved": "เยี่ยมมาก! คะแนนการพูดของคุณเพิ่มขึ้น {{points}} คะแนน",
     "coach.feedback.fluency": "ความคล่องแคล่ว",
@@ -831,18 +774,14 @@
     "coach.feedback.pronunciationCoach": "โค้ชการออกเสียง",
     "coach.feedback.myProgress": "ความคืบหน้าของฉัน",
     "coach.speakingPracticeFallback": "ฝึกพูด",
-
     "listen.page.eyebrow": "🎧 ห้องฝึกฟัง",
     "listen.page.title": "ฝึกหูของคุณให้เข้าใจภาษาอังกฤษจริง",
     "listen.page.description": "ฟังบทสนทนาที่สมจริง ทดสอบความเข้าใจของคุณ และฝึกหูให้จับภาษาอังกฤษที่คนใช้จริงในชีวิตประจำวัน",
-
     "listen.loadingLesson": "กำลังโหลดบทเรียน…",
     "listen.loadingLibrary": "กำลังโหลดคลังการฟัง…",
     "listen.noMatches": "ยังไม่มีบทเรียนที่ตรงกับตัวกรองเหล่านี้",
-
     "listen.guide.gotIt": "เข้าใจแล้ว — แสดงบทเรียนให้ฉันดู →",
     "listen.guide.strategyHint": "ฟังภาพรวมก่อน → แล้วฟังรายละเอียด → แล้วฟังคำที่ชัดเจน → แล้วทบทวน",
-
     "listen.progress.title": "ความคืบหน้าการฟังของคุณ",
     "listen.progress.lessonsCompleted": "บทเรียนที่เสร็จสิ้น",
     "listen.progress.comprehension": "ความเข้าใจ",
@@ -850,9 +789,7 @@
     "listen.progress.listeningTime": "เวลาที่ใช้ฟัง",
     "listen.progress.overallScore": "คะแนนการฟังโดยรวม:",
     "listen.progress.weakAreas": " · จุดที่ยังอ่อน: {{areas}}",
-
     "listen.next.title": "สิ่งที่ควรฟังต่อไป",
-
     "listen.filter.allLevels": "ทุกระดับ",
     "listen.filter.allTopics": "ทุกหัวข้อ",
     "listen.filter.difficultyLabel": "ความยาก",
@@ -871,21 +808,17 @@
     "listen.filter.status.in_progress": "กำลังทำ",
     "listen.filter.status.completed": "เสร็จสิ้นแล้ว",
     "listen.filter.searchPlaceholder": "ค้นหาบทเรียนและสถานการณ์",
-
     "listen.level.A1": "A1 ผู้เริ่มต้น",
     "listen.level.A2": "A2 ระดับพื้นฐาน",
     "listen.level.B1": "B1 ระดับกลาง",
     "listen.level.B2": "B2 ระดับกลางค่อนข้างสูง",
     "listen.level.C1": "C1 ระดับสูง",
-
     "listen.difficulty.gentle": "ง่าย",
     "listen.difficulty.steady": "ปานกลาง",
     "listen.difficulty.fast": "เร็ว",
     "listen.difficulty.veryFast": "เร็วมาก",
-
     "listen.accent.british": "ภาษาอังกฤษแบบอังกฤษ",
     "listen.accent.northAmerican": "ภาษาอังกฤษแบบอเมริกาเหนือ",
-
     "listen.skill.main_idea": "ใจความหลัก",
     "listen.skill.details": "รายละเอียดเฉพาะ",
     "listen.skill.intention": "เจตนาของผู้พูด",
@@ -893,7 +826,6 @@
     "listen.skill.vocabulary": "ความหมายตามบริบท",
     "listen.skill.numbers_dates": "ตัวเลขและวันที่",
     "listen.skill.fast_speech": "การพูดเร็ว",
-
     "listen.challenge.contraction": "คำย่อ",
     "listen.challenge.connected_speech": "การเชื่อมเสียง",
     "listen.challenge.reduced_form": "รูปแบบย่อ",
@@ -903,7 +835,6 @@
     "listen.challenge.numbers": "ตัวเลข",
     "listen.challenge.dates": "วันที่",
     "listen.challenge.expression": "สำนวนในชีวิตประจำวัน",
-
     "listen.card.free": "ฟรี",
     "listen.card.premium": "พรีเมียม",
     "listen.card.questionsAndDictation": "{{questions}} คำถาม · {{dictation}} การเขียนตามคำบอก",
@@ -912,21 +843,17 @@
     "listen.card.notStarted": "ยังไม่เริ่ม",
     "listen.card.start": "เริ่ม",
     "listen.card.unlockPremium": "🔒 ปลดล็อกด้วยพรีเมียม",
-
     "listen.signInToPlaySave": "เข้าสู่ระบบเพื่อเล่นเสียงและบันทึกคะแนนการฟังของคุณ",
     "listen.signIn": "เข้าสู่ระบบ",
-
     "listen.backToLab": "กลับไปที่ห้องฝึกฟัง",
     "listen.tryAgain": "ลองอีกครั้ง",
     "listen.nextLesson": "บทเรียนถัดไป",
-
     "listen.stage.listen": "ฟัง",
     "listen.stage.understand": "เข้าใจ",
     "listen.stage.dictation": "เขียนตามคำบอก",
     "listen.stage.review": "ทบทวน",
     "listen.stage.progressAriaLabel": "ขั้นตอนบทเรียน",
     "listen.guide.listenFor": "ฟังเพื่อจับ",
-
     "listen.guide.howToTitle": "🎧 วิธีทำบทเรียนฟังนี้",
     "listen.guide.hide": "ซ่อน",
     "listen.guide.show": "แสดง",
@@ -945,23 +872,18 @@
     "listen.guide.step3.point3": "ไม่ต้องกังวลหากทำผิด — นี่คือการฝึกความแม่นยำในการฟังของคุณ",
     "listen.guide.step4.title": "ขั้นตอนที่ 4 — ทบทวน",
     "listen.guide.step4.point1": "ตรวจผลลัพธ์ของคุณและทบทวนคำหรือวลีที่คุณพลาดไป",
-
     "listen.guide.dontWorryTitle": "❤️ ไม่ต้องกังวลหากคุณไม่เข้าใจทุกอย่าง",
     "listen.guide.dontWorry1": "ภาษาอังกฤษจริงอาจฟังดูเร็วและยากในตอนแรก",
     "listen.guide.dontWorry2": "คุณไม่จำเป็นต้องเข้าใจทุกคำ",
     "listen.guide.dontWorry3": "เป้าหมายของคุณคือเข้าใจมากขึ้นเล็กน้อยในทุกครั้งที่ฟัง",
-
     "listen.guide.beforeYouStartTitle": "💡 ก่อนเริ่มต้น",
     "listen.guide.beforeYouStart1": "อย่าพยายามแปลทุกประโยคเป็นภาษาของคุณ",
     "listen.guide.beforeYouStart2": "ก่อนอื่นให้เน้นที่การเข้าใจสถานการณ์และใจความหลัก",
     "listen.guide.beforeYouStart3": "เป็นเรื่องปกติที่จะไม่เข้าใจทุกอย่างในครั้งแรก",
-
     "listen.guide.readyToListen": "พร้อมหรือยัง? มาฟังกัน →",
     "listen.guide.dontShowAgain": "ไม่ต้องแสดงอีก",
     "listen.guide.howDoesThisWork": "สิ่งนี้ทำงานอย่างไร?",
-
     "listen.guide.tipLabel": "เคล็ดลับ",
-
     "listen.stage1.title": "🎧 รอบที่ 1: ฟัง",
     "listen.stage1.instruction": "ฟังเพื่อจับความหมายโดยรวม ไม่ต้องกังวลกับทุกคำ",
     "listen.stage1.who": "ใครกำลังพูด?",
@@ -973,7 +895,6 @@
     "listen.stage1.continueMainIdea": "ฉันเข้าใจใจความหลักแล้ว — ดำเนินการต่อ",
     "listen.stage1.needAnotherListen": "ต้องการฟังอีกครั้งไหม? ใช้ปุ่มเล่นซ้ำด้านบน",
     "listen.stage1.continueToComprehension": "ไปยังส่วนความเข้าใจ",
-
     "listen.stage2.title": "🧠 รอบที่ 2: เข้าใจ",
     "listen.stage2.instruction": "ตอนนี้มาทดสอบว่าคุณเข้าใจบทสนทนาดีแค่ไหน",
     "listen.stage2.beforeAnswering": "ก่อนตอบคำถาม",
@@ -988,7 +909,6 @@
     "listen.stage2.correctSummary": "ถูก {{correct}} ข้อ · เหลือ {{remaining}} ข้อให้ทบทวน",
     "listen.stage2.reviewAreas": " · ทบทวน: {{areas}}",
     "listen.stage2.continueToDictation": "ไปยังส่วนเขียนตามคำบอก",
-
     "listen.stage3.title": "⌨️ รอบที่ 3: เขียนตามคำบอก",
     "listen.stage3.instruction": "ตอนนี้ฟังอย่างตั้งใจและเติมคำที่หายไป ครั้งนี้ให้เน้นที่คำที่คุณได้ยินอย่างแม่นยำ",
     "listen.stage3.listenThinkTypeCheck": "ฟัง → คิด → พิมพ์ → ตรวจสอบ",
@@ -1000,7 +920,6 @@
     "listen.stage3.correctLabel": "คำตอบที่ถูกต้อง:",
     "listen.stage3.dictationResult": "การเขียนตามคำบอก: {{score}}%",
     "listen.stage3.seeResults": "ดูผลลัพธ์ของฉัน",
-
     "listen.dictation.strategyToggle": "ลองสิ่งนี้: ฟัง → คิด → พิมพ์ → ตรวจสอบ",
     "listen.dictation.step1": "ฟังหนึ่งครั้ง — เข้าใจประโยคทั้งหมด",
     "listen.dictation.step2": "ฟังอีกครั้ง — เน้นที่คำที่หายไป",
@@ -1010,7 +929,6 @@
     "listen.dictation.payAttentionTitle": "💡 ใส่ใจสิ่งเหล่านี้",
     "listen.dictation.payAttentionList": "คำเล็ก ๆ · การผันกริยา · คำย่อ · ตัวเลข · วันที่ · การเชื่อมเสียง · คำที่ออกเสียงคล้ายกัน",
     "listen.dictation.example": "ตัวอย่าง — คุณได้ยิน \"I was going to call you yesterday.\" และแบบฝึกหัดแสดง \"I was going to ______ you yesterday.\" คุณพิมพ์ {{word}}",
-
     "listen.transcript.show": "แสดงบทถอดเสียง",
     "listen.transcript.hide": "ซ่อนบทถอดเสียง",
     "listen.transcript.whySoundsDifferent": "ทำไมจึงฟังดูต่างออกไป",
@@ -1021,7 +939,6 @@
     "listen.transcript.whenToUse1": "ลองฟังโดยไม่ดูบทถอดเสียงก่อน",
     "listen.transcript.whenToUse2": "ใช้หลังจากที่คุณพยายามเข้าใจเสียงแล้ว",
     "listen.transcript.whenToUse3": "บทถอดเสียงช่วยให้คุณค้นพบสิ่งที่คุณพลาดไป",
-
     "listen.questionHint.main_idea": "คิดถึงจุดประสงค์โดยรวมของบทสนทนา",
     "listen.questionHint.details": "ฟังเพื่อจับข้อมูลที่แน่นอน",
     "listen.questionHint.intention": "คิดถึงสิ่งที่ผู้พูดหมายถึงหรือต้องการทำ",
@@ -1029,7 +946,6 @@
     "listen.questionHint.vocabulary": "ใช้บทสนทนาโดยรอบเพื่อเข้าใจความหมาย",
     "listen.questionHint.numbers_dates": "ฟังตัวเลข เวลา และวันที่อย่างตั้งใจ",
     "listen.questionHint.fast_speech": "จับคำสำคัญ ไม่ใช่ทุกคำ",
-
     "listen.stage4.title": "🎧 บทเรียนฟังเสร็จสมบูรณ์!",
     "listen.stage4.comprehension": "ความเข้าใจในการฟัง",
     "listen.stage4.dictation": "การเขียนตามคำบอก",
@@ -1040,7 +956,6 @@
     "listen.stage4.cleanRun": "ไม่มี — ทำได้อย่างสมบูรณ์แบบ",
     "listen.stage4.signInToSave": "เข้าสู่ระบบเพื่อบันทึกคะแนนการฟังเหล่านี้ในความคืบหน้าของคุณ",
     "listen.stage4.saving": "กำลังบันทึกความคืบหน้าของคุณ…",
-
     "listen.player.audioLabel": "🎧 เสียง",
     "listen.player.ready": "พร้อม",
     "listen.player.partOf": "ส่วนที่ {{index}} จาก {{total}}",
@@ -1051,12 +966,10 @@
     "listen.player.stop": "หยุด",
     "listen.player.volumeAria": "ระดับเสียง",
     "listen.player.signInToPlay": "เข้าสู่ระบบเพื่อเล่นเสียงสำหรับบทเรียนนี้",
-
     "listen.error.signInToPlay": "เข้าสู่ระบบเพื่อเล่นเสียงการฟัง",
     "listen.error.playbackFailed": "การเล่นเสียงล้มเหลว",
     "listen.error.couldNotPlay": "ไม่สามารถเล่นเสียงได้",
     "listen.error.couldNotSaveProgress": "ไม่สามารถบันทึกความคืบหน้าการฟังของคุณได้",
-
     "shadow.page.eyebrow": "คลังฝึกพูดตาม",
     "shadow.page.title": "ฟัง พูดตาม บันทึกเสียง เปรียบเทียบ พัฒนา",
     "shadow.page.description": "คลังเนื้อหาแบบก้าวหน้าสำหรับทุกหัวข้อ เริ่มจากประโยคสั้น ๆ สำหรับผู้เริ่มต้นก่อน แล้วค่อย ๆ ยาวขึ้นและเป็นธรรมชาติมากขึ้น ฝึกไม่กี่ประโยคทุกวันแล้วให้โค้ชเปรียบเทียบสิ่งที่คุณพูดกับต้นแบบ",
@@ -1065,7 +978,6 @@
     "shadow.topics.free": "ฟรี {{count}}",
     "shadow.topics.loading": "กำลังโหลดคลังเนื้อหา…",
     "shadow.topics.fallbackName": "ประโยค",
-
     "shadow.stats.practised": "ฝึกแล้ว",
     "shadow.stats.mastered": "เชี่ยวชาญแล้ว",
     "shadow.stats.needsPractice": "ต้องฝึกเพิ่ม",
@@ -1073,20 +985,16 @@
     "shadow.stats.practiceTime": "เวลาที่ฝึกฝน",
     "shadow.stats.practiceTimeValue": "{{minutes}} นาที",
     "shadow.stats.pronunciation": "การออกเสียง",
-
     "shadow.weakest.notice": "การบันทึกเสียงของคุณแสดงว่า {{skill}} เป็นจุดที่อ่อนที่สุดตอนนี้",
     "shadow.weakest.cta": "ฝึกทักษะนี้",
-
     "shadow.today.heading": "การฝึกพูดตามวันนี้ · ประมาณ 10 นาที",
     "shadow.today.description": "ประโยคยากก่อน แล้วตามด้วยประโยคใหม่ของคุณ จบด้วยการทบทวนหนึ่งครั้ง",
     "shadow.today.sentenceFallback": "ประโยคที่ {{n}}",
-
     "shadow.filters.searchPlaceholder": "ค้นหาประโยค…",
     "shadow.filters.allLevels": "ทุกระดับ",
     "shadow.filters.allSentences": "ประโยคทั้งหมด",
     "shadow.filters.free": "ฟรี",
     "shadow.filters.premium": "⭐ พรีเมียม",
-
     "shadow.level.beginner.label": "ผู้เริ่มต้น",
     "shadow.level.beginner.blurb": "ประโยคสั้น ๆ ที่พบบ่อย — 5 ถึง 10 คำ",
     "shadow.level.elementary.label": "ระดับพื้นฐาน",
@@ -1095,7 +1003,6 @@
     "shadow.level.intermediate.blurb": "บทสนทนาที่เป็นธรรมชาติ กริยาวลี การเชื่อมเสียง",
     "shadow.level.advanced.label": "ระดับสูง",
     "shadow.level.advanced.blurb": "ภาษาอังกฤษจากเจ้าของภาษาที่ยาว มีสำนวน และมีรายละเอียดลึกซึ้ง",
-
     "shadow.skill.all": "ทักษะทั้งหมด",
     "shadow.skill.pronunciation": "การออกเสียง",
     "shadow.skill.stress": "การเน้นเสียงประโยค",
@@ -1103,14 +1010,12 @@
     "shadow.skill.connectedSpeech": "การเชื่อมเสียง",
     "shadow.skill.rhythm": "จังหวะ",
     "shadow.skill.fluency": "ความคล่องแคล่ว",
-
     "shadow.status.all": "ทั้งหมด",
     "shadow.status.new": "ใหม่",
     "shadow.status.inProgress": "กำลังทำ",
     "shadow.status.needsPractice": "ต้องฝึกเพิ่ม",
     "shadow.status.strong": "แข็งแกร่ง",
     "shadow.status.mastered": "เชี่ยวชาญแล้ว",
-
     "shadow.mode.start.label": "เริ่มจากต้น",
     "shadow.mode.start.blurb": "ตั้งแต่ประโยคที่ 1 เป็นต้นไป",
     "shadow.mode.continue.label": "ทำต่อจากที่ค้างไว้",
@@ -1123,34 +1028,27 @@
     "shadow.mode.review.blurb": "ประโยคที่ถูกทำเครื่องหมายว่าต้องฝึกเพิ่ม",
     "shadow.mode.mastered.label": "ประโยคที่เชี่ยวชาญแล้ว",
     "shadow.mode.mastered.blurb": "รักษาความเชี่ยวชาญไว้",
-
     "shadow.group.everyday.name": "ภาษาอังกฤษในชีวิตประจำวัน",
     "shadow.group.everyday.blurb": "ภาษาอังกฤษในชีวิตจริงสำหรับบ้าน การช้อปปิ้ง อาหาร การเดินทาง สุขภาพ เงิน การโทรศัพท์ และเวลาว่าง",
     "shadow.group.work.name": "ภาษาอังกฤษเพื่อการทำงาน",
     "shadow.group.work.blurb": "ภาษาที่ใช้ในที่ทำงาน การประชุม การนำเสนอ อีเมล ลูกค้า ข้อเสนอแนะ โครงการ และการสัมภาษณ์",
-
     "shadow.list.loading": "กำลังโหลดประโยค…",
     "shadow.list.empty": "ยังไม่มีสิ่งที่ตรงกับตัวกรองเหล่านี้",
     "shadow.list.premiumSentence": "ประโยคพรีเมียม",
     "shadow.list.free": "ฟรี",
     "shadow.list.premium": "⭐ พรีเมียม",
     "shadow.list.unlockWithPremium": "ปลดล็อกด้วยพรีเมียม",
-
     "shadow.empty.pickSentence": "เลือกประโยคทางด้านซ้ายเพื่อเริ่มฝึกพูดตาม",
-
     "shadow.locked.title": "⭐ คุณฝึกครบ {{count}} ประโยคฟรีสำหรับหัวข้อนี้แล้ว",
     "shadow.locked.description": "ปลดล็อกพรีเมียมเพื่อฝึกต่อทั้งหมด {{total}} ประโยคในทุกระดับ พร้อมคำแนะนำจาก AI ในทุกครั้งที่ลอง และประวัติความคืบหน้าเต็มรูปแบบของคุณ",
     "shadow.locked.cta": "⭐ ปลดล็อกพรีเมียม",
     "shadow.locked.alreadyMember": "เป็นสมาชิกอยู่แล้วใช่ไหม?",
     "shadow.locked.signIn": "เข้าสู่ระบบ",
-
     "shadow.position.sentence": "ประโยคที่ {{n}} / {{total}} · {{cefr}} · {{access}}",
     "shadow.sentenceFallback": "ประโยคที่ {{n}}",
-
     "shadow.practice.accent.british": "ภาษาอังกฤษแบบอังกฤษ",
     "shadow.practice.accent.american": "ภาษาอังกฤษแบบอเมริกาเหนือ",
     "shadow.practice.difficulty": "ความยาก {{n}}/10",
-
     "shadow.practice.step.listen": "ฟัง",
     "shadow.practice.step.listenHint": "ฟังทั้งประโยคด้วยความเร็วปกติ",
     "shadow.practice.step.shadow": "พูดตาม",
@@ -1163,14 +1061,11 @@
     "shadow.practice.step.tryAgainHint": "ทำซ้ำจนกว่าจะรู้สึกง่ายขึ้น",
     "shadow.practice.step.mastered": "เชี่ยวชาญแล้ว",
     "shadow.practice.step.masteredHint": "ทำได้ชัดเจนสองครั้งติดต่อกัน",
-
     "shadow.practice.hideRelaxed": "ซ่อนภาษาพูดแบบผ่อนคลาย",
     "shadow.practice.showRelaxed": "แสดงภาษาพูดแบบผ่อนคลาย (ไม่เป็นทางการ)",
     "shadow.practice.relaxedHint": "รูปแบบภาษาพูดที่ไม่เป็นทางการ — พูดประโยคที่เขียนไว้ด้านบนด้วยภาษาอังกฤษที่ชัดเจน",
-
     "shadow.practice.dialogue.speaking": "🗣️ {{speaker}} พูดว่า:",
     "shadow.practice.dialogue.someone": "ใครบางคน",
-
     "shadow.practice.listen": "ฟัง",
     "shadow.practice.loop": "วนซ้ำ",
     "shadow.practice.hideText": "ซ่อนข้อความ",
@@ -1179,19 +1074,15 @@
     "shadow.practice.modelAudioNote": "เสียงต้นแบบคือเสียง AI สำเนียง {{accent}} ของ Lingora ไม่ใช่การบันทึกเสียงจากมนุษย์",
     "shadow.practice.signInToHear": "เข้าสู่ระบบเพื่อฟังเสียงต้นแบบ",
     "shadow.practice.playError": "ไม่สามารถเล่นเสียงได้",
-
     "shadow.practice.focus.pronunciation": "การออกเสียง",
     "shadow.practice.focus.stress": "การเน้นเสียงประโยค",
     "shadow.practice.focus.intonation": "ทำนองเสียง",
     "shadow.practice.focus.connectedSpeech": "การเชื่อมเสียง",
     "shadow.practice.grammar": "ไวยากรณ์: {{value}}",
-
     "shadow.practice.recorder.busyLabel": "กำลังเปรียบเทียบเสียงพูดของคุณ",
     "shadow.practice.recorder.hint": "พูดตามเสียงสักสองสามครั้ง แล้วบันทึกเสียงประโยคด้วยตัวเอง",
     "shadow.practice.recorder.signInToRecord": "เข้าสู่ระบบเพื่อบันทึกเสียง",
-
     "shadow.practice.yourRecording": "การบันทึกเสียงของคุณ",
-
     "shadow.practice.result.pronunciation": "การออกเสียง",
     "shadow.practice.result.speakingSpeed": "ความเร็วในการพูด",
     "shadow.practice.result.wpm": " คำต่อนาที",
@@ -1199,36 +1090,29 @@
     "shadow.practice.result.heard": "ได้ยิน",
     "shadow.practice.result.fix": "แก้ไข",
     "shadow.practice.result.coach": "โค้ช",
-
     "shadow.practice.tryAgain": "ลองอีกครั้ง",
     "shadow.practice.nextSentence": "ประโยคถัดไป",
     "shadow.practice.practiseSkill": "ฝึก {{skill}}",
     "shadow.practice.useWithCoach": "ใช้กับโค้ช",
-
     "tests.hero.eyebrow": "ข้อสอบพูด",
     "tests.hero.title": "ฝึกพูด IELTS, TOEFL และ PTE",
     "tests.hero.description": "รูปแบบโจทย์จริง ตัวจับเวลาจริง การบันทึกเสียงของคุณเอง และคะแนนโดยประมาณจาก AI พร้อมการแก้ไขและตัวอย่างคำตอบหลังทุกครั้งที่ลอง",
-
     "tests.exam.ielts.label": "IELTS Speaking",
     "tests.exam.ielts.blurb": "Part 1-3 และข้อสอบจำลองแบบเต็ม",
     "tests.exam.toefl.label": "TOEFL Speaking",
     "tests.exam.toefl.blurb": "ฟังและพูดตาม และสัมภาษณ์",
     "tests.exam.pte.label": "PTE Speaking",
     "tests.exam.pte.blurb": "อ่านออกเสียง พูดซ้ำประโยค และอื่น ๆ",
-
     "tests.footer.disclaimer": "Lingora English ไม่ได้เป็นส่วนหนึ่งของ IELTS, ETS (TOEFL) หรือ Pearson (PTE) คะแนนทั้งหมดที่แสดงเป็น",
     "tests.footer.disclaimerEmphasis": "คะแนนพูดที่ประเมินโดย AI",
     "tests.footer.disclaimerSuffix": "สำหรับฝึกฝนเท่านั้น ไม่ใช่ผลอย่างเป็นทางการ",
-
     "tests.stat.testsInLibrary": "ข้อสอบในคลัง",
     "tests.stat.testsCompleted": "ข้อสอบที่เสร็จสิ้น",
     "tests.stat.averageBand": "แบนด์เฉลี่ย",
     "tests.stat.bestBand": "แบนด์ที่ดีที่สุด",
     "tests.stat.taskFormats": "รูปแบบโจทย์",
     "tests.stat.freeTests": "ข้อสอบฟรี",
-
     "tests.partProgress": "Part 1: เสร็จสิ้น {{p1}} · Part 2: เสร็จสิ้น {{p2}} · Part 3: เสร็จสิ้น {{p3}}",
-
     "tests.filter.allParts": "ทุกส่วน",
     "tests.filter.part1": "Part 1",
     "tests.filter.part2": "Part 2",
@@ -1248,10 +1132,8 @@
     "tests.filter.allTests": "ข้อสอบทั้งหมด",
     "tests.filter.completed": "เสร็จสิ้นแล้ว",
     "tests.filter.notCompleted": "ยังไม่เสร็จสิ้น",
-
     "tests.showingIelts": "แสดง {{visible}} จาก {{total}} ข้อสอบ สามข้อสอบแรกฟรีทั้งหมด — คำถาม ตัวจับเวลา การบันทึกเสียง แบนด์ที่ประเมินโดย AI การแก้ไข และตัวอย่างคำตอบ",
     "tests.showingExam": "แสดง {{visible}} จาก {{total}} ข้อสอบ {{exam}} สามข้อสอบแรกฟรีทั้งหมด — โจทย์ ตัวจับเวลา การบันทึกเสียง และคำแนะนำจาก AI",
-
     "tests.card.ieltsNumber": "ข้อสอบ IELTS Speaking #{{number}}",
     "tests.card.examNumber": "ข้อสอบ {{exam}} #{{number}}",
     "tests.card.durationLabel": "ระยะเวลา: {{duration}}",
@@ -1262,10 +1144,8 @@
     "tests.card.notCompleted": "ยังไม่เสร็จสิ้น",
     "tests.card.startTest": "เริ่มข้อสอบ",
     "tests.card.unlockWithPremium": "ปลดล็อกด้วยพรีเมียม",
-
     "tests.empty.noMatchPart": "ยังไม่มีข้อสอบที่ตรงกับตัวกรองเหล่านั้น — ลองล้างการค้นหาหรือเลือกส่วนอื่น",
     "tests.empty.noMatchTask": "ยังไม่มีข้อสอบที่ตรงกับตัวกรองเหล่านั้น — ลองล้างการค้นหาหรือเลือกโจทย์อื่น",
-
     "tests.runner.leaveMock": "ออกจากข้อสอบจำลอง",
     "tests.runner.backToLibrary": "กลับไปที่คลังข้อสอบ",
     "tests.runner.backToExamLibrary": "กลับไปที่คลัง {{exam}}",
@@ -1273,19 +1153,16 @@
     "tests.runner.mockAverageSoFar": " · คะแนนพูดที่ประเมินโดย AI จนถึงตอนนี้: {{average}} / 9.0",
     "tests.runner.ieltsStatus": "ข้อสอบ IELTS Speaking #{{number}} · {{part}} · {{difficulty}}",
     "tests.runner.examStatus": "ข้อสอบ {{exam}} #{{number}} · {{task}} · {{difficulty}}",
-
     "tests.runner.cueCard": "การ์ดคำถาม",
     "tests.runner.partQuestion": "คำถาม {{part}}",
     "tests.runner.nextQuestion": "คำถามถัดไป",
     "tests.runner.nextPrompt": "โจทย์ถัดไป ({{current}}/{{total}})",
     "tests.runner.questionOf": " · คำถามที่ {{current}} จาก {{total}}",
-
     "tests.runner.prep1Min": "เตรียมตัว 1 นาที",
     "tests.runner.prepSeconds": "เตรียมตัว {{seconds}} วินาที",
     "tests.runner.noPrepTime": "ไม่มีเวลาเตรียมตัว",
     "tests.runner.prepTimeSeconds": "เวลาเตรียมตัว {{seconds}} วินาที",
     "tests.runner.promptCount": "{{count}} โจทย์ในข้อสอบนี้",
-
     "tests.runner.busyMarking": "กำลังตรวจคำตอบของคุณ",
     "tests.runner.busyScoring": "กำลังให้คะแนนคำตอบของคุณ",
     "tests.runner.hintPart2": "พูดหนึ่งถึงสองนาที",
@@ -1293,12 +1170,10 @@
     "tests.runner.hintReadBack": "พูดประโยคตามที่คุณได้ยินอย่างแม่นยำ",
     "tests.runner.hintOpenTask": "ตอบเป็นประโยคที่สมบูรณ์และพูดต่อไปจนกว่าเวลาจะหมด",
     "tests.runner.signInToRecord": "เข้าสู่ระบบเพื่อบันทึกเสียง",
-
     "tests.runner.couldNotHear": "ฉันไม่ได้ยินสิ่งนั้น กรุณาบันทึกเสียงอีกครั้ง",
     "tests.runner.loadErrorIelts": "ไม่สามารถโหลดคลังข้อสอบพูดได้",
     "tests.runner.loadErrorExam": "ไม่สามารถโหลดคลังข้อสอบได้",
     "tests.runner.mockLibraryLoading": "ข้อสอบจำลองต้องรอให้คลังโหลดเสร็จก่อน",
-
     "tests.score.aiEstimated": "คะแนนพูดที่ประเมินโดย AI",
     "tests.score.aiEstimatedScore": "คะแนนที่ประเมินโดย AI",
     "tests.score.fluencyCoherence": "ความคล่องแคล่วและความต่อเนื่อง",
@@ -1306,7 +1181,6 @@
     "tests.score.grammaticalRange": "ความหลากหลายทางไวยากรณ์",
     "tests.score.pronunciationHint": "การออกเสียง",
     "tests.score.accuracyAgainstTarget": "ความแม่นยำเทียบกับเป้าหมาย",
-
     "tests.block.yourAnswer": "คำตอบของคุณ",
     "tests.block.corrected": "แก้ไขแล้ว",
     "tests.block.moreNatural": "เป็นธรรมชาติมากขึ้น",
@@ -1317,11 +1191,9 @@
     "tests.block.whatWeHeard": "สิ่งที่เราได้ยิน",
     "tests.block.wordsToFix": "คำที่ต้องแก้ไข",
     "tests.block.noneWellDone": "ไม่มี — ทำได้ดีมาก",
-
     "tests.action.tryAgain": "ลองอีกครั้ง",
     "tests.action.continueNextPart": "ไปยังส่วนถัดไป",
     "tests.action.practisePronunciation": "ฝึกออกเสียง",
-
     "tests.sidebar.howPartsWork": "แต่ละส่วนทำงานอย่างไร",
     "tests.sidebar.part1Title": "Part 1",
     "tests.sidebar.part1Body": "คำถามเกี่ยวกับชีวิตประจำวันของคุณ",
@@ -1333,8 +1205,8 @@
     "tests.sidebar.thisTest": "ข้อสอบนี้",
     "tests.sidebar.responseSuffix": " คำตอบ",
     "tests.sidebar.warmUpWithCoach": "วอร์มอัพกับโค้ชของคุณ",
-
     "tests.duration.3to4": "3-4 นาที",
-    "tests.duration.4to5": "4-5 นาที"
+    "tests.duration.4to5": "4-5 นาที",
+    "app.home.features.explore": "สำรวจ"
   }
 }

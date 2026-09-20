@@ -1207,6 +1207,7 @@
     "tests.duration.3to4": "3-4 min",
     "tests.duration.4to5": "4-5 min",
     "lily.tapToStart": "Pieskaries \"Sākt sarunu\", un Lingora English vispirms sasveicināsies.",
-    "progress.days_zero": "{{count}} dienas"
+    "progress.days_zero": "{{count}} dienas",
+    "app.home.features.explore": "Izpētīt"
   }
 }

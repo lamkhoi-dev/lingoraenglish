@@ -16,6 +16,8 @@ export type Profile = {
   practice_minutes: number;
   interface_language: string;
   english_only_mode: boolean;
+  /** null until the learner finishes (or skips) the onboarding survey — see OnboardingGate. */
+  onboarded_at: string | null;
 };
 
 type CurrentUser = { id: string; email: string };

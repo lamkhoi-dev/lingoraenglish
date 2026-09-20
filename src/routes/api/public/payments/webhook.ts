@@ -8,7 +8,13 @@ import { and, eq } from "drizzle-orm";
 import { withAdmin } from "@/db";
 import { processedWebhookEvents, subscriptions } from "@/db/schema/schema";
 import { logBillingEvent } from "@/lib/entitlements.server";
-import { EventName, verifyWebhook, type PaddleEnv } from "@/lib/paddle.server";
+import {
+  catalogKeyOf,
+  EventName,
+  planPriceKeyOf,
+  verifyWebhook,
+  type PaddleEnv,
+} from "@/lib/paddle.server";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -86,10 +92,13 @@ async function handleSubscriptionCreated(data: any, env: PaddleEnv) {
   }
 
   const item = data.items?.[0];
-  const priceId = item?.price?.importMeta?.externalId;
-  const productId = item?.product?.importMeta?.externalId;
+  const priceId = planPriceKeyOf(item?.price);
+  const productId = catalogKeyOf(item?.product);
   if (!priceId || !productId) {
-    console.warn("Skipping subscription: missing importMeta.externalId", {
+    // A paid subscription we cannot map to a plan — loud on purpose: the learner
+    // paid and would otherwise stay on Free with nothing in the logs.
+    console.error("Skipping subscription: price/product has no lingora_key in custom_data", {
+      subscriptionId: data.id,
       rawPriceId: item?.price?.id,
       rawProductId: item?.product?.id,
     });
@@ -112,7 +121,7 @@ async function handleSubscriptionCreated(data: any, env: PaddleEnv) {
     startedAt: data.startedAt ?? data.firstBilledAt ?? null,
     cancelAtPeriodEnd: data.scheduledChange?.action === "cancel",
     scheduledChange: data.scheduledChange?.action ?? "",
-    trialEndsAt: data.trialDates?.endsAt ?? null,
+    trialEndsAt: item?.trialDates?.endsAt ?? data.trialDates?.endsAt ?? null,
     environment: env,
     updatedAt: new Date().toISOString(),
   };
@@ -129,7 +138,7 @@ async function handleSubscriptionCreated(data: any, env: PaddleEnv) {
 
 async function handleSubscriptionUpdated(data: any, env: PaddleEnv) {
   const item = data.items?.[0];
-  const priceId = item?.price?.importMeta?.externalId;
+  const priceId = planPriceKeyOf(item?.price);
 
   const updated = await withAdmin((db) =>
     db
@@ -150,7 +159,7 @@ async function handleSubscriptionUpdated(data: any, env: PaddleEnv) {
           : {}),
         cancelAtPeriodEnd: data.scheduledChange?.action === "cancel",
         scheduledChange: data.scheduledChange?.action ?? "",
-        trialEndsAt: data.trialDates?.endsAt ?? null,
+        trialEndsAt: item?.trialDates?.endsAt ?? data.trialDates?.endsAt ?? null,
         updatedAt: new Date().toISOString(),
       })
       .where(and(eq(subscriptions.paddleSubscriptionId, data.id), eq(subscriptions.environment, env)))

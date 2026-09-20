@@ -11,9 +11,11 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { OnboardingGate } from "@/components/lily/onboarding-gate";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/lib/auth";
 import { I18nProvider } from "@/lib/i18n";
+import { OG_IMAGE_URL, SITE_NAME } from "@/lib/seo";
 
 function NotFoundComponent() {
   return (
@@ -80,7 +82,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { name: "author", content: "Lingora English" },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: SITE_NAME },
+      // Defaults for every page — a route's own head() overrides any of these.
+      // Absolute URLs are required: crawlers do not resolve relative og:image.
+      { property: "og:image", content: OG_IMAGE_URL },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "630" },
+      { property: "og:image:alt", content: "Lingora English — AI speaking coach" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: OG_IMAGE_URL },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -125,6 +135,7 @@ function RootComponent() {
         <I18nProvider>
           {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
           <Outlet />
+          <OnboardingGate />
           <Toaster position="top-center" />
         </I18nProvider>
       </AuthProvider>

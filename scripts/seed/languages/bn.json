@@ -1206,6 +1206,7 @@
     "tests.sidebar.warmUpWithCoach": "আপনার কোচের সাথে ওয়ার্ম আপ করুন",
     "tests.duration.3to4": "৩-৪ মিনিট",
     "tests.duration.4to5": "৪-৫ মিনিট",
-    "lily.tapToStart": "\"কথোপকথন শুরু করুন\"-এ ট্যাপ করুন এবং Lingora English প্রথমে হ্যালো বলবে।"
+    "lily.tapToStart": "\"কথোপকথন শুরু করুন\"-এ ট্যাপ করুন এবং Lingora English প্রথমে হ্যালো বলবে।",
+    "app.home.features.explore": "অন্বেষণ করুন"
   }
 }

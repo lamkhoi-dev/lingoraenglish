@@ -3,11 +3,13 @@ import { useServerFn } from "@tanstack/react-start";
 import { useEffect, useMemo, useState } from "react";
 import { toast } from "sonner";
 
+import { AdminAuthLogPanel } from "@/components/lily/admin-auth-log";
 import { AdminBillingPanel } from "@/components/lily/admin-billing";
 import { AdminCoachPanel } from "@/components/lily/admin-coach";
 import { AdminShadowingPanel } from "@/components/lily/admin-shadowing";
 import { AdminAiCostPanel } from "@/components/lily/admin-ai-cost";
 import { AdminListeningPanel } from "@/components/lily/admin-listening";
+import { AdminOnboardingPanel } from "@/components/lily/admin-onboarding";
 import { AdminPronunciationPanel } from "@/components/lily/admin-pronunciation";
 import { AdminSpeakingTestsPanel } from "@/components/lily/admin-speaking-tests";
 import { AdminVocabularyPanel } from "@/components/lily/admin-vocabulary";
@@ -55,7 +57,9 @@ type Tab =
   | "vocabulary"
   | "listening"
   | "speakingTests"
-  | "aiCost";
+  | "aiCost"
+  | "authLog"
+  | "onboarding";
 type ContentRow = {
   id: string;
   table:
@@ -327,6 +331,8 @@ function AdminPage() {
     { id: "listening", label: "Listening Lab" },
     { id: "speakingTests", label: "Speaking Tests" },
     { id: "aiCost", label: "AI Cost" },
+    { id: "authLog", label: "Sign-in Log" },
+    { id: "onboarding", label: "Onboarding" },
   ];
 
   return (
@@ -591,6 +597,8 @@ function AdminPage() {
         {tab === "listening" && <AdminListeningPanel />}
         {tab === "speakingTests" && <AdminSpeakingTestsPanel />}
         {tab === "aiCost" && <AdminAiCostPanel />}
+        {tab === "authLog" && <AdminAuthLogPanel />}
+        {tab === "onboarding" && <AdminOnboardingPanel />}
       </div>
     </AppShell>
   );

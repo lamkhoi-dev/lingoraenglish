@@ -1,4 +1,4 @@
-import { Check, Globe, Search } from "lucide-react";
+import { Check, ChevronDown, Search } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 import { useI18n, type LocaleCode } from "@/lib/i18n";
@@ -47,11 +47,16 @@ export function LanguageSelector({ className }: { className?: string }) {
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={t("lang.choose")}
-        className="flex items-center gap-2 rounded-full bg-surface-2 px-3 py-2 text-xs font-semibold text-foreground ring-1 ring-border transition-colors hover:bg-surface-3"
+        className="flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-2 text-xs font-semibold text-foreground ring-1 ring-border transition-colors hover:bg-surface-3"
       >
-        <Globe className="size-3.5 text-brass-soft" />
         <span className="hidden sm:inline">{language.native}</span>
         <span className="sm:hidden">{language.code.toUpperCase()}</span>
+        <ChevronDown
+          className={cn(
+            "size-3.5 text-muted-foreground transition-transform duration-200",
+            open && "rotate-180",
+          )}
+        />
       </button>
 
       {open && (

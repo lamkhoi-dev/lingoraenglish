@@ -58,20 +58,25 @@ export const getPublicPlans = createServerFn({ method: "GET" }).handler(async ()
 
 /* ------------------------------------------------------------------ prices */
 
+/**
+ * The Paddle price to open checkout with. One free trial per account: an account that has
+ * never had a subscription in this environment gets the plan's trial price; anyone who has
+ * (whatever its status — canceled and expired count) gets the no-trial twin. Decided here, on
+ * the server, from our own records — never from anything the browser sends.
+ */
 export const resolvePaddlePrice = createServerFn({ method: "GET" })
+  .middleware([requireAuth])
   .inputValidator((data: { priceId: string }) =>
     z.object({ priceId: z.string().min(1).max(80) }).parse(data),
   )
-  .handler(async ({ data }) => {
-    const { paddleFetch } = await import("./paddle.server");
+  .handler(async ({ data, context }) => {
     const env = getPaddleEnvironment();
-    const response = await paddleFetch(
-      env,
-      `/prices?external_id=${encodeURIComponent(data.priceId)}`,
-    );
-    const result = (await response.json()) as { data?: { id: string }[] };
-    if (!result.data?.length) throw new Error("That plan price is not available yet.");
-    return result.data[0]!.id;
+    const { findPriceByKey, NO_TRIAL_SUFFIX } = await import("./paddle.server");
+    const trialUsed = (await myLatestSubscription(context.userId, env)) !== null;
+    // Strict on purpose: if the twin is missing we fail rather than hand a repeat trial.
+    const price = await findPriceByKey(env, trialUsed ? data.priceId + NO_TRIAL_SUFFIX : data.priceId);
+    if (!price) throw new Error("That plan price is not available yet.");
+    return price.id;
   });
 
 /** Which payment environment this build talks to — for the test-mode banner. */
@@ -133,7 +138,8 @@ export const getMyBilling = createServerFn({ method: "POST" })
       getEntitlement(context.userId, env),
       myLatestSubscription(context.userId, env),
     ]);
-    return { entitlement, subscription };
+    // One free trial per account: eligible only if it has never had a subscription here.
+    return { entitlement, subscription, trialEligible: subscription === null };
   });
 
 /**
@@ -160,7 +166,9 @@ export const listMyPayments = createServerFn({ method: "POST" })
         );
         if (response.ok) {
           const result = (await response.json()) as { data?: RawTransaction[] };
-          const payments: PaymentRow[] = (result.data ?? []).map((tx) => ({
+          // draft/ready are checkouts opened but never paid (and canceled ones): not payments.
+          const paid = (result.data ?? []).filter((tx) => !UNPAID_STATUSES.has(tx.status));
+          const payments: PaymentRow[] = paid.map((tx) => ({
             id: tx.id,
             date: tx.billed_at ?? tx.created_at,
             status: tx.status,
@@ -182,6 +190,8 @@ export const listMyPayments = createServerFn({ method: "POST" })
 
     return { payments: await storedPayments(context.userId, env), stale: Boolean(customerId) };
   });
+
+const UNPAID_STATUSES = new Set(["draft", "ready", "canceled"]);
 
 /** What the webhook recorded for one payment, for the offline fallback above. */
 type StoredPaymentMeta = {
@@ -428,14 +438,8 @@ export const validateCoupon = createServerFn({ method: "POST" })
     }
 
     if (discount.restrict_to?.length) {
-      const priceResponse = await paddleFetch(
-        env,
-        `/prices?external_id=${encodeURIComponent(data.priceId)}`,
-      );
-      const priceResult = (await priceResponse.json()) as {
-        data?: { id: string; product_id: string }[];
-      };
-      const price = priceResult.data?.[0];
+      const { findPriceByKey } = await import("./paddle.server");
+      const price = await findPriceByKey(env, data.priceId);
       const allowed =
         price &&
         (discount.restrict_to.includes(price.id) ||
@@ -472,6 +476,22 @@ export const createPortalSession = createServerFn({ method: "POST" })
     };
   });
 
+/**
+ * Pull the provider's new subscription state into our row straight after a
+ * cancel / keep / plan change. Without it /billing refetches before the webhook
+ * (about a second later) has written anything and keeps showing the old buttons.
+ * The webhook still arrives and is idempotent; a failure here must never fail
+ * the action the learner just took.
+ */
+async function syncAfterAction(subscriptionId: string, env: PaddleEnv, userId: string) {
+  try {
+    const { syncSubscriptionFromProvider } = await import("./billing-sync.server");
+    await syncSubscriptionFromProvider(subscriptionId, env, userId);
+  } catch (error) {
+    console.error("Post-action subscription sync failed", error);
+  }
+}
+
 export const cancelMySubscription = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
@@ -482,6 +502,7 @@ export const cancelMySubscription = createServerFn({ method: "POST" })
     await paddle.subscriptions.cancel(row.paddle_subscription_id, {
       effectiveFrom: "next_billing_period",
     });
+    await syncAfterAction(row.paddle_subscription_id, env, context.userId);
     await logBillingEvent("subscription_cancel_requested", { userId: context.userId, env });
     return { ok: true };
   });
@@ -497,6 +518,7 @@ export const keepMySubscription = createServerFn({ method: "POST" })
       { method: "PATCH", body: JSON.stringify({ scheduled_change: null }) },
     );
     if (!response.ok) throw new Error("We could not restore your subscription — please try again.");
+    await syncAfterAction(row.paddle_subscription_id, env, context.userId);
     await logBillingEvent("subscription_cancel_reverted", { userId: context.userId, env });
     return { ok: true };
   });
@@ -509,6 +531,11 @@ export const changeMyPlan = createServerFn({ method: "POST" })
   )
   .handler(async ({ data, context }) => {
     const { row, env } = await requireOwnSubscription(context.userId, getPaddleEnvironment());
+    // Paddle rejects item changes while a subscription is in trial ("You can't add or
+    // remove items for a subscription in trial…") — say it plainly instead of leaking that.
+    if (row.status === "trialing") {
+      throw new Error("You can switch plans once your free trial has ended.");
+    }
 
     const plans = await withAnon((db) =>
       db
@@ -526,20 +553,18 @@ export const changeMyPlan = createServerFn({ method: "POST" })
     );
     if (!plan) throw new Error("That plan is not available.");
 
-    const { paddleFetch, getPaddleClient } = await import("./paddle.server");
-    const priceLookup = await paddleFetch(
-      env,
-      `/prices?external_id=${encodeURIComponent(data.priceId)}`,
-    );
-    const priceResult = (await priceLookup.json()) as { data?: { id: string }[] };
-    const providerPriceId = priceResult.data?.[0]?.id;
-    if (!providerPriceId) throw new Error("That plan price is not available yet.");
+    const { getPaddleClient, findPriceByKey, NO_TRIAL_SUFFIX } = await import("./paddle.server");
+    // A plan change is never a new trial: switch to the plan's no-trial twin.
+    const providerPrice = await findPriceByKey(env, data.priceId + NO_TRIAL_SUFFIX);
+    if (!providerPrice) throw new Error("That plan price is not available yet.");
+    const providerPriceId = providerPrice.id;
 
     const paddle = getPaddleClient(env);
     await paddle.subscriptions.update(row.paddle_subscription_id, {
       items: [{ priceId: providerPriceId, quantity: 1 }],
       prorationBillingMode: "prorated_immediately",
     });
+    await syncAfterAction(row.paddle_subscription_id, env, context.userId);
 
     await logBillingEvent("plan_changed", {
       userId: context.userId,

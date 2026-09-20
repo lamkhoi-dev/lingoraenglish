@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Public, indexable pages only. Sign-in, dashboard, account, billing, checkout
+     and other logged-in pages are noindex and deliberately absent. Add a new
+     public page here when you create one. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://lingoraenglishai.com/</loc></url>
+  <url><loc>https://lingoraenglishai.com/ai-speaking</loc></url>
+  <url><loc>https://lingoraenglishai.com/pronunciation</loc></url>
+  <url><loc>https://lingoraenglishai.com/shadowing</loc></url>
+  <url><loc>https://lingoraenglishai.com/listening-lab</loc></url>
+  <url><loc>https://lingoraenglishai.com/vocabulary</loc></url>
+  <url><loc>https://lingoraenglishai.com/speaking-tests</loc></url>
+  <url><loc>https://lingoraenglishai.com/pricing</loc></url>
+  <url><loc>https://lingoraenglishai.com/privacy</loc></url>
+  <url><loc>https://lingoraenglishai.com/terms</loc></url>
+  <url><loc>https://lingoraenglishai.com/refunds</loc></url>
+</urlset>

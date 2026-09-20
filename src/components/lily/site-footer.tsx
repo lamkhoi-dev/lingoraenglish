@@ -48,7 +48,7 @@ export function SiteFooter() {
           {t("account.privacyBody")} {t("ielts.disclaimer")}
         </p>
         <p className="mt-3 text-[10px] font-semibold uppercase tracking-[0.16em] text-muted-foreground/70">
-          © {new Date().getFullYear()} Ms Thao English — Lingora English
+          © {new Date().getFullYear()} Ms Thao English — Lingora English · lingoraenglishai.com
         </p>
 
       </div>

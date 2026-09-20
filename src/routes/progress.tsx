@@ -20,10 +20,12 @@ import {
 } from "@/lib/progress.functions";
 import { fetchSpeakingTests, fetchTestProgress, progressSummary } from "@/lib/speaking-test-library";
 import { en } from "@/locales/en";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/progress")({
   head: () => ({
     meta: [
+      NOINDEX_META,
       { title: en["progress.meta.title"] },
       { name: "description", content: en["progress.meta.description"] },
       { property: "og:title", content: en["progress.meta.title"] },

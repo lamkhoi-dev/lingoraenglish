@@ -303,6 +303,7 @@ export const sectionsZhTW: Dictionary = {
   "app.home.features.listening.body": "透過真實對話、理解測驗與聽寫練習鍛鍊聽力。",
   "app.home.features.vocab.title": "口說實用字彙",
   "app.home.features.vocab.body": "學習實用單字，並立即在口說句子中運用。",
+  "app.home.features.explore": "探索",
   "app.home.how.title": "Lingora 如何運作",
   "app.home.how.1": "開口說",
   "app.home.how.2": "AI 分析你的口語表達",

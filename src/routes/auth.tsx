@@ -9,6 +9,8 @@ import { AppShell } from "@/components/lily/app-shell";
 import { requestPasswordReset, resendVerification, signIn, signUp } from "@/lib/auth.functions";
 import { useAuth } from "@/lib/auth";
 import { LANGUAGES, useI18n } from "@/lib/i18n";
+import { hasPendingSurvey, postAuthNavigation, safeLocalPath } from "@/lib/onboarding-flow";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/auth")({
   validateSearch: z.object({
@@ -19,6 +21,7 @@ export const Route = createFileRoute("/auth")({
   }),
   head: () => ({
     meta: [
+      NOINDEX_META,
       { title: "Sign in — Lingora English" },
       {
         name: "description",
@@ -46,7 +49,7 @@ const inputClass =
 
 function AuthPage() {
   const { t, locale, setLocale } = useI18n();
-  const { user, refreshProfile } = useAuth();
+  const { user, profile, loading, refreshProfile } = useAuth();
   const navigate = useNavigate();
   const { next, mode: modeParam, plan, interval } = useSearch({ from: "/auth" });
 
@@ -68,24 +71,41 @@ function AuthPage() {
   const [pendingEmail, setPendingEmail] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
-  const safeNext = next && next.startsWith("/") && !next.startsWith("//") ? next : "/dashboard";
+  const safeNext = safeLocalPath(next, "/dashboard");
 
   // After signing in, continue straight to the plan the visitor picked.
   const afterAuth = () => {
-    if (plan) {
-      void navigate({
-        to: "/pricing",
-        search: { plan, interval: interval ?? "month", checkout: "1" } as never,
-      });
-      return;
-    }
-    void navigate({ to: safeNext });
+    void navigate(postAuthNavigation({ next, plan, interval }, "/dashboard") as never);
   };
 
   useEffect(() => {
-    if (user) afterAuth();
+    if (!user) return;
+    // Signed in but never did the onboarding survey (first Google sign-in,
+    // accounts made before the survey existed…) → survey before anything else.
+    // If they answered it before signing up, OnboardingGate is saving those
+    // answers right now: wait here — profile updates when it finishes and this
+    // effect runs again with onboarded_at set.
+    if (profile && !profile.onboarded_at) {
+      if (!hasPendingSurvey()) {
+        void navigate({
+          to: "/onboarding",
+          search: { next, plan, interval } as never,
+          replace: true,
+        });
+      }
+      return;
+    }
+    afterAuth();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [user]);
+  }, [user, profile]);
+
+  // Survey first, account second: creating an account starts at /onboarding
+  // unless the visitor has already answered (or skipped) it.
+  useEffect(() => {
+    if (loading || user || mode !== "signup" || hasPendingSurvey()) return;
+    void navigate({ to: "/onboarding", search: { next, plan, interval } as never, replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [loading, user, mode]);
 
   /**
    * Whitelist, not a blocklist: only messages this app itself deliberately

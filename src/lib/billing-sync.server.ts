@@ -13,6 +13,7 @@ type PriceLike = {
   billing_cycle?: { interval?: string } | null;
   unit_price?: { amount?: string; currency_code?: string } | null;
   import_meta?: { external_id?: string | null } | null;
+  custom_data?: Record<string, unknown> | null;
 };
 
 export async function syncSubscriptionFromProvider(
@@ -20,7 +21,7 @@ export async function syncSubscriptionFromProvider(
   env: PaddleEnv,
   fallbackUserId?: string,
 ) {
-  const { paddleFetch } = await import("./paddle.server");
+  const { paddleFetch, catalogKeyOf, planPriceKeyOf } = await import("./paddle.server");
   const response = await paddleFetch(env, `/subscriptions/${encodeURIComponent(subscriptionId)}`);
   if (!response.ok) throw new Error("Could not read the subscription from the payment provider.");
 
@@ -36,8 +37,12 @@ export async function syncSubscriptionFromProvider(
       scheduled_change?: { action?: string } | null;
       trial_dates?: { ends_at?: string } | null;
       items?: {
+        trial_dates?: { ends_at?: string } | null;
         price?: PriceLike;
-        product?: { import_meta?: { external_id?: string | null } | null };
+        product?: {
+          import_meta?: { external_id?: string | null } | null;
+          custom_data?: Record<string, unknown> | null;
+        };
       }[];
     };
   };
@@ -52,10 +57,13 @@ export async function syncSubscriptionFromProvider(
   }
 
   const item = sub.items?.[0];
-  const priceId = item?.price?.import_meta?.external_id;
-  const productId = item?.product?.import_meta?.external_id;
+  const priceId = planPriceKeyOf(item?.price);
+  const productId = catalogKeyOf(item?.product);
   if (!priceId || !productId) {
-    console.warn("Skipping subscription: missing importMeta.externalId", {
+    // A paid subscription we cannot map to a plan — loud on purpose: the learner
+    // paid and would otherwise stay on Free with nothing in the logs.
+    console.error("Skipping subscription: price/product has no lingora_key in custom_data", {
+      subscriptionId,
       rawPriceId: item?.price?.id,
     });
     return;
@@ -77,7 +85,8 @@ export async function syncSubscriptionFromProvider(
     startedAt: sub.started_at ?? sub.first_billed_at ?? null,
     cancelAtPeriodEnd: sub.scheduled_change?.action === "cancel",
     scheduledChange: sub.scheduled_change?.action ?? "",
-    trialEndsAt: sub.trial_dates?.ends_at ?? null,
+    // Paddle puts the trial window on the subscription ITEM, not the subscription itself.
+    trialEndsAt: item?.trial_dates?.ends_at ?? sub.trial_dates?.ends_at ?? null,
     environment: env,
     updatedAt: new Date().toISOString(),
   };

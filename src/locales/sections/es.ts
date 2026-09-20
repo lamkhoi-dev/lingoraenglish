@@ -319,6 +319,7 @@ export const sectionsEs: Dictionary = {
   "app.home.features.listening.body": "Entrena tu oído con conversaciones realistas, preguntas de comprensión y dictado.",
   "app.home.features.vocab.title": "Vocabulario para hablar",
   "app.home.features.vocab.body": "Aprende palabras útiles y úsalas de inmediato en una oración hablada.",
+  "app.home.features.explore": "Explorar",
   "app.home.how.title": "Cómo funciona Lingora",
   "app.home.how.1": "Habla",
   "app.home.how.2": "La IA analiza tu voz",

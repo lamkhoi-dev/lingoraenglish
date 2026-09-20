@@ -160,7 +160,19 @@ export const signUp = createServerFn({ method: "POST" })
     }
 
     await logAuthEvent("signup", userId);
-    await issueEmailVerification(userId, data.email);
+    try {
+      await issueEmailVerification(userId, data.email);
+    } catch (error) {
+      // The account and its verification token are already committed above
+      // — a delivery failure here (e.g. the sending domain isn't verified
+      // with the email provider yet) must not turn into an unhandled error
+      // that leaves the learner stuck with an unverifiable account and no
+      // way to retry. Same "don't fail the whole flow over a secondary
+      // system" principle as rate-limit.server.ts's fail-open. The learner
+      // still lands on the "check your email" screen and can use its
+      // resend button once delivery is actually fixed.
+      console.error("Failed to send the signup verification email", error);
+    }
 
     // No session yet — matches the original Supabase project's "confirm
     // email" gate: the account exists but can't sign in until the learner
@@ -386,6 +398,7 @@ export const getCurrentUser = createServerFn({ method: "GET" }).handler(async ()
         practiceMinutes: profiles.practiceMinutes,
         interfaceLanguage: profiles.interfaceLanguage,
         englishOnlyMode: profiles.englishOnlyMode,
+        onboardedAt: profiles.onboardedAt,
       })
       .from(profiles)
       .where(eq(profiles.id, user.id))
@@ -417,6 +430,7 @@ export const getCurrentUser = createServerFn({ method: "GET" }).handler(async ()
           practice_minutes: profile.practiceMinutes,
           interface_language: profile.interfaceLanguage,
           english_only_mode: profile.englishOnlyMode,
+          onboarded_at: profile.onboardedAt,
         }
       : null,
     isAdmin,
@@ -570,7 +584,14 @@ export const resendVerification = createServerFn({ method: "POST" })
     );
     const user = rows[0];
     if (user && !user.emailConfirmedAt) {
-      await issueEmailVerification(user.id, data.email);
+      try {
+        await issueEmailVerification(user.id, data.email);
+      } catch (error) {
+        // Same reasoning as signUp's catch: a delivery failure must not
+        // surface as a crash on the one button meant to let the learner
+        // recover from exactly that.
+        console.error("Failed to resend the verification email", error);
+      }
     }
     return { ok: true };
   });

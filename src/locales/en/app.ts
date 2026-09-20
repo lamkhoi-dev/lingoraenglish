@@ -35,6 +35,7 @@ export const enApp = {
     "Train your ears on realistic conversations, comprehension questions and dictation.",
   "app.home.features.vocab.title": "Vocabulary for Speaking",
   "app.home.features.vocab.body": "Learn useful words and immediately use them in a spoken sentence.",
+  "app.home.features.explore": "Explore",
   "app.home.how.title": "How Lingora works",
   "app.home.how.1": "Speak",
   "app.home.how.2": "AI analyses your speech",

@@ -1205,6 +1205,7 @@
     "tests.sidebar.warmUpWithCoach": "உங்கள் பயிற்சியாளருடன் ஆயத்தமாகுங்கள்",
     "tests.duration.3to4": "3-4 நிமிடங்கள்",
     "tests.duration.4to5": "4-5 நிமிடங்கள்",
-    "lily.tapToStart": "\"உரையாடலைத் தொடங்கு\" என்பதைத் தட்டவும், Lingora English முதலில் வணக்கம் சொல்லும்."
+    "lily.tapToStart": "\"உரையாடலைத் தொடங்கு\" என்பதைத் தட்டவும், Lingora English முதலில் வணக்கம் சொல்லும்.",
+    "app.home.features.explore": "ஆராயுங்கள்"
   }
 }

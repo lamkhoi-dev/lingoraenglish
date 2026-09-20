@@ -303,6 +303,7 @@ export const sectionsRu: Dictionary = {
   "app.home.features.listening.body": "Тренируйте восприятие на слух на реальных диалогах, вопросах на понимание и диктантах.",
   "app.home.features.vocab.title": "Словарь для общения",
   "app.home.features.vocab.body": "Учите полезные слова и сразу применяйте их в устной речи.",
+  "app.home.features.explore": "Исследовать",
   "app.home.how.title": "Как работает Lingora",
   "app.home.how.1": "Говорите",
   "app.home.how.2": "AI анализирует вашу речь",

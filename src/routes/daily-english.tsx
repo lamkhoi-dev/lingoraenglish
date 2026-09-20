@@ -6,6 +6,8 @@ import { createFileRoute, redirect } from "@tanstack/react-router";
  */
 export const Route = createFileRoute("/daily-english")({
   beforeLoad: () => {
-    throw redirect({ to: "/listening-lab", replace: true });
+    // 301, not the default 307: the move is permanent, and only a permanent
+    // redirect tells Google to carry the old URL's standing over to the new one.
+    throw redirect({ to: "/listening-lab", replace: true, statusCode: 301 });
   },
 });

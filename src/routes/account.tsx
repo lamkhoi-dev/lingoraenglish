@@ -12,10 +12,12 @@ import { deleteMyAccountData, getMyAccountProfile, updateMyAccountProfile } from
 import { useAuth } from "@/lib/auth";
 import { LANGUAGES, useI18n, type LocaleCode } from "@/lib/i18n";
 import { en } from "@/locales/en";
+import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/account")({
   head: () => ({
     meta: [
+      NOINDEX_META,
       { title: en["account.meta.title"] },
       { name: "description", content: en["account.meta.description"] },
       { property: "og:title", content: en["account.meta.title"] },

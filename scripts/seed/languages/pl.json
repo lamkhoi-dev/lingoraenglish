@@ -9,7 +9,6 @@
     "brand.short": "Lingora English",
     "brand.line1": "Lingora English",
     "brand.tagline": "Twój osobisty nauczyciel angielskiego AI",
-
     "nav.home": "Strona główna",
     "nav.coach": "Trener mówienia AI",
     "nav.shadowing": "Powtarzanie za lektorem",
@@ -27,7 +26,6 @@
     "nav.language": "Język",
     "nav.admin": "Administrator",
     "nav.menu": "Menu",
-
     "lang.title": "Język",
     "lang.choose": "Wybierz swój język",
     "lang.interface": "Język interfejsu",
@@ -35,7 +33,6 @@
     "lang.keepEnglish": "Zostań przy angielskim",
     "lang.switchTo": "Przełącz na {{language}}",
     "lang.note": "Zmienia się język interfejsu — angielski, którego się uczysz, pozostaje po angielsku.",
-
     "common.signIn": "Zaloguj się",
     "common.signUp": "Utwórz konto",
     "common.signOut": "Wyloguj się",
@@ -92,7 +89,6 @@
     "checkout.continueWhere": "Kontynuuj od miejsca, w którym skończyłeś",
     "common.somethingWrong": "Coś poszło nie tak.",
     "common.demoMode": "Tryb demo",
-
     "home.heroSub": "Ćwicz mówienie, popraw wymowę, ucz się słownictwa i buduj pewność siebie w angielskim razem z Lingora English.",
     "home.badge": "Nauczyciel angielskiego AI",
     "home.cta.start": "Zacznij naukę",
@@ -135,7 +131,6 @@
     "home.cta2.button": "Zacznij mówić z Lingora English",
     "home.meta.title": "Lingora English — Twój osobisty nauczyciel angielskiego AI",
     "home.meta.description": "Ćwicz mówienie, popraw wymowę i przygotuj się do IELTS z Lingora English — cierpliwym nauczycielem angielskiego AI dla uczących się na całym świecie.",
-
     "auth.welcome": "Witaj ponownie",
     "auth.create": "Utwórz swoje konto",
     "auth.reset": "Zresetuj hasło",
@@ -154,7 +149,6 @@
     "auth.resetSent": "Wysłano link resetujący — sprawdź swoją skrzynkę e-mail.",
     "auth.welcomeBack": "Witaj ponownie!",
     "auth.created": "Konto utworzone. Jesteś zalogowany!",
-
     "onboarding.title": "Skonfigurujmy Twój angielski",
     "onboarding.sub": "Cztery szybkie pytania, aby Lingora English mogła uczyć Cię w sposób, który najlepiej działa.",
     "onboarding.step": "Krok {{current}} z {{total}}",
@@ -164,14 +158,12 @@
     "onboarding.q.goal": "Jaki jest Twój cel?",
     "onboarding.q.minutes": "Ile minut dziennie możesz ćwiczyć?",
     "onboarding.done": "Gotowe. Lingora English już czeka.",
-
     "level.A1": "A1 — Początkujący",
     "level.A2": "A2 — Podstawowy",
     "level.B1": "B1 — Średnio zaawansowany",
     "level.B2": "B2 — Średnio zaawansowany wyższy",
     "level.C1": "C1 — Zaawansowany",
     "level.C2": "C2 — Biegły",
-
     "goal.confidence": "Mów po angielsku z pewnością siebie",
     "goal.pronunciation": "Popraw wymowę",
     "goal.work": "Angielski do pracy",
@@ -182,7 +174,6 @@
     "goal.daily": "Angielski na co dzień",
     "goal.business": "Angielski biznesowy",
     "goal.interview": "Rozmowy kwalifikacyjne",
-
     "lily.title": "Lingora English",
     "lily.sub": "Twój osobisty nauczyciel angielskiego, dostępny zawsze.",
     "lily.intro": "Wybierz temat i zacznij rozmawiać. Lingora English pamięta tę rozmowę i zawsze daje Ci coś, na co możesz odpowiedzieć.",
@@ -208,7 +199,6 @@
     "lily.notHeard": "Lingora English tego nie usłyszała — spróbuj ponownie.",
     "lily.meta.title": "Lingora English — Twój osobisty nauczyciel angielskiego AI",
     "lily.meta.description": "Rozmawiaj z Lingora English o codziennym życiu, pracy, podróżach i nie tylko. Słucha, odpowiada naturalnie i zawsze zadaje pytanie uzupełniające.",
-
     "speaking.title": "Ćwiczenie mówienia",
     "speaking.sub": "Odpowiadaj na głos. Lingora English zapisuje dokładnie to, co powiedziałeś, a następnie pokazuje, jak powiedzieć to lepiej.",
     "speaking.question": "Twoje pytanie",
@@ -230,7 +220,6 @@
     "speaking.hint": "Mów naturalnie — Lingora English słucha cierpliwie.",
     "speaking.meta.title": "Ćwiczenie mówienia z AI — Lingora English",
     "speaking.meta.description": "Nagraj swoją odpowiedź na prawdziwe pytanie po angielsku i otrzymaj natychmiastową informację zwrotną o płynności, gramatyce i słownictwie od Lingora English.",
-
     "pron.title": "Trener wymowy Lingora English",
     "pron.sub": "Poznaj każdy dźwięk angielski z jasnymi wskazówkami dotyczącymi ust i języka, a następnie nagraj się i porównaj.",
     "pron.tab.sounds": "Dźwięki IPA",
@@ -252,7 +241,6 @@
     "pron.accent.uk": "Angielski brytyjski",
     "pron.meta.title": "Trener wymowy angielskiej — IPA, pary minimalne i akcent",
     "pron.meta.description": "Ćwicz każdy dźwięk IPA języka angielskiego, pary minimalne, akcent wyrazowy i intonację z Lingora English oraz szczerą, zrozumiałą informacją zwrotną.",
-
     "vocab.title": "Słownictwo",
     "vocab.sub": "Angielskie słowa z IPA, definicją po angielsku, przykładem i znaczeniem w Twoim języku.",
     "vocab.definition": "Definicja angielska",
@@ -266,7 +254,6 @@
     "vocab.learning": "Wciąż się uczę",
     "vocab.meta.title": "Słownictwo angielskie z IPA i dźwiękiem — Lingora English",
     "vocab.meta.description": "Ucz się angielskiego słownictwa według kategorii z IPA, dźwiękiem, przykładowymi zdaniami i tłumaczeniami w Twoim własnym języku.",
-
     "grammar.title": "Trener gramatyki Lingora English",
     "grammar.sub": "Jasne wyjaśnienia, prawdziwe przykłady i ćwiczenia sprawdzane przez Lingora English.",
     "grammar.explanation": "Wyjaśnienie",
@@ -282,7 +269,6 @@
     "grammar.incorrect": "Niezupełnie",
     "grammar.meta.title": "Trener gramatyki angielskiej — czasy, czasowniki modalne, warunkowe",
     "grammar.meta.description": "Ucz się gramatyki angielskiej z Lingora English: jasne wyjaśnienia, przykłady, ćwiczenia i natychmiastowa korekta AI.",
-
     "listen.title": "Ćwiczenie słuchania",
     "listen.sub": "Słuchaj naturalnego angielskiego, a następnie odpowiadaj, uzupełniaj luki lub zapisuj to, co słyszysz.",
     "listen.play": "Odtwórz dźwięk",
@@ -295,7 +281,6 @@
     "listen.correctAnswers": "Poprawne odpowiedzi",
     "listen.meta.title": "Ćwiczenie słuchania angielskiego A1–C1 — Lingora English",
     "listen.meta.description": "Ćwicz słuchanie i wybieranie, dyktando oraz powtarzanie za lektorem na poziomie A1 do C1 z transkrypcjami i wyjaśnieniami.",
-
     "ielts.title": "IELTS Speaking od Lingora English",
     "ielts.sub": "Przećwicz Part 1, 2 i 3 z omówieniem odpowiedzi w stylu egzaminatora.",
     "ielts.part1": "Part 1",
@@ -318,7 +303,6 @@
     "ielts.band8": "Wersja Band 8",
     "ielts.meta.title": "Ćwiczenie IELTS Speaking z szacowanym bandem AI — Lingora English",
     "ielts.meta.description": "Ćwicz IELTS Speaking Part 1, 2 i 3 z Lingora English i otrzymaj szacowany band wraz z przykładowymi odpowiedziami na poziomie Band 6, 7 i 8.",
-
     "progress.title": "Moje postępy",
     "progress.sub": "Wszystko, co Lingora English usłyszała od Ciebie, i co warto ćwiczyć dalej.",
     "progress.streak": "Seria nauki",
@@ -345,7 +329,6 @@
     "progress.empty": "Nic tu jeszcze nie ma — Twoje pierwsze ćwiczenie pojawi się od razu.",
     "progress.meta.title": "Moje postępy w angielskim — Lingora English",
     "progress.meta.description": "Śledź wyniki mówienia, wymowę według dźwięków, serię dni nauki i minuty ćwiczeń oraz otrzymaj spersonalizowany plan dzienny.",
-
     "account.title": "Moje konto",
     "account.sub": "Twój profil, Twoje języki i Twoja prywatność.",
     "account.profile": "Profil",
@@ -367,7 +350,6 @@
     "account.deleted": "Twoje dane ćwiczeniowe zostały usunięte.",
     "account.meta.title": "Moje konto — Lingora English",
     "account.meta.description": "Zarządzaj językiem interfejsu, językiem ojczystym, poziomem angielskiego, dziennym celem, trybem nauki i ustawieniami prywatności.",
-
     "admin.title": "Panel administratora",
     "admin.sub": "Uczniowie, treści, tłumaczenia i wykorzystanie AI.",
     "admin.tab.students": "Uczniowie",
@@ -393,45 +375,36 @@
     "admin.defaultLanguage": "Język domyślny",
     "admin.missingCount": "brakuje {{count}}",
     "admin.onlyAdmins": "Ten obszar jest tylko dla administratorów.",
-
     "usage.title": "Wykorzystanie AI",
     "usage.requests": "Zapytania",
     "usage.stt": "Mowa na tekst",
     "usage.tts": "Tekst na mowę",
     "usage.analyses": "Analizy",
     "usage.cacheHits": "Trafienia w pamięci podręcznej",
-
     "grammar.lessonsTitle": "Lekcje",
     "grammar.selectLesson": "Wybierz lekcję, aby zobaczyć wyjaśnienie i ćwiczenia.",
     "grammar.noLessons": "Jeszcze brak lekcji — sprawdź ponownie wkrótce.",
     "grammar.checkAll": "Sprawdź odpowiedzi",
-
     "listen.selectExercise": "Wybierz ćwiczenie, aby zacząć.",
     "listen.noExercises": "Brak ćwiczeń słuchania na tym poziomie.",
     "listen.questions": "Pytania",
     "listen.transcript": "Transkrypcja",
-
     "vocab.noWords": "Brak słów w tej kategorii.",
     "vocab.category": "Kategoria",
-
     "admin.name": "Imię",
     "admin.email": "E-mail",
     "admin.joined": "Dołączył(a)",
     "admin.role": "Rola",
     "admin.noStudents": "Jeszcze brak uczniów.",
     "admin.locale": "Język",
-
     "account.accent": "Akcent",
     "account.voicePreference": "Głos",
-
     "ielts.timeRemaining": "Pozostały czas",
     "ielts.prepDone": "Przygotowanie zakończone — możesz zacząć mówić.",
     "ielts.selectQuestion": "Wybierz pytanie",
     "ielts.yourRecording": "Twoje nagranie",
-
     "progress.todaysTasks": "Dzisiejsze zadania",
     "progress.noPlan": "Jeszcze brak planu — wygeneruj go poniżej.",
-
     "pricing.title": "Plany i cennik",
     "pricing.sub": "Zacznij za darmo. Ulepsz, gdy zechcesz, aby Lingora English słuchała Cię codziennie.",
     "pricing.monthly": "Miesięcznie",
@@ -460,7 +433,6 @@
     "pricing.faq.refund.a": "Skontaktuj się z nami w ciągu 30 dni od płatności, a zwrócimy ją przez naszego partnera płatniczego.",
     "pricing.meta.title": "Cennik — Lingora English",
     "pricing.meta.description": "Plany Free, Premium i IELTS Pro dla nauki mówienia, wymowy i IELTS z AI z Lingora English. Lokalna waluta i podatek obsługiwane przy kasie.",
-
     "billing.title": "Moja subskrypcja",
     "billing.sub": "Twój plan, wykorzystanie i historia płatności.",
     "billing.currentPlan": "Obecny plan",
@@ -516,7 +488,6 @@
     "billing.testBannerLink": "Dowiedz się więcej",
     "billing.meta.title": "Moja subskrypcja — Lingora English",
     "billing.meta.description": "Zarządzaj swoim planem Lingora English, sprawdź limit ćwiczeń w tym miesiącu, zaktualizuj metodę płatności i pobierz faktury.",
-
     "checkout.verifying": "Potwierdzanie płatności z naszym partnerem płatniczym…",
     "checkout.confirmed": "Masz plan {{plan}}. Lingora English jest gotowa, gdy Ty jesteś gotowy.",
     "checkout.pending": "Twoja płatność została zrealizowana i wciąż aktywujemy Twój plan. Zwykle zajmuje to kilka sekund — odśwież stronę subskrypcji, jeśli się nie pojawi.",
@@ -530,7 +501,6 @@
     "checkout.cancelled.sub": "Nie pobrano żadnej płatności. Możesz kontynuować naukę na planie darmowym.",
     "checkout.cancelled.meta.title": "Płatność anulowana — Lingora English",
     "checkout.cancelled.meta.description": "Twoja płatność została anulowana i nie pobrano żadnej opłaty.",
-
     "admin.tab.billing": "Rozliczenia",
     "admin.tab.plans": "Plany i limity",
     "adminBilling.active": "Aktywne subskrypcje",
@@ -557,7 +527,6 @@
     "adminBilling.revoke": "Odbierz",
     "adminBilling.revoked": "Bezpłatny dostęp odebrany.",
     "adminBilling.noExpiry": "bez wygaśnięcia",
-
     "admin.tab.members": "Członkowie Premium",
     "adminMembers.title": "Członkowie",
     "adminMembers.count": "{{premium}} płatnych / {{total}} uczniów",
@@ -585,7 +554,6 @@
     "billing.state.complimentary": "Bezpłatny dostęp",
     "billing.state.completed": "Opłacone",
     "billing.state.billed": "Oczekuje na płatność",
-
     "nav.myLearning": "Moja nauka",
     "nav.dashboard": "Panel",
     "nav.profile": "Profil",
@@ -594,7 +562,6 @@
     "nav.createFree": "Utwórz darmowe konto",
     "nav.terms": "Warunki korzystania z usługi",
     "nav.privacy": "Polityka prywatności",
-
     "auth.firstName": "Imię",
     "auth.lastName": "Nazwisko",
     "auth.confirmPassword": "Potwierdź hasło",
@@ -622,7 +589,6 @@
     "auth.resetInvalid": "Ten link resetujący wygasł. Poproś o nowy.",
     "auth.reset.meta.title": "Zresetuj hasło — Lingora English",
     "auth.reset.meta.description": "Wybierz nowe hasło do swojego konta Lingora English.",
-
     "dash.meta.title": "Panel — Lingora English",
     "dash.meta.description": "Twój osobisty panel nauki angielskiego: postępy, dzisiejsze ćwiczenia i pozostałe sesje Lingora English.",
     "dash.welcome": "Witaj ponownie, {{name}}!",
@@ -649,7 +615,6 @@
     "dash.limits.pronunciationAdvancedLabel": "Wymowa — zaawansowana",
     "dash.limits.pronunciationAdvanced": "Pierwsze 5 przykładów na umiejętność za darmo",
     "dash.limits.allUnlocked": "Wszystko odblokowane w Twoim planie",
-
     "paywall.limitTitle": "Osiągnąłeś darmowy limit ćwiczeń",
     "paywall.limitBody": "Kontynuuj naukę z nieograniczonym dostępem do Lingora English.",
     "paywall.speakingTitle": "Kontynuuj ćwiczenia z Lingora English",
@@ -668,7 +633,6 @@
     "paywall.stayFree": "Kontynuuj z planem darmowym",
     "paywall.locked": "Premium",
     "paywall.signInFirst": "Utwórz darmowe konto, aby zacząć ćwiczyć",
-
     "adminLimits.title": "Plany i limity użytkowania",
     "adminLimits.sub": "Miesięczne limity dla każdego planu. Zapisane wartości obowiązują natychmiast dla każdego ucznia na tym planie.",
     "adminLimits.trialEnabled": "Darmowy okres próbny włączony",
@@ -678,14 +642,11 @@
     "adminLimits.saved": "Limity planu zaktualizowane.",
     "adminLimits.users": "Uczniowie według planu",
     "adminLimits.conversion": "Współczynnik konwersji",
-
     "legal.terms.title": "Warunki korzystania z usługi",
     "legal.privacy.title": "Polityka prywatności",
     "legal.updated": "Ostatnia aktualizacja {{date}}",
-
     "nav.pricing": "Cennik",
     "nav.billing": "Subskrypcja",
-
     "app.home.badge": "Trener mówienia AI",
     "app.home.heroTitle": "Mów po angielsku. Otrzymuj poprawki. Rozwijaj się każdego dnia.",
     "app.home.heroSub": "Ćwicz angielski z Twoim trenerem mówienia AI i otrzymuj natychmiastową informację zwrotną na temat wymowy, gramatyki, słownictwa, płynności i naturalnego angielskiego.",
@@ -728,19 +689,15 @@
     "app.home.cta.title": "Twój trener jest gotowy. Powiedz coś.",
     "app.home.cta.body": "Załóż darmowe konto i rozpocznij pierwszą sesję mówienia w mniej niż minutę.",
     "app.home.cta.button": "Zacznij mówić",
-
     "app.footer.ielts": "IELTS",
     "app.footer.refunds": "Polityka zwrotów",
-
     "app.voice.loading": "Ładowanie…",
     "app.voice.resume": "Wznów",
     "app.voice.pause": "Wstrzymaj",
     "app.voice.stop": "Zatrzymaj",
-
     "coach.eyebrow": "Trener mówienia AI",
     "coach.title": "Mów. Otrzymuj poprawki. Mów ponownie.",
     "coach.description": "Setki tematów w pięciu sposobach ćwiczenia. Twój trener zawsze mówi pierwszy, słucha Twojego głosu i poprawia Cię w trakcie rozmowy.",
-
     "coach.category.free.label": "Swobodna rozmowa",
     "coach.category.free.blurb": "Rozmawiaj naturalnie na dowolny temat, który lubisz.",
     "coach.category.daily.label": "Codzienna rozmowa",
@@ -752,51 +709,40 @@
     "coach.category.challenge.label": "Wyzwanie mówienia",
     "coach.category.challenge.blurb": "Jedno zadanie, jeden licznik, jeden wynik.",
     "coach.topicsCount": "{{count}} tematów",
-
     "coach.searchPlaceholder": "Szukaj tematów…",
     "coach.levels.all": "Wszystkie poziomy",
     "coach.access.all": "wszystkie",
     "coach.access.free": "darmowe",
     "coach.access.premium": "premium",
-
     "coach.usage.unlimited": "Nieograniczone tury mówienia",
     "coach.usage.freeLeft": "Pozostało {{left}} z {{limit}} darmowych tur mówienia",
     "coach.usage.turnsLeftMonth": "Pozostało {{count}} tur mówienia w tym miesiącu",
-
     "coach.audioPlayError": "Nie mogłam odtworzyć dźwięku. Możesz przeczytać odpowiedź i nacisnąć Play ponownie.",
     "coach.couldNotHear": "Nie usłyszałam Cię wyraźnie. Spróbuj ponownie.",
-
     "coach.loadingTopics": "Ładowanie tematów…",
     "coach.noTopicsMatch": "Żadne tematy nie pasują jeszcze do tych filtrów.",
     "coach.badge.free": "DARMOWE",
     "coach.badge.premium": "PREMIUM",
-
     "coach.chooseTopicTitle": "Wybierz temat, aby zacząć",
     "coach.signIn.title": "Twój trener mówi pierwszy.",
     "coach.signIn.description": "Załóż darmowe konto, aby zacząć rozmawiać. Każdy uczeń otrzymuje darmowe tury mówienia, aby wypróbować trenera.",
     "coach.signIn.cta": "Załóż darmowe konto, aby zacząć",
-
     "coach.gettingReady": "Twój trener się przygotowuje…",
     "coach.pickTopicPrompt": "Wybierz temat po lewej, a Twój trener zacznie mówić.",
     "coach.rolePlayRoles": "Twój trener gra rolę {{aiRole}}. Ty jesteś {{userRole}}.",
     "coach.roleYourself": "sobą",
-
     "coach.speaker.coach": "Trener",
     "coach.speaker.you": "Ty",
-
     "coach.outOfTurns": "Twoje darmowe tury mówienia zostały wykorzystane.",
     "coach.upgradeToKeepGoing": "Ulepsz do Premium",
     "coach.upgradeSuffix": "aby kontynuować tę rozmowę.",
-
     "coach.timerLabel": "licznik {{seconds}}s",
     "coach.busyLabel": "Analizowanie Twojej odpowiedzi",
     "coach.answerHint": "Odpowiedz trenerowi na głos, pełnymi zdaniami.",
     "coach.typeAnswerPlaceholder": "Lub wpisz swoją odpowiedź…",
     "coach.sendAnswer": "Wyślij odpowiedź",
     "coach.startTopicAgain": "Zacznij ten temat od nowa",
-
     "coach.exampleFeedback": "Przykładowa informacja zwrotna",
-
     "coach.correctionLoop.title": "Pętla korekty",
     "coach.correctionLoop.step1": "Trener mówi pierwszy",
     "coach.correctionLoop.step2": "Odpowiadasz swoim głosem",
@@ -804,13 +750,10 @@
     "coach.correctionLoop.step4": "Otrzymujesz lepsze zdanie",
     "coach.correctionLoop.step5": "Rozmowa toczy się naturalnie dalej",
     "coach.correctionLoop.step6": "Postęp jest zapisywany",
-
     "coach.keepImproving.title": "Kontynuuj rozwój",
-
     "coach.mic.aiSpeaking": "🔊 AI mówi…",
     "coach.mic.speakAgain": "🎙️ Mów ponownie",
     "coach.mic.takeYourTime": "Nie spiesz się — krótkie pauzy są w porządku. Twoja tura jest wysyłana, gdy przestajesz mówić.",
-
     "coach.feedback.demoNotice": "To jest przykład informacji zwrotnej, którą otrzymasz. Zaloguj się i mów, aby otrzymać własną analizę.",
     "coach.feedback.scoreImproved": "Świetnie! Twój wynik mówienia wzrósł o {{points}} punktów.",
     "coach.feedback.fluency": "Płynność",
@@ -833,18 +776,14 @@
     "coach.feedback.pronunciationCoach": "Trener wymowy",
     "coach.feedback.myProgress": "Moje postępy",
     "coach.speakingPracticeFallback": "Ćwiczenie mówienia",
-
     "listen.page.eyebrow": "🎧 Laboratorium słuchania",
     "listen.page.title": "Wytrenuj swój słuch, aby rozumieć prawdziwy angielski.",
     "listen.page.description": "Słuchaj realistycznych rozmów, sprawdzaj swoje rozumienie i trenuj słuch, aby wychwytywać angielski używany naprawdę w codziennym życiu.",
-
     "listen.loadingLesson": "Ładowanie lekcji…",
     "listen.loadingLibrary": "Ładowanie biblioteki słuchania…",
     "listen.noMatches": "Żadne lekcje nie pasują jeszcze do tych filtrów.",
-
     "listen.guide.gotIt": "Rozumiem — pokaż mi lekcje →",
     "listen.guide.strategyHint": "Słuchaj ogólnego obrazu → potem szczegółów → potem dokładnych słów → potem przejrzyj.",
-
     "listen.progress.title": "Twój postęp w słuchaniu",
     "listen.progress.lessonsCompleted": "Ukończone lekcje",
     "listen.progress.comprehension": "Rozumienie",
@@ -852,9 +791,7 @@
     "listen.progress.listeningTime": "Czas słuchania",
     "listen.progress.overallScore": "Ogólny wynik słuchania:",
     "listen.progress.weakAreas": " · Słabe obszary: {{areas}}",
-
     "listen.next.title": "Czego posłuchać dalej",
-
     "listen.filter.allLevels": "Wszystkie poziomy",
     "listen.filter.allTopics": "Wszystkie tematy",
     "listen.filter.difficultyLabel": "Trudność",
@@ -873,21 +810,17 @@
     "listen.filter.status.in_progress": "W trakcie",
     "listen.filter.status.completed": "Ukończone",
     "listen.filter.searchPlaceholder": "Szukaj lekcji i sytuacji",
-
     "listen.level.A1": "A1 Początkujący",
     "listen.level.A2": "A2 Podstawowy",
     "listen.level.B1": "B1 Średnio zaawansowany",
     "listen.level.B2": "B2 Średnio zaawansowany wyższy",
     "listen.level.C1": "C1 Zaawansowany",
-
     "listen.difficulty.gentle": "Łagodna",
     "listen.difficulty.steady": "Umiarkowana",
     "listen.difficulty.fast": "Szybka",
     "listen.difficulty.veryFast": "Bardzo szybka",
-
     "listen.accent.british": "Angielski brytyjski",
     "listen.accent.northAmerican": "Angielski północnoamerykański",
-
     "listen.skill.main_idea": "Główna myśl",
     "listen.skill.details": "Konkretne szczegóły",
     "listen.skill.intention": "Intencja mówiącego",
@@ -895,7 +828,6 @@
     "listen.skill.vocabulary": "Znaczenie w kontekście",
     "listen.skill.numbers_dates": "Liczby i daty",
     "listen.skill.fast_speech": "Szybka mowa",
-
     "listen.challenge.contraction": "Skrócona forma",
     "listen.challenge.connected_speech": "Płynna mowa",
     "listen.challenge.reduced_form": "Forma zredukowana",
@@ -905,7 +837,6 @@
     "listen.challenge.numbers": "Liczby",
     "listen.challenge.dates": "Daty",
     "listen.challenge.expression": "Codzienne wyrażenie",
-
     "listen.card.free": "Darmowe",
     "listen.card.premium": "Premium",
     "listen.card.questionsAndDictation": "{{questions}} pytań · {{dictation}} dyktand",
@@ -914,21 +845,17 @@
     "listen.card.notStarted": "Nierozpoczęte",
     "listen.card.start": "Rozpocznij",
     "listen.card.unlockPremium": "🔒 Odblokuj z Premium",
-
     "listen.signInToPlaySave": "Zaloguj się, aby odtworzyć dźwięk i zapisać wyniki słuchania.",
     "listen.signIn": "Zaloguj się",
-
     "listen.backToLab": "Wróć do Laboratorium słuchania",
     "listen.tryAgain": "Spróbuj ponownie",
     "listen.nextLesson": "Następna lekcja",
-
     "listen.stage.listen": "Słuchaj",
     "listen.stage.understand": "Zrozum",
     "listen.stage.dictation": "Dyktando",
     "listen.stage.review": "Przegląd",
     "listen.stage.progressAriaLabel": "Etapy lekcji",
     "listen.guide.listenFor": "Słuchaj, aby wychwycić",
-
     "listen.guide.howToTitle": "🎧 Jak zrobić tę lekcję słuchania",
     "listen.guide.hide": "Ukryj",
     "listen.guide.show": "Pokaż",
@@ -947,23 +874,18 @@
     "listen.guide.step3.point3": "Nie martw się, jeśli popełnisz błędy — to trenuje Twoją dokładność słuchania.",
     "listen.guide.step4.title": "Krok 4 — Przegląd",
     "listen.guide.step4.point1": "Sprawdź swoje wyniki i przejrzyj słowa lub zwroty, które pominąłeś.",
-
     "listen.guide.dontWorryTitle": "❤️ Nie martw się, jeśli nie rozumiesz wszystkiego.",
     "listen.guide.dontWorry1": "Prawdziwy angielski może na początku brzmieć szybko i trudno.",
     "listen.guide.dontWorry2": "Nie oczekuje się, że zrozumiesz każde słowo.",
     "listen.guide.dontWorry3": "Twoim celem jest rozumieć trochę więcej za każdym razem, gdy słuchasz.",
-
     "listen.guide.beforeYouStartTitle": "💡 Zanim zaczniesz",
     "listen.guide.beforeYouStart1": "Nie próbuj tłumaczyć każdego zdania na swój język.",
     "listen.guide.beforeYouStart2": "Najpierw skup się na zrozumieniu sytuacji i głównej myśli.",
     "listen.guide.beforeYouStart3": "To zupełnie normalne, że za pierwszym razem nie rozumiesz wszystkiego.",
-
     "listen.guide.readyToListen": "Gotowy? Posłuchajmy →",
     "listen.guide.dontShowAgain": "Nie pokazuj tego ponownie",
     "listen.guide.howDoesThisWork": "Jak to działa?",
-
     "listen.guide.tipLabel": "Wskazówka",
-
     "listen.stage1.title": "🎧 Runda 1: Słuchaj",
     "listen.stage1.instruction": "Słuchaj ogólnego znaczenia. Nie martw się o każde słowo.",
     "listen.stage1.who": "Kto mówi?",
@@ -975,7 +897,6 @@
     "listen.stage1.continueMainIdea": "Zrozumiałem główną myśl — Kontynuuj",
     "listen.stage1.needAnotherListen": "Potrzebujesz posłuchać jeszcze raz? Użyj przycisku Odtwórz ponownie powyżej.",
     "listen.stage1.continueToComprehension": "Przejdź do rozumienia",
-
     "listen.stage2.title": "🧠 Runda 2: Zrozum",
     "listen.stage2.instruction": "Teraz sprawdź, jak dobrze zrozumiałeś rozmowę.",
     "listen.stage2.beforeAnswering": "Przed odpowiedzią",
@@ -990,7 +911,6 @@
     "listen.stage2.correctSummary": "{{correct}} poprawnych · {{remaining}} do przejrzenia",
     "listen.stage2.reviewAreas": " · Przejrzyj: {{areas}}",
     "listen.stage2.continueToDictation": "Przejdź do dyktanda",
-
     "listen.stage3.title": "⌨️ Runda 3: Dyktando",
     "listen.stage3.instruction": "Teraz słuchaj uważnie i uzupełnij brakujące słowa. Tym razem skup się na dokładnych słowach, które słyszysz.",
     "listen.stage3.listenThinkTypeCheck": "Słuchaj → Myśl → Pisz → Sprawdź",
@@ -1002,7 +922,6 @@
     "listen.stage3.correctLabel": "Poprawnie:",
     "listen.stage3.dictationResult": "Dyktando: {{score}}%",
     "listen.stage3.seeResults": "Zobacz moje wyniki",
-
     "listen.dictation.strategyToggle": "Wypróbuj to: Słuchaj → Myśl → Pisz → Sprawdź",
     "listen.dictation.step1": "Posłuchaj raz — zrozum całe zdanie.",
     "listen.dictation.step2": "Posłuchaj ponownie — skup się na brakującym słowie.",
@@ -1012,7 +931,6 @@
     "listen.dictation.payAttentionTitle": "💡 Zwróć uwagę na",
     "listen.dictation.payAttentionList": "Małe słowa · końcówki czasowników · skróty · liczby · daty · płynną mowę · podobnie brzmiące słowa",
     "listen.dictation.example": "Przykład — słyszysz \"I was going to call you yesterday.\", a ćwiczenie pokazuje \"I was going to ______ you yesterday.\" Wpisujesz {{word}}.",
-
     "listen.transcript.show": "Pokaż transkrypcję",
     "listen.transcript.hide": "Ukryj transkrypcję",
     "listen.transcript.whySoundsDifferent": "Dlaczego brzmi inaczej",
@@ -1023,7 +941,6 @@
     "listen.transcript.whenToUse1": "Najpierw spróbuj posłuchać bez transkrypcji.",
     "listen.transcript.whenToUse2": "Użyj jej po tym, jak spróbowałeś zrozumieć nagranie.",
     "listen.transcript.whenToUse3": "Transkrypcja pomaga odkryć, co pominąłeś.",
-
     "listen.questionHint.main_idea": "Pomyśl o ogólnym celu rozmowy.",
     "listen.questionHint.details": "Słuchaj dokładnych informacji.",
     "listen.questionHint.intention": "Pomyśl, co mówiący ma na myśli lub chce zrobić.",
@@ -1031,7 +948,6 @@
     "listen.questionHint.vocabulary": "Użyj otaczającej rozmowy, aby zrozumieć znaczenie.",
     "listen.questionHint.numbers_dates": "Słuchaj uważnie liczb, godzin i dat.",
     "listen.questionHint.fast_speech": "Wychwyć kluczowe słowa, nie każde słowo.",
-
     "listen.stage4.title": "🎧 Lekcja słuchania ukończona!",
     "listen.stage4.comprehension": "Rozumienie ze słuchu",
     "listen.stage4.dictation": "Dyktando",
@@ -1042,7 +958,6 @@
     "listen.stage4.cleanRun": "Nic — bezbłędne wykonanie",
     "listen.stage4.signInToSave": "Zaloguj się, aby zapisać te wyniki słuchania w swoich postępach.",
     "listen.stage4.saving": "Zapisywanie Twoich postępów…",
-
     "listen.player.audioLabel": "🎧 Dźwięk",
     "listen.player.ready": "Gotowy",
     "listen.player.partOf": "Część {{index}} z {{total}}",
@@ -1053,12 +968,10 @@
     "listen.player.stop": "Zatrzymaj",
     "listen.player.volumeAria": "Głośność",
     "listen.player.signInToPlay": "Zaloguj się, aby odtworzyć dźwięk dla tej lekcji.",
-
     "listen.error.signInToPlay": "Zaloguj się, aby odtworzyć dźwięk słuchania.",
     "listen.error.playbackFailed": "Odtwarzanie dźwięku nie powiodło się.",
     "listen.error.couldNotPlay": "Nie można odtworzyć dźwięku.",
     "listen.error.couldNotSaveProgress": "Nie można zapisać Twojego postępu w słuchaniu.",
-
     "shadow.page.eyebrow": "Biblioteka powtarzania za lektorem",
     "shadow.page.title": "Słuchaj. Powtarzaj. Nagrywaj. Porównuj. Rozwijaj się.",
     "shadow.page.description": "Progresywna biblioteka dla każdego tematu: najpierw krótkie linijki dla początkujących, potem dłuższy, bardziej naturalny angielski. Ćwicz kilka zdań każdego dnia i pozwól trenerowi porównać to, co powiedziałeś, z wzorcem.",
@@ -1067,7 +980,6 @@
     "shadow.topics.free": "{{count}} darmowych",
     "shadow.topics.loading": "Ładowanie biblioteki…",
     "shadow.topics.fallbackName": "Zdania",
-
     "shadow.stats.practised": "Ćwiczone",
     "shadow.stats.mastered": "Opanowane",
     "shadow.stats.needsPractice": "Wymaga ćwiczeń",
@@ -1075,20 +987,16 @@
     "shadow.stats.practiceTime": "Czas ćwiczeń",
     "shadow.stats.practiceTimeValue": "{{minutes}} min",
     "shadow.stats.pronunciation": "Wymowa",
-
     "shadow.weakest.notice": "Twoje nagrania pokazują, że {{skill}} jest obecnie najsłabszym obszarem.",
     "shadow.weakest.cta": "Ćwicz tę umiejętność",
-
     "shadow.today.heading": "Dzisiejsze powtarzanie za lektorem · około 10 minut",
     "shadow.today.description": "Najpierw trudne zdania, potem Twoje nowe, zakończone jednym przeglądem.",
     "shadow.today.sentenceFallback": "Zdanie {{n}}",
-
     "shadow.filters.searchPlaceholder": "Szukaj zdań…",
     "shadow.filters.allLevels": "Wszystkie poziomy",
     "shadow.filters.allSentences": "Wszystkie zdania",
     "shadow.filters.free": "Darmowe",
     "shadow.filters.premium": "⭐ Premium",
-
     "shadow.level.beginner.label": "Początkujący",
     "shadow.level.beginner.blurb": "Krótkie, popularne zdania — 5 do 10 słów.",
     "shadow.level.elementary.label": "Podstawowy",
@@ -1097,7 +1005,6 @@
     "shadow.level.intermediate.blurb": "Naturalna rozmowa, czasowniki złożone, płynna mowa.",
     "shadow.level.advanced.label": "Zaawansowany",
     "shadow.level.advanced.blurb": "Długi, idiomatyczny, niuansowany angielski native speakera.",
-
     "shadow.skill.all": "Wszystkie umiejętności",
     "shadow.skill.pronunciation": "Wymowa",
     "shadow.skill.stress": "Akcent zdaniowy",
@@ -1105,14 +1012,12 @@
     "shadow.skill.connectedSpeech": "Płynna mowa",
     "shadow.skill.rhythm": "Rytm",
     "shadow.skill.fluency": "Płynność",
-
     "shadow.status.all": "Wszystkie",
     "shadow.status.new": "Nowe",
     "shadow.status.inProgress": "W trakcie",
     "shadow.status.needsPractice": "Wymaga ćwiczeń",
     "shadow.status.strong": "Mocne",
     "shadow.status.mastered": "Opanowane",
-
     "shadow.mode.start.label": "Zacznij od początku",
     "shadow.mode.start.blurb": "Od zdania 1 w górę.",
     "shadow.mode.continue.label": "Kontynuuj od miejsca, w którym skończyłeś",
@@ -1125,34 +1030,27 @@
     "shadow.mode.review.blurb": "Zdania oznaczone jako wymagające ćwiczeń.",
     "shadow.mode.mastered.label": "Opanowane zdania",
     "shadow.mode.mastered.blurb": "Utrzymuj je świeże.",
-
     "shadow.group.everyday.name": "Angielski na co dzień",
     "shadow.group.everyday.blurb": "Angielski z prawdziwego życia dla domu, zakupów, jedzenia, podróży, zdrowia, pieniędzy, rozmów telefonicznych i wolnego czasu.",
     "shadow.group.work.name": "Angielski zawodowy i biznesowy",
     "shadow.group.work.blurb": "Język przydatny w pracy: spotkania, prezentacje, e-maile, klienci, informacja zwrotna, projekty i rozmowy kwalifikacyjne.",
-
     "shadow.list.loading": "Ładowanie zdań…",
     "shadow.list.empty": "Nic nie pasuje jeszcze do tych filtrów.",
     "shadow.list.premiumSentence": "Zdanie Premium",
     "shadow.list.free": "DARMOWE",
     "shadow.list.premium": "⭐ PREMIUM",
     "shadow.list.unlockWithPremium": "Odblokuj z Premium",
-
     "shadow.empty.pickSentence": "Wybierz zdanie po lewej, aby zacząć powtarzanie za lektorem.",
-
     "shadow.locked.title": "⭐ Ukończyłeś {{count}} darmowych zdań powtarzania za lektorem dla tego tematu.",
     "shadow.locked.description": "Odblokuj Premium, aby kontynuować ćwiczenie wszystkich {{total}} zdań i każdego poziomu, z informacją zwrotną AI przy każdej próbie i pełną historią postępów.",
     "shadow.locked.cta": "⭐ Odblokuj Premium",
     "shadow.locked.alreadyMember": "Jesteś już członkiem?",
     "shadow.locked.signIn": "Zaloguj się",
-
     "shadow.position.sentence": "Zdanie {{n}} / {{total}} · {{cefr}} · {{access}}",
     "shadow.sentenceFallback": "Zdanie {{n}}",
-
     "shadow.practice.accent.british": "Angielski brytyjski",
     "shadow.practice.accent.american": "Angielski północnoamerykański",
     "shadow.practice.difficulty": "Trudność {{n}}/10",
-
     "shadow.practice.step.listen": "Słuchaj",
     "shadow.practice.step.listenHint": "Posłuchaj całego zdania w naturalnym tempie.",
     "shadow.practice.step.shadow": "Powtarzaj",
@@ -1165,14 +1063,11 @@
     "shadow.practice.step.tryAgainHint": "Powtarzaj, aż poczujesz się swobodnie.",
     "shadow.practice.step.mastered": "Opanowane",
     "shadow.practice.step.masteredHint": "Dwie wyraźne próby z rzędu.",
-
     "shadow.practice.hideRelaxed": "Ukryj swobodną mowę",
     "shadow.practice.showRelaxed": "Pokaż swobodną mowę (nieformalną)",
     "shadow.practice.relaxedHint": "Nieformalna forma mówiona — powiedz zdanie napisane powyżej starannym angielskim.",
-
     "shadow.practice.dialogue.speaking": "🗣️ {{speaker}} mówi:",
     "shadow.practice.dialogue.someone": "Ktoś",
-
     "shadow.practice.listen": "Słuchaj",
     "shadow.practice.loop": "Pętla",
     "shadow.practice.hideText": "Ukryj tekst",
@@ -1181,19 +1076,15 @@
     "shadow.practice.modelAudioNote": "Wzorcowe nagranie to głos AI Lingory w akcencie {{accent}}, nie nagranie ludzkie.",
     "shadow.practice.signInToHear": "Zaloguj się, aby usłyszeć wzorcowe nagranie.",
     "shadow.practice.playError": "Nie można odtworzyć dźwięku.",
-
     "shadow.practice.focus.pronunciation": "Wymowa",
     "shadow.practice.focus.stress": "Akcent zdaniowy",
     "shadow.practice.focus.intonation": "Intonacja",
     "shadow.practice.focus.connectedSpeech": "Płynna mowa",
     "shadow.practice.grammar": "Gramatyka: {{value}}",
-
     "shadow.practice.recorder.busyLabel": "Porównywanie Twojej mowy",
     "shadow.practice.recorder.hint": "Powtarzaj za nagraniem kilka razy, a następnie nagraj zdanie samodzielnie.",
     "shadow.practice.recorder.signInToRecord": "Zaloguj się, aby nagrywać",
-
     "shadow.practice.yourRecording": "Twoje nagranie",
-
     "shadow.practice.result.pronunciation": "Wymowa",
     "shadow.practice.result.speakingSpeed": "Szybkość mówienia",
     "shadow.practice.result.wpm": " słów na minutę",
@@ -1201,36 +1092,29 @@
     "shadow.practice.result.heard": "Usłyszano",
     "shadow.practice.result.fix": "Popraw",
     "shadow.practice.result.coach": "Trener",
-
     "shadow.practice.tryAgain": "Spróbuj ponownie",
     "shadow.practice.nextSentence": "Następne zdanie",
     "shadow.practice.practiseSkill": "Ćwicz {{skill}}",
     "shadow.practice.useWithCoach": "Użyj z trenerem",
-
     "tests.hero.eyebrow": "Testy mówienia",
     "tests.hero.title": "Ćwiczenie mówienia IELTS, TOEFL i PTE",
     "tests.hero.description": "Prawdziwe formaty zadań, prawdziwe liczniki czasu, Twoje własne nagranie — oraz szacowany wynik AI z poprawkami i przykładowymi odpowiedziami po każdej próbie.",
-
     "tests.exam.ielts.label": "IELTS Speaking",
     "tests.exam.ielts.blurb": "Part 1-3 oraz pełny test próbny.",
     "tests.exam.toefl.label": "TOEFL Speaking",
     "tests.exam.toefl.blurb": "Słuchaj i powtarzaj oraz Weź udział w wywiadzie.",
     "tests.exam.pte.label": "PTE Speaking",
     "tests.exam.pte.blurb": "Czytaj na głos, Powtórz zdanie i więcej.",
-
     "tests.footer.disclaimer": "Lingora English nie jest powiązana z IELTS, ETS (TOEFL) ani Pearson (PTE). Wszystkie pokazane wyniki to",
     "tests.footer.disclaimerEmphasis": "Szacowany wynik mówienia AI",
     "tests.footer.disclaimerSuffix": "wyłącznie do ćwiczeń, nie oficjalny wynik.",
-
     "tests.stat.testsInLibrary": "Testy w bibliotece",
     "tests.stat.testsCompleted": "Ukończone testy",
     "tests.stat.averageBand": "Średni band",
     "tests.stat.bestBand": "Najlepszy band",
     "tests.stat.taskFormats": "Formaty zadań",
     "tests.stat.freeTests": "Darmowe testy",
-
     "tests.partProgress": "Part 1: ukończono {{p1}} · Part 2: ukończono {{p2}} · Part 3: ukończono {{p3}}",
-
     "tests.filter.allParts": "Wszystkie części",
     "tests.filter.part1": "Part 1",
     "tests.filter.part2": "Part 2",
@@ -1250,10 +1134,8 @@
     "tests.filter.allTests": "Wszystkie testy",
     "tests.filter.completed": "Ukończone",
     "tests.filter.notCompleted": "Nieukończone",
-
     "tests.showingIelts": "Pokazano {{visible}} z {{total}} testów. Pierwsze trzy testy są całkowicie darmowe — pytania, liczniki czasu, nagrywanie, szacowany band AI, poprawki i przykładowe odpowiedzi.",
     "tests.showingExam": "Pokazano {{visible}} z {{total}} testów {{exam}}. Pierwsze trzy testy są całkowicie darmowe — polecenia, liczniki czasu, nagrywanie i informacja zwrotna AI.",
-
     "tests.card.ieltsNumber": "Test IELTS Speaking #{{number}}",
     "tests.card.examNumber": "Test {{exam}} #{{number}}",
     "tests.card.durationLabel": "Czas trwania: {{duration}}",
@@ -1264,10 +1146,8 @@
     "tests.card.notCompleted": "Jeszcze nieukończone",
     "tests.card.startTest": "Rozpocznij test",
     "tests.card.unlockWithPremium": "Odblokuj z Premium",
-
     "tests.empty.noMatchPart": "Żadne testy nie pasują jeszcze do tych filtrów — spróbuj wyczyścić wyszukiwanie lub wybrać inną część.",
     "tests.empty.noMatchTask": "Żadne testy nie pasują jeszcze do tych filtrów — spróbuj wyczyścić wyszukiwanie lub wybrać inne zadanie.",
-
     "tests.runner.leaveMock": "Opuść test próbny",
     "tests.runner.backToLibrary": "Wróć do biblioteki testów",
     "tests.runner.backToExamLibrary": "Wróć do biblioteki {{exam}}",
@@ -1275,19 +1155,16 @@
     "tests.runner.mockAverageSoFar": " · Szacowany wynik mówienia AI dotychczas: {{average}} / 9.0",
     "tests.runner.ieltsStatus": "Test IELTS Speaking #{{number}} · {{part}} · {{difficulty}}",
     "tests.runner.examStatus": "Test {{exam}} #{{number}} · {{task}} · {{difficulty}}",
-
     "tests.runner.cueCard": "Karta z tematem",
     "tests.runner.partQuestion": "Pytanie {{part}}",
     "tests.runner.nextQuestion": "Następne pytanie",
     "tests.runner.nextPrompt": "Następne polecenie ({{current}}/{{total}})",
     "tests.runner.questionOf": " · Pytanie {{current}} z {{total}}",
-
     "tests.runner.prep1Min": "1 minuta przygotowania",
     "tests.runner.prepSeconds": "{{seconds}}s przygotowania",
     "tests.runner.noPrepTime": "Bez czasu na przygotowanie",
     "tests.runner.prepTimeSeconds": "{{seconds}}s czasu na przygotowanie",
     "tests.runner.promptCount": "{{count}} poleceń w tym teście",
-
     "tests.runner.busyMarking": "Ocenianie Twojej odpowiedzi",
     "tests.runner.busyScoring": "Punktowanie Twojej odpowiedzi",
     "tests.runner.hintPart2": "Mów przez jedną do dwóch minut.",
@@ -1295,12 +1172,10 @@
     "tests.runner.hintReadBack": "Powiedz zdanie dokładnie tak, jak je usłyszałeś.",
     "tests.runner.hintOpenTask": "Odpowiadaj pełnymi zdaniami i mów aż do końca czasu.",
     "tests.runner.signInToRecord": "Zaloguj się, aby nagrywać",
-
     "tests.runner.couldNotHear": "Nie usłyszałam tego. Nagraj ponownie.",
     "tests.runner.loadErrorIelts": "Nie można załadować biblioteki testów mówienia.",
     "tests.runner.loadErrorExam": "Nie można załadować biblioteki testów.",
     "tests.runner.mockLibraryLoading": "Test próbny wymaga zakończenia ładowania biblioteki.",
-
     "tests.score.aiEstimated": "Szacowany wynik mówienia AI",
     "tests.score.aiEstimatedScore": "Wynik szacowany przez AI",
     "tests.score.fluencyCoherence": "Płynność i spójność",
@@ -1308,7 +1183,6 @@
     "tests.score.grammaticalRange": "Zakres gramatyczny",
     "tests.score.pronunciationHint": "Wymowa",
     "tests.score.accuracyAgainstTarget": "Dokładność względem wzorca",
-
     "tests.block.yourAnswer": "Twoja odpowiedź",
     "tests.block.corrected": "Poprawiona",
     "tests.block.moreNatural": "Bardziej naturalna",
@@ -1319,11 +1193,9 @@
     "tests.block.whatWeHeard": "Co usłyszeliśmy",
     "tests.block.wordsToFix": "Słowa do poprawy",
     "tests.block.noneWellDone": "Żadnych — brawo.",
-
     "tests.action.tryAgain": "Spróbuj ponownie",
     "tests.action.continueNextPart": "Przejdź do następnej części",
     "tests.action.practisePronunciation": "Ćwicz wymowę",
-
     "tests.sidebar.howPartsWork": "Jak działają poszczególne części",
     "tests.sidebar.part1Title": "Part 1",
     "tests.sidebar.part1Body": "codzienne pytania o Ciebie.",
@@ -1335,8 +1207,8 @@
     "tests.sidebar.thisTest": "Ten test",
     "tests.sidebar.responseSuffix": " odpowiedź",
     "tests.sidebar.warmUpWithCoach": "Rozgrzej się z trenerem",
-
     "tests.duration.3to4": "3-4 min",
-    "tests.duration.4to5": "4-5 min"
+    "tests.duration.4to5": "4-5 min",
+    "app.home.features.explore": "Odkrywaj"
   }
 }
