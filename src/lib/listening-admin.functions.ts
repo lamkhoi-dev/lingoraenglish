@@ -140,7 +140,7 @@ export const adminSaveListeningLesson = createServerFn({ method: "POST" })
   .handler(async ({ data }) => {
     const { id, ...fields } = data;
     // is_free is deliberately absent: Yêu cầu 9 puts that under
-    // billing_plans.limits.listening_free_categories, applied by
+    // billing_plans.limits.listening_free_per_level, applied by
     // resyncContentFreeRanks(). Editing it here would just be overwritten.
     const values = {
       slug: fields.slug,

@@ -482,6 +482,39 @@ export const subscriptions = pgTable("subscriptions", {
 	pgPolicy("Users read own subscription", { as: "permissive", for: "select", to: ["authenticated"], using: sql`((auth.uid() = user_id) OR has_role(auth.uid(), 'admin'::app_role))` }),
 ]);
 
+/** Pending/settled bank-transfer payments (SePay). A "paid" row is turned into an ordinary
+ * `subscriptions` row (provider_subscription_id = "sepay_<this id>") by the same handler that
+ * processes the SePay webhook or an admin's manual confirm — this table only tracks the transfer
+ * itself, never access. */
+export const bankTransferOrders = pgTable("bank_transfer_orders", {
+	id: uuid().defaultRandom().primaryKey().notNull(),
+	userId: uuid("user_id").notNull(),
+	planKey: text("plan_key").notNull(),
+	priceId: text("price_id").notNull(),
+	productId: text("product_id").notNull(),
+	billingInterval: text("billing_interval").notNull(),
+	amountVnd: integer("amount_vnd").notNull(),
+	referenceCode: text("reference_code").notNull(),
+	status: text().default('pending').notNull(),
+	sepayTransactionId: text("sepay_transaction_id"),
+	paidAt: timestamp("paid_at", { withTimezone: true, mode: 'string' }),
+	expiresAt: timestamp("expires_at", { withTimezone: true, mode: 'string' }).notNull(),
+	createdAt: timestamp("created_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
+	updatedAt: timestamp("updated_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
+}, (table) => [
+	index("idx_bank_transfer_orders_user_id").using("btree", table.userId.asc().nullsLast().op("uuid_ops")),
+	index("idx_bank_transfer_orders_status").using("btree", table.status.asc().nullsLast().op("text_ops")),
+	foreignKey({
+			columns: [table.userId],
+			foreignColumns: [usersInAuth.id],
+			name: "bank_transfer_orders_user_id_fkey"
+		}).onDelete("cascade"),
+	unique("bank_transfer_orders_reference_code_key").on(table.referenceCode),
+	check("bank_transfer_orders_status_check", sql`status = ANY (ARRAY['pending'::text, 'paid'::text, 'expired'::text, 'cancelled'::text])`),
+	pgPolicy("own bank transfer orders", { as: "permissive", for: "select", to: ["authenticated"], using: sql`((auth.uid() = user_id) OR has_role(auth.uid(), 'admin'::app_role))` }),
+	pgPolicy("admin manage bank transfer orders", { as: "permissive", for: "all", to: ["authenticated"], using: sql`has_role(auth.uid(), 'admin'::app_role)`, withCheck: sql`has_role(auth.uid(), 'admin'::app_role)` }),
+]);
+
 export const grammarTranslations = pgTable("grammar_translations", {
 	id: uuid().defaultRandom().primaryKey().notNull(),
 	lessonId: uuid("lesson_id").notNull(),

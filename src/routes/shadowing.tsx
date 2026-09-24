@@ -7,6 +7,7 @@ import { useMemo, useState } from "react";
 import { AppShell } from "@/components/lily/app-shell";
 import { useI18n } from "@/lib/i18n";
 import { SectionHeading } from "@/components/lily/brand";
+import { FeatureTour, ViewGuideButton, useFeatureTour } from "@/components/lily/feature-tour";
 import { ShadowPractice } from "@/components/lily/shadow-practice";
 import { useAuth } from "@/lib/auth";
 import { getMyShadowingProgress, getShadowingSentences, getShadowingTopics } from "@/lib/shadowing.functions";
@@ -176,14 +177,49 @@ function ShadowingPage() {
   const activeGroup = group ?? topics.find((t) => t.slug === slug)?.topic_group ?? groups[0]?.[0] ?? null;
   const groupTopics = groups.find(([g]) => g === activeGroup)?.[1] ?? [];
 
+  const tour = useFeatureTour(
+    "shadowing",
+    [
+      {
+        target: '[data-tour="shadow-groups"]',
+        title: t("tour.shadow.step1.title"),
+        content: t("tour.shadow.step1.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="shadow-topics"]',
+        title: t("tour.shadow.step2.title"),
+        content: t("tour.shadow.step2.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="shadow-list"]',
+        title: t("tour.shadow.step3.title"),
+        content: t("tour.shadow.step3.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="shadow-practice-panel"]',
+        title: t("tour.shadow.step4.title"),
+        content: t("tour.shadow.step4.content"),
+        placement: "auto",
+      },
+    ],
+    !topicsQuery.isLoading && !sentencesQuery.isLoading && Boolean(active),
+  );
+
   return (
     <AppShell>
+      <FeatureTour run={tour.run} steps={tour.steps} handleEvent={tour.handleEvent} />
       <div className="grid items-center gap-6 lg:grid-cols-[1.3fr_0.7fr]">
-        <SectionHeading
-          eyebrow={t("shadow.page.eyebrow")}
-          title={t("shadow.page.title")}
-          description={t("shadow.page.description")}
-        />
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <SectionHeading
+            eyebrow={t("shadow.page.eyebrow")}
+            title={t("shadow.page.title")}
+            description={t("shadow.page.description")}
+          />
+          <ViewGuideButton onClick={tour.restart} />
+        </div>
         <div className="hidden lg:block overflow-hidden rounded-3xl border border-border shadow-lg">
           <img
             src="/images/shadowing-practice.jpg"
@@ -194,7 +230,7 @@ function ShadowingPage() {
       </div>
 
       {/* Categories */}
-      <div className="mt-8 grid gap-3 sm:grid-cols-2">
+      <div data-tour="shadow-groups" className="mt-8 grid gap-3 sm:grid-cols-2">
         {groups.map(([g, list]) => {
           const total = list.reduce((n, t) => n + t.total_sentences, 0);
           return (
@@ -227,7 +263,7 @@ function ShadowingPage() {
       </div>
 
       {/* Topics in the chosen category */}
-      <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      <div data-tour="shadow-topics" className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {groupTopics.map((gt) => (
           <button
             key={gt.slug}
@@ -425,7 +461,7 @@ function ShadowingPage() {
 
       {/* List + practice */}
       <div className="mt-6 grid gap-6 lg:grid-cols-[340px_1fr]">
-        <aside className="lounge-panel h-fit max-h-[70vh] overflow-y-auto p-3">
+        <aside data-tour="shadow-list" className="lounge-panel h-fit max-h-[70vh] overflow-y-auto p-3">
           <h2 className="px-1 font-display text-base text-foreground">
             {topic?.name ?? t("shadow.topics.fallbackName")}{" "}
             <span className="text-xs text-muted-foreground">({filtered.length})</span>

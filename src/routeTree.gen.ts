@@ -31,10 +31,12 @@ import { Route as TermsRouteImport } from './routes/terms'
 import { Route as VocabularyRouteImport } from './routes/vocabulary'
 import { Route as AuthGoogleCallbackRouteImport } from './routes/auth_.google-callback'
 import { Route as AuthVerifyRouteImport } from './routes/auth_.verify'
+import { Route as BillingBankTransferRouteImport } from './routes/billing_.bank-transfer'
 import { Route as BillingCancelledRouteImport } from './routes/billing_.cancelled'
 import { Route as BillingSuccessRouteImport } from './routes/billing_.success'
 import { Route as CheckoutCancelledRouteImport } from './routes/checkout/cancelled'
 import { Route as CheckoutSuccessRouteImport } from './routes/checkout/success'
+import { Route as ApiPublicPaymentsSepayWebhookRouteImport } from './routes/api/public/payments/sepay-webhook'
 import { Route as ApiPublicPaymentsWebhookRouteImport } from './routes/api/public/payments/webhook'
 
 const IndexRoute = IndexRouteImport.update({
@@ -147,6 +149,11 @@ const AuthVerifyRoute = AuthVerifyRouteImport.update({
   path: '/auth/verify',
   getParentRoute: () => rootRouteImport,
 } as any)
+const BillingBankTransferRoute = BillingBankTransferRouteImport.update({
+  id: '/billing_/bank-transfer',
+  path: '/billing/bank-transfer',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const BillingCancelledRoute = BillingCancelledRouteImport.update({
   id: '/billing_/cancelled',
   path: '/billing/cancelled',
@@ -167,6 +174,12 @@ const CheckoutSuccessRoute = CheckoutSuccessRouteImport.update({
   path: '/checkout/success',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ApiPublicPaymentsSepayWebhookRoute =
+  ApiPublicPaymentsSepayWebhookRouteImport.update({
+    id: '/api/public/payments/sepay-webhook',
+    path: '/api/public/payments/sepay-webhook',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const ApiPublicPaymentsWebhookRoute =
   ApiPublicPaymentsWebhookRouteImport.update({
     id: '/api/public/payments/webhook',
@@ -197,10 +210,12 @@ export interface FileRoutesByFullPath {
   '/vocabulary': typeof VocabularyRoute
   '/auth/google-callback': typeof AuthGoogleCallbackRoute
   '/auth/verify': typeof AuthVerifyRoute
+  '/billing/bank-transfer': typeof BillingBankTransferRoute
   '/billing/cancelled': typeof BillingCancelledRoute
   '/billing/success': typeof BillingSuccessRoute
   '/checkout/cancelled': typeof CheckoutCancelledRoute
   '/checkout/success': typeof CheckoutSuccessRoute
+  '/api/public/payments/sepay-webhook': typeof ApiPublicPaymentsSepayWebhookRoute
   '/api/public/payments/webhook': typeof ApiPublicPaymentsWebhookRoute
 }
 export interface FileRoutesByTo {
@@ -226,10 +241,12 @@ export interface FileRoutesByTo {
   '/vocabulary': typeof VocabularyRoute
   '/auth/google-callback': typeof AuthGoogleCallbackRoute
   '/auth/verify': typeof AuthVerifyRoute
+  '/billing/bank-transfer': typeof BillingBankTransferRoute
   '/billing/cancelled': typeof BillingCancelledRoute
   '/billing/success': typeof BillingSuccessRoute
   '/checkout/cancelled': typeof CheckoutCancelledRoute
   '/checkout/success': typeof CheckoutSuccessRoute
+  '/api/public/payments/sepay-webhook': typeof ApiPublicPaymentsSepayWebhookRoute
   '/api/public/payments/webhook': typeof ApiPublicPaymentsWebhookRoute
 }
 export interface FileRoutesById {
@@ -256,10 +273,12 @@ export interface FileRoutesById {
   '/vocabulary': typeof VocabularyRoute
   '/auth_/google-callback': typeof AuthGoogleCallbackRoute
   '/auth_/verify': typeof AuthVerifyRoute
+  '/billing_/bank-transfer': typeof BillingBankTransferRoute
   '/billing_/cancelled': typeof BillingCancelledRoute
   '/billing_/success': typeof BillingSuccessRoute
   '/checkout/cancelled': typeof CheckoutCancelledRoute
   '/checkout/success': typeof CheckoutSuccessRoute
+  '/api/public/payments/sepay-webhook': typeof ApiPublicPaymentsSepayWebhookRoute
   '/api/public/payments/webhook': typeof ApiPublicPaymentsWebhookRoute
 }
 export interface FileRouteTypes {
@@ -287,10 +306,12 @@ export interface FileRouteTypes {
     | '/vocabulary'
     | '/auth/google-callback'
     | '/auth/verify'
+    | '/billing/bank-transfer'
     | '/billing/cancelled'
     | '/billing/success'
     | '/checkout/cancelled'
     | '/checkout/success'
+    | '/api/public/payments/sepay-webhook'
     | '/api/public/payments/webhook'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -316,10 +337,12 @@ export interface FileRouteTypes {
     | '/vocabulary'
     | '/auth/google-callback'
     | '/auth/verify'
+    | '/billing/bank-transfer'
     | '/billing/cancelled'
     | '/billing/success'
     | '/checkout/cancelled'
     | '/checkout/success'
+    | '/api/public/payments/sepay-webhook'
     | '/api/public/payments/webhook'
   id:
     | '__root__'
@@ -345,10 +368,12 @@ export interface FileRouteTypes {
     | '/vocabulary'
     | '/auth_/google-callback'
     | '/auth_/verify'
+    | '/billing_/bank-transfer'
     | '/billing_/cancelled'
     | '/billing_/success'
     | '/checkout/cancelled'
     | '/checkout/success'
+    | '/api/public/payments/sepay-webhook'
     | '/api/public/payments/webhook'
   fileRoutesById: FileRoutesById
 }
@@ -375,10 +400,12 @@ export interface RootRouteChildren {
   VocabularyRoute: typeof VocabularyRoute
   AuthGoogleCallbackRoute: typeof AuthGoogleCallbackRoute
   AuthVerifyRoute: typeof AuthVerifyRoute
+  BillingBankTransferRoute: typeof BillingBankTransferRoute
   BillingCancelledRoute: typeof BillingCancelledRoute
   BillingSuccessRoute: typeof BillingSuccessRoute
   CheckoutCancelledRoute: typeof CheckoutCancelledRoute
   CheckoutSuccessRoute: typeof CheckoutSuccessRoute
+  ApiPublicPaymentsSepayWebhookRoute: typeof ApiPublicPaymentsSepayWebhookRoute
   ApiPublicPaymentsWebhookRoute: typeof ApiPublicPaymentsWebhookRoute
 }
 
@@ -538,6 +565,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthVerifyRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/billing_/bank-transfer': {
+      id: '/billing_/bank-transfer'
+      path: '/billing/bank-transfer'
+      fullPath: '/billing/bank-transfer'
+      preLoaderRoute: typeof BillingBankTransferRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/billing_/cancelled': {
       id: '/billing_/cancelled'
       path: '/billing/cancelled'
@@ -564,6 +598,13 @@ declare module '@tanstack/react-router' {
       path: '/checkout/success'
       fullPath: '/checkout/success'
       preLoaderRoute: typeof CheckoutSuccessRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/public/payments/sepay-webhook': {
+      id: '/api/public/payments/sepay-webhook'
+      path: '/api/public/payments/sepay-webhook'
+      fullPath: '/api/public/payments/sepay-webhook'
+      preLoaderRoute: typeof ApiPublicPaymentsSepayWebhookRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/api/public/payments/webhook': {
@@ -599,10 +640,12 @@ const rootRouteChildren: RootRouteChildren = {
   VocabularyRoute: VocabularyRoute,
   AuthGoogleCallbackRoute: AuthGoogleCallbackRoute,
   AuthVerifyRoute: AuthVerifyRoute,
+  BillingBankTransferRoute: BillingBankTransferRoute,
   BillingCancelledRoute: BillingCancelledRoute,
   BillingSuccessRoute: BillingSuccessRoute,
   CheckoutCancelledRoute: CheckoutCancelledRoute,
   CheckoutSuccessRoute: CheckoutSuccessRoute,
+  ApiPublicPaymentsSepayWebhookRoute: ApiPublicPaymentsSepayWebhookRoute,
   ApiPublicPaymentsWebhookRoute: ApiPublicPaymentsWebhookRoute,
 }
 export const routeTree = rootRouteImport
@@ -618,3 +661,4 @@ declare module '@tanstack/react-start' {
     config: Awaited<ReturnType<typeof startInstance.getOptions>>
   }
 }
+

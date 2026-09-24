@@ -7,6 +7,7 @@ import {
   listeningAttempts,
   listeningLessons,
   listeningProgress,
+  pronunciationAttempts,
   pronunciationScores,
   shadowingProgress,
   shadowingSentences,
@@ -213,6 +214,224 @@ export const getTodayCompletion = createServerFn({ method: "GET" })
       listeningLab: listening.length > 0,
     };
   });
+
+export type TodayActivityItem = {
+  id: string;
+  type: "pronunciation" | "vocabulary" | "shadowing" | "speaking" | "listening" | "coach";
+  title: string;
+  subtitle?: string | undefined;
+  score?: number | null | undefined;
+  timestamp: string;
+};
+
+export type TodayLearningSummary = {
+  hasActivity: boolean;
+  totalActivities: number;
+  stats: {
+    pronunciationCount: number;
+    pronunciationSounds: string[];
+    vocabularyCount: number;
+    shadowingCount: number;
+    speakingCount: number;
+    listeningCount: number;
+    coachCount: number;
+  };
+  items: TodayActivityItem[];
+};
+
+/** Detailed learning activity log for TODAY: records every sound practiced,
+ * word learned, shadowing attempt, AI speaking turn, and lesson completed today. */
+export const getTodayLearningLog = createServerFn({ method: "GET" })
+  .middleware([requireAuth])
+  .handler(async ({ context }): Promise<TodayLearningSummary> => {
+    const userId = context.userId;
+    const todayStart = new Date();
+    todayStart.setHours(0, 0, 0, 0);
+    const since = todayStart.toISOString();
+
+    const [pronAttempts, vocabRows, shadowRows, speakRows, coachRows, listenRows] =
+      await withUser(userId, (db) =>
+        Promise.all([
+          db
+            .select({
+              id: pronunciationAttempts.id,
+              mode: pronunciationAttempts.mode,
+              target: pronunciationAttempts.target,
+              targetSound: pronunciationAttempts.targetSound,
+              accuracy: pronunciationAttempts.accuracy,
+              createdAt: pronunciationAttempts.createdAt,
+            })
+            .from(pronunciationAttempts)
+            .where(
+              and(
+                eq(pronunciationAttempts.userId, userId),
+                gte(pronunciationAttempts.createdAt, since),
+              ),
+            )
+            .orderBy(desc(pronunciationAttempts.createdAt))
+            .limit(20),
+
+          db
+            .select({
+              id: vocabularyProgress.id,
+              word: vocabularyWords.word,
+              updatedAt: vocabularyProgress.updatedAt,
+            })
+            .from(vocabularyProgress)
+            .innerJoin(vocabularyWords, eq(vocabularyProgress.wordId, vocabularyWords.id))
+            .where(
+              and(
+                eq(vocabularyProgress.userId, userId),
+                gte(vocabularyProgress.updatedAt, since),
+              ),
+            )
+            .orderBy(desc(vocabularyProgress.updatedAt))
+            .limit(20),
+
+          db
+            .select({
+              id: shadowingProgress.id,
+              sentence: shadowingSentences.sentence,
+              score: shadowingProgress.lastAccuracy,
+              lastPractisedAt: shadowingProgress.lastPractisedAt,
+            })
+            .from(shadowingProgress)
+            .innerJoin(shadowingSentences, eq(shadowingProgress.sentenceId, shadowingSentences.id))
+            .where(
+              and(
+                eq(shadowingProgress.userId, userId),
+                gte(shadowingProgress.lastPractisedAt, since),
+              ),
+            )
+            .orderBy(desc(shadowingProgress.lastPractisedAt))
+            .limit(20),
+
+          db
+            .select({
+              id: speakingAttempts.id,
+              question: speakingAttempts.questionText,
+              overall: speakingAttempts.overall,
+              createdAt: speakingAttempts.createdAt,
+            })
+            .from(speakingAttempts)
+            .where(
+              and(
+                eq(speakingAttempts.userId, userId),
+                gte(speakingAttempts.createdAt, since),
+              ),
+            )
+            .orderBy(desc(speakingAttempts.createdAt))
+            .limit(20),
+
+          db
+            .select({
+              id: coachSessions.id,
+              topicTitle: coachSessions.topicTitle,
+              userTurns: coachSessions.userTurns,
+              createdAt: coachSessions.createdAt,
+            })
+            .from(coachSessions)
+            .where(
+              and(
+                eq(coachSessions.userId, userId),
+                gte(coachSessions.createdAt, since),
+              ),
+            )
+            .orderBy(desc(coachSessions.createdAt))
+            .limit(20),
+
+          db
+            .select({
+              id: listeningProgress.id,
+              title: listeningLessons.title,
+              comprehension: listeningProgress.comprehensionScore,
+              dictation: listeningProgress.dictationScore,
+              updatedAt: listeningProgress.updatedAt,
+            })
+            .from(listeningProgress)
+            .innerJoin(listeningLessons, eq(listeningProgress.lessonId, listeningLessons.id))
+            .where(
+              and(
+                eq(listeningProgress.userId, userId),
+                gte(listeningProgress.updatedAt, since),
+              ),
+            )
+            .orderBy(desc(listeningProgress.updatedAt))
+            .limit(20),
+        ]),
+      );
+
+    const pronSounds = Array.from(
+      new Set(pronAttempts.map((p) => p.targetSound).filter(Boolean) as string[]),
+    );
+
+    const items: TodayActivityItem[] = [
+      ...pronAttempts.map((p) => ({
+        id: p.id,
+        type: "pronunciation" as const,
+        title: p.targetSound ? `Âm ${p.targetSound} • "${p.target}"` : `Phát âm "${p.target}"`,
+        subtitle: p.mode ? `Chế độ: ${p.mode}` : undefined,
+        score: num(p.accuracy),
+        timestamp: p.createdAt,
+      })),
+      ...vocabRows.map((v) => ({
+        id: v.id,
+        type: "vocabulary" as const,
+        title: `Từ vựng: "${v.word}"`,
+        subtitle: undefined,
+        score: null,
+        timestamp: v.updatedAt,
+      })),
+      ...shadowRows.map((s) => ({
+        id: s.id,
+        type: "shadowing" as const,
+        title: `Shadowing: "${s.sentence.slice(0, 45)}${s.sentence.length > 45 ? "..." : ""}"`,
+        subtitle: undefined,
+        score: num(s.score),
+        timestamp: s.lastPractisedAt,
+      })),
+      ...speakRows.map((s) => ({
+        id: s.id,
+        type: "speaking" as const,
+        title: `Luyện nói: "${s.question.slice(0, 45)}${s.question.length > 45 ? "..." : ""}"`,
+        subtitle: undefined,
+        score: num(s.overall),
+        timestamp: s.createdAt,
+      })),
+      ...coachRows.map((c) => ({
+        id: c.id,
+        type: "coach" as const,
+        title: `Hội thoại AI: ${c.topicTitle || "Luyện nói tự do"}`,
+        subtitle: c.userTurns ? `${c.userTurns} lượt thoại` : undefined,
+        score: null,
+        timestamp: c.createdAt,
+      })),
+      ...listenRows.map((l) => ({
+        id: l.id,
+        type: "listening" as const,
+        title: `Luyện nghe: ${l.title}`,
+        subtitle: undefined,
+        score: l.comprehension != null ? Number(l.comprehension) : (l.dictation != null ? Number(l.dictation) : null),
+        timestamp: l.updatedAt,
+      })),
+    ].sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
+
+    return {
+      hasActivity: items.length > 0,
+      totalActivities: items.length,
+      stats: {
+        pronunciationCount: pronAttempts.length,
+        pronunciationSounds: pronSounds,
+        vocabularyCount: vocabRows.length,
+        shadowingCount: shadowRows.length,
+        speakingCount: speakRows.length,
+        listeningCount: listenRows.length,
+        coachCount: coachRows.length,
+      },
+      items: items.slice(0, 30),
+    };
+  });
+
 
 export type ProgressSpeakingRow = {
   id: string;

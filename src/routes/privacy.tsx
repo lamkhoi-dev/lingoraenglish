@@ -12,7 +12,7 @@ export const Route = createFileRoute("/privacy")({
       {
         name: "description",
         content:
-          "How Ms Thao English handles your account details, voice recordings, transcripts and payment data for Lingora English — and how to delete them.",
+          "How Lingora English handles your account details, voice recordings, transcripts and payment data — and how to delete them.",
       },
 
       { property: "og:title", content: "Privacy Policy — Lingora English" },
@@ -31,7 +31,7 @@ export const Route = createFileRoute("/privacy")({
 const SECTIONS: { title: string; body: React.ReactNode }[] = [
   {
     title: "1. Who we are",
-    body: "Lingora English is operated by Ms Thao English, which is the data controller for the personal data described in this notice. You can contact us about privacy at phanthithuthao10081996@gmail.com.",
+    body: "Lingora English is the data controller for the personal data described in this notice. You can contact us about privacy at phanthithuthao10081996@gmail.com.",
   },
   {
     title: "2. What we collect and why",
@@ -71,7 +71,7 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "11. Cookies",
-    body: "We use essential cookies and local storage to keep you signed in and remember your language. We do not use advertising cookies. You can clear or block cookies in your browser, though signing in will not work without the essential ones.",
+    body: "We use essential cookies and local storage to keep you signed in and remember your language. We also use Google Analytics to count visits and see which pages are used; it sets analytics cookies and receives your IP address and basic device and page-view information. We do not use advertising cookies. You can clear or block cookies in your browser, or opt out of Google Analytics with Google's browser add-on, though signing in will not work without the essential cookies.",
   },
   {
     title: "12. Children",
@@ -87,7 +87,7 @@ function PrivacyPage() {
       <SectionHeading
         eyebrow={t("nav.privacy")}
         title={t("legal.privacy.title")}
-        description={t("legal.updated", { date: formatDate(new Date("2026-01-01")) })}
+        description={t("legal.updated", { date: formatDate(new Date("2026-09-25")) })}
       />
       <div className="lounge-panel mt-8 space-y-6 p-6 sm:p-8">
         {SECTIONS.map((section) => (

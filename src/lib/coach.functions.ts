@@ -15,7 +15,7 @@ import { getOptionalUserId, requireAdmin, requireAuth } from "@/lib/require-auth
 import { currentLlmModel, currentTextProvider, llmCompleteWhole, type ChatMessage } from "./ai-providers.server";
 import { getLimits, resolveTier, UpgradeRequiredError, type Tier } from "./entitlements.server";
 import { explanationLanguageSchema } from "./explanation-language";
-import type { SpeakingAnalysis } from "./lily.functions";
+import { prewarmTts, type SpeakingAnalysis } from "./lily.functions";
 import { analyseSpeakingTranscript } from "./speaking-analysis.server";
 
 export const COACH_CATEGORIES = ["free", "daily", "roleplay", "interview", "challenge"] as const;
@@ -369,6 +369,7 @@ export const startCoachSession = createServerFn({ method: "POST" })
 
     // The coach always speaks first — the learner never has to open the conversation.
     const opening = topic.openingMessage.trim();
+    if (opening) prewarmTts(opening, "shimmer");
     await withAdmin((db) =>
       db.insert(coachTurns).values({
         sessionId: session.id,
@@ -517,6 +518,7 @@ export const coachReply = createServerFn({ method: "POST" })
     try {
       const [completion, scored] = await Promise.all([llmCompleteWhole(messages, { maxTokens: 220 }), scoring]);
       reply = completion.text.trim();
+      if (reply) prewarmTts(reply, "shimmer");
       analysis = scored?.value ?? null;
 
       await withAdmin((db) =>

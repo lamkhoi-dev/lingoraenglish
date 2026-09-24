@@ -560,6 +560,38 @@ export const speak = createServerFn({ method: "POST" })
     }
   });
 
+/**
+ * Asynchronously pre-synthesises and caches the first chunk of text
+ * in the background so that when the client requests audio playback,
+ * it is served instantly (< 50ms) from ttsCache instead of waiting 5-10s.
+ */
+export function prewarmTts(text: string, voice = "shimmer"): void {
+  if (!text || !text.trim()) return;
+  void (async () => {
+    try {
+      const clean = text.replace(/\s+/g, " ").trim();
+      const firstSentence = clean.match(/[^.!?…]+[.!?…]*/)?.[0]?.trim() || clean;
+      const chunk = firstSentence.length > 120 ? firstSentence.slice(0, 120) : firstSentence;
+      const key = `${currentAudioProvider()}::${voice}::${chunk.toLowerCase()}`;
+
+      const existing = await withAdmin((db) =>
+        db.select({ id: ttsCache.id }).from(ttsCache).where(eq(ttsCache.cacheKey, key)).limit(1),
+      );
+      if (existing.length > 0) return;
+
+      const { base64, mime } = await synthesise(chunk, voice);
+      await withAdmin((db) =>
+        db
+          .insert(ttsCache)
+          .values({ cacheKey: key, textContent: chunk, voice, audioBase64: base64, mimeType: mime })
+          .onConflictDoNothing({ target: ttsCache.cacheKey }),
+      );
+    } catch {
+      // Background pre-warm is best-effort and non-blocking
+    }
+  })();
+}
+
 /* ------------------------------ learning plan ------------------------------ */
 
 export type LearningPlan = { insights: string[]; tasks: { label: string; area: string }[] };

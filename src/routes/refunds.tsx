@@ -12,7 +12,7 @@ export const Route = createFileRoute("/refunds")({
       {
         name: "description",
         content:
-          "Ms Thao English offers a 30-day money-back guarantee on Lingora English subscriptions. Learn how to request a refund.",
+          "Lingora English offers a 30-day money-back guarantee on subscriptions. Learn how to request a refund.",
       },
       { property: "og:title", content: "Refund Policy — Lingora English" },
       {
@@ -30,11 +30,11 @@ export const Route = createFileRoute("/refunds")({
 const SECTIONS: { title: string; body: React.ReactNode }[] = [
   {
     title: "1. Who this policy is from",
-    body: "This refund policy applies to all subscriptions to Lingora English, sold by Ms Thao English (\"we\", \"us\"). Payments are processed by Stripe; we handle refund and billing questions ourselves.",
+    body: "This refund policy applies to all subscriptions to Lingora English (\"we\", \"us\"). Payments are processed by Stripe; we handle refund and billing questions ourselves.",
   },
   {
     title: "2. 30-day money-back guarantee",
-    body: "If you are not satisfied with your purchase, you may request a full refund within 30 days of your order date. This applies to first purchases of Premium and IELTS Pro, on both monthly and yearly billing.",
+    body: "If you are not satisfied with your purchase, you may request a full refund within 30 days of your order date. This applies to first purchases of Premium and Pro, on both monthly and yearly billing.",
   },
   {
     title: "3. Renewals",

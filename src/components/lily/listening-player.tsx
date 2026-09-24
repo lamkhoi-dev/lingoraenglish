@@ -6,11 +6,9 @@ import { toast } from "sonner";
 import { useAuth } from "@/lib/auth";
 import { useI18n } from "@/lib/i18n";
 import { speak } from "@/lib/lily.functions";
-import { PLAYBACK_SPEEDS, accentKey, formatDuration, type ScriptLine } from "@/lib/listening-content";
+import { PLAYBACK_SPEEDS, accentKey, formatDuration, speakerVoiceMap, type ScriptLine } from "@/lib/listening-content";
 import { cn } from "@/lib/utils";
 import { voicePlayer } from "@/lib/voice-player";
-
-const VOICES = ["shimmer", "alloy", "verse", "sage"];
 
 export type ListeningPlayerProps = {
   script: ScriptLine[];
@@ -42,13 +40,7 @@ export function ListeningPlayer({ script, durationSeconds, accent, onListened, c
   const [rate, setRate] = useState(1);
   const [volume, setVolume] = useState(1);
 
-  const speakerVoice = useMemo(() => {
-    const map = new Map<string, string>();
-    for (const line of script) {
-      if (!map.has(line.speaker)) map.set(line.speaker, VOICES[map.size % VOICES.length]!);
-    }
-    return map;
-  }, [script]);
+  const speakerVoice = useMemo(() => speakerVoiceMap(script), [script]);
 
   const hardStop = useCallback(() => {
     token.current += 1;
@@ -80,13 +72,41 @@ export function ListeningPlayer({ script, durationSeconds, accent, onListened, c
       const key = `${voice}::${line.line}`;
       const hit = cache.current.get(key);
       if (hit) return hit;
-      const res = await requestSpeech({ data: { text: line.line, voice } });
-      const src = `data:${res.mime};base64,${res.audioBase64}`;
-      cache.current.set(key, src);
-      return src;
+
+      let lastErr: unknown;
+      for (let attempt = 0; attempt < 2; attempt++) {
+        try {
+          const res = await requestSpeech({ data: { text: line.line, voice } });
+          const src = `data:${res.mime};base64,${res.audioBase64}`;
+          cache.current.set(key, src);
+          return src;
+        } catch (err) {
+          lastErr = err;
+          if (attempt === 0) {
+            await new Promise((r) => setTimeout(r, 1200));
+          }
+        }
+      }
+      throw lastErr;
     },
     [requestSpeech, speakerVoice],
   );
+
+  // Prewarm initial lines in the background so first playback starts instantly
+  useEffect(() => {
+    if (script && script.length > 0 && user) {
+      void (async () => {
+        for (let i = 0; i < Math.min(script.length, 2); i++) {
+          if (token.current !== 0) break;
+          try {
+            await fetchLine(script[i]!);
+          } catch {
+            break;
+          }
+        }
+      })();
+    }
+  }, [script, user, fetchLine]);
 
   const playFrom = useCallback(
     async (from: number) => {
@@ -100,11 +120,23 @@ export function ListeningPlayer({ script, durationSeconds, accent, onListened, c
       setStatus("loading");
 
       try {
+        // Cho một khoảng đệm 0.5s (500ms) trước khi bắt đầu đọc bài nghe để người học kịp chuẩn bị
+        if (from === 0) {
+          await new Promise<void>((resolve) => setTimeout(resolve, 500));
+          if (run !== token.current) return;
+        }
+
         for (let i = from; i < script.length; i += 1) {
           if (run !== token.current) return;
           setIndex(i);
           const src = await fetchLine(script[i]!);
           if (run !== token.current) return;
+
+          // Preload the next sentence in the background while this sentence is being played
+          if (i + 1 < script.length) {
+            void fetchLine(script[i + 1]!).catch(() => {});
+          }
+
           await new Promise<void>((resolve, reject) => {
             const el = new Audio(src);
             el.playbackRate = rate;

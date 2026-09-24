@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { Sparkles } from "lucide-react";
+import { BookOpen, Headphones, Mic, Sparkles, Volume2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
@@ -14,10 +14,13 @@ import { generateLearningPlan, type LearningPlan } from "@/lib/lily.functions";
 import {
   getMyProgressHistory,
   getProgressOverview,
+  getTodayLearningLog,
   type ProgressSessionRow,
   type ProgressSoundRow,
   type ProgressSpeakingRow,
+  type TodayLearningSummary,
 } from "@/lib/progress.functions";
+import { cn } from "@/lib/utils";
 import { fetchSpeakingTests, fetchTestProgress, progressSummary } from "@/lib/speaking-test-library";
 import { en } from "@/locales/en";
 import { NOINDEX_META } from "@/lib/seo";
@@ -58,8 +61,10 @@ function ProgressPage() {
   const requestPlan = useServerFn(generateLearningPlan);
   const getMyProgressHistoryFn = useServerFn(getMyProgressHistory);
   const getProgressOverviewFn = useServerFn(getProgressOverview);
+  const getTodayLearningLogFn = useServerFn(getTodayLearningLog);
 
   const [overview, setOverview] = useState<Awaited<ReturnType<typeof getProgressOverview>> | null>(null);
+  const [todayLog, setTodayLog] = useState<TodayLearningSummary | null>(null);
   const [speaking, setSpeaking] = useState<ProgressSpeakingRow[]>([]);
   const [sessions, setSessions] = useState<ProgressSessionRow[]>([]);
   const [sounds, setSounds] = useState<ProgressSoundRow[]>([]);
@@ -72,6 +77,7 @@ function ProgressPage() {
   useEffect(() => {
     if (!user) return;
     void getProgressOverviewFn().then(setOverview).catch(() => setOverview(null));
+    void getTodayLearningLogFn().then(setTodayLog).catch(() => setTodayLog(null));
     void (async () => {
       const history = await getMyProgressHistoryFn();
       setSpeaking(history.speaking);
@@ -86,7 +92,7 @@ function ProgressPage() {
         setTestSummary(null);
       }
     })();
-  }, [user, getMyProgressHistoryFn, getProgressOverviewFn]);
+  }, [user, getMyProgressHistoryFn, getProgressOverviewFn, getTodayLearningLogFn]);
 
   const generate = async () => {
     if (!user) return;
@@ -134,7 +140,150 @@ function ProgressPage() {
     <AppShell>
       <SectionHeading eyebrow={t("nav.progress")} title={t("progress.title")} description={t("progress.sub")} />
 
+      {/* ── Hoạt động hôm nay / Today's Practice Log ─────────────────── */}
+      <div className="mt-8">
+        <PanelCard title={locale === "vi" ? "Hôm nay bạn đã học gì?" : "Today's Learning Activity"}>
+          {todayLog && todayLog.hasActivity ? (
+            <div className="space-y-4">
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                <div className="rounded-xl bg-surface-2 p-3 ring-1 ring-border">
+                  <dt className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                    <Volume2 className="size-3.5 text-brass" />
+                    <span>{locale === "vi" ? "Phát âm hôm nay" : "Pronunciation"}</span>
+                  </dt>
+                  <dd className="mt-1 font-display text-lg text-foreground">
+                    {todayLog.stats.pronunciationCount} {locale === "vi" ? "lượt" : "times"}
+                  </dd>
+                  {todayLog.stats.pronunciationSounds.length > 0 && (
+                    <p className="mt-1 truncate font-mono text-xs text-brass-soft">
+                      {todayLog.stats.pronunciationSounds.join("  ")}
+                    </p>
+                  )}
+                </div>
+
+                <div className="rounded-xl bg-surface-2 p-3 ring-1 ring-border">
+                  <dt className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                    <BookOpen className="size-3.5 text-brass" />
+                    <span>{locale === "vi" ? "Từ vựng đã học" : "Vocabulary"}</span>
+                  </dt>
+                  <dd className="mt-1 font-display text-lg text-foreground">
+                    {todayLog.stats.vocabularyCount} {locale === "vi" ? "từ mới" : "words"}
+                  </dd>
+                </div>
+
+                <div className="rounded-xl bg-surface-2 p-3 ring-1 ring-border">
+                  <dt className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                    <Mic className="size-3.5 text-brass" />
+                    <span>{locale === "vi" ? "Nói & Shadowing" : "Speaking & Shadowing"}</span>
+                  </dt>
+                  <dd className="mt-1 font-display text-lg text-foreground">
+                    {todayLog.stats.speakingCount + todayLog.stats.shadowingCount + todayLog.stats.coachCount} {locale === "vi" ? "bài luyện" : "exercises"}
+                  </dd>
+                </div>
+
+                <div className="rounded-xl bg-surface-2 p-3 ring-1 ring-border">
+                  <dt className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                    <Headphones className="size-3.5 text-brass" />
+                    <span>{locale === "vi" ? "Luyện nghe" : "Listening"}</span>
+                  </dt>
+                  <dd className="mt-1 font-display text-lg text-foreground">
+                    {todayLog.stats.listeningCount} {locale === "vi" ? "bài nghe" : "lessons"}
+                  </dd>
+                </div>
+              </div>
+
+              {/* Chi tiết hoạt động hôm nay */}
+              <div className="mt-4">
+                <h4 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">
+                  {locale === "vi" ? "Chi tiết các hoạt động trong ngày" : "Activities completed today"}
+                </h4>
+                <div className="mt-2 max-h-64 space-y-2 overflow-y-auto pr-1">
+                  {todayLog.items.map((it) => (
+                    <div
+                      key={it.id}
+                      className="flex items-center justify-between rounded-lg bg-surface-2/60 px-3 py-2 text-sm ring-1 ring-border"
+                    >
+                      <div className="flex items-center gap-2.5">
+                        <span
+                          className={cn(
+                            "rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider",
+                            it.type === "pronunciation" && "bg-brass/20 text-brass-soft",
+                            it.type === "vocabulary" && "bg-blue-500/20 text-blue-300",
+                            it.type === "shadowing" && "bg-emerald-500/20 text-emerald-300",
+                            it.type === "speaking" && "bg-purple-500/20 text-purple-300",
+                            it.type === "coach" && "bg-amber-500/20 text-amber-300",
+                            it.type === "listening" && "bg-sky-500/20 text-sky-300",
+                          )}
+                        >
+                          {it.type === "pronunciation"
+                            ? (locale === "vi" ? "Phát âm" : "Pron")
+                            : it.type === "vocabulary"
+                            ? (locale === "vi" ? "Từ vựng" : "Vocab")
+                            : it.type === "shadowing"
+                            ? "Shadowing"
+                            : it.type === "speaking"
+                            ? (locale === "vi" ? "Nói" : "Speech")
+                            : it.type === "coach"
+                            ? "Coach AI"
+                            : (locale === "vi" ? "Nghe" : "Listen")}
+                        </span>
+                        <span className="font-medium text-foreground">{it.title}</span>
+                        {it.subtitle && <span className="text-xs text-muted-foreground">({it.subtitle})</span>}
+                      </div>
+                      <div className="flex items-center gap-3 text-xs">
+                        {it.score !== null && it.score !== undefined && (
+                          <span
+                            className={cn(
+                              "font-semibold",
+                              it.score >= 85 ? "text-brass" : it.score >= 70 ? "text-brass-soft" : "text-plum-soft",
+                            )}
+                          >
+                            {it.score >= 10 ? `${Math.round(it.score)}%` : `${it.score}/10`}
+                          </span>
+                        )}
+                        <span className="text-muted-foreground">
+                          {new Date(it.timestamp).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+                        </span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : (
+            <div className="rounded-xl bg-surface-2 p-5 text-center">
+              <p className="text-sm text-muted-foreground">
+                {locale === "vi"
+                  ? "Hôm nay bạn chưa có hoạt động học nào. Hãy bắt đầu luyện tập để ghi nhận tiến độ hôm nay!"
+                  : "No learning activity recorded yet today. Complete a practice exercise to log today's progress!"}
+              </p>
+              <div className="mt-4 flex flex-wrap justify-center gap-2.5">
+                <Link
+                  to="/pronunciation"
+                  className="rounded-full bg-brass px-4 py-1.5 text-xs font-semibold text-plum-deep hover:bg-brass-soft"
+                >
+                  {locale === "vi" ? "Luyện phát âm 44 âm" : "Practice Pronunciation"}
+                </Link>
+                <Link
+                  to="/vocabulary"
+                  className="rounded-full bg-surface-3 px-4 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-2"
+                >
+                  {locale === "vi" ? "Học từ vựng" : "Vocabulary"}
+                </Link>
+                <Link
+                  to="/ai-speaking"
+                  className="rounded-full bg-surface-3 px-4 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-2"
+                >
+                  {locale === "vi" ? "Luyện nói với AI" : "AI Speaking Coach"}
+                </Link>
+              </div>
+            </div>
+          )}
+        </PanelCard>
+      </div>
+
       {overview && !overview.hasData && (
+
         <div className="lounge-panel mt-8 p-6">
           <h3 className="font-display text-lg text-foreground">{t("progress.emptyTitle")}</h3>
           <p className="mt-2 text-sm text-muted-foreground">{t("progress.emptyBody")}</p>

@@ -613,4 +613,13 @@ export const VOCAB_CATEGORIES = [
   "Commonly Confused Words",
   "IELTS Vocabulary",
   "TOEIC Vocabulary",
+  "TOEFL Vocabulary",
+  "PTE Vocabulary",
 ];
+
+/** Every category now ships a free sample (the first 10 words by sort_order —
+ * see vocabulary_words.access_tier), so none is fully locked at the category
+ * level any more. Kept as an (empty) exported list rather than deleted so a
+ * future category can opt back in without re-wiring the chip's lock badge. */
+export const PREMIUM_ONLY_VOCAB_CATEGORIES: readonly string[] = [];
+

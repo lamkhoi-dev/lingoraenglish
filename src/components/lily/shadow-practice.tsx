@@ -80,13 +80,24 @@ export function ShadowPractice({ sentence, progress, onSaved, onNext, position, 
         return;
       }
       try {
+        voicePlayer.prime();
         setPlaying(true);
         setSpeed(rate);
         let src = cache.current.get(target);
         if (!src) {
-          const res = await requestSpeech({ data: { text: target, voice } });
-          src = `data:${res.mime};base64,${res.audioBase64}`;
-          cache.current.set(target, src);
+          let lastErr: unknown;
+          for (let attempt = 0; attempt < 2; attempt++) {
+            try {
+              const res = await requestSpeech({ data: { text: target, voice } });
+              src = `data:${res.mime};base64,${res.audioBase64}`;
+              cache.current.set(target, src);
+              break;
+            } catch (err) {
+              lastErr = err;
+              if (attempt === 0) await new Promise((r) => setTimeout(r, 1000));
+            }
+          }
+          if (!src) throw lastErr;
         }
         await voicePlayer.playRaw(src, { rate, loop, label: target });
         setPlaying(false);
@@ -172,7 +183,7 @@ export function ShadowPractice({ sentence, progress, onSaved, onNext, position, 
   ];
 
   return (
-    <section className="lounge-panel p-5 sm:p-6">
+    <section data-tour="shadow-practice-panel" className="lounge-panel p-5 sm:p-6">
       {paywall}
       <div className="flex flex-wrap items-center justify-between gap-2">
         <div className="flex items-center gap-2">

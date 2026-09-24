@@ -43,6 +43,14 @@ export type MinimalPairDrill = {
   note: string;
 };
 
+/** One example word plus its own example sentence, so Listen can model
+ * "the sound, then the word, then a sentence that actually contains it"
+ * instead of pairing the word with an unrelated sound-level sentence. */
+export type WordExample = {
+  word: string;
+  sentence: string;
+};
+
 export type Phoneme = {
   /** Reference symbol (British RP inventory). */
   symbol: string;
@@ -61,13 +69,15 @@ export type Phoneme = {
   jaw: string;
   /** Typical mistakes, written with Vietnamese learners in mind. */
   mistakes: string[];
-  words: string[];
+  words: WordExample[];
   sentences: string[];
   pairs: MinimalPairDrill[];
   accentNote?: string;
 };
 
 /* ----------------------------- delivery skills ----------------------------- */
+
+import type { TranslationKey } from "@/locales/en";
 
 export type SkillId =
   | "sounds"
@@ -80,16 +90,23 @@ export type SkillId =
   | "chunking"
   | "fluency";
 
-export const SKILLS: { id: SkillId; label: string; icon: string; blurb: string }[] = [
-  { id: "sounds", label: "Sounds", icon: "🔤", blurb: "All 44 English phonemes with minimal pairs." },
-  { id: "word-stress", label: "Word stress", icon: "🗣️", blurb: "Syllables, primary and secondary stress." },
-  { id: "sentence-stress", label: "Sentence stress", icon: "🎵", blurb: "Content words strong, function words weak." },
-  { id: "intonation", label: "Intonation", icon: "📈", blurb: "Rising, falling, rise-fall and fall-rise." },
-  { id: "connected-speech", label: "Connected speech", icon: "🔗", blurb: "Linking, elision, assimilation, weak forms." },
-  { id: "reductions", label: "Reductions", icon: "💬", blurb: "gonna, wanna, hafta — informal spoken English." },
-  { id: "rhythm", label: "Rhythm", icon: "🥁", blurb: "Stress-timed beats, timing and pauses." },
-  { id: "chunking", label: "Pausing & chunking", icon: "⏸️", blurb: "Thought groups and natural breath pauses." },
-  { id: "fluency", label: "Fluency", icon: "⚡", blurb: "Speed, hesitation, fillers and linking ideas." },
+export const SKILLS: {
+  id: SkillId;
+  label: string;
+  icon: string;
+  blurb: string;
+  labelKey: TranslationKey;
+  blurbKey: TranslationKey;
+}[] = [
+  { id: "sounds", label: "Sounds", icon: "🔤", blurb: "All 44 English phonemes with minimal pairs.", labelKey: "pron.skill.sounds", blurbKey: "pron.skill.sounds.blurb" },
+  { id: "word-stress", label: "Word stress", icon: "🗣️", blurb: "Syllables, primary and secondary stress.", labelKey: "pron.skill.wordStress", blurbKey: "pron.skill.wordStress.blurb" },
+  { id: "sentence-stress", label: "Sentence stress", icon: "🎵", blurb: "Content words strong, function words weak.", labelKey: "pron.skill.sentenceStress", blurbKey: "pron.skill.sentenceStress.blurb" },
+  { id: "intonation", label: "Intonation", icon: "📈", blurb: "Rising, falling, rise-fall and fall-rise.", labelKey: "pron.skill.intonation", blurbKey: "pron.skill.intonation.blurb" },
+  { id: "connected-speech", label: "Connected speech", icon: "🔗", blurb: "Linking, elision, assimilation, weak forms.", labelKey: "pron.skill.connectedSpeech", blurbKey: "pron.skill.connectedSpeech.blurb" },
+  { id: "reductions", label: "Reductions", icon: "💬", blurb: "gonna, wanna, hafta — informal spoken English.", labelKey: "pron.skill.reductions", blurbKey: "pron.skill.reductions.blurb" },
+  { id: "rhythm", label: "Rhythm", icon: "🥁", blurb: "Stress-timed beats, timing and pauses.", labelKey: "pron.skill.rhythm", blurbKey: "pron.skill.rhythm.blurb" },
+  { id: "chunking", label: "Pausing & chunking", icon: "⏸️", blurb: "Thought groups and natural breath pauses.", labelKey: "pron.skill.chunking", blurbKey: "pron.skill.chunking.blurb" },
+  { id: "fluency", label: "Fluency", icon: "⚡", blurb: "Speed, hesitation, fillers and linking ideas.", labelKey: "pron.skill.fluency", blurbKey: "pron.skill.fluency.blurb" },
 ];
 
 /* ------------------------------ practice flow ------------------------------ */

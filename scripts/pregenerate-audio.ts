@@ -30,6 +30,7 @@ import {
 } from "../src/db/schema/schema";
 import { currentAudioProvider, currentTtsModel, synthesise } from "../src/lib/ai-providers.server";
 import { priceCall } from "../src/lib/ai-cost.server";
+import { speakerVoiceMap, type ScriptLine } from "../src/lib/listening-content";
 
 const DEFAULT_VOICE = "shimmer";
 /** Matches speak() in lily.functions.ts exactly — a different key would
@@ -71,10 +72,14 @@ async function collect(): Promise<Item[]> {
         .where(eq(listeningLessons.status, "published")),
     );
     for (const r of rows) {
-      const lines = Array.isArray(r.script) ? (r.script as { line?: string }[]) : [];
+      const lines = Array.isArray(r.script) ? (r.script as ScriptLine[]) : [];
+      // Must match the round-robin speaker->voice assignment in
+      // listening-player.tsx exactly, or every non-first speaker's lines
+      // warm under a voice the player never actually requests.
+      const voices = speakerVoiceMap(lines);
       for (const line of lines) {
         if (line?.line?.trim())
-          items.push({ text: line.line, voice: DEFAULT_VOICE, source: "listening" });
+          items.push({ text: line.line, voice: voices.get(line.speaker) ?? DEFAULT_VOICE, source: "listening" });
       }
     }
   }
@@ -155,32 +160,76 @@ async function main() {
   const todo = limit > 0 ? missing.slice(0, limit) : missing;
   let done = 0;
   let failed = 0;
+  const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+  // Observed live: at a 1s gap, the account's sustained quota held for ~250
+  // items (~10-12 min) before every further call started 429ing — so the
+  // real ceiling is well under 1 req/s once sustained, not just a burst
+  // limit. A wider steady gap plus a long cooldown-and-retry-the-same-item
+  // (instead of giving up and moving on, which just fed the next item into
+  // a quota that hadn't recovered yet) keeps this from turning into a wall
+  // of failures once the quota is actually exhausted.
+  const ITEM_DELAY_MS = 6000;
+  const RATE_LIMIT_COOLDOWN_MS = 60000;
+  const MAX_RATE_LIMIT_RETRIES = 5;
+  // A model's daily quota (RPD), not just its per-minute rate, turned out to
+  // be the real ceiling — once that's exhausted, every remaining item would
+  // otherwise burn its full 5-retry/60s cooldown cycle for nothing, for
+  // hours, one item at a time. Two whole items in a row failing all their
+  // retries is a reliable signal the daily quota is actually gone (not a
+  // one-off network hiccup), so stop the run outright instead of grinding
+  // through the rest of `todo` for no benefit — it's resumable, so the next
+  // invocation (after the daily reset, a quota increase, or a new key) just
+  // picks up exactly where this left off.
+  const MAX_CONSECUTIVE_ITEM_FAILURES = 2;
+  let consecutiveRateLimitFailures = 0;
 
   for (const item of todo) {
-    try {
-      const { base64, mime } = await synthesise(item.text, item.voice);
-      await withAdmin((db) =>
-        db
-          .insert(ttsCache)
-          .values({
-            cacheKey: cacheKey(item.text, item.voice),
-            textContent: item.text,
-            voice: item.voice,
-            audioBase64: base64,
-            mimeType: mime,
-          })
-          .onConflictDoNothing({ target: ttsCache.cacheKey }),
+    let attempt = 0;
+    let itemFailedOnRateLimit = false;
+    for (;;) {
+      try {
+        const { base64, mime } = await synthesise(item.text, item.voice);
+        await withAdmin((db) =>
+          db
+            .insert(ttsCache)
+            .values({
+              cacheKey: cacheKey(item.text, item.voice),
+              textContent: item.text,
+              voice: item.voice,
+              audioBase64: base64,
+              mimeType: mime,
+            })
+            .onConflictDoNothing({ target: ttsCache.cacheKey }),
+        );
+        done += 1;
+        if (done % 25 === 0) console.log(`  ${done}/${todo.length} generated…`);
+        await sleep(ITEM_DELAY_MS);
+        break;
+      } catch (error) {
+        const message = error instanceof Error ? error.message : String(error);
+        const rateLimited = /rate limit|quá tải|429|resource_exhausted/i.test(message);
+        if (rateLimited && attempt < MAX_RATE_LIMIT_RETRIES) {
+          attempt += 1;
+          console.error(`  RATE LIMITED, cooling down ${RATE_LIMIT_COOLDOWN_MS / 1000}s (retry ${attempt}/${MAX_RATE_LIMIT_RETRIES})…`);
+          await sleep(RATE_LIMIT_COOLDOWN_MS);
+          continue;
+        }
+        failed += 1;
+        itemFailedOnRateLimit = rateLimited;
+        console.error(`  FAILED (${item.source}): ${item.text.slice(0, 60)}`, message);
+        // A provider hiccup should not throw away the work already done — the
+        // script is resumable, so keep going and report at the end.
+        await sleep(rateLimited ? RATE_LIMIT_COOLDOWN_MS : ITEM_DELAY_MS);
+        break;
+      }
+    }
+
+    consecutiveRateLimitFailures = itemFailedOnRateLimit ? consecutiveRateLimitFailures + 1 : 0;
+    if (consecutiveRateLimitFailures >= MAX_CONSECUTIVE_ITEM_FAILURES) {
+      console.log(
+        `\n${MAX_CONSECUTIVE_ITEM_FAILURES} items in a row exhausted all retries on rate limits — the daily quota is almost certainly gone for now. Stopping early instead of grinding through the rest.`,
       );
-      done += 1;
-      if (done % 25 === 0) console.log(`  ${done}/${todo.length} generated…`);
-    } catch (error) {
-      failed += 1;
-      console.error(
-        `  FAILED (${item.source}): ${item.text.slice(0, 60)}`,
-        error instanceof Error ? error.message : error,
-      );
-      // A provider hiccup should not throw away the work already done — the
-      // script is resumable, so keep going and report at the end.
+      break;
     }
   }
 

@@ -363,7 +363,7 @@ export function AdminListeningPanel() {
         {loading && <Loader2 className="size-4 animate-spin text-muted-foreground" />}
       </div>
       <p className="mt-1 text-xs text-muted-foreground">
-        Free/paid split is set in the Plans tab (listening_free_categories), not here.
+        Free/paid split is set in the Plans tab (listening_free_per_level), not here.
       </p>
 
       <div className="mt-4 space-y-2">

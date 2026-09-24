@@ -20,6 +20,20 @@ export type ListeningSkill =
 
 export type ScriptLine = { speaker: string; line: string };
 
+/** Voices assigned to a script's speakers, round-robin by first appearance.
+ * Shared by the player (which fetches this exact voice per line) and by
+ * scripts/pregenerate-audio.ts (which must warm the cache under the same
+ * key, or every non-first speaker's lines stay a permanent cache miss). */
+export const LISTENING_VOICES = ["shimmer", "alloy", "nova", "sage", "coral"];
+
+export function speakerVoiceMap(script: ScriptLine[]): Map<string, string> {
+  const map = new Map<string, string>();
+  for (const line of script) {
+    if (!map.has(line.speaker)) map.set(line.speaker, LISTENING_VOICES[map.size % LISTENING_VOICES.length]!);
+  }
+  return map;
+}
+
 export type ListeningQuestion = {
   type: string;
   prompt: string;

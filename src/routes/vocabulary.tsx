@@ -1,18 +1,21 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { Check, Mic, Volume2 } from "lucide-react";
+import { Check, Lock, Mic, Volume2 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 import { AppShell } from "@/components/lily/app-shell";
+import { FeatureTour, ViewGuideButton, useFeatureTour } from "@/components/lily/feature-tour";
 import { LockedContentList } from "@/components/lily/locked-content";
 import { VocabSpeakPractice } from "@/components/lily/vocab-speak";
 import { SectionHeading } from "@/components/lily/brand";
+import { useBilling } from "@/hooks/use-billing";
 import { useSpeak } from "@/hooks/use-speak";
 import { useAuth } from "@/lib/auth";
 import { useI18n } from "@/lib/i18n";
-import { VOCAB_CATEGORIES } from "@/lib/ipa-data";
+import { PREMIUM_ONLY_VOCAB_CATEGORIES, VOCAB_CATEGORIES } from "@/lib/ipa-data";
 import { canonicalLink } from "@/lib/seo";
+import { cn } from "@/lib/utils";
 import {
   getMyVocabularyProgress,
   getVocabularyTranslations,
@@ -52,6 +55,8 @@ type Word = {
 function VocabularyPage() {
   const { t, locale, languageName } = useI18n();
   const { user } = useAuth();
+  const { data: billing } = useBilling();
+  const isPaid = billing?.entitlement?.tier === "premium" || billing?.entitlement?.tier === "ielts_pro";
   const { play, stop: stopVoice, pause, resume, speaking, paused, loading: voiceLoading } = useSpeak();
 
   const getVocabularyWordsFn = useServerFn(getVocabularyWords);
@@ -134,10 +139,33 @@ function VocabularyPage() {
   const localExample = (w: Word) =>
     locale === "en" ? "" : (translations[w.id]?.example ?? (locale === "vi" ? w.exampleVi : ""));
 
+  const tour = useFeatureTour(
+    "vocabulary",
+    [
+      {
+        target: '[data-tour="vocab-categories"]',
+        title: t("tour.vocab.step1.title"),
+        content: t("tour.vocab.step1.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="vocab-first-card"]',
+        title: t("tour.vocab.step2.title"),
+        content: t("tour.vocab.step2.content"),
+        placement: "auto",
+      },
+    ],
+    words.length > 0,
+  );
+
   return (
     <AppShell>
+      <FeatureTour run={tour.run} steps={tour.steps} handleEvent={tour.handleEvent} />
       <div className="grid items-center gap-6 lg:grid-cols-[1.3fr_0.7fr]">
-        <SectionHeading eyebrow={t("nav.vocabulary")} title={t("vocab.title")} description={t("vocab.sub")} />
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <SectionHeading eyebrow={t("nav.vocabulary")} title={t("vocab.title")} description={t("vocab.sub")} />
+          <ViewGuideButton onClick={tour.restart} />
+        </div>
         <div className="hidden lg:block overflow-hidden rounded-3xl border border-border shadow-lg">
           <img
             src="/images/vocabulary-cards.jpg"
@@ -147,7 +175,7 @@ function VocabularyPage() {
         </div>
       </div>
 
-      <div className="mt-6 flex flex-wrap gap-2">
+      <div data-tour="vocab-categories" className="mt-6 flex flex-wrap gap-2">
         <button
           type="button"
           onClick={() => setCategory("all")}
@@ -157,18 +185,23 @@ function VocabularyPage() {
         >
           {t("common.all")}
         </button>
-        {VOCAB_CATEGORIES.map((c) => (
-          <button
-            key={c}
-            type="button"
-            onClick={() => setCategory(c)}
-            className={`rounded-full px-3.5 py-1.5 text-xs font-semibold ring-1 ring-border ${
-              category === c ? "bg-brass text-plum-deep" : "bg-surface-2 text-muted-foreground hover:text-foreground"
-            }`}
-          >
-            {c}
-          </button>
-        ))}
+        {VOCAB_CATEGORIES.map((c) => {
+          const isPremiumOnly = !isPaid && PREMIUM_ONLY_VOCAB_CATEGORIES.includes(c);
+          return (
+            <button
+              key={c}
+              type="button"
+              onClick={() => setCategory(c)}
+              className={cn(
+                "inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-semibold ring-1 ring-border transition-colors",
+                category === c ? "bg-brass text-plum-deep" : "bg-surface-2 text-muted-foreground hover:text-foreground"
+              )}
+            >
+              <span>{c}</span>
+              {isPremiumOnly && <Lock className="size-3 text-brass-soft" />}
+            </button>
+          );
+        })}
       </div>
 
       {speakWord && (
@@ -192,8 +225,12 @@ function VocabularyPage() {
         <p className="mt-8 text-sm text-muted-foreground">{t("common.none")}</p>
       ) : (
         <div className="mt-8 grid gap-4 md:grid-cols-2">
-          {words.map((w) => (
-            <article key={w.id} className="lounge-panel animate-rise p-5">
+          {words.map((w, i) => (
+            <article
+              key={w.id}
+              data-tour={i === 0 ? "vocab-first-card" : undefined}
+              className="lounge-panel animate-rise p-5"
+            >
               <div className="flex items-start justify-between gap-3">
                 <div>
                   <h2 className="font-display text-xl text-foreground">{w.word}</h2>
@@ -202,11 +239,13 @@ function VocabularyPage() {
                 <div className="flex items-center gap-2">
                   <button
                     type="button"
-                    onClick={() => void play(w.word)}
+                    onClick={() => void play(`"${w.word}"`)}
                     aria-label={t("common.listen")}
                     className="grid size-9 place-items-center rounded-full bg-surface-2 text-foreground ring-1 ring-border hover:bg-surface-3"
                   >
-                    <Volume2 className={speaking === w.word ? "size-4 animate-pulse text-brass" : "size-4"} />
+                    {/* Quoted so the AI voice reads exactly this word instead of treating a bare
+                        greeting like "hello" as something to respond to conversationally. */}
+                    <Volume2 className={speaking === `"${w.word}"` ? "size-4 animate-pulse text-brass" : "size-4"} />
                   </button>
                   {user && (
                     <button
@@ -248,9 +287,14 @@ function VocabularyPage() {
                 <button
                   type="button"
                   onClick={() => void play(w.exampleSentence)}
-                  className="mt-2 inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
+                  className={cn(
+                    "mt-2 inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold ring-1 ring-border transition-colors",
+                    speaking === w.exampleSentence
+                      ? "bg-brass text-plum-deep shadow-brass"
+                      : "bg-surface-2 text-foreground hover:bg-surface-3"
+                  )}
                 >
-                  <Volume2 className="size-3.5" />
+                  <Volume2 className={cn("size-3.5", speaking === w.exampleSentence && "animate-pulse")} />
                   {t("common.listen")}
                 </button>
                 <button

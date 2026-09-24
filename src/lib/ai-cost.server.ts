@@ -25,7 +25,7 @@ import { withAdmin } from "@/db";
  */
 const PRICES: Record<string, { inPerMTok?: number; outPerMTok?: number; perCall?: number }> = {
   "deepseek-chat": { inPerMTok: 0.27, outPerMTok: 1.1 },
-  "gemini-flash-latest": { inPerMTok: 0.3, outPerMTok: 2.5 },
+  "gemini-flash-latest": { inPerMTok: 0.3, outPerMTok: 2.5, perCall: 0.0001 },
   "gemini-2.5-flash-preview-tts": { perCall: 0.0006 },
 };
 
@@ -35,10 +35,13 @@ const MICRO = 1_000_000;
 export function priceCall(model: string, inputTokens: number, outputTokens: number): number {
   const price = PRICES[model];
   if (!price) return 0;
-  if (price.perCall !== undefined) return Math.round(price.perCall * MICRO);
+  if (price.perCall !== undefined && inputTokens === 0 && outputTokens === 0) {
+    return Math.round(price.perCall * MICRO);
+  }
   const input = ((price.inPerMTok ?? 0) * inputTokens) / 1_000_000;
   const output = ((price.outPerMTok ?? 0) * outputTokens) / 1_000_000;
-  return Math.round((input + output) * MICRO);
+  const tokenCost = Math.round((input + output) * MICRO);
+  return tokenCost > 0 ? tokenCost : Math.round((price.perCall ?? 0) * MICRO);
 }
 
 export type CostStatus = {

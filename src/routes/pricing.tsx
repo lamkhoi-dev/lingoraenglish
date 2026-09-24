@@ -3,16 +3,79 @@ import { z } from "zod";
 import { useServerFn } from "@tanstack/react-start";
 import { useEffect, useMemo, useState } from "react";
 import { toast } from "sonner";
+import { QrCode } from "lucide-react";
 
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
 import { formatMoney, BillingCard } from "@/components/lily/billing-ui";
 import { useBilling, usePlans, type PlanRecord } from "@/hooks/use-billing";
 import { useAuth } from "@/lib/auth";
+import { createBankTransferOrder } from "@/lib/bank-transfer.functions";
 import { createCheckoutSession, getPublicPlans, recordBillingEvent, validateCoupon } from "@/lib/billing.functions";
 import { useI18n } from "@/lib/i18n";
 import { canonicalLink } from "@/lib/seo";
 import { en } from "@/locales/en";
+
+function VisaBadge() {
+  return (
+    <span
+      className="inline-flex items-center justify-center rounded bg-white px-1.5 py-0.5 shadow-2xs ring-1 ring-black/10 shrink-0"
+      title="Visa"
+      aria-label="Visa"
+    >
+      <svg
+        viewBox="0 0 36 12"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-2.5 w-auto"
+        aria-hidden="true"
+      >
+        <path
+          d="M14.07 0.3L9.2 11.7H6.01L3.66 2.52C3.52 1.97 3.38 1.76 2.94 1.52C2.23 1.13 1.05 0.77 0 0.55L0.07 0.3H5.16C5.82 0.3 6.41 0.74 6.55 1.51L7.81 8.21L11.74 0.3H14.07ZM26.4 7.92C26.42 4.89 22.21 4.73 22.24 3.38C22.25 2.97 22.64 2.53 23.53 2.41C23.97 2.35 25.19 2.3 26.43 2.87L26.95 0.44C26.24 0.18 25.32 0 24.16 0C21.23 0 19.16 1.56 19.14 3.78C19.12 5.43 20.61 6.35 21.73 6.9C22.88 7.46 23.27 7.82 23.26 8.32C23.25 9.09 22.34 9.43 21.5 9.44C20 9.47 19.12 9.04 18.46 8.74L17.92 11.27C18.66 11.61 20.03 11.9 21.44 11.92C24.52 11.92 26.38 10.4 26.4 7.92ZM34.25 11.7H36.99L34.61 0.3H32.22C31.7 0.3 31.25 0.6 31.06 1.07L26.54 11.7H29.68L30.31 9.98H34.12L34.25 11.7ZM31.18 7.62L32.74 3.39L33.64 7.62H31.18ZM18.77 0.3L16.3 11.7H13.31L15.78 0.3H18.77Z"
+          fill="#1A1F71"
+        />
+      </svg>
+    </span>
+  );
+}
+
+function MastercardBadge() {
+  return (
+    <span
+      className="inline-flex items-center justify-center rounded bg-white px-1.5 py-0.5 shadow-2xs ring-1 ring-black/10 shrink-0"
+      title="Mastercard"
+      aria-label="Mastercard"
+    >
+      <svg
+        viewBox="0 0 24 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-3 w-auto"
+        aria-hidden="true"
+      >
+        <circle cx="8" cy="8" r="7" fill="#EB001B" />
+        <circle cx="16" cy="8" r="7" fill="#F79E1B" fillOpacity="0.9" />
+        <path
+          d="M12 2.5a6.96 6.96 0 0 1 2.45 5.5A6.96 6.96 0 0 1 12 13.5 6.96 6.96 0 0 1 9.55 8 6.96 6.96 0 0 1 12 2.5z"
+          fill="#FF5F00"
+        />
+      </svg>
+    </span>
+  );
+}
+
+function VietQrBadge() {
+  return (
+    <span
+      className="inline-flex items-center gap-1 rounded bg-white px-2 py-0.5 shadow-2xs ring-1 ring-black/15 shrink-0"
+      title="VietQR"
+      aria-label="VietQR"
+    >
+      <span className="text-[11px] font-black tracking-tight text-[#0054A6] leading-none">Viet</span>
+      <span className="text-[11px] font-black tracking-tight text-[#EA1C24] leading-none">QR</span>
+    </span>
+  );
+}
 
 export const Route = createFileRoute("/pricing")({
   validateSearch: z.object({
@@ -63,6 +126,7 @@ function PricingPage() {
 
   const checkCoupon = useServerFn(validateCoupon);
   const createCheckout = useServerFn(createCheckoutSession);
+  const createBankTransfer = useServerFn(createBankTransferOrder);
   const logEvent = useServerFn(recordBillingEvent);
 
   useEffect(() => {
@@ -150,6 +214,22 @@ function PricingPage() {
       await logEvent({
         data: { event: "checkout_failed", planKey: plan.plan_key, intervalKey: interval },
       }).catch(() => undefined);
+      toast.error(error instanceof Error ? error.message : t("common.somethingWrong"));
+    } finally {
+      setBusyPlan(null);
+    }
+  };
+
+  const startBankTransfer = async (plan: PlanRecord) => {
+    if (!user) {
+      void navigate({ to: "/auth", search: { mode: "signup", plan: plan.plan_key, interval } as never });
+      return;
+    }
+    setBusyPlan(`${plan.plan_key}-bank`);
+    try {
+      const order = await createBankTransfer({ data: { priceId: priceIdFor(plan) } });
+      void navigate({ to: "/billing/bank-transfer" as never, search: { order: order.id } as never });
+    } catch (error) {
       toast.error(error instanceof Error ? error.message : t("common.somethingWrong"));
     } finally {
       setBusyPlan(null);
@@ -265,17 +345,44 @@ function PricingPage() {
                   type="button"
                   disabled={busyPlan === plan.plan_key || isCurrent}
                   onClick={() => void startCheckout(plan)}
-                  className="mt-6 w-full rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition hover:opacity-90 disabled:opacity-60"
+                  className="mt-6 flex w-full items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-sm transition hover:opacity-95 active:scale-[0.99] disabled:opacity-60"
                 >
-                  {isCurrent
-                    ? t("pricing.currentPlan")
-                    : plan.tier === "free"
-                      ? t("pricing.startFree")
-                      : busyPlan === plan.plan_key
-                        ? t("common.loading")
-                        : t("pricing.choose", { plan: plan.name })}
+                  <span className="truncate">
+                    {isCurrent
+                      ? t("pricing.currentPlan")
+                      : plan.tier === "free"
+                        ? t("pricing.startFree")
+                        : busyPlan === plan.plan_key
+                          ? t("common.loading")
+                          : t("pricing.choose", { plan: plan.name })}
+                  </span>
+                  {plan.tier !== "free" && !isCurrent && (
+                    <span className="inline-flex items-center gap-1.5 shrink-0 ml-1">
+                      <VisaBadge />
+                      <MastercardBadge />
+                    </span>
+                  )}
                 </button>
               )}
+
+              {plan.tier !== "free" && !isCurrent && (plan.monthly_amount_vnd || plan.yearly_amount_vnd) ? (
+                <button
+                  type="button"
+                  disabled={busyPlan === `${plan.plan_key}-bank`}
+                  onClick={() => void startBankTransfer(plan)}
+                  className="mt-2.5 flex w-full items-center justify-center gap-2 rounded-full border-2 border-brass/70 bg-surface-2 px-4 py-2.5 text-xs font-bold text-foreground shadow-xs transition hover:border-brass hover:bg-surface-3 active:scale-[0.99] disabled:opacity-60"
+                >
+                  <QrCode className="h-4 w-4 text-accent shrink-0" />
+                  <span className="truncate">
+                    {busyPlan === `${plan.plan_key}-bank`
+                      ? t("common.loading")
+                      : locale === "vi"
+                        ? "Chuyển khoản ngân hàng"
+                        : "Pay by bank transfer"}
+                  </span>
+                  <VietQrBadge />
+                </button>
+              ) : null}
 
               {plan.tier !== "free" && (
                 <div className="mt-4">

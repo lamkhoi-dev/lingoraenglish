@@ -12,7 +12,7 @@ export const Route = createFileRoute("/terms")({
       {
         name: "description",
         content:
-          "The terms that apply when you learn English with Lingora English, operated by Ms Thao English: accounts, subscriptions, fair use of AI practice and cancellation.",
+          "The terms that apply when you learn English with Lingora English: accounts, subscriptions, fair use of AI practice and cancellation.",
       },
       { property: "og:title", content: "Terms of Service — Lingora English" },
       {
@@ -30,7 +30,7 @@ export const Route = createFileRoute("/terms")({
 const SECTIONS: { title: string; body: React.ReactNode }[] = [
   {
     title: "1. Who you are contracting with",
-    body: "Lingora English (the \"Service\") is operated and sold by Ms Thao English (\"we\", \"us\", \"our\"). These Terms of Service form the agreement between you and Ms Thao English. You can reach us at phanthithuthao10081996@gmail.com.",
+    body: "Lingora English (the \"Service\") is operated and provided by Lingora English (\"we\", \"us\", \"our\"). These Terms of Service form the agreement between you and Lingora English. You can reach us at phanthithuthao10081996@gmail.com.",
   },
   {
     title: "2. Acceptance of these terms",
@@ -48,8 +48,8 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
     title: "5. Paid subscriptions and payment",
     body: (
       <>
-        Premium and IELTS Pro are recurring subscriptions billed monthly or yearly and renew automatically until
-        cancelled. They are sold by Ms Thao English. Payments are processed securely by{" "}
+        Premium and Pro are recurring subscriptions billed monthly or yearly and renew automatically until
+        cancelled. They are provided by Lingora English. Payments are processed securely by{" "}
         <a
           href="https://stripe.com"
           target="_blank"
@@ -80,7 +80,7 @@ const SECTIONS: { title: string; body: React.ReactNode }[] = [
   },
   {
     title: "7. Intellectual property and licence",
-    body: "The Service, including its software, lesson content, curriculum, audio, branding and the Lingora English character, is owned by Ms Thao English or its licensors and is protected by intellectual property laws. We grant you a limited, non-exclusive, non-transferable right to use the Service for your own learning within the plan you have selected. You may not copy, resell, redistribute, reverse engineer, scrape, or circumvent technical limits of the Service. You keep ownership of the recordings and text you submit, and grant us a limited licence to host and process them solely to provide the Service to you.",
+    body: "The Service, including its software, lesson content, curriculum, audio, branding and the Lingora English character, is owned by Lingora English or its licensors and is protected by intellectual property laws. We grant you a limited, non-exclusive, non-transferable right to use the Service for your own learning within the plan you have selected. You may not copy, resell, redistribute, reverse engineer, scrape, or circumvent technical limits of the Service. You keep ownership of the recordings and text you submit, and grant us a limited licence to host and process them solely to provide the Service to you.",
   },
   {
     title: "8. AI feedback",

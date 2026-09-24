@@ -62,7 +62,7 @@ export function LockedContentList({ kind, title }: { kind: CatalogueKind; title?
       <p className="mt-2 text-sm text-muted-foreground">{t("locked.sub", { count: String(locked.length) })}</p>
 
       <ul className="mt-5 grid gap-2 sm:grid-cols-2">
-        {[...groups.entries()].slice(0, 12).map(([category, group]) => (
+        {[...groups.entries()].map(([category, group]) => (
           <li
             key={category}
             className="flex items-center justify-between gap-3 rounded-2xl bg-surface-1/70 px-4 py-3 ring-1 ring-border"

@@ -81,7 +81,7 @@ function deepseekLlmModel(): string {
   return process.env["DEEPSEEK_LLM_MODEL"] ?? "deepseek-chat";
 }
 function geminiTtsModel(): string {
-  return process.env["GEMINI_TTS_MODEL"] ?? "gemini-2.5-flash-preview-tts";
+  return process.env["GEMINI_TTS_MODEL"] ?? "gemini-3.1-flash-tts-preview";
 }
 
 /** For usage-log display — "what model actually served this request". */
@@ -154,10 +154,35 @@ function bytesFromBase64(base64: string): Uint8Array {
   return bytes;
 }
 
-/** Wraps raw PCM (as Gemini's TTS returns it) in a minimal 44-byte WAV header. */
+/** Wraps raw PCM (as Gemini's TTS returns it) in a clean 44-byte WAV header,
+ * applying a smooth fade-in and fade-out to eliminate pops, clicks, or scratch noise at the end. */
 function wrapPcmAsWav(pcmBase64: string, sampleRate: number, channels: number, bitsPerSample: number): string {
-  const pcm = bytesFromBase64(pcmBase64);
-  const blockAlign = channels * (bitsPerSample / 8);
+  const rawPcm = bytesFromBase64(pcmBase64);
+  const bytesPerSample = bitsPerSample / 8;
+  const numSamples = Math.floor(rawPcm.length / bytesPerSample);
+  const validPcmLength = numSamples * bytesPerSample;
+  const pcm = new Uint8Array(rawPcm.buffer, rawPcm.byteOffset, validPcmLength);
+  const pcmView = new DataView(pcm.buffer, pcm.byteOffset, validPcmLength);
+
+  // Smooth fade-in (5ms) to eliminate any leading DC click
+  const fadeInSamples = Math.min(Math.floor(sampleRate * 0.005), numSamples);
+  for (let i = 0; i < fadeInSamples; i += 1) {
+    const factor = 0.5 * (1 - Math.cos((Math.PI * i) / fadeInSamples));
+    const val = pcmView.getInt16(i * 2, true);
+    pcmView.setInt16(i * 2, Math.round(val * factor), true);
+  }
+
+  // Smooth fade-out (40ms) to eliminate trailing pop, crackle, or static
+  const fadeOutSamples = Math.min(Math.floor(sampleRate * 0.04), numSamples);
+  const startFade = numSamples - fadeOutSamples;
+  for (let i = 0; i < fadeOutSamples; i += 1) {
+    const factor = 0.5 * (1 + Math.cos((Math.PI * i) / fadeOutSamples));
+    const idx = (startFade + i) * 2;
+    const val = pcmView.getInt16(idx, true);
+    pcmView.setInt16(idx, Math.round(val * factor), true);
+  }
+
+  const blockAlign = channels * bytesPerSample;
   const byteRate = sampleRate * blockAlign;
   const header = new Uint8Array(44);
   const view = new DataView(header.buffer);
@@ -165,7 +190,7 @@ function wrapPcmAsWav(pcmBase64: string, sampleRate: number, channels: number, b
     for (let i = 0; i < s.length; i += 1) view.setUint8(offset + i, s.charCodeAt(i));
   };
   writeStr(0, "RIFF");
-  view.setUint32(4, 36 + pcm.length, true);
+  view.setUint32(4, 36 + validPcmLength, true);
   writeStr(8, "WAVE");
   writeStr(12, "fmt ");
   view.setUint32(16, 16, true);
@@ -176,8 +201,8 @@ function wrapPcmAsWav(pcmBase64: string, sampleRate: number, channels: number, b
   view.setUint16(32, blockAlign, true);
   view.setUint16(34, bitsPerSample, true);
   writeStr(36, "data");
-  view.setUint32(40, pcm.length, true);
-  const wav = new Uint8Array(header.length + pcm.length);
+  view.setUint32(40, validPcmLength, true);
+  const wav = new Uint8Array(header.length + validPcmLength);
   wav.set(header, 0);
   wav.set(pcm, header.length);
   return base64FromBytes(wav);
@@ -269,6 +294,8 @@ async function geminiFail(res: Response): Promise<never> {
   }
   if (res.status === 429 || status === "RESOURCE_EXHAUSTED")
     throw new Error("Lingora English is busy right now. Please wait a moment and try again.");
+  if (res.status === 503 || status === "UNAVAILABLE")
+    throw new Error("Hệ thống AI đang quá tải tạm thời từ phía Google. Vui lòng bấm thử lại sau vài giây.");
   if (res.status === 403 || status === "PERMISSION_DENIED") throw new Error("AI access is blocked by workspace policy.");
   throw new Error(`AI request failed (${res.status}). ${body.slice(0, 300)}`);
 }
@@ -349,25 +376,109 @@ const GEMINI_VOICE_MAP: Record<string, string> = {
   sage: "Puck",
 };
 
+function cleanTextForTts(rawText: string): string {
+  return rawText
+    // Remove markdown bold / italic / strikethrough: **text**, *text*, _text_
+    .replace(/[*_~`#]/g, "")
+    // Remove bracketed stage directions like [laughter], (laughs), [pause]
+    .replace(/\[[^\]]*\]/g, "")
+    .replace(/\([^)]*\)/g, "")
+    // Normalize curly quotes and dashes
+    .replace(/[“”]/g, '"')
+    .replace(/[‘’]/g, "'")
+    .replace(/[—–]/g, ", ")
+    // Normalize multiple spaces / newlines
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 async function geminiSynthesise(text: string, voice: string): Promise<{ base64: string; mime: string }> {
   const geminiVoice = GEMINI_VOICE_MAP[voice] ?? "Kore";
-  const res = await geminiFetch(geminiTtsModel(), {
-    contents: [
-      {
-        parts: [{ text: `Say in a warm, friendly, cheerful American English teacher voice: ${text}` }],
-      },
-    ],
-    generationConfig: {
-      responseModalities: ["AUDIO"],
-      speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: geminiVoice } } },
-    },
-  });
-  if (!res.ok) await geminiFail(res);
-  const data = (await res.json()) as GeminiGenerateResponse;
-  const inline = data.candidates?.[0]?.content?.parts?.find((p) => p.inlineData)?.inlineData;
-  if (!inline?.data) throw new Error("Gemini TTS returned no audio.");
-  // Gemini's native TTS returns raw 16-bit PCM, 24kHz mono — wrap it so it's a playable file.
-  return { base64: wrapPcmAsWav(inline.data, 24000, 1, 16), mime: "audio/wav" };
+  const clean = cleanTextForTts(text) || text.trim() || "...";
+  const models = [geminiTtsModel(), "gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"];
+  const uniqueModels = [...new Set(models.filter(Boolean))];
+
+  let lastError: unknown;
+  for (const model of uniqueModels) {
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const res = await geminiFetch(model, {
+          contents: [
+            {
+              parts: [{ text: clean }],
+            },
+          ],
+          generationConfig: {
+            responseModalities: ["AUDIO"],
+            speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: geminiVoice } } },
+          },
+        });
+
+        if (!res.ok) {
+          const body = await res.text().catch(() => "");
+          let errStatus: string | undefined;
+          let errMsg: string | undefined;
+          try {
+            const parsed = JSON.parse(body) as { error?: { status?: string; message?: string } };
+            errStatus = parsed.error?.status;
+            errMsg = parsed.error?.message;
+          } catch {
+            // non-JSON error body
+          }
+
+          if (res.status === 404) {
+            lastError = new Error(`Model ${model} not available (404)`);
+            break;
+          }
+
+          if (res.status === 429 || errStatus === "RESOURCE_EXHAUSTED") {
+            lastError = new Error("Hệ thống AI đang quá tải tạm thời (Rate Limit). Vui lòng thử lại sau vài giây.");
+            if (attempt < 2) {
+              await new Promise((r) => setTimeout(r, 1200 * (attempt + 1)));
+              continue;
+            }
+            break;
+          }
+
+          if (res.status === 503 || res.status === 500 || errStatus === "UNAVAILABLE") {
+            lastError = new Error("Dịch vụ Google AI tạm thời bận. Đang thử lại...");
+            if (attempt < 2) {
+              await new Promise((r) => setTimeout(r, 1000 * (attempt + 1)));
+              continue;
+            }
+            break;
+          }
+
+          throw new Error(`Gemini TTS API error (${res.status}): ${errMsg || body.slice(0, 200)}`);
+        }
+
+        const data = (await res.json()) as GeminiGenerateResponse;
+        const candidate = data.candidates?.[0];
+        const inline = candidate?.content?.parts?.find((p) => p.inlineData)?.inlineData;
+
+        if (!inline?.data) {
+          const finishReason = candidate?.finishReason ?? "NO_DATA";
+          lastError = new Error(`Gemini TTS did not return audio data (finishReason: ${finishReason}).`);
+          if (attempt === 0) {
+            await new Promise((r) => setTimeout(r, 600));
+            continue;
+          }
+          break;
+        }
+
+        // Gemini's native TTS returns raw 16-bit PCM, 24kHz mono — wrap it so it's a playable file.
+        return { base64: wrapPcmAsWav(inline.data, 24000, 1, 16), mime: "audio/wav" };
+      } catch (err) {
+        lastError = err;
+        if (attempt < 2) {
+          await new Promise((r) => setTimeout(r, 800));
+        }
+      }
+    }
+  }
+
+  if (lastError) throw lastError;
+  throw new Error("Gemini TTS returned no audio.");
 }
 
 /* ------------------------------- LLM (public) ------------------------------- */

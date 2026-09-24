@@ -101,7 +101,7 @@ function ListeningLabPage() {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return cards.filter((card) => {
+    const matches = cards.filter((card) => {
       if (level !== "all" && card.level !== level) return false;
       if (category !== "all" && card.category !== category) return false;
       if (difficulty === "gentle" && card.difficulty > 3) return false;
@@ -117,6 +117,11 @@ function ListeningLabPage() {
       if (q && !`${card.title} ${card.topic} ${card.category}`.toLowerCase().includes(q)) return false;
       return true;
     });
+    // Free/unlocked lessons first (stable sort, so it otherwise keeps the
+    // catalogue's own level/sort_order order) — a free learner sees what they
+    // can actually open before a wall of Premium cards. No-op once everything
+    // is unlocked (paid tier), which keeps the plain curriculum order for them.
+    return [...matches].sort((a, b) => Number(b.unlocked) - Number(a.unlocked));
   }, [cards, category, difficulty, duration, level, progress, query, status]);
 
   const openCard = cards.find((c) => c.id === openId) ?? null;

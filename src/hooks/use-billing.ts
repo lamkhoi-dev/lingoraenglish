@@ -13,6 +13,8 @@ export type PlanRecord = {
   currency: string;
   monthly_amount: number;
   yearly_amount: number;
+  monthly_amount_vnd: number;
+  yearly_amount_vnd: number;
   monthly_price_id: string;
   yearly_price_id: string;
   features: string[];

@@ -119,14 +119,17 @@ export const getAiCostReport = createServerFn({ method: "GET" })
   .middleware([requireAdmin])
   .handler(async () => {
     const { getCostStatus } = await import("./ai-cost.server");
-    const [byFeature, byDay, status] = await Promise.all([
+    const [byFeature, byDay, summaryRow, status] = await Promise.all([
       withAdmin((db) =>
         db.execute(sql`
-          select capability, count(*)::int as calls,
+          select capability, provider, model,
+                 count(*)::int as calls,
+                 coalesce(sum(input_tokens), 0)::bigint as input_tokens,
+                 coalesce(sum(output_tokens), 0)::bigint as output_tokens,
                  coalesce(sum(estimated_cost_micro_usd), 0)::bigint as cost_micro_usd
           from ai_usage_log
           where created_at >= now() - interval '30 days'
-          group by capability
+          group by capability, provider, model
           order by cost_micro_usd desc
         `),
       ),
@@ -141,14 +144,55 @@ export const getAiCostReport = createServerFn({ method: "GET" })
           order by 1
         `),
       ),
+      withAdmin((db) =>
+        db.execute(sql`
+          select count(*)::int as total_calls,
+                 count(distinct user_id)::int as active_users,
+                 coalesce(sum(estimated_cost_micro_usd), 0)::bigint as total_cost_micro,
+                 (select coalesce(sum(hits), 0)::int from tts_cache) as cache_hits
+          from ai_usage_log
+          where created_at >= now() - interval '30 days'
+        `),
+      ),
       getCostStatus(),
     ]);
 
     const toUsd = (micro: string | number) => Number(micro) / 1_000_000;
+    const sumRow = (summaryRow as unknown as { total_calls: number; active_users: number; total_cost_micro: string; cache_hits: number }[])[0];
+    const totalCostUsd = toUsd(sumRow?.total_cost_micro ?? 0);
+    const activeUsers = sumRow?.active_users ?? 0;
+    const cacheHits = sumRow?.cache_hits ?? 0;
+
     return {
-      byFeature: (byFeature as unknown as { capability: string; calls: number; cost_micro_usd: string }[]).map(
-        (r) => ({ capability: r.capability, calls: r.calls, costUsd: toUsd(r.cost_micro_usd) }),
-      ),
+      summary: {
+        totalCalls: sumRow?.total_calls ?? 0,
+        totalCostUsd,
+        activeUsers,
+        avgCostPerUser: activeUsers > 0 ? totalCostUsd / activeUsers : 0,
+        cacheHits,
+        cacheSavedUsd: cacheHits * 0.0006,
+      },
+      byFeature: (byFeature as unknown as {
+        capability: string;
+        provider: string;
+        model: string;
+        calls: number;
+        input_tokens: string;
+        output_tokens: string;
+        cost_micro_usd: string;
+      }[]).map((r) => {
+        const costUsd = toUsd(r.cost_micro_usd);
+        return {
+          capability: r.capability,
+          provider: r.provider,
+          model: r.model,
+          calls: r.calls,
+          inputTokens: Number(r.input_tokens),
+          outputTokens: Number(r.output_tokens),
+          costUsd,
+          avgCostPerCall: r.calls > 0 ? costUsd / r.calls : 0,
+        };
+      }),
       byDay: (byDay as unknown as { day: string; calls: number; cost_micro_usd: string }[]).map((r) => ({
         day: r.day,
         calls: r.calls,

@@ -25,8 +25,10 @@ export type VoiceState = {
 export type AudioChunk = { audioBase64: string; mime: string };
 export type ChunkFetcher = (text: string) => Promise<AudioChunk>;
 
-/** Max characters per text-to-speech request. Chunks are cut at sentences only. */
-const MAX_CHUNK = 600;
+/** Max characters per text-to-speech request. Chunks are cut at sentences only.
+ * Reduced to ~120 characters so the first sentence plays in 2s instead of 9s,
+ * while subsequent sentences prefetch seamlessly in the background. */
+const MAX_CHUNK = 120;
 
 /** Split text into speakable chunks, never mid-word and never mid-sentence. */
 export function splitForSpeech(text: string, maxChars = MAX_CHUNK): string[] {
@@ -68,6 +70,9 @@ export function splitForSpeech(text: string, maxChars = MAX_CHUNK): string[] {
 
 type Listener = (state: VoiceState) => void;
 
+/** Short 150ms buffer before audio playback begins when instant from cache. */
+const PLAY_DELAY_MS = 150;
+
 class VoicePlayer {
   private state: VoiceState = { status: "idle", text: null };
   private listeners = new Set<Listener>();
@@ -77,6 +82,29 @@ class VoicePlayer {
   private cache = new Map<string, AudioChunk>();
   /** Resolves the in-flight playback promise when a run is superseded. */
   private cancelCurrent: (() => void) | null = null;
+  private primed = false;
+
+  /**
+   * Pre-unlocks audio playback in modern browsers (Chrome, Safari, iOS, Edge)
+   * by playing a silent sample synchronously during a user click/touch gesture.
+   * This prevents browser Autoplay Policy from blocking delayed async TTS.
+   */
+  prime() {
+    if (this.primed || typeof window === "undefined") return;
+    try {
+      const audio = new Audio("data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA");
+      audio.volume = 0.001;
+      const p = audio.play();
+      if (p) {
+        p.then(() => {
+          this.primed = true;
+          audio.pause();
+        }).catch(() => {});
+      }
+    } catch {
+      // Ignore errors in priming
+    }
+  }
 
   subscribe(listener: Listener): () => void {
     this.listeners.add(listener);
@@ -98,6 +126,7 @@ class VoicePlayer {
     const chunks = splitForSpeech(text);
     if (chunks.length === 0) return;
 
+    this.prime();
     this.hardStop();
     const run = ++this.token;
     this.set({ status: "loading", text });
@@ -108,11 +137,39 @@ class VoicePlayer {
         const chunk = chunks[i]!;
         const key = `${voiceKey}::${chunk}`;
         let audio = this.cache.get(key);
+        const wasCached = Boolean(audio);
+
         if (!audio) {
-          audio = await fetchChunk(chunk);
-          this.cache.set(key, audio);
+          // Automatic 1-retry with backoff to absorb transient 503 / network spikes
+          let lastErr: unknown;
+          for (let attempt = 0; attempt < 2; attempt++) {
+            try {
+              audio = await fetchChunk(chunk);
+              this.cache.set(key, audio);
+              break;
+            } catch (err) {
+              lastErr = err;
+              if (attempt === 0) {
+                await new Promise((r) => setTimeout(r, 600));
+              }
+            }
+          }
+          if (!audio) throw lastErr;
         }
         if (run !== this.token) return;
+
+        // If audio was already cached, small 150ms buffer so it doesn't blare abruptly;
+        // if freshly fetched over network, learner has already waited so play immediately.
+        if (i === 0 && wasCached) {
+          await new Promise<void>((resolve) => {
+            const timer = setTimeout(resolve, PLAY_DELAY_MS);
+            this.cancelCurrent = () => {
+              clearTimeout(timer);
+              resolve();
+            };
+          });
+          if (run !== this.token) return;
+        }
 
         // Pre-fetch the next chunk while this one plays so playback is gapless.
         const nextChunk = chunks[i + 1];
@@ -139,9 +196,21 @@ class VoicePlayer {
    * audio owner so two features can never speak over each other.
    */
   async playRaw(src: string, opts: { rate?: number; loop?: boolean; label?: string } = {}): Promise<void> {
+    this.prime();
     this.hardStop();
     const run = ++this.token;
     this.set({ status: "loading", text: opts.label ?? null });
+
+    // Smooth transition buffer
+    await new Promise<void>((resolve) => {
+      const timer = setTimeout(resolve, PLAY_DELAY_MS);
+      this.cancelCurrent = () => {
+        clearTimeout(timer);
+        resolve();
+      };
+    });
+    if (run !== this.token) return;
+
     await new Promise<void>((resolve, reject) => {
       this.cancelCurrent = resolve;
       const el = new Audio(src);
@@ -153,7 +222,15 @@ class VoicePlayer {
       el.onplay = () => {
         if (run === this.token) this.set({ status: "playing" });
       };
-      el.play().catch(reject);
+      el.play().catch((err: unknown) => {
+        if (err instanceof Error && (err.name === "NotAllowedError" || err.message.toLowerCase().includes("interact"))) {
+          console.warn("Autoplay deferred by browser policy; waiting for direct tap.", err);
+          if (run === this.token) this.set({ status: "idle" });
+          resolve();
+          return;
+        }
+        reject(err);
+      });
     });
     if (run === this.token) this.set({ status: "idle", text: null });
   }
@@ -168,7 +245,17 @@ class VoicePlayer {
       el.onplay = () => {
         if (run === this.token) this.set({ status: "playing" });
       };
-      el.play().catch(reject);
+      el.play().catch((err: unknown) => {
+        // If the browser blocked programmatic autoplay because the user gesture expired,
+        // don't treat it as a fatal error — resolve cleanly so the UI stays ready for manual tap.
+        if (err instanceof Error && (err.name === "NotAllowedError" || err.message.toLowerCase().includes("interact"))) {
+          console.warn("Autoplay deferred by browser policy; waiting for user click.", err);
+          if (run === this.token) this.set({ status: "idle" });
+          resolve();
+          return;
+        }
+        reject(err);
+      });
     });
   }
 

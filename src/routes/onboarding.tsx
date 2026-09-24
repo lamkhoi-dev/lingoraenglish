@@ -1,17 +1,18 @@
 import { createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { ArrowLeft, ArrowRight, Check, Loader2, Sparkles } from "lucide-react";
-import { useEffect, useState } from "react";
+import { ArrowLeft, ArrowRight, Check, Loader2, Search, Sparkles } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
 import { toast } from "sonner";
 import { z } from "zod";
 
 import { Spotlights } from "@/components/lily/brand";
 import { completeOnboarding, skipOnboarding } from "@/lib/account.functions";
 import { useAuth } from "@/lib/auth";
+import { useI18n } from "@/lib/i18n";
 import { postAuthNavigation, savePendingSurvey, type SurveyAnswers } from "@/lib/onboarding-flow";
 import { getOnboardingOptions, type OnboardingQuestionKey } from "@/lib/onboarding.functions";
 import { cn } from "@/lib/utils";
-import { en, type TranslationKey } from "@/locales/en";
+import { en } from "@/locales/en";
 import { NOINDEX_META } from "@/lib/seo";
 
 export const Route = createFileRoute("/onboarding")({
@@ -40,13 +41,7 @@ type OptionsByQuestion = Record<OnboardingQuestionKey, Option[]>;
 
 const TOTAL_STEPS = 5;
 
-/** The survey is English-only on purpose: it has no header (so no language
- * switcher) and it is the one screen every new learner must get through, so it
- * must not depend on whatever interface language they happened to land in.
- * Question 5 is where they choose the language for instructions afterwards. */
-function t(key: TranslationKey, vars?: Record<string, string | number>): string {
-  return en[key].replace(/\{\{(\w+)\}\}/g, (_m, name: string) => String(vars?.[name] ?? ""));
-}
+const POPULAR_LANG_CODES = ["en", "vi", "es", "ko", "ja", "zh-CN", "fr", "de", "id", "ru", "pt", "th"];
 
 /** Deliberately not AppShell: the survey is a focused 5-step flow, so no site
  * header, footer or banners — just the brand background and the steps. */
@@ -105,6 +100,7 @@ function OptionButton({
  */
 function OnboardingPage() {
   const { user, refreshProfile } = useAuth();
+  const { locale, setLocale, languages, t } = useI18n();
   const navigate = useNavigate();
   const { next, plan, interval } = Route.useSearch();
   const getOptionsFn = useServerFn(getOnboardingOptions);
@@ -116,8 +112,16 @@ function OnboardingPage() {
   const [focusAreas, setFocusAreas] = useState<string[]>([]);
   const [minutes, setMinutes] = useState("");
   const [level, setLevel] = useState("");
-  const [instructionLanguage, setInstructionLanguage] = useState<"en" | "vi">("en");
+  const [instructionLanguage, setInstructionLanguage] = useState<string>(locale);
+  const [hasManuallyPickedLang, setHasManuallyPickedLang] = useState(false);
+  const [searchLangQuery, setSearchLangQuery] = useState("");
   const [saving, setSaving] = useState(false);
+
+  useEffect(() => {
+    if (!hasManuallyPickedLang && locale) {
+      setInstructionLanguage(locale);
+    }
+  }, [locale, hasManuallyPickedLang]);
 
   useEffect(() => {
     void getOptionsFn({ data: undefined as never })
@@ -128,18 +132,43 @@ function OnboardingPage() {
         setLevel((l) => l || res.level[0]?.value || "");
       })
       .catch(() => toast.error(t("common.somethingWrong")));
-  }, [getOptionsFn]);
+  }, [getOptionsFn, t]);
 
-  const label = (o: Option) => o.label_en;
+  const label = (o: Option) => (locale === "vi" ? o.label_vi || o.label_en : o.label_en);
 
   const toggleFocusArea = (value: string) => {
     setFocusAreas((prev) => (prev.includes(value) ? prev.filter((v) => v !== value) : [...prev, value]));
   };
 
+  const filteredLanguages = useMemo(() => {
+    const q = searchLangQuery.trim().toLowerCase();
+    if (!q) return languages;
+    return languages.filter(
+      (l) =>
+        l.native.toLowerCase().includes(q) ||
+        l.english.toLowerCase().includes(q) ||
+        l.code.toLowerCase().includes(q),
+    );
+  }, [searchLangQuery, languages]);
+
+  const selectedLangMeta = useMemo(() => {
+    return (
+      languages.find((l) => l.code === instructionLanguage) ?? {
+        code: instructionLanguage,
+        native: instructionLanguage.toUpperCase(),
+        english: instructionLanguage,
+        flag: "🌐",
+        dir: "ltr" as const,
+        intl: instructionLanguage,
+      }
+    );
+  }, [languages, instructionLanguage]);
+
   const canNext = () => {
     if (step === 1) return !!goal;
     if (step === 3) return !!minutes;
     if (step === 4) return !!level;
+    if (step === 5) return !!instructionLanguage;
     return true;
   };
 
@@ -167,6 +196,7 @@ function OnboardingPage() {
       } else {
         savePendingSurvey({ answers });
       }
+      setLocale(instructionLanguage);
       await afterSurvey();
     } catch {
       toast.error(t("common.somethingWrong"));
@@ -277,20 +307,128 @@ function OnboardingPage() {
           )}
 
           {step === 5 && (
-            <>
-              <h2 className="font-display text-lg text-foreground">{t("onboarding.q.instructionLanguage")}</h2>
-              <div className="mt-5 grid gap-2 sm:grid-cols-2">
-                {options.instruction_language.map((o) => (
-                  <OptionButton
-                    key={o.value}
-                    selected={instructionLanguage === o.value}
-                    onClick={() => setInstructionLanguage(o.value as "en" | "vi")}
-                  >
-                    {label(o)}
-                  </OptionButton>
-                ))}
+            <div className="space-y-4">
+              <div>
+                <h2 className="font-display text-lg text-foreground">
+                  {t("onboarding.q.instructionLanguage")}
+                </h2>
+                <p className="mt-1 text-xs text-muted-foreground">
+                  {t("lang.note")}
+                </p>
               </div>
-            </>
+
+              {/* Selected Language Card */}
+              <div className="flex items-center justify-between rounded-2xl bg-brass/15 p-4 ring-1 ring-brass/40">
+                <div className="flex items-center gap-3">
+                  <span className="text-2xl leading-none">{selectedLangMeta.flag}</span>
+                  <div>
+                    <p className="text-sm font-semibold text-brass-soft">
+                      {selectedLangMeta.native}
+                    </p>
+                    <p className="text-xs text-muted-foreground">
+                      {selectedLangMeta.english}
+                    </p>
+                  </div>
+                </div>
+                <div className="flex items-center gap-1.5 rounded-full bg-brass/20 px-2.5 py-1 text-xs font-medium text-brass-soft">
+                  <Check className="size-3.5" />
+                  <span>Selected</span>
+                </div>
+              </div>
+
+              {/* Quick-select chips */}
+              <div>
+                <p className="mb-2 text-xs font-medium text-muted-foreground">
+                  Popular languages:
+                </p>
+                <div className="flex flex-wrap gap-1.5">
+                  {POPULAR_LANG_CODES.map((code) => {
+                    const l = languages.find((item) => item.code === code);
+                    if (!l) return null;
+                    const isSel = instructionLanguage === l.code;
+                    return (
+                      <button
+                        key={l.code}
+                        type="button"
+                        onClick={() => {
+                          setInstructionLanguage(l.code);
+                          setHasManuallyPickedLang(true);
+                        }}
+                        className={cn(
+                          "flex items-center gap-1.5 rounded-xl px-2.5 py-1.5 text-xs font-medium ring-1 transition-all",
+                          isSel
+                            ? "bg-brass/20 text-brass-soft ring-brass/50 shadow-sm"
+                            : "bg-surface-2 text-foreground ring-border hover:bg-surface-3",
+                        )}
+                      >
+                        <span>{l.flag}</span>
+                        <span>{l.native}</span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* Search & Full 54 Languages Section */}
+              <div className="space-y-2.5 rounded-2xl border border-border bg-surface-2/60 p-3">
+                <div className="flex items-center gap-2 rounded-xl bg-surface px-3 py-2 ring-1 ring-border focus-within:ring-brass/50">
+                  <Search className="size-4 shrink-0 text-muted-foreground" />
+                  <input
+                    type="text"
+                    value={searchLangQuery}
+                    onChange={(e) => setSearchLangQuery(e.target.value)}
+                    placeholder="Search all 54 languages (e.g. Korean, 한국어, Français)..."
+                    className="w-full bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
+                  />
+                  {searchLangQuery && (
+                    <button
+                      type="button"
+                      onClick={() => setSearchLangQuery("")}
+                      className="text-xs text-muted-foreground hover:text-foreground"
+                    >
+                      Clear
+                    </button>
+                  )}
+                </div>
+
+                <div className="max-h-56 overflow-y-auto pr-1 sm:max-h-64">
+                  {filteredLanguages.length === 0 ? (
+                    <p className="py-4 text-center text-xs text-muted-foreground">
+                      No matching language found.
+                    </p>
+                  ) : (
+                    <div className="grid grid-cols-1 gap-1.5 sm:grid-cols-2">
+                      {filteredLanguages.map((l) => {
+                        const isSel = instructionLanguage === l.code;
+                        return (
+                          <button
+                            key={l.code}
+                            type="button"
+                            onClick={() => {
+                              setInstructionLanguage(l.code);
+                              setHasManuallyPickedLang(true);
+                            }}
+                            className={cn(
+                              "flex items-center justify-between gap-2.5 rounded-xl px-3 py-2 text-start text-xs font-medium ring-1 transition-colors",
+                              isSel
+                                ? "bg-brass/15 font-semibold text-brass-soft ring-brass/50"
+                                : "bg-surface text-foreground ring-border/70 hover:bg-surface-2",
+                            )}
+                          >
+                            <span className="flex items-center gap-2 truncate">
+                              <span className="shrink-0 text-base leading-none">{l.flag}</span>
+                              <span className="truncate">{l.native}</span>
+                              <span className="truncate text-[10px] text-muted-foreground">({l.english})</span>
+                            </span>
+                            {isSel && <Check className="size-3.5 shrink-0 text-brass-soft" />}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
           )}
         </div>
 

@@ -84,9 +84,26 @@ async function issueEmailVerification(userId: string, email: string): Promise<vo
   await sendEmail({
     to: email,
     subject: "Confirm your Lingora English account",
-    html: `<p>Welcome to Lingora English! Confirm your email to get started:</p>
-<p><a href="${appUrl()}/auth/verify?token=${token}">Confirm email</a></p>
-<p>This link expires in ${EMAIL_VERIFY_TTL_HOURS} hours.</p>`,
+    html: `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirm your Lingora English account</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; color: #f8fafc; padding: 40px 20px; margin: 0;">
+  <div style="max-width: 560px; margin: 0 auto; background-color: #1e293b; border-radius: 16px; padding: 32px; border: 1px solid #334155;">
+    <h1 style="color: #f8fafc; font-size: 24px; margin-top: 0; margin-bottom: 16px;">Welcome to Lingora English!</h1>
+    <p style="font-size: 16px; line-height: 24px; color: #cbd5e1; margin-bottom: 24px;">Please confirm your email address to get started with your personal AI English Speaking Coach:</p>
+    <div style="margin: 28px 0; text-align: center;">
+      <a href="${appUrl()}/auth/verify?token=${token}" style="background-color: #d97706; color: #ffffff; padding: 14px 32px; font-weight: 600; font-size: 16px; text-decoration: none; border-radius: 9999px; display: inline-block;">Confirm Email</a>
+    </div>
+    <p style="font-size: 14px; color: #94a3b8; line-height: 20px; margin-top: 24px;">This verification link expires in ${EMAIL_VERIFY_TTL_HOURS} hours.</p>
+    <hr style="border: none; border-top: 1px solid #334155; margin: 24px 0;" />
+    <p style="font-size: 12px; color: #64748b; margin-bottom: 0;">If you did not sign up for Lingora English, you can safely ignore this email.</p>
+  </div>
+</body>
+</html>`,
   });
 }
 
@@ -470,9 +487,26 @@ export const requestPasswordReset = createServerFn({ method: "POST" })
       await sendEmail({
         to: data.email,
         subject: "Reset your Lingora English password",
-        html: `<p>Reset your password:</p>
-<p><a href="${appUrl()}/reset-password?token=${token}">Reset password</a></p>
-<p>This link expires in ${RESET_TTL_MINUTES} minutes. If you didn't request this, ignore this email.</p>`,
+        html: `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset your Lingora English password</title>
+</head>
+<body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #0f172a; color: #f8fafc; padding: 40px 20px; margin: 0;">
+  <div style="max-width: 560px; margin: 0 auto; background-color: #1e293b; border-radius: 16px; padding: 32px; border: 1px solid #334155;">
+    <h1 style="color: #f8fafc; font-size: 24px; margin-top: 0; margin-bottom: 16px;">Reset your password</h1>
+    <p style="font-size: 16px; line-height: 24px; color: #cbd5e1; margin-bottom: 24px;">Click the button below to reset your Lingora English account password:</p>
+    <div style="margin: 28px 0; text-align: center;">
+      <a href="${appUrl()}/reset-password?token=${token}" style="background-color: #d97706; color: #ffffff; padding: 14px 32px; font-weight: 600; font-size: 16px; text-decoration: none; border-radius: 9999px; display: inline-block;">Reset Password</a>
+    </div>
+    <p style="font-size: 14px; color: #94a3b8; line-height: 20px; margin-top: 24px;">This link expires in ${RESET_TTL_MINUTES} minutes.</p>
+    <hr style="border: none; border-top: 1px solid #334155; margin: 24px 0;" />
+    <p style="font-size: 12px; color: #64748b; margin-bottom: 0;">If you did not request a password reset, you can safely ignore this email.</p>
+  </div>
+</body>
+</html>`,
       });
     }
     return { ok: true };

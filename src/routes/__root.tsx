@@ -17,6 +17,9 @@ import { AuthProvider } from "@/lib/auth";
 import { I18nProvider } from "@/lib/i18n";
 import { OG_IMAGE_URL, SITE_NAME } from "@/lib/seo";
 
+/** Google Analytics 4 measurement ID (a public identifier, safe in client code). */
+const GA_MEASUREMENT_ID = "G-V6KLFD3TCS";
+
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -105,6 +108,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", href: "/favicon-16.png", type: "image/png", sizes: "16x16" },
       { rel: "apple-touch-icon", href: "/apple-touch-icon.png", sizes: "180x180" },
     ],
+    // Production only, so local dev and preview traffic never lands in the
+    // property. Route changes inside the app are picked up by GA4's built-in
+    // "page changes based on browser history events", no extra code needed.
+    scripts: import.meta.env.PROD
+      ? [
+          { src: `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`, async: true },
+          {
+            children: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');`,
+          },
+        ]
+      : [],
   }),
   shellComponent: RootShell,
   component: RootComponent,

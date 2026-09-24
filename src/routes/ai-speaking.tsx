@@ -7,6 +7,7 @@ import { toast } from "sonner";
 
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
+import { FeatureTour, ViewGuideButton, useFeatureTour } from "@/components/lily/feature-tour";
 import { MicRecorder } from "@/components/lily/mic-recorder";
 import { VoiceButton } from "@/components/lily/voice-button";
 import { PanelCard } from "@/components/lily/score-panel";
@@ -15,6 +16,7 @@ import { usePaywall } from "@/hooks/use-paywall";
 import type { Recording } from "@/hooks/use-recorder";
 import { useSpeak } from "@/hooks/use-speak";
 import { useAuth } from "@/lib/auth";
+import { voicePlayer } from "@/lib/voice-player";
 import { saveSpeakingAttempt } from "@/lib/attempts.functions";
 import {
   coachReply,
@@ -216,14 +218,29 @@ function CoachPage() {
   const sayCoach = async (text: string) => {
     try {
       await play(text);
-    } catch {
-      toast.error(t("coach.audioPlayError"));
+    } catch (err) {
+      const isAutoplay =
+        err instanceof Error &&
+        (err.name === "NotAllowedError" || err.message.toLowerCase().includes("interact"));
+      if (!isAutoplay) {
+        toast.error(t("coach.audioPlayError"));
+      }
     }
   };
 
   /** The coach always opens the conversation. */
   const begin = async (chosen: CoachTopicPublic) => {
     if (!user) return;
+    voicePlayer.prime();
+    // Block before hitting the server — show the paywall immediately.
+    if (outOfTurns) {
+      handleError(
+        new Error(
+          `UPGRADE_REQUIRED: You have used your ${usage?.freeTurnLimit ?? 3} free speaking turns with the AI coach. Upgrade to Premium to keep the conversation going — every topic, every category, unlimited turns.`,
+        ),
+      );
+      return;
+    }
     clearPaywall();
     setTopic(chosen);
     resetConversation();
@@ -253,6 +270,7 @@ function CoachPage() {
   /** Core loop: speak → transcribe → analyse → coach replies → save. */
   const handleAnswer = async (text: string) => {
     if (!user || !sessionId || !text.trim()) return;
+    voicePlayer.prime();
     clearPaywall();
     setBusy(true);
     const question = currentQuestion();
@@ -272,7 +290,8 @@ function CoachPage() {
 
       if (analysis) {
         setLastScores(toAttemptScores(analysis));
-        await saveAttempt({
+        // Save scorecard in the background without blocking coach's audio response
+        void saveAttempt({
           data: {
             questionText: question.slice(0, 500),
             transcript: text,
@@ -286,7 +305,7 @@ function CoachPage() {
             naturalAnswer: analysis.natural_answer,
             feedback: analysis.feedback,
           },
-        });
+        }).catch(() => undefined);
       }
 
       await sayCoach(res.reply);
@@ -302,6 +321,7 @@ function CoachPage() {
 
   const submitRecording = async (recording: Recording) => {
     if (!user || !sessionId) return;
+    voicePlayer.prime();
     setBusy(true);
     try {
       const { transcript } = await transcribe({
@@ -321,17 +341,52 @@ function CoachPage() {
 
   const demoAnalysis: SpeakingAnalysis = DEMO_SPEAKING as unknown as SpeakingAnalysis;
 
+  const tour = useFeatureTour(
+    "ai-speaking",
+    [
+      {
+        target: '[data-tour="coach-categories"]',
+        title: t("tour.coach.step1.title"),
+        content: t("tour.coach.step1.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="coach-filters"]',
+        title: t("tour.coach.step2.title"),
+        content: t("tour.coach.step2.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="coach-topics"]',
+        title: t("tour.coach.step3.title"),
+        content: t("tour.coach.step3.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="coach-conversation"]',
+        title: t("tour.coach.step4.title"),
+        content: t("tour.coach.step4.content"),
+        placement: "auto",
+      },
+    ],
+    !topics.isLoading,
+  );
+
   return (
     <AppShell>
-      <SectionHeading
-        eyebrow={t("coach.eyebrow")}
-        title={t("coach.title")}
-        description={t("coach.description")}
-      />
+      <FeatureTour run={tour.run} steps={tour.steps} handleEvent={tour.handleEvent} />
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <SectionHeading
+          eyebrow={t("coach.eyebrow")}
+          title={t("coach.title")}
+          description={t("coach.description")}
+        />
+        <ViewGuideButton onClick={tour.restart} />
+      </div>
       {paywall}
 
       {/* Category picker */}
-      <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+      <div data-tour="coach-categories" className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
         {CATEGORIES.map((c) => (
           <button
             key={c.id}
@@ -358,7 +413,7 @@ function CoachPage() {
       </div>
 
       {/* Filters */}
-      <div className="mt-6 flex flex-wrap items-center gap-2">
+      <div data-tour="coach-filters" className="mt-6 flex flex-wrap items-center gap-2">
         <label className="relative flex-1 min-w-[220px]">
           <Search className="pointer-events-none absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
           <input
@@ -391,7 +446,7 @@ function CoachPage() {
 
       <div className="mt-6 grid gap-6 lg:grid-cols-[320px_1fr]">
         {/* Topic library */}
-        <aside className="lounge-panel h-fit max-h-[70vh] overflow-y-auto p-4">
+        <aside data-tour="coach-topics" className="lounge-panel h-fit max-h-[70vh] overflow-y-auto p-4">
           <h2 className="px-1 font-display text-base text-foreground">
             {CATEGORIES.find((c) => c.id === category)?.label}
           </h2>
@@ -402,7 +457,7 @@ function CoachPage() {
                 <button
                   type="button"
                   onClick={() => void begin(tp)}
-                  disabled={!user || starting}
+                  disabled={!user || starting || outOfTurns}
                   className={cn(
                     "w-full rounded-xl px-3 py-2.5 text-left ring-1 ring-border transition-colors disabled:opacity-60",
                     topic?.id === tp.id ? "bg-brass/15" : "bg-surface-2 hover:bg-surface-3",
@@ -429,6 +484,7 @@ function CoachPage() {
         </aside>
 
         {/* Conversation */}
+        <div data-tour="coach-conversation">
         <PanelCard title={topic?.title ?? t("coach.chooseTopicTitle")} demo={!user}>
           {!user ? (
             <div className="rounded-2xl bg-surface-2 p-5 ring-1 ring-border">
@@ -592,6 +648,7 @@ function CoachPage() {
             </div>
           )}
         </PanelCard>
+        </div>
       </div>
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2">

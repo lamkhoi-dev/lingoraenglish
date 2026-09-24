@@ -37,7 +37,7 @@ const LIMIT_KEYS = [
   "pronunciation_lessons_free_per_skill",
   "pronunciation_sounds_free_count",
   "vocabulary_free_per_category",
-  "listening_free_categories",
+  "listening_free_per_level",
   "speaking_tests_free_per_part",
   "speaking_tests_free_toefl_pte",
   // Yêu cầu 11 / Vấn đề 4: days of access kept after a renewal payment fails,

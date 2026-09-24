@@ -4,6 +4,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 
 import { PanelCard, ScoreStat } from "@/components/lily/score-panel";
+import { adminConfirmBankTransferOrder, adminListBankTransferOrders } from "@/lib/bank-transfer.functions";
 import {
   adminBillingOverview,
   grantComplimentaryAccess,
@@ -11,6 +12,103 @@ import {
 } from "@/lib/billing-admin.functions";
 import { useI18n } from "@/lib/i18n";
 import { formatMoney } from "./billing-ui";
+
+/** Bridge until SePay's webhook is wired up: an admin who has checked the real bank account
+ * confirms a pending transfer by hand. Same activation path the webhook will use once the
+ * customer's SePay API key is configured. */
+function AdminBankTransferOrders() {
+  const { t, locale } = useI18n();
+  const load = useServerFn(adminListBankTransferOrders);
+  const confirm = useServerFn(adminConfirmBankTransferOrder);
+  const [confirmingId, setConfirmingId] = useState<string | null>(null);
+
+  const orders = useQuery({
+    queryKey: ["admin-bank-transfer-orders"],
+    queryFn: () => load(),
+    refetchInterval: 15000,
+  });
+
+  const rows = orders.data ?? [];
+  const pending = rows.filter((r) => r.status === "pending");
+
+  return (
+    <PanelCard title="Bank transfer orders (SePay)">
+      <p className="text-xs text-muted-foreground">
+        Confirm a transfer here once you've checked the real bank account — this is the only way
+        to activate a bank-transfer order until SePay's webhook API key is configured.
+      </p>
+      {orders.isLoading && <p className="mt-3 text-sm text-muted-foreground">{t("common.loading")}</p>}
+      {!orders.isLoading && rows.length === 0 && (
+        <p className="mt-3 text-sm text-muted-foreground">No bank transfer orders yet.</p>
+      )}
+      {pending.length > 0 && (
+        <div className="mt-3 overflow-x-auto">
+          <table className="w-full text-left text-sm">
+            <thead className="text-xs uppercase text-muted-foreground">
+              <tr>
+                <th className="py-2">Reference code</th>
+                <th className="py-2">Plan</th>
+                <th className="py-2">Amount</th>
+                <th className="py-2">Created</th>
+                <th className="py-2" />
+              </tr>
+            </thead>
+            <tbody>
+              {pending.map((row) => (
+                <tr key={row.id} className="border-t border-border/60">
+                  <td className="py-2 font-mono text-foreground">{row.reference_code}</td>
+                  <td className="py-2 text-muted-foreground">
+                    {row.plan_key} · {row.billing_interval}
+                  </td>
+                  <td className="py-2 text-brass-soft">{formatMoney(row.amount_vnd, "VND", locale)}</td>
+                  <td className="py-2 text-muted-foreground">{row.created_at.slice(0, 16).replace("T", " ")}</td>
+                  <td className="py-2 text-right">
+                    <button
+                      type="button"
+                      disabled={confirmingId === row.id}
+                      onClick={() =>
+                        void (async () => {
+                          setConfirmingId(row.id);
+                          try {
+                            await confirm({ data: { orderId: row.id } });
+                            toast.success("Confirmed — the plan is now active.");
+                            await orders.refetch();
+                          } catch (error) {
+                            toast.error(error instanceof Error ? error.message : "Could not confirm this order.");
+                          } finally {
+                            setConfirmingId(null);
+                          }
+                        })()
+                      }
+                      className="rounded-full bg-brass px-4 py-1.5 text-xs font-semibold text-plum-deep disabled:opacity-60"
+                    >
+                      {confirmingId === row.id ? t("common.loading") : "Mark as paid"}
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+      {rows.some((r) => r.status !== "pending") && (
+        <details className="mt-4 text-xs text-muted-foreground">
+          <summary className="cursor-pointer">Show settled/expired orders</summary>
+          <ul className="mt-2 divide-y divide-border">
+            {rows
+              .filter((r) => r.status !== "pending")
+              .map((row) => (
+                <li key={row.id} className="flex items-center justify-between py-1.5">
+                  <span className="font-mono">{row.reference_code}</span>
+                  <span>{row.status}</span>
+                </li>
+              ))}
+          </ul>
+        </details>
+      )}
+    </PanelCard>
+  );
+}
 
 /** Admin view of subscriptions, revenue and complimentary access. */
 export function AdminBillingPanel() {
@@ -87,6 +185,8 @@ export function AdminBillingPanel() {
           </p>
         </div>
       </div>
+
+      <AdminBankTransferOrders />
 
       <PanelCard title={t("adminBilling.recentPayments")}>
         {!(overview.data?.recentPayments ?? []).length && (

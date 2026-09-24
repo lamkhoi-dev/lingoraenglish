@@ -33,6 +33,7 @@ export function useSpeak(voice = "shimmer") {
         toast.error("Sign in to hear Lingora English's voice.");
         return;
       }
+      voicePlayer.prime();
       try {
         await voicePlayer.play(
           text,
@@ -43,7 +44,12 @@ export function useSpeak(voice = "shimmer") {
           voice,
         );
       } catch (error) {
-        toast.error(error instanceof Error ? error.message : "Could not play audio.");
+        const isAutoplay =
+          error instanceof Error &&
+          (error.name === "NotAllowedError" || error.message.toLowerCase().includes("interact"));
+        if (!isAutoplay) {
+          toast.error(error instanceof Error ? error.message : "Could not play audio.");
+        }
         throw error;
       }
     },

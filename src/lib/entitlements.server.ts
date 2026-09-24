@@ -365,6 +365,13 @@ export async function resyncContentFreeRanks(): Promise<void> {
 
     const vocabularyFree = limits["vocabulary_free_per_category"];
     if (vocabularyFree != null) {
+      // Specified categories are 100% Premium (no free words).
+      await db.execute(sql`
+        update ${vocabularyWords}
+        set access_tier = 'premium'
+        where category in ('Shopping', 'Work & Office', 'School', 'Technology', 'Relationships', 'TOEFL Vocabulary', 'PTE Vocabulary')
+          and access_tier <> 'premium';
+      `);
       await db.execute(sql`
         update ${vocabularyWords}
         set access_tier = case when ranked.rn <= ${vocabularyFree} then 'free' else 'premium' end
@@ -374,6 +381,7 @@ export async function resyncContentFreeRanks(): Promise<void> {
           where status = 'published'
         ) ranked
         where ${vocabularyWords}.id = ranked.id and ${vocabularyWords}.access_tier <> 'ielts_pro'
+          and ${vocabularyWords}.category not in ('Shopping', 'Work & Office', 'School', 'Technology', 'Relationships', 'TOEFL Vocabulary', 'PTE Vocabulary')
           and ${vocabularyWords}.access_tier is distinct from (case when ranked.rn <= ${vocabularyFree} then 'free' else 'premium' end)
       `);
     }
@@ -411,16 +419,18 @@ export async function resyncContentFreeRanks(): Promise<void> {
       `);
     }
 
-    const listeningFree = limits["listening_free_categories"];
-    if (listeningFree != null) {
-      for (let i = 0; i < LISTENING_CATEGORIES.length; i += 1) {
-        const isFree = i + 1 <= listeningFree;
-        await db
-          .update(listeningLessons)
-          .set({ isFree })
-          .where(and(eq(listeningLessons.category, LISTENING_CATEGORIES[i]!), sql`${listeningLessons.isFree} is distinct from ${isFree}`));
-      }
-    }
+    const listeningFree = limits["listening_free_per_level"] ?? 3;
+    await db.execute(sql`
+      update ${listeningLessons}
+      set is_free = (ranked.rn <= ${listeningFree})
+      from (
+        select id, row_number() over (partition by level order by sort_order, slug) as rn
+        from ${listeningLessons}
+        where status = 'published'
+      ) ranked
+      where ${listeningLessons}.id = ranked.id
+        and ${listeningLessons}.is_free is distinct from (ranked.rn <= ${listeningFree})
+    `);
   });
 }
 

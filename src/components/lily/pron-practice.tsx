@@ -11,10 +11,12 @@ import { usePaywall } from "@/hooks/use-paywall";
 import { useAuth } from "@/lib/auth";
 import { savePronunciationAttempt } from "@/lib/attempts.functions";
 import { useI18n } from "@/lib/i18n";
+import { buildSoundScript } from "@/lib/ipa-tts-map";
 import { analysePronunciation, speak, transcribeAudio, type PronunciationResult } from "@/lib/lily.functions";
 import { measureDelivery, PRACTICE_STEPS, type DeliveryMetrics, type SkillId } from "@/lib/pronunciation-content";
 import { updatePronunciationSoundScore } from "@/lib/pronunciation.functions";
 import { voicePlayer } from "@/lib/voice-player";
+import { getWordIpa } from "@/lib/word-ipa";
 import { cn } from "@/lib/utils";
 
 const SPEEDS = [0.6, 0.8, 1];
@@ -22,8 +24,13 @@ const SPEEDS = [0.6, 0.8, 1];
 export type PronPracticeProps = {
   /** The exact line the learner should say. */
   target: string;
-  /** IPA symbol when the drill focuses on one sound. */
+  /** IPA symbol when the drill focuses on one sound. When set, Listen speaks
+   * the isolated sound (twice) before the target instead of just the target. */
   targetSound?: string | undefined;
+  /** Sounds mode only: set when target is one of the sound's own example
+   * words — Listen then adds this word's own example sentence after it, so
+   * the model is "sound, word, then a sentence that actually contains it". */
+  wordSentence?: string | undefined;
   /** Stored on each attempt so the dashboard can score each skill. */
   mode: SkillId | "shadowing";
   /** SKILL_LESSONS id when this drill is one of the 8 advanced-skill lessons
@@ -63,6 +70,7 @@ export type PronPracticeProps = {
 export function PronPractice({
   target,
   targetSound,
+  wordSentence,
   mode,
   lessonId,
   pattern,
@@ -81,9 +89,14 @@ export function PronPractice({
   const updateSoundScore = useServerFn(updatePronunciationSoundScore);
   const { paywall, handleError, clearPaywall } = usePaywall("pronunciation");
 
+  const wordIpa = getWordIpa(target);
   const [speed, setSpeed] = useState(1);
   const [loop, setLoop] = useState(false);
   const [playing, setPlaying] = useState(false);
+  /** True while the TTS request is in-flight but audio has not started yet.
+   * Keeps the button in a responsive "loading" state so users know the click
+   * was registered even before the first byte of audio arrives. */
+  const [loadingAudio, setLoadingAudio] = useState(false);
   const [hasPlayed, setHasPlayed] = useState(false);
   /** Steps 2 (Understand), 3 (Watch/learn) and 4 (Repeat) have no automatic
    * signal available in this component — the lesson content they refer to
@@ -109,27 +122,52 @@ export function PronPractice({
         return;
       }
       try {
-        setPlaying(true);
         setHasPlayed(true);
         setSpeed(rate);
-        let src = cache.current.get(target);
+        // Sounds mode: read the isolated IPA sound (twice) using a
+        // TTS-friendly description so the voice produces the actual phoneme
+        // instead of spelling out the character name. Then read the example
+        // word once, then the example sentence once.
+        // Format: [sound] [sound] [word] [sentence]
+        const speakText = targetSound
+          ? buildSoundScript(targetSound, target, wordSentence)
+          : target;
+        voicePlayer.prime();
+        let src = cache.current.get(speakText);
         if (!src) {
-          const res = await requestSpeech({ data: { text: target, voice: "shimmer" } });
-          src = `data:${res.mime};base64,${res.audioBase64}`;
-          cache.current.set(target, src);
+          // Show "loading" immediately while the TTS API is in-flight so the
+          // UI reacts on click rather than feeling frozen for several seconds.
+          setLoadingAudio(true);
+          let lastErr: unknown;
+          for (let attempt = 0; attempt < 2; attempt++) {
+            try {
+              const res = await requestSpeech({ data: { text: speakText, voice: "shimmer" } });
+              src = `data:${res.mime};base64,${res.audioBase64}`;
+              cache.current.set(speakText, src);
+              break;
+            } catch (err) {
+              lastErr = err;
+              if (attempt === 0) await new Promise((r) => setTimeout(r, 1000));
+            }
+          }
+          setLoadingAudio(false);
+          if (!src) throw lastErr;
         }
+        setPlaying(true);
         await voicePlayer.playRaw(src, { rate, loop, label: target });
         setPlaying(false);
       } catch (error) {
+        setLoadingAudio(false);
         setPlaying(false);
         handleError(error, "Could not play the audio.");
       }
     },
-    [handleError, loop, requestSpeech, target, user],
+    [handleError, loop, requestSpeech, target, targetSound, user, wordSentence],
   );
 
   const stop = () => {
     voicePlayer.stop();
+    setLoadingAudio(false);
     setPlaying(false);
   };
 
@@ -245,9 +283,17 @@ export function PronPractice({
       </ol>
 
       <div className="mt-5 rounded-xl bg-surface-2 p-4 ring-1 ring-border">
-        <p className="font-display text-lg leading-snug text-foreground">{target}</p>
+        <div className="flex flex-wrap items-baseline gap-2.5">
+          <p className="font-display text-xl leading-snug text-foreground">{target}</p>
+          {wordIpa && (
+            <span className="font-mono text-base font-semibold text-brass-soft">
+              /{wordIpa}/
+            </span>
+          )}
+        </div>
         {pattern && <p className="mt-1.5 text-sm font-semibold tracking-wide text-brass-soft">{pattern}</p>}
         {targetSound && <p className="mt-1 text-sm text-plum-soft">Focus sound {targetSound}</p>}
+        {wordSentence && <p className="mt-2 text-sm text-mist">e.g. {wordSentence}</p>}
 
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {SPEEDS.map((rate) => (
@@ -255,13 +301,27 @@ export function PronPractice({
               key={rate}
               type="button"
               onClick={() => void play(rate)}
+              disabled={loadingAudio || playing}
               className={cn(
                 "inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold ring-1 ring-border transition-colors",
-                speed === rate && playing ? "bg-brass text-plum-deep" : "bg-surface-3 text-foreground hover:bg-surface-2",
+                speed === rate && (loadingAudio || playing)
+                  ? "bg-brass text-plum-deep"
+                  : "bg-surface-3 text-foreground hover:bg-surface-2",
+                (loadingAudio || playing) && "cursor-not-allowed opacity-80",
               )}
             >
-              <Volume2 className={cn("size-3.5", playing && speed === rate && "animate-pulse")} />
-              {rate === 1 ? "Normal" : rate === 0.8 ? "Slower" : "Slow"}
+              {loadingAudio && speed === rate ? (
+                <Loader2 className="size-3.5 animate-spin" />
+              ) : (
+                <Volume2 className={cn("size-3.5", playing && speed === rate && "animate-pulse")} />
+              )}
+              {loadingAudio && speed === rate
+                ? "Loading…"
+                : rate === 1
+                  ? "Normal"
+                  : rate === 0.8
+                    ? "Slower"
+                    : "Slow"}
             </button>
           ))}
           <button
@@ -288,6 +348,10 @@ export function PronPractice({
         </div>
         <p className="mt-2 text-[11px] text-muted-foreground">
           Model audio is Lingora&apos;s American English AI voice, not a human recording.
+          {targetSound &&
+            (wordSentence
+              ? " Listen plays the sound twice, then the example word, then a sentence containing it."
+              : " Listen plays the sound twice, then the example.")}
         </p>
       </div>
 

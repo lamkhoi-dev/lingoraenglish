@@ -1,15 +1,18 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
 import { CheckCircle2, Lock, Search, Volume2 } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { toast } from "sonner";
 
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
+import { FeatureTour, ViewGuideButton, useFeatureTour } from "@/components/lily/feature-tour";
 import { PremiumBadge } from "@/components/lily/paywall";
 import { PronPractice } from "@/components/lily/pron-practice";
 import { ScoreBar } from "@/components/lily/score-panel";
 import { useAuth } from "@/lib/auth";
 import { useI18n } from "@/lib/i18n";
+import { speak } from "@/lib/lily.functions";
 import {
   getMyPronunciationProgress,
   getPronunciationFreeCounts,
@@ -27,7 +30,10 @@ import {
   type SkillId,
 } from "@/lib/pronunciation-content";
 import { canonicalLink } from "@/lib/seo";
+import { getWordIpa } from "@/lib/word-ipa";
+import { voicePlayer } from "@/lib/voice-player";
 import { cn } from "@/lib/utils";
+import type { TranslationKey } from "@/locales/en";
 
 const TITLE = "Pronunciation Coach — 44 sounds, stress, intonation & connected speech";
 const DESCRIPTION =
@@ -52,23 +58,23 @@ export const Route = createFileRoute("/pronunciation")({
   component: PronunciationPage,
 });
 
-const LEVELS: { id: PronLevel | "all"; label: string }[] = [
-  { id: "all", label: "All levels" },
-  { id: "beginner", label: "Beginner" },
-  { id: "intermediate", label: "Intermediate" },
-  { id: "advanced", label: "Advanced" },
+const LEVELS: { id: PronLevel | "all"; labelKey: TranslationKey }[] = [
+  { id: "all", labelKey: "pron.filter.allLevels" },
+  { id: "beginner", labelKey: "pron.filter.beginner" },
+  { id: "intermediate", labelKey: "pron.filter.intermediate" },
+  { id: "advanced", labelKey: "pron.filter.advanced" },
 ];
 
-const DIFFICULTIES: { id: Difficulty | "all"; label: string }[] = [
-  { id: "all", label: "Any difficulty" },
-  { id: "easy", label: "Easy" },
-  { id: "medium", label: "Medium" },
-  { id: "hard", label: "Hard" },
+const DIFFICULTIES: { id: Difficulty | "all"; labelKey: TranslationKey }[] = [
+  { id: "all", labelKey: "pron.filter.allDifficulties" },
+  { id: "easy", labelKey: "pron.filter.gentle" },
+  { id: "medium", labelKey: "pron.filter.steady" },
+  { id: "hard", labelKey: "pron.filter.challenging" },
 ];
 
-const ACCENTS: { id: Accent; label: string }[] = [
-  { id: "us", label: "American English" },
-  { id: "uk", label: "British English" },
+const ACCENTS: { id: Accent; labelKey: TranslationKey }[] = [
+  { id: "us", labelKey: "pron.filter.us" },
+  { id: "uk", labelKey: "pron.filter.uk" },
 ];
 
 function Pill({
@@ -139,12 +145,13 @@ type Progress = {
 
 function PronunciationPage() {
   const { sound: requestedSound, skill: requestedSkill } = Route.useSearch();
-  const { locale } = useI18n();
+  const { t, locale } = useI18n();
   const { user } = useAuth();
   const getMyPronunciationProgressFn = useServerFn(getMyPronunciationProgress);
   const getSoundsCatalogueFn = useServerFn(getSoundsCatalogue);
   const getSkillLessonsCatalogueFn = useServerFn(getSkillLessonsCatalogue);
   const getPronunciationFreeCountsFn = useServerFn(getPronunciationFreeCounts);
+  const requestSpeech = useServerFn(speak);
 
   const [skill, setSkill] = useState<SkillId>("sounds");
   const [level, setLevel] = useState<PronLevel | "all">("all");
@@ -158,12 +165,52 @@ function PronunciationPage() {
   const [wordTarget, setWordTarget] = useState<string | null>(null);
   const [lessonId, setLessonId] = useState<string | null>(null);
   const [itemIndex, setItemIndex] = useState(0);
+  const [playingSound, setPlayingSound] = useState<string | null>(null);
   const [progress, setProgress] = useState<Progress>({
     overall: null,
     bySkill: {},
     weakSounds: [],
     masteredSounds: new Set(),
   });
+
+  const soundCache = useRef(new Map<string, string>());
+
+  const playSoundModel = async (textToPlay: string, label: string) => {
+    if (!user) {
+      toast.error(locale === "vi" ? "Đăng nhập để nghe âm mẫu của AI." : "Sign in to hear the AI model sound.");
+      return;
+    }
+    voicePlayer.prime();
+    try {
+      if (playingSound === label) {
+        voicePlayer.stop();
+        setPlayingSound(null);
+        return;
+      }
+      setPlayingSound(label);
+      let src = soundCache.current.get(textToPlay);
+      if (!src) {
+        let lastErr: unknown;
+        for (let attempt = 0; attempt < 2; attempt++) {
+          try {
+            const res = await requestSpeech({ data: { text: textToPlay, voice: "shimmer" } });
+            src = `data:${res.mime};base64,${res.audioBase64}`;
+            soundCache.current.set(textToPlay, src);
+            break;
+          } catch (err) {
+            lastErr = err;
+            if (attempt === 0) await new Promise((r) => setTimeout(r, 1000));
+          }
+        }
+        if (!src) throw lastErr;
+      }
+      await voicePlayer.playRaw(src, { rate: 0.85, label });
+      setPlayingSound(null);
+    } catch (error) {
+      setPlayingSound(null);
+      toast.error(locale === "vi" ? "Không thể phát âm thanh." : "Could not play audio.");
+    }
+  };
 
   /* Redacted server-side per learner's tier — see getSoundsCatalogue. */
   useEffect(() => {
@@ -268,7 +315,10 @@ function PronunciationPage() {
       sounds.filter(
         (p) =>
           query.trim() === "" ||
-          [p.symbol, p.usSymbol ?? "", p.name, ...p.words].join(" ").toLowerCase().includes(query.toLowerCase()),
+          [p.symbol, p.usSymbol ?? "", p.name, ...p.words.map((w) => w.word)]
+            .join(" ")
+            .toLowerCase()
+            .includes(query.toLowerCase()),
       ),
     [sounds, query],
   );
@@ -295,6 +345,7 @@ function PronunciationPage() {
   const recommended = useMemo(() => {
     const entries = SKILLS.filter((s) => s.id !== "sounds").map((s) => ({
       id: s.id,
+      labelKey: s.labelKey,
       label: s.label,
       score: progress.bySkill[s.id] ?? null,
     }));
@@ -305,23 +356,58 @@ function PronunciationPage() {
 
   const practiceTarget =
     skill === "sounds"
-      ? (wordTarget ?? sound?.sentences[0] ?? "")
+      ? (wordTarget ?? sound?.words[0]?.word ?? sound?.sentences[0] ?? "")
       : item?.pattern
         ? item.text
         : (item?.text ?? "");
 
+  // Only set when practiceTarget is one of this sound's own example words (not
+  // a sentence or minimal pair already selected) — Listen then models
+  // "sound, word, sentence containing that word" instead of just the word.
+  const wordSentence =
+    skill === "sounds" ? sound?.words.find((w) => w.word === practiceTarget)?.sentence : undefined;
+
+  const tour = useFeatureTour(
+    "pronunciation",
+    [
+      {
+        target: '[data-tour="pron-skills"]',
+        title: t("tour.pron.step1.title"),
+        content: t("tour.pron.step1.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="pron-sound-grid"]',
+        title: t("tour.pron.step2.title"),
+        content: t("tour.pron.step2.content"),
+        placement: "auto",
+      },
+      {
+        target: '[data-tour="pron-practice-panel"]',
+        title: t("tour.pron.step3.title"),
+        content: t("tour.pron.step3.content"),
+        placement: "auto",
+      },
+    ],
+    skill === "sounds" && Boolean(sound) && Boolean(practiceTarget),
+  );
+
   return (
     <AppShell>
+      <FeatureTour run={tour.run} steps={tour.steps} handleEvent={tour.handleEvent} />
       <div className="grid items-center gap-6 lg:grid-cols-[1.3fr_0.7fr]">
-        <SectionHeading
-          eyebrow="Pronunciation"
-          title="Sound clearer, more natural, more fluent"
-          description={`All ${freeCounts.totalSounds} English sounds plus word stress, sentence stress, intonation, connected speech, reductions, rhythm, chunking and fluency — every lesson ends with your own recording.`}
-        />
+        <div className="flex flex-wrap items-start justify-between gap-3">
+          <SectionHeading
+            eyebrow={t("nav.pronunciation")}
+            title={t("pron.hero.title")}
+            description={t("pron.hero.description", { count: String(freeCounts.totalSounds) })}
+          />
+          <ViewGuideButton onClick={tour.restart} />
+        </div>
         <div className="hidden lg:block overflow-hidden rounded-3xl border border-border shadow-lg">
           <img
             src="/images/pronunciation-guide.jpg"
-            alt="Pronunciation Articulation & IPA"
+            alt={t("pron.imageAlt")}
             className="h-44 w-full object-cover transition-transform duration-500 hover:scale-105"
           />
         </div>
@@ -331,11 +417,11 @@ function PronunciationPage() {
       <section className="lounge-panel mt-8 p-5 sm:p-6">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <h2 className="font-display text-lg text-foreground">Your pronunciation progress</h2>
+            <h2 className="font-display text-lg text-foreground">{t("pron.progress.title")}</h2>
             <p className="mt-1 text-sm text-muted-foreground">
               {user
-                ? "Measured from the words the coach recognised in your own recordings."
-                : "Create a free account to record yourself and start tracking progress."}
+                ? t("pron.progress.descUser")
+                : t("pron.progress.descGuest")}
             </p>
           </div>
           <div className="font-display text-4xl text-brass-soft">
@@ -345,12 +431,12 @@ function PronunciationPage() {
 
         <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {SKILLS.map((s) => (
-            <ScoreBar key={s.id} label={`${s.icon} ${s.label}`} value={progress.bySkill[s.id] ?? null} max={100} />
+            <ScoreBar key={s.id} label={`${s.icon} ${t(s.labelKey)}`} value={progress.bySkill[s.id] ?? null} max={100} />
           ))}
         </div>
 
         <div className="mt-5 border-t border-border pt-4">
-          <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">Recommended for you</h3>
+          <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">{t("pron.recommended")}</h3>
           <div className="mt-2 flex flex-wrap gap-2">
             {recommended.map((r) => (
               <button
@@ -363,7 +449,7 @@ function PronunciationPage() {
                 }}
                 className="rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
               >
-                {r.label}
+                {t(r.labelKey)}
                 {r.score !== null && <span className="ml-1.5 text-brass-soft">{r.score}%</span>}
               </button>
             ))}
@@ -378,7 +464,7 @@ function PronunciationPage() {
                 }}
                 className="rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
               >
-                {symbol} sound
+                {t("pron.soundLabel", { symbol })}
               </button>
             ))}
           </div>
@@ -387,7 +473,7 @@ function PronunciationPage() {
 
       {/* -------------------------------- filters ------------------------------ */}
       <div className="mt-8 space-y-3">
-        <div className="flex flex-wrap gap-2">
+        <div data-tour="pron-skills" className="flex flex-wrap gap-2">
           {SKILLS.map((s) => (
             <Pill
               key={s.id}
@@ -399,7 +485,7 @@ function PronunciationPage() {
               }}
             >
               <span className="mr-1">{s.icon}</span>
-              {s.label}
+              {t(s.labelKey)}
             </Pill>
           ))}
         </div>
@@ -410,25 +496,25 @@ function PronunciationPage() {
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search a sound, word or lesson"
+              placeholder={t("pron.filter.searchPlaceholder")}
               className="w-52 bg-transparent text-sm text-foreground outline-none placeholder:text-muted-foreground"
             />
           </label>
           {skill !== "sounds" &&
             LEVELS.map((l) => (
               <Pill key={l.id} active={level === l.id} onClick={() => setLevel(l.id)}>
-                {l.label}
+                {t(l.labelKey)}
               </Pill>
             ))}
           {skill !== "sounds" &&
             DIFFICULTIES.map((d) => (
               <Pill key={d.id} active={difficulty === d.id} onClick={() => setDifficulty(d.id)}>
-                {d.label}
+                {t(d.labelKey)}
               </Pill>
             ))}
           {ACCENTS.map((a) => (
             <Pill key={a.id} active={accent === a.id} onClick={() => setAccent(a.id)}>
-              {a.label}
+              {t(a.labelKey)}
             </Pill>
           ))}
         </div>
@@ -439,10 +525,14 @@ function PronunciationPage() {
           {skill === "sounds" ? (
             <>
               {/* sound cards grouped by family */}
-              <section className="lounge-panel p-5">
+              <section data-tour="pron-sound-grid" className="lounge-panel p-5">
                 <div className="flex items-baseline justify-between">
-                  <h2 className="font-display text-lg text-foreground">The {freeCounts.totalSounds} English sounds</h2>
-                  <span className="text-xs text-muted-foreground">{filteredSounds.length} shown</span>
+                  <h2 className="font-display text-lg text-foreground">
+                    {t("pron.sounds.title", { count: String(freeCounts.totalSounds) })}
+                  </h2>
+                  <span className="text-xs text-muted-foreground">
+                    {t("pron.sounds.shown", { count: String(filteredSounds.length) })}
+                  </span>
                 </div>
                 <div className="mt-4 space-y-4">
                   {PHONEME_GROUPS.map((group) => {
@@ -489,7 +579,7 @@ function PronunciationPage() {
               {/* the selected sound's full lesson */}
               {!sound ? (
                 <section className="lounge-panel p-5 sm:p-6">
-                  <p className="text-sm text-muted-foreground">Loading…</p>
+                  <p className="text-sm text-muted-foreground">{t("common.loading")}</p>
                 </section>
               ) : (
                 <section className="lounge-panel p-5 sm:p-6">
@@ -499,12 +589,22 @@ function PronunciationPage() {
                         {accentSymbol} <span className="text-lg text-muted-foreground">— {sound.name}</span>
                       </h2>
                       <p className="mt-1 text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
-                        {sound.voiced ? "Voiced — your vocal cords vibrate" : "Voiceless — breath only, no vibration"} ·{" "}
+                        {sound.voiced
+                          ? (locale === "vi" ? "Âm hữu thanh — dây thanh quản rung" : "Voiced — your vocal cords vibrate")
+                          : (locale === "vi" ? "Âm vô thanh — chỉ có luồng hơi, không rung" : "Voiceless — breath only, no vibration")} ·{" "}
                         {sound.level} · {sound.difficulty} · {accentLabel}
                       </p>
                     </div>
                     {!sound.unlocked && <PremiumBadge />}
                   </div>
+
+                  {sound.unlocked && (
+                    <p className="mt-4 text-xs text-muted-foreground">
+                      {locale === "vi"
+                        ? 'Bấm "1. Listen" trong khung Practice bên phải để nghe AI đọc mẫu âm này và một ví dụ.'
+                        : 'Tap "1. Listen" in the Practice card on the right to hear the AI model this sound and an example.'}
+                    </p>
+                  )}
 
                   {!sound.unlocked ? (
                     <div className="mt-5 rounded-xl bg-surface-2 p-5 text-center ring-1 ring-border">
@@ -525,7 +625,9 @@ function PronunciationPage() {
                   ) : (
                     <>
                       <p className="mt-4 rounded-xl bg-surface-2 p-3 text-sm text-foreground ring-1 ring-border">
-                        <span className="mr-2 text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">How</span>
+                        <span className="mr-2 text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
+                          {t("pron.how")}
+                        </span>
                         {sound.how}
                       </p>
 
@@ -559,7 +661,9 @@ function PronunciationPage() {
                       </div>
 
                       <div className="mt-5">
-                        <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-plum-soft">Common mistakes</h3>
+                        <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-plum-soft">
+                          {t("pron.commonMistakes")}
+                        </h3>
                         <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-mist">
                           {sound.mistakes.map((m) => (
                             <li key={m}>{m}</li>
@@ -568,48 +672,104 @@ function PronunciationPage() {
                       </div>
 
                       <div className="mt-5">
-                        <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">Word practice</h3>
-                        <div className="mt-2 flex flex-wrap gap-2">
-                          {sound.words.map((w) => (
-                            <button
-                              key={w}
-                              type="button"
-                              onClick={() => setWordTarget(w)}
-                              className={cn(
-                                "rounded-full px-3 py-1.5 text-sm ring-1 ring-border",
-                                practiceTarget === w
-                                  ? "bg-brass text-plum-deep"
-                                  : "bg-surface-2 text-foreground hover:bg-surface-3",
-                              )}
-                            >
-                              {w}
-                            </button>
-                          ))}
+                        <div className="flex items-center justify-between">
+                          <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
+                            {t("pron.wordPractice")}
+                          </h3>
+                          <span className="text-xs text-muted-foreground">
+                            {locale === "vi" ? "Bấm vào từ để nghe AI đọc & luyện tập" : "Click word to hear AI & practice"}
+                          </span>
                         </div>
+                        <div className="mt-2 flex flex-wrap gap-2">
+                          {sound.words.map((w) => {
+                            const ipa = getWordIpa(w.word);
+                            const isActive = practiceTarget === w.word;
+                            return (
+                              <button
+                                key={w.word}
+                                type="button"
+                                onClick={() => {
+                                  setWordTarget(w.word);
+                                  playSoundModel(w.word, `word-${w.word}`);
+                                }}
+                                className={cn(
+                                  "inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm ring-1 ring-border transition-colors",
+                                  isActive
+                                    ? "bg-brass text-plum-deep shadow-brass font-medium"
+                                    : "bg-surface-2 text-foreground hover:bg-surface-3",
+                                )}
+                              >
+                                <Volume2
+                                  className={cn(
+                                    "size-3",
+                                    playingSound === `word-${w.word}`
+                                      ? "text-plum-deep animate-pulse"
+                                      : "text-muted-foreground",
+                                  )}
+                                />
+                                <span className="font-medium">{w.word}</span>
+                                {ipa && (
+                                  <span
+                                    className={cn(
+                                      "font-mono text-xs",
+                                      isActive ? "text-plum-deep/80" : "text-brass-soft",
+                                    )}
+                                  >
+                                    /{ipa}/
+                                  </span>
+                                )}
+                              </button>
+                            );
+                          })}
+                        </div>
+                        {wordSentence && (
+                          <p className="mt-2 text-sm text-mist">
+                            {locale === "vi" ? "Ví dụ: " : "e.g. "}
+                            {wordSentence}
+                          </p>
+                        )}
                       </div>
 
                       <div className="mt-5">
                         <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
-                          Sentence practice
+                          {t("pron.sentencePractice")}
                         </h3>
                         <ul className="mt-2 space-y-2">
                           {sound.sentences.map((s) => (
                             <li key={s} className="flex flex-wrap items-center justify-between gap-2">
                               <span className="text-sm text-mist">{s}</span>
-                              <button
-                                type="button"
-                                onClick={() => setWordTarget(s)}
-                                className="inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
-                              >
-                                <Volume2 className="size-3.5" /> Practise
-                              </button>
+                              <div className="flex items-center gap-2">
+                                <button
+                                  type="button"
+                                  onClick={() => playSoundModel(s, `sentence-${s}`)}
+                                  className={cn(
+                                    "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs ring-1 ring-border transition",
+                                    playingSound === `sentence-${s}` ? "bg-brass text-plum-deep" : "bg-surface-2 text-muted-foreground hover:text-foreground"
+                                  )}
+                                >
+                                  <Volume2 className="size-3" />
+                                  {playingSound === `sentence-${s}` ? (locale === "vi" ? "Đang nghe" : "Playing") : (locale === "vi" ? "Nghe" : "Listen")}
+                                </button>
+                                <button
+                                  type="button"
+                                  onClick={() => setWordTarget(s)}
+                                  className={cn(
+                                    "inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold ring-1 ring-border",
+                                    practiceTarget === s ? "bg-brass text-plum-deep" : "bg-surface-2 text-foreground hover:bg-surface-3"
+                                  )}
+                                >
+                                  {t("pron.practise")}
+                                </button>
+                              </div>
                             </li>
                           ))}
                         </ul>
                       </div>
 
                       <div className="mt-5">
-                        <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">Minimal pairs</h3>
+                        <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
+                          {t("pron.minimalPairs")}
+                        </h3>
                         <ul className="mt-2 space-y-2">
                           {sound.pairs.map((pair) => (
                             <li key={pair.contrast + pair.a} className="rounded-xl bg-surface-2 p-3 ring-1 ring-border">
@@ -624,7 +784,7 @@ function PronunciationPage() {
                                     onClick={() => setWordTarget(`${pair.a}. ${pair.b}.`)}
                                     className="rounded-full bg-brass px-3 py-1.5 text-xs font-semibold text-plum-deep hover:bg-brass-soft"
                                   >
-                                    Practise
+                                    {t("pron.practise")}
                                   </button>
                                 </div>
                               </div>
@@ -643,13 +803,17 @@ function PronunciationPage() {
               <section className="lounge-panel p-5">
                 <div className="flex items-baseline justify-between">
                   <h2 className="font-display text-lg text-foreground">
-                    {SKILLS.find((s) => s.id === skill)?.icon} {SKILLS.find((s) => s.id === skill)?.label} lessons
+                    {SKILLS.find((s) => s.id === skill)?.icon}{" "}
+                    {t(SKILLS.find((s) => s.id === skill)?.labelKey ?? "pron.skill.sounds")}{" "}
+                    {t("pron.lessons.title", { skill: "" }).trim()}
                   </h2>
-                  <span className="text-xs text-muted-foreground">{lessons.length} shown</span>
+                  <span className="text-xs text-muted-foreground">
+                    {t("pron.sounds.shown", { count: String(lessons.length) })}
+                  </span>
                 </div>
                 {lessons.length === 0 && (
                   <p className="mt-3 text-sm text-muted-foreground">
-                    No lesson matches these filters. Try “All levels” and “Any difficulty”.
+                    {t("pron.lessons.none")}
                   </p>
                 )}
                 <div className="mt-3 flex flex-wrap gap-2">
@@ -729,25 +893,35 @@ function PronunciationPage() {
                       )}
 
                       <div className="mt-5 space-y-2">
-                        {lesson.items.map((it, i) => (
-                          <button
-                            key={it.text + i}
-                            type="button"
-                            onClick={() => setItemIndex(i)}
-                            className={cn(
-                              "block w-full rounded-xl px-4 py-3 text-left ring-1 ring-border transition-colors",
-                              i === itemIndex ? "bg-brass/15 ring-brass/50" : "bg-surface-2 hover:bg-surface-3",
-                            )}
-                          >
-                            <span className="block text-sm text-foreground">{it.text}</span>
-                            {it.pattern && (
-                              <span className="mt-1 block text-sm font-semibold tracking-wide text-brass-soft">
-                                {it.pattern}
-                              </span>
-                            )}
-                            {it.note && <span className="mt-1 block text-xs text-muted-foreground">{it.note}</span>}
-                          </button>
-                        ))}
+                        {lesson.items.map((it, i) => {
+                          const itemIpa = getWordIpa(it.text);
+                          return (
+                            <button
+                              key={it.text + i}
+                              type="button"
+                              onClick={() => setItemIndex(i)}
+                              className={cn(
+                                "block w-full rounded-xl px-4 py-3 text-left ring-1 ring-border transition-colors",
+                                i === itemIndex ? "bg-brass/15 ring-brass/50" : "bg-surface-2 hover:bg-surface-3",
+                              )}
+                            >
+                              <div className="flex flex-wrap items-baseline gap-2">
+                                <span className="block text-sm font-medium text-foreground">{it.text}</span>
+                                {itemIpa && (
+                                  <span className="font-mono text-xs text-brass-soft">
+                                    /{itemIpa}/
+                                  </span>
+                                )}
+                              </div>
+                              {it.pattern && (
+                                <span className="mt-1 block text-sm font-semibold tracking-wide text-brass-soft">
+                                  {it.pattern}
+                                </span>
+                              )}
+                              {it.note && <span className="mt-1 block text-xs text-muted-foreground">{it.note}</span>}
+                            </button>
+                          );
+                        })}
                       </div>
                     </>
                   )}
@@ -757,13 +931,13 @@ function PronunciationPage() {
                       to="/shadowing"
                       className="rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
                     >
-                      Use this skill in Shadowing
+                      {t("pron.useInShadowing")}
                     </Link>
                     <Link
                       to="/ai-speaking"
                       className="rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
                     >
-                      Back to the Speaking Coach
+                      {t("pron.backToCoach")}
                     </Link>
                   </div>
                 </section>
@@ -772,12 +946,13 @@ function PronunciationPage() {
           )}
         </div>
 
-        <aside className="space-y-6 lg:sticky lg:top-24 lg:self-start">
+        <aside data-tour="pron-practice-panel" className="space-y-6 lg:sticky lg:top-24 lg:self-start">
           {practiceTarget && (
             <PronPractice
               key={`${skill}-${practiceTarget}`}
               target={practiceTarget}
               targetSound={skill === "sounds" ? accentSymbol : undefined}
+              wordSentence={wordSentence}
               mode={skill}
               lessonId={skill === "sounds" ? undefined : (lesson?.id ?? undefined)}
               pattern={skill === "sounds" ? undefined : (item?.pattern ?? undefined)}

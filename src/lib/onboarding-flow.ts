@@ -18,7 +18,7 @@ export type SurveyAnswers = {
   focusAreas: string[];
   dailyGoalMinutes: number;
   englishLevel: "A1" | "A2" | "B1" | "B2" | "C1";
-  instructionLanguage: "en" | "vi";
+  instructionLanguage: string;
 };
 
 export type PendingSurvey = { skipped: true } | { skipped?: false; answers: SurveyAnswers };

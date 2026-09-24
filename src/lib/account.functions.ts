@@ -114,12 +114,9 @@ const completeOnboardingSchema = z.object({
   focusAreas: z.array(z.string().max(30)).max(6).default([]),
   dailyGoalMinutes: z.number().int().min(1).max(240),
   englishLevel: cefrLevelSchema,
-  // Drives englishOnlyMode + (when "vi") interfaceLanguage together, rather
-  // than being its own stored column — see the handler below. Onboarding no
-  // longer asks for interface language directly: it's already selectable
-  // from the header/footer LanguageSelector and from /account, so it isn't
-  // onboarding's only home for that setting.
-  instructionLanguage: z.enum(["en", "vi"]),
+  // Drives englishOnlyMode + (when not "en") interfaceLanguage/uiLanguage together, rather
+  // than being its own stored column — see the handler below.
+  instructionLanguage: z.string().max(12).regex(/^[a-zA-Z]{2,3}(-[a-zA-Z]{2,4})?$/),
 });
 
 /** Redesigned 2026-09-18 for the customer's 5-question survey (was 4 CEFR/
@@ -140,7 +137,9 @@ export const completeOnboarding = createServerFn({ method: "POST" })
           dailyGoalMinutes: data.dailyGoalMinutes,
           englishLevel: data.englishLevel,
           englishOnlyMode: data.instructionLanguage === "en",
-          ...(data.instructionLanguage === "vi" ? { interfaceLanguage: "vi", uiLanguage: "vi" } : {}),
+          ...(data.instructionLanguage !== "en"
+            ? { interfaceLanguage: data.instructionLanguage, uiLanguage: data.instructionLanguage }
+            : {}),
           onboardedAt: new Date().toISOString(),
         })
         .where(eq(profiles.id, context.userId)),

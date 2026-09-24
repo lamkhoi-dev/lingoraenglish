@@ -14,6 +14,7 @@ import { billingEvents, billingPlans, profiles, subscriptions } from "@/db/schem
 import { requireAuth } from "@/lib/require-auth";
 import { getEntitlement, logBillingEvent, MONTHLY_QUOTA_KEYS } from "./entitlements.server";
 import { getPaymentsEnv, type PaymentsEnv } from "./payments-env";
+import { usdCentsToVnd } from "./sepay.server";
 
 /* --------------------------------------------------------------------- plans */
 
@@ -44,6 +45,11 @@ export const getPublicPlans = createServerFn({ method: "GET" }).handler(async ()
       currency: r.currency,
       monthly_amount: r.monthlyAmount,
       yearly_amount: r.yearlyAmount,
+      // Converted from the USD price at the current rate for display only — a bank-transfer
+      // order computes and stores its own exact amount_vnd at checkout time (see
+      // bank-transfer.functions.ts), so a rate change between viewing and paying is harmless.
+      monthly_amount_vnd: r.monthlyAmount > 0 ? usdCentsToVnd(r.monthlyAmount) : 0,
+      yearly_amount_vnd: r.yearlyAmount > 0 ? usdCentsToVnd(r.yearlyAmount) : 0,
       monthly_price_id: r.monthlyPriceId,
       yearly_price_id: r.yearlyPriceId,
       features: r.features as string[],
@@ -58,7 +64,7 @@ export const getPublicPlans = createServerFn({ method: "GET" }).handler(async ()
 /** The active paid plan a website price id ("lily_premium_monthly"…) belongs to, plus which billing
  * interval that id stands for. billing_plans is the only source of amounts — Stripe holds no
  * catalogue of prices, so what the page shows and what is charged cannot differ. */
-async function findActivePlanByPriceId(priceId: string) {
+export async function findActivePlanByPriceId(priceId: string) {
   const rows = await withAnon((db) => db.select().from(billingPlans).where(eq(billingPlans.isActive, true)));
   const plan = rows.find((p) => p.monthlyPriceId === priceId || p.yearlyPriceId === priceId);
   if (!plan || plan.tier === "free") return null;
@@ -236,7 +242,12 @@ export const createCheckoutSession = createServerFn({ method: "POST" })
       client_reference_id: context.userId,
       // Reuse the Stripe customer when this learner already has one (keeps invoices and the
       // billing portal in one place); otherwise let Checkout create it from their email.
-      ...(existing ? { customer: existing.provider_customer_id } : email ? { customer_email: email } : {}),
+      // Demo/seed customer IDs (demo_*) are not real Stripe customers — skip them.
+      ...(existing && !existing.provider_customer_id?.startsWith("demo_")
+        ? { customer: existing.provider_customer_id }
+        : email
+          ? { customer_email: email }
+          : {}),
       line_items: [
         {
           quantity: 1,
@@ -560,6 +571,15 @@ export const createPortalSession = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
     const { row } = await requireOwnSubscription(context.userId, getPaymentsEnv());
+    // Fake demo/seed customer IDs are not real Stripe customers — calling the
+    // billing portal with them would surface a confusing Stripe error to the
+    // learner. Delete the stale demo row so the user can re-subscribe normally.
+    if (row.provider_customer_id?.startsWith("demo_")) {
+      await withAdmin((db) => db.delete(subscriptions).where(eq(subscriptions.id, row.id)));
+      throw new Error(
+        "Your account record was from a demo session and has been reset. Please refresh the page and subscribe again.",
+      );
+    }
     const { stripeFetch, appUrl, ensurePortalConfigurationId } = await import("./stripe.server");
     const session = await stripeFetch<{ url: string }>("POST", "/v1/billing_portal/sessions", {
       customer: row.provider_customer_id,
@@ -585,10 +605,23 @@ async function syncAfterAction(subscriptionId: string, env: PaymentsEnv, userId:
   }
 }
 
+/** Bank-transfer subscriptions (SePay) have no card on file to keep charging, so they were
+ * never "auto-renewing" the way a Stripe subscription is — there is nothing there for Stripe's
+ * API to cancel or restore. Both actions below must check this before touching Stripe at all,
+ * or they'd send a made-up "sepay_…" id to Stripe and get a 404. */
+function isBankTransferSubscription(providerSubscriptionId: string): boolean {
+  return providerSubscriptionId.startsWith("sepay_");
+}
+
 export const cancelMySubscription = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
     const { row, env } = await requireOwnSubscription(context.userId, getPaymentsEnv());
+    if (isBankTransferSubscription(row.provider_subscription_id)) {
+      // Already ends at period end by design (see sepay.functions.ts) — nothing to change.
+      await logBillingEvent("subscription_cancel_requested", { userId: context.userId, env });
+      return { ok: true };
+    }
     const { stripeFetch } = await import("./stripe.server");
     // End of billing period — the learner keeps access to what they paid for (and, during a
     // trial, is never charged).
@@ -604,6 +637,9 @@ export const keepMySubscription = createServerFn({ method: "POST" })
   .middleware([requireAuth])
   .handler(async ({ context }) => {
     const { row, env } = await requireOwnSubscription(context.userId, getPaymentsEnv());
+    if (isBankTransferSubscription(row.provider_subscription_id)) {
+      throw new Error("Bank-transfer plans don't auto-renew — pay again by bank transfer before it ends to continue.");
+    }
     const { stripeFetch } = await import("./stripe.server");
     try {
       await stripeFetch("POST", `/v1/subscriptions/${encodeURIComponent(row.provider_subscription_id)}`, {
@@ -625,6 +661,9 @@ export const changeMyPlan = createServerFn({ method: "POST" })
   )
   .handler(async ({ data, context }) => {
     const { row, env } = await requireOwnSubscription(context.userId, getPaymentsEnv());
+    if (isBankTransferSubscription(row.provider_subscription_id)) {
+      throw new Error("To change plans, pay for the new plan by bank transfer — it will replace your current one.");
+    }
 
     const found = await findActivePlanByPriceId(data.priceId);
     if (!found) throw new Error("That plan is not available.");
