@@ -16,7 +16,7 @@ export const sectionsKo: Dictionary = {
   "mic.tapToStart": "마이크를 눌러 시작하세요",
   "common.analysing": "분석 중",
   "locked.title": "유료 플랜 전용",
-  "locked.sub": "업그레이드하면 {count}개 항목이 더 잠금 해제됩니다.",
+  "locked.sub": "업그레이드하면 {{count}}개 항목이 더 잠금 해제됩니다.",
   "locked.unlock": "모든 기능 잠금 해제",
   "plan.free": "Free",
   "plan.premium": "Premium",

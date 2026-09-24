@@ -16,7 +16,7 @@ export const sectionsHi: Dictionary = {
   "mic.tapToStart": "शुरू करने के लिए माइक पर टैप करें",
   "common.analysing": "विश्लेषण हो रहा है...",
   "locked.title": "सशुल्क प्लान में शामिल",
-  "locked.sub": "अपग्रेड करने पर {count} और आइटम अनलॉक होंगे।",
+  "locked.sub": "अपग्रेड करने पर {{count}} और आइटम अनलॉक होंगे।",
   "locked.unlock": "सब कुछ अनलॉक करें",
   "plan.free": "मुफ़्त",
   "plan.premium": "Premium",

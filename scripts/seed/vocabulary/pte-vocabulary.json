@@ -1,0 +1,1648 @@
+{
+  "category": "PTE Vocabulary",
+  "words": [
+    {
+      "word": "academic",
+      "ipa": "/ˌækəˈdemɪk/",
+      "meaningEn": "relating to education and scholarship",
+      "meaningVi": "thuộc học thuật, viện hàn lâm",
+      "exampleSentence": "The university publishes peer-reviewed academic journals on global economics.",
+      "exampleVi": "Trường đại học xuất bản các tạp chí học thuật được bình duyệt về kinh tế toàn cầu.",
+      "usageContext": "PTE Read Aloud and Repeat Sentence tasks.",
+      "level": "B1",
+      "synonyms": [
+        "scholarly",
+        "educational"
+      ],
+      "antonyms": [
+        "practical"
+      ]
+    },
+    {
+      "word": "accurate",
+      "ipa": "/ˈækjərət/",
+      "meaningEn": "correct in all details; exact",
+      "meaningVi": "chính xác, đúng đắn",
+      "exampleSentence": "The computerized meteorological sensor provides accurate atmospheric readings.",
+      "exampleVi": "Cảm biến khí tượng trên máy tính cung cấp các chỉ số đo khí quyển chính xác.",
+      "usageContext": "Scientific and data analysis contexts.",
+      "level": "B1",
+      "synonyms": [
+        "precise",
+        "correct"
+      ],
+      "antonyms": [
+        "inaccurate",
+        "erroneous"
+      ]
+    },
+    {
+      "word": "adequacy",
+      "ipa": "/ˈædɪkwəsi/",
+      "meaningEn": "the state of being sufficient or satisfactory",
+      "meaningVi": "sự thỏa đáng, sự đầy đủ",
+      "exampleSentence": "Independent inspectors evaluated the adequacy of municipal emergency water reserves.",
+      "exampleVi": "Các thanh tra viên độc lập đã đánh giá sự thỏa đáng của các nguồn dự trữ nước khẩn cấp của thành phố.",
+      "usageContext": "Urban infrastructure lectures.",
+      "level": "B2",
+      "synonyms": [
+        "sufficiency",
+        "competence"
+      ],
+      "antonyms": [
+        "inadequacy",
+        "shortage"
+      ]
+    },
+    {
+      "word": "allocation",
+      "ipa": "/ˌæləˈkeɪʃn/",
+      "meaningEn": "the distribution of resources or assets",
+      "meaningVi": "sự phân bổ, chia phần",
+      "exampleSentence": "The budget proposal recommended an equitable allocation of research funds.",
+      "exampleVi": "Đề xuất ngân sách khuyến nghị sự phân bổ công bằng các quỹ nghiên cứu.",
+      "usageContext": "Economics and management.",
+      "level": "B2",
+      "synonyms": [
+        "allotment",
+        "distribution"
+      ],
+      "antonyms": [
+        "misallocation"
+      ]
+    },
+    {
+      "word": "anticipate",
+      "ipa": "/ænˈtɪsɪpeɪt/",
+      "meaningEn": "to expect or foresee something and take action",
+      "meaningVi": "dự đoán, lường trước",
+      "exampleSentence": "Meteorologists anticipate severe coastal flooding during the equinox storm.",
+      "exampleVi": "Các nhà khí tượng học dự đoán lũ lụt ven biển nghiêm trọng trong cơn bão điểm phân.",
+      "usageContext": "General academic lectures.",
+      "level": "B2",
+      "synonyms": [
+        "expect",
+        "foresee"
+      ],
+      "antonyms": [
+        "overlook"
+      ]
+    },
+    {
+      "word": "assessment",
+      "ipa": "/əˈsesmənt/",
+      "meaningEn": "the evaluation or estimation of the nature or quality of something",
+      "meaningVi": "sự đánh giá, thẩm định",
+      "exampleSentence": "Clinical psychologists perform a thorough cognitive assessment before recommending therapy.",
+      "exampleVi": "Các nhà tâm lý học lâm sàng thực hiện đánh giá nhận thức kỹ lưỡng trước khi đề xuất trị liệu.",
+      "usageContext": "Psychology and testing.",
+      "level": "B2",
+      "synonyms": [
+        "evaluation",
+        "appraisal"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "beneficial",
+      "ipa": "/ˌbenɪˈfɪʃl/",
+      "meaningEn": "producing good or helpful results or effects",
+      "meaningVi": "có lợi, có ích",
+      "exampleSentence": "Regular aerobic exercise has undeniably beneficial effects on cardiac health.",
+      "exampleVi": "Tập thể dục nhịp điệu thường xuyên mang lại những tác dụng có lợi không thể phủ nhận đối với sức khỏe tim mạch.",
+      "usageContext": "Health and medicine.",
+      "level": "B1",
+      "synonyms": [
+        "advantageous",
+        "helpful"
+      ],
+      "antonyms": [
+        "detrimental",
+        "harmful"
+      ]
+    },
+    {
+      "word": "coherent",
+      "ipa": "/koʊˈhɪrənt/",
+      "meaningEn": "logical and consistent; easily understood",
+      "meaningVi": "mạch lạc, chặt chẽ",
+      "exampleSentence": "The thesis was commended for presenting a coherent and compelling theoretical argument.",
+      "exampleVi": "Luận án được khen ngợi vì đã trình bày một lập luận lý thuyết mạch lạc và thuyết phục.",
+      "usageContext": "Essay evaluation and linguistics.",
+      "level": "B2",
+      "synonyms": [
+        "lucid",
+        "articulate"
+      ],
+      "antonyms": [
+        "incoherent",
+        "disjointed"
+      ]
+    },
+    {
+      "word": "collapse",
+      "ipa": "/kəˈlæps/",
+      "meaningEn": "a sudden failure or breakdown of a system or structure",
+      "meaningVi": "sự sụp đổ",
+      "exampleSentence": "The civil engineer investigated factors contributing to the bridge collapse.",
+      "exampleVi": "Kỹ sư xây dựng đã điều tra các yếu tố góp phần gây ra sự sụp đổ của cây cầu.",
+      "usageContext": "Civil engineering.",
+      "level": "B2",
+      "synonyms": [
+        "breakdown",
+        "failure"
+      ],
+      "antonyms": [
+        "reinforcement"
+      ]
+    },
+    {
+      "word": "commodity",
+      "ipa": "/kəˈmɑːdəti/",
+      "meaningEn": "a raw material or primary agricultural product that can be bought and sold",
+      "meaningVi": "hàng hóa, thương phẩm",
+      "exampleSentence": "Petroleum remains the most heavily traded global energy commodity.",
+      "exampleVi": "Dầu mỏ vẫn là mặt hàng năng lượng toàn cầu được giao dịch nhiều nhất.",
+      "usageContext": "Economics and commerce.",
+      "level": "B2",
+      "synonyms": [
+        "merchandise",
+        "goods"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "compatible",
+      "ipa": "/kəmˈpætəbl/",
+      "meaningEn": "able to exist or occur together without conflict",
+      "meaningVi": "tương thích, hợp nhau",
+      "exampleSentence": "The new software application is completely compatible with legacy operating systems.",
+      "exampleVi": "Ứng dụng phần mềm mới hoàn toàn tương thích với các hệ điều hành cũ.",
+      "usageContext": "Computer science.",
+      "level": "B2",
+      "synonyms": [
+        "congruent",
+        "adaptable"
+      ],
+      "antonyms": [
+        "incompatible",
+        "conflicting"
+      ]
+    },
+    {
+      "word": "conception",
+      "ipa": "/kənˈsepʃn/",
+      "meaningEn": "the forming or devising of a plan or idea",
+      "meaningVi": "quan niệm, ý niệm",
+      "exampleSentence": "Modern astrophysics has revolutionized our conception of cosmic origin.",
+      "exampleVi": "Vật lý thiên văn hiện đại đã cách mạng hóa quan niệm của chúng ta về nguồn gốc vũ trụ.",
+      "usageContext": "Philosophy and cosmology.",
+      "level": "B2",
+      "synonyms": [
+        "notion",
+        "idea"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "constitute",
+      "ipa": "/ˈkɑːnstətuːt/",
+      "meaningEn": "to serve as parts of a whole",
+      "meaningVi": "cấu thành, thiết lập",
+      "exampleSentence": "Twelve elected council members constitute the municipal legislative governing board.",
+      "exampleVi": "Mười hai thành viên hội đồng dân cử cấu thành ban quản trị lập pháp của thành phố.",
+      "usageContext": "Political science.",
+      "level": "B2",
+      "synonyms": [
+        "form",
+        "compose"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "contemporary",
+      "ipa": "/kənˈtempəreri/",
+      "meaningEn": "occurring in the present; modern",
+      "meaningVi": "đương đại, hiện đại",
+      "exampleSentence": "The seminar explored ethical dilemmas in contemporary artificial intelligence design.",
+      "exampleVi": "Hội thảo đã khám phá những tình huống khó xử về đạo đức trong thiết kế trí tuệ nhân tạo đương đại.",
+      "usageContext": "Philosophy of technology.",
+      "level": "B2",
+      "synonyms": [
+        "current",
+        "modern"
+      ],
+      "antonyms": [
+        "ancient",
+        "traditional"
+      ]
+    },
+    {
+      "word": "contextual",
+      "ipa": "/kənˈtekstʃuəl/",
+      "meaningEn": "depending on or relating to the circumstances that form the setting",
+      "meaningVi": "theo ngữ cảnh",
+      "exampleSentence": "Linguists analyze lexical meaning through rigorous contextual evaluation.",
+      "exampleVi": "Các nhà ngôn ngữ học phân tích ý nghĩa từ vựng thông qua đánh giá ngữ cảnh nghiêm ngặt.",
+      "usageContext": "Linguistics.",
+      "level": "C1",
+      "synonyms": [
+        "situational",
+        "circumstantial"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "correlation",
+      "ipa": "/ˌkɔːrəˈleɪʃn/",
+      "meaningEn": "a mutual relationship or connection between two or more things",
+      "meaningVi": "mối tương quan",
+      "exampleSentence": "Epidemiologists found a robust positive correlation between smoking and pulmonary illness.",
+      "exampleVi": "Các nhà dịch tễ học đã tìm thấy mối tương quan thuận mạnh mẽ giữa hút thuốc và bệnh phổi.",
+      "usageContext": "Statistics and health sciences.",
+      "level": "B2",
+      "synonyms": [
+        "association",
+        "link"
+      ],
+      "antonyms": [
+        "independence"
+      ]
+    },
+    {
+      "word": "deduction",
+      "ipa": "/dɪˈdʌkʃn/",
+      "meaningEn": "the inference of particular instances by reference to a general law",
+      "meaningVi": "sự suy diễn, khấu trừ",
+      "exampleSentence": "Sherlock Holmes' method relied on scientific deduction rather than speculation.",
+      "exampleVi": "Phương pháp của Sherlock Holmes dựa vào sự suy diễn khoa học hơn là suy đoán.",
+      "usageContext": "Logic and mathematics.",
+      "level": "B2",
+      "synonyms": [
+        "inference",
+        "reasoning"
+      ],
+      "antonyms": [
+        "induction"
+      ]
+    },
+    {
+      "word": "demonstrate",
+      "ipa": "/ˈdemənstreɪt/",
+      "meaningEn": "to clearly show the existence or truth of something",
+      "meaningVi": "chứng minh, minh họa",
+      "exampleSentence": "The laboratory trials demonstrate the therapeutic efficacy of the novel compound.",
+      "exampleVi": "Các thử nghiệm trong phòng thí nghiệm chứng minh hiệu quả điều trị của hợp chất mới.",
+      "usageContext": "Scientific publishing.",
+      "level": "B2",
+      "synonyms": [
+        "prove",
+        "manifest"
+      ],
+      "antonyms": [
+        "disprove",
+        "conceal"
+      ]
+    },
+    {
+      "word": "differentiation",
+      "ipa": "/ˌdɪfəˌrenʃiˈeɪʃn/",
+      "meaningEn": "the action or process of distinguishing between things",
+      "meaningVi": "sự phân biệt, sự biệt hóa",
+      "exampleSentence": "Stem cell differentiation produces diverse specialized cellular lineages.",
+      "exampleVi": "Sự biệt hóa tế bào gốc tạo ra các dòng tế bào chuyên biệt đa dạng.",
+      "usageContext": "Cellular biology.",
+      "level": "C1",
+      "synonyms": [
+        "distinction",
+        "specialization"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "dimension",
+      "ipa": "/daɪˈmenʃn/",
+      "meaningEn": "a measurable extent of a particular kind, like length or breadth",
+      "meaningVi": "chiều, kích thước, khía cạnh",
+      "exampleSentence": "The sociological survey examined both cultural and socioeconomic dimensions of poverty.",
+      "exampleVi": "Khảo sát xã hội học đã xem xét cả các khía cạnh văn hóa và kinh tế xã hội của sự nghèo đói.",
+      "usageContext": "Mathematics and sociology.",
+      "level": "B2",
+      "synonyms": [
+        "aspect",
+        "facet"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "discretion",
+      "ipa": "/dɪˈskreʃn/",
+      "meaningEn": "the freedom to decide what should be done in a particular situation",
+      "meaningVi": "sự thận trọng, quyền tự quyết",
+      "exampleSentence": "Judges are granted substantial legal discretion when imposing sentencing guidelines.",
+      "exampleVi": "Các thẩm phán được trao quyền tự quyết pháp lý đáng kể khi áp dụng các hướng dẫn tuyên án.",
+      "usageContext": "Law and jurisprudence.",
+      "level": "C1",
+      "synonyms": [
+        "prudence",
+        "latitude"
+      ],
+      "antonyms": [
+        "compulsion"
+      ]
+    },
+    {
+      "word": "distinction",
+      "ipa": "/dɪˈstɪŋkʃn/",
+      "meaningEn": "a difference or contrast between similar things or people",
+      "meaningVi": "sự phân biệt, nét độc đáo",
+      "exampleSentence": "Philosophers maintain an imperative distinction between moral duty and legal obligation.",
+      "exampleVi": "Các nhà triết học duy trì sự phân biệt bắt buộc giữa nghĩa vụ đạo đức và nghĩa vụ pháp lý.",
+      "usageContext": "Ethics and logic.",
+      "level": "B2",
+      "synonyms": [
+        "difference",
+        "differentiation"
+      ],
+      "antonyms": [
+        "similarity",
+        "resemblance"
+      ]
+    },
+    {
+      "word": "distribution",
+      "ipa": "/ˌdɪstrɪˈbjuːʃn/",
+      "meaningEn": "the way in which something is shared out among a group",
+      "meaningVi": "sự phân phối, phân bố",
+      "exampleSentence": "Ecologists mapped the geographic distribution of endemic reptilian species.",
+      "exampleVi": "Các nhà sinh thái học đã lập bản đồ phân bố địa lý của các loài bò sát bản địa.",
+      "usageContext": "Ecology and statistics.",
+      "level": "B2",
+      "synonyms": [
+        "allocation",
+        "dispersion"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "diverse",
+      "ipa": "/daɪˈvɜːrs/",
+      "meaningEn": "showing a great deal of variety; very different",
+      "meaningVi": "đa dạng, phong phú",
+      "exampleSentence": "Tropical coral reefs shelter exceptionally diverse marine organism communities.",
+      "exampleVi": "Các rạn san hô nhiệt đới che chở cho các cộng đồng sinh vật biển đặc biệt đa dạng.",
+      "usageContext": "Marine biology.",
+      "level": "B2",
+      "synonyms": [
+        "varied",
+        "heterogeneous"
+      ],
+      "antonyms": [
+        "uniform",
+        "homogenous"
+      ]
+    },
+    {
+      "word": "documentation",
+      "ipa": "/ˌdɑːkjumenˈteɪʃn/",
+      "meaningEn": "material that provides official information or evidence",
+      "meaningVi": "tài liệu chứng minh, tư liệu",
+      "exampleSentence": "Archaeologists prepared thorough photographic documentation of the cave engravings.",
+      "exampleVi": "Các nhà khảo cổ học đã chuẩn bị tài liệu chụp ảnh kỹ lưỡng về các bản khắc trong hang động.",
+      "usageContext": "Archaeology and archiving.",
+      "level": "B2",
+      "synonyms": [
+        "records",
+        "evidence"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "domain",
+      "ipa": "/doʊˈmeɪn/",
+      "meaningEn": "an area of territory, thought or activity owned or controlled",
+      "meaningVi": "lĩnh vực, lãnh địa",
+      "exampleSentence": "Quantum electrodynamics represents a highly specialized domain within modern physics.",
+      "exampleVi": "Điện động lực học lượng tử đại diện cho một lĩnh vực chuyên môn hóa cao trong vật lý hiện đại.",
+      "usageContext": "Physics and computer science.",
+      "level": "C1",
+      "synonyms": [
+        "field",
+        "realm"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "dynamic",
+      "ipa": "/daɪˈnæmɪk/",
+      "meaningEn": "characterized by constant change, activity, or progress",
+      "meaningVi": "năng động, sôi nổi, biến đổi",
+      "exampleSentence": "Estuarine wetlands are ecologically dynamic zones influenced by ocean tides.",
+      "exampleVi": "Các vùng đất ngập nước cửa sông là những vùng biến đổi năng động về mặt sinh thái chịu ảnh hưởng của thủy triều đại dương.",
+      "usageContext": "Ecology and systems theory.",
+      "level": "B2",
+      "synonyms": [
+        "active",
+        "evolving"
+      ],
+      "antonyms": [
+        "static",
+        "stagnant"
+      ]
+    },
+    {
+      "word": "eliminate",
+      "ipa": "/ɪˈlɪmɪneɪt/",
+      "meaningEn": "to remove completely from consideration or existence",
+      "meaningVi": "loại bỏ, loại trừ",
+      "exampleSentence": "Modern water purification plants eliminate hazardous biological pathogens.",
+      "exampleVi": "Các nhà máy lọc nước hiện đại loại bỏ các mầm bệnh sinh học nguy hiểm.",
+      "usageContext": "Environmental engineering.",
+      "level": "B1",
+      "synonyms": [
+        "eradicate",
+        "exclude"
+      ],
+      "antonyms": [
+        "introduce"
+      ]
+    },
+    {
+      "word": "emphasis",
+      "ipa": "/ˈemfəsɪs/",
+      "meaningEn": "special importance, value, or prominence given to something",
+      "meaningVi": "sự nhấn mạnh, tầm quan trọng",
+      "exampleSentence": "The revised curriculum places greater pedagogical emphasis on critical analytical skills.",
+      "exampleVi": "Chương trình giảng dạy sửa đổi đặt trọng tâm sư phạm lớn hơn vào các kỹ năng phân tích phản biện.",
+      "usageContext": "Education and pedagogy.",
+      "level": "B2",
+      "synonyms": [
+        "priority",
+        "stress"
+      ],
+      "antonyms": [
+        "trivialization"
+      ]
+    },
+    {
+      "word": "empirical",
+      "ipa": "/ɪmˈpɪrɪkl/",
+      "meaningEn": "verifiable by observation or experience rather than theory",
+      "meaningVi": "thực nghiệm",
+      "exampleSentence": "Sociological theories must be grounded in reliable empirical data.",
+      "exampleVi": "Các lý thuyết xã hội học phải dựa trên dữ liệu thực nghiệm đáng tin cậy.",
+      "usageContext": "Social sciences.",
+      "level": "C1",
+      "synonyms": [
+        "experimental",
+        "practical"
+      ],
+      "antonyms": [
+        "speculative"
+      ]
+    },
+    {
+      "word": "encounter",
+      "ipa": "/ɪnˈkaʊntər/",
+      "meaningEn": "to experience or be faced with something unexpected",
+      "meaningVi": "chạm trán, bắt gặp",
+      "exampleSentence": "Explorers in polar territories often encounter extreme atmospheric squalls.",
+      "exampleVi": "Các nhà thám hiểm ở các vùng cực thường bắt gặp những cơn gió bão khí quyển cực đoan.",
+      "usageContext": "Geography and field science.",
+      "level": "B2",
+      "synonyms": [
+        "confront",
+        "face"
+      ],
+      "antonyms": [
+        "avoid"
+      ]
+    },
+    {
+      "word": "enhancement",
+      "ipa": "/ɪnˈhænsmənt/",
+      "meaningEn": "an increase or improvement in quality, value, or extent",
+      "meaningVi": "sự nâng cao, cải thiện",
+      "exampleSentence": "Software developers released performance enhancements to optimize computation speed.",
+      "exampleVi": "Các nhà phát triển phần mềm đã phát hành các bản nâng cao hiệu suất để tối ưu hóa tốc độ tính toán.",
+      "usageContext": "Computer science.",
+      "level": "B2",
+      "synonyms": [
+        "improvement",
+        "upgrade"
+      ],
+      "antonyms": [
+        "degradation"
+      ]
+    },
+    {
+      "word": "equivalent",
+      "ipa": "/ɪˈkwɪvələnt/",
+      "meaningEn": "equal in value, amount, function, or meaning",
+      "meaningVi": "tương đương",
+      "exampleSentence": "Ten millimeters on this topographical map is equivalent to one kilometer.",
+      "exampleVi": "Mười milimét trên bản đồ địa hình này tương đương với một kilômét.",
+      "usageContext": "Cartography and mathematics.",
+      "level": "B2",
+      "synonyms": [
+        "equal",
+        "comparable"
+      ],
+      "antonyms": [
+        "disparate",
+        "unequal"
+      ]
+    },
+    {
+      "word": "evaluation",
+      "ipa": "/ɪˌvæljuˈeɪʃn/",
+      "meaningEn": "the making of a judgment about the amount or value of something",
+      "meaningVi": "sự đánh giá, thẩm định",
+      "exampleSentence": "Peer evaluation is a cornerstone requirement of reputable academic publishing.",
+      "exampleVi": "Đánh giá ngang hàng là một yêu cầu nền tảng của các xuất bản học thuật có uy tín.",
+      "usageContext": "Academic ethics.",
+      "level": "B2",
+      "synonyms": [
+        "appraisal",
+        "assessment"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "evident",
+      "ipa": "/ˈevɪdənt/",
+      "meaningEn": "plain or obvious; clearly seen or understood",
+      "meaningVi": "rõ ràng, hiển nhiên",
+      "exampleSentence": "The environmental degradation of the estuary was painfully evident to researchers.",
+      "exampleVi": "Sự suy thoái môi trường của cửa sông đã hiển hiện một cách đau xót đối với các nhà nghiên cứu.",
+      "usageContext": "Ecology and observation.",
+      "level": "B2",
+      "synonyms": [
+        "manifest",
+        "obvious"
+      ],
+      "antonyms": [
+        "hidden",
+        "obscure"
+      ]
+    },
+    {
+      "word": "expansion",
+      "ipa": "/ɪkˈspænʃn/",
+      "meaningEn": "the action of becoming larger or more extensive",
+      "meaningVi": "sự mở rộng, bành trướng",
+      "exampleSentence": "The university funded the spatial expansion of its high-performance computer lab.",
+      "exampleVi": "Trường đại học đã tài trợ cho việc mở rộng không gian phòng máy tính hiệu năng cao.",
+      "usageContext": "Campus infrastructure.",
+      "level": "B2",
+      "synonyms": [
+        "enlargement",
+        "growth"
+      ],
+      "antonyms": [
+        "contraction",
+        "shrinkage"
+      ]
+    },
+    {
+      "word": "exposure",
+      "ipa": "/ɪkˈspoʊʒər/",
+      "meaningEn": "the state of being uncovered or unprotected from environmental factors",
+      "meaningVi": "sự tiếp xúc, phơi bày",
+      "exampleSentence": "Prolonged dermal exposure to ultraviolet rays elevates biological mutation risks.",
+      "exampleVi": "Việc da tiếp xúc kéo dài với tia cực tím làm tăng nguy cơ đột biến sinh học.",
+      "usageContext": "Dermatology and oncology.",
+      "level": "B2",
+      "synonyms": [
+        "contact",
+        "uncovering"
+      ],
+      "antonyms": [
+        "protection",
+        "shelter"
+      ]
+    },
+    {
+      "word": "facilitate",
+      "ipa": "/fəˈsɪlɪteɪt/",
+      "meaningEn": "to make an action or process easy or easier",
+      "meaningVi": "tạo điều kiện, làm cho dễ dàng",
+      "exampleSentence": "Digitized archival databases facilitate rapid global academic cross-referencing.",
+      "exampleVi": "Các cơ sở dữ liệu lưu trữ số hóa tạo điều kiện cho việc đối chiếu học thuật toàn cầu nhanh chóng.",
+      "usageContext": "Information science.",
+      "level": "B2",
+      "synonyms": [
+        "expedite",
+        "ease"
+      ],
+      "antonyms": [
+        "obstruct",
+        "impede"
+      ]
+    },
+    {
+      "word": "fluctuation",
+      "ipa": "/ˌflʌktʃuˈeɪʃn/",
+      "meaningEn": "an irregular rising and falling in number or amount",
+      "meaningVi": "sự biến động, dao động",
+      "exampleSentence": "Sensors recorded sharp thermal fluctuations in the volcanic geothermal vent.",
+      "exampleVi": "Các cảm biến ghi nhận sự biến động nhiệt mạnh mẽ trong miệng thông địa nhiệt núi lửa.",
+      "usageContext": "Geophysics.",
+      "level": "B2",
+      "synonyms": [
+        "variation",
+        "oscillation"
+      ],
+      "antonyms": [
+        "stability"
+      ]
+    },
+    {
+      "word": "framework",
+      "ipa": "/ˈfreɪmwɜːrk/",
+      "meaningEn": "an essential supporting structure of a building or system",
+      "meaningVi": "khung, khuôn khổ",
+      "exampleSentence": "The sociologist developed a theoretical framework to analyze urban migration.",
+      "exampleVi": "Nhà xã hội học đã phát triển một khung lý thuyết để phân tích sự di cư đô thị.",
+      "usageContext": "Sociology and research design.",
+      "level": "B2",
+      "synonyms": [
+        "structure",
+        "schema"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "fundamental",
+      "ipa": "/ˌfʌndəˈmentl/",
+      "meaningEn": "serving as an original or generating source; basic",
+      "meaningVi": "cơ bản, trọng yếu",
+      "exampleSentence": "Understanding genetics is fundamental to comprehending evolutionary anthropology.",
+      "exampleVi": "Hiểu biết về di truyền học là điều cơ bản để nắm bắt nhân học tiến hóa.",
+      "usageContext": "Anthropology.",
+      "level": "B2",
+      "synonyms": [
+        "primary",
+        "cardinal"
+      ],
+      "antonyms": [
+        "auxiliary"
+      ]
+    },
+    {
+      "word": "generation",
+      "ipa": "/ˌdʒenəˈreɪʃn/",
+      "meaningEn": "the production of heat, electricity or living beings",
+      "meaningVi": "sự sản xuất, thế hệ",
+      "exampleSentence": "Hydraulic turbines harness gravitational water flow for electricity generation.",
+      "exampleVi": "Tua bin thủy lực khai thác dòng nước hấp dẫn để sản xuất điện năng.",
+      "usageContext": "Energy physics.",
+      "level": "B2",
+      "synonyms": [
+        "production",
+        "creation"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "global",
+      "ipa": "/ˈɡloʊbl/",
+      "meaningEn": "relating to the whole world; worldwide",
+      "meaningVi": "toàn cầu, toàn thể",
+      "exampleSentence": "Ocean currents constitute a vital regulatory mechanism for global climate patterns.",
+      "exampleVi": "Các dòng hải lưu cấu thành một cơ chế điều hòa quan trọng cho các hình thái khí hậu toàn cầu.",
+      "usageContext": "Oceanography.",
+      "level": "B1",
+      "synonyms": [
+        "worldwide",
+        "universal"
+      ],
+      "antonyms": [
+        "local",
+        "regional"
+      ]
+    },
+    {
+      "word": "hierarchy",
+      "ipa": "/ˈhaɪərɑːrki/",
+      "meaningEn": "an arrangement or classification of things according to relative importance",
+      "meaningVi": "hệ thống tôn ti trật tự",
+      "exampleSentence": "Linguists arrange phonetic elements into a structural phonological hierarchy.",
+      "exampleVi": "Các nhà ngôn ngữ học sắp xếp các yếu tố ngữ âm vào một hệ thống phân cấp âm vị học có cấu trúc.",
+      "usageContext": "Linguistics.",
+      "level": "C1",
+      "synonyms": [
+        "ranking",
+        "ordering"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɑːθəsɪs/",
+      "meaningEn": "a tentative explanation that can be tested by scientific investigation",
+      "meaningVi": "giả thuyết khoa học",
+      "exampleSentence": "Investigators tested the hypothesis that nocturnal predators rely predominantly on auditory cues.",
+      "exampleVi": "Các nhà điều tra đã kiểm tra giả thuyết rằng những kẻ săn mồi ban đêm dựa chủ yếu vào các tín hiệu thính giác.",
+      "usageContext": "Scientific testing.",
+      "level": "B2",
+      "synonyms": [
+        "theory",
+        "premise"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "identical",
+      "ipa": "/aɪˈdentɪkl/",
+      "meaningEn": "similar in every detail; exactly alike",
+      "meaningVi": "giống hệt nhau, đồng nhất",
+      "exampleSentence": "Cloned biological organisms possess virtually identical chromosomal DNA sequences.",
+      "exampleVi": "Các sinh vật sinh học nhân bản vô tính sở hữu các trình tự DNA nhiễm sắc thể gần như giống hệt nhau.",
+      "usageContext": "Genetics.",
+      "level": "B1",
+      "synonyms": [
+        "matching",
+        "congruent"
+      ],
+      "antonyms": [
+        "different",
+        "disparate"
+      ]
+    },
+    {
+      "word": "identification",
+      "ipa": "/aɪˌdentɪfɪˈkeɪʃn/",
+      "meaningEn": "the action or process of recognizing or establishing identity",
+      "meaningVi": "sự nhận dạng, xác thực",
+      "exampleSentence": "Forensic identification of prehistoric skeletal remains often relies on dental analysis.",
+      "exampleVi": "Việc nhận dạng pháp y hài cốt thời tiền sử thường dựa vào phân tích răng.",
+      "usageContext": "Forensics and archaeology.",
+      "level": "B2",
+      "synonyms": [
+        "recognition",
+        "verification"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "illustration",
+      "ipa": "/ˌɪləˈstreɪʃn/",
+      "meaningEn": "an example or visual serving to clarify or prove something",
+      "meaningVi": "hình minh họa, sự làm sáng tỏ",
+      "exampleSentence": "The lecturer presented an architectural model as an illustration of geometric symmetry.",
+      "exampleVi": "Giảng viên đã trình bày một mô hình kiến trúc như một minh họa về tính đối xứng hình học.",
+      "usageContext": "Lectures and pedagogy.",
+      "level": "B1",
+      "synonyms": [
+        "demonstration",
+        "example"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "impact",
+      "ipa": "/ˈɪmpækt/",
+      "meaningEn": "the striking of one body against another; a marked effect",
+      "meaningVi": "tác động, ảnh hưởng mạnh mẽ",
+      "exampleSentence": "Asteroid impact theories provide persuasive explanations for ancient mass extinctions.",
+      "exampleVi": "Các lý thuyết về tác động của tiểu hành tinh mang lại những lời giải thích thuyết phục về các cuộc tuyệt chủng hàng loạt thời cổ đại.",
+      "usageContext": "Geology and paleontology.",
+      "level": "B2",
+      "synonyms": [
+        "effect",
+        "consequence"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "implementation",
+      "ipa": "/ˌɪmplɪmenˈteɪʃn/",
+      "meaningEn": "the process of putting a decision or plan into effect",
+      "meaningVi": "sự triển khai, thực thi",
+      "exampleSentence": "The municipal council oversaw the implementation of automated public transit lanes.",
+      "exampleVi": "Hội đồng thành phố đã giám sát việc triển khai các làn đường dành riêng cho phương tiện giao thông công cộng tự động.",
+      "usageContext": "Urban planning.",
+      "level": "B2",
+      "synonyms": [
+        "execution",
+        "application"
+      ],
+      "antonyms": [
+        "abandonment"
+      ]
+    },
+    {
+      "word": "implication",
+      "ipa": "/ˌɪmplɪˈkeɪʃn/",
+      "meaningEn": "the conclusion that can be drawn from something although it is not explicitly stated",
+      "meaningVi": "hàm ý, ý nghĩa ngụ ý",
+      "exampleSentence": "The study's conclusions carry serious policy implications for marine conservation.",
+      "exampleVi": "Các kết luận của nghiên cứu mang lại những hàm ý chính sách nghiêm túc đối với việc bảo tồn biển.",
+      "usageContext": "Academic research.",
+      "level": "B2",
+      "synonyms": [
+        "ramification",
+        "consequence"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "incidence",
+      "ipa": "/ˈɪnsɪdəns/",
+      "meaningEn": "the occurrence, rate, or frequency of a disease or crime",
+      "meaningVi": "tỷ lệ mắc, tần suất xảy ra",
+      "exampleSentence": "Epidemiological monitoring confirmed a declining incidence of waterborne illnesses.",
+      "exampleVi": "Giám sát dịch tễ học đã xác nhận tỷ lệ mắc các bệnh lây truyền qua đường nước đang giảm.",
+      "usageContext": "Epidemiology.",
+      "level": "C1",
+      "synonyms": [
+        "frequency",
+        "rate"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "incline",
+      "ipa": "/ɪnˈklaɪn/",
+      "meaningEn": "to lean or turn away from a given direction or plane",
+      "meaningVi": "có khuynh hướng, nghiêng",
+      "exampleSentence": "Researchers incline toward genetic explanations when environmental variables remain uniform.",
+      "exampleVi": "Các nhà nghiên cứu có khuynh hướng nghiêng về các lời giải thích di truyền khi các biến số môi trường duy trì tính đồng nhất.",
+      "usageContext": "Logic and hypothesis testing.",
+      "level": "B2",
+      "synonyms": [
+        "tend",
+        "lean"
+      ],
+      "antonyms": [
+        "dissuade"
+      ]
+    },
+    {
+      "word": "incorporate",
+      "ipa": "/ɪnˈkɔːrpəreɪt/",
+      "meaningEn": "to take in or contain something as part of a whole",
+      "meaningVi": "kết hợp, sáp nhập",
+      "exampleSentence": "Modern civil architectural designs incorporate passive solar energy heating.",
+      "exampleVi": "Các thiết kế kiến trúc dân dụng hiện đại kết hợp hệ thống sưởi ấm bằng năng lượng mặt trời thụ động.",
+      "usageContext": "Architecture.",
+      "level": "B2",
+      "synonyms": [
+        "integrate",
+        "include"
+      ],
+      "antonyms": [
+        "exclude",
+        "separate"
+      ]
+    },
+    {
+      "word": "indicate",
+      "ipa": "/ˈɪndɪkeɪt/",
+      "meaningEn": "to point out or show evidence of something",
+      "meaningVi": "chỉ ra, biểu thị",
+      "exampleSentence": "Fossilized tree rings indicate centuries of prolonged regional droughts.",
+      "exampleVi": "Các vòng tròn trên thân cây hóa thạch chỉ ra nhiều thế kỷ hạn hán kéo dài trong khu vực.",
+      "usageContext": "Paleoclimatology.",
+      "level": "B1",
+      "synonyms": [
+        "demonstrate",
+        "signify"
+      ],
+      "antonyms": [
+        "conceal"
+      ]
+    },
+    {
+      "word": "individual",
+      "ipa": "/ˌɪndɪˈvɪdʒuəl/",
+      "meaningEn": "single; separate; distinguished from others",
+      "meaningVi": "cá nhân, riêng lẻ",
+      "exampleSentence": "Marine biologists tracked the migratory route of an individual female humpback whale.",
+      "exampleVi": "Các nhà sinh học biển đã theo dõi lộ trình di cư của một cá thể cá voi lưng gù cái riêng lẻ.",
+      "usageContext": "Zoology.",
+      "level": "B1",
+      "synonyms": [
+        "particular",
+        "discrete"
+      ],
+      "antonyms": [
+        "collective",
+        "group"
+      ]
+    },
+    {
+      "word": "inevitable",
+      "ipa": "/ɪnˈevɪtəbl/",
+      "meaningEn": "certain to occur; unable to be avoided",
+      "meaningVi": "không thể tránh khỏi",
+      "exampleSentence": "Mechanical friction inevitably generates thermal dissipation in kinetic engines.",
+      "exampleVi": "Ma sát cơ học chắc chắn tạo ra sự tiêu tán nhiệt trong các động cơ động lực học.",
+      "usageContext": "Physics.",
+      "level": "B2",
+      "synonyms": [
+        "unavoidable",
+        "certain"
+      ],
+      "antonyms": [
+        "escapable"
+      ]
+    },
+    {
+      "word": "inferred",
+      "ipa": "/ɪnˈfɜːrd/",
+      "meaningEn": "deduced or concluded from evidence and reasoning",
+      "meaningVi": "được suy ra, kết luận từ bằng chứng",
+      "exampleSentence": "The prehistoric animal's dietary habits were inferred from microscopic tooth wear.",
+      "exampleVi": "Thói quen ăn uống của loài động vật thời tiền sử đã được suy ra từ sự mòn răng hiển vi.",
+      "usageContext": "Paleontology.",
+      "level": "B2",
+      "synonyms": [
+        "deduced",
+        "concluded"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "inherent",
+      "ipa": "/ɪnˈhɪrənt/",
+      "meaningEn": "existing in something as a permanent, essential attribute",
+      "meaningVi": "vốn có, cố hữu",
+      "exampleSentence": "Exploration of uncharted subterranean caverns entails inherent physical risks.",
+      "exampleVi": "Việc thám hiểm các hang động ngầm chưa được khám phá tiềm ẩn những rủi ro thể chất cố hữu.",
+      "usageContext": "Speleology and geology.",
+      "level": "C1",
+      "synonyms": [
+        "intrinsic",
+        "innate"
+      ],
+      "antonyms": [
+        "acquired",
+        "external"
+      ]
+    },
+    {
+      "word": "inhibition",
+      "ipa": "/ˌɪnhɪˈbɪʃn/",
+      "meaningEn": "a feeling that makes one self-conscious and unable to act naturally; restraint",
+      "meaningVi": "sự kìm chế, ức chế",
+      "exampleSentence": "Neural transmission inhibition regulates excessive reflex excitability.",
+      "exampleVi": "Sự ức chế dẫn truyền thần kinh điều chỉnh tính hưng phấn phản xạ quá mức.",
+      "usageContext": "Neuroscience.",
+      "level": "C1",
+      "synonyms": [
+        "restraint",
+        "hindrance"
+      ],
+      "antonyms": [
+        "stimulation"
+      ]
+    },
+    {
+      "word": "initial",
+      "ipa": "/ɪˈnɪʃl/",
+      "meaningEn": "occurring at the beginning of a process",
+      "meaningVi": "ban đầu",
+      "exampleSentence": "The initial spectroscopic reading revealed high concentrations of sulfur dioxide.",
+      "exampleVi": "Chỉ số quang phổ ban đầu đã tiết lộ nồng độ sulfur dioxide cao.",
+      "usageContext": "Volcanology.",
+      "level": "B1",
+      "synonyms": [
+        "first",
+        "introductory"
+      ],
+      "antonyms": [
+        "concluding"
+      ]
+    },
+    {
+      "word": "innovation",
+      "ipa": "/ˌɪnəˈveɪʃn/",
+      "meaningEn": "a new method, idea, or product",
+      "meaningVi": "sáng kiến, sự đổi mới",
+      "exampleSentence": "The silicon semiconductor was a transformative technological innovation.",
+      "exampleVi": "Chất bán dẫn silicon là một sự đổi mới công nghệ mang tính chuyển đổi.",
+      "usageContext": "Technology history.",
+      "level": "B2",
+      "synonyms": [
+        "novelty",
+        "invention"
+      ],
+      "antonyms": [
+        "tradition"
+      ]
+    },
+    {
+      "word": "input",
+      "ipa": "/ˈɪnpʊt/",
+      "meaningEn": "what is put in, taken in, or operated on by any process or system",
+      "meaningVi": "đầu vào, dữ liệu nạp vào",
+      "exampleSentence": "Computational climate simulations require vast numerical atmospheric data input.",
+      "exampleVi": "Các mô phỏng khí hậu trên máy tính đòi hỏi lượng dữ liệu đầu vào khí quyển khổng lồ bằng số.",
+      "usageContext": "Computational physics.",
+      "level": "B1",
+      "synonyms": [
+        "contribution",
+        "intake"
+      ],
+      "antonyms": [
+        "output"
+      ]
+    },
+    {
+      "word": "insight",
+      "ipa": "/ˈɪnsaɪt/",
+      "meaningEn": "an accurate and deep understanding of a complex problem",
+      "meaningVi": "sự thấu hiểu sâu sắc",
+      "exampleSentence": "Genomic mapping gave researchers profound insight into rare hereditary diseases.",
+      "exampleVi": "Bản đồ bộ gen đã mang lại cho các nhà nghiên cứu cái nhìn sâu sắc về các bệnh di truyền hiếm gặp.",
+      "usageContext": "Genetics.",
+      "level": "B2",
+      "synonyms": [
+        "intuition",
+        "comprehension"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "instance",
+      "ipa": "/ˈɪnstəns/",
+      "meaningEn": "an example or single occurrence of something",
+      "meaningVi": "ví dụ, trường hợp",
+      "exampleSentence": "Historians documented numerous instances of barter exchange prior to minted currency.",
+      "exampleVi": "Các nhà sử học đã ghi lại nhiều trường hợp trao đổi hàng đổi hàng trước khi có tiền đúc.",
+      "usageContext": "Economic history.",
+      "level": "B2",
+      "synonyms": [
+        "example",
+        "occurrence"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "institute",
+      "ipa": "/ˈɪnstɪtuːt/",
+      "meaningEn": "an organization having a particular purpose; to introduce or set up",
+      "meaningVi": "viện, thành lập",
+      "exampleSentence": "The national research institute will institute stringent quality guidelines.",
+      "exampleVi": "Viện nghiên cứu quốc gia sẽ thành lập các hướng dẫn chất lượng nghiêm ngặt.",
+      "usageContext": "Academic policy.",
+      "level": "B2",
+      "synonyms": [
+        "organization",
+        "establish"
+      ],
+      "antonyms": [
+        "abolish"
+      ]
+    },
+    {
+      "word": "integral",
+      "ipa": "/ˈɪntɪɡrəl/",
+      "meaningEn": "necessary to make a whole complete; essential",
+      "meaningVi": "toàn vẹn, không thể thiếu",
+      "exampleSentence": "Water conservation is an integral component of sustainable agricultural policy.",
+      "exampleVi": "Bảo tồn nguồn nước là một bộ phận không thể thiếu của chính sách nông nghiệp bền vững.",
+      "usageContext": "Environmental policy.",
+      "level": "B2",
+      "synonyms": [
+        "essential",
+        "fundamental"
+      ],
+      "antonyms": [
+        "peripheral"
+      ]
+    },
+    {
+      "word": "integration",
+      "ipa": "/ˌɪntɪˈɡreɪʃn/",
+      "meaningEn": "the action or process of combining several things into a whole",
+      "meaningVi": "sự tích hợp, hội nhập",
+      "exampleSentence": "Economic integration across neighboring nations fosters international trade equilibrium.",
+      "exampleVi": "Sự hội nhập kinh tế giữa các quốc gia láng giềng thúc đẩy sự cân bằng thương mại quốc tế.",
+      "usageContext": "Macroeconomics.",
+      "level": "B2",
+      "synonyms": [
+        "incorporation",
+        "amalgamation"
+      ],
+      "antonyms": [
+        "separation",
+        "segregation"
+      ]
+    },
+    {
+      "word": "intelligence",
+      "ipa": "/ɪnˈtelɪdʒəns/",
+      "meaningEn": "the ability to acquire and apply knowledge and skills",
+      "meaningVi": "trí tuệ, sự thông minh",
+      "exampleSentence": "Cetaceans demonstrate sophisticated social intelligence through collaborative hunting.",
+      "exampleVi": "Các loài cá voi và cá heo thể hiện trí thông minh xã hội phức tạp thông qua việc săn mồi phối hợp.",
+      "usageContext": "Ethology.",
+      "level": "B1",
+      "synonyms": [
+        "intellect",
+        "acumen"
+      ],
+      "antonyms": [
+        "ignorance"
+      ]
+    },
+    {
+      "word": "interaction",
+      "ipa": "/ˌɪntərˈækʃn/",
+      "meaningEn": "reciprocal action or influence between entities",
+      "meaningVi": "sự tương tác",
+      "exampleSentence": "The dynamic chemical interaction between catalyst and reactant speeds the synthesis.",
+      "exampleVi": "Sự tương tác hóa học động giữa chất xúc tác và chất phản ứng làm tăng tốc độ tổng hợp.",
+      "usageContext": "Chemistry.",
+      "level": "B2",
+      "synonyms": [
+        "interplay",
+        "communication"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "intermediate",
+      "ipa": "/ˌɪntərˈmiːdiət/",
+      "meaningEn": "coming between two things in time, place, order, or character",
+      "meaningVi": "trung cấp, trung gian",
+      "exampleSentence": "The sediment deposit represents an intermediate stage in sedimentary rock formation.",
+      "exampleVi": "Lớp trầm tích đại diện cho một giai đoạn trung gian trong quá trình hình thành đá trầm tích.",
+      "usageContext": "Geology.",
+      "level": "B1",
+      "synonyms": [
+        "middle",
+        "transitional"
+      ],
+      "antonyms": [
+        "extreme",
+        "final"
+      ]
+    },
+    {
+      "word": "internal",
+      "ipa": "/ɪnˈtɜːrnl/",
+      "meaningEn": "of or situated on the inside",
+      "meaningVi": "bên trong, nội bộ",
+      "exampleSentence": "Endocrine glands regulate internal bodily homeostasis through hormone secretion.",
+      "exampleVi": "Các tuyến nội tiết điều hòa trạng thái cân bằng nội môi bên trong cơ thể thông qua bài tiết hormone.",
+      "usageContext": "Physiology.",
+      "level": "B2",
+      "synonyms": [
+        "interior",
+        "inward"
+      ],
+      "antonyms": [
+        "external"
+      ]
+    },
+    {
+      "word": "interpretation",
+      "ipa": "/ɪnˌtɜːrprəˈteɪʃn/",
+      "meaningEn": "the action of explaining the meaning of something",
+      "meaningVi": "sự giải thích, phiên giải",
+      "exampleSentence": "Historical interpretation evolves as previously undiscovered diplomatic correspondence surfaces.",
+      "exampleVi": "Sự giải thích lịch sử phát triển khi các bức thư ngoại giao chưa được phát hiện trước đây xuất hiện.",
+      "usageContext": "Historiography.",
+      "level": "B2",
+      "synonyms": [
+        "explanation",
+        "explication"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "intervention",
+      "ipa": "/ˌɪntərˈvenʃn/",
+      "meaningEn": "action taken to improve a situation, especially a medical or diplomatic one",
+      "meaningVi": "sự can thiệp",
+      "exampleSentence": "Prompt veterinary intervention saved the endangered bird from secondary infection.",
+      "exampleVi": "Sự can thiệp thú y kịp thời đã cứu loài chim có nguy cơ tuyệt chủng khỏi bị nhiễm trùng thứ cấp.",
+      "usageContext": "Conservation medicine.",
+      "level": "B2",
+      "synonyms": [
+        "intercession",
+        "interference"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "intrinsic",
+      "ipa": "/ɪnˈtrɪnzɪk/",
+      "meaningEn": "belonging naturally to something; essential",
+      "meaningVi": "nội tại, thuộc về bản chất",
+      "exampleSentence": "Curiosity is an intrinsic motivator for scientific discovery and theoretical exploration.",
+      "exampleVi": "Sự tò mò là một động lực nội tại thúc đẩy khám phá khoa học và tìm tòi lý thuyết.",
+      "usageContext": "Psychology.",
+      "level": "C1",
+      "synonyms": [
+        "innate",
+        "inherent"
+      ],
+      "antonyms": [
+        "extrinsic"
+      ]
+    },
+    {
+      "word": "investigation",
+      "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+      "meaningEn": "a formal inquiry or systematic examination",
+      "meaningVi": "cuộc điều tra, nghiên cứu",
+      "exampleSentence": "The seismic investigation pinpointed the tectonic epicenter deep below the crust.",
+      "exampleVi": "Cuộc điều tra địa chấn đã xác định chính xác tâm chấn kiến tạo sâu bên dưới lớp vỏ trái đất.",
+      "usageContext": "Seismology.",
+      "level": "B2",
+      "synonyms": [
+        "inquiry",
+        "examination"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "isolation",
+      "ipa": "/ˌaɪsəˈleɪʃn/",
+      "meaningEn": "the state of being in a place or situation that is separate from others",
+      "meaningVi": "sự cô lập, cách ly",
+      "exampleSentence": "Geographic isolation often leads to rapid evolutionary speciation in island ecosystems.",
+      "exampleVi": "Sự cô lập về mặt địa lý thường dẫn đến sự hình thành loài tiến hóa nhanh chóng trong các hệ sinh thái đảo.",
+      "usageContext": "Biogeography.",
+      "level": "B2",
+      "synonyms": [
+        "separation",
+        "seclusion"
+      ],
+      "antonyms": [
+        "integration",
+        "connectivity"
+      ]
+    },
+    {
+      "word": "justification",
+      "ipa": "/ˌdʒʌstɪfɪˈkeɪʃn/",
+      "meaningEn": "the action of showing something to be right or reasonable",
+      "meaningVi": "sự biện minh, lý do chính đáng",
+      "exampleSentence": "The report offered empirical justification for increasing funding to marine sanctuaries.",
+      "exampleVi": "Báo cáo đã đưa ra lý do chính đáng dựa trên thực nghiệm cho việc tăng kinh phí cho các khu bảo tồn biển.",
+      "usageContext": "Environmental policy.",
+      "level": "B2",
+      "synonyms": [
+        "defense",
+        "vindication"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "legislation",
+      "ipa": "/ˌledʒɪsˈleɪʃn/",
+      "meaningEn": "laws, considered collectively",
+      "meaningVi": "pháp luật, đạo luật",
+      "exampleSentence": "Environmental legislation mandates strict emission caps on coal-fired electrical generators.",
+      "exampleVi": "Pháp luật về môi trường quy định mức trần khí thải nghiêm ngặt đối với các máy phát điện đốt than.",
+      "usageContext": "Public law.",
+      "level": "B2",
+      "synonyms": [
+        "statutes",
+        "laws"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "manifestation",
+      "ipa": "/ˌmænɪfeˈsteɪʃn/",
+      "meaningEn": "an event, action, or object that clearly shows or embodies something",
+      "meaningVi": "sự biểu hiện, biểu hiện rõ nét",
+      "exampleSentence": "Aurora borealis displays are a visual manifestation of charged solar particles.",
+      "exampleVi": "Các màn trình diễn cực quang là một biểu hiện trực quan của các hạt mặt trời mang điện tích.",
+      "usageContext": "Atmospheric physics.",
+      "level": "C1",
+      "synonyms": [
+        "display",
+        "embodiment"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "manipulation",
+      "ipa": "/məˌnɪpjuˈleɪʃn/",
+      "meaningEn": "the action of manipulating something in a skillful or deceptive manner",
+      "meaningVi": "sự vận dụng, thao tác, thao túng",
+      "exampleSentence": "Genetic manipulation allows agronomists to produce drought-tolerant grain varieties.",
+      "exampleVi": "Sự thao tác gen cho phép các nhà nông học tạo ra các giống ngũ cốc chịu hạn.",
+      "usageContext": "Bioengineering.",
+      "level": "C1",
+      "synonyms": [
+        "handling",
+        "modification"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "marginal",
+      "ipa": "/ˈmɑːrdʒɪnl/",
+      "meaningEn": "of secondary or minor importance; not central",
+      "meaningVi": "nhỏ, không đáng kể, thứ yếu",
+      "exampleSentence": "The new insulation yielded only marginal reductions in household heating expenditure.",
+      "exampleVi": "Vật liệu cách nhiệt mới chỉ giúp giảm nhẹ không đáng kể chi phí sưởi ấm trong gia đình.",
+      "usageContext": "Building science.",
+      "level": "B2",
+      "synonyms": [
+        "minimal",
+        "slight"
+      ],
+      "antonyms": [
+        "significant",
+        "substantial"
+      ]
+    },
+    {
+      "word": "mechanism",
+      "ipa": "/ˈmekənɪzəm/",
+      "meaningEn": "a natural or established process by which something takes place",
+      "meaningVi": "cơ chế, phương thức",
+      "exampleSentence": "Enzymatic catalysis represents the biochemical mechanism governing metabolic breakdown.",
+      "exampleVi": "Xúc tác enzyme đại diện cho cơ chế sinh hóa chi phối sự phân hủy trao đổi chất.",
+      "usageContext": "Biochemistry.",
+      "level": "B2",
+      "synonyms": [
+        "process",
+        "system"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "methodology",
+      "ipa": "/ˌmeθəˈdɑːlədʒi/",
+      "meaningEn": "a system of methods used in a particular area of study or activity",
+      "meaningVi": "phương pháp luận",
+      "exampleSentence": "The dissertation outlined a mixed-method research methodology incorporating interviews.",
+      "exampleVi": "Luận án đã phác thảo một phương pháp luận nghiên cứu kết hợp bao gồm các cuộc phỏng vấn.",
+      "usageContext": "Research design.",
+      "level": "B2",
+      "synonyms": [
+        "methods",
+        "approach"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "migration",
+      "ipa": "/maɪˈɡreɪʃn/",
+      "meaningEn": "seasonal movement of animals from one region to another",
+      "meaningVi": "sự di cư",
+      "exampleSentence": "Satellite tags recorded the transatlantic migratory path of marine sea turtles.",
+      "exampleVi": "Thẻ vệ tinh đã ghi lại đường di cư xuyên Đại Tây Dương của rùa biển.",
+      "usageContext": "Marine zoology.",
+      "level": "B1",
+      "synonyms": [
+        "relocation",
+        "movement"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "modification",
+      "ipa": "/ˌmɑːdɪfɪˈkeɪʃn/",
+      "meaningEn": "the action of modifying something, or the result of such change",
+      "meaningVi": "sự sửa đổi, biến đổi",
+      "exampleSentence": "Behavioral modification enabled coastal raptors to forage in urban harbors.",
+      "exampleVi": "Sự biến đổi hành vi đã giúp các loài chim săn mồi ven biển kiếm ăn ở các bến cảng đô thị.",
+      "usageContext": "Animal behavior.",
+      "level": "B2",
+      "synonyms": [
+        "alteration",
+        "adjustment"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "monitoring",
+      "ipa": "/ˈmɑːnɪtərɪŋ/",
+      "meaningEn": "observing and checking the progress or quality of something over time",
+      "meaningVi": "sự giám sát, theo dõi",
+      "exampleSentence": "Continuous atmospheric monitoring detected airborne particulate spikes downwind of factories.",
+      "exampleVi": "Giám sát khí quyển liên tục đã phát hiện sự gia tăng đột biến của các hạt bụi trong không khí ở cuối hướng gió của các nhà máy.",
+      "usageContext": "Environmental health.",
+      "level": "B2",
+      "synonyms": [
+        "surveillance",
+        "observation"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "motivation",
+      "ipa": "/ˌmoʊtɪˈveɪʃn/",
+      "meaningEn": "the reason or reasons one has for acting or behaving in a particular way",
+      "meaningVi": "động lực, sự thúc đẩy",
+      "exampleSentence": "Intrinsic intellectual curiosity serves as primary motivation for pioneering scientific research.",
+      "exampleVi": "Sự tò mò trí tuệ nội tại đóng vai trò là động lực chính cho các nghiên cứu khoa học tiên phong.",
+      "usageContext": "Psychology.",
+      "level": "B1",
+      "synonyms": [
+        "incentive",
+        "drive"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "mutual",
+      "ipa": "/ˈmjuːtʃuəl/",
+      "meaningEn": "experienced or done by each of two or more parties toward the other",
+      "meaningVi": "lẫn nhau, hỗ tương",
+      "exampleSentence": "Clownfish and sea anemones engage in an ecologically beneficial mutual relationship.",
+      "exampleVi": "Cá hề và hải quỳ tham gia vào một mối quan hệ hỗ tương có lợi về mặt sinh thái.",
+      "usageContext": "Symbiosis and ecology.",
+      "level": "B2",
+      "synonyms": [
+        "reciprocal",
+        "shared"
+      ],
+      "antonyms": [
+        "one-sided"
+      ]
+    },
+    {
+      "word": "neutral",
+      "ipa": "/ˈnuːtrəl/",
+      "meaningEn": "not supporting or helping either side in a conflict; having pH 7",
+      "meaningVi": "trung tính, trung lập",
+      "exampleSentence": "Pure distilled water is chemical neutral with a hydrogen ion index of seven.",
+      "exampleVi": "Nước cất tinh khiết là chất trung tính về mặt hóa học với chỉ số ion hydro là 7.",
+      "usageContext": "Chemistry.",
+      "level": "B1",
+      "synonyms": [
+        "unbiased",
+        "balanced"
+      ],
+      "antonyms": [
+        "acidic",
+        "partisan"
+      ]
+    },
+    {
+      "word": "norm",
+      "ipa": "/nɔːrm/",
+      "meaningEn": "something that is usual, typical, or standard",
+      "meaningVi": "chuẩn mực, quy chuẩn",
+      "exampleSentence": "Collaborative lab teamwork has become the standard pedagogical norm in postgraduate science.",
+      "exampleVi": "Làm việc nhóm hợp tác trong phòng thí nghiệm đã trở thành chuẩn mực sư phạm tiêu chuẩn trong khoa học sau đại học.",
+      "usageContext": "Higher education.",
+      "level": "B2",
+      "synonyms": [
+        "standard",
+        "benchmark"
+      ],
+      "antonyms": [
+        "anomaly"
+      ]
+    },
+    {
+      "word": "objective",
+      "ipa": "/əbˈdʒektɪv/",
+      "meaningEn": "not influenced by personal feelings or opinions; a goal",
+      "meaningVi": "khách quan, mục tiêu",
+      "exampleSentence": "Scientists strive for objective measurement unclouded by theoretical preconceptions.",
+      "exampleVi": "Các nhà khoa học phấn đấu hướng tới phép đo khách quan không bị che mờ bởi những định kiến lý thuyết.",
+      "usageContext": "Philosophy of science.",
+      "level": "B2",
+      "synonyms": [
+        "impartial",
+        "target"
+      ],
+      "antonyms": [
+        "subjective",
+        "biased"
+      ]
+    },
+    {
+      "word": "observation",
+      "ipa": "/ˌɑːbzərˈveɪʃn/",
+      "meaningEn": "the action or process of closely monitoring something",
+      "meaningVi": "sự quan sát, theo dõi",
+      "exampleSentence": "Astronomical observation of celestial supernovas provided crucial cosmic expansion proof.",
+      "exampleVi": "Quan sát thiên văn về các siêu tân tinh thiên thể đã cung cấp bằng chứng mở rộng vũ trụ quan trọng.",
+      "usageContext": "Astronomy.",
+      "level": "B2",
+      "synonyms": [
+        "inspection",
+        "scrutiny"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "obtain",
+      "ipa": "/əbˈteɪn/",
+      "meaningEn": "to get, acquire, or secure something",
+      "meaningVi": "đạt được, thu được",
+      "exampleSentence": "Graduate researchers must obtain official institutional clearance prior to human trials.",
+      "exampleVi": "Các nhà nghiên cứu sau đại học phải có được sự chấp thuận chính thức của viện trước khi thử nghiệm trên người.",
+      "usageContext": "Research compliance.",
+      "level": "B1",
+      "synonyms": [
+        "acquire",
+        "procure"
+      ],
+      "antonyms": [
+        "forfeit",
+        "relinquish"
+      ]
+    },
+    {
+      "word": "occurrence",
+      "ipa": "/əˈkɜːrəns/",
+      "meaningEn": "an incident or event",
+      "meaningVi": "sự xuất hiện, biến cố",
+      "exampleSentence": "The unusual atmospheric thermal inversion was a rare meteorological occurrence.",
+      "exampleVi": "Hiện tượng nghịch nhiệt khí quyển bất thường là một biến cố khí tượng hiếm gặp.",
+      "usageContext": "Meteorology.",
+      "level": "B2",
+      "synonyms": [
+        "event",
+        "incident"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "orientation",
+      "ipa": "/ˌɔːriənˈteɪʃn/",
+      "meaningEn": "the determination of the relative position of something",
+      "meaningVi": "sự định hướng, phương hướng",
+      "exampleSentence": "Migrating monarch butterflies utilize solar orientation cues to navigate southwards.",
+      "exampleVi": "Bướm chúa di cư sử dụng các tín hiệu định hướng mặt trời để điều hướng về phía nam.",
+      "usageContext": "Entomology.",
+      "level": "B2",
+      "synonyms": [
+        "alignment",
+        "direction"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "outcome",
+      "ipa": "/ˈaʊtkʌm/",
+      "meaningEn": "the way a thing turns out; a consequence",
+      "meaningVi": "kết quả, hệ quả",
+      "exampleSentence": "Researchers monitored experimental subjects to ascertain the therapeutic outcome.",
+      "exampleVi": "Các nhà nghiên cứu đã theo dõi các đối tượng thử nghiệm để xác định kết quả điều trị.",
+      "usageContext": "Clinical trials.",
+      "level": "B1",
+      "synonyms": [
+        "result",
+        "consequence"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "output",
+      "ipa": "/ˈaʊtpʊt/",
+      "meaningEn": "the amount of something produced by a person, machine, or industry",
+      "meaningVi": "sản lượng, công suất đầu ra",
+      "exampleSentence": "The photovoltaic array increased electrical energy output by twenty-five percent.",
+      "exampleVi": "Hệ thống quang điện đã tăng công suất phát năng lượng điện lên 25%.",
+      "usageContext": "Renewable energy.",
+      "level": "B1",
+      "synonyms": [
+        "yield",
+        "production"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "overall",
+      "ipa": "/ˌoʊvərˈɔːl/",
+      "meaningEn": "taking everything into account; comprehensive",
+      "meaningVi": "tổng thể, toàn diện",
+      "exampleSentence": "The comprehensive ecological assessment revealed an overall stabilization in local fauna.",
+      "exampleVi": "Đánh giá sinh thái toàn diện đã tiết lộ sự ổn định tổng thể của hệ động vật địa phương.",
+      "usageContext": "Ecology.",
+      "level": "B1",
+      "synonyms": [
+        "comprehensive",
+        "general"
+      ],
+      "antonyms": [
+        "particular"
+      ]
+    },
+    {
+      "word": "overlap",
+      "ipa": "/ˌoʊvərˈlæp/",
+      "meaningEn": "to extend over and cover a part of; have common elements",
+      "meaningVi": "chồng chéo, trùng lặp",
+      "exampleSentence": "Cognitive psychology and computational neuroscience exhibit considerable disciplinary overlap.",
+      "exampleVi": "Tâm lý học nhận thức và khoa học thần kinh tính toán có sự trùng lặp đáng kể về mặt chuyên ngành.",
+      "usageContext": "Cognitive science.",
+      "level": "B2",
+      "synonyms": [
+        "intersect",
+        "coincide"
+      ],
+      "antonyms": [
+        "diverge"
+      ]
+    }
+  ]
+}

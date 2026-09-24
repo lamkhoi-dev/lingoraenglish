@@ -1,0 +1,1751 @@
+{
+  "category": "TOEFL Vocabulary",
+  "words": [
+    {
+      "word": "abandon",
+      "ipa": "/əˈbændən/",
+      "meaningEn": "to leave completely and forever",
+      "meaningVi": "từ bỏ, bỏ rơi",
+      "exampleSentence": "The researchers had to abandon the experiment due to lack of funding.",
+      "exampleVi": "Các nhà nghiên cứu phải từ bỏ thí nghiệm do thiếu kinh phí.",
+      "usageContext": "Academic reading on historical or scientific projects.",
+      "level": "B2",
+      "synonyms": [
+        "relinquish",
+        "desert"
+      ],
+      "antonyms": [
+        "retain",
+        "keep"
+      ]
+    },
+    {
+      "word": "abnormal",
+      "ipa": "/æbˈnɔːrml/",
+      "meaningEn": "deviating from what is normal or typical",
+      "meaningVi": "bất thường",
+      "exampleSentence": "The test detected abnormal levels of carbon in the soil sample.",
+      "exampleVi": "Bài kiểm tra phát hiện hàm lượng carbon bất thường trong mẫu đất.",
+      "usageContext": "Scientific and ecological contexts.",
+      "level": "B2",
+      "synonyms": [
+        "unusual",
+        "irregular"
+      ],
+      "antonyms": [
+        "normal",
+        "typical"
+      ]
+    },
+    {
+      "word": "accelerate",
+      "ipa": "/əkˈseləreɪt/",
+      "meaningEn": "to increase the speed or rate of something",
+      "meaningVi": "tăng tốc, gia tăng",
+      "exampleSentence": "Rising global temperatures accelerate the melting of polar ice caps.",
+      "exampleVi": "Nhiệt độ toàn cầu tăng làm tăng tốc quá trình tan băng ở các vùng cực.",
+      "usageContext": "Environmental science and physics topics.",
+      "level": "B2",
+      "synonyms": [
+        "hasten",
+        "quicken"
+      ],
+      "antonyms": [
+        "decelerate",
+        "slow"
+      ]
+    },
+    {
+      "word": "accommodate",
+      "ipa": "/əˈkɑːmədeɪt/",
+      "meaningEn": "to adjust or adapt to something; to provide lodging",
+      "meaningVi": "chứa được, đáp ứng, điều chỉnh",
+      "exampleSentence": "The facility was redesigned to accommodate students with physical disabilities.",
+      "exampleVi": "Cơ sở vật chất được thiết kế lại để đáp ứng nhu cầu của sinh viên khuyết tật.",
+      "usageContext": "Campus life and architectural readings.",
+      "level": "B2",
+      "synonyms": [
+        "adapt",
+        "house"
+      ],
+      "antonyms": [
+        "reject"
+      ]
+    },
+    {
+      "word": "accumulate",
+      "ipa": "/əˈkjuːmjəleɪt/",
+      "meaningEn": "to collect or gather gradually over time",
+      "meaningVi": "tích lũy, gom lại",
+      "exampleSentence": "Toxic heavy metals can accumulate in biological tissue over decades.",
+      "exampleVi": "Các kim loại nặng độc hại có thể tích tụ trong mô sinh học qua nhiều thập kỷ.",
+      "usageContext": "Biology and environmental science.",
+      "level": "B2",
+      "synonyms": [
+        "amass",
+        "gather"
+      ],
+      "antonyms": [
+        "dissipate",
+        "scatter"
+      ]
+    },
+    {
+      "word": "acknowledge",
+      "ipa": "/əkˈnɑːlɪdʒ/",
+      "meaningEn": "to accept or admit the existence or truth of something",
+      "meaningVi": "thừa nhận, công nhận",
+      "exampleSentence": "The author acknowledges several limitations in her anthropological research methodology.",
+      "exampleVi": "Tác giả thừa nhận một số hạn chế trong phương pháp nghiên cứu nhân học của mình.",
+      "usageContext": "Academic writing and debate contexts.",
+      "level": "B2",
+      "synonyms": [
+        "concede",
+        "recognize"
+      ],
+      "antonyms": [
+        "deny",
+        "dispute"
+      ]
+    },
+    {
+      "word": "acquire",
+      "ipa": "/əˈkwaɪər/",
+      "meaningEn": "to gain possession of something through effort",
+      "meaningVi": "thu được, đạt được",
+      "exampleSentence": "Young children acquire linguistic competence through continuous social interaction.",
+      "exampleVi": "Trẻ nhỏ tiếp thu năng lực ngôn ngữ thông qua tương tác xã hội liên tục.",
+      "usageContext": "Linguistics and psychology.",
+      "level": "B2",
+      "synonyms": [
+        "obtain",
+        "attain"
+      ],
+      "antonyms": [
+        "lose",
+        "forfeit"
+      ]
+    },
+    {
+      "word": "adaptation",
+      "ipa": "/ˌædæpˈteɪʃn/",
+      "meaningEn": "a change by which an organism becomes better suited to its environment",
+      "meaningVi": "sự thích nghi",
+      "exampleSentence": "Camels have physiological adaptations that allow them to survive in arid deserts.",
+      "exampleVi": "Lạc đà có các sự thích nghi sinh lý cho phép chúng sống sót ở sa mạc khô cằn.",
+      "usageContext": "Evolutionary biology.",
+      "level": "B2",
+      "synonyms": [
+        "adjustment",
+        "modification"
+      ],
+      "antonyms": [
+        "maladaptation"
+      ]
+    },
+    {
+      "word": "adjacent",
+      "ipa": "/əˈdʒeɪsnt/",
+      "meaningEn": "next to or adjoining something else",
+      "meaningVi": "kế bên, liền kề",
+      "exampleSentence": "The botanical garden is adjacent to the primary biology research facility.",
+      "exampleVi": "Vườn bách thảo nằm liền kề với cơ sở nghiên cứu sinh học chính.",
+      "usageContext": "Geography and campus lectures.",
+      "level": "B2",
+      "synonyms": [
+        "adjoining",
+        "neighboring"
+      ],
+      "antonyms": [
+        "distant",
+        "remote"
+      ]
+    },
+    {
+      "word": "advocate",
+      "ipa": "/ˈædvəkeɪt/",
+      "meaningEn": "to publicly recommend or support a policy or idea",
+      "meaningVi": "ủng hộ, chủ trương",
+      "exampleSentence": "Many environmentalists advocate for the implementation of renewable energy subsidies.",
+      "exampleVi": "Nhiều nhà môi trường học ủng hộ việc triển khai trợ cấp năng lượng tái tạo.",
+      "usageContext": "Social sciences and policy debates.",
+      "level": "B2",
+      "synonyms": [
+        "champion",
+        "endorse"
+      ],
+      "antonyms": [
+        "oppose",
+        "condemn"
+      ]
+    },
+    {
+      "word": "aesthetic",
+      "ipa": "/esˈθetɪk/",
+      "meaningEn": "concerned with beauty or the appreciation of beauty",
+      "meaningVi": "thẩm mỹ, có tính mỹ thuật",
+      "exampleSentence": "The modernist movement emphasized function over traditional aesthetic embellishment.",
+      "exampleVi": "Phong trào hiện đại nhấn mạnh công năng hơn là trang trí mang tính thẩm mỹ truyền thống.",
+      "usageContext": "Art history and architecture.",
+      "level": "C1",
+      "synonyms": [
+        "artistic",
+        "visual"
+      ],
+      "antonyms": [
+        "utilitarian"
+      ]
+    },
+    {
+      "word": "aggregate",
+      "ipa": "/ˈæɡrɪɡət/",
+      "meaningEn": "formed by combining several separate elements",
+      "meaningVi": "tổng hợp, gộp lại",
+      "exampleSentence": "The aggregate data from twelve separate trials revealed a noticeable upward trend.",
+      "exampleVi": "Dữ liệu tổng hợp từ mười hai thử nghiệm riêng biệt đã tiết lộ một xu hướng tăng rõ rệt.",
+      "usageContext": "Statistics and economics.",
+      "level": "C1",
+      "synonyms": [
+        "cumulative",
+        "combined"
+      ],
+      "antonyms": [
+        "individual",
+        "discrete"
+      ]
+    },
+    {
+      "word": "allocate",
+      "ipa": "/ˈæləkeɪt/",
+      "meaningEn": "to distribute resources for a specific purpose",
+      "meaningVi": "phân bổ, cấp phát",
+      "exampleSentence": "The committee chose to allocate federal grants to renewable energy startups.",
+      "exampleVi": "Ủy ban đã chọn phân bổ các khoản tài trợ liên bang cho các công ty khởi nghiệp năng lượng tái tạo.",
+      "usageContext": "Economics and policy discussions.",
+      "level": "B2",
+      "synonyms": [
+        "allot",
+        "assign"
+      ],
+      "antonyms": [
+        "withhold"
+      ]
+    },
+    {
+      "word": "alteration",
+      "ipa": "/ˌɔːltəˈreɪʃn/",
+      "meaningEn": "the act or process of changing or modifying",
+      "meaningVi": "sự thay đổi, biến đổi",
+      "exampleSentence": "Genetic alterations can result from environmental exposure to ultraviolet radiation.",
+      "exampleVi": "Những biến đổi gen có thể phát sinh từ việc tiếp xúc với bức xạ cực tím trong môi trường.",
+      "usageContext": "Genetics and biology.",
+      "level": "B2",
+      "synonyms": [
+        "change",
+        "modification"
+      ],
+      "antonyms": [
+        "preservation",
+        "stability"
+      ]
+    },
+    {
+      "word": "ambiguity",
+      "ipa": "/ˌæmbɪˈɡjuːəti/",
+      "meaningEn": "the quality of being open to more than one interpretation",
+      "meaningVi": "sự mơ hồ, nước đôi",
+      "exampleSentence": "The legal contract suffered from grammatical ambiguity that sparked subsequent litigation.",
+      "exampleVi": "Hợp đồng pháp lý gặp phải sự mơ hồ về mặt ngữ pháp dẫn đến tranh chấp kiện tụng sau đó.",
+      "usageContext": "Literature and philosophy.",
+      "level": "C1",
+      "synonyms": [
+        "vagueness",
+        "obscurity"
+      ],
+      "antonyms": [
+        "clarity",
+        "precision"
+      ]
+    },
+    {
+      "word": "analogy",
+      "ipa": "/əˈnælədʒi/",
+      "meaningEn": "a comparison between two things for explanation",
+      "meaningVi": "phép so sánh tương tự, phép loại suy",
+      "exampleSentence": "The professor drew an analogy between the cardiovascular system and urban plumbing.",
+      "exampleVi": "Giáo sư đã đưa ra một phép so sánh tương tự giữa hệ tim mạch và hệ thống ống nước đô thị.",
+      "usageContext": "Lecture explanations and rhetoric.",
+      "level": "B2",
+      "synonyms": [
+        "comparison",
+        "parallel"
+      ],
+      "antonyms": [
+        "disparity"
+      ]
+    },
+    {
+      "word": "anomaly",
+      "ipa": "/əˈnɑːməli/",
+      "meaningEn": "something that deviates from standard or normal expectation",
+      "meaningVi": "sự bất thường, dị thường",
+      "exampleSentence": "Astronomers discovered an orbital anomaly that suggested the presence of an unseen planet.",
+      "exampleVi": "Các nhà thiên văn học đã phát hiện một điểm dị thường trên quỹ đạo cho thấy sự hiện diện của một hành tinh vô hình.",
+      "usageContext": "Astronomy and physics.",
+      "level": "C1",
+      "synonyms": [
+        "aberration",
+        "irregularity"
+      ],
+      "antonyms": [
+        "normality",
+        "conformity"
+      ]
+    },
+    {
+      "word": "apparatus",
+      "ipa": "/ˌæpəˈrætəs/",
+      "meaningEn": "the technical equipment or machinery needed for a particular activity",
+      "meaningVi": "bộ máy, thiết bị thí nghiệm",
+      "exampleSentence": "Laboratory technicians meticulously sterilized the distillation apparatus before the trial.",
+      "exampleVi": "Các kỹ thuật viên phòng thí nghiệm đã khử trùng cẩn thận thiết bị chưng cất trước thử nghiệm.",
+      "usageContext": "Chemistry and engineering.",
+      "level": "C1",
+      "synonyms": [
+        "equipment",
+        "gear"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "approximate",
+      "ipa": "/əˈprɑːksɪmət/",
+      "meaningEn": "close to the actual, but not completely accurate or exact",
+      "meaningVi": "xấp xỉ, tương đối",
+      "exampleSentence": "The approximate age of the fossil was determined through carbon dating analysis.",
+      "exampleVi": "Tuổi xấp xỉ của hóa thạch được xác định thông qua phân tích đồng vị carbon.",
+      "usageContext": "Paleontology and archeology.",
+      "level": "B1",
+      "synonyms": [
+        "rough",
+        "estimated"
+      ],
+      "antonyms": [
+        "exact",
+        "precise"
+      ]
+    },
+    {
+      "word": "arbitrary",
+      "ipa": "/ˈɑːrbɪtreri/",
+      "meaningEn": "based on random choice or personal whim, rather than reason",
+      "meaningVi": "tùy tiện, độc đoán",
+      "exampleSentence": "Historians argued that the border demarcation was completely arbitrary.",
+      "exampleVi": "Các nhà sử học lập luận rằng việc phân định biên giới hoàn toàn tùy tiện.",
+      "usageContext": "Political history and sociology.",
+      "level": "C1",
+      "synonyms": [
+        "random",
+        "capricious"
+      ],
+      "antonyms": [
+        "rational",
+        "systematic"
+      ]
+    },
+    {
+      "word": "articulate",
+      "ipa": "/ɑːrˈtɪkjuleɪt/",
+      "meaningEn": "to express an idea fluently and coherently",
+      "meaningVi": "diễn đạt rõ ràng, lưu loát",
+      "exampleSentence": "The researcher was able to articulate the theoretical framework with remarkable clarity.",
+      "exampleVi": "Nhà nghiên cứu có thể diễn đạt khung lý thuyết với sự rõ ràng đáng kinh ngạc.",
+      "usageContext": "Academic presentations and debate.",
+      "level": "B2",
+      "synonyms": [
+        "express",
+        "enunciate"
+      ],
+      "antonyms": [
+        "mumble",
+        "garble"
+      ]
+    },
+    {
+      "word": "attribute",
+      "ipa": "/əˈtrɪbjuːt/",
+      "meaningEn": "to regard something as being caused by something else",
+      "meaningVi": "quy cho, cho là do",
+      "exampleSentence": "Climatologists attribute the recent droughts to shifting oceanic currents.",
+      "exampleVi": "Các nhà khí hậu học quy các đợt hạn hán gần đây là do các dòng hải lưu thay đổi.",
+      "usageContext": "Climatology and earth science.",
+      "level": "B2",
+      "synonyms": [
+        "ascribe",
+        "credit"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "autonomous",
+      "ipa": "/ɔːˈtɑːnəməs/",
+      "meaningEn": "acting independently or having the freedom to do so",
+      "meaningVi": "tự chủ, độc lập",
+      "exampleSentence": "Certain robotic submersibles operate as autonomous units in deep-sea exploration.",
+      "exampleVi": "Một số tàu lặn robot hoạt động như các đơn vị tự chủ trong thám hiểm biển sâu.",
+      "usageContext": "Marine biology and robotics.",
+      "level": "C1",
+      "synonyms": [
+        "independent",
+        "self-governing"
+      ],
+      "antonyms": [
+        "dependent",
+        "subordinate"
+      ]
+    },
+    {
+      "word": "boundary",
+      "ipa": "/ˈbaʊndri/",
+      "meaningEn": "a line that marks the limits of an area",
+      "meaningVi": "ranh giới, biên giới",
+      "exampleSentence": "Tectonic plate boundaries are characterized by frequent seismic activity.",
+      "exampleVi": "Các ranh giới mảng kiến tạo được đặc trưng bởi hoạt động địa chấn thường xuyên.",
+      "usageContext": "Geology and geophysics.",
+      "level": "B1",
+      "synonyms": [
+        "border",
+        "frontier"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "chronological",
+      "ipa": "/ˌkrɑːnəˈlɑːdʒɪkl/",
+      "meaningEn": "arranged in the order of time of occurrence",
+      "meaningVi": "theo thứ tự thời gian",
+      "exampleSentence": "The museum exhibit presented historical artifacts in strict chronological order.",
+      "exampleVi": "Triển lãm bảo tàng trưng bày các hiện vật lịch sử theo thứ tự thời gian nghiêm ngặt.",
+      "usageContext": "History and narrative analysis.",
+      "level": "B2",
+      "synonyms": [
+        "sequential",
+        "temporal"
+      ],
+      "antonyms": [
+        "disordered"
+      ]
+    },
+    {
+      "word": "circumstance",
+      "ipa": "/ˈsɜːrkəmstæns/",
+      "meaningEn": "a fact or condition connected with an event or action",
+      "meaningVi": "hoàn cảnh, tình huống",
+      "exampleSentence": "Under specific atmospheric circumstances, unusual cloud formations can materialize.",
+      "exampleVi": "Trong những hoàn cảnh khí quyển cụ thể, các dạng mây bất thường có thể xuất hiện.",
+      "usageContext": "Meteorology and general science.",
+      "level": "B2",
+      "synonyms": [
+        "condition",
+        "situation"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "coincide",
+      "ipa": "/ˌkoʊɪnˈsaɪd/",
+      "meaningEn": "to occur at the same time or correspond exactly",
+      "meaningVi": "trùng hợp, diễn ra đồng thời",
+      "exampleSentence": "The peak solar radiation coincided with the most severe heatwave of the decade.",
+      "exampleVi": "Bức xạ mặt trời đạt đỉnh trùng với đợt nắng nóng gay gắt nhất thập kỷ.",
+      "usageContext": "Physics and geography.",
+      "level": "B2",
+      "synonyms": [
+        "concur",
+        "overlap"
+      ],
+      "antonyms": [
+        "diverge",
+        "differ"
+      ]
+    },
+    {
+      "word": "collapse",
+      "ipa": "/kəˈlæps/",
+      "meaningEn": "to fall down or break apart suddenly",
+      "meaningVi": "sụp đổ, đổ sụp",
+      "exampleSentence": "Overgrazing and drought caused the fragile grassland ecosystem to collapse.",
+      "exampleVi": "Việc chăn thả quá mức và hạn hán đã khiến hệ sinh thái đồng cỏ mong manh sụp đổ.",
+      "usageContext": "Ecology and environmental history.",
+      "level": "B2",
+      "synonyms": [
+        "crumble",
+        "disintegrate"
+      ],
+      "antonyms": [
+        "withstand",
+        "flourish"
+      ]
+    },
+    {
+      "word": "compensate",
+      "ipa": "/ˈkɑːmpənseɪt/",
+      "meaningEn": "to make up for something unwelcome or unpleasant",
+      "meaningVi": "bù đắp, đền bù",
+      "exampleSentence": "The body produces additional red blood cells to compensate for reduced oxygen levels.",
+      "exampleVi": "Cơ thể sản xuất thêm hồng cầu để bù đắp cho lượng oxy giảm.",
+      "usageContext": "Physiology and medicine.",
+      "level": "B2",
+      "synonyms": [
+        "offset",
+        "counterbalance"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "component",
+      "ipa": "/kəmˈpoʊnənt/",
+      "meaningEn": "a part or element of a larger whole",
+      "meaningVi": "thành phần, bộ phận",
+      "exampleSentence": "Chlorophyll is a vital molecular component responsible for photosynthesis.",
+      "exampleVi": "Chất diệp lục là một thành phần phân tử quan trọng chịu trách nhiệm quang hợp.",
+      "usageContext": "Botany and cellular biology.",
+      "level": "B2",
+      "synonyms": [
+        "element",
+        "constituent"
+      ],
+      "antonyms": [
+        "composite"
+      ]
+    },
+    {
+      "word": "comprehensive",
+      "ipa": "/ˌkɑːmprɪˈhensɪv/",
+      "meaningEn": "complete and including everything that is necessary",
+      "meaningVi": "toàn diện, bao quát",
+      "exampleSentence": "The graduate student conducted a comprehensive literature review of marine fossils.",
+      "exampleVi": "Học viên cao học đã thực hiện một tổng quan tài liệu toàn diện về các hóa thạch biển.",
+      "usageContext": "Academic research methods.",
+      "level": "B2",
+      "synonyms": [
+        "exhaustive",
+        "all-inclusive"
+      ],
+      "antonyms": [
+        "partial",
+        "incomplete"
+      ]
+    },
+    {
+      "word": "concur",
+      "ipa": "/kənˈkɜːr/",
+      "meaningEn": "to agree or be of the same opinion",
+      "meaningVi": "đồng tình, đồng ý",
+      "exampleSentence": "Most economic historians concur that the embargo hastened the treaty negotiations.",
+      "exampleVi": "Hầu hết các nhà sử học kinh tế đều đồng tình rằng lệnh cấm vận đã đẩy nhanh đàm phán hiệp ước.",
+      "usageContext": "History and economics.",
+      "level": "C1",
+      "synonyms": [
+        "agree",
+        "coincide"
+      ],
+      "antonyms": [
+        "disagree",
+        "dissent"
+      ]
+    },
+    {
+      "word": "confine",
+      "ipa": "/kənˈfaɪn/",
+      "meaningEn": "to keep or restrict someone or something within certain limits",
+      "meaningVi": "hạn chế, giam giữ",
+      "exampleSentence": "The zoologist chose to confine the scope of his inquiry to nocturnal predators.",
+      "exampleVi": "Nhà động vật học đã chọn giới hạn phạm vi điều tra của mình vào các loài săn mồi ban đêm.",
+      "usageContext": "Zoology and research design.",
+      "level": "B2",
+      "synonyms": [
+        "restrict",
+        "limit"
+      ],
+      "antonyms": [
+        "expand",
+        "release"
+      ]
+    },
+    {
+      "word": "conform",
+      "ipa": "/kənˈfɔːrm/",
+      "meaningEn": "to comply with rules, standards, or laws",
+      "meaningVi": "tuân thủ, phù hợp với",
+      "exampleSentence": "Building blueprints must conform to strict seismic safety regulations.",
+      "exampleVi": "Bản vẽ thiết kế xây dựng phải tuân thủ các quy chuẩn an toàn địa chấn nghiêm ngặt.",
+      "usageContext": "Architecture and civil engineering.",
+      "level": "B2",
+      "synonyms": [
+        "comply",
+        "adhere"
+      ],
+      "antonyms": [
+        "deviate",
+        "rebel"
+      ]
+    },
+    {
+      "word": "consecutive",
+      "ipa": "/kənˈsekjətɪv/",
+      "meaningEn": "following continuously in unbroken or logical sequence",
+      "meaningVi": "liên tục, liên tiếp",
+      "exampleSentence": "The meteorological station recorded ten consecutive days of sub-zero temperatures.",
+      "exampleVi": "Trạm khí tượng ghi nhận mười ngày liên tiếp có nhiệt độ dưới 0 độ C.",
+      "usageContext": "Meteorology and data reporting.",
+      "level": "B2",
+      "synonyms": [
+        "sequential",
+        "successive"
+      ],
+      "antonyms": [
+        "intermittent",
+        "sporadic"
+      ]
+    },
+    {
+      "word": "consequence",
+      "ipa": "/ˈkɑːnsəkwens/",
+      "meaningEn": "a result or effect of an action or condition",
+      "meaningVi": "hậu quả, hệ quả",
+      "exampleSentence": "Soil erosion was an unforeseen consequence of commercial deforestation in the valley.",
+      "exampleVi": "Xói mòn đất là một hệ quả khôn lường của nạn phá rừng thương mại trong thung lũng.",
+      "usageContext": "Environmental studies.",
+      "level": "B1",
+      "synonyms": [
+        "outcome",
+        "repercussion"
+      ],
+      "antonyms": [
+        "cause",
+        "origin"
+      ]
+    },
+    {
+      "word": "constitute",
+      "ipa": "/ˈkɑːnstətuːt/",
+      "meaningEn": "to be a part of a whole; to establish or formulate",
+      "meaningVi": "cấu thành, tạo nên",
+      "exampleSentence": "Nitrogen and oxygen constitute over ninety-eight percent of the atmosphere.",
+      "exampleVi": "Nitơ và oxy cấu thành hơn chín mươi tám phần trăm bầu khí quyển.",
+      "usageContext": "Chemistry and atmospheric science.",
+      "level": "B2",
+      "synonyms": [
+        "compose",
+        "comprise"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "contemporary",
+      "ipa": "/kənˈtempəreri/",
+      "meaningEn": "living or occurring at the same time; modern",
+      "meaningVi": "đương đại, cùng thời",
+      "exampleSentence": "Archaeologists compared ancient pottery shards with contemporary ceramic vessels.",
+      "exampleVi": "Các nhà khảo cổ học đã so sánh các mảnh gốm cổ với các bình gốm đương đại.",
+      "usageContext": "Anthropology and history.",
+      "level": "B2",
+      "synonyms": [
+        "modern",
+        "coexisting"
+      ],
+      "antonyms": [
+        "ancient",
+        "archaic"
+      ]
+    },
+    {
+      "word": "contradict",
+      "ipa": "/ˌkɑːntrəˈdɪkt/",
+      "meaningEn": "to assert the opposite of a statement made by someone",
+      "meaningVi": "mâu thuẫn, phủ nhận",
+      "exampleSentence": "The experimental outcome seemed to contradict the classical laws of thermodynamics.",
+      "exampleVi": "Kết quả thử nghiệm dường như mâu thuẫn với các định luật nhiệt động lực học cổ điển.",
+      "usageContext": "Physics and scientific debate.",
+      "level": "B2",
+      "synonyms": [
+        "counter",
+        "dispute"
+      ],
+      "antonyms": [
+        "confirm",
+        "verify"
+      ]
+    },
+    {
+      "word": "converge",
+      "ipa": "/kənˈvɜːrdʒ/",
+      "meaningEn": "to tend to meet at an equitable point",
+      "meaningVi": "hội tụ, đồng quy",
+      "exampleSentence": "Migrating oceanic species converge in the warm equatorial shallows each autumn.",
+      "exampleVi": "Các loài sinh vật biển di cư hội tụ ở vùng nước nông xích đạo ấm áp vào mỗi mùa thu.",
+      "usageContext": "Marine biology and geography.",
+      "level": "C1",
+      "synonyms": [
+        "intersect",
+        "gather"
+      ],
+      "antonyms": [
+        "diverge",
+        "disperse"
+      ]
+    },
+    {
+      "word": "crucial",
+      "ipa": "/ˈkruːʃl/",
+      "meaningEn": "decisive or critical, especially in the success of something",
+      "meaningVi": "cốt yếu, quyết định",
+      "exampleSentence": "Water conservation is a crucial consideration for developing arid urban centers.",
+      "exampleVi": "Bảo tồn nguồn nước là một yếu tố cốt yếu đối với việc phát triển các trung tâm đô thị khô cằn.",
+      "usageContext": "Urban planning and ecology.",
+      "level": "B2",
+      "synonyms": [
+        "essential",
+        "pivotal"
+      ],
+      "antonyms": [
+        "trivial",
+        "minor"
+      ]
+    },
+    {
+      "word": "cumulative",
+      "ipa": "/ˈkjuːmjəleɪtɪv/",
+      "meaningEn": "increasing or growing by successive additions",
+      "meaningVi": "tích lũy, dồn lại",
+      "exampleSentence": "The cumulative impact of industrial wastewater depleted the river's fish population.",
+      "exampleVi": "Tác động tích lũy của nước thải công nghiệp đã làm suy giảm quần thể cá của dòng sông.",
+      "usageContext": "Environmental science.",
+      "level": "B2",
+      "synonyms": [
+        "accruing",
+        "increasing"
+      ],
+      "antonyms": [
+        "diminishing"
+      ]
+    },
+    {
+      "word": "deduce",
+      "ipa": "/dɪˈduːs/",
+      "meaningEn": "to draw as a logical conclusion from given facts",
+      "meaningVi": "suy luận, suy diễn",
+      "exampleSentence": "Paleontologists can deduce an animal's diet from fossilized teeth patterns.",
+      "exampleVi": "Các nhà cổ sinh vật học có thể suy luận chế độ ăn của động vật từ các mẫu răng hóa thạch.",
+      "usageContext": "Paleontology and logic.",
+      "level": "C1",
+      "synonyms": [
+        "infer",
+        "conclude"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "deficiency",
+      "ipa": "/dɪˈfɪʃnsi/",
+      "meaningEn": "a lack or shortage of something required",
+      "meaningVi": "sự thiếu hụt, suy giảm",
+      "exampleSentence": "A chronic deficiency of micronutrients hinders proper cognitive development.",
+      "exampleVi": "Sự thiếu hụt vi chất dinh dưỡng mãn tính cản trở sự phát triển nhận thức đúng mức.",
+      "usageContext": "Medicine and human biology.",
+      "level": "B2",
+      "synonyms": [
+        "scarcity",
+        "deficit"
+      ],
+      "antonyms": [
+        "abundance",
+        "surplus"
+      ]
+    },
+    {
+      "word": "deplete",
+      "ipa": "/dɪˈpliːt/",
+      "meaningEn": "to use up the supply or resources of something",
+      "meaningVi": "làm cạn kiệt",
+      "exampleSentence": "Intensive agricultural cultivation can rapidly deplete essential topsoil minerals.",
+      "exampleVi": "Canh tác nông nghiệp thâm canh có thể nhanh chóng làm cạn kiệt các khoáng chất thiết yếu trong lớp đất mặt.",
+      "usageContext": "Agronomy and geography.",
+      "level": "C1",
+      "synonyms": [
+        "exhaust",
+        "drain"
+      ],
+      "antonyms": [
+        "replenish",
+        "restore"
+      ]
+    },
+    {
+      "word": "derive",
+      "ipa": "/dɪˈraɪv/",
+      "meaningEn": "to obtain something from a specified source",
+      "meaningVi": "bắt nguồn từ, rút ra từ",
+      "exampleSentence": "Many modern pharmaceutical drugs derive from tropical rainforest flora.",
+      "exampleVi": "Nhiều loại dược phẩm hiện đại bắt nguồn từ thực vật rừng mưa nhiệt đới.",
+      "usageContext": "Pharmacology and ethnobotany.",
+      "level": "B2",
+      "synonyms": [
+        "originate",
+        "stem"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "deteriorate",
+      "ipa": "/dɪˈtɪriəreɪt/",
+      "meaningEn": "to become progressively worse in quality or condition",
+      "meaningVi": "xuống cấp, suy thoái",
+      "exampleSentence": "Without maintenance, ancient masonry monuments deteriorate due to acid precipitation.",
+      "exampleVi": "Nếu không được bảo trì, các di tích xây bằng đá cổ sẽ xuống cấp do mưa axit.",
+      "usageContext": "Architecture and conservation.",
+      "level": "C1",
+      "synonyms": [
+        "degrade",
+        "worsen"
+      ],
+      "antonyms": [
+        "ameliorate",
+        "improve"
+      ]
+    },
+    {
+      "word": "deviate",
+      "ipa": "/ˈdiːvieɪt/",
+      "meaningEn": "to depart from an established course or accepted standard",
+      "meaningVi": "chệch hướng, lệch chuẩn",
+      "exampleSentence": "The flight path did not deviate from the pre-programmed computerized route.",
+      "exampleVi": "Đường bay không chệch khỏi lộ trình đã được lập trình sẵn trên máy tính.",
+      "usageContext": "Aviation and navigation.",
+      "level": "C1",
+      "synonyms": [
+        "diverge",
+        "stray"
+      ],
+      "antonyms": [
+        "conform",
+        "adhere"
+      ]
+    },
+    {
+      "word": "differentiate",
+      "ipa": "/ˌdɪfəˈrenʃieɪt/",
+      "meaningEn": "to recognize or identify what makes someone or something different",
+      "meaningVi": "phân biệt, làm khác biệt",
+      "exampleSentence": "Experts can differentiate authentic ancient manuscripts from clever modern forgeries.",
+      "exampleVi": "Các chuyên gia có thể phân biệt bản thảo cổ xác thực với các bản làm giả tinh vi thời hiện đại.",
+      "usageContext": "Art history and forensics.",
+      "level": "B2",
+      "synonyms": [
+        "distinguish",
+        "discriminate"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "diffuse",
+      "ipa": "/dɪˈfjuːs/",
+      "meaningEn": "to spread out over a large area; not concentrated",
+      "meaningVi": "khuếch tán, lan tỏa",
+      "exampleSentence": "Molecules diffuse spontaneously from regions of higher concentration to lower.",
+      "exampleVi": "Các phân tử khuếch tán một cách tự phát từ vùng có nồng độ cao hơn sang nồng độ thấp hơn.",
+      "usageContext": "Chemistry and cellular biology.",
+      "level": "C1",
+      "synonyms": [
+        "disperse",
+        "scatter"
+      ],
+      "antonyms": [
+        "concentrate"
+      ]
+    },
+    {
+      "word": "diminish",
+      "ipa": "/dɪˈmɪnɪʃ/",
+      "meaningEn": "to make or become less valuable, impressive, or extensive",
+      "meaningVi": "giảm bớt, suy giảm",
+      "exampleSentence": "Noise barriers help diminish vehicular acoustic pollution along interstate highways.",
+      "exampleVi": "Các vách ngăn tiếng ồn giúp giảm bớt ô nhiễm âm thanh từ phương tiện giao thông dọc theo các tuyến đường cao tốc.",
+      "usageContext": "Acoustics and urban planning.",
+      "level": "B2",
+      "synonyms": [
+        "decrease",
+        "lessen"
+      ],
+      "antonyms": [
+        "augment",
+        "increase"
+      ]
+    },
+    {
+      "word": "discrete",
+      "ipa": "/dɪˈskriːt/",
+      "meaningEn": "individually separate and distinct",
+      "meaningVi": "rời rạc, riêng biệt",
+      "exampleSentence": "The organism passes through several discrete developmental stages before maturity.",
+      "exampleVi": "Sinh vật trải qua nhiều giai đoạn phát triển riêng biệt trước khi trưởng thành.",
+      "usageContext": "Biology and developmental science.",
+      "level": "C1",
+      "synonyms": [
+        "separate",
+        "distinct"
+      ],
+      "antonyms": [
+        "continuous",
+        "connected"
+      ]
+    },
+    {
+      "word": "disperse",
+      "ipa": "/dɪˈspɜːrs/",
+      "meaningEn": "to distribute or spread over a wide area",
+      "meaningVi": "phân tán, rải rác",
+      "exampleSentence": "Wind currents disperse lightweight dandelion seeds across extensive plains.",
+      "exampleVi": "Các luồng gió phân tán hạt bồ công anh nhẹ trên các vùng đồng bằng rộng lớn.",
+      "usageContext": "Botany and ecology.",
+      "level": "B2",
+      "synonyms": [
+        "scatter",
+        "disseminate"
+      ],
+      "antonyms": [
+        "congregate",
+        "assemble"
+      ]
+    },
+    {
+      "word": "disproportionate",
+      "ipa": "/ˌdɪsprəˈpɔːrʃənət/",
+      "meaningEn": "too large or too small in comparison with something else",
+      "meaningVi": "không cân đối, thiếu tương xứng",
+      "exampleSentence": "Low-income urban districts experience a disproportionate burden of air pollution.",
+      "exampleVi": "Các khu đô thị có thu nhập thấp chịu gánh nặng ô nhiễm không khí không cân xứng.",
+      "usageContext": "Sociology and environmental justice.",
+      "level": "C1",
+      "synonyms": [
+        "unequal",
+        "inordinate"
+      ],
+      "antonyms": [
+        "proportional",
+        "equitable"
+      ]
+    },
+    {
+      "word": "distort",
+      "ipa": "/dɪˈstɔːrt/",
+      "meaningEn": "to pull or twist out of shape; to misrepresent facts",
+      "meaningVi": "bóp méo, xuyên tạc",
+      "exampleSentence": "Extreme atmospheric turbulence can distort gravitational lens measurements.",
+      "exampleVi": "Sự nhiễu loạn khí quyển cực độ có thể làm bóp méo các phép đo thấu kính hấp dẫn.",
+      "usageContext": "Astronomy and media studies.",
+      "level": "B2",
+      "synonyms": [
+        "warp",
+        "misrepresent"
+      ],
+      "antonyms": [
+        "clarify",
+        "straighten"
+      ]
+    },
+    {
+      "word": "divergent",
+      "ipa": "/daɪˈvɜːrdʒənt/",
+      "meaningEn": "tending to be different or develop in different directions",
+      "meaningVi": "phân kỳ, khác nhau",
+      "exampleSentence": "Evolutionary biologists study divergent species that share a common genealogical ancestor.",
+      "exampleVi": "Các nhà sinh học tiến hóa nghiên cứu các loài phân kỳ có chung một tổ tiên phả hệ.",
+      "usageContext": "Evolutionary biology.",
+      "level": "C1",
+      "synonyms": [
+        "differing",
+        "deviating"
+      ],
+      "antonyms": [
+        "convergent",
+        "similar"
+      ]
+    },
+    {
+      "word": "dormant",
+      "ipa": "/ˈdɔːrmənt/",
+      "meaningEn": "having normal physical functions suspended or slowed down",
+      "meaningVi": "ngủ đông, bất hoạt",
+      "exampleSentence": "Volcanic peaks can remain dormant for centuries before experiencing catastrophic eruptions.",
+      "exampleVi": "Các đỉnh núi lửa có thể bất hoạt trong nhiều thế kỷ trước khi xảy ra các vụ phun trào thảm khốc.",
+      "usageContext": "Volcanology and botany.",
+      "level": "B2",
+      "synonyms": [
+        "inactive",
+        "quiescent"
+      ],
+      "antonyms": [
+        "active",
+        "awake"
+      ]
+    },
+    {
+      "word": "duration",
+      "ipa": "/duˈreɪʃn/",
+      "meaningEn": "the length of time that something continues or lasts",
+      "meaningVi": "thời lượng, khoảng thời gian",
+      "exampleSentence": "The duration of the lunar eclipse was documented meticulously by ancient astronomers.",
+      "exampleVi": "Thời lượng của nhật thực đã được ghi chép tỉ mỉ bởi các nhà thiên văn học cổ đại.",
+      "usageContext": "Astronomy and history.",
+      "level": "B1",
+      "synonyms": [
+        "period",
+        "timespan"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "elaborate",
+      "ipa": "/ɪˈlæbərət/",
+      "meaningEn": "involving many carefully arranged parts or details",
+      "meaningVi": "phức tạp, tỉ mỉ, kỹ lưỡng",
+      "exampleSentence": "Prehistoric tribes performed elaborate rituals to mark the winter solstice.",
+      "exampleVi": "Các bộ lạc thời tiền sử đã thực hiện các nghi lễ phức tạp để đánh dấu ngày đông chí.",
+      "usageContext": "Anthropology.",
+      "level": "B2",
+      "synonyms": [
+        "intricate",
+        "detailed"
+      ],
+      "antonyms": [
+        "simple",
+        "plain"
+      ]
+    },
+    {
+      "word": "elicit",
+      "ipa": "/ɪˈlɪsɪt/",
+      "meaningEn": "to evoke or draw out a response, answer, or fact",
+      "meaningVi": "gợi ra, khơi gợi",
+      "exampleSentence": "The psychological survey was structured to elicit unbiased spontaneous responses.",
+      "exampleVi": "Cuộc khảo sát tâm lý được cấu trúc để gợi ra những câu trả lời tự phát không thiên vị.",
+      "usageContext": "Psychology and survey research.",
+      "level": "C1",
+      "synonyms": [
+        "evoke",
+        "extract"
+      ],
+      "antonyms": [
+        "suppress",
+        "stifle"
+      ]
+    },
+    {
+      "word": "eliminate",
+      "ipa": "/ɪˈlɪmɪneɪt/",
+      "meaningEn": "to completely remove or get rid of something",
+      "meaningVi": "loại bỏ, bài trừ",
+      "exampleSentence": "Public health campaigns strive to eliminate endemic viral diseases through mass inoculation.",
+      "exampleVi": "Các chiến dịch y tế công cộng nỗ lực loại bỏ các bệnh do virus lưu hành thông qua tiêm chủng hàng loạt.",
+      "usageContext": "Epidemiology and medicine.",
+      "level": "B1",
+      "synonyms": [
+        "eradicate",
+        "remove"
+      ],
+      "antonyms": [
+        "introduce",
+        "retain"
+      ]
+    },
+    {
+      "word": "emerge",
+      "ipa": "/ɪˈmɜːrdʒ/",
+      "meaningEn": "to move out of or away from something and come into view",
+      "meaningVi": "xuất hiện, nổi lên",
+      "exampleSentence": "New theoretical paradigms often emerge when existing models fail to explain empirical data.",
+      "exampleVi": "Các mô hình lý thuyết mới thường xuất hiện khi các mô hình hiện tại không giải thích được dữ liệu thực nghiệm.",
+      "usageContext": "Philosophy of science.",
+      "level": "B2",
+      "synonyms": [
+        "arise",
+        "surface"
+      ],
+      "antonyms": [
+        "disappear",
+        "submerge"
+      ]
+    },
+    {
+      "word": "empirical",
+      "ipa": "/ɪmˈpɪrɪkl/",
+      "meaningEn": "based on observation or experience rather than theory or logic",
+      "meaningVi": "mang tính thực nghiệm",
+      "exampleSentence": "Scientific hypotheses must be substantiated through repeatable empirical observations.",
+      "exampleVi": "Các giả thuyết khoa học phải được chứng minh thông qua các quan sát thực nghiệm có thể lặp lại.",
+      "usageContext": "Scientific methodology.",
+      "level": "C1",
+      "synonyms": [
+        "experimental",
+        "observational"
+      ],
+      "antonyms": [
+        "theoretical",
+        "speculative"
+      ]
+    },
+    {
+      "word": "encompass",
+      "ipa": "/ɪnˈkʌmpəs/",
+      "meaningEn": "to surround and have or hold within; to include broadly",
+      "meaningVi": "bao trùm, bao hàm",
+      "exampleSentence": "Earth system science encompasses geology, atmospheric physics and oceanic hydrology.",
+      "exampleVi": "Khoa học hệ thống Trái Đất bao trùm địa chất học, vật lý khí quyển và thủy văn đại dương.",
+      "usageContext": "Earth sciences.",
+      "level": "C1",
+      "synonyms": [
+        "include",
+        "comprehend"
+      ],
+      "antonyms": [
+        "exclude"
+      ]
+    },
+    {
+      "word": "equilibrium",
+      "ipa": "/ˌiːkwɪˈlɪbriəm/",
+      "meaningEn": "a state in which opposing forces or influences are balanced",
+      "meaningVi": "trạng thái cân bằng",
+      "exampleSentence": "Chemical reactions continue until dynamic molecular equilibrium is established.",
+      "exampleVi": "Các phản ứng hóa học tiếp tục cho đến khi cân bằng phân tử động được thiết lập.",
+      "usageContext": "Chemistry and economics.",
+      "level": "C1",
+      "synonyms": [
+        "balance",
+        "symmetry"
+      ],
+      "antonyms": [
+        "imbalance",
+        "disequilibrium"
+      ]
+    },
+    {
+      "word": "erratic",
+      "ipa": "/ɪˈrætɪk/",
+      "meaningEn": "not even or regular in pattern or movement; unpredictable",
+      "meaningVi": "thất thường, không đều",
+      "exampleSentence": "Global climate shifts can cause erratic precipitation patterns that confound farmers.",
+      "exampleVi": "Sự thay đổi khí hậu toàn cầu có thể gây ra các hình thái mưa thất thường làm nông dân bối rối.",
+      "usageContext": "Meteorology and climatology.",
+      "level": "C1",
+      "synonyms": [
+        "unpredictable",
+        "inconsistent"
+      ],
+      "antonyms": [
+        "consistent",
+        "regular"
+      ]
+    },
+    {
+      "word": "evaporate",
+      "ipa": "/ɪˈvæpəreɪt/",
+      "meaningEn": "to turn from liquid into vapor",
+      "meaningVi": "bay hơi, bốc hơi",
+      "exampleSentence": "Shallow lake beds evaporate rapidly under direct desert sunlight.",
+      "exampleVi": "Các lòng hồ nông bốc hơi nhanh chóng dưới ánh nắng sa mạc trực tiếp.",
+      "usageContext": "Hydrology and chemistry.",
+      "level": "B1",
+      "synonyms": [
+        "vaporize",
+        "dissipate"
+      ],
+      "antonyms": [
+        "condense"
+      ]
+    },
+    {
+      "word": "exceed",
+      "ipa": "/ɪkˈsiːd/",
+      "meaningEn": "to be greater in number, degree or scope than expected",
+      "meaningVi": "vượt quá, hơn",
+      "exampleSentence": "Seismic tremors in the mountain range can exceed magnitude seven on the Richter scale.",
+      "exampleVi": "Các chấn động địa chấn ở dãy núi có thể vượt quá độ Richter cấp 7.",
+      "usageContext": "Seismology.",
+      "level": "B2",
+      "synonyms": [
+        "surpass",
+        "outstrip"
+      ],
+      "antonyms": [
+        "fall short of"
+      ]
+    },
+    {
+      "word": "fluctuate",
+      "ipa": "/ˈflʌktʃueɪt/",
+      "meaningEn": "to rise and fall irregularly in number or amount",
+      "meaningVi": "dao động, lên xuống thất thường",
+      "exampleSentence": "Atmospheric temperatures fluctuate drastically between nocturnal and diurnal periods in deserts.",
+      "exampleVi": "Nhiệt độ khí quyển dao động mạnh giữa ban đêm và ban ngày ở các vùng sa mạc.",
+      "usageContext": "Geography and physics.",
+      "level": "B2",
+      "synonyms": [
+        "oscillate",
+        "vary"
+      ],
+      "antonyms": [
+        "stabilize"
+      ]
+    },
+    {
+      "word": "foster",
+      "ipa": "/ˈfɑːstər/",
+      "meaningEn": "to encourage or promote the development of something",
+      "meaningVi": "nuôi dưỡng, thúc đẩy",
+      "exampleSentence": "Collaborative seminars foster intellectual exchange among graduate researchers.",
+      "exampleVi": "Các cuộc hội thảo hợp tác thúc đẩy sự trao đổi trí tuệ giữa các nhà nghiên cứu sau đại học.",
+      "usageContext": "Higher education.",
+      "level": "B2",
+      "synonyms": [
+        "promote",
+        "cultivate"
+      ],
+      "antonyms": [
+        "hinder",
+        "stifle"
+      ]
+    },
+    {
+      "word": "fundamental",
+      "ipa": "/ˌfʌndəˈmentl/",
+      "meaningEn": "forming a necessary base or core; of central importance",
+      "meaningVi": "cơ bản, cốt lõi",
+      "exampleSentence": "Conservation of mass and energy is a fundamental law in classical physics.",
+      "exampleVi": "Bảo toàn khối lượng và năng lượng là một định luật cơ bản trong vật lý cổ điển.",
+      "usageContext": "Physics.",
+      "level": "B2",
+      "synonyms": [
+        "essential",
+        "underlying"
+      ],
+      "antonyms": [
+        "secondary",
+        "peripheral"
+      ]
+    },
+    {
+      "word": "generate",
+      "ipa": "/ˈdʒenəreɪt/",
+      "meaningEn": "to produce or create something",
+      "meaningVi": "tạo ra, phát sinh",
+      "exampleSentence": "Geothermal power plants generate substantial electricity by tapping subterranean steam reservoirs.",
+      "exampleVi": "Các nhà máy điện địa nhiệt tạo ra lượng điện đáng kể bằng cách khai thác các túi hơi ngầm.",
+      "usageContext": "Energy and engineering.",
+      "level": "B1",
+      "synonyms": [
+        "produce",
+        "create"
+      ],
+      "antonyms": [
+        "consume",
+        "destroy"
+      ]
+    },
+    {
+      "word": "hierarchy",
+      "ipa": "/ˈhaɪərɑːrki/",
+      "meaningEn": "a system in which members are ranked according to relative status",
+      "meaningVi": "hệ thống cấp bậc",
+      "exampleSentence": "Primate social groups typically establish a rigid dominance hierarchy through physical displays.",
+      "exampleVi": "Các nhóm xã hội linh trưởng thường thiết lập một hệ thống phân cấp thống trị cứng nhắc thông qua các màn phô diễn thể chất.",
+      "usageContext": "Ethology and anthropology.",
+      "level": "C1",
+      "synonyms": [
+        "ranking",
+        "pecking order"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "hypothesis",
+      "ipa": "/haɪˈpɑːθəsɪs/",
+      "meaningEn": "a proposed explanation made on the basis of limited evidence",
+      "meaningVi": "giả thuyết",
+      "exampleSentence": "The marine biologist formulated a hypothesis concerning coral bleaching mechanisms.",
+      "exampleVi": "Nhà sinh học biển đã xây dựng một giả thuyết liên quan đến cơ chế tẩy trắng san hô.",
+      "usageContext": "Scientific inquiry.",
+      "level": "B2",
+      "synonyms": [
+        "theory",
+        "supposition"
+      ],
+      "antonyms": [
+        "fact",
+        "proof"
+      ]
+    },
+    {
+      "word": "illuminate",
+      "ipa": "/ɪˈluːmɪneɪt/",
+      "meaningEn": "to light up or make something clear and understandable",
+      "meaningVi": "chiếu sáng, làm sáng tỏ",
+      "exampleSentence": "Spectroscopic analysis helps illuminate the chemical composition of interstellar nebulae.",
+      "exampleVi": "Phân tích quang phổ giúp làm sáng tỏ thành phần hóa học của các tinh vân giữa các vì sao.",
+      "usageContext": "Astrophysics and rhetoric.",
+      "level": "B2",
+      "synonyms": [
+        "clarify",
+        "brighten"
+      ],
+      "antonyms": [
+        "obscure",
+        "darken"
+      ]
+    },
+    {
+      "word": "incentive",
+      "ipa": "/ɪnˈsentɪv/",
+      "meaningEn": "a thing that motivates or encourages someone to do something",
+      "meaningVi": "sự khích lệ, động cơ",
+      "exampleSentence": "Tax credits provide an economic incentive for homeowners to install photovoltaic panels.",
+      "exampleVi": "Các khoản giảm thuế mang lại động lực kinh tế cho các chủ nhà lắp đặt các tấm pin quang điện.",
+      "usageContext": "Economics and public policy.",
+      "level": "B2",
+      "synonyms": [
+        "inducement",
+        "motivation"
+      ],
+      "antonyms": [
+        "deterrent",
+        "disincentive"
+      ]
+    },
+    {
+      "word": "indigenous",
+      "ipa": "/ɪnˈdɪdʒənəs/",
+      "meaningEn": "originating or occurring naturally in a particular place; native",
+      "meaningVi": "bản địa, bản xứ",
+      "exampleSentence": "The botanical expedition cataloged over thirty indigenous coniferous tree species.",
+      "exampleVi": "Chuyến thám hiểm thực vật đã phân loại hơn ba mươi loài cây lá kim bản địa.",
+      "usageContext": "Botany and anthropology.",
+      "level": "B2",
+      "synonyms": [
+        "native",
+        "endemic"
+      ],
+      "antonyms": [
+        "exotic",
+        "invasive"
+      ]
+    },
+    {
+      "word": "inevitable",
+      "ipa": "/ɪnˈevɪtəbl/",
+      "meaningEn": "certain to happen; unavoidable",
+      "meaningVi": "không thể tránh khỏi",
+      "exampleSentence": "Sediment deposition is an inevitable outcome when river velocity decelerates.",
+      "exampleVi": "Sự lắng đọng trầm tích là một kết quả không thể tránh khỏi khi vận tốc dòng sông giảm dần.",
+      "usageContext": "Geology and river morphology.",
+      "level": "B2",
+      "synonyms": [
+        "unavoidable",
+        "inescapable"
+      ],
+      "antonyms": [
+        "preventable",
+        "avoidable"
+      ]
+    },
+    {
+      "word": "inhibit",
+      "ipa": "/ɪnˈhɪbɪt/",
+      "meaningEn": "to hinder, restrain, or prevent an action or process",
+      "meaningVi": "ức chế, kìm hãm",
+      "exampleSentence": "Certain synthesized chemicals inhibit enzyme activity within cellular structures.",
+      "exampleVi": "Một số hóa chất tổng hợp ức chế hoạt tính của enzyme trong các cấu trúc tế bào.",
+      "usageContext": "Biochemistry and toxicology.",
+      "level": "C1",
+      "synonyms": [
+        "impede",
+        "hinder"
+      ],
+      "antonyms": [
+        "stimulate",
+        "facilitate"
+      ]
+    },
+    {
+      "word": "initial",
+      "ipa": "/ɪˈnɪʃl/",
+      "meaningEn": "existing or occurring at the beginning",
+      "meaningVi": "ban đầu, mở đầu",
+      "exampleSentence": "The initial phase of archaeological excavation revealed Roman mosaic flooring.",
+      "exampleVi": "Giai đoạn khai quật khảo cổ ban đầu đã làm lộ ra sàn khảm La Mã.",
+      "usageContext": "Archaeology and project history.",
+      "level": "B1",
+      "synonyms": [
+        "preliminary",
+        "primary"
+      ],
+      "antonyms": [
+        "final",
+        "concluding"
+      ]
+    },
+    {
+      "word": "innovative",
+      "ipa": "/ˈɪnəveɪtɪv/",
+      "meaningEn": "featuring new methods; advanced and original",
+      "meaningVi": "đổi mới, sáng tạo",
+      "exampleSentence": "The aerospace firm designed an innovative composite wing that minimized drag.",
+      "exampleVi": "Công ty hàng không vũ trụ đã thiết kế một cánh composite đổi mới giúp giảm thiểu lực cản.",
+      "usageContext": "Engineering and design.",
+      "level": "B2",
+      "synonyms": [
+        "novel",
+        "groundbreaking"
+      ],
+      "antonyms": [
+        "conventional",
+        "traditional"
+      ]
+    },
+    {
+      "word": "insight",
+      "ipa": "/ˈɪnsaɪt/",
+      "meaningEn": "the capacity to gain an accurate and deep intuitive understanding",
+      "meaningVi": "cái nhìn sâu sắc, sự hiểu biết thấu đáo",
+      "exampleSentence": "Microscopic examination yielded valuable insight into the bacterial division mechanism.",
+      "exampleVi": "Kiểm tra bằng kính hiển vi đã mang lại cái nhìn sâu sắc có giá trị về cơ chế phân chia của vi khuẩn.",
+      "usageContext": "Microbiology and philosophy.",
+      "level": "B2",
+      "synonyms": [
+        "perception",
+        "understanding"
+      ],
+      "antonyms": [
+        "ignorance",
+        "superficiality"
+      ]
+    },
+    {
+      "word": "intermittent",
+      "ipa": "/ˌɪntərˈmɪtənt/",
+      "meaningEn": "occurring at irregular intervals; not continuous or steady",
+      "meaningVi": "ngắt quãng, gián đoạn",
+      "exampleSentence": "The desert region receives intermittent rainfall separated by prolonged dry spells.",
+      "exampleVi": "Vùng sa mạc nhận được lượng mưa ngắt quãng xen kẽ bởi những đợt khô hạn kéo dài.",
+      "usageContext": "Climatology and physics.",
+      "level": "C1",
+      "synonyms": [
+        "sporadic",
+        "periodic"
+      ],
+      "antonyms": [
+        "constant",
+        "continuous"
+      ]
+    },
+    {
+      "word": "intrinsic",
+      "ipa": "/ɪnˈtrɪnzɪk/",
+      "meaningEn": "belonging naturally; essential",
+      "meaningVi": "bản chất, nội tại",
+      "exampleSentence": "Flexibility is an intrinsic property of synthetic rubber polymers.",
+      "exampleVi": "Tính linh hoạt là một đặc tính nội tại của các polyme cao su tổng hợp.",
+      "usageContext": "Materials science and philosophy.",
+      "level": "C1",
+      "synonyms": [
+        "inherent",
+        "innate"
+      ],
+      "antonyms": [
+        "extrinsic",
+        "acquired"
+      ]
+    },
+    {
+      "word": "invariable",
+      "ipa": "/ɪnˈveriəbl/",
+      "meaningEn": "never changing; constant and immutable",
+      "meaningVi": "bất biến, không thay đổi",
+      "exampleSentence": "The speed of electromagnetic light propagation in a vacuum is considered invariable.",
+      "exampleVi": "Tốc độ truyền ánh sáng điện từ trong chân không được coi là bất biến.",
+      "usageContext": "Physics.",
+      "level": "C1",
+      "synonyms": [
+        "constant",
+        "immutable"
+      ],
+      "antonyms": [
+        "variable",
+        "fluctuating"
+      ]
+    },
+    {
+      "word": "magnitude",
+      "ipa": "/ˈmæɡnɪtuːd/",
+      "meaningEn": "the great size or extent of something",
+      "meaningVi": "độ lớn, tầm vóc, cường độ",
+      "exampleSentence": "Geologists evaluated the magnitude of volcanic ejecta following the blast.",
+      "exampleVi": "Các nhà địa chất đã đánh giá độ lớn của đất đá núi lửa phun ra sau vụ nổ.",
+      "usageContext": "Geology and astronomy.",
+      "level": "B2",
+      "synonyms": [
+        "scale",
+        "extent"
+      ],
+      "antonyms": [
+        "diminutiveness"
+      ]
+    },
+    {
+      "word": "manifest",
+      "ipa": "/ˈmænɪfest/",
+      "meaningEn": "clear or obvious to the eye or mind; to display",
+      "meaningVi": "biểu hiện, hiển nhiên",
+      "exampleSentence": "Behavioral symptoms of dehydration manifest after sustained exertion in humid conditions.",
+      "exampleVi": "Các triệu chứng hành vi của việc mất nước biểu hiện sau khi gắng sức liên tục trong điều kiện ẩm ướt.",
+      "usageContext": "Physiology and medicine.",
+      "level": "C1",
+      "synonyms": [
+        "apparent",
+        "evident"
+      ],
+      "antonyms": [
+        "hidden",
+        "concealed"
+      ]
+    },
+    {
+      "word": "mechanism",
+      "ipa": "/ˈmekənɪzəm/",
+      "meaningEn": "a system of mutually adapted parts working together",
+      "meaningVi": "cơ chế",
+      "exampleSentence": "Cellular membrane channels represent the primary mechanism for chemical transport.",
+      "exampleVi": "Các kênh màng tế bào đại diện cho cơ chế chính trong vận chuyển hóa chất.",
+      "usageContext": "Biophysics and mechanical engineering.",
+      "level": "B2",
+      "synonyms": [
+        "apparatus",
+        "process"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "mediate",
+      "ipa": "/ˈmiːdieɪt/",
+      "meaningEn": "to intervene between people to reconcile differences",
+      "meaningVi": "hòa giải, làm trung gian",
+      "exampleSentence": "Hormones mediate critical biological signaling across distant metabolic organ systems.",
+      "exampleVi": "Hormone đóng vai trò trung gian trong truyền tín hiệu sinh học quan trọng giữa các hệ thống cơ quan chuyển hóa ở xa.",
+      "usageContext": "Endocrinology and sociology.",
+      "level": "C1",
+      "synonyms": [
+        "arbitrate",
+        "channel"
+      ],
+      "antonyms": []
+    },
+    {
+      "word": "mitigate",
+      "ipa": "/ˈmɪtɪɡeɪt/",
+      "meaningEn": "to make less severe, serious, or painful",
+      "meaningVi": "giảm nhẹ, làm dịu bớt",
+      "exampleSentence": "Wetland restoration projects help mitigate catastrophic flood damage downriver.",
+      "exampleVi": "Các dự án phục hồi đất ngập nước giúp giảm nhẹ thiệt hại lũ lụt thảm khốc ở hạ lưu sông.",
+      "usageContext": "Environmental management.",
+      "level": "C1",
+      "synonyms": [
+        "alleviate",
+        "lessen"
+      ],
+      "antonyms": [
+        "exacerbate",
+        "aggravate"
+      ]
+    },
+    {
+      "word": "modify",
+      "ipa": "/ˈmɑːdɪfaɪ/",
+      "meaningEn": "to make partial or minor changes to something",
+      "meaningVi": "chỉnh sửa, sửa đổi",
+      "exampleSentence": "Organisms modify their microclimates by constructing subterranean burrows.",
+      "exampleVi": "Các sinh vật sửa đổi vi khí hậu của chúng bằng cách xây dựng các hang ngầm dưới lòng đất.",
+      "usageContext": "Zoology and behavior.",
+      "level": "B2",
+      "synonyms": [
+        "alter",
+        "adapt"
+      ],
+      "antonyms": [
+        "preserve"
+      ]
+    },
+    {
+      "word": "negate",
+      "ipa": "/nɪˈɡeɪt/",
+      "meaningEn": "to nullify; make ineffective",
+      "meaningVi": "vô hiệu hóa, phủ nhận",
+      "exampleSentence": "Subsequent contradictory findings did not completely negate earlier trial conclusions.",
+      "exampleVi": "Những phát hiện mâu thuẫn sau đó không hoàn toàn phủ nhận các kết luận thử nghiệm trước đó.",
+      "usageContext": "Logic and scientific discourse.",
+      "level": "C1",
+      "synonyms": [
+        "nullify",
+        "invalidate"
+      ],
+      "antonyms": [
+        "affirm",
+        "validate"
+      ]
+    },
+    {
+      "word": "prevalent",
+      "ipa": "/ˈprevələnt/",
+      "meaningEn": "widespread in a particular area or at a particular time",
+      "meaningVi": "thịnh hành, phổ biến",
+      "exampleSentence": "Respiratory afflictions are notably prevalent in densely populated industrial corridors.",
+      "exampleVi": "Các bệnh về đường hô hấp đặc biệt phổ biến ở các hành lang công nghiệp đông dân cư.",
+      "usageContext": "Public health and sociology.",
+      "level": "B2",
+      "synonyms": [
+        "widespread",
+        "pervasive"
+      ],
+      "antonyms": [
+        "rare",
+        "uncommon"
+      ]
+    },
+    {
+      "word": "profound",
+      "ipa": "/prəˈfaʊnd/",
+      "meaningEn": "very great or intense; having deep insight",
+      "meaningVi": "sâu sắc, uyên thâm, to lớn",
+      "exampleSentence": "The invention of Gutenberg's movable type printing press had a profound cultural impact.",
+      "exampleVi": "Phát minh ra máy in chữ kim loại di động của Gutenberg đã có tác động văn hóa sâu sắc.",
+      "usageContext": "History of technology.",
+      "level": "C1",
+      "synonyms": [
+        "intense",
+        "far-reaching"
+      ],
+      "antonyms": [
+        "shallow",
+        "superficial"
+      ]
+    },
+    {
+      "word": "proliferate",
+      "ipa": "/prəˈlɪfəreɪt/",
+      "meaningEn": "to increase rapidly in numbers; multiply",
+      "meaningVi": "sinh sôi, nảy nở nhanh chóng",
+      "exampleSentence": "Algae can proliferate unchecked when agricultural fertilizer runoff infiltrates freshwater lakes.",
+      "exampleVi": "Tảo có thể sinh sôi nảy nở mất kiểm soát khi dòng chảy phân bón nông nghiệp ngấm vào các hồ nước ngọt.",
+      "usageContext": "Limnology and ecology.",
+      "level": "C1",
+      "synonyms": [
+        "multiply",
+        "burgeon"
+      ],
+      "antonyms": [
+        "dwindle",
+        "decrease"
+      ]
+    },
+    {
+      "word": "rigid",
+      "ipa": "/ˈrɪdʒɪd/",
+      "meaningEn": "unable to bend or be forced out of shape; not flexible",
+      "meaningVi": "cứng nhắc, không linh hoạt",
+      "exampleSentence": "Crystalline minerals possess a rigid geometric molecular lattice structure.",
+      "exampleVi": "Khoáng vật kết tinh sở hữu cấu trúc mạng phân tử hình học cứng nhắc.",
+      "usageContext": "Mineralogy and crystallography.",
+      "level": "B2",
+      "synonyms": [
+        "inflexible",
+        "stiff"
+      ],
+      "antonyms": [
+        "pliable",
+        "flexible"
+      ]
+    },
+    {
+      "word": "scrutiny",
+      "ipa": "/ˈskruːtəni/",
+      "meaningEn": "critical observation or examination",
+      "meaningVi": "sự xem xét kỹ lưỡng, khảo sát tỉ mỉ",
+      "exampleSentence": "The proposed cosmological theory came under intense mathematical scrutiny.",
+      "exampleVi": "Lý thuyết vũ trụ học được đề xuất đã phải chịu sự xem xét kỹ lưỡng về mặt toán học.",
+      "usageContext": "Cosmology and peer review.",
+      "level": "C1",
+      "synonyms": [
+        "examination",
+        "inspection"
+      ],
+      "antonyms": [
+        "neglect",
+        "oversight"
+      ]
+    },
+    {
+      "word": "stimulate",
+      "ipa": "/ˈstɪmjuleɪt/",
+      "meaningEn": "to raise levels of physiological or nervous activity",
+      "meaningVi": "kích thích, khuyến khích",
+      "exampleSentence": "Photosynthetic light wavelengths stimulate plant growth during early seasonal cycles.",
+      "exampleVi": "Các bước sóng ánh sáng quang hợp kích thích sự phát triển của thực vật trong các chu kỳ mùa đầu năm.",
+      "usageContext": "Plant physiology.",
+      "level": "B2",
+      "synonyms": [
+        "trigger",
+        "invigorate"
+      ],
+      "antonyms": [
+        "suppress",
+        "inhibit"
+      ]
+    },
+    {
+      "word": "substantiate",
+      "ipa": "/səbˈstænʃieɪt/",
+      "meaningEn": "to provide evidence to support or prove the truth of",
+      "meaningVi": "chứng minh, làm căn cứ",
+      "exampleSentence": "Excavation findings helped substantiate the controversial anthropological narrative.",
+      "exampleVi": "Những phát hiện khai quật đã giúp chứng minh câu chuyện nhân học còn nhiều tranh cãi.",
+      "usageContext": "Archaeology and evidentiary logic.",
+      "level": "C1",
+      "synonyms": [
+        "corroborate",
+        "validate"
+      ],
+      "antonyms": [
+        "refute",
+        "disprove"
+      ]
+    },
+    {
+      "word": "synthetic",
+      "ipa": "/sɪnˈθetɪk/",
+      "meaningEn": "made by chemical synthesis, especially to imitate a natural product",
+      "meaningVi": "tổng hợp, nhân tạo",
+      "exampleSentence": "Modern polymer laboratories develop synthetic fibers capable of enduring extreme thermal variance.",
+      "exampleVi": "Các phòng thí nghiệm polyme hiện đại phát triển các sợi tổng hợp có khả năng chịu được sự thay đổi nhiệt độ cực lớn.",
+      "usageContext": "Materials science.",
+      "level": "B2",
+      "synonyms": [
+        "artificial",
+        "man-made"
+      ],
+      "antonyms": [
+        "natural",
+        "organic"
+      ]
+    }
+  ]
+}

@@ -16,7 +16,7 @@ export const sectionsZhCN: Dictionary = {
   "mic.tapToStart": "点击麦克风开始",
   "common.analysing": "分析中",
   "locked.title": "付费方案专属",
-  "locked.sub": "升级即可解锁另外 {count} 项内容。",
+  "locked.sub": "升级即可解锁另外 {{count}} 项内容。",
   "locked.unlock": "解锁全部",
   "plan.free": "免费版",
   "plan.premium": "Premium",

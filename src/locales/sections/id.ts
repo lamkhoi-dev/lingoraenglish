@@ -16,7 +16,7 @@ export const sectionsId: Dictionary = {
   "mic.tapToStart": "Ketuk mikrofon untuk memulai",
   "common.analysing": "Menganalisis",
   "locked.title": "Termasuk dalam paket berbayar",
-  "locked.sub": "{count} materi lainnya terbuka saat Anda upgrade.",
+  "locked.sub": "{{count}} materi lainnya terbuka saat Anda upgrade.",
   "locked.unlock": "Buka semua akses",
   "plan.free": "Gratis",
   "plan.premium": "Premium",

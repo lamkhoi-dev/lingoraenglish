@@ -16,7 +16,7 @@ export const sectionsTr: Dictionary = {
   "mic.tapToStart": "Başlamak için mikrofona dokunun",
   "common.analysing": "Analiz ediliyor",
   "locked.title": "Ücretli bir plana dahildir",
-  "locked.sub": "Yükseltme yaptığınızda {count} ögenin daha kilidi açılır.",
+  "locked.sub": "Yükseltme yaptığınızda {{count}} ögenin daha kilidi açılır.",
   "locked.unlock": "Tüm kilitleri aç",
   "plan.free": "Ücretsiz",
   "plan.premium": "Premium",

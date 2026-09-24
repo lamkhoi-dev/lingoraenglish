@@ -10,7 +10,7 @@ export const sectionsRu: Dictionary = {
   "nav.listeningLab": "Лаборатория аудирования",
   "nav.tests": "Тесты на говорение",
   "locked.title": "Доступно в платном тарифе",
-  "locked.sub": "Обновите тариф, чтобы открыть еще {count} материалов.",
+  "locked.sub": "Обновите тариф, чтобы открыть еще {{count}} материалов.",
   "locked.unlock": "Открыть всё",
   "plan.free": "Бесплатный",
   "plan.premium": "Premium",

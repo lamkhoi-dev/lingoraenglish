@@ -16,7 +16,7 @@ export const sectionsJa: Dictionary = {
   "mic.tapToStart": "マイクをタップして開始",
   "common.analysing": "分析中",
   "locked.title": "有料プランで利用可能",
-  "locked.sub": "アップグレードすると、さらに{count}個のアイテムがアンロックされます。",
+  "locked.sub": "アップグレードすると、さらに{{count}}個のアイテムがアンロックされます。",
   "locked.unlock": "すべてをアンロック",
   "plan.free": "Free",
   "plan.premium": "Premium",

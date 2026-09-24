@@ -10,7 +10,7 @@ export const sectionsZhTW: Dictionary = {
   "nav.listeningLab": "聽力實驗室",
   "nav.tests": "口說測驗",
   "locked.title": "包含在付費方案中",
-  "locked.sub": "升級即可解鎖另外 {count} 個項目。",
+  "locked.sub": "升級即可解鎖另外 {{count}} 個項目。",
   "locked.unlock": "解鎖全部內容",
   "plan.free": "Free",
   "plan.premium": "Premium",

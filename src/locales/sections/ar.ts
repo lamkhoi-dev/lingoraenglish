@@ -10,7 +10,7 @@ export const sectionsAr: Dictionary = {
   "nav.listeningLab": "مختبر الاستماع",
   "nav.tests": "اختبارات التحدث",
   "locked.title": "مشمول في الخطة المدفوعة",
-  "locked.sub": "يُفتح {count} عنصر إضافي عند الترقية.",
+  "locked.sub": "يُفتح {{count}} عنصر إضافي عند الترقية.",
   "locked.unlock": "فتح كل المحتوى",
   "plan.free": "مجاني",
   "plan.premium": "Premium",

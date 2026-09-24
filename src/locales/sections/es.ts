@@ -16,7 +16,7 @@ export const sectionsEs: Dictionary = {
   "mic.tapToStart": "Toca el micrófono para empezar",
   "common.analysing": "Analizando",
   "locked.title": "Incluido en un plan de pago",
-  "locked.sub": "Desbloquea {count} elementos más al mejorar tu plan.",
+  "locked.sub": "Desbloquea {{count}} elementos más al mejorar tu plan.",
   "locked.unlock": "Desbloquear todo",
   "plan.free": "Gratis",
   "plan.premium": "Premium",

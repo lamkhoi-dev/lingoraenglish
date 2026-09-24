@@ -10,7 +10,7 @@ export const sectionsFr: Dictionary = {
   "nav.listeningLab": "Lab d'écoute",
   "nav.tests": "Tests d'expression",
   "locked.title": "Inclus dans un forfait payant",
-  "locked.sub": "{count} éléments supplémentaires à débloquer en passant à la version supérieure.",
+  "locked.sub": "{{count}} éléments supplémentaires à débloquer en passant à la version supérieure.",
   "locked.unlock": "Tout débloquer",
   "plan.free": "Gratuit",
   "plan.premium": "Premium",

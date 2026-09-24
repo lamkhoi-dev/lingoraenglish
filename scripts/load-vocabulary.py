@@ -43,6 +43,17 @@ CATEGORY_BY_SLUG = {
     "commonly-confused-words": "Commonly Confused Words",
     "ielts-vocabulary": "IELTS Vocabulary",
     "toeic-vocabulary": "TOEIC Vocabulary",
+    "toefl-vocabulary": "TOEFL Vocabulary",
+    "pte-vocabulary": "PTE Vocabulary",
+}
+PREMIUM_ONLY_CATEGORIES = {
+    "Shopping",
+    "Work & Office",
+    "School",
+    "Technology",
+    "Relationships",
+    "TOEFL Vocabulary",
+    "PTE Vocabulary",
 }
 LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}
 FREE_COUNT = 10
@@ -119,7 +130,7 @@ for category, words in by_category.items():
                     q(word.get("level", "B1")),
                     textarray(word.get("synonyms", [])),
                     textarray(word.get("antonyms", [])),
-                    "'free'" if index <= FREE_COUNT else "'premium'",
+                    "'premium'" if (category in PREMIUM_ONLY_CATEGORIES or index > FREE_COUNT) else "'free'",
                     str(index),
                     "'published'",
                 ]
