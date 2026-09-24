@@ -1,7 +1,12 @@
 # Lingora English (LiLy AI) — tình trạng dự án
 
-Cập nhật: 2026-09-17. File này tổng hợp chức năng thực tế trong code để nắm nhanh cái gì chạy được, cái
+Cập nhật: 2026-09-23. File này tổng hợp chức năng thực tế trong code để nắm nhanh cái gì chạy được, cái
 gì chưa, và các mốc quan trọng — đọc mục đầu tiên trước khi làm bất cứ gì khác.
+
+**Phiên 2026-09-21 đến 2026-09-23**: sửa lại luồng nghe mẫu ở Pronunciation (âm → từ → câu chứa từ),
+dọn/mở/khoá lại nhiều category Vocabulary + phát hiện dữ liệu cũ bị hỏng encoding, sửa gate free/premium
+Listening Lab, và thêm **SePay (chuyển khoản ngân hàng)** làm phương thức thanh toán thứ hai song song
+Stripe — xem 4 mục mới ngay trước "⛔ Còn thiếu" bên dưới.
 
 **Phiên 2026-09-17 vừa audit sâu Yêu cầu 11/12/13 + toàn bộ Phần III/IV/V + spec audit 01 vs 02 — xem các
 mục mới ở gần cuối file (trước "⛔ Còn thiếu"), đặc biệt mục "SỰ CỐ NGHIÊM TRỌNG" nếu đang debug lỗi đăng
@@ -65,10 +70,9 @@ tất — file đó giờ chỉ còn giá trị lịch sử (cách đã làm cut
     phân bổ dịch vụ theo tác vụ), đây là quyết định giải Vấn đề 5, từng ghi nhầm là suy ra từ Ràng buộc 2.
   - TTS cache theo `(provider, voice, text)` trong bảng `tts_cache`, có xử lý race-condition khi 2 request
     trùng nhau (`onConflictDoNothing`).
-- **Thanh toán**: Paddle, gọi **thẳng** `api.paddle.com`/`sandbox-api.paddle.com` bằng SDK chính thức
-  `@paddle/paddle-node-sdk` (`src/lib/paddle.server.ts`) — **đã bỏ hẳn gateway trung gian của Lovable**
-  (2026-09-17, xem mục riêng bên dưới). Chưa có `PADDLE_LIVE_API_KEY`/`PAYMENTS_LIVE_WEBHOOK_SECRET` thật
-  — hướng dẫn lấy key ở `BAN GIAO DEV - LINGORA ENGLISH/HUONG_DAN_LAY_PADDLE_KEYS.md`.
+- **Thanh toán**: **Stripe** (từ 2026-09-21, thay cho Paddle — xem mục "Chuyển thanh toán Paddle → Stripe" ở
+  cuối file). Gọi thẳng REST bằng `fetch` (`src/lib/stripe.server.ts`, không SDK). Mọi phần nói về Paddle
+  phía dưới là **lịch sử** — code Paddle đã xoá khỏi nhánh `feat/checkout-stripe`.
 - **Đa ngôn ngữ**: i18n tự viết (`src/lib/i18n.tsx`), có fallback tiếng Anh khi thiếu key
   (`dict?.[key] ?? en[key] ?? String(key)`). Hiện **54/50+ ngôn ngữ** — **ĐÃ HOÀN TẤT 100% YÊU CẦU 8**
   (16 gốc + 38 nạp qua DB seed — xem mục "Đa ngôn ngữ" bên dưới). Một số section lớn (shadow,
@@ -1076,6 +1080,184 @@ bất kỳ — có thể tính nhầm gói.)
 - Trước khi mở bán thật: điền `PADDLE_LIVE_API_KEY` + `PAYMENTS_LIVE_WEBHOOK_SECRET` vào `.env.docker`, chạy
   `node scripts/create-paddle-catalog.mjs --env live --apply`, rồi `deploy.bat` (không tham số).
 - Chưa test được luồng trả tiền hết đường trên trình duyệt (cần bấm checkout với thẻ 4242…). Chưa deploy.
+
+---
+
+## 🟣 Chuyển thanh toán Paddle → Stripe (2026-09-21, nhánh `feat/checkout-stripe`)
+
+Lý do: Paddle chưa duyệt domain; khách (cá nhân ở Canada, bán cho khách hàng ở đó) chọn Stripe. Quyết định đã chốt với
+khách: giá lấy từ bảng `billing_plans` lúc checkout (không tạo catalog giá trên Stripe), thuế phẳng **10% cộng thêm**
+(Stripe Tax Rate), giữ **USD**, xoá hẳn code Paddle, viết lại trang pháp lý cho Stripe.
+
+**Code**
+- `src/lib/stripe.server.ts`: `stripeFetch` (form-encoded, `Stripe-Version: 2024-06-20` cố định), `verifyStripeSignature`
+  (HMAC-SHA256, dung sai 300s), `ensureProductId` (1 Product/gói, gắn `metadata.lingora_tier`), `ensureTaxRateId`,
+  `ensurePortalConfigurationId` (tự tạo cấu hình Billing Portal, tắt "huỷ" trong portal — huỷ chỉ đi qua /billing).
+- `src/lib/billing.functions.ts` (viết lại): `createCheckoutSession` (mode=subscription, `price_data` nội tuyến, chỉ thêm
+  `trial_period_days` khi tài khoản **chưa từng có subscription** ở môi trường đó, `managed_payments[enabled]=false`),
+  `verifyCheckout(sessionId)`, `changeMyPlan` (`proration_behavior=always_invoice`), `cancelMySubscription`
+  (cuối kỳ) / `keepMySubscription`, `createPortalSession`, `listMyPayments` (đọc Invoice từ Stripe), `getInvoiceUrl`.
+- `src/lib/billing-sync.server.ts`: đọc lại subscription từ Stripe rồi upsert bảng `subscriptions`. Gói nhận diện qua
+  `metadata` của subscription (`userId`, `planKey`, `priceId`, `productKey`=tier). Status `canceled` ⇒ hạn truy cập =
+  `ended_at` (không phải cuối kỳ đã trả) vì SQL `has_active_subscription` giữ quyền tới `current_period_end` với `canceled`.
+- `src/routes/api/public/payments/webhook.ts`: 5 sự kiện `customer.subscription.{created,updated,deleted}`,
+  `invoice.paid`, `invoice.payment_failed`; chống trùng bằng `processed_webhook_events`; bỏ qua sự kiện khác chế độ.
+- **Môi trường** giờ suy từ tiền tố `STRIPE_SECRET_KEY` (`sk_test_` → "sandbox", `sk_live_` → "live") ở
+  `src/lib/payments-env.ts` (`getPaymentsEnv`). Cột `subscriptions.environment` vẫn 'sandbox'/'live'. Đổi test↔live = sửa
+  `.env.docker` rồi `deploy.bat` (không còn build-arg). Ba dòng Paddle sandbox cũ đã chuyển sang `legacy_paddle_sandbox`.
+- DB: migration `0013_payment_provider_neutral.sql` đổi `paddle_subscription_id/paddle_customer_id` →
+  `provider_subscription_id/provider_customer_id` (đã chạy trên production).
+- Env (`.env.docker`): `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `PAYMENT_TAX_PERCENT` (mặc định 10).
+  Webhook tạo bằng `node scripts/setup-stripe.mjs --url https://lingoraenglishai.com/api/public/payments/webhook`
+  (chạy 1 lần mỗi chế độ; secret ghi thẳng vào `.env.docker`, không in ra).
+
+**Đã test trên production (Stripe TEST, 2026-09-21, trình duyệt thật)**: checkout có dùng thử 7 ngày ("$0.00 due today, then
+$10.99 = 9.99 + 10% tax"); thẻ 4242 → `/billing/success?session_id=…` xác nhận; DB có `trialing`, `sub_…/cus_…`, webhook
+`invoice.paid`+`subscription.created` được ghi; `/billing` (hạn trial, lịch sử, Update payment method → Stripe Billing
+Portal, Invoice → hosted invoice, Cancel → "Access ends on…", Keep, Change plan trong lúc trial giữ nguyên hạn trial);
+kết thúc trial sớm bằng API → thu $19.99 + $2.00 thuế = $21.99; thẻ `4000 0000 0000 0002` bị từ chối ngay trên trang
+Stripe; mã giảm giá (`TESTOFF20` tạo bằng API, 20% kỳ đầu, thuế tính trên số sau giảm); tài khoản đã từng đăng ký
+**không** được dùng thử lại (thu ngay).
+
+**Việc còn treo**
+- ⚠️ **Managed Payments (Stripe làm Merchant of Record)** bật mặc định trên tài khoản Stripe của khách; code tắt nó cho
+  từng phiên (`managed_payments[enabled]=false`) vì khách tự bán + tự cộng thuế 10%. Nếu khách muốn Stripe lo thuế thì
+  phải bật lại, nhập product tax code, bỏ thuế 10% thủ công và viết lại pháp lý theo hướng MoR.
+- Chưa có key **live** (`sk_live_…`): khi có, tạo lại webhook live bằng `setup-stripe.mjs`, đổi 2 biến trong `.env.docker`,
+  `deploy.bat`. Cần Stripe account đã kích hoạt để nhận tiền thật.
+- Chuỗi dịch ngôn ngữ khác `pricing.faq.tax.a`, `pricing.faq.refund.a`, `billing.prorationNote`, `billing.morNote` (và bỏ
+  key `billing.changePlanAfterTrial`) vẫn còn nội dung "merchant of record"/"payment partner" — cần dịch lại theo bản
+  `en.ts` mới (giao AI dịch khác).
+- `.env.docker` còn biến Paddle không dùng nữa — xoá tuỳ ý.
+
+---
+
+## 🟣 Pronunciation — Listen giờ đọc "âm → từ → câu chứa từ đó" (2026-09-22)
+
+Trước đây "Nghe" chỉ đọc âm + tên tiếng Anh của âm (vd "short i") hoặc câu chung chung không liên quan
+đến từ đang chọn. Khách yêu cầu: 1 âm → 1 từ → 1 câu **có chứa đúng từ đó**, và câu nên lấy luôn theo từ
+cho hợp lý thay vì danh sách câu chung.
+
+- `src/lib/pronunciation-content.ts`: thêm type `WordExample = { word: string; sentence: string }`,
+  đổi `Phoneme.words` từ `string[]` → `WordExample[]`.
+- `src/lib/pronunciation-sounds.server.ts`: viết lại **cả 44 âm × 6 từ = 264 cặp từ-câu** (mỗi từ 1 câu
+  ví dụ ngắn, tự nhiên, chứa đúng từ đó) — sinh bằng script nối theo **tên từ** (không theo thứ tự dòng)
+  để tránh lỗi gán nhầm câu cho từ (rút kinh nghiệm từ vụ sửa IPA PTE/TOEFL bên dưới).
+- `src/routes/pronunciation.tsx` + `src/components/lily/pron-practice.tsx`: bấm 1 từ → tính `wordSentence`
+  tương ứng, hiện chữ câu ví dụ ngay dưới danh sách từ **và** dưới khung Practice (khách báo lần đầu chỉ
+  đọc bằng giọng, quên hiện chữ — đã sửa). Đọc mẫu giờ nối `sound × 2 → word → sentence`.
+- Có AI/người khác sau đó tách phần build script đọc IPA ra `src/lib/ipa-tts-map.ts` (`buildSoundScript`)
+  gọn hơn bản gốc của tôi — **không đụng lại**, chỉ mô tả ở đây để biết chỗ logic đọc âm hiện đang nằm.
+
+---
+
+## 🟣 Vocabulary — mở/khoá lại nhiều category, top-up đủ 100 Premium, phát hiện dữ liệu cũ hỏng encoding (2026-09-22)
+
+Chuỗi yêu cầu liên tiếp trong 1 phiên, đã đảo qua lại vài lần — **trạng thái CUỐI CÙNG** áp dụng:
+
+- **Icon khoá category**: ban đầu mở 10 từ free cho 7 category (Shopping, Work & Office, School,
+  Technology, Relationships, TOEFL/PTE Vocabulary) rồi bỏ icon khoá trên chip — sau đó khách đổi ý: **chỉ
+  bỏ icon, khoá lại 100% nội dung** (đã revert). `PREMIUM_ONLY_VOCAB_CATEGORIES` trong `src/lib/ipa-data.ts`
+  giờ để **rỗng `[]`** (không category nào hiện icon khoá ở chip nữa, kể cả cái đang thật sự khoá).
+- **Free/category**: cuối cùng chốt **20 từ free mỗi category** (tăng từ 10, và từ 0 cho 7 category kia) —
+  áp dụng đồng loạt cho **toàn bộ 20 category**.
+- **Premium/category**: chốt mỗi category phải **≥100 từ Premium**. Đã bổ sung **239 từ mới** (đúng chủ
+  đề, đủ IPA + nghĩa tiếng Việt + câu ví dụ) cho 19/20 category (Idioms đã sẵn 110, không đụng). Tổng mỗi
+  category giờ: 20 free + 100 (hoặc hơn) premium.
+- **`components/lily/locked-content.tsx`** ("Có trong gói trả phí"): bỏ giới hạn `.slice(0, 12)` — hiện đủ
+  cả 20 category thay vì chỉ 12 đầu.
+- **🔴 Lỗi `{count}` không thay số**: `t()` trong `src/lib/i18n.tsx` chỉ nhận placeholder `{{count}}` (2 cặp
+  ngoặc), nhưng key `locked.sub` ở **cả 16 ngôn ngữ** (kể cả `en.ts`) lỡ viết `{count}` (1 cặp) → hiện chữ
+  `{count}` nguyên văn. Đã sửa hết 16 file trong `src/locales/`.
+- **🔴 Phát hiện dữ liệu cũ bị hỏng encoding (có từ trước, không phải do phiên này gây ra)**: 281 dòng
+  trong `vocabulary_words` có ký tự "?" thay cho dấu tiếng Việt/IPA — mất vĩnh viễn, không phục hồi được từ
+  dữ liệu hiện có. Chi tiết theo trường: `ipa` 200 dòng (toàn bộ 100 từ gốc của **PTE Vocabulary** +
+  **TOEFL Vocabulary**, chỉ 2 category này), `meaning_vi` 201, `example_vi` 279 (nhiều nhất), `example_sentence`
+  81 dòng tiếng Anh — `meaning_en` và bản thân `word` sạch 100%.
+  - **Đã sửa phần IPA (200/200 từ)**: viết lại bằng script nối theo `word` (không theo vị trí dòng — lần
+    đầu gõ tay bị lệch dòng khiến hàng chục từ nhận nhầm IPA của từ khác, phải viết lại bằng cách an toàn
+    hơn). Xem `id` các dòng qua `select id,category,word,level from vocabulary_words where ipa like '%?%'`
+    nếu cần đối chiếu lại.
+  - **Phần tiếng Việt (nghĩa + câu ví dụ, ~281 dòng) VẪN CHƯA SỬA** — thuộc phạm vi "dịch thuật" khách
+    từng nói để AI khác làm, đang chờ khách quyết: tự tôi viết lại hay giao AI dịch kia.
+
+---
+
+## 🟣 Listening Lab — chỉ A1 có 3 bài free, free luôn hiện trước trong "All levels" (2026-09-22)
+
+Dữ liệu `listening_lessons` từ trước đã sẵn mỗi level (A1-C1) có đúng 3 bài `is_free=true` — khách chốt lại
+ý: **chỉ A1 (Beginner) có 3 bài free, A2 trở lên 100% Premium**. Đã `UPDATE is_free=false` cho 12 bài
+(3×4 level A2/B1/B2/C1), giữ nguyên 3 bài free của A1. Không cần deploy vì chỉ là đổi dữ liệu.
+
+Riêng vấn đề sắp xếp: SQL function `listening_catalogue()` (`ORDER BY sort_order, slug`) không ưu tiên
+free lên trước khi xem "All levels" — sửa ở tầng hiển thị thay vì đổi function dùng chung: thêm
+`.sort((a, b) => Number(b.unlocked) - Number(a.unlocked))` (stable sort) vào `filtered` trong
+`src/routes/listening-lab.tsx`. Với người dùng Premium, `unlocked` luôn true nên sort này không đổi gì
+(giữ nguyên thứ tự giáo trình) — chỉ ảnh hưởng người dùng free/chưa đăng nhập.
+
+---
+
+## 🟣 SePay (chuyển khoản ngân hàng) — phương thức thanh toán thứ hai song song Stripe (2026-09-22/23)
+
+Khách cung cấp STK để nhận chuyển khoản: **102000210686 · Vietcombank · PHAN THI THU THAO**. API key SePay
+**chưa có** ("tôi cung cấp api sau") — phần cần key (webhook tự động xác nhận) đã viết sẵn nhưng **chủ động
+từ chối mọi request khi chưa cấu hình secret** (fail closed), không kích hoạt gói nếu chưa xác thực được.
+
+**Cơ chế SePay** (tra cứu từ developer.sepay.vn lúc làm): webhook POST JSON có `id, code, content,
+transferType ("in"/"out"), transferAmount, referenceCode`; xác thực bằng HMAC-SHA256 — header
+`X-SePay-Signature: sha256={hex}` + `X-SePay-Timestamp`, ký trên chuỗi `{timestamp}.{raw body}` (giống hệt
+kiểu Stripe đã làm). Phải trả đúng `{"success": true}` HTTP 200 trong 30s.
+
+**Code mới**
+- `src/lib/sepay.server.ts`: hằng số STK (`SEPAY_BANK`), `verifySepaySignature` (HMAC, cùng khuôn với
+  `verifyStripeSignature`), `generateReferenceCode` (mã 8 ký tự tiền tố `LGR`, dùng để khớp giao dịch với
+  đơn hàng), `extractReferenceCode` (đọc `code` SePay tự tách, dự phòng regex trên `content` nếu SePay
+  không tách được), `vietQrImageUrl` (ảnh QR **VietQR công khai, không cần key SePay** — hoạt động ngay từ
+  bây giờ), **`usdCentsToVnd`** (quy đổi giá USD hiện có sang VNĐ lúc thanh toán, làm tròn nghìn — khách
+  chốt **không** duy trì bảng giá VNĐ riêng, tỷ giá đọc từ biến môi trường `USD_TO_VND_RATE`, mặc định
+  25500, sửa được không cần deploy lại code).
+- `src/lib/bank-transfer.functions.ts`: `createBankTransferOrder` (tạo đơn + mã tham chiếu + hạn 30 phút),
+  `getBankTransferOrder` (poll trạng thái, tự chuyển `expired` khi quá hạn), `activateBankTransferOrder`
+  (dùng chung cho cả webhook lẫn admin xác nhận tay — upsert thẳng vào bảng `subscriptions` với
+  `provider_subscription_id = "sepay_<order id>"`, `cancel_at_period_end: true` **luôn luôn** vì chuyển
+  khoản không có thẻ lưu sẵn để tự trừ tiếp — hết hạn phải chuyển khoản lại, không tự động gia hạn),
+  `adminConfirmBankTransferOrder` + `adminListBankTransferOrders` (route riêng cho admin).
+- `src/routes/api/public/payments/sepay-webhook.ts`: verify chữ ký → khớp `referenceCode` với đơn `pending`
+  → so khớp đúng số tiền → gọi `activateBankTransferOrder`. Chống trùng bằng bảng `processed_webhook_events`
+  có sẵn (khoá tổng hợp `eventId="sepay_<id>", environment="sepay"` — tách hẳn khỏi khoá Stripe).
+- `src/components/lily/bank-transfer-checkout.tsx` + route `/billing/bank-transfer?order=<id>`: hiện QR,
+  STK, số tiền, mã tham chiếu (có nút Copy từng ô), poll trạng thái mỗi 4s.
+- `src/routes/pricing.tsx`: thêm nút "Pay by bank transfer (VietQR)" dưới nút Stripe của 2 gói trả phí.
+- `src/components/lily/admin-billing.tsx`: thêm khối "Bank transfer orders (SePay)" trong tab Billing —
+  admin tự bấm "Mark as paid" sau khi kiểm tra tài khoản ngân hàng thật. **Đây là cách duy nhất kích hoạt
+  gói trả qua SePay cho tới khi có API key.**
+- **🔴 Quan trọng — đã vá**: `cancelMySubscription`/`keepMySubscription`/`changeMyPlan` (trong
+  `billing.functions.ts`) gọi thẳng API Stripe theo `provider_subscription_id` — nếu không chặn thì gói trả
+  qua SePay (`provider_subscription_id` dạng `sepay_...`) sẽ gọi Stripe với ID giả, lỗi 404. Đã thêm guard
+  `isBankTransferSubscription()` chặn sớm, báo lỗi rõ ràng thay vì crash.
+- DB: migration `0014_sepay_bank_transfer.sql` (bảng `bank_transfer_orders`, RLS: tự xem đơn của mình +
+  admin toàn quyền) và `0015_sepay_vnd_computed.sql` (bỏ 2 cột `monthly_amount_vnd`/`yearly_amount_vnd` —
+  thử nghiệm ban đầu là giá VNĐ cố định do tôi tự tính rồi lưu, khách yêu cầu đổi sang tính động nên xoá
+  cột, không dùng nữa). Cả 2 đã chạy trên production.
+
+**Đã test qua production**: build Docker thật 2 lần (xác nhận route-tree + type-check qua, vì `tsc` cục bộ
+báo lỗi giả do `routeTree.gen.ts` chỉ tự sinh lúc build thật, không sinh khi chạy `tsc --noEmit` suông) +
+deploy; ảnh QR VietQR trả về thật (200, PNG, đúng STK/tên); nút "Pay by bank transfer" hiện đúng trên
+`/pricing` (đã chụp ảnh xác nhận); webhook trả 400 khi gọi không có chữ ký (đúng thiết kế fail-closed); mô
+phỏng toàn luồng tạo đơn → xác nhận → tạo `subscriptions` → `effective_tier()`/`has_active_subscription()`
+đều đúng (test bằng SQL trực tiếp trên `demo-free`, đã dọn sạch dữ liệu test sau đó). **Chưa test được bằng
+trình duyệt thật** (công cụ Playwright cục bộ bị lỗi mạng liên tục trong 2 buổi làm việc gần đây, không
+liên quan tới code — xác nhận bằng `curl` site vẫn khoẻ mọi lần).
+
+**Việc còn treo**
+- Chưa có API key + webhook secret SePay thật — khi có: đăng ký URL
+  `https://lingoraenglishai.com/api/public/payments/sepay-webhook` trên SePay, điền `SEPAY_WEBHOOK_SECRET`
+  vào `.env.docker`, `deploy.bat`. Không cần sửa code gì thêm.
+- Chưa test luồng thật bằng trình duyệt (tạo đơn thật → quét QR → chuyển khoản thật/giả lập → admin xác
+  nhận tay) — chỉ mới xác nhận từng phần riêng lẻ như trên.
+- Gói trả qua SePay hết hạn thì UI vẫn hiện các nút Stripe thường (Cancel/Keep/Change plan) trên trang
+  `/billing` — bấm vào sẽ hiện lỗi rõ ràng thay vì crash (đã chặn ở server), nhưng **chưa** ẩn hẳn nút hay
+  làm UI riêng cho trường hợp này — có thể gây khó hiểu, nên làm tiếp nếu có thời gian.
 
 ---
 
