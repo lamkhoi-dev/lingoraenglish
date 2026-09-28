@@ -1269,6 +1269,14 @@
     "tour.vocab.step1.title": "Naršyti pagal kategoriją",
     "tour.vocab.step1.content": "Filtruokite žodžių sąrašą pagal temą, kad sutelktumėte savo mokymąsi.",
     "tour.vocab.step2.title": "Išmokite žodį",
-    "tour.vocab.step2.content": "Paklausykite, kaip DI ištaria žodį ar pavyzdinį sakinį, pažymėkite jį kaip žinomą arba siųskite tiesiai į kalbėjimo pratybas."
+    "tour.vocab.step2.content": "Paklausykite, kaip DI ištaria žodį ar pavyzdinį sakinį, pažymėkite jį kaip žinomą arba siųskite tiesiai į kalbėjimo pratybas.",
+    "coach.hint.needIdea": "Reikia idėjos? Rodyti užuominą",
+    "coach.hint.usedUp": "Šiai temai jau panaudojote nemokamą užuominą.",
+    "coach.hint.upgrade": "Atnaujinkite planą neribotoms užuominoms",
+    "coach.hint.ideasTitle": "Idėjos",
+    "coach.hint.startersTitle": "Sakinio pradžios",
+    "coach.hint.needMoreHelp": "Reikia daugiau pagalbos?",
+    "coach.hint.showExample": "Rodyti pavyzdį",
+    "coach.hint.nowYourTurn": "Dabar tavo eilė!"
   }
 }

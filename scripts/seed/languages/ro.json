@@ -1268,6 +1268,14 @@
     "tour.vocab.step1.title": "Răsfoire după categorie",
     "tour.vocab.step1.content": "Filtrați lista de cuvinte după subiect pentru a vă concentra studiul.",
     "tour.vocab.step2.title": "Învățați un cuvânt",
-    "tour.vocab.step2.content": "Ascultați IA spunând cuvântul sau propoziția exemplu, marcați-l ca fiind cunoscut, sau trimiteți-l direct la o practică de vorbire."
+    "tour.vocab.step2.content": "Ascultați IA spunând cuvântul sau propoziția exemplu, marcați-l ca fiind cunoscut, sau trimiteți-l direct la o practică de vorbire.",
+    "coach.hint.needIdea": "Ai nevoie de o idee? Arată un indiciu",
+    "coach.hint.usedUp": "Ai folosit deja indiciul gratuit pentru acest subiect.",
+    "coach.hint.upgrade": "Fă upgrade pentru indicii nelimitate",
+    "coach.hint.ideasTitle": "Idei",
+    "coach.hint.startersTitle": "Începuturi de propoziții",
+    "coach.hint.needMoreHelp": "Ai nevoie de mai mult ajutor?",
+    "coach.hint.showExample": "Arată un exemplu",
+    "coach.hint.nowYourTurn": "Acum e rândul tău!"
   }
 }

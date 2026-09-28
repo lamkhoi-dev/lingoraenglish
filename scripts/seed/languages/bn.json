@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "বিভাগ অনুযায়ী দেখুন",
     "tour.vocab.step1.content": "আপনার পড়াশোনা কেন্দ্রীভূত করতে বিষয় অনুযায়ী শব্দ তালিকা ফিল্টার করুন।",
     "tour.vocab.step2.title": "একটি শব্দ শিখুন",
-    "tour.vocab.step2.content": "AI-কে শব্দ বা উদাহরণ বাক্য বলতে শুনুন, জানা হিসেবে চিহ্নিত করুন, অথবা সরাসরি স্পিকিং অনুশীলনে পাঠান।"
+    "tour.vocab.step2.content": "AI-কে শব্দ বা উদাহরণ বাক্য বলতে শুনুন, জানা হিসেবে চিহ্নিত করুন, অথবা সরাসরি স্পিকিং অনুশীলনে পাঠান।",
+    "coach.hint.needIdea": "একটা আইডিয়া দরকার? ইঙ্গিত দেখুন",
+    "coach.hint.usedUp": "আপনি এই বিষয়ের জন্য আপনার বিনামূল্যের ইঙ্গিত ব্যবহার করে ফেলেছেন।",
+    "coach.hint.upgrade": "সীমাহীন ইঙ্গিতের জন্য আপগ্রেড করুন",
+    "coach.hint.ideasTitle": "আইডিয়া",
+    "coach.hint.startersTitle": "বাক্যের শুরু",
+    "coach.hint.needMoreHelp": "আরও সাহায্য দরকার?",
+    "coach.hint.showExample": "একটি উদাহরণ দেখুন",
+    "coach.hint.nowYourTurn": "এখন আপনার পালা!"
   }
 }

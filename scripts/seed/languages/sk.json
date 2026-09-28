@@ -1269,6 +1269,14 @@
     "tour.vocab.step1.title": "Prezerať podľa kategórie",
     "tour.vocab.step1.content": "Filtrujte zoznam slov podľa témy, aby ste sa sústredili na štúdium.",
     "tour.vocab.step2.title": "Naučte sa slovo",
-    "tour.vocab.step2.content": "Vypočujte si, ako AI vysloví slovo alebo príkladovú vetu, označte ho ako známe alebo ho pošlite priamo do rečového cvičenia."
+    "tour.vocab.step2.content": "Vypočujte si, ako AI vysloví slovo alebo príkladovú vetu, označte ho ako známe alebo ho pošlite priamo do rečového cvičenia.",
+    "coach.hint.needIdea": "Potrebujete nápad? Zobraziť radu",
+    "coach.hint.usedUp": "Pre túto tému ste už využili svoju bezplatnú radu.",
+    "coach.hint.upgrade": "Prejdite na vyšší plán pre neobmedzené rady",
+    "coach.hint.ideasTitle": "Nápady",
+    "coach.hint.startersTitle": "Začiatky viet",
+    "coach.hint.needMoreHelp": "Potrebujete ďalšiu pomoc?",
+    "coach.hint.showExample": "Zobraziť príklad",
+    "coach.hint.nowYourTurn": "Teraz ste na rade vy!"
   }
 }

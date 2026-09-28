@@ -1268,6 +1268,14 @@
     "tour.vocab.step1.title": "Pārlūkot pēc kategorijas",
     "tour.vocab.step1.content": "Filtrējiet vārdu sarakstu pēc tēmas, lai fokusētu savu mācīšanos.",
     "tour.vocab.step2.title": "Iemācieties vārdu",
-    "tour.vocab.step2.content": "Klausieties, kā MI izrunā vārdu vai piemēra teikumu, atzīmējiet to kā zināmu vai nosūtiet to tieši runas treniņam."
+    "tour.vocab.step2.content": "Klausieties, kā MI izrunā vārdu vai piemēra teikumu, atzīmējiet to kā zināmu vai nosūtiet to tieši runas treniņam.",
+    "coach.hint.needIdea": "Vajag ideju? Rādīt padomu",
+    "coach.hint.usedUp": "Šai tēmai jūs jau esat izmantojis bezmaksas padomu.",
+    "coach.hint.upgrade": "Jauniniet, lai iegūtu neierobežotus padomus",
+    "coach.hint.ideasTitle": "Idejas",
+    "coach.hint.startersTitle": "Teikuma sākumi",
+    "coach.hint.needMoreHelp": "Vajag vēl palīdzību?",
+    "coach.hint.showExample": "Rādīt piemēru",
+    "coach.hint.nowYourTurn": "Tagad tava kārta!"
   }
 }

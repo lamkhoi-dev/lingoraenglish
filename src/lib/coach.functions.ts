@@ -12,9 +12,9 @@ import { z } from "zod";
 import { withAdmin, withAnon, withUser } from "@/db";
 import { aiUsageLog, coachSessions, coachTopics, coachTurns } from "@/db/schema/schema";
 import { getOptionalUserId, requireAdmin, requireAuth } from "@/lib/require-auth";
-import { currentLlmModel, currentTextProvider, llmCompleteWhole, type ChatMessage } from "./ai-providers.server";
+import { currentLlmModel, currentTextProvider, llmCompleteWhole, llmJson, type ChatMessage } from "./ai-providers.server";
 import { getLimits, resolveTier, UpgradeRequiredError, type Tier } from "./entitlements.server";
-import { explanationLanguageSchema } from "./explanation-language";
+import { explanationLanguageSchema, langNote } from "./explanation-language";
 import { prewarmTts, type SpeakingAnalysis } from "./lily.functions";
 import { analyseSpeakingTranscript } from "./speaking-analysis.server";
 
@@ -281,7 +281,12 @@ export const getCoachSession = createServerFn({ method: "GET" })
   .handler(async ({ data, context }) => {
     const sessionRows = await withAdmin((db) =>
       db
-        .select({ id: coachSessions.id, userId: coachSessions.userId, topicId: coachSessions.topicId })
+        .select({
+          id: coachSessions.id,
+          userId: coachSessions.userId,
+          topicId: coachSessions.topicId,
+          hintUsed: coachSessions.hintUsed,
+        })
         .from(coachSessions)
         .where(eq(coachSessions.id, data.sessionId))
         .limit(1),
@@ -322,7 +327,7 @@ export const getCoachSession = createServerFn({ method: "GET" })
       turns.push({ role: "coach", text: row.coachText });
     }
 
-    return { sessionId: session.id, topic: toPublicTopic(topic), turns };
+    return { sessionId: session.id, topic: toPublicTopic(topic), turns, hintUsed: session.hintUsed };
   });
 
 /* ------------------------------- session start ---------------------------- */
@@ -381,7 +386,7 @@ export const startCoachSession = createServerFn({ method: "POST" })
       }),
     );
 
-    return { sessionId: session.id, reply: opening, usage, level, topic: toPublicTopic(topic) };
+    return { sessionId: session.id, reply: opening, usage, level, topic: toPublicTopic(topic), hintUsed: false };
   });
 
 /* -------------------------------- coach reply ----------------------------- */
@@ -571,6 +576,170 @@ export const coachReply = createServerFn({ method: "POST" })
       usage: after,
       locked: after.tier === "free" && after.freeTurnsUsed >= after.freeTurnLimit,
       turnNumber,
+    };
+  });
+
+/* ---------------------------------- hints ---------------------------------- */
+
+/**
+ * Scaffolding for the learner's CURRENT (unanswered) coach question — added
+ * because free-form questions the AI asks live have no pre-written answer
+ * guide to fall back to. Shared by both hint endpoints below: finds the
+ * question to build a hint for (the latest coachText — turn 0's opening
+ * message if nobody has answered yet, otherwise the most recent reply) and
+ * the session/topic context around it.
+ */
+async function loadHintContext(sessionId: string, userId: string) {
+  const sessionRows = await withAdmin((db) =>
+    db
+      .select({
+        id: coachSessions.id,
+        userId: coachSessions.userId,
+        topicId: coachSessions.topicId,
+        level: coachSessions.level,
+        hintUsed: coachSessions.hintUsed,
+      })
+      .from(coachSessions)
+      .where(eq(coachSessions.id, sessionId))
+      .limit(1),
+  );
+  const session = sessionRows[0];
+  if (!session || session.userId !== userId) throw new Error("Session not found.");
+
+  const topicRows = await withAdmin((db) =>
+    db.select().from(coachTopics).where(eq(coachTopics.id, session.topicId ?? "")).limit(1),
+  );
+  const topic = topicRows[0];
+  if (!topic) throw new Error("That topic is no longer available.");
+
+  const history = await withAdmin((db) =>
+    db
+      .select({ turnNumber: coachTurns.turnNumber, coachText: coachTurns.coachText })
+      .from(coachTurns)
+      .where(eq(coachTurns.sessionId, session.id))
+      .orderBy(asc(coachTurns.turnNumber))
+      .limit(30),
+  );
+  const question = [...history].reverse().find((row) => row.coachText)?.coachText ?? topic.openingMessage;
+
+  return { session, topic, question };
+}
+
+export type CoachHintIdea = { emoji: string; text: string };
+
+const hintInput = z.object({ sessionId: z.string().uuid() });
+
+/**
+ * Tier 1 of the hint: 4 small emoji'd sub-questions that break the coach's
+ * question into easier pieces, plus 3 English sentence starters — never
+ * translated (they scaffold the English answer itself, they aren't
+ * feedback), so no `lang` input is needed here (contrast getCoachHintExample
+ * below). Free learners get exactly 1 use of this per topic session ("mỗi
+ * bài free thì cho 1 lượt thôi") — paid tiers are unlimited; coach_sessions
+ * .hint_used tracks it because the allowance is "1 help per topic", not "1
+ * help per question", so it must survive across every question in the
+ * session, not reset each turn.
+ */
+export const getCoachHintIdeas = createServerFn({ method: "POST" })
+  .middleware([requireAuth])
+  .inputValidator((d: unknown) => hintInput.parse(d))
+  .handler(async ({ data, context }) => {
+    const { session, topic, question } = await loadHintContext(data.sessionId, context.userId);
+
+    const usage = await readUsage(context.userId);
+    if (usage.tier === "free" && session.hintUsed) {
+      throw new UpgradeRequiredError(
+        "conversation",
+        usage.tier,
+        "You've used your free hint for this topic. Upgrade to Premium for unlimited hints on every question.",
+      );
+    }
+
+    const messages: ChatMessage[] = [
+      {
+        role: "system",
+        content:
+          `You help a ${session.level}-level English learner answer their coach's question. ` +
+          `Coach's question: "${question}"\nTopic: ${topic.title}.` +
+          `${topic.vocabularyFocus ? ` Useful words for this topic: ${topic.vocabularyFocus}.` : ""}\n\n` +
+          `Give exactly 4 short related mini-questions (each starting with one fitting emoji) that break the ` +
+          `answer into easy pieces, and exactly 3 short English sentence starters (each ending in "___" or "...") ` +
+          `the learner can complete out loud. Keep the language at ${session.level} level — very simple words and ` +
+          `short sentences for A1/A2. Reply as JSON only, no other text: ` +
+          `{"ideas":[{"emoji":"","text":""}],"starters":["",""]}`,
+      },
+    ];
+    const { value, inputTokens, outputTokens } = await llmJson<{ ideas: CoachHintIdea[]; starters: string[] }>(
+      messages,
+      400,
+    );
+
+    await withAdmin((db) => db.update(coachSessions).set({ hintUsed: true }).where(eq(coachSessions.id, session.id)));
+    await withAdmin((db) =>
+      db.insert(aiUsageLog).values({
+        userId: context.userId,
+        capability: "coach_hint",
+        provider: currentTextProvider(),
+        model: currentLlmModel(),
+        units: 1,
+        inputTokens,
+        outputTokens,
+      }),
+    );
+
+    return { ideas: value.ideas.slice(0, 4), starters: value.starters.slice(0, 3) };
+  });
+
+const hintExampleInput = hintInput.extend({ lang: explanationLanguageSchema });
+
+/**
+ * Tier 2 ("Need more help? → Show an example"): one full model answer plus
+ * its translation into the learner's own explanation-language setting (the
+ * same 54-language mechanism coachReply's scoring already uses) — unlike
+ * the Ideas/starters above, this genuinely needs translating since its job
+ * is letting a true beginner check what the English means, not modelling
+ * English structure. Requires hint_used already true (i.e. Tier 1 was
+ * requested first this session) — not a separate quota, just sequencing:
+ * there is no "show the example" without first asking for a hint.
+ */
+export const getCoachHintExample = createServerFn({ method: "POST" })
+  .middleware([requireAuth])
+  .inputValidator((d: unknown) => hintExampleInput.parse(d))
+  .handler(async ({ data, context }) => {
+    const { session, topic, question } = await loadHintContext(data.sessionId, context.userId);
+    if (!session.hintUsed) throw new Error("Get a hint first.");
+
+    const messages: ChatMessage[] = [
+      {
+        role: "system",
+        content:
+          `Write ONE natural example answer a ${session.level}-level English learner could say to their coach's ` +
+          `question: "${question}" (topic: ${topic.title}). 1-2 short sentences, ${session.level}-appropriate ` +
+          `vocabulary and grammar. ${langNote(data.lang)}\n` +
+          `Reply as JSON only, no other text: {"example_en":"","example_translated":""}` +
+          (data.lang === "en" ? " (both fields identical, plain English)." : "."),
+      },
+    ];
+    const { value, inputTokens, outputTokens } = await llmJson<{ example_en: string; example_translated: string }>(
+      messages,
+      250,
+    );
+
+    await withAdmin((db) =>
+      db.insert(aiUsageLog).values({
+        userId: context.userId,
+        capability: "coach_hint",
+        provider: currentTextProvider(),
+        model: currentLlmModel(),
+        units: 1,
+        inputTokens,
+        outputTokens,
+      }),
+    );
+
+    return {
+      exampleEn: value.example_en,
+      exampleTranslated: data.lang === "en" ? value.example_en : value.example_translated,
     };
   });
 

@@ -827,16 +827,27 @@ function PronunciationPage() {
                       }}
                       className={cn(
                         "rounded-xl px-3 py-2 text-left text-sm ring-1 ring-border transition-colors",
-                        l.id === lesson?.id ? "bg-brass text-plum-deep" : "bg-surface-2 text-foreground hover:bg-surface-3",
+                        l.id === lesson?.id ? "bg-brass text-plum-deep shadow-brass font-medium" : "bg-surface-2 text-foreground hover:bg-surface-3",
                         !l.unlocked && "opacity-60",
+                        l.title === "Practice" && l.id !== lesson?.id && "border-brass/40 bg-brass/10 hover:bg-brass/20",
                       )}
                     >
                       <span className="flex items-center gap-1.5 font-semibold">
-                        {l.title}
+                        {l.title === "Practice" ? (
+                          <span className="inline-flex items-center gap-1 text-brass-soft font-bold">
+                            🎯 Practice
+                          </span>
+                        ) : (
+                          l.title
+                        )}
                         {!l.unlocked && <Lock className="size-3" />}
                       </span>
-                      <span className="text-xs opacity-80">
-                        {l.level} · {l.difficulty}
+                      <span className="mt-0.5 flex items-center gap-1.5 text-xs opacity-80">
+                        {l.title === "Practice" ? (
+                          <span className="font-semibold text-brass-soft">50 drills</span>
+                        ) : (
+                          `${l.level} · ${l.difficulty}`
+                        )}
                       </span>
                     </button>
                   ))}
@@ -892,9 +903,19 @@ function PronunciationPage() {
                         </p>
                       )}
 
-                      <div className="mt-5 space-y-2">
+                      <div className="mt-5 flex items-center justify-between">
+                        <h3 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
+                          {t("pron.practise")} ({lesson.items.length})
+                        </h3>
+                        <span className="text-xs text-muted-foreground">
+                          {locale === "vi" ? "Bấm vào từng câu để luyện nói với AI" : "Click item to practise with AI"}
+                        </span>
+                      </div>
+
+                      <div className="mt-3 space-y-2 max-h-[700px] overflow-y-auto pr-1">
                         {lesson.items.map((it, i) => {
                           const itemIpa = getWordIpa(it.text);
+                          const isSelected = i === itemIndex;
                           return (
                             <button
                               key={it.text + i}
@@ -902,23 +923,35 @@ function PronunciationPage() {
                               onClick={() => setItemIndex(i)}
                               className={cn(
                                 "block w-full rounded-xl px-4 py-3 text-left ring-1 ring-border transition-colors",
-                                i === itemIndex ? "bg-brass/15 ring-brass/50" : "bg-surface-2 hover:bg-surface-3",
+                                isSelected ? "bg-brass/15 ring-brass/50 shadow-xs" : "bg-surface-2 hover:bg-surface-3",
                               )}
                             >
-                              <div className="flex flex-wrap items-baseline gap-2">
-                                <span className="block text-sm font-medium text-foreground">{it.text}</span>
-                                {itemIpa && (
-                                  <span className="font-mono text-xs text-brass-soft">
-                                    /{itemIpa}/
-                                  </span>
-                                )}
-                              </div>
-                              {it.pattern && (
-                                <span className="mt-1 block text-sm font-semibold tracking-wide text-brass-soft">
-                                  {it.pattern}
+                              <div className="flex items-start gap-2.5">
+                                <span
+                                  className={cn(
+                                    "inline-flex size-5 shrink-0 items-center justify-center rounded-md text-[11px] font-mono font-bold mt-0.5",
+                                    isSelected ? "bg-brass text-plum-deep" : "bg-surface-3 text-muted-foreground",
+                                  )}
+                                >
+                                  {i + 1}
                                 </span>
-                              )}
-                              {it.note && <span className="mt-1 block text-xs text-muted-foreground">{it.note}</span>}
+                                <div className="min-w-0 flex-1">
+                                  <div className="flex flex-wrap items-baseline gap-2">
+                                    <span className="block text-sm font-medium text-foreground">{it.text}</span>
+                                    {itemIpa && (
+                                      <span className="font-mono text-xs text-brass-soft">
+                                        /{itemIpa}/
+                                      </span>
+                                    )}
+                                  </div>
+                                  {it.pattern && (
+                                    <span className="mt-1 block text-sm font-semibold tracking-wide text-brass-soft">
+                                      {it.pattern}
+                                    </span>
+                                  )}
+                                  {it.note && <span className="mt-0.5 block text-xs text-muted-foreground">{it.note}</span>}
+                                </div>
+                              </div>
                             </button>
                           );
                         })}

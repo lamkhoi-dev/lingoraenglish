@@ -1,7 +1,7 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
-import { Loader2, Mic, Search, Send, Timer } from "lucide-react";
+import { Lightbulb, Loader2, Mic, Search, Send, Timer } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { toast } from "sonner";
 
@@ -20,11 +20,14 @@ import { voicePlayer } from "@/lib/voice-player";
 import { saveSpeakingAttempt } from "@/lib/attempts.functions";
 import {
   coachReply,
+  getCoachHintExample,
+  getCoachHintIdeas,
   getCoachSession,
   getCoachTopicCatalogue,
   getCoachUsage,
   startCoachSession,
   type CoachCategory,
+  type CoachHintIdea,
   type CoachTopicPublic,
   type CoachUsage,
 } from "@/lib/coach.functions";
@@ -87,6 +90,8 @@ function CoachPage() {
   const startSession = useServerFn(startCoachSession);
   const restoreSession = useServerFn(getCoachSession);
   const sendTurn = useServerFn(coachReply);
+  const requestHint = useServerFn(getCoachHintIdeas);
+  const requestExample = useServerFn(getCoachHintExample);
   const fetchUsage = useServerFn(getCoachUsage);
   const fetchTopics = useServerFn(getCoachTopicCatalogue);
   const saveAttempt = useServerFn(saveSpeakingAttempt);
@@ -105,6 +110,15 @@ function CoachPage() {
   const [usage, setUsage] = useState<CoachUsage | null>(null);
   const [prep, setPrep] = useState<number | null>(null);
   const [lastScores, setLastScores] = useState<AttemptScores | null>(null);
+  // Hint scaffolding for the CURRENT (unanswered) coach question — cleared
+  // every time a new question arrives (handleAnswer/begin) so an old hint
+  // never lingers next to a different question. hintUsed persists for the
+  // whole session (free tier gets exactly 1 use per topic, not per question).
+  const [hintUsed, setHintUsed] = useState(false);
+  const [hint, setHint] = useState<{ ideas: CoachHintIdea[]; starters: string[] } | null>(null);
+  const [hintExample, setHintExample] = useState<{ exampleEn: string; exampleTranslated: string } | null>(null);
+  const [hintLoading, setHintLoading] = useState(false);
+  const [exampleLoading, setExampleLoading] = useState(false);
   const endRef = useRef<HTMLDivElement>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -147,6 +161,7 @@ function CoachPage() {
         });
         setTurns(restored);
         setLastScores(previous);
+        setHintUsed(res.hintUsed);
       })
       .catch(() => localStorage.removeItem(ACTIVE_SESSION_KEY));
     return () => {
@@ -199,6 +214,17 @@ function CoachPage() {
     setLastScores(null);
     if (timerRef.current) clearInterval(timerRef.current);
     setPrep(null);
+    setHintUsed(false);
+    setHint(null);
+    setHintExample(null);
+  };
+
+  /** A new coach question is now pending — any hint shown for the previous
+   * one no longer applies. hintUsed is untouched: the free-tier allowance is
+   * 1 per topic session, not 1 per question. */
+  const clearHintForNewQuestion = () => {
+    setHint(null);
+    setHintExample(null);
   };
 
   const startPrep = (seconds: number) => {
@@ -252,6 +278,7 @@ function CoachPage() {
       setSessionId(res.sessionId);
       localStorage.setItem(ACTIVE_SESSION_KEY, res.sessionId);
       setUsage(res.usage);
+      setHintUsed(res.hintUsed);
       setTurns([{ role: "coach", text: res.reply }]);
       if (chosen.time_limit_seconds > 0) startPrep(Math.min(60, chosen.time_limit_seconds));
       await sayCoach(res.reply);
@@ -287,6 +314,7 @@ function CoachPage() {
         ...(analysis ? [{ role: "you" as const, text, analysis, previous: lastScores }] : [{ role: "you" as const, text, previous: lastScores }]),
         { role: "coach", text: res.reply },
       ]);
+      clearHintForNewQuestion();
 
       if (analysis) {
         setLastScores(toAttemptScores(analysis));
@@ -316,6 +344,37 @@ function CoachPage() {
         .catch(() => undefined);
     } finally {
       setBusy(false);
+    }
+  };
+
+  /** "💡 Need an idea? → Show me a hint": ideas + sentence starters for the
+   * question currently pending an answer. Free tier: 1 use per topic session. */
+  const loadHint = async () => {
+    if (!sessionId) return;
+    setHintLoading(true);
+    try {
+      const res = await requestHint({ data: { sessionId } });
+      setHint(res);
+      setHintUsed(true);
+    } catch (error) {
+      handleError(error);
+    } finally {
+      setHintLoading(false);
+    }
+  };
+
+  /** "Need more help? → Show an example": one full model answer, translated
+   * into the learner's own explanation-language setting. */
+  const loadExample = async () => {
+    if (!sessionId) return;
+    setExampleLoading(true);
+    try {
+      const res = await requestExample({ data: { sessionId, lang } });
+      setHintExample(res);
+    } catch (error) {
+      handleError(error);
+    } finally {
+      setExampleLoading(false);
     }
   };
 
@@ -594,6 +653,77 @@ function CoachPage() {
                         </span>
                       )}
                     </div>
+                  )}
+
+                  {!hint && !hintExample && (
+                    <div className="mb-4">
+                      {usage?.tier === "free" && hintUsed ? (
+                        <p className="text-xs text-muted-foreground">
+                          {t("coach.hint.usedUp")}{" "}
+                          <Link to="/pricing" className="font-semibold text-brass-soft hover:text-brass">
+                            {t("coach.hint.upgrade")}
+                          </Link>
+                        </p>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => void loadHint()}
+                          disabled={hintLoading}
+                          className="inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3.5 py-2 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3 disabled:opacity-60"
+                        >
+                          {hintLoading ? <Loader2 className="size-3.5 animate-spin" /> : <Lightbulb className="size-3.5" />}
+                          {t("coach.hint.needIdea")}
+                        </button>
+                      )}
+                    </div>
+                  )}
+
+                  {hint && (
+                    <div className="mb-4 rounded-2xl bg-surface-2 p-4 ring-1 ring-border">
+                      <p className="text-xs font-semibold uppercase tracking-[0.08em] text-brass-soft">
+                        {t("coach.hint.ideasTitle")}
+                      </p>
+                      <ul className="mt-2 space-y-1.5 text-sm text-foreground">
+                        {hint.ideas.map((idea, i) => (
+                          <li key={i}>
+                            {idea.emoji} {idea.text}
+                          </li>
+                        ))}
+                      </ul>
+                      <p className="mt-3 text-xs font-semibold uppercase tracking-[0.08em] text-brass-soft">
+                        {t("coach.hint.startersTitle")}
+                      </p>
+                      <ul className="mt-2 space-y-1.5 text-sm text-mist">
+                        {hint.starters.map((s, i) => (
+                          <li key={i}>&ldquo;{s}&rdquo;</li>
+                        ))}
+                      </ul>
+
+                      {hintExample ? (
+                        <div className="mt-4 border-t border-border pt-3">
+                          <p className="text-sm text-foreground">{hintExample.exampleEn}</p>
+                          {lang !== "en" && (
+                            <p className="mt-1 text-sm text-mist">{hintExample.exampleTranslated}</p>
+                          )}
+                        </div>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => void loadExample()}
+                          disabled={exampleLoading}
+                          className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-brass-soft hover:text-brass disabled:opacity-60"
+                        >
+                          {exampleLoading && <Loader2 className="size-3.5 animate-spin" />}
+                          {t("coach.hint.needMoreHelp")} → {t("coach.hint.showExample")}
+                        </button>
+                      )}
+                    </div>
+                  )}
+
+                  {(hint || hintExample) && (
+                    <p className="mb-3 text-xs font-semibold text-muted-foreground">
+                      🎤 {t("coach.hint.nowYourTurn")}
+                    </p>
                   )}
 
                   <MicRecorder

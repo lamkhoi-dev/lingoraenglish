@@ -1269,6 +1269,14 @@
     "tour.vocab.step1.title": "Brskaj po kategorijah",
     "tour.vocab.step1.content": "Filtrirajte seznam besed po temi, da osredotočite svoje učenje.",
     "tour.vocab.step2.title": "Naučite se besede",
-    "tour.vocab.step2.content": "Poslušajte, kako UI izgovori besedo ali primer stavka, jo označite kot znano ali pošljite neposredno v govorno vajo."
+    "tour.vocab.step2.content": "Poslušajte, kako UI izgovori besedo ali primer stavka, jo označite kot znano ali pošljite neposredno v govorno vajo.",
+    "coach.hint.needIdea": "Potrebujete idejo? Pokaži namig",
+    "coach.hint.usedUp": "Za to temo ste že uporabili brezplačni namig.",
+    "coach.hint.upgrade": "Nadgradite za neomejene namige",
+    "coach.hint.ideasTitle": "Ideje",
+    "coach.hint.startersTitle": "Začetki stavkov",
+    "coach.hint.needMoreHelp": "Potrebujete več pomoči?",
+    "coach.hint.showExample": "Pokaži primer",
+    "coach.hint.nowYourTurn": "Zdaj ste na vrsti vi!"
   }
 }

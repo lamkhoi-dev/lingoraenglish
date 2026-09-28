@@ -1044,6 +1044,7 @@ export const coachSessions = pgTable("coach_sessions", {
 	tierAtStart: text("tier_at_start").default('free').notNull(),
 	userTurns: integer("user_turns").default(0).notNull(),
 	status: text().default('active').notNull(),
+	hintUsed: boolean("hint_used").default(false).notNull(),
 	createdAt: timestamp("created_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
 	updatedAt: timestamp("updated_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
 }, (table) => [

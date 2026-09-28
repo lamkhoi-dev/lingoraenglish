@@ -1269,6 +1269,14 @@
     "tour.vocab.step1.title": "Procházet podle kategorie",
     "tour.vocab.step1.content": "Filtrujte seznam slov podle tématu, abyste se soustředili na studium.",
     "tour.vocab.step2.title": "Naučte se slovo",
-    "tour.vocab.step2.content": "Poslechněte si, jak AI vysloví slovo nebo příklad věty, označte ho jako známé nebo ho pošlete přímo do mluvního cvičení."
+    "tour.vocab.step2.content": "Poslechněte si, jak AI vysloví slovo nebo příklad věty, označte ho jako známé nebo ho pošlete přímo do mluvního cvičení.",
+    "coach.hint.needIdea": "Potřebujete nápad? Zobrazit nápovědu",
+    "coach.hint.usedUp": "Pro toto téma jste již využili svou bezplatnou nápovědu.",
+    "coach.hint.upgrade": "Přejděte na vyšší plán pro neomezené nápovědy",
+    "coach.hint.ideasTitle": "Nápady",
+    "coach.hint.startersTitle": "Začátky vět",
+    "coach.hint.needMoreHelp": "Potřebujete další pomoc?",
+    "coach.hint.showExample": "Zobrazit příklad",
+    "coach.hint.nowYourTurn": "Teď jste na řadě vy!"
   }
 }

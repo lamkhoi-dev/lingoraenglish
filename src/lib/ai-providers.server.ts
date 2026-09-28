@@ -73,6 +73,14 @@ export function currentAudioProvider(): AudioProvider {
   return "gemini";
 }
 
+/** The one place the ttsCache key formula lives. `speak()` and the
+ * admin-only sound-audio save path both need to land on the exact same key
+ * for a given voice+text — if they ever drifted, an admin-approved clip
+ * would silently never be seen by students (or vice versa). */
+export function ttsCacheKey(voice: string, text: string): string {
+  return `${currentAudioProvider()}::${voice}::${text.trim().toLowerCase()}`;
+}
+
 /** Default (env-overridable) model ids per provider. */
 function geminiLlmModel(): string {
   return process.env["GEMINI_LLM_MODEL"] ?? "gemini-flash-latest";
@@ -206,6 +214,37 @@ function wrapPcmAsWav(pcmBase64: string, sampleRate: number, channels: number, b
   wav.set(header, 0);
   wav.set(pcm, header.length);
   return base64FromBytes(wav);
+}
+
+const WAV_HEADER_BYTES = 44;
+/** Every clip synthesise() returns is 24kHz mono 16-bit PCM in a WAV wrapper
+ * (see wrapPcmAsWav above) — fixed, not per-call config, so two clips are
+ * always byte-compatible to splice together. */
+const PCM_SAMPLE_RATE = 24000;
+const PCM_CHANNELS = 1;
+const PCM_BITS_PER_SAMPLE = 16;
+
+/**
+ * Joins two already-synthesised WAV clips (as returned by synthesise/
+ * geminiSynthesise) into one WAV, with a short silence gap between them.
+ * Used to build one Sounds-drill clip out of two separately-generated
+ * halves: the isolated "âm" (sound) part, read via a different prompt
+ * technique than plain text (see adminGenerateSoundTake), and the "từ-câu"
+ * (word + sentence) part, read as ordinary text — each far more reliable
+ * generated on its own than as one combined prompt would be.
+ */
+export function concatWavClips(wavBase64A: string, wavBase64B: string, silenceMs = 300): string {
+  const pcmA = bytesFromBase64(wavBase64A).slice(WAV_HEADER_BYTES);
+  const pcmB = bytesFromBase64(wavBase64B).slice(WAV_HEADER_BYTES);
+  const bytesPerSample = PCM_BITS_PER_SAMPLE / 8;
+  const silenceBytes = Math.round((PCM_SAMPLE_RATE * silenceMs) / 1000) * bytesPerSample;
+  const combined = new Uint8Array(pcmA.length + silenceBytes + pcmB.length);
+  combined.set(pcmA, 0);
+  // silenceBytes region is already zero-filled by `new Uint8Array`.
+  combined.set(pcmB, pcmA.length + silenceBytes);
+  // Re-wrap (not just re-header) so the join point and the very start/end of
+  // the combined clip all get wrapPcmAsWav's fade-in/out treatment.
+  return wrapPcmAsWav(base64FromBytes(combined), PCM_SAMPLE_RATE, PCM_CHANNELS, PCM_BITS_PER_SAMPLE);
 }
 
 /* --------------------------- DeepSeek (OpenAI-shaped) --------------------------- */

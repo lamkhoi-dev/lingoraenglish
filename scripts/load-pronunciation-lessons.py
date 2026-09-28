@@ -60,7 +60,7 @@ for path in sorted(glob.glob("scripts/seed/pronunciation-lessons/*.json")):
     if skill not in SKILLS:
         problems.append(f"{path}: filename '{skill}' is not a known skill id")
         continue
-    doc = json.load(open(path))
+    doc = json.load(open(path, encoding="utf-8"))
     seen = set()
     for lesson in doc["lessons"]:
         where = f"{path}:{lesson.get('title')}"
@@ -125,8 +125,10 @@ sql = (
 
 url = os.environ.get("SUPABASE_DB_URL")
 if not url:
-    print("SUPABASE_DB_URL is not set — printing SQL instead.")
-    print(sql)
+    out_file = "scripts/seed/pronunciation_lessons_update.sql"
+    with open(out_file, "w", encoding="utf-8") as f:
+        f.write(sql)
+    print(f"Generated SQL for {len(rows)} lessons across {len(by_skill)} skills -> {out_file}")
     sys.exit(0)
 
 proc = subprocess.run(["psql", url, "-v", "ON_ERROR_STOP=1", "-c", sql], capture_output=True, text=True)

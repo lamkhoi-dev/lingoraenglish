@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "Tingnan ayon sa kategorya",
     "tour.vocab.step1.content": "I-filter ang listahan ng salita ayon sa paksa para tumuon ang iyong pag-aaral.",
     "tour.vocab.step2.title": "Matuto ng isang salita",
-    "tour.vocab.step2.content": "Pakinggan ang AI na bigkasin ang salita o halimbawang pangungusap, markahan itong alam na, o ipadala ito direkta sa pagsasanay sa pagsasalita."
+    "tour.vocab.step2.content": "Pakinggan ang AI na bigkasin ang salita o halimbawang pangungusap, markahan itong alam na, o ipadala ito direkta sa pagsasanay sa pagsasalita.",
+    "coach.hint.needIdea": "Kailangan ng ideya? Ipakita ang hint",
+    "coach.hint.usedUp": "Nagamit mo na ang iyong libreng hint para sa paksang ito.",
+    "coach.hint.upgrade": "Mag-upgrade para sa walang limitasyong hints",
+    "coach.hint.ideasTitle": "Mga Ideya",
+    "coach.hint.startersTitle": "Panimula ng Pangungusap",
+    "coach.hint.needMoreHelp": "Kailangan pa ng tulong?",
+    "coach.hint.showExample": "Ipakita ang isang halimbawa",
+    "coach.hint.nowYourTurn": "Ikaw naman ang susunod!"
   }
 }

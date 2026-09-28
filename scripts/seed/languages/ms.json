@@ -1266,6 +1266,14 @@
     "tour.vocab.step1.title": "Semak imbas mengikut kategori",
     "tour.vocab.step1.content": "Tapis senarai perkataan mengikut topik untuk menumpukan pembelajaran anda.",
     "tour.vocab.step2.title": "Pelajari satu perkataan",
-    "tour.vocab.step2.content": "Dengar AI menyebut perkataan atau ayat contoh, tandakan sebagai diketahui, atau hantar terus ke latihan bertutur."
+    "tour.vocab.step2.content": "Dengar AI menyebut perkataan atau ayat contoh, tandakan sebagai diketahui, atau hantar terus ke latihan bertutur.",
+    "coach.hint.needIdea": "Perlukan idea? Tunjukkan petunjuk",
+    "coach.hint.usedUp": "Anda telah menggunakan petunjuk percuma untuk topik ini.",
+    "coach.hint.upgrade": "Naik taraf untuk petunjuk tanpa had",
+    "coach.hint.ideasTitle": "Idea",
+    "coach.hint.startersTitle": "Permulaan ayat",
+    "coach.hint.needMoreHelp": "Perlukan lebih bantuan?",
+    "coach.hint.showExample": "Tunjukkan contoh",
+    "coach.hint.nowYourTurn": "Sekarang giliran anda!"
   }
 }

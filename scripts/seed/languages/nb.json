@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "Bla gjennom etter kategori",
     "tour.vocab.step1.content": "Filtrer ordlisten etter emne for å fokusere læringen din.",
     "tour.vocab.step2.title": "Lær et ord",
-    "tour.vocab.step2.content": "Hør AI-en si ordet eller eksempelsetningen, merk det som kjent, eller send det rett til en taleøvelse."
+    "tour.vocab.step2.content": "Hør AI-en si ordet eller eksempelsetningen, merk det som kjent, eller send det rett til en taleøvelse.",
+    "coach.hint.needIdea": "Trenger du en idé? Vis et hint",
+    "coach.hint.usedUp": "Du har allerede brukt det gratis hintet for dette emnet.",
+    "coach.hint.upgrade": "Oppgrader for ubegrensede hint",
+    "coach.hint.ideasTitle": "Idéer",
+    "coach.hint.startersTitle": "Setningsstartere",
+    "coach.hint.needMoreHelp": "Trenger du mer hjelp?",
+    "coach.hint.showExample": "Vis et eksempel",
+    "coach.hint.nowYourTurn": "Nå er det din tur!"
   }
 }

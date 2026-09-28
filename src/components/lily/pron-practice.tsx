@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { CheckCircle2, Gauge, Loader2, Repeat, Square, Volume2 } from "lucide-react";
-import { useCallback, useRef, useState } from "react";
+import { CheckCircle2, Gauge, Loader2, Repeat, Save, Sparkles, Square, Volume2 } from "lucide-react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { toast } from "sonner";
 
 import { MicRecorder } from "@/components/lily/mic-recorder";
@@ -14,6 +14,7 @@ import { useI18n } from "@/lib/i18n";
 import { buildSoundScript } from "@/lib/ipa-tts-map";
 import { analysePronunciation, speak, transcribeAudio, type PronunciationResult } from "@/lib/lily.functions";
 import { measureDelivery, PRACTICE_STEPS, type DeliveryMetrics, type SkillId } from "@/lib/pronunciation-content";
+import { adminGenerateSoundTake, adminSaveSoundAudio } from "@/lib/pronunciation-admin.functions";
 import { updatePronunciationSoundScore } from "@/lib/pronunciation.functions";
 import { voicePlayer } from "@/lib/voice-player";
 import { getWordIpa } from "@/lib/word-ipa";
@@ -81,12 +82,14 @@ export function PronPractice({
 }: PronPracticeProps) {
   const { locale, englishOnly } = useI18n();
   const lang = englishOnly ? "en" : locale;
-  const { user } = useAuth();
+  const { user, isAdmin } = useAuth();
   const requestSpeech = useServerFn(speak);
   const transcribe = useServerFn(transcribeAudio);
   const analyse = useServerFn(analysePronunciation);
   const saveAttempt = useServerFn(savePronunciationAttempt);
   const updateSoundScore = useServerFn(updatePronunciationSoundScore);
+  const generateSoundTake = useServerFn(adminGenerateSoundTake);
+  const saveSoundAudio = useServerFn(adminSaveSoundAudio);
   const { paywall, handleError, clearPaywall } = usePaywall("pronunciation");
 
   const wordIpa = getWordIpa(target);
@@ -113,7 +116,24 @@ export function PronPractice({
   const [attempts, setAttempts] = useState(0);
   const [clearRuns, setClearRuns] = useState(initialMastered ? 2 : 0);
   const [myAudio, setMyAudio] = useState<string | null>(null);
+  /** Admin-only: true while "Generate new take" / "Save this take" is
+   * in flight (see generateTake / saveAudio below). */
+  const [generatingTake, setGeneratingTake] = useState(false);
+  const [savingAudio, setSavingAudio] = useState(false);
   const cache = useRef(new Map<string, string>());
+
+  // Sounds mode: read the isolated IPA sound (twice) using a TTS-friendly
+  // description so the voice produces the actual phoneme instead of
+  // spelling out the character name. Then read the example word once, then
+  // the example sentence once. Format: [sound] [sound] [word] [sentence]
+  // Shared by play() (student path, cache-checked) and saveAudio() (admin
+  // path, force-regenerated) so both always agree on exactly the same text
+  // — anything that decided the two independently could drift and leave the
+  // admin approving audio students would never actually be served.
+  const speakText = useMemo(
+    () => (targetSound ? buildSoundScript(targetSound, target, wordSentence) : target),
+    [target, targetSound, wordSentence],
+  );
 
   const play = useCallback(
     async (rate: number) => {
@@ -124,14 +144,6 @@ export function PronPractice({
       try {
         setHasPlayed(true);
         setSpeed(rate);
-        // Sounds mode: read the isolated IPA sound (twice) using a
-        // TTS-friendly description so the voice produces the actual phoneme
-        // instead of spelling out the character name. Then read the example
-        // word once, then the example sentence once.
-        // Format: [sound] [sound] [word] [sentence]
-        const speakText = targetSound
-          ? buildSoundScript(targetSound, target, wordSentence)
-          : target;
         voicePlayer.prime();
         let src = cache.current.get(speakText);
         if (!src) {
@@ -162,7 +174,7 @@ export function PronPractice({
         handleError(error, "Could not play the audio.");
       }
     },
-    [handleError, loop, requestSpeech, target, targetSound, user, wordSentence],
+    [handleError, loop, requestSpeech, speakText, target, user],
   );
 
   const stop = () => {
@@ -170,6 +182,81 @@ export function PronPractice({
     setLoadingAudio(false);
     setPlaying(false);
   };
+
+  // Admin-only: a freshly generated but not-yet-saved candidate take, so the
+  // admin can compare it against whatever the ordinary Listen button plays
+  // (the current cache, or a first generation of it) before committing.
+  // Cleared whenever the sound/word/sentence changes so a candidate for one
+  // sound never gets mistaken for — or accidentally saved onto — another.
+  const [candidate, setCandidate] = useState<{ audioBase64: string; mime: string; src: string } | null>(null);
+  useEffect(() => {
+    setCandidate(null);
+  }, [speakText]);
+
+  /** Admin-only: generate a fresh candidate take WITHOUT saving it, and play
+   * it so the admin can judge it by ear. The ordinary Listen button above is
+   * untouched by this — clicking it still plays whatever is currently
+   * cached (or generates+caches once, same as for any user), so the admin
+   * can A/B "current cache" vs. "this candidate" before deciding. */
+  const generateTake = useCallback(async () => {
+    if (!targetSound) return;
+    setGeneratingTake(true);
+    try {
+      voicePlayer.prime();
+      const res = await generateSoundTake({
+        data: { ipaSymbol: targetSound, exampleWord: target, exampleSentence: wordSentence || undefined },
+      });
+      const src = `data:${res.mime};base64,${res.audioBase64}`;
+      setCandidate({ audioBase64: res.audioBase64, mime: res.mime, src });
+      setPlaying(true);
+      await voicePlayer.playRaw(src, { rate: speed, loop: false, label: target });
+      setPlaying(false);
+    } catch (error) {
+      setPlaying(false);
+      handleError(error, "Could not generate a new take.");
+    } finally {
+      setGeneratingTake(false);
+    }
+  }, [generateSoundTake, handleError, speed, target, targetSound, wordSentence]);
+
+  /** Admin-only: replay the candidate again without generating another one
+   * (each generate call spends real TTS quota; replay is free/local). */
+  const replayCandidate = useCallback(async () => {
+    if (!candidate) return;
+    setPlaying(true);
+    await voicePlayer.playRaw(candidate.src, { rate: speed, loop: false, label: target });
+    setPlaying(false);
+  }, [candidate, speed, target]);
+
+  /** Admin-only: commit the exact candidate the admin just listened to and
+   * approved into ttsCache (overwriting any previous take there). Regular
+   * users never see any of this UI and never call any of these functions —
+   * their Listen button keeps calling plain speak() exactly as before. */
+  const saveAudio = useCallback(async () => {
+    if (!targetSound || !candidate) return;
+    setSavingAudio(true);
+    try {
+      await saveSoundAudio({
+        data: {
+          ipaSymbol: targetSound,
+          exampleWord: target,
+          exampleSentence: wordSentence || undefined,
+          audioBase64: candidate.audioBase64,
+          mimeType: candidate.mime,
+        },
+      });
+      // Keep this component's own local blob-URL cache in sync, so if the
+      // admin clicks the ordinary Listen button right after, they hear the
+      // take that was just saved instead of a stale one from earlier.
+      cache.current.set(speakText, candidate.src);
+      toast.success("Saved — students will now hear this take.");
+      setCandidate(null);
+    } catch (error) {
+      handleError(error, "Could not save the audio.");
+    } finally {
+      setSavingAudio(false);
+    }
+  }, [candidate, handleError, saveSoundAudio, speakText, target, targetSound, wordSentence]);
 
   const submit = async (recording: Recording) => {
     if (!user) return;
@@ -344,6 +431,58 @@ export function PronPractice({
               <Square className="size-3.5" />
               Stop
             </button>
+          )}
+          {/* Admin-only 3-step tool: nút Listen phía trên = "cache cũ" (đang
+              lưu trong DB). Nút này gọi API tạo bản mới, chưa lưu DB — chỉ
+              giữ tạm ở state của trình duyệt (candidate bên dưới). Nhãn cố
+              tình để tiếng Việt, không qua i18n — chỉ admin (1 người) thấy. */}
+          {isAdmin && targetSound && (
+            <button
+              type="button"
+              onClick={() => void generateTake()}
+              disabled={generatingTake || loadingAudio || playing}
+              title="Chỉ admin thấy: gọi API tạo 1 bản đọc mới, chưa lưu vào DB — so sánh với nút Listen ở trên (đang là bản lưu trong DB)."
+              className={cn(
+                "inline-flex items-center gap-1.5 rounded-full bg-plum-deep px-3 py-1.5 text-xs font-semibold text-brass-soft ring-1 ring-brass/60 transition-colors hover:bg-plum-deep/80",
+                (generatingTake || loadingAudio || playing) && "cursor-not-allowed opacity-80",
+              )}
+            >
+              {generatingTake ? <Loader2 className="size-3.5 animate-spin" /> : <Sparkles className="size-3.5" />}
+              {generatingTake ? "Đang tạo…" : "Tạo bản mới"}
+            </button>
+          )}
+          {isAdmin && targetSound && candidate && (
+            <>
+              {/* Không tốn thêm lượt gọi API — chỉ phát lại bản mới đang giữ
+                  tạm ở trình duyệt (candidate), phòng khi bấm "Tạo bản mới"
+                  xong rồi mà muốn nghe lại trước khi Lưu. */}
+              <button
+                type="button"
+                onClick={() => void replayCandidate()}
+                disabled={playing}
+                title="Chỉ admin thấy: nghe lại bản mới vừa tạo (không tốn thêm lượt gọi API)."
+                className={cn(
+                  "inline-flex items-center gap-1.5 rounded-full bg-surface-3 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-2",
+                  playing && "cursor-not-allowed opacity-80",
+                )}
+              >
+                <Volume2 className="size-3.5" />
+                Nghe lại bản mới
+              </button>
+              <button
+                type="button"
+                onClick={() => void saveAudio()}
+                disabled={savingAudio}
+                title="Chỉ admin thấy: lưu đúng bản mới đang giữ tạm này vào cache DB cho mọi học viên."
+                className={cn(
+                  "inline-flex items-center gap-1.5 rounded-full bg-brass px-3 py-1.5 text-xs font-semibold text-plum-deep ring-1 ring-border transition-colors hover:bg-brass/90",
+                  savingAudio && "cursor-not-allowed opacity-80",
+                )}
+              >
+                {savingAudio ? <Loader2 className="size-3.5 animate-spin" /> : <Save className="size-3.5" />}
+                {savingAudio ? "Đang lưu…" : "Lưu bản này"}
+              </button>
+            </>
           )}
         </div>
         <p className="mt-2 text-[11px] text-muted-foreground">

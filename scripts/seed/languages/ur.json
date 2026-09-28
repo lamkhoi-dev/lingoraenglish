@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "زمرے کے لحاظ سے دیکھیں",
     "tour.vocab.step1.content": "اپنی تعلیم پر توجہ مرکوز کرنے کے لیے موضوع کے لحاظ سے الفاظ کی فہرست فلٹر کریں۔",
     "tour.vocab.step2.title": "ایک لفظ سیکھیں",
-    "tour.vocab.step2.content": "AI کو لفظ یا مثال کا جملہ بولتے ہوئے سنیں، اسے معلوم شدہ کے طور پر نشان زد کریں، یا اسے براہ راست بولنے کی مشق میں بھیجیں۔"
+    "tour.vocab.step2.content": "AI کو لفظ یا مثال کا جملہ بولتے ہوئے سنیں، اسے معلوم شدہ کے طور پر نشان زد کریں، یا اسے براہ راست بولنے کی مشق میں بھیجیں۔",
+    "coach.hint.needIdea": "کوئی خیال چاہیے؟ اشارہ دکھائیں",
+    "coach.hint.usedUp": "آپ اس موضوع کے لیے اپنا مفت اشارہ استعمال کر چکے ہیں۔",
+    "coach.hint.upgrade": "لامحدود اشاروں کے لیے اپ گریڈ کریں",
+    "coach.hint.ideasTitle": "خیالات",
+    "coach.hint.startersTitle": "جملے کی ابتدا",
+    "coach.hint.needMoreHelp": "مزید مدد چاہیے؟",
+    "coach.hint.showExample": "ایک مثال دکھائیں",
+    "coach.hint.nowYourTurn": "اب آپ کی باری ہے!"
   }
 }

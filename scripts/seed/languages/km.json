@@ -1266,6 +1266,14 @@
     "tour.vocab.step1.title": "រកមើលតាមប្រភេទ",
     "tour.vocab.step1.content": "ច្រោះបញ្ជីពាក្យតាមប្រធានបទដើម្បីផ្តោតលើការសិក្សារបស់អ្នក។",
     "tour.vocab.step2.title": "រៀនពាក្យមួយ",
-    "tour.vocab.step2.content": "ស្តាប់ AI និយាយពាក្យ ឬប្រយោគគំរូ សម្គាល់ថាដឹងហើយ ឬផ្ញើវាដោយផ្ទាល់ទៅការហាត់និយាយ។"
+    "tour.vocab.step2.content": "ស្តាប់ AI និយាយពាក្យ ឬប្រយោគគំរូ សម្គាល់ថាដឹងហើយ ឬផ្ញើវាដោយផ្ទាល់ទៅការហាត់និយាយ។",
+    "coach.hint.needIdea": "ត្រូវការគំនិតទេ? បង្ហាញការណែនាំ",
+    "coach.hint.usedUp": "អ្នកបានប្រើការណែនាំឥតគិតថ្លៃសម្រាប់ប្រធានបទនេះរួចហើយ។",
+    "coach.hint.upgrade": "ដំឡើងកម្រិតដើម្បីទទួលបានការណែនាំគ្មានដែនកំណត់",
+    "coach.hint.ideasTitle": "គំនិត",
+    "coach.hint.startersTitle": "ការចាប់ផ្តើមប្រយោគ",
+    "coach.hint.needMoreHelp": "ត្រូវការជំនួយបន្ថែមទេ?",
+    "coach.hint.showExample": "បង្ហាញឧទាហរណ៍",
+    "coach.hint.nowYourTurn": "ឥឡូវនេះដល់វេនអ្នកហើយ!"
   }
 }

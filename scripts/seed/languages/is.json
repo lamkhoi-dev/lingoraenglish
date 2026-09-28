@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "Skoða eftir flokki",
     "tour.vocab.step1.content": "Síaðu orðalistann eftir efni til að einbeita þér að náminu.",
     "tour.vocab.step2.title": "Lærðu orð",
-    "tour.vocab.step2.content": "Hlustaðu á gervigreindina segja orðið eða dæmasetninguna, merktu það sem þekkt, eða sendu það beint í talæfingu."
+    "tour.vocab.step2.content": "Hlustaðu á gervigreindina segja orðið eða dæmasetninguna, merktu það sem þekkt, eða sendu það beint í talæfingu.",
+    "coach.hint.needIdea": "Vantar þig hugmynd? Sýna vísbendingu",
+    "coach.hint.usedUp": "Þú hefur þegar notað ókeypis vísbendinguna fyrir þetta efni.",
+    "coach.hint.upgrade": "Uppfærðu fyrir ótakmarkaðar vísbendingar",
+    "coach.hint.ideasTitle": "Hugmyndir",
+    "coach.hint.startersTitle": "Setningarupphöf",
+    "coach.hint.needMoreHelp": "Vantar þig meiri hjálp?",
+    "coach.hint.showExample": "Sýna dæmi",
+    "coach.hint.nowYourTurn": "Nú er komið að þér!"
   }
 }

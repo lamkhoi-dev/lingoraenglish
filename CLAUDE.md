@@ -1,12 +1,17 @@
 # Lingora English (LiLy AI) — tình trạng dự án
 
-Cập nhật: 2026-09-23. File này tổng hợp chức năng thực tế trong code để nắm nhanh cái gì chạy được, cái
+Cập nhật: 2026-09-27. File này tổng hợp chức năng thực tế trong code để nắm nhanh cái gì chạy được, cái
 gì chưa, và các mốc quan trọng — đọc mục đầu tiên trước khi làm bất cứ gì khác.
+
+**Phiên 2026-09-25 đến 2026-09-27**: sửa lỗi 404 + cache sai giọng ở Listening Lab, thêm hướng dẫn tương tác
+(guided tour) 4 trang đủ 54 ngôn ngữ, tích hợp Google Analytics, và trọng tâm phiên — sửa 32/44 âm
+Pronunciation "Sounds" đọc sai + xây công cụ chỉ-admin tự nghe/tạo/lưu audio đúng — xem 6 mục mới ngay
+trước "⛔ Còn thiếu" bên dưới, đặc biệt mục Pronunciation (dài nhất, **còn 1 phần chưa deploy**).
 
 **Phiên 2026-09-21 đến 2026-09-23**: sửa lại luồng nghe mẫu ở Pronunciation (âm → từ → câu chứa từ),
 dọn/mở/khoá lại nhiều category Vocabulary + phát hiện dữ liệu cũ bị hỏng encoding, sửa gate free/premium
 Listening Lab, và thêm **SePay (chuyển khoản ngân hàng)** làm phương thức thanh toán thứ hai song song
-Stripe — xem 4 mục mới ngay trước "⛔ Còn thiếu" bên dưới.
+Stripe — xem 4 mục ngay sau các mục 2026-09-27 bên dưới.
 
 **Phiên 2026-09-17 vừa audit sâu Yêu cầu 11/12/13 + toàn bộ Phần III/IV/V + spec audit 01 vs 02 — xem các
 mục mới ở gần cuối file (trước "⛔ Còn thiếu"), đặc biệt mục "SỰ CỐ NGHIÊM TRỌNG" nếu đang debug lỗi đăng
@@ -1261,6 +1266,229 @@ liên quan tới code — xác nhận bằng `curl` site vẫn khoẻ mọi lầ
 
 ---
 
+## 🟣 Listening Lab — lỗi 404 model TTS + cache sai giọng khi hội thoại nhiều người nói (2026-09-25)
+
+- **Lỗi "Model gemini-2.0-flash not available (404)"** khi nghe Listening Lab (dừng giữa chừng, khách báo ví
+  dụ dừng ở câu 3/8): mảng model dự phòng TTS trong `geminiSynthesise` (`ai-providers.server.ts`) có lẫn 1
+  model **không phải TTS** (`gemini-2.0-flash`). Đã sửa thành đúng 3 model TTS thật, theo thứ tự dự phòng:
+  `gemini-3.1-flash-tts-preview` → `gemini-2.5-flash-preview-tts` → `gemini-2.5-pro-preview-tts`.
+- **Cache sai giọng cho hội thoại nhiều người nói**: script tạo trước audio (`scripts/pregenerate-audio.ts`)
+  và trình phát thật (`listening-player.tsx`) trước đó tính giọng theo người nói bằng 2 đoạn code khác nhau
+  — cache tạo trước luôn dùng 1 giọng cố định (`shimmer`), còn lúc phát thật lại xoay vòng nhiều giọng theo
+  đúng thứ tự người nói, nên audio đã cache sẵn không khớp giọng hiển thị trên màn hình. Gộp về đúng 1 hàm
+  `speakerVoiceMap()` (`src/lib/listening-content.ts`), cả 2 nơi gọi cùng logic, không thể lệch lại được nữa.
+- Cứng hoá `pregenerate-audio.ts` chạy trên VPS: dừng sớm nếu 2 mục liên tiếp hết veo cả lượt thử lại vì
+  rate-limit (dấu hiệu quota ngày đã cạn, không phải lỗi tạm thời), nghỉ 60s trước khi thử lại một mục thay
+  vì bắn liên tục làm cạn quota nhanh hơn.
+
+---
+
+## 🟣 Gemini TTS — giới hạn 100 (hoặc 50) request/NGÀY chặn việc tạo trước audio hàng loạt (2026-09-24/25)
+
+Đang chạy `pregenerate-audio.ts` để tạo trước audio cho toàn bộ nội dung cố định (nghe/shadowing/từ vựng/
+phát âm, ~6.966 mục) thì bị chặn quanh mốc 250 lượt/ngày. Xác nhận qua ảnh chụp trang Rate Limit của AI
+Studio khách gửi: cả 3 model TTS preview đang dùng đều giới hạn **100 (hoặc 50) request/NGÀY** ở Tier 1 (đã
+nạp tiền thật), không phải request/phút — nghỉ/thử lại không giải quyết được, chỉ tăng Tier (chi tiêu +
+thời gian) hoặc xin Google tăng quota thủ công mới đủ. Chi tiết đầy đủ + trạng thái backfill (611/6.966 tính
+đến 2026-09-24) nằm ở memory riêng của tôi, không lặp lại ở đây. **Đã đính chính 1 lần**: dùng nhiều
+project/API key khác nhau để né giới hạn **vi phạm Điều khoản dịch vụ của Google** ("API Limitations"),
+không phải giải pháp hợp lệ dù bản thân từng gợi ý sai trước đó.
+
+---
+
+## 🟣 Hướng dẫn tương tác (guided tour) 4 trang luyện tập, đủ 54 ngôn ngữ + tự hiện + tối ưu di động (2026-09-25)
+
+Thêm hướng dẫn từng bước (thư viện `react-joyride`) cho 4 trang: AI Speaking Coach, Shadowing, Pronunciation,
+Vocabulary — theo đúng yêu cầu khách: "tự hiện ra hướng dẫn chứ không phải bấm nút tròn mới hướng dẫn" (chỉ
+ra học viên sẽ không biết để bấm nút tròn đó).
+
+- `src/components/lily/feature-tour.tsx` (mới): hook `useFeatureTour` tự chạy 1 lần/trang (theo dõi qua
+  `localStorage`, khoá `lily.tour.seen.<page>`), component `FeatureTour` bọc `Joyride` (tắt hẳn beacon tròn
+  — `skipBeacon: true`), nút `ViewGuideButton` để xem lại hướng dẫn bất cứ lúc nào sau đó.
+- Tối ưu di động: khung hướng dẫn co theo màn hình (`width: min(380px, calc(100vw - 32px))`), tự cuộn tới
+  đúng vị trí (`scrollOffset`), chặn bấm xuyên qua lớp phủ (`blockTargetInteraction`).
+- Mỗi trang 2-4 bước, gắn `data-tour="..."` vào đúng khu vực cần chỉ tới.
+- **Đủ 54 ngôn ngữ**, đúng yêu cầu "chọn ngôn ngữ nào hiện đúng ngôn ngữ đó": 33 khoá dịch mới (`tour.*`)
+  thêm vào `en.ts` + 15 file locale dịch sẵn (`vi/es/pt/fr/de/it/ja/ko/zh-CN/zh-TW/hi/id/tr/ru/ar`) + 38 ngôn
+  ngữ còn lại (nạp qua DB, `scripts/seed/languages/*.json`). Đã sinh sẵn
+  `scripts/seed/tour-translations.sql` (1.254 dòng = 38 ngôn ngữ × 33 khoá) để nạp lên bảng
+  `ui_translations` production — **CHƯA CHẠY**, xem "⛔ Còn thiếu" bên dưới.
+
+---
+
+## 🟣 Google Analytics (GA4) — tích hợp toàn site, chỉ chạy ở production (2026-09-25)
+
+Thêm script `gtag.js` (measurement ID `G-V6KLFD3TCS`) vào `head()` của `src/routes/__root.tsx`, bọc điều
+kiện `import.meta.env.PROD` nên **không tự chạy khi phát triển ở máy dev**. Cập nhật mục Cookies + ngày sửa
+đổi cuối trong `src/routes/privacy.tsx` để nhắc tới Google Analytics.
+
+---
+
+## 🟣 Pronunciation "Sounds" — AI đọc sai 32/44 âm, sửa bảng ánh xạ + xây công cụ chỉ-admin tự nghe/tạo/lưu (2026-09-26/27)
+
+Khách tự nghe trực tiếp bằng tài khoản của mình và báo: 16/44 âm đọc đúng, còn lại đọc sai. Nguyên nhân:
+`IPA_TTS_MAP` (`src/lib/ipa-tts-map.ts`) trước đó viết mỗi âm bằng kiểu đánh vần giả ("sss", "fff", "mmm",
+"shh", "eh"...) — Gemini TTS không đọc đúng kiểu đánh vần này, chỉ đọc đúng khi âm nằm trong **1 từ tiếng
+Anh thật** (đã kiểm chứng bằng cách nghe trực tiếp trên AI Studio nhiều vòng, không đoán mò). Kiến trúc cuối
+cùng gồm 2 lớp:
+
+**Lớp 1 — sửa bảng ánh xạ, áp dụng cho mọi user (kể cả khi admin chưa duyệt riêng âm đó)**: viết lại 32 giá
+trị sai trong `IPA_TTS_MAP` bằng từ tiếng Anh thật, đặt đúng vị trí âm đó tự nhiên xuất hiện trong tiếng Anh
+(đầu từ cho hầu hết phụ âm; **giữa từ** cho `/ʒ/` vì tiếng Anh gần như không có từ nào bắt đầu bằng âm này;
+**cuối từ** cho `/ŋ/` vì âm này không bao giờ đứng đầu từ). Phát hiện thêm 1 lớp lỗi ngay trong lúc sửa:
+20/32 từ chọn ban đầu trùng thẳng với từ ví dụ mặc định của chính âm đó (vd `/e/` chọn "bed" trùng với từ ví
+dụ có sẵn "bed" → đọc ra "bed bed bed..." thay vì đúng 4 phần rõ ràng "âm-âm-từ-câu") — đã chọn lại toàn bộ
+20 từ này, đảm bảo khác với danh sách 6 từ ví dụ riêng của từng âm.
+
+**Lớp 2 — công cụ chỉ admin thấy, tự nghe bản hiện tại / tạo bản mới / lưu**: thêm 2 nút trong
+`pron-practice.tsx` (chỉ hiện khi `isAdmin`, **không đổi 1 dòng code nào trong luồng của user thường** —
+nút Listen cũ của họ vẫn y hệt như trước). Nút Listen sẵn có = nghe đúng bản đang lưu trong cache DB (không
+đổi); nút mới **"Tạo bản mới"** = gọi API sinh 1 bản mới, giữ tạm ở trình duyệt, **chưa** ghi DB, có thêm nút
+"Nghe lại bản mới" để nghe lại không tốn thêm lượt gọi API; nút **"Lưu bản này"** = chỉ khi admin bấm mới ghi
+đè đúng bản đó vào `tts_cache`. Nhờ vậy admin nghe-thử-nhiều-lần rồi mới quyết định lưu, thay vì tin mù kết
+quả sinh ra lần đầu (TTS không đảm bảo ra kết quả giống nhau mỗi lần gọi).
+
+- `src/lib/pronunciation-admin.functions.ts`: `adminGenerateSoundTake` (chỉ sinh, không lưu, `requireAdmin`),
+  `adminSaveSoundAudio` (lưu đúng bytes admin vừa nghe — không sinh lại — bằng `onConflictDoUpdate`, khác
+  `onConflictDoNothing` của luồng `speak()` cho user thường, để admin lưu đè được bản cũ nhiều lần).
+- Khám phá quan trọng qua nghe trực tiếp trên AI Studio: gửi **đúng ký hiệu IPA** (vd `/e/`) kèm 1 câu hướng
+  dẫn không đọc ra tiếng + dấu phân tách, Gemini đọc đúng hẳn ký hiệu đó — không cần thay bằng từ thật nữa
+  cho phần "âm" (hàm `buildIsolatedSoundPrompt()`, `ipa-tts-map.ts`). Lưu ý kỹ thuật quan trọng: tài liệu
+  tham khảo dùng dấu `#### TRANSCRIPT`, nhưng `cleanTextForTts()` (`ai-providers.server.ts`) tự xoá **mọi**
+  ký tự `#` khỏi mọi văn bản gửi Gemini toàn site (kể cả chat AI Coach) — phải đổi sang dấu `===` để không bị
+  nuốt mất, làm hỏng cả kỹ thuật.
+- Phần "đọc 2 lần" (âm-âm) **không** nhờ Gemini tự lặp trong 1 lần sinh (đã thử, kết quả chỉ đọc 1 lần) — mà
+  code tự ghép **cùng 1 đoạn audio với chính nó** thành 2 lần (`concatWavClips()`, mới thêm vào
+  `ai-providers.server.ts` — ghép PCM thô của 2 file WAV rồi bọc lại đúng 1 header, an toàn vì mọi audio
+  Gemini TTS trả về đều cùng định dạng 24kHz/mono/16-bit).
+- Test thật trên `/pronunciation` (tài khoản admin) sau khi sinh xong toàn bộ, khách báo còn 5 âm sai, đã sửa
+  tiếp — **thu hẹp đúng phạm vi theo yêu cầu khách "không ảnh hưởng các âm đã đúng"**, không sửa tràn lan:
+  - `/tʃ/ /f/ /l/`: gửi chung "từ ... câu" trong 1 lượt gọi khiến Gemini bỏ hẳn từ đứng đầu, thử lại nhiều
+    lần vẫn vậy. Chỉ đúng 3 âm này (hằng số `NEEDS_SEPARATE_WORD_CALL` trong
+    `pronunciation-admin.functions.ts`) tách từ và câu thành 2 lượt gọi API riêng; mọi âm khác vẫn gộp 1 lượt
+    y hệt như lúc đã xác nhận đúng, không đụng vào.
+  - `/r/`: theo chuẩn IPA quốc tế, ký hiệu `r` đúng nghĩa là âm **rung lưỡi**; âm r tiếng Anh viết chuẩn phải
+    là `ɹ`, các từ điển tiếng Anh chỉ viết tắt `/r/`. Gemini đọc đúng theo chuẩn IPA quốc tế nên ra âm rung —
+    sai với âm r tiếng Anh thật.
+  - `/ð/`: thêm 1 câu gợi ý riêng (không đọc ra tiếng) mô tả rõ đây là âm "th" **hữu thanh** như trong
+    "this"/"that", không phải "d", không phải "th" **vô thanh** của "think".
+  - 2 gợi ý riêng cho `/ð/`/`/r/` nằm trong hằng số `ISOLATED_SOUND_HINTS` (`ipa-tts-map.ts`), chỉ áp dụng
+    đúng 2 ký hiệu này theo thiết kế — prompt của mọi âm khác giữ nguyên, không đổi 1 chữ.
+- **CHƯA test được `/ð/`/`/r/` sau khi sửa** (mới đưa sẵn 2 đoạn prompt để khách tự dán vào AI Studio kiểm
+  tra trước khi tin), **CHƯA deploy** toàn bộ phần công cụ admin này lên production — xem "⛔ Còn thiếu".
+- Đã typecheck sạch sau mọi lần sửa (`bunx tsc --noEmit -p .` qua Docker, xem mục "Vài thứ cần biết" cuối
+  file để biết cách chạy đúng trên máy dev này).
+
+---
+
+## 🟣 Cấp quyền Pro cho tài khoản demo-admin — chèn thẳng dữ liệu, không sửa code (2026-09-26/27)
+
+Cần tài khoản admin (`demo-admin@lingoraenglish.local`) mở hết mọi tính năng trả phí để tự đi duyệt audio 44
+âm ở mục trên mà không bị chặn bởi paywall. Khách chủ động từ chối hướng "sửa code thêm cơ chế bypass riêng
+cho admin" ("đừng sửa code gì cả, nhiều lúc bảo mật này kia không hợp lý"), chọn cách chèn thẳng 1 dòng dữ
+liệu — đúng cơ chế **đã có sẵn** từ trước (bảng `complimentary_access`, giống hệt nút "Grant" trong tab
+Members của `/admin`), không phải cơ chế mới:
+
+```sql
+INSERT INTO complimentary_access (user_id, tier, expires_at, note)
+SELECT id, 'ielts_pro', NULL, 'Admin full-access grant (manual DB insert, no code change)'
+FROM profiles WHERE email = 'demo-admin@lingoraenglish.local';
+```
+
+Không đụng code/schema — chỉ 1 dòng dữ liệu, `expires_at = NULL` nghĩa là cấp vĩnh viễn, không tự hết hạn.
+
+---
+
+## 🟣 AI Speaking Coach — "gợi ý trả lời" (hint) dưới mỗi câu hỏi của AI (2026-09-27)
+
+Khách yêu cầu: dưới câu hỏi AI vừa hỏi, thêm nút gợi ý cho học viên trình độ cơ bản chưa biết trả lời sao —
+theo đúng mẫu 2 tầng khách gửi (Ideas + Sentence starters, rồi nếu vẫn bí thì có nút xem câu trả lời mẫu
+kèm bản dịch). Điểm khó: câu hỏi của AI **không phải nội dung có sẵn**, nó tự sinh theo thời gian thực mỗi
+lượt (`coachReply`) — nên gợi ý cũng phải sinh theo thời gian thực, khớp đúng câu hỏi AI vừa hỏi, không thể
+viết sẵn theo kiểu dữ liệu tĩnh.
+
+- `src/lib/coach.functions.ts`: 2 hàm mới, sinh theo 2 tầng, **chỉ gọi AI khi học viên thật sự bấm** (không
+  tự sinh trước để tiết kiệm chi phí AI văn bản, không đụng tới Gemini TTS/quota âm thanh đang căng):
+  - `getCoachHintIdeas` — tầng 1: 4 ý nhỏ kèm emoji + 3 mẫu câu bắt đầu, luôn bằng **tiếng Anh** (đây là
+    khung câu tiếng Anh để học, không phải phần giải thích, nên không dịch).
+  - `getCoachHintExample` — tầng 2 ("Vẫn chưa biết nói sao? → Xem câu trả lời mẫu"): 1 câu trả lời mẫu +
+    **bản dịch sang đúng ngôn ngữ giải thích học viên đã chọn** (dùng lại cơ chế `langNote`/
+    `explanationLanguageSchema` sẵn có — tự động đúng cho toàn bộ 54 ngôn ngữ của web, không hardcode tiếng
+    Việt). Bắt buộc phải gọi tầng 1 trước (không có cách "xem ví dụ" mà chưa từng xin gợi ý).
+  - Cả 2 dùng `llmJson()` (AI văn bản, DeepSeek/Gemini theo cấu hình hiện tại — không dùng Gemini âm thanh).
+- **Giới hạn theo yêu cầu khách "mỗi bài free thì cho 1 lượt thôi"**: cột mới `coach_sessions.hint_used`
+  (migration `src/db/schema/0017_coach_hint_used.sql`) — tính theo **cả phiên/bài học** (1 topic), không
+  phải theo từng câu hỏi, vì đúng nghĩa "1 lượt trợ giúp/bài". Chỉ chặn tier **free**; Premium/IELTS Pro
+  không giới hạn số lần. Chặn bằng `UpgradeRequiredError` (tái dùng đúng cơ chế `usePaywall("conversation")`
+  đã có sẵn trên trang, không phải cơ chế mới).
+- Áp dụng cho **cả 5 loại chủ đề** (free/daily/roleplay/interview/challenge) theo đúng yêu cầu.
+- `src/routes/ai-speaking.tsx`: nút "💡 Cần ý tưởng? Xem gợi ý" hiện ngay dưới câu hỏi mới nhất của AI, phía
+  trên ô ghi âm — chỉ hiện khi học viên **chưa trả lời** câu đó (tự ẩn/xoá gợi ý cũ ngay khi có câu hỏi mới
+  hoặc bắt đầu chủ đề khác). Khi tầng 2 đã hiện, thêm dòng "🎤 Đến lượt bạn rồi!" ngay trên ô trả lời.
+- **Khoá dịch `coach.hint.*` (8 khoá) — ĐÃ ĐỦ 54 NGÔN NGỮ (2026-09-27)**: tiếng Anh (`src/locales/en/coach.ts`,
+  nguồn gốc) + tiếng Việt (`src/locales/sections/vi.ts`) làm tay; 14 ngôn ngữ compiled còn lại
+  (`ar/de/es/fr/hi/id/it/ja/ko/pt/ru/tr/zh-CN/zh-TW`, `src/locales/sections/`) + 38 ngôn ngữ DB
+  (`scripts/seed/languages/*.json`) nạp bằng script `apply-coach-hint-translations.mjs` (chạy 1 lần bằng
+  `node` cục bộ, không cần Docker/bun — chỉ thao tác text/JSON, không build code). SQL nạp lên production:
+  `scripts/seed/coach-hint-translations.sql` (304 dòng = 38 ngôn ngữ × 8 khoá) — **CHƯA CHẠY lên production**,
+  cùng nhóm với `tour-translations.sql` chưa chạy ở mục trên.
+  - **Sự cố lúc làm, đã sửa xong**: lần chạy script đầu tiên tạo lỗi 2 dòng trống liền nhau ở cả 14 file
+    compiled, do JS regex `^` (cờ `m`) với file dùng xuống dòng CRLF coi riêng ký tự `\r` là đã kết thúc
+    dòng, khiến nhóm bắt `(\s*)` vô tình nuốt luôn ký tự `\n` của dòng TRƯỚC đó — biến `indent` bị lẫn 1 ký
+    tự xuống dòng thừa, mỗi dòng mới chèn vào tự mang theo 1 dòng trống. Sửa bằng cách cố định thụt lề `"  "`
+    thay vì lấy từ regex. Đã revert 14 file về bản gốc qua `git checkout --` rồi chạy lại, xác minh lại bằng
+    cách đếm byte (không còn `\r\n\n` hay `\n` lẻ) trước khi tin.
+- Đã typecheck sạch. **CHƯA chạy `migrate.bat`** (cột DB mới) và **CHƯA `deploy.bat`** — xem "⛔ Còn thiếu".
+
+---
+
+## 🔴 Listening Lab — Dictation "tự điền sẵn" ở 52% số bài do lỗi code, không phải dữ liệu (2026-09-28)
+
+Khách báo: vòng 3 (Dictation) một số bài hiện nguyên câu, không có ô trống để gõ. Kiểm tra bằng cách kéo
+toàn bộ `dictation` jsonb thật từ production, chạy đúng thuật toán `buildDictationParts`
+(`src/lib/listening-content.ts`) qua Node cục bộ để dò thay vì đoán — phát hiện **267/514 mục dictation
+(52%), trải trên 74/119 bài (62%)** không khớp được ô trống nào, tập trung gần hết ở B2/C1.
+
+**Nguyên nhân**: hàm cũ so khớp mỗi ô trống với đúng 1 từ trong câu. Nhiều mục dictation có ô trống là
+**cụm nhiều từ** (đúng nghĩa sư phạm — connected speech/expression tự nhiên hay là cụm, vd
+`blanks: ["locking yourself"]`, `["twenty-four hours"]`, `["Friday works"]`), nên không bao giờ khớp được
+với 1 từ đơn → không tìm thấy ô trống nào → cả câu hiện nguyên văn, giống như "đã điền sẵn". **Dữ liệu vốn
+đúng, lỗi hoàn toàn ở code** — không cần sửa/soạn lại nội dung.
+
+**Đã sửa**: viết lại `buildDictationParts` để so khớp theo **chuỗi nhiều từ liên tiếp** thay vì 1 từ, gộp
+thành đúng 1 ô trống bất kể ô đó dài bao nhiêu từ — `listening-lesson.tsx` (phần hiển thị input) không cần
+đổi gì vì vẫn đúng 1 input/1 blankIndex như cũ. Trường hợp 1 từ vẫn hoạt động y hệt trước (n=1 của cùng
+logic), không ảnh hưởng 247 mục đang đúng.
+
+**Đã xác minh lại toàn bộ 514 mục thật trên production** bằng cùng cách (chạy lại thuật toán mới, không chỉ
+đọc code bằng mắt): **513/514 khớp đúng**. Còn đúng 1 mục lỗi thật nhỏ:
+`c1-travel-documentary-monologue` mục #2 — câu có dấu nháy đơn lồng bên trong
+(`"...it owes us something.'"`), ký tự `'` đóng ngoặc dính liền cuối từ cuối cùng khiến so khớp lệch (hàm
+`normaliseWord` cố tình giữ dấu `'` để không phá vỡ từ rút gọn như "don't", nên không tự lọc được trường hợp
+này). Ảnh hưởng 1/514 mục, chưa sửa — có thể sửa bằng cách đổi câu/ô trống của riêng mục đó qua `/admin`.
+
+Đã typecheck sạch. Đã deploy lên production cùng đợt với các mục ở trên.
+
+---
+
+## 🔴 Listening Lab — đáp án đúng dồn vào vị trí B ở 61% số câu hỏi, lỗi dữ liệu (2026-09-28)
+
+Khách để ý thấy đáp án đúng đa số là B. Kiểm tra bằng cách kéo toàn bộ `questions` jsonb thật từ production
+và tính vị trí thật của `answer` trong mảng `options` (khớp theo **nội dung chữ**, không phải theo thứ tự —
+xem `listening-lesson.tsx` dòng so `option === question.answer`) cho toàn bộ 658 câu hỏi. Kết quả: **B chiếm
+60.9% (401/658)**, C chỉ 6.8%, D chỉ 0.5% — và **27 bài có đáp án đúng là B cho TẤT CẢ câu hỏi trong bài**
+(5-7/5-7). Lỗi ở khâu soạn nội dung (không xáo vị trí đáp án đúng lúc tạo), không phải code — code vốn đã
+so khớp theo nội dung chữ nên xáo vị trí `options` không ảnh hưởng gì tới việc chấm đúng/sai.
+
+**Đã sửa bằng cách xáo ngẫu nhiên (Fisher–Yates) vị trí `options` của cả 658 câu, giữ nguyên `answer` và mọi
+trường khác** — chạy `UPDATE listening_lessons SET questions = ...` trực tiếp trên production cho cả 119
+bài, **không cần sửa code, không cần deploy** (server luôn đọc thẳng từ DB). Đã xác minh lại bằng cách kéo
+dữ liệu về lần nữa sau khi sửa: phân bố mới A 27.4% / B 26.1% / C 24.8% / D 21.7% (đều), tất cả 658 câu vẫn
+khớp đúng answer với 1 option (không mất/hỏng dữ liệu), chỉ còn 1 bài trùng ngẫu nhiên cả 4 câu ra B (xác
+suất tự nhiên của xáo ngẫu nhiên, không phải lỗi hệ thống lặp lại).
+
+---
+
 ## ⛔ Còn thiếu / chưa làm (không phải lỗi, cần quyết định hoặc thêm thông tin)
 
 - **Dữ liệu người dùng thật từ Supabase Cloud** — cần connection string, chưa có.
@@ -1302,6 +1530,21 @@ liên quan tới code — xác nhận bằng `curl` site vẫn khoẻ mọi lầ
   qua RLS vẫn như mô tả cũ, không đổi.
 - ~~**Đa ngôn ngữ**: 54/50+ ngôn ngữ~~ — **đã hoàn thành 100% 2026-09-16**, xem mục "Đa ngôn ngữ" ở trên. Đã nạp đủ 38 ngôn ngữ qua DB seed + 16 ngôn ngữ gốc = 54 ngôn ngữ trên production DB (45,689 dòng bản dịch), xác nhận qua query trực tiếp trên PostgreSQL production.
 - TOEFL/PTE trong Speaking Tests có nội dung đủ (60 đề) nhưng chưa được đầu tư UX kỹ như IELTS.
+- **Chưa chạy `scripts/seed/tour-translations.sql` lên production** — 38 ngôn ngữ chưa có bản dịch cho
+  hướng dẫn tương tác (guided tour), sẽ tự fallback sang tiếng Anh cho tới khi chạy file này.
+- **Chưa `deploy.bat` phần sửa Pronunciation "Sounds" mới nhất** (32 âm + công cụ admin nghe/tạo/lưu + 2 gợi
+  ý `/ð/`/`/r/` + tách lượt gọi `/tʃ/ /f/ /l/`) — code đã typecheck sạch nhưng chưa lên production. Sau khi
+  deploy: đăng nhập `demo-admin`, vào từng âm trong 44 âm, bấm "Tạo bản mới" → nghe → "Lưu bản này" (đặc
+  biệt chú ý nghe kỹ `/ð/` và `/r/`, 2 âm chưa test được sau lần sửa cuối). Mỗi lượt "Tạo bản mới" tốn 1-3
+  lượt gọi API TTS (tuỳ âm) — quota Gemini 100/ngày, nên chia làm nhiều đợt, không dồn hết 44 âm 1 lần.
+- Backfill audio hàng loạt (`scripts/pregenerate-audio.ts`) đang tạm dừng vì giới hạn quota Gemini TTS
+  100/ngày (611/6.966 mục tính đến lần chạy gần nhất) — không phải bắt buộc (audio vẫn tự cache khi user
+  thật dùng lần đầu), chỉ là tối ưu tốc độ tải, làm tiếp khi rảnh quota.
+- **Chưa chạy `migrate.bat` + `deploy.bat` cho tính năng "gợi ý trả lời" (hint) của AI Coach** — cần
+  `migrate.bat` trước (cột mới `coach_sessions.hint_used`, migration `0017_coach_hint_used.sql`) rồi mới
+  `deploy.bat`. Bản dịch `coach.hint.*` đã đủ 54 ngôn ngữ trong code/data (2026-09-27) — chỉ còn thiếu chạy
+  `scripts/seed/coach-hint-translations.sql` lên production (gộp chung đợt với `tour-translations.sql` ở
+  trên, cả 2 file SQL đều chưa chạy).
 
 ---
 

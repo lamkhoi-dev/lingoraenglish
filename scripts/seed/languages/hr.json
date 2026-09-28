@@ -1268,6 +1268,14 @@
     "tour.vocab.step1.title": "Pregledaj prema kategoriji",
     "tour.vocab.step1.content": "Filtrirajte popis riječi prema temi kako biste usmjerili svoje učenje.",
     "tour.vocab.step2.title": "Naučite riječ",
-    "tour.vocab.step2.content": "Poslušajte kako UI izgovara riječ ili primjer rečenice, označite je kao poznatu ili je pošaljite izravno u vježbu govora."
+    "tour.vocab.step2.content": "Poslušajte kako UI izgovara riječ ili primjer rečenice, označite je kao poznatu ili je pošaljite izravno u vježbu govora.",
+    "coach.hint.needIdea": "Trebate ideju? Prikaži savjet",
+    "coach.hint.usedUp": "Već ste iskoristili svoj besplatni savjet za ovu temu.",
+    "coach.hint.upgrade": "Nadogradite za neograničene savjete",
+    "coach.hint.ideasTitle": "Ideje",
+    "coach.hint.startersTitle": "Počeci rečenica",
+    "coach.hint.needMoreHelp": "Trebate još pomoći?",
+    "coach.hint.showExample": "Prikaži primjer",
+    "coach.hint.nowYourTurn": "Sada je vaš red!"
   }
 }

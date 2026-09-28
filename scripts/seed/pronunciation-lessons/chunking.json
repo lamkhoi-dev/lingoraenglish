@@ -6,11 +6,23 @@
       "difficulty": "medium",
       "accent": "us",
       "explain": "Break long sentences into short meaning groups with a tiny pause between them. It sounds calm and clear.",
-      "points": ["Pause at the / marks.", "Never pause in the middle of a thought group."],
+      "points": [
+        "Pause at the / marks.",
+        "Never pause in the middle of a thought group."
+      ],
       "items": [
-        { "text": "When I got home, I realized I had forgotten my keys.", "pattern": "When I got home / I realized / I had forgotten my keys." },
-        { "text": "In my opinion, learning a language takes time and patience.", "pattern": "In my opinion / learning a language / takes time and patience." },
-        { "text": "If you have any questions, please let me know.", "pattern": "If you have any questions / please let me know." }
+        {
+          "text": "When I got home, I realized I had forgotten my keys.",
+          "pattern": "When I got home / I realized / I had forgotten my keys."
+        },
+        {
+          "text": "In my opinion, learning a language takes time and patience.",
+          "pattern": "In my opinion / learning a language / takes time and patience."
+        },
+        {
+          "text": "If you have any questions, please let me know.",
+          "pattern": "If you have any questions / please let me know."
+        }
       ]
     },
     {
@@ -19,10 +31,19 @@
       "difficulty": "hard",
       "accent": "us",
       "explain": "In a two-minute answer, plan where you breathe. Breathe at the end of a group, never in the middle of one.",
-      "points": ["One breath per group.", "Drop your pitch slightly at the end of a completed group."],
+      "points": [
+        "One breath per group.",
+        "Drop your pitch slightly at the end of a completed group."
+      ],
       "items": [
-        { "text": "The place I'd like to talk about is a small café near my old apartment, which I visited almost every weekend.", "pattern": "The place I'd like to talk about / is a small café near my old apartment / which I visited almost every weekend." },
-        { "text": "I started learning English at school, but I only became confident when I began speaking every day.", "pattern": "I started learning English at school / but I only became confident / when I began speaking every day." }
+        {
+          "text": "The place I'd like to talk about is a small café near my old apartment, which I visited almost every weekend.",
+          "pattern": "The place I'd like to talk about / is a small café near my old apartment / which I visited almost every weekend."
+        },
+        {
+          "text": "I started learning English at school, but I only became confident when I began speaking every day.",
+          "pattern": "I started learning English at school / but I only became confident / when I began speaking every day."
+        }
       ]
     },
     {
@@ -33,7 +54,10 @@
       "explain": "Direction-giving is much easier to follow when broken into small chunks with pauses.",
       "points": [],
       "items": [
-        { "text": "Go straight ahead, then turn left at the second light, and it's on your right.", "pattern": "Go straight ahead / then turn left at the second light / and it's on your right." }
+        {
+          "text": "Go straight ahead, then turn left at the second light, and it's on your right.",
+          "pattern": "Go straight ahead / then turn left at the second light / and it's on your right."
+        }
       ]
     },
     {
@@ -44,7 +68,10 @@
       "explain": "Presentations sound much more confident when chunked clearly, giving the audience time to process.",
       "points": [],
       "items": [
-        { "text": "Good morning everyone, thank you for coming, and let's get started.", "pattern": "Good morning everyone / thank you for coming / and let's get started." }
+        {
+          "text": "Good morning everyone, thank you for coming, and let's get started.",
+          "pattern": "Good morning everyone / thank you for coming / and let's get started."
+        }
       ]
     },
     {
@@ -55,7 +82,10 @@
       "explain": "Stories flow better and build suspense when chunked at natural narrative breaks.",
       "points": [],
       "items": [
-        { "text": "So one day, I was walking home from work, when I suddenly heard a strange noise behind me.", "pattern": "So one day / I was walking home from work / when I suddenly heard a strange noise behind me." }
+        {
+          "text": "So one day, I was walking home from work, when I suddenly heard a strange noise behind me.",
+          "pattern": "So one day / I was walking home from work / when I suddenly heard a strange noise behind me."
+        }
       ]
     },
     {
@@ -66,7 +96,10 @@
       "explain": "For Part 2 or Part 3 answers, chunk each supporting reason separately so the examiner can follow your structure.",
       "points": [],
       "items": [
-        { "text": "I think remote work has both advantages and disadvantages, because on one hand it gives people more flexibility, but on the other hand it can make teamwork harder.", "pattern": "I think remote work has both advantages and disadvantages / because on one hand it gives people more flexibility / but on the other hand it can make teamwork harder." }
+        {
+          "text": "I think remote work has both advantages and disadvantages, because on one hand it gives people more flexibility, but on the other hand it can make teamwork harder.",
+          "pattern": "I think remote work has both advantages and disadvantages / because on one hand it gives people more flexibility / but on the other hand it can make teamwork harder."
+        }
       ]
     },
     {
@@ -77,8 +110,14 @@
       "explain": "A short introductory phrase is usually its own chunk, set off with a small pause.",
       "points": [],
       "items": [
-        { "text": "Honestly, I don't really mind either way.", "pattern": "Honestly / I don't really mind either way." },
-        { "text": "To be fair, he did apologize afterwards.", "pattern": "To be fair / he did apologize afterwards." }
+        {
+          "text": "Honestly, I don't really mind either way.",
+          "pattern": "Honestly / I don't really mind either way."
+        },
+        {
+          "text": "To be fair, he did apologize afterwards.",
+          "pattern": "To be fair / he did apologize afterwards."
+        }
       ]
     },
     {
@@ -89,7 +128,10 @@
       "explain": "Recipe steps naturally break into chunks at each action — pause briefly between them.",
       "points": [],
       "items": [
-        { "text": "First, chop the onions, then fry them in a little oil, and add the garlic once they're soft.", "pattern": "First, chop the onions / then fry them in a little oil / and add the garlic once they're soft." }
+        {
+          "text": "First, chop the onions, then fry them in a little oil, and add the garlic once they're soft.",
+          "pattern": "First, chop the onions / then fry them in a little oil / and add the garlic once they're soft."
+        }
       ]
     },
     {
@@ -100,7 +142,10 @@
       "explain": "Comparisons chunk around each side of the comparison, with a small pause before the contrast word.",
       "points": [],
       "items": [
-        { "text": "Living in the city is more convenient, but living in the countryside is much more peaceful.", "pattern": "Living in the city is more convenient / but living in the countryside is much more peaceful." }
+        {
+          "text": "Living in the city is more convenient, but living in the countryside is much more peaceful.",
+          "pattern": "Living in the city is more convenient / but living in the countryside is much more peaceful."
+        }
       ]
     },
     {
@@ -111,7 +156,10 @@
       "explain": "Describing data chunks around each trend or figure, giving the listener time to picture it.",
       "points": [],
       "items": [
-        { "text": "The graph shows a steady increase from 2010 to 2015, followed by a sharp drop in 2016.", "pattern": "The graph shows a steady increase from 2010 to 2015 / followed by a sharp drop in 2016." }
+        {
+          "text": "The graph shows a steady increase from 2010 to 2015, followed by a sharp drop in 2016.",
+          "pattern": "The graph shows a steady increase from 2010 to 2015 / followed by a sharp drop in 2016."
+        }
       ]
     },
     {
@@ -122,7 +170,10 @@
       "explain": "Reading a formal email or message aloud still needs natural chunking, not a flat word-by-word read.",
       "points": [],
       "items": [
-        { "text": "Dear team, I wanted to let you know that the meeting has been moved to Thursday at 3pm.", "pattern": "Dear team / I wanted to let you know / that the meeting has been moved to Thursday at 3pm." }
+        {
+          "text": "Dear team, I wanted to let you know that the meeting has been moved to Thursday at 3pm.",
+          "pattern": "Dear team / I wanted to let you know / that the meeting has been moved to Thursday at 3pm."
+        }
       ]
     },
     {
@@ -133,7 +184,10 @@
       "explain": "A relative clause ('which...', 'who...') is usually its own chunk, set off by small pauses on both sides.",
       "points": [],
       "items": [
-        { "text": "My brother, who lives in Canada, is visiting next month.", "pattern": "My brother / who lives in Canada / is visiting next month." }
+        {
+          "text": "My brother, who lives in Canada, is visiting next month.",
+          "pattern": "My brother / who lives in Canada / is visiting next month."
+        }
       ]
     },
     {
@@ -144,7 +198,10 @@
       "explain": "Safety instructions need very clear chunking so each instruction is unmistakable.",
       "points": [],
       "items": [
-        { "text": "In case of fire, stay calm, leave the building immediately, and do not use the elevator.", "pattern": "In case of fire / stay calm / leave the building immediately / and do not use the elevator." }
+        {
+          "text": "In case of fire, stay calm, leave the building immediately, and do not use the elevator.",
+          "pattern": "In case of fire / stay calm / leave the building immediately / and do not use the elevator."
+        }
       ]
     },
     {
@@ -155,9 +212,18 @@
       "explain": "As a sentence grows longer, the number of chunks grows too — practise adding one chunk at a time.",
       "points": [],
       "items": [
-        { "text": "I like coffee.", "pattern": "1 chunk" },
-        { "text": "I like coffee, especially in the morning.", "pattern": "2 chunks" },
-        { "text": "I like coffee, especially in the morning, when I need to wake up properly.", "pattern": "3 chunks" }
+        {
+          "text": "I like coffee.",
+          "pattern": "1 chunk"
+        },
+        {
+          "text": "I like coffee, especially in the morning.",
+          "pattern": "2 chunks"
+        },
+        {
+          "text": "I like coffee, especially in the morning, when I need to wake up properly.",
+          "pattern": "3 chunks"
+        }
       ]
     },
     {
@@ -168,7 +234,10 @@
       "explain": "Structured interview answers chunk around each part of the story: situation, action, result.",
       "points": [],
       "items": [
-        { "text": "In my last role, we had a tight deadline, so I reorganized the team's priorities, and we ended up delivering two days early.", "pattern": "In my last role, we had a tight deadline / so I reorganized the team's priorities / and we ended up delivering two days early." }
+        {
+          "text": "In my last role, we had a tight deadline, so I reorganized the team's priorities, and we ended up delivering two days early.",
+          "pattern": "In my last role, we had a tight deadline / so I reorganized the team's priorities / and we ended up delivering two days early."
+        }
       ]
     },
     {
@@ -179,7 +248,10 @@
       "explain": "An extra comment inserted mid-sentence is its own chunk, set off clearly on both sides.",
       "points": [],
       "items": [
-        { "text": "My colleague, who's actually pretty new to the team, handled it really well.", "pattern": "My colleague / who's actually pretty new to the team / handled it really well." }
+        {
+          "text": "My colleague, who's actually pretty new to the team, handled it really well.",
+          "pattern": "My colleague / who's actually pretty new to the team / handled it really well."
+        }
       ]
     },
     {
@@ -190,7 +262,10 @@
       "explain": "Each half of this structure is its own chunk, with a small pause right before 'but also'.",
       "points": [],
       "items": [
-        { "text": "Not only is it cheaper, but it's also much faster.", "pattern": "Not only is it cheaper / but it's also much faster." }
+        {
+          "text": "Not only is it cheaper, but it's also much faster.",
+          "pattern": "Not only is it cheaper / but it's also much faster."
+        }
       ]
     },
     {
@@ -201,7 +276,10 @@
       "explain": "Product demos chunk around each feature being shown, pausing to let it land before moving on.",
       "points": [],
       "items": [
-        { "text": "So here you can see the dashboard, and if you click this button, it generates the report automatically.", "pattern": "So here you can see the dashboard / and if you click this button / it generates the report automatically." }
+        {
+          "text": "So here you can see the dashboard, and if you click this button, it generates the report automatically.",
+          "pattern": "So here you can see the dashboard / and if you click this button / it generates the report automatically."
+        }
       ]
     },
     {
@@ -212,7 +290,10 @@
       "explain": "Rule explanations chunk around each individual rule so listeners can follow along.",
       "points": [],
       "items": [
-        { "text": "Each player gets seven cards, and on your turn, you either play a card or draw a new one.", "pattern": "Each player gets seven cards / and on your turn / you either play a card or draw a new one." }
+        {
+          "text": "Each player gets seven cards, and on your turn, you either play a card or draw a new one.",
+          "pattern": "Each player gets seven cards / and on your turn / you either play a card or draw a new one."
+        }
       ]
     },
     {
@@ -223,8 +304,14 @@
       "explain": "Time clauses are usually their own chunk, whether they come at the start or end of the sentence.",
       "points": [],
       "items": [
-        { "text": "Before you leave, make sure you lock the door.", "pattern": "Before you leave / make sure you lock the door." },
-        { "text": "I'll call you while I'm on my way there.", "pattern": "I'll call you / while I'm on my way there." }
+        {
+          "text": "Before you leave, make sure you lock the door.",
+          "pattern": "Before you leave / make sure you lock the door."
+        },
+        {
+          "text": "I'll call you while I'm on my way there.",
+          "pattern": "I'll call you / while I'm on my way there."
+        }
       ]
     },
     {
@@ -235,9 +322,18 @@
       "explain": "A second buildup drill, starting more complex and adding even more chunks.",
       "points": [],
       "items": [
-        { "text": "I work in marketing.", "pattern": "1 chunk" },
-        { "text": "I work in marketing, mainly on social media campaigns.", "pattern": "2 chunks" },
-        { "text": "I work in marketing, mainly on social media campaigns, which I've been doing for about five years now.", "pattern": "3 chunks" }
+        {
+          "text": "I work in marketing.",
+          "pattern": "1 chunk"
+        },
+        {
+          "text": "I work in marketing, mainly on social media campaigns.",
+          "pattern": "2 chunks"
+        },
+        {
+          "text": "I work in marketing, mainly on social media campaigns, which I've been doing for about five years now.",
+          "pattern": "3 chunks"
+        }
       ]
     },
     {
@@ -248,8 +344,14 @@
       "explain": "Cause-and-effect sentences chunk around the cause and the resulting effect separately.",
       "points": [],
       "items": [
-        { "text": "Because the flight was delayed, we missed our connection.", "pattern": "Because the flight was delayed / we missed our connection." },
-        { "text": "The store closed early, so we couldn't buy anything.", "pattern": "The store closed early / so we couldn't buy anything." }
+        {
+          "text": "Because the flight was delayed, we missed our connection.",
+          "pattern": "Because the flight was delayed / we missed our connection."
+        },
+        {
+          "text": "The store closed early, so we couldn't buy anything.",
+          "pattern": "The store closed early / so we couldn't buy anything."
+        }
       ]
     },
     {
@@ -260,7 +362,10 @@
       "explain": "When listing several pros and cons in one breath, each point gets its own small chunk.",
       "points": [],
       "items": [
-        { "text": "It's affordable, it's convenient, but the quality isn't always consistent.", "pattern": "It's affordable / it's convenient / but the quality isn't always consistent." }
+        {
+          "text": "It's affordable, it's convenient, but the quality isn't always consistent.",
+          "pattern": "It's affordable / it's convenient / but the quality isn't always consistent."
+        }
       ]
     },
     {
@@ -271,7 +376,10 @@
       "explain": "Workplace announcements chunk clearly so nobody misses an important detail.",
       "points": [],
       "items": [
-        { "text": "Starting next Monday, the office will be open until 7pm, so please plan your schedules accordingly.", "pattern": "Starting next Monday / the office will be open until 7pm / so please plan your schedules accordingly." }
+        {
+          "text": "Starting next Monday, the office will be open until 7pm, so please plan your schedules accordingly.",
+          "pattern": "Starting next Monday / the office will be open until 7pm / so please plan your schedules accordingly."
+        }
       ]
     },
     {
@@ -282,7 +390,10 @@
       "explain": "Delivering difficult news benefits from extra-clear chunking, giving the listener time to absorb each part.",
       "points": [],
       "items": [
-        { "text": "I need to tell you something, and I want you to know it's not your fault, but the project's been cancelled.", "pattern": "I need to tell you something / and I want you to know it's not your fault / but the project's been cancelled." }
+        {
+          "text": "I need to tell you something, and I want you to know it's not your fault, but the project's been cancelled.",
+          "pattern": "I need to tell you something / and I want you to know it's not your fault / but the project's been cancelled."
+        }
       ]
     },
     {
@@ -293,7 +404,10 @@
       "explain": "A tribute speech chunks around each memory or quality being honoured, with a pause to let it land.",
       "points": [],
       "items": [
-        { "text": "She's always been there for everyone, she never asks for anything in return, and today we get to celebrate her.", "pattern": "She's always been there for everyone / she never asks for anything in return / and today we get to celebrate her." }
+        {
+          "text": "She's always been there for everyone, she never asks for anything in return, and today we get to celebrate her.",
+          "pattern": "She's always been there for everyone / she never asks for anything in return / and today we get to celebrate her."
+        }
       ]
     },
     {
@@ -304,7 +418,10 @@
       "explain": "Describing an image chunks around each element you notice, moving from general to specific.",
       "points": [],
       "items": [
-        { "text": "In this photo, there's a group of friends sitting by the lake, and you can tell they're having a great time.", "pattern": "In this photo / there's a group of friends sitting by the lake / and you can tell they're having a great time." }
+        {
+          "text": "In this photo, there's a group of friends sitting by the lake, and you can tell they're having a great time.",
+          "pattern": "In this photo / there's a group of friends sitting by the lake / and you can tell they're having a great time."
+        }
       ]
     },
     {
@@ -315,7 +432,10 @@
       "explain": "Historical explanations chunk around cause, event and consequence.",
       "points": [],
       "items": [
-        { "text": "After years of tension, the two countries finally signed a peace agreement, which changed the region for decades.", "pattern": "After years of tension / the two countries finally signed a peace agreement / which changed the region for decades." }
+        {
+          "text": "After years of tension, the two countries finally signed a peace agreement, which changed the region for decades.",
+          "pattern": "After years of tension / the two countries finally signed a peace agreement / which changed the region for decades."
+        }
       ]
     },
     {
@@ -326,7 +446,10 @@
       "explain": "Plot summaries chunk around each major turning point in the story.",
       "points": [],
       "items": [
-        { "text": "The main character starts out pretty naive, but after everything that happens, she ends up completely transformed.", "pattern": "The main character starts out pretty naive / but after everything that happens / she ends up completely transformed." }
+        {
+          "text": "The main character starts out pretty naive, but after everything that happens, she ends up completely transformed.",
+          "pattern": "The main character starts out pretty naive / but after everything that happens / she ends up completely transformed."
+        }
       ]
     },
     {
@@ -337,7 +460,10 @@
       "explain": "Negotiation chunks around your offer and your condition, giving weight to each part.",
       "points": [],
       "items": [
-        { "text": "I could agree to that price, but only if we extend the deadline by two weeks.", "pattern": "I could agree to that price / but only if we extend the deadline by two weeks." }
+        {
+          "text": "I could agree to that price, but only if we extend the deadline by two weeks.",
+          "pattern": "I could agree to that price / but only if we extend the deadline by two weeks."
+        }
       ]
     },
     {
@@ -348,7 +474,10 @@
       "explain": "Describing symptoms chunks around each separate symptom so nothing gets missed.",
       "points": [],
       "items": [
-        { "text": "I've had a headache since yesterday, and this morning I also started feeling a bit dizzy.", "pattern": "I've had a headache since yesterday / and this morning I also started feeling a bit dizzy." }
+        {
+          "text": "I've had a headache since yesterday, and this morning I also started feeling a bit dizzy.",
+          "pattern": "I've had a headache since yesterday / and this morning I also started feeling a bit dizzy."
+        }
       ]
     },
     {
@@ -359,7 +488,10 @@
       "explain": "Itineraries chunk around each day or destination.",
       "points": [],
       "items": [
-        { "text": "We land on Monday, spend two days in the city, and then head to the coast for the weekend.", "pattern": "We land on Monday / spend two days in the city / and then head to the coast for the weekend." }
+        {
+          "text": "We land on Monday, spend two days in the city, and then head to the coast for the weekend.",
+          "pattern": "We land on Monday / spend two days in the city / and then head to the coast for the weekend."
+        }
       ]
     },
     {
@@ -370,7 +502,10 @@
       "explain": "Budget explanations chunk around each category of spending.",
       "points": [],
       "items": [
-        { "text": "Half of it goes to rent, a quarter goes to savings, and the rest covers everything else.", "pattern": "Half of it goes to rent / a quarter goes to savings / and the rest covers everything else." }
+        {
+          "text": "Half of it goes to rent, a quarter goes to savings, and the rest covers everything else.",
+          "pattern": "Half of it goes to rent / a quarter goes to savings / and the rest covers everything else."
+        }
       ]
     },
     {
@@ -381,7 +516,10 @@
       "explain": "Comparing offers chunks around each job's pros, with a clear pause before the contrast.",
       "points": [],
       "items": [
-        { "text": "The first offer pays more, but the second one has much better work-life balance.", "pattern": "The first offer pays more / but the second one has much better work-life balance." }
+        {
+          "text": "The first offer pays more, but the second one has much better work-life balance.",
+          "pattern": "The first offer pays more / but the second one has much better work-life balance."
+        }
       ]
     },
     {
@@ -392,7 +530,10 @@
       "explain": "Troubleshooting chunks around each thing you've already tried.",
       "points": [],
       "items": [
-        { "text": "I've already restarted it twice, and I've also checked the cables, but it still won't turn on.", "pattern": "I've already restarted it twice / and I've also checked the cables / but it still won't turn on." }
+        {
+          "text": "I've already restarted it twice, and I've also checked the cables, but it still won't turn on.",
+          "pattern": "I've already restarted it twice / and I've also checked the cables / but it still won't turn on."
+        }
       ]
     },
     {
@@ -403,7 +544,10 @@
       "explain": "Dream narration chunks around each strange or memorable moment.",
       "points": [],
       "items": [
-        { "text": "I was walking through this huge house, and suddenly all the doors disappeared, and I just woke up.", "pattern": "I was walking through this huge house / and suddenly all the doors disappeared / and I just woke up." }
+        {
+          "text": "I was walking through this huge house, and suddenly all the doors disappeared, and I just woke up.",
+          "pattern": "I was walking through this huge house / and suddenly all the doors disappeared / and I just woke up."
+        }
       ]
     },
     {
@@ -414,7 +558,10 @@
       "explain": "Discussing environmental topics chunks around the problem and its consequence, common in IELTS Part 3.",
       "points": [],
       "items": [
-        { "text": "As more forests are cut down, we lose important habitats, and that has a huge impact on biodiversity.", "pattern": "As more forests are cut down / we lose important habitats / and that has a huge impact on biodiversity." }
+        {
+          "text": "As more forests are cut down, we lose important habitats, and that has a huge impact on biodiversity.",
+          "pattern": "As more forests are cut down / we lose important habitats / and that has a huge impact on biodiversity."
+        }
       ]
     },
     {
@@ -425,7 +572,10 @@
       "explain": "City descriptions chunk around each feature you mention.",
       "points": [],
       "items": [
-        { "text": "It's a pretty small city, but it has a really nice old town, and the people are incredibly friendly.", "pattern": "It's a pretty small city / but it has a really nice old town / and the people are incredibly friendly." }
+        {
+          "text": "It's a pretty small city, but it has a really nice old town, and the people are incredibly friendly.",
+          "pattern": "It's a pretty small city / but it has a really nice old town / and the people are incredibly friendly."
+        }
       ]
     },
     {
@@ -436,7 +586,10 @@
       "explain": "Hobby explanations chunk around what you do, why you enjoy it, and how often.",
       "points": [],
       "items": [
-        { "text": "I've been into photography for a few years now, mostly landscapes, and I try to go out shooting every weekend.", "pattern": "I've been into photography for a few years now / mostly landscapes / and I try to go out shooting every weekend." }
+        {
+          "text": "I've been into photography for a few years now, mostly landscapes, and I try to go out shooting every weekend.",
+          "pattern": "I've been into photography for a few years now / mostly landscapes / and I try to go out shooting every weekend."
+        }
       ]
     },
     {
@@ -447,7 +600,10 @@
       "explain": "Nostalgic storytelling chunks around each remembered detail, common in IELTS Part 2.",
       "points": [],
       "items": [
-        { "text": "Every summer we'd visit my grandparents' farm, and I remember waking up really early just to feed the animals.", "pattern": "Every summer we'd visit my grandparents' farm / and I remember waking up really early / just to feed the animals." }
+        {
+          "text": "Every summer we'd visit my grandparents' farm, and I remember waking up really early just to feed the animals.",
+          "pattern": "Every summer we'd visit my grandparents' farm / and I remember waking up really early / just to feed the animals."
+        }
       ]
     },
     {
@@ -458,7 +614,10 @@
       "explain": "Policy explanations chunk around the rule and its exception or reasoning.",
       "points": [],
       "items": [
-        { "text": "Employees can work remotely two days a week, as long as they're available for core meeting hours.", "pattern": "Employees can work remotely two days a week / as long as they're available for core meeting hours." }
+        {
+          "text": "Employees can work remotely two days a week, as long as they're available for core meeting hours.",
+          "pattern": "Employees can work remotely two days a week / as long as they're available for core meeting hours."
+        }
       ]
     },
     {
@@ -469,7 +628,10 @@
       "explain": "Study-strategy talk chunks around each technique being described.",
       "points": [],
       "items": [
-        { "text": "I usually make flashcards for vocabulary, and then I review them right before bed, since that seems to help me remember better.", "pattern": "I usually make flashcards for vocabulary / and then I review them right before bed / since that seems to help me remember better." }
+        {
+          "text": "I usually make flashcards for vocabulary, and then I review them right before bed, since that seems to help me remember better.",
+          "pattern": "I usually make flashcards for vocabulary / and then I review them right before bed / since that seems to help me remember better."
+        }
       ]
     },
     {
@@ -480,7 +642,10 @@
       "explain": "Tech explanations chunk around each step or feature.",
       "points": [],
       "items": [
-        { "text": "You just tap the plus icon, choose a category, and it automatically saves your entry.", "pattern": "You just tap the plus icon / choose a category / and it automatically saves your entry." }
+        {
+          "text": "You just tap the plus icon, choose a category, and it automatically saves your entry.",
+          "pattern": "You just tap the plus icon / choose a category / and it automatically saves your entry."
+        }
       ]
     },
     {
@@ -491,7 +656,10 @@
       "explain": "Sports recaps chunk around each key moment of the game.",
       "points": [],
       "items": [
-        { "text": "They were down by ten points at halftime, but they made an incredible comeback in the final quarter.", "pattern": "They were down by ten points at halftime / but they made an incredible comeback in the final quarter." }
+        {
+          "text": "They were down by ten points at halftime, but they made an incredible comeback in the final quarter.",
+          "pattern": "They were down by ten points at halftime / but they made an incredible comeback in the final quarter."
+        }
       ]
     },
     {
@@ -502,7 +670,10 @@
       "explain": "Health advice chunks around each recommendation.",
       "points": [],
       "items": [
-        { "text": "Try to eat more vegetables, drink plenty of water, and avoid too much sugar in the evening.", "pattern": "Try to eat more vegetables / drink plenty of water / and avoid too much sugar in the evening." }
+        {
+          "text": "Try to eat more vegetables, drink plenty of water, and avoid too much sugar in the evening.",
+          "pattern": "Try to eat more vegetables / drink plenty of water / and avoid too much sugar in the evening."
+        }
       ]
     },
     {
@@ -513,7 +684,10 @@
       "explain": "Weather-pattern discussion chunks around cause and typical result.",
       "points": [],
       "items": [
-        { "text": "Because the city is near the coast, the weather changes really quickly, so it can be sunny one hour and rainy the next.", "pattern": "Because the city is near the coast / the weather changes really quickly / so it can be sunny one hour and rainy the next." }
+        {
+          "text": "Because the city is near the coast, the weather changes really quickly, so it can be sunny one hour and rainy the next.",
+          "pattern": "Because the city is near the coast / the weather changes really quickly / so it can be sunny one hour and rainy the next."
+        }
       ]
     },
     {
@@ -524,7 +698,10 @@
       "explain": "Support calls chunk around each troubleshooting step you ask the customer to try.",
       "points": [],
       "items": [
-        { "text": "Okay, first can you check if it's plugged in properly, and then let me know what the screen shows.", "pattern": "Okay, first can you check if it's plugged in properly / and then let me know what the screen shows." }
+        {
+          "text": "Okay, first can you check if it's plugged in properly, and then let me know what the screen shows.",
+          "pattern": "Okay, first can you check if it's plugged in properly / and then let me know what the screen shows."
+        }
       ]
     },
     {
@@ -535,7 +712,10 @@
       "explain": "Even dense formal text needs clear chunking when read aloud, or it becomes impossible to follow.",
       "points": [],
       "items": [
-        { "text": "This offer is valid until the end of the month, applies only to new customers, and cannot be combined with other promotions.", "pattern": "This offer is valid until the end of the month / applies only to new customers / and cannot be combined with other promotions." }
+        {
+          "text": "This offer is valid until the end of the month, applies only to new customers, and cannot be combined with other promotions.",
+          "pattern": "This offer is valid until the end of the month / applies only to new customers / and cannot be combined with other promotions."
+        }
       ]
     },
     {
@@ -546,7 +726,10 @@
       "explain": "Personal decision-making chunks around each factor being weighed, common in IELTS Part 3 discussion.",
       "points": [],
       "items": [
-        { "text": "On one hand, staying here means job security, but on the other hand, moving abroad could open up a lot more opportunities.", "pattern": "On one hand, staying here means job security / but on the other hand, moving abroad could open up a lot more opportunities." }
+        {
+          "text": "On one hand, staying here means job security, but on the other hand, moving abroad could open up a lot more opportunities.",
+          "pattern": "On one hand, staying here means job security / but on the other hand, moving abroad could open up a lot more opportunities."
+        }
       ]
     },
     {
@@ -557,7 +740,275 @@
       "explain": "A closing set — mark where you'd pause before checking the suggested chunks.",
       "points": [],
       "items": [
-        { "text": "Even though it was raining, we decided to go for a walk anyway, since we hadn't seen each other in months.", "pattern": "Even though it was raining / we decided to go for a walk anyway / since we hadn't seen each other in months." }
+        {
+          "text": "Even though it was raining, we decided to go for a walk anyway, since we hadn't seen each other in months.",
+          "pattern": "Even though it was raining / we decided to go for a walk anyway / since we hadn't seen each other in months."
+        }
+      ]
+    },
+    {
+      "title": "Practice",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Master chunking across 50 targeted drills. Listen closely to the AI model, repeat, and record your voice to receive detailed real-time pronunciation scoring and feedback.",
+      "points": [
+        "Focus on the rhythm, stress, and flow highlighted in each drill.",
+        "Listen to the reference model audio before each recording attempt.",
+        "Review your AI score and phoneme-level feedback to pinpoint areas for improvement."
+      ],
+      "caution": "Do not rush through the drills; prioritize clarity, natural cadence, and accurate articulation.",
+      "items": [
+        {
+          "text": "In the early morning / the mist hung over the lake.",
+          "pattern": "In the early morning / the mist hung over the lake.",
+          "note": "Pause between time prepositional phrase and main clause."
+        },
+        {
+          "text": "If you want to succeed / you must be consistent.",
+          "pattern": "If you want to succeed / you must be consistent.",
+          "note": "Natural break after conditional dependent clause."
+        },
+        {
+          "text": "The young woman in the red coat / smiled warmly.",
+          "pattern": "The young woman in the red coat / smiled warmly.",
+          "note": "Pause separates long subject noun phrase from the predicate."
+        },
+        {
+          "text": "Before you sign the contract / read every single page.",
+          "pattern": "Before you sign the contract / read every single page.",
+          "note": "Pause after introductory dependent clause."
+        },
+        {
+          "text": "Although he was exhausted / he finished the marathon.",
+          "pattern": "Although he was exhausted / he finished the marathon.",
+          "note": "Pause highlights the concession before the result."
+        },
+        {
+          "text": "According to the latest survey / consumer confidence has risen.",
+          "pattern": "According to the latest survey / consumer confidence has risen.",
+          "note": "Pause after citation phrase."
+        },
+        {
+          "text": "To be completely honest / I did not expect this outcome.",
+          "pattern": "To be completely honest / I did not expect this outcome.",
+          "note": "Discourse marker chunked separately."
+        },
+        {
+          "text": "When the bell rang / all the students / hurried into the classroom.",
+          "pattern": "When the bell rang / all the students / hurried into the classroom.",
+          "note": "Three balanced breath groups."
+        },
+        {
+          "text": "In order to improve your speaking / practice every single day.",
+          "pattern": "In order to improve your speaking / practice every single day.",
+          "note": "Purpose clause followed by imperative action."
+        },
+        {
+          "text": "As soon as we arrived at the hotel / it started pouring rain.",
+          "pattern": "As soon as we arrived at the hotel / it started pouring rain.",
+          "note": "Pause marks time transition."
+        },
+        {
+          "text": "The company / which was founded ten years ago / went public yesterday.",
+          "pattern": "The company / which was founded ten years ago / went public yesterday.",
+          "note": "Non-defining relative clause enclosed in pauses."
+        },
+        {
+          "text": "My older brother / who works in Tokyo / is visiting this weekend.",
+          "pattern": "My older brother / who works in Tokyo / is visiting this weekend.",
+          "note": "Parenthetical clause separated on both sides."
+        },
+        {
+          "text": "The decision / however difficult / had to be made.",
+          "pattern": "The decision / however difficult / had to be made.",
+          "note": "Contrasting parenthetical phrase set apart."
+        },
+        {
+          "text": "His primary goal / to become a pilot / required intense discipline.",
+          "pattern": "His primary goal / to become a pilot / required intense discipline.",
+          "note": "Appositive infinitive phrase bracketed by pauses."
+        },
+        {
+          "text": "The painting / discovered in an old attic / was worth millions.",
+          "pattern": "The painting / discovered in an old attic / was worth millions.",
+          "note": "Participial descriptive chunk."
+        },
+        {
+          "text": "On one hand / the salary is attractive / but on the other / the hours are long.",
+          "pattern": "On one hand / the salary is attractive / but on the other / the hours are long.",
+          "note": "Four balanced rhetorical chunks."
+        },
+        {
+          "text": "First / heat the skillet / then / add a spoonful of olive oil.",
+          "pattern": "First / heat the skillet / then / add a spoonful of olive oil.",
+          "note": "Step-by-step procedural chunking."
+        },
+        {
+          "text": "Neither my parents / nor my siblings / could attend the ceremony.",
+          "pattern": "Neither my parents / nor my siblings / could attend the ceremony.",
+          "note": "Correlative conjunctions create rhythmic pauses."
+        },
+        {
+          "text": "Not only did he win first prize / but he also broke the record.",
+          "pattern": "Not only did he win first prize / but he also broke the record.",
+          "note": "Inverted parallel structure divided neatly."
+        },
+        {
+          "text": "Either we leave immediately / or we will miss the boarding call.",
+          "pattern": "Either we leave immediately / or we will miss the boarding call.",
+          "note": "Pause between two urgent alternatives."
+        },
+        {
+          "text": "Ladies and gentlemen / thank you for coming / this evening.",
+          "pattern": "Ladies and gentlemen / thank you for coming / this evening.",
+          "note": "Public address: vocative chunk, appreciation chunk, time chunk."
+        },
+        {
+          "text": "I am pleased to announce / that our quarterly profits / have increased by twenty percent.",
+          "pattern": "I am pleased to announce / that our quarterly profits / have increased by twenty percent.",
+          "note": "Formal presentation delivery."
+        },
+        {
+          "text": "Today / we stand at a critical crossroad / in our history.",
+          "pattern": "Today / we stand at a critical crossroad / in our history.",
+          "note": "Deliberate oratorical phrasing."
+        },
+        {
+          "text": "The question is not / whether we can do this / but whether we will.",
+          "pattern": "The question is not / whether we can do this / but whether we will.",
+          "note": "Rhetorical antithesis divided into three thought units."
+        },
+        {
+          "text": "Let us remember / that every great journey / begins with a single step.",
+          "pattern": "Let us remember / that every great journey / begins with a single step.",
+          "note": "Inspirational pacing."
+        },
+        {
+          "text": "Without hesitation / she dived into the water / and rescued the child.",
+          "pattern": "Without hesitation / she dived into the water / and rescued the child.",
+          "note": "Narrative action chunks."
+        },
+        {
+          "text": "Under the spreading chestnut tree / the village smithy stands.",
+          "pattern": "Under the spreading chestnut tree / the village smithy stands.",
+          "note": "Poetic prepositional setting."
+        },
+        {
+          "text": "Far across the valley / a solitary beacon / flickered in the dusk.",
+          "pattern": "Far across the valley / a solitary beacon / flickered in the dusk.",
+          "note": "Atmospheric description in three distinct beats."
+        },
+        {
+          "text": "With tears of joy in her eyes / she embraced her family.",
+          "pattern": "With tears of joy in her eyes / she embraced her family.",
+          "note": "Emotional adverbial chunk."
+        },
+        {
+          "text": "Deep in the enchanted forest / ancient trees / whispered in the wind.",
+          "pattern": "Deep in the enchanted forest / ancient trees / whispered in the wind.",
+          "note": "Storytelling pacing."
+        },
+        {
+          "text": "For further information / please visit our website / or contact customer service.",
+          "pattern": "For further information / please visit our website / or contact customer service.",
+          "note": "Business contact chunking."
+        },
+        {
+          "text": "Due to unforeseen weather conditions / the flight has been rescheduled.",
+          "pattern": "Due to unforeseen weather conditions / the flight has been rescheduled.",
+          "note": "Official transit announcement."
+        },
+        {
+          "text": "In case of emergency / proceed calmly / to the nearest exit.",
+          "pattern": "In case of emergency / proceed calmly / to the nearest exit.",
+          "note": "Safety instruction in three clear beats."
+        },
+        {
+          "text": "Please remain seated / until the aircraft / has come to a complete stop.",
+          "pattern": "Please remain seated / until the aircraft / has come to a complete stop.",
+          "note": "Flight crew announcement."
+        },
+        {
+          "text": "All passengers traveling with small children / may now board.",
+          "pattern": "All passengers traveling with small children / may now board.",
+          "note": "Boarding gate phrasing."
+        },
+        {
+          "text": "She took a deep breath / gathered her courage / and stepped onto the stage.",
+          "pattern": "She took a deep breath / gathered her courage / and stepped onto the stage.",
+          "note": "Tricolon of actions."
+        },
+        {
+          "text": "He opened the envelope / read the letter twice / and smiled quietly.",
+          "pattern": "He opened the envelope / read the letter twice / and smiled quietly.",
+          "note": "Sequential actions split by slight pauses."
+        },
+        {
+          "text": "We packed our bags / checked out of the room / and called a taxi.",
+          "pattern": "We packed our bags / checked out of the room / and called a taxi.",
+          "note": "Travel sequence."
+        },
+        {
+          "text": "They bought the land / designed the blueprint / and built their dream house.",
+          "pattern": "They bought the land / designed the blueprint / and built their dream house.",
+          "note": "Three major life steps."
+        },
+        {
+          "text": "I set the alarm / turned off the bedside lamp / and closed my eyes.",
+          "pattern": "I set the alarm / turned off the bedside lamp / and closed my eyes.",
+          "note": "Bedtime routine chunking."
+        },
+        {
+          "text": "Whatever happens tomorrow / we gave it our absolute best.",
+          "pattern": "Whatever happens tomorrow / we gave it our absolute best.",
+          "note": "Conditional reassurance."
+        },
+        {
+          "text": "No matter where you travel / always stay true to your roots.",
+          "pattern": "No matter where you travel / always stay true to your roots.",
+          "note": "Philosophical reminder."
+        },
+        {
+          "text": "Whenever you feel doubt / remember how far you have already come.",
+          "pattern": "Whenever you feel doubt / remember how far you have already come.",
+          "note": "Encouraging reflection."
+        },
+        {
+          "text": "Even though the path was steep / nobody complained / along the way.",
+          "pattern": "Even though the path was steep / nobody complained / along the way.",
+          "note": "Overcoming obstacles."
+        },
+        {
+          "text": "Provided that everyone agrees / we will proceed / with the initial plan.",
+          "pattern": "Provided that everyone agrees / we will proceed / with the initial plan.",
+          "note": "Administrative consensus."
+        },
+        {
+          "text": "By the time we arrived / the ceremony was over / and everyone had left.",
+          "pattern": "By the time we arrived / the ceremony was over / and everyone had left.",
+          "note": "Complex time relation."
+        },
+        {
+          "text": "As far as the eye could see / golden wheat / swayed in the breeze.",
+          "pattern": "As far as the eye could see / golden wheat / swayed in the breeze.",
+          "note": "Expansive landscape description."
+        },
+        {
+          "text": "In spite of their differences / they remained / lifelong friends.",
+          "pattern": "In spite of their differences / they remained / lifelong friends.",
+          "note": "Contrasting relationship."
+        },
+        {
+          "text": "To master natural English / you need patience / curiosity / and regular practice.",
+          "pattern": "To master natural English / you need patience / curiosity / and regular practice.",
+          "note": "Goal followed by a listed triad."
+        },
+        {
+          "text": "When the morning sun rose / the birds began their song / welcoming the day.",
+          "pattern": "When the morning sun rose / the birds began their song / welcoming the day.",
+          "note": "Graceful poetic closure."
+        }
       ]
     }
   ]

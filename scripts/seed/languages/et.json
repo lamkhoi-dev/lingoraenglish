@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "Sirvi kategooria järgi",
     "tour.vocab.step1.content": "Filtreeri sõnaloendit teema järgi, et keskenduda õppimisele.",
     "tour.vocab.step2.title": "Õpi sõna",
-    "tour.vocab.step2.content": "Kuula, kuidas tehisintellekt ütleb sõna või näitelause, märgi see tuntuks või saada see otse kõneharjutusse."
+    "tour.vocab.step2.content": "Kuula, kuidas tehisintellekt ütleb sõna või näitelause, märgi see tuntuks või saada see otse kõneharjutusse.",
+    "coach.hint.needIdea": "Kas vajad ideed? Näita vihjet",
+    "coach.hint.usedUp": "Oled selle teema jaoks juba oma tasuta vihje kasutanud.",
+    "coach.hint.upgrade": "Uuenda piiramatute vihjete jaoks",
+    "coach.hint.ideasTitle": "Ideed",
+    "coach.hint.startersTitle": "Lause algused",
+    "coach.hint.needMoreHelp": "Kas vajad rohkem abi?",
+    "coach.hint.showExample": "Näita näidet",
+    "coach.hint.nowYourTurn": "Nüüd on sinu kord!"
   }
 }

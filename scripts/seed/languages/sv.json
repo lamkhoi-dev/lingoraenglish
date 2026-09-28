@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "Bläddra efter kategori",
     "tour.vocab.step1.content": "Filtrera ordlistan efter ämne för att fokusera ditt lärande.",
     "tour.vocab.step2.title": "Lär dig ett ord",
-    "tour.vocab.step2.content": "Lyssna på AI:n säga ordet eller exempelmeningen, markera det som känt, eller skicka det direkt till en talövning."
+    "tour.vocab.step2.content": "Lyssna på AI:n säga ordet eller exempelmeningen, markera det som känt, eller skicka det direkt till en talövning.",
+    "coach.hint.needIdea": "Behöver du en idé? Visa ett tips",
+    "coach.hint.usedUp": "Du har redan använt ditt gratis tips för det här ämnet.",
+    "coach.hint.upgrade": "Uppgradera för obegränsade tips",
+    "coach.hint.ideasTitle": "Idéer",
+    "coach.hint.startersTitle": "Meningsstartare",
+    "coach.hint.needMoreHelp": "Behöver du mer hjälp?",
+    "coach.hint.showExample": "Visa ett exempel",
+    "coach.hint.nowYourTurn": "Nu är det din tur!"
   }
 }

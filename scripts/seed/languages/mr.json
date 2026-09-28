@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "श्रेणीनुसार ब्राउझ करा",
     "tour.vocab.step1.content": "तुमचा अभ्यास केंद्रित करण्यासाठी विषयानुसार शब्द यादी फिल्टर करा.",
     "tour.vocab.step2.title": "एक शब्द शिका",
-    "tour.vocab.step2.content": "AI ला शब्द किंवा उदाहरण वाक्य बोलताना ऐका, ते ज्ञात म्हणून चिन्हांकित करा, किंवा थेट स्पीकिंग सरावात पाठवा."
+    "tour.vocab.step2.content": "AI ला शब्द किंवा उदाहरण वाक्य बोलताना ऐका, ते ज्ञात म्हणून चिन्हांकित करा, किंवा थेट स्पीकिंग सरावात पाठवा.",
+    "coach.hint.needIdea": "एखादी कल्पना हवी आहे? इशारा दाखवा",
+    "coach.hint.usedUp": "तुम्ही या विषयासाठी तुमचा मोफत इशारा आधीच वापरला आहे.",
+    "coach.hint.upgrade": "अमर्यादित इशाऱ्यांसाठी अपग्रेड करा",
+    "coach.hint.ideasTitle": "कल्पना",
+    "coach.hint.startersTitle": "वाक्याची सुरुवात",
+    "coach.hint.needMoreHelp": "अधिक मदत हवी आहे?",
+    "coach.hint.showExample": "एक उदाहरण दाखवा",
+    "coach.hint.nowYourTurn": "आता तुमची पाळी आहे!"
   }
 }

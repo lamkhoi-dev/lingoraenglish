@@ -6,12 +6,29 @@
       "difficulty": "easy",
       "accent": "us",
       "explain": "Your pitch drops at the end. It sounds finished, certain and confident.",
-      "points": ["Statements", "WH- questions", "Commands", "Completed thoughts"],
+      "points": [
+        "Statements",
+        "WH- questions",
+        "Commands",
+        "Completed thoughts"
+      ],
       "items": [
-        { "text": "I live in Toronto.", "pattern": "I live in To-RON-to ↘" },
-        { "text": "Where do you work?", "pattern": "WHERE do you WORK ↘" },
-        { "text": "Close the door, please.", "pattern": "CLOSE the DOOR ↘" },
-        { "text": "That's all for today.", "pattern": "that's ALL for to-DAY ↘" }
+        {
+          "text": "I live in Toronto.",
+          "pattern": "I live in To-RON-to ↘"
+        },
+        {
+          "text": "Where do you work?",
+          "pattern": "WHERE do you WORK ↘"
+        },
+        {
+          "text": "Close the door, please.",
+          "pattern": "CLOSE the DOOR ↘"
+        },
+        {
+          "text": "That's all for today.",
+          "pattern": "that's ALL for to-DAY ↘"
+        }
       ]
     },
     {
@@ -20,12 +37,29 @@
       "difficulty": "easy",
       "accent": "us",
       "explain": "Your pitch goes up at the end. It sounds like a question, a check or an unfinished thought.",
-      "points": ["Yes/no questions", "Checking information", "Surprise", "Lists before the last item"],
+      "points": [
+        "Yes/no questions",
+        "Checking information",
+        "Surprise",
+        "Lists before the last item"
+      ],
       "items": [
-        { "text": "Are you coming?", "pattern": "are you COMing ↗" },
-        { "text": "Really?", "pattern": "REAL-ly ↗" },
-        { "text": "You paid a hundred dollars?", "pattern": "a HUNdred DOLlars ↗" },
-        { "text": "I bought bread, milk, and eggs.", "pattern": "BREAD ↗ MILK ↗ and EGGS ↘" }
+        {
+          "text": "Are you coming?",
+          "pattern": "are you COMing ↗"
+        },
+        {
+          "text": "Really?",
+          "pattern": "REAL-ly ↗"
+        },
+        {
+          "text": "You paid a hundred dollars?",
+          "pattern": "a HUNdred DOLlars ↗"
+        },
+        {
+          "text": "I bought bread, milk, and eggs.",
+          "pattern": "BREAD ↗ MILK ↗ and EGGS ↘"
+        }
       ]
     },
     {
@@ -34,12 +68,30 @@
       "difficulty": "hard",
       "accent": "us",
       "explain": "These two patterns carry attitude: surprise, doubt, politeness or a hidden 'but'.",
-      "points": ["Rise-fall ↗↘ = strong feeling, surprise.", "Fall-rise ↘↗ = doubt, politeness, 'yes, but…'"],
+      "points": [
+        "Rise-fall ↗↘ = strong feeling, surprise.",
+        "Fall-rise ↘↗ = doubt, politeness, 'yes, but…'"
+      ],
       "items": [
-        { "text": "You're joking!", "pattern": "you're JOKing ↗↘", "note": "Rise-fall: real surprise." },
-        { "text": "That was amazing!", "pattern": "a-MAZ-ing ↗↘" },
-        { "text": "Well, maybe.", "pattern": "MAY-be ↘↗", "note": "Fall-rise: I am not convinced." },
-        { "text": "I could come, but…", "pattern": "I COULD come ↘↗", "note": "Fall-rise leaves it open." }
+        {
+          "text": "You're joking!",
+          "pattern": "you're JOKing ↗↘",
+          "note": "Rise-fall: real surprise."
+        },
+        {
+          "text": "That was amazing!",
+          "pattern": "a-MAZ-ing ↗↘"
+        },
+        {
+          "text": "Well, maybe.",
+          "pattern": "MAY-be ↘↗",
+          "note": "Fall-rise: I am not convinced."
+        },
+        {
+          "text": "I could come, but…",
+          "pattern": "I COULD come ↘↗",
+          "note": "Fall-rise leaves it open."
+        }
       ]
     },
     {
@@ -48,11 +100,26 @@
       "difficulty": "medium",
       "accent": "us",
       "explain": "The same tag question can mean two different things depending on whether your pitch rises or falls at the end.",
-      "points": ["Falling tag = I'm almost sure, just confirming.", "Rising tag = I'm genuinely not sure, really asking."],
+      "points": [
+        "Falling tag = I'm almost sure, just confirming.",
+        "Rising tag = I'm genuinely not sure, really asking."
+      ],
       "items": [
-        { "text": "It's cold today, isn't it? ↘", "pattern": "falling", "note": "I'm sure — just making conversation." },
-        { "text": "You locked the door, didn't you? ↗", "pattern": "rising", "note": "I'm genuinely unsure — please confirm." },
-        { "text": "She's from Spain, isn't she? ↘", "pattern": "falling", "note": "Confirming what I already believe." }
+        {
+          "text": "It's cold today, isn't it? ↘",
+          "pattern": "falling",
+          "note": "I'm sure — just making conversation."
+        },
+        {
+          "text": "You locked the door, didn't you? ↗",
+          "pattern": "rising",
+          "note": "I'm genuinely unsure — please confirm."
+        },
+        {
+          "text": "She's from Spain, isn't she? ↘",
+          "pattern": "falling",
+          "note": "Confirming what I already believe."
+        }
       ]
     },
     {
@@ -61,10 +128,21 @@
       "difficulty": "hard",
       "accent": "us",
       "explain": "'Or' questions change meaning completely depending on the final pitch movement.",
-      "points": ["Rising on the last option = yes/no question about both together.", "Falling on the last option = choose one of the two."],
+      "points": [
+        "Rising on the last option = yes/no question about both together.",
+        "Falling on the last option = choose one of the two."
+      ],
       "items": [
-        { "text": "Do you want tea or coffee? ↘", "pattern": "falling on 'coffee'", "note": "Choose one: tea, or coffee." },
-        { "text": "Do you want tea or coffee? ↗", "pattern": "rising on 'coffee'", "note": "Asks: do you want a drink at all (either one)?" }
+        {
+          "text": "Do you want tea or coffee? ↘",
+          "pattern": "falling on 'coffee'",
+          "note": "Choose one: tea, or coffee."
+        },
+        {
+          "text": "Do you want tea or coffee? ↗",
+          "pattern": "rising on 'coffee'",
+          "note": "Asks: do you want a drink at all (either one)?"
+        }
       ]
     },
     {
@@ -75,9 +153,18 @@
       "explain": "Exclamations use a big pitch jump to show strong feeling — surprise, excitement or admiration.",
       "points": [],
       "items": [
-        { "text": "What a beautiful view!", "pattern": "WHAT a BEAUtiful VIEW ↗↘" },
-        { "text": "How amazing is that!", "pattern": "how aMAZing is THAT ↗↘" },
-        { "text": "Wow, I can't believe it!", "pattern": "WOW, I can't beLIEVE it ↗↘" }
+        {
+          "text": "What a beautiful view!",
+          "pattern": "WHAT a BEAUtiful VIEW ↗↘"
+        },
+        {
+          "text": "How amazing is that!",
+          "pattern": "how aMAZing is THAT ↗↘"
+        },
+        {
+          "text": "Wow, I can't believe it!",
+          "pattern": "WOW, I can't beLIEVE it ↗↘"
+        }
       ]
     },
     {
@@ -88,8 +175,14 @@
       "explain": "Every item in a list rises except the last one, which falls to show the list is finished.",
       "points": [],
       "items": [
-        { "text": "I need apples, bananas, oranges, and milk.", "pattern": "AP-ples ↗ ba-NAN-as ↗ O-ran-ges ↗ and MILK ↘" },
-        { "text": "We visited Paris, Rome, and Berlin.", "pattern": "PAR-is ↗ ROME ↗ and Ber-LIN ↘" }
+        {
+          "text": "I need apples, bananas, oranges, and milk.",
+          "pattern": "AP-ples ↗ ba-NAN-as ↗ O-ran-ges ↗ and MILK ↘"
+        },
+        {
+          "text": "We visited Paris, Rome, and Berlin.",
+          "pattern": "PAR-is ↗ ROME ↗ and Ber-LIN ↘"
+        }
       ]
     },
     {
@@ -100,9 +193,18 @@
       "explain": "Repeating part of what someone said, with a sharp rise, shows surprise or disbelief.",
       "points": [],
       "items": [
-        { "text": "A: I moved to Iceland. B: You moved WHERE? ↗", "pattern": "sharp rise on 'where'" },
-        { "text": "A: I quit my job. B: You did WHAT? ↗", "pattern": "sharp rise on 'what'" },
-        { "text": "A: It cost two thousand dollars. B: TWO THOUsand? ↗", "pattern": "sharp rise on the number" }
+        {
+          "text": "A: I moved to Iceland. B: You moved WHERE? ↗",
+          "pattern": "sharp rise on 'where'"
+        },
+        {
+          "text": "A: I quit my job. B: You did WHAT? ↗",
+          "pattern": "sharp rise on 'what'"
+        },
+        {
+          "text": "A: It cost two thousand dollars. B: TWO THOUsand? ↗",
+          "pattern": "sharp rise on the number"
+        }
       ]
     },
     {
@@ -113,9 +215,18 @@
       "explain": "A gentle fall-rise on a request sounds more polite and less like a demand.",
       "points": [],
       "items": [
-        { "text": "Could you help me? ↘↗", "pattern": "fall-rise = extra polite" },
-        { "text": "Would that be okay? ↘↗", "pattern": "fall-rise = softening" },
-        { "text": "Do you think you could? ↘↗", "pattern": "fall-rise = tentative, polite" }
+        {
+          "text": "Could you help me? ↘↗",
+          "pattern": "fall-rise = extra polite"
+        },
+        {
+          "text": "Would that be okay? ↘↗",
+          "pattern": "fall-rise = softening"
+        },
+        {
+          "text": "Do you think you could? ↘↗",
+          "pattern": "fall-rise = tentative, polite"
+        }
       ]
     },
     {
@@ -126,8 +237,14 @@
       "explain": "Offering two or more options in a sentence uses rise-then-fall, just like a two-item list.",
       "points": [],
       "items": [
-        { "text": "You can pay by card or cash.", "pattern": "by CARD ↗ or CASH ↘" },
-        { "text": "We can meet today or tomorrow.", "pattern": "toDAY ↗ or toMORrow ↘" }
+        {
+          "text": "You can pay by card or cash.",
+          "pattern": "by CARD ↗ or CASH ↘"
+        },
+        {
+          "text": "We can meet today or tomorrow.",
+          "pattern": "toDAY ↗ or toMORrow ↘"
+        }
       ]
     },
     {
@@ -138,9 +255,18 @@
       "explain": "A rising or level pitch on a statement (instead of falling) signals you're not fully sure.",
       "points": [],
       "items": [
-        { "text": "I think it's around five o'clock? ↗", "pattern": "rising = uncertain" },
-        { "text": "Maybe it was last Tuesday? ↗", "pattern": "rising = unsure" },
-        { "text": "I guess that's right? ↗", "pattern": "rising = tentative" }
+        {
+          "text": "I think it's around five o'clock? ↗",
+          "pattern": "rising = uncertain"
+        },
+        {
+          "text": "Maybe it was last Tuesday? ↗",
+          "pattern": "rising = unsure"
+        },
+        {
+          "text": "I guess that's right? ↗",
+          "pattern": "rising = tentative"
+        }
       ]
     },
     {
@@ -151,9 +277,19 @@
       "explain": "A warm, falling intonation on greetings sounds friendly and confident.",
       "points": [],
       "items": [
-        { "text": "Good morning!", "pattern": "good MORning ↘" },
-        { "text": "Nice to see you!", "pattern": "NICE to SEE you ↘" },
-        { "text": "How are you doing?", "pattern": "how are you DOing ↗", "note": "Rising here sounds casual and friendly, not like a real question." }
+        {
+          "text": "Good morning!",
+          "pattern": "good MORning ↘"
+        },
+        {
+          "text": "Nice to see you!",
+          "pattern": "NICE to SEE you ↘"
+        },
+        {
+          "text": "How are you doing?",
+          "pattern": "how are you DOing ↗",
+          "note": "Rising here sounds casual and friendly, not like a real question."
+        }
       ]
     },
     {
@@ -164,8 +300,15 @@
       "explain": "Sarcastic tone usually exaggerates the pitch and stretches the stressed word longer than normal.",
       "points": [],
       "items": [
-        { "text": "Oh, great. Another meeting.", "pattern": "oh, GREAT ↘ (flat, exaggerated)", "note": "The word 'great' is stretched and falls hard — the opposite of sincere." },
-        { "text": "Yeah, that's exactly what I wanted.", "pattern": "YEAH ↘ (sarcastic fall)" }
+        {
+          "text": "Oh, great. Another meeting.",
+          "pattern": "oh, GREAT ↘ (flat, exaggerated)",
+          "note": "The word 'great' is stretched and falls hard — the opposite of sincere."
+        },
+        {
+          "text": "Yeah, that's exactly what I wanted.",
+          "pattern": "YEAH ↘ (sarcastic fall)"
+        }
       ]
     },
     {
@@ -176,8 +319,14 @@
       "explain": "A wide pitch range signals good news; a narrower, lower range signals bad news.",
       "points": [],
       "items": [
-        { "text": "Guess what — I got the job!", "pattern": "wide range, rising energy ↗↘" },
-        { "text": "I'm sorry, but we didn't get approved.", "pattern": "narrow, low, mostly falling ↘" }
+        {
+          "text": "Guess what — I got the job!",
+          "pattern": "wide range, rising energy ↗↘"
+        },
+        {
+          "text": "I'm sorry, but we didn't get approved.",
+          "pattern": "narrow, low, mostly falling ↘"
+        }
       ]
     },
     {
@@ -188,7 +337,10 @@
       "explain": "A long spoken answer should still fall clearly at the very end of each main idea, even with several sentences.",
       "points": [],
       "items": [
-        { "text": "I think travelling is important because it broadens your perspective, and it also helps you understand other cultures better.", "pattern": "IMportant ↘ ... PERspective ↗ ... CULtures BETter ↘" }
+        {
+          "text": "I think travelling is important because it broadens your perspective, and it also helps you understand other cultures better.",
+          "pattern": "IMportant ↘ ... PERspective ↗ ... CULtures BETter ↘"
+        }
       ]
     },
     {
@@ -199,9 +351,18 @@
       "explain": "A statement with rising intonation can become a genuine question without changing the word order at all.",
       "points": [],
       "items": [
-        { "text": "You're leaving already? ↗", "pattern": "rising = surprised question" },
-        { "text": "This is your first time here? ↗", "pattern": "rising question" },
-        { "text": "You forgot your passport? ↗", "pattern": "rising = shocked question" }
+        {
+          "text": "You're leaving already? ↗",
+          "pattern": "rising = surprised question"
+        },
+        {
+          "text": "This is your first time here? ↗",
+          "pattern": "rising question"
+        },
+        {
+          "text": "You forgot your passport? ↗",
+          "pattern": "rising = shocked question"
+        }
       ]
     },
     {
@@ -212,8 +373,14 @@
       "explain": "Each group of digits rises slightly except the very last group, which falls to show you've finished.",
       "points": [],
       "items": [
-        { "text": "five five five ↗ one two three four ↘", "pattern": "555 ↗ 1234 ↘" },
-        { "text": "My number is oh two one ↗ five five five ↘", "pattern": "grouped, last group falls" }
+        {
+          "text": "five five five ↗ one two three four ↘",
+          "pattern": "555 ↗ 1234 ↘"
+        },
+        {
+          "text": "My number is oh two one ↗ five five five ↘",
+          "pattern": "grouped, last group falls"
+        }
       ]
     },
     {
@@ -224,8 +391,14 @@
       "explain": "Warnings often use a sharp rise-fall on the danger word to grab attention immediately.",
       "points": [],
       "items": [
-        { "text": "Be careful, it's hot!", "pattern": "be CAREful, it's HOT ↗↘!" },
-        { "text": "Don't touch that wire!", "pattern": "DON'T touch that WIRE ↗↘!" }
+        {
+          "text": "Be careful, it's hot!",
+          "pattern": "be CAREful, it's HOT ↗↘!"
+        },
+        {
+          "text": "Don't touch that wire!",
+          "pattern": "DON'T touch that WIRE ↗↘!"
+        }
       ]
     },
     {
@@ -236,8 +409,15 @@
       "explain": "A calm, gently falling pitch with a soft final tone sounds comforting and reassuring.",
       "points": [],
       "items": [
-        { "text": "Don't worry, everything will be fine.", "pattern": "don't WORry, everything will be FINE ↘", "note": "Soft, gentle fall — not sharp." },
-        { "text": "It's okay, take your time.", "pattern": "it's oKAY, take your TIME ↘" }
+        {
+          "text": "Don't worry, everything will be fine.",
+          "pattern": "don't WORry, everything will be FINE ↘",
+          "note": "Soft, gentle fall — not sharp."
+        },
+        {
+          "text": "It's okay, take your time.",
+          "pattern": "it's oKAY, take your TIME ↘"
+        }
       ]
     },
     {
@@ -248,8 +428,14 @@
       "explain": "Genuine compliments use a warm rise-fall to sound sincere rather than flat or sarcastic.",
       "points": [],
       "items": [
-        { "text": "You did a great job!", "pattern": "you did a GREAT job ↗↘!" },
-        { "text": "I love your new haircut.", "pattern": "I LOVE your new HAIRcut ↗↘." }
+        {
+          "text": "You did a great job!",
+          "pattern": "you did a GREAT job ↗↘!"
+        },
+        {
+          "text": "I love your new haircut.",
+          "pattern": "I LOVE your new HAIRcut ↗↘."
+        }
       ]
     },
     {
@@ -260,8 +446,14 @@
       "explain": "Ending a conversation politely uses a gentle, falling, friendly tone.",
       "points": [],
       "items": [
-        { "text": "Well, it was great catching up.", "pattern": "well, it was GREAT catching UP ↘" },
-        { "text": "Anyway, I should get going.", "pattern": "anyWAY, I should GET going ↘" }
+        {
+          "text": "Well, it was great catching up.",
+          "pattern": "well, it was GREAT catching UP ↘"
+        },
+        {
+          "text": "Anyway, I should get going.",
+          "pattern": "anyWAY, I should GET going ↘"
+        }
       ]
     },
     {
@@ -272,8 +464,14 @@
       "explain": "Negotiating uses fall-rise a lot — firm but leaving room for discussion.",
       "points": [],
       "items": [
-        { "text": "I could do fifty, but not sixty. ↘↗", "pattern": "fall-rise = open to discussion" },
-        { "text": "That's a bit more than I wanted to spend. ↘↗", "pattern": "fall-rise = softening a pushback" }
+        {
+          "text": "I could do fifty, but not sixty. ↘↗",
+          "pattern": "fall-rise = open to discussion"
+        },
+        {
+          "text": "That's a bit more than I wanted to spend. ↘↗",
+          "pattern": "fall-rise = softening a pushback"
+        }
       ]
     },
     {
@@ -284,7 +482,10 @@
       "explain": "Teaching intonation rises slightly at the end of each step to show 'more is coming' and falls on the last step.",
       "points": [],
       "items": [
-        { "text": "First you open the app, ↗ then you log in, ↗ and finally you tap submit. ↘", "pattern": "rise, rise, fall" }
+        {
+          "text": "First you open the app, ↗ then you log in, ↗ and finally you tap submit. ↘",
+          "pattern": "rise, rise, fall"
+        }
       ]
     },
     {
@@ -295,8 +496,14 @@
       "explain": "Identical words can be a plain statement or a real question — only the pitch tells you which.",
       "points": [],
       "items": [
-        { "text": "You're coming. ↘", "pattern": "falling = a statement of fact" },
-        { "text": "You're coming? ↗", "pattern": "rising = a genuine question" }
+        {
+          "text": "You're coming. ↘",
+          "pattern": "falling = a statement of fact"
+        },
+        {
+          "text": "You're coming? ↗",
+          "pattern": "rising = a genuine question"
+        }
       ]
     },
     {
@@ -307,8 +514,14 @@
       "explain": "Sincere apologies fall gently and slowly — a flat or fast fall can sound insincere.",
       "points": [],
       "items": [
-        { "text": "I'm really sorry about that.", "pattern": "I'm REALly SORry about THAT ↘ (slow, gentle fall)" },
-        { "text": "That was completely my fault.", "pattern": "that was comPLETEly my FAULT ↘" }
+        {
+          "text": "I'm really sorry about that.",
+          "pattern": "I'm REALly SORry about THAT ↘ (slow, gentle fall)"
+        },
+        {
+          "text": "That was completely my fault.",
+          "pattern": "that was comPLETEly my FAULT ↘"
+        }
       ]
     },
     {
@@ -319,8 +532,14 @@
       "explain": "The exact same words can sound excited or bored depending only on pitch range and speed.",
       "points": [],
       "items": [
-        { "text": "That sounds great.", "pattern": "wide pitch range, fast ↗↘ = enthusiastic" },
-        { "text": "That sounds great.", "pattern": "narrow, flat, slow ↘ = bored/unenthusiastic" }
+        {
+          "text": "That sounds great.",
+          "pattern": "wide pitch range, fast ↗↘ = enthusiastic"
+        },
+        {
+          "text": "That sounds great.",
+          "pattern": "narrow, flat, slow ↘ = bored/unenthusiastic"
+        }
       ]
     },
     {
@@ -331,8 +550,14 @@
       "explain": "Formal announcements use clear, wide falls on each main point to sound authoritative and easy to follow.",
       "points": [],
       "items": [
-        { "text": "Ladies and gentlemen, thank you for joining us today.", "pattern": "wide falls on each phrase" },
-        { "text": "The meeting will begin in five minutes.", "pattern": "clear fall on 'five minutes'" }
+        {
+          "text": "Ladies and gentlemen, thank you for joining us today.",
+          "pattern": "wide falls on each phrase"
+        },
+        {
+          "text": "The meeting will begin in five minutes.",
+          "pattern": "clear fall on 'five minutes'"
+        }
       ]
     },
     {
@@ -343,8 +568,14 @@
       "explain": "A slight rise or level pitch in the middle of a sentence signals 'I'm not finished yet.'",
       "points": [],
       "items": [
-        { "text": "When I got home ↗, I made dinner ↘.", "pattern": "level/rise mid-sentence, fall at the end" },
-        { "text": "Even though it was late ↗, we kept working ↘.", "pattern": "level/rise, then fall" }
+        {
+          "text": "When I got home ↗, I made dinner ↘.",
+          "pattern": "level/rise mid-sentence, fall at the end"
+        },
+        {
+          "text": "Even though it was late ↗, we kept working ↘.",
+          "pattern": "level/rise, then fall"
+        }
       ]
     },
     {
@@ -355,8 +586,14 @@
       "explain": "Checking understanding uses a rising tag or a rising echo to invite confirmation.",
       "points": [],
       "items": [
-        { "text": "So you're saying we should wait? ↗", "pattern": "rising check" },
-        { "text": "If I understood right, the deadline is Friday? ↗", "pattern": "rising check" }
+        {
+          "text": "So you're saying we should wait? ↗",
+          "pattern": "rising check"
+        },
+        {
+          "text": "If I understood right, the deadline is Friday? ↗",
+          "pattern": "rising check"
+        }
       ]
     },
     {
@@ -367,8 +604,14 @@
       "explain": "Offers of help usually rise gently, sounding open and inviting rather than pushy.",
       "points": [],
       "items": [
-        { "text": "Can I help you with that?", "pattern": "can I HELP you with THAT ↗" },
-        { "text": "Would you like me to carry that?", "pattern": "would you LIKE me to CARry that ↗" }
+        {
+          "text": "Can I help you with that?",
+          "pattern": "can I HELP you with THAT ↗"
+        },
+        {
+          "text": "Would you like me to carry that?",
+          "pattern": "would you LIKE me to CARry that ↗"
+        }
       ]
     },
     {
@@ -379,8 +622,14 @@
       "explain": "Disappointment often uses a falling pitch that starts lower than usual and drops further, sounding flat and deflated.",
       "points": [],
       "items": [
-        { "text": "Oh. I was really hoping we could go.", "pattern": "low start, falling ↘" },
-        { "text": "I guess that's that, then.", "pattern": "low, flat, falling ↘" }
+        {
+          "text": "Oh. I was really hoping we could go.",
+          "pattern": "low start, falling ↘"
+        },
+        {
+          "text": "I guess that's that, then.",
+          "pattern": "low, flat, falling ↘"
+        }
       ]
     },
     {
@@ -391,7 +640,10 @@
       "explain": "Instructions fall clearly at the end of each command so the listener knows exactly when one instruction ends.",
       "points": [],
       "items": [
-        { "text": "Turn left. ↘ Then go straight. ↘ Stop at the light. ↘", "pattern": "clear fall after each instruction" }
+        {
+          "text": "Turn left. ↘ Then go straight. ↘ Stop at the light. ↘",
+          "pattern": "clear fall after each instruction"
+        }
       ]
     },
     {
@@ -402,7 +654,10 @@
       "explain": "The pitch rises and the pace quickens as a story builds tension, then falls sharply at the climax.",
       "points": [],
       "items": [
-        { "text": "And then... ↗ the door slowly opened... ↗ and there was NOBODY there! ↗↘", "pattern": "rising tension, sharp fall-rise at the climax" }
+        {
+          "text": "And then... ↗ the door slowly opened... ↗ and there was NOBODY there! ↗↘",
+          "pattern": "rising tension, sharp fall-rise at the climax"
+        }
       ]
     },
     {
@@ -413,8 +668,14 @@
       "explain": "Confusion often uses a rising, questioning tone even on statements, with a slight pause before.",
       "points": [],
       "items": [
-        { "text": "Wait... I don't get it. ↗", "pattern": "rising, questioning" },
-        { "text": "Hold on, what do you mean? ↗", "pattern": "rising, confused" }
+        {
+          "text": "Wait... I don't get it. ↗",
+          "pattern": "rising, questioning"
+        },
+        {
+          "text": "Hold on, what do you mean? ↗",
+          "pattern": "rising, confused"
+        }
       ]
     },
     {
@@ -425,8 +686,14 @@
       "explain": "Disagreeing politely often starts with a fall-rise to soften it before the falling main point.",
       "points": [],
       "items": [
-        { "text": "I see what you mean, ↘↗ but I'm not sure I agree. ↘", "pattern": "fall-rise softener, then falling main point" },
-        { "text": "That's a fair point, ↘↗ though I'd look at it differently. ↘", "pattern": "fall-rise, then fall" }
+        {
+          "text": "I see what you mean, ↘↗ but I'm not sure I agree. ↘",
+          "pattern": "fall-rise softener, then falling main point"
+        },
+        {
+          "text": "That's a fair point, ↘↗ though I'd look at it differently. ↘",
+          "pattern": "fall-rise, then fall"
+        }
       ]
     },
     {
@@ -437,8 +704,14 @@
       "explain": "A formal, careful list uses clear rises on each item; a casual list runs the items together more.",
       "points": [],
       "items": [
-        { "text": "We need eggs, ↗ milk, ↗ butter, ↗ and flour. ↘", "pattern": "careful formal list" },
-        { "text": "Eggs, milk, butter, flour ↘", "pattern": "casual, fast, one small fall at the end" }
+        {
+          "text": "We need eggs, ↗ milk, ↗ butter, ↗ and flour. ↘",
+          "pattern": "careful formal list"
+        },
+        {
+          "text": "Eggs, milk, butter, flour ↘",
+          "pattern": "casual, fast, one small fall at the end"
+        }
       ]
     },
     {
@@ -449,8 +722,14 @@
       "explain": "A gentle fall-rise softens a correction so it doesn't sound like an attack.",
       "points": [],
       "items": [
-        { "text": "Actually, I think it's the other way around. ↘↗", "pattern": "gentle fall-rise" },
-        { "text": "Just to clarify, the meeting's at three, not four. ↘↗", "pattern": "gentle fall-rise" }
+        {
+          "text": "Actually, I think it's the other way around. ↘↗",
+          "pattern": "gentle fall-rise"
+        },
+        {
+          "text": "Just to clarify, the meeting's at three, not four. ↘↗",
+          "pattern": "gentle fall-rise"
+        }
       ]
     },
     {
@@ -461,7 +740,10 @@
       "explain": "A toast uses a warm, rising build-up followed by a strong, confident fall on the final wish.",
       "points": [],
       "items": [
-        { "text": "To all of you, ↗ to good times, ↗ and to many more years ahead! ↘", "pattern": "rising build, strong final fall" }
+        {
+          "text": "To all of you, ↗ to good times, ↗ and to many more years ahead! ↘",
+          "pattern": "rising build, strong final fall"
+        }
       ]
     },
     {
@@ -472,8 +754,14 @@
       "explain": "Relief often starts high and falls with a long, relaxed glide, almost like a sigh.",
       "points": [],
       "items": [
-        { "text": "Oh, thank goodness, it's over.", "pattern": "high start, long relaxed fall ↘" },
-        { "text": "Phew, that was close.", "pattern": "high start, falling ↘" }
+        {
+          "text": "Oh, thank goodness, it's over.",
+          "pattern": "high start, long relaxed fall ↘"
+        },
+        {
+          "text": "Phew, that was close.",
+          "pattern": "high start, falling ↘"
+        }
       ]
     },
     {
@@ -484,8 +772,14 @@
       "explain": "A formal introduction falls in a measured, even way; a casual one is faster with a friendlier rise.",
       "points": [],
       "items": [
-        { "text": "Good morning, my name is Sarah Johnson.", "pattern": "measured, even fall ↘" },
-        { "text": "Hey, I'm Sarah!", "pattern": "quick, friendly rise ↗" }
+        {
+          "text": "Good morning, my name is Sarah Johnson.",
+          "pattern": "measured, even fall ↘"
+        },
+        {
+          "text": "Hey, I'm Sarah!",
+          "pattern": "quick, friendly rise ↗"
+        }
       ]
     },
     {
@@ -496,8 +790,14 @@
       "explain": "Encouragement uses an energetic rise-fall to sound genuinely supportive.",
       "points": [],
       "items": [
-        { "text": "You can do this!", "pattern": "you CAN do THIS ↗↘!" },
-        { "text": "Come on, you're almost there!", "pattern": "come ON, you're ALmost THERE ↗↘!" }
+        {
+          "text": "You can do this!",
+          "pattern": "you CAN do THIS ↗↘!"
+        },
+        {
+          "text": "Come on, you're almost there!",
+          "pattern": "come ON, you're ALmost THERE ↗↘!"
+        }
       ]
     },
     {
@@ -508,7 +808,10 @@
       "explain": "Confident interview answers fall clearly and firmly at the end of each key point.",
       "points": [],
       "items": [
-        { "text": "I believe my experience makes me a strong fit for this role.", "pattern": "clear, confident fall ↘" }
+        {
+          "text": "I believe my experience makes me a strong fit for this role.",
+          "pattern": "clear, confident fall ↘"
+        }
       ]
     },
     {
@@ -519,8 +822,14 @@
       "explain": "A slight rise or pause before 'however' or 'but' signals a contrast is coming.",
       "points": [],
       "items": [
-        { "text": "The plan sounds good, ↗ however, there's one issue. ↘", "pattern": "rise before contrast, then fall" },
-        { "text": "It's cheap, ↗ but the quality isn't great. ↘", "pattern": "rise before contrast, then fall" }
+        {
+          "text": "The plan sounds good, ↗ however, there's one issue. ↘",
+          "pattern": "rise before contrast, then fall"
+        },
+        {
+          "text": "It's cheap, ↗ but the quality isn't great. ↘",
+          "pattern": "rise before contrast, then fall"
+        }
       ]
     },
     {
@@ -531,8 +840,14 @@
       "explain": "Asking permission almost always rises to sound open and non-demanding.",
       "points": [],
       "items": [
-        { "text": "Can I ask you something? ↗", "pattern": "rising" },
-        { "text": "Is it okay if I leave early? ↗", "pattern": "rising" }
+        {
+          "text": "Can I ask you something? ↗",
+          "pattern": "rising"
+        },
+        {
+          "text": "Is it okay if I leave early? ↗",
+          "pattern": "rising"
+        }
       ]
     },
     {
@@ -543,8 +858,14 @@
       "explain": "Gentle bad news uses a soft, slow fall — a sudden hard fall can sound cold or blunt.",
       "points": [],
       "items": [
-        { "text": "I'm afraid we won't be able to approve this.", "pattern": "soft, slow fall ↘" },
-        { "text": "Unfortunately, the flight's been cancelled.", "pattern": "soft, slow fall ↘" }
+        {
+          "text": "I'm afraid we won't be able to approve this.",
+          "pattern": "soft, slow fall ↘"
+        },
+        {
+          "text": "Unfortunately, the flight's been cancelled.",
+          "pattern": "soft, slow fall ↘"
+        }
       ]
     },
     {
@@ -555,8 +876,14 @@
       "explain": "A flat, narrow pitch with little movement signals 'I don't really care either way.'",
       "points": [],
       "items": [
-        { "text": "I guess it's fine, whatever works.", "pattern": "flat, narrow range ↘" },
-        { "text": "Either one is okay with me.", "pattern": "flat, narrow range ↘" }
+        {
+          "text": "I guess it's fine, whatever works.",
+          "pattern": "flat, narrow range ↘"
+        },
+        {
+          "text": "Either one is okay with me.",
+          "pattern": "flat, narrow range ↘"
+        }
       ]
     },
     {
@@ -567,8 +894,14 @@
       "explain": "Prices fall clearly on the final amount to sound definite and easy to note down.",
       "points": [],
       "items": [
-        { "text": "That'll be twelve dollars fifty. ↘", "pattern": "falling on the final amount" },
-        { "text": "It comes to about forty euros. ↘", "pattern": "falling" }
+        {
+          "text": "That'll be twelve dollars fifty. ↘",
+          "pattern": "falling on the final amount"
+        },
+        {
+          "text": "It comes to about forty euros. ↘",
+          "pattern": "falling"
+        }
       ]
     },
     {
@@ -579,8 +912,14 @@
       "explain": "Calling someone's name to get attention uses a wide rise-fall so it carries and stands out.",
       "points": [],
       "items": [
-        { "text": "Hey, John! ↗↘", "pattern": "wide, carrying rise-fall" },
-        { "text": "Excuse me! ↗↘", "pattern": "wide, carrying rise-fall" }
+        {
+          "text": "Hey, John! ↗↘",
+          "pattern": "wide, carrying rise-fall"
+        },
+        {
+          "text": "Excuse me! ↗↘",
+          "pattern": "wide, carrying rise-fall"
+        }
       ]
     },
     {
@@ -591,7 +930,10 @@
       "explain": "A countdown rises with anticipation on each number and falls sharply on the final word.",
       "points": [],
       "items": [
-        { "text": "Three... ↗ two... ↗ one... ↗ GO! ↘", "pattern": "rising anticipation, sharp final fall" }
+        {
+          "text": "Three... ↗ two... ↗ one... ↗ GO! ↘",
+          "pattern": "rising anticipation, sharp final fall"
+        }
       ]
     },
     {
@@ -602,10 +944,287 @@
       "explain": "A closing mixed set — decide falling, rising, rise-fall or fall-rise for each line before checking.",
       "points": [],
       "items": [
-        { "text": "Are you free tonight?", "pattern": "↗ rising yes/no question" },
-        { "text": "I can't believe it worked!", "pattern": "↗↘ rise-fall, surprise" },
-        { "text": "I suppose it's fine.", "pattern": "↘↗ fall-rise, uncertain" },
-        { "text": "That's the end of the tour.", "pattern": "↘ falling, finished statement" }
+        {
+          "text": "Are you free tonight?",
+          "pattern": "↗ rising yes/no question"
+        },
+        {
+          "text": "I can't believe it worked!",
+          "pattern": "↗↘ rise-fall, surprise"
+        },
+        {
+          "text": "I suppose it's fine.",
+          "pattern": "↘↗ fall-rise, uncertain"
+        },
+        {
+          "text": "That's the end of the tour.",
+          "pattern": "↘ falling, finished statement"
+        }
+      ]
+    },
+    {
+      "title": "Practice",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Master intonation across 50 targeted drills. Listen closely to the AI model, repeat, and record your voice to receive detailed real-time pronunciation scoring and feedback.",
+      "points": [
+        "Focus on the rhythm, stress, and flow highlighted in each drill.",
+        "Listen to the reference model audio before each recording attempt.",
+        "Review your AI score and phoneme-level feedback to pinpoint areas for improvement."
+      ],
+      "caution": "Do not rush through the drills; prioritize clarity, natural cadence, and accurate articulation.",
+      "items": [
+        {
+          "text": "She graduated with honors.",
+          "pattern": "She graduated with ↘honors.",
+          "note": "Statement: falling intonation at the final content word."
+        },
+        {
+          "text": "I finished the assignment.",
+          "pattern": "I finished the as↘signment.",
+          "note": "Definite statement ends with a decisive drop in pitch."
+        },
+        {
+          "text": "We bought a new dining table.",
+          "pattern": "We bought a new dining ↘table.",
+          "note": "Standard downward cadence on completed facts."
+        },
+        {
+          "text": "The flight arrives at seven.",
+          "pattern": "The flight arrives at ↘seven.",
+          "note": "Clear drop signals the end of the informative thought."
+        },
+        {
+          "text": "They decided to stay home.",
+          "pattern": "They decided to stay ↘home.",
+          "note": "Finality indicated by pitch dropping below neutral."
+        },
+        {
+          "text": "Did you receive my package?",
+          "pattern": "Did you receive my ↗package?",
+          "note": "Yes/No question: rising pitch at the end."
+        },
+        {
+          "text": "Is this seat taken?",
+          "pattern": "Is this seat ↗taken?",
+          "note": "Polite inquiry: sharp rise on 'taken'."
+        },
+        {
+          "text": "Have you ever traveled to Spain?",
+          "pattern": "Have you ever traveled to ↗Spain?",
+          "note": "Yes/No query floats upward at the end."
+        },
+        {
+          "text": "Are we ready to start?",
+          "pattern": "Are we ready to ↗start?",
+          "note": "Anticipatory rising intonation."
+        },
+        {
+          "text": "Can I borrow your pencil?",
+          "pattern": "Can I borrow your ↗pencil?",
+          "note": "Friendly request ends with an upward sweep."
+        },
+        {
+          "text": "Where did you leave the keys?",
+          "pattern": "↘Where did you leave the ↘keys?",
+          "note": "Wh- question: starts high and finishes falling."
+        },
+        {
+          "text": "When does the seminar begin?",
+          "pattern": "↘When does the seminar be↘gin?",
+          "note": "Wh- inquiries demand a falling tone."
+        },
+        {
+          "text": "Why are the lights still on?",
+          "pattern": "↘Why are the lights still ↘on?",
+          "note": "Curiosity/inquiry: drop at the conclusion."
+        },
+        {
+          "text": "How much does this ticket cost?",
+          "pattern": "↘How much does this ticket ↘cost?",
+          "note": "Downward cadence on the final word."
+        },
+        {
+          "text": "Who is giving the keynote speech?",
+          "pattern": "↘Who is giving the keynote ↘speech?",
+          "note": "Wh- falling contour."
+        },
+        {
+          "text": "Would you like soup, salad, or bread?",
+          "pattern": "Would you like ↗soup, ↗salad, or ↘bread?",
+          "note": "List intonation: rise, rise, then fall on the final option."
+        },
+        {
+          "text": "We need apples, oranges, and bananas.",
+          "pattern": "We need ↗apples, ↗oranges, and ba↘nanas.",
+          "note": "Incomplete items rise; last item drops to close."
+        },
+        {
+          "text": "I packed a jacket, boots, and an umbrella.",
+          "pattern": "I packed a ↗jacket, ↗boots, and an um↘brella.",
+          "note": "Listing contour: pitch ascends until the finale."
+        },
+        {
+          "text": "Do you prefer tea or coffee?",
+          "pattern": "Do you prefer ↗tea or ↘coffee?",
+          "note": "Alternative question: first choice rises, second falls."
+        },
+        {
+          "text": "Is it blue, black, or grey?",
+          "pattern": "Is it ↗blue, ↗black, or ↘grey?",
+          "note": "Alternatives terminate with a definitive fall."
+        },
+        {
+          "text": "You are coming tomorrow, aren't you?",
+          "pattern": "You're coming tomorrow, ↘aren't you?",
+          "note": "Confirmation tag (speaker is sure): falling pitch."
+        },
+        {
+          "text": "You didn't lock the gate, did you?",
+          "pattern": "You didn't lock the gate, ↗did you?",
+          "note": "Genuine doubt tag: rising pitch asks for truth."
+        },
+        {
+          "text": "It's rather chilly outside, isn't it?",
+          "pattern": "It's rather chilly outside, ↘isn't it?",
+          "note": "Seeking agreement: falling tag."
+        },
+        {
+          "text": "We haven't met before, have we?",
+          "pattern": "We haven't met before, ↗have we?",
+          "note": "Uncertain check: upward rise on 'have we'."
+        },
+        {
+          "text": "That was a thrilling match, wasn't it?",
+          "pattern": "That was a thrilling match, ↘wasn't it?",
+          "note": "Enthusiastic consensus: falling tag."
+        },
+        {
+          "text": "I really appreciate your kind help.",
+          "pattern": "I ↘really appreciate your kind ↘help.",
+          "note": "Sincere gratitude: low, grounded pitch."
+        },
+        {
+          "text": "What a breathtaking view!",
+          "pattern": "What a ↘breathtaking ↘view!",
+          "note": "Exclamation: high emotional peak followed by steep drop."
+        },
+        {
+          "text": "That's fantastic news!",
+          "pattern": "That's fan↘tastic ↘news!",
+          "note": "Excitement peaks on 'tastic' and settles on 'news'."
+        },
+        {
+          "text": "How wonderful to see you!",
+          "pattern": "How ↘wonderful to ↘see you!",
+          "note": "Warm greeting with sweeping downward inflection."
+        },
+        {
+          "text": "Please sit down.",
+          "pattern": "Please sit ↘down.",
+          "note": "Polite command: firm falling tone."
+        },
+        {
+          "text": "Although it was freezing, we went hiking.",
+          "pattern": "Although it was ↗freezing, we went ↘hiking.",
+          "note": "Dependent clause rises; main clause falls."
+        },
+        {
+          "text": "If you need anything, just call me.",
+          "pattern": "If you need ↗anything, just ↘call me.",
+          "note": "Conditional 'if' clause carries rising suspense."
+        },
+        {
+          "text": "Because it rained all morning, the game was postponed.",
+          "pattern": "Because it rained all ↗morning, the game was post↘poned.",
+          "note": "Subordinate clause rises to keep listener waiting."
+        },
+        {
+          "text": "When we arrived at the venue, the show had started.",
+          "pattern": "When we arrived at the ↗venue, the show had ↘started.",
+          "note": "Introductory time clause floats up."
+        },
+        {
+          "text": "While she was cooking dinner, he set the table.",
+          "pattern": "While she was cooking ↗dinner, he set the ↘table.",
+          "note": "Rise indicates unfinished thought until second half."
+        },
+        {
+          "text": "Well, I suppose that might work.",
+          "pattern": "↘Well↗, I suppose that might ↘work.",
+          "note": "Hesitation/reluctance: fall-rise on 'well'."
+        },
+        {
+          "text": "Actually, I have a different proposal.",
+          "pattern": "↘Act↗ually, I have a different pro↘posal.",
+          "note": "Diplomatic correction: fall-rise on 'actually'."
+        },
+        {
+          "text": "Fortunately, nobody was hurt.",
+          "pattern": "↘For↗tunately, nobody was ↘hurt.",
+          "note": "Sentence adverbial gets mild fall-rise emphasis."
+        },
+        {
+          "text": "Honestly, I haven't thought about it.",
+          "pattern": "↘Hon↗estly, I haven't thought a↘bout it.",
+          "note": "Candid reflection: fall-rise on 'honestly'."
+        },
+        {
+          "text": "To be frank, I am not convinced.",
+          "pattern": "To be ↘frank↗, I am not con↘vinced.",
+          "note": "Expressing mild skepticism."
+        },
+        {
+          "text": "Did she say fifty or fifteen?",
+          "pattern": "Did she say ↗fifty or fif↘teen?",
+          "note": "Clarification: first number rises, second falls."
+        },
+        {
+          "text": "Are we leaving now or later?",
+          "pattern": "Are we leaving ↗now or ↘later?",
+          "note": "Contrasting choices."
+        },
+        {
+          "text": "Was that your brother or your cousin?",
+          "pattern": "Was that your ↗brother or your ↘cousin?",
+          "note": "Alternative inquiry."
+        },
+        {
+          "text": "Should I call him or text him?",
+          "pattern": "Should I ↗call him or ↘text him?",
+          "note": "Action choices."
+        },
+        {
+          "text": "Is the museum open or closed today?",
+          "pattern": "Is the museum ↗open or ↘closed today?",
+          "note": "Status inquiry."
+        },
+        {
+          "text": "Could you possibly hold this for a second?",
+          "pattern": "Could you possibly hold this for a ↗second?",
+          "note": "Tentative polite request: gentle rise."
+        },
+        {
+          "text": "Would you mind if I opened the window?",
+          "pattern": "Would you mind if I opened the ↗window?",
+          "note": "Courteous softening: ending ascends gently."
+        },
+        {
+          "text": "Excuse me, where is the nearest pharmacy?",
+          "pattern": "Ex↗cuse me, ↘where is the nearest ↘pharmacy?",
+          "note": "Polite greeting rises; Wh- question drops."
+        },
+        {
+          "text": "Good morning everyone!",
+          "pattern": "Good ↗morning ↘everyone!",
+          "note": "Friendly professional greeting."
+        },
+        {
+          "text": "Have a wonderful weekend ahead!",
+          "pattern": "Have a wonderful ↘weekend a↘head!",
+          "note": "Warm sendoff with conclusive warmth."
+        }
       ]
     }
   ]

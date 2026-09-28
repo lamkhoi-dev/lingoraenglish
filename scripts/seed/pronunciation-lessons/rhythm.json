@@ -6,12 +6,27 @@
       "difficulty": "medium",
       "accent": "us",
       "explain": "Stressed syllables land on a steady beat. The weak syllables between them get squeezed to keep the timing.",
-      "points": ["Tap the table on each capital letter.", "Keep the beats even, however many small words sit between them."],
+      "points": [
+        "Tap the table on each capital letter.",
+        "Keep the beats even, however many small words sit between them."
+      ],
       "items": [
-        { "text": "DOGS EAT BONES.", "pattern": "3 beats" },
-        { "text": "The DOGS will EAT the BONES.", "pattern": "still 3 beats" },
-        { "text": "The DOGS will have EAten the BONES.", "pattern": "still 3 beats" },
-        { "text": "I'll SEE you at the STAtion at SEven.", "pattern": "3 beats" }
+        {
+          "text": "DOGS EAT BONES.",
+          "pattern": "3 beats"
+        },
+        {
+          "text": "The DOGS will EAT the BONES.",
+          "pattern": "still 3 beats"
+        },
+        {
+          "text": "The DOGS will have EAten the BONES.",
+          "pattern": "still 3 beats"
+        },
+        {
+          "text": "I'll SEE you at the STAtion at SEven.",
+          "pattern": "3 beats"
+        }
       ]
     },
     {
@@ -20,11 +35,23 @@
       "difficulty": "hard",
       "accent": "us",
       "explain": "Shadow these lines and copy the timing before you worry about the individual sounds.",
-      "points": ["Keep the weak words fast and quiet.", "Do not add a pause after every word."],
+      "points": [
+        "Keep the weak words fast and quiet.",
+        "Do not add a pause after every word."
+      ],
       "items": [
-        { "text": "I was gonna call you, but I got stuck at work.", "pattern": "CALL … STUCK … WORK" },
-        { "text": "To be honest, I'd rather stay home tonight.", "pattern": "HONest … RAther … HOME … toNIGHT" },
-        { "text": "It depends on how much time we've got.", "pattern": "dePENDS … MUCH TIME … GOT" }
+        {
+          "text": "I was gonna call you, but I got stuck at work.",
+          "pattern": "CALL … STUCK … WORK"
+        },
+        {
+          "text": "To be honest, I'd rather stay home tonight.",
+          "pattern": "HONest … RAther … HOME … toNIGHT"
+        },
+        {
+          "text": "It depends on how much time we've got.",
+          "pattern": "dePENDS … MUCH TIME … GOT"
+        }
       ]
     },
     {
@@ -35,9 +62,18 @@
       "explain": "A sentence with more words can still have the same number of beats — that's the key idea of stress-timing.",
       "points": [],
       "items": [
-        { "text": "JOHN likes TEA.", "pattern": "2 beats" },
-        { "text": "JOHN would like some TEA.", "pattern": "still 2 beats" },
-        { "text": "JOHN would have liked some TEA.", "pattern": "still 2 beats" }
+        {
+          "text": "JOHN likes TEA.",
+          "pattern": "2 beats"
+        },
+        {
+          "text": "JOHN would like some TEA.",
+          "pattern": "still 2 beats"
+        },
+        {
+          "text": "JOHN would have liked some TEA.",
+          "pattern": "still 2 beats"
+        }
       ]
     },
     {
@@ -48,9 +84,18 @@
       "explain": "Tongue twisters force you to keep a steady rhythm even when the sounds are tricky — slow down before speeding up.",
       "points": [],
       "items": [
-        { "text": "Peter Piper picked a peck of pickled peppers.", "pattern": "PEter PIper PICKED a PECK" },
-        { "text": "She sells seashells by the seashore.", "pattern": "SHE SELLS SEAshells by the SEAshore" },
-        { "text": "Red lorry, yellow lorry.", "pattern": "RED LORry, YELLow LORry" }
+        {
+          "text": "Peter Piper picked a peck of pickled peppers.",
+          "pattern": "PEter PIper PICKED a PECK"
+        },
+        {
+          "text": "She sells seashells by the seashore.",
+          "pattern": "SHE SELLS SEAshells by the SEAshore"
+        },
+        {
+          "text": "Red lorry, yellow lorry.",
+          "pattern": "RED LORry, YELLow LORry"
+        }
       ]
     },
     {
@@ -61,9 +106,18 @@
       "explain": "Even a short answer has a natural beat — don't say every word with equal force.",
       "points": [],
       "items": [
-        { "text": "Yes, I THINK so.", "pattern": "1 beat" },
-        { "text": "No, not REALly.", "pattern": "1 beat" },
-        { "text": "Sure, why NOT?", "pattern": "1 beat" }
+        {
+          "text": "Yes, I THINK so.",
+          "pattern": "1 beat"
+        },
+        {
+          "text": "No, not REALly.",
+          "pattern": "1 beat"
+        },
+        {
+          "text": "Sure, why NOT?",
+          "pattern": "1 beat"
+        }
       ]
     },
     {
@@ -74,8 +128,14 @@
       "explain": "Reciting numbers or a list still keeps a steady beat on each stressed item.",
       "points": [],
       "items": [
-        { "text": "ONE, TWO, THREE, FOUR, FIVE.", "pattern": "even beats" },
-        { "text": "MONday, TUESday, WEDnesday.", "pattern": "even beats on each day" }
+        {
+          "text": "ONE, TWO, THREE, FOUR, FIVE.",
+          "pattern": "even beats"
+        },
+        {
+          "text": "MONday, TUESday, WEDnesday.",
+          "pattern": "even beats on each day"
+        }
       ]
     },
     {
@@ -86,8 +146,14 @@
       "explain": "Simple rhymes have an obvious, exaggerated beat — great for building a feel for stress-timing.",
       "points": [],
       "items": [
-        { "text": "TWINkle TWINkle LITtle STAR.", "pattern": "4 even beats" },
-        { "text": "JACK and JILL went UP the HILL.", "pattern": "4 even beats" }
+        {
+          "text": "TWINkle TWINkle LITtle STAR.",
+          "pattern": "4 even beats"
+        },
+        {
+          "text": "JACK and JILL went UP the HILL.",
+          "pattern": "4 even beats"
+        }
       ]
     },
     {
@@ -98,7 +164,10 @@
       "explain": "Longer sentences keep the same stress-timed feel — the weak words between beats just move faster.",
       "points": [],
       "items": [
-        { "text": "I would have called you earlier, but my phone was dead all afternoon.", "pattern": "CALLED … EARLier … PHONE … DEAD … AFternoon" }
+        {
+          "text": "I would have called you earlier, but my phone was dead all afternoon.",
+          "pattern": "CALLED … EARLier … PHONE … DEAD … AFternoon"
+        }
       ]
     },
     {
@@ -109,8 +178,14 @@
       "explain": "Questions keep the same stress-timed beat as statements — the question words and key content words carry the rhythm.",
       "points": [],
       "items": [
-        { "text": "WHERE did you PUT the KEYS?", "pattern": "3 beats" },
-        { "text": "WHY would he DO that?", "pattern": "3 beats" }
+        {
+          "text": "WHERE did you PUT the KEYS?",
+          "pattern": "3 beats"
+        },
+        {
+          "text": "WHY would he DO that?",
+          "pattern": "3 beats"
+        }
       ]
     },
     {
@@ -121,10 +196,22 @@
       "explain": "The classic buildup drill: the same core beats stay steady as you add more small words around them.",
       "points": [],
       "items": [
-        { "text": "CATS CHASE MICE.", "pattern": "3 beats" },
-        { "text": "The CATS will CHASE the MICE.", "pattern": "still 3 beats" },
-        { "text": "The CATS would have CHASED the MICE.", "pattern": "still 3 beats" },
-        { "text": "The CATS would have been CHASing the MICE all NIGHT.", "pattern": "4 beats now — one new idea added" }
+        {
+          "text": "CATS CHASE MICE.",
+          "pattern": "3 beats"
+        },
+        {
+          "text": "The CATS will CHASE the MICE.",
+          "pattern": "still 3 beats"
+        },
+        {
+          "text": "The CATS would have CHASED the MICE.",
+          "pattern": "still 3 beats"
+        },
+        {
+          "text": "The CATS would have been CHASing the MICE all NIGHT.",
+          "pattern": "4 beats now — one new idea added"
+        }
       ]
     },
     {
@@ -135,8 +222,14 @@
       "explain": "Idioms have a fixed, sing-song rhythm as a whole chunk — say them as one rhythmic unit.",
       "points": [],
       "items": [
-        { "text": "BETTER late than NEVer.", "pattern": "2 beats" },
-        { "text": "ACtions speak LOUDer than WORDS.", "pattern": "3 beats" }
+        {
+          "text": "BETTER late than NEVer.",
+          "pattern": "2 beats"
+        },
+        {
+          "text": "ACtions speak LOUDer than WORDS.",
+          "pattern": "3 beats"
+        }
       ]
     },
     {
@@ -147,8 +240,14 @@
       "explain": "Slogans are written to have a catchy, very regular beat — great, memorable rhythm practice.",
       "points": [],
       "items": [
-        { "text": "JUST DO it.", "pattern": "2 strong beats" },
-        { "text": "Have it YOUR way.", "pattern": "2 beats" }
+        {
+          "text": "JUST DO it.",
+          "pattern": "2 strong beats"
+        },
+        {
+          "text": "Have it YOUR way.",
+          "pattern": "2 beats"
+        }
       ]
     },
     {
@@ -157,10 +256,18 @@
       "difficulty": "hard",
       "accent": "us",
       "explain": "In syllable-timed languages every syllable takes roughly equal time; English is stress-timed, so only the stressed syllables are evenly spaced and everything else speeds up or slows down to fit.",
-      "points": ["This is why English can sound 'fast' in the unstressed parts and 'slow' on stressed words."],
+      "points": [
+        "This is why English can sound 'fast' in the unstressed parts and 'slow' on stressed words."
+      ],
       "items": [
-        { "text": "I want to go.", "pattern": "3 words, 1 beat: I want to GO." },
-        { "text": "I would like to be able to go.", "pattern": "8 words, still close to 1-2 beats: I'd LIKE to be Able to GO." }
+        {
+          "text": "I want to go.",
+          "pattern": "3 words, 1 beat: I want to GO."
+        },
+        {
+          "text": "I would like to be able to go.",
+          "pattern": "8 words, still close to 1-2 beats: I'd LIKE to be Able to GO."
+        }
       ]
     },
     {
@@ -171,7 +278,10 @@
       "explain": "Toasts and short speeches use a slow, deliberate, evenly-spaced rhythm for effect.",
       "points": [],
       "items": [
-        { "text": "To FRIENDship, to LAUGHter, and to many more YEARS together.", "pattern": "3 strong evenly-spaced beats" }
+        {
+          "text": "To FRIENDship, to LAUGHter, and to many more YEARS together.",
+          "pattern": "3 strong evenly-spaced beats"
+        }
       ]
     },
     {
@@ -182,8 +292,14 @@
       "explain": "A simple physical drill: clap only on the stressed syllables while saying the sentence, keeping the claps perfectly even.",
       "points": [],
       "items": [
-        { "text": "(clap) SHE (clap) LIKES (clap) TEA.", "pattern": "3 even claps" },
-        { "text": "(clap) SHE would (clap) LIKE some (clap) TEA.", "pattern": "still 3 even claps" }
+        {
+          "text": "(clap) SHE (clap) LIKES (clap) TEA.",
+          "pattern": "3 even claps"
+        },
+        {
+          "text": "(clap) SHE would (clap) LIKE some (clap) TEA.",
+          "pattern": "still 3 even claps"
+        }
       ]
     },
     {
@@ -194,7 +310,10 @@
       "explain": "Real fast dialogue keeps a steady stress beat even though a lot of small words are squeezed in between.",
       "points": [],
       "items": [
-        { "text": "A: You comin' or what? B: Yeah, gimme a sec, I'm almost ready.", "pattern": "COMin' … WHAT / YEAH … SEC … ALmost … REAdy" }
+        {
+          "text": "A: You comin' or what? B: Yeah, gimme a sec, I'm almost ready.",
+          "pattern": "COMin' … WHAT / YEAH … SEC … ALmost … REAdy"
+        }
       ]
     },
     {
@@ -205,7 +324,10 @@
       "explain": "Poetry often has a very deliberate, regular beat — a great way to feel stress-timing clearly.",
       "points": [],
       "items": [
-        { "text": "The ROAD not TAKen MADE all the DIFference.", "pattern": "4 even beats" }
+        {
+          "text": "The ROAD not TAKen MADE all the DIFference.",
+          "pattern": "4 even beats"
+        }
       ]
     },
     {
@@ -216,8 +338,14 @@
       "explain": "The same sentence structure can sound excited or calm just by changing the speed between beats, not the beats themselves.",
       "points": [],
       "items": [
-        { "text": "WE WON the GAME!", "pattern": "fast, energetic beats = excited" },
-        { "text": "We WON the game.", "pattern": "slow, even beats = calm" }
+        {
+          "text": "WE WON the GAME!",
+          "pattern": "fast, energetic beats = excited"
+        },
+        {
+          "text": "We WON the game.",
+          "pattern": "slow, even beats = calm"
+        }
       ]
     },
     {
@@ -228,8 +356,14 @@
       "explain": "Greeting someone by name keeps a natural two-beat rhythm.",
       "points": [],
       "items": [
-        { "text": "HI, SARah!", "pattern": "2 beats" },
-        { "text": "MORNing, JOHN!", "pattern": "2 beats" }
+        {
+          "text": "HI, SARah!",
+          "pattern": "2 beats"
+        },
+        {
+          "text": "MORNing, JOHN!",
+          "pattern": "2 beats"
+        }
       ]
     },
     {
@@ -240,8 +374,14 @@
       "explain": "Making a firm point uses stronger, more forceful beats on the key words than normal conversation.",
       "points": [],
       "items": [
-        { "text": "That is NOT what I SAID.", "pattern": "strong, forceful beats" },
-        { "text": "I have TOLD you THREE times.", "pattern": "strong, forceful beats" }
+        {
+          "text": "That is NOT what I SAID.",
+          "pattern": "strong, forceful beats"
+        },
+        {
+          "text": "I have TOLD you THREE times.",
+          "pattern": "strong, forceful beats"
+        }
       ]
     },
     {
@@ -252,8 +392,14 @@
       "explain": "Reading a string of numbers keeps a light, even beat on each digit or group.",
       "points": [],
       "items": [
-        { "text": "oh SEven, TWO, THREE, FIVE", "pattern": "even beats" },
-        { "text": "TWENty, FORty, SIXty", "pattern": "even beats" }
+        {
+          "text": "oh SEven, TWO, THREE, FIVE",
+          "pattern": "even beats"
+        },
+        {
+          "text": "TWENty, FORty, SIXty",
+          "pattern": "even beats"
+        }
       ]
     },
     {
@@ -264,7 +410,10 @@
       "explain": "Service phrases have a friendly, even, welcoming rhythm.",
       "points": [],
       "items": [
-        { "text": "WELcome IN, how can I HELP you toDAY?", "pattern": "even, friendly beats" }
+        {
+          "text": "WELcome IN, how can I HELP you toDAY?",
+          "pattern": "even, friendly beats"
+        }
       ]
     },
     {
@@ -275,7 +424,10 @@
       "explain": "Repeat the same short sentence five times, keeping the beat perfectly identical each time — builds automatic rhythm control.",
       "points": [],
       "items": [
-        { "text": "I LIKE it. I LIKE it. I LIKE it.", "pattern": "identical 2-beat rhythm each repeat" }
+        {
+          "text": "I LIKE it. I LIKE it. I LIKE it.",
+          "pattern": "identical 2-beat rhythm each repeat"
+        }
       ]
     },
     {
@@ -286,7 +438,10 @@
       "explain": "Weather reports have a brisk, professional, evenly-paced rhythm.",
       "points": [],
       "items": [
-        { "text": "TOday we're LOOKing at CLEAR SKIES and MILD TEMPeratures.", "pattern": "brisk, even beats" }
+        {
+          "text": "TOday we're LOOKing at CLEAR SKIES and MILD TEMPeratures.",
+          "pattern": "brisk, even beats"
+        }
       ]
     },
     {
@@ -297,8 +452,14 @@
       "explain": "The same message keeps stress-timed rhythm in both registers, but casual speech squeezes the weak words much more.",
       "points": [],
       "items": [
-        { "text": "I would like to request some additional information.", "pattern": "formal — weak words still fairly clear" },
-        { "text": "Can you send me more info?", "pattern": "casual — weak words squeezed hard" }
+        {
+          "text": "I would like to request some additional information.",
+          "pattern": "formal — weak words still fairly clear"
+        },
+        {
+          "text": "Can you send me more info?",
+          "pattern": "casual — weak words squeezed hard"
+        }
       ]
     },
     {
@@ -309,8 +470,14 @@
       "explain": "Harder tongue twisters test whether you can keep the beat steady even when individual sounds are tricky.",
       "points": [],
       "items": [
-        { "text": "Six thick thistle sticks.", "pattern": "SIX THICK THIStle STICKS" },
-        { "text": "Trucks try to track the tracks.", "pattern": "TRUCKS TRY to TRACK the TRACKS" }
+        {
+          "text": "Six thick thistle sticks.",
+          "pattern": "SIX THICK THIStle STICKS"
+        },
+        {
+          "text": "Trucks try to track the tracks.",
+          "pattern": "TRUCKS TRY to TRACK the TRACKS"
+        }
       ]
     },
     {
@@ -321,7 +488,10 @@
       "explain": "Practise keeping a natural beat across a full back-and-forth exchange, not just one sentence.",
       "points": [],
       "items": [
-        { "text": "A: WHAT time is the MEETing? B: It's at THREE, I THINK.", "pattern": "even beats across both turns" }
+        {
+          "text": "A: WHAT time is the MEETing? B: It's at THREE, I THINK.",
+          "pattern": "even beats across both turns"
+        }
       ]
     },
     {
@@ -332,8 +502,14 @@
       "explain": "Short commands keep a punchy, even beat on each key word.",
       "points": [],
       "items": [
-        { "text": "STOP right THERE.", "pattern": "2 beats" },
-        { "text": "SIT down and LISten.", "pattern": "3 beats" }
+        {
+          "text": "STOP right THERE.",
+          "pattern": "2 beats"
+        },
+        {
+          "text": "SIT down and LISten.",
+          "pattern": "3 beats"
+        }
       ]
     },
     {
@@ -344,7 +520,10 @@
       "explain": "Reading menu items keeps a light, even rhythm on each dish name.",
       "points": [],
       "items": [
-        { "text": "GRILLED SALmon, ROAST CHICKen, VEGgie PASta.", "pattern": "even beats on each dish" }
+        {
+          "text": "GRILLED SALmon, ROAST CHICKen, VEGgie PASta.",
+          "pattern": "even beats on each dish"
+        }
       ]
     },
     {
@@ -355,7 +534,10 @@
       "explain": "Children's songs have an exaggerated, super-regular beat — perfect for feeling stress-timing.",
       "points": [],
       "items": [
-        { "text": "ROW, ROW, ROW your BOAT.", "pattern": "4 even beats" }
+        {
+          "text": "ROW, ROW, ROW your BOAT.",
+          "pattern": "4 even beats"
+        }
       ]
     },
     {
@@ -366,7 +548,10 @@
       "explain": "Practise keeping even beats even when a word is extra-stressed for contrast.",
       "points": [],
       "items": [
-        { "text": "A: Did SHE call you? B: No, HE called me.", "pattern": "contrastive stress, still even beats" }
+        {
+          "text": "A: Did SHE call you? B: No, HE called me.",
+          "pattern": "contrastive stress, still even beats"
+        }
       ]
     },
     {
@@ -377,7 +562,10 @@
       "explain": "Real fluent speech combines a steady beat with linked, reduced words between the beats.",
       "points": [],
       "items": [
-        { "text": "I WANna GO to the STORE.", "pattern": "3 beats, 'wanna/to the' squeezed between" }
+        {
+          "text": "I WANna GO to the STORE.",
+          "pattern": "3 beats, 'wanna/to the' squeezed between"
+        }
       ]
     },
     {
@@ -388,8 +576,14 @@
       "explain": "Iconic movie lines have a very deliberate, memorable rhythm — great, fun practice material.",
       "points": [],
       "items": [
-        { "text": "MAY the FORCE be with YOU.", "pattern": "3 even beats" },
-        { "text": "I'll be BACK.", "pattern": "1 strong beat" }
+        {
+          "text": "MAY the FORCE be with YOU.",
+          "pattern": "3 even beats"
+        },
+        {
+          "text": "I'll be BACK.",
+          "pattern": "1 strong beat"
+        }
       ]
     },
     {
@@ -400,7 +594,10 @@
       "explain": "A motivational speech often speeds up and strengthens the beats as it builds toward the end.",
       "points": [],
       "items": [
-        { "text": "We CAN do this. We WILL do this. We're GOing to WIN.", "pattern": "beats get stronger and closer together" }
+        {
+          "text": "We CAN do this. We WILL do this. We're GOing to WIN.",
+          "pattern": "beats get stronger and closer together"
+        }
       ]
     },
     {
@@ -411,7 +608,10 @@
       "explain": "Chants use a very simple, repeated, rock-solid beat.",
       "points": [],
       "items": [
-        { "text": "LET'S GO TEAM! LET'S GO TEAM!", "pattern": "identical repeated beat" }
+        {
+          "text": "LET'S GO TEAM! LET'S GO TEAM!",
+          "pattern": "identical repeated beat"
+        }
       ]
     },
     {
@@ -422,7 +622,10 @@
       "explain": "Alliterative phrases (repeated starting sounds) still follow the same stress-timed beat rules.",
       "points": [],
       "items": [
-        { "text": "BIG BLUE BALLoons BOUNCED by.", "pattern": "4 beats" }
+        {
+          "text": "BIG BLUE BALLoons BOUNCED by.",
+          "pattern": "4 beats"
+        }
       ]
     },
     {
@@ -433,7 +636,10 @@
       "explain": "Weather-map narration has a brisk, list-like rhythm moving from region to region.",
       "points": [],
       "items": [
-        { "text": "RAIN in the NORTH, SUN in the SOUTH, CLOUDS in beTWEEN.", "pattern": "even beats across the list" }
+        {
+          "text": "RAIN in the NORTH, SUN in the SOUTH, CLOUDS in beTWEEN.",
+          "pattern": "even beats across the list"
+        }
       ]
     },
     {
@@ -444,7 +650,10 @@
       "explain": "Recipe steps have a calm, even beat guiding the listener through each action.",
       "points": [],
       "items": [
-        { "text": "MIX the FLOUR, ADD the EGGS, STIR it WELL.", "pattern": "even beats on each action" }
+        {
+          "text": "MIX the FLOUR, ADD the EGGS, STIR it WELL.",
+          "pattern": "even beats on each action"
+        }
       ]
     },
     {
@@ -455,7 +664,10 @@
       "explain": "Even with a pause between chunks, the beat inside each chunk should still feel steady and even.",
       "points": [],
       "items": [
-        { "text": "When I WAS a KID / I LOVED to CLIMB TREES.", "pattern": "even beats within each chunk, pause between" }
+        {
+          "text": "When I WAS a KID / I LOVED to CLIMB TREES.",
+          "pattern": "even beats within each chunk, pause between"
+        }
       ]
     },
     {
@@ -466,8 +678,14 @@
       "explain": "Compliments keep a warm, even beat on the praised quality.",
       "points": [],
       "items": [
-        { "text": "That's a GREAT idea!", "pattern": "2 beats" },
-        { "text": "You did REALly WELL.", "pattern": "2 beats" }
+        {
+          "text": "That's a GREAT idea!",
+          "pattern": "2 beats"
+        },
+        {
+          "text": "You did REALly WELL.",
+          "pattern": "2 beats"
+        }
       ]
     },
     {
@@ -478,7 +696,10 @@
       "explain": "Counting things aloud naturally falls into a light, even beat.",
       "points": [],
       "items": [
-        { "text": "ONE apple, TWO oranges, THREE bananas.", "pattern": "even beats on each number" }
+        {
+          "text": "ONE apple, TWO oranges, THREE bananas.",
+          "pattern": "even beats on each number"
+        }
       ]
     },
     {
@@ -489,7 +710,10 @@
       "explain": "Schedule descriptions keep an even beat on each time and activity.",
       "points": [],
       "items": [
-        { "text": "MEETing at NINE, LUNCH at NOON, GYM at SIX.", "pattern": "even beats across the schedule" }
+        {
+          "text": "MEETing at NINE, LUNCH at NOON, GYM at SIX.",
+          "pattern": "even beats across the schedule"
+        }
       ]
     },
     {
@@ -500,8 +724,14 @@
       "explain": "Quick reactions have a snappy, single strong beat.",
       "points": [],
       "items": [
-        { "text": "NO way!", "pattern": "1 beat" },
-        { "text": "So COOL!", "pattern": "1 beat" }
+        {
+          "text": "NO way!",
+          "pattern": "1 beat"
+        },
+        {
+          "text": "So COOL!",
+          "pattern": "1 beat"
+        }
       ]
     },
     {
@@ -512,8 +742,14 @@
       "explain": "Even a one- or two-word answer carries a clear beat, not a flat mumble.",
       "points": [],
       "items": [
-        { "text": "PRObably.", "pattern": "1 beat" },
-        { "text": "NOT REALly.", "pattern": "2 beats" }
+        {
+          "text": "PRObably.",
+          "pattern": "1 beat"
+        },
+        {
+          "text": "NOT REALly.",
+          "pattern": "2 beats"
+        }
       ]
     },
     {
@@ -524,7 +760,10 @@
       "explain": "Radio ads use an energetic, punchy, very regular beat to stay memorable.",
       "points": [],
       "items": [
-        { "text": "COME on DOWN to SUPer SAVE, where PRICes NEVer STOP FALLing!", "pattern": "punchy, regular beats" }
+        {
+          "text": "COME on DOWN to SUPer SAVE, where PRICes NEVer STOP FALLing!",
+          "pattern": "punchy, regular beats"
+        }
       ]
     },
     {
@@ -535,9 +774,18 @@
       "explain": "Start with just the stressed word, then rebuild the full sentence around it, keeping that word's beat unchanged.",
       "points": [],
       "items": [
-        { "text": "GO.", "pattern": "1 beat" },
-        { "text": "Let's GO.", "pattern": "1 beat, same weight" },
-        { "text": "I think we should GO now.", "pattern": "1 beat, same weight on 'go'" }
+        {
+          "text": "GO.",
+          "pattern": "1 beat"
+        },
+        {
+          "text": "Let's GO.",
+          "pattern": "1 beat, same weight"
+        },
+        {
+          "text": "I think we should GO now.",
+          "pattern": "1 beat, same weight on 'go'"
+        }
       ]
     },
     {
@@ -548,7 +796,10 @@
       "explain": "A sincere apology keeps a slow, steady, even beat — rushing it can sound insincere.",
       "points": [],
       "items": [
-        { "text": "I'm SORry. I was WRONG. It won't HAPpen aGAIN.", "pattern": "slow, even, deliberate beats" }
+        {
+          "text": "I'm SORry. I was WRONG. It won't HAPpen aGAIN.",
+          "pattern": "slow, even, deliberate beats"
+        }
       ]
     },
     {
@@ -559,7 +810,10 @@
       "explain": "News headlines are read with clear, confident, evenly-spaced beats on the key facts.",
       "points": [],
       "items": [
-        { "text": "CITY COUNcil APproves NEW PARK PLAN.", "pattern": "even, confident beats" }
+        {
+          "text": "CITY COUNcil APproves NEW PARK PLAN.",
+          "pattern": "even, confident beats"
+        }
       ]
     },
     {
@@ -570,7 +824,10 @@
       "explain": "A short answer plus a quick extra detail still keeps one connected, even rhythm.",
       "points": [],
       "items": [
-        { "text": "YEAH, I'm PRETty SURE.", "pattern": "one connected rhythm" }
+        {
+          "text": "YEAH, I'm PRETty SURE.",
+          "pattern": "one connected rhythm"
+        }
       ]
     },
     {
@@ -581,7 +838,275 @@
       "explain": "A warm goodbye speech uses a slow, even, heartfelt beat, similar to a toast.",
       "points": [],
       "items": [
-        { "text": "It's been an HONor WORKing with all of YOU.", "pattern": "slow, even, heartfelt beats" }
+        {
+          "text": "It's been an HONor WORKing with all of YOU.",
+          "pattern": "slow, even, heartfelt beats"
+        }
+      ]
+    },
+    {
+      "title": "Practice",
+      "level": "intermediate",
+      "difficulty": "medium",
+      "accent": "us",
+      "explain": "Master rhythm across 50 targeted drills. Listen closely to the AI model, repeat, and record your voice to receive detailed real-time pronunciation scoring and feedback.",
+      "points": [
+        "Focus on the rhythm, stress, and flow highlighted in each drill.",
+        "Listen to the reference model audio before each recording attempt.",
+        "Review your AI score and phoneme-level feedback to pinpoint areas for improvement."
+      ],
+      "caution": "Do not rush through the drills; prioritize clarity, natural cadence, and accurate articulation.",
+      "items": [
+        {
+          "text": "Dogs bark loudly.",
+          "pattern": "DOGS BARK LOUD-ly.",
+          "note": "Three content beats in a row: equal spacing between pulses."
+        },
+        {
+          "text": "The dogs will bark quite loudly.",
+          "pattern": "the DOGS will BARK quite LOUD-ly.",
+          "note": "Grammar words compress so the three beats stay evenly timed."
+        },
+        {
+          "text": "Birds sing songs.",
+          "pattern": "BIRDS SING SONGS.",
+          "note": "Three staccato beats at constant musical intervals."
+        },
+        {
+          "text": "The wild birds were singing their sweet songs.",
+          "pattern": "the WILD BIRDS were SING-ing their SWEET SONGS.",
+          "note": "Unstressed syllables squeeze into the tempo."
+        },
+        {
+          "text": "Rain falls down.",
+          "pattern": "RAIN FALLS DOWN.",
+          "note": "Slow, deliberate three-beat pulse."
+        },
+        {
+          "text": "Cold rain was falling all afternoon.",
+          "pattern": "COLD RAIN was FALL-ing all af-ter-NOON.",
+          "note": "Maintain identical time intervals between the stress peaks."
+        },
+        {
+          "text": "Clock ticks fast.",
+          "pattern": "CLOCK TICKS FAST.",
+          "note": "Three punchy, equal beats."
+        },
+        {
+          "text": "The old wall clock was ticking away so fast.",
+          "pattern": "the OLD WALL CLOCK was TICK-ing a-way so FAST.",
+          "note": "Notice how 'was', 'a-way', 'so' speed up to preserve the beat."
+        },
+        {
+          "text": "Trains stop here.",
+          "pattern": "TRAINS STOP HERE.",
+          "note": "Three heavy content monosyllables."
+        },
+        {
+          "text": "All the express trains must stop right over here.",
+          "pattern": "ALL the ex-PRESS TRAINS must STOP right O-ver HERE.",
+          "note": "Rhythmic constancy despite multiple syllables."
+        },
+        {
+          "text": "Fire burns bright.",
+          "pattern": "FIRE BURNS BRIGHT.",
+          "note": "Three resonant stress peaks."
+        },
+        {
+          "text": "A warm camp fire was burning extremely bright.",
+          "pattern": "a WARM CAMP FIRE was BURN-ing ex-TREME-ly BRIGHT.",
+          "note": "Keep the metronome ticking evenly across the beats."
+        },
+        {
+          "text": "Stars shine bright at night.",
+          "pattern": "STARS SHINE BRIGHT at NIGHT.",
+          "note": "Four beats: steady musical progression."
+        },
+        {
+          "text": "Millions of bright stars were shining throughout the dark night.",
+          "pattern": "MIL-lions of BRIGHT STARS were SHIN-ing through-OUT the DARK NIGHT.",
+          "note": "Squeeze unstressed syllables without rushing the main beats."
+        },
+        {
+          "text": "Kids love sweets.",
+          "pattern": "KIDS LOVE SWEETS.",
+          "note": "Tri-syllabic stress beat."
+        },
+        {
+          "text": "Most young kids really love tasty sweet snacks.",
+          "pattern": "MOST YOUNG KIDS REAL-ly LOVE TAST-y SWEET SNACKS.",
+          "note": "Clustered stresses followed by rapid reductions."
+        },
+        {
+          "text": "Wind blows hard.",
+          "pattern": "WIND BLOWS HARD.",
+          "note": "Three monosyllabic hammer beats."
+        },
+        {
+          "text": "A chilly north wind had been blowing unusually hard.",
+          "pattern": "a CHIL-ly NORTH WIND had been BLOW-ing un-U-su-al-ly HARD.",
+          "note": "Notice how 'had been' and 'unusually' glide between beats."
+        },
+        {
+          "text": "Cook good food.",
+          "pattern": "COOK GOOD FOOD.",
+          "note": "Three heavy vowel beats."
+        },
+        {
+          "text": "Always cook fresh, delicious food for your dinner.",
+          "pattern": "AL-ways COOK FRESH de-LI-cious FOOD for your DIN-ner.",
+          "note": "Equal spacing between prominent syllables."
+        },
+        {
+          "text": "Ships cross seas.",
+          "pattern": "SHIPS CROSS SEAS.",
+          "note": "Three rhythmic pulses."
+        },
+        {
+          "text": "Enormous cargo ships were crossing rough stormy seas.",
+          "pattern": "e-NOR-mous CAR-go SHIPS were CROSS-ing ROUGH STOR-my SEAS.",
+          "note": "Stress-timed acceleration of weak syllables."
+        },
+        {
+          "text": "Bears sleep through winter.",
+          "pattern": "BEARS SLEEP through WIN-ter.",
+          "note": "Three content beats."
+        },
+        {
+          "text": "Wild brown bears always sleep peacefully throughout the harsh winter.",
+          "pattern": "WILD BROWN BEARS AL-ways SLEEP PEACE-ful-ly through-OUT the HARSH WIN-ter.",
+          "note": "Polysyllabic words compressed between peaks."
+        },
+        {
+          "text": "Bells chime loud.",
+          "pattern": "BELLS CHIME LOUD.",
+          "note": "Three resonant bell-strike beats."
+        },
+        {
+          "text": "Ancient bronze bells were chiming remarkably loud.",
+          "pattern": "AN-cient BRONZE BELLS were CHIM-ing re-MARK-a-bly LOUD.",
+          "note": "Feel the alternating peaks and valleys."
+        },
+        {
+          "text": "Leaves turn red in fall.",
+          "pattern": "LEAVES TURN RED in FALL.",
+          "note": "Four evenly spaced autumn beats."
+        },
+        {
+          "text": "Maple leaves quickly turn bright red during late autumn.",
+          "pattern": "MA-ple LEAVES QUICK-ly TURN BRIGHT RED dur-ing LATE AU-tumn.",
+          "note": "Keep the cadence steady despite the added words."
+        },
+        {
+          "text": "Tigers hunt wild prey.",
+          "pattern": "TI-gers HUNT WILD PREY.",
+          "note": "Four strong beats."
+        },
+        {
+          "text": "Fierce royal tigers will hunt their wild prey in the jungle.",
+          "pattern": "FIERCE ROY-al TI-gers will HUNT their WILD PREY in the JUN-gle.",
+          "note": "Smooth foot transitions across syllables."
+        },
+        {
+          "text": "Sun heats earth.",
+          "pattern": "SUN HEATS EARTH.",
+          "note": "Three core beats."
+        },
+        {
+          "text": "The blazing desert sun heats the dry rocky earth.",
+          "pattern": "the BLAZ-ing DE-sert SUN HEATS the DRY ROCK-y EARTH.",
+          "note": "Multiple stresses grouped together naturally."
+        },
+        {
+          "text": "Waves crash on rocks.",
+          "pattern": "WAVES CRASH on ROCKS.",
+          "note": "Three dynamic crests."
+        },
+        {
+          "text": "Huge ocean waves were crashing violently upon the dark rocks.",
+          "pattern": "HUGE O-cean WAVES were CRASH-ing VI-o-lent-ly up-on the DARK ROCKS.",
+          "note": "Rapid compression of unstressed functional syllables."
+        },
+        {
+          "text": "Snow covered fields.",
+          "pattern": "SNOW COV-ered FIELDS.",
+          "note": "Three clear beats."
+        },
+        {
+          "text": "Fresh white snow had completely covered the distant mountain fields.",
+          "pattern": "FRESH WHITE SNOW had com-PLETE-ly COV-ered the DIS-tant MOUN-tain FIELDS.",
+          "note": "Stress timing: length of phrase matches beat count, not syllable count."
+        },
+        {
+          "text": "Wolves howl at moon.",
+          "pattern": "WOLVES HOWL at MOON.",
+          "note": "Three primal pulses."
+        },
+        {
+          "text": "Hungry grey wolves were howling mournfully beneath the full moon.",
+          "pattern": "HUN-gry GREY WOLVES were HOWL-ing MOURN-ful-ly be-NEATH the FULL MOON.",
+          "note": "Rhythmic balance between content peaks."
+        },
+        {
+          "text": "Fish swim deep in sea.",
+          "pattern": "FISH SWIM DEEP in SEA.",
+          "note": "Four steady beats."
+        },
+        {
+          "text": "Strange tropical fish will swim incredibly deep in the silent sea.",
+          "pattern": "STRANGE TROP-i-cal FISH will SWIM in-CRED-i-bly DEEP in the SI-lent SEA.",
+          "note": "Notice how syllables expand and compress naturally."
+        },
+        {
+          "text": "Bees make sweet honey.",
+          "pattern": "BEES MAKE SWEET HON-ey.",
+          "note": "Four warm beats."
+        },
+        {
+          "text": "Tiny worker bees diligently make delicious sweet golden honey.",
+          "pattern": "TI-ny WORK-er BEES DIL-i-gent-ly MAKE de-LI-cious SWEET GOLD-en HON-ey.",
+          "note": "Keep your vocal energy centered on the stressed syllables."
+        },
+        {
+          "text": "Planes fly high in clouds.",
+          "pattern": "PLANES FLY HIGH in CLOUDS.",
+          "note": "Four soaring beats."
+        },
+        {
+          "text": "Modern passenger planes can fly remarkably high above the white clouds.",
+          "pattern": "MOD-ern PAS-sen-ger PLANES can FLY re-MARK-a-bly HIGH a-bove the WHITE CLOUDS.",
+          "note": "Even cadence across varied phrase lengths."
+        },
+        {
+          "text": "Books teach great truths.",
+          "pattern": "BOOKS TEACH GREAT TRUTHS.",
+          "note": "Four heavy monosyllabic beats."
+        },
+        {
+          "text": "Classical history books have always taught profound great truths.",
+          "pattern": "CLAS-si-cal HIS-to-ry BOOKS have AL-ways TAUGHT pro-FOUND GREAT TRUTHS.",
+          "note": "Feel the steady pendulum swing of English rhythm."
+        },
+        {
+          "text": "Hands hold warm cups.",
+          "pattern": "HANDS HOLD WARM CUPS.",
+          "note": "Four comforting beats."
+        },
+        {
+          "text": "Cold weary hands were holding warm fragrant cups of herbal tea.",
+          "pattern": "COLD WEA-ry HANDS were HOLD-ing WARM FRA-grant CUPS of HER-bal TEA.",
+          "note": "Flawless stress-timed flow from start to finish."
+        },
+        {
+          "text": "Drums beat loud.",
+          "pattern": "DRUMS BEAT LOUD.",
+          "note": "Three pounding stress beats."
+        },
+        {
+          "text": "Huge ceremonial drums were beating remarkably loud.",
+          "pattern": "HUGE cer-e-MO-ni-al DRUMS were BEAT-ing re-MARK-a-bly LOUD.",
+          "note": "Polysyllabic words compressed into the steady beat."
+        }
       ]
     }
   ]

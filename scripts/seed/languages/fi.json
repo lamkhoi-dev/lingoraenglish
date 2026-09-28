@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "Selaa kategorioittain",
     "tour.vocab.step1.content": "Suodata sanalista aiheen mukaan keskittääksesi opiskelusi.",
     "tour.vocab.step2.title": "Opi sana",
-    "tour.vocab.step2.content": "Kuuntele, kun tekoäly sanoo sanan tai esimerkkilauseen, merkitse se tutuksi tai lähetä se suoraan puheharjoitukseen."
+    "tour.vocab.step2.content": "Kuuntele, kun tekoäly sanoo sanan tai esimerkkilauseen, merkitse se tutuksi tai lähetä se suoraan puheharjoitukseen.",
+    "coach.hint.needIdea": "Tarvitsetko idean? Näytä vihje",
+    "coach.hint.usedUp": "Olet jo käyttänyt tämän aiheen ilmaisen vihjeen.",
+    "coach.hint.upgrade": "Päivitä saadaksesi rajattomasti vihjeitä",
+    "coach.hint.ideasTitle": "Ideoita",
+    "coach.hint.startersTitle": "Lauseen aloituksia",
+    "coach.hint.needMoreHelp": "Tarvitsetko lisää apua?",
+    "coach.hint.showExample": "Näytä esimerkki",
+    "coach.hint.nowYourTurn": "Nyt on sinun vuorosi!"
   }
 }

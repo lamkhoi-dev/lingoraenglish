@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "Böngésszen kategória szerint",
     "tour.vocab.step1.content": "Szűrje a szólistát téma szerint, hogy a tanulására összpontosítson.",
     "tour.vocab.step2.title": "Tanuljon meg egy szót",
-    "tour.vocab.step2.content": "Hallgassa meg, ahogy az AI kimondja a szót vagy a példamondatot, jelölje meg ismertként, vagy küldje egyenesen egy beszédgyakorlatba."
+    "tour.vocab.step2.content": "Hallgassa meg, ahogy az AI kimondja a szót vagy a példamondatot, jelölje meg ismertként, vagy küldje egyenesen egy beszédgyakorlatba.",
+    "coach.hint.needIdea": "Ötletre van szükséged? Mutass egy tippet",
+    "coach.hint.usedUp": "Ehhez a témához már felhasználtad az ingyenes tippedet.",
+    "coach.hint.upgrade": "Frissíts a korlátlan tippekért",
+    "coach.hint.ideasTitle": "Ötletek",
+    "coach.hint.startersTitle": "Mondatkezdések",
+    "coach.hint.needMoreHelp": "Több segítségre van szükséged?",
+    "coach.hint.showExample": "Mutass egy példát",
+    "coach.hint.nowYourTurn": "Most te jössz!"
   }
 }

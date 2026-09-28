@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "ਸ਼੍ਰੇਣੀ ਅਨੁਸਾਰ ਬ੍ਰਾਊਜ਼ ਕਰੋ",
     "tour.vocab.step1.content": "ਆਪਣੀ ਪੜ੍ਹਾਈ 'ਤੇ ਧਿਆਨ ਕੇਂਦਰਿਤ ਕਰਨ ਲਈ ਵਿਸ਼ੇ ਅਨੁਸਾਰ ਸ਼ਬਦ ਸੂਚੀ ਫਿਲਟਰ ਕਰੋ।",
     "tour.vocab.step2.title": "ਇੱਕ ਸ਼ਬਦ ਸਿੱਖੋ",
-    "tour.vocab.step2.content": "AI ਨੂੰ ਸ਼ਬਦ ਜਾਂ ਉਦਾਹਰਣ ਵਾਕ ਬੋਲਦੇ ਸੁਣੋ, ਇਸਨੂੰ ਜਾਣਿਆ-ਪਛਾਣਿਆ ਵਜੋਂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ, ਜਾਂ ਸਿੱਧਾ ਬੋਲਣ ਦੇ ਅਭਿਆਸ ਵਿੱਚ ਭੇਜੋ।"
+    "tour.vocab.step2.content": "AI ਨੂੰ ਸ਼ਬਦ ਜਾਂ ਉਦਾਹਰਣ ਵਾਕ ਬੋਲਦੇ ਸੁਣੋ, ਇਸਨੂੰ ਜਾਣਿਆ-ਪਛਾਣਿਆ ਵਜੋਂ ਨਿਸ਼ਾਨਬੱਧ ਕਰੋ, ਜਾਂ ਸਿੱਧਾ ਬੋਲਣ ਦੇ ਅਭਿਆਸ ਵਿੱਚ ਭੇਜੋ।",
+    "coach.hint.needIdea": "ਕੋਈ ਵਿਚਾਰ ਚਾਹੀਦਾ ਹੈ? ਸੰਕੇਤ ਦਿਖਾਓ",
+    "coach.hint.usedUp": "ਤੁਸੀਂ ਇਸ ਵਿਸ਼ੇ ਲਈ ਆਪਣਾ ਮੁਫ਼ਤ ਸੰਕੇਤ ਵਰਤ ਚੁੱਕੇ ਹੋ।",
+    "coach.hint.upgrade": "ਅਸੀਮਤ ਸੰਕੇਤਾਂ ਲਈ ਅੱਪਗ੍ਰੇਡ ਕਰੋ",
+    "coach.hint.ideasTitle": "ਵਿਚਾਰ",
+    "coach.hint.startersTitle": "ਵਾਕ ਦੀ ਸ਼ੁਰੂਆਤ",
+    "coach.hint.needMoreHelp": "ਹੋਰ ਮਦਦ ਚਾਹੀਦੀ ਹੈ?",
+    "coach.hint.showExample": "ਇੱਕ ਉਦਾਹਰਣ ਦਿਖਾਓ",
+    "coach.hint.nowYourTurn": "ਹੁਣ ਤੁਹਾਡੀ ਵਾਰੀ ਹੈ!"
   }
 }

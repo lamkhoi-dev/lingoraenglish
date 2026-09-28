@@ -59,6 +59,15 @@ export const enCoach = {
   "coach.sendAnswer": "Send answer",
   "coach.startTopicAgain": "Start this topic again",
 
+  "coach.hint.needIdea": "Need an idea? Show me a hint",
+  "coach.hint.usedUp": "You've used your free hint for this topic.",
+  "coach.hint.upgrade": "Upgrade for unlimited hints",
+  "coach.hint.ideasTitle": "Ideas",
+  "coach.hint.startersTitle": "Sentence starters",
+  "coach.hint.needMoreHelp": "Need more help?",
+  "coach.hint.showExample": "Show an example",
+  "coach.hint.nowYourTurn": "Now it's your turn!",
+
   "coach.exampleFeedback": "Example feedback",
 
   "coach.correctionLoop.title": "The correction loop",

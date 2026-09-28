@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "เรียกดูตามหมวดหมู่",
     "tour.vocab.step1.content": "กรองรายการคำศัพท์ตามหัวข้อเพื่อโฟกัสการเรียนรู้ของคุณ",
     "tour.vocab.step2.title": "เรียนรู้คำศัพท์",
-    "tour.vocab.step2.content": "ฟัง AI พูดคำศัพท์หรือประโยคตัวอย่าง ทำเครื่องหมายว่ารู้จักแล้ว หรือส่งไปฝึกพูดโดยตรง"
+    "tour.vocab.step2.content": "ฟัง AI พูดคำศัพท์หรือประโยคตัวอย่าง ทำเครื่องหมายว่ารู้จักแล้ว หรือส่งไปฝึกพูดโดยตรง",
+    "coach.hint.needIdea": "ต้องการไอเดียไหม? ดูคำใบ้",
+    "coach.hint.usedUp": "คุณใช้คำใบ้ฟรีสำหรับหัวข้อนี้ไปแล้ว",
+    "coach.hint.upgrade": "อัปเกรดเพื่อรับคำใบ้ไม่จำกัด",
+    "coach.hint.ideasTitle": "ไอเดีย",
+    "coach.hint.startersTitle": "ประโยคเริ่มต้น",
+    "coach.hint.needMoreHelp": "ต้องการความช่วยเหลือเพิ่มเติมไหม?",
+    "coach.hint.showExample": "ดูตัวอย่าง",
+    "coach.hint.nowYourTurn": "ตอนนี้ถึงตาคุณแล้ว!"
   }
 }

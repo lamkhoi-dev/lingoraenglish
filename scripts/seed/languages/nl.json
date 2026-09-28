@@ -1267,6 +1267,14 @@
     "tour.vocab.step1.title": "Bladeren per categorie",
     "tour.vocab.step1.content": "Filter de woordenlijst op onderwerp om je studie te focussen.",
     "tour.vocab.step2.title": "Leer een woord",
-    "tour.vocab.step2.content": "Luister hoe de AI het woord of de voorbeeldzin uitspreekt, markeer het als bekend, of stuur het direct door naar een spreekoefening."
+    "tour.vocab.step2.content": "Luister hoe de AI het woord of de voorbeeldzin uitspreekt, markeer het als bekend, of stuur het direct door naar een spreekoefening.",
+    "coach.hint.needIdea": "Heb je een idee nodig? Toon een hint",
+    "coach.hint.usedUp": "Je hebt je gratis hint voor dit onderwerp al gebruikt.",
+    "coach.hint.upgrade": "Upgrade voor onbeperkte hints",
+    "coach.hint.ideasTitle": "Ideeën",
+    "coach.hint.startersTitle": "Zinsbeginnen",
+    "coach.hint.needMoreHelp": "Meer hulp nodig?",
+    "coach.hint.showExample": "Toon een voorbeeld",
+    "coach.hint.nowYourTurn": "Nu ben jij aan de beurt!"
   }
 }

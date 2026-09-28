@@ -29,6 +29,7 @@ import {
   providerStatuses,
   synthesise,
   transcribe,
+  ttsCacheKey,
 } from "./ai-providers.server";
 import { assertWithinDailyBudget, priceCall } from "./ai-cost.server";
 import { assertUnlockedOrPremium, getLimits, reserveUsage, type Capability, type Tier } from "./entitlements.server";
@@ -524,7 +525,7 @@ export const speak = createServerFn({ method: "POST" })
     z.object({ text: z.string().min(1).max(1200), voice: z.string().max(24).default("shimmer") }).parse(d),
   )
   .handler(async ({ data, context }) => {
-    const key = `${currentAudioProvider()}::${data.voice}::${data.text.trim().toLowerCase()}`;
+    const key = ttsCacheKey(data.voice, data.text);
 
     const cachedRows = await withAdmin((db) =>
       db
@@ -572,7 +573,7 @@ export function prewarmTts(text: string, voice = "shimmer"): void {
       const clean = text.replace(/\s+/g, " ").trim();
       const firstSentence = clean.match(/[^.!?…]+[.!?…]*/)?.[0]?.trim() || clean;
       const chunk = firstSentence.length > 120 ? firstSentence.slice(0, 120) : firstSentence;
-      const key = `${currentAudioProvider()}::${voice}::${chunk.toLowerCase()}`;
+      const key = ttsCacheKey(voice, chunk);
 
       const existing = await withAdmin((db) =>
         db.select({ id: ttsCache.id }).from(ttsCache).where(eq(ttsCache.cacheKey, key)).limit(1),

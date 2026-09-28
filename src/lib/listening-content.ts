@@ -192,18 +192,43 @@ export function normaliseWord(value: string): string {
     .trim();
 }
 
-/** Splits a dictation sentence into fixed words and the blanks to be typed. */
+/**
+ * Splits a dictation sentence into fixed words and the blanks to be typed.
+ *
+ * A blank can be more than one word (e.g. "locking yourself", "twenty-four
+ * hours" — common for connected-speech/expression challenges), so this
+ * matches each blank against a run of consecutive words, not a single word.
+ * One part is emitted per blank regardless of how many words it spans, so
+ * the caller still renders exactly one input per blank (listening-lesson
+ * .tsx never changed for this — it already keyed everything off blankIndex,
+ * one value per blank, not per word). A single-word blank is just the n=1
+ * case of the same logic, so already-correct data/behaviour is unaffected.
+ *
+ * Bug found 2026-09-28: the old version matched one word at a time, so any
+ * multi-word blank never matched anything — the whole sentence rendered
+ * read-only with nothing to type, looking like it had been pre-filled.
+ * Affected 267 of 514 dictation items (74 of 119 lessons) on production.
+ */
 export function buildDictationParts(item: DictationItem): { text: string; blankIndex: number | null }[] {
-  let pointer = 0;
-  return item.sentence.split(/\s+/).map((word) => {
-    const blank = item.blanks[pointer];
-    if (blank && normaliseWord(word) === normaliseWord(blank)) {
-      const index = pointer;
-      pointer += 1;
-      return { text: word, blankIndex: index };
+  const words = item.sentence.split(/\s+/);
+  const parts: { text: string; blankIndex: number | null }[] = [];
+  let wi = 0;
+  let bi = 0;
+  while (wi < words.length) {
+    const blank = item.blanks[bi];
+    const blankWords = blank ? blank.split(/\s+/) : [];
+    const fits = blankWords.length > 0 && wi + blankWords.length <= words.length;
+    const matches = fits && blankWords.every((bw, k) => normaliseWord(words[wi + k]!) === normaliseWord(bw));
+    if (matches) {
+      parts.push({ text: words.slice(wi, wi + blankWords.length).join(" "), blankIndex: bi });
+      wi += blankWords.length;
+      bi += 1;
+    } else {
+      parts.push({ text: words[wi]!, blankIndex: null });
+      wi += 1;
     }
-    return { text: word, blankIndex: null };
-  });
+  }
+  return parts;
 }
 
 /** Which typed blanks match the audio, in order. */

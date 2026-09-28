@@ -1268,6 +1268,14 @@
     "tour.vocab.step1.title": "עיין לפי קטגוריה",
     "tour.vocab.step1.content": "סנן את רשימת המילים לפי נושא כדי למקד את הלמידה שלך.",
     "tour.vocab.step2.title": "למד מילה",
-    "tour.vocab.step2.content": "הקשב לבינה המלאכותית אומרת את המילה או משפט הדוגמה, סמן אותה כידועה, או שלח אותה ישירות לתרגול דיבור."
+    "tour.vocab.step2.content": "הקשב לבינה המלאכותית אומרת את המילה או משפט הדוגמה, סמן אותה כידועה, או שלח אותה ישירות לתרגול דיבור.",
+    "coach.hint.needIdea": "צריך רעיון? הצג רמז",
+    "coach.hint.usedUp": "כבר ניצלת את הרמז החינמי שלך לנושא הזה.",
+    "coach.hint.upgrade": "שדרג לרמזים ללא הגבלה",
+    "coach.hint.ideasTitle": "רעיונות",
+    "coach.hint.startersTitle": "פתיחי משפט",
+    "coach.hint.needMoreHelp": "צריך עוד עזרה?",
+    "coach.hint.showExample": "הצג דוגמה",
+    "coach.hint.nowYourTurn": "עכשיו תורך!"
   }
 }

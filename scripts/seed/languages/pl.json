@@ -1269,6 +1269,14 @@
     "tour.vocab.step1.title": "Przeglądaj według kategorii",
     "tour.vocab.step1.content": "Filtruj listę słów według tematu, aby skupić naukę.",
     "tour.vocab.step2.title": "Naucz się słowa",
-    "tour.vocab.step2.content": "Posłuchaj, jak AI wymawia słowo lub przykładowe zdanie, oznacz je jako znane lub wyślij bezpośrednio do ćwiczenia mówienia."
+    "tour.vocab.step2.content": "Posłuchaj, jak AI wymawia słowo lub przykładowe zdanie, oznacz je jako znane lub wyślij bezpośrednio do ćwiczenia mówienia.",
+    "coach.hint.needIdea": "Potrzebujesz pomysłu? Pokaż podpowiedź",
+    "coach.hint.usedUp": "Wykorzystałeś już darmową podpowiedź dla tego tematu.",
+    "coach.hint.upgrade": "Ulepsz plan, aby uzyskać nieograniczone podpowiedzi",
+    "coach.hint.ideasTitle": "Pomysły",
+    "coach.hint.startersTitle": "Początki zdań",
+    "coach.hint.needMoreHelp": "Potrzebujesz więcej pomocy?",
+    "coach.hint.showExample": "Pokaż przykład",
+    "coach.hint.nowYourTurn": "Teraz twoja kolej!"
   }
 }
