@@ -105,8 +105,13 @@ function SpeakingTestsPage() {
               exam === e.id ? "bg-brass/15 ring-brass/40" : "bg-surface-2 ring-border hover:bg-surface-3",
             )}
           >
-            <p className={cn("text-sm font-semibold", exam === e.id ? "text-brass-soft" : "text-foreground")}>{e.label}</p>
-            <p className="mt-1 text-xs text-muted-foreground">{e.blurb}</p>
+            <div className="flex items-center justify-between gap-2">
+              <p className={cn("text-sm font-semibold", exam === e.id ? "text-brass-soft" : "text-foreground")}>{e.label}</p>
+              <span className="shrink-0 whitespace-nowrap rounded-full bg-brass/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brass-soft">
+                {t("tests.filter.free")}
+              </span>
+            </div>
+            <p className="mt-1 truncate text-xs text-muted-foreground" title={e.blurb}>{e.blurb}</p>
           </button>
         ))}
       </div>
@@ -325,7 +330,7 @@ function IeltsPractice() {
                   <h3 className="mt-1 font-display text-lg text-foreground">{test.topic}</h3>
                 </div>
                 {test.is_free ? (
-                  <span className="rounded-full bg-brass/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brass-soft">
+                  <span className="shrink-0 whitespace-nowrap rounded-full bg-brass/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brass-soft">
                     {t("tests.filter.free")}
                   </span>
                 ) : (
@@ -860,7 +865,7 @@ function ExamLibrary({ exam }: { exam: "toefl" | "pte" }) {
                   <h3 className="mt-1 font-display text-lg text-foreground">{test.topic}</h3>
                 </div>
                 {test.is_free ? (
-                  <span className="rounded-full bg-brass/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brass-soft">
+                  <span className="shrink-0 whitespace-nowrap rounded-full bg-brass/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-brass-soft">
                     {t("tests.filter.free")}
                   </span>
                 ) : (

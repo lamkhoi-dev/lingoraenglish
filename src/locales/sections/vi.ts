@@ -755,7 +755,7 @@ export const sectionsVi: Dictionary = {
   "tests.exam.toefl.label": "TOEFL Speaking",
   "tests.exam.toefl.blurb": "Listen & Repeat và Take an Interview.",
   "tests.exam.pte.label": "PTE Speaking",
-  "tests.exam.pte.blurb": "Read Aloud, Repeat Sentence và nhiều dạng bài khác.",
+  "tests.exam.pte.blurb": "Read Aloud, Repeat Sentence và nhiều dạng khác.",
   "tests.footer.disclaimer": "Lingora English không liên kết với IELTS, ETS (TOEFL) hay Pearson (PTE). Tất cả điểm số hiển thị là",
   "tests.footer.disclaimerEmphasis": "Điểm Speaking ước tính bởi AI",
   "tests.footer.disclaimerSuffix": "chỉ dùng để luyện tập, không phải kết quả chính thức.",

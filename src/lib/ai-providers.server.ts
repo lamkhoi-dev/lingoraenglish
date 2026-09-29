@@ -638,15 +638,30 @@ export type AudioPronunciationFeedback = {
  *
  * Returns null if Gemini isn't configured or its response doesn't parse, so
  * the caller can fall back to the transcript-only feedback it already has.
+ *
+ * `reducedFrom` (Pronunciation → Reductions only): `target` is then an
+ * informally-spelled casual form ("I dunno.", "Jeetyet?") and `reducedFrom`
+ * the full sentence it comes from ("I don't know.", "Did you eat yet?").
+ * The prompt says so explicitly — without the full form, eye-dialect
+ * spellings are ambiguous to a listener, and a learner carefully saying the
+ * full sentence would otherwise score as a perfect match for the wrong goal.
  */
 export async function analysePronunciationAudio(
   audio: Uint8Array,
   mimeType: string,
   target: string,
   langNote: string,
+  reducedFrom?: string,
 ): Promise<AudioPronunciationFeedback | null> {
   if (!geminiKey()) return null;
   const base = mimeType.split(";")[0] ?? "audio/wav";
+  const task = reducedFrom
+    ? `Listen to this recording of a learner practising the casual, reduced spoken form "${target}" — the way native speakers actually say "${reducedFrom}" in relaxed, fast speech. The spelling is informal on purpose: judge it as that reduced pronunciation, not as the careful full sentence.
+${langNote}
+Give honest, specific feedback on how natural the REDUCED pronunciation sounds — linking, weakened or dropped sounds, rhythm, anything a real listener would notice. If the learner instead carefully pronounces every word of the full form, that is understandable English but not what this exercise practises: say so, and score it clearly lower. Also give your own honest overall score from 0 to 100 (how close it sounded to a natural reduced pronunciation of the target) — this is your expert judgement as a listener, not a lab measurement, but still give a specific number rather than refusing to score it. If the recording is silent, too quiet, or unintelligible, say so plainly and score it low instead of guessing generously.`
+    : `Listen to this recording of a learner trying to say: "${target}"
+${langNote}
+Give honest, specific pronunciation feedback based on what you actually hear in the audio — sounds that were unclear or mispronounced, whether stress and intonation sounded natural, anything a real listener would notice. Also give your own honest overall pronunciation score from 0 to 100 (how close it sounded to a natural, accurate pronunciation of the target) — this is your expert judgement as a listener, not a lab measurement, but still give a specific number rather than refusing to score it. If the recording is silent, too quiet, or unintelligible, say so plainly and score it low instead of guessing generously.`;
   const res = await geminiFetch(geminiLlmModel(), {
     contents: [
       {
@@ -654,9 +669,7 @@ export async function analysePronunciationAudio(
         parts: [
           { inline_data: { mime_type: base, data: base64FromBytes(audio) } },
           {
-            text: `Listen to this recording of a learner trying to say: "${target}"
-${langNote}
-Give honest, specific pronunciation feedback based on what you actually hear in the audio — sounds that were unclear or mispronounced, whether stress and intonation sounded natural, anything a real listener would notice. Also give your own honest overall pronunciation score from 0 to 100 (how close it sounded to a natural, accurate pronunciation of the target) — this is your expert judgement as a listener, not a lab measurement, but still give a specific number rather than refusing to score it. If the recording is silent, too quiet, or unintelligible, say so plainly and score it low instead of guessing generously.
+            text: `${task}
 JSON only: {"heard_clearly": true or false, "score": 0-100 integer, "feedback": "max 3 short sentences"}`,
           },
         ],

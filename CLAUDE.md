@@ -1489,6 +1489,52 @@ suất tự nhiên của xáo ngẫu nhiên, không phải lỗi hệ thống l�
 
 ---
 
+## 🔴 Pronunciation → "Nuốt âm & dạng rút gọn": Listen đọc câu đầy đủ thay vì dạng rút gọn + chấm theo dạng rút gọn (2026-09-29)
+
+Khách báo: câu "I don't know." / "I dunno." thì Listen phải đọc "I dunno", nhưng đang đọc "I don't know.".
+Mỗi item của phần này có `text` = câu đầy đủ, `pattern` = dạng rút gọn (dòng màu vàng). Listen và phần chấm
+trước đây luôn dùng `text` cho mọi phần nâng cao → **145/158 câu (92%) đọc dạng đầy đủ, sai mục đích bài**.
+13 câu "nghe đúng" chỉ vì dữ liệu ghi dạng rút gọn ở cả 2 dòng (thiếu dạng đầy đủ để so), và bài "'want a'
+vs 'want to'" ghi nhãn giải thích vào `pattern` ("want A coffee (noun)") thay vì câu để đọc.
+
+**Khách chọn Cách B** (chấm theo dạng rút gọn, không chỉ sửa phần nghe):
+- `src/routes/pronunciation.tsx`: riêng `skill === "reductions"`, câu luyện (= câu Listen đọc = câu được
+  chấm) là `pattern`; dòng phụ trong khung luyện hiện câu đầy đủ. Các phần nâng cao khác giữ nguyên vì
+  `pattern` của chúng là ký hiệu trọng âm/ngữ điệu, không phải câu để đọc.
+- `analysePronunciation` (`lily.functions.ts`): với bài `reductions`, chấp nhận `pattern` làm target và ghi
+  lại câu đầy đủ (`reducedFrom`); vẫn chấp nhận `text` như cũ (tab mở trước khi deploy). **So chữ theo cả 2
+  dạng, lấy kết quả tốt hơn** — vì nhận giọng ghi theo nghĩa chứ không theo âm ("I dunno" → "I don't know").
+  Khi có AI nghe trực tiếp thì ẩn danh sách "Clear/Needs improvement" theo chữ cho phần này (so chữ mâu
+  thuẫn với điểm AI nghe, xem test bên dưới).
+- `analysePronunciationAudio` (`ai-providers.server.ts`): tham số mới `reducedFrom` — prompt nói rõ đây là
+  dạng rút gọn của câu đầy đủ nào, chấm độ tự nhiên của cách nói rút gọn, và **đọc kỹ từng từ dạng đầy đủ
+  thì chấm thấp hơn rõ rệt** (dễ hiểu nhưng không phải mục tiêu bài). Prompt cho mọi phần khác giữ nguyên
+  từng chữ.
+- Dữ liệu (production + `scripts/seed/pronunciation-lessons/reductions.json`, để nạp lại seed không làm hỏng
+  lại): 13 câu thiếu dạng đầy đủ đã có dạng đầy đủ thật (vd "Give me that back." → "Gimme that back."), 2 câu
+  bài "'want a' vs 'want to'" đưa nhãn giải thích sang `note`. Sau sửa: 158 câu, 0 câu trùng 2 dòng.
+
+**Đã test thật trước khi deploy** — chạy đúng các hàm thật (`synthesise` → `transcribe` →
+`analysePronunciationAudio`) qua Docker bun với key production, dùng giọng AI thay người đọc:
+"I dunno" đọc rút gọn 95 điểm / đọc kỹ từng từ 45; "Whaddya wanna do?" 90 / 75; "Jeetyet?" 90 / 45. Xác nhận
+đúng lo ngại của khách: nhận giọng ghi "I dunno" thành "I don't know" (so chữ theo 2 dạng xử lý đúng), và
+"Jeetyet?" thành "jeat" (lý do ẩn danh sách từ theo chữ khi có AI nghe). Giọng AI đọc được cả dạng phiên âm
+mạnh như "Jeetyet?" (AI nghe xác nhận "blending into a smooth 'jeetyet'"), nhưng mới thử 3 câu — các câu
+phiên âm mạnh khác ("'Zhe answered...", "iddis", "Take idder leave it", "Ez far ez I kn tell") nên nghe thử
+trên web.
+
+---
+
+## 🟣 Mở thêm nội dung miễn phí (2026-09-30)
+
+Khách yêu cầu thêm phần free. Đổi trong `billing_plans.limits` của gói free (migration
+`0018_more_free_content.sql`, đã chạy production, kèm re-rank `is_free` y hệt `resyncContentFreeRanks`):
+Speaking Tests **3 đề free mỗi Part IELTS** (trước 1) + **3 đề free mỗi TOEFL và PTE** (trước 0);
+Pronunciation 44 âm **5 âm free** (trước 3). 8 phần nâng cao vốn đã 5 free/phần (không đổi). Không cần
+deploy code (số đọc từ DB, cache 2 phút); không có chữ "3 free" cứng trong giao diện.
+
+---
+
 ## ⛔ Còn thiếu / chưa làm (không phải lỗi, cần quyết định hoặc thêm thông tin)
 
 - **Dữ liệu người dùng thật từ Supabase Cloud** — cần connection string, chưa có.

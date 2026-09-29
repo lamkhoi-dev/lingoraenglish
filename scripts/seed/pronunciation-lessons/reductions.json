@@ -294,11 +294,11 @@
           "pattern": "Less go already!"
         },
         {
-          "text": "Gimme that back.",
+          "text": "Give me that back.",
           "pattern": "Gimme that back."
         },
         {
-          "text": "Y'all wanna come with?",
+          "text": "Do you all want to come with us?",
           "pattern": "Y'all wanna come with?"
         }
       ]
@@ -366,11 +366,11 @@
       "caution": "Extremely informal — friends/song lyrics only, never professional contexts.",
       "items": [
         {
-          "text": "I'ma head out now.",
+          "text": "I'm going to head out now.",
           "pattern": "I'ma head out now."
         },
         {
-          "text": "It's kinda like a sequel.",
+          "text": "It's kind of like a sequel.",
           "pattern": "It's kinda like a sequel."
         }
       ]
@@ -388,11 +388,11 @@
       "caution": "Casual spoken forms only.",
       "items": [
         {
-          "text": "Hey, how ya doin'?",
+          "text": "Hey, how are you doing?",
           "pattern": "Hey, how ya doin'?"
         },
         {
-          "text": "Good to see ya, man.",
+          "text": "Good to see you, man.",
           "pattern": "Good to see ya, man."
         }
       ]
@@ -411,15 +411,15 @@
       "caution": "Informal spoken only.",
       "items": [
         {
-          "text": "You oughta try this place.",
+          "text": "You ought to try this place.",
           "pattern": "You oughta try this place."
         },
         {
-          "text": "You don't hafta come if you don't want to.",
+          "text": "You don't have to come if you don't want to.",
           "pattern": "You don't hafta come if you don't want to."
         },
         {
-          "text": "I wantcha to meet someone.",
+          "text": "I want you to meet someone.",
           "pattern": "I wantcha to meet someone."
         }
       ]
@@ -481,11 +481,11 @@
       "caution": "Casual conversation only — use 'yes'/'no' in formal or exam contexts.",
       "items": [
         {
-          "text": "Yep, sounds good to me.",
+          "text": "Yes, that sounds good to me.",
           "pattern": "Yep, sounds good to me."
         },
         {
-          "text": "Nah, I'm good, thanks.",
+          "text": "No, I'm good, thanks.",
           "pattern": "Nah, I'm good, thanks."
         }
       ]
@@ -503,12 +503,14 @@
       "caution": "Informal spoken only.",
       "items": [
         {
-          "text": "I wanna coffee.",
-          "pattern": "want A coffee (noun)"
+          "text": "I want a coffee.",
+          "pattern": "I wanna coffee.",
+          "note": "'want a' + noun → wanna"
         },
         {
-          "text": "I wanna go home.",
-          "pattern": "want TO go (verb)"
+          "text": "I want to go home.",
+          "pattern": "I wanna go home.",
+          "note": "'want to' + verb → wanna"
         }
       ]
     },
@@ -546,11 +548,11 @@
       "caution": "Informal spoken only.",
       "items": [
         {
-          "text": "I did it just 'cause I wanted to.",
+          "text": "I did it just because I wanted to.",
           "pattern": "I did it just 'cause I wanted to."
         },
         {
-          "text": "We're gonna need more chairs.",
+          "text": "We're going to need more chairs.",
           "pattern": "We're gonna need more chairs."
         }
       ]

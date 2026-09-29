@@ -386,6 +386,10 @@ export const analysePronunciation = createServerFn({ method: "POST" })
   )
   .handler(async ({ data, context }) => {
     let target = data.target;
+    // Reductions only: the full sentence the practised casual form comes
+    // from ("I don't know." for "I dunno."). Set when target is an item's
+    // `pattern` (the reduced form) — see the lessonId branch below.
+    let reducedFrom: string | undefined;
     if (data.targetSound) {
       const index = findSoundIndex(data.targetSound);
       if (index < 0) throw new Error("Unknown sound.");
@@ -400,7 +404,7 @@ export const analysePronunciation = createServerFn({ method: "POST" })
     } else if (data.lessonId) {
       const lessonRows = await withAdmin((db) =>
         db
-          .select({ isFree: pronunciationLessons.isFree, items: pronunciationLessons.items })
+          .select({ isFree: pronunciationLessons.isFree, items: pronunciationLessons.items, skill: pronunciationLessons.skill })
           .from(pronunciationLessons)
           .where(and(eq(pronunciationLessons.id, data.lessonId!), eq(pronunciationLessons.status, "published")))
           .limit(1),
@@ -413,11 +417,32 @@ export const analysePronunciation = createServerFn({ method: "POST" })
         "pronunciation",
         "This example is part of Lingora English Premium. Upgrade to unlock the rest.",
       );
-      const items = Array.isArray(lesson.items) ? (lesson.items as { text?: unknown }[]) : [];
-      assertTextBelongs(
-        target,
-        items.map((item) => item.text).filter((text): text is string => typeof text === "string"),
-      );
+      const items = Array.isArray(lesson.items) ? (lesson.items as { text?: unknown; pattern?: unknown }[]) : [];
+      // Reductions: the learner practises the casual form, which lives in
+      // `pattern` ("I dunno.") — `text` is the full sentence ("I don't
+      // know."). Every other skill's `pattern` is a stress/pitch notation
+      // ("PHO-to-graph", "↗"), never something to say, so only this skill
+      // accepts it as a target. A full-form target is still accepted here
+      // too (a tab opened before this change still sends it) and is simply
+      // scored as the full sentence, like before.
+      const reduced =
+        lesson.skill === "reductions"
+          ? items.find(
+              (item) =>
+                typeof item.pattern === "string" &&
+                typeof item.text === "string" &&
+                sameText(item.pattern, target) &&
+                !sameText(item.pattern, item.text),
+            )
+          : undefined;
+      if (reduced) {
+        reducedFrom = reduced.text as string;
+      } else {
+        assertTextBelongs(
+          target,
+          items.map((item) => item.text).filter((text): text is string => typeof text === "string"),
+        );
+      }
     } else if (data.testId) {
       await assertSpeakingTestPrompt(context.userId, data.testId, target, "ielts");
     } else {
@@ -446,14 +471,27 @@ export const analysePronunciation = createServerFn({ method: "POST" })
           .replace(/[^a-z\s']/g, " ")
           .split(/\s+/)
           .filter(Boolean);
-      const targetWords = norm(target);
-      const saidWords = norm(data.transcript);
-      const said = new Set(saidWords);
-      const matched = targetWords.filter((w) => said.has(w));
-      const missed = targetWords.filter((w) => !said.has(w));
-      const textMatchAccuracy = targetWords.length
-        ? Math.round((matched.length / targetWords.length) * 100)
-        : null;
+      const said = new Set(norm(data.transcript));
+      const wordMatch = (text: string) => {
+        const words = norm(text);
+        const hit = words.filter((w) => said.has(w));
+        return {
+          matched: hit,
+          missed: words.filter((w) => !said.has(w)),
+          accuracy: words.length ? Math.round((hit.length / words.length) * 100) : null,
+        };
+      };
+      // Speech-to-text tends to write what a reduced form MEANS, not how it
+      // sounded ("I dunno" → "I don't know"), so for Reductions the words
+      // are matched against both forms and the better match wins. This part
+      // only checks the right words were said; how reduced they sounded is
+      // judged by the audio listener below, which is told both forms.
+      let words = wordMatch(target);
+      if (reducedFrom) {
+        const full = wordMatch(reducedFrom);
+        if ((full.accuracy ?? 0) > (words.accuracy ?? 0)) words = full;
+      }
+      const { matched, missed, accuracy: textMatchAccuracy } = words;
 
       const audioFeedback = data.audioBase64
         ? await analysePronunciationAudio(
@@ -461,6 +499,7 @@ export const analysePronunciation = createServerFn({ method: "POST" })
             data.mimeType || "audio/wav",
             target,
             langNote(data.lang),
+            reducedFrom,
           ).catch(() => null)
         : null;
 
@@ -482,7 +521,7 @@ JSON only: {"feedback":"max 3 short sentences"}`,
             },
             {
               role: "user",
-              content: `Target${data.targetSound ? ` (focus sound ${data.targetSound})` : ""}: ${target}\nRead back as: ${data.transcript || "(nothing recognised)"}\nWords not recognised: ${missed.join(", ") || "none"}`,
+              content: `Target${data.targetSound ? ` (focus sound ${data.targetSound})` : ""}${reducedFrom ? ` (casual reduced form of "${reducedFrom}" — the goal is the relaxed, reduced pronunciation)` : ""}: ${target}\nRead back as: ${data.transcript || "(nothing recognised)"}\nWords not recognised: ${missed.join(", ") || "none"}`,
             },
           ],
           250,
@@ -497,14 +536,22 @@ JSON only: {"feedback":"max 3 short sentences"}`,
       // text-match % when there's no recording, or the audio call failed.
       const wordAccuracy = audioFeedback?.score ?? textMatchAccuracy;
 
+      // Reductions with the audio listener available: the per-word lists
+      // compare an informal spelling against what speech-to-text wrote, and
+      // STT spells the meaning, not the sound — a well-reduced "Jeetyet?"
+      // came back as "jeat" in testing, which would list "jeetyet" under
+      // "Needs improvement" next to a listener score of 90. The listener's
+      // feedback is the authority there, so no contradicting word lists.
+      const showWordLists = !(reducedFrom && audioFeedback);
+
       const result: PronunciationResult = {
         acoustic: false,
         heardAudio: Boolean(audioFeedback),
         demo: true,
         wordAccuracy,
         readBack: data.transcript,
-        matched,
-        missed,
+        matched: showWordLists ? matched : [],
+        missed: showWordLists ? missed : [],
         feedback,
       };
       return result;

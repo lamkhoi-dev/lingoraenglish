@@ -354,12 +354,17 @@ function PronunciationPage() {
     return [...scored.slice(0, 2), ...untouched.slice(0, 2)].slice(0, 3);
   }, [progress.bySkill]);
 
+  // Reductions: the point is saying the casual form, which lives in
+  // `pattern` ("I dunno.") — `text` is the full sentence ("I don't know.").
+  // So that's what Listen plays and what the recording is scored against
+  // (analysePronunciation accepts a reductions item's pattern as target).
+  // Every other skill's `pattern` is stress/pitch notation, not a sentence.
+  const reducedForm = skill === "reductions" && item?.pattern && item.pattern !== item.text ? item.pattern : null;
+
   const practiceTarget =
     skill === "sounds"
       ? (wordTarget ?? sound?.words[0]?.word ?? sound?.sentences[0] ?? "")
-      : item?.pattern
-        ? item.text
-        : (item?.text ?? "");
+      : (reducedForm ?? item?.text ?? "");
 
   // Only set when practiceTarget is one of this sound's own example words (not
   // a sentence or minimal pair already selected) — Listen then models
@@ -988,7 +993,7 @@ function PronunciationPage() {
               wordSentence={wordSentence}
               mode={skill}
               lessonId={skill === "sounds" ? undefined : (lesson?.id ?? undefined)}
-              pattern={skill === "sounds" ? undefined : (item?.pattern ?? undefined)}
+              pattern={skill === "sounds" ? undefined : reducedForm ? item?.text : (item?.pattern ?? undefined)}
               accentLabel={skill === "sounds" ? accentLabel : lesson?.accent === "uk" ? "British English" : "American English"}
               initialMastered={skill === "sounds" ? progress.masteredSounds.has(accentSymbol) : undefined}
               onSoundMastered={(soundKey, mastered) =>
