@@ -84,8 +84,8 @@ del %TAR_FILE% 2>nul
 del %GZ_FILE% 2>nul
 
 echo.
-echo ==== XONG. Dang xem log container (Ctrl+C de thoat, container van chay binh thuong) ====
-ssh %SSH_OPTS% -i "%SSH_KEY%" %VPS_USER%@%VPS_HOST% "cd %REMOTE_DIR% && docker compose logs -f app"
+echo ==== XONG. Dang xem log container ====
+ssh %SSH_OPTS% -i "%SSH_KEY%" %VPS_USER%@%VPS_HOST% "cd %REMOTE_DIR% && docker compose logs --tail=50 app"
 
 rem Neu co migration DB moi (file .sql moi trong src\db\schema\), chay migrate.bat
 rem TRUOC khi chay deploy.bat nay.
