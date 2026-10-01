@@ -1533,6 +1533,31 @@ Speaking Tests **3 đề free mỗi Part IELTS** (trước 1) + **3 đề free m
 Pronunciation 44 âm **5 âm free** (trước 3). 8 phần nâng cao vốn đã 5 free/phần (không đổi). Không cần
 deploy code (số đọc từ DB, cache 2 phút); không có chữ "3 free" cứng trong giao diện.
 
+**Cập nhật cùng ngày**: TOEFL/PTE tính **3 đề free cho TỪNG DẠNG BÀI** (TOEFL: Listen & Repeat, Interview,
+Independent Speaking, Integrated Summary; PTE: Read Aloud, Repeat Sentence, Describe Image, Retell Lecture,
+Short Answer — 9 dạng × 3 = 27 đề free) thay vì 3 đề/kỳ thi. Sửa `resyncContentFreeRanks` (partition by
+exam, task_type) + migration `0019_free_per_task_type.sql` (đã chạy) + đã deploy. Khoá
+`speaking_tests_free_toefl_pte` giờ nghĩa là "số đề free mỗi dạng bài". Chữ mô tả trên thẻ chọn kỳ thi
+/speaking-tests giờ nằm 1 hàng (truncate).
+
+---
+
+## 🟣 Pronunciation 8 phần nâng cao: hạ tầng dịch bài học theo ngôn ngữ học viên (2026-10-01)
+
+Khách: phần bài học (giải thích/points/caution/ghi chú từng câu) của Word stress trở đi chỉ có tiếng Anh,
+học viên khó hiểu. Làm hạ tầng + giao AI khác dịch 53 ngôn ngữ (khách đã quen quy trình này).
+- Bảng mới `pronunciation_lesson_texts (locale, text_key, value)` (migration `0020`, đã chạy, có GRANT thủ
+  công). `text_key` = `<lessonId>|explain`, `|point|<n>`, `|caution`, `|note|<n>`. Tiếng Anh vẫn nằm ở
+  `pronunciation_lessons`, thiếu dòng dịch thì **tự hiện tiếng Anh**. Tiêu đề bài + câu luyện KHÔNG dịch.
+- `getSkillLessonsCatalogue({locale})` ghép bản dịch phía server (bài khoá vẫn không trả chữ nào);
+  `pronunciation.tsx` truyền `locale` và tải lại khi đổi ngôn ngữ. Đã deploy.
+- Nguồn để dịch: `scripts/seed/pronunciation-translations/source-en-01..05.json` (1.170 đoạn, ~66k ký tự);
+  AI kia ghi `<code>-NN.json` (`{key,text}`). Nạp: `node scripts/load-pronunciation-translations.mjs
+  [mã ngôn ngữ...]` — kiểm tra đủ key/thứ tự, không rỗng, còn nguyên từ tiếng Anh cần giữ ("..." /…/ [..]
+  CHỮ HOA); ngôn ngữ nào lỗi thì bỏ qua cả ngôn ngữ đó; ra `load.sql` rồi chạy bằng psql như
+  `tour-translations.sql`. **Chưa có bản dịch nào được nạp** (chờ file từ AI kia). Lưu ý: nếu admin sửa/thêm
+  bài ở `/admin` thì key theo id bài + vị trí → sửa nội dung tiếng Anh sẽ làm bản dịch cũ lệch, cần dịch lại.
+
 ---
 
 ## ⛔ Còn thiếu / chưa làm (không phải lỗi, cần quyết định hoặc thêm thông tin)

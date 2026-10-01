@@ -1,0 +1,1002 @@
+[
+ {
+  "key": "db752a0e-b244-4c65-a10b-aefa648bc63c|point|1",
+  "en": "sorry, I meant..."
+ },
+ {
+  "key": "db752a0e-b244-4c65-a10b-aefa648bc63c|point|2",
+  "en": "or rather..."
+ },
+ {
+  "key": "7a41cda7-858c-41d7-8384-1141529b0466|explain",
+  "en": "Fluent speakers keep talking by describing around a missing word instead of stopping."
+ },
+ {
+  "key": "0d7e8d8c-7203-488a-b183-1bb5ed624501|explain",
+  "en": "In a 2-minute IELTS-style answer, keep adding ideas instead of stopping once you run out of a script."
+ },
+ {
+  "key": "0d7e8d8c-7203-488a-b183-1bb5ed624501|point|0",
+  "en": "Add an example."
+ },
+ {
+  "key": "0d7e8d8c-7203-488a-b183-1bb5ed624501|point|1",
+  "en": "Add a reason."
+ },
+ {
+  "key": "0d7e8d8c-7203-488a-b183-1bb5ed624501|point|2",
+  "en": "Add a comparison."
+ },
+ {
+  "key": "35c85af6-aff3-46cb-a77c-9c22b8003511|explain",
+  "en": "Translating word by word in your head causes hesitation. Practise whole natural chunks instead of single words."
+ },
+ {
+  "key": "971f1b42-4d9d-4faa-bf54-da7bc6391ad0|explain",
+  "en": "A small grammar mistake doesn't need a full stop — fluent speakers just keep going."
+ },
+ {
+  "key": "a5405e28-a2c0-4349-b6c7-8ca3051f4505|explain",
+  "en": "When surprised by a question, a short buying-time phrase keeps you fluent while you think."
+ },
+ {
+  "key": "8f64bab9-0838-4fb0-9c7f-33d36748148d|explain",
+  "en": "A brief, silent pause at a natural chunk boundary sounds confident; a pause mid-chunk filled with 'um' sounds hesitant."
+ },
+ {
+  "key": "8f64bab9-0838-4fb0-9c7f-33d36748148d|point|0",
+  "en": "Pause between chunks, not inside them."
+ },
+ {
+  "key": "8f64bab9-0838-4fb0-9c7f-33d36748148d|point|1",
+  "en": "A silent pause is often better than a filler."
+ },
+ {
+  "key": "b94ff27a-1c48-4558-a346-15234c682438|explain",
+  "en": "Signposting phrases make a long answer easy to follow and sound organized, common in IELTS Part 3."
+ },
+ {
+  "key": "b94ff27a-1c48-4558-a346-15234c682438|point|0",
+  "en": "First of all... / Another point is... / Finally..."
+ },
+ {
+  "key": "dff34a8a-f109-468c-a923-a93ee10558e6|explain",
+  "en": "Keep a long answer going by adding a reason, then an example, then a result — never just stop after one sentence."
+ },
+ {
+  "key": "049bb21c-0263-448d-a08d-5c8189c4616e|explain",
+  "en": "Smooth transitions keep the flow going when moving from one idea to a related one."
+ },
+ {
+  "key": "049bb21c-0263-448d-a08d-5c8189c4616e|point|0",
+  "en": "Speaking of which... / That reminds me... / On a related note..."
+ },
+ {
+  "key": "b8603bdd-9ed6-42ef-a1f3-5a6e08e120a6|explain",
+  "en": "Practise the same sentence at two speeds — slow and clear is fine, but avoid a flat, robotic pace either way."
+ },
+ {
+  "key": "e8774f99-52e2-470d-bd0d-c07bcb28e116|explain",
+  "en": "Picture description needs constant forward momentum — keep noticing and adding new details instead of stalling."
+ },
+ {
+  "key": "a4e1f678-16ba-42c1-ad64-9445be2de237|explain",
+  "en": "Summarizing fluently uses a short lead-in phrase, then the compressed main point."
+ },
+ {
+  "key": "a4e1f678-16ba-42c1-ad64-9445be2de237|point|0",
+  "en": "So basically... / In short... / Long story short..."
+ },
+ {
+  "key": "e9cf6ce6-42b8-4676-b357-54b9059a05c1|explain",
+  "en": "When asked for an instant opinion, a short buy-time phrase plus a direct answer keeps you fluent."
+ },
+ {
+  "key": "62602981-a0a7-4fc4-8c09-f01b044868f4|explain",
+  "en": "Fast, natural back-and-forth conversation needs quick, confident reactions without long pauses."
+ },
+ {
+  "key": "e3df5ee8-c27d-4eab-8850-d94f647a759a|explain",
+  "en": "Jokes and short stories need very smooth timing — a bad pause right before the punchline kills the effect."
+ },
+ {
+  "key": "25566e8f-88da-4152-ad4b-0a90ea126b44|explain",
+  "en": "Explaining how to do something needs steady forward momentum from step to step."
+ },
+ {
+  "key": "532856ad-5a8d-4500-a25f-c1d79e72c85b|explain",
+  "en": "More natural fixed chunks to use as whole units instead of building them word by word."
+ },
+ {
+  "key": "67c43550-596e-40f7-bf49-48bbe8266ea1|explain",
+  "en": "When interrupted, a fluent speaker briefly yields, then smoothly picks the thread back up."
+ },
+ {
+  "key": "5361b5a0-11d4-4d25-ac06-73bee31c7d28|explain",
+  "en": "Quick advice uses a short lead-in and a direct suggestion, without over-thinking."
+ },
+ {
+  "key": "5361b5a0-11d4-4d25-ac06-73bee31c7d28|point|0",
+  "en": "If I were you... / You might want to... / Why not just..."
+ },
+ {
+  "key": "ade9279c-5b43-4d8d-b31d-88e6e5f93e69|explain",
+  "en": "Empathetic responses flow naturally without long pauses, showing you're genuinely listening."
+ },
+ {
+  "key": "a950e5b5-002a-4f13-a39b-c5aae63cfadb|explain",
+  "en": "Hypothetical discussions ('what if...') need smooth continuation through the imagined consequences."
+ },
+ {
+  "key": "9ef8edbb-4966-44f5-b215-7c2c0c53c2c4|explain",
+  "en": "Responding to a counter-argument fluently starts by briefly acknowledging it, then moving straight to your point."
+ },
+ {
+  "key": "bd944be5-f0f7-4c2e-be5c-0fac16a93676|explain",
+  "en": "A well-practised self-introduction should flow as one smooth unit, not separate rehearsed facts."
+ },
+ {
+  "key": "36865e89-ca0a-4785-97cd-9e44d4d08065|explain",
+  "en": "A good anecdote flows through setup, event and reaction without breaking momentum."
+ },
+ {
+  "key": "24191ec7-a47b-439b-8bf4-9ca9ea0e39be|explain",
+  "en": "Follow-up questions should be answered immediately by building on what you already said, not restarting from scratch."
+ },
+ {
+  "key": "d6e7690d-48b3-404d-a639-9df68211910c|explain",
+  "en": "Feedback flows better with a soft opener, the point, then a positive close — all in one smooth run."
+ },
+ {
+  "key": "d6e7690d-48b3-404d-a639-9df68211910c|point|0",
+  "en": "One thing I noticed... / Something to think about... / Overall though..."
+ },
+ {
+  "key": "38a0a32b-2083-4460-b05c-4bbae0960a78|explain",
+  "en": "Negotiation needs quick, confident responses without long gaps that make you seem unsure."
+ },
+ {
+  "key": "b50b726f-fdb5-483c-b7e2-f6653b16c7a6|explain",
+  "en": "Describing change over time flows through a sequence of stages without stalling."
+ },
+ {
+  "key": "257b7e11-af2c-4f30-a5e7-207e5b533154|explain",
+  "en": "Weighing options fluently moves smoothly from one option to the other, then lands on a decision."
+ },
+ {
+  "key": "fee81e47-daf1-45d4-9fa4-8f1b81d20e07|explain",
+  "en": "Frustration can still sound fluent and controlled rather than broken and hesitant."
+ },
+ {
+  "key": "ebd4a308-8123-4baf-b2e7-8c3f371d9784|explain",
+  "en": "A serious apology flows through acknowledgement, explanation and a fix, without awkward gaps."
+ },
+ {
+  "key": "2a047363-b3c6-4f1f-8e0a-1e21b1386d6a|explain",
+  "en": "Presenting numbers fluently keeps the story flowing, not just reading digits mechanically."
+ },
+ {
+  "key": "22404535-dad6-4f6b-840a-193c1e5c4dae|explain",
+  "en": "A short, natural phrase can smoothly break an awkward silence instead of an uncomfortable pause."
+ },
+ {
+  "key": "22404535-dad6-4f6b-840a-193c1e5c4dae|point|0",
+  "en": "Anyway... / So... / Well, this is nice."
+ },
+ {
+  "key": "ada45634-d338-4227-9142-0565f2a7172e|explain",
+  "en": "Natural small talk flows from one topic to the next through a light connector."
+ },
+ {
+  "key": "1af3fb26-5d60-409f-964d-782ff715819a|explain",
+  "en": "Teaching fluently means explaining, then immediately reinforcing with an example, without a gap."
+ },
+ {
+  "key": "2e2ddbcd-495f-4de2-aea5-63076695b77e|explain",
+  "en": "Talking about hopes flows smoothly through the wish and the reason behind it."
+ },
+ {
+  "key": "d7a585d4-3af6-44eb-804a-83c356e2c891|explain",
+  "en": "Recommending something fluently moves straight from the suggestion into why it's good."
+ },
+ {
+  "key": "b5db9e2f-9e3f-4c0b-82de-2fad228660f2|explain",
+  "en": "Sharing exciting news flows with energy and keeps building instead of trailing off."
+ },
+ {
+  "key": "def8cf4d-1936-4d99-9d75-6c9034faf04b|explain",
+  "en": "Describing a goal flows from the goal itself into the plan to achieve it."
+ },
+ {
+  "key": "2077c81a-eaa5-4c1b-993c-b1354ca1b45e|explain",
+  "en": "Justifying a decision flows through the reasoning without sounding defensive or hesitant."
+ },
+ {
+  "key": "ae191f3d-d5f4-4e78-8ab2-164986c30c0e|explain",
+  "en": "Expressing regret fluently moves through the wish and the reason without dwelling awkwardly."
+ },
+ {
+  "key": "fd30b741-f2f0-4d9a-b72b-6cf6290bac9e|explain",
+  "en": "A smooth close wraps up naturally instead of just abruptly stopping."
+ },
+ {
+  "key": "372d7c2d-e36e-4de3-8791-d8cdd420c921|explain",
+  "en": "After a brief distraction, a fluent speaker picks the exact thread back up without losing momentum."
+ },
+ {
+  "key": "372d7c2d-e36e-4de3-8791-d8cdd420c921|point|0",
+  "en": "Anyway, back to what I was saying..."
+ },
+ {
+  "key": "fc936f45-6924-45a4-84f5-c9ffa1250b0a|explain",
+  "en": "A fluent speaker never just says 'yes' or 'no' alone — they immediately add a reason or detail."
+ },
+ {
+  "key": "aa169a4b-cd27-4076-9a64-f514c49feede|explain",
+  "en": "When a conversation suddenly shifts topic, a fluent speaker adapts instantly instead of freezing."
+ },
+ {
+  "key": "deed635c-0ec9-4cc3-bb4c-55d89efa93af|explain",
+  "en": "Genuine praise flows warmly and specifically, not just a flat single word."
+ },
+ {
+  "key": "41b6318b-f69f-4105-afa8-872e73f004f3|explain",
+  "en": "As a service agent, a fluent resolution moves smoothly from empathy to action, without sounding scripted."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|explain",
+  "en": "Master fluency across 50 targeted drills. Listen closely to the AI model, repeat, and record your voice to receive detailed real-time pronunciation scoring and feedback."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|point|0",
+  "en": "Focus on the rhythm, stress, and flow highlighted in each drill."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|point|1",
+  "en": "Listen to the reference model audio before each recording attempt."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|point|2",
+  "en": "Review your AI score and phoneme-level feedback to pinpoint areas for improvement."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|caution",
+  "en": "Do not rush through the drills; prioritize clarity, natural cadence, and accurate articulation."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|0",
+  "en": "Speak without hesitations between 'perfection' and 'and much more'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|1",
+  "en": "Keep vocal tone resonant throughout the entire sentence."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|2",
+  "en": "Link 'delivers' cleanly into 'far better results'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|3",
+  "en": "Contrast 'not from' and 'but from' fluidly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|4",
+  "en": "Glide through the coordinate nouns without stopping."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|5",
+  "en": "Deliver 'is often the inner voice' as one breath unit."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|6",
+  "en": "Connect 'internalizes the' smoothly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|7",
+  "en": "Transition effortlessly across the colon."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|8",
+  "en": "Keep pitch moving forward without faltering."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|9",
+  "en": "Flawless glide between 'coffee' and 'or presenting'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|10",
+  "en": "Maintain steady tempo without rushing."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|11",
+  "en": "Pronounce 'lightning speed' with deliberate crispness."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|12",
+  "en": "Practice breathing before 'you give your listeners'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|13",
+  "en": "Link 'just as importantly' effortlessly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|14",
+  "en": "Connect 'guide your breath' without any break."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|15",
+  "en": "Seamless linking across 'forces you to adapt'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|16",
+  "en": "Articulate 'wonderfully unexpected perspectives' smoothly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|17",
+  "en": "Deliver 'living bridge that allows' in a single wave."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|18",
+  "en": "Keep the cadence steady from start to finish."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|19",
+  "en": "Smoothly connect 'spontaneous conversations'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|20",
+  "en": "Pronounce 'cross-cultural communication' with clean transitions."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|21",
+  "en": "Glide across the three coordinate qualities."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|22",
+  "en": "Smooth linking across 'unnecessary misunderstandings'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|23",
+  "en": "Maintain professional poise across both halves."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|24",
+  "en": "Connect 'gentle touch and a genuine desire'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|25",
+  "en": "Articulate 'complex claims objectively' with clarity."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|26",
+  "en": "Link 'how we learn, work, and create'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|27",
+  "en": "Smooth triad across the coordinate objects."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|28",
+  "en": "Glide through 'sustainable strategies'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|29",
+  "en": "Deliver 'cornerstones of any lifelong journey' smoothly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|30",
+  "en": "Gentle, relaxing tempo matching the mood."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|31",
+  "en": "Sustain clear breath across the final list."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|32",
+  "en": "Link 'restore mental clarity' seamlessly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|33",
+  "en": "Glide effortlessly through 'mindful and rewarding way'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|34",
+  "en": "Pronounce 'optimistic and resilient' with fluid grace."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|35",
+  "en": "Sustain a rich, imaginative tone throughout."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|36",
+  "en": "Smooth transitions across musical terms."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|37",
+  "en": "Deliver 'sheer imagination into enduring monuments' cleanly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|38",
+  "en": "Link 'fleeting split second' without hesitation."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|39",
+  "en": "Deliver 'universal human spirit' with heartfelt resonance."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|40",
+  "en": "Smooth connection through 'creative and unexpected workarounds'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|41",
+  "en": "Emphasize 'how you conduct yourself' fluidly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|42",
+  "en": "Maintain forward momentum toward 'transformation'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|43",
+  "en": "Connect 'repetitive daily fundamentals' smoothly."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|44",
+  "en": "Deliver with calm conviction and continuous flow."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|45",
+  "en": "Flawless glide through 'transforms your self-perception forever'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|46",
+  "en": "Deliver 'carry an authenticity' with grounded resonance."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|47",
+  "en": "Glide smoothly across 'connect, inspire, and share'."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|48",
+  "en": "Speak with genuine warmth and unwavering confidence."
+ },
+ {
+  "key": "a51ab9f4-0b01-4e12-b103-ac58ee67570b|note|49",
+  "en": "End on a high, encouraging, and decisive note."
+ },
+ {
+  "key": "d8b2a3f3-52d8-4375-999a-0e102b1c8546|explain",
+  "en": "Your pitch drops at the end. It sounds finished, certain and confident."
+ },
+ {
+  "key": "d8b2a3f3-52d8-4375-999a-0e102b1c8546|point|0",
+  "en": "Statements"
+ },
+ {
+  "key": "d8b2a3f3-52d8-4375-999a-0e102b1c8546|point|1",
+  "en": "WH- questions"
+ },
+ {
+  "key": "d8b2a3f3-52d8-4375-999a-0e102b1c8546|point|2",
+  "en": "Commands"
+ },
+ {
+  "key": "d8b2a3f3-52d8-4375-999a-0e102b1c8546|point|3",
+  "en": "Completed thoughts"
+ },
+ {
+  "key": "21d997f4-bb75-4ba8-9f0b-05a41481e06f|explain",
+  "en": "Your pitch goes up at the end. It sounds like a question, a check or an unfinished thought."
+ },
+ {
+  "key": "21d997f4-bb75-4ba8-9f0b-05a41481e06f|point|0",
+  "en": "Yes/no questions"
+ },
+ {
+  "key": "21d997f4-bb75-4ba8-9f0b-05a41481e06f|point|1",
+  "en": "Checking information"
+ },
+ {
+  "key": "21d997f4-bb75-4ba8-9f0b-05a41481e06f|point|2",
+  "en": "Surprise"
+ },
+ {
+  "key": "21d997f4-bb75-4ba8-9f0b-05a41481e06f|point|3",
+  "en": "Lists before the last item"
+ },
+ {
+  "key": "f6cb4c4e-6528-408e-8cca-f39eb9397bc9|explain",
+  "en": "These two patterns carry attitude: surprise, doubt, politeness or a hidden 'but'."
+ },
+ {
+  "key": "f6cb4c4e-6528-408e-8cca-f39eb9397bc9|point|0",
+  "en": "Rise-fall ↗↘ = strong feeling, surprise."
+ },
+ {
+  "key": "f6cb4c4e-6528-408e-8cca-f39eb9397bc9|point|1",
+  "en": "Fall-rise ↘↗ = doubt, politeness, 'yes, but…'"
+ },
+ {
+  "key": "f6cb4c4e-6528-408e-8cca-f39eb9397bc9|note|0",
+  "en": "Rise-fall: real surprise."
+ },
+ {
+  "key": "f6cb4c4e-6528-408e-8cca-f39eb9397bc9|note|2",
+  "en": "Fall-rise: I am not convinced."
+ },
+ {
+  "key": "f6cb4c4e-6528-408e-8cca-f39eb9397bc9|note|3",
+  "en": "Fall-rise leaves it open."
+ },
+ {
+  "key": "1a54667d-f770-4e30-8da2-d4586fa8dbc2|explain",
+  "en": "The same tag question can mean two different things depending on whether your pitch rises or falls at the end."
+ },
+ {
+  "key": "1a54667d-f770-4e30-8da2-d4586fa8dbc2|point|0",
+  "en": "Falling tag = I'm almost sure, just confirming."
+ },
+ {
+  "key": "1a54667d-f770-4e30-8da2-d4586fa8dbc2|point|1",
+  "en": "Rising tag = I'm genuinely not sure, really asking."
+ },
+ {
+  "key": "1a54667d-f770-4e30-8da2-d4586fa8dbc2|note|0",
+  "en": "I'm sure — just making conversation."
+ },
+ {
+  "key": "1a54667d-f770-4e30-8da2-d4586fa8dbc2|note|1",
+  "en": "I'm genuinely unsure — please confirm."
+ },
+ {
+  "key": "1a54667d-f770-4e30-8da2-d4586fa8dbc2|note|2",
+  "en": "Confirming what I already believe."
+ },
+ {
+  "key": "b61fb9da-1cd2-4667-a553-d7b816bb613d|explain",
+  "en": "'Or' questions change meaning completely depending on the final pitch movement."
+ },
+ {
+  "key": "b61fb9da-1cd2-4667-a553-d7b816bb613d|point|0",
+  "en": "Rising on the last option = yes/no question about both together."
+ },
+ {
+  "key": "b61fb9da-1cd2-4667-a553-d7b816bb613d|point|1",
+  "en": "Falling on the last option = choose one of the two."
+ },
+ {
+  "key": "b61fb9da-1cd2-4667-a553-d7b816bb613d|note|0",
+  "en": "Choose one: tea, or coffee."
+ },
+ {
+  "key": "b61fb9da-1cd2-4667-a553-d7b816bb613d|note|1",
+  "en": "Asks: do you want a drink at all (either one)?"
+ },
+ {
+  "key": "771afbcf-0fd4-45ea-be14-cdfba95b06b2|explain",
+  "en": "Exclamations use a big pitch jump to show strong feeling — surprise, excitement or admiration."
+ },
+ {
+  "key": "61e0a2d7-c26a-43f3-995b-3854c38e98e7|explain",
+  "en": "Every item in a list rises except the last one, which falls to show the list is finished."
+ },
+ {
+  "key": "2ceba196-18b1-40b7-a81f-d0783aca9e32|explain",
+  "en": "Repeating part of what someone said, with a sharp rise, shows surprise or disbelief."
+ },
+ {
+  "key": "bf93cf91-4d94-4943-8263-ea5784fc82d4|explain",
+  "en": "A gentle fall-rise on a request sounds more polite and less like a demand."
+ },
+ {
+  "key": "d93b858f-c04f-45c2-a4c7-913dad79d3bd|explain",
+  "en": "Offering two or more options in a sentence uses rise-then-fall, just like a two-item list."
+ },
+ {
+  "key": "bb111951-df59-41cd-9239-1a96c8acb739|explain",
+  "en": "A rising or level pitch on a statement (instead of falling) signals you're not fully sure."
+ },
+ {
+  "key": "8ed0b7a3-0310-4524-8978-28bf24f426d4|explain",
+  "en": "A warm, falling intonation on greetings sounds friendly and confident."
+ },
+ {
+  "key": "8ed0b7a3-0310-4524-8978-28bf24f426d4|note|2",
+  "en": "Rising here sounds casual and friendly, not like a real question."
+ },
+ {
+  "key": "17795424-45f6-4245-a8fc-1041b7670b24|explain",
+  "en": "Sarcastic tone usually exaggerates the pitch and stretches the stressed word longer than normal."
+ },
+ {
+  "key": "17795424-45f6-4245-a8fc-1041b7670b24|note|0",
+  "en": "The word 'great' is stretched and falls hard — the opposite of sincere."
+ },
+ {
+  "key": "a65b60cd-9099-42db-b0d7-ab390c29daad|explain",
+  "en": "A wide pitch range signals good news; a narrower, lower range signals bad news."
+ },
+ {
+  "key": "de821229-6565-4b9f-8e91-27def336723c|explain",
+  "en": "A long spoken answer should still fall clearly at the very end of each main idea, even with several sentences."
+ },
+ {
+  "key": "e43a620d-2c11-48f3-b827-539fc2e657db|explain",
+  "en": "A statement with rising intonation can become a genuine question without changing the word order at all."
+ },
+ {
+  "key": "66bb4898-4ebb-405e-b3f3-df403749f81f|explain",
+  "en": "Each group of digits rises slightly except the very last group, which falls to show you've finished."
+ },
+ {
+  "key": "483a186d-a749-4d78-b785-23c27e510183|explain",
+  "en": "Warnings often use a sharp rise-fall on the danger word to grab attention immediately."
+ },
+ {
+  "key": "22094701-e900-4c52-b02d-5c104a94a50d|explain",
+  "en": "A calm, gently falling pitch with a soft final tone sounds comforting and reassuring."
+ },
+ {
+  "key": "22094701-e900-4c52-b02d-5c104a94a50d|note|0",
+  "en": "Soft, gentle fall — not sharp."
+ },
+ {
+  "key": "7ca4d111-06bc-4bf9-880c-48a245117a94|explain",
+  "en": "Genuine compliments use a warm rise-fall to sound sincere rather than flat or sarcastic."
+ },
+ {
+  "key": "833150dd-4c9c-40df-89d9-f46a91d3c23a|explain",
+  "en": "Ending a conversation politely uses a gentle, falling, friendly tone."
+ },
+ {
+  "key": "1125f5dc-07ab-40c3-9d0c-94de10df95db|explain",
+  "en": "Negotiating uses fall-rise a lot — firm but leaving room for discussion."
+ },
+ {
+  "key": "113192b9-b9a4-453c-993b-550b2098a622|explain",
+  "en": "Teaching intonation rises slightly at the end of each step to show 'more is coming' and falls on the last step."
+ },
+ {
+  "key": "031d0cd6-002a-4b5c-9c8c-b3e1b63bf16b|explain",
+  "en": "Identical words can be a plain statement or a real question — only the pitch tells you which."
+ },
+ {
+  "key": "e07b4d0f-78b7-4e98-853d-0078f12037d6|explain",
+  "en": "Sincere apologies fall gently and slowly — a flat or fast fall can sound insincere."
+ },
+ {
+  "key": "caac7de8-ff7d-47e9-84a1-ec48ce42a729|explain",
+  "en": "The exact same words can sound excited or bored depending only on pitch range and speed."
+ },
+ {
+  "key": "1236a923-52ec-4e0b-8c44-4ad186b69efa|explain",
+  "en": "Formal announcements use clear, wide falls on each main point to sound authoritative and easy to follow."
+ },
+ {
+  "key": "48e2cc38-e74f-4358-ba9f-e56867355c2d|explain",
+  "en": "A slight rise or level pitch in the middle of a sentence signals 'I'm not finished yet.'"
+ },
+ {
+  "key": "aec48675-9ce0-4ea2-bc7f-e543311934b2|explain",
+  "en": "Checking understanding uses a rising tag or a rising echo to invite confirmation."
+ },
+ {
+  "key": "fea58397-fa95-430b-acf3-44c0d7513cc9|explain",
+  "en": "Offers of help usually rise gently, sounding open and inviting rather than pushy."
+ },
+ {
+  "key": "380e16af-717c-4359-bbd3-7d2c9c2f1800|explain",
+  "en": "Disappointment often uses a falling pitch that starts lower than usual and drops further, sounding flat and deflated."
+ },
+ {
+  "key": "5434b641-feca-4ff9-b879-8a85583537f8|explain",
+  "en": "Instructions fall clearly at the end of each command so the listener knows exactly when one instruction ends."
+ },
+ {
+  "key": "70128c59-987e-4308-9d04-157b170402c9|explain",
+  "en": "The pitch rises and the pace quickens as a story builds tension, then falls sharply at the climax."
+ },
+ {
+  "key": "a1dbe9e2-30b9-4200-b5be-b391aa73ac53|explain",
+  "en": "Confusion often uses a rising, questioning tone even on statements, with a slight pause before."
+ },
+ {
+  "key": "74a2b1e1-e5b9-4f7e-9a4e-6cd528650de3|explain",
+  "en": "Disagreeing politely often starts with a fall-rise to soften it before the falling main point."
+ },
+ {
+  "key": "c6d9a5ef-ff56-4314-82d5-811729cde753|explain",
+  "en": "A formal, careful list uses clear rises on each item; a casual list runs the items together more."
+ },
+ {
+  "key": "372b4c0d-1f3e-498c-9aed-625c576f0f06|explain",
+  "en": "A gentle fall-rise softens a correction so it doesn't sound like an attack."
+ },
+ {
+  "key": "1bd78076-c843-47ec-be94-302e0679da49|explain",
+  "en": "A toast uses a warm, rising build-up followed by a strong, confident fall on the final wish."
+ },
+ {
+  "key": "04db3d50-6566-4b5d-85a1-e744f1b50f0b|explain",
+  "en": "Relief often starts high and falls with a long, relaxed glide, almost like a sigh."
+ },
+ {
+  "key": "ee3a885d-ca51-49d5-b4a8-99807e160028|explain",
+  "en": "A formal introduction falls in a measured, even way; a casual one is faster with a friendlier rise."
+ },
+ {
+  "key": "7a062b9a-46e5-41d7-ae02-4c29807444cd|explain",
+  "en": "Encouragement uses an energetic rise-fall to sound genuinely supportive."
+ },
+ {
+  "key": "8eff1cd8-30d2-4642-8620-e3c773844b49|explain",
+  "en": "Confident interview answers fall clearly and firmly at the end of each key point."
+ },
+ {
+  "key": "d4385917-56a1-490b-948e-bd283e843c90|explain",
+  "en": "A slight rise or pause before 'however' or 'but' signals a contrast is coming."
+ },
+ {
+  "key": "878fdbcc-2f37-412d-b9d9-075d32743661|explain",
+  "en": "Asking permission almost always rises to sound open and non-demanding."
+ },
+ {
+  "key": "068d5b93-dc4b-4a89-a9d5-60c47c5cbea9|explain",
+  "en": "Gentle bad news uses a soft, slow fall — a sudden hard fall can sound cold or blunt."
+ },
+ {
+  "key": "53c4ffdc-587f-4bd8-942a-4a63fbe4f359|explain",
+  "en": "A flat, narrow pitch with little movement signals 'I don't really care either way.'"
+ },
+ {
+  "key": "18dea0d2-ba76-4017-ad60-ca81283aec2a|explain",
+  "en": "Prices fall clearly on the final amount to sound definite and easy to note down."
+ },
+ {
+  "key": "b8576abe-71c0-4a0a-a6a2-13292f96d2c8|explain",
+  "en": "Calling someone's name to get attention uses a wide rise-fall so it carries and stands out."
+ },
+ {
+  "key": "0712e0c6-7a0d-4211-9fb0-b7ef426cd144|explain",
+  "en": "A countdown rises with anticipation on each number and falls sharply on the final word."
+ },
+ {
+  "key": "e0ffa6ca-f263-451e-adb5-876a4936c49e|explain",
+  "en": "A closing mixed set — decide falling, rising, rise-fall or fall-rise for each line before checking."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|explain",
+  "en": "Master intonation across 50 targeted drills. Listen closely to the AI model, repeat, and record your voice to receive detailed real-time pronunciation scoring and feedback."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|point|0",
+  "en": "Focus on the rhythm, stress, and flow highlighted in each drill."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|point|1",
+  "en": "Listen to the reference model audio before each recording attempt."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|point|2",
+  "en": "Review your AI score and phoneme-level feedback to pinpoint areas for improvement."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|caution",
+  "en": "Do not rush through the drills; prioritize clarity, natural cadence, and accurate articulation."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|0",
+  "en": "Statement: falling intonation at the final content word."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|1",
+  "en": "Definite statement ends with a decisive drop in pitch."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|2",
+  "en": "Standard downward cadence on completed facts."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|3",
+  "en": "Clear drop signals the end of the informative thought."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|4",
+  "en": "Finality indicated by pitch dropping below neutral."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|5",
+  "en": "Yes/No question: rising pitch at the end."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|6",
+  "en": "Polite inquiry: sharp rise on 'taken'."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|7",
+  "en": "Yes/No query floats upward at the end."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|8",
+  "en": "Anticipatory rising intonation."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|9",
+  "en": "Friendly request ends with an upward sweep."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|10",
+  "en": "Wh- question: starts high and finishes falling."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|11",
+  "en": "Wh- inquiries demand a falling tone."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|12",
+  "en": "Curiosity/inquiry: drop at the conclusion."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|13",
+  "en": "Downward cadence on the final word."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|14",
+  "en": "Wh- falling contour."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|15",
+  "en": "List intonation: rise, rise, then fall on the final option."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|16",
+  "en": "Incomplete items rise; last item drops to close."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|17",
+  "en": "Listing contour: pitch ascends until the finale."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|18",
+  "en": "Alternative question: first choice rises, second falls."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|19",
+  "en": "Alternatives terminate with a definitive fall."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|20",
+  "en": "Confirmation tag (speaker is sure): falling pitch."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|21",
+  "en": "Genuine doubt tag: rising pitch asks for truth."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|22",
+  "en": "Seeking agreement: falling tag."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|23",
+  "en": "Uncertain check: upward rise on 'have we'."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|24",
+  "en": "Enthusiastic consensus: falling tag."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|25",
+  "en": "Sincere gratitude: low, grounded pitch."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|26",
+  "en": "Exclamation: high emotional peak followed by steep drop."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|27",
+  "en": "Excitement peaks on 'tastic' and settles on 'news'."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|28",
+  "en": "Warm greeting with sweeping downward inflection."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|29",
+  "en": "Polite command: firm falling tone."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|30",
+  "en": "Dependent clause rises; main clause falls."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|31",
+  "en": "Conditional 'if' clause carries rising suspense."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|32",
+  "en": "Subordinate clause rises to keep listener waiting."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|33",
+  "en": "Introductory time clause floats up."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|34",
+  "en": "Rise indicates unfinished thought until second half."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|35",
+  "en": "Hesitation/reluctance: fall-rise on 'well'."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|36",
+  "en": "Diplomatic correction: fall-rise on 'actually'."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|37",
+  "en": "Sentence adverbial gets mild fall-rise emphasis."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|38",
+  "en": "Candid reflection: fall-rise on 'honestly'."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|39",
+  "en": "Expressing mild skepticism."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|40",
+  "en": "Clarification: first number rises, second falls."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|41",
+  "en": "Contrasting choices."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|42",
+  "en": "Alternative inquiry."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|43",
+  "en": "Action choices."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|44",
+  "en": "Status inquiry."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|45",
+  "en": "Tentative polite request: gentle rise."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|46",
+  "en": "Courteous softening: ending ascends gently."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|47",
+  "en": "Polite greeting rises; Wh- question drops."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|48",
+  "en": "Friendly professional greeting."
+ },
+ {
+  "key": "21287933-8b50-4c4a-a5fa-bb51831b98bb|note|49",
+  "en": "Warm sendoff with conclusive warmth."
+ },
+ {
+  "key": "4a1e712b-60c7-4a1a-ba46-bb7dd890b366|explain",
+  "en": "Reductions help you understand fast speech and sound relaxed in conversation."
+ },
+ {
+  "key": "4a1e712b-60c7-4a1a-ba46-bb7dd890b366|point|0",
+  "en": "going to → gonna"
+ },
+ {
+  "key": "4a1e712b-60c7-4a1a-ba46-bb7dd890b366|point|1",
+  "en": "want to → wanna"
+ },
+ {
+  "key": "4a1e712b-60c7-4a1a-ba46-bb7dd890b366|point|2",
+  "en": "have to → hafta"
+ }
+]

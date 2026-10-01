@@ -1,0 +1,682 @@
+[
+ {
+  "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|note|5",
+  "en": "Prices increase every year."
+ },
+ {
+  "key": "ef925ddf-56e5-4075-85f5-ebef2db9e81d|explain",
+  "en": "When you add an ending, the stress often moves. Longer words also have a weaker secondary beat."
+ },
+ {
+  "key": "ef925ddf-56e5-4075-85f5-ebef2db9e81d|point|0",
+  "en": "Primary stress: the strongest beat."
+ },
+ {
+  "key": "ef925ddf-56e5-4075-85f5-ebef2db9e81d|point|1",
+  "en": "Secondary stress: a smaller beat, usually earlier in the word."
+ },
+ {
+  "key": "ef925ddf-56e5-4075-85f5-ebef2db9e81d|note|3",
+  "en": "Secondary beat on 'pro'."
+ },
+ {
+  "key": "ef925ddf-56e5-4075-85f5-ebef2db9e81d|note|4",
+  "en": "Secondary beat on 'in'."
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|explain",
+  "en": "This noun/verb pattern is very common — dozens of English words work this way."
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|point|0",
+  "en": "Noun = stress first syllable."
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|point|1",
+  "en": "Verb = stress second syllable."
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|note|0",
+  "en": "Sign the contract."
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|note|1",
+  "en": "Muscles contract when you exercise."
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|note|2",
+  "en": "What is that object?"
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|note|3",
+  "en": "I object to this plan."
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|note|4",
+  "en": "This is a big project."
+ },
+ {
+  "key": "691bb2a2-c8ad-40a9-bc64-0fe3cff375b6|note|5",
+  "en": "They project a small loss."
+ },
+ {
+  "key": "a68598f4-b5ce-4fff-8a85-52c2487576cd|explain",
+  "en": "Keep practising this pattern until switching the stress feels automatic."
+ },
+ {
+  "key": "a68598f4-b5ce-4fff-8a85-52c2487576cd|point|0",
+  "en": "Listen for the vowel quality change too, not just loudness."
+ },
+ {
+  "key": "a68598f4-b5ce-4fff-8a85-52c2487576cd|note|0",
+  "en": "Coffee is a major export."
+ },
+ {
+  "key": "a68598f4-b5ce-4fff-8a85-52c2487576cd|note|1",
+  "en": "We export coffee worldwide."
+ },
+ {
+  "key": "a68598f4-b5ce-4fff-8a85-52c2487576cd|note|2",
+  "en": "You need a permit."
+ },
+ {
+  "key": "a68598f4-b5ce-4fff-8a85-52c2487576cd|note|3",
+  "en": "They don't permit smoking."
+ },
+ {
+  "key": "a68598f4-b5ce-4fff-8a85-52c2487576cd|note|4",
+  "en": "The police have a suspect."
+ },
+ {
+  "key": "a68598f4-b5ce-4fff-8a85-52c2487576cd|note|5",
+  "en": "I suspect he is lying."
+ },
+ {
+  "key": "049d70a3-0db5-4415-8969-83f28ca6bb76|explain",
+  "en": "Most two-syllable English nouns stress the first syllable."
+ },
+ {
+  "key": "049d70a3-0db5-4415-8969-83f28ca6bb76|point|0",
+  "en": "This is the default pattern for nouns — assume first syllable unless you learn otherwise."
+ },
+ {
+  "key": "ad2178ac-bddd-4638-9de9-5e04a8721928|explain",
+  "en": "Most two-syllable English verbs stress the second syllable — the opposite of nouns."
+ },
+ {
+  "key": "ad2178ac-bddd-4638-9de9-5e04a8721928|point|0",
+  "en": "This is the default pattern for verbs."
+ },
+ {
+  "key": "f3af3e6c-219b-4130-9e9a-e4da95b6c3d2|explain",
+  "en": "Words ending in -tion or -sion always stress the syllable right before the ending."
+ },
+ {
+  "key": "f3af3e6c-219b-4130-9e9a-e4da95b6c3d2|point|0",
+  "en": "-tion / -sion → stress moves to the syllable just before it."
+ },
+ {
+  "key": "f3af3e6c-219b-4130-9e9a-e4da95b6c3d2|note|3",
+  "en": "Exception pattern — check a dictionary if unsure."
+ },
+ {
+  "key": "aea8f0e0-be60-4e9c-a75a-c1aa9b841df8|explain",
+  "en": "Words ending in -ic or -ical stress the syllable right before the ending, just like -tion."
+ },
+ {
+  "key": "aea8f0e0-be60-4e9c-a75a-c1aa9b841df8|point|0",
+  "en": "-ic / -ical → stress the syllable before the ending."
+ },
+ {
+  "key": "600ff396-41c8-4a4a-b56b-8faba455337e|explain",
+  "en": "Another reliable rule: -ity and -ety pull the stress onto the syllable right before them."
+ },
+ {
+  "key": "600ff396-41c8-4a4a-b56b-8faba455337e|point|0",
+  "en": "-ity / -ety → stress the syllable before the ending."
+ },
+ {
+  "key": "f3091559-0863-4539-a61e-a015e2346813|explain",
+  "en": "Adding un-, re-, dis- or non- to a word doesn't move the stress — the prefix stays weak."
+ },
+ {
+  "key": "f3091559-0863-4539-a61e-a015e2346813|point|0",
+  "en": "un- / re- / dis- / non- are almost never stressed."
+ },
+ {
+  "key": "f3091559-0863-4539-a61e-a015e2346813|note|3",
+  "en": "A common exception — 'nonsense' stresses the first syllable."
+ },
+ {
+  "key": "16a5a8c4-e8b5-4780-935b-e2bb30562c4b|explain",
+  "en": "When two words combine into one noun, the first word usually carries the stress."
+ },
+ {
+  "key": "16a5a8c4-e8b5-4780-935b-e2bb30562c4b|point|0",
+  "en": "Compound NOUN → stress word 1."
+ },
+ {
+  "key": "16a5a8c4-e8b5-4780-935b-e2bb30562c4b|point|1",
+  "en": "Compare with phrasal adjectives, which stress word 2 (see next lesson)."
+ },
+ {
+  "key": "16a5a8c4-e8b5-4780-935b-e2bb30562c4b|note|0",
+  "en": "One kind of bird."
+ },
+ {
+  "key": "9da7fc1c-397f-436f-b91a-0c3f01891a69|explain",
+  "en": "Compare this to the last lesson: when it's really an adjective describing a noun (two separate words, two meanings), the stress moves to the noun."
+ },
+ {
+  "key": "9da7fc1c-397f-436f-b91a-0c3f01891a69|point|0",
+  "en": "black BIRD = a bird that is black (any bird)."
+ },
+ {
+  "key": "9da7fc1c-397f-436f-b91a-0c3f01891a69|point|1",
+  "en": "BLACKbird = one specific kind of bird."
+ },
+ {
+  "key": "9da7fc1c-397f-436f-b91a-0c3f01891a69|note|0",
+  "en": "Any bird that happens to be black."
+ },
+ {
+  "key": "9da7fc1c-397f-436f-b91a-0c3f01891a69|note|1",
+  "en": "A house painted green."
+ },
+ {
+  "key": "9da7fc1c-397f-436f-b91a-0c3f01891a69|note|2",
+  "en": "Compare: WHITEhouse (compound) doesn't exist — this stays two words."
+ },
+ {
+  "key": "9da7fc1c-397f-436f-b91a-0c3f01891a69|note|3",
+  "en": "A dog that is hot (not the food, HOT dog)."
+ },
+ {
+  "key": "653e14bd-40e4-486d-82f8-4d3af229dd23|explain",
+  "en": "Thirteen and thirty are often confused. The stress placement is the main difference."
+ },
+ {
+  "key": "653e14bd-40e4-486d-82f8-4d3af229dd23|point|0",
+  "en": "-TEEN numbers: stress the second syllable."
+ },
+ {
+  "key": "653e14bd-40e4-486d-82f8-4d3af229dd23|point|1",
+  "en": "-ty numbers: stress the first syllable."
+ },
+ {
+  "key": "653e14bd-40e4-486d-82f8-4d3af229dd23|note|4",
+  "en": "Exaggerate the contrast so listeners can tell them apart."
+ },
+ {
+  "key": "0bb88819-aaae-4279-aede-d11c1d82e20a|explain",
+  "en": "Job-title vocabulary you'll use constantly in small talk and interviews."
+ },
+ {
+  "key": "0bb88819-aaae-4279-aede-d11c1d82e20a|point|0",
+  "en": "Most end in -er/-or/-ist and stress the syllable before that ending."
+ },
+ {
+  "key": "0bb88819-aaae-4279-aede-d11c1d82e20a|note|1",
+  "en": "Exception — stress falls on the last syllable."
+ },
+ {
+  "key": "2ee2a7dc-55e5-47c8-8b89-21f44a8f29b3|explain",
+  "en": "Common tech words — useful for work meetings and everyday conversation about phones and computers."
+ },
+ {
+  "key": "2ee2a7dc-55e5-47c8-8b89-21f44a8f29b3|note|4",
+  "en": "Noun/verb — stress stays on the first syllable in both."
+ },
+ {
+  "key": "89d2edc3-768a-424d-a572-25542e3c8c5b|explain",
+  "en": "Words you'll say in every meeting — get the stress right and you'll sound confident at work."
+ },
+ {
+  "key": "80692209-2db3-476f-86f0-290a4c3ed3d4|explain",
+  "en": "Practise these before your next trip — mispronouncing 'hotel' or 'airport' is a common stumbling block."
+ },
+ {
+  "key": "9393958a-8832-4a28-b46c-58d7f59474e8|explain",
+  "en": "Everyday food words — great for restaurant conversations."
+ },
+ {
+  "key": "0a99bd3c-ccd6-4851-8eab-50292e0331fb|explain",
+  "en": "Talking about family is one of the first things learners need — stress these correctly from the start."
+ },
+ {
+  "key": "6b07add7-7e7d-49d7-a3b5-3b1adf64347d|explain",
+  "en": "Describing feelings accurately needs the right stress, or listeners may mishear the word entirely."
+ },
+ {
+  "key": "be0cebb6-000d-435e-b2e6-3ce52820ed37|explain",
+  "en": "Country and nationality names often have unexpected stress for learners."
+ },
+ {
+  "key": "a40b2c4b-e725-4e9f-95b6-5ef7b7daba00|explain",
+  "en": "Adjectives ending in -ous almost always stress the syllable right before the ending."
+ },
+ {
+  "key": "a40b2c4b-e725-4e9f-95b6-5ef7b7daba00|point|0",
+  "en": "-ous → stress the syllable before it."
+ },
+ {
+  "key": "bb16473a-f90e-4fa1-b26a-48bccf19fb40|explain",
+  "en": "Like -ous, endings -ial and -ual usually pull stress onto the syllable right before them."
+ },
+ {
+  "key": "993ad6af-369e-49b3-8844-f76d76afec93|explain",
+  "en": "Words ending in -ate can be a noun/adjective (shorter vowel, earlier stress) or a verb (long 'ate' /eɪt/, later stress)."
+ },
+ {
+  "key": "993ad6af-369e-49b3-8844-f76d76afec93|point|0",
+  "en": "Noun/adjective -ate: shorter, earlier stress."
+ },
+ {
+  "key": "993ad6af-369e-49b3-8844-f76d76afec93|point|1",
+  "en": "Verb -ate: full /eɪt/ sound, often later stress."
+ },
+ {
+  "key": "993ad6af-369e-49b3-8844-f76d76afec93|note|0",
+  "en": "Weak final syllable."
+ },
+ {
+  "key": "993ad6af-369e-49b3-8844-f76d76afec93|note|1",
+  "en": "Full /eɪt/ at the end."
+ },
+ {
+  "key": "993ad6af-369e-49b3-8844-f76d76afec93|note|3",
+  "en": "Rarely used as a verb — 'certify' is more common."
+ },
+ {
+  "key": "629259c2-155c-4e65-b535-a78c025367a1|explain",
+  "en": "When you spell out an abbreviation letter by letter, the LAST letter usually gets the strongest stress."
+ },
+ {
+  "key": "629259c2-155c-4e65-b535-a78c025367a1|point|0",
+  "en": "Spelling out letters: last letter is strongest."
+ },
+ {
+  "key": "629259c2-155c-4e65-b535-a78c025367a1|note|0",
+  "en": "Stress falls on 'A'."
+ },
+ {
+  "key": "05a2daaf-34af-4dfb-8de6-70354419131c|explain",
+  "en": "Time vocabulary is used in every conversation, so get the stress automatic early."
+ },
+ {
+  "key": "32b69097-f847-4911-b4a6-276b6d06162d|explain",
+  "en": "English borrowed many French words and often keeps the final-syllable stress they had in French."
+ },
+ {
+  "key": "32b69097-f847-4911-b4a6-276b6d06162d|point|0",
+  "en": "French loanwords often stress the LAST syllable — the opposite of typical English nouns."
+ },
+ {
+  "key": "32b69097-f847-4911-b4a6-276b6d06162d|note|1",
+  "en": "British English often says GAR-age instead."
+ },
+ {
+  "key": "0ad59539-cebf-4d7f-af12-c16be8e9f7fe|explain",
+  "en": "Hyphenated adjectives before a noun usually stress the second part more when spoken alone, but level out when placed before the noun they describe."
+ },
+ {
+  "key": "0ad59539-cebf-4d7f-af12-c16be8e9f7fe|note|0",
+  "en": "A well-known author."
+ },
+ {
+  "key": "0ad59539-cebf-4d7f-af12-c16be8e9f7fe|note|1",
+  "en": "A part-time job."
+ },
+ {
+  "key": "f4747901-e83b-4c41-b74c-998ca89c134e|explain",
+  "en": "Three-syllable words often stress the first syllable, but not always — always double-check unfamiliar words."
+ },
+ {
+  "key": "f4747901-e83b-4c41-b74c-998ca89c134e|note|3",
+  "en": "Exception — stress on the middle syllable."
+ },
+ {
+  "key": "f4747901-e83b-4c41-b74c-998ca89c134e|note|4",
+  "en": "Exception — stress on the middle syllable."
+ },
+ {
+  "key": "3487b877-2a10-4e1e-8dc1-9cb339d3c793|explain",
+  "en": "Words ending in -al often keep the stress in the same place as their root word."
+ },
+ {
+  "key": "3487b877-2a10-4e1e-8dc1-9cb339d3c793|note|3",
+  "en": "Stress does shift here — an exception to watch for."
+ },
+ {
+  "key": "81410615-130c-4dad-a5c3-167102ed1fbb|explain",
+  "en": "Talking about hobbies is classic small-talk material — get comfortable with this vocabulary."
+ },
+ {
+  "key": "9c80d65e-c1f1-48b9-874a-02c4f06398e3|explain",
+  "en": "Weather talk is universal small talk — make sure the stress is automatic."
+ },
+ {
+  "key": "66dccf48-ac78-4da4-94b8-de0bb0201e2c|explain",
+  "en": "Useful, sometimes urgent vocabulary — worth practising until it's automatic."
+ },
+ {
+  "key": "53439508-9bed-4e98-a87c-11ef56316d50|explain",
+  "en": "School and study vocabulary — common in IELTS Speaking Part 1 too."
+ },
+ {
+  "key": "40e3702c-e1b5-4b3c-aa49-c21e0f0b0a00|explain",
+  "en": "Money vocabulary shows up constantly — from shopping to salary negotiations."
+ },
+ {
+  "key": "2f62fdf2-30c0-4f0d-955e-69d423bc9e56|explain",
+  "en": "Final round of the noun/verb stress-shift pattern — by now it should start to feel automatic."
+ },
+ {
+  "key": "2f62fdf2-30c0-4f0d-955e-69d423bc9e56|note|4",
+  "en": "British English often stresses the second syllable for both."
+ },
+ {
+  "key": "5e2111a3-9ba8-4275-84cd-151eb8d7e94b|explain",
+  "en": "-able and -ible usually don't change the stress of the root word."
+ },
+ {
+  "key": "36f811e0-e465-49a6-a355-2e47d28d55d9|explain",
+  "en": "Academic English uses long, Latin-based words — apply the -tion/-ity/-ic rules you've already learned."
+ },
+ {
+  "key": "7a9c158d-7f4d-4d2b-bc25-9c463df9d224|explain",
+  "en": "You'll say these words every single day — stress them naturally from day one."
+ },
+ {
+  "key": "04049d68-eab4-4afb-bb30-9b2d418fb736|explain",
+  "en": "Place names sometimes break the usual rules — worth practising the common ones by heart."
+ },
+ {
+  "key": "04049d68-eab4-4afb-bb30-9b2d418fb736|note|3",
+  "en": "Often BANG-kok in casual American speech too."
+ },
+ {
+  "key": "375a4330-2894-4010-8de9-be1c3c65881a|explain",
+  "en": "Verbs ending in -ize (US) or -ise (UK) keep the stress on the syllable before the ending."
+ },
+ {
+  "key": "0057ea87-3856-4279-97f6-041f0b6d7829|explain",
+  "en": "Descriptive adjectives you'll use to make small talk more vivid."
+ },
+ {
+  "key": "0dc8acd6-a65e-4ef1-b445-d04082631bb9|explain",
+  "en": "Spelling doesn't always predict stress — these near-twins trip up even advanced learners."
+ },
+ {
+  "key": "a3c88bea-e525-431d-9eac-e1e316af174a|explain",
+  "en": "A final mixed set pulling together nouns, verbs, suffix rules and compounds — say each one before checking the pattern."
+ },
+ {
+  "key": "92b85fc0-d477-416e-a675-ff03a849f9e1|explain",
+  "en": "A phrasal verb stresses the particle; the noun made from it stresses the first part instead."
+ },
+ {
+  "key": "92b85fc0-d477-416e-a675-ff03a849f9e1|point|0",
+  "en": "Verb: break DOWN, print OUT."
+ },
+ {
+  "key": "92b85fc0-d477-416e-a675-ff03a849f9e1|point|1",
+  "en": "Noun: a BREAKdown, a PRINTout."
+ },
+ {
+  "key": "227cd8e7-9ec3-4b6d-84f2-d5ea0e5c9e74|explain",
+  "en": "Hundred, thousand and million are never stressed themselves — the number just before them carries the beat."
+ },
+ {
+  "key": "227cd8e7-9ec3-4b6d-84f2-d5ea0e5c9e74|note|3",
+  "en": "A common price pattern: $9.99."
+ },
+ {
+  "key": "43523a38-19e6-4a4e-b12a-fa43f881266c|explain",
+  "en": "Idioms have their own fixed stress pattern learners should memorise as a whole chunk."
+ },
+ {
+  "key": "79d5ac8d-0db1-4406-88b2-0c51e0cca12b|explain",
+  "en": "Some common words are almost always said with one fewer syllable than they're spelled with — this changes where the stress lands."
+ },
+ {
+  "key": "79d5ac8d-0db1-4406-88b2-0c51e0cca12b|note|0",
+  "en": "3 syllables in fast speech, not 4."
+ },
+ {
+  "key": "79d5ac8d-0db1-4406-88b2-0c51e0cca12b|note|1",
+  "en": "3 syllables, not 4."
+ },
+ {
+  "key": "79d5ac8d-0db1-4406-88b2-0c51e0cca12b|note|2",
+  "en": "2 syllables, not 3."
+ },
+ {
+  "key": "79d5ac8d-0db1-4406-88b2-0c51e0cca12b|note|3",
+  "en": "2 syllables, not 3."
+ },
+ {
+  "key": "4e68253d-8f5b-412b-848e-9bca76a3d4ca|explain",
+  "en": "One last mixed set — nouns, verbs, compounds and suffix rules together. Say each one before checking the pattern."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|explain",
+  "en": "Master word stress across 50 targeted drills. Listen closely to the AI model, repeat, and record your voice to receive detailed real-time pronunciation scoring and feedback."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|point|0",
+  "en": "Focus on the rhythm, stress, and flow highlighted in each drill."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|point|1",
+  "en": "Listen to the reference model audio before each recording attempt."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|point|2",
+  "en": "Review your AI score and phoneme-level feedback to pinpoint areas for improvement."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|caution",
+  "en": "Do not rush through the drills; prioritize clarity, natural cadence, and accurate articulation."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|0",
+  "en": "Third syllable 'CA' carries the primary stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|1",
+  "en": "Second syllable 'TIF' is stressed."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|2",
+  "en": "Primary stress on the first syllable 'CAT'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|3",
+  "en": "Second syllable 'FRIG' is stressed; other syllables compress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|4",
+  "en": "Stress on 'AS' directly before -tic."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|5",
+  "en": "Stress on 'AL' right before -ity."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|6",
+  "en": "Stress on 'TRIC' before -ity."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|7",
+  "en": "Primary stress on 'TRA' before -tion."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|8",
+  "en": "Primary stress on 'CA' before -tion."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|9",
+  "en": "Primary stress on 'GA' before -tion."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|10",
+  "en": "Second syllable 'NIF' takes the beat."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|11",
+  "en": "First syllable 'LAB' is stressed in American English."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|12",
+  "en": "Second syllable 'TIC' takes the stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|13",
+  "en": "Second syllable 'IN' carries the main stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|14",
+  "en": "First syllable 'FAS' carries the stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|15",
+  "en": "First syllable 'AR' is stressed."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|16",
+  "en": "First syllable 'AR' carries primary stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|17",
+  "en": "Stress shifts to the third syllable 'TEC'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|18",
+  "en": "Second syllable 'OG' takes the stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|19",
+  "en": "Stress shifts to 'GRAPH' before -ic."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|20",
+  "en": "Second syllable 'LOS' is stressed."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|21",
+  "en": "Stress shifts to 'SOPH' before -ical."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|22",
+  "en": "Second syllable 'CHOL' is stressed."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|23",
+  "en": "Stress shifts to 'LOG' before -ical."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|24",
+  "en": "Second syllable 'TRON' takes the stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|25",
+  "en": "Stress shifts to 'NOM' before -ical."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|26",
+  "en": "Second syllable 'PRE' carries the stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|27",
+  "en": "Stress on the fourth syllable 'PE'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|28",
+  "en": "Second syllable 'TIC' is stressed."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|29",
+  "en": "Second syllable 'GRAT' carries primary stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|30",
+  "en": "Second syllable 'CEL' is stressed."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|31",
+  "en": "Suffix -ee attracts stress to the last syllable."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|32",
+  "en": "Suffix -eer takes the final stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|33",
+  "en": "Final syllable 'NIR' receives primary stress."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|34",
+  "en": "Stress on the final syllable 'RETTE'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|35",
+  "en": "Compound noun: primary stress on first noun 'KITCH'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|36",
+  "en": "Compound noun: stress the first element 'SUN'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|37",
+  "en": "Compound noun: strong first syllable 'RAIN'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|38",
+  "en": "Compound noun: stress on 'HEAD'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|39",
+  "en": "Compound noun: 'EARTH' is emphasized."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|40",
+  "en": "Compound noun: stress on 'FIRE'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|41",
+  "en": "Compound noun: primary stress falls on 'TRAF'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|42",
+  "en": "Gerund compound: primary stress on 'SWIM'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|43",
+  "en": "Noun: stress on the first syllable 'RE'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|44",
+  "en": "Verb: stress moves to the second syllable 'FUND'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|45",
+  "en": "Noun: stress on the first syllable 'PRO'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|46",
+  "en": "Verb: stress moves to the second syllable 'TEST'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|47",
+  "en": "Noun: stress on the prefix 'UP'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|48",
+  "en": "Verb: stress moves to 'DATE'."
+ },
+ {
+  "key": "29cd7e6b-cc33-47d3-b0bd-10cc5117cc29|note|49",
+  "en": "Second syllable 'LIB' is stressed."
+ }
+]

@@ -404,13 +404,15 @@ export async function resyncContentFreeRanks(): Promise<void> {
       `);
     }
 
+    // Per TASK TYPE (TOEFL: Listen & Repeat, Interview...; PTE: Read Aloud,
+    // Repeat Sentence...) — customer request 2026-09-30, was per exam.
     const otherExamFree = limits["speaking_tests_free_toefl_pte"];
     if (otherExamFree != null) {
       await db.execute(sql`
         update ${speakingTests}
         set is_free = (ranked.rn <= ${otherExamFree})
         from (
-          select id, row_number() over (partition by exam order by sort_order, created_at) as rn
+          select id, row_number() over (partition by exam, task_type order by sort_order, created_at) as rn
           from ${speakingTests}
           where status = 'published' and exam <> 'ielts'
         ) ranked

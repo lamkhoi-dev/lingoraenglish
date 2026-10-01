@@ -228,14 +228,14 @@ function PronunciationPage() {
   /* Redacted server-side per learner's tier — see getSkillLessonsCatalogue. */
   useEffect(() => {
     let alive = true;
-    void getSkillLessonsCatalogueFn().then((rows) => {
+    void getSkillLessonsCatalogueFn({ data: { locale } }).then((rows) => {
       if (!alive) return;
       setSkillLessons(rows);
     });
     return () => {
       alive = false;
     };
-  }, [getSkillLessonsCatalogueFn]);
+  }, [getSkillLessonsCatalogueFn, locale]);
 
   useEffect(() => {
     let alive = true;
@@ -873,18 +873,20 @@ function PronunciationPage() {
                   {!lesson.unlocked ? (
                     <div className="mt-5 rounded-xl bg-surface-2 p-5 text-center ring-1 ring-border">
                       <p className="text-sm text-foreground">
-                        This lesson's explanation, practice points and examples are part of Lingora English
-                        Premium.
+                        {locale === "vi"
+                          ? "Phần giải thích, các điểm lưu ý và ví dụ của bài học này thuộc gói Lingora English Premium."
+                          : "This lesson's explanation, practice points and examples are part of Lingora English Premium."}
                       </p>
                       <p className="mt-1 text-xs text-muted-foreground">
-                        The first {freeCounts.lessonsPerSkill} examples of each skill are free. Upgrade to unlock the
-                        rest.
+                        {locale === "vi"
+                          ? `${freeCounts.lessonsPerSkill} bài học đầu tiên của mỗi kỹ năng được mở miễn phí. Nâng cấp tài khoản để mở khóa toàn bộ.`
+                          : `The first ${freeCounts.lessonsPerSkill} examples of each skill are free. Upgrade to unlock the rest.`}
                       </p>
                       <Link
                         to="/pricing"
                         className="mt-4 inline-flex rounded-full bg-brass px-4 py-2 text-sm font-semibold text-plum-deep shadow-brass"
                       >
-                        Unlock all examples
+                        {locale === "vi" ? "Mở khóa toàn bộ bài học" : "Unlock all examples"}
                       </Link>
                     </div>
                   ) : (

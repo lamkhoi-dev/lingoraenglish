@@ -1,0 +1,1002 @@
+[
+ {
+  "key": "ee2340b8-300b-41e7-830e-5501431b91be|explain",
+  "en": "Break long sentences into short meaning groups with a tiny pause between them. It sounds calm and clear."
+ },
+ {
+  "key": "ee2340b8-300b-41e7-830e-5501431b91be|point|0",
+  "en": "Pause at the / marks."
+ },
+ {
+  "key": "ee2340b8-300b-41e7-830e-5501431b91be|point|1",
+  "en": "Never pause in the middle of a thought group."
+ },
+ {
+  "key": "220fe380-b5ec-4bd4-a4ca-376052cfaaaf|explain",
+  "en": "In a two-minute answer, plan where you breathe. Breathe at the end of a group, never in the middle of one."
+ },
+ {
+  "key": "220fe380-b5ec-4bd4-a4ca-376052cfaaaf|point|0",
+  "en": "One breath per group."
+ },
+ {
+  "key": "220fe380-b5ec-4bd4-a4ca-376052cfaaaf|point|1",
+  "en": "Drop your pitch slightly at the end of a completed group."
+ },
+ {
+  "key": "f4ab8f1f-ada8-4960-b494-7a307e954a9a|explain",
+  "en": "Direction-giving is much easier to follow when broken into small chunks with pauses."
+ },
+ {
+  "key": "c2a32a8d-8213-489a-a6ad-c1a4dbbe658d|explain",
+  "en": "Presentations sound much more confident when chunked clearly, giving the audience time to process."
+ },
+ {
+  "key": "407a6ad5-4e80-4fbb-a5aa-58e30825238e|explain",
+  "en": "Stories flow better and build suspense when chunked at natural narrative breaks."
+ },
+ {
+  "key": "a532594d-9141-4dae-b1cc-75fa7be4308e|explain",
+  "en": "For Part 2 or Part 3 answers, chunk each supporting reason separately so the examiner can follow your structure."
+ },
+ {
+  "key": "a98a4554-770c-4bb8-876c-06aa4c2faac3|explain",
+  "en": "A short introductory phrase is usually its own chunk, set off with a small pause."
+ },
+ {
+  "key": "12f7883d-32c7-4b75-a663-3d9d4bb9883d|explain",
+  "en": "Recipe steps naturally break into chunks at each action — pause briefly between them."
+ },
+ {
+  "key": "108ad24b-b8bf-4e9d-aed3-fe05e5b618d0|explain",
+  "en": "Comparisons chunk around each side of the comparison, with a small pause before the contrast word."
+ },
+ {
+  "key": "8856e3b1-10cf-4bbe-b86d-3f177236c45f|explain",
+  "en": "Describing data chunks around each trend or figure, giving the listener time to picture it."
+ },
+ {
+  "key": "0012d622-27a7-4eea-acfb-586f3dabe33a|explain",
+  "en": "Reading a formal email or message aloud still needs natural chunking, not a flat word-by-word read."
+ },
+ {
+  "key": "a874e3c1-cd0f-44a1-8313-6e826f04c696|explain",
+  "en": "A relative clause ('which...', 'who...') is usually its own chunk, set off by small pauses on both sides."
+ },
+ {
+  "key": "98c2a878-5b79-4fe5-8119-7d0405f482e4|explain",
+  "en": "Safety instructions need very clear chunking so each instruction is unmistakable."
+ },
+ {
+  "key": "ec3e3d8f-1b58-411f-9e3b-9ba2d8faf353|explain",
+  "en": "As a sentence grows longer, the number of chunks grows too — practise adding one chunk at a time."
+ },
+ {
+  "key": "a68aee7f-dc45-41c2-b9ac-8ad2dece2a9d|explain",
+  "en": "Structured interview answers chunk around each part of the story: situation, action, result."
+ },
+ {
+  "key": "b7bd1d41-68eb-4c84-9e6c-f13e058f8840|explain",
+  "en": "An extra comment inserted mid-sentence is its own chunk, set off clearly on both sides."
+ },
+ {
+  "key": "46dcd798-4000-43b7-82c8-f1b850d44401|explain",
+  "en": "Each half of this structure is its own chunk, with a small pause right before 'but also'."
+ },
+ {
+  "key": "6872d745-0520-44ee-84d5-4e4aa20041d1|explain",
+  "en": "Product demos chunk around each feature being shown, pausing to let it land before moving on."
+ },
+ {
+  "key": "70c5a6fd-f1ee-4e75-ba54-e59b91778c7c|explain",
+  "en": "Rule explanations chunk around each individual rule so listeners can follow along."
+ },
+ {
+  "key": "2ede03c2-32c0-4baa-a40d-646b4aa67aac|explain",
+  "en": "Time clauses are usually their own chunk, whether they come at the start or end of the sentence."
+ },
+ {
+  "key": "ac944083-43e1-4cc4-a930-8fe3d7407989|explain",
+  "en": "A second buildup drill, starting more complex and adding even more chunks."
+ },
+ {
+  "key": "c23ace34-9c05-4582-84fd-51cbea29270c|explain",
+  "en": "Cause-and-effect sentences chunk around the cause and the resulting effect separately."
+ },
+ {
+  "key": "820c8db1-5ce7-4345-afd0-21cb237b08ca|explain",
+  "en": "When listing several pros and cons in one breath, each point gets its own small chunk."
+ },
+ {
+  "key": "0ce9ae3d-452f-46a3-b6b1-8851c0f17eda|explain",
+  "en": "Workplace announcements chunk clearly so nobody misses an important detail."
+ },
+ {
+  "key": "a7964628-bb0f-4d5b-a2e6-25da36b845c1|explain",
+  "en": "Delivering difficult news benefits from extra-clear chunking, giving the listener time to absorb each part."
+ },
+ {
+  "key": "317029af-512a-4dd9-8ea9-9aad1d12e8d9|explain",
+  "en": "A tribute speech chunks around each memory or quality being honoured, with a pause to let it land."
+ },
+ {
+  "key": "34c4f175-ba13-4677-9497-dc48c445fbb7|explain",
+  "en": "Describing an image chunks around each element you notice, moving from general to specific."
+ },
+ {
+  "key": "dc3e895d-2aa0-4bf9-b282-d5a5dcfb3089|explain",
+  "en": "Historical explanations chunk around cause, event and consequence."
+ },
+ {
+  "key": "e473781e-b42f-4776-ac8e-735dcf305862|explain",
+  "en": "Plot summaries chunk around each major turning point in the story."
+ },
+ {
+  "key": "d78438f2-4441-454a-81d0-7a05977dbea0|explain",
+  "en": "Negotiation chunks around your offer and your condition, giving weight to each part."
+ },
+ {
+  "key": "58dfbef4-9a1b-4439-9a84-5af4be18f38e|explain",
+  "en": "Describing symptoms chunks around each separate symptom so nothing gets missed."
+ },
+ {
+  "key": "7f5e6a91-06ee-4c90-9f18-2b38835e0141|explain",
+  "en": "Itineraries chunk around each day or destination."
+ },
+ {
+  "key": "8b8057f0-9883-4855-b7b0-fe957d2dadeb|explain",
+  "en": "Budget explanations chunk around each category of spending."
+ },
+ {
+  "key": "e1dcd566-ff4c-42f2-b6fd-eaf1833a1cc4|explain",
+  "en": "Comparing offers chunks around each job's pros, with a clear pause before the contrast."
+ },
+ {
+  "key": "43c654d5-e2fc-400d-92a2-2dd58a9c3943|explain",
+  "en": "Troubleshooting chunks around each thing you've already tried."
+ },
+ {
+  "key": "43c02b85-c13a-4da1-af76-6aea60bef08b|explain",
+  "en": "Dream narration chunks around each strange or memorable moment."
+ },
+ {
+  "key": "2b2e72bd-902a-4033-a162-2f6ff6a4b17b|explain",
+  "en": "Discussing environmental topics chunks around the problem and its consequence, common in IELTS Part 3."
+ },
+ {
+  "key": "1fc6a1a2-fb00-4b91-9104-943e6aed0cc2|explain",
+  "en": "City descriptions chunk around each feature you mention."
+ },
+ {
+  "key": "ee4d27a6-d974-4b92-be15-9c95f3c83f88|explain",
+  "en": "Hobby explanations chunk around what you do, why you enjoy it, and how often."
+ },
+ {
+  "key": "58140aed-24bc-412a-8305-bcb0501e7e31|explain",
+  "en": "Nostalgic storytelling chunks around each remembered detail, common in IELTS Part 2."
+ },
+ {
+  "key": "1096f29f-95c2-497c-9749-cf55eaabed8d|explain",
+  "en": "Policy explanations chunk around the rule and its exception or reasoning."
+ },
+ {
+  "key": "cb65f5a0-a4a7-46c9-a330-9004f2e93507|explain",
+  "en": "Study-strategy talk chunks around each technique being described."
+ },
+ {
+  "key": "7eddd162-3752-4698-95b4-cf7c8e88e49b|explain",
+  "en": "Tech explanations chunk around each step or feature."
+ },
+ {
+  "key": "9ee8815e-0536-43dd-be67-e09603f44406|explain",
+  "en": "Sports recaps chunk around each key moment of the game."
+ },
+ {
+  "key": "4875e7c1-da28-420b-accc-b7a7470f07ed|explain",
+  "en": "Health advice chunks around each recommendation."
+ },
+ {
+  "key": "3cfaf43c-cee0-426e-bd22-67293a9ba884|explain",
+  "en": "Weather-pattern discussion chunks around cause and typical result."
+ },
+ {
+  "key": "999a826d-1bea-47c9-ae00-04403e053a41|explain",
+  "en": "Support calls chunk around each troubleshooting step you ask the customer to try."
+ },
+ {
+  "key": "26c2e6cb-da98-4e5a-ad5e-7cf0605cc523|explain",
+  "en": "Even dense formal text needs clear chunking when read aloud, or it becomes impossible to follow."
+ },
+ {
+  "key": "763ce319-a87b-4299-864e-79a3739c95b8|explain",
+  "en": "Personal decision-making chunks around each factor being weighed, common in IELTS Part 3 discussion."
+ },
+ {
+  "key": "79819ee2-190a-4fed-9dd4-cb7e24d94ec0|explain",
+  "en": "A closing set — mark where you'd pause before checking the suggested chunks."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|explain",
+  "en": "Master chunking across 50 targeted drills. Listen closely to the AI model, repeat, and record your voice to receive detailed real-time pronunciation scoring and feedback."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|point|0",
+  "en": "Focus on the rhythm, stress, and flow highlighted in each drill."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|point|1",
+  "en": "Listen to the reference model audio before each recording attempt."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|point|2",
+  "en": "Review your AI score and phoneme-level feedback to pinpoint areas for improvement."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|caution",
+  "en": "Do not rush through the drills; prioritize clarity, natural cadence, and accurate articulation."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|0",
+  "en": "Pause between time prepositional phrase and main clause."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|1",
+  "en": "Natural break after conditional dependent clause."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|2",
+  "en": "Pause separates long subject noun phrase from the predicate."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|3",
+  "en": "Pause after introductory dependent clause."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|4",
+  "en": "Pause highlights the concession before the result."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|5",
+  "en": "Pause after citation phrase."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|6",
+  "en": "Discourse marker chunked separately."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|7",
+  "en": "Three balanced breath groups."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|8",
+  "en": "Purpose clause followed by imperative action."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|9",
+  "en": "Pause marks time transition."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|10",
+  "en": "Non-defining relative clause enclosed in pauses."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|11",
+  "en": "Parenthetical clause separated on both sides."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|12",
+  "en": "Contrasting parenthetical phrase set apart."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|13",
+  "en": "Appositive infinitive phrase bracketed by pauses."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|14",
+  "en": "Participial descriptive chunk."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|15",
+  "en": "Four balanced rhetorical chunks."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|16",
+  "en": "Step-by-step procedural chunking."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|17",
+  "en": "Correlative conjunctions create rhythmic pauses."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|18",
+  "en": "Inverted parallel structure divided neatly."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|19",
+  "en": "Pause between two urgent alternatives."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|20",
+  "en": "Public address: vocative chunk, appreciation chunk, time chunk."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|21",
+  "en": "Formal presentation delivery."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|22",
+  "en": "Deliberate oratorical phrasing."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|23",
+  "en": "Rhetorical antithesis divided into three thought units."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|24",
+  "en": "Inspirational pacing."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|25",
+  "en": "Narrative action chunks."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|26",
+  "en": "Poetic prepositional setting."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|27",
+  "en": "Atmospheric description in three distinct beats."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|28",
+  "en": "Emotional adverbial chunk."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|29",
+  "en": "Storytelling pacing."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|30",
+  "en": "Business contact chunking."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|31",
+  "en": "Official transit announcement."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|32",
+  "en": "Safety instruction in three clear beats."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|33",
+  "en": "Flight crew announcement."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|34",
+  "en": "Boarding gate phrasing."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|35",
+  "en": "Tricolon of actions."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|36",
+  "en": "Sequential actions split by slight pauses."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|37",
+  "en": "Travel sequence."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|38",
+  "en": "Three major life steps."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|39",
+  "en": "Bedtime routine chunking."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|40",
+  "en": "Conditional reassurance."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|41",
+  "en": "Philosophical reminder."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|42",
+  "en": "Encouraging reflection."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|43",
+  "en": "Overcoming obstacles."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|44",
+  "en": "Administrative consensus."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|45",
+  "en": "Complex time relation."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|46",
+  "en": "Expansive landscape description."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|47",
+  "en": "Contrasting relationship."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|48",
+  "en": "Goal followed by a listed triad."
+ },
+ {
+  "key": "36c7ad3a-bbc7-40a8-a000-7f316edba35e|note|49",
+  "en": "Graceful poetic closure."
+ },
+ {
+  "key": "263e8d6f-9a2f-4ce3-b629-4b399dd6e2f6|explain",
+  "en": "When a word ends in a consonant and the next starts with a vowel, join them into one sound group."
+ },
+ {
+  "key": "263e8d6f-9a2f-4ce3-b629-4b399dd6e2f6|point|0",
+  "en": "Never stop between the words."
+ },
+ {
+  "key": "263e8d6f-9a2f-4ce3-b629-4b399dd6e2f6|point|1",
+  "en": "The consonant becomes the start of the next word."
+ },
+ {
+  "key": "97b1b2a3-3557-440e-a5a7-1a19fb517140|explain",
+  "en": "Two vowels meeting need a small bridge: /w/, /j/ or /r/ appears naturally."
+ },
+ {
+  "key": "97b1b2a3-3557-440e-a5a7-1a19fb517140|point|0",
+  "en": "go on → go‿w‿on"
+ },
+ {
+  "key": "97b1b2a3-3557-440e-a5a7-1a19fb517140|point|1",
+  "en": "I am → I‿y‿am"
+ },
+ {
+  "key": "97b1b2a3-3557-440e-a5a7-1a19fb517140|point|2",
+  "en": "law and order → law‿r‿and order (British)"
+ },
+ {
+  "key": "97b1b2a3-3557-440e-a5a7-1a19fb517140|note|3",
+  "en": "Intrusive /r/ is common in British English."
+ },
+ {
+  "key": "86cc8028-9648-4a91-b923-1847d55a6ed8|explain",
+  "en": "In fast speech some sounds simply drop out, especially /t/ and /d/ between consonants."
+ },
+ {
+  "key": "86cc8028-9648-4a91-b923-1847d55a6ed8|point|0",
+  "en": "next day → nex' day"
+ },
+ {
+  "key": "86cc8028-9648-4a91-b923-1847d55a6ed8|point|1",
+  "en": "friendship → frien'ship"
+ },
+ {
+  "key": "86cc8028-9648-4a91-b923-1847d55a6ed8|point|2",
+  "en": "must be → mus' be"
+ },
+ {
+  "key": "b02237f5-e6c3-47fb-be63-e1ff442e11aa|explain",
+  "en": "A sound can change to match the next one, so the mouth moves less."
+ },
+ {
+  "key": "b02237f5-e6c3-47fb-be63-e1ff442e11aa|point|0",
+  "en": "ten bikes → tem bikes"
+ },
+ {
+  "key": "b02237f5-e6c3-47fb-be63-e1ff442e11aa|point|1",
+  "en": "did you → didjou"
+ },
+ {
+  "key": "b02237f5-e6c3-47fb-be63-e1ff442e11aa|point|2",
+  "en": "won't you → wonchou"
+ },
+ {
+  "key": "e5dbe354-e1a9-4a95-8836-676c3102b9c2|explain",
+  "en": "Natural spoken English uses contractions almost everywhere. Full forms sound formal or emphatic."
+ },
+ {
+  "key": "e5dbe354-e1a9-4a95-8836-676c3102b9c2|point|0",
+  "en": "I am → I'm"
+ },
+ {
+  "key": "e5dbe354-e1a9-4a95-8836-676c3102b9c2|point|1",
+  "en": "I will → I'll"
+ },
+ {
+  "key": "e5dbe354-e1a9-4a95-8836-676c3102b9c2|point|2",
+  "en": "do not → don't"
+ },
+ {
+  "key": "e5dbe354-e1a9-4a95-8836-676c3102b9c2|point|3",
+  "en": "would have → would've"
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|explain",
+  "en": "Small grammar words lose their full vowel and become a schwa when they are not stressed."
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|point|0",
+  "en": "to → /tə/"
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|point|1",
+  "en": "for → /fə/"
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|point|2",
+  "en": "and → /ən/"
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|point|3",
+  "en": "can → /kən/"
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|point|4",
+  "en": "of → /əv/"
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|point|5",
+  "en": "a → /ə/"
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|point|6",
+  "en": "the → /ðə/"
+ },
+ {
+  "key": "344a92b2-ce9a-45b8-83ec-6338383faab9|note|4",
+  "en": "Stressed 'can' /kæn/ means emphasis."
+ },
+ {
+  "key": "26d281e1-8724-4dff-b78a-5ce2d1975c0e|explain",
+  "en": "When one word ends and the next begins with the same consonant sound, don't say it twice — hold it once, a little longer."
+ },
+ {
+  "key": "a3848dd1-dccc-44c8-9f21-5a0375b7f46f|explain",
+  "en": "In non-rhotic British English, a silent final 'r' becomes pronounced when the next word starts with a vowel."
+ },
+ {
+  "key": "56003188-0c49-4012-85db-749d3231678b|explain",
+  "en": "Auxiliary verbs at the start of questions often reduce heavily in fast, casual speech."
+ },
+ {
+  "key": "107e4ac5-8018-439e-bee5-e3c81375a077|explain",
+  "en": "Longer phrases link across every word boundary, not just the first pair — practise the whole chain."
+ },
+ {
+  "key": "3ed6e94c-ec7d-48c4-9c10-fa7bb2d1b99d|explain",
+  "en": "'Going to' before a verb almost always links and reduces in natural speech."
+ },
+ {
+  "key": "b89d5678-50c4-49ad-90c3-d524a59d5f64|explain",
+  "en": "Very common greeting phrases are almost always run together in natural speech."
+ },
+ {
+  "key": "9208f432-8d61-4360-9fbf-0c064286c40d|explain",
+  "en": "The final 's' sound links smoothly into the next word's vowel, just like any other consonant."
+ },
+ {
+  "key": "49e0862f-27ab-4beb-93b0-3503440e646a|explain",
+  "en": "Put it all together — link, reduce and contract naturally across a whole mini-paragraph."
+ },
+ {
+  "key": "9c82dff7-06b2-486a-808c-44c80eb05f54|explain",
+  "en": "Unstressed 'him', 'her' and 'his' often drop the /h/ sound completely and link to the word before."
+ },
+ {
+  "key": "4cc2e2bd-1415-4c52-87c3-eb3da45c1d4f|explain",
+  "en": "Before certain consonants, /t/ is often replaced with a quick catch in the throat instead of a clear tongue-tap."
+ },
+ {
+  "key": "4cc2e2bd-1415-4c52-87c3-eb3da45c1d4f|note|0",
+  "en": "The /t/ becomes a glottal stop."
+ },
+ {
+  "key": "d7abc878-05f4-4bb1-8244-451e204dcc41|explain",
+  "en": "An -ing verb ending in a consonant sound links smoothly into a following vowel, just like any other word-final consonant."
+ },
+ {
+  "key": "888e1b8c-afd5-466c-93cf-569c309a0802|explain",
+  "en": "Dates link and reduce heavily in natural speech — 'of' almost disappears."
+ },
+ {
+  "key": "2e23bfb7-94e1-4faf-b400-1119f86e0ffa|explain",
+  "en": "Modal verbs followed by 'have' link and reduce so heavily that 'have' sounds like 'of' to many learners — that's just how it's linked, not actually spelled that way."
+ },
+ {
+  "key": "7d2f3af7-197f-4871-b6c9-2ab91561b3b6|explain",
+  "en": "Common weather phrases link smoothly across word boundaries just like any other everyday speech."
+ },
+ {
+  "key": "c3aa08ce-950e-4bfe-b1b8-361a2ee29488|explain",
+  "en": "Common office phone phrases link naturally across word boundaries — practise them as whole chunks."
+ },
+ {
+  "key": "43c90562-4c1b-4e1e-a829-5efcad49aa9b|explain",
+  "en": "A second full-paragraph challenge — link, reduce and contract across the whole thing."
+ },
+ {
+  "key": "74232c10-4282-445d-83b7-bf4c25639c79|explain",
+  "en": "'A lot of' is one of the most common linked phrases in English — practise it as a single unit."
+ },
+ {
+  "key": "2d3699de-a17f-4231-a6ac-7dfa51c0245b|explain",
+  "en": "Song lyrics are full of natural connected speech — great, memorable practice material."
+ },
+ {
+  "key": "14bb397c-22d2-47aa-946f-619fe5665d64|explain",
+  "en": "'Because' commonly reduces to 'cause' or 'cuz' in relaxed conversation, and links straight into the next word."
+ },
+ {
+  "key": "a616ef3d-a6da-4772-a62b-343c9866cbb9|explain",
+  "en": "Verb endings link into the next word exactly the same way noun endings do."
+ },
+ {
+  "key": "46bb07bf-c4c0-48c5-b000-5eba76f7e721|explain",
+  "en": "Real conversation links across every turn, not just within one speaker's sentence."
+ },
+ {
+  "key": "91ba5764-e6f4-425f-92e7-ec8b28b5c64e|explain",
+  "en": "'Them' frequently reduces to 'em (dropping the 'th') and links straight onto the verb before it."
+ },
+ {
+  "key": "c1fee02b-b34e-4adf-8cba-5f9bc1fea210|explain",
+  "en": "Numbers link into the noun that follows exactly like any consonant-to-vowel or consonant-to-consonant pair."
+ },
+ {
+  "key": "1e990405-9cd0-4b5a-9747-38f56cb63da5|explain",
+  "en": "Common location phrases link fully across every word boundary — practise them as one chunk."
+ },
+ {
+  "key": "3dd323eb-6664-4065-bcaa-a637122e4dd9|explain",
+  "en": "'There's' links tightly onto the word that follows, especially before 'a lot of'."
+ },
+ {
+  "key": "a0fd3aa5-e7a1-4596-b36e-7c5fae46ac5d|explain",
+  "en": "Negative contractions link straight into the next word just like any consonant ending."
+ },
+ {
+  "key": "b7248acb-8952-4da9-92c5-1cac591e08ba|explain",
+  "en": "'And' between number parts reduces to a quick /ən/ and links both sides together."
+ },
+ {
+  "key": "3b00ace6-072c-4af8-95e5-ba7cc9197be7|explain",
+  "en": "Excuse phrases are said fast and casually, with heavy linking and reduction."
+ },
+ {
+  "key": "121fc7a0-0ca6-4e09-b781-a5b250a5f901|explain",
+  "en": "These extremely common phrases reduce and link so much they barely resemble their spelling."
+ },
+ {
+  "key": "3f47c58e-355c-4561-8cb6-f9b97994af0c|explain",
+  "en": "Live commentary links almost every word together at high speed — great advanced listening/speaking practice."
+ },
+ {
+  "key": "5996ddbf-9117-4a4a-9151-511d8a1a744a|explain",
+  "en": "This whole obligation phrase links and reduces into a single fast chunk in natural speech."
+ },
+ {
+  "key": "1aba5c5d-241d-454a-8dd1-064ee9130cef|explain",
+  "en": "Unstressed 'your' often reduces to a quick 'yer' sound and links onto the next word."
+ },
+ {
+  "key": "1aba5c5d-241d-454a-8dd1-064ee9130cef|caution",
+  "en": "Very informal spoken only."
+ },
+ {
+  "key": "a954d279-fc02-4b47-a818-8b56fa06c496|explain",
+  "en": "Everyday offer phrases link smoothly across the whole sentence."
+ },
+ {
+  "key": "8355ed19-408d-46b3-bb5f-38de107b7725|explain",
+  "en": "'Used to' links tightly and reduces when telling stories about the past."
+ },
+ {
+  "key": "5a376e53-b485-4b63-97a3-8c539c1bae76|explain",
+  "en": "When a word ends and the next begins with a similar (not identical) sound, they still often blend rather than being said as two separate sounds."
+ },
+ {
+  "key": "bcf42e54-8442-42fe-9245-a3a316cdaf90|explain",
+  "en": "Common service-industry phrases link naturally across the whole sentence."
+ },
+ {
+  "key": "11580bfa-373e-4737-b60b-5ed6fc9f6168|explain",
+  "en": "One more full-paragraph challenge pulling together linking, elision, assimilation and weak forms all at once."
+ },
+ {
+  "key": "119a5dd5-7bf5-40c1-bc10-ea996ed3241e|explain",
+  "en": "This common linking phrase runs together into one smooth unit."
+ },
+ {
+  "key": "46aa6747-1aef-4059-8bdf-5024319b4f9b|explain",
+  "en": "'Except for' links tightly, with the final /t/ often barely released before 'for'."
+ },
+ {
+  "key": "b388a11c-6971-4185-8240-b61aa7595de5|explain",
+  "en": "Everyday planning phrases link and reduce heavily in relaxed conversation."
+ },
+ {
+  "key": "887f031f-29d1-4fee-9086-eda38317543f|explain",
+  "en": "Dramatic narration still links every word together — the drama is in the pacing, not gaps between words."
+ },
+ {
+  "key": "74dc0592-4c7e-4527-b055-fd836287957a|explain",
+  "en": "'Gonna' links the same way regardless of which pronoun comes before it."
+ },
+ {
+  "key": "804ae642-1804-4f8c-8b6c-b89f8562ac9c|explain",
+  "en": "One last full-sentence challenge mixing linking, weak forms and reductions together."
+ },
+ {
+  "key": "f0ccdf03-0d02-4a96-a493-e9ce68ca024d|explain",
+  "en": "One closing set combining consonant-vowel linking, elision and a weak form all in one line."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|explain",
+  "en": "Master connected speech across 50 targeted drills. Listen closely to the AI model, repeat, and record your voice to receive detailed real-time pronunciation scoring and feedback."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|point|0",
+  "en": "Focus on the rhythm, stress, and flow highlighted in each drill."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|point|1",
+  "en": "Listen to the reference model audio before each recording attempt."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|point|2",
+  "en": "Review your AI score and phoneme-level feedback to pinpoint areas for improvement."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|caution",
+  "en": "Do not rush through the drills; prioritize clarity, natural cadence, and accurate articulation."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|0",
+  "en": "Consonant-to-vowel: /n/ links directly into 'it' and 'on'."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|1",
+  "en": "Consonant /k/ links to 'it', and flap /t/ links into 'out'."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|2",
+  "en": "Chained consonant-to-vowel links create seamless flow."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|3",
+  "en": "Flap /t/ links into 'on'."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|4",
+  "en": "Pronoun reduction: the /h/ drops in rapid speech."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|5",
+  "en": "H-dropping: /k/ links directly into /ɜr/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|6",
+  "en": "/v/ links into 'it'; 'to' reduces to /tə/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|7",
+  "en": "Smooth linking of final consonants into vowels."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|8",
+  "en": "Classic British or American flap-linked phrase."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|9",
+  "en": "Seamless consonant-to-vowel cascade."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|10",
+  "en": "Intrusive /w/ smooths the transition between two rounded vowels."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|11",
+  "en": "Intrusive /w/ bridges /uː/ and /ɪ/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|12",
+  "en": "Insert a subtle /w/ glide between vowels."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|13",
+  "en": "Natural /w/ glide connects 'you' and 'are'."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|14",
+  "en": "Subtle /w/ glide avoids an abrupt glottal stop."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|15",
+  "en": "Intrusive /j/ bridges the high front vowels."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|16",
+  "en": "Natural /j/ glide between /iː/ and /æ/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|17",
+  "en": "Subtle /j/ glide prevents hiatus."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|18",
+  "en": "Diphthong /eɪ/ links via /j/ into /ə/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|19",
+  "en": "/j/ glide creates effortless continuity."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|20",
+  "en": "Twin consonant: hold the /n/ slightly longer without releasing twice."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|21",
+  "en": "Geminate /d/: stop the airflow once and release on 'day'."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|22",
+  "en": "Twin /k/: do not release the first /k/ before starting 'coffee'."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|23",
+  "en": "Twin /t/: one elongated closure, single release."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|24",
+  "en": "Twin /p/: hold the lips closed through both words."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|25",
+  "en": "Continuous /s/: elongate the friction seamlessly."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|26",
+  "en": "Twin /m/: hold the nasal murmur smoothly."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|27",
+  "en": "Single extended stop on the alveolar ridge."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|28",
+  "en": "Hold the closure on 'right' and release into 'turn'."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|29",
+  "en": "Twin /k/: hold velar closure without a separate burst."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|30",
+  "en": "Palatalization: /t/ + /j/ merges into /tʃ/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|31",
+  "en": "Palatalization: /d/ + /j/ merges into /dʒ/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|32",
+  "en": "/t/ + /j/ blends smoothly into /tʃ/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|33",
+  "en": "/d/ + /j/ blends into /dʒ/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|34",
+  "en": "/t/ + /j/ assimilation."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|35",
+  "en": "Rapid speech assimilation of /t/ and /j/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|36",
+  "en": "/d/ + /j/ blends into /dʒ/ in conversational speech."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|37",
+  "en": "/s/ + /j/ assimilates to /ʃ/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|38",
+  "en": "/s/ + /j/ becomes /ʃ/ in fast speech."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|39",
+  "en": "/t/ + /j/ palatalization across word boundary."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|40",
+  "en": "Elision: /t/ drops between consonants /s/ and /n/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|41",
+  "en": "Elision: /t/ is omitted between /ks/ and /d/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|42",
+  "en": "/t/ is elided before /tr/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|43",
+  "en": "/t/ disappears between /s/ and /f/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|44",
+  "en": "/d/ drops between nasal /n/ and dental /ð/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|45",
+  "en": "/d/ drops between /n/ and /r/ in rapid speech."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|46",
+  "en": "/t/ is dropped between /f/ and /m/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|47",
+  "en": "Consonant-to-vowel link with reduced 'a'."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|48",
+  "en": "Smooth link of final /p/ directly into initial /ə/."
+ },
+ {
+  "key": "56b8fa4f-5d83-43fe-8315-fd06df250f3d|note|49",
+  "en": "Consonant-to-vowel link /d/ into 'over'."
+ },
+ {
+  "key": "7cea9ef3-c1e1-4e63-a7d5-cd4a33e5f218|explain",
+  "en": "Comfortable conversational English is roughly 120–160 words a minute. Slower is fine; long silent gaps are what hurt."
+ },
+ {
+  "key": "7cea9ef3-c1e1-4e63-a7d5-cd4a33e5f218|point|0",
+  "en": "Speak in chunks, not word by word."
+ },
+ {
+  "key": "7cea9ef3-c1e1-4e63-a7d5-cd4a33e5f218|point|1",
+  "en": "Keep moving instead of restarting sentences."
+ },
+ {
+  "key": "9240b858-93ad-400f-bc09-c4f71da68c73|explain",
+  "en": "A short natural filler buys thinking time. Silence and 'uhhh' do not."
+ },
+ {
+  "key": "9240b858-93ad-400f-bc09-c4f71da68c73|point|0",
+  "en": "Thinking time: well… / let me think… / actually…"
+ },
+ {
+  "key": "9240b858-93ad-400f-bc09-c4f71da68c73|point|1",
+  "en": "Softening: I mean… / you know… / basically…"
+ },
+ {
+  "key": "9240b858-93ad-400f-bc09-c4f71da68c73|point|2",
+  "en": "Linking: so / because of that / on top of that / that's why"
+ },
+ {
+  "key": "9240b858-93ad-400f-bc09-c4f71da68c73|caution",
+  "en": "Use one filler, not five. Repeating 'you know' every sentence lowers your score in speaking exams."
+ },
+ {
+  "key": "db752a0e-b244-4c65-a10b-aefa648bc63c|explain",
+  "en": "Fluent speakers correct themselves without stopping completely — a small phrase bridges the fix."
+ },
+ {
+  "key": "db752a0e-b244-4c65-a10b-aefa648bc63c|point|0",
+  "en": "I mean..."
+ }
+]

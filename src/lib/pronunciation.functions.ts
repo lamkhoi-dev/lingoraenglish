@@ -3,7 +3,7 @@ import { and, asc, desc, eq, isNotNull } from "drizzle-orm";
 import { z } from "zod";
 
 import { withAdmin, withUser } from "@/db";
-import { pronunciationAttempts, pronunciationLessons, pronunciationScores } from "@/db/schema/schema";
+import { pronunciationAttempts, pronunciationLessons, pronunciationLessonTexts, pronunciationScores } from "@/db/schema/schema";
 import { getLimits, resolveTier, TIER_RANK, UpgradeRequiredError } from "@/lib/entitlements.server";
 import type { Phoneme } from "@/lib/pronunciation-content";
 import { findSoundIndex, isSoundIndexFree, PHONEMES, SOUND_COUNT } from "@/lib/pronunciation-sounds.server";
@@ -86,7 +86,9 @@ export type SkillLessonCatalogueEntry = {
  * `isFree` is an explicit per-row column (set at load/seed time or toggled
  * by an admin), not a live position-based rank — evaluatePronunciation's
  * lessonId gate reads the same column directly, so the two never disagree. */
-export const getSkillLessonsCatalogue = createServerFn({ method: "GET" }).handler(async () => {
+export const getSkillLessonsCatalogue = createServerFn({ method: "GET" })
+  .inputValidator((d: unknown) => z.object({ locale: z.string().max(12).optional() }).default({}).parse(d))
+  .handler(async ({ data }) => {
   const userId = await getOptionalUserId();
   const tier = userId ? await resolveTier(userId) : "free";
   const premium = TIER_RANK[tier] >= TIER_RANK.premium;
@@ -109,6 +111,19 @@ export const getSkillLessonsCatalogue = createServerFn({ method: "GET" }).handle
       .where(eq(pronunciationLessons.status, "published"))
       .orderBy(asc(pronunciationLessons.skill), asc(pronunciationLessons.sortOrder)),
   );
+  // Learner-language texts (explain / points / caution / item notes). Only
+  // fetched for a non-English locale; any missing row falls back to the
+  // English already on the lesson. Locked lessons never get text at all.
+  const tr = new Map<string, string>();
+  if (data.locale && data.locale !== "en") {
+    const trRows = await withAdmin((db) =>
+      db
+        .select({ key: pronunciationLessonTexts.textKey, value: pronunciationLessonTexts.value })
+        .from(pronunciationLessonTexts)
+        .where(eq(pronunciationLessonTexts.locale, data.locale!)),
+    );
+    for (const r of trRows) tr.set(r.key, r.value);
+  }
   return rows.map((l): SkillLessonCatalogueEntry => {
     const unlocked = premium || l.isFree;
     const base = {
@@ -121,11 +136,20 @@ export const getSkillLessonsCatalogue = createServerFn({ method: "GET" }).handle
       unlocked,
     };
     if (unlocked) {
-      return { ...base, explain: l.explain, points: l.points, items: l.items as SkillLessonItem[], caution: l.caution };
+      return {
+        ...base,
+        explain: tr.get(`${l.id}|explain`) ?? l.explain,
+        points: l.points.map((p, i) => tr.get(`${l.id}|point|${i}`) ?? p),
+        items: (l.items as SkillLessonItem[]).map((it, i) => {
+          const note = tr.get(`${l.id}|note|${i}`) ?? it.note;
+          return note ? { ...it, note } : it;
+        }),
+        caution: tr.get(`${l.id}|caution`) ?? l.caution,
+      };
     }
     return { ...base, explain: "", points: [], items: [], caution: "" };
   });
-});
+  });
 
 /** /pronunciation page's own-progress panel: recent scored attempts (for the
  * per-skill averages) plus every per-sound score (for "weak sounds"). */

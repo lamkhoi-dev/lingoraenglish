@@ -1,0 +1,1002 @@
+[
+  {
+    "key": "32c7dc70-a486-4d9c-8fb8-e9696206713d|note|43",
+    "text": "'can' -> /kən/; 'for' -> /fər/; 'you' -> /jə/."
+  },
+  {
+    "key": "32c7dc70-a486-4d9c-8fb8-e9696206713d|note|44",
+    "text": "'as' -> /əz/; 'can' -> /kən/."
+  },
+  {
+    "key": "32c7dc70-a486-4d9c-8fb8-e9696206713d|note|45",
+    "text": "'as' -> /əz/; 'his' -> /ɪz/ không có /h/."
+  },
+  {
+    "key": "32c7dc70-a486-4d9c-8fb8-e9696206713d|note|46",
+    "text": "'do they' -> /dðeɪ/; 'it is' -> /ɪdɪz/."
+  },
+  {
+    "key": "32c7dc70-a486-4d9c-8fb8-e9696206713d|note|47",
+    "text": "'does she' -> /dʃiː/; 'want to' -> 'wanna'."
+  },
+  {
+    "key": "32c7dc70-a486-4d9c-8fb8-e9696206713d|note|48",
+    "text": "'has he' mất /h/ và giảm thành /æzi/."
+  },
+  {
+    "key": "32c7dc70-a486-4d9c-8fb8-e9696206713d|note|49",
+    "text": "'has been' rút gọn và giảm thành /ɪts bɪn/."
+  },
+  {
+    "key": "37887219-2d18-4d42-a4ac-8cc5c1ade629|explain",
+    "text": "Các âm tiết được nhấn rơi vào một nhịp đều đặn. Những âm tiết yếu ở giữa bị nén lại để giữ đúng nhịp."
+  },
+  {
+    "key": "37887219-2d18-4d42-a4ac-8cc5c1ade629|point|0",
+    "text": "Gõ xuống bàn ở mỗi chữ cái in hoa."
+  },
+  {
+    "key": "37887219-2d18-4d42-a4ac-8cc5c1ade629|point|1",
+    "text": "Giữ các nhịp đều nhau, dù có bao nhiêu từ nhỏ nằm giữa chúng."
+  },
+  {
+    "key": "23da4a75-6c02-4c85-a80b-20d40101f380|explain",
+    "text": "Nhại theo những câu này và bắt chước nhịp điệu trước khi bạn lo về từng âm riêng lẻ."
+  },
+  {
+    "key": "23da4a75-6c02-4c85-a80b-20d40101f380|point|0",
+    "text": "Giữ những từ yếu nhanh và nhỏ."
+  },
+  {
+    "key": "23da4a75-6c02-4c85-a80b-20d40101f380|point|1",
+    "text": "Đừng thêm khoảng dừng sau mỗi từ."
+  },
+  {
+    "key": "58744205-18fb-498e-9b21-9e4389c8e462|explain",
+    "text": "Một câu có nhiều từ hơn vẫn có thể có cùng số nhịp — đó là ý tưởng then chốt của nhịp điệu theo trọng âm."
+  },
+  {
+    "key": "2837473b-9805-4280-987d-fb992055bd49|explain",
+    "text": "Những câu líu lưỡi buộc bạn giữ nhịp đều đặn ngay cả khi các âm khó — hãy chậm lại trước khi tăng tốc."
+  },
+  {
+    "key": "eab4bb4e-6192-4bff-92a3-4d1cc4a84b24|explain",
+    "text": "Ngay cả một câu trả lời ngắn cũng có nhịp tự nhiên — đừng nói mọi từ với lực như nhau."
+  },
+  {
+    "key": "eed67e01-487d-4051-a27a-8e4dc442e2a6|explain",
+    "text": "Đọc số hoặc một danh sách vẫn giữ nhịp đều đặn trên mỗi mục được nhấn."
+  },
+  {
+    "key": "9d0aadd6-aef1-4acf-8d42-d3667e309509|explain",
+    "text": "Những vần điệu đơn giản có nhịp rõ ràng, phóng đại — rất tốt để xây dựng cảm giác về nhịp điệu theo trọng âm."
+  },
+  {
+    "key": "905b87de-5d0f-4c69-a8fa-b7b72926f8b9|explain",
+    "text": "Những câu dài hơn vẫn giữ cảm giác nhịp điệu theo trọng âm — những từ yếu giữa các nhịp chỉ di chuyển nhanh hơn."
+  },
+  {
+    "key": "b2a68498-fac4-4354-91f7-104da1d20dbc|explain",
+    "text": "Câu hỏi giữ cùng nhịp điệu theo trọng âm như câu kể — từ để hỏi và các từ nội dung chính mang nhịp điệu."
+  },
+  {
+    "key": "fc210183-f69b-4498-8378-028ca9a7fe39|explain",
+    "text": "Bài luyện tăng dần kinh điển: những nhịp cốt lõi vẫn đều đặn khi bạn thêm nhiều từ nhỏ xung quanh chúng."
+  },
+  {
+    "key": "9e1aede4-5804-4c9f-897f-3505102e099c|explain",
+    "text": "Thành ngữ có nhịp điệu cố định, ngân nga như một khối hoàn chỉnh — hãy nói chúng như một đơn vị nhịp nhàng."
+  },
+  {
+    "key": "fbe586f4-d573-4e38-b0bb-52c636a74483|explain",
+    "text": "Khẩu hiệu được viết để có nhịp dễ nhớ, rất đều đặn — bài luyện nhịp điệu tuyệt vời và đáng nhớ."
+  },
+  {
+    "key": "80e9ffbd-68e8-41ad-9a55-5745454ef17a|explain",
+    "text": "Trong các ngôn ngữ theo nhịp âm tiết, mỗi âm tiết mất khoảng thời gian bằng nhau; tiếng Anh theo nhịp trọng âm, nên chỉ những âm tiết được nhấn mới cách đều nhau và mọi thứ khác tăng tốc hoặc chậm lại để phù hợp."
+  },
+  {
+    "key": "80e9ffbd-68e8-41ad-9a55-5745454ef17a|point|0",
+    "text": "Đây là lý do tiếng Anh có thể nghe 'nhanh' ở những phần không được nhấn và 'chậm' ở những từ được nhấn. (slow, fast)"
+  },
+  {
+    "key": "6825a816-7cc1-4f44-a2af-6b80c2aa6a88|explain",
+    "text": "Các bài phát biểu ngắn và lời chúc rượu sử dụng nhịp điệu chậm rãi, có chủ đích, đều đặn để tạo hiệu quả."
+  },
+  {
+    "key": "f6bd0e3d-ade3-478d-a090-e7eec4f8ee25|explain",
+    "text": "Một bài tập thể chất đơn giản: chỉ vỗ tay vào các âm tiết được nhấn trọng âm trong khi nói câu, giữ tiếng vỗ tay hoàn toàn đều nhau."
+  },
+  {
+    "key": "8d06f202-12ef-4951-9d04-723a05b58bb1|explain",
+    "text": "Hội thoại nhanh thực tế vẫn giữ nhịp trọng âm ổn định dù nhiều từ nhỏ bị nén vào giữa."
+  },
+  {
+    "key": "5b189896-0a99-43db-8bde-0f194f9d530a|explain",
+    "text": "Thơ ca thường có nhịp điệu rất có chủ đích, đều đặn — một cách tuyệt vời để cảm nhận rõ nhịp điệu theo trọng âm."
+  },
+  {
+    "key": "e99ca5c6-2f60-4613-85ef-0ad63f09f94c|explain",
+    "text": "Cùng một cấu trúc câu có thể nghe hào hứng hoặc bình tĩnh chỉ bằng cách thay đổi tốc độ giữa các nhịp, không phải bản thân các nhịp."
+  },
+  {
+    "key": "de3528ac-12f4-45ea-b333-98d80ad87ba0|explain",
+    "text": "Chào hỏi ai đó bằng tên giữ nhịp điệu hai nhịp tự nhiên."
+  },
+  {
+    "key": "4ec1706a-ecc3-4260-ba65-01f82384221a|explain",
+    "text": "Đưa ra một quan điểm dứt khoát sử dụng nhịp mạnh hơn, dứt khoát hơn trên các từ khóa so với hội thoại thông thường."
+  },
+  {
+    "key": "bb0d3632-8a91-4262-a9a2-e49c8fcd024b|explain",
+    "text": "Đọc một chuỗi số giữ nhịp nhẹ, đều trên mỗi chữ số hoặc nhóm số."
+  },
+  {
+    "key": "f7a914cd-6196-4cbe-9111-ddeec94dee22|explain",
+    "text": "Các cụm từ dịch vụ có nhịp điệu thân thiện, đều đặn, chào đón."
+  },
+  {
+    "key": "5b0347f2-062d-4dfd-aa67-75867bed5a0d|explain",
+    "text": "Lặp lại cùng một câu ngắn năm lần, giữ nhịp hoàn toàn giống nhau mỗi lần — xây dựng khả năng kiểm soát nhịp điệu tự động."
+  },
+  {
+    "key": "d3fa70d1-1008-4c30-a8c6-418f61ff6c5f|explain",
+    "text": "Bản tin thời tiết có nhịp điệu nhanh, chuyên nghiệp, đều đặn."
+  },
+  {
+    "key": "a84020fb-902a-41a7-9e7a-a5523a131e39|explain",
+    "text": "Cùng một thông điệp giữ nhịp điệu theo trọng âm ở cả hai phong cách, nhưng lời nói thân mật nén các từ yếu nhiều hơn."
+  },
+  {
+    "key": "3a700d29-5193-47fc-a056-26b9b1ef7583|explain",
+    "text": "Những câu líu lưỡi khó hơn kiểm tra xem bạn có thể giữ nhịp ổn định ngay cả khi các âm riêng lẻ khó không."
+  },
+  {
+    "key": "84ec965f-393a-45cc-a6da-2df8b61cfb17|explain",
+    "text": "Luyện tập giữ nhịp tự nhiên xuyên suốt một cuộc trao đổi qua lại hoàn chỉnh, không chỉ một câu."
+  },
+  {
+    "key": "35ef36eb-21f2-4b5e-bc5f-587978092b46|explain",
+    "text": "Các mệnh lệnh ngắn giữ nhịp mạnh, đều trên mỗi từ khóa."
+  },
+  {
+    "key": "9595f308-42c1-48d7-a50b-032a1087c2c9|explain",
+    "text": "Đọc các món trong thực đơn giữ nhịp nhẹ, đều trên mỗi tên món."
+  },
+  {
+    "key": "26a471ad-bfa0-458b-8e6e-7f13f5bfcaf4|explain",
+    "text": "Các bài hát thiếu nhi có nhịp điệu cường điệu, siêu đều đặn — hoàn hảo để cảm nhận nhịp điệu theo trọng âm."
+  },
+  {
+    "key": "8009dff8-bbd3-489e-931a-5cc9216391e8|explain",
+    "text": "Luyện tập giữ nhịp đều ngay cả khi một từ được nhấn trọng âm thêm để tạo sự tương phản."
+  },
+  {
+    "key": "ec8806a9-e3b6-4d4c-9d3f-41488659a00a|explain",
+    "text": "Lời nói lưu loát thực tế kết hợp nhịp điệu ổn định với các từ được nối âm, giảm âm giữa các nhịp."
+  },
+  {
+    "key": "689ca526-7140-4982-b7f3-9fb91eade14a|explain",
+    "text": "Những câu thoại phim kinh điển có nhịp điệu rất có chủ đích, dễ nhớ — tài liệu luyện tập tuyệt vời và thú vị."
+  },
+  {
+    "key": "93bcce1e-e9b7-4b88-8c61-7bdf363b6deb|explain",
+    "text": "Bài phát biểu truyền động lực thường tăng tốc và mạnh hơn ở các nhịp khi tiến dần đến phần kết."
+  },
+  {
+    "key": "8226101c-fcf1-4fd6-a265-4e7e06acc6d1|explain",
+    "text": "Các câu hô, khẩu hiệu sử dụng nhịp điệu rất đơn giản, lặp lại, vững như đá."
+  },
+  {
+    "key": "5922001b-6484-4846-91ab-5d6968f44a85|explain",
+    "text": "Các cụm từ điệp âm đầu (lặp lại âm bắt đầu) vẫn tuân theo cùng quy tắc nhịp điệu theo trọng âm."
+  },
+  {
+    "key": "3ca06cf5-723a-4164-b991-7bca05c5bd99|explain",
+    "text": "Thuyết minh bản đồ thời tiết có nhịp điệu nhanh, kiểu liệt kê, di chuyển từ vùng này sang vùng khác."
+  },
+  {
+    "key": "45642f39-6b74-42e4-b8ef-b83aa98e7f7b|explain",
+    "text": "Các bước công thức nấu ăn có nhịp điệu bình tĩnh, đều đặn, dẫn dắt người nghe qua từng hành động."
+  },
+  {
+    "key": "edc166d1-b22a-49a9-af4d-0a7f8b1667cc|explain",
+    "text": "Ngay cả khi có khoảng nghỉ giữa các cụm từ, nhịp điệu bên trong mỗi cụm vẫn phải đều đặn và ổn định."
+  },
+  {
+    "key": "67f0acc3-d7cd-4264-bd71-920dbe6b6669|explain",
+    "text": "Lời khen giữ nhịp ấm áp, đều đặn trên phẩm chất được khen ngợi."
+  },
+  {
+    "key": "a3c1806d-487c-4a0f-9f36-60c1bc8120bf|explain",
+    "text": "Đếm đồ vật thành tiếng tự nhiên rơi vào nhịp nhẹ nhàng, đều đặn."
+  },
+  {
+    "key": "dd0c00fe-bbbc-4659-9128-0510c502b8a2|explain",
+    "text": "Mô tả lịch trình giữ nhịp đều đặn trên từng mốc thời gian và hoạt động."
+  },
+  {
+    "key": "3e002123-3541-431f-9e6d-2dbf5eda669b|explain",
+    "text": "Phản hồi nhanh có một nhịp mạnh, dứt khoát duy nhất."
+  },
+  {
+    "key": "4959fa71-73b4-43e2-9096-2ae38c5928b4|explain",
+    "text": "Ngay cả câu trả lời một hay hai từ cũng mang nhịp rõ ràng, không phải lẩm bẩm đều đều."
+  },
+  {
+    "key": "9c546bc9-ade0-4b9a-97fa-cb2f7a8bcaca|explain",
+    "text": "Quảng cáo radio dùng nhịp tràn đầy năng lượng, mạnh mẽ, rất đều đặn để dễ nhớ."
+  },
+  {
+    "key": "fa1d3758-3a12-402c-9ebc-c266327e1231|explain",
+    "text": "Bắt đầu chỉ với từ được nhấn trọng âm, rồi xây dựng lại cả câu xung quanh nó, giữ nguyên nhịp của từ đó."
+  },
+  {
+    "key": "03c2e100-23c0-4dac-88ef-87907a157862|explain",
+    "text": "Lời xin lỗi chân thành giữ nhịp chậm, đều đặn, ổn định — nói vội có thể nghe không thật lòng."
+  },
+  {
+    "key": "9d392891-1813-4d33-b066-dc7a209887c2|explain",
+    "text": "Tiêu đề tin tức được đọc với nhịp rõ ràng, tự tin, cách đều nhau trên các sự kiện chính."
+  },
+  {
+    "key": "2321a148-fc9c-4d14-80d9-5a4012d19e8d|explain",
+    "text": "Câu trả lời ngắn cộng thêm chi tiết nhanh vẫn giữ một nhịp điệu liền mạch, đều đặn."
+  },
+  {
+    "key": "74db33a8-d846-4236-8a0a-e15e44da4945|explain",
+    "text": "Bài phát biểu tạm biệt ấm áp dùng nhịp chậm, đều, chân thành, tương tự như lời chúc rượu."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|explain",
+    "text": "Thành thạo nhịp điệu qua 50 bài luyện tập có mục tiêu. Nghe kỹ mẫu AI, lặp lại và ghi âm giọng bạn để nhận chấm điểm và phản hồi phát âm chi tiết theo thời gian thực."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|point|0",
+    "text": "Tập trung vào nhịp điệu, trọng âm và dòng chảy được làm nổi bật trong mỗi bài luyện tập."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|point|1",
+    "text": "Nghe âm thanh mẫu tham chiếu trước mỗi lần ghi âm."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|point|2",
+    "text": "Xem lại điểm AI và phản hồi ở cấp độ âm vị để xác định chính xác điểm cần cải thiện."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|caution",
+    "text": "Đừng vội vàng qua các bài luyện tập; hãy ưu tiên sự rõ ràng, nhịp điệu tự nhiên và phát âm chính xác."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|0",
+    "text": "Ba nhịp nội dung liên tiếp: khoảng cách đều nhau giữa các nhịp."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|1",
+    "text": "Các từ ngữ pháp bị nén lại để ba nhịp giữ đúng thời gian đều nhau."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|2",
+    "text": "Ba nhịp ngắt dứt khoát ở các quãng âm nhạc không đổi."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|3",
+    "text": "Các âm tiết không nhấn trọng âm bị ép vào nhịp độ."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|4",
+    "text": "Nhịp ba phách chậm, có chủ đích."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|5",
+    "text": "Duy trì khoảng thời gian giống hệt nhau giữa các đỉnh trọng âm."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|6",
+    "text": "Ba nhịp mạnh, đều nhau."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|7",
+    "text": "Chú ý cách 'was', 'a-way', 'so' được nói nhanh hơn để giữ nhịp."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|8",
+    "text": "Ba âm tiết nội dung nặng."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|9",
+    "text": "Nhịp điệu đều đặn dù có nhiều âm tiết."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|10",
+    "text": "Ba đỉnh trọng âm vang."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|11",
+    "text": "Giữ máy đếm nhịp gõ đều qua các phách."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|12",
+    "text": "Bốn phách: tiến triển âm nhạc đều đặn."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|13",
+    "text": "Nén các âm tiết không mang trọng âm mà không vội vàng các phách chính."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|14",
+    "text": "Phách trọng âm ba âm tiết."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|15",
+    "text": "Các trọng âm tập trung theo sau là sự giảm lược nhanh."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|16",
+    "text": "Ba phách búa đơn âm tiết."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|17",
+    "text": "Chú ý cách 'had been' và 'unusually' lướt giữa các phách."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|18",
+    "text": "Ba phách nguyên âm nặng."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|19",
+    "text": "Khoảng cách đều nhau giữa các âm tiết nổi bật."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|20",
+    "text": "Ba nhịp đập nhịp điệu."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|21",
+    "text": "Sự tăng tốc theo nhịp trọng âm của các âm tiết yếu."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|22",
+    "text": "Ba phách nội dung."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|23",
+    "text": "Các từ đa âm tiết bị nén giữa các đỉnh."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|24",
+    "text": "Ba phách chuông vang."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|25",
+    "text": "Cảm nhận các đỉnh và thung lũng xen kẽ."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|26",
+    "text": "Bốn phách mùa thu cách đều nhau."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|27",
+    "text": "Giữ nhịp điệu ổn định dù có thêm từ."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|28",
+    "text": "Bốn phách mạnh."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|29",
+    "text": "Chuyển đổi nhịp chân mượt mà qua các âm tiết."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|30",
+    "text": "Ba phách cốt lõi."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|31",
+    "text": "Nhiều trọng âm được nhóm lại với nhau một cách tự nhiên."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|32",
+    "text": "Ba đỉnh sóng năng động."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|33",
+    "text": "Sự nén nhanh các âm tiết chức năng không được nhấn trọng âm."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|34",
+    "text": "Ba nhịp rõ ràng."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|35",
+    "text": "Nhịp điệu theo trọng âm: độ dài của cụm từ khớp với số nhịp, không phải số âm tiết."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|36",
+    "text": "Ba nhịp đập cơ bản."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|37",
+    "text": "Sự cân bằng nhịp nhàng giữa các đỉnh nội dung."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|38",
+    "text": "Bốn nhịp đều đặn."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|39",
+    "text": "Hãy chú ý cách các âm tiết mở rộng và nén lại một cách tự nhiên."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|40",
+    "text": "Bốn nhịp ấm áp."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|41",
+    "text": "Giữ năng lượng giọng nói tập trung vào các âm tiết được nhấn trọng âm."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|42",
+    "text": "Bốn nhịp bay bổng."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|43",
+    "text": "Nhịp điệu đều đặn qua các độ dài cụm từ khác nhau."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|44",
+    "text": "Bốn nhịp đơn âm nặng."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|45",
+    "text": "Cảm nhận nhịp lắc lư đều đặn như con lắc của nhịp điệu tiếng Anh."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|46",
+    "text": "Bốn nhịp êm ái."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|47",
+    "text": "Dòng chảy nhịp điệu theo trọng âm hoàn hảo từ đầu đến cuối."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|48",
+    "text": "Ba nhịp trọng âm mạnh mẽ."
+  },
+  {
+    "key": "187a52ef-b595-4216-8053-6fe2e6e69b6f|note|49",
+    "text": "Các từ đa âm tiết được nén vào nhịp đều đặn."
+  },
+  {
+    "key": "3b8e35ae-bda9-4611-b6dd-29dddf5e4ef8|explain",
+    "text": "Tiếng Anh có nhịp điệu theo trọng âm: bạn nhấn trọng âm vào những từ mang nghĩa và nén những từ còn lại."
+  },
+  {
+    "key": "3b8e35ae-bda9-4611-b6dd-29dddf5e4ef8|point|0",
+    "text": "Mạnh: danh từ, động từ chính, tính từ, trạng từ, từ để hỏi."
+  },
+  {
+    "key": "3b8e35ae-bda9-4611-b6dd-29dddf5e4ef8|point|1",
+    "text": "Yếu: mạo từ, giới từ, trợ động từ, đại từ."
+  },
+  {
+    "key": "e86baca8-3c65-4aa2-b95d-5a5d16726097|explain",
+    "text": "Di chuyển từ được nhấn mạnh nhất và thông điệp thay đổi hoàn toàn. Hãy nói từng dòng và nghe nghĩa mới."
+  },
+  {
+    "key": "e86baca8-3c65-4aa2-b95d-5a5d16726097|point|0",
+    "text": "Nhấn trọng âm vào từ bạn muốn sửa hoặc nhấn mạnh."
+  },
+  {
+    "key": "e86baca8-3c65-4aa2-b95d-5a5d16726097|point|1",
+    "text": "Mọi thứ xung quanh nó trở nên yếu hơn."
+  },
+  {
+    "key": "e86baca8-3c65-4aa2-b95d-5a5d16726097|note|0",
+    "text": "Tôi phủ nhận đã nói điều đó."
+  },
+  {
+    "key": "e86baca8-3c65-4aa2-b95d-5a5d16726097|note|1",
+    "text": "Có thể tôi đã ám chỉ điều đó."
+  },
+  {
+    "key": "e86baca8-3c65-4aa2-b95d-5a5d16726097|note|2",
+    "text": "Người khác đã làm."
+  },
+  {
+    "key": "e86baca8-3c65-4aa2-b95d-5a5d16726097|note|3",
+    "text": "Cô ấy đã lấy thứ gì đó khác."
+  },
+  {
+    "key": "1cd0bf79-5ad4-42b1-875a-e6e8ab878bc6|explain",
+    "text": "Trong câu hỏi WH-, bản thân từ để hỏi thường được nhấn mạnh."
+  },
+  {
+    "key": "1474f43d-0675-48c4-a175-166cbab90b31|explain",
+    "text": "Khi so sánh hai thứ, hãy nhấn mạnh từ thể hiện sự khác biệt."
+  },
+  {
+    "key": "46c0ee95-5af2-4d59-82a4-21fbe870e58c|explain",
+    "text": "Trong hội thoại, thông tin mới nhất thường là từ được nhấn mạnh nhất — thông tin đã biết sẽ được nhấn nhẹ hơn."
+  },
+  {
+    "key": "27b6f8a8-9575-45aa-a8f1-7d25ceb33ca6|explain",
+    "text": "Từ phủ định (not / never / n't) thường được nhấn mạnh để làm rõ sự phủ nhận."
+  },
+  {
+    "key": "6495f609-172c-41b7-b938-9f19747834fe|explain",
+    "text": "Ngay cả những lời yêu cầu lịch sự, nói nhẹ nhàng vẫn giữ trọng âm rõ ràng trên các từ mang nội dung."
+  },
+  {
+    "key": "1b535146-aabb-440e-825c-9aeeb718b0fb|explain",
+    "text": "Các động từ khiếm khuyết như can, should và must thường được đọc nhẹ — nhưng khi nhấn mạnh chúng, nghĩa sẽ thay đổi để thêm sự chắc chắn hoặc ngạc nhiên."
+  },
+  {
+    "key": "1b535146-aabb-440e-825c-9aeeb718b0fb|note|0",
+    "text": "Lời khuyên trung lập."
+  },
+  {
+    "key": "1b535146-aabb-440e-825c-9aeeb718b0fb|note|1",
+    "text": "Khuyến nghị mạnh mẽ, có thể là một lời cảnh báo."
+  },
+  {
+    "key": "1b535146-aabb-440e-825c-9aeeb718b0fb|note|2",
+    "text": "Ngạc nhiên — tôi không ngờ điều đó."
+  },
+  {
+    "key": "02c078ad-392c-47a2-bd2b-a8b57437a213|explain",
+    "text": "Luyện tập trọng âm trên những câu giao tiếp xã giao thông dụng mà bạn sẽ nói hàng ngày."
+  },
+  {
+    "key": "ad621cea-484d-4454-bfaf-0454b249c8bc|explain",
+    "text": "Trong câu so sánh hơn, cả tính từ và từ so sánh thường đều được nhấn mạnh."
+  },
+  {
+    "key": "1f9e06bd-e3cf-4a36-b22d-3f42edf33f3d|explain",
+    "text": "Các cụm từ nêu ý kiến mang trọng âm trên từ thể hiện ý kiến chính, không phải trên 'I think'."
+  },
+  {
+    "key": "c7989fb5-c7e1-4791-9755-197da570062c|explain",
+    "text": "Tiếng Anh qua điện thoại có bộ cụm từ được nhấn mạnh thông dụng riêng."
+  },
+  {
+    "key": "c5892618-189f-452a-b0a0-9609d0736321|explain",
+    "text": "Việc chỉ đường dựa vào trọng âm rõ ràng để người nghe nắm được các địa标 và chỗ rẽ quan trọng."
+  },
+  {
+    "key": "fabb01b9-6e2c-4efd-9ad9-b1cd8c273633|explain",
+    "text": "Khi bạn không hiểu, hãy nhấn mạnh từ để hỏi hoặc phần bạn đã bỏ lỡ."
+  },
+  {
+    "key": "b6999410-33b8-414a-bb6a-ce0a9906a2de|explain",
+    "text": "'Too' và 'either' ở cuối câu thường có nhịp nhấn mạnh riêng."
+  },
+  {
+    "key": "4ae92581-9fb9-44a6-a539-a2e8ef2f9a6c|explain",
+    "text": "Tiếng Anh phỏng vấn cần trọng âm tự tin, rõ ràng trên những điểm mạnh nhất của bạn."
+  },
+  {
+    "key": "4cf75c75-95b5-4b06-b81a-d6fa63ecdf98|explain",
+    "text": "Khi bạn sửa lỗi cho mình hoặc cho người khác, từ được sửa sẽ được nhấn mạnh thêm."
+  },
+  {
+    "key": "3bee0750-505f-4f3b-bc47-d4dcfedc831e|explain",
+    "text": "Tiếng Anh mua sắm — hãy luyện trọng âm rõ ràng để bạn được hiểu ở quầy thu ngân hoặc trong phòng thử đồ."
+  },
+  {
+    "key": "4ada680f-6b73-4882-b25c-7ab5480c38a5|explain",
+    "text": "Đại từ phản thân dùng để nhấn mạnh ('I did it myself') luôn được nhấn mạnh."
+  },
+  {
+    "key": "7fa2f980-8da4-4188-94a9-45b9fda5cc27|explain",
+    "text": "Những chỉ dẫn mệnh lệnh rõ ràng dựa vào trọng âm để nghe tự tin và dễ làm theo."
+  },
+  {
+    "key": "bd5a9a06-43c6-463c-a3e1-13de43b03a46|explain",
+    "text": "Các cụm từ xin lỗi vẫn cần trọng âm đúng để nghe chân thành, không đều đều."
+  },
+  {
+    "key": "2caefb2b-02ff-4d38-b199-a775b4ab20f6|explain",
+    "text": "Khi đưa ra giá cả, ngày tháng hoặc số lượng, bản thân con số hầu như luôn là từ được nhấn mạnh nhất."
+  },
+  {
+    "key": "e3f67616-d36f-4cd8-bc95-e835bc3a650b|explain",
+    "text": "Kể chuyện hay là nhấn mạnh trọng âm vào những từ gây kịch tính hoặc bất ngờ nhất."
+  },
+  {
+    "key": "9020f30b-9d89-4627-bbf9-7fd498f2192d|explain",
+    "text": "'Even' tạo sự bất ngờ, và từ ngay sau nó thường mang trọng âm mạnh nhất."
+  },
+  {
+    "key": "51b91a51-03b0-408f-9c47-1af2a7f861cd|explain",
+    "text": "Trong câu 'if', hãy nhấn trọng âm vào điều kiện và kết quả — các từ nối vẫn giữ yếu."
+  },
+  {
+    "key": "b7746d4a-65cd-4438-8b39-1cc17791e899|explain",
+    "text": "Các động từ tường thuật (said, told, asked) thường yếu — nội dung thông báo thực sự mới mang trọng âm."
+  },
+  {
+    "key": "67c494f4-7904-44c8-ab6c-1e7a33e8a36d|explain",
+    "text": "Các cụm từ gợi ý nhấn trọng âm vào hoạt động được gợi ý, không phải vào khung câu gợi ý."
+  },
+  {
+    "key": "8ac0ff1c-d59e-4940-a75b-a3d793b9e495|explain",
+    "text": "Kế hoạch và dự định nhấn trọng âm vào hoạt động và mốc thời gian."
+  },
+  {
+    "key": "1bbdd2b1-58b3-419b-a066-b694ea71cb4a|explain",
+    "text": "Khi nói về trải nghiệm quá khứ, nhấn trọng âm vào sự kiện và các mốc thời gian, thường gặp trong IELTS Speaking Part 2."
+  },
+  {
+    "key": "2c87be0f-b17b-4153-8140-07503a5cef35|explain",
+    "text": "Động từ chỉ cảm xúc và điều bạn thích hoặc không thích thường đều được nhấn trọng âm."
+  },
+  {
+    "key": "c3af169d-2090-44ee-9ced-4d02d8a70234|explain",
+    "text": "Các từ chỉ trình tự (first, then, after that, finally) có nhịp riêng khi giải thích một quy trình."
+  },
+  {
+    "key": "29ae865f-bc33-4b4a-857b-0c4d531720d6|explain",
+    "text": "Câu cân bằng ưu/nhược điểm nhấn rõ hai mặt đối lập, thường gặp trong câu trả lời thảo luận IELTS Part 3."
+  },
+  {
+    "key": "4b5c47bb-8105-4bd4-a393-c8f44006188c|explain",
+    "text": "Các cụm từ đồng ý và không đồng ý nhấn trọng âm vào từ khóa thể hiện quan điểm của bạn."
+  },
+  {
+    "key": "1cabaf94-3d3b-4bc0-b494-c43929b864c2|explain",
+    "text": "Khi gọi món, nhấn trọng âm vào tên món ăn và các yêu cầu cụ thể."
+  },
+  {
+    "key": "659a7cc2-b1c7-4c19-a90a-d9903dc3c385|explain",
+    "text": "Lời xin lỗi chân thành nhấn trọng âm vào lý do và chính từ xin lỗi."
+  },
+  {
+    "key": "57170823-0bd6-4707-be1f-3bb866cde208|explain",
+    "text": "Khi miêu tả người, nhấn trọng âm vào đặc điểm nổi bật mà bạn đang làm rõ."
+  },
+  {
+    "key": "bbd0fbef-d293-46b7-accf-a37921f6dc23|explain",
+    "text": "Các cụm từ khẩn cấp nhấn mạnh quá mức vào từ khóa chỉ nguy hiểm để người nghe phản ứng nhanh."
+  },
+  {
+    "key": "1b69aca9-b696-49e1-ac6c-15eb65b03eea|explain",
+    "text": "Các cụm từ về áp lực thời gian nơi công sở nhấn trọng âm vào hạn chót và hậu quả."
+  },
+  {
+    "key": "f3517334-1159-481f-8c5f-7a1939380b9c|explain",
+    "text": "Lời mời thân mật nhấn trọng âm vào hoạt động và thời gian, giữ yếu khung câu mời."
+  },
+  {
+    "key": "63d37400-f0c9-4d55-aa0a-9a68fa1fd512|explain",
+    "text": "Khi nói về điều bạn có thể và không thể làm, nhấn trọng âm vào chính kỹ năng, không phải động từ khuyết thiếu."
+  },
+  {
+    "key": "690bb586-fd78-4f85-9597-f1fa28904e26|explain",
+    "text": "Phản ứng ngạc nhiên nhấn rất mạnh vào phần bất ngờ của tin tức, thường kèm thêm cao độ."
+  },
+  {
+    "key": "3d3ecd2f-e7e3-4288-bc0b-23de2dfa83ac|explain",
+    "text": "Lời phàn nàn nhấn rõ từ chỉ vấn đề, để người nghe hiểu chính xác điều gì sai."
+  },
+  {
+    "key": "bf8b2079-6579-4976-bdc9-48cf22aab31e|explain",
+    "text": "Miêu tả thói quen nhấn trọng âm vào động từ hành động và mốc thời gian, thường gặp trong IELTS Part 1."
+  },
+  {
+    "key": "1d30a11f-b237-4853-9d78-a5d045272729|explain",
+    "text": "Nói về thời tiết nhấn trọng âm vào tình trạng và thời điểm dự kiến."
+  },
+  {
+    "key": "6149393b-91a5-4470-99b9-a3409f1ef545|explain",
+    "text": "Khi nói về tin tức, nhấn trọng âm vào các sự kiện chính — ai, cái gì và kết quả."
+  },
+  {
+    "key": "ee452bc0-fbd7-4d26-8bef-7563a5077fdc|explain",
+    "text": "Lời cảnh báo nhấn trọng âm vào nguy hiểm và hành động cần thiết, nói với lực mạnh hơn."
+  },
+  {
+    "key": "6f9a34ca-26ef-4ba6-9fb6-a89c5a4c1dfe|explain",
+    "text": "Khi đưa ra các lựa chọn, nhấn trọng âm vào từng lựa chọn được đưa ra."
+  },
+  {
+    "key": "282b9b59-4bb1-4c34-8a27-ba116f778112|explain",
+    "text": "Câu ước và câu giả định nhấn mạnh mạnh vào tình huống được tưởng tượng."
+  },
+  {
+    "key": "b55c6a2f-25fa-40a4-86ca-2165a595de98|explain",
+    "text": "Lời nói trong dịp kỷ niệm nhấn mạnh vào sự kiện và chi tiết đặc biệt của nó."
+  },
+  {
+    "key": "6524848e-fae5-4071-9149-aad809f3efbd|explain",
+    "text": "Một bộ hỗn hợp cuối cùng tổng hợp các từ mang nghĩa, sự nhấn mạnh và dạng phủ định — hãy đánh dấu trọng âm trước khi kiểm tra."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|explain",
+    "text": "Nắm vững trọng âm câu qua 50 bài luyện tập có mục tiêu. Hãy nghe kỹ mẫu AI, lặp lại và ghi âm giọng của bạn để nhận điểm chấm và phản hồi phát âm chi tiết theo thời gian thực."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|point|0",
+    "text": "Tập trung vào nhịp điệu, trọng âm và dòng chảy được làm nổi bật trong mỗi bài luyện tập."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|point|1",
+    "text": "Hãy nghe âm thanh mẫu tham chiếu trước mỗi lần ghi âm."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|point|2",
+    "text": "Xem lại điểm AI và phản hồi ở cấp độ âm vị để xác định chính xác những điểm cần cải thiện."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|caution",
+    "text": "Đừng vội vàng làm qua các bài luyện tập; hãy ưu tiên sự rõ ràng, nhịp điệu tự nhiên và khẩu hình chính xác."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|0",
+    "text": "Nhấn mạnh chính vào 'lost', 'phone' và 'yesterday'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|1",
+    "text": "'bought', 'beautiful', 'new', 'car' mang nhịp của câu."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|2",
+    "text": "Nhấn mạnh vào cụm động từ 'pick up' và 'airport'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|3",
+    "text": "Các từ ngữ pháp 'we', 'to', 'the' được đọc nhanh và nhẹ."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|4",
+    "text": "'didn't' and 'know' nhận trọng âm."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|5",
+    "text": "'waiting' và 'lobby' mang nội dung chính."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|6",
+    "text": "Nhấn mạnh vào 'send', 'report' và 'five'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|7",
+    "text": "Bốn nhịp mang nghĩa dẫn dắt nhịp điệu."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|8",
+    "text": "Chú ý những từ nhanh, không mang trọng âm nằm giữa các nhịp."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|9",
+    "text": "'really', 'appreciate', 'all', 'valuable', 'support'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|10",
+    "text": "'going', 'party', 'tonight' nhận các đỉnh cao độ."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|11",
+    "text": "'train', 'leaves', 'ten', 'minutes' được nhấn mạnh."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|12",
+    "text": "Các dạng phủ định như 'don't' luôn nhận trọng âm."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|13",
+    "text": "Từ để hỏi 'time', 'plane', 'arrive'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|14",
+    "text": "'turn off', 'mobile', 'devices'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|15",
+    "text": "'graduated', 'top', 'class' được nhấn nổi bật."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|16",
+    "text": "'should', 'a', 'of' được đọc giảm lược; 'grab', 'cup', 'coffee' được nhấn mạnh. ( are reduced; )"
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|17",
+    "text": "Bốn đỉnh rõ ràng: 'left', 'wallet', 'kitchen', 'table'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|18",
+    "text": "Từ để hỏi 'why', 'didn't', 'tell', 'this'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|19",
+    "text": "'doctor', 'advised', 'rest', 'week'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|20",
+    "text": "Trọng âm tương phản giữa 'call' và 'emailed'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|21",
+    "text": "Trọng âm tương phản làm nổi bật 'fifTEEN' so với 'FIFty'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|22",
+    "text": "Trọng âm tương phản làm nổi bật 'GREEN' và 'BLACK'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|23",
+    "text": "Tương phản giữa các màu 'RED' và 'BLUE'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|24",
+    "text": "Tương phản về nhiệt độ 'HOT' so với 'ICED'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|25",
+    "text": "Các từ mang nghĩa giúp câu tiến triển."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|26",
+    "text": "Bốn đỉnh được nhấn trọng âm trong câu hỏi."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|27",
+    "text": "Các trạng từ chỉ tần suất như 'always' thường được nhấn trọng âm."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|28",
+    "text": "'rarely', 'eat', 'fast food', 'weekdays'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|29",
+    "text": "Các đỉnh nhịp điệu trên những từ miêu tả."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|30",
+    "text": "'explain', 'concept', 'one more time'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|31",
+    "text": "Nhấn mạnh vào các danh từ chính và động từ."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|32",
+    "text": "'hardly', 'hear', 'speaker', 'saying'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|33",
+    "text": "'promised', 'deliver', 'package', 'noon'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|34",
+    "text": "Động từ khuyết thiếu phủ định 'shouldn't' được nhấn mạnh nhiều."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|35",
+    "text": "'nobody', 'expected', 'incredible', 'outcome'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|36",
+    "text": "'must' nhận trọng âm khuyết thiếu mang tính nhấn mạnh."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|37",
+    "text": "Trọng tâm câu hỏi vào 'much', 'pay', 'tickets'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|38",
+    "text": "Tập trung vào địa điểm 'where', hành động 'put', và 'spare keys'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|39",
+    "text": "Tập trung vào danh tính 'who', 'told', 'secret surprise'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|40",
+    "text": "'thought', 'studying', 'exam'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|41",
+    "text": "'everywhere', 'missing', 'cat'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|42",
+    "text": "'team', 'won', 'national', 'championship', 'today'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|43",
+    "text": "'honestly', 'believe', 'finish', 'schedule'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|44",
+    "text": "'traffic', 'terrible', 'bridge'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|45",
+    "text": "'offered', 'drive', 'straight', 'station'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|46",
+    "text": "Hai mệnh đề cân bằng, mỗi mệnh đề có 2-3 nhịp."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|47",
+    "text": "'plays', 'piano', 'extraordinary', 'skill'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|48",
+    "text": "Câu mệnh lệnh cảnh báo: 'never', 'assume', 'checking', 'facts'."
+  },
+  {
+    "key": "a7401fe9-f40d-48db-b8b1-0dd59612c866|note|49",
+    "text": "'sure', 'double-check', 'figures'."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|explain",
+    "text": "Mỗi từ tiếng Anh có từ hai âm tiết trở lên đều có một âm tiết mạnh. Âm tiết mạnh được đọc dài hơn, to hơn và rõ hơn."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|point|0",
+    "text": "Âm tiết được nhấn trọng âm: dài hơn, to hơn, nguyên âm rõ."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|point|1",
+    "text": "Âm tiết không được nhấn trọng âm: ngắn và thường là âm schwa /ə/."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|point|2",
+    "text": "Mỗi từ chỉ có một trọng âm chính."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|note|0",
+    "text": "Hai âm tiết, trọng âm rơi vào âm tiết đầu."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|note|1",
+    "text": "Trọng âm rơi vào âm tiết thứ hai."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|note|2",
+    "text": "Âm tiết ở giữa mạnh nhất."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|note|3",
+    "text": "Hai âm tiết yếu đều dùng /ə/."
+  },
+  {
+    "key": "41282f7e-d328-4df1-acb6-9474ea1f0595|note|4",
+    "text": "Âm tiết đầu mang nhịp."
+  },
+  {
+    "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|explain",
+    "text": "Một số từ thay đổi nghĩa hoặc từ loại khi trọng âm chuyển vị trí. Hãy đọc cả hai phiên bản và cảm nhận sự khác biệt."
+  },
+  {
+    "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|point|0",
+    "text": "Danh từ thường nhấn trọng âm vào âm tiết đầu."
+  },
+  {
+    "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|point|1",
+    "text": "Động từ thường nhấn trọng âm vào âm tiết thứ hai."
+  },
+  {
+    "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|note|0",
+    "text": "I bought a record."
+  },
+  {
+    "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|note|1",
+    "text": "I want to record my voice."
+  },
+  {
+    "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|note|2",
+    "text": "Here is your present."
+  },
+  {
+    "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|note|3",
+    "text": "I will present the plan."
+  },
+  {
+    "key": "edaa2de3-f674-4a5e-93fc-70861e79042c|note|4",
+    "text": "There is an increase in price."
+  }
+]
