@@ -353,9 +353,12 @@ function PronunciationPage() {
           l.skill === skill &&
           matchesFilters(l) &&
           (query.trim() === "" ||
-            [l.title, l.explain, ...l.items.map((i) => i.text)].join(" ").toLowerCase().includes(query.toLowerCase())),
+            [l.title, lessonText(l.id, "title", l.title), l.explain, lessonText(l.id, "explain", l.explain), ...l.items.map((i) => i.text)]
+              .join(" ")
+              .toLowerCase()
+              .includes(query.toLowerCase())),
       ),
-    [skillLessons, difficulty, level, query, skill],
+    [skillLessons, difficulty, level, query, skill, locale],
   );
 
   const lesson: SkillLessonCatalogueEntry | null =
