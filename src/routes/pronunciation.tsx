@@ -177,7 +177,7 @@ function PronunciationPage() {
 
   const playSoundModel = async (textToPlay: string, label: string) => {
     if (!user) {
-      toast.error(locale === "vi" ? "Đăng nhập để nghe âm mẫu của AI." : "Sign in to hear the AI model sound.");
+      toast.error(t("pron.toast.signInModel"));
       return;
     }
     voicePlayer.prime();
@@ -208,7 +208,7 @@ function PronunciationPage() {
       setPlayingSound(null);
     } catch (error) {
       setPlayingSound(null);
-      toast.error(locale === "vi" ? "Không thể phát âm thanh." : "Could not play audio.");
+      toast.error(t("pron.toast.playError"));
     }
   };
 
@@ -594,9 +594,7 @@ function PronunciationPage() {
                         {accentSymbol} <span className="text-lg text-muted-foreground">— {sound.name}</span>
                       </h2>
                       <p className="mt-1 text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
-                        {sound.voiced
-                          ? (locale === "vi" ? "Âm hữu thanh — dây thanh quản rung" : "Voiced — your vocal cords vibrate")
-                          : (locale === "vi" ? "Âm vô thanh — chỉ có luồng hơi, không rung" : "Voiceless — breath only, no vibration")} ·{" "}
+                        {sound.voiced ? t("pron.voicedDesc") : t("pron.voicelessDesc")} ·{" "}
                         {sound.level} · {sound.difficulty} · {accentLabel}
                       </p>
                     </div>
@@ -605,26 +603,23 @@ function PronunciationPage() {
 
                   {sound.unlocked && (
                     <p className="mt-4 text-xs text-muted-foreground">
-                      {locale === "vi"
-                        ? 'Bấm "1. Listen" trong khung Practice bên phải để nghe AI đọc mẫu âm này và một ví dụ.'
-                        : 'Tap "1. Listen" in the Practice card on the right to hear the AI model this sound and an example.'}
+                      {t("pron.soundPracticeHint")}
                     </p>
                   )}
 
                   {!sound.unlocked ? (
                     <div className="mt-5 rounded-xl bg-surface-2 p-5 text-center ring-1 ring-border">
                       <p className="text-sm text-foreground">
-                        This sound's full lesson — how to make it, mouth position, example words, sentences and minimal
-                        pairs — is part of Lingora English Premium.
+                        {t("pron.paywall.soundLocked")}
                       </p>
                       <p className="mt-1 text-xs text-muted-foreground">
-                        The first {freeCounts.sounds} sounds are free. Upgrade to unlock all {freeCounts.totalSounds}.
+                        {t("pron.paywall.freeLimit", { count: String(freeCounts.sounds) })}
                       </p>
                       <Link
                         to="/pricing"
                         className="mt-4 inline-flex rounded-full bg-brass px-4 py-2 text-sm font-semibold text-plum-deep shadow-brass"
                       >
-                        Unlock all {freeCounts.totalSounds} sounds
+                        {t("pron.paywall.unlockAllSounds")}
                       </Link>
                     </div>
                   ) : (
@@ -682,7 +677,7 @@ function PronunciationPage() {
                             {t("pron.wordPractice")}
                           </h3>
                           <span className="text-xs text-muted-foreground">
-                            {locale === "vi" ? "Bấm vào từ để nghe AI đọc & luyện tập" : "Click word to hear AI & practice"}
+                            {t("pron.wordPracticeHint")}
                           </span>
                         </div>
                         <div className="mt-2 flex flex-wrap gap-2">
@@ -729,7 +724,7 @@ function PronunciationPage() {
                         </div>
                         {wordSentence && (
                           <p className="mt-2 text-sm text-mist">
-                            {locale === "vi" ? "Ví dụ: " : "e.g. "}
+                            {t("pron.eg")}
                             {wordSentence}
                           </p>
                         )}
@@ -753,7 +748,7 @@ function PronunciationPage() {
                                   )}
                                 >
                                   <Volume2 className="size-3" />
-                                  {playingSound === `sentence-${s}` ? (locale === "vi" ? "Đang nghe" : "Playing") : (locale === "vi" ? "Nghe" : "Listen")}
+                                  {playingSound === `sentence-${s}` ? t("pron.playing") : t("pron.listen")}
                                 </button>
                                 <button
                                   type="button"
@@ -849,7 +844,9 @@ function PronunciationPage() {
                       </span>
                       <span className="mt-0.5 flex items-center gap-1.5 text-xs opacity-80">
                         {l.title === "Practice" ? (
-                          <span className="font-semibold text-brass-soft">50 drills</span>
+                          <span className="font-semibold text-brass-soft">
+                            {t("pron.drillsCount", { count: "50" })}
+                          </span>
                         ) : (
                           `${l.level} · ${l.difficulty}`
                         )}
@@ -873,20 +870,16 @@ function PronunciationPage() {
                   {!lesson.unlocked ? (
                     <div className="mt-5 rounded-xl bg-surface-2 p-5 text-center ring-1 ring-border">
                       <p className="text-sm text-foreground">
-                        {locale === "vi"
-                          ? "Phần giải thích, các điểm lưu ý và ví dụ của bài học này thuộc gói Lingora English Premium."
-                          : "This lesson's explanation, practice points and examples are part of Lingora English Premium."}
+                        {t("pron.paywall.lessonLocked")}
                       </p>
                       <p className="mt-1 text-xs text-muted-foreground">
-                        {locale === "vi"
-                          ? `${freeCounts.lessonsPerSkill} bài học đầu tiên của mỗi kỹ năng được mở miễn phí. Nâng cấp tài khoản để mở khóa toàn bộ.`
-                          : `The first ${freeCounts.lessonsPerSkill} examples of each skill are free. Upgrade to unlock the rest.`}
+                        {t("pron.paywall.lessonFreeLimit", { count: String(freeCounts.lessonsPerSkill) })}
                       </p>
                       <Link
                         to="/pricing"
                         className="mt-4 inline-flex rounded-full bg-brass px-4 py-2 text-sm font-semibold text-plum-deep shadow-brass"
                       >
-                        {locale === "vi" ? "Mở khóa toàn bộ bài học" : "Unlock all examples"}
+                        {t("pron.paywall.unlockAllLessons")}
                       </Link>
                     </div>
                   ) : (
@@ -915,7 +908,7 @@ function PronunciationPage() {
                           {t("pron.practise")} ({lesson.items.length})
                         </h3>
                         <span className="text-xs text-muted-foreground">
-                          {locale === "vi" ? "Bấm vào từng câu để luyện nói với AI" : "Click item to practise with AI"}
+                          {t("pron.itemPracticeHint")}
                         </span>
                       </div>
 
@@ -1009,9 +1002,7 @@ function PronunciationPage() {
             />
           )}
           <p className="text-xs leading-relaxed text-muted-foreground">
-            {locale === "vi"
-              ? "Bạn có thể nghe mẫu, nói lại, ghi âm và so sánh với bản đọc mà hệ thống nghe được."
-              : "Listen, repeat, record and compare — the coach shows exactly which words came through clearly."}
+            {t("pron.practiceHint")}
           </p>
         </aside>
       </div>
