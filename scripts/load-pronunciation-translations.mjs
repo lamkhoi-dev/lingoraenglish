@@ -1,5 +1,5 @@
 // Validates translated Pronunciation lesson texts and turns the good ones into
-// one SQL upsert for public.pronunciation_lesson_texts.
+// one SQL upsert for public.ui_translations (keys "pronlesson.<lessonId>|<part>").
 //
 //   node scripts/load-pronunciation-translations.mjs [code ...]
 //
@@ -14,13 +14,21 @@ import path from "node:path";
 const DIR = path.join(path.dirname(new URL(import.meta.url).pathname.replace(/^\/(\w:)/, "$1")), "seed/pronunciation-translations");
 
 const ALL = "vi es pt fr de it ja ko zh-CN zh-TW hi id tr ru ar th pl nl sv da nb fi is cs sk hu el he fa ur ro uk bg hr sr sl lt lv et ms fil bn pa ta te mr gu kn ml si ne my km".split(" ");
-const wanted = process.argv.slice(2).length ? process.argv.slice(2) : ALL;
+// --only=titles,ui (parts: 01..05, titles, ui) loads just those parts; default = everything.
+const args = process.argv.slice(2);
+const onlyArg = args.find((a) => a.startsWith("--only="));
+const only = onlyArg ? onlyArg.slice(7).split(",") : null;
+const codeArgs = args.filter((a) => !a.startsWith("--"));
+const wanted = codeArgs.length ? codeArgs : ALL;
 
 const sources = fs
   .readdirSync(DIR)
-  .filter((f) => /^source-en-\d+\.json$/.test(f))
+  // source-en-NN.json pairs with <code>-NN.json; source-en-titles.json (the
+  // lesson titles shown in the lesson list) pairs with <code>-titles.json.
+  .filter((f) => /^source-en-(\d+|titles|ui)\.json$/.test(f))
   .sort()
-  .map((f) => ({ nn: f.match(/(\d+)/)[1], items: JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")) }));
+  .filter((f) => !only || only.includes(f.match(/^source-en-(\w+)\.json$/)[1]))
+  .map((f) => ({ nn: f.match(/^source-en-(\w+)\.json$/)[1], items: JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")) }));
 
 // English tokens that must survive translation: "quoted", /slashed/, [bracketed], ALL-CAPS words.
 function protectedTokens(en) {
@@ -37,6 +45,8 @@ for (const code of wanted) {
   const problems = [];
   const langRows = [];
   for (const src of sources) {
+    // UI labels: Vietnamese already has them (compiled in sections/vi.ts).
+    if (src.nn === "ui" && code === "vi") continue;
     const file = path.join(DIR, `${code}-${src.nn}.json`);
     if (!fs.existsSync(file)) {
       problems.push(`missing ${code}-${src.nn}.json`);
@@ -57,9 +67,22 @@ for (const code of wanted) {
       const t = data[i];
       if (t?.key !== s.key) return problems.push(`${code}-${src.nn}#${i}: key mismatch`);
       if (typeof t.text !== "string" || !t.text.trim()) return problems.push(`${code}-${src.nn}#${i}: empty text`);
-      const missing = protectedTokens(s.en).filter((tok) => !t.text.includes(tok));
+      // UI labels: only the {{placeholders}} must survive ("AI", "US"... are
+      // legitimately translated); lesson texts also keep quoted/CAPS English.
+      // Titles: an ALL-CAPS name with a suffix ("IELTS-style") only needs its
+      // capitalised base ("IELTS") to survive — the suffix is ordinary words.
+      const needed =
+        src.nn === "ui"
+          ? [...s.en.matchAll(/\{\{\w+\}\}/g)].map((m) => m[0])
+          : src.nn === "titles"
+            ? protectedTokens(s.en).map((tok) => tok.replace(/^([A-Z]{2,})-[A-Za-z]+$/, "$1"))
+            : protectedTokens(s.en);
+      // A "token" with leading/trailing space is the naive quote regex pairing
+      // the END of one quote with the START of the next (e.g. 'a' and 'b' →
+      // " and ") — not a real taught phrase, so it isn't checked.
+      const missing = needed.filter((tok) => tok === tok.trim() && !t.text.includes(tok));
       if (missing.length) return problems.push(`${code}-${src.nn}#${i}: lost English token(s) ${JSON.stringify(missing)}`);
-      langRows.push(`('${code}', '${esc(s.key)}', '${esc(t.text.trim())}')`);
+      langRows.push(`('${code}', '${esc(src.nn === "ui" ? s.key : "pronlesson." + s.key)}', '${esc(t.text.trim())}')`);
     });
   }
   if (problems.length) report.push({ code, problems });
@@ -73,9 +96,9 @@ for (const r of report) {
 }
 if (rows.length) {
   const sql =
-    "BEGIN;\nINSERT INTO public.pronunciation_lesson_texts (locale, text_key, value) VALUES\n" +
+    "BEGIN;\nINSERT INTO public.ui_translations (locale, translation_key, value) VALUES\n" +
     rows.join(",\n") +
-    "\nON CONFLICT (locale, text_key) DO UPDATE SET value = EXCLUDED.value, updated_at = now();\nCOMMIT;\n";
+    "\nON CONFLICT (locale, translation_key) DO UPDATE SET value = EXCLUDED.value, updated_at = now();\nCOMMIT;\n";
   fs.writeFileSync(path.join(DIR, "load.sql"), sql, "utf8");
   console.log(`\nwrote load.sql with ${rows.length} rows`);
 } else {

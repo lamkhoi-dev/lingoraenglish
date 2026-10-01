@@ -368,6 +368,112 @@ const base = {
   "pron.drillsCount": "{{count}} drills",
   "pron.useInShadowing": "Use this skill in Shadowing",
   "pron.backToCoach": "Back to the Speaking Coach",
+
+  "pron.p.title": "Practice",
+
+  "pron.p.step1.label": "Listen",
+
+  "pron.p.step1.hint": "Play the model audio twice.",
+
+  "pron.p.step2.label": "Understand",
+
+  "pron.p.step2.hint": "Read what your mouth should do.",
+
+  "pron.p.step3.label": "Watch / learn",
+
+  "pron.p.step3.hint": "Check the mouth, tongue and pattern guide.",
+
+  "pron.p.step4.label": "Repeat",
+
+  "pron.p.step4.hint": "Say it out loud with the audio, slowly first.",
+
+  "pron.p.step5.label": "Record",
+
+  "pron.p.step5.hint": "Record yourself saying the same line.",
+
+  "pron.p.step6.label": "AI feedback",
+
+  "pron.p.step6.hint": "See what the coach heard and what to fix.",
+
+  "pron.p.step7.label": "Try again",
+
+  "pron.p.step7.hint": "Fix one thing and record once more.",
+
+  "pron.p.step8.label": "Mastered",
+
+  "pron.p.step8.hint": "Clear read-back twice in a row — move on.",
+
+  "pron.p.stepTap": "{{hint}} Tap once you've done this.",
+
+  "pron.p.focusSound": "Focus sound {{sound}}",
+
+  "pron.p.eg": "e.g. {{sentence}}",
+
+  "pron.p.loading": "Loading…",
+
+  "pron.p.speedNormal": "Normal",
+
+  "pron.p.speedSlower": "Slower",
+
+  "pron.p.speedSlow": "Slow",
+
+  "pron.p.loop": "Loop",
+
+  "pron.p.stop": "Stop",
+
+  "pron.p.voiceNote": "Model audio is Lingora's American English AI voice, not a human recording.",
+
+  "pron.p.listenSentence": "Listen plays the sound twice, then the example word, then a sentence containing it.",
+
+  "pron.p.listenExample": "Listen plays the sound twice, then the example.",
+
+  "pron.p.recordHint": "Say the line above once, clearly.",
+
+  "pron.p.signupToRecord": "Create a free account to record and get feedback.",
+
+  "pron.p.yourRecording": "Your recording",
+
+  "pron.p.listeningRec": "Listening to your recording…",
+
+  "pron.p.wordsClear": "Words said clearly",
+
+  "pron.p.wpm": "Speaking speed (wpm)",
+
+  "pron.p.heard": "Lingora heard",
+
+  "pron.p.tagClear": "Clear",
+
+  "pron.p.tagNeeds": "Needs improvement",
+
+  "pron.p.measured": "Measured delivery",
+
+  "pron.p.paceLabel": "Pace:",
+
+  "pron.p.paceValue": "{{wpm}} words per minute ({{pace}})",
+
+  "pron.p.paceNote": "Natural conversation is about 120–160.",
+
+  "pron.p.pace.slow": "slow",
+
+  "pron.p.pace.natural": "natural",
+
+  "pron.p.pace.fast": "fast",
+
+  "pron.p.fillersLabel": "Fillers:",
+
+  "pron.p.repeatedLabel": "Repeated words:",
+
+  "pron.p.noneDetected": "none detected",
+
+  "pron.p.measuredNote": "Pace, fillers and repetition are counted from your real transcript and recording length. Pitch, loudness and silent-pause length are not measured, so we do not score intonation or pauses automatically.",
+
+  "pron.p.mastered": "Mastered — two clear attempts",
+
+  "pron.p.attempt": "Attempt {{n}} — two clear read-backs in a row marks this line as mastered.",
+
+  "pron.p.toShadowing": "Practise this in real speech → Shadowing",
+
+  "pron.p.toCoach": "Use it with the Speaking Coach",
   "pron.meta.title": "English Pronunciation Coach — IPA, minimal pairs and stress",
   "pron.meta.description":
     "Practise every English IPA sound, minimal pairs, word stress and intonation with Lingora English and honest, jargon-free feedback.",

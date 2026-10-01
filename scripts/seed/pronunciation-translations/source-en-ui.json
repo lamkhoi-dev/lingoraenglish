@@ -1,0 +1,482 @@
+[
+ {
+  "key": "pron.hero.title",
+  "en": "Sound clearer, more natural, more fluent"
+ },
+ {
+  "key": "pron.hero.description",
+  "en": "All {{count}} English sounds plus word stress, sentence stress, intonation, connected speech, reductions, rhythm, chunking and fluency — every lesson ends with your own recording."
+ },
+ {
+  "key": "pron.imageAlt",
+  "en": "Pronunciation Articulation & IPA"
+ },
+ {
+  "key": "pron.progress.title",
+  "en": "Your pronunciation progress"
+ },
+ {
+  "key": "pron.progress.descUser",
+  "en": "Measured from the words the coach recognised in your own recordings."
+ },
+ {
+  "key": "pron.progress.descGuest",
+  "en": "Create a free account to record yourself and start tracking progress."
+ },
+ {
+  "key": "pron.recommended",
+  "en": "Recommended for you"
+ },
+ {
+  "key": "pron.soundLabel",
+  "en": "{{symbol}} sound"
+ },
+ {
+  "key": "pron.skill.sounds",
+  "en": "Sounds"
+ },
+ {
+  "key": "pron.skill.sounds.blurb",
+  "en": "All 44 English phonemes with minimal pairs."
+ },
+ {
+  "key": "pron.skill.wordStress",
+  "en": "Word stress"
+ },
+ {
+  "key": "pron.skill.wordStress.blurb",
+  "en": "Syllables, primary and secondary stress."
+ },
+ {
+  "key": "pron.skill.sentenceStress",
+  "en": "Sentence stress"
+ },
+ {
+  "key": "pron.skill.sentenceStress.blurb",
+  "en": "Content words strong, function words weak."
+ },
+ {
+  "key": "pron.skill.intonation",
+  "en": "Intonation"
+ },
+ {
+  "key": "pron.skill.intonation.blurb",
+  "en": "Rising, falling, rise-fall and fall-rise."
+ },
+ {
+  "key": "pron.skill.connectedSpeech",
+  "en": "Connected speech"
+ },
+ {
+  "key": "pron.skill.connectedSpeech.blurb",
+  "en": "Linking, elision, assimilation, weak forms."
+ },
+ {
+  "key": "pron.skill.reductions",
+  "en": "Reductions"
+ },
+ {
+  "key": "pron.skill.reductions.blurb",
+  "en": "gonna, wanna, hafta — informal spoken English."
+ },
+ {
+  "key": "pron.skill.rhythm",
+  "en": "Rhythm"
+ },
+ {
+  "key": "pron.skill.rhythm.blurb",
+  "en": "Stress-timed beats, timing and pauses."
+ },
+ {
+  "key": "pron.skill.chunking",
+  "en": "Pausing & chunking"
+ },
+ {
+  "key": "pron.skill.chunking.blurb",
+  "en": "Thought groups and natural breath pauses."
+ },
+ {
+  "key": "pron.skill.fluency",
+  "en": "Fluency"
+ },
+ {
+  "key": "pron.skill.fluency.blurb",
+  "en": "Speed, hesitation, fillers and linking ideas."
+ },
+ {
+  "key": "pron.filter.searchPlaceholder",
+  "en": "Search a sound, word or lesson"
+ },
+ {
+  "key": "pron.filter.allLevels",
+  "en": "All levels"
+ },
+ {
+  "key": "pron.filter.beginner",
+  "en": "Beginner"
+ },
+ {
+  "key": "pron.filter.intermediate",
+  "en": "Intermediate"
+ },
+ {
+  "key": "pron.filter.advanced",
+  "en": "Advanced"
+ },
+ {
+  "key": "pron.filter.allDifficulties",
+  "en": "All difficulties"
+ },
+ {
+  "key": "pron.filter.gentle",
+  "en": "Gentle"
+ },
+ {
+  "key": "pron.filter.steady",
+  "en": "Steady"
+ },
+ {
+  "key": "pron.filter.challenging",
+  "en": "Challenging"
+ },
+ {
+  "key": "pron.filter.us",
+  "en": "US English"
+ },
+ {
+  "key": "pron.filter.uk",
+  "en": "UK English"
+ },
+ {
+  "key": "pron.sounds.title",
+  "en": "The {{count}} English sounds"
+ },
+ {
+  "key": "pron.sounds.shown",
+  "en": "{{count}} shown"
+ },
+ {
+  "key": "pron.lessons.title",
+  "en": "{{skill}} lessons"
+ },
+ {
+  "key": "pron.lessons.none",
+  "en": "No lesson matches these filters. Try “All levels” and “Any difficulty”."
+ },
+ {
+  "key": "pron.how",
+  "en": "How"
+ },
+ {
+  "key": "pron.commonMistakes",
+  "en": "Common mistakes"
+ },
+ {
+  "key": "pron.wordPractice",
+  "en": "Word practice"
+ },
+ {
+  "key": "pron.sentencePractice",
+  "en": "Sentence practice"
+ },
+ {
+  "key": "pron.minimalPairs",
+  "en": "Minimal pairs"
+ },
+ {
+  "key": "pron.practise",
+  "en": "Practise"
+ },
+ {
+  "key": "pron.toast.signInModel",
+  "en": "Sign in to hear the AI model sound."
+ },
+ {
+  "key": "pron.toast.playError",
+  "en": "Could not play audio."
+ },
+ {
+  "key": "pron.voicedDesc",
+  "en": "Voiced — your vocal cords vibrate"
+ },
+ {
+  "key": "pron.voicelessDesc",
+  "en": "Voiceless — breath only, no vibration"
+ },
+ {
+  "key": "pron.soundPracticeHint",
+  "en": "Tap \"1. Listen\" in the Practice card on the right to hear the AI model this sound and an example."
+ },
+ {
+  "key": "pron.paywall.soundLocked",
+  "en": "This sound's full lesson — how to make it, mouth position, example words, sentences and minimal pairs — is part of Lingora English Premium."
+ },
+ {
+  "key": "pron.paywall.freeLimit",
+  "en": "The first {{count}} sounds are free. Upgrade to unlock all 44 sounds and personalized coach feedback."
+ },
+ {
+  "key": "pron.paywall.unlockAllSounds",
+  "en": "Unlock all 44 sounds"
+ },
+ {
+  "key": "pron.wordPracticeHint",
+  "en": "Click word to hear AI & practice"
+ },
+ {
+  "key": "pron.eg",
+  "en": "e.g. "
+ },
+ {
+  "key": "pron.playing",
+  "en": "Playing"
+ },
+ {
+  "key": "pron.listen",
+  "en": "Listen"
+ },
+ {
+  "key": "pron.paywall.lessonLocked",
+  "en": "This lesson's explanation, practice points and examples are part of Lingora English Premium."
+ },
+ {
+  "key": "pron.paywall.lessonFreeLimit",
+  "en": "The first {{count}} lessons of each skill are free. Upgrade to unlock the rest."
+ },
+ {
+  "key": "pron.paywall.unlockAllLessons",
+  "en": "Unlock all lessons"
+ },
+ {
+  "key": "pron.itemPracticeHint",
+  "en": "Click item to practise with AI"
+ },
+ {
+  "key": "pron.practiceHint",
+  "en": "Listen, repeat, record and compare — the coach shows exactly which words came through clearly."
+ },
+ {
+  "key": "pron.drillsCount",
+  "en": "{{count}} drills"
+ },
+ {
+  "key": "pron.useInShadowing",
+  "en": "Use this skill in Shadowing"
+ },
+ {
+  "key": "pron.backToCoach",
+  "en": "Back to the Speaking Coach"
+ },
+ {
+  "key": "pron.p.title",
+  "en": "Practice"
+ },
+ {
+  "key": "pron.p.step1.label",
+  "en": "Listen"
+ },
+ {
+  "key": "pron.p.step1.hint",
+  "en": "Play the model audio twice."
+ },
+ {
+  "key": "pron.p.step2.label",
+  "en": "Understand"
+ },
+ {
+  "key": "pron.p.step2.hint",
+  "en": "Read what your mouth should do."
+ },
+ {
+  "key": "pron.p.step3.label",
+  "en": "Watch / learn"
+ },
+ {
+  "key": "pron.p.step3.hint",
+  "en": "Check the mouth, tongue and pattern guide."
+ },
+ {
+  "key": "pron.p.step4.label",
+  "en": "Repeat"
+ },
+ {
+  "key": "pron.p.step4.hint",
+  "en": "Say it out loud with the audio, slowly first."
+ },
+ {
+  "key": "pron.p.step5.label",
+  "en": "Record"
+ },
+ {
+  "key": "pron.p.step5.hint",
+  "en": "Record yourself saying the same line."
+ },
+ {
+  "key": "pron.p.step6.label",
+  "en": "AI feedback"
+ },
+ {
+  "key": "pron.p.step6.hint",
+  "en": "See what the coach heard and what to fix."
+ },
+ {
+  "key": "pron.p.step7.label",
+  "en": "Try again"
+ },
+ {
+  "key": "pron.p.step7.hint",
+  "en": "Fix one thing and record once more."
+ },
+ {
+  "key": "pron.p.step8.label",
+  "en": "Mastered"
+ },
+ {
+  "key": "pron.p.step8.hint",
+  "en": "Clear read-back twice in a row — move on."
+ },
+ {
+  "key": "pron.p.stepTap",
+  "en": "{{hint}} Tap once you've done this."
+ },
+ {
+  "key": "pron.p.focusSound",
+  "en": "Focus sound {{sound}}"
+ },
+ {
+  "key": "pron.p.eg",
+  "en": "e.g. {{sentence}}"
+ },
+ {
+  "key": "pron.p.loading",
+  "en": "Loading…"
+ },
+ {
+  "key": "pron.p.speedNormal",
+  "en": "Normal"
+ },
+ {
+  "key": "pron.p.speedSlower",
+  "en": "Slower"
+ },
+ {
+  "key": "pron.p.speedSlow",
+  "en": "Slow"
+ },
+ {
+  "key": "pron.p.loop",
+  "en": "Loop"
+ },
+ {
+  "key": "pron.p.stop",
+  "en": "Stop"
+ },
+ {
+  "key": "pron.p.voiceNote",
+  "en": "Model audio is Lingora's American English AI voice, not a human recording."
+ },
+ {
+  "key": "pron.p.listenSentence",
+  "en": "Listen plays the sound twice, then the example word, then a sentence containing it."
+ },
+ {
+  "key": "pron.p.listenExample",
+  "en": "Listen plays the sound twice, then the example."
+ },
+ {
+  "key": "pron.p.recordHint",
+  "en": "Say the line above once, clearly."
+ },
+ {
+  "key": "pron.p.signupToRecord",
+  "en": "Create a free account to record and get feedback."
+ },
+ {
+  "key": "pron.p.yourRecording",
+  "en": "Your recording"
+ },
+ {
+  "key": "pron.p.listeningRec",
+  "en": "Listening to your recording…"
+ },
+ {
+  "key": "pron.p.wordsClear",
+  "en": "Words said clearly"
+ },
+ {
+  "key": "pron.p.wpm",
+  "en": "Speaking speed (wpm)"
+ },
+ {
+  "key": "pron.p.heard",
+  "en": "Lingora heard"
+ },
+ {
+  "key": "pron.p.tagClear",
+  "en": "Clear"
+ },
+ {
+  "key": "pron.p.tagNeeds",
+  "en": "Needs improvement"
+ },
+ {
+  "key": "pron.p.measured",
+  "en": "Measured delivery"
+ },
+ {
+  "key": "pron.p.paceLabel",
+  "en": "Pace:"
+ },
+ {
+  "key": "pron.p.paceValue",
+  "en": "{{wpm}} words per minute ({{pace}})"
+ },
+ {
+  "key": "pron.p.paceNote",
+  "en": "Natural conversation is about 120–160."
+ },
+ {
+  "key": "pron.p.pace.slow",
+  "en": "slow"
+ },
+ {
+  "key": "pron.p.pace.natural",
+  "en": "natural"
+ },
+ {
+  "key": "pron.p.pace.fast",
+  "en": "fast"
+ },
+ {
+  "key": "pron.p.fillersLabel",
+  "en": "Fillers:"
+ },
+ {
+  "key": "pron.p.repeatedLabel",
+  "en": "Repeated words:"
+ },
+ {
+  "key": "pron.p.noneDetected",
+  "en": "none detected"
+ },
+ {
+  "key": "pron.p.measuredNote",
+  "en": "Pace, fillers and repetition are counted from your real transcript and recording length. Pitch, loudness and silent-pause length are not measured, so we do not score intonation or pauses automatically."
+ },
+ {
+  "key": "pron.p.mastered",
+  "en": "Mastered — two clear attempts"
+ },
+ {
+  "key": "pron.p.attempt",
+  "en": "Attempt {{n}} — two clear read-backs in a row marks this line as mastered."
+ },
+ {
+  "key": "pron.p.toShadowing",
+  "en": "Practise this in real speech → Shadowing"
+ },
+ {
+  "key": "pron.p.toCoach",
+  "en": "Use it with the Speaking Coach"
+ }
+]

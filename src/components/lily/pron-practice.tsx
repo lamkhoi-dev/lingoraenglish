@@ -80,7 +80,7 @@ export function PronPractice({
   onSoundMastered,
   initialMastered,
 }: PronPracticeProps) {
-  const { locale, englishOnly } = useI18n();
+  const { t, locale, englishOnly } = useI18n();
   const lang = englishOnly ? "en" : locale;
   const { user, isAdmin } = useAuth();
   const requestSpeech = useServerFn(speak);
@@ -138,7 +138,7 @@ export function PronPractice({
   const play = useCallback(
     async (rate: number) => {
       if (!user) {
-        toast.error("Sign in to hear the model audio.");
+        toast.error(t("pron.toast.signInModel"));
         return;
       }
       try {
@@ -171,10 +171,10 @@ export function PronPractice({
       } catch (error) {
         setLoadingAudio(false);
         setPlaying(false);
-        handleError(error, "Could not play the audio.");
+        handleError(error, t("pron.toast.playError"));
       }
     },
-    [handleError, loop, requestSpeech, speakText, target, user],
+    [handleError, loop, requestSpeech, speakText, t, target, user],
   );
 
   const stop = () => {
@@ -320,7 +320,7 @@ export function PronPractice({
     <section className="lounge-panel p-5 sm:p-6">
       {paywall}
       <div className="flex items-center justify-between gap-3">
-        <h2 className="font-display text-lg text-foreground">Practice</h2>
+        <h2 className="font-display text-lg text-foreground">{t("pron.p.title")}</h2>
         {accentLabel && (
           <span className="rounded-full bg-surface-2 px-2.5 py-1 text-[11px] font-semibold text-brass-soft ring-1 ring-border">
             {accentLabel}
@@ -352,18 +352,18 @@ export function PronPractice({
               <li key={step.n}>
                 <button
                   type="button"
-                  title={`${step.hint} Tap once you've done this.`}
+                  title={t("pron.p.stepTap", { hint: t(`pron.p.step${step.n}.hint` as never) })}
                   onClick={() => setAckSteps((s) => new Set(s).add(step.n))}
                   className={cn(chipClass, !done && "hover:bg-surface-3")}
                 >
-                  {step.n}. {step.label}
+                  {step.n}. {t(`pron.p.step${step.n}.label` as never)}
                 </button>
               </li>
             );
           }
           return (
-            <li key={step.n} title={step.hint} className={chipClass}>
-              {step.n}. {step.label}
+            <li key={step.n} title={t(`pron.p.step${step.n}.hint` as never)} className={chipClass}>
+              {step.n}. {t(`pron.p.step${step.n}.label` as never)}
             </li>
           );
         })}
@@ -379,8 +379,8 @@ export function PronPractice({
           )}
         </div>
         {pattern && <p className="mt-1.5 text-sm font-semibold tracking-wide text-brass-soft">{pattern}</p>}
-        {targetSound && <p className="mt-1 text-sm text-plum-soft">Focus sound {targetSound}</p>}
-        {wordSentence && <p className="mt-2 text-sm text-mist">e.g. {wordSentence}</p>}
+        {targetSound && <p className="mt-1 text-sm text-plum-soft">{t("pron.p.focusSound", { sound: targetSound })}</p>}
+        {wordSentence && <p className="mt-2 text-sm text-mist">{t("pron.p.eg", { sentence: wordSentence })}</p>}
 
         <div className="mt-4 flex flex-wrap items-center gap-2">
           {SPEEDS.map((rate) => (
@@ -403,12 +403,12 @@ export function PronPractice({
                 <Volume2 className={cn("size-3.5", playing && speed === rate && "animate-pulse")} />
               )}
               {loadingAudio && speed === rate
-                ? "Loading…"
+                ? t("pron.p.loading")
                 : rate === 1
-                  ? "Normal"
+                  ? t("pron.p.speedNormal")
                   : rate === 0.8
-                    ? "Slower"
-                    : "Slow"}
+                    ? t("pron.p.speedSlower")
+                    : t("pron.p.speedSlow")}
             </button>
           ))}
           <button
@@ -420,7 +420,7 @@ export function PronPractice({
             )}
           >
             <Repeat className="size-3.5" />
-            Loop
+            {t("pron.p.loop")}
           </button>
           {playing && (
             <button
@@ -429,7 +429,7 @@ export function PronPractice({
               className="inline-flex items-center gap-1.5 rounded-full bg-surface-3 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border"
             >
               <Square className="size-3.5" />
-              Stop
+              {t("pron.p.stop")}
             </button>
           )}
           {/* Admin-only 3-step tool: nút Listen phía trên = "cache cũ" (đang
@@ -486,11 +486,8 @@ export function PronPractice({
           )}
         </div>
         <p className="mt-2 text-[11px] text-muted-foreground">
-          Model audio is Lingora&apos;s American English AI voice, not a human recording.
-          {targetSound &&
-            (wordSentence
-              ? " Listen plays the sound twice, then the example word, then a sentence containing it."
-              : " Listen plays the sound twice, then the example.")}
+          {t("pron.p.voiceNote")}
+          {targetSound && " " + (wordSentence ? t("pron.p.listenSentence") : t("pron.p.listenExample"))}
         </p>
       </div>
 
@@ -499,10 +496,10 @@ export function PronPractice({
           onSubmit={submit}
           busy={busy}
           disabled={!user}
-          hint="Say the line above once, clearly."
+          hint={t("pron.p.recordHint")}
           disabledReason={
             <Link to="/auth" className="text-brass-soft hover:text-brass">
-              Create a free account to record and get feedback.
+              {t("pron.p.signupToRecord")}
             </Link>
           }
         />
@@ -510,36 +507,36 @@ export function PronPractice({
 
       {myAudio && (
         <div className="mt-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">🎤 Your recording</p>
+          <p className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">🎤 {t("pron.p.yourRecording")}</p>
           <audio controls src={myAudio} className="mt-2 w-full" />
         </div>
       )}
 
       {busy && (
         <p className="mt-4 flex items-center gap-2 text-sm text-muted-foreground">
-          <Loader2 className="size-4 animate-spin" /> Listening to your recording…
+          <Loader2 className="size-4 animate-spin" /> {t("pron.p.listeningRec")}
         </p>
       )}
 
       {result && (
         <div className="mt-6 border-t border-border pt-5">
           <div className="flex flex-wrap items-end gap-8">
-            <ScoreStat label="Words said clearly" value={result.wordAccuracy} suffix="%" />
-            {metrics && <ScoreStat label="Speaking speed (wpm)" value={metrics.wpm} suffix="" />}
+            <ScoreStat label={t("pron.p.wordsClear")} value={result.wordAccuracy} suffix="%" />
+            {metrics && <ScoreStat label={t("pron.p.wpm")} value={metrics.wpm} suffix="" />}
           </div>
 
           <div className="mt-4">
-            <h4 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">Lingora heard</h4>
+            <h4 className="text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">{t("pron.p.heard")}</h4>
             <p className="mt-1.5 text-sm text-mist">{result.readBack || "—"}</p>
           </div>
 
           {result.matched.length > 0 && (
-            <FeedbackRow tag="Clear" tone="brass">
+            <FeedbackRow tag={t("pron.p.tagClear")} tone="brass">
               {result.matched.join(", ")}
             </FeedbackRow>
           )}
           {result.missed.length > 0 && (
-            <FeedbackRow tag="Needs improvement" tone="plum">
+            <FeedbackRow tag={t("pron.p.tagNeeds")} tone="plum">
               {result.missed.join(", ")}
             </FeedbackRow>
           )}
@@ -549,31 +546,33 @@ export function PronPractice({
           {metrics && (
             <div className="mt-4 rounded-xl bg-surface-2 p-4 text-sm text-mist ring-1 ring-border">
               <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
-                <Gauge className="size-3.5" /> Measured delivery
+                <Gauge className="size-3.5" /> {t("pron.p.measured")}
               </p>
               <ul className="mt-2 space-y-1">
                 <li>
-                  Pace: <span className="text-foreground">{metrics.wpm} words per minute</span> ({metrics.pace}). Natural
-                  conversation is about 120–160.
+                  {t("pron.p.paceLabel")}{" "}
+                  <span className="text-foreground">
+                    {t("pron.p.paceValue", { wpm: metrics.wpm, pace: t(`pron.p.pace.${metrics.pace}` as never) })}
+                  </span>
+                  . {t("pron.p.paceNote")}
                 </li>
                 <li>
-                  Fillers:{" "}
+                  {t("pron.p.fillersLabel")}{" "}
                   <span className="text-foreground">
                     {metrics.fillerCount === 0
-                      ? "none detected"
+                      ? t("pron.p.noneDetected")
                       : metrics.fillers.map((f) => `${f.word} ×${f.count}`).join(", ")}
                   </span>
                 </li>
                 <li>
-                  Repeated words:{" "}
+                  {t("pron.p.repeatedLabel")}{" "}
                   <span className="text-foreground">
-                    {metrics.repeatedWords.length ? metrics.repeatedWords.join(", ") : "none detected"}
+                    {metrics.repeatedWords.length ? metrics.repeatedWords.join(", ") : t("pron.p.noneDetected")}
                   </span>
                 </li>
               </ul>
               <p className="mt-2 text-[11px] text-muted-foreground">
-                Pace, fillers and repetition are counted from your real transcript and recording length. Pitch, loudness
-                and silent-pause length are not measured, so we do not score intonation or pauses automatically.
+                {t("pron.p.measuredNote")}
               </p>
             </div>
           )}
@@ -581,24 +580,24 @@ export function PronPractice({
           <div className="mt-4 flex flex-wrap items-center gap-2">
             {mastered ? (
               <span className="inline-flex items-center gap-1.5 rounded-full bg-brass px-3 py-1.5 text-xs font-semibold text-plum-deep">
-                <CheckCircle2 className="size-3.5" /> Mastered — two clear attempts
+                <CheckCircle2 className="size-3.5" /> {t("pron.p.mastered")}
               </span>
             ) : (
               <span className="text-xs text-muted-foreground">
-                Attempt {attempts} — two clear read-backs in a row marks this line as mastered.
+                {t("pron.p.attempt", { n: attempts })}
               </span>
             )}
             <Link
               to="/shadowing"
               className="rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
             >
-              Practise this in real speech → Shadowing
+              {t("pron.p.toShadowing")}
             </Link>
             <Link
               to="/ai-speaking"
               className="rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
             >
-              Use it with the Speaking Coach
+              {t("pron.p.toCoach")}
             </Link>
           </div>
         </div>

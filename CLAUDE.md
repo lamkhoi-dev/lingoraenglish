@@ -1542,21 +1542,35 @@ exam, task_type) + migration `0019_free_per_task_type.sql` (đã chạy) + đã 
 
 ---
 
-## 🟣 Pronunciation 8 phần nâng cao: hạ tầng dịch bài học theo ngôn ngữ học viên (2026-10-01)
+## 🟣 Pronunciation 8 phần nâng cao: dịch bài học theo ngôn ngữ học viên, dùng i18n (2026-10-01)
 
-Khách: phần bài học (giải thích/points/caution/ghi chú từng câu) của Word stress trở đi chỉ có tiếng Anh,
-học viên khó hiểu. Làm hạ tầng + giao AI khác dịch 53 ngôn ngữ (khách đã quen quy trình này).
-- Bảng mới `pronunciation_lesson_texts (locale, text_key, value)` (migration `0020`, đã chạy, có GRANT thủ
-  công). `text_key` = `<lessonId>|explain`, `|point|<n>`, `|caution`, `|note|<n>`. Tiếng Anh vẫn nằm ở
-  `pronunciation_lessons`, thiếu dòng dịch thì **tự hiện tiếng Anh**. Tiêu đề bài + câu luyện KHÔNG dịch.
-- `getSkillLessonsCatalogue({locale})` ghép bản dịch phía server (bài khoá vẫn không trả chữ nào);
-  `pronunciation.tsx` truyền `locale` và tải lại khi đổi ngôn ngữ. Đã deploy.
+Khách: phần bài học (giải thích/points/caution/ghi chú từng câu) của Word stress trở đi chỉ có tiếng Anh. Giao
+AI khác dịch 53 ngôn ngữ. **Khách chọn dùng i18n chuẩn** (đã giải thích đánh đổi: mọi trang tải thêm ~66-100KB
+chữ/ngôn ngữ vì i18n tải cả bộ dòng của ngôn ngữ; đổi lại sửa tay được ở tab Translations của admin).
+- Khoá `pronlesson.<lessonId>|explain`, `|point|<n>`, `|caution`, `|note|<n>` trong `ui_translations`
+  (không có trong `en.ts`; tiếng Anh vẫn nằm ở `pronunciation_lessons`). `pronunciation.tsx` có hàm
+  `lessonText(lessonId, part, english)`: gọi `t(key)`, **t() trả về chính khoá khi không có dòng dịch → hiện
+  tiếng Anh**. Tiêu đề bài + câu luyện KHÔNG dịch. Bài khoá vẫn không lộ chữ (server vẫn redact).
+- Từng thử bảng riêng `pronunciation_lesson_texts` (migration 0020) rồi bỏ (0021 DROP, chưa có dữ liệu).
 - Nguồn để dịch: `scripts/seed/pronunciation-translations/source-en-01..05.json` (1.170 đoạn, ~66k ký tự);
   AI kia ghi `<code>-NN.json` (`{key,text}`). Nạp: `node scripts/load-pronunciation-translations.mjs
-  [mã ngôn ngữ...]` — kiểm tra đủ key/thứ tự, không rỗng, còn nguyên từ tiếng Anh cần giữ ("..." /…/ [..]
-  CHỮ HOA); ngôn ngữ nào lỗi thì bỏ qua cả ngôn ngữ đó; ra `load.sql` rồi chạy bằng psql như
-  `tour-translations.sql`. **Chưa có bản dịch nào được nạp** (chờ file từ AI kia). Lưu ý: nếu admin sửa/thêm
-  bài ở `/admin` thì key theo id bài + vị trí → sửa nội dung tiếng Anh sẽ làm bản dịch cũ lệch, cần dịch lại.
+  [mã ngôn ngữ...]` — kiểm tra đủ key/thứ tự, không rỗng, còn nguyên từ tiếng Anh cần giữ (trong "..." /…/ [..]
+  CHỮ HOA); ngôn ngữ nào lỗi thì bỏ qua cả ngôn ngữ đó; ra `load.sql` (upsert vào `ui_translations`, thêm
+  tiền tố `pronlesson.`) rồi chạy psql như `tour-translations.sql`. Cache dịch phía server 2 phút.
+- **Mở rộng cùng ngày — dịch cả chữ giao diện + tiêu đề + nhãn của trang** (khách phát hiện "What is word
+  stress?", tab, bộ lọc... không đủ 54 ngôn ngữ). Kiểm tra: trong 88 khoá `pron.*` chỉ en + vi đủ, **52 ngôn
+  ngữ còn lại thiếu 67 khoá** (hero, tên 9 tab + mô tả, bộ lọc level/difficulty/US/UK, tiêu đề mục, thông báo
+  khoá bài...), và `pron-practice.tsx` còn nhiều chữ cứng tiếng Anh. Đã làm: chuyển toàn bộ chữ cứng sang 53
+  khoá mới `pron.p.*` (khung Practice, 8 bước, nút Normal/Slower/Slow/Loop/Stop, phần kết quả, thông báo);
+  thêm bản dịch vi; nhãn level/difficulty/accent dịch qua khoá `pron.filter.*` có sẵn; tiêu đề bài dịch qua
+  `pronlesson.<id>|title`. Nguồn dịch thêm: `source-en-titles.json` (400 tiêu đề, file `<code>-titles.json`) và
+  `source-en-ui.json` (120 khoá thật, file `<code>-ui.json`, vi bỏ qua) — loader kiểm tra `{{biến}}` còn
+  nguyên (UI) / từ tiếng Anh cần giữ (bài học) và ghi mọi thứ vào `ui_translations` (DB ghi đè file
+  compiled nên 15 ngôn ngữ compiled cũng nhận qua DB; khi dựng lại DB mới phải nạp lại các file này).
+- Nhắc: lần test loader trước đã vô tình để lại file giả `vi-0N.json` + `load.sql` (nội dung = tiếng Anh) và
+  chúng bị commit vào git — đã xoá khỏi working tree, cần commit phần xoá; **không bao giờ nạp `load.sql` cũ**.
+- **Chưa có bản dịch nào được nạp** (chờ file từ AI kia). Đã deploy. Lưu ý: khoá theo id bài + vị trí → sửa
+  nội dung tiếng Anh ở `/admin` sẽ làm bản dịch cũ lệch, cần dịch lại.
 
 ---
 

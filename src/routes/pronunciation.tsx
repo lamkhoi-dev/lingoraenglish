@@ -146,6 +146,29 @@ type Progress = {
 function PronunciationPage() {
   const { sound: requestedSound, skill: requestedSkill } = Route.useSearch();
   const { t, locale } = useI18n();
+  // Lesson texts (explain / points / caution / item notes) live in English on
+  // the lesson row; other languages come from the shared i18n store under
+  // "pronlesson.<lessonId>|<part>". t() returns the key itself when nothing
+  // is stored, which is the signal to show the English text instead.
+  // Level / difficulty are stored as English words (beginner · easy); show them
+  // through the same labels the filters already use. Unknown values stay as-is.
+  const LEVEL_LABEL: Record<string, TranslationKey> = {
+    beginner: "pron.filter.beginner",
+    intermediate: "pron.filter.intermediate",
+    advanced: "pron.filter.advanced",
+  };
+  const DIFF_LABEL: Record<string, TranslationKey> = {
+    easy: "pron.filter.gentle",
+    medium: "pron.filter.steady",
+    hard: "pron.filter.challenging",
+  };
+  const levelLabel = (v: string) => (LEVEL_LABEL[v] ? t(LEVEL_LABEL[v]) : v);
+  const diffLabel = (v: string) => (DIFF_LABEL[v] ? t(DIFF_LABEL[v]) : v);
+  const lessonText = (lessonId: string, part: string, english: string) => {
+    const key = `pronlesson.${lessonId}|${part}`;
+    const v = t(key as never);
+    return v === key ? english : v;
+  };
   const { user } = useAuth();
   const getMyPronunciationProgressFn = useServerFn(getMyPronunciationProgress);
   const getSoundsCatalogueFn = useServerFn(getSoundsCatalogue);
@@ -228,14 +251,14 @@ function PronunciationPage() {
   /* Redacted server-side per learner's tier — see getSkillLessonsCatalogue. */
   useEffect(() => {
     let alive = true;
-    void getSkillLessonsCatalogueFn({ data: { locale } }).then((rows) => {
+    void getSkillLessonsCatalogueFn().then((rows) => {
       if (!alive) return;
       setSkillLessons(rows);
     });
     return () => {
       alive = false;
     };
-  }, [getSkillLessonsCatalogueFn, locale]);
+  }, [getSkillLessonsCatalogueFn]);
 
   useEffect(() => {
     let alive = true;
@@ -340,7 +363,7 @@ function PronunciationPage() {
   const item = lesson?.items[Math.min(itemIndex, lesson.items.length - 1)] ?? null;
 
   const accentSymbol = sound ? (accent === "us" ? (sound.usSymbol ?? sound.symbol) : sound.symbol) : "";
-  const accentLabel = accent === "us" ? "American English" : "British English";
+  const accentLabel = accent === "us" ? t("pron.filter.us") : t("pron.filter.uk");
 
   const recommended = useMemo(() => {
     const entries = SKILLS.filter((s) => s.id !== "sounds").map((s) => ({
@@ -595,7 +618,7 @@ function PronunciationPage() {
                       </h2>
                       <p className="mt-1 text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
                         {sound.voiced ? t("pron.voicedDesc") : t("pron.voicelessDesc")} ·{" "}
-                        {sound.level} · {sound.difficulty} · {accentLabel}
+                        {levelLabel(sound.level)} · {diffLabel(sound.difficulty)} · {accentLabel}
                       </p>
                     </div>
                     {!sound.unlocked && <PremiumBadge />}
@@ -838,7 +861,7 @@ function PronunciationPage() {
                             🎯 Practice
                           </span>
                         ) : (
-                          l.title
+                          lessonText(l.id, "title", l.title)
                         )}
                         {!l.unlocked && <Lock className="size-3" />}
                       </span>
@@ -848,7 +871,7 @@ function PronunciationPage() {
                             {t("pron.drillsCount", { count: "50" })}
                           </span>
                         ) : (
-                          `${l.level} · ${l.difficulty}`
+                          `${levelLabel(l.level)} · ${diffLabel(l.difficulty)}`
                         )}
                       </span>
                     </button>
@@ -859,12 +882,12 @@ function PronunciationPage() {
               {lesson && (
                 <section className="lounge-panel p-5 sm:p-6">
                   <div className="flex flex-wrap items-start justify-between gap-3">
-                    <h2 className="font-display text-2xl text-foreground">{lesson.title}</h2>
+                    <h2 className="font-display text-2xl text-foreground">{lessonText(lesson.id, "title", lesson.title)}</h2>
                     {!lesson.unlocked && <PremiumBadge />}
                   </div>
                   <p className="mt-1 text-xs font-semibold uppercase tracking-[0.1em] text-brass-soft">
-                    {lesson.level} · {lesson.difficulty} ·{" "}
-                    {lesson.accent === "us" ? "American English" : "British English"}
+                    {levelLabel(lesson.level)} · {diffLabel(lesson.difficulty)} ·{" "}
+                    {lesson.accent === "us" ? t("pron.filter.us") : t("pron.filter.uk")}
                   </p>
 
                   {!lesson.unlocked ? (
@@ -884,22 +907,22 @@ function PronunciationPage() {
                     </div>
                   ) : (
                     <>
-                      <p className="mt-3 text-sm leading-relaxed text-mist">{lesson.explain}</p>
+                      <p className="mt-3 text-sm leading-relaxed text-mist">{lessonText(lesson.id, "explain", lesson.explain)}</p>
 
                       <ul className="mt-4 flex flex-wrap gap-2">
-                        {lesson.points.map((p) => (
+                        {lesson.points.map((p, pi) => (
                           <li
                             key={p}
                             className="rounded-full bg-surface-2 px-3 py-1.5 text-xs text-foreground ring-1 ring-border"
                           >
-                            {p}
+                            {lessonText(lesson.id, `point|${pi}`, p)}
                           </li>
                         ))}
                       </ul>
 
                       {lesson.caution && (
                         <p className="mt-4 rounded-xl bg-plum/15 p-3 text-xs leading-relaxed text-plum-soft ring-1 ring-border">
-                          {lesson.caution}
+                          {lessonText(lesson.id, "caution", lesson.caution)}
                         </p>
                       )}
 
@@ -949,7 +972,11 @@ function PronunciationPage() {
                                       {it.pattern}
                                     </span>
                                   )}
-                                  {it.note && <span className="mt-0.5 block text-xs text-muted-foreground">{it.note}</span>}
+                                  {it.note && (
+                                    <span className="mt-0.5 block text-xs text-muted-foreground">
+                                      {lessonText(lesson.id, `note|${i}`, it.note)}
+                                    </span>
+                                  )}
                                 </div>
                               </div>
                             </button>
@@ -989,7 +1016,7 @@ function PronunciationPage() {
               mode={skill}
               lessonId={skill === "sounds" ? undefined : (lesson?.id ?? undefined)}
               pattern={skill === "sounds" ? undefined : reducedForm ? item?.text : (item?.pattern ?? undefined)}
-              accentLabel={skill === "sounds" ? accentLabel : lesson?.accent === "uk" ? "British English" : "American English"}
+              accentLabel={skill === "sounds" ? accentLabel : lesson?.accent === "uk" ? t("pron.filter.uk") : t("pron.filter.us")}
               initialMastered={skill === "sounds" ? progress.masteredSounds.has(accentSymbol) : undefined}
               onSoundMastered={(soundKey, mastered) =>
                 setProgress((p) => {

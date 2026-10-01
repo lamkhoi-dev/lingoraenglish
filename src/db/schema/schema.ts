@@ -1268,11 +1268,3 @@ export const emailVerificationTokensInAuth = auth.table("email_verification_toke
 	unique("email_verification_tokens_token_hash_key").on(table.tokenHash),
 ]);
 
-export const pronunciationLessonTexts = pgTable("pronunciation_lesson_texts", {
-	locale: text().notNull(),
-	textKey: text("text_key").notNull(),
-	value: text().notNull(),
-	updatedAt: timestamp("updated_at", { withTimezone: true, mode: 'string' }).defaultNow().notNull(),
-}, (table) => [
-	primaryKey({ columns: [table.locale, table.textKey], name: "pronunciation_lesson_texts_pkey" }),
-]);

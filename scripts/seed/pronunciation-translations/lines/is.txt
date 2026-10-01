@@ -1,0 +1,400 @@
+Hugsanahópar
+Andarhópar fyrir lengri svör
+Hópun við leiðsögn
+Hópun í opnun kynningar
+Hópun í frásögn
+Hópun í löngum svörum í IELTS-stíl
+Hópun með inngangssetningum
+Hópun uppskriftar
+Hópun við samanburð tveggja hluta
+Hópun við lýsingu á grafi eða töflu
+Hópun formlegs skilaboða sem lesin eru upp
+Hópun setninga með tilvísunarsetningum
+Hópun öryggisleiðbeininga
+Hópun æfing: setningar sem lengjast stöðugt
+Hópun í svari við atvinnuviðtali
+Hópun innskotra athugasemda
+Hópun 'not only... but also' uppbyggingar
+Hópun kynningar á vöru
+Hópun við útskýringu á leikreglum
+Hópun með tímasetningum (before, after, while)
+Hópun æfing: enn lengri setningauppbygging
+Hópun orsakar og afleiðingar
+Hópun lista yfir kosti og galla saman
+Hópun formlegrar tilkynningar á vinnustað
+Hópun við að segja einhverjum slæmar fréttir á mildan hátt
+Hópun stuttrar heiðursvísunar eða skálar
+Hópun við lýsingu á mynd
+Hópun við útskýringu á sögulegum atburði
+Hópun við umræðu um söguþráð bókar eða kvikmyndar
+Hópun í samningaviðræðum
+Hópun við lýsingu einkenna fyrir lækni
+Hópun ferðaáætlunar
+Hópun við útskýringu á fjárhagsáætlun
+Hópun við samanburð á starfstilboðum
+Hópun við bilanaleit
+Hópun við frásögn draums
+Hópun við umræðu um umhverfismál
+Hópun við lýsingu á borg
+Hópun við ítarlega útskýringu á áhugamáli
+Hópun við umræðu um bernskuminningar
+Hópun við útskýringu á stefnu fyrirtækis
+Hópun við umræðu um próf- eða námsaðferðir
+Hópun við útskýringu á eiginleika apps
+Hópun við umræðu um íþróttahápunktana
+Hópun við næringarráðgjöf
+Hópun við umræðu um veðurmynstur
+Hópun í símaþjónustusímtali
+Hópun stuttrar formlegrar fyrirvara
+Hópun við veltu persónulegrar ákvörðunar
+Lokaendurskoðun á blandaðri hópun
+Tenging samhljóðs við sérhljóð
+Sérhljóðatenging og innskotshljóð
+Elision: hljóð hverfa
+Assimilation: hljóð breytast
+Samdrættir
+Veikar myndir
+Tenging eins samhljóða
+Tenging /r/ í breskri ensku
+Stytt hjálparsagnir í spurningum
+Tenging yfir þriggja orða setningar
+Tengt tal með 'going to'
+Tengt tal í hröðum kveðjum
+Tenging við fleirtölu- og eignarfalls-'s'
+Æfing: hröð tengt-tal málsgrein
+H-þeyting í veikum fornum
+Stirt hljóð sem kemur í stað /t/
+Tenging -ing forma við næsta sérhljóð
+Tengt tal í dagsetningum
+Tengt tal með modal + have
+Tengt tal í veðurspjalli
+Tenging í viðskiptasímtalsorðum
+Æfing í tengdu tali: önnur hröð málsgrein
+Tenging við 'a lot of'
+Tengt tal í lagatextum
+Stytt 'because' í frjálslegu tali
+Tenging við fleirtölusagnir
+Tengt tal yfir stutt samtal
+Stytt 'them' sem 'em
+Tenging við tölur fyrir nafnorðum
+Tenging staðarfor setninga
+Tenging 'There's a' og 'there's an'
+Tenging neikvæðra hjálparsagna
+Tenging talna við 'and'
+Tengt tal í frjálslegum afsökunum
+Stytt tenging 'Of course' og 'kind of'
+Tengt tal í hröðum íþróttalýsingum
+Tenging við 'going to have to'
+Frjálslegt 'your' stytt í 'yer'
+Tengt tal í kurteisum tilboðum
+Tenging við 'used to' í frásögn
+Tengt tal með tvöföldum samhljóðum yfir orð
+Tengt tal í þjónustusetningum
+Tengt tal: lokaupprifjunarmálsgrein
+Tenging við 'as well as'
+Stytt tenging 'Except for'
+Tengt tal við frjálslegar áætlanir
+Tenging yfir kvikmyndabandalínu-stíl
+Tengt tal með 'gonna' og mismunandi fornum
+Tengt tal: lokaupprifjun með blöndu
+Lokaupprifjun í blandaðri tengingu
+Eðlilegur talhraði
+Gagnlegar fylliorðir og tenging hugmynda
+Að leiðrétta sig á sléttan hátt
+Að umorða þegar þú kann ekki orð
+Að halda dampi í löngum svörum
+Að forðast orð-fyrir-orð þýðingarvenjur
+Að jafna sig eftir mistök án þess að stöðva
+Flæði við að svara óvæntum spurningum
+Stefnumótandi hlé á móti hiki
+Vegvísandi mál fyrir skipulögð svör
+Að halda út tveggja mínútna svari
+Breytingasetningar milli umræðuefna
+Hraðastýring: viljandi hægt á móti eðlilegu hröðu
+Flæði við að lýsa mynd eða ljósmynd
+Flæði við að draga saman það sem einhver sagði
+Að gefa skjóta skoðun án undirbúnings
+Flæði við skjóta samþykkt eða andstöðu
+Að segja stutta sögu eða brandara á flæðandi hátt
+Flæði við að útskýra ferli án þess að stöðva
+Að forðast bókstaflega þýðingu: fleiri setningabútar
+Flæði við að takast á við truflun
+Flæði við að gefa skjótar ráðleggingar
+Flæði við að tjá samkennd
+Flæði við að ræða ímyndaða atburðarás
+Flæði í andsvari í rökræðu
+Flæðandi kynning á sjálfum sér
+Flæði við að segja persónulega sögu
+Flæði við að svara eftirfylgnispurningu
+Flæði við að gefa uppbyggilega endurgjöf
+Flæði við að semja um samning
+Flæði við að lýsa þróun eða breytingu yfir tíma
+Flæði við að bera saman valkosti og ákveða
+Flæði við að tjá gremju á viðeigandi hátt
+Flæði við að biðjast afsökunar á stærri mistökum
+Flæði við að kynna tölfræði
+Flæði við að takast á við vandræðalega þögn
+Flæði við að keðja saman smáspjallsefni
+Flæði við að kenna hugtak á einfaldan hátt
+Flæði við að tjá von um framtíðina
+Flæði við að gefa meðmæli
+Flæði við að deila góðum fréttum
+Flæði við að lýsa markmiði eða draumi
+Flæði við að útskýra ákvörðun sem þú tókst
+Flæði við að tjá eftirsjá
+Flæði við að ljúka samtali á sléttan hátt
+Flæði við að halda áfram með umræðuefni eftir truflun
+Flæði við að útvíkka stutt já/nei svar
+Flæði við að takast á við skyndilega breytingu á umræðuefni
+Flæði við að gefa einlæga hrós
+Flæði við að leysa kvörtun viðskiptavinar
+Fallandi tónfall
+Hækkandi tónfall
+Hækkun-fall og fall-hækkun
+Spurnarviðskeyti: að staðfesta eða spyrja
+Eða-spurningar: tvenns konar merking
+Upphrópanir
+Listar með fleiri en tveimur atriðum
+Bergmálsspurningar til að koma á óvart
+Kurteis beiðni með mýkjandi fall-hækkun
+Tónfall við að bjóða valkosti
+Tónfall fyrir sanna óvissu
+Tónfall í kveðjum
+Tónfall fyrir kaldhæðni og háð
+Tónfall við að segja góðar fréttir eða slæmar
+Tónfall í heilu IELTS-stílu svari
+Framsetningjaspurningar (fullyrðingarform, spurningarmerking)
+Tónfall við lestur talna og símanúmera
+Tónfall í viðvörunum
+Tónfall til að hughreysta
+Tónfall við að gefa hrós
+Tónfall við að enda smáspjall kurteislega
+Tónfall í samningaviðræðum
+Tónfall við að útskýra skref fyrir einhverjum
+Sömu orð, annað tónfall, önnur merking
+Tónfall í einlægri afsökunarbeiðni
+Ákafi gegn leiðindum: sama setning, andstæð orka
+Tónfall í formlegri tilkynningu
+Framhaldstónfall inni í setningu
+Tónfall við að ganga úr skugga um að þú skildir rétt
+Tónfall við að bjóða hjálp
+Tónfall sem lýsir vonbrigðum
+Tónfall við að gefa skýrar fyrirmæli
+Tónfall sem byggir upp að hápunkti sögu
+Tónfall sem sýnir rugling
+Tónfall í kurteisri ósammála
+Tónfall við lestur lista gegn frjálslegum lista
+Tónfall við að leiðrétta einhvern kurteislega
+Tónfall við að flytja skálaræðu
+Tónfall sem lýsir létti
+Tónfall við að kynna sig formlega eða frjálslega
+Tónfall við að hvetja einhvern
+Tónfall í atvinnuviðtali
+Tónfall með andstæðumerkjum (however, but)
+Tónfall við að biðja um leyfi
+Tónfall við að segja slæmar fréttir varlega
+Tónfall sem sýnir sinnuleysi
+Tónfall við lestur verða og magns
+Tónfall við að kalla á einhvern yfir herbergi
+Tónfall í niðurtalningu
+Lokað blandað upprifjun: veldu rétta mynstrið
+Reductions í daglegu tali
+kinda, sorta, lemme, gimme
+hafta, needa, useta
+coulda, woulda, shoulda
+dunno, dontcha, whatcha
+outta, offa, cuppa
+c'mon, gonna be, s'more
+Reductions í óformlegum spurningum
+Reductions með tölum og tíma
+probably, trying to, supposed to
+let's, gimme that, y'all
+Óformlegar tölur í hröðu tali
+Orð sem styttast um eitt atkvæði í óformlegu tali
+I'ma og aðrar ofuróformlegar myndir
+Fleiri óformlegar styttingar í kveðjum
+oughta, don't hafta, wantcha
+Fræg öfgastytting: 'Did you eat yet?'
+'because of' og 'sort of a'
+Óformlegt já/nei: yep, nope, uh-huh
+'want a' (hlutur) vs 'want to' (aðgerð)
+wouldn't have → wouldn'ta
+just 'cause, gonna need
+ain't — am not, is not, are not
+gotcha — got you
+musta, mighta — must have, might have
+shouldn'ta, couldn'ta — neikvæðir þátíðarhjálparsagnir
+g-dropping: doin', goin', talkin'
+somethin', nothin', anythin'
+'em — them
+'n' — and
+standalone 'cause — because
+'course — of course
+aight — all right
+letcha — let you
+jever — did you ever
+gonna hafta — going to have to
+not gonna, wasn't gonna
+innit — isn't it (breskt)
+whaddya say — what do you say
+y'know — you know (fylliorð)
+s'up — what's up
+tell 'im, ask 'er — him, her
+kinda sorta — samsett varúðarorð
+dincha — didn't you
+hadta — had to
+willcha — will you
+lotsa, buncha — lots of, bunch of
+helluva — hell of a
+howdy — how do you do
+s'pose — I suppose
+Enska er streitmál
+Taktur í raunverulegum samtölum
+Að telja slög, ekki atkvæði
+Tungubrjótar fyrir taktstjórnun
+Taktur í stuttum svörum
+Taktur í tölum og listum
+Taktæfing með barnarímmynstri
+Taktur í lengri eðlilegri setningu
+Taktur í spurningum
+Uppbyggingaræfing fyrir takt
+Taktur í orðtökum
+Taktur í auglýsingaslagorðum
+Hvernig enskur taktur er frábrugðinn atkvæðamálum
+Taktur við stutta ræðu eða kveðju
+Að klappa taktinn
+Taktur í hröðu samtalsbroti við frummælanda
+Taktur í stuttu ljóði
+Taktur: spennt hröð slög á móti rólegum hægum slögum
+Taktur með nöfnum og kveðjum
+Taktur í áhersluríkri rökræðu
+Taktur við að lesa tölur upphátt
+Taktur í þjónustusamtölum
+Endurtekningaræfing fyrir öryggi í takti
+Taktur í veðurfrétt
+Taktmótstæða: formlegur á móti frjálslegur flutningur
+Taktur með samhljóðaklasatungubrjótum
+Taktur yfir tveggja setninga smásamtal
+Taktur við að gefa skipanir
+Taktur við að lesa matseðil upphátt
+Taktur í einföldu barnalagi
+Taktur í smásamtali með andstæðri áherslu
+Taktur og tenging samanlögð
+Taktur í frægum kvikmyndatilvitnunum
+Taktur sem byggir upp styrk yfir stutta ræðu
+Taktur í hópsöng og fagnaðarópum
+Taktur með stafsetningarrími
+Taktur við að lýsa veðurkorti
+Taktur við að lesa uppskrift skref fyrir skref
+Taktur og hlé samanlögð æfing
+Taktur við að gefa einlægar hrósir
+Taktur við að telja hluti
+Taktur við að lýsa daglegu dagskrá
+Taktur í stuttum upphrópunarsvörum
+Taktur í svörum með fæstum orðum
+Taktur í útvarpsauglýsingu
+Taktur byggður frá einu orði upp í fulla setningu
+Taktur í stuttri afsökunarræðu
+Taktur við að lesa stutta fréttafyrirsögn
+Taktur: já/nei svar og hröð viðbót
+Taktur í stuttri kveðjuræðu
+Innihaldsorð á móti formorðum
+Áhersla breytir merkingu
+Spurnarorð bera áhersluna
+Andstæðuáhersla
+Nýjar upplýsingar fá áhersluna
+Áhersla í neitandi setningum
+Áhersla í kurteisum beiðnum
+Áhersla á hjálparsagnir fyrir merkingu
+Daglegar samræður um léttvæg málefni
+Áhersla í samanburði
+Áhersla við að gefa skoðanir
+Áhersla í símtölum
+Áhersla við að gefa leiðbeiningar
+Áhersla í beiðnum um skýringu
+Áhersla með 'too' og 'either'
+Áhersla í svörum á atvinnuviðtali
+Áhersla við að leiðrétta mistök
+Áhersla í verslunarsamtölum
+Áhersla með afturbeygðri áherslu (myself, himself)
+Áhersla við að gefa fyrirmæli
+Áhersla í afsökunarbeiðnum
+Áhersla á tölur í samhengi
+Áhersla í frásögnum
+Áhersla með 'even' til áherslu
+Áhersla í skilyrðissetningum
+Áhersla í óbeinni ræðu
+Áhersla við að koma með tillögur
+Áhersla í samtölum um framtíðaráætlanir
+Áhersla í samtölum um fyrri reynslu
+Áhersla við að tjá líkar og mislíkar
+Áhersla við að lýsa ferli skref fyrir skref
+Áhersla við að bera saman kosti og galla
+Áhersla við að vera sammála og ósammála
+Áhersla við pöntun á veitingastað
+Áhersla við að biðjast afsökunar á seinkun
+Áhersla við að lýsa útliti einhvers
+Áhersla í neyðar- og áríðandi setningum
+Áhersla í samtölum um skilafresti og tímaskort
+Áhersla í afslöppuðum boðum
+Áhersla í samtölum um hæfileika og færni
+Áhersla við að tjá undrun
+Áhersla við að leggja fram kvörtun
+Áhersla við að lýsa daglegu lífi
+Áhersla í samtölum um veðurspá
+Áhersla við að ræða frétt
+Áhersla við að gefa viðvörun
+Áhersla við að bjóða val í verslun eða við afgreiðsluborð
+Áhersla með óskum og ímynduðum tilfellum
+Áhersla í samtölum um afmæli og hátíðir
+Loka endurskoðun á blönduðu efni
+Hvað er orðáhersla?
+Áhersla sem breytir orðinu
+Orðafjölskyldur og aukáhersla
+Fleiri nafnorð/sagnir áherslupör
+Enn fleiri nafnorð/sagnir pör
+Tveggja atkvæða nafnorð: áhersla á fyrsta atkvæði
+Tveggja atkvæða sagnir: áhersla á annað atkvæði
+-tion og -sion fá alltaf áherslu fyrir framan sig
+-ic og -ical fá alltaf áherslu fyrir framan sig
+-ity og -ety fá alltaf áherslu fyrir framan sig
+Forskeyti fá venjulega ekki áherslu
+Samsett nafnorð: áhersla á fyrra orðið
+Lýsingarorð + nafnorðasambönd: áhersla á seinna orðið
+Tölur: -teen vs -ty
+Stöðuheiti og starfsgreinar
+Tækniorðaforði
+Viðskipta- og skrifstofuorðaforði
+Ferða- og ferðamannaorðaforði
+Matur og matreiðsla orðaforði
+Fjölskyldu- og sambandsorð
+Tilfinningaorð
+Lönd og þjóðerni
+-ous og -eous lýsingarorð
+-ial og -ual lýsingarorð
+-ate: nafnorð/lýsingarorð vs sögn
+Skammstafanir og upphafsstafir
+Dagar, mánuðir og tímaorð
+Tökuorð frá frönsku
+Samsett lýsingarorð með bandstriki
+Þriggja atkvæða orð: æfing á mynstri
+Lýsingarorð/nafnorð pör með -al endingunni
+Íþrótta- og áhugamálaorðaforði
+Veðurorðaforði
+Heilsu- og læknisfræðiorðaforði
+Menntaorðaforði
+Fjármála- og peningaorðaforði
+Sögn + nafnorð áherslutilfærsluæfing
+Lýsingarorðaendingar: -able og -ible
+Lengri fræðileg orð
+Dagleg kveðjur og orðasambönd
+Áhersla í borgar- og staðarheitum
+Sagnir sem enda á -ize / -ise
+Áherslubrýstingur á lengri lýsandi lýsingarorðum
+Orð sem líta svipað út en hafa mismunandi áherslu
+Æfingasett: blönduð upprifjun
+Frasasögn vs samsett nafnorð
+Stórar tölur og peningaupphæðir
+Algeng orðtök og föst orðasambönd
+Orð sem missa atkvæði í hröðu tali
+Lokaupprifjun með blönduðu efni
