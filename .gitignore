@@ -67,6 +67,10 @@ dump-en.ts
 en_keys_ref.txt
 deploy.batcls
 
+# Python cache
+__pycache__/
+*.py[cod]
+
 # Image archive deploy.bat creates temporarily (docker save -> gzip) before scp
 lingoraenglish-app.tar
 lingoraenglish-app.tar.gz
