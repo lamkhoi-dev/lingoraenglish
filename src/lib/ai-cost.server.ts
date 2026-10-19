@@ -27,6 +27,15 @@ const PRICES: Record<string, { inPerMTok?: number; outPerMTok?: number; perCall?
   "deepseek-chat": { inPerMTok: 0.27, outPerMTok: 1.1 },
   "gemini-flash-latest": { inPerMTok: 0.3, outPerMTok: 2.5, perCall: 0.0001 },
   "gemini-2.5-flash-preview-tts": { perCall: 0.0006 },
+  // Per-call estimates for one ~225-character reply (about 15s of audio, 25 audio tokens per second):
+  // 375 tokens x list price per 1M audio tokens ($6 / $9 / $10 / $20). Groq Orpheus: $22 per 1M characters.
+  "gemini-3.8-flash-lite-tts": { perCall: 0.00225 },
+  "gemini-3.8-flash-tts": { perCall: 0.0034 },
+  "gemini-3.1-flash-tts-preview": { perCall: 0.0075 },
+  "canopylabs/orpheus-v1-english": { perCall: 0.005 },
+  // Groq Whisper: $0.04 per audio hour, so about $0.00033 for a 30-second answer.
+  "whisper-large-v3-turbo": { perCall: 0.00033 },
+  "whisper-large-v3": { perCall: 0.00092 },
 };
 
 const MICRO = 1_000_000;

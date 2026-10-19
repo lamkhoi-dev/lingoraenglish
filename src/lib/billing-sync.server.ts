@@ -73,4 +73,10 @@ export async function syncSubscriptionFromProvider(
       .values(row)
       .onConflictDoUpdate({ target: subscriptions.providerSubscriptionId, set: row }),
   );
+
+  // A higher tier than the signup trial's Premium starts immediately and cannot absorb the leftover trial days.
+  if (productKey === "ielts_pro" && ["active", "trialing", "past_due"].includes(sub.status)) {
+    const { revokeTrial } = await import("./entitlements.server");
+    await revokeTrial(userId);
+  }
 }

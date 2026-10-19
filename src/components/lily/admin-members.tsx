@@ -7,7 +7,7 @@ import { useServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 import { toast } from "sonner";
 
-import { formatMoney } from "@/components/lily/billing-ui";
+import { formatMoney, minorToMajor } from "@/components/lily/billing-ui";
 import { PanelCard } from "@/components/lily/score-panel";
 import {
   adminListMembers,
@@ -181,7 +181,7 @@ export function AdminMembers() {
                   </p>
                   {member.amount ? (
                     <p className="text-brass-soft">
-                      {formatMoney(member.amount / 100, member.currency, locale)}
+                      {formatMoney(minorToMajor(member.amount, member.currency), member.currency, locale)}
                       {member.interval === "year" ? "/yr" : "/mo"}
                     </p>
                   ) : null}

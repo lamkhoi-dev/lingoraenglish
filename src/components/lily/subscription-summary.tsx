@@ -8,7 +8,7 @@ import { useServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 import { toast } from "sonner";
 
-import { formatMoney } from "@/components/lily/billing-ui";
+import { formatMoney, minorToMajor } from "@/components/lily/billing-ui";
 import { PanelCard } from "@/components/lily/score-panel";
 import { useBilling } from "@/hooks/use-billing";
 import {
@@ -89,7 +89,7 @@ export function SubscriptionSummary() {
     {
       label: t("billing.total"),
       value: subscription?.amount
-        ? `${formatMoney(subscription.amount / 100, subscription.currency, locale)} ${
+        ? `${formatMoney(minorToMajor(subscription.amount, subscription.currency), subscription.currency, locale)} ${
             subscription.billing_interval === "year" ? t("pricing.perYear") : t("pricing.perMonth")
           }`
         : t("pricing.free"),

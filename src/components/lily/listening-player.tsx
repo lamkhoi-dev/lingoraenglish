@@ -8,6 +8,7 @@ import { useI18n } from "@/lib/i18n";
 import { speak } from "@/lib/lily.functions";
 import { PLAYBACK_SPEEDS, accentKey, formatDuration, speakerVoiceMap, type ScriptLine } from "@/lib/listening-content";
 import { cn } from "@/lib/utils";
+import { ttsAdminStore } from "@/lib/tts-admin-store";
 import { voicePlayer } from "@/lib/voice-player";
 
 export type ListeningPlayerProps = {
@@ -129,6 +130,7 @@ export function ListeningPlayer({ script, durationSeconds, accent, onListened, c
         for (let i = from; i < script.length; i += 1) {
           if (run !== token.current) return;
           setIndex(i);
+          ttsAdminStore.record([{ text: script[i]!.line, voice: speakerVoice.get(script[i]!.speaker) ?? "shimmer" }]);
           const src = await fetchLine(script[i]!);
           if (run !== token.current) return;
 

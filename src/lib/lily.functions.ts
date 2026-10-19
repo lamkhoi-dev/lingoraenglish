@@ -38,6 +38,10 @@ import { findSoundIndex, isSoundIndexFree, soundPracticeTargets } from "./pronun
 import { analyseSpeakingTranscript } from "./speaking-analysis.server";
 import { vocabularySpeakingQuestion } from "./vocabulary-practice";
 
+/** Largest recorded answer accepted, as base64 characters (~13 MB of audio). Gemini accepts inline audio up to
+ * ~20 MB per request and nginx allows 25 MB bodies; the old 4M (~3 MB) cap rejected long IELTS answers. */
+const AUDIO_BASE64_MAX = 18_000_000;
+
 /* ------------------------- practice-item binding ------------------------- */
 // Yêu cầu 10: every AI scoring call names ONE concrete practice item, and the
 // server checks both that the caller may open that item and that the text
@@ -288,7 +292,7 @@ export const evaluateIelts = createServerFn({ method: "POST" })
          * what was actually heard instead of staying blank. Optional only
          * for schema back-compat — every caller submitting a test has the
          * recording in hand and should send it. */
-        audioBase64: z.string().max(4_000_000).optional(),
+        audioBase64: z.string().max(AUDIO_BASE64_MAX).optional(),
         mimeType: z.string().max(60).optional(),
       })
       .parse(d),
@@ -376,7 +380,7 @@ export const analysePronunciation = createServerFn({ method: "POST" })
         /** The learner's own recording, so feedback can be grounded in what
          * was actually said rather than only the STT transcript. Optional —
          * every caller that has the recording handy should send it. */
-        audioBase64: z.string().max(4_000_000).optional(),
+        audioBase64: z.string().max(AUDIO_BASE64_MAX).optional(),
         mimeType: z.string().max(60).optional(),
       })
       .refine((d) => [d.targetSound, d.lessonId, d.testId, d.sentenceId].filter(Boolean).length === 1, {

@@ -84,6 +84,11 @@ export const enTests = {
   "tests.runner.prepTimeSeconds": "{{seconds}}s preparation time",
   "tests.runner.promptCount": "{{count}} prompt(s) in this test",
 
+  "tests.sample.show": "💡 Sample Answer",
+  "tests.sample.hide": "Hide Sample Answer",
+  "tests.sample.modelBand8": "Band 8.0 Model Answer",
+  "tests.sample.listen": "Listen to model",
+
   "tests.runner.busyMarking": "Marking your answer",
   "tests.runner.busyScoring": "Scoring your answer",
   "tests.runner.hintPart2": "Speak for one to two minutes.",

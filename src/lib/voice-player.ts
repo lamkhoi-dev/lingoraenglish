@@ -106,6 +106,11 @@ class VoicePlayer {
     }
   }
 
+  /** Drops this page session's copy of these chunks (an admin just saved a new take for them). */
+  forget(voiceKey: string, chunks: string[]): void {
+    for (const chunk of chunks) this.cache.delete(`${voiceKey}::${chunk}`);
+  }
+
   subscribe(listener: Listener): () => void {
     this.listeners.add(listener);
     listener(this.state);

@@ -26,10 +26,85 @@ import { AppShell } from "@/components/lily/app-shell";
 import { BillingCard, formatMoney } from "@/components/lily/billing-ui";
 import { SectionHeading } from "@/components/lily/brand";
 import { useAuth } from "@/lib/auth";
-import { getBankTransferOrder, type BankTransferOrder } from "@/lib/bank-transfer.functions";
+import {
+  getBankTransferOrder,
+  reportBankTransferSent,
+  type BankTransferOrder,
+} from "@/lib/bank-transfer.functions";
 import { useI18n } from "@/lib/i18n";
 
 const POLL_MS = 3000;
+/** After the learner presses "I've made the transfer" on an expired order, keep checking this long. */
+const REPORTED_POLL_WINDOW_MS = 30 * 60_000;
+
+/** Postgres timestamps ("2026-10-05 02:46:12.3+00") as epoch ms; Safari rejects the raw form. */
+function timestampMs(value: string | null | undefined): number | null {
+  if (!value) return null;
+  const ms = Date.parse(value.replace(" ", "T").replace(/([+-]\d{2})$/, "$1:00"));
+  return Number.isNaN(ms) ? null : ms;
+}
+
+function shouldKeepPolling(order: BankTransferOrder): boolean {
+  if (order.status === "pending") return true;
+  const reported = timestampMs(order.reported_at);
+  return order.status === "expired" && reported !== null && Date.now() - reported < REPORTED_POLL_WINDOW_MS;
+}
+
+/**
+ * "I've made the transfer": asks the server to check SePay right away. If the money is found the page flips
+ * to "paid" on the next poll; if not, the report is recorded so an admin checks the bank statement.
+ */
+function ReportTransferButton({
+  order,
+  isVi,
+  onReported,
+}: {
+  order: BankTransferOrder;
+  isVi: boolean;
+  onReported: () => void;
+}) {
+  const report = useServerFn(reportBankTransferSent);
+  const [busy, setBusy] = useState(false);
+  const reportedMs = timestampMs(order.reported_at);
+
+  if (reportedMs !== null) {
+    const time = new Date(reportedMs).toLocaleTimeString(isVi ? "vi-VN" : "en-GB", { hour: "2-digit", minute: "2-digit" });
+    return (
+      <p className="mt-3 w-full rounded-xl border border-emerald-500/30 bg-emerald-500/10 px-3 py-2 text-center text-xs text-emerald-800 dark:text-emerald-200">
+        {isVi
+          ? `Đã ghi nhận lúc ${time}. Hệ thống đang đối chiếu với ngân hàng; nếu khoản tiền chưa tự khớp (ví dụ sai nội dung), quản trị viên sẽ kiểm tra sao kê và kích hoạt gói cho bạn.`
+          : `Noted at ${time}. We are checking with the bank; if the transfer did not match automatically (e.g. a different note), an admin will check the statement and activate your plan.`}
+      </p>
+    );
+  }
+
+  return (
+    <button
+      type="button"
+      disabled={busy}
+      onClick={() =>
+        void (async () => {
+          setBusy(true);
+          try {
+            const result = await report({ data: { orderId: order.id } });
+            if (result.status !== "paid") {
+              toast.success(isVi ? "Đã ghi nhận, đang kiểm tra với ngân hàng…" : "Noted — checking with the bank…");
+            }
+            onReported();
+          } catch (error) {
+            toast.error(error instanceof Error ? error.message : isVi ? "Không gửi được, vui lòng thử lại." : "Could not send, please try again.");
+          } finally {
+            setBusy(false);
+          }
+        })()
+      }
+      className="mt-3 flex w-full items-center justify-center gap-2 rounded-xl bg-primary py-2.5 text-xs font-bold text-primary-foreground transition hover:opacity-95 disabled:opacity-60"
+    >
+      <Check className="size-3.5" />
+      <span>{busy ? (isVi ? "Đang kiểm tra…" : "Checking…") : isVi ? "Tôi đã chuyển khoản" : "I've made the transfer"}</span>
+    </button>
+  );
+}
 
 function useCountdown(expiresAt: string | undefined) {
   const [remaining, setRemaining] = useState<number>(0);
@@ -138,6 +213,8 @@ export function BankTransferCheckoutView() {
   const [order, setOrder] = useState<BankTransferOrder | null>(null);
   const [error, setError] = useState<string | null>(null);
   const timer = useRef<ReturnType<typeof setInterval> | null>(null);
+  // Bumped after "I've made the transfer" so polling restarts even on an expired order.
+  const [pollRun, setPollRun] = useState(0);
 
   const countdown = useCountdown(order?.expires_at);
 
@@ -149,7 +226,7 @@ export function BankTransferCheckoutView() {
         const row = await fetchOrder({ data: { orderId } });
         if (cancelled) return;
         setOrder(row);
-        if (row.status !== "pending" && timer.current) {
+        if (!shouldKeepPolling(row) && timer.current) {
           clearInterval(timer.current);
           timer.current = null;
         }
@@ -163,7 +240,7 @@ export function BankTransferCheckoutView() {
       cancelled = true;
       if (timer.current) clearInterval(timer.current);
     };
-  }, [fetchOrder, orderId, user]);
+  }, [fetchOrder, orderId, user, pollRun]);
 
   const downloadQr = () => {
     if (!order?.qr_url) return;
@@ -286,14 +363,25 @@ export function BankTransferCheckoutView() {
             </h2>
             <p className="mt-1 text-sm text-muted-foreground">
               {isVi
-                ? "Thời gian giữ đơn hàng đã kết thúc mà chưa nhận được chuyển khoản. Bạn chưa bị trừ tiền."
-                : "No matching transfer was received in time. You were not charged."}
+                ? "Thời gian giữ đơn hàng đã kết thúc mà hệ thống chưa thấy khoản chuyển khoản nào."
+                : "The order window ended before we saw a matching transfer."}
             </p>
+            <div className="mx-auto mt-5 max-w-sm rounded-xl border border-border bg-surface-2/60 p-4 text-left text-xs text-muted-foreground">
+              <p className="font-semibold text-foreground">
+                {isVi ? "Bạn đã chuyển khoản rồi?" : "Already made the transfer?"}
+              </p>
+              <p className="mt-1">
+                {isVi
+                  ? `Khoản chuyển đúng số tiền với nội dung "${order.transfer_content}" trong vòng 7 ngày vẫn được kích hoạt. Bấm nút dưới đây để hệ thống kiểm tra lại ngay.`
+                  : `A transfer of the exact amount with the note "${order.transfer_content}" within 7 days is still honoured. Press below and we will check again now.`}
+              </p>
+              <ReportTransferButton order={order} isVi={isVi} onReported={() => setPollRun((n) => n + 1)} />
+            </div>
             <Link
               to="/pricing"
-              className="mt-6 inline-block rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground"
+              className="mt-6 inline-block rounded-full border border-border px-6 py-2.5 text-sm font-semibold text-foreground hover:bg-surface-2"
             >
-              {isVi ? "Tạo đơn mới" : "Start again"}
+              {isVi ? "Chưa chuyển? Tạo đơn mới" : "Not paid yet? Start again"}
             </Link>
           </BillingCard>
         )}
@@ -358,6 +446,8 @@ export function BankTransferCheckoutView() {
                     {isVi ? "Đang chờ thanh toán tự động..." : "Awaiting payment..."}
                   </span>
                 </div>
+
+                <ReportTransferButton order={order} isVi={isVi} onReported={() => setPollRun((n) => n + 1)} />
               </div>
 
               {/* Hướng dẫn 3 bước */}
@@ -423,7 +513,7 @@ export function BankTransferCheckoutView() {
                   />
                   <CopyField
                     label={isVi ? "Nội dung chuyển khoản (BẮT BUỘC)" : "Transfer Note (Required)"}
-                    value={order.reference_code}
+                    value={order.transfer_content}
                     highlight
                     badge={isVi ? "Quan trọng" : "Important"}
                   />
@@ -440,8 +530,8 @@ export function BankTransferCheckoutView() {
                   </p>
                   <p className="mt-1 leading-relaxed pl-5.5 text-[11px] opacity-90">
                     {isVi
-                      ? `Mã "${order.reference_code}" giúp hệ thống SePay nhận biết thanh toán của bạn để kích hoạt tự động 100%. Nếu quên nhập mã, vui lòng liên hệ admin để hỗ trợ duyệt tay.`
-                      : `The code "${order.reference_code}" lets our system identify your transfer. If you forgot to include it, please contact support.`}
+                      ? `Nội dung "${order.transfer_content}" giúp hệ thống nhận biết thanh toán của bạn để kích hoạt tự động 100%. Hãy nhập đúng nguyên văn (kể cả phần đầu). Nếu quên hoặc nhập sai, vui lòng liên hệ admin để hỗ trợ duyệt tay.`
+                      : `The note "${order.transfer_content}" lets our system identify your transfer. Type it exactly as shown, including the first word. If you forgot it or changed it, please contact support.`}
                   </p>
                 </div>
               </div>

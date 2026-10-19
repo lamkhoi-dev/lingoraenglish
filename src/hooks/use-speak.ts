@@ -4,14 +4,16 @@ import { toast } from "sonner";
 
 import { speak as speakFn } from "@/lib/lily.functions";
 import { useAuth } from "@/lib/auth";
-import { voicePlayer, type VoiceStatus } from "@/lib/voice-player";
+import { ttsAdminStore } from "@/lib/tts-admin-store";
+import { splitForSpeech, voicePlayer, type VoiceStatus } from "@/lib/voice-player";
 
 /**
  * Site-wide voice hook. All playback runs through the global voice player, so
  * the complete response is always spoken, long text is chunked at sentence
  * boundaries, and re-renders or navigation never cut a sentence in half.
  */
-export function useSpeak(voice = "shimmer") {
+export function useSpeak(voice = "shimmer", opts: { adminRegen?: boolean } = {}) {
+  const adminRegen = opts.adminRegen !== false;
   const requestSpeech = useServerFn(speakFn);
   const { user } = useAuth();
   const [status, setStatus] = useState<VoiceStatus>(voicePlayer.getState().status);
@@ -34,6 +36,8 @@ export function useSpeak(voice = "shimmer") {
         return;
       }
       voicePlayer.prime();
+      // Fixed content only (callers with changing text, like AI Coach replies, pass adminRegen: false).
+      if (adminRegen) ttsAdminStore.record(splitForSpeech(text).map((chunk) => ({ text: chunk, voice })));
       try {
         await voicePlayer.play(
           text,
@@ -53,7 +57,7 @@ export function useSpeak(voice = "shimmer") {
         throw error;
       }
     },
-    [requestSpeech, user, voice],
+    [requestSpeech, user, voice, adminRegen],
   );
 
   const stop = useCallback(() => voicePlayer.stop(), []);

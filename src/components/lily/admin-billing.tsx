@@ -1,114 +1,20 @@
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 import { toast } from "sonner";
 
+import { AdminBankTransfers } from "@/components/lily/admin-bank-transfers";
 import { PanelCard, ScoreStat } from "@/components/lily/score-panel";
-import { adminConfirmBankTransferOrder, adminListBankTransferOrders } from "@/lib/bank-transfer.functions";
+import { adminRevokeBankTransferOrder } from "@/lib/bank-transfer.functions";
 import {
   adminBillingOverview,
   grantComplimentaryAccess,
   revokeComplimentaryAccess,
 } from "@/lib/billing-admin.functions";
 import { useI18n } from "@/lib/i18n";
-import { formatMoney } from "./billing-ui";
+import { formatMoney, minorToMajor } from "./billing-ui";
 
-/** Bridge until SePay's webhook is wired up: an admin who has checked the real bank account
- * confirms a pending transfer by hand. Same activation path the webhook will use once the
- * customer's SePay API key is configured. */
-function AdminBankTransferOrders() {
-  const { t, locale } = useI18n();
-  const load = useServerFn(adminListBankTransferOrders);
-  const confirm = useServerFn(adminConfirmBankTransferOrder);
-  const [confirmingId, setConfirmingId] = useState<string | null>(null);
-
-  const orders = useQuery({
-    queryKey: ["admin-bank-transfer-orders"],
-    queryFn: () => load(),
-    refetchInterval: 15000,
-  });
-
-  const rows = orders.data ?? [];
-  const pending = rows.filter((r) => r.status === "pending");
-
-  return (
-    <PanelCard title="Bank transfer orders (SePay)">
-      <p className="text-xs text-muted-foreground">
-        Confirm a transfer here once you've checked the real bank account — this is the only way
-        to activate a bank-transfer order until SePay's webhook API key is configured.
-      </p>
-      {orders.isLoading && <p className="mt-3 text-sm text-muted-foreground">{t("common.loading")}</p>}
-      {!orders.isLoading && rows.length === 0 && (
-        <p className="mt-3 text-sm text-muted-foreground">No bank transfer orders yet.</p>
-      )}
-      {pending.length > 0 && (
-        <div className="mt-3 overflow-x-auto">
-          <table className="w-full text-left text-sm">
-            <thead className="text-xs uppercase text-muted-foreground">
-              <tr>
-                <th className="py-2">Reference code</th>
-                <th className="py-2">Plan</th>
-                <th className="py-2">Amount</th>
-                <th className="py-2">Created</th>
-                <th className="py-2" />
-              </tr>
-            </thead>
-            <tbody>
-              {pending.map((row) => (
-                <tr key={row.id} className="border-t border-border/60">
-                  <td className="py-2 font-mono text-foreground">{row.reference_code}</td>
-                  <td className="py-2 text-muted-foreground">
-                    {row.plan_key} · {row.billing_interval}
-                  </td>
-                  <td className="py-2 text-brass-soft">{formatMoney(row.amount_vnd, "VND", locale)}</td>
-                  <td className="py-2 text-muted-foreground">{row.created_at.slice(0, 16).replace("T", " ")}</td>
-                  <td className="py-2 text-right">
-                    <button
-                      type="button"
-                      disabled={confirmingId === row.id}
-                      onClick={() =>
-                        void (async () => {
-                          setConfirmingId(row.id);
-                          try {
-                            await confirm({ data: { orderId: row.id } });
-                            toast.success("Confirmed — the plan is now active.");
-                            await orders.refetch();
-                          } catch (error) {
-                            toast.error(error instanceof Error ? error.message : "Could not confirm this order.");
-                          } finally {
-                            setConfirmingId(null);
-                          }
-                        })()
-                      }
-                      className="rounded-full bg-brass px-4 py-1.5 text-xs font-semibold text-plum-deep disabled:opacity-60"
-                    >
-                      {confirmingId === row.id ? t("common.loading") : "Mark as paid"}
-                    </button>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
-      {rows.some((r) => r.status !== "pending") && (
-        <details className="mt-4 text-xs text-muted-foreground">
-          <summary className="cursor-pointer">Show settled/expired orders</summary>
-          <ul className="mt-2 divide-y divide-border">
-            {rows
-              .filter((r) => r.status !== "pending")
-              .map((row) => (
-                <li key={row.id} className="flex items-center justify-between py-1.5">
-                  <span className="font-mono">{row.reference_code}</span>
-                  <span>{row.status}</span>
-                </li>
-              ))}
-          </ul>
-        </details>
-      )}
-    </PanelCard>
-  );
-}
+const SUBSCRIPTIONS_PAGE_SIZE = 20;
 
 /** Admin view of subscriptions, revenue and complimentary access. */
 export function AdminBillingPanel() {
@@ -116,16 +22,30 @@ export function AdminBillingPanel() {
   const load = useServerFn(adminBillingOverview);
   const grant = useServerFn(grantComplimentaryAccess);
   const revoke = useServerFn(revokeComplimentaryAccess);
+  const revokeBankOrder = useServerFn(adminRevokeBankTransferOrder);
+  const queryClient = useQueryClient();
+  // Two-step revoke: the first click arms the row, the second one (labelled "Confirm") does it.
+  const [revokeArmedId, setRevokeArmedId] = useState<string | null>(null);
+  const [revokingId, setRevokingId] = useState<string | null>(null);
 
   const [email, setEmail] = useState("");
   const [tier, setTier] = useState<"premium" | "ielts_pro">("premium");
   const [days, setDays] = useState("30");
   const [busy, setBusy] = useState(false);
+  const [subPage, setSubPage] = useState(0);
 
   const overview = useQuery({
     queryKey: ["admin-billing"],
     queryFn: () => load({ data: undefined as never }),
   });
+
+  const allSubscriptions = overview.data?.subscriptions ?? [];
+  const subPageCount = Math.max(1, Math.ceil(allSubscriptions.length / SUBSCRIPTIONS_PAGE_SIZE));
+  const currentSubPage = Math.min(subPage, subPageCount - 1);
+  const visibleSubscriptions = allSubscriptions.slice(
+    currentSubPage * SUBSCRIPTIONS_PAGE_SIZE,
+    (currentSubPage + 1) * SUBSCRIPTIONS_PAGE_SIZE,
+  );
 
   const submitGrant = async () => {
     setBusy(true);
@@ -138,6 +58,42 @@ export function AdminBillingPanel() {
       toast.error(error instanceof Error ? error.message : t("common.somethingWrong"));
     } finally {
       setBusy(false);
+    }
+  };
+
+  const submitRevokeBankOrder = async (orderId: string) => {
+    setRevokingId(orderId);
+    try {
+      await revokeBankOrder({ data: { orderId } });
+      toast.success("Plan revoked — the learner no longer has access from this payment.");
+      setRevokeArmedId(null);
+      // Show it at once: flip the row in the cached table now, then let the refresh below confirm it with
+      // the server (no waiting, no F5).
+      const nowIso = new Date().toISOString();
+      queryClient.setQueryData(["admin-billing"], (old: typeof overview.data) =>
+        old
+          ? {
+              ...old,
+              subscriptions: old.subscriptions.map((row) =>
+                row.bank_order_id === orderId
+                  ? { ...row, status: "canceled", cancel_at_period_end: true, current_period_end: nowIso }
+                  : row,
+              ),
+            }
+          : old,
+      );
+      // Everything that shows plans or orders: this table, the orders/SePay panel, the members list, and
+      // the learner-side billing data cached in this browser.
+      await queryClient.invalidateQueries({
+        predicate: (q) => {
+          const head = String(q.queryKey[0] ?? "");
+          return head.startsWith("admin-") || head === "my-billing" || head === "my-payments";
+        },
+      });
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : t("common.somethingWrong"));
+    } finally {
+      setRevokingId(null);
     }
   };
 
@@ -186,7 +142,7 @@ export function AdminBillingPanel() {
         </div>
       </div>
 
-      <AdminBankTransferOrders />
+      <AdminBankTransfers />
 
       <PanelCard title={t("adminBilling.recentPayments")}>
         {!(overview.data?.recentPayments ?? []).length && (
@@ -211,30 +167,101 @@ export function AdminBillingPanel() {
           <table className="w-full text-left text-sm">
             <thead className="text-xs uppercase text-muted-foreground">
               <tr>
+                <th className="py-2">User</th>
                 <th className="py-2">{t("adminBilling.plan")}</th>
                 <th className="py-2">{t("billing.status")}</th>
                 <th className="py-2">{t("billing.total")}</th>
                 <th className="py-2">{t("adminBilling.renews")}</th>
+                <th className="py-2" />
               </tr>
             </thead>
             <tbody>
-              {(overview.data?.subscriptions ?? []).map((row, index) => (
-                <tr key={`${row.user_id}-${index}`} className="border-t border-border/60">
+              {visibleSubscriptions.map((row, index) => (
+                <tr key={`${row.user_id}-${currentSubPage}-${index}`} className="border-t border-border/60">
+                  <td className="py-2 text-muted-foreground">{row.email || row.user_id.slice(0, 8)}</td>
                   <td className="py-2 text-foreground">{row.price_id}</td>
                   <td className="py-2 text-muted-foreground">
                     {row.status}
-                    {row.cancel_at_period_end ? ` · ${t("adminBilling.cancelling")}` : ""}
+                    {row.payment_method === "bank_transfer" ? (
+                      // Bank-transfer plans are one period only: they never auto-renew, so "cancelling" was misleading.
+                      <span> · bank transfer, no auto-renew</span>
+                    ) : row.cancel_at_period_end ? (
+                      ` · ${t("adminBilling.cancelling")}`
+                    ) : (
+                      ""
+                    )}
                   </td>
                   <td className="py-2 text-muted-foreground">
-                    {formatMoney((row.amount ?? 0) / 100, row.currency || "USD", locale)}
+                    {formatMoney(minorToMajor(row.amount ?? 0, row.currency || "USD"), row.currency || "USD", locale)}
                   </td>
                   <td className="py-2 text-muted-foreground">
                     {row.current_period_end ? row.current_period_end.slice(0, 10) : "—"}
+                  </td>
+                  <td className="py-2 text-right">
+                    {row.bank_order_id &&
+                      (row.status !== "canceled" ||
+                        (row.current_period_end !== null && new Date(row.current_period_end).getTime() > Date.now())) &&
+                      (revokeArmedId === row.bank_order_id ? (
+                        <span className="inline-flex gap-1.5">
+                          <button
+                            type="button"
+                            disabled={revokingId === row.bank_order_id}
+                            onClick={() => void submitRevokeBankOrder(row.bank_order_id!)}
+                            className="rounded-full bg-destructive px-3 py-1 text-xs font-semibold text-destructive-foreground disabled:opacity-60"
+                          >
+                            {revokingId === row.bank_order_id ? t("common.loading") : "Confirm revoke"}
+                          </button>
+                          <button
+                            type="button"
+                            disabled={revokingId === row.bank_order_id}
+                            onClick={() => setRevokeArmedId(null)}
+                            className="rounded-full bg-surface-3 px-3 py-1 text-xs font-semibold text-foreground ring-1 ring-border"
+                          >
+                            Cancel
+                          </button>
+                        </span>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={() => setRevokeArmedId(row.bank_order_id)}
+                          title="Ends this bank-transfer plan right now (use when the payment was never received)"
+                          className="rounded-full bg-surface-3 px-3 py-1 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-2"
+                        >
+                          Revoke
+                        </button>
+                      ))}
                   </td>
                 </tr>
               ))}
             </tbody>
           </table>
+        </div>
+        <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground">
+          <span>
+            Page {currentSubPage + 1} of {subPageCount} · showing {allSubscriptions.length} of{" "}
+            {totals?.subscriptions ?? allSubscriptions.length} subscriptions
+            {(totals?.subscriptions ?? 0) > allSubscriptions.length ? " (list is capped at the 200 newest)" : ""}
+          </span>
+          {subPageCount > 1 && (
+            <span className="flex gap-2">
+              <button
+                type="button"
+                disabled={currentSubPage === 0}
+                onClick={() => setSubPage(currentSubPage - 1)}
+                className="rounded-full bg-surface-3 px-3 py-1 font-semibold text-foreground ring-1 ring-border disabled:opacity-50"
+              >
+                Prev
+              </button>
+              <button
+                type="button"
+                disabled={currentSubPage >= subPageCount - 1}
+                onClick={() => setSubPage(currentSubPage + 1)}
+                className="rounded-full bg-surface-3 px-3 py-1 font-semibold text-foreground ring-1 ring-border disabled:opacity-50"
+              >
+                Next
+              </button>
+            </span>
+          )}
         </div>
       </PanelCard>
 

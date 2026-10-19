@@ -152,7 +152,79 @@ export type Entitlement = {
   periodStart: string;
   complimentary: boolean;
   complimentaryExpiresAt: string | null;
+  /** The access currently in force is the signup free trial (a kind of complimentary access). */
+  trial: boolean;
 };
+
+/* ------------------------------------------------------------ signup trial */
+
+/**
+ * The free Premium trial every NEW account gets is one `complimentary_access` row carrying this note
+ * (effective_tier() already counts that table, so nothing else has to know a trial exists). Its length
+ * and on/off switch are the Premium plan's "Trial days" / "Free trial enabled" in /admin → Plans.
+ * The row is also the "one trial per account" record, so it is never deleted — only revoked or left to expire.
+ */
+export const TRIAL_NOTE = "free_trial";
+/** Stripe will not start a Checkout subscription whose trial ends sooner than this from now. */
+export const MIN_STRIPE_TRIAL_MS = 48 * 3_600_000;
+
+/** Gives a just-created account its free Premium trial. Safe to call twice (a second call does nothing). */
+export async function grantSignupTrial(userId: string): Promise<void> {
+  const [plan] = await withAdmin((db) =>
+    db
+      .select({ enabled: billingPlans.trialEnabled, days: billingPlans.trialDays })
+      .from(billingPlans)
+      .where(eq(billingPlans.tier, "premium"))
+      .limit(1),
+  );
+  if (!plan?.enabled || plan.days <= 0) return;
+
+  await withAdmin(async (db) => {
+    const had = await db
+      .select({ id: complimentaryAccess.id })
+      .from(complimentaryAccess)
+      .where(and(eq(complimentaryAccess.userId, userId), eq(complimentaryAccess.note, TRIAL_NOTE)))
+      .limit(1);
+    if (had.length) return;
+    await db.insert(complimentaryAccess).values({
+      userId,
+      tier: "premium",
+      expiresAt: new Date(Date.now() + plan.days * 86_400_000).toISOString(),
+      note: TRIAL_NOTE,
+    });
+  });
+}
+
+/** The learner's running free trial (not revoked, not expired), or null. */
+export async function getActiveTrial(userId: string): Promise<{ id: string; endsAt: number } | null> {
+  const rows = await withAdmin((db) =>
+    db
+      .select({ id: complimentaryAccess.id, expiresAt: complimentaryAccess.expiresAt })
+      .from(complimentaryAccess)
+      .where(
+        and(
+          eq(complimentaryAccess.userId, userId),
+          eq(complimentaryAccess.note, TRIAL_NOTE),
+          eq(complimentaryAccess.revoked, false),
+        ),
+      )
+      .orderBy(desc(complimentaryAccess.createdAt))
+      .limit(1),
+  );
+  const endsAt = rows[0]?.expiresAt ? Date.parse(rows[0].expiresAt) : null;
+  return rows[0] && endsAt !== null && endsAt > Date.now() ? { id: rows[0].id, endsAt } : null;
+}
+
+/** Ends the free trial early — used when the learner buys a higher tier than the trial's Premium, which
+ * starts immediately and cannot absorb the leftover trial days. */
+export async function revokeTrial(userId: string): Promise<void> {
+  await withAdmin((db) =>
+    db
+      .update(complimentaryAccess)
+      .set({ revoked: true, updatedAt: new Date().toISOString() })
+      .where(and(eq(complimentaryAccess.userId, userId), eq(complimentaryAccess.note, TRIAL_NOTE))),
+  );
+}
 
 export function currentPeriodStart(): string {
   const now = new Date();
@@ -189,7 +261,7 @@ export async function getEntitlement(
         .from(usageCounters)
         .where(and(eq(usageCounters.userId, userId), eq(usageCounters.periodStart, period))),
       db
-        .select({ tier: complimentaryAccess.tier, expiresAt: complimentaryAccess.expiresAt })
+        .select({ tier: complimentaryAccess.tier, expiresAt: complimentaryAccess.expiresAt, note: complimentaryAccess.note })
         .from(complimentaryAccess)
         .where(and(eq(complimentaryAccess.userId, userId), eq(complimentaryAccess.revoked, false)))
         .orderBy(desc(complimentaryAccess.createdAt))
@@ -231,6 +303,7 @@ export async function getEntitlement(
     periodStart: period,
     complimentary: compActive,
     complimentaryExpiresAt: compActive ? (comp?.expiresAt ?? null) : null,
+    trial: compActive && comp?.note === TRIAL_NOTE,
   };
 }
 

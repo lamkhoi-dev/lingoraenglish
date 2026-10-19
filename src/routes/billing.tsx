@@ -1,12 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
 import { useState } from "react";
 import { toast } from "sonner";
 
 import { AppShell } from "@/components/lily/app-shell";
 import { SectionHeading } from "@/components/lily/brand";
-import { formatMoney, BillingCard } from "@/components/lily/billing-ui";
+import { formatMoney, minorToMajor, BillingCard } from "@/components/lily/billing-ui";
 import { useBilling, usePlans } from "@/hooks/use-billing";
 import { useAuth } from "@/lib/auth";
 import {
@@ -39,6 +39,7 @@ function BillingPage() {
   const { user } = useAuth();
   const billing = useBilling();
   const plans = usePlans();
+  const queryClient = useQueryClient();
 
   const fetchPayments = useServerFn(listMyPayments);
   const openPortal = useServerFn(createPortalSession);
@@ -89,7 +90,14 @@ function BillingPage() {
     try {
       await action();
       toast.success(success);
-      await billing.refetch();
+      // Refresh every place that shows this learner's plan (header, dashboard summary, payments list),
+      // not just this page, so nothing keeps showing the old status until a reload.
+      await queryClient.invalidateQueries({
+        predicate: (q) => {
+          const head = String(q.queryKey[0] ?? "");
+          return head === "my-billing" || head === "my-payments" || head === "entitlement";
+        },
+      });
     } catch (error) {
       toast.error(error instanceof Error ? error.message : t("common.somethingWrong"));
     } finally {
@@ -115,8 +123,17 @@ function BillingPage() {
           {entitlement && (
             <div className="mt-3 space-y-2 text-sm">
               <p className="text-lg font-semibold text-foreground">{entitlement.planName}</p>
-              {entitlement.complimentary && (
-                <p className="text-xs font-medium text-accent">{t("billing.complimentary")}</p>
+              {entitlement.trial && entitlement.complimentaryExpiresAt ? (
+                <div className="rounded-lg bg-accent/10 p-3">
+                  <p className="text-xs font-medium text-accent">
+                    {t("billing.trialActive", { date: formatDate(entitlement.complimentaryExpiresAt, locale) })}
+                  </p>
+                  <p className="mt-1 text-xs text-muted-foreground">{t("billing.trialActive.sub")}</p>
+                </div>
+              ) : (
+                entitlement.complimentary && (
+                  <p className="text-xs font-medium text-accent">{t("billing.complimentary")}</p>
+                )
               )}
               {subscription ? (
                 <>
@@ -128,7 +145,7 @@ function BillingPage() {
                   </p>
                   {subscription.amount ? (
                     <p className="text-muted-foreground">
-                      {formatMoney(subscription.amount / 100, subscription.currency, locale)}{" "}
+                      {formatMoney(minorToMajor(subscription.amount, subscription.currency), subscription.currency, locale)}{" "}
                       {subscription.billing_interval === "year"
                         ? t("pricing.perYear")
                         : t("pricing.perMonth")}

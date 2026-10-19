@@ -12,7 +12,14 @@ import { z } from "zod";
 import { withAdmin, withAnon, withUser } from "@/db";
 import { billingEvents, billingPlans, profiles, subscriptions } from "@/db/schema/schema";
 import { requireAuth } from "@/lib/require-auth";
-import { getEntitlement, logBillingEvent, MONTHLY_QUOTA_KEYS } from "./entitlements.server";
+import { assertCanPurchase } from "./bank-transfer.server";
+import {
+  getActiveTrial,
+  getEntitlement,
+  logBillingEvent,
+  MIN_STRIPE_TRIAL_MS,
+  MONTHLY_QUOTA_KEYS,
+} from "./entitlements.server";
 import { getPaymentsEnv, type PaymentsEnv } from "./payments-env";
 import { usdCentsToVnd } from "./sepay.server";
 
@@ -134,12 +141,11 @@ export const getMyBilling = createServerFn({ method: "POST" })
       myLatestSubscription(context.userId, env),
     ]);
     // A subscription that has ended is history, not something to manage: the pages then offer
-    // the plans again. The trial rule still looks at the full history.
+    // the plans again.
     const ended =
       latest?.status === "canceled" &&
       (!latest.current_period_end || new Date(latest.current_period_end).getTime() <= Date.now());
-    // One free trial per account: eligible only if it has never had a subscription here.
-    return { entitlement, subscription: ended ? null : latest, trialEligible: latest === null };
+    return { entitlement, subscription: ended ? null : latest };
   });
 
 /* --------------------------------------------------------------- checkout */
@@ -191,8 +197,7 @@ async function lookupPromotionCode(code: string, productId: string): Promise<Pro
  * Starts checkout on Stripe's hosted page and returns its URL. Everything that matters is decided
  * here, on the server, from our own records — never from anything the browser sends:
  *  - the amount comes from billing_plans;
- *  - one free trial per account: only an account that has never had a subscription in this
- *    environment gets the trial (a canceled or expired one counts as having had it);
+ *  - the free trial comes with signing up; buying Premium during it stacks the paid period after it;
  *  - the flat tax rate is attached to the line item.
  * The subscription is stamped with our user/plan ids so the webhook can map it back.
  */
@@ -215,9 +220,21 @@ export const createCheckoutSession = createServerFn({ method: "POST" })
     const found = await findActivePlanByPriceId(data.priceId);
     if (!found) throw new Error("That plan is not available.");
     const { plan, interval, amount } = found;
+    // No second subscription to a plan the learner already has (stale tab / direct call): the pricing page
+    // hides the button, this is the server-side rule. Upgrades to a higher tier stay allowed.
+    await assertCanPurchase(context.userId, plan.tier, "card");
 
     const existing = await myLatestSubscription(context.userId, env);
-    const trialDays = existing === null && plan.trialEnabled ? plan.trialDays : 0;
+    // The free trial now comes with signing up (see grantSignupTrial), not from the first checkout.
+    // Buying Premium while it runs: Stripe's own trial is set to end exactly when ours does, so the card is
+    // saved now and first charged then (trial days + paid days). Buying a higher tier charges at once and the
+    // leftover trial is dropped once that subscription is confirmed (billing-sync). If the trial is nearly
+    // over (Stripe wants a trial_end at least 48 hours away) the card is charged now instead.
+    const trial = await getActiveTrial(context.userId);
+    const trialEnd =
+      trial && plan.tier === "premium" && trial.endsAt - Date.now() >= MIN_STRIPE_TRIAL_MS
+        ? Math.floor(trial.endsAt / 1000)
+        : 0;
 
     const { stripeFetch, ensureProductId, ensureTaxRateId, appUrl } = await import("./stripe.server");
     const [productId, taxRateId, profileRows] = await Promise.all([
@@ -260,7 +277,7 @@ export const createCheckoutSession = createServerFn({ method: "POST" })
           },
         },
       ],
-      subscription_data: { metadata: stamp, ...(trialDays > 0 ? { trial_period_days: trialDays } : {}) },
+      subscription_data: { metadata: stamp, ...(trialEnd > 0 ? { trial_end: trialEnd } : {}) },
       metadata: stamp,
       // Card up front even for the trial, so it converts without a second step.
       payment_method_collection: "always",

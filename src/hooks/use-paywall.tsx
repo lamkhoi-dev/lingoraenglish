@@ -22,8 +22,17 @@ export function usePaywall(feature: PaywallFeature) {
         setMessage(upgrade);
         return true;
       }
+      const raw = error instanceof Error ? error.message : "";
+      // A proxy error page (e.g. nginx "413 Request Entity Too Large" for a long recording) arrives as raw
+      // HTML — never show markup to the learner.
+      // Same for a server input-validation error, which arrives as a raw JSON issue list.
+      const isHtml = /<\s*(html|head|body|center)\b/i.test(raw) || /^\s*\[\s*\{\s*"code"/.test(raw);
       toast.error(
-        error instanceof Error && error.message ? error.message : (fallback ?? t("common.somethingWrong")),
+        isHtml
+          ? /\b413\b/.test(raw) || (/"too_big"/.test(raw) && /audio/i.test(raw))
+            ? t("common.recordingTooLarge")
+            : (fallback ?? t("common.somethingWrong"))
+          : raw || (fallback ?? t("common.somethingWrong")),
       );
       return false;
     },

@@ -23,6 +23,7 @@ import {
   type ShadowSentence,
 } from "@/lib/shadowing-content";
 import { cn } from "@/lib/utils";
+import { ttsAdminStore } from "@/lib/tts-admin-store";
 import { voicePlayer } from "@/lib/voice-player";
 
 const SPEEDS = [0.75, 1, 1.25];
@@ -83,6 +84,7 @@ export function ShadowPractice({ sentence, progress, onSaved, onNext, position, 
         voicePlayer.prime();
         setPlaying(true);
         setSpeed(rate);
+        ttsAdminStore.record([{ text: target, voice }]);
         let src = cache.current.get(target);
         if (!src) {
           let lastErr: unknown;

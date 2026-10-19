@@ -26,6 +26,7 @@ import {
   usersInAuth,
 } from "@/db/schema/schema";
 import { sendEmail } from "@/lib/email.server";
+import { grantSignupTrial } from "@/lib/entitlements.server";
 import { clearSessionCookie, readSessionCookie, writeSessionCookie } from "@/lib/session-cookie.server";
 
 const EMAIL_VERIFY_TTL_HOURS = 24;
@@ -121,6 +122,16 @@ const signUpSchema = z.object({
   acceptedPrivacy: z.boolean().optional(),
 });
 
+/** A failure here must never block account creation — the learner would be left with an account that
+ * the sign-up screen reported as failed. Logged so the missing trial can be granted by hand. */
+async function grantTrialSafely(userId: string) {
+  try {
+    await grantSignupTrial(userId);
+  } catch (error) {
+    console.error(`[trial] could not grant the signup trial to ${userId}`, error);
+  }
+}
+
 export const signUp = createServerFn({ method: "POST" })
   .inputValidator((d: unknown) => signUpSchema.parse(d))
   .handler(async ({ data }) => {
@@ -165,6 +176,8 @@ export const signUp = createServerFn({ method: "POST" })
 
       return row.id;
     });
+
+    await grantTrialSafely(userId);
 
     if (devSkipEmailVerification()) {
       await withAdmin((db) =>
@@ -321,14 +334,15 @@ export const googleOAuthCallback = createServerFn({ method: "POST" })
     const profile = await fetchGoogleUserInfo(accessToken);
     const email = profile.email.toLowerCase().trim();
 
-    const userId = await withAdmin(async (db) => {
+    // `created` is true only when this call made a brand-new account — only those get the free trial.
+    const { userId, created } = await withAdmin(async (db) => {
       // Already linked — the common case on repeat logins.
       const linked = await db
         .select({ userId: oauthAccountsInAuth.userId })
         .from(oauthAccountsInAuth)
         .where(and(eq(oauthAccountsInAuth.provider, "google"), eq(oauthAccountsInAuth.providerAccountId, profile.sub)))
         .limit(1);
-      if (linked[0]) return linked[0].userId;
+      if (linked[0]) return { userId: linked[0].userId, created: false };
 
       // Not linked yet — reuse an existing email/password account if the
       // email matches (lets one person use either sign-in method), else
@@ -358,8 +372,10 @@ export const googleOAuthCallback = createServerFn({ method: "POST" })
         provider: "google",
         providerAccountId: profile.sub,
       });
-      return targetUserId;
+      return { userId: targetUserId, created: !existing[0] };
     });
+
+    if (created) await grantTrialSafely(userId);
 
     const session = await createSession(userId, clientMeta());
     writeSessionCookie(session.id);

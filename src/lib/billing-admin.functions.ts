@@ -3,7 +3,7 @@
  * requireAdmin (require-auth.ts) before touching privileged data.
  */
 import { createServerFn } from "@tanstack/react-start";
-import { and, desc, eq, ilike, or, sql } from "drizzle-orm";
+import { and, desc, eq, ilike, inArray, or, sql } from "drizzle-orm";
 import { z } from "zod";
 
 import { withAdmin } from "@/db";
@@ -11,17 +11,19 @@ import { billingEvents, billingPlans, complimentaryAccess, profiles, subscriptio
 import { requireAdmin } from "@/lib/require-auth";
 import { logAdminAction } from "./entitlements.server";
 import { getPaymentsEnv } from "./payments-env";
+import { usdToVndRate } from "./sepay.server";
 
 export const adminBillingOverview = createServerFn({ method: "POST" })
   .middleware([requireAdmin])
   .handler(async () => {
     const env = getPaymentsEnv();
 
-    const [subs, events, comps, learnerCount] = await withAdmin((db) =>
+    const [subs, events, comps, learnerCount, subscriptionCount] = await withAdmin((db) =>
       Promise.all([
         db
           .select({
             userId: subscriptions.userId,
+            providerSubscriptionId: subscriptions.providerSubscriptionId,
             priceId: subscriptions.priceId,
             productId: subscriptions.productId,
             status: subscriptions.status,
@@ -52,13 +54,32 @@ export const adminBillingOverview = createServerFn({ method: "POST" })
           .select({ n: sql<number>`count(*)::int` })
           .from(profiles)
           .then((r) => r[0]!.n),
+        // The list below is capped at 200 rows; this is the real total so the admin can see when it is cut.
+        db
+          .select({ n: sql<number>`count(*)::int` })
+          .from(subscriptions)
+          .where(eq(subscriptions.environment, env))
+          .then((r) => r[0]!.n),
       ]),
     );
 
+    // Who each subscription belongs to — the table is unreadable without it.
+    const subUserIds = [...new Set(subs.map((row) => row.userId))];
+    const subProfiles = subUserIds.length
+      ? await withAdmin((db) =>
+          db.select({ id: profiles.id, email: profiles.email }).from(profiles).where(inArray(profiles.id, subUserIds)),
+        )
+      : [];
+    const emailOf = new Map(subProfiles.map((p) => [p.id, p.email ?? ""]));
+
     const active = subs.filter((row) => ["active", "trialing"].includes(row.status));
+    // MRR is reported in USD. Stripe amounts are cents; bank-transfer (SePay) amounts are whole VND, which
+    // used to be divided by 100 as if they were cents and inflated MRR ~255x (255000 VND became "$2,550").
+    const vndPerUsd = usdToVndRate();
     const mrr = active.reduce((sum, row) => {
-      const monthly = (row.amount ?? 0) / (row.billingInterval === "year" ? 12 : 1) / 100;
-      return sum + monthly;
+      const perMonth = (row.amount ?? 0) / (row.billingInterval === "year" ? 12 : 1);
+      const usd = (row.currency ?? "USD").toUpperCase() === "VND" ? perMonth / vndPerUsd : perMonth / 100;
+      return sum + usd;
     }, 0);
 
     const funnel: Record<string, number> = {};
@@ -89,7 +110,7 @@ export const adminBillingOverview = createServerFn({ method: "POST" })
         learners: learnerCount,
         freeUsers: Math.max(learnerCount - totalSubscribers, 0),
         subscribers: totalSubscribers,
-        subscriptions: subs.length,
+        subscriptions: subscriptionCount,
         active: active.length,
         monthly: active.filter((row) => row.billingInterval !== "year").length,
         yearly: active.filter((row) => row.billingInterval === "year").length,
@@ -106,6 +127,11 @@ export const adminBillingOverview = createServerFn({ method: "POST" })
       // snake_case to match the shape admin-billing.tsx already expects.
       subscriptions: subs.map((r) => ({
         user_id: r.userId,
+        email: emailOf.get(r.userId) ?? "",
+        // Bank-transfer subscriptions are written with provider id "sepay_<order id>" and never auto-renew.
+        payment_method: r.providerSubscriptionId.startsWith("sepay_") ? ("bank_transfer" as const) : ("card" as const),
+        // The bank-transfer order behind this subscription (provider id is "sepay_<order id>"); null for card plans.
+        bank_order_id: r.providerSubscriptionId.startsWith("sepay_") ? r.providerSubscriptionId.slice("sepay_".length) : null,
         price_id: r.priceId,
         product_id: r.productId,
         status: r.status,

@@ -87,7 +87,9 @@ export function MembershipPanel() {
       label: t("membership.paymentStatus"),
       value: subscription
         ? t(`billing.state.${subscription.status}` as never) || subscription.status
-        : entitlement?.complimentary
+        : entitlement?.trial
+          ? t("billing.state.trialing")
+          : entitlement?.complimentary
           ? t("billing.complimentary")
           : t("billing.noSubscription"),
     },

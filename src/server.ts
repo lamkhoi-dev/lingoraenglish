@@ -9,6 +9,21 @@ type ServerEntry = {
 
 let serverEntryPromise: Promise<ServerEntry> | undefined;
 
+/** Background jobs for this long-running Node server, started on the first request (the container
+ * healthcheck hits "/" every 30s, so this runs right after every deploy): SePay reconciliation every
+ * 2 minutes while an order could still be paid, and hourly renewal-reminder emails. */
+let backgroundJobsStarted = false;
+function startBackgroundJobs() {
+  if (backgroundJobsStarted) return;
+  backgroundJobsStarted = true;
+  import("./lib/bank-transfer.server")
+    .then((m) => m.ensureSepayReconciler())
+    .catch((error: unknown) => console.error("Could not start SePay reconciliation:", error));
+  import("./lib/renewal-reminders.server")
+    .then((m) => m.ensureRenewalReminders())
+    .catch((error: unknown) => console.error("Could not start renewal reminders:", error));
+}
+
 async function getServerEntry(): Promise<ServerEntry> {
   if (!serverEntryPromise) {
     serverEntryPromise = import("@tanstack/react-start/server-entry").then(
@@ -46,6 +61,7 @@ function isH3SwallowedErrorBody(body: string): boolean {
 
 export default {
   async fetch(request: Request, env: unknown, ctx: unknown) {
+    startBackgroundJobs();
     try {
       const handler = await getServerEntry();
       const response = await handler.fetch(request, env, ctx);

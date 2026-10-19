@@ -12,6 +12,7 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { OnboardingGate } from "@/components/lily/onboarding-gate";
+import { AdminTtsBar } from "@/components/lily/admin-tts-bar";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/lib/auth";
 import { I18nProvider } from "@/lib/i18n";
@@ -153,6 +154,7 @@ function RootComponent() {
           {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
           <Outlet />
           <OnboardingGate />
+          <AdminTtsBar />
           <Toaster position="top-center" />
         </I18nProvider>
       </AuthProvider>

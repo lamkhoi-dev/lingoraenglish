@@ -31,6 +31,7 @@ import {
 } from "@/lib/pronunciation-content";
 import { canonicalLink } from "@/lib/seo";
 import { getWordIpa } from "@/lib/word-ipa";
+import { ttsAdminStore } from "@/lib/tts-admin-store";
 import { voicePlayer } from "@/lib/voice-player";
 import { cn } from "@/lib/utils";
 import type { TranslationKey } from "@/locales/en";
@@ -211,6 +212,7 @@ function PronunciationPage() {
         return;
       }
       setPlayingSound(label);
+      ttsAdminStore.record([{ text: textToPlay, voice: "shimmer" }]);
       let src = soundCache.current.get(textToPlay);
       if (!src) {
         let lastErr: unknown;

@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { useServerFn } from "@tanstack/react-start";
-import { ArrowLeft, Search, Shuffle, Timer } from "lucide-react";
+import { ArrowLeft, ChevronDown, Search, Shuffle, Sparkles, Timer } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { toast } from "sonner";
 
@@ -17,6 +17,7 @@ import { useAuth } from "@/lib/auth";
 import { saveIeltsAttempt, savePronunciationAttempt, saveSpeakingAttempt } from "@/lib/attempts.functions";
 import { DEMO_IELTS } from "@/lib/demo-data";
 import { useI18n } from "@/lib/i18n";
+import { getSpeakingSampleAnswer } from "@/lib/speaking-sample-answers";
 import {
   analysePronunciation,
   analyseSpeaking,
@@ -439,24 +440,30 @@ function TestRunner({
   const evaluate = useServerFn(evaluateIelts);
   const saveAttempt = useServerFn(saveIeltsAttempt);
   const { paywall, handleError, clearPaywall } = usePaywall("ielts");
+  const { play, stop: stopVoice, pause, resume, speaking, paused, loading: voiceLoading } = useSpeak();
 
   const prompts = testPrompts(test);
   const [index, setIndex] = useState(0);
   const [prep, setPrep] = useState<number | null>(null);
   const [busy, setBusy] = useState(false);
+  const [showSample, setShowSample] = useState(false);
   const [result, setResult] = useState<(IeltsEvaluation & { transcript: string }) | undefined>();
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const prompt = prompts[index % Math.max(1, prompts.length)] ?? test.cue_card;
+  const sampleAnswer = getSpeakingSampleAnswer(test.slug, index, prompt);
 
   useEffect(() => {
     setIndex(0);
     setResult(undefined);
+    setShowSample(false);
+    stopVoice();
   }, [test.id]);
 
   useEffect(
     () => () => {
       if (timerRef.current) clearInterval(timerRef.current);
+      stopVoice();
     },
     [],
   );
@@ -568,6 +575,8 @@ function TestRunner({
                 onClick={() => {
                   setIndex((i) => (i + 1) % prompts.length);
                   setResult(undefined);
+                  setShowSample(false);
+                  stopVoice();
                 }}
                 className="inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
               >
@@ -605,6 +614,52 @@ function TestRunner({
                 <span className="font-display text-lg text-brass-soft">
                   {Math.floor(prep / 60)}:{String(prep % 60).padStart(2, "0")}
                 </span>
+              )}
+            </div>
+          )}
+
+          {sampleAnswer && (
+            <div className="mt-4">
+              <button
+                type="button"
+                onClick={() => setShowSample((s) => !s)}
+                className="inline-flex items-center gap-2 rounded-xl bg-surface-2 px-3.5 py-2 text-xs font-semibold text-brass ring-1 ring-border transition-colors hover:bg-surface-3"
+              >
+                <Sparkles className="size-3.5" />
+                <span>{showSample ? t("tests.sample.hide") : t("tests.sample.show")}</span>
+                <ChevronDown
+                  className={cn(
+                    "size-3.5 text-muted-foreground transition-transform duration-200",
+                    showSample && "rotate-180"
+                  )}
+                />
+              </button>
+
+              {showSample && (
+                <div className="mt-3 rounded-2xl bg-surface-2/70 p-4 ring-1 ring-border sm:p-5">
+                  <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/60 pb-3">
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex items-center gap-1.5 rounded-full bg-brass/10 px-2.5 py-1 text-xs font-semibold text-brass">
+                        ✨ {t("tests.sample.modelBand8")}
+                      </span>
+                    </div>
+                    <VoiceButton
+                      text={sampleAnswer}
+                      play={play}
+                      stop={stopVoice}
+                      pause={pause}
+                      resume={resume}
+                      speaking={speaking}
+                      paused={paused}
+                      loading={voiceLoading}
+                      controls
+                      label={t("tests.sample.listen")}
+                    />
+                  </div>
+                  <div className="mt-3.5 whitespace-pre-line text-sm leading-relaxed text-foreground/90 sm:text-base">
+                    {sampleAnswer}
+                  </div>
+                </div>
               )}
             </div>
           )}
@@ -936,6 +991,7 @@ function TaskPractice({
   const [promptIndex, setPromptIndex] = useState(0);
   const [prep, setPrep] = useState<number | null>(null);
   const [busy, setBusy] = useState(false);
+  const [showSample, setShowSample] = useState(false);
   const [analysis, setAnalysis] = useState<{ analysis: SpeakingAnalysis; transcript: string } | null>(null);
   const [accuracy, setAccuracy] = useState<PronunciationResult | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -950,10 +1006,20 @@ function TaskPractice({
   };
   const prompt = task.prompts[promptIndex % Math.max(1, task.prompts.length)] ?? "";
   const isReadBack = READ_BACK_TASKS.has(task.id);
+  const sampleAnswer = !isReadBack ? getSpeakingSampleAnswer(test.slug, promptIndex, prompt) : null;
+
+  useEffect(() => {
+    setPromptIndex(0);
+    setAnalysis(null);
+    setAccuracy(null);
+    setShowSample(false);
+    stopVoice();
+  }, [test.id]);
 
   useEffect(
     () => () => {
       if (timerRef.current) clearInterval(timerRef.current);
+      stopVoice();
     },
     [],
   );
@@ -1069,6 +1135,8 @@ function TaskPractice({
                 setPromptIndex((i) => i + 1);
                 setAnalysis(null);
                 setAccuracy(null);
+                setShowSample(false);
+                stopVoice();
               }}
               className="inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1.5 text-xs font-semibold text-foreground ring-1 ring-border hover:bg-surface-3"
             >
@@ -1107,6 +1175,52 @@ function TaskPractice({
             {prep !== null && <span className="font-display text-lg text-brass-soft">0:{String(prep).padStart(2, "0")}</span>}
             <span className="text-xs text-muted-foreground">{t("tests.card.speakForAbout", { seconds: task.speakSeconds })}</span>
           </div>
+
+          {sampleAnswer && (
+            <div className="mt-4">
+              <button
+                type="button"
+                onClick={() => setShowSample((s) => !s)}
+                className="inline-flex items-center gap-2 rounded-xl bg-surface-2 px-3.5 py-2 text-xs font-semibold text-brass ring-1 ring-border transition-colors hover:bg-surface-3"
+              >
+                <Sparkles className="size-3.5" />
+                <span>{showSample ? t("tests.sample.hide") : t("tests.sample.show")}</span>
+                <ChevronDown
+                  className={cn(
+                    "size-3.5 text-muted-foreground transition-transform duration-200",
+                    showSample && "rotate-180"
+                  )}
+                />
+              </button>
+
+              {showSample && (
+                <div className="mt-3 rounded-2xl bg-surface-2/70 p-4 ring-1 ring-border sm:p-5">
+                  <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/60 pb-3">
+                    <div className="flex items-center gap-2">
+                      <span className="inline-flex items-center gap-1.5 rounded-full bg-brass/10 px-2.5 py-1 text-xs font-semibold text-brass">
+                        ✨ {t("tests.sample.modelBand8")}
+                      </span>
+                    </div>
+                    <VoiceButton
+                      text={sampleAnswer}
+                      play={play}
+                      stop={stopVoice}
+                      pause={pause}
+                      resume={resume}
+                      speaking={speaking}
+                      paused={paused}
+                      loading={voiceLoading}
+                      controls
+                      label={t("tests.sample.listen")}
+                    />
+                  </div>
+                  <div className="mt-3.5 whitespace-pre-line text-sm leading-relaxed text-foreground/90 sm:text-base">
+                    {sampleAnswer}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
 
           <div className="mt-6">
             <MicRecorder

@@ -134,15 +134,23 @@ function PricingPage() {
     void logEvent({ data: { event: "pricing_viewed" } }).catch(() => undefined);
   }, [user, logEvent]);
 
-  // One free trial per account: hidden once this account has had a subscription (and until we
-  // know, for a signed-in learner, so an ineligible one never sees it flash up).
-  const showTrial = !user || billing.data?.trialEligible === true;
+  // The free trial is a sign-up offer (Premium only): advertise it to visitors who have no account yet.
+  const showTrial = !user;
   const currentTier = billing.data?.entitlement.tier ?? "free";
   const currentSub = billing.data?.subscription as
-    | { cancel_at_period_end: boolean; current_period_end: string | null }
+    | { cancel_at_period_end: boolean; current_period_end: string | null; provider_subscription_id?: string }
     | null
     | undefined;
   const endingOn = currentSub?.cancel_at_period_end ? currentSub.current_period_end : null;
+  // A bank-transfer plan never renews by itself: during its last 7 days (same window the server allows,
+  // RENEWAL_WINDOW_DAYS) the current plan offers "renew by bank transfer"; the new period starts when this
+  // one ends. The renewal-reminder emails link here.
+  const endingOnMs = endingOn ? Date.parse(endingOn.replace(" ", "T").replace(/([+-]\d{2})$/, "$1:00")) : null;
+  const renewWindowOpen = Boolean(
+    currentSub?.provider_subscription_id?.startsWith("sepay_") &&
+      endingOnMs !== null &&
+      endingOnMs - Date.now() <= 7 * 86_400_000,
+  );
 
   const rows = useMemo(() => plans.data ?? [], [plans.data]);
 
@@ -309,7 +317,7 @@ function PricingPage() {
                 )}
               </div>
 
-              {plan.trial_enabled && plan.tier !== "free" && showTrial && (
+              {plan.trial_enabled && plan.tier === "premium" && showTrial && (
                 <p className="mt-2 text-xs font-medium text-accent">
                   {t("pricing.trial", { count: String(plan.trial_days) })}
                 </p>
@@ -365,23 +373,38 @@ function PricingPage() {
                 </button>
               )}
 
-              {plan.tier !== "free" && !isCurrent && (plan.monthly_amount_vnd || plan.yearly_amount_vnd) ? (
-                <button
-                  type="button"
-                  disabled={busyPlan === `${plan.plan_key}-bank`}
-                  onClick={() => void startBankTransfer(plan)}
-                  className="mt-2.5 flex w-full items-center justify-center gap-2 rounded-full border-2 border-brass/70 bg-surface-2 px-4 py-2.5 text-xs font-bold text-foreground shadow-xs transition hover:border-brass hover:bg-surface-3 active:scale-[0.99] disabled:opacity-60"
-                >
-                  <QrCode className="h-4 w-4 text-accent shrink-0" />
-                  <span className="truncate">
-                    {busyPlan === `${plan.plan_key}-bank`
-                      ? t("common.loading")
-                      : locale === "vi"
-                        ? "Chuyển khoản ngân hàng"
-                        : "Pay by bank transfer"}
-                  </span>
-                  <VietQrBadge />
-                </button>
+              {plan.tier !== "free" &&
+              (!isCurrent || renewWindowOpen) &&
+              (plan.monthly_amount_vnd || plan.yearly_amount_vnd) ? (
+                <>
+                  <button
+                    type="button"
+                    disabled={busyPlan === `${plan.plan_key}-bank`}
+                    onClick={() => void startBankTransfer(plan)}
+                    className="mt-2.5 flex w-full items-center justify-center gap-2 rounded-full border-2 border-brass/70 bg-surface-2 px-4 py-2.5 text-xs font-bold text-foreground shadow-xs transition hover:border-brass hover:bg-surface-3 active:scale-[0.99] disabled:opacity-60"
+                  >
+                    <QrCode className="h-4 w-4 text-accent shrink-0" />
+                    <span className="truncate">
+                      {busyPlan === `${plan.plan_key}-bank`
+                        ? t("common.loading")
+                        : isCurrent
+                          ? locale === "vi"
+                            ? "Gia hạn bằng chuyển khoản"
+                            : "Renew by bank transfer"
+                          : locale === "vi"
+                            ? "Chuyển khoản ngân hàng"
+                            : "Pay by bank transfer"}
+                    </span>
+                    <VietQrBadge />
+                  </button>
+                  {isCurrent && (
+                    <p className="mt-1.5 text-center text-[11px] text-muted-foreground">
+                      {locale === "vi"
+                        ? "Thời gian mới được cộng tiếp từ ngày hết hạn — bạn không mất ngày nào."
+                        : "The new period starts when your current one ends — you lose no days."}
+                    </p>
+                  )}
+                </>
               ) : null}
 
               {plan.tier !== "free" && (

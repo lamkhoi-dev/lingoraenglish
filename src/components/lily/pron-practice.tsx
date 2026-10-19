@@ -16,6 +16,7 @@ import { analysePronunciation, speak, transcribeAudio, type PronunciationResult 
 import { measureDelivery, PRACTICE_STEPS, type DeliveryMetrics, type SkillId } from "@/lib/pronunciation-content";
 import { adminGenerateSoundTake, adminSaveSoundAudio } from "@/lib/pronunciation-admin.functions";
 import { updatePronunciationSoundScore } from "@/lib/pronunciation.functions";
+import { ttsAdminStore } from "@/lib/tts-admin-store";
 import { voicePlayer } from "@/lib/voice-player";
 import { getWordIpa } from "@/lib/word-ipa";
 import { cn } from "@/lib/utils";
@@ -145,6 +146,8 @@ export function PronPractice({
         setHasPlayed(true);
         setSpeed(rate);
         voicePlayer.prime();
+        // The Sounds drill has its own admin buttons (below); every other lesson uses the shared bar.
+        if (!targetSound) ttsAdminStore.record([{ text: speakText, voice: "shimmer" }]);
         let src = cache.current.get(speakText);
         if (!src) {
           // Show "loading" immediately while the TTS API is in-flight so the
@@ -174,7 +177,7 @@ export function PronPractice({
         handleError(error, t("pron.toast.playError"));
       }
     },
-    [handleError, loop, requestSpeech, speakText, t, target, user],
+    [handleError, loop, requestSpeech, speakText, t, target, targetSound, user],
   );
 
   const stop = () => {

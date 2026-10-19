@@ -99,6 +99,7 @@ const base = {
   "plan.ieltsPro": "LiLy AI Pro",
   "checkout.continueWhere": "Continue where you left off",
   "common.somethingWrong": "Something went wrong.",
+  "common.recordingTooLarge": "Your recording is too long to send. Please record a shorter answer and try again.",
   "common.demoMode": "Demo mode",
 
   "home.heroSub":
@@ -715,7 +716,9 @@ const base = {
   "pricing.faq.currency.q": "Can I pay in my currency?",
   "pricing.faq.currency.a": "Checkout shows local currencies and local payment methods wherever they are supported.",
   "pricing.faq.trial.q": "How does the free trial work?",
-  "pricing.faq.trial.a": "You get full access for the trial period. Cancel before it ends and you are not charged.",
+  "pricing.faq.trial.a": "Every new account gets full Premium access for the trial period, with no card needed. If you do nothing, the account simply returns to the Free plan when the trial ends. If you subscribe during the trial, your paid plan starts after the trial ends, so you keep every remaining trial day.",
+  "billing.trialActive": "Free Premium trial until {{date}}",
+  "billing.trialActive.sub": "Subscribing now adds the paid period after your trial ends.",
   "pricing.faq.refund.q": "What is your refund policy?",
   "pricing.faq.refund.a": "Contact us within 30 days of a payment and we will refund it to your original payment method.",
   "pricing.meta.title": "Pricing — Lingora English",

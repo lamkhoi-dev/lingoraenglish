@@ -56,12 +56,66 @@ export class AiNotConnectedError extends Error {
 
 /* --------------------------- provider selection --------------------------- */
 
+/** Every key configured for a provider: `<BASE>_API_KEYS` plus the single `<BASE>_API_KEY`. Keys may be separated by
+ * commas, semicolons, spaces or newlines, so pasting several keys into one variable still works. */
+function keyPool(base: "GEMINI" | "GROQ" | "DEEPSEEK"): string[] {
+  const raw = [process.env[`${base}_API_KEYS`], process.env[`${base}_API_KEY`]].filter(Boolean).join(",");
+  return [...new Set(raw.split(/[\s,;]+/).map((k) => k.trim()).filter(Boolean))];
+}
 function geminiKey(): string | undefined {
-  return process.env["GEMINI_API_KEY"];
+  return keyPool("GEMINI")[0];
 }
 function deepseekKey(): string | undefined {
-  return process.env["DEEPSEEK_API_KEY"];
+  return keyPool("DEEPSEEK")[0];
 }
+
+/* ------------------------ circuit breaker (per key / model) ------------------------ */
+
+/** In-memory "do not call this until" map. A key or model that just answered 402/429/5xx is skipped
+ * for a while, so later requests go straight to the next key/model/provider instead of each one
+ * waiting through the same failure. Resets on restart, which is fine: one failed call re-learns it. */
+const pausedUntil = new Map<string, number>();
+
+function isPaused(id: string): boolean {
+  const until = pausedUntil.get(id);
+  if (!until) return false;
+  if (until <= Date.now()) {
+    pausedUntil.delete(id);
+    return false;
+  }
+  return true;
+}
+function pause(id: string, ms: number, why: string): void {
+  pausedUntil.set(id, Date.now() + ms);
+  console.warn(`[ai] ${id} paused for ${Math.round(ms / 1000)}s - ${why}`);
+}
+
+/** What a failed provider response means for rotation: which scope to pause and for how long.
+ * Returns null for errors that rotating cannot fix (bad request etc.) so the caller reports them. */
+function classifyFailure(status: number, body: string): { scope: "key" | "model"; ms: number; why: string } | null {
+  if (status === 402) return { scope: "key", ms: 2 * 60_000, why: "credits depleted (402)" };
+  if (status === 401) return { scope: "key", ms: 10 * 60_000, why: "invalid API key (401)" };
+  if (status === 403) return { scope: "key", ms: 10 * 60_000, why: "access denied (403)" };
+  if (status === 429) {
+    const daily = /per.?day|daily|PerDay/i.test(body);
+    return { scope: "model", ms: daily ? 30 * 60_000 : 60_000, why: daily ? "daily quota (429)" : "rate limited (429)" };
+  }
+  if (status === 404) return { scope: "model", ms: 24 * 60 * 60_000, why: "model not available (404)" };
+  if (status >= 500) return { scope: "model", ms: 20_000, why: `provider error (${status})` };
+  return null;
+}
+
+/** Comma-separated order override, e.g. AI_TTS_ORDER="gemini,groq"; unknown names are ignored. */
+function providerOrder<T extends string>(envName: string, defaults: readonly T[]): T[] {
+  const wanted = (process.env[envName] ?? "")
+    .split(",")
+    .map((s) => s.trim().toLowerCase())
+    .filter((s): s is T => (defaults as readonly string[]).includes(s));
+  return wanted.length ? [...new Set(wanted)] : [...defaults];
+}
+
+/** Models actually served last, so usage logs name the model that did the work after a fallback. */
+const lastServed = { tts: "", stt: "" };
 
 export function currentTextProvider(): TextProvider {
   return (process.env["AI_TEXT_PROVIDER"] ?? "").trim().toLowerCase() === "gemini" ? "gemini" : "deepseek";
@@ -88,8 +142,23 @@ function geminiLlmModel(): string {
 function deepseekLlmModel(): string {
   return process.env["DEEPSEEK_LLM_MODEL"] ?? "deepseek-chat";
 }
-function geminiTtsModel(): string {
-  return process.env["GEMINI_TTS_MODEL"] ?? "gemini-3.1-flash-tts-preview";
+/** Gemini TTS models, cheapest first (list prices per 1M audio tokens: 2.5 Flash $10, 3.1 Flash $20). A model that is
+ * rate-limited is paused by geminiFetch and the next one is used. Override the whole list with GEMINI_TTS_MODELS
+ * (comma-separated); GEMINI_TTS_MODEL, if set, is tried after the defaults.
+ *
+ * Deliberately NOT in the defaults: gemini-3.8-flash-lite-tts and gemini-3.8-flash-tts. They are cheaper ($6 / $9) but
+ * every clip ends with ~140ms of loud steady noise (75-100% of the speech peak) - the "xẹt" learners heard after each
+ * sentence (measured 2026-10-02; 2.5 Flash and 3.1 Flash end cleanly). Re-test before adding them back. */
+const DEFAULT_GEMINI_TTS_MODELS = ["gemini-2.5-flash-preview-tts", "gemini-3.1-flash-tts-preview"];
+function geminiTtsModelChain(): string[] {
+  const custom = (process.env["GEMINI_TTS_MODELS"] ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+  const legacy = process.env["GEMINI_TTS_MODEL"]?.trim();
+  return [...new Set([...(custom.length ? custom : DEFAULT_GEMINI_TTS_MODELS), ...(legacy ? [legacy] : [])])];
+}
+/** Gemini models that can hear audio, cheapest first (used for transcription when Groq is unavailable). */
+function geminiAudioModelChain(): string[] {
+  const custom = (process.env["GEMINI_STT_MODELS"] ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+  return [...new Set([...(custom.length ? custom : ["gemini-flash-lite-latest"]), geminiLlmModel()])];
 }
 
 /** For usage-log display — "what model actually served this request". */
@@ -97,10 +166,10 @@ export function currentLlmModel(): string {
   return currentTextProvider() === "gemini" ? geminiLlmModel() : deepseekLlmModel();
 }
 export function currentSttModel(): string {
-  return geminiLlmModel();
+  return lastServed.stt || (keyPool("GROQ").length ? groqSttModel() : (geminiAudioModelChain()[0] ?? geminiLlmModel()));
 }
 export function currentTtsModel(): string {
-  return geminiTtsModel();
+  return lastServed.tts || (geminiTtsModelChain()[0] ?? "gemini-3.8-flash-lite-tts");
 }
 
 const DISPLAY_NAME: Record<TextProvider | AudioProvider, string> = {
@@ -249,13 +318,26 @@ export function concatWavClips(wavBase64A: string, wavBase64B: string, silenceMs
 
 /* --------------------------- DeepSeek (OpenAI-shaped) --------------------------- */
 
+/** An HTTP failure from a text/audio AI provider. Carries the status so llmComplete() can decide whether
+ * to move on to the next provider (402/429/5xx) or report the error (e.g. a bad request). */
+class ProviderHttpError extends Error {
+  status: number;
+  constructor(status: number, message: string) {
+    super(message);
+    this.status = status;
+  }
+}
+
 async function openaiCompatFail(res: Response): Promise<never> {
   const body = await res.text().catch(() => "");
-  if (res.status === 429) throw new Error("Lingora English is busy right now. Please wait a moment and try again.");
-  if (res.status === 402)
-    throw new Error("The AI workspace is out of credits. Please top up AI credits to keep practising.");
-  if (res.status === 403) throw new Error("AI access is blocked by workspace policy.");
-  throw new Error(`AI request failed (${res.status}). ${body.slice(0, 300)}`);
+  if (res.status === 429)
+    throw new ProviderHttpError(429, "Lingora English is busy right now. Please wait a moment and try again.");
+  if (res.status === 402) {
+    console.error("[ai] a text provider answered 402 (out of credits) - top up that account.");
+    throw new ProviderHttpError(402, "The AI workspace is out of credits. Please top up AI credits to keep practising.");
+  }
+  if (res.status === 403) throw new ProviderHttpError(403, "AI access is blocked by workspace policy.");
+  throw new ProviderHttpError(res.status, `AI request failed (${res.status}). ${body.slice(0, 300)}`);
 }
 
 type OpenAiCompatResponse = {
@@ -313,15 +395,42 @@ type GeminiGenerateResponse = {
   usageMetadata?: { promptTokenCount?: number; candidatesTokenCount?: number };
 };
 
+/** Calls Gemini with the first usable key. A key that is out of credits (402), rate-limited (429) or
+ * erroring is paused and the next key is tried; the last failing response is returned if none work,
+ * so callers keep their existing `!res.ok` handling. */
 async function geminiFetch(model: string, body: unknown): Promise<Response> {
-  const key = geminiKey();
-  if (!key) throw new AiNotConnectedError("llm", "GEMINI_API_KEY");
-  return fetch(`${GEMINI_BASE}/${model}:generateContent`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json", "X-goog-api-key": key },
-    body: JSON.stringify(body),
-  });
+  const keys = keyPool("GEMINI");
+  if (!keys.length) throw new AiNotConnectedError("llm", "GEMINI_API_KEY");
+  const payload = JSON.stringify(body);
+  let last: Response | undefined;
+  for (let i = 0; i < keys.length; i += 1) {
+    const keyId = `gemini#${i}`;
+    const modelId = `gemini#${i}:${model}`;
+    if (isPaused(keyId) || isPaused(modelId)) continue;
+    const res = await fetch(`${GEMINI_BASE}/${model}:generateContent`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "X-goog-api-key": keys[i]! },
+      body: payload,
+    });
+    if (res.ok) return res;
+    const failure = classifyFailure(res.status, await res.clone().text().catch(() => ""));
+    if (!failure) return res;
+    pause(failure.scope === "key" ? keyId : modelId, failure.ms, `${model}: ${failure.why}`);
+    lastGeminiFailureStatus = res.status;
+    last = res;
+  }
+  // Every key/model is paused (or just failed): answer with the same failure kind without hitting Google again.
+  return (
+    last ??
+    new Response(
+      JSON.stringify({
+        error: { code: lastGeminiFailureStatus, status: "RESOURCE_EXHAUSTED", message: "All Gemini keys are paused." },
+      }),
+      { status: lastGeminiFailureStatus },
+    )
+  );
 }
+let lastGeminiFailureStatus = 429;
 
 async function geminiFail(res: Response): Promise<never> {
   const body = await res.text().catch(() => "");
@@ -331,12 +440,18 @@ async function geminiFail(res: Response): Promise<never> {
   } catch {
     // non-JSON error body — fall through to the generic message below
   }
+  // 402 is the prepaid balance running out, not a rate limit — name it so the real cause shows in the logs.
+  if (res.status === 402) {
+    console.error("[ai] Gemini credits depleted (402) - top up the Gemini API account.");
+    throw new ProviderHttpError(402, "Lingora English's AI is temporarily unavailable. Please try again in a few minutes.");
+  }
   if (res.status === 429 || status === "RESOURCE_EXHAUSTED")
-    throw new Error("Lingora English is busy right now. Please wait a moment and try again.");
+    throw new ProviderHttpError(429, "Lingora English is busy right now. Please wait a moment and try again.");
   if (res.status === 503 || status === "UNAVAILABLE")
-    throw new Error("Hệ thống AI đang quá tải tạm thời từ phía Google. Vui lòng bấm thử lại sau vài giây.");
-  if (res.status === 403 || status === "PERMISSION_DENIED") throw new Error("AI access is blocked by workspace policy.");
-  throw new Error(`AI request failed (${res.status}). ${body.slice(0, 300)}`);
+    throw new ProviderHttpError(503, "Hệ thống AI đang quá tải tạm thời từ phía Google. Vui lòng bấm thử lại sau vài giây.");
+  if (res.status === 403 || status === "PERMISSION_DENIED")
+    throw new ProviderHttpError(403, "AI access is blocked by workspace policy.");
+  throw new ProviderHttpError(res.status, `AI request failed (${res.status}). ${body.slice(0, 300)}`);
 }
 
 /** Gemini has no "system" role in `contents` — system messages go in the separate `systemInstruction` field. */
@@ -386,8 +501,24 @@ async function geminiLlmComplete(
 }
 
 async function geminiTranscribe(audio: Uint8Array, mimeType: string): Promise<string> {
+  let lastFailure: Response | undefined;
+  for (const model of geminiAudioModelChain()) {
+    const res = await geminiTranscribeWith(model, audio, mimeType);
+    if (res.ok) {
+      lastServed.stt = model;
+      const data = (await res.json()) as GeminiGenerateResponse;
+      return (data.candidates?.[0]?.content?.parts?.map((p) => p.text ?? "").join("") ?? "").trim();
+    }
+    lastFailure = res;
+    // Rate limited / unavailable / unknown model: try the next model. Anything else (e.g. 402) is final.
+    if (![404, 429, 500, 502, 503, 504].includes(res.status)) break;
+  }
+  return geminiFail(lastFailure!);
+}
+
+async function geminiTranscribeWith(model: string, audio: Uint8Array, mimeType: string): Promise<Response> {
   const base = mimeType.split(";")[0] ?? "audio/wav";
-  const res = await geminiFetch(geminiLlmModel(), {
+  return geminiFetch(model, {
     contents: [
       {
         role: "user",
@@ -401,9 +532,6 @@ async function geminiTranscribe(audio: Uint8Array, mimeType: string): Promise<st
     ],
     generationConfig: { maxOutputTokens: 500, thinkingConfig: { thinkingBudget: 0 } },
   });
-  if (!res.ok) await geminiFail(res);
-  const data = (await res.json()) as GeminiGenerateResponse;
-  return (data.candidates?.[0]?.content?.parts?.map((p) => p.text ?? "").join("") ?? "").trim();
 }
 
 /** Our public voice names mapped to Gemini's prebuilt TTS voice names. */
@@ -434,8 +562,7 @@ function cleanTextForTts(rawText: string): string {
 async function geminiSynthesise(text: string, voice: string): Promise<{ base64: string; mime: string }> {
   const geminiVoice = GEMINI_VOICE_MAP[voice] ?? "Kore";
   const clean = cleanTextForTts(text) || text.trim() || "...";
-  const models = [geminiTtsModel(), "gemini-3.1-flash-tts-preview", "gemini-2.5-flash-preview-tts", "gemini-2.5-pro-preview-tts"];
-  const uniqueModels = [...new Set(models.filter(Boolean))];
+  const uniqueModels = geminiTtsModelChain();
 
   let lastError: unknown;
   for (const model of uniqueModels) {
@@ -470,12 +597,17 @@ async function geminiSynthesise(text: string, voice: string): Promise<{ base64: 
             break;
           }
 
+          // Out of credits on every Gemini key: no other Gemini model can work either, so stop here and
+          // let synthesise() move on to the next provider.
+          if (res.status === 402) {
+            console.error("[ai] Gemini TTS: credits depleted (402) on every key.");
+            throw new Error("Gemini credits depleted (402).");
+          }
+
+          // Rate limited: geminiFetch already paused this model for a while, so go straight to the
+          // next (cheapest-first) model instead of sleeping and retrying the same one.
           if (res.status === 429 || errStatus === "RESOURCE_EXHAUSTED") {
             lastError = new Error("Hệ thống AI đang quá tải tạm thời (Rate Limit). Vui lòng thử lại sau vài giây.");
-            if (attempt < 2) {
-              await new Promise((r) => setTimeout(r, 1200 * (attempt + 1)));
-              continue;
-            }
             break;
           }
 
@@ -506,9 +638,11 @@ async function geminiSynthesise(text: string, voice: string): Promise<{ base64: 
         }
 
         // Gemini's native TTS returns raw 16-bit PCM, 24kHz mono — wrap it so it's a playable file.
+        lastServed.tts = model;
         return { base64: wrapPcmAsWav(inline.data, 24000, 1, 16), mime: "audio/wav" };
       } catch (err) {
         lastError = err;
+        if (err instanceof Error && err.message.includes("(402)")) throw err;
         if (attempt < 2) {
           await new Promise((r) => setTimeout(r, 800));
         }
@@ -531,7 +665,78 @@ export async function llmComplete(
   messages: ChatMessage[],
   opts: { maxTokens?: number; json?: boolean } = {},
 ): Promise<LlmResult> {
-  return currentTextProvider() === "gemini" ? geminiLlmComplete(messages, opts) : deepseekLlmComplete(messages, opts);
+  type TextProviderName = "deepseek" | "gemini" | "groq";
+  // Default order: the configured primary (AI_TEXT_PROVIDER) first, then the others as fallbacks.
+  const primary: TextProviderName = currentTextProvider();
+  const defaults = [primary, ...(["deepseek", "gemini", "groq"] as const).filter((p) => p !== primary)];
+  const order = providerOrder("AI_TEXT_ORDER", defaults as readonly TextProviderName[]);
+
+  const run = (provider: TextProviderName) =>
+    provider === "deepseek"
+      ? deepseekLlmComplete(messages, opts)
+      : provider === "gemini"
+        ? geminiLlmComplete(messages, opts)
+        : groqLlmComplete(messages, opts);
+  const hasKey = (provider: TextProviderName) =>
+    keyPool(provider === "deepseek" ? "DEEPSEEK" : provider === "gemini" ? "GEMINI" : "GROQ").length > 0;
+
+  let lastError: unknown;
+  // Pass 1 skips providers that recently failed; if that leaves nothing to try, pass 2 tries them anyway.
+  for (const respectPause of [true, false]) {
+    let attempted = false;
+    for (const provider of order) {
+      if (!hasKey(provider) || (respectPause && isPaused(`llm:${provider}`))) continue;
+      attempted = true;
+      try {
+        return await run(provider);
+      } catch (err) {
+        lastError = err;
+        const status = err instanceof ProviderHttpError ? err.status : 0;
+        const failure = status ? classifyFailure(status, "") : status === 0 && !(err instanceof AiNotConnectedError) ? { ms: 20_000, why: "request failed" } : null;
+        if (!failure) throw err; // e.g. a 400: the same prompt would fail on the next provider too
+        pause(`llm:${provider}`, failure.ms, failure.why);
+      }
+    }
+    if (attempted) break;
+  }
+  if (lastError) throw lastError;
+  throw new AiNotConnectedError("llm", "DEEPSEEK_API_KEY, GEMINI_API_KEY or GROQ_API_KEY");
+}
+
+/** Groq's OpenAI-compatible chat endpoint. Used as the last text fallback; the model is small and cheap. */
+async function groqLlmComplete(messages: ChatMessage[], opts: { maxTokens?: number; json?: boolean }): Promise<LlmResult> {
+  const keys = keyPool("GROQ");
+  const model = process.env["GROQ_LLM_MODEL"] ?? "openai/gpt-oss-20b";
+  let lastError: unknown = new Error("Groq chat is busy right now.");
+  for (let k = 0; k < keys.length; k += 1) {
+    const keyId = `groq#${k}`;
+    const modelId = `groq#${k}:${model}`;
+    if (isPaused(keyId) || isPaused(modelId)) continue;
+    try {
+      return await openaiCompatComplete(
+        {
+          key: keys[k],
+          requires: "GROQ_API_KEY",
+          fetchImpl: (body) =>
+            fetch(`${GROQ_BASE}/chat/completions`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json", Authorization: `Bearer ${keys[k]}` },
+              // gpt-oss "reasons" before answering and that thinking counts against max_tokens, so keep it
+              // short and leave headroom for the visible reply.
+              body: JSON.stringify({ ...(body as object), reasoning_effort: "low" }),
+            }),
+        },
+        { ...opts, maxTokens: (opts.maxTokens ?? 700) + 300 },
+        { model, messages },
+      );
+    } catch (err) {
+      lastError = err;
+      const failure = err instanceof ProviderHttpError ? classifyFailure(err.status, "") : null;
+      if (!failure) throw err;
+      pause(failure.scope === "key" ? keyId : modelId, failure.ms, `${model}: ${failure.why}`);
+    }
+  }
+  throw lastError;
 }
 
 /** True when the text ends as a finished grammatical unit (no dangling clause). */
@@ -608,9 +813,149 @@ export async function llmJson<T>(messages: ChatMessage[], maxTokens = 800): Prom
 
 /* ------------------------- Speech to text (public) ------------------------- */
 
+/** Speech to text. Providers are tried in AI_STT_ORDER (default "groq,gemini"): Groq Whisper is the
+ * cheapest, Gemini is the fallback. The first provider that answers wins; if all fail, the last error is
+ * thrown so the learner sees one clear message. */
 export async function transcribe(audio: Uint8Array, mimeType: string): Promise<string> {
-  if (!geminiKey()) throw new AiNotConnectedError("stt", "GEMINI_API_KEY");
-  return geminiTranscribe(audio, mimeType);
+  let lastError: unknown;
+  let tried = false;
+  for (const provider of providerOrder("AI_STT_ORDER", ["groq", "gemini"] as const)) {
+    try {
+      if (provider === "groq" && keyPool("GROQ").length) {
+        tried = true;
+        return await groqTranscribe(audio, mimeType);
+      }
+      if (provider === "gemini" && keyPool("GEMINI").length) {
+        tried = true;
+        return await geminiTranscribe(audio, mimeType);
+      }
+    } catch (err) {
+      lastError = err;
+    }
+  }
+  if (!tried) throw new AiNotConnectedError("stt", "GROQ_API_KEY or GEMINI_API_KEY");
+  throw lastError;
+}
+
+/* --------------------------- Groq STT (Whisper) --------------------------- */
+
+function groqSttModel(): string {
+  return process.env["GROQ_STT_MODEL"] ?? "whisper-large-v3-turbo";
+}
+function audioFileExtension(mime: string): string {
+  if (mime.includes("webm")) return "webm";
+  if (mime.includes("ogg")) return "ogg";
+  if (mime.includes("mp4") || mime.includes("m4a") || mime.includes("aac")) return "m4a";
+  if (mime.includes("mpeg") || mime.includes("mp3")) return "mp3";
+  if (mime.includes("flac")) return "flac";
+  return "wav";
+}
+
+/** Whisper's well-known inventions on silence/noise. Dropped so the learner sees "couldn't hear you" instead. */
+const WHISPER_PHANTOM_PHRASES = new Set([
+  "thanks for watching",
+  "thank you for watching",
+  "please subscribe",
+  "subscribe to my channel",
+  "you",
+]);
+
+const WHISPER_LONG_CLIP_PHANTOMS = new Set(["thank you", "thanks", "bye", "okay"]);
+
+type GroqWhisperResponse = {
+  text?: string;
+  duration?: number;
+  segments?: { text?: string; no_speech_prob?: number; avg_logprob?: number }[];
+};
+
+/** Groq Whisper models, cheapest first. Each model has its own request/audio-second quota on Groq, so
+ * when one is rate-limited the other still has headroom. */
+function groqSttModelChain(): string[] {
+  const custom = (process.env["GROQ_STT_MODELS"] ?? "").split(",").map((s) => s.trim()).filter(Boolean);
+  return [...new Set([...(custom.length ? custom : [groqSttModel(), "whisper-large-v3"])])];
+}
+
+/** Tries every (key, model) pair that is not paused; a 429/402/5xx pauses that pair and moves on. */
+async function groqTranscribe(audio: Uint8Array, mimeType: string): Promise<string> {
+  const keys = keyPool("GROQ");
+  let lastError: unknown = new Error("Lingora English is busy right now. Please wait a moment and try again.");
+  for (let k = 0; k < keys.length; k += 1) {
+    for (const model of groqSttModelChain()) {
+      const keyId = `groq#${k}`;
+      const modelId = `groq#${k}:${model}`;
+      if (isPaused(keyId) || isPaused(modelId)) continue;
+      try {
+        const text = await groqTranscribeOnce(audio, mimeType, model, keys[k]!);
+        lastServed.stt = model;
+        return text;
+      } catch (err) {
+        lastError = err;
+        const status = err instanceof GroqHttpError ? err.status : 0;
+        const failure = status ? classifyFailure(status, err instanceof GroqHttpError ? err.body : "") : null;
+        if (!failure) throw err; // not something another key/model can fix
+        pause(failure.scope === "key" ? keyId : modelId, failure.ms, `${model}: ${failure.why}`);
+      }
+    }
+  }
+  throw lastError;
+}
+
+class GroqHttpError extends Error {
+  status: number;
+  body: string;
+  constructor(status: number, body: string) {
+    super(`Groq API error (${status}): ${body.slice(0, 200)}`);
+    this.status = status;
+    this.body = body;
+  }
+}
+
+async function groqTranscribeOnce(audio: Uint8Array, mimeType: string, model: string, key: string): Promise<string> {
+  const base = (mimeType.split(";")[0] ?? "audio/wav").trim();
+  const bytes = audio.buffer.slice(audio.byteOffset, audio.byteOffset + audio.byteLength) as ArrayBuffer;
+  const language = (process.env["GROQ_STT_LANGUAGE"] ?? "en").trim();
+
+  let lastError: unknown;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const form = new FormData();
+      form.append("file", new Blob([bytes], { type: base }), `audio.${audioFileExtension(base)}`);
+      form.append("model", model);
+      form.append("response_format", "verbose_json");
+      form.append("temperature", "0");
+      if (language) form.append("language", language);
+
+      const res = await fetch(`${GROQ_BASE}/audio/transcriptions`, {
+        method: "POST",
+        headers: { Authorization: `Bearer ${key}` },
+        body: form,
+      });
+      if (!res.ok) {
+        const body = await res.text().catch(() => "");
+        // Rate limit / credits / provider error: leave it to groqTranscribe() to rotate, no local retry.
+        throw new GroqHttpError(res.status, body);
+      }
+
+      const data = (await res.json()) as GroqWhisperResponse;
+      // Drop segments Whisper itself flags as probably-not-speech.
+      const kept = (data.segments ?? []).filter(
+        (s) => !((s.no_speech_prob ?? 0) > 0.6 && (s.avg_logprob ?? 0) < -1),
+      );
+      const text = (data.segments ? kept.map((s) => s.text ?? "").join(" ") : (data.text ?? "")).replace(/\s+/g, " ").trim();
+      const normalised = text.toLowerCase().replace(/[^a-z' ]/g, "").trim();
+      if (!/\p{L}/u.test(text)) return ""; // punctuation-only (".") is what Whisper returns for plain noise
+      if (WHISPER_PHANTOM_PHRASES.has(normalised)) return "";
+      // On a long silent clip Whisper answers "Thank you." with full confidence. A real
+      // "Thank you" is short, so only treat it as phantom when the clip is long.
+      if (WHISPER_LONG_CLIP_PHANTOMS.has(normalised) && (data.duration ?? 0) >= 2.5) return "";
+      return text;
+    } catch (err) {
+      lastError = err;
+      if (err instanceof GroqHttpError) throw err;
+      if (attempt < 1) await new Promise((r) => setTimeout(r, 600)); // network blip: one quick retry
+    }
+  }
+  throw lastError ?? new Error("Groq STT returned no transcript.");
 }
 
 export type AudioPronunciationFeedback = {
@@ -771,7 +1116,209 @@ export const LILY_VOICES = ["shimmer", "nova", "alloy", "coral", "sage"] as cons
 export type LilyVoice = (typeof LILY_VOICES)[number];
 
 /** Returns base64 WAV audio. Callers cache the result so audio is generated once. */
+/** Providers are tried in AI_TTS_ORDER (default "gemini,groq": Gemini's cheapest TTS model first, which also
+ * keeps the voice identical to the audio already cached; Groq Orpheus is the fallback). */
 export async function synthesise(text: string, voice: string): Promise<{ base64: string; mime: string }> {
-  if (!geminiKey()) throw new AiNotConnectedError("tts", "GEMINI_API_KEY");
-  return geminiSynthesise(text, voice);
+  let lastError: unknown;
+  let tried = false;
+  for (const provider of providerOrder("AI_TTS_ORDER", ["gemini", "groq"] as const)) {
+    try {
+      if (provider === "gemini" && keyPool("GEMINI").length) {
+        tried = true;
+        return await geminiSynthesise(text, voice);
+      }
+      if (provider === "groq" && keyPool("GROQ").length) {
+        tried = true;
+        return await groqSynthesise(text, voice);
+      }
+    } catch (err) {
+      lastError = err;
+      console.warn(`[ai] TTS via ${provider} failed: ${err instanceof Error ? err.message : String(err)}`);
+    }
+  }
+  if (!tried) throw new AiNotConnectedError("tts", "GEMINI_API_KEY or GROQ_API_KEY");
+  throw lastError;
+}
+
+/* --------------------------- Groq TTS (Orpheus) --------------------------- */
+
+const GROQ_BASE = "https://api.groq.com/openai/v1";
+/** Groq's Orpheus English model accepts short inputs only (documented limit: 200 characters). */
+const GROQ_TTS_MAX_CHARS = 190;
+
+function groqTtsModel(): string {
+  return process.env["GROQ_TTS_MODEL"] ?? "canopylabs/orpheus-v1-english";
+}
+
+/** Our public voice names mapped to Groq Orpheus voices (names documented by Groq: hannah, austin, troy). */
+const GROQ_VOICE_MAP: Record<string, string> = {
+  shimmer: "hannah",
+  nova: "hannah",
+  alloy: "austin",
+  coral: "hannah",
+  sage: "troy",
+};
+
+function splitForGroq(text: string): string[] {
+  const sentences = text.match(/[^.!?]+[.!?]*\s*/g) ?? [text];
+  const chunks: string[] = [];
+  let cur = "";
+  const push = () => {
+    if (cur.trim()) chunks.push(cur.trim());
+    cur = "";
+  };
+  for (const s of sentences) {
+    if (s.length > GROQ_TTS_MAX_CHARS) {
+      push();
+      let rest = s.trim();
+      while (rest.length > GROQ_TTS_MAX_CHARS) {
+        let cut = rest.lastIndexOf(" ", GROQ_TTS_MAX_CHARS);
+        if (cut < 40) cut = GROQ_TTS_MAX_CHARS;
+        chunks.push(rest.slice(0, cut).trim());
+        rest = rest.slice(cut).trim();
+      }
+      cur = rest;
+    } else if ((cur + s).length > GROQ_TTS_MAX_CHARS) {
+      push();
+      cur = s;
+    } else {
+      cur += s;
+    }
+  }
+  push();
+  return chunks;
+}
+
+/** One Orpheus request (<= 200 chars), rotating over the configured Groq keys: a key that is rate-limited
+ * (429, e.g. the 100-requests/day free quota) or out of credits is paused and the next key is used. */
+async function groqSynthesiseChunk(input: string, voice: string): Promise<string> {
+  const keys = keyPool("GROQ");
+  const model = groqTtsModel();
+  let lastError: unknown = new Error("Groq TTS is busy right now.");
+  for (let k = 0; k < keys.length; k += 1) {
+    const keyId = `groq#${k}`;
+    const modelId = `groq#${k}:${model}`;
+    if (isPaused(keyId) || isPaused(modelId)) continue;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const res = await fetch(`${GROQ_BASE}/audio/speech`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Authorization: `Bearer ${keys[k]}` },
+          body: JSON.stringify({ model, input, voice, response_format: "wav" }),
+        });
+        if (!res.ok) throw new GroqHttpError(res.status, await res.text().catch(() => ""));
+        lastServed.tts = model;
+        return normaliseGroqWav(new Uint8Array(await res.arrayBuffer()));
+      } catch (err) {
+        lastError = err;
+        if (err instanceof GroqHttpError) {
+          const failure = classifyFailure(err.status, err.body);
+          if (failure) {
+            pause(failure.scope === "key" ? keyId : modelId, failure.ms, `${model}: ${failure.why}`);
+            break; // next key
+          }
+          throw err; // 400 etc.: another key will not help
+        }
+        if (attempt < 1) await new Promise((r) => setTimeout(r, 600)); // network blip: one quick retry
+      }
+    }
+  }
+  throw lastError;
+}
+
+/**
+ * Orpheus leaves a short burst of high-frequency noise ("xì") about 80-160ms after the last word of a
+ * sentence (measured 2026-10-02: ~60ms, ~8% of the speech peak, only after the speech has ended; it is not
+ * caused by "!" or "?"). Cut everything after the last clearly-voiced frame (+50ms so soft final
+ * consonants survive), fade out over 30ms, then append 200ms of digital silence so back-to-back sentences
+ * keep a natural pause. 16-bit mono PCM in, same format out.
+ */
+function trimOrpheusTail(pcm: Uint8Array): Uint8Array {
+  const samples = Math.floor(pcm.length / 2);
+  const frame = Math.round(PCM_SAMPLE_RATE * 0.01); // 10ms
+  if (samples < frame * 10) return pcm;
+  const view = new DataView(pcm.buffer, pcm.byteOffset, samples * 2);
+
+  const rms: number[] = [];
+  for (let start = 0; start + frame <= samples; start += frame) {
+    let sum = 0;
+    for (let i = 0; i < frame; i += 1) {
+      const v = view.getInt16((start + i) * 2, true) / 32768;
+      sum += v * v;
+    }
+    rms.push(Math.sqrt(sum / frame));
+  }
+  const peak = Math.max(...rms);
+  if (peak < 0.02) return pcm; // essentially silent: nothing to anchor on
+  // Speech = a run of at least 3 frames (30ms) above 10% of the peak. The noise burst is shorter than that,
+  // so it is not mistaken for the end of the last word (some takes push it just over the 10% line).
+  const loud = rms.map((v) => v >= peak * 0.1);
+  let last = 0;
+  for (let i = loud.length - 1; i >= 2; i -= 1) {
+    if (loud[i] && loud[i - 1] && loud[i - 2]) {
+      last = i;
+      break;
+    }
+  }
+  if (last === 0) return pcm; // no sustained speech found: leave the clip untouched
+
+  const keep = Math.min(samples, (last + 1) * frame + Math.round(PCM_SAMPLE_RATE * 0.05));
+  const fade = Math.min(keep, Math.round(PCM_SAMPLE_RATE * 0.03));
+  const silence = Math.round(PCM_SAMPLE_RATE * 0.2);
+  const out = new Uint8Array((keep + silence) * 2);
+  const outView = new DataView(out.buffer);
+  for (let i = 0; i < keep; i += 1) {
+    let v = view.getInt16(i * 2, true);
+    const intoFade = i - (keep - fade);
+    if (intoFade > 0) v = Math.round(v * (1 - intoFade / fade));
+    outView.setInt16(i * 2, v, true);
+  }
+  return out;
+}
+
+/**
+ * Groq's WAV is a streaming-style file: RIFF/data sizes are 0xFFFFFFFF and there is an
+ * extra LIST chunk, so its header is not the fixed 44 bytes the rest of this file
+ * (concatWavClips) assumes. Pull the raw PCM out by walking the chunks and re-wrap it
+ * exactly like Gemini's output (24kHz mono 16-bit, clean header, fade in/out).
+ */
+function normaliseGroqWav(wav: Uint8Array): string {
+  const view = new DataView(wav.buffer, wav.byteOffset, wav.byteLength);
+  const tag = (o: number) => String.fromCharCode(wav[o]!, wav[o + 1]!, wav[o + 2]!, wav[o + 3]!);
+  if (wav.length < 12 || tag(0) !== "RIFF" || tag(8) !== "WAVE") throw new Error("Groq TTS returned an unreadable audio file.");
+
+  let sampleRate = 24000;
+  let channels = 1;
+  let bits = 16;
+  let offset = 12;
+  while (offset + 8 <= wav.length) {
+    const id = tag(offset);
+    const size = view.getUint32(offset + 4, true);
+    const body = offset + 8;
+    if (id === "fmt ") {
+      channels = view.getUint16(body + 2, true);
+      sampleRate = view.getUint32(body + 4, true);
+      bits = view.getUint16(body + 14, true);
+    } else if (id === "data") {
+      const end = size === 0xffffffff || body + size > wav.length ? wav.length : body + size;
+      const pcm = wav.slice(body, end);
+      if (sampleRate !== PCM_SAMPLE_RATE || channels !== PCM_CHANNELS || bits !== PCM_BITS_PER_SAMPLE) {
+        throw new Error(`Groq TTS returned an unexpected audio format (${sampleRate}Hz/${channels}ch/${bits}bit).`);
+      }
+      return wrapPcmAsWav(base64FromBytes(trimOrpheusTail(pcm)), sampleRate, channels, bits);
+    }
+    offset = body + size + (size % 2);
+  }
+  throw new Error("Groq TTS returned no audio data.");
+}
+
+async function groqSynthesise(text: string, voice: string): Promise<{ base64: string; mime: string }> {
+  const groqVoice = GROQ_VOICE_MAP[voice] ?? "hannah";
+  const clean = cleanTextForTts(text) || text.trim() || "...";
+  const clips: string[] = [];
+  for (const chunk of splitForGroq(clean)) clips.push(await groqSynthesiseChunk(chunk, groqVoice));
+  if (clips.length === 0) throw new Error("Groq TTS returned no audio.");
+  let out = clips[0]!;
+  for (const clip of clips.slice(1)) out = concatWavClips(out, clip, 120);
+  return { base64: out, mime: "audio/wav" };
 }

@@ -23,6 +23,17 @@ export function PaymentTestModeBanner() {
   );
 }
 
+/** Currencies with no minor unit (same list as stripe.server.ts): the stored amount is already the whole
+ * unit, so 255000 VND is ₫255,000, not ₫2,550. Subscriptions store amounts in minor units for USD (cents). */
+const ZERO_DECIMAL_CURRENCIES = new Set([
+  "BIF", "CLP", "DJF", "GNF", "JPY", "KMF", "KRW", "MGA", "PYG", "RWF", "UGX", "VND", "VUV", "XAF", "XOF", "XPF",
+]);
+
+/** Converts a stored subscription amount to the major unit to display. */
+export function minorToMajor(amount: number, currency = "USD"): number {
+  return ZERO_DECIMAL_CURRENCIES.has(currency.toUpperCase()) ? amount : amount / 100;
+}
+
 export function formatMoney(amount: number, currency = "USD", locale = "en-US") {
   return new Intl.NumberFormat(locale, {
     style: "currency",

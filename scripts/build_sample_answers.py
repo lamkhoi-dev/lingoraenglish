@@ -1,0 +1,696 @@
+# -*- coding: utf-8 -*-
+"""
+Generates high-quality Band 8.0 model answers for all 90 IELTS Speaking Tests (330 prompts).
+"""
+
+import json
+import os
+
+P1_ANSWERS = {
+    "p1-home": [
+        "I currently live in a mid-rise apartment located in a relatively quiet residential district. Although it's not particularly spacious, it has large south-facing windows that let in plenty of natural sunlight, which makes the whole living space feel bright and airy.",
+        "Without a doubt, my favourite room is the living room. It's equipped with a comfortable couch and a compact bookshelf, making it the ideal spot for unwinding with a cup of coffee or reading after an exhausting day at work.",
+        "I've been living there for approximately three years now. We moved in right after finishing a major renovation, and over time it has truly grown on me and genuinely feels like home.",
+        "To be honest, while I'm quite satisfied with where I am right now, I wouldn't mind moving into a detached house with a private garden sometime in the future, especially if my family expands.",
+        "From my balcony window, I have a pleasant panoramic view of a community park lined with greenery. It's particularly lovely in the early morning when people are jogging and birds are chirping."
+    ],
+    "p1-hometown": [
+        "My hometown is a vibrant coastal city in the central part of the country. It is well-known for its scenic beaches, warm maritime climate, and rich cultural heritage that draws visitors from all around.",
+        "It's primarily renowned for its picturesque sandy coastline and fresh seafood delicacies. In addition, there are several historic pagodas and colonial landmarks that reflect its unique historical past.",
+        "Definitely. In recent years, local authorities have invested heavily in modern infrastructure, recreational hubs, and tech incubators, which has opened up promising career prospects and lively social scenes for the younger generation.",
+        "Remarkably so. A decade ago it was a sleepy coastal town, but rapid urbanization has transformed it into a bustling metropolis with high-rise developments, improved transit links, and thriving commercial centres.",
+        "What I treasure most is the harmonious balance between urban convenience and laid-back coastal living. Whenever I feel stressed, taking an evening stroll along the shoreline never fails to clear my head."
+    ],
+    "p1-family": [
+        "There are four of us in my immediate family: my parents, my younger sister, and myself. We are a close-knit household and make an effort to share meals and catch up whenever our schedules permit.",
+        "I'd say I have the closest bond with my mother. She has always been an empathetic listener and someone whose practical wisdom I rely on whenever I'm faced with tough life decisions.",
+        "During weekdays we are often occupied with work and studies, but we make it a point to gather for dinner on Sunday evenings. We occasionally go on weekend road trips or enjoy barbecue gatherings in our backyard.",
+        "Yes, I believe they are evolving substantially. With hectic work schedules and digital distractions, nuclear families have become more prevalent, and face-to-face interaction has regrettably decreased in many modern households.",
+        "We genuinely enjoy outdoor activities like hiking in nearby nature reserves or simply cooking elaborate traditional feasts together on special holidays like Lunar New Year."
+    ],
+    "p1-friends": [
+        "I wouldn't say I have a massive circle of friends, but I do maintain a handful of very dependable, long-term companions whom I can reach out to in times of need.",
+        "Usually, we hang out at quiet coffee shops to catch up on each other's lives, or we organize board game nights and try out new culinary spots across the city during weekends.",
+        "I consider myself reasonably sociable, so striking up a conversation with strangers isn't intimidating for me. However, building deep, meaningful friendships takes consistent effort, patience, and mutual trust.",
+        "I definitely lean towards having a tight circle of close, loyal confidants rather than dozens of superficial acquaintances. Quality consistently trumps quantity when it comes to true camaraderie.",
+        "They play an indispensable role in my life. Good friends not only provide emotional support through life's ups and downs, but they also offer fresh perspectives that help me grow as an individual."
+    ],
+    "p1-work-study": [
+        "At the moment, I'm working as a professional in my field, though I also take online professional development courses in the evenings to keep my skillset up to date with industry demands.",
+        "What appeals to me most is the dynamic nature of my role and the problem-solving involved. No two days are ever identical, and collaborating with forward-thinking colleagues makes the experience rewarding.",
+        "The steepest challenge is definitely managing tight project deadlines while maintaining high output quality. At times, juggling unexpected client requests can be mentally demanding.",
+        "Yes, absolutely. I see considerable growth potential in this sector, and my long-term aspiration is to take on managerial responsibilities or spearhead innovative initiatives within the company.",
+        "Achieving work-life balance requires conscious discipline. I make sure to disconnect from work emails once my workday concludes and dedicate my evenings to exercising and spending quality time with family."
+    ],
+    "p1-daily-routine": [
+        "On regular weekdays, I typically get out of bed around 6:30 AM. Rising early gives me ample time to prepare without rushing through the morning commute.",
+        "The very first thing I do is drink a large glass of warm water with lemon, followed by a quick five-minute stretching session to kickstart my circulation and awaken my senses.",
+        "Yes, it changes considerably. Over the weekend, I tend to wake up an hour or two later, take a relaxed leisurely brunch, and spend unstructured time reading or pursuing personal hobbies.",
+        "I cherish the early morning period the most, right before the city wakes up. It's tranquil, free from notifications, and allows me to plan out my day with absolute mental clarity.",
+        "For the most part, yes. I try to maintain regular sleep patterns and eat balanced meals, though there are occasional busy weeks where burning the midnight oil throws my routine off slightly."
+    ],
+    "p1-free-time": [
+        "Whenever I have spare time, I gravitate towards activities that allow me to recharge, such as reading historical fiction, listening to acoustic music, or taking long walks in the park.",
+        "It really depends on my energy levels. If I've had an intense, socially demanding week, I prefer solitude to decompress. Conversely, if I've been cooped up working alone, I love hanging out with friends.",
+        "Realistically speaking, on weekdays I only get about an hour or two in the late evening. However, weekends offer much more leeway for dedicated leisure pursuits.",
+        "Yes, substantially. As a child, my free time was dominated by active outdoor games and unstructured play, whereas nowadays my leisure time tends to be more sedentary and goal-oriented.",
+        "If I were granted extra free time, I would certainly dedicate it to learning a musical instrument, like the piano, or taking intensive foreign language immersion courses."
+    ],
+    "p1-hobbies": [
+        "I have a keen passion for photography, particularly street and landscape photography. It encourages me to observe subtle details in everyday life that most people overlook.",
+        "I stumbled into it during high school when my father gifted me an entry-level DSLR camera for my birthday. Capturing candid moments during a family vacation instantly hooked me.",
+        "Without question. Hobbies serve as a vital emotional outlet, offering a healthy counterbalance to professional stress while fostering creativity and personal fulfillment.",
+        "I've always been intrigued by pottery and ceramics. I find the process of molding clay on a potter's wheel remarkably meditative and hope to enroll in a workshop soon.",
+        "I have a slight preference for outdoor pursuits because they provide fresh air, natural lighting, and opportunities to stay physically active, although indoor hobbies have their own cozy charm."
+    ],
+    "p1-food": [
+        "I have a fairly adventurous palate, but I'm especially fond of traditional Vietnamese and Mediterranean cuisines because both place a heavy emphasis on fresh herbs, wholesome produce, and balanced flavours.",
+        "While I relish the convenience and atmosphere of dining out occasionally, I generally prefer home-cooked meals. Preparing food myself allows me to control the ingredients, sodium levels, and portion sizes.",
+        "I've never been keen on overly greasy, deep-fried fast food. It tends to leave me feeling sluggish and uncomfortably full rather than properly nourished.",
+        "Yes, significantly. As a teenager, I was quite picky and craved sweet treats, but as an adult, I've developed a profound appreciation for bitter greens, spicy dishes, and nuanced earthy spices.",
+        "In Vietnam, a standard family meal typically revolves around a bowl of steamed white rice accompanied by a savory dish like braised pork or fish, a stir-fried vegetable, and a light broth."
+    ],
+    "p1-cooking": [
+        "I truly enjoy cooking when I'm not pressed for time. For me, chopping ingredients and experimenting with different seasonings is a therapeutic way to disconnect from digital screens.",
+        "My grandmother was my primary culinary mentor. She taught me traditional cooking techniques and emphasized the importance of balancing the five basic taste elements in every dish.",
+        "I once prepared a traditional beef pho completely from scratch, simmering the marrow bones and roasted aromatic spices for over eight hours to achieve an authentic, crystal-clear broth.",
+        "Definitely. Cooking is an essential life skill that empowers people to eat healthily, manage their household budget effectively, and gain a sense of self-reliance.",
+        "It has evolved tremendously. While traditional home cooking remains cherished, busy urban lifestyles have popularized quick meal-prep kits, international fusion recipes, and smart kitchen appliances."
+    ],
+    "p1-restaurants": [
+        "I dine out perhaps once or twice a week, usually over the weekend when I want to catch up with friends or treat myself to a break from kitchen duties.",
+        "I'm drawn to cozy, independent eateries and family-run bistros. They tend to have more distinctive character, attentive service, and authentic dishes compared to generic commercial chains.",
+        "The primary factor is food quality and hygiene, followed closely by welcoming customer service. A relaxed ambience with pleasant background music also elevates the dining experience.",
+        "Yes, on special occasions such as family milestones or anniversaries, we enjoy visiting upscale establishments with scenic views and exquisite tasting menus.",
+        "It's extraordinarily popular. Street stalls, food courts, and trendy cafes are always buzzing with patrons, reflecting our deep-seated culture of communal eating and socializing over good food."
+    ],
+    "p1-shopping": [
+        "To be completely honest, it really depends on what I'm shopping for. If it's browsing for books or tech gadgets, I find it quite therapeutic and can easily spend hours doing it. On the other hand, grocery shopping or hunting for clothes in crowded malls feels rather tedious, so I generally prefer getting those done online whenever possible.",
+        "I'm particularly keen on buying literature, practical productivity accessories, and quality coffee beans. Occasionally, I also invest in durable, timeless clothing pieces that last for years.",
+        "I've transitioned predominantly to online shopping because of the sheer convenience, competitive pricing, and user reviews. Nevertheless, I still visit physical boutiques when purchasing shoes or tailored clothing.",
+        "Yes, they remain exceedingly popular. Shopping centres in major cities serve as air-conditioned social hubs where people gather not just for retail, but for cinema, fine dining, and leisure.",
+        "A few months ago, I treated myself to a pair of premium noise-cancelling headphones. It was a substantial investment, but they've revolutionized my focus while working in noisy environments."
+    ],
+    "p1-clothes": [
+        "My wardrobe leans heavily towards smart-casual and minimalist aesthetics. I gravitate towards neutral tones, clean silhouettes, and comfortable fabrics like linen and organic cotton.",
+        "Without question, comfort is my foremost priority, although I strive not to compromise on looking neat and presentable. If an outfit feels restrictive, it inevitably affects my confidence.",
+        "Not particularly. I tend to ignore fleeting fast-fashion fads and instead cultivate a versatile capsule wardrobe composed of durable staples that transcend seasonal trends.",
+        "Yes, quite distinct. In professional or academic settings, I wear collared shirts and tailored trousers, whereas on off-duty weekends, I instantly switch to loose-fitting tees and sneakers.",
+        "I have a deep fondness for navy blue, olive green, and earthy beige. These shades are understated, easily interchangeable, and project a composed, professional appearance."
+    ],
+    "p1-weather": [
+        "My absolute favourite weather is crisp autumn mornings with clear blue skies, mild sunshine, and a gentle, cool breeze. It's invigorating without being uncomfortably chilly.",
+        "Yes, without a doubt. Dreary, overcast days can occasionally dampen my motivation, whereas vibrant sunny mornings instantly uplift my spirits and fill me with energy.",
+        "Where I live, the climate is tropical with two distinct seasons: a hot, humid wet season characterized by sudden downpours, and a comparatively dry, sunny season.",
+        "I don't mind a gentle drizzle, but torrential rain accompanied by street flooding can be frustrating because it disrupts traffic and brings daily commutes to a grinding halt.",
+        "Undeniably. Over the past decade, we've witnessed more erratic temperature spikes and intensified storm patterns, which are clear manifestations of global climatic shifts."
+    ],
+    "p1-transportation": [
+        "My primary mode of transport is a fuel-efficient motorbike, which allows me to weave through dense urban traffic and arrive at my appointments promptly.",
+        "It takes roughly 25 to 30 minutes under normal traffic conditions, though it can easily stretch to forty-five minutes during peak morning rush hours.",
+        "I enjoy walking or cycling when traveling short distances because it doubles as light cardio and allows me to appreciate my neighborhood at a relaxed pace.",
+        "Yes, during peak hours, arterial roads frequently suffer from severe congestion, mainly due to the rapid surge in private vehicles and ongoing infrastructure construction.",
+        "I believe constructing comprehensive mass rapid transit systems, expanding electric bus fleets, and creating pedestrian-friendly sidewalks are essential steps forward."
+    ],
+    "p1-public-transport": [
+        "I take the public bus a couple of times a week, particularly when I travel into the downtown core where parking is scarce and expensive.",
+        "The foremost benefit is affordability and environmental sustainability, as shared transit significantly curbs carbon emissions per commuter.",
+        "In terms of coverage and frequency, it has improved steadily, though punctuality and onboard comfort during peak rush hours could still use substantial enhancement.",
+        "Yes, the government has been actively rolling out modern electric bus networks and constructing metro railway lines to encourage greener commuting habits.",
+        "I would definitely welcome more punctual schedules, real-time tracking apps with zero latency, and dedicated priority lanes to prevent buses from being stuck in general traffic."
+    ],
+    "p1-travel": [
+        "Traveling is one of my greatest passions. I find immersing myself in unfamiliar cultures and landscapes immensely broadening, as it constantly challenges my preconceived perspectives.",
+        "I try to embark on at least two substantial getaways each year, along with short weekend excursions to nearby countryside getaways whenever my schedule allows.",
+        "I have a strong preference for nature-oriented retreats, such as misty mountain valleys or tranquil coastal sanctuaries, where I can disconnect from urban hustle and bustle.",
+        "It really depends on the destination. Traveling solo grants complete autonomy over my itinerary, whereas traveling with companions creates shared memories and bonding experiences.",
+        "I'm eager to visit the Nordic countries, especially Norway and Iceland, to witness the dramatic fjords, glaciers, and the ethereal Northern Lights firsthand."
+    ],
+    "p1-holidays": [
+        "I usually celebrate major public holidays with family gatherings, preparing lavish festive dishes, exchanging heartfelt wishes, and taking time to rest and reflect.",
+        "I relish long holiday breaks because they provide an uninterrupted window to fully recharge my batteries, embark on meaningful journeys, and reconnect with distant relatives.",
+        "The Lunar New Year, locally known as Tet, holds supreme cultural importance. It symbolizes renewal, family reunions, and honoring our ancestral traditions.",
+        "Yes, dramatically. In my childhood, holidays were filled with simple folk games and village visits, whereas today people frequently take advantage of airline deals to travel abroad.",
+        "My dream holiday would be an extended three-week train journey across scenic regions of Europe, stopping by historic towns, art museums, and local vineyards."
+    ],
+    "p1-technology": [
+        "Technology permeates virtually every aspect of my daily routine, from waking up to a smartphone alarm and managing work tasks on a laptop to communicating with clients overseas.",
+        "Without hesitation, my laptop. It functions as my portable workstation, creative studio, and gateway to an infinite repository of knowledge and research.",
+        "It has streamlined tasks enormously, enabling instantaneous communication, flexible remote work arrangements, and automated administrative chores.",
+        "The primary drawback is the risk of digital burnout and diminished face-to-face social intimacy, as people frequently become tethered to their screens and social feeds.",
+        "I envision artificial intelligence and wearable health sensors becoming deeply interwoven into our daily lives, preemptively assisting with healthcare, personalized learning, and energy conservation."
+    ],
+    "p1-mobile-phones": [
+        "I got my first basic mobile phone when I started high school at around age fourteen. It was a simple keypad device intended primarily for contacting my parents after classes.",
+        "I typically replace my handset every three to four years, only when the battery degrades significantly or the hardware struggles to handle contemporary software updates.",
+        "Aside from basic messaging and calling, I heavily utilize calendar scheduling tools, mobile banking apps, and podcasts for learning while commuting.",
+        "I try to be mindful of screen time and rarely keep it out during social dinners or meetings, but like most modern professionals, I occasionally find myself mindlessly checking notifications.",
+        "Yes, without question. While mobile technology facilitates incredible connectivity, excessive reliance can erode deep attention spans and create a false sense of urgency."
+    ],
+    "p1-social-media": [
+        "I maintain active profiles on a couple of platforms, primarily utilizing them to follow industry news, creative photographers, and stay in touch with friends living abroad.",
+        "I deliberately cap my social media usage to around thirty to forty-five minutes a day to protect my focus and avoid falling down rabbit holes of endless scrolling.",
+        "The major advantage is effortless global connectivity and rapid access to community support groups, breaking news, and educational content.",
+        "Social media often fosters unhealthy comparisons and fear of missing out, as users are constantly bombarded with curated highlight reels of others' lives.",
+        "Yes, increasingly so. I believe educating young users about digital literacy, privacy safeguards, and algorithmic bias is crucial for healthy online engagement."
+    ],
+    "p1-books": [
+        "I make an effort to read every single evening before bed. Even fifteen to twenty minutes of quiet reading helps me unwind and expand my intellectual horizons.",
+        "I'm drawn to non-fiction, specifically biographies, behavioral psychology, and historical narratives that offer deep insights into human nature and historical turning points.",
+        "I hold a deep nostalgic attachment to physical paper books because of the tactile feel of turning pages and the absence of digital glare, although e-readers are undeniably convenient for travel.",
+        "Yes, my tastes have matured significantly. In my early years I devoured fantasy and comic books, whereas nowadays I seek out literature that challenges my philosophical assumptions.",
+        "One book that resonated deeply with me is 'Atomic Habits' by James Clear. Its practical framework for incremental personal improvement fundamentally reshaped how I structure my daily habits."
+    ],
+    "p1-movies": [
+        "I watch movies fairly frequently, perhaps two or three titles a month. It remains one of my favorite storytelling mediums for escaping everyday pressures.",
+        "I have a penchant for thought-provoking psychological thrillers, science fiction epics, and biographical dramas with nuanced character development and compelling cinematography.",
+        "For grand visual spectacles and sound-heavy blockbusters, the immersive cinema experience is unbeatable. However, for indie films and documentaries, streaming comfortably at home is ideal.",
+        "Yes, absolutely. Documentaries in particular provide vivid glimpses into unfamiliar cultures, historical atrocities, and scientific breakthroughs that broaden our empathy and awareness.",
+        "I recently watched Christopher Nolan's 'Oppenheimer'. The gripping narrative pacing, striking musical score, and profound moral dilemmas explored left me deeply contemplative for days."
+    ],
+    "p1-music": [
+        "Music is an inseparable part of my daily life. I listen to curated playlists while commuting, working out at the gym, and even softly in the background while studying.",
+        "My musical taste is quite eclectic. I appreciate classical piano and acoustic folk for concentrated focus, and upbeat indie rock or lo-fi beats when I need an energy boost.",
+        "I tried learning the acoustic guitar during my college days. While I never reached master virtuosity, I can strum a few chords to accompany basic sing-alongs.",
+        "Music possesses an extraordinary power to alter psychological states. Upbeat tunes can elevate low moods instantly, whereas melancholic ballads offer comforting catharsis during difficult times.",
+        "Attending live concerts is an electrifying experience that studio recordings cannot replicate. The collective energy of the crowd and the artists' raw improvisation create unforgettable memories."
+    ],
+    "p1-sports-exercise": [
+        "I participate in regular exercise three to four times a week, alternating between brisk outdoor running, strength training, and weekend badminton sessions with friends.",
+        "I enjoy swimming and badminton the most. Swimming provides a thorough full-body workout that is gentle on the joints, while badminton requires sharp reflexes and engaging strategy.",
+        "I used to engage in team sports like football more frequently in high school. Nowadays, due to varying work schedules, I tend to do individual fitness routines like running or calisthenics.",
+        "Physical exercise is indispensable for maintaining cardiovascular health, boosting immune defenses, and releasing endorphins that combat daily psychological stress.",
+        "I've always wanted to try bouldering or rock climbing. It requires a fascinating combination of physical upper-body strength, flexibility, and spatial problem-solving."
+    ],
+    "p1-health": [
+        "I prioritize health by adhering to a consistent sleep schedule of seven to eight hours, staying well-hydrated throughout the day, and incorporating wholesome whole foods into my diet.",
+        "I could definitely improve my posture during long working hours and be more disciplined about taking regular screen breaks to rest my eyes.",
+        "Regular physical exercise keeps metabolic diseases at bay, maintains healthy weight levels, and enhances sleep quality, thereby sustaining vitality well into older age.",
+        "Yes, immensely. Mental health is just as critical as physical wellness, and managing anxiety through mindfulness and healthy boundaries is essential for overall well-being.",
+        "Public health awareness has grown noticeably. More people are actively scrutinizing nutrition labels, patronizing fitness centres, and openly discussing mental wellness."
+    ],
+    "p1-education": [
+        "I attended a reputable public high school in my hometown before pursuing a bachelor's degree at a national university, where I specialized in my current professional discipline.",
+        "I thoroughly enjoyed literature and history because they encouraged critical analysis, lively debates, and deep exploration of societal evolution.",
+        "My high school literature teacher had a profound influence on me. She possessed a rare gift for bringing classical texts to life and taught us how to articulate nuanced viewpoints persuasively.",
+        "Practical experience and theoretical knowledge must complement each other. While theory builds the conceptual foundation, hands-on application is what truly develops real-world problem-solving skills.",
+        "I definitely plan to undertake specialized postgraduate certifications in data analytics and project management to further hone my competitive edge in the global marketplace."
+    ],
+    "p1-future-plans": [
+        "Professionally, my primary short-term goal is to attain a senior certification in my field and lead an impactful cross-functional project within my organization.",
+        "In five years, I envision myself holding a managerial leadership role, perhaps mentoring junior specialists while continuing to expand my international professional network.",
+        "Setting concrete, measurable goals provides clear direction, keeps motivation high during setbacks, and ensures that daily actions align with long-term aspirations.",
+        "Yes, definitely. I aspire to spend a year or two living and working overseas, as navigating a different work culture would be an invaluable test of adaptability and resilience.",
+        "I break long-range ambitions down into monthly milestones, hold myself accountable through regular journaling, and seek constructive feedback from trusted mentors."
+    ],
+    "p1-weekends": [
+        "On weekends, I balance relaxation with productivity. I usually spend Saturday mornings running errands and exercising, followed by social gatherings, and reserve Sundays for quiet reading and family time.",
+        "I prefer having a flexible balance. While spontaneous adventures are refreshing, having a loose structure ensures that I don't waste the two days mindlessly scrolling on my phone.",
+        "Last weekend was delightful. I drove out to a scenic countryside lake with a couple of close friends, enjoyed a relaxed picnic, and took numerous landscape photographs during golden hour.",
+        "Yes, undeniably. As adult responsibilities multiply, weekends have become a crucial sanctuary for recuperating energy, whereas during childhood they were purely about play.",
+        "My ideal weekend would involve escaping to a quiet seaside cottage with a stack of captivating books, swimming in the ocean at sunrise, and savoring fresh seafood dinners."
+    ],
+    "p1-learning-english": [
+        "I've been learning English since elementary school, but my real commitment to achieving conversational fluency began in university when I recognized its global career value.",
+        "The most demanding challenge has been mastering natural collocations and idiomatic expressions, as well as developing the confidence to speak spontaneously without translating in my head.",
+        "I incorporate English into my everyday lifestyle by listening to international podcasts during my commute, reading English news journals, and practicing speaking out loud with online language partners.",
+        "It provides access to a wealth of global literature, cutting-edge research, and diverse perspectives that simply aren't available in my native tongue.",
+        "My objective is to attain a Band 8 or higher in the IELTS examination, enabling me to pursue international postgraduate studies and work effortlessly in multinational teams."
+    ]
+}
+
+P2_ANSWERS = {
+    "p2-influential-person": (
+        "I would like to talk about my high school literature teacher, Ms. Ha, who has had a profound and lasting influence on my intellectual development and worldview.\n\n"
+        "I first met her when I entered the tenth grade. At the time, I was a rather reserved student who lacked confidence in expressing original thoughts. Ms. Ha was known throughout the school not only for her encyclopedic knowledge of world literature, but also for her unconventional teaching methodology.\n\n"
+        "Rather than forcing us to memorize standard literary interpretations for standardized exams, she turned our classroom into a vibrant debate forum. She encouraged us to question characters' moral decisions, relate classical texts to contemporary societal dilemmas, and articulate our own perspectives without fear of judgment. She also spent countless hours after school reviewing our essays line by line, offering constructive criticism and genuine encouragement.\n\n"
+        "The reason she influenced me so deeply is that she taught me how to think critically rather than what to think. Her mentorship instilled in me a lifelong love for reading and showed me the transformative power of clear, persuasive communication. Even years after graduation, whenever I am faced with a complex ethical problem or need to articulate a nuanced opinion, I find myself drawing upon the intellectual rigor and empathy she nurtured in me."
+    ),
+    "p2-memorable-trip": (
+        "I would like to describe an unforgettable journey I took to the highlands of Ha Giang in northern Vietnam about two years ago.\n\n"
+        "I went there during early autumn with three of my closest university friends. We decided to embark on a motorbike expedition along the famous mountainous loop to fully experience the dramatic landscape at our own pace.\n\n"
+        "During the four-day excursion, we navigated serpentine roads carved into towering limestone cliffs, crossed breathtaking mountain passes like Ma Pi Leng, and stood gazing down at the emerald Nho Que River winding through the abyss below. We also stayed in traditional homestays operated by local ethnic minority families, sharing home-cooked meals and learning about their customs and textile crafts.\n\n"
+        "This trip stands out vividly in my memory for several reasons. First and foremost, the sheer majesty of the karst mountain formations was utterly awe-inspiring and put my everyday urban worries into perspective. Furthermore, navigating challenging terrain together strengthened the bond between my friends and me. It was a humbling, exhilarating experience that renewed my appreciation for the raw beauty of nature and the resilience of highland communities."
+    ),
+    "p2-useful-object": (
+        "I'd like to talk about an object that has become utterly indispensable in my everyday life: my noise-cancelling wireless headphones.\n\n"
+        "I purchased them roughly eighteen months ago after doing extensive research into productivity accessories. At the time, I had started working in a modern open-plan office where acoustic distractions and background chatter were severely hampering my ability to concentrate on complex analytical tasks.\n\n"
+        "I use these headphones virtually every single day. In the mornings during my daily commute, they effectively mute the rumbling roar of traffic and train engines, allowing me to listen to educational podcasts or soothing instrumental music. During work hours, turning on the active noise-cancellation feature creates an instant, portable bubble of silence, enabling me to enter a state of deep focus regardless of how chaotic the surrounding environment is.\n\n"
+        "The reason this device is so invaluable to me is that it directly enhances my mental stamina and overall quality of life. By filtering out constant auditory pollution, it drastically reduces sensory fatigue by the end of the day. In an increasingly noisy world, having the ability to switch on pure tranquility at the touch of a button is truly a game changer."
+    ),
+    "p2-relaxing-place": (
+        "I would like to share with you a haven of tranquility that I often escape to whenever I need to recharge: a small, independent botanical cafe situated on the quiet outskirts of my city.\n\n"
+        "I discovered this hidden gem by chance a couple of years ago while taking a long weekend stroll. Unlike the commercial, neon-lit coffee chains scattered throughout the city centre, this place is housed in an airy glasshouse surrounded by dense tropical foliage, hanging ferns, and a serene koi pond.\n\n"
+        "Whenever I visit, I usually order a pot of warm chamomile tea or a freshly brewed pour-over coffee, settle into a comfortable wicker armchair near the window, and spend a couple of uninterrupted hours reading or journaling. The establishment has a strict policy against loud phone calls, and the only audible sounds are the gentle splashing of the fountain and soft bossa nova melodies playing in the background.\n\n"
+        "I find this sanctuary profoundly relaxing because it offers an immediate sensory respite from the relentless pace of urban life. The abundance of natural greenery combined with the earthy scent of plants and roasted beans has an almost meditative effect on my nervous system, leaving me refreshed and mentally rejuvenated."
+    ),
+    "p2-important-decision": (
+        "I'd like to recount an important crossroads in my life: the decision to switch my academic major during my second year of undergraduate studies.\n\n"
+        "Originally, upon entering university, I enrolled in an accounting degree, primarily influenced by traditional family expectations that favored steady, conventional careers. However, after eighteen months of crunching balance sheets, I realized that I lacked genuine passion for the discipline and that it did not align with my creative and analytical strengths.\n\n"
+        "Making the leap was not easy. It involved having candid, uncomfortable conversations with my parents, who were initially apprehensive about the uncertainty of the transition. It also meant undertaking extra coursework during summer semesters to catch up with prerequisites in data analytics and digital marketing. I consulted academic advisors, shadowed seniors in the tech industry, and carefully weighed the financial and time trade-offs before formally submitting my transfer paperwork.\n\n"
+        "In retrospect, that decision was a seminal turning point for me. It taught me the courage to take ownership of my own trajectory rather than passively following prescribed paths. Looking back today, I can confidently say that studying a subject I am truly engaged with has laid the groundwork for a far more fulfilling and promising professional career."
+    ),
+    "p2-skill-to-learn": (
+        "A practical skill that I have long aspired to master is public speaking and persuasive rhetoric.\n\n"
+        "Although I am quite comfortable communicating in one-on-one conversations or small group settings, standing in front of a sizable audience to deliver a formal keynote still triggers a noticeable surge of anxiety and nervousness.\n\n"
+        "To acquire this competency effectively, my plan is twofold. First, I intend to join a local chapter of Toastmasters International, where members deliver speeches in a structured, supportive environment and receive systematic feedback on vocal variety, body language, and pacing. Concurrently, I plan to analyze masterclasses by world-renowned orators, studying how they employ storytelling techniques, rhetorical pauses, and analogies to captivate their listeners.\n\n"
+        "I believe this skill is immensely critical because eloquence and the ability to articulate ideas with clarity and conviction are indispensable leadership attributes. Whether it is pitching an innovative concept to investors, leading cross-functional corporate meetings, or advocating for a community cause, strong oratorical skills enable an individual to influence outcomes and inspire action far more effectively."
+    ),
+    "p2-influential-book": (
+        "I would like to talk about a profoundly influential book entitled 'Man's Search for Meaning', penned by the Austrian psychiatrist and Holocaust survivor Viktor Frankl.\n\n"
+        "I first read this book during my university years, a period when I was grappling with existential questions regarding career aspirations and personal purpose. The book is divided into two distinct sections: the first is a harrowing, autobiographical account of Frankl's survival in Nazi concentration camps, while the second outlines his psychotherapeutic approach known as Logotherapy.\n\n"
+        "Rather than focusing solely on physical brutality, Frankl examines the psychological dynamics of suffering. His central premise is that even in the most inhumane and agonizing circumstances, human beings retain the ultimate freedom to choose their attitude and find meaning in existence—whether through creative work, love, or the courage to endure adversity with dignity.\n\n"
+        "This literary masterpiece left an indelible impression on me because it fundamentally revolutionized how I perceive hardship. Whenever I encounter professional setbacks or personal stress, Frankl's insights remind me that external difficulties are inevitable, but our conscious response to them determines our character. It has served as an enduring philosophical anchor in my life."
+    ),
+    "p2-helped-someone": (
+        "I'd like to share an occasion when I assisted an elderly neighbor, Mr. David, during a torrential storm that swept through our neighborhood last summer.\n\n"
+        "Mr. David is an octogenarian who lives alone in a single-storey house with an expansive front garden. One evening, an intense tropical storm brought down heavy tree branches, completely blocking his front driveway and damaging a section of his drainage pipe, which caused rainwater to flood his patio.\n\n"
+        "Seeing the predicament from my window the following morning, I grabbed my gardening gloves, a handsaw, and basic toolkit to offer assistance. Together with another neighbor, we spent about four hours sawing the fallen timber into manageable logs, clearing the debris, and temporarily patching up the cracked guttering to prevent water from seeping into his living quarters. Afterward, I also helped him inspect his electrical connections to ensure everything was safe.\n\n"
+        "I felt an immense sense of fulfillment from helping him. Mr. David was visibly relieved and touched, and we spent the afternoon sharing tea and listening to his fascinating stories from his youth. That experience reinforced my conviction that small, proactive acts of community solidarity can make a tremendous difference in vulnerable people's lives."
+    ),
+    "p2-difficult-challenge": (
+        "I'd like to describe a significant challenge I confronted when I was appointed project coordinator for an international virtual hackathon during my senior year of college.\n\n"
+        "The project required orchestrating a 48-hour competitive event involving over two hundred participants, mentors, and corporate sponsors across five different time zones. To complicate matters, our original lead organizer had to step down abruptly due to a medical emergency just three weeks prior to the launch date, leaving our committee in a state of disarray.\n\n"
+        "To overcome the crisis, I immediately conducted an emergency audit of all outstanding deliverables, established a transparent project dashboard, and reassigned tasks based on each team member's strengths. I held daily fifteen-minute stand-up meetings to eliminate bottlenecks and personally negotiated with technology partners to secure reliable cloud servers for the livestreaming and coding evaluations.\n\n"
+        "Although the process was intense and required burning the candle at both ends, the hackathon concluded with resounding success, receiving glowing feedback from participants and university leadership. Navigating that ordeal taught me invaluable lessons in crisis management, empathetic leadership, and the vital importance of maintaining composure under immense pressure."
+    ),
+    "p2-memorable-meal": (
+        "I would like to recount a memorable meal that took place during New Year's Eve two years ago, hosted at my maternal grandparents' countryside home.\n\n"
+        "What made the meal truly extraordinary was not merely the exquisite flavours, but the communal spirit involved in its preparation. Over a dozen extended family members gathered from various provinces. In the afternoon, we assembled outdoors around a wood-fired stove to prepare traditional delicacies, including slow-braised pork belly with quail eggs, fragrant chicken soup with lotus seeds, and crispy spring rolls hand-wrapped with fresh garden herbs.\n\n"
+        "When dusk settled, we arranged a long wooden banquet table in the courtyard under glowing lantern lights. As the cool winter breeze blew, we sat together sharing stories, toasting to each other's health, and savoring the dishes while reminiscing about our ancestors.\n\n"
+        "This feast remains etched in my memory because it epitomizes the warmth of kinship. In an age where hectic urban schedules frequently fragment family life, having all three generations sitting together in joyful harmony was deeply moving and reminded me of the enduring importance of our culinary and familial heritage."
+    ),
+    "p2-piece-of-advice": (
+        "I'd like to speak about a priceless piece of advice given to me by my senior manager during my first corporate internship.\n\n"
+        "At the time, being young and eager to impress, I routinely fell into the trap of overpromising on unrealistic deadlines and taking on too many assignments simultaneously, which invariably resulted in chronic stress and occasional oversights in my deliverables.\n\n"
+        "Noticing my mounting fatigue, my manager pulled me aside for a one-on-one mentorship session. Instead of reprimanding me, he calmly said: 'Focus on being effective before being prolific, and remember that underpromising and overdelivering will always earn you ten times more respect than promising the moon and falling short.' He advised me to ruthlessly prioritize high-impact tasks and learn the art of saying a respectful 'no' when my plate was already full.\n\n"
+        "That guidance fundamentally reshaped my professional philosophy. It shifted my mindset from frantic busyness to strategic, value-driven execution. Applying this principle has not only boosted the caliber of my work, but has also preserved my mental well-being and earned me enduring credibility among colleagues and clients."
+    ),
+    "p2-successful-person": (
+        "I would like to talk about an entrepreneur and visionary whom I admire immensely: Professor Ngo Bao Chau, the first Vietnamese mathematician to be awarded the prestigious Fields Medal.\n\n"
+        "I have followed his journey through various academic publications and public lectures. He gained international renown for proving the Fundamental Lemma in the Langlands program, a monumental mathematical conjecture that had baffled world-class scholars for nearly three decades.\n\n"
+        "What I find most admirable about Professor Chau is not just his brilliant intellect, but his extraordinary humility and dedication to youth education. Despite receiving lucrative offers from top global institutions, he established the Vietnam Institute for Advanced Study in Mathematics, creating an incubator for aspiring young researchers and tirelessly promoting scientific literacy in his homeland.\n\n"
+        "He embodies the essence of authentic success for me. He demonstrates that genuine greatness is measured not by personal accolades or financial wealth, but by intellectual perseverance and a passionate commitment to uplifting future generations."
+    ),
+    "p2-place-to-visit": (
+        "A destination that sits at the very top of my travel bucket list is Kyoto, the ancient cultural capital of Japan.\n\n"
+        "I have been fascinated by Kyoto for years, having read extensively about its preserved wooden temples, traditional tea ceremonies, and Zen rock gardens that reflect the Japanese aesthetic philosophy of wabi-sabi.\n\n"
+        "If I have the opportunity to visit, I plan to spend at least a week exploring the historic Gion district, walking through the iconic torii gates of Fushimi Inari Shrine at sunrise, and renting a bicycle to tour the peaceful bamboo groves of Arashiyama. I would also love to participate in an authentic matcha preparation workshop with a local tea master to appreciate the mindfulness behind each gesture.\n\n"
+        "The reason Kyoto appeals to me so strongly is that it represents an exquisite harmony between ancient heritage and modern refinement. In our fast-paced contemporary world, immersing myself in a place where centuries-old traditions are revered and carefully preserved would be a deeply enriching cultural experience."
+    ),
+    "p2-time-you-were-surprised": (
+        "I'd like to share an experience when I was thoroughly caught off guard by a surprise 21st birthday party organized by my closest university friends.\n\n"
+        "Leading up to that weekend, I genuinely believed that my friends had forgotten about the occasion, as they all claimed to be bogged down with exams and part-time jobs. One of my roommates casually asked me to accompany him to a quiet campus study hall on Saturday evening to return some reference books.\n\n"
+        "However, when I opened the door to the adjoining seminar room, the lights abruptly snapped on, and over twenty of my friends and classmates jumped out, shouting 'Surprise!' The room was gorgeously decorated with fairy lights, photo collages tracing our four years together, and a customized guitar-shaped cake because they knew my passion for music. They had even coordinated with my parents to record a heartwarming video message from my hometown.\n\n"
+        "I was completely flabbergasted and genuinely moved to tears. What made it so special was the thoughtful effort and secrecy they had maintained for weeks just to make me feel cherished. It served as a powerful reminder of how blessed I am to be surrounded by such thoughtful and loyal friends."
+    ),
+    "p2-important-event": (
+        "An important event in my life that marked a major milestone was my university graduation ceremony.\n\n"
+        "The ceremony took place in the grand auditorium of our main campus two years ago. It was a formal, dignified occasion attended by faculty professors, thousands of graduating students in traditional caps and gowns, and proud family members.\n\n"
+        "I remember vividly the moment my name was announced over the loudspeaker. Walking across the stage to receive my degree scroll from the university president while hearing my parents cheer from the balcony filled me with an indescribable surge of pride and gratitude. Afterward, we gathered on the sunlit courtyard, throwing our mortarboards into the air and taking countless commemorative photographs with mentors and peers.\n\n"
+        "This event was of monumental significance to me because it symbolized the culmination of four years of relentless academic rigor, sleepless nights during finals, and personal maturation. It represented not merely the closing of a cherished chapter of youth, but also the official gateway into the professional world and adult responsibilities."
+    ),
+    "p2-hobby-you-enjoy": (
+        "A hobby that brings me immense joy and mental clarity is landscape and street photography.\n\n"
+        "I took it up roughly four years ago when I purchased my first mirrorless camera. Since then, it has evolved from a casual pastime into a dedicated creative outlet that influences how I perceive my surroundings.\n\n"
+        "Whenever I engage in this hobby, I set out during the 'golden hour'—either right after dawn or just before dusk—wandering through urban alleyways, bustling markets, or tranquil lakeside parks. I focus on capturing candid human emotions, interplay of light and shadow, and architectural geometric lines. Later, I spend quiet evenings fine-tuning exposure and color tones in digital post-processing software.\n\n"
+        "I cherish this pursuit because it acts as a form of active mindfulness. When looking through the viewfinder, you are compelled to slow down, eliminate distractions, and observe details that are ordinarily invisible in the rush of daily life. It allows me to freeze fleeting moments of beauty in time."
+    ),
+    "p2-learned-from-mistake": (
+        "I would like to recount an experience where a significant oversight taught me an invaluable lesson in communication: failing to back up an important client presentation during an internship.\n\n"
+        "I was tasked with preparing the primary presentation slides for an upcoming prospective client pitch. Assuming that my local laptop hard drive was entirely reliable, I neglected to synchronize the final revision to the company's cloud repository or create an external backup.\n\n"
+        "On the morning of the high-stakes presentation, my laptop suffered a catastrophic operating system crash twenty minutes before the client arrived. Panic ensued, and our team had to scramble frantically to deliver the presentation using an outdated rough draft and impromptu whiteboard diagrams. While the client was gracious, our team looked disorganized and unprepared.\n\n"
+        "The fallout was embarrassing, but the experience proved transformative. It drilled into me the non-negotiable rule of redundancy in professional work. Since that day, I maintain a strict multi-tier backup protocol for all critical documents. More importantly, it taught me accountability—owning up to mistakes immediately rather than deflecting blame, which ultimately earned back my team's trust."
+    ),
+    "p2-useful-website-app": (
+        "I'd like to talk about a software tool that has completely revolutionized my personal workflow: Notion.\n\n"
+        "Notion is an all-in-one productivity application that integrates note-taking, project task management, database organization, and personal journaling into a unified, modular interface.\n\n"
+        "I rely on it on a daily basis across both my smartphone and laptop. Within the platform, I have constructed a personalized dashboard that tracks my weekly academic assignments, professional deliverables, reading lists, and fitness goals. For instance, when planning a complex work project, I can create Kanban boards, embed reference documents, and establish automated reminders that sync effortlessly across all my devices.\n\n"
+        "What makes this application so exceptionally useful is its unparalleled versatility. Unlike rigid, conventional software, it allows users to customize their digital workspace precisely to their cognitive style. It has eliminated mental clutter, ensured that I never drop the ball on critical deadlines, and substantially heightened my daily efficiency."
+    ),
+    "p2-time-you-waited": (
+        "I'd like to describe an agonizing yet ultimately rewarding time I had to wait: awaiting the admission decision for my dream university exchange program.\n\n"
+        "During my sophomore year, I applied for a highly competitive semester-abroad fellowship at a partner institution in Singapore. The selection process was arduous, involving rigorous portfolio reviews, recommendation letters, and multiple rounds of panel interviews.\n\n"
+        "Following the final interview in mid-November, candidates were informed that results would be released within four to six weeks. Those six weeks felt like an eternity. Every morning I obsessively refreshed my email inbox, battling bouts of anxiety and second-guessing every answer I had given during the interview. To keep my sanity intact, I threw myself into physical workouts and volunteered at a local youth shelter to keep my mind preoccupied.\n\n"
+        "Finally, on a rainy Tuesday morning, the acceptance letter arrived with a full tuition scholarship. The sheer relief and euphoria I felt made the prolonged wait entirely worthwhile. That experience tested my patience and taught me that cultivating emotional fortitude during periods of uncertainty is an essential life skill."
+    ),
+    "p2-person-to-meet": (
+        "A figure whom I would be profoundly honored to meet in person is Sir David Attenborough, the legendary British broadcaster, natural historian, and conservationist.\n\n"
+        "I have been an avid admirer of his work since childhood, having watched dozens of his groundbreaking natural history documentaries such as 'Planet Earth', 'Blue Planet', and 'Our Planet'.\n\n"
+        "If I were granted the rare privilege of having an hour-long conversation with him over afternoon tea, I would ask him about the dramatic ecological shifts he has witnessed firsthand over his seven-decade career documenting our living world. I would be eager to hear his philosophical insights on how humanity can bridge the gap between economic progress and environmental stewardship, and what keeps his hope alive for future generations in the face of biodiversity loss.\n\n"
+        "I admire him immensely because his distinctive, gentle voice has enlightened billions of people across the globe about the fragility of nature. Meeting someone whose passion, storytelling prowess, and moral clarity have ignited a worldwide conservation movement would be an unforgettable inspiration."
+    ),
+    "p2-dream-job": (
+        "My ideal professional aspiration would be to work as a Senior Sustainability Consultant for an international environmental organization or progressive multinational corporation.\n\n"
+        "In this role, the primary responsibility would involve assessing corporate environmental footprints and formulating evidence-based strategies to decarbonize supply chains, eliminate waste through circular economy models, and ensure ethical sourcing of materials.\n\n"
+        "To qualify for such a position, I need a robust blend of technical acumen and strategic communication. This includes acquiring certifications in carbon accounting and environmental auditing, staying abreast of evolving global climate regulations, and cultivating the persuasive ability to demonstrate to corporate boards that environmental sustainability enhances long-term profitability rather than detracting from it.\n\n"
+        "This is my dream career because it aligns my analytical capabilities with my core ethical values. Instead of merely generating commercial profits, I want my daily efforts to contribute directly to combating climate degradation and building a more resilient, sustainable planet for future generations."
+    ),
+    "p2-interesting-conversation": (
+        "I would like to recount an exceptionally engaging conversation I had with an eccentric, retired aerospace engineer on an overnight cross-country train journey last winter.\n\n"
+        "We happened to be seated opposite each other in a four-berth sleeper compartment. What began as polite, mundane small talk about the train schedule quickly evolved into a mesmerizing three-hour dialogue spanning astronomy, artificial intelligence, and the philosophical implications of deep space exploration.\n\n"
+        "He shared fascinating anecdotes from his forty-year tenure designing satellite propulsion systems, explaining complex astrophysical concepts like orbital mechanics with astonishing clarity and infectious enthusiasm. He challenged me to consider how viewing Earth from the vantage point of outer space dissolves petty geopolitical conflicts—a phenomenon known as the 'overview effect'. In turn, I shared perspectives on how younger generations navigate the digital era.\n\n"
+        "That conversation left a lasting impression on me because it was completely spontaneous and intellectually stimulating. It reminded me that serendipitous encounters with people from different walks of life often provide the most profound insights, breaking us out of our daily intellectual echo chambers."
+    ),
+    "p2-worked-with-others": (
+        "I'd like to describe a collaborative experience when I worked with a multidisciplinary team of five university peers to develop a mobile application prototype for a national innovation competition.\n\n"
+        "Our team comprised two software developers, a UI/UX designer, a finance specialist, and myself acting as the project manager and researcher. Our mission was to design an intuitive platform connecting surplus food from local bakeries and supermarkets with budget-conscious students, thereby curbing commercial food waste.\n\n"
+        "Working in a diverse group presented initial challenges, particularly regarding differing technical vocabularies and conflicting opinions on user interface design. To establish harmony, I instituted daily standup check-ins and created a shared decision log where every design choice had to be justified by user feedback rather than personal preference. We divided responsibilities clearly and supported one another during intense crunch periods.\n\n"
+        "The outcome was gratifying: our prototype clinched the second-place runner-up award and garnered interest from local social enterprises. More importantly, that experience proved that when mutual respect, open communication, and shared purpose are cultivated, collective synergy far outperforms individual brilliance."
+    ),
+    "p2-place-changed": (
+        "A place that has undergone a staggering metamorphosis over the past decade is my maternal ancestral village, located in the Red River Delta.\n\n"
+        "During my early childhood, the village was essentially an agrarian settlement dominated by dirt roads, brick-and-thatch cottages, and vast expanses of emerald paddy fields. Utilities were basic, and traveling to the nearest township required navigating bumpy, unpaved tracks on bicycles.\n\n"
+        "Fast-forward to today, and the transformation is almost unrecognizable. Thanks to rapid industrialization and government infrastructure initiatives, all major thoroughfares have been paved with smooth asphalt and lined with solar-powered streetlights. Modern multi-storey houses have replaced modest dwellings, and high-speed broadband connects every household. Several light industrial factories on the perimeter have provided well-paying employment for local residents, reducing the need for young people to migrate to distant cities.\n\n"
+        "While I occasionally feel nostalgic for the rustic simplicity and starry night skies of my childhood, I genuinely celebrate these changes. The economic prosperity has significantly elevated living standards, healthcare access, and educational opportunities for the villagers."
+    ),
+    "p2-worth-the-money": (
+        "An acquisition that I consider worth every single penny is an ergonomic office chair that I invested in when transitioning to extensive computer work two years ago.\n\n"
+        "Prior to purchasing it, I had been working on a cheap, standard dining chair. After several months of sitting for eight to ten hours a day, I began suffering from chronic lumbar pain and severe neck stiffness, which impaired my concentration and disrupted my sleep quality.\n\n"
+        "After researching ergonomic solutions, I decided to invest in a certified ergonomic mesh chair equipped with adjustable lumbar support, multi-directional armrests, and dynamic synchro-tilt mechanisms. While the price tag was initially daunting—costing roughly three times more than a standard office chair—the benefits became apparent within the first week of use.\n\n"
+        "It corrected my posture effortlessly and completely eradicated my backaches. In hindsight, I view it not as an extravagance, but as a crucial health investment. By safeguarding physical wellness and boosting daily productivity, it has returned its value many times over."
+    ),
+    "p2-made-someone-happy": (
+        "I'd like to share an occasion when I organized a 50th wedding anniversary celebration for my grandparents, which brought them immense happiness.\n\n"
+        "My grandparents have been married for five decades and have weathered tremendous hardships together. However, because of past economic struggles, they had never had a formal wedding ceremony or celebration in their youth.\n\n"
+        "Six months in advance, I coordinated secretly with my aunts, uncles, and cousins. We compiled an extensive photo album chronicling their half-century journey, collected video congratulatory messages from relatives living across five countries, and booked a private garden dining room. On the day, we surprised them by having a tailor present them with traditional silk garments before escorting them to the celebration.\n\n"
+        "Seeing the tears of joy and radiant smiles on their faces as they flipped through the memories and heard their grandchildren sing their favorite nostalgic songs was priceless. Making two people who have dedicated their lives to our family feel so profoundly honored and loved was one of the most rewarding moments of my life."
+    ),
+    "p2-environmental-problem": (
+        "A pressing environmental issue that causes me grave concern is the ubiquitous pollution caused by single-use plastics in urban waterways and oceans.\n\n"
+        "In many burgeoning cities, including my own, the rapid growth of e-commerce delivery and takeaway food culture has led to an exponential surge in non-biodegradable packaging, polythene bags, and plastic cutlery. Much of this waste fails to enter formal recycling streams, instead clogging city storm drains and flowing directly into major rivers and coastal habitats.\n\n"
+        "The ramifications are catastrophic. Not only does plastic debris visually despoil natural landscapes, but it degrades into toxic microplastics that enter marine food chains, poisoning marine organisms and eventually accumulating in human tissues with unknown health repercussions.\n\n"
+        "Addressing this crisis demands decisive systemic intervention. Governments must enforce strict bans or heavy taxation on non-essential single-use packaging while subsidizing biodegradable alternatives. Simultaneously, corporations must be held legally accountable for extended producer responsibility, and public awareness campaigns must urge consumers to embrace reusable containers."
+    ),
+    "p2-childhood-experience": (
+        "A cherished childhood experience that remains etched in my memory was spending summer vacations at my grandfather's countryside orchard.\n\n"
+        "Every summer when school adjourned, my parents would send my sister and me to stay with our grandparents for a month. The orchard was a sprawling wonderland filled with towering pomelo trees, jackfruit, and longan.\n\n"
+        "Our days were filled with simple, unadulterated adventures. We would wake up at the crack of dawn to help our grandfather harvest ripe fruit, construct makeshift bamboo fishing rods to catch fish in the irrigation canal, and spend warm afternoons climbing trees or chasing dragonflies across the paddies without a care in the world. There were no smartphones or digital games; our amusement was entirely rooted in the natural world.\n\n"
+        "That experience was foundational for me. It cultivated my enduring love for nature, taught me to appreciate the hard labor behind agricultural food production, and provided a reservoir of tranquil, joyful memories that continue to comfort me during stressful adult moments."
+    ),
+    "p2-goal-to-achieve": (
+        "A major personal aspiration that I am actively striving to achieve over the next eighteen months is completing a full 42-kilometer marathon.\n\n"
+        "Currently, I am a reasonably consistent recreational runner, capable of comfortably finishing 10-kilometer runs, but completing a marathon demands a vastly superior echelon of cardiovascular endurance, muscular stamina, and psychological discipline.\n\n"
+        "To achieve this objective, I have enrolled in a structured 24-week training regimen. This involves running four times a week, progressively extending the weekend long run up to thirty-two kilometers. In addition to accumulating mileage, I am paying meticulous attention to nutritional periodization, dynamic stretching, and weekly strength workouts to safeguard against joint injuries.\n\n"
+        "Conquering a marathon represents far more than an athletic milestone for me. It is a profound test of willpower and resilience. Pushing past the dreaded 'wall' at the thirty-kilometer mark requires mastering your internal self-talk, and cultivating that mental grit will undoubtedly benefit all other spheres of my professional and personal life."
+    ),
+    "p2-stay-healthy": (
+        "I would like to describe the balanced lifestyle regimen I maintain to sustain both my physical vitality and mental equilibrium.\n\n"
+        "My approach is built upon three foundational pillars: balanced nutrition, regular exercise, and non-negotiable sleep hygiene. In terms of diet, I avoid restrictive fad diets and instead adhere to a wholesome routine composed predominantly of colorful vegetables, lean proteins, nuts, and complex carbohydrates, while keeping ultra-processed sugars and alcohol to an absolute minimum.\n\n"
+        "Physically, I exercise five days a week, alternating between high-intensity interval training, functional calisthenics, and peaceful outdoor jogs. Furthermore, I prioritize getting a solid seven to eight hours of uninterrupted sleep every single night by enforcing a digital curfew an hour before bedtime, allowing my brain to produce melatonin naturally.\n\n"
+        "This holistic regimen has made a world of difference. It sustains my energy levels throughout demanding workdays, bolsters my immune system so that I rarely fall sick, and keeps mental stress at bay. In our demanding modern world, taking proactive ownership of one's health is the greatest foundation for long-term success."
+    )
+}
+
+P3_ANSWERS = {
+    "p3-education": [
+        "The primary divergence lies in pedagogical approach and access. Traditional education was predominantly teacher-centric and reliant on rote memorization, whereas modern pedagogy emphasizes critical inquiry, collaborative problem-solving, and digital research. Furthermore, contemporary learners have unprecedented access to open educational resources online, democratizing knowledge beyond the confines of physical lecture halls.",
+        "From an egalitarian perspective, higher education should ideally be tuition-free, as knowledge is a public good that accelerates socioeconomic mobility and reduces income disparity. However, in practical terms, fully subsidized university models place a substantial fiscal burden on taxpayers, which can sometimes lead to overcrowded faculties or underfunded research infrastructure unless managed with exceptional fiscal efficiency.",
+        "Practical competencies are arguably far more vital in today's dynamic labor market. While theoretical frameworks establish the conceptual baseline, theoretical knowledge alone quickly becomes obsolete without hands-on application. Employers increasingly value demonstrable skills such as data interpretation, critical coding, and interpersonal negotiation over abstract academic theory.",
+        "Technology is inherently a double-edged sword. On the positive side, interactive educational platforms and AI tutors offer personalized pacing and immersive simulations that enrich comprehension. Conversely, excessive reliance on digital tools can severely erode sustained attention spans, encourage superficial skimming, and diminish the depth of face-to-face academic debate.",
+        "Disparities in educational outcomes are largely attributable to systemic factors, including public investment per capita, teacher remuneration and training standards, and cultural attitudes toward learning. Nations like Finland and Singapore prioritize teacher prestige, rigorous curriculum design, and equitable resource allocation across all demographics, which yields consistently superior educational standards."
+    ],
+    "p3-technology-and-communication": [
+        "Technology has fundamentally compressed geographical distance and accelerated communicative velocity. Instant messaging and high-definition video conferencing allow real-time global collaboration at virtually zero cost. However, this has come at the expense of conversational depth, as succinct, text-based messages often lack the emotional nuance and body language inherent to physical interactions.",
+        "The obvious boon is unparalleled convenience and cross-border connectivity, enabling distributed global teams and effortless communication. On the flip side, heavy dependence on digital mediums breeds communicative superficiality, heightens the susceptibility to digital misunderstandings, and contributes to sensory burnout from perpetual notifications.",
+        "Face-to-face interaction will undoubtedly remain irreplaceable for establishing profound emotional intimacy, high-stakes negotiations, and complex conflict resolution. Having said that, routine administrative exchanges and transactional consultations will almost certainly migrate permanently to virtual realms, making in-person encounters rarer but more deliberately valued.",
+        "Older generations typically view communication as a deliberate, purposeful act, favoring voice calls or face-to-face dialogue where interpersonal context can be fully grasped. In stark contrast, younger digital natives lean heavily toward asynchronous, visual communication—such as memes, voice notes, and short-form video snippets—valuing speed and brevity over formal conversational etiquette.",
+        "Emerging innovations like brain-computer interfaces and hyper-realistic virtual reality might eventually blur the boundaries between physical proximity and virtual presence. While this could foster profound empathy by allowing individuals to literally share sensory experiences, it also poses grave risks of emotional detachment from physical reality and acute psychological alienation."
+    ],
+    "p3-social-media": [
+        "Social media platforms often exert a detrimental influence on adolescent self-perception. Algorithms routinely push curated, hyper-idealized portrayals of beauty, wealth, and success, which triggers harmful social comparison and elevates rates of anxiety, body dysmorphia, and feelings of inadequacy among impressionable youngsters.",
+        "While safeguarding freedom of expression is paramount, stricter oversight is urgently required to curb hate speech, algorithmic radicalization, and malicious disinformation. Regulatory frameworks should focus not on censoring individual dissenting opinions, but on enforcing algorithmic transparency, auditing recommender systems, and penalizing platforms that monetize sensationalist outrage.",
+        "It has completely revolutionized corporate marketing from top-down broadcasting into dynamic, community-driven dialogue. Brands no longer rely solely on billboard ads; instead, they cultivate influencer partnerships, harvest behavioral user data for micro-targeting, and leverage user-generated content to foster perceived authenticity and consumer loyalty.",
+        "Paradoxically, it does both simultaneously. It connects diaspora communities, enables niche subcultures to unite, and bridges vast physical distances. Concurrently, it creates ideological echo chambers, polarizes public discourse, and fosters a superficial substitute for genuine companionship that frequently leaves users feeling profoundly lonely in reality.",
+        "Tech conglomerates bear an inescapable ethical obligation to prioritize user welfare over raw engagement metrics. This entails engineering robust data privacy protections, curbing compulsive design patterns that hook adolescent brains, transparently moderating harmful content, and funding independent psychological research on social media impacts."
+    ],
+    "p3-work": [
+        "Beyond financial compensation, job satisfaction hinges primarily on autonomy, opportunities for mastery, and a sense of purposeful contribution. When professionals feel respected by leadership, enjoy psychological safety among colleagues, and witness the tangible positive impact of their labor, intrinsic satisfaction flourishes.",
+        "Decades ago, a career was envisioned as a linear, lifelong progression within a single monolithic corporation, offering stability and predictable pension benefits. Today, career trajectories have become fluid, modular, and dynamic, characterized by frequent job transitions, freelance gig work, and the continuous need to reskill throughout one's working life.",
+        "Remuneration is unquestionably a baseline prerequisite, especially amidst soaring costs of living. However, once compensation meets a comfortable threshold of financial security, factors such as company culture, professional autonomy, intellectual stimulation, and work-life balance rapidly supersede monetary gains in determining long-term fulfillment.",
+        "Large enterprises provide structured career ladders, comprehensive training budgets, and prestige on one's resume, though they can suffer from stifling bureaucracy and impersonal corporate politics. Conversely, small businesses and startups offer agile environments with broader responsibilities and direct impact, albeit with less job security and fewer perks.",
+        "Automation and generative AI will undeniably eradicate numerous repetitive, administrative roles across finance, legal analysis, and customer service. However, it will simultaneously catalyze the emergence of novel professions centered on AI oversight, creative strategy, and empathetic interpersonal care—demanding urgent workforce retraining initiatives."
+    ],
+    "p3-remote-work": [
+        "The undeniable upside of remote work is the elimination of grueling commutes, enhanced scheduling flexibility, and increased geographic freedom for employees. Conversely, the downsides include blurred boundaries between professional duties and private life, feelings of social isolation, and the diminution of spontaneous creative brainstorming that thrives in physical offices.",
+        "While routine operational tasks are easily managed through digital dashboards, collaborative synergy can suffer. Nuanced creative brainstorming and tacit mentorship of junior colleagues are notoriously difficult to replicate via video calls, often requiring deliberate, highly structured virtual communication protocols.",
+        "It is improbable that full remote work will become the universal standard. Instead, a hybrid equilibrium—where employees divide their time between home focus days and collaborative in-office sessions—is poised to become the dominant paradigm across knowledge-based sectors.",
+        "Occupations that necessitate hands-on manipulation, physical presence, or specialized machinery—such as surgery, construction engineering, culinary arts, and emergency rescue—are inherently incompatible with remote arrangements because their core value relies on physical interaction.",
+        "Widespread telecommuting has eased congestion in central business districts and allowed workers to relocate to suburban and rural enclaves in search of affordable housing and greater living space. This trend is compelling urban planners to decentralize transit and repurpose vacant commercial office towers into residential units."
+    ],
+    "p3-artificial-intelligence": [
+        "In healthcare, AI models can analyze radiological imagery with superhuman diagnostic precision, predict protein folding for revolutionary drug discovery, and personalize oncology treatments. In education, intelligent tutoring systems can dynamically tailor curricula to individual learning curves, democratizing elite personalized instruction at scale.",
+        "Critical ethical quandaries stem from algorithmic bias, opaque 'black-box' decision-making, and the erosion of human accountability. When AI systems are deployed in sentencing, loan underwriting, or military drones, embedded prejudices can perpetuate systemic injustice without clear avenues for human appeal.",
+        "While AI algorithms can synthesize impressive art, music, and prose by recognizing complex statistical patterns across vast datasets, true creativity stems from subjective consciousness, lived emotional experience, and existential vulnerability. AI can simulate creative output brilliantly, but the soul and intentionality remain uniquely human.",
+        "Regulatory bodies must formulate agile, risk-based frameworks that enforce stringent safety audits, algorithmic explainability, and watermarking of synthetic media, while vigorously safeguarding against monopolistic consolidation among a handful of tech titans without stifling grassroots technological innovation.",
+        "AI will likely exacerbate income inequality if productivity dividends accrue disproportionately to capital owners and tech conglomerates while displacing white-collar and blue-collar labor alike. To prevent severe socioeconomic stratification, governments may need to explore sovereign AI funds or universal basic income models."
+    ],
+    "p3-environment": [
+        "The most critical environmental threats encompass accelerating anthropogenic climate change, catastrophic biodiversity loss, freshwater scarcity, and pervasive chemical and plastic pollution across global ecosystems. These interrelated crises jeopardize food security and global ecological balance.",
+        "While individual lifestyle choices like reducing consumption and recycling are commendable, the primary onus must fall upon national governments and transnational corporations. Only legislative mandates, carbon pricing mechanisms, and corporate regulatory enforcement can generate the systemic shifts necessary to curtail ecological devastation at scale.",
+        "Current efforts have yielded measurable improvements in renewable energy adoption and reforestation, yet they remain insufficient relative to the speed of ecological degradation. Stringent enforcement of environmental penalties and sustained capital subsidies for green technologies are urgently needed to achieve meaningful emission cuts.",
+        "Education plays a transformative role by dismantling ecological apathy. By instilling environmental literacy and systems thinking in younger generations, schools nurture conscious consumers, responsible corporate leaders, and proactive civic advocates who demand sustainable policies from politicians.",
+        "They can coexist, but only if we radically redefine economic prosperity away from resource-intensive throughput toward a regenerative circular economy. Green growth models decouple GDP expansion from ecological depletion through renewable energy, modular product design, and clean technological innovation."
+    ],
+    "p3-climate-change": [
+        "The foundational cause is the excessive combustion of fossil fuels for energy, transportation, and industrial manufacturing since the Industrial Revolution, compounded by large-scale deforestation and unsustainable agricultural practices that release massive volumes of greenhouse gases into the atmosphere.",
+        "Climate destabilization is already intensifying droughts, sea-level rise, and catastrophic weather events, which will render vast equatorial and coastal regions uninhabitable. This will trigger unprecedented cross-border climate refugee migrations, placing immense geopolitical and infrastructural strain on host nations.",
+        "Undoubtedly. Historically, industrialized wealthy nations generated the lion's share of cumulative atmospheric carbon while reaping immense economic gains. Therefore, they bear an ethical obligation to lead emission reductions and provide robust climate finance and technological transfers to vulnerable developing nations.",
+        "The most promising avenues involve accelerating grid-scale solar and wind deployment, investing in green hydrogen for heavy transport, scaling advanced battery storage, and incentivizing nature-based carbon sequestration such as mangrove restoration and regenerative forestry.",
+        "Enhancing international cooperation demands moving beyond toothless voluntary pledges toward legally binding carbon border adjustments, global carbon trading registries, and transparent international oversight mechanisms that enforce accountability on major emitting powers."
+    ],
+    "p3-transportation": [
+        "Transportation has transformed modern civilization by linking distant markets, enabling global supply chains, and granting ordinary individuals unprecedented freedom to live, work, and recreate far beyond their immediate geographic birthplace.",
+        "Public transit boasts vastly superior energy efficiency per passenger-kilometer, drastically reduces urban carbon emissions, and alleviates highway gridlock. Moreover, it democratizes mobility, ensuring that non-driving demographics, including students and the elderly, enjoy equitable access to city opportunities.",
+        "While electric vehicles will certainly dominate passenger vehicle sales over the coming decades, they are unlikely to eradicate petrol cars completely in remote or developing regions with deficient electrical grid infrastructure. Furthermore, electric cars still generate traffic congestion and particulate tire pollution, making public transit the true long-term urban solution.",
+        "Cities can mitigate congestion through multi-pronged interventions: implementing dynamic congestion pricing for private vehicles entering city cores, expanding high-frequency grade-separated metro transit, and reallocating road lanes toward protected cycling corridors and pedestrian walkways.",
+        "Transportation infrastructure acts as the vital circulatory system of an economy. High-speed rail corridors, deepwater ports, and modern highway networks lower logistics overheads, attract foreign direct investment, and seamlessly integrate regional economies into national and global markets."
+    ],
+    "p3-cities": [
+        "Urban dwellers frequently contend with prohibitive housing costs, chronic traffic gridlock, air and noise pollution, and a pervasive sense of social alienation despite living in densely populated environments.",
+        "Progressive urban designers can improve livability by adopting the '15-minute city' concept—where essential amenities, green parks, schools, and workplaces are reachable within a short walk—alongside investing in biophilic architecture, car-free plazas, and affordable public housing.",
+        "Smaller towns frequently offer a far calmer pace of life, tighter community solidarity, cleaner air, and affordable property markets. However, they can fall short in terms of specialized healthcare, cultural institutions, and high-paying professional career avenues compared to metropolitan hubs.",
+        "Uncontrolled, sprawling urbanization exerts immense pressure on surrounding agricultural ecosystems, generates enormous municipal waste streams, and creates urban heat islands that exacerbate energy consumption and vulnerability to climate shocks.",
+        "Future metropolises will likely be far more vertically integrated, highly digitized 'smart cities' powered entirely by microgrid renewables. Autonomous electric public transit and AI-optimized resource distribution will hopefully reclaim road space for lush community gardens and human-centric living spaces."
+    ],
+    "p3-tourism": [
+        "Tourism functions as a powerful economic catalyst by generating foreign exchange reserves, stimulating capital investment in transport and hospitality infrastructure, and generating diverse employment opportunities across hospitality, culinary arts, and retail.",
+        "Unchecked mass tourism can lead to severe environmental degradation, excessive waste accumulation in fragile ecosystems, and skyrocketing local living costs that price out long-term residents. Culturally, it can degrade sacred local traditions into cheap, commodified spectacles for casual onlookers.",
+        "Travelers must embrace conscious ecotourism: choosing eco-certified accommodations, patronizing independent local businesses rather than multinational hotel chains, respecting cultural taboos, and actively minimizing their carbon and plastic footprints during travel.",
+        "Yes, profoundly. While tourism fosters cross-cultural empathy and breaks down xenophobic stereotypes, excessive tourist influx can spark local resentment when public spaces become overcrowded and historic downtowns transform into generic tourist theme parks.",
+        "Future travel will likely become more ecologically conscious, with a notable shift toward 'slow travel'—spending extended durations in a single locale rather than racing across multiple destinations. High-speed rail travel and virtual reality cultural tours may also emerge as sustainable alternatives."
+    ],
+    "p3-health": [
+        "Modern urban lifestyles are characterized by sedentary desk jobs, screen-mediated entertainment, and widespread consumption of ultra-processed, calorie-dense foods. This shift has precipitated an alarming rise in chronic lifestyle ailments, including obesity, type 2 diabetes, and cardiovascular diseases.",
+        "Preventive healthcare is vastly superior in both human and economic terms. Investing in preventive wellness—such as public health education, subsidized fitness facilities, and routine diagnostic screenings—averts immense suffering and shields public healthcare systems from crushing downstream curative costs.",
+        "Governments possess an ethical mandate to regulate the marketing of sugary beverages and ultra-processed junk food, especially campaigns targeted at vulnerable children, through mandatory nutritional labeling, sugar taxes, and strict advertising curbs.",
+        "The growing global awareness of mental health is one of the most positive societal advancements of recent years. De-stigmatizing psychological therapy, openly discussing burnout, and integrating counseling into primary healthcare have saved countless lives and enhanced workplace productivity.",
+        "Universal healthcare access should be treated as a fundamental human right. When healthcare is commodified, vulnerable demographics face bankruptcy or preventable mortality, which undermines social cohesion and economic stability across society."
+    ],
+    "p3-food": [
+        "Industrialized food production has generated abundant, inexpensive calories, but it relies heavily on chemical pesticides, monoculture farming, and cruel factory farming that depletes topsoils, pollutes waterways, and contributes substantially to global greenhouse emissions.",
+        "Traditional culinary heritage is increasingly besieged by homogenous global fast-food brands and ready-made microwave meals. Many young people lack basic culinary competence, which weakens their connection to authentic seasonal food traditions and ancestral foodways.",
+        "Globalized food distribution allows consumers in temperate zones to enjoy tropical fruits year-round, which enriches culinary diversity. However, it creates vast carbon footprints via 'food miles' and leaves nations dangerously vulnerable to geopolitical supply chain shocks.",
+        "Public education must integrate compulsory cooking and nutritional literacy into primary school curricula. Teaching children how whole foods grow, how to prepare balanced meals, and how to read nutritional labels fosters lifelong healthy dietary habits.",
+        "Given the catastrophic environmental footprint of livestock farming, shifting toward plant-based proteins, precision fermentation, and lab-cultivated meat is imperative for curbing emissions, conserving freshwater, and feeding a growing global population ethically."
+    ],
+    "p3-children": [
+        "Today's children navigate a digital ecosystem overflowing with interactive screens, algorithmic entertainment, and social platforms, which grants immense learning opportunities but heightens risks of sedentary habits, sleep deprivation, and reduced unstructured outdoor play compared to past eras.",
+        "Play is the fundamental vehicle through which children explore social dynamics, cultivate resilience, negotiate conflicts, and develop creative imagination. Depriving children of unstructured play severely impairs emotional regulation and motor skill development.",
+        "While modern academic pressures encourage early specialized instruction, an excessive focus on competitive testing at tender ages often induces chronic anxiety, extinguishes organic curiosity, and produces burnt-out adolescents who lack emotional maturity.",
+        "Parents and guardians bear the foundational responsibility for establishing healthy boundaries, modeling empathetic behavior, and providing emotional security, while schools must reinforce these foundations with structured social environments and critical thinking skills.",
+        "Children should be introduced to digital technology as a creative, collaborative instrument rather than a passive consumption pacifier. Strict screen curfews, parental oversight, and age-appropriate digital literacy training are crucial safeguards."
+    ],
+    "p3-parenting": [
+        "Modern parenting has evolved toward a more democratic, emotionally attuned partnership, where parents prioritize open dialogue, validation of feelings, and psychological boundaries over the authoritarian obedience and physical discipline common in past generations.",
+        "Hyper-parenting or 'helicopter parenting' can severely undermine an adolescent's self-efficacy. By preemptively solving every obstacle and insulating children from failure, parents inadvertently cultivate fragile individuals who struggle with independent decision-making and real-world resilience.",
+        "Society should provide comprehensive parental support systems, including subsidized, high-quality childcare, universal paid parental leave, and workplace flexibility, which alleviates the immense financial and emotional strain on working dual-income households.",
+        "Children absorb far more from behavioral modeling than from verbal lectures. If parents constantly glance at smartphones during dinner while demanding their child read books, the hypocrisy is immediately obvious. Authentic parental values must be lived visibly.",
+        "Balancing career ambitions with conscientious parenting is notoriously arduous in competitive economies. It requires corporate employers to dismantle toxic long-hours cultures, promote results-oriented flexibility, and actively support fathers taking equal parental leave."
+    ],
+    "p3-advertising": [
+        "Advertising employs sophisticated psychological triggers—such as scarcity heuristics, aspirational social status, and emotional fear of inadequacy—to manufacture artificial desires, subtly convincing consumers that purchasing a specific product will resolve existential anxieties or grant societal admiration.",
+        "Commercial advertising directed at young children warrants strict legal prohibition. Children under a certain age lack the cognitive maturity to distinguish between informational content and commercial persuasion, making predatory marketing for sugary cereals or plastic toys deeply unethical.",
+        "In our contemporary digital ecosystem, advertising has transitioned from mass broadcasting to hyper-targeted surveillance capitalism. Algorithms continuously analyze personal browsing histories, location data, and social interactions to deliver customized ads with unprecedented, invasive precision.",
+        "Advertising undoubtedly drives consumer demand, which stimulates industrial production, generates employment, and finances countless free digital platforms and media journalism. However, it simultaneously fuels hyper-consumerism, accelerated resource depletion, and unmanageable municipal waste streams.",
+        "Regulatory agencies must mandate explicit labeling of sponsored influencer endorsements, enforce robust data privacy regulations that restrict invasive behavioral tracking, and impose severe financial penalties on misleading health or environmental greenwashing claims."
+    ],
+    "p3-consumer-behaviour": [
+        "The seismic shift toward digital commerce and one-click purchasing has prioritized instantaneous convenience over thoughtful deliberation. Algorithms and flash sales trigger impulsive spending, while the seamless nature of cashless transactions divorces consumers from the tangible pain of parting with physical cash.",
+        "Consumers are increasingly scrutinizing supply chain ethics, carbon neutrality, and fair-trade labor practices before committing to a purchase. Brands that fail to demonstrate authentic social and environmental responsibility risk severe reputational damage and organized consumer boycotts.",
+        "Society heavily equates material possessions with personal worth and societal prestige. This consumerist ethos drives individuals onto a perpetual 'hedonic treadmill', where the temporary joy of acquiring new goods quickly dissipates, necessitating ever-higher consumption.",
+        "The widespread popularity of online reviews and influencer unboxing videos has democratized consumer awareness, empowering buyers to detect shoddy products. However, the prevalence of paid fake reviews and covert sponsorship campaigns can paradoxically mislead consumers just as easily.",
+        "A cultural renaissance centered on minimalism and the circular economy is gaining traction, particularly among younger generations who prioritize experiential memories over accumulating material clutter, increasingly embracing vintage clothing, tool libraries, and repairable electronics."
+    ],
+    "p3-social-relationships": [
+        "Digital hyper-connectivity has vastly expanded superficial social networks across borders, yet it has paradoxically eroded conversational depth. People often maintain hundreds of digital 'friends' while experiencing a painful deficit of genuine, vulnerable confidants who can be relied upon in times of crisis.",
+        "Sustaining enduring friendships amidst demanding careers demands deliberate, proactive effort: scheduling regular face-to-face meetups, engaging in shared hobbies, and practicing active, empathetic listening without digital distractions.",
+        "Traditional localized neighborhoods where residents knew every family on the street have largely eroded in modern apartment complexes. Nevertheless, online interest-based communities and civic volunteer groups are partially stepping into the breach to reconstruct social solidarity.",
+        "Solitude is a healthy, restorative state of peaceful self-reflection that fosters creativity and emotional recalibration. Conversely, loneliness is an agonizing, involuntary state of social isolation associated with severe psychological distress and elevated cardiovascular risks.",
+        "Societal atomization and the decline of physical community centers have left millions of individuals feeling profoundly disconnected. Cities must invest heavily in public libraries, civic sports grounds, and walkable public spaces to revitalize the civic fabric."
+    ],
+    "p3-communication": [
+        "Non-verbal cues—including facial micro-expressions, posture, eye contact, and vocal intonation—convey up to eighty percent of interpersonal emotional context. Stripping these away in digital text messages frequently leads to misunderstandings, unintended offense, and emotional misinterpretation.",
+        "Active listening is the cornerstone of effective communication, yet it is exceedingly rare. Rather than genuinely absorbing what the interlocutor is expressing, most people are simply formulating their own counterargument or eagerly awaiting their turn to speak, which stalls meaningful mutual understanding.",
+        "Misunderstandings often erupt from cultural divergences in communicative directness. While Western cultures frequently lean toward low-context, explicit directness, many Asian cultures rely on high-context, nuanced subtlety to preserve communal harmony. Cross-cultural emotional intelligence is essential to bridge these gaps.",
+        "Educational institutions must integrate formal training in public speaking, active listening, and conflict de-escalation into curricula. Empowering youth to articulate disagreements respectfully is the single best antidote to societal polarization.",
+        "As virtual reality and automated real-time translation earphones become ubiquitous, cross-lingual communication will become virtually seamless. However, human communicators must take care that technological mediators do not strip away the warmth, vulnerability, and spontaneous authenticity of raw human connection."
+    ],
+    "p3-culture": [
+        "Globalization and western media hegemony have undeniably homogenized consumer tastes, architectural styles, and urban clothing worldwide. However, this has simultaneously catalyzed a powerful counter-reaction, inspiring local communities to fiercely revive native folklore, culinary customs, and indigenous art forms.",
+        "Preserving traditional architecture, artisanal crafts, and oral history is crucial because cultural heritage provides an indispensable anchor of identity, continuity, and belonging in an era of disorienting, rapid modern change.",
+        "The younger generation is creatively reinterpreting ancestral traditions through a contemporary lens—such as infusing classical folk instruments into electronic music or adapting traditional ethnic dress into modern streetwear, keeping heritage vibrant rather than stagnant.",
+        "Cultures must avoid ossifying into rigid, xenophobic isolation. While protecting core historical values is essential, a healthy, confident culture remains open to assimilating enriching foreign influences, artistic techniques, and philosophical ideas.",
+        "Governments should establish dedicated heritage conservation trusts, provide generous grants to traditional master artisans, and integrate local cultural history into public education so that intangible heritage is passed down seamlessly across generations."
+    ],
+    "p3-traditions": [
+        "Traditions serve as vital social glue, connecting living generations with their ancestral roots while providing comforting rhythmic milestones throughout the year, reinforcing communal solidarity and shared cultural identity.",
+        "Inevitably, traditions that conflict with modern human rights, gender equality, or animal welfare—such as dowry systems or animal sacrifice—must be discarded. A tradition's antiquity does not grant it immunity from ethical evaluation.",
+        "Commercialization often trivializes profound traditional holidays into commercial shopping frenzies, eclipsing original spiritual or familial significance. However, commercial visibility can occasionally help sustain public enthusiasm for festivals that might otherwise be forgotten.",
+        "Preserving culinary rituals, traditional holiday banquets, and storytelling around the family hearth remains the most resilient way to pass ancestral customs down to grandchildren naturally.",
+        "Traditions must be dynamic rather than dogmatic. By adapting to contemporary realities—such as celebrating festivals using eco-friendly materials or accommodating busy modern schedules—traditions retain their vital emotional resonance for modern youth."
+    ],
+    "p3-books-and-reading": [
+        "Deep reading of long-form literature exercises cognitive empathy and sustained attention in ways that bite-sized digital media simply cannot. When reading a novel, the brain actively constructs internal worlds and inhabits foreign consciousnesses, expanding emotional intelligence.",
+        "While physical books provide unmatched tactile intimacy and freedom from digital notifications, digital formats like e-readers and audiobooks have democratized access to literature, allowing people to carry vast libraries in their pockets and listen during daily commutes.",
+        "Public libraries have evolved far beyond mere book depositories. Today, they serve as vital egalitarian community hubs, providing free digital internet access, quiet study sanctuaries, educational workshops, and civic meeting spaces for all social strata.",
+        "The ubiquitous proliferation of short-form algorithmic videos and endless social feeds has severely fractured people's capacity for deep, contemplative reading, habituating the human brain to instant gratification and superficial information skimming.",
+        "Schools must prioritize reading for sheer pleasure over rigid, evaluative reading comprehension tests. Allowing students to choose literature that genuinely resonates with their interests cultivates a lifelong passion for reading far more effectively than forcing dry classical anthologies."
+    ],
+    "p3-media-and-news": [
+        "Traditional journalism followed disciplined editorial standards and verification cycles before publication. Today's 24-hour digital news cycle prioritizes speed, sensationalism, and clickbait headlines to maximize advertising impressions, which routinely compromises investigative accuracy.",
+        "Citizen journalism and smartphone eyewitness footage have democratized news-gathering, exposing human rights abuses and breaking stories that state or corporate media might suppress. However, without professional editorial curation, it also proliferates unverified rumors and manipulated misinformation.",
+        "Disinformation campaigns weaponized by political operatives and sensationalist algorithmic engines exploit cognitive confirmation bias, fostering widespread distrust in public institutions, scientific consensus, and democratic election outcomes.",
+        "Digital literacy and critical thinking must become compulsory foundational subjects in modern schooling. Citizens must be taught how to evaluate source credibility, identify logical fallacies, cross-reference claims, and recognize algorithmic echo chambers.",
+        "Free, independent, and fearless investigative journalism is the bedrock of any functioning democracy. Without journalists holding corporate titans and government officials accountable to the public, corruption metastasizes in darkness."
+    ],
+    "p3-entertainment": [
+        "On-demand streaming giants have liberated consumers from rigid broadcast schedules, providing access to an astonishingly diverse global catalogue of international cinema and television. However, the sheer volume of content often induces choice paralysis and encourages unhealthy, passive binge-watching habits.",
+        "Massive globalized entertainment platforms tend to export Western, predominantly Hollywood, cultural norms across the world. Nevertheless, foreign-language triumphs like South Korea's 'Squid Game' demonstrate that authentic, localized storytelling can achieve unprecedented global resonance.",
+        "Live performing arts like theater, symphony orchestras, and ballet provide raw, unrepeatable shared human energy that two-dimensional digital screens can never duplicate. The collective emotional resonance between living performers and an audience is uniquely powerful.",
+        "Immersive virtual reality and AI-generated dynamic video games will likely blend cinematic narrative with player agency, placing users directly inside evolving story universes where narrative outcomes adapt continuously to their biometric and emotional responses.",
+        "Public funding for the arts is an indispensable investment in a society's soul. Subsidizing local theater, music academies, and independent film ensures that artistic expression remains adventurous and diverse rather than entirely hostage to commercial profit margins."
+    ],
+    "p3-sports": [
+        "Mass sports spectacles provide a powerful vehicle for communal unity and national pride, temporarily transcending political divides. However, they can occasionally descend into toxic jingoism and tribal rivalry when sporting rivalries are manipulated for nationalistic propaganda.",
+        "Hyper-commercialization and billion-dollar corporate sponsorships have transformed premier sports leagues into massive commercial industries. While this elevates competitive standards and sports medicine, it frequently prices out traditional working-class fans and incentivizes corruption.",
+        "Elite sports stars wield immense cultural influence over young people. Those who conduct themselves with sportsmanship, humility, and civic responsibility serve as inspiring role models, whereas misconduct and arrogance can normalize toxic behavior among impressionable fans.",
+        "Municipalities must prioritize constructing accessible, neighborhood public athletic facilities—such as free basketball courts, swimming pools, and running tracks—over pouring billions into vanity mega-stadiums that sit vacant after international tournaments.",
+        "Rigorous anti-doping programs and independent oversight tribunals are essential for safeguarding fair play and athlete safety. When systemic doping goes unchecked, it not only robs clean athletes of their rightful victories, but destroys public faith in the integrity of human athletic achievement."
+    ],
+    "p3-public-services": [
+        "A robust public healthcare infrastructure ensures that a nation's workforce remains healthy, productive, and resilient against pandemic threats. Furthermore, universal healthcare prevents families from falling into catastrophic medical bankruptcy, thereby sustaining social stability.",
+        "Reliable public transit directly unclogs urban congestion, curtails environmental emissions, and empowers low-income demographics by connecting them to employment hubs and higher education across the metropolitan area.",
+        "Privatizing essential public utilities like water, electricity, and transport often leads to higher user tariffs, deferred maintenance, and neglected service in rural or impoverished zones where operating costs outstrip immediate profit margins.",
+        "Digital government platforms have drastically streamlined administrative paperwork, curbed bureaucratic corruption, and enabled citizens to renew permits and access public benefits swiftly from the comfort of their homes.",
+        "Equitable allocation of municipal funding ensures that underprivileged neighborhoods receive world-class public schools, well-maintained parks, and clean water, thereby providing a level playing field for children regardless of postal code."
+    ],
+    "p3-housing": [
+        "Metropolitan regions worldwide are grappling with severe housing affordability crises, driven by rampant speculative property investment, slow municipal rezoning, and wage stagnation that significantly lags behind soaring real estate prices.",
+        "National and city governments must intervene decisively through aggressive social housing construction, taxing vacant speculative properties, and offering density bonuses to developers who dedicate substantial units to affordable rent.",
+        "High-density apartment complexes maximize land utility, minimize carbon emissions associated with sprawl, and make public transit economically viable. Conversely, suburban developments offer private yards and spacious tranquility, but exacerbate traffic gridlock and environmental fragmentation.",
+        "Rapid gentrification injects fresh capital and amenities into neglected neighborhoods, but it routinely drives up rents and living costs, forcing long-standing local residents and traditional businesses to relocate, which fractures the neighborhood's authentic community fabric.",
+        "Future residential architecture must embrace prefabricated modular construction, zero-emission green building materials, and biophilic designs that incorporate solar arrays, greywater recycling, and communal rooftop gardens to minimize ecological footprints."
+    ],
+    "p3-career-choices": [
+        "A few decades ago, parental approval and guaranteed lifetime stability were the overriding determinants of career trajectories. Today, young professionals prioritize personal fulfillment, intellectual growth, ethical company values, and remote work flexibility far above rigid tenure.",
+        "Educational institutions must forge tighter links with emerging industries, incorporating vocational internships, modern technological literacy, and dynamic entrepreneurship bootcamps into traditional curricula to prepare students for rapidly evolving job landscapes.",
+        "Career transitions in mid-adulthood have become remarkably commonplace and necessary. Rather than viewing career pivots as setbacks, modern economies must celebrate career mobility and provide affordable lifelong reskilling academies.",
+        "While following one's genuine passion is undeniably vital for long-term enthusiasm, it must be pragmatically balanced with real-world market demand. Coupling personal passion with viable commercial viability ensures that one's livelihood remains economically sustainable.",
+        "The pervasive rise of flexible remote arrangements and gig economies allows workers unprecedented autonomy over their schedules. However, it also introduces substantial income volatility and deprives workers of traditional corporate safety nets like health insurance and paid sick leave."
+    ],
+    "p3-money": [
+        "The accelerating transition toward a cashless society via mobile banking and contactless digital cards offers tremendous convenience, reduces transactional friction, and curbs physical theft. However, it raises serious privacy concerns regarding continuous financial surveillance and risks excluding elderly and unbanked populations.",
+        "Financial literacy—including understanding compound interest, debt management, budgeting, and ethical investing—is a vital life survival skill that must be formally integrated into secondary school curricula worldwide to prevent young adults from falling into predatory consumer debt.",
+        "Accumulating immense personal wealth does not guarantee emotional contentment. While sufficient money is indispensable for escaping poverty and securing healthcare and housing, once baseline financial security is attained, genuine happiness correlates far more strongly with meaningful relationships, physical health, and purpose.",
+        "Escalating wealth concentration among the top one percent threatens the very foundations of democratic stability and social cohesion. It requires progressive tax reforms, closing international corporate tax havens, and revitalizing public infrastructure to share economic prosperity equitably.",
+        "Conscientious consumers are increasingly deploying their purchasing and investing power as a moral vote, choosing to patronize ethical corporations that adhere to environmental, social, and governance (ESG) benchmarks while divesting from fossil fuels and exploitative supply chains."
+    ],
+    "p3-modern-society": [
+        "A monumental paradox of our era is that despite unprecedented technological hyper-connectivity and material wealth, societies report unprecedented rates of loneliness, clinical anxiety, and existential disillusionment due to fragmented communities and sensory overload.",
+        "Fast-paced urban living has severely eroded sustained patience and contemplation. Habitualized to instantaneous digital deliveries and instant messaging, modern individuals frequently struggle with delayed gratification and long-term endeavors that require slow, painstaking effort.",
+        "Societal progress should no longer be gauged exclusively by crude metrics like Gross Domestic Product. True civilization must be evaluated by the health and happiness of its citizens, the reduction of poverty, the vitality of the natural environment, and the protection of vulnerable demographics.",
+        "Preserving social cohesion demands actively defending universal public spaces—such as parks, community libraries, and civic festivals—where individuals from diverse socioeconomic, political, and generational backgrounds can interact naturally as equal citizens.",
+        "Cultivating emotional resilience in our hyper-accelerated world requires intentional daily digital hygiene, regular physical immersion in nature, nurturing deep face-to-face friendships, and grounding oneself in personal values that transcend fleeting online trends."
+    ]
+}
+
+def main():
+    with open('scripts/all_speaking_prompts.json', 'r', encoding='utf-8') as f:
+        tests = json.load(f)
+
+    print(f"Loaded {len(tests)} tests.")
+    
+    # Verify all slugs exist
+    all_answers = {}
+    missing_p1 = []
+    missing_p2 = []
+    missing_p3 = []
+
+    for t in tests:
+        slug = t['slug']
+        part = t['part']
+        prompts = t.get('prompts', [])
+        
+        if part == 1:
+            if slug in P1_ANSWERS:
+                answers = P1_ANSWERS[slug]
+                if len(answers) != len(prompts):
+                    print(f"Warning: {slug} has {len(prompts)} prompts but {len(answers)} answers!")
+                all_answers[slug] = answers
+            else:
+                missing_p1.append(slug)
+        elif part == 2:
+            if slug in P2_ANSWERS:
+                all_answers[slug] = [P2_ANSWERS[slug]]
+            else:
+                missing_p2.append(slug)
+        elif part == 3:
+            if slug in P3_ANSWERS:
+                answers = P3_ANSWERS[slug]
+                if len(answers) != len(prompts):
+                    print(f"Warning: {slug} has {len(prompts)} prompts but {len(answers)} answers!")
+                all_answers[slug] = answers
+            else:
+                missing_p3.append(slug)
+
+    print(f"Missing P1: {len(missing_p1)}, Missing P2: {len(missing_p2)}, Missing P3: {len(missing_p3)}")
+    assert not missing_p1, f"Missing P1: {missing_p1}"
+    assert not missing_p2, f"Missing P2: {missing_p2}"
+    assert not missing_p3, f"Missing P3: {missing_p3}"
+    print(f"Total matched slugs: {len(all_answers)} (out of {len(tests)})")
+
+    # Generate TypeScript file
+    ts_path = os.path.join("src", "lib", "speaking-sample-answers.ts")
+    with open(ts_path, "w", encoding="utf-8") as out:
+        out.write("/**\n")
+        out.write(" * Band 8.0 Model Answers for Speaking Tests (IELTS Parts 1, 2, and 3).\n")
+        out.write(" * Automatically generated and structured for instant offline loading (0ms latency).\n")
+        out.write(" */\n\n")
+        out.write("export const SPEAKING_SAMPLE_ANSWERS: Record<string, string[]> = {\n")
+        for slug, answers in all_answers.items():
+            out.write(f"  {json.dumps(slug)}: [\n")
+            for ans in answers:
+                out.write(f"    {json.dumps(ans)},\n")
+            out.write("  ],\n")
+        out.write("};\n\n")
+        out.write("/**\n")
+        out.write(" * Retrieve high-scoring model answer for a given test slug and question index.\n")
+        out.write(" */\n")
+        out.write("export function getSpeakingSampleAnswer(\n")
+        out.write("  testSlug: string,\n")
+        out.write("  promptIndex: number = 0,\n")
+        out.write("  _fallbackPrompt?: string\n")
+        out.write("): string | null {\n")
+        out.write("  const answers = SPEAKING_SAMPLE_ANSWERS[testSlug];\n")
+        out.write("  if (answers && answers.length > 0) {\n")
+        out.write("    const index = promptIndex % answers.length;\n")
+        out.write("    return answers[index] ?? null;\n")
+        out.write("  }\n")
+        out.write("  return null;\n")
+        out.write("}\n")
+
+    print(f"Successfully generated {ts_path} with all 90 tests / 330 model answers!")
+
+if __name__ == "__main__":
+    main()

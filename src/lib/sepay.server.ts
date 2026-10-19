@@ -230,6 +230,24 @@ export function verifySepaySignature(
 }
 
 /**
+ * The text the learner must put in the bank transfer note. For a personal VietinBank account SePay only
+ * hears about a transfer whose note contains "SEVQR" (VietinBank's balance notifications are filtered on
+ * it — https://docs.sepay.vn/ket-noi-vietinbank.html), so the note is "SEVQR <order code>". Without it the
+ * money lands in the bank but SePay never sees it and never calls our webhook (what happened 2026-10-05:
+ * real transfers carrying only "LGR..." never reached SePay). Other banks use the bare order code.
+ * Override with SEPAY_TRANSFER_PREFIX (set it empty to force no prefix).
+ */
+export function transferContentFor(referenceCode: string, bank: SepayBankAccount): string {
+  const override = process.env["SEPAY_TRANSFER_PREFIX"];
+  if (override !== undefined) {
+    const prefix = override.trim();
+    return prefix ? `${prefix} ${referenceCode}` : referenceCode;
+  }
+  const isVietinBank = /vietin|\bicb\b/i.test(`${bank.bankCode} ${bank.bankName}`);
+  return isVietinBank ? `SEVQR ${referenceCode}` : referenceCode;
+}
+
+/**
  * Official SePay dynamic QR image endpoint (https://qr.sepay.vn/img).
  * Seamlessly formats the amount, receiving bank, and order reference note.
  */
@@ -245,7 +263,7 @@ export function sepayQrImageUrl(
     acc: bank.accountNumber,
     bank: bank.bankCode,
     amount: String(amountVnd),
-    des: referenceCode,
+    des: transferContentFor(referenceCode, bank),
     template: "compact",
   });
   return `https://qr.sepay.vn/img?${params.toString()}`;
@@ -264,7 +282,7 @@ export function vietQrImageUrl(
   }
   const params = new URLSearchParams({
     amount: String(amountVnd),
-    addInfo: referenceCode,
+    addInfo: transferContentFor(referenceCode, bank),
     accountName: bank.accountName,
   });
   const code = bank.bankCode.toLowerCase();
@@ -286,9 +304,10 @@ export type SepayWebhookPayload = {
   referenceCode?: string | null;
 };
 
-export function extractReferenceCode(payload: SepayWebhookPayload): string | null {
+export function extractReferenceCode(payload: Pick<SepayWebhookPayload, "content" | "description" | "code">): string | null {
   const fromCode = payload.code?.trim();
   if (fromCode?.startsWith(REFERENCE_PREFIX)) return fromCode;
-  const match = `${payload.content} ${payload.description ?? ""}`.match(/LGR[23456789ABCDEFGHJKMNPQRSTUVWXYZ]{8}/);
-  return match?.[0] ?? null;
+  // Case-insensitive: some banks lower-case the note. The code alphabet is upper-case, so normalise the match.
+  const match = `${payload.content} ${payload.description ?? ""}`.match(/LGR[23456789ABCDEFGHJKMNPQRSTUVWXYZ]{8}/i);
+  return match?.[0]?.toUpperCase() ?? null;
 }

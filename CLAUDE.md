@@ -1672,3 +1672,148 @@ chữ/ngôn ngữ vì i18n tải cả bộ dòng của ngôn ngữ; đổi lại
   cố thật): `REVOKE ... FROM public` thu hồi khỏi **mọi role**, không riêng role "public". Mọi hàm mới viết
   sau này phải test bằng `set role service_role;` (hoặc đúng role production dùng) trước khi coi là xong —
   test bằng superuser sẽ không bao giờ lộ lỗi thiếu GRANT.
+
+## Xoay provider/model/key AI + Groq + nút "Tạo bản mới" cho admin (2026-10-02)
+
+**Nguyên nhân thật của "Lingora English is busy right now" (2026-10-02):** không phải rate limit mà là **hết tiền**.
+Gemini trả HTTP 402 `RESOURCE_EXHAUSTED` ("prepayment credits are depleted"), DeepSeek trả 402 "Insufficient
+Balance". `geminiFail` cũ gộp mọi `RESOURCE_EXHAUSTED` vào câu "busy" nên nhìn như bị limit. Giờ 402 được log rõ
+(`[ai] ... credits depleted`) — khi thấy lỗi lạ, xem `docker logs lingoraenglish-app` trước.
+
+**Lõi xoay (src/lib/ai-providers.server.ts):**
+- `keyPool("GEMINI"|"GROQ"|"DEEPSEEK")` đọc `<BASE>_API_KEYS` + `<BASE>_API_KEY`; key tách bằng dấu phẩy/chấm phẩy/dấu cách/xuống dòng (dán nhiều key cách nhau dấu cách vào `GEMINI_API_KEY` cũng chạy; 401 = key sai → nghỉ 10 phút). Hạn mức Gemini tính theo
+  **project**, không theo key — nhiều key cùng project dùng chung hạn mức.
+- Cầu dao in-memory (`pause/isPaused/classifyFailure`): 402 → tạm nghỉ key 2 phút; 403 → key 10 phút; 429 → model
+  60s (30 phút nếu thông báo "per day"); 404 → model 24h; 5xx → model 20s. Reset khi restart.
+- `geminiFetch` tự xoay key; TTS xoay model rẻ → đắt: gemini-2.5-flash-preview-tts → 3.1-flash-tts-preview (`GEMINI_TTS_MODELS` ghi đè;
+  `GEMINI_TTS_MODEL` cũ chỉ còn là phương án cuối). **KHÔNG đưa `gemini-3.8-flash-lite-tts`/`gemini-3.8-flash-tts` vào
+  mặc định**: rẻ hơn nhưng mọi clip kết thúc bằng ~140ms nhiễu to liên tục (75–100% đỉnh) — đó mới là tiếng "xẹt" sau
+  mỗi câu (đo 2026-10-02), không phải do Groq hay dấu `?`. Trước khi thêm lại phải đo lại đuôi clip.
+- Thứ tự provider: `AI_TTS_ORDER` (mặc định gemini,groq), `AI_STT_ORDER` (groq,gemini), `AI_TEXT_ORDER`
+  (AI_TEXT_PROVIDER trước rồi các bên còn lại; có thêm Groq `openai/gpt-oss-20b` làm phương án cuối).
+- STT: Groq Whisper `whisper-large-v3-turbo` → `whisper-large-v3` (mỗi model có hạn mức riêng) → Gemini.
+  Lọc "bịa" của Whisper: kết quả chỉ có dấu câu → rỗng; "Thank you."/"thanks"/"bye"/"okay" chỉ bị coi là bịa khi
+  clip ≥ 2.5s; cụm "thanks for watching"... luôn bị loại. Mặc định `language=en` (`GROQ_STT_LANGUAGE`).
+- TTS Groq (Orpheus): **tối đa 200 ký tự/request** (code cắt ở 190), giá $22/1 triệu ký tự; file WAV của Groq có
+  header kiểu streaming (size `ffffffff` + chunk LIST) → `normaliseGroqWav` bóc PCM và bọc lại 24kHz mono 16-bit
+  như Gemini. Orpheus **phải được org Groq chấp nhận điều khoản** (lỗi `model_terms_required` nếu chưa).
+- Gói Groq miễn phí rất thấp cho TTS (10 req/phút, 100 req/ngày, ~3.6K ký tự/ngày) — chỉ đủ làm dự phòng.
+- Chưa làm: log usage vẫn ghi `provider` theo `currentTextProvider()` kể cả khi đã rơi sang provider dự phòng.
+
+**Nút "Tạo bản mới" cho admin ở mọi chỗ nghe (trừ lời AI Coach):**
+- `src/lib/tts-admin.functions.ts` (requireAdmin): `adminTtsGetSaved` / `adminTtsGenerate` (không lưu) /
+  `adminTtsSave` (onConflictDoUpdate vào `tts_cache`, cùng công thức key với `speak()`).
+- `src/components/lily/admin-tts-bar.tsx` gắn ở `__root.tsx`: thanh nổi chỉ admin thấy, bám theo clip vừa phát
+  (`src/lib/tts-admin-store.ts`). Call site ghi clip: `use-speak.ts` (Vocabulary, Speaking Tests; AI Speaking cũng ghi — đã bật lại 2026-10-02 vì câu hỏi mở đầu của chủ đề được cache và dùng lại; `useSpeak(voice, { adminRegen: false })` vẫn có để tắt khi cần), shadow-practice, pron-practice (chỉ khi không phải Sounds — Sounds vẫn dùng nút riêng),
+  pronunciation.tsx, listening-player.
+- Cache luôn đi trước: câu đã có trong `tts_cache` thì không gọi AI. `MAX_CHUNK = 120` trong voice-player **không
+  được đổi** — đổi điểm cắt sẽ làm hỏng khớp cache của mọi câu đã lưu.
+- Việc cần người dùng làm ngoài code: nạp tiền Gemini + DeepSeek; deploy (`deploy.bat` copy luôn `.env.docker`
+  lên VPS, nên key Groq lên theo).
+- **Nhiễu "xẹt xẹt" của Groq Orpheus (2026-10-02):** model tự thêm một cụm nhiễu cao tần ~60ms, 80–160ms sau từ cuối
+  mỗi đoạn (không phải do `!`/`?`). `trimOrpheusTail` cắt phần sau tiếng nói (đoạn ≥30ms liên tục trên 10% đỉnh)
+  + 50ms, fade 30ms, thêm 200ms im lặng. Audio **đã cache trước khi deploy bản này vẫn còn nhiễu** — phải xoá các
+  dòng `tts_cache` do Groq tạo (không có cột provider; ngày 2026-10-02 là các dòng từ 08:33 UTC trở đi) hoặc dùng
+  nút "Tạo bản mới". Kiểm tra bản đang chạy đã có cắt nhiễu chưa: clip mới có ~0,2s mẫu bằng đúng 0 ở cuối file.
+- **Sự cố 2026-10-02 (lỗi của chính mình): `keyPool` cắt key tại chữ "s".** Khi vá `keyPool` bằng `node - <<'EOF'` với chuỗi
+  `'...split(/[\s,;]+/)...'`, dấu `\` bị mất ở tầng công cụ → code thành `split(/[s,;]+/)` → mọi key có chữ "s" (mọi
+  key Groq `gsk_...`, nhiều key Gemini) bị cắt thành mảnh vô nghĩa, Groq/Gemini báo 401 và TTS hỏng hoàn toàn trên
+  production (log: `groq#0`/`groq#1` cùng "invalid API key (401)" dù `.env.docker` chỉ có 1 key). **Mọi chỉnh sửa có
+  regex/`\` phải dùng công cụ Edit/Write, không dùng `node -e`/heredoc/`sed`.** Sau khi sửa, kiểm tra regex bằng
+  `grep -n 'raw.split' src/lib/ai-providers.server.ts` (phải thấy `[\s,;]`). Có test nhanh: nhét "key key" (hai key
+  cùng dòng) vào `GROQ_API_KEY` rồi gọi `transcribe` — phải chạy được.
+- `docker compose up -d` (bước 4 của deploy.bat) **không recreate container nếu image không đổi** — đổi riêng
+  `.env.docker` rồi chạy lại deploy.bat chưa chắc nạp biến mới. Muốn nạp ngay: `ssh ... "cd /root/lingoraenglish-app &&
+  docker compose up -d --force-recreate app"`.
+
+## SePay: webhook chưa bao giờ được gọi + lỗi hiển thị VND (2026-10-05)
+
+**Chẩn đoán "thanh toán xong mà không tự cấp Pro":**
+- Phía web ổn: SEPAY_WEBHOOK_SECRET có trên server; endpoint nhận cả `Authorization: Apikey|Bearer <secret>` lẫn HMAC
+  (`X-SePay-Signature: sha256=<hex>` + `X-SePay-Timestamp`, ký `{ts}.{raw body}`, lệch >5 phút bị từ chối) — đã thử đủ
+  4 trường hợp trên production bằng giao dịch loại "out" (không đụng đơn nào). Cách ký khớp tài liệu SePay.
+- Nhưng **log nginx không có request nào từ SePay tới `/api/public/payments/sepay-webhook`** (chỉ 1 lần curl thử 22/09),
+  và SePay (API v2 `GET https://userapi.sepay.vn/v2/transactions`, `.../v2/bank-accounts`, Bearer SEPAY_API_KEY) chỉ có
+  **1 giao dịch 10.000đ ngày 22/09 (giao dịch thử)** trên 1 tài khoản VietinBank. "Lịch sử gửi" webhook trong SePay = trống.
+  → SePay chưa nhận được tiền thật nào / chưa đọc được biến động số dư, nên chưa có gì để gọi webhook. Việc cần người
+  dùng làm: đối chiếu sao kê ngân hàng, kết nối lại ngân hàng ở SePay nếu tiền đã vào, so ký tự đầu/cuối Secret Key.
+- Cách xem nhanh lần sau: `GET /v2/transactions` của SePay (đọc), `grep sepay /var/log/nginx/access.log` trên VPS,
+  `select status,count(*) from bank_transfer_orders group by 1`. Đơn hết hạn 30 phút (`ORDER_LIFETIME_MINUTES`); webhook
+  bỏ qua đơn không còn `pending` mà **không log** (tiền vào sau khi đơn expired sẽ không được cấp gói — chưa sửa).
+
+**Sự cố: 16 đơn bị "Mark as paid" hàng loạt.** 10:03:36–10:04:01 (giờ VN) 05/10, cả 16 đơn pending bị xác nhận tay trong
+25 giây (sepay_transaction_id rỗng) từ một IP lạ 50.71.188.81 (Windows Chrome 154; cùng IP đó hoạt động 22/09 lúc cấu hình
+SePay), trong khi SePay không có tiền. Hậu quả: 5 tài khoản có gói trả phí không cần trả tiền. Nút xác nhận **không ghi
+`admin_audit_log`** và không hỏi lại. Chưa thu hồi (cần người dùng quyết định). Gợi ý: ghi audit khi xác nhận tay + hộp
+xác nhận; thu hồi đơn chưa đối chiếu sao kê (đặt đơn về cancelled, subscription `sepay_<order id>` về canceled/hết hạn).
+
+**Lỗi hiển thị đã sửa (chưa deploy lúc ghi):** số tiền VND (đơn vị không có phần lẻ) bị chia 100 → 255.000đ hiện "₫2,550" ở
+Admin → Subscriptions, danh sách thành viên, trang Billing và subscription-summary của học viên. Thêm `minorToMajor()` trong
+`billing-ui.tsx` (dùng cho mọi chỗ hiển thị `subscriptions.amount`). **MRR trong `adminBillingOverview` cũng bị phồng**
+(VND tính như cent USD: 16 gói VND → "$45,050", thực tế ≈ $177 với tỷ giá 25.500); giờ quy đổi VND→USD bằng
+`usdToVndRate()`. Bảng Subscriptions admin có thêm cột email, phân trang 20 dòng, tổng số thật (list vẫn cắt ở 200 mới nhất),
+và gói chuyển khoản hiển thị "bank transfer, no auto-renew" thay vì "cancelling" (activateBankTransferOrder đặt
+`cancel_at_period_end = true` có chủ đích vì chuyển khoản không tự gia hạn).
+
+**NGUYÊN NHÂN THẬT của "đã chuyển tiền mà web không cấp gói" (tìm ra 2026-10-05, thay cho phỏng đoán phía trên):**
+tài khoản nhận là **VietinBank cá nhân**; SePay chỉ nhận thông báo biến động số dư của VietinBank khi **nội dung chuyển
+khoản bắt đầu bằng `SEVQR`** (https://docs.sepay.vn/ket-noi-vietinbank.html, "bắt buộc"). QR cũ chỉ đặt nội dung
+`LGRxxxxxxxx` → tiền vào ngân hàng nhưng SePay không hề thấy (không có giao dịch, không gọi webhook). Giao dịch thử 22/09
+có "SEVQR" nên là giao dịch duy nhất SePay có. Đã sửa: `transferContentFor()` trong `sepay.server.ts` thêm `SEVQR ` trước
+mã đơn khi ngân hàng là VietinBank/ICB (ngân hàng khác giữ nguyên; `SEPAY_TRANSFER_PREFIX` ghi đè, để rỗng = không tiền tố);
+dùng cho `des` của QR, `addInfo` của VietQR dự phòng, và ô "Nội dung chuyển khoản" trên trang thanh toán
+(`order.transfer_content`). `extractReferenceCode` giờ không phân biệt hoa/thường (ngân hàng có thể viết thường) và vẫn
+tìm `LGR…` ở bất kỳ đâu trong nội dung nên "SEVQR LGR…" khớp. Đã kiểm tra QR mới render (200 image/png).
+- Hệ quả: mọi khoản học viên đã chuyển **trước** bản này mà không có SEVQR sẽ **không bao giờ** tự kích hoạt → phải đối chiếu
+  sao kê và xác nhận tay. Đơn tạo từ sau deploy bản này mới có SEVQR.
+- Cách kiểm tra sau deploy: tạo đơn thật, quét QR (nội dung phải hiện `SEVQR LGR…`), chuyển số nhỏ/đúng số tiền; rồi
+  `GET https://userapi.sepay.vn/v2/transactions` phải có giao dịch mới và `grep sepay-webhook /var/log/nginx/access.log`
+  phải có POST từ SePay (HTTP 200).
+
+**Nút thu hồi gói chuyển khoản (2026-10-05):** `adminRevokeBankTransferOrder` (requireAdmin) trong `bank-transfer.functions.ts` +
+nút "Revoke" ở bảng Subscriptions trong `admin-billing.tsx` (chỉ hiện cho gói `sepay_<order id>` còn hiệu lực; bấm 2 lần:
+"Revoke" rồi "Confirm revoke"). Cách làm: subscription → `status='canceled'`, `current_period_end=now()` (hàm
+`has_active_subscription` chỉ giữ gói canceled tới period_end nên mất quyền ngay, không có cache), đơn `paid` → `cancelled`,
+giữ nguyên dòng để có lịch sử, ghi `admin_audit_log` (`bank_transfer_revoked`). Đã thử trên DB thật bằng giao dịch rollback:
+premium → free ngay, rollback trả về premium. Muốn cấp lại sau khi thu hồi nhầm: "Grant" (complimentary) trong admin, hoặc
+đặt lại `status='paid'` cho đơn + gói. Nút "Mark as paid" vẫn chưa ghi audit và chưa có bước hỏi lại.
+
+## Thanh toán chuyển khoản SePay — luồng chuyên nghiệp (2026-10-05)
+
+- **Một chỗ khớp tiền duy nhất:** `src/lib/bank-transfer.server.ts` — `settleSepayTransfer()` (dùng chung cho webhook và đối soát),
+  `activateBankTransferOrder()` (đã chuyển từ bank-transfer.functions sang đây), `claimTransfer()` chống trùng qua
+  `processed_webhook_events` (`sepay_<id SePay>`, environment `sepay`; event_type `sepay.transfer.in` = webhook,
+  `sepay.reconciled` = đối soát, `sepay.admin_attached` = admin gán). Kết quả: activated / activated_late / duplicate / no_code /
+  no_order / already_paid / order_cancelled / amount_mismatch / too_late — mọi trường hợp không kích hoạt đều `console.warn [sepay]`.
+- **Trả muộn vẫn được:** đơn đã hết hạn 30 phút nhưng tiền đúng số và trong `LATE_PAYMENT_DAYS = 7` ngày kể từ lúc tạo → vẫn kích hoạt.
+  Đơn admin đã thu hồi (`cancelled`), sai số tiền, quá 7 ngày → không tự kích hoạt, hiện trong "Unmatched transfers".
+- **Đối soát tự động:** `reconcileSepay()` đọc `GET https://my.sepay.vn/userapi/transactions/list` (v1 — id là số nguyên giống
+  webhook; v2 dùng UUID nên KHÔNG dùng cho chống trùng). Chạy: mỗi 2 phút (`ensureSepayReconciler`, khởi động ở request đầu tiên
+  trong `src/server.ts`, chỉ gọi SePay khi còn đơn pending/expired ≤7 ngày), mỗi ~15s khi học viên đang mở trang chờ thanh toán
+  (gọi kiểu fire-and-forget trong `getBankTransferOrder`), và nút "Check SePay now" trong admin. Throttle chung 15s.
+- **Dùng lại đơn đang chờ:** bấm chuyển khoản lại cùng gói → trả về đơn pending còn ≥5 phút thay vì tạo mã mới.
+- **Admin → Billing → "Bank transfers (SePay)"** (`src/components/lily/admin-bank-transfers.tsx`, dữ liệu từ `adminSepayStatus`):
+  tài khoản ngân hàng + giao dịch cuối SePay thấy, webhook cuối nhận, lần đối soát cuối, cảnh báo (vd. đơn chờ ≥10 phút mà SePay
+  không có giao dịch nào sau đó → gợi ý SEVQR/kết nối ngân hàng); danh sách đơn đang mở; "Unmatched transfers" (tiền SePay ghi nhận
+  30 ngày gần nhất chưa gắn với đơn paid) với nút "Attach" (`adminAttachSepayTransaction`, ghi audit `bank_transfer_attached`).
+  "Confirm manually…" (`adminConfirmBankTransferOrder`) giờ **bắt buộc ghi lý do ≥8 ký tự** và ghi audit
+  `bank_transfer_confirmed_manually` — chỉ dùng cho tiền SePay không ghi nhận (vd. chuyển trước bản SEVQR).
+- Build Windows trực tiếp (`node vite build`) KHÔNG chạy được (rolldown/native deps cài cho Linux) — build/test trong Docker:
+  `MSYS_NO_PATHCONV=1 docker run --rm -v "$(pwd -W):/app" -w /app -e NITRO_PRESET=node-server oven/bun:1-alpine sh -c "bun run build"`.
+- Chưa làm: nhắc gia hạn trước khi hết hạn; nút "Tôi đã chuyển khoản" cho học viên; chặn phía server việc mua gói đang có.
+- **Gia hạn, nhắc gia hạn, "Tôi đã chuyển khoản", chặn mua trùng (2026-10-05, đã deploy):**
+  - `assertCanPurchase(userId, tier, "card"|"bank_transfer")` (bank-transfer.server.ts) chạy ở `createBankTransferOrder` và
+    `createCheckoutSession`: chặn mua gói cùng bậc hoặc thấp hơn khi đang có gói còn hiệu lực; cho nâng bậc; cho **gia hạn trong
+    7 ngày cuối** (`RENEWAL_WINDOW_DAYS`) với gói không tự gia hạn (chuyển khoản; gói thẻ đã tắt gia hạn thì phải bật lại ở Billing,
+    không mua Stripe sub thứ hai; gói thẻ tự gia hạn luôn bị chặn). `activePaidCoverage()` = danh sách gói còn hiệu lực + tier.
+  - `activateBankTransferOrder` giờ bắt đầu kỳ mới **từ ngày hết hạn của gói cùng bậc đang chạy** (gia hạn sớm không mất ngày).
+  - Pricing: gói hiện tại là chuyển khoản và còn ≤7 ngày → hiện nút "Gia hạn bằng chuyển khoản".
+  - Email nhắc gia hạn: `src/lib/renewal-reminders.server.ts`, chạy mỗi giờ (khởi động trong `src/server.ts`), chỉ gói `sepay_%`
+    status active, gửi 7/3/1 ngày trước hạn (chọn mốc nhỏ nhất ≥ thời gian còn lại, nên lỡ mốc 7 thì vẫn gửi mốc 3), chỉ 08:00–21:00
+    giờ VN, bỏ qua nếu đã gia hạn (có gói cùng/hơn bậc kéo dài hơn), chống gửi trùng bằng billing_events `renewal_reminder_sent`
+    (`metadata.key = <provider sub id>:<ngày hết hạn>:<n>d`). Ngôn ngữ theo `profiles.interface_language` (vi → tiếng Việt, còn lại
+    tiếng Anh). Link → `${APP_URL}/pricing?interval=month|year`. Gửi qua `sendEmail` (SMTP trong .env.docker).
+    Lưu ý: rollup chỉ export `ensureRenewalReminders` từ chunk này, nên muốn chạy thử thì xem bằng SQL (gói sepay active hết hạn ≤7 ngày).
+  - Nút "Tôi đã chuyển khoản" (`reportBankTransferSent`) trên trang chờ thanh toán, cả khi đơn đã hết hạn: kiểm tra SePay ngay; nếu
+    chưa khớp thì ghi billing_events `bank_transfer_reported` (tối đa 1 lần/10 phút/đơn), admin thấy "Learner says paid" + cảnh báo,
+    và email tới `ADMIN_NOTIFY_EMAIL` nếu có đặt (chưa đặt lúc ghi). Trang tiếp tục kiểm tra 30 phút sau khi bấm trên đơn hết hạn.
