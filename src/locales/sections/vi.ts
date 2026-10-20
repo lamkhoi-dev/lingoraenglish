@@ -875,6 +875,8 @@ export const sectionsVi: Dictionary = {
   "tests.sample.show": "💡 Gợi ý câu trả lời",
   "tests.sample.hide": "Ẩn gợi ý câu trả lời",
   "tests.sample.modelBand8": "Câu trả lời mẫu Band 8.0",
+  "tests.sample.modelToefl": "Câu trả lời mẫu TOEFL chuẩn",
+  "tests.sample.modelPte": "Câu trả lời mẫu PTE chuẩn",
   "tests.sample.listen": "Nghe bài mẫu",
   "tests.runner.busyMarking": "Đang chấm bài trả lời của bạn",
   "tests.runner.busyScoring": "Đang chấm điểm câu trả lời",

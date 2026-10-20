@@ -1005,8 +1005,7 @@ function TaskPractice({
     prompts: testPrompts(test),
   };
   const prompt = task.prompts[promptIndex % Math.max(1, task.prompts.length)] ?? "";
-  const isReadBack = READ_BACK_TASKS.has(task.id);
-  const sampleAnswer = !isReadBack ? getSpeakingSampleAnswer(test.slug, promptIndex, prompt) : null;
+  const sampleAnswer = getSpeakingSampleAnswer(test.slug, promptIndex, prompt);
 
   useEffect(() => {
     setPromptIndex(0);
@@ -1198,7 +1197,7 @@ function TaskPractice({
                   <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/60 pb-3">
                     <div className="flex items-center gap-2">
                       <span className="inline-flex items-center gap-1.5 rounded-full bg-brass/10 px-2.5 py-1 text-xs font-semibold text-brass">
-                        ✨ {t("tests.sample.modelBand8")}
+                        ✨ {exam === "toefl" ? t("tests.sample.modelToefl") : exam === "pte" ? t("tests.sample.modelPte") : t("tests.sample.modelBand8")}
                       </span>
                     </div>
                     <VoiceButton

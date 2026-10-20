@@ -87,6 +87,8 @@ export const enTests = {
   "tests.sample.show": "💡 Sample Answer",
   "tests.sample.hide": "Hide Sample Answer",
   "tests.sample.modelBand8": "Band 8.0 Model Answer",
+  "tests.sample.modelToefl": "TOEFL Model Response",
+  "tests.sample.modelPte": "PTE Model Response",
   "tests.sample.listen": "Listen to model",
 
   "tests.runner.busyMarking": "Marking your answer",
