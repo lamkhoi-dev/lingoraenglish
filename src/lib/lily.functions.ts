@@ -32,7 +32,8 @@ import {
   ttsCacheKey,
 } from "./ai-providers.server";
 import { assertWithinDailyBudget, priceCall } from "./ai-cost.server";
-import { assertUnlockedOrPremium, getLimits, reserveUsage, type Capability, type Tier } from "./entitlements.server";
+import { assertUnlockedOrPremium, getLimits, reserveUsage, resolveTier, type Capability, type Tier } from "./entitlements.server";
+import { startOfTodayVietnam } from "./time";
 import { explanationLanguageSchema, langNote } from "./explanation-language";
 import { findSoundIndex, isSoundIndexFree, soundPracticeTargets } from "./pronunciation-sounds.server";
 import { analyseSpeakingTranscript } from "./speaking-analysis.server";
@@ -81,7 +82,8 @@ async function assertSpeakingTestPrompt(userId: string, testId: string, prompt: 
 
 /* ----------------------------- cost control ----------------------------- */
 
-const DAILY_AI_LIMIT = 300;
+const DAILY_AI_LIMIT_FREE = 300;
+const DAILY_AI_LIMIT_PAID = 2000;
 
 /**
  * Which plan allowance each AI capability draws from. Deliberately does NOT
@@ -143,11 +145,15 @@ async function enforceLimit(userId: string, capability: string): Promise<() => P
   // before the per-learner call cap below. Inert until an admin sets a budget.
   await assertWithinDailyBudget();
 
-  const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+  // Reset lúc 00:00 (giờ Việt Nam, UTC+7) mỗi ngày thay vì cộng dồn 24h
+  const since = startOfTodayVietnam();
+  const tier = await resolveTier(userId);
+  const limit = tier === "free" ? DAILY_AI_LIMIT_FREE : DAILY_AI_LIMIT_PAID;
+
   const rows = await withAdmin((db) =>
-    db.select({ id: aiUsageLog.id }).from(aiUsageLog).where(and(eq(aiUsageLog.userId, userId), gte(aiUsageLog.createdAt, since))).limit(DAILY_AI_LIMIT),
+    db.select({ id: aiUsageLog.id }).from(aiUsageLog).where(and(eq(aiUsageLog.userId, userId), gte(aiUsageLog.createdAt, since))).limit(limit),
   );
-  if (rows.length >= DAILY_AI_LIMIT) {
+  if (rows.length >= limit) {
     throw new Error("You have reached today's practice limit. Come back tomorrow — Lingora English will be here!");
   }
 

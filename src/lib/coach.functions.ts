@@ -17,6 +17,7 @@ import { getLimits, resolveTier, UpgradeRequiredError, type Tier } from "./entit
 import { explanationLanguageSchema, langNote } from "./explanation-language";
 import { prewarmTts, type SpeakingAnalysis } from "./lily.functions";
 import { analyseSpeakingTranscript } from "./speaking-analysis.server";
+import { startOfTodayVietnam } from "./time";
 
 export const COACH_CATEGORIES = ["free", "daily", "roleplay", "interview", "challenge"] as const;
 export type CoachCategory = (typeof COACH_CATEGORIES)[number];
@@ -168,7 +169,8 @@ function assertTurnAvailable(usage: CoachUsage) {
 }
 
 async function assertDailyCap(userId: string) {
-  const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+  // Reset lúc 00:00 (giờ Việt Nam, UTC+7) mỗi ngày thay vì cộng dồn 24h
+  const since = startOfTodayVietnam();
   const count = await countTurns(userId, gte(coachTurns.createdAt, since));
   if (count >= DAILY_TURN_CAP) {
     throw new Error("You have reached today's practice limit. Come back tomorrow — Lingora English will be here!");
