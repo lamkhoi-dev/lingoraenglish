@@ -967,6 +967,9 @@ const base = {
   "adminLimits.saved": "Plan limits updated.",
   "adminLimits.users": "Learners by plan",
   "adminLimits.conversion": "Conversion rate",
+  "adminLimits.pricingSection": "Pricing (USD)",
+  "adminLimits.monthlyPrice": "Monthly price ($)",
+  "adminLimits.yearlyPrice": "Yearly price ($)",
 
   "legal.terms.title": "Terms of Service",
   "legal.privacy.title": "Privacy Policy",

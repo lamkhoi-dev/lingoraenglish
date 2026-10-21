@@ -146,6 +146,8 @@ export const adminUpdatePlan = createServerFn({ method: "POST" })
       trialEnabled: boolean;
       trialDays: number;
       isActive: boolean;
+      monthlyAmount?: number;
+      yearlyAmount?: number;
     }) =>
       z
         .object({
@@ -154,6 +156,8 @@ export const adminUpdatePlan = createServerFn({ method: "POST" })
           trialEnabled: z.boolean(),
           trialDays: z.number().int().min(0).max(90),
           isActive: z.boolean(),
+          monthlyAmount: z.number().int().min(0).max(10_000_000).optional(),
+          yearlyAmount: z.number().int().min(0).max(10_000_000).optional(),
         })
         .parse(data),
   )
@@ -166,6 +170,8 @@ export const adminUpdatePlan = createServerFn({ method: "POST" })
           trialEnabled: data.trialEnabled,
           trialDays: data.trialDays,
           isActive: data.isActive,
+          ...(data.monthlyAmount !== undefined ? { monthlyAmount: data.monthlyAmount } : {}),
+          ...(data.yearlyAmount !== undefined ? { yearlyAmount: data.yearlyAmount } : {}),
         })
         .where(eq(billingPlans.planKey, data.planKey)),
     );
@@ -173,6 +179,8 @@ export const adminUpdatePlan = createServerFn({ method: "POST" })
     await logAdminAction(context.userId, "plan_limits_updated", null, {
       planKey: data.planKey,
       limits: data.limits,
+      monthlyAmount: data.monthlyAmount,
+      yearlyAmount: data.yearlyAmount,
     });
 
     // Yêu cầu 9 acceptance criterion: a limit changed in one place takes

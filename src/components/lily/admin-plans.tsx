@@ -15,11 +15,21 @@ type PlanRow = {
   trial_enabled: boolean;
   trial_days: number;
   is_active: boolean;
+  monthly_amount: number;
+  yearly_amount: number;
+  currency: string;
 };
 
 type Draft = Record<
   string,
-  { limits: Record<string, number>; trialEnabled: boolean; trialDays: number; isActive: boolean }
+  {
+    limits: Record<string, number>;
+    trialEnabled: boolean;
+    trialDays: number;
+    isActive: boolean;
+    monthlyAmount: number;
+    yearlyAmount: number;
+  }
 >;
 
 /** Admin panel: configurable free / Premium / IELTS Pro allowances. */
@@ -44,6 +54,8 @@ export function AdminPlansPanel() {
         trialEnabled: plan.trial_enabled,
         trialDays: plan.trial_days,
         isActive: plan.is_active,
+        monthlyAmount: plan.monthly_amount ?? 0,
+        yearlyAmount: plan.yearly_amount ?? 0,
       };
     }
     setDraft(next);
@@ -64,6 +76,8 @@ export function AdminPlansPanel() {
           trialEnabled: entry.trialEnabled,
           trialDays: entry.trialDays,
           isActive: entry.isActive,
+          monthlyAmount: entry.monthlyAmount,
+          yearlyAmount: entry.yearlyAmount,
         },
       });
       toast.success(t("adminLimits.saved"));
@@ -103,7 +117,58 @@ export function AdminPlansPanel() {
             if (!entry) return null;
             return (
               <div key={plan.plan_key} className="rounded-2xl bg-surface-2/60 p-4 ring-1 ring-border">
-                <h3 className="font-display text-base text-foreground">{plan.name}</h3>
+                <div className="flex items-center justify-between">
+                  <h3 className="font-display text-base text-foreground">{plan.name}</h3>
+                  <span className="text-xs uppercase tracking-wider font-semibold text-brass">{plan.tier}</span>
+                </div>
+
+                {plan.tier !== "free" && (
+                  <div className="mt-3 rounded-xl bg-surface-3/50 p-3 ring-1 ring-border space-y-2">
+                    <div className="text-xs font-semibold text-brass">
+                      {t("adminLimits.pricingSection")}
+                    </div>
+                    <label className="flex items-center justify-between gap-2 text-xs">
+                      <span className="text-muted-foreground">{t("adminLimits.monthlyPrice")}</span>
+                      <div className="relative flex items-center">
+                        <span className="absolute left-2 text-xs text-muted-foreground">$</span>
+                        <input
+                          type="number"
+                          step="0.01"
+                          min={0}
+                          value={((entry.monthlyAmount ?? 0) / 100).toString()}
+                          onChange={(e) => {
+                            const val = Math.round((parseFloat(e.target.value) || 0) * 100);
+                            setDraft((prev) => ({
+                              ...prev,
+                              [plan.plan_key]: { ...entry, monthlyAmount: val },
+                            }));
+                          }}
+                          className="w-24 rounded-lg bg-surface-2 pl-5 pr-2 py-1 text-right text-foreground outline-none ring-1 ring-border focus:ring-brass"
+                        />
+                      </div>
+                    </label>
+                    <label className="flex items-center justify-between gap-2 text-xs">
+                      <span className="text-muted-foreground">{t("adminLimits.yearlyPrice")}</span>
+                      <div className="relative flex items-center">
+                        <span className="absolute left-2 text-xs text-muted-foreground">$</span>
+                        <input
+                          type="number"
+                          step="0.01"
+                          min={0}
+                          value={((entry.yearlyAmount ?? 0) / 100).toString()}
+                          onChange={(e) => {
+                            const val = Math.round((parseFloat(e.target.value) || 0) * 100);
+                            setDraft((prev) => ({
+                              ...prev,
+                              [plan.plan_key]: { ...entry, yearlyAmount: val },
+                            }));
+                          }}
+                          className="w-24 rounded-lg bg-surface-2 pl-5 pr-2 py-1 text-right text-foreground outline-none ring-1 ring-border focus:ring-brass"
+                        />
+                      </div>
+                    </label>
+                  </div>
+                )}
                 <div className="mt-3 space-y-2">
                   {limitKeys.map((key) => (
                     <label key={key} className="flex items-center justify-between gap-2 text-xs">
